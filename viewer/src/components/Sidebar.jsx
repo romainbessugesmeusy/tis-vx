@@ -71,10 +71,36 @@ const collectGroupLeaves = (groupNode, nodes) => {
   return { leaves, nestedGroups }
 }
 
+// localStorage keys
+const STORAGE_KEYS = {
+  COLUMN_PATH: 'tis-column-path',
+  EXPANDED_NODES: 'tis-expanded-nodes',
+  COLLAPSED_GROUPS: 'tis-collapsed-groups'
+}
+
 // Mixed column component - renders group folders as labels AND other folders as clickable items
 function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, activeDocId, searchQuery, onFolderClick, selectedId, onDocumentSelect }) {
-  // Track collapsed state for each group
-  const [collapsedGroups, setCollapsedGroups] = useState(new Set())
+  // Track collapsed state for each group - initialize from localStorage
+  const [collapsedGroups, setCollapsedGroups] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.COLLAPSED_GROUPS)
+      if (saved) {
+        return new Set(JSON.parse(saved))
+      }
+    } catch (e) {
+      console.warn('Failed to load collapsed groups from localStorage:', e)
+    }
+    return new Set()
+  })
+
+  // Persist collapsed groups to localStorage
+  useEffect(() => {
+    try {
+      localStorage.setItem(STORAGE_KEYS.COLLAPSED_GROUPS, JSON.stringify([...collapsedGroups]))
+    } catch (e) {
+      console.warn('Failed to save collapsed groups to localStorage:', e)
+    }
+  }, [collapsedGroups])
   
   const toggleGroupCollapse = (groupId) => {
     setCollapsedGroups(prev => {
@@ -295,11 +321,10 @@ function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, activeDoc
 
 // Column-based navigation component (macOS Finder style)
 function ColumnNav({ roots, nodes, tocIdToSlug, searchQuery, maxVisibleColumns = Infinity, onDocumentSelect }) {
-  const [selectedPath, setSelectedPath] = useState([]) // Array of selected node IDs at each level
-  const [visibleColumnStart, setVisibleColumnStart] = useState(0) // For mobile: which column to start showing
   const navigate = useNavigate()
   const { id: activeDocId } = useParams()
   const containerRef = useRef(null)
+  const initialLoadRef = useRef(true)
   
   const isMobileColumnMode = maxVisibleColumns < Infinity
 
@@ -313,13 +338,10 @@ function ColumnNav({ roots, nodes, tocIdToSlug, searchQuery, maxVisibleColumns =
     return reverse
   }, [tocIdToSlug])
 
-  // Auto-select path based on active document
-  useMemo(() => {
-    if (!activeDocId) return
-    const activeTocId = slugToTocId[activeDocId]
-    if (!activeTocId) return
-
-    // Build path from root to active node
+  // Helper function to build path from a node to root
+  const buildPathToNode = useCallback((tocId) => {
+    if (!tocId || !nodes[tocId]) return []
+    
     const path = []
     const findPath = (nodeId) => {
       const node = nodes[nodeId]
@@ -328,25 +350,89 @@ function ColumnNav({ roots, nodes, tocIdToSlug, searchQuery, maxVisibleColumns =
       }
       path.push(nodeId)
     }
-    findPath(activeTocId)
+    findPath(tocId)
     
     // Remove the leaf node from path (we only select folders)
-    const node = nodes[activeTocId]
+    const node = nodes[tocId]
     if (node && node.isLeaf && path.length > 0) {
       path.pop()
     }
     
     // Remove group folders from path - they're rendered as labels, not columns
-    // Also remove leaf nodes that are direct children of group folders
     const filteredPath = path.filter(nodeId => {
       const pathNode = nodes[nodeId]
       return pathNode && !isGroupFolder(pathNode)
     })
     
-    if (filteredPath.length > 0) {
-      setSelectedPath(filteredPath)
+    return filteredPath
+  }, [nodes])
+
+  // Initialize selectedPath - prioritize URL, then localStorage
+  const [selectedPath, setSelectedPath] = useState(() => {
+    // If there's an active document in URL, build path to it
+    if (activeDocId && slugToTocId[activeDocId]) {
+      const activeTocId = slugToTocId[activeDocId]
+      const path = buildPathToNode(activeTocId)
+      if (path.length > 0) {
+        return path
+      }
     }
-  }, [activeDocId, slugToTocId, nodes])
+    
+    // Otherwise, try to restore from localStorage
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.COLUMN_PATH)
+      if (saved) {
+        const parsed = JSON.parse(saved)
+        // Validate that the saved path still exists in the tree
+        if (Array.isArray(parsed) && parsed.every(id => nodes[id])) {
+          return parsed
+        }
+      }
+    } catch (e) {
+      console.warn('Failed to load column path from localStorage:', e)
+    }
+    
+    return []
+  })
+
+  const [visibleColumnStart, setVisibleColumnStart] = useState(0) // For mobile: which column to start showing
+
+  // Persist selectedPath to localStorage when it changes (but not on initial load from URL)
+  useEffect(() => {
+    if (initialLoadRef.current) {
+      initialLoadRef.current = false
+      return
+    }
+    try {
+      localStorage.setItem(STORAGE_KEYS.COLUMN_PATH, JSON.stringify(selectedPath))
+    } catch (e) {
+      console.warn('Failed to save column path to localStorage:', e)
+    }
+  }, [selectedPath])
+
+  // Update path when URL changes (navigation to a different document)
+  useEffect(() => {
+    if (!activeDocId) return
+    const activeTocId = slugToTocId[activeDocId]
+    if (!activeTocId) return
+
+    const newPath = buildPathToNode(activeTocId)
+    
+    if (newPath.length > 0) {
+      // Only update if the path is different
+      const pathChanged = newPath.length !== selectedPath.length || 
+        newPath.some((id, i) => selectedPath[i] !== id)
+      
+      if (pathChanged) {
+        setSelectedPath(newPath)
+        
+        // In mobile mode, adjust visible column start to show the last columns
+        if (isMobileColumnMode && newPath.length >= maxVisibleColumns) {
+          setVisibleColumnStart(Math.max(0, newPath.length - maxVisibleColumns + 1))
+        }
+      }
+    }
+  }, [activeDocId, slugToTocId, buildPathToNode, selectedPath, isMobileColumnMode, maxVisibleColumns])
 
   // Handle clicking on an item
   const handleItemClick = (nodeId, columnIndex) => {
@@ -980,9 +1066,74 @@ const isValidRootFolder = (node) => {
 
 function Sidebar({ sections, tree, tocIdToSlug, isColumnLayout, isMobile, isTablet, isOpen, onClose }) {
   const [searchQuery, setSearchQuery] = useState('')
-  const [expandedNodes, setExpandedNodes] = useState(new Set())
   const { id: activeDocId } = useParams()
   const navigate = useNavigate()
+  const initialExpandRef = useRef(true)
+
+  // Build reverse mapping: slug -> tocId for finding active document in tree
+  const slugToTocId = useMemo(() => {
+    if (!tocIdToSlug) return {}
+    const reverse = {}
+    for (const [tocId, slug] of Object.entries(tocIdToSlug)) {
+      reverse[slug] = tocId
+    }
+    return reverse
+  }, [tocIdToSlug])
+
+  // Initialize expandedNodes - prioritize URL-based expansion, then localStorage
+  const [expandedNodes, setExpandedNodes] = useState(() => {
+    // If there's an active document in URL, expand its ancestors
+    if (activeDocId && tree?.nodes && slugToTocId[activeDocId]) {
+      const activeTocId = slugToTocId[activeDocId]
+      const nodesToExpand = new Set()
+      
+      const findAncestors = (nodeId) => {
+        const node = tree.nodes[nodeId]
+        if (node && node.parentId) {
+          nodesToExpand.add(node.parentId)
+          findAncestors(node.parentId)
+        }
+      }
+      
+      findAncestors(activeTocId)
+      if (nodesToExpand.size > 0) {
+        return nodesToExpand
+      }
+    }
+    
+    // Otherwise, try to restore from localStorage
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.EXPANDED_NODES)
+      if (saved) {
+        const parsed = JSON.parse(saved)
+        if (Array.isArray(parsed)) {
+          // Validate that saved nodes still exist in tree
+          if (tree?.nodes) {
+            const validNodes = parsed.filter(id => tree.nodes[id])
+            return new Set(validNodes)
+          }
+          return new Set(parsed)
+        }
+      }
+    } catch (e) {
+      console.warn('Failed to load expanded nodes from localStorage:', e)
+    }
+    
+    return new Set()
+  })
+
+  // Persist expandedNodes to localStorage when they change (but not on initial URL-based expansion)
+  useEffect(() => {
+    if (initialExpandRef.current) {
+      initialExpandRef.current = false
+      return
+    }
+    try {
+      localStorage.setItem(STORAGE_KEYS.EXPANDED_NODES, JSON.stringify([...expandedNodes]))
+    } catch (e) {
+      console.warn('Failed to save expanded nodes to localStorage:', e)
+    }
+  }, [expandedNodes])
   
   // Determine max visible columns for mobile/tablet
   const maxVisibleColumns = isMobile ? 1 : isTablet ? 2 : Infinity
@@ -1022,18 +1173,8 @@ function Sidebar({ sections, tree, tocIdToSlug, isColumnLayout, isMobile, isTabl
     })
   }, [])
 
-  // Build reverse mapping: slug -> tocId for finding active document in tree
-  const slugToTocId = useMemo(() => {
-    if (!tocIdToSlug) return {}
-    const reverse = {}
-    for (const [tocId, slug] of Object.entries(tocIdToSlug)) {
-      reverse[slug] = tocId
-    }
-    return reverse
-  }, [tocIdToSlug])
-
-  // Expand ancestors of active document (only for tree view, not column view)
-  useMemo(() => {
+  // Expand ancestors of active document when URL changes (only for tree view, not column view)
+  useEffect(() => {
     if (!activeDocId || !hasTree || isColumnLayout) return
 
     const activeTocId = slugToTocId[activeDocId]
@@ -1062,7 +1203,7 @@ function Sidebar({ sections, tree, tocIdToSlug, isColumnLayout, isMobile, isTabl
   }, [activeDocId, hasTree, tree, slugToTocId, isColumnLayout])
 
   // When searching, auto-expand folders with matches (only for tree view)
-  useMemo(() => {
+  useEffect(() => {
     if (!searchQuery || !hasTree || isColumnLayout) return
 
     const query = searchQuery.toLowerCase()
