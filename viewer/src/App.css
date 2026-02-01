@@ -345,6 +345,46 @@ body {
   text-align: center;
 }
 
+/* Single-item tree group: direct link with group icon/color */
+.tree-group-single {
+  list-style: none;
+}
+
+.tree-group-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  color: var(--text-light);
+  text-decoration: none;
+  font-size: 0.85rem;
+  border-left: 2px solid var(--group-color, var(--text-muted));
+  border-radius: 4px;
+  transition: background 0.15s ease;
+}
+
+.tree-group-link:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.tree-group-link.active {
+  background: rgba(59, 130, 246, 0.15);
+  color: var(--accent);
+  border-left-color: var(--accent);
+}
+
+.tree-group-link .tree-group-emoji {
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+
+.tree-group-link-title {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .tree-group-items {
   list-style: none;
   margin: 0;
@@ -449,6 +489,21 @@ body {
   white-space: nowrap;
 }
 
+/* Document leaf indicator - page emoji via ::before */
+.document-leaf::before {
+  content: "📄";
+  margin-right: 6px;
+  opacity: 0.6;
+  flex-shrink: 0;
+}
+
+/* Tree view document leaf */
+.nav-link.document-leaf::before {
+  content: "📄";
+  margin-right: 8px;
+  opacity: 0.6;
+}
+
 .column-nav-arrow {
   color: var(--text-muted);
   font-size: 1.1rem;
@@ -472,6 +527,55 @@ main.content {
   margin-left: var(--sidebar-width);
   padding: 32px 40px;
   max-width: calc(100vw - var(--sidebar-width));
+}
+
+/* Donation Callout */
+.donation-callout {
+  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  border: 1px solid #f59e0b;
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.donation-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.donation-callout p {
+  color: #92400e;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 500px;
+}
+
+.donation-button {
+  min-height: 30px;
+}
+
+.donation-button img {
+  cursor: pointer;
+  transition: transform 0.15s;
+}
+
+.donation-button img:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .donation-callout {
+    padding: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .donation-callout p {
+    font-size: 0.875rem;
+  }
 }
 
 .content-welcome {
@@ -707,6 +811,140 @@ main.content {
 
 .quick-icon {
   font-size: 1.5rem;
+}
+
+/* Component Grid Styles */
+.component-grid {
+  margin: 40px 0;
+  text-align: left;
+}
+
+.component-grid h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.component-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.component-card {
+  background: var(--bg-card);
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.15s, transform 0.15s;
+}
+
+.component-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+.component-card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+
+.component-card-header:hover .component-name {
+  color: var(--accent);
+}
+
+.component-icon {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.component-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+
+.component-sublist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+}
+
+.component-sublist li {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  padding: 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.component-sublist li:last-child {
+  border-bottom: none;
+}
+
+.component-sublist li.more-items {
+  color: var(--text-muted);
+  font-style: italic;
+  border-bottom: none;
+  padding: 3px 0;
+}
+
+.component-subitem {
+  display: block;
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 4px 0;
+  text-align: left;
+  font-size: inherit;
+  color: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.component-subitem:hover {
+  color: var(--accent);
+}
+
+/* Responsive component grid */
+@media (max-width: 600px) {
+  .component-cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  
+  .component-card {
+    padding: 12px;
+  }
+  
+  .component-name {
+    font-size: 0.85rem;
+  }
+  
+  .component-sublist li {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .component-cards {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Procedure Viewer Styles */
@@ -2377,16 +2615,16 @@ main.content {
   border-top: 1px solid var(--border-dark);
 }
 
-/* Group container with card-like appearance */
+/* Group container - flat style */
 .column-group {
-  margin: 0 8px 12px 8px;
-  background: rgba(255, 255, 255, 0.02);
-  border-radius: 8px;
+  margin: 0;
+  background: transparent;
+  border-radius: 0;
   overflow: hidden;
 }
 
 .column-group:last-child {
-  margin-bottom: 8px;
+  margin-bottom: 0;
 }
 
 /* Group label - the clickable header */
@@ -2411,7 +2649,7 @@ main.content {
 }
 
 .column-group.collapsed .column-group-label {
-  border-radius: 8px;
+  border-radius: 0;
 }
 
 .column-group-chevron {
@@ -2453,53 +2691,86 @@ main.content {
 .column-group-items {
   list-style: none;
   margin: 0;
-  padding: 0 0 8px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 0;
+  border-top: none;
 }
 
 .column-group-items .column-nav-item {
   margin: 0;
 }
 
-/* Items within groups - indented with subtle styling */
+/* Items within groups - indented past parent icon */
 .column-group-items .column-nav-link {
-  padding: 10px 14px 10px 42px;
+  padding: 10px 14px 10px 46px;
   font-size: 0.85rem;
   border-left: none;
   color: var(--text-light);
   position: relative;
 }
 
-/* Subtle dot indicator for group items */
+/* Remove dot indicator - using page emoji instead */
 .column-group-items .column-nav-link::before {
-  content: '';
-  position: absolute;
-  left: 24px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  background: var(--text-muted);
-  opacity: 0.5;
+  display: none;
 }
 
 .column-group-items .column-nav-link:hover {
   background: rgba(255, 255, 255, 0.04);
 }
 
-.column-group-items .column-nav-link:hover::before {
-  opacity: 0.8;
-}
 
 .column-group-items .column-nav-link.active {
   background: rgba(59, 130, 246, 0.12);
   color: var(--accent);
 }
 
-.column-group-items .column-nav-link.active::before {
-  background: var(--accent);
-  opacity: 1;
+/* Single-item group: direct link with group icon/color */
+.column-group-single {
+  margin: 0;
+}
+
+.column-group-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 14px 10px 24px;
+  background: transparent;
+  border: none;
+  border-left: 3px solid var(--group-color, var(--accent));
+  color: var(--text-light) !important;
+  cursor: pointer;
+  text-align: left;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 0.85rem;
+  transition: background 0.15s ease;
+}
+
+.column-group-link:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.column-group-link.active {
+  background: rgba(59, 130, 246, 0.12);
+  color: var(--accent) !important;
+}
+
+.column-group-link .column-nav-title {
+  color: inherit;
+}
+
+.column-group-link .column-group-emoji {
+  font-size: 1rem;
+  flex-shrink: 0;
+  opacity: 0.9;
+}
+
+.column-group-link .column-nav-title {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 /* Scrollbar Styling */
@@ -2549,10 +2820,6 @@ main.content {
   .column-group-items .column-nav-link {
     min-height: 48px;
     padding: 12px 16px 12px 46px;
-  }
-  
-  .column-group-items .column-nav-link::before {
-    left: 28px;
   }
   
   /* Search input */

@@ -23,6 +23,9 @@ function App() {
     window.innerWidth >= MOBILE_BREAKPOINT && window.innerWidth < TABLET_BREAKPOINT
   )
   
+  // External navigation path for sidebar
+  const [externalNavPath, setExternalNavPath] = useState(null)
+  
   const isResizing = useRef(false)
   const minWidth = 240
   const minContentWidth = 100 // Always keep at least 100px for content
@@ -109,6 +112,16 @@ function App() {
     setIsMobileMenuOpen(false)
   }, [])
 
+  // Handle navigation to a component from the homepage grid
+  const handleNavigateToComponent = useCallback((path) => {
+    // Set the external navigation path for the sidebar
+    setExternalNavPath(path)
+    // Open mobile menu if on mobile/tablet
+    if (window.innerWidth < TABLET_BREAKPOINT) {
+      setIsMobileMenuOpen(true)
+    }
+  }, [])
+
   useEffect(() => {
     fetch('/data/manifest.json')
       .then(res => res.json())
@@ -175,6 +188,8 @@ function App() {
           isTablet={isTablet}
           isOpen={showMobileMenu ? isMobileMenuOpen : true}
           onClose={handleMenuClose}
+          externalNavPath={externalNavPath}
+          onExternalNavComplete={() => setExternalNavPath(null)}
         />
         {!showMobileMenu && (
           <div 
@@ -185,8 +200,8 @@ function App() {
         )}
         <main className="content">
           <Routes>
-            <Route path="/" element={<ContentViewer />} />
-            <Route path="/doc/:id" element={<ContentViewer />} />
+            <Route path="/" element={<ContentViewer manifest={manifest} onNavigateToComponent={handleNavigateToComponent} />} />
+            <Route path="/doc/:id" element={<ContentViewer manifest={manifest} onNavigateToComponent={handleNavigateToComponent} />} />
             <Route path="/ref/:type" element={<ReferenceIndex />} />
           </Routes>
         </main>

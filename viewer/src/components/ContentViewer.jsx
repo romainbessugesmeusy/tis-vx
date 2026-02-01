@@ -1,13 +1,235 @@
 import { useState, useEffect } from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams, useNavigate } from 'react-router-dom'
 import ProcedureViewer from './ProcedureViewer'
 import MapViewer from './MapViewer'
+
+/**
+ * Donation callout with PayPal button
+ */
+function DonationCallout() {
+  const buttonId = 'paypal-donate-button'
+  const [scriptLoaded, setScriptLoaded] = useState(false)
+  const [buttonRendered, setButtonRendered] = useState(false)
+
+  useEffect(() => {
+    // Check if script is already loaded
+    if (window.PayPal?.Donation?.Button) {
+      setScriptLoaded(true)
+      return
+    }
+
+    // Load PayPal donate SDK
+    const script = document.createElement('script')
+    script.src = 'https://www.paypalobjects.com/donate/sdk/donate-sdk.js'
+    script.charset = 'UTF-8'
+    script.async = true
+    script.onload = () => setScriptLoaded(true)
+    document.body.appendChild(script)
+  }, [])
+
+  useEffect(() => {
+    if (scriptLoaded && !buttonRendered && window.PayPal?.Donation?.Button) {
+      const container = document.getElementById(buttonId)
+      if (container && container.childNodes.length === 0) {
+        try {
+          // Render PayPal donation button using CSS selector
+          window.PayPal.Donation.Button({
+            env: 'production',
+            hosted_button_id: 'T6VVWUV2NPHAQ',
+            image: {
+              src: 'https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif',
+              alt: 'Donate with PayPal button',
+              title: 'PayPal - The safer, easier way to pay online!',
+            }
+          }).render(`#${buttonId}`)
+          setButtonRendered(true)
+        } catch (e) {
+          console.warn('PayPal button render error:', e)
+        }
+      }
+    }
+  }, [scriptLoaded, buttonRendered])
+
+  return (
+    <div className="donation-callout">
+      <div className="donation-content">
+        <p>
+          This app is for my personal use, but if you find it useful and would like me to improve it over time, 
+          you can help by donating a few quid.
+        </p>
+        <div id={buttonId} className="donation-button"></div>
+      </div>
+    </div>
+  )
+}
+
+// Group folder titles that should NOT be shown as sub-components
+const GROUP_FOLDER_TITLES = [
+  'Repair Instructions',
+  'Description and Operation',
+  'Component Locator',
+  'Specifications',
+  'Special Tools and Equipment',
+  'Technical Service Bulletins',
+  'Other Information',
+  'Inspections',
+  'Technical Information',
+  'Schematic and Routing Diagrams',
+  'Circuit Diagram',
+  'Warnings, Disclaimers, Safety',
+  'Diagnostic Information and Procedures',
+]
+
+// Icon mapping for root components (using emojis)
+const COMPONENT_ICONS = {
+  'A  Maintenance, Body and Chassis Sheet Metal Parts, Frame': '🔧',
+  'B  Paint': '🎨',
+  'C  Body Equipment': '🚗',
+  'D  Heating, Ventilation, Air Conditioning (HVAC)': '❄️',
+  'E  Front Wheel Suspension, Wheels and Tyres': '🛞',
+  'F  Rear Axle and Rear Wheel Suspension': '⚙️',
+  'H  Brakes': '🛑',
+  'J  Engine and Engine Aggregates': '🔩',
+  'K  Clutch and Transmission': '⚡',
+  'L  Fuel and Exhaust System': '⛽',
+  'M  Steering': '🎯',
+  'N  Electrical Equipment and Instruments': '💡',
+  'R  Accessories': '🔌',
+}
+
+// Short display names for components
+const COMPONENT_SHORT_NAMES = {
+  'A  Maintenance, Body and Chassis Sheet Metal Parts, Frame': 'Maintenance & Body',
+  'B  Paint': 'Paint',
+  'C  Body Equipment': 'Body Equipment',
+  'D  Heating, Ventilation, Air Conditioning (HVAC)': 'HVAC',
+  'E  Front Wheel Suspension, Wheels and Tyres': 'Front Suspension',
+  'F  Rear Axle and Rear Wheel Suspension': 'Rear Suspension',
+  'H  Brakes': 'Brakes',
+  'J  Engine and Engine Aggregates': 'Engine',
+  'K  Clutch and Transmission': 'Clutch & Transmission',
+  'L  Fuel and Exhaust System': 'Fuel & Exhaust',
+  'M  Steering': 'Steering',
+  'N  Electrical Equipment and Instruments': 'Electrical',
+  'R  Accessories': 'Accessories',
+}
+
+/**
+ * Component grid for the homepage showing all root-level car components
+ */
+function ComponentGrid({ manifest, onNavigateToComponent }) {
+  const navigate = useNavigate()
+  
+  if (!manifest?.tree?.roots || !manifest?.tree?.nodes) {
+    return null
+  }
+
+  const { roots, nodes } = manifest.tree
+
+  // Filter out "General Vehicle Information" - only show car components (those starting with a letter)
+  const carComponentRoots = roots.filter(rootId => {
+    const node = nodes[rootId]
+    return node && node.title !== 'General Vehicle Information'
+  })
+
+  // Check if a node is a group folder
+  const isGroupFolder = (node) => {
+    if (!node || !node.title) return false
+    return GROUP_FOLDER_TITLES.includes(node.title)
+  }
+
+  // Get display name for a node (strip letter prefix if present)
+  const getDisplayName = (title) => {
+    return COMPONENT_SHORT_NAMES[title] || title.replace(/^[A-Z]\s+/, '')
+  }
+
+  // Get non-group child nodes for a root node (actual sub-components)
+  const getSubComponents = (nodeId, maxCount = 5) => {
+    const node = nodes[nodeId]
+    if (!node?.children) return []
+    
+    const subComponents = []
+    for (const childId of node.children) {
+      const child = nodes[childId]
+      if (child && !isGroupFolder(child)) {
+        subComponents.push({ id: childId, title: child.title })
+      }
+      if (subComponents.length >= maxCount) break
+    }
+    return subComponents
+  }
+
+  // Count total non-group children
+  const countSubComponents = (nodeId) => {
+    const node = nodes[nodeId]
+    if (!node?.children) return 0
+    return node.children.filter(childId => {
+      const child = nodes[childId]
+      return child && !isGroupFolder(child)
+    }).length
+  }
+
+  // Handle click on component card header
+  const handleComponentClick = (rootId) => {
+    onNavigateToComponent([rootId])
+  }
+
+  // Handle click on a sub-component
+  const handleSubComponentClick = (rootId, subComponentId) => {
+    onNavigateToComponent([rootId, subComponentId])
+  }
+
+  return (
+    <div className="component-grid">
+      <h3>Components</h3>
+      <div className="component-cards">
+        {carComponentRoots.map(rootId => {
+          const node = nodes[rootId]
+          if (!node) return null
+          
+          const icon = COMPONENT_ICONS[node.title] || '📋'
+          const displayName = getDisplayName(node.title)
+          const subComponents = getSubComponents(rootId, 5)
+          const totalSubComponents = countSubComponents(rootId)
+          const hasMore = totalSubComponents > 5
+
+          return (
+            <div key={rootId} className="component-card">
+              <button 
+                className="component-card-header"
+                onClick={() => handleComponentClick(rootId)}
+              >
+                <span className="component-icon">{icon}</span>
+                <span className="component-name">{displayName}</span>
+              </button>
+              {subComponents.length > 0 && (
+                <ul className="component-sublist">
+                  {subComponents.map(({ id, title }) => (
+                    <li key={id}>
+                      <button 
+                        className="component-subitem"
+                        onClick={() => handleSubComponentClick(rootId, id)}
+                      >
+                        {title}
+                      </button>
+                    </li>
+                  ))}
+                  {hasMore && <li className="more-items">+ {totalSubComponents - 5} more...</li>}
+                </ul>
+              )}
+            </div>
+          )
+        })}
+      </div>
+    </div>
+  )
+}
 
 /**
  * Content viewer that loads and displays documents.
  * Automatically selects the appropriate viewer based on content type.
  */
-function ContentViewer() {
+function ContentViewer({ manifest, onNavigateToComponent }) {
   const { id } = useParams()
   const [content, setContent] = useState(null)
   const [contentType, setContentType] = useState(null)
@@ -67,8 +289,13 @@ function ContentViewer() {
   if (!id) {
     return (
       <div className="content-welcome">
+        <DonationCallout />
+        
         <h2>Welcome to the VX220 Service Manual</h2>
         <p>Select a document from the sidebar to view its contents.</p>
+        
+        <ComponentGrid manifest={manifest} onNavigateToComponent={onNavigateToComponent} />
+        
         <div className="welcome-links">
           <h3>Quick Access</h3>
           <div className="quick-links">

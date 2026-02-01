@@ -212,7 +212,51 @@ function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, activeDoc
 
   return (
     <div className="column-nav-column column-mixed">
-      {/* Render group folders as labels with documents */}
+      {/* Render subcomponent folders first (on top) */}
+      {visibleOthers.length > 0 && (
+        <ul className="column-nav-list column-other-folders">
+          {visibleOthers.map(({ id, node }) => {
+            const isSelected = selectedId === id
+            const isLeaf = node.isLeaf
+            const slug = isLeaf ? tocIdToSlug[id] : null
+            const isActive = slug === activeDocId
+
+            return (
+              <li key={id} className="column-nav-item">
+                {isLeaf ? (
+                  onDocumentSelect ? (
+                    <button
+                      type="button"
+                      className={`column-nav-link ${isActive ? 'active' : ''}`}
+                      onClick={() => onDocumentSelect(slug)}
+                    >
+                      <span className="column-nav-title document-leaf">{node.title}</span>
+                    </button>
+                  ) : (
+                    <NavLink
+                      to={`/doc/${slug}`}
+                      className={`column-nav-link ${isActive ? 'active' : ''}`}
+                    >
+                      <span className="column-nav-title document-leaf">{node.title}</span>
+                    </NavLink>
+                  )
+                ) : (
+                  <button
+                    type="button"
+                    className={`column-nav-link ${isSelected ? 'selected' : ''}`}
+                    onClick={() => onFolderClick(id)}
+                  >
+                    <span className="column-nav-title">{node.title}</span>
+                    <span className="column-nav-arrow">›</span>
+                  </button>
+                )}
+              </li>
+            )
+          })}
+        </ul>
+      )}
+
+      {/* Render group folders as labels with documents (at the bottom) */}
       {visibleGroups.map(({ id, node, directLeavesOnly }) => {
         const style = getGroupStyle(node.title)
         const { leaves: directLeaves, nestedGroups } = collectGroupLeaves(node, nodes)
@@ -224,6 +268,39 @@ function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, activeDoc
         
         if (filteredLeaves.length === 0) return null
 
+        // Single item: render as direct link with group icon/color
+        if (filteredLeaves.length === 1) {
+          const { id: leafId, node: leafNode } = filteredLeaves[0]
+          const slug = tocIdToSlug[leafId]
+          const isActive = slug === activeDocId
+
+          return (
+            <div key={id} className="column-group column-group-single">
+              {onDocumentSelect ? (
+                <button
+                  type="button"
+                  className={`column-group-link ${isActive ? 'active' : ''}`}
+                  style={{ '--group-color': style.color }}
+                  onClick={() => onDocumentSelect(slug)}
+                >
+                  <span className="column-group-emoji">{style.emoji}</span>
+                  <span className="column-nav-title">{leafNode.title}</span>
+                </button>
+              ) : (
+                <NavLink
+                  to={`/doc/${slug}`}
+                  className={`column-group-link ${isActive ? 'active' : ''}`}
+                  style={{ '--group-color': style.color }}
+                >
+                  <span className="column-group-emoji">{style.emoji}</span>
+                  <span className="column-nav-title">{leafNode.title}</span>
+                </NavLink>
+              )}
+            </div>
+          )
+        }
+
+        // Multiple items: render as collapsible dropdown
         const isCollapsed = collapsedGroups.has(id)
 
         return (
@@ -253,14 +330,14 @@ function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, activeDoc
                           className={`column-nav-link ${isActive ? 'active' : ''}`}
                           onClick={() => onDocumentSelect(slug)}
                         >
-                          <span className="column-nav-title">{leafNode.title}</span>
+                          <span className="column-nav-title document-leaf">{leafNode.title}</span>
                         </button>
                       ) : (
                         <NavLink
                           to={`/doc/${slug}`}
                           className={`column-nav-link ${isActive ? 'active' : ''}`}
                         >
-                          <span className="column-nav-title">{leafNode.title}</span>
+                          <span className="column-nav-title document-leaf">{leafNode.title}</span>
                         </NavLink>
                       )}
                     </li>
@@ -271,56 +348,12 @@ function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, activeDoc
           </div>
         )
       })}
-
-      {/* Render other folders as clickable items */}
-      {visibleOthers.length > 0 && (
-        <ul className="column-nav-list column-other-folders">
-          {visibleOthers.map(({ id, node }) => {
-            const isSelected = selectedId === id
-            const isLeaf = node.isLeaf
-            const slug = isLeaf ? tocIdToSlug[id] : null
-            const isActive = slug === activeDocId
-
-            return (
-              <li key={id} className="column-nav-item">
-                {isLeaf ? (
-                  onDocumentSelect ? (
-                    <button
-                      type="button"
-                      className={`column-nav-link ${isActive ? 'active' : ''}`}
-                      onClick={() => onDocumentSelect(slug)}
-                    >
-                      <span className="column-nav-title">{node.title}</span>
-                    </button>
-                  ) : (
-                    <NavLink
-                      to={`/doc/${slug}`}
-                      className={`column-nav-link ${isActive ? 'active' : ''}`}
-                    >
-                      <span className="column-nav-title">{node.title}</span>
-                    </NavLink>
-                  )
-                ) : (
-                  <button
-                    type="button"
-                    className={`column-nav-link ${isSelected ? 'selected' : ''}`}
-                    onClick={() => onFolderClick(id)}
-                  >
-                    <span className="column-nav-title">{node.title}</span>
-                    <span className="column-nav-arrow">›</span>
-                  </button>
-                )}
-              </li>
-            )
-          })}
-        </ul>
-      )}
     </div>
   )
 }
 
 // Column-based navigation component (macOS Finder style)
-function ColumnNav({ roots, nodes, tocIdToSlug, searchQuery, maxVisibleColumns = Infinity, onDocumentSelect }) {
+function ColumnNav({ roots, nodes, tocIdToSlug, searchQuery, maxVisibleColumns = Infinity, onDocumentSelect, externalNavPath, onExternalNavComplete }) {
   const navigate = useNavigate()
   const { id: activeDocId } = useParams()
   const containerRef = useRef(null)
@@ -396,6 +429,26 @@ function ColumnNav({ roots, nodes, tocIdToSlug, searchQuery, maxVisibleColumns =
   })
 
   const [visibleColumnStart, setVisibleColumnStart] = useState(0) // For mobile: which column to start showing
+
+  // Handle external navigation path from homepage component grid
+  useEffect(() => {
+    if (externalNavPath && externalNavPath.length > 0) {
+      // Set the selected path to the external navigation path
+      setSelectedPath(externalNavPath)
+      
+      // In mobile mode, adjust visible column start to show the last columns
+      if (isMobileColumnMode && externalNavPath.length >= maxVisibleColumns) {
+        setVisibleColumnStart(Math.max(0, externalNavPath.length - maxVisibleColumns + 1))
+      } else {
+        setVisibleColumnStart(0)
+      }
+      
+      // Notify that navigation is complete
+      if (onExternalNavComplete) {
+        onExternalNavComplete()
+      }
+    }
+  }, [externalNavPath, onExternalNavComplete, maxVisibleColumns])
 
   // Persist selectedPath to localStorage when it changes (but not on initial load from URL)
   useEffect(() => {
@@ -690,14 +743,14 @@ function ColumnNav({ roots, nodes, tocIdToSlug, searchQuery, maxVisibleColumns =
                           className={`column-nav-link ${isActive ? 'active' : ''}`}
                           onClick={() => onDocumentSelect(slug)}
                         >
-                          <span className="column-nav-title">{node.title}</span>
+                          <span className="column-nav-title document-leaf">{node.title}</span>
                         </button>
                       ) : (
                         <NavLink
                           to={`/doc/${slug}`}
                           className={`column-nav-link ${isActive ? 'active' : ''}`}
                         >
-                          <span className="column-nav-title">{node.title}</span>
+                          <span className="column-nav-title document-leaf">{node.title}</span>
                         </NavLink>
                       )
                     ) : (
@@ -783,6 +836,24 @@ function TreeGroup({ nodeId, node, nodes, tocIdToSlug, expandedNodes, toggleNode
     )
   }
   
+  // Single item: render as direct link with group icon/color (no dropdown)
+  if (filteredLeaves.length === 1 && nestedGroups.length === 0) {
+    const { id, node: leafNode, slug } = filteredLeaves[0]
+    return (
+      <li className="tree-group tree-group-single">
+        <NavLink
+          to={`/doc/${slug}`}
+          className={({ isActive }) => `tree-group-link ${isActive ? 'active' : ''}`}
+          style={{ '--group-color': style.color }}
+        >
+          <span className="tree-group-emoji">{style.emoji}</span>
+          <span className="tree-group-link-title">{leafNode.title}</span>
+        </NavLink>
+      </li>
+    )
+  }
+
+  // Multiple items: render as collapsible dropdown
   return (
     <li className={`tree-group ${isExpanded ? '' : 'collapsed'}`}>
       <button 
@@ -802,7 +873,7 @@ function TreeGroup({ nodeId, node, nodes, tocIdToSlug, expandedNodes, toggleNode
             <li key={id} className="tree-leaf">
               <NavLink
                 to={`/doc/${slug}`}
-                className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
+                className={({ isActive }) => `nav-link document-leaf ${isActive ? 'active' : ''}`}
               >
                 {leafNode.title}
               </NavLink>
@@ -851,7 +922,7 @@ function TreeNode({ nodeId, nodes, tocIdToSlug, expandedNodes, toggleNode, searc
       <li className="tree-leaf">
         <NavLink
           to={`/doc/${slug}`}
-          className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
+          className={({ isActive }) => `nav-link document-leaf ${isActive ? 'active' : ''}`}
         >
           {node.title}
         </NavLink>
@@ -1064,7 +1135,7 @@ const isValidRootFolder = (node) => {
   return sectionPattern.test(title) || generalPattern.test(title)
 }
 
-function Sidebar({ sections, tree, tocIdToSlug, isColumnLayout, isMobile, isTablet, isOpen, onClose }) {
+function Sidebar({ sections, tree, tocIdToSlug, isColumnLayout, isMobile, isTablet, isOpen, onClose, externalNavPath, onExternalNavComplete }) {
   const [searchQuery, setSearchQuery] = useState('')
   const { id: activeDocId } = useParams()
   const navigate = useNavigate()
@@ -1268,6 +1339,8 @@ function Sidebar({ sections, tree, tocIdToSlug, isColumnLayout, isMobile, isTabl
             searchQuery={searchQuery}
             maxVisibleColumns={maxVisibleColumns}
             onDocumentSelect={showMobileMenu ? handleMobileNavigate : null}
+            externalNavPath={externalNavPath}
+            onExternalNavComplete={onExternalNavComplete}
           />
         ) : hasTree ? (
           <ul className="tree-root">
