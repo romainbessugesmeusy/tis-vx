@@ -1,0 +1,98 @@
+{
+  "type": "procedure",
+  "id": "oil-cooler-oil-lines-replace-z20-let-AQS315",
+  "title": "Oil Cooler, Oil Lines, Replace (Z20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove intake manifold – see operation \"Intake Manifold, Replace (Z20 LET)\".",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove oil lines (1) from oil cooler – place collecting basin underneath.",
+          "image": {
+            "src": "/data/assets/images/ea793f919ec9.jpg",
+            "alt": "Object Number: 2418805  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Unclip oil lines from bracket (2).",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Remove oil lines from thermostat housing (oil cooler).",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 5,
+          "text": "Caution",
+          "image": {
+            "src": "/data/assets/images/ea793f919ec9.jpg",
+            "alt": "Object Number: 2418805  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Tighten thermostat housing (oil cooler) and oil lines evenly – Ensure that oil lines are not installed under tension.",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Attach oil lines to thermostat housing for oil cooler, and oil cooler, using new seal rings – tightening torque 30 Nm .",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Clip oil lines into bracket.",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install intake manifold – see operation \"Intake Manifold, Replace (Z20 LET)\".",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "inspect",
+      "label": "Inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": [
+        {
+          "number": 10,
+          "text": "Check engine oil level and correct as necessary.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Attach oil lines to thermostat housing for oil cooler, and oil cooler, using new seal rings – tightening torque 30 Nm .",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 7
+    }
+  ]
+}

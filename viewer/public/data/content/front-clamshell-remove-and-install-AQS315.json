@@ -1,0 +1,476 @@
+{
+  "type": "procedure",
+  "id": "front-clamshell-remove-and-install-AQS315",
+  "title": "Front Clamshell, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Release washer fluid reservoir from bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Slide off"
+            },
+            {
+              "bullet": "•",
+              "text": "Position washer fluid reservoir to one side"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/372145f87fb3.jpg",
+            "alt": "Object Number: 2419905  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Disconnect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release nut, bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/109869f7b46c.jpg",
+            "alt": "Object Number: 2429428  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Remove front bonnet",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Apply match marks"
+            },
+            {
+              "bullet": "•",
+              "text": "2nd technician required"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ead8dafc86ca.jpg",
+            "alt": "Object Number: 2425096  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Raise vehicle.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Remove front undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 12x bolt, 9x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Remove front wheel arch liner from right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x screw, 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Remove front wheel arch liner from left side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x screw, 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Remove 2x headlamp (1) from front clamshell",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Do not disturb splash shield (2) (if installed)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 2x nut, 2x washer"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 2x bracket"
+            },
+            {
+              "bullet": "•",
+              "text": "Disconnect 2x harness connector"
+            }
+          ],
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Remove 2x screw, 2x washer from headlamp apertures of front clamshell",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Release front clamshell from A–pillar, right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Release front clamshell from A–pillar, left side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Release front clamshell from 2x side sill",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x screw (1), 2x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/482502e52d49.jpg",
+            "alt": "Object Number: 2425013  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 14,
+          "text": "Remove 2x screw, 2x washer (1) from front clamshell",
+          "image": {
+            "src": "/data/assets/images/c149ae627cf3.jpg",
+            "alt": "Object Number: 2425009  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 15,
+          "text": "Remove 2x height adjuster from front clamshell",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x nut, 2x screw, 2 washer (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c149ae627cf3.jpg",
+            "alt": "Object Number: 2425009  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 16,
+          "text": "Release front clamshell from radiator housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x nut, 2x screw (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 2x lower screw"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c149ae627cf3.jpg",
+            "alt": "Object Number: 2425009  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 17,
+          "text": "Disconnect 2x harness connector from 2x front fog lamp",
+          "image": null
+        },
+        {
+          "number": 18,
+          "text": "Disconnect 2x harness connector from 2x side repeater lamp",
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Remove front clamshell from vehicle Note: Second technician required",
+          "image": {
+            "src": "/data/assets/images/7866f7d77078.jpg",
+            "alt": "Object Number: 2425097  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 20,
+          "text": "Install front clamshell to vehicle Note: Second technician required Note: Align front clamshell to specification, see operation “Body Panel Alignment Values” in group A. Only the areas detailed in this section are adjustable. All further gaps align as a consequence of these adjustments as the body panels are formed from common moulds.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Loosely assemble all fixing points"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 21,
+          "text": "Connect 2x harness connector to 2x side repeater lamp",
+          "image": null
+        },
+        {
+          "number": 22,
+          "text": "Connect 2x harness connector to 2x front fog lamp",
+          "image": null
+        },
+        {
+          "number": 23,
+          "text": "Secure front clamshell to radiator housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x lower screw"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure 2x nut, 2x screw (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c149ae627cf3.jpg",
+            "alt": "Object Number: 2425009  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 24,
+          "text": "Secure 2x screw, 2x washer (1) to front clamshell",
+          "image": {
+            "src": "/data/assets/images/c149ae627cf3.jpg",
+            "alt": "Object Number: 2425009  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 25,
+          "text": "Secure front clamshell to 2x side sill",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x screw (1), 2x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 26,
+          "text": "Secure front clamshell to A–pillar, left side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 27,
+          "text": "Secure front clamshell to A–pillar, right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 28,
+          "text": "Secure 2x screw, 2x washer to headlamp apertures of front clamshell",
+          "image": null
+        },
+        {
+          "number": 29,
+          "text": "Install headlamp to left side of front clamshell",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ensure that splash shield is not disturbed (if installed)"
+            },
+            {
+              "bullet": "•",
+              "text": "Connect harness connector"
+            },
+            {
+              "bullet": "•",
+              "text": "Install bracket"
+            },
+            {
+              "bullet": "•",
+              "text": "Install nut, washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 30,
+          "text": "Install front wheel arch liner to left side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 8x screw, 4x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 31,
+          "text": "Install headlamp to right side of front clamshell",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ensure that splash shield is not disturbed (if installed)"
+            },
+            {
+              "bullet": "•",
+              "text": "Connect harness connector"
+            },
+            {
+              "bullet": "•",
+              "text": "Install bracket"
+            },
+            {
+              "bullet": "•",
+              "text": "Install nut, washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 32,
+          "text": "Install front wheel arch liner to right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x screw, 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 33,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 34,
+          "text": "Install front undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 12x bolt, 9x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 35,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 36,
+          "text": "Install front bonnet",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Align match marks"
+            },
+            {
+              "bullet": "•",
+              "text": "Align front bonnet - see operation “Body Panel Alignment"
+            },
+            {
+              "bullet": "•",
+              "text": "2nd technician required"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure 2x nut, 2x screw, 2 washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 37,
+          "text": "Connect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure nut, bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 38,
+          "text": "Secure washer fluid reservoir to bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Slide on"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 39,
+          "text": "Program all volatile memories",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "During handling, care\nshould be taken not to damage the front clamshell or adjacent\nfibreglass parts. Protect the clamshell from damage when removed,\nwith particular attention to edges and corners."
+  ],
+  "notes": [
+    "Remove front clamshell from vehicle\n Second technician\nrequired",
+    "Install front clamshell to vehicle\n Second technician\nrequired\n Note:   Align front\nclamshell to specification, see operation “Body Panel\nAlignment Values” in group A. Only the areas detailed in this\nsection are adjustable. All further gaps align as a consequence of\nthese adjustments as the body panels are formed from common\nmoulds.\n \n\n\n\n•  \nLoosely assemble all fixing points"
+  ]
+}

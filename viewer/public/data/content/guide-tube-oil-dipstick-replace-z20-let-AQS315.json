@@ -1,0 +1,50 @@
+{
+  "type": "procedure",
+  "id": "guide-tube-oil-dipstick-replace-z20-let-AQS315",
+  "title": "Guide Tube, Oil Dipstick, Replace (Z20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove oil dipstick from guide tube",
+          "image": {
+            "src": "/data/assets/images/6c7669ca1685.jpg",
+            "alt": "Object Number: 2397743  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove fastening bolt (1) from cylinder block and withdraw oil dipstick guide tube from cylinder block.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Insert oil dipstick guide tube with new oil seals up to stop and attach to cylinder block.",
+          "image": {
+            "src": "/data/assets/images/6c7669ca1685.jpg",
+            "alt": "Object Number: 2397743  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Install oil dipstick to guide tube",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

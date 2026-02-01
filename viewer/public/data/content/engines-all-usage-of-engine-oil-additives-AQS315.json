@@ -1,0 +1,22 @@
+{
+  "type": "tsb",
+  "id": "engines-all-usage-of-engine-oil-additives-AQS315",
+  "title": "Field Remedy: 1728",
+  "subject": "Engines (all) - Usage of engine oil\nadditives",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "",
+    "troubleCode": ""
+  },
+  "complaint": "Usage of engine oil additives",
+  "cause": "",
+  "production": "",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "Internal lab and engine test bench investigation revealed that the usage of not released oil additives will cause \nan increased engine oil consumption. In some cases the measured oil consumption has increased by 100%. \nModern Opel engines in combination with high quality engine oil do not need additives. Therefore the \nusage of any not Opel released engine oil additive is disapproved. All related warranty claims will \nbe rejected."
+    }
+  ]
+}

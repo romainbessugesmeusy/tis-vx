@@ -1,0 +1,31 @@
+{
+  "type": "harness_diagram",
+  "id": "passenger-compartment-rear-bulkhead-left-hand-drive-AQS315",
+  "title": "Passenger compartment - Rear bulkhead",
+  "diagram": {
+    "src": "/data/assets/converted/9280915ba3cb.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "B38",
+      "description": "Loudspeaker - Rear, left"
+    },
+    {
+      "code": "R5",
+      "description": "Squib - Belt pretensioner, driver"
+    },
+    {
+      "code": "B39",
+      "description": "Loudspeaker - Rear, right"
+    },
+    {
+      "code": "R6",
+      "description": "Squib - Belt pretensioner, front passenger"
+    },
+    {
+      "code": "B121",
+      "description": "Sensor - Anti-theft warning unit, passenger compartment"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "type": "procedure",
+  "id": "sensor-coolant-temperature-replace-z-20-let-AQS315",
+  "title": "Sensor, Coolant Temperature, Replace (Z 20\nLET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Disconnect oxygen sensor for primary catalytic converter",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release cable tie"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9125cb36ea26.jpg",
+            "alt": "Object Number: 2422640  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x bolt (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9125cb36ea26.jpg",
+            "alt": "Object Number: 2422640  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Partially drain cooling system",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release integral clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove expansion tank cap"
+            },
+            {
+              "bullet": "•",
+              "text": "Position collecting container"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove drain plug (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/218ba57ed295.jpg",
+            "alt": "Object Number: 2422643  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Remove temperature sensor (2) from distribution housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Discard sensor, sealing washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/218ba57ed295.jpg",
+            "alt": "Object Number: 2422643  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 5,
+          "text": "Install new temperature sensor 10 Nm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install new sealing washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Connect temperature sensor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure integral clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Install drain plug",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use thread sealant"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Install bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Connect oxygen sensor for primary catalytic converter",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Fill cooling system",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Apply pressure to cooling system 1.0 bar to 1.5 bar",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use commercially available tool"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Bleed coolant system",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Open engine bleed valve (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Open radiator bleed valve (2), left side of radiator"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/056bd03f13cf.jpg",
+            "alt": "Object Number: 2422641  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 13,
+          "text": "Release pressure from cooling system",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Install coolant expansion tank cap",
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Check coolant level",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Top-up if necessary"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Run engine until operating temperature is reached",
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Check coolant level",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Top-up if necessary"
+            }
+          ],
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install new temperature sensor 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 5
+    }
+  ],
+  "warnings": [
+    "Observe relevant\nenvironmental regulations when disposing of used coolant and\nlubricants."
+  ],
+  "notes": [
+    "Discard sensor, sealing washer\n Clean sealant\nfrom drain plug threads."
+  ]
+}

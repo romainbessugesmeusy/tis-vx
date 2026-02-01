@@ -1,0 +1,31 @@
+{
+  "type": "harness_diagram",
+  "id": "voltage-distribution-1-AQS315",
+  "title": "voltage-distribution-1-AQS315",
+  "diagram": {
+    "src": "/data/assets/converted/079bb3488f4e.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "V25",
+      "description": "Diode - Back-up power"
+    },
+    {
+      "code": "X1",
+      "description": "Main harness & Battery positive"
+    },
+    {
+      "code": "X13",
+      "description": "Diagnostic link"
+    },
+    {
+      "code": "Z20LET",
+      "description": "Engine Z20LET"
+    },
+    {
+      "code": "Z22SE",
+      "description": "Engine Z22SE"
+    }
+  ]
+}

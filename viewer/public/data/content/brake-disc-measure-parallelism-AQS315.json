@@ -1,0 +1,15 @@
+{
+  "type": "generic",
+  "id": "brake-disc-measure-parallelism-AQS315",
+  "title": "Brake Disc, Measure Parallelism",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Brake Disc, Measure Parallelism</p>\n\n<p><img src=\"/data/assets/images/7c3d75e8b2c9.gif\" height=\"30\" width=\"30\"> <span\nclass=\"gt-picto\">&nbsp;&nbsp;Remove</span></p>\n\n<table border=\"0\">\n<tr>\n<td></tr>\n\n<tr>\n<td valign=\"top\" width=\"95%\">\n<p>Wheel from vehicle &ndash; bolts.</p>\n\n<p><img src=\"/data/assets/images/707731fa677f.gif\" height=\"30\" width=\"30\">\n<span class=\"gt-picto\">&nbsp;&nbsp;Measure</span></p>\n\n<p>Parallelism of brake disc &ndash; measure thickness of brake\ndisc at four or more points around periphery and at <span class=\n\"tech-spec\">50%</span> of diameter.</p>\n\n<p>Maximum thickness &ndash; <span class=\"tech-spec\">26.0 mm</span>\n; minimum thickness &ndash; <span class=\"tech-spec\">24.9 mm</span>\n.</p>\n\n<p><img src=\"/data/assets/images/6eff4d42a9f9.gif\" height=\"30\" width=\"30\">\n<span class=\"gt-picto\">&nbsp;&nbsp;Install</span></p>\n\n<p>Wheel to vehicle &ndash; bolt <span class=\"tech-spec\">90\nNm</span> .</p>\n</td>\n<td valign=\"top\" align=\"right\"><!--SCDS Link: T8764.itf-->\n<img border=\"0\" width=\"360\" height=\"360\" alt=\n\"Object Number: 2429412  Size: DEFAULT\" align=\"TOP\" src=\"/data/assets/images/50a5cebd2c2e.jpg\">\n<br>\n<a href=\"javascript:TFormSubmit('AIBA1MV915X91','1','AIBA1MV915X91','detail')\">\n<img src=\"/data/assets/images/db1138827f57.gif\" alt=\n\"Click here for detailed picture of above image\"></a>\n\n<br> </td>\n</tr>\n</table>\n\n<br>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "extractedData": {
+    "torqueValues": [
+      {
+        "value": "90",
+        "unit": "Nm",
+        "context": "Wheel to vehicle – bolt 90\nNm ."
+      }
+    ]
+  }
+}

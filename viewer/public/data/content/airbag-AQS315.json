@@ -1,0 +1,35 @@
+{
+  "type": "harness_diagram",
+  "id": "airbag-AQS315",
+  "title": "Airbag",
+  "diagram": {
+    "src": "/data/assets/converted/2c000259c2b5.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "A1",
+      "description": "Control unit - Airbag"
+    },
+    {
+      "code": "R5",
+      "description": "Squib - Belt pretensioner, driver"
+    },
+    {
+      "code": "H1.4",
+      "description": "Telltale - Airbag"
+    },
+    {
+      "code": "R6",
+      "description": "Squib - Belt pretensioner, front passenger"
+    },
+    {
+      "code": "R1",
+      "description": "Squib - Airbag, driver"
+    },
+    {
+      "code": "X13",
+      "description": "Diagnostic link"
+    }
+  ]
+}

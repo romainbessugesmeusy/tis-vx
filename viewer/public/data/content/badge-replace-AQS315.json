@@ -1,0 +1,36 @@
+{
+  "type": "procedure",
+  "id": "badge-replace-AQS315",
+  "title": "Badge, Replace",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove badge from rear clamshell",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Install badge to rear clamshell",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        }
+      ]
+    }
+  ]
+}

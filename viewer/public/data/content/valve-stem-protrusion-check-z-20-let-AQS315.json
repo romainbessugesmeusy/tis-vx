@@ -1,0 +1,19 @@
+{
+  "type": "procedure",
+  "id": "valve-stem-protrusion-check-z-20-let-AQS315",
+  "title": "Valve Stem Protrusion, Check (Z 20 LET)",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "See operation - “Installation Height of Valves, Check (Z 20 LET)”",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

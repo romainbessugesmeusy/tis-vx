@@ -1,0 +1,133 @@
+{
+  "type": "procedure",
+  "id": "piston-and-con-rod-remove-and-install-z20-let-AQS315",
+  "title": "Piston and Con-rod, Remove and Install (Z20\nLET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove upper part of oil pan – see operation \"Oil Pan, Upper, Replace\". Remove cylinder head – see operation \"Cylinder Head, Remove and Install\".",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove balancer shaft unit – see operation \"Balancer Shafts, Replace\".",
+          "image": {
+            "src": "/data/assets/images/6e8c951064e7.jpg",
+            "alt": "Object Number: 2422887  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Mark order of con-rod bearing caps (3) – bead (4) of con-rod bearing caps points to transmission side. Remove con-rod bearing cap from con-rod.",
+          "image": null,
+          "callouts": [
+            "3",
+            "4"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Remove combustion residue in upper part of the cylinder bore. Remove piston with con-rod upwards from cylinder bore.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Clean and check all parts, replace if necessary.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 6,
+          "text": "Adjust the piston ring gaps: First position, top ring (rectangular–section ring) in position (1), then piston middle ring (Napier ring) in position (4), intermediate ring of the oil scraper ring in position (5), steel band rings of the oil scraper ring in position (2) or (3).",
+          "image": {
+            "src": "/data/assets/images/aafd38daccc6.jpg",
+            "alt": "Object Number: 2417766  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "4",
+            "5",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Coat piston rings with engine oil and compress with commercially available piston ring compressor.",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Push piston into cylinder bore with hammer shaft.",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Caution",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Installation position: Arrow on piston head points to engine timing side.",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Note sequence of con-rod bearing caps. Attach con-rod bearing cap to con-rod with new bolts – con-rod bearing cap bead (1) points to transmission side – tightening torque 35 Nm + 45° + 15° .",
+          "image": {
+            "src": "/data/assets/images/c23d8b76224e.jpg",
+            "alt": "Object Number: 2392786  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 12,
+          "text": "Apply a bead of adhesive sealing compound (black) to joints of oil pump and rear crankshaft bearing cap.",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Install balancer shaft unit – see operation \"Balancer Shafts, Replace\".",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Install cylinder head – see operation \"Cylinder Head, Remove and Install\".",
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Install upper part of oil pan – see operation \"Oil Pan, Upper, Replace\".",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Note sequence of con-rod bearing caps. Attach con-rod bearing cap to con-rod with new bolts – con-rod bearing cap bead (1) points to transmission side – tightening torque 35 Nm + 45° + 15° .",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 11
+    }
+  ]
+}

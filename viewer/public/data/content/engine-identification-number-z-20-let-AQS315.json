@@ -1,0 +1,25 @@
+{
+  "type": "procedure",
+  "id": "engine-identification-number-z-20-let-AQS315",
+  "title": "Engine Identification Number (Z 20 LET)",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "The engine identification number is engraved on the edge of the transmission attachment flange on the cylinder block. Note: Before installation of a short-block, the original engine number must be engraved on the replacement cylinder block.",
+          "image": {
+            "src": "/data/assets/images/f6572e3ff4a6.jpg",
+            "alt": "Object Number: 2421704  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "The engine identification number is engraved on the edge of the\ntransmission attachment flange on the cylinder block.\n Before\ninstallation of a short-block, the original engine number must be\nengraved on the replacement cylinder block."
+  ]
+}

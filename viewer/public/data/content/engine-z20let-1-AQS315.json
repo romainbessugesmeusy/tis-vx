@@ -1,0 +1,87 @@
+{
+  "type": "harness_diagram",
+  "id": "engine-z20let-1-AQS315",
+  "title": "engine-z20let-1-AQS315",
+  "diagram": {
+    "src": "/data/assets/converted/1a0e62895839.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "A5",
+      "description": "Control unit - Motronic"
+    },
+    {
+      "code": "B117",
+      "description": "Sensor - Oxygen, mixture control, heated"
+    },
+    {
+      "code": "B21",
+      "description": "Sensor - Absolute pressure, intake manifold"
+    },
+    {
+      "code": "B118",
+      "description": "Sensor - Oxygen, catalytic converter check"
+    },
+    {
+      "code": "B34",
+      "description": "Impulse sensor - Crankshaft"
+    },
+    {
+      "code": "C1",
+      "description": "Condensor - Ignition coil"
+    },
+    {
+      "code": "B35",
+      "description": "Sensor - Camshaft"
+    },
+    {
+      "code": "T1",
+      "description": "Ignition coil - Direct ignition"
+    },
+    {
+      "code": "B46",
+      "description": "Air mass meter"
+    },
+    {
+      "code": "Y8",
+      "description": "Solenoid valve - Boost pressure regulation"
+    },
+    {
+      "code": "B61",
+      "description": "Sensor - Coolant temperature (gauge)"
+    },
+    {
+      "code": "X2",
+      "description": "Main harness & Extension harness, engine"
+    },
+    {
+      "code": "X33",
+      "description": "Extension harness, engine & Engine"
+    },
+    {
+      "code": "X3",
+      "description": "Main harness & Extension harness, engine"
+    },
+    {
+      "code": "X35",
+      "description": "Main harness & Engine"
+    },
+    {
+      "code": "X31",
+      "description": "Extension harness, engine & Control unit - Motronic"
+    },
+    {
+      "code": "X36",
+      "description": "Main harness & Engine"
+    },
+    {
+      "code": "X32",
+      "description": "Engine & Control unit - Motronic"
+    },
+    {
+      "code": "Z20LET",
+      "description": "Engine Z20LET"
+    }
+  ]
+}

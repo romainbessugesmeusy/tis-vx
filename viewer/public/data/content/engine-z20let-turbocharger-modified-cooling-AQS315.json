@@ -1,0 +1,26 @@
+{
+  "type": "tsb",
+  "id": "engine-z20let-turbocharger-modified-cooling-AQS315",
+  "title": "Field Remedy: 1959",
+  "subject": "Engine Z20LET, Turbocharger - Modified\ncooling",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "24 - Wrong or not mounted",
+    "troubleCode": "None"
+  },
+  "complaint": "Cooling connection of the new P&A\nturbocharger (part-no. 55559848 / catalogue-no.: 58 490 40) does\nnot fit to Speedster/VX220.",
+  "cause": "Modified turbocharger cooling.",
+  "production": "Introduction of the new turbocharger cooling\nas of MY2006 on Z20LER/LEL/LET engines.",
+  "remedyContent": [
+    {
+      "type": "paragraph",
+      "text": "In case of replacement of the turbocharger (part-no.: 55559848 /\ncatalogue-no.: 58 490 40)on Speedster/VX220 the new P&A\nturbocharger has to be modified as follows."
+    },
+    {
+      "type": "paragraph",
+      "text": "Remove the upper cooling pipe. Dismount the plug (mounted\nsidewards on bearing housing) and install it with a new sealring\ninstead of the cooling pipe. Sealring part-no.: 11016282 /\ncatalogue-no.: 20 91 057."
+    }
+  ]
+}

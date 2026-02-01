@@ -1,0 +1,70 @@
+{
+  "type": "procedure",
+  "id": "suspension-spring-remove-and-install-AQS315",
+  "title": "Disassemble",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Suspension Spring, Remove and Install",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "remove",
+      "label": "Remove, Disconnect",
+      "icon": "/data/assets/images/4b8970d41392.jpg",
+      "steps": [
+        {
+          "number": 2,
+          "text": "Shock absorber from rear suspension - see operation \"Shock Absorber, Remove and Install\".",
+          "image": {
+            "src": "/data/assets/images/71a109657407.jpg",
+            "alt": "Object Number: 2429853  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "disassemble",
+      "label": "Disassemble",
+      "icon": "/data/assets/images/f8adc4a1ce48.jpg",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Suspension spring from shock absorber - use suitable compressor, release spring seat.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "assemble",
+      "label": "Assemble",
+      "icon": "/data/assets/images/05f5b4f15eb8.jpg",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Suspension spring to shock absorber - use suitable spring compressor, install spring seat.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install, Connect",
+      "icon": "/data/assets/images/57d894c25c39.jpg",
+      "steps": [
+        {
+          "number": 5,
+          "text": "Shock absorber to rear suspension.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

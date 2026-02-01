@@ -1,0 +1,23 @@
+{
+  "type": "harness_diagram",
+  "id": "passenger-compartment-under-instrument-panel-driver-side-AQS315",
+  "title": "Passenger compartment - Under instrument panel, driver side",
+  "diagram": {
+    "src": "/data/assets/converted/738f8c732fca.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "K4",
+      "description": "Relay - Fog lamp, front"
+    },
+    {
+      "code": "K20",
+      "description": "Relay - Parking lamp"
+    },
+    {
+      "code": "K5",
+      "description": "Relay - Fog lamp, rear"
+    }
+  ]
+}

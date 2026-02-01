@@ -1,0 +1,66 @@
+{
+  "type": "procedure",
+  "id": "bushes-and-bearings-door-hinges-replace-AQS315",
+  "title": "Bushes and Bearings, Door Hinges, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Front clamshell from vehicle – see operation \"Front Clamshell, Remove and Install\" in group A.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Door from vehicle- see operation \"Door, Remove and Install\" in group A,",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Bushes and bearings from door hinge.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Caution !",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Do not lubricate bushes or bearings.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 6,
+          "text": "Bearings and bushes to door hinge.",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Door to vehicle.",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Front clamshell to vehicle.",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Hinge shown removed for clarity.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

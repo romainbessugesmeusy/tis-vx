@@ -1,0 +1,26 @@
+{
+  "type": "tsb",
+  "id": "hfm-turbocharger-no-power-engine-jerks-black-smoke-p0100-sto-AQS315",
+  "title": "Field Remedy: 1607",
+  "subject": "HFM, Turbocharger - No power, engine\njerks, black smoke, P0100 stored in ECU",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "06 - Failure Code Setting by Control\nUnit",
+    "troubleCode": "P0100"
+  },
+  "complaint": "No power, engine jerks, black smoke, P0100\nstored in ECU.",
+  "cause": "Turbo charger hose loose at turbochareger\nside -> engine looses boost.",
+  "production": "Improved installation process as of VIN\nW0L0EBR973N006484 .",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "In case of customer complaint check the correct connection of hose between\nturbocharger and intercooler. \nThe jubilee clip at turbocharger side has to be tightened with 4 Nm."
+    },
+    {
+      "type": "paragraph",
+      "text": "Note: Replacement of HFM does not solve the problem."
+    }
+  ]
+}

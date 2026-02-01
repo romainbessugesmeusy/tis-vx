@@ -1,0 +1,19 @@
+{
+  "type": "harness_diagram",
+  "id": "doors-front-passenger-door-right-hand-drive-AQS315",
+  "title": "Doors - Front passenger door",
+  "diagram": {
+    "src": "/data/assets/converted/e41e8d340a3b.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "M3",
+      "description": "Motor - Central locking, front passenger door"
+    },
+    {
+      "code": "X15",
+      "description": "Main harness & Front passenger door"
+    }
+  ]
+}

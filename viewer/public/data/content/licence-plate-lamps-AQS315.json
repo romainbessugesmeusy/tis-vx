@@ -1,0 +1,103 @@
+{
+  "type": "harness_diagram",
+  "id": "licence-plate-lamps-AQS315",
+  "title": "licence-plate-lamps-AQS315",
+  "diagram": {
+    "src": "/data/assets/converted/80ca4cdcf3a9.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "E3",
+      "description": "Rear lamp unit - Left"
+    },
+    {
+      "code": "E4.3",
+      "description": "Reversing lamp - Right"
+    },
+    {
+      "code": "E3.1",
+      "description": "Tail lamp - Left"
+    },
+    {
+      "code": "E4.4",
+      "description": "Turn signal - Rear, right"
+    },
+    {
+      "code": "E3.2",
+      "description": "Stop lamp - Left"
+    },
+    {
+      "code": "E4.5",
+      "description": "Fog lamp - Rear, right"
+    },
+    {
+      "code": "E3.3",
+      "description": "Reversing lamp - Left"
+    },
+    {
+      "code": "E10",
+      "description": "Lamp - Licence plate, left"
+    },
+    {
+      "code": "E3.4",
+      "description": "Turn signal lamp - Rear, left"
+    },
+    {
+      "code": "E11",
+      "description": "Lamp - Licence plate, right"
+    },
+    {
+      "code": "E3.5",
+      "description": "Fog lamp - Rear, left"
+    },
+    {
+      "code": "E18",
+      "description": "Fog lamp - Front, left"
+    },
+    {
+      "code": "E4",
+      "description": "Rear lamp unit - Right"
+    },
+    {
+      "code": "E19",
+      "description": "Fog lamp - Front, right"
+    },
+    {
+      "code": "E4.1",
+      "description": "Tail lamp - Right"
+    },
+    {
+      "code": "K4",
+      "description": "Relay - Fog lamp, front"
+    },
+    {
+      "code": "E4.2",
+      "description": "Stop lamp - Right"
+    },
+    {
+      "code": "S76",
+      "description": "Switch - Fog lamps, front"
+    },
+    {
+      "code": "X5",
+      "description": "Main harness & Rear"
+    },
+    {
+      "code": "X41",
+      "description": "Main harness & Extension harness, fog lamp, front left"
+    },
+    {
+      "code": "X6",
+      "description": "Main harness & Rear (Fog lamp)"
+    },
+    {
+      "code": "X42",
+      "description": "Main harness & Extension harness, fog lamp, front right"
+    },
+    {
+      "code": "X7",
+      "description": "Main harness & Rear (Reversing lamp)"
+    }
+  ]
+}

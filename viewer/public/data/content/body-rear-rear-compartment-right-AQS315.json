@@ -1,0 +1,19 @@
+{
+  "type": "harness_diagram",
+  "id": "body-rear-rear-compartment-right-AQS315",
+  "title": "Body rear - Rear compartment, right",
+  "diagram": {
+    "src": "/data/assets/converted/c1452881ebc4.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "E4",
+      "description": "Rear lamp unit - Right"
+    },
+    {
+      "code": "E11",
+      "description": "Lamp - Licence plate, right"
+    }
+  ]
+}

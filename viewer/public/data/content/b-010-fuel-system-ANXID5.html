@@ -1,0 +1,171 @@
+<div class="content"><h2>B-010 - Fuel System</h2>
+<table border="2" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+  <tr>
+    <td valign="top" align="center" width="12%" STYLE="font-weight:bold">
+      <p>Test</p>
+    </td>
+    <td valign="top" width="64%" STYLE="font-weight:bold">
+      <p>Work Order Description</p>
+    </td>
+    <td valign="top" width="24%" STYLE="font-weight:bold">
+      <p>Nominal Value</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-4-427316"></a>
+      <b>T001</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Fuel Reserve</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Check fuel reserve</li>
+        <li>Check fuel tank for correct fuel sort content</li>
+      </ul>
+      <p>
+        <b>Note:</b>
+      </p>
+      <p>The fuel reserve must be greater than 5&nbsp;L</p>
+    </td>
+    <td valign="top"></td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('ALTMK9MSBM','1','5862-4-427317',null)">T002</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black"></font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-4-427317"></a>
+      <b>T002</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Actuator Test</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Ignition ON</li>
+        <li>Select and enable diagnostic tester actuator test:<br>Actuator Test Fuel Pump Relay
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>Test okay?</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('A2PM9BM7EM','1','5862-4-427318',null)">T003</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('ANOMB7MCCM','1','STRARTBM',null)">C-005</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-4-427318"></a>
+      <b>T003</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Fuel Pressure</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Ignition OFF</li>
+        <li>Connect fuel pressure manometer KM-J-34730-91 to fuel feed line</li>
+        <li>Ignition ON</li>
+        <li>Select and enable diagnostic tester actuator test:<br>Actuator Test Fuel Pump Relay
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>Pressure value okay?</p>
+      <p>2800&nbsp;hPa ( 2.8&nbsp;bar )</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('AGQMZAMODM','1','-',null)">Fin du diagnostic !</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('AFOMH8M98M','1','5862-4-427319',null)">T004</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-4-427319"></a>
+      <b>T004</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Fuel Pipes and Fuel Filter</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Check the following component for proper operation:<br>Fuel pipes and fuel filter
+        </li>
+      </ul>
+      <p>
+        <b>Note:</b>
+      </p>
+      <p>Plugging, leakage or air in fuel system</p>
+    </td>
+    <td valign="top"></td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('A4QM59MM5M','1','-',null)">Fin du diagnostic !</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black"></font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table><br><br><br><br><br></div>

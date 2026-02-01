@@ -1,0 +1,65 @@
+{
+  "type": "procedure",
+  "id": "undertray-exhaust-remove-and-install-AQS315",
+  "title": "Undertray, Exhaust, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove exhaust undertray (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 12x bolt, 12x washer, 2x clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/01e61ef5f5d8.jpg",
+            "alt": "Object Number: 2425112  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Install exhaust undertray (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 12x bolt, 12x washer, 2x clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/01e61ef5f5d8.jpg",
+            "alt": "Object Number: 2425112  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Lower vehicle",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

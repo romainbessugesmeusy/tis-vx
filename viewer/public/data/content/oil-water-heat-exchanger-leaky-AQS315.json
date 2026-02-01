@@ -1,0 +1,22 @@
+{
+  "type": "tsb",
+  "id": "oil-water-heat-exchanger-leaky-AQS315",
+  "title": "Field Remedy: 1716",
+  "subject": "Oil/Water Heat Exchanger - Leaky",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "01 - Broken or Cracked",
+    "troubleCode": "None"
+  },
+  "complaint": "Leakages/cracks on oil/water heat exchanger\ncaused by corrosion due to coolant liquid which was not according\nto Opel specification.",
+  "cause": "Wrong coolant liquid and/or wrong mixture\nratio.",
+  "production": "",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "When replacing the coolant liquid for maintanance or repair reasons, please\nmake sure that \na.) the correct liquid is used, \nb.) the correct mixture ratio is assured. \nCorrect coolant liquid and mixture ratio are included in TIS2000 Service\nInstruction."
+    }
+  ]
+}

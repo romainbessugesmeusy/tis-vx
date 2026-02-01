@@ -1,0 +1,22 @@
+{
+  "type": "procedure",
+  "id": "survey-of-air-cleaner-system-z20-let-AQS315",
+  "title": "Survey of Air Cleaner System (Z20 LET)",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Air cleaner system illustrated",
+          "image": {
+            "src": "/data/assets/images/55e3ad9d26d6.jpg",
+            "alt": "Object Number: 2423049  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ]
+}

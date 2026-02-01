@@ -1,0 +1,143 @@
+{
+  "type": "harness_diagram",
+  "id": "engine-z20let-AQS315",
+  "title": "Engine Z20LET",
+  "diagram": {
+    "src": "/data/assets/converted/9636fe12fd5a.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "A2",
+      "description": "Control unit - Anti-Lock Brake System"
+    },
+    {
+      "code": "K24",
+      "description": "Relay - Starter"
+    },
+    {
+      "code": "A5",
+      "description": "Control unit - Motronic"
+    },
+    {
+      "code": "M19",
+      "description": "Motor - Radiator fan"
+    },
+    {
+      "code": "A17",
+      "description": "Control unit - Immobiliser"
+    },
+    {
+      "code": "M21",
+      "description": "Pump - Fuel"
+    },
+    {
+      "code": "B19",
+      "description": "Sensor - Pedal position"
+    },
+    {
+      "code": "M55",
+      "description": "Pump - Coolant, additional"
+    },
+    {
+      "code": "B21",
+      "description": "Sensor - Absolute pressure, intake manifold"
+    },
+    {
+      "code": "S28",
+      "description": "Switch - Clutch Pedal"
+    },
+    {
+      "code": "B30",
+      "description": "Sensor - Knock control 1"
+    },
+    {
+      "code": "S43",
+      "description": "Switch - Stop lamp, double"
+    },
+    {
+      "code": "B34",
+      "description": "Impulse sensor - Crankshaft"
+    },
+    {
+      "code": "S94",
+      "description": "Impact switch - Fuel cut-off"
+    },
+    {
+      "code": "B35",
+      "description": "Sensor - Camshaft"
+    },
+    {
+      "code": "T1",
+      "description": "Ignition coil - Direct ignition"
+    },
+    {
+      "code": "B46",
+      "description": "Air mass meter"
+    },
+    {
+      "code": "Y2",
+      "description": "Actuator - Recirculation"
+    },
+    {
+      "code": "B61",
+      "description": "Sensor - Coolant temperature (gauge)"
+    },
+    {
+      "code": "Y5",
+      "description": "Solenoid valve - Tank ventilation"
+    },
+    {
+      "code": "B110",
+      "description": "Sensor - Atmospheric pressure"
+    },
+    {
+      "code": "Y8",
+      "description": "Solenoid valve - Boost pressure regulation"
+    },
+    {
+      "code": "B117",
+      "description": "Sensor - Oxygen, mixture control, heated"
+    },
+    {
+      "code": "Y9.1",
+      "description": "Injection valve - Cylinder 1"
+    },
+    {
+      "code": "B118",
+      "description": "Sensor - Oxygen, catalytic converter check"
+    },
+    {
+      "code": "Y9.2",
+      "description": "Injection valve - Cylinder 2"
+    },
+    {
+      "code": "H1.6",
+      "description": "Telltale - Engine"
+    },
+    {
+      "code": "Y9.3",
+      "description": "Injection valve - Cylinder 3"
+    },
+    {
+      "code": "H1.22",
+      "description": "Indicator - Coolant temperature"
+    },
+    {
+      "code": "Y9.4",
+      "description": "Injection valve - Cylinder 4"
+    },
+    {
+      "code": "H1.24",
+      "description": "Tachometer"
+    },
+    {
+      "code": "Y11",
+      "description": "Throttle valve - Positioner"
+    },
+    {
+      "code": "X13",
+      "description": "Diagnostic link"
+    }
+  ]
+}

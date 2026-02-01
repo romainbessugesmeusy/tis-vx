@@ -1,0 +1,33 @@
+{
+  "type": "diagnostic",
+  "id": "injector-multi-point-fuel-injection-all-except-z22yh-AQS315",
+  "title": "Injector (Multi-point Fuel Injection), all except\nZ22YH",
+  "steps": [
+    {
+      "number": 1,
+      "text": "Download Reference curve."
+    },
+    {
+      "number": 2,
+      "text": "Start the engine and allow it to idle."
+    },
+    {
+      "number": 1,
+      "text": "Download Setup file (the Tech 32 uses only Setup\nfiles, no reference curves)."
+    },
+    {
+      "number": 2,
+      "text": "Start engine and allow it to idle."
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/3d4616e814ba.jpg",
+      "alt": "Object Number: 2400967  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/fba500606a46.jpg",
+      "alt": "Object Number: 2419075  Size: DEFAULT"
+    }
+  ]
+}

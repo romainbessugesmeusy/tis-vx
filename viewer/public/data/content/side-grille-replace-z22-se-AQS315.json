@@ -1,0 +1,61 @@
+{
+  "type": "procedure",
+  "id": "side-grille-replace-z22-se-AQS315",
+  "title": "Side Grille, Replace (Z22 SE)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove grille from rear clamshell",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove clip (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/062eb11732cc.jpg",
+            "alt": "Object Number: 2419904  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Clean contact surfaces of rear clamshell",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove double–sided adhesive tape"
+            }
+          ],
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Install new grille to rear clamshell",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install double–sided adhesive tape to new grille at the"
+            },
+            {
+              "bullet": "•",
+              "text": "Fit clip"
+            }
+          ],
+          "image": null
+        }
+      ]
+    }
+  ]
+}

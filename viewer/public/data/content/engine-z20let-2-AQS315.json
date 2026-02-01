@@ -1,0 +1,107 @@
+{
+  "type": "harness_diagram",
+  "id": "engine-z20let-2-AQS315",
+  "title": "engine-z20let-2-AQS315",
+  "diagram": {
+    "src": "/data/assets/converted/f4629e4c7071.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "A5",
+      "description": "Control unit - Motronic"
+    },
+    {
+      "code": "Y2",
+      "description": "Actuator - Recirculation"
+    },
+    {
+      "code": "B19",
+      "description": "Sensor - Pedal position"
+    },
+    {
+      "code": "Y5",
+      "description": "Solenoid valve - Tank ventilation"
+    },
+    {
+      "code": "B30",
+      "description": "Sensor - Knock control 1"
+    },
+    {
+      "code": "Y9.1",
+      "description": "Injection valve - Cylinder 1"
+    },
+    {
+      "code": "B110",
+      "description": "Sensor - Atmospheric pressure"
+    },
+    {
+      "code": "Y9.2",
+      "description": "Injection valve - Cylinder 2"
+    },
+    {
+      "code": "K16",
+      "description": "Relay - Fuel pump"
+    },
+    {
+      "code": "Y9.3",
+      "description": "Injection valve - Cylinder 3"
+    },
+    {
+      "code": "K18",
+      "description": "Relay - Engine control unit"
+    },
+    {
+      "code": "Y9.4",
+      "description": "Injection valve - Cylinder 4"
+    },
+    {
+      "code": "K82",
+      "description": "Relay - Pump, coolant additional"
+    },
+    {
+      "code": "Y11",
+      "description": "Throttle valve - Positioner"
+    },
+    {
+      "code": "M55",
+      "description": "Pump - Coolant, additional"
+    },
+    {
+      "code": "X2",
+      "description": "Main harness & Extension harness, engine"
+    },
+    {
+      "code": "X33",
+      "description": "Extension harness, engine & Engine"
+    },
+    {
+      "code": "X3",
+      "description": "Main harness & Extension harness, engine"
+    },
+    {
+      "code": "X34",
+      "description": "Extension harness, engine & Battery positive"
+    },
+    {
+      "code": "X31",
+      "description": "Extension harness, engine & Control unit - Motronic"
+    },
+    {
+      "code": "X37",
+      "description": "Main harness & Engine"
+    },
+    {
+      "code": "X32",
+      "description": "Engine & Control unit - Motronic"
+    },
+    {
+      "code": "X46",
+      "description": "Extension harness, engine & Control unit - Motronic"
+    },
+    {
+      "code": "Z20LET",
+      "description": "Engine Z20LET"
+    }
+  ]
+}

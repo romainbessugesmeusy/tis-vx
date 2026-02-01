@@ -1,0 +1,7 @@
+{
+  "type": "generic",
+  "id": "2-wheel-measurement-without-reference-to-the-rear-axle-AQS315",
+  "title": "2-wheel measurement without reference to the rear\naxle",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">2-wheel measurement without reference to the rear\naxle</p>\n\n<p>In this measurement process, it is only possible to align the\nwheels on one axle at a time. The suspension geometry of the front\nand rear axles must be determined separately.</p>\n\n<p>In conjunction with rotary bases, the main values of the\nsuspension geometry can be determined. Reference measurement\nbetween the front and rear axles is not however possible with this\nprocess taking into account the geometric driving axis and the axis\nof symmetry.</p>\n\n<p><span class=\"gt-important\">Important:&nbsp;&nbsp;</span>\nAlignment machines with 2-wheel alignment are not approved for\nOpel/Vauxhall vehicles.</p>\n\n<p>This measurement process includes e.g. axle alignment\nbridges.</p>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "extractedData": {}
+}

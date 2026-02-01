@@ -1,0 +1,83 @@
+{
+  "type": "procedure",
+  "id": "door-window-remove-and-install-AQS315",
+  "title": "Door Window, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Door trim from door – see operation \"Door Trim, Remove and Install\".",
+          "image": {
+            "src": "/data/assets/images/68a0721fad1a.jpg",
+            "alt": "Object Number: 2429796  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Water vapour barrier from door.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Inner and outer waist seals from door.",
+          "image": {
+            "src": "/data/assets/images/68b0d881c7d4.jpg",
+            "alt": "Object Number: 2429797  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Internal handle from door – screws.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Door window from door.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 6,
+          "text": "Door window to door and adjust.",
+          "image": {
+            "src": "/data/assets/images/68b0d881c7d4.jpg",
+            "alt": "Object Number: 2429797  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Internal handle to door – screws.",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Inner and outer waist seals to door.",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Water vapour barrier to door.",
+          "image": {
+            "src": "/data/assets/images/68a0721fad1a.jpg",
+            "alt": "Object Number: 2429796  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Door trim to door – see operation \"Door Trim, Remove and Install\".",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

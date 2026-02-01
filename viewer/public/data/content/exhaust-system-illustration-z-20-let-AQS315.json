@@ -1,0 +1,22 @@
+{
+  "type": "procedure",
+  "id": "exhaust-system-illustration-z-20-let-AQS315",
+  "title": "Exhaust System, Illustration (Z 20 LET)",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Illustration of exhaust system",
+          "image": {
+            "src": "/data/assets/images/e784f5dc164b.jpg",
+            "alt": "Object Number: 2422502  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ]
+}

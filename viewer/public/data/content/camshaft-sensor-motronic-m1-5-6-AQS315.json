@@ -1,0 +1,33 @@
+{
+  "type": "diagnostic",
+  "id": "camshaft-sensor-motronic-m1-5-6-AQS315",
+  "title": "Camshaft Sensor, Motronic M1.5.6",
+  "steps": [
+    {
+      "number": 1,
+      "text": "Download Reference curve."
+    },
+    {
+      "number": 2,
+      "text": "Start engine and allow it to idle."
+    },
+    {
+      "number": 1,
+      "text": "Download Setup File (the Tech 32 uses only Setup\nfiles, no reference curves)."
+    },
+    {
+      "number": 2,
+      "text": "Start engine and allow it to idle."
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/82779f0985fe.jpg",
+      "alt": "Object Number: 2419835  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/e51b757eca1f.jpg",
+      "alt": "Object Number: 2419068  Size: DEFAULT"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "type": "procedure",
+  "id": "sensor-camshaft-replace-z-20-let-AQS315",
+  "title": "Sensor, Camshaft, Replace (Z 20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Disconnect harness connector (1) from ignition module",
+          "image": {
+            "src": "/data/assets/images/fb7c6ec0f3bf.jpg",
+            "alt": "Object Number: 2421971  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Remove ignition module cover (2) from cylinder head",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Slide off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/fb7c6ec0f3bf.jpg",
+            "alt": "Object Number: 2421971  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Remove upper cover of camshaft timing belt - see operation “Camshaft Timing Belt, Upper Cover, Replace (Z 20 LET)”",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Release camshaft sensor (1) from cylinder head",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ab75a9b8c92c.jpg",
+            "alt": "Object Number: 2422586  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Remove camshaft sensor, then disconnect harness connector (2)",
+          "image": {
+            "src": "/data/assets/images/ab75a9b8c92c.jpg",
+            "alt": "Object Number: 2422586  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 6,
+          "text": "Connect harness connector to camshaft sensor, then install to cylinder head",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Secure camshaft sensor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install bolt (3) 6 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Install upper cover of camshaft timing belt - see operation “Camshaft Timing Belt, Upper Cover, Replace (Z 20 LET)”",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install ignition module to cylinder head",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt 6 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Install ignition module cover to cylinder head",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Slide on"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Connect harness connector to ignition module",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Secure camshaft sensor",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Install ignition module to cylinder head",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Install bolt (3) 6 Nm",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

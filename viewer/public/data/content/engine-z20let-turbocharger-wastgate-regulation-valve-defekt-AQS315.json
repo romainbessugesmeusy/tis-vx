@@ -1,0 +1,22 @@
+{
+  "type": "tsb",
+  "id": "engine-z20let-turbocharger-wastgate-regulation-valve-defekt-AQS315",
+  "title": "Field Remedy: 1795",
+  "subject": "Engine Z20LET - Turbocharger wastgate\nregulation valve defekt",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "18 - Poor Drivebility",
+    "troubleCode": "None"
+  },
+  "complaint": "Power fluctuation during high load / full\nload. No trouble codes stored.",
+  "cause": "Turbo charger wastegate regulation valve\ninternal leakage.",
+  "production": "Improved wastegate regulation valves have\nbeen introduced in production as of the following VIN´s:\nBochum I W0L0TGF7542184350 (30.04.2004), Antwerp W0L0AHL4845178538\n(30.04.2004), Ellesmere Port W0L0AHL4848082282 (30.04.2004),\nBertone W0L0TGF674B007479 (30.04.2004).",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "In case of customer complaint replace the defective wastegate regulation\nvalve (part-no.: 55557806 / cataloge-no.: 58 50 129) and install a new one.\nIt is not necessary to replace the turbocharger."
+    }
+  ]
+}

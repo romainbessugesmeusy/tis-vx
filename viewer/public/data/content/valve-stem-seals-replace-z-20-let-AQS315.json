@@ -1,0 +1,31 @@
+{
+  "type": "procedure",
+  "id": "valve-stem-seals-replace-z-20-let-AQS315",
+  "title": "Valve Stem Seals, Replace (Z 20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "See operation - “Cylinder Head, Attaching Parts, Remove and Install (Z20LET)”",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 2,
+          "text": "See operation - “Cylinder Head, Attaching Parts, Remove and Install (Z20LET)”",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

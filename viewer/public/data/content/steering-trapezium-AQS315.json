@@ -1,0 +1,7 @@
+{
+  "type": "generic",
+  "id": "steering-trapezium-AQS315",
+  "title": "Steering trapezium",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Steering trapezium</p>\n\n<p>The steering trapezium shows how the various steering angles are\nformed when cornering. A well set-up trapezium prevents the wheels\nslipping.</p>\n\n<p>Front axle, control arms and tie-rods form the steering\ntrapezium.</p>\n\n<p>In straight-ahead position, the tie-rods are parallel to the\nfront axle.</p>\n\n<p>On cornering, the stub axles must be deflected. The stub axles\nand control arms are not arranged at 90&deg; angles. Because of the\narrangement, the tie-rods are no longer parallel to the front axle\nwhen the stub axles are deflected. This gives uneven travel at the\nends of the two control arms which leads to the wheels being at\ndifferent angles (see also toe variation).</p>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "extractedData": {}
+}

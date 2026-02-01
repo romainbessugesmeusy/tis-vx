@@ -1,0 +1,41 @@
+{
+  "type": "diagnostic",
+  "id": "air-mass-meter-4-cylinder-petrol-AQS315",
+  "title": "Air Mass Meter, 4 Cylinder Petrol",
+  "steps": [
+    {
+      "number": 1,
+      "text": "Download Reference curve."
+    },
+    {
+      "number": 2,
+      "text": "Start engine and allow it to idle."
+    },
+    {
+      "number": 3,
+      "text": "Press the accelerator pedal once quickly down to\nthe limit stop and immediately release it again. The measurement\nshould not take longer than one second."
+    },
+    {
+      "number": 1,
+      "text": "Download Setup file (the Tech 32 uses only Setup\nfiles, no reference curves)."
+    },
+    {
+      "number": 2,
+      "text": "Start engine and allow it to idle."
+    },
+    {
+      "number": 3,
+      "text": "Press the accelerator pedal once quickly down to\nthe limit stop and immediately release it again. The measurement\nshould not take longer than one second."
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/59c78520034b.jpg",
+      "alt": "Object Number: 2400946  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/bb2d78d2ef7c.jpg",
+      "alt": "Object Number: 2419061  Size: DEFAULT"
+    }
+  ]
+}

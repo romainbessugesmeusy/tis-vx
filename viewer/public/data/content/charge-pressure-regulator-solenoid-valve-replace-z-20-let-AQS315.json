@@ -1,0 +1,61 @@
+{
+  "type": "procedure",
+  "id": "charge-pressure-regulator-solenoid-valve-replace-z-20-let-AQS315",
+  "title": "Charge Pressure Regulator, Solenoid Valve, Replace\n(Z 20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Disconnect wiring harness plug (4) from charge pressure regulator solenoid valve (3).",
+          "image": null,
+          "callouts": [
+            "4",
+            "3"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Detach 3x vacuum hose (1) from charge pressure regulator solenoid valve.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Remove 2x bolt (2) from charge pressure regulator solenoid valve and remove upwards.",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Attach charge pressure regulator solenoid valve to turbocharger.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Attach vacuum hoses to charge pressure regulator solenoid valve.",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Connect wiring harness plug to charge pressure regulator solenoid valve.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

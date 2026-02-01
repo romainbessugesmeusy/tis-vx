@@ -1,0 +1,39 @@
+{
+  "type": "harness_diagram",
+  "id": "engine-compartment-left-AQS315",
+  "title": "Engine compartment - Left",
+  "diagram": {
+    "src": "/data/assets/converted/58ba4b1393b2.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "B6",
+      "description": "Switch - Minimum capacity, coolant"
+    },
+    {
+      "code": "S31",
+      "description": "Switch - Reversing lamp"
+    },
+    {
+      "code": "B27",
+      "description": "Sensor - Wheel speed, rear, left"
+    },
+    {
+      "code": "S94",
+      "description": "Impact switch - Fuel cut-off"
+    },
+    {
+      "code": "X2",
+      "description": "Main harness & Extension harness, engine"
+    },
+    {
+      "code": "X4",
+      "description": "Main harness & Extension harness, engine"
+    },
+    {
+      "code": "X3",
+      "description": "Main harness & Extension harness, engine"
+    }
+  ]
+}

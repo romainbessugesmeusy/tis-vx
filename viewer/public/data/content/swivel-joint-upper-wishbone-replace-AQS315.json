@@ -1,0 +1,40 @@
+{
+  "type": "procedure",
+  "id": "swivel-joint-upper-wishbone-replace-AQS315",
+  "title": "Swivel Joint, Upper Wishbone, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Upper wishbone from rear suspension – see operation \"Upper Wishbone, Remove and Install\".",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Swivel joint from upper wishbone – press out.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Swivel joint to upper wishbone – press in.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Upper wishbone to rear suspension.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

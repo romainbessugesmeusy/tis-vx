@@ -1,0 +1,299 @@
+{
+  "type": "procedure",
+  "id": "engine-damping-block-right-side-replace-z20-let-AQS315",
+  "title": "Engine Damping Block, Right Side, Replace (Z20\nLET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Raise vehicle"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 13x bolt, 13x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Release engine damping block from chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove nut (1), then discard"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a51c7ae0e5eb.jpg",
+            "alt": "Object Number: 2423003  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Lower vehicle to suitable working height",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Install engine support to engine and transmission assembly",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Remove rear road wheel from right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use special socket located under front bonnet"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 4x wheel bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Remove wheel arch liner from right rear",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x screw, 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Remove intercooler hose (1) from intercooler",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Move intercooler hose to one side"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/4a2dbee50e6f.jpg",
+            "alt": "Object Number: 2423004  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Remove engine mounting bracket (1) from support bracket on engine cylinder block and engine damping block",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove nut (3), then discard"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 3x bolt (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/041186447ab9.jpg",
+            "alt": "Object Number: 2423005  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Remove engine damping block (1) from chassis",
+          "image": {
+            "src": "/data/assets/images/712327d34414.jpg",
+            "alt": "Object Number: 2423006  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 10,
+          "text": "Install new engine damping block (1) to chassis Note: Ensure locating lug (2) on engine damping block locates in hole in chassis (3).",
+          "image": {
+            "src": "/data/assets/images/4e770421725d.jpg",
+            "alt": "Object Number: 2423007  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "Install engine mounting bracket to support bracket on engine cylinder block and engine damping block Note: Ensure locating lug (1) on engine damping block locates in hole in engine mounting bracket (2). Note: Illustration shows parts removed for clarity.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Apply locking compound"
+            },
+            {
+              "bullet": "•",
+              "text": "Use new nut"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/60e7009ab264.jpg",
+            "alt": "Object Number: 2423008  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 12,
+          "text": "Install intercooler hose to intercooler",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Install liner to right wheel arch",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x screw, 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Install rear road wheel to right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt, security bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Do not tighten"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Remove engine support from engine and transmission assembly",
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Secure engine damping block to chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use new nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 18,
+          "text": "Install engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 13x bolt, 13x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 20,
+          "text": "Secure rear road wheel to right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tighten 4x bolt, security bolt 90"
+            }
+          ],
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install engine mounting bracket to support bracket on engine cylinder block and engine damping block Note: Ensure locating lug (1) on engine damping block locates in hole in engine mounting bracket (2). Note: Illustration shows parts removed for clarity.",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": 11
+    },
+    {
+      "component": "Secure engine damping block to chassis",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": 17
+    },
+    {
+      "component": "Secure rear road wheel to right side",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 20
+    },
+    {
+      "component": "Install 3x bolt 48 Nm – Apply locking compound",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "A four-post hoist must\nbe used to raise the vehicle when removing the engine undertray.\nThe vehicle can be moved to a two-post hoist for other operations\nif required.",
+    "Do not support on oil\npan."
+  ],
+  "notes": [
+    "Install new engine damping block (1) to chassis\n Ensure locating\nlug (2) on engine damping block locates in hole in chassis (3).",
+    "Install engine mounting bracket to support bracket on engine\ncylinder block and engine damping block\n Ensure locating\nlug (1) on engine damping block locates in hole in engine mounting\nbracket (2).\n Note:   Illustration\nshows parts removed for clarity.\n \n\n\n\n•  \nInstall 3x bolt 48 Nm \n \n\n\n\n–\nApply locking compound\n \n\n\n\n\n\n\n\n\n•  \nInstall nut 48 Nm \n \n\n\n\n–\nUse new nut"
+  ]
+}

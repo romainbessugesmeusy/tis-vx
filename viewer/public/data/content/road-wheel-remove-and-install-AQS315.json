@@ -1,0 +1,113 @@
+{
+  "type": "procedure",
+  "id": "road-wheel-remove-and-install-AQS315",
+  "title": "Road Wheel, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Chock road wheels",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove security bolt from road wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use special socket located under front bonnet"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/509e2fe2f160.jpg",
+            "alt": "Object Number: 2419650  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Raise and support vehicle",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Remove road wheel from vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x wheel bolt"
+            }
+          ],
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 5,
+          "text": "Install road wheel to vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x wheel bolt 90 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Raise vehicle and remove support",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Install security bolt 90 Nm to road wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install special socket to holder"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Remove chocks from road wheels",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install road wheel to vehicle",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Install security bolt 90 Nm to road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Install 4x wheel bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

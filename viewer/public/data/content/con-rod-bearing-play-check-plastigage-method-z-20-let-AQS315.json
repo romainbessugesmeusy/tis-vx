@@ -1,0 +1,105 @@
+{
+  "type": "procedure",
+  "id": "con-rod-bearing-play-check-plastigage-method-z-20-let-AQS315",
+  "title": "Con-rod Bearing Play, Check (Plastigage Method),\n(Z 20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "measure",
+      "label": "Measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Mark installation position (1) of con-rod bearing cap - remove con-rod bearing cap from con-rod.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Caution",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "To prevent the strip from tearing when removing the con-rod bearing cap, remove grease from the con-rod journal and lightly oil con-rod bearing shell. Do not turn the crankshaft.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Route Plastigage (malleable plastic strip) over the entire width of the con-rod bearing journal.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Torque-angle method",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Attach con-rod bearing cap to con-rod - tightening torque 35 Nm + 45° + 15 . To check the con-rod bearing play, the bolts can be used once again.",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Remove con-rod bearing cap again. Compare width of flattened plastic thread (arrow) with measuring scale.",
+          "image": {
+            "src": "/data/assets/images/bdd573762ee1.jpg",
+            "alt": "Object Number: 2392756  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Permissible con-rod bearing play: 0.006 to 0.031 mm.",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Note: When reading the value, do not confuse millimetres and inches on the measuring scale.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "measure",
+      "label": "Measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 10,
+          "text": "Clean con-rod bearing journal and con-rod bearing shell and lubricate lightly.",
+          "image": {
+            "src": "/data/assets/images/bdd573762ee1.jpg",
+            "alt": "Object Number: 2392756  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 11,
+          "text": "Attach con-rod bearing cap to con-rod with new bolts - note installation position of con-rod bearing cap - tightening torque 35 Nm + 45° + 15° .",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Attach con-rod bearing cap to con-rod - tightening torque 35 Nm + 45° + 15 . To check the con-rod bearing play, the bolts can be used once again.",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 6
+    }
+  ]
+}

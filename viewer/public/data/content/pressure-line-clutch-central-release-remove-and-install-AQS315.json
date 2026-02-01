@@ -1,0 +1,111 @@
+{
+  "type": "procedure",
+  "id": "pressure-line-clutch-central-release-remove-and-install-AQS315",
+  "title": "Pressure Line, Clutch Central Release, Remove and\nInstall",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "inspect",
+      "label": "Inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Transmission – see operation \"Transmission, Remove and Install\".",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Pressure line (2) from central release.",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Sleeve (1) from housing (arrowed) and pressure line from transmission by slightly turning pressure line upwards.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Sleeve from pressure line – using suitable screwdriver, carefully release retaining lugs (3).",
+          "image": null,
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "O-ring on pressure line, sleeve (1) and pressure line for damage; replace if necessary.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 6,
+          "text": "Caution !",
+          "image": {
+            "src": "/data/assets/images/16d5a3acd925.jpg",
+            "alt": "Object Number: 2415470  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Note seating and condition of O-ring (2). Damaged or defective O-ring causes leaks.",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Pressure line in clutch housing, sleeve (1) into clutch housing, ensuring that lug on sleeve sits in groove in clutch housing.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Pressure line to central release – 14 Nm .",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Transmission – see operation \"Transmission, Remove and Install\".",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Bleed clutch hydraulics – see operation \"Hydraulic Clutch Bleed\".",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Pressure line to central release – 14 Nm .",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 9
+    }
+  ]
+}

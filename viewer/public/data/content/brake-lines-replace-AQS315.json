@@ -1,0 +1,59 @@
+{
+  "type": "procedure",
+  "id": "brake-lines-replace-AQS315",
+  "title": "Brake Lines, Replace",
+  "phases": [
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Fill brake fluid reservoir to MAX mark and seal with blind cap.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Important:",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Note type of original flaring and thread diameter of existing union bolts. Brake lines are usually supplied by the metre without union bolts and pipe flaring.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Corresponding union bolt over brake line and form a flare at end of brake line – use suitable flaring tool.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "adjust",
+      "label": "Adjust",
+      "icon": "/data/assets/images/8bcc88ed08ca.gif",
+      "steps": [
+        {
+          "number": 5,
+          "text": "Bend new brake line, using part to be replaced as a pattern – use pipe bender to avoid cross-sectional distortions.",
+          "image": {
+            "src": "/data/assets/images/dd8914e12388.jpg",
+            "alt": "Object Number: 2373817  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Important:",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "When replacing brake lines, ensure brake lines are not routed between wiring harnesses. Distance between wiring harnesses and brake lines should be at least 25 mm .",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

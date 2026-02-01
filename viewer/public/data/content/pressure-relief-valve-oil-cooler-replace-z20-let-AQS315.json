@@ -1,0 +1,274 @@
+{
+  "type": "procedure",
+  "id": "pressure-relief-valve-oil-cooler-replace-z20-let-AQS315",
+  "title": "Pressure Relief Valve, Oil Cooler, Replace (Z20\nLET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove engine undertray (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Raise vehicle"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 13x bolt, 13x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1d1ad92dd5ed.jpg",
+            "alt": "Object Number: 2425071  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Remove, then discard oil filter",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Position suitable collecting container"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Release oil feed pipe and oil return pipe from oil filter housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove banjo bolt from oil feed pipe (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove banjo bolt from oil return pipe (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 4x sealing washer, then discard"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2137f859548d.jpg",
+            "alt": "Object Number: 2422924  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Remove temperature controller housing for oil cooler",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove adapter nut (1) using Remover KM-943"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f2333ab679d8.jpg",
+            "alt": "Object Number: 2422927  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Remove bolt (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove, then discard O ring"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f2333ab679d8.jpg",
+            "alt": "Object Number: 2422927  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Remove pressure relief valve",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Cut thread into shutter disc using 10 mm tap (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Pull out"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0ef0640d1acc.jpg",
+            "alt": "Object Number: 2422926  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 7,
+          "text": "Install new pressure relief valve",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit using suitable tool"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Install temperature controller housing for oil cooler",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install bolt 23 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Lubricate new O ring"
+            },
+            {
+              "bullet": "•",
+              "text": "Use Installer KM-943"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Secure oil feed pipe and oil return pipe to oil filter housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install banjo bolt for oil feed pipe 30"
+            },
+            {
+              "bullet": "•",
+              "text": "Install banjo bolt for oil return pipe 30 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 4x new sealing washer"
+            },
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Install new oil filter",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use Oil Filter Tool KM-726-A"
+            },
+            {
+              "bullet": "•",
+              "text": "Lubricate O ring seal"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Install engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 13x bolt, 13x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Run engine and check for leaks",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Switch off engine when complete"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Check engine oil level, then top up if required",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install temperature controller housing for oil cooler",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Secure oil feed pipe and oil return pipe to oil filter housing",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Install new oil filter",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Install bolt 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install banjo bolt for oil feed pipe 30 Nm",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Screw fit 15 Nm – Lubricate O ring seal",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-726-A",
+    "KM-943"
+  ],
+  "warnings": [
+    "A four post hoist must\nbe used to raise the vehicle when removing the engine undertray.\nThe vehicle can be moved to a two post hoist for other operations\nif required.",
+    "Observe relevant\nenvironmental regulations when disposing of used coolant and\nlubricants."
+  ]
+}

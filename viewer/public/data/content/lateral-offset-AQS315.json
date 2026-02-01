@@ -1,0 +1,7 @@
+{
+  "type": "generic",
+  "id": "lateral-offset-AQS315",
+  "title": "Lateral offset",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Lateral offset</p>\n\n<table border=\"0\">\n<tr>\n<td valign=\"top\" width=\"95%\">\n<p>Lateral offset is the angle (2) between the contact line (1) of\nthe right or left wheel contact points from front to rear wheel and\nthe geometric driving axis (3).</p>\n\n<p>The angle is positive if the front wheel is offset inwards in\nrelation to the rear wheel.</p>\n\n<p>The lateral offset is generally given in degrees. If the wheel\nbase is known, length data is also possible.</p>\n</td>\n<td valign=\"top\" align=\"right\"><!--SCDS Link: H2023.itf-->\n<img border=\"0\" width=\"360\" height=\"360\" alt=\n\"Object Number: 2400755  Size: DEFAULT\" align=\"TOP\" src=\"/data/assets/images/b4e12ea528b7.jpg\">\n<br>\n<a href=\"javascript:TFormSubmit('AOY91JG91PH91','1','AOY91JG91PH91','detail')\">\n<img src=\"/data/assets/images/db1138827f57.gif\" alt=\n\"Click here for detailed picture of above image\"></a>\n\n<br> </td>\n</tr>\n</table>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "extractedData": {}
+}

@@ -1,0 +1,50 @@
+{
+  "type": "procedure",
+  "id": "hinges-door-remove-and-install-AQS315",
+  "title": "Hinges, Door, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Front clamshell from vehicle – see operation \"Front Clamshell, Remove and Install\" in group A.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Door beam from vehicle – see operation \"Door Beam, Remove and Install\" in group A.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Hinge from A-pillar – mark position of hinge on A-pillar, then remove bolts, washers and shims.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Hinge to A-pillar – align marks, install shims, washers and bolts.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Door beam to vehicle.",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Front clamshell to vehicle.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

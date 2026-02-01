@@ -1,0 +1,37 @@
+{
+  "type": "tool_list",
+  "id": "special-service-tools-group-m-AQS315",
+  "title": "Special Service Tools – Group M",
+  "group": "M",
+  "tools": [
+    {
+      "code": "KM-108",
+      "name": "Remover/Installer",
+      "description": null
+    },
+    {
+      "code": "KM-210-B",
+      "name": "Steering Wheel Remover",
+      "description": null
+    },
+    {
+      "code": "KM-507-C",
+      "name": "Remover",
+      "description": null
+    },
+    {
+      "code": "MKM-610",
+      "name": "Torque Wrench 1/2\" Drive",
+      "description": null
+    },
+    {
+      "code": "MKM-611",
+      "name": "Torque Wrench 3/8\" Drive",
+      "description": null
+    }
+  ],
+  "image": {
+    "src": "/data/assets/images/5b465f431087.jpg",
+    "alt": "Object Number: 2429775  Size: DEFAULT"
+  }
+}

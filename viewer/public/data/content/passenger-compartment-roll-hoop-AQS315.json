@@ -1,0 +1,27 @@
+{
+  "type": "harness_diagram",
+  "id": "passenger-compartment-roll-hoop-AQS315",
+  "title": "Passenger compartment - Roll hoop",
+  "diagram": {
+    "src": "/data/assets/converted/9f5cd4eb3e2c.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "E24",
+      "description": "Stop lamp - Centre position"
+    },
+    {
+      "code": "W6",
+      "description": "Antenna - Radio"
+    },
+    {
+      "code": "X12",
+      "description": "Main harness & Roll hoop"
+    },
+    {
+      "code": "X40",
+      "description": "Main harness & Roll hoop"
+    }
+  ]
+}

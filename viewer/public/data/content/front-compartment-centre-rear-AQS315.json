@@ -1,0 +1,19 @@
+{
+  "type": "harness_diagram",
+  "id": "front-compartment-centre-rear-AQS315",
+  "title": "Front compartment - Centre, rear",
+  "diagram": {
+    "src": "/data/assets/converted/33a06eb6ea1f.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "M12",
+      "description": "Motor - Blower, passenger compartment"
+    },
+    {
+      "code": "R11",
+      "description": "Preresistor - Blower, heating"
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "type": "procedure",
+  "id": "air-cleaner-housing-replace-z-20-let-AQS315",
+  "title": "Air Cleaner Housing, Replace (Z 20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Disconnect air intake hose from air cleaner housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0b024950c034.jpg",
+            "alt": "Object Number: 2421982  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Release air cleaner cover from air cleaner housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x clip (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0b024950c034.jpg",
+            "alt": "Object Number: 2421982  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Raise and support vehicle",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Remove rear road wheel from left side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use special socket located under front bonnet"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 4x wheel bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Remove liner from wheel arch",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 6x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Remove air cleaner cover with air cleaner element",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x clip (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/bcda6d43d642.jpg",
+            "alt": "Object Number: 2421983  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Remove air cleaner housing (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            },
+            {
+              "bullet": "•",
+              "text": "Release clip (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/065d34bf2c05.jpg",
+            "alt": "Object Number: 2421984  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 8,
+          "text": "Install air cleaner housing (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clip (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/065d34bf2c05.jpg",
+            "alt": "Object Number: 2421984  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Install air cleaner cover with air cleaner element",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x clip (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/bcda6d43d642.jpg",
+            "alt": "Object Number: 2421983  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Install liner to wheel arch",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 6x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Install rear road wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt, security bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Do not tighten"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Raise vehicle and remove support",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Secure rear road wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tighten 4x bolt, security bolt 90"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Secure air cleaner cover to air cleaner housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x clip (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0b024950c034.jpg",
+            "alt": "Object Number: 2421982  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 16,
+          "text": "Connect air intake hose to air cleaner housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clip (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0b024950c034.jpg",
+            "alt": "Object Number: 2421982  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Secure rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 14
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

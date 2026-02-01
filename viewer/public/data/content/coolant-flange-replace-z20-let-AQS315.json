@@ -1,0 +1,117 @@
+{
+  "type": "procedure",
+  "id": "coolant-flange-replace-z20-let-AQS315",
+  "title": "Coolant Flange, Replace (Z20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Drain coolant – see operation ”Cooling System, Drain, Fill and Bleed”",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Disconnect wiring harness plugs for knock sensor (1), ignition module (5), mixture regulating oxygen sensor (3), and ignition coil capacitor (2). Remove wiring harness plug bracket (4) from coolant flange.",
+          "image": {
+            "src": "/data/assets/images/0a34896883bf.jpg",
+            "alt": "Object Number: 2418089  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "5",
+            "3",
+            "2",
+            "4"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Detach or remove wiring harness plug from coolant temperature sensor, exhaust gas recirculation valve, oxygen sensor and DIS ignition module.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "clean",
+      "label": "Clean",
+      "icon": "/data/assets/images/d9fe69774efb.gif",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Remove fastening bolts (1) and remove coolant flange.",
+          "image": {
+            "src": "/data/assets/images/0a34896883bf.jpg",
+            "alt": "Object Number: 2418089  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Clean sealing surfaces and remove gasket residues.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 6,
+          "text": "Attach coolant flange to cylinder head with new gasket – tightening torque (M8) 20 Nm , (M10) 30 Nm .",
+          "image": {
+            "src": "/data/assets/images/79063711f868.jpg",
+            "alt": "Object Number: 2422888  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Attach wiring harness plug bracket to coolant flange – tightening torque 8 Nm .",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Attach or connect wiring harness plug to coolant temperature sensor, exhaust gas recirculation valve, oxygen sensor and to DIS ignition module.",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Connect and clip in wiring harness plugs for knock sensor, ignition module, mixture regulating oxygen sensor, and ignition coil capacitor and route wiring harnesses.",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Charge and bleed cooling system – see operation \"Cooling System, Drain, Fill and Bleed”",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Attach coolant flange to cylinder head with new gasket – tightening torque (M8) 20 Nm , (M10) 30 Nm .",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Attach wiring harness plug bracket to coolant flange – tightening torque 8 Nm .",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Attach coolant flange to cylinder head with new gasket – tightening torque (M8) 20 Nm , (M10) 30 Nm .",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

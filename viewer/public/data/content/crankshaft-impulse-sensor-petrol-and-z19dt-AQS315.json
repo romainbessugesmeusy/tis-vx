@@ -1,0 +1,33 @@
+{
+  "type": "diagnostic",
+  "id": "crankshaft-impulse-sensor-petrol-and-z19dt-AQS315",
+  "title": "Crankshaft Impulse Sensor, Petrol and Z19DT",
+  "steps": [
+    {
+      "number": 1,
+      "text": "Download the Reference curve."
+    },
+    {
+      "number": 2,
+      "text": "Start the engine and allow it to idle."
+    },
+    {
+      "number": 1,
+      "text": "Download Setup file (the Tech 32 uses only Setup\nfiles, no reference curves)."
+    },
+    {
+      "number": 2,
+      "text": "Start engine and allow it to idle."
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/7af84617df0f.jpg",
+      "alt": "Object Number: 2400986  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/13b73c5cb073.jpg",
+      "alt": "Object Number: 6000917  Size: DEFAULT"
+    }
+  ]
+}

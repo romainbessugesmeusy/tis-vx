@@ -1,0 +1,71 @@
+{
+  "type": "procedure",
+  "id": "oil-pressure-check-z-20-let-AQS315",
+  "title": "Oil Pressure, Check (Z 20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "inspect",
+      "label": "Inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Disconnect wiring harness plug (1) from oil pressure switch, remove oil pressure switch (2) from oil pump - place collecting basin underneath.",
+          "image": null,
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Check oil pressure with KM-498-B (3) and KM-135 (4). At idling speed, the oil pressure should be approx. 1.5 bar and the oil temperature should be ≥ 80 °C.",
+          "image": null,
+          "callouts": [
+            "3",
+            "4"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Install oil pressure switch with new seal ring to oil pump – tightening torque 40 Nm .",
+          "image": {
+            "src": "/data/assets/images/57892d2ea69a.jpg",
+            "alt": "Object Number: 2397728  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Connect wiring harness plug to oil pressure switch.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Check engine oil level and correct if necessary.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install oil pressure switch with new seal ring to oil pump – tightening torque 40 Nm .",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": 3
+    }
+  ]
+}

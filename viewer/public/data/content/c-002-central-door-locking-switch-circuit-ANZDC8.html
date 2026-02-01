@@ -1,0 +1,193 @@
+<div class="content"><h2>C-002 - Central Door Locking Switch Circuit</h2>
+<table border="2" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+  <tr>
+    <td valign="top" align="center" width="12%" STYLE="font-weight:bold">
+      <p>Test</p>
+    </td>
+    <td valign="top" width="64%" STYLE="font-weight:bold">
+      <p>Work Order Description</p>
+    </td>
+    <td valign="top" width="24%" STYLE="font-weight:bold">
+      <p>Nominal Value</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5889-6-430418"></a>
+      <b>T001</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Ground/Interruption of Signal Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Key remote car key "unlock" pressed</li>
+        <li>Central door locking system unlocked</li>
+        <li>Disconnect wiring harness connector from:<br>S87 Switch - Central Locking (Instrument)
+        </li>
+        <li>Connect fused jumper wire to:<br>S87 Switch - Central Locking (Instrument)<br>Wiring harness connector (wiring harness side) terminal 4<br>&amp;<br>Ground
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>Central door locking system locked</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('AA7H5QGUTG','1','5889-6-430429',null)">T002</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('AT6H3PGJSG','1','5889-6-430428',null)">E003</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5889-6-430429"></a>
+      <b>T002</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Ground/Interruption of Signal Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Central door locking system locked</li>
+        <li>Remove fused jumper wire</li>
+        <li>Connect fused jumper wire to:<br>S87 Switch - Central Locking (Instrument)<br>Wiring harness connector (wiring harness side) terminal 2<br>&amp;<br>Ground
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>Central door locking system unlocked</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('AJCHJOGVQG','1','5889-6-430431',null)">E001</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('A2AHRPGLKG','1','5889-6-430430',null)">E002</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table><br><br>
+<table border="2" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+  <tr>
+    <td valign="top" align="center" width="12%" STYLE="font-weight:bold">
+      <p>Result</p>
+    </td>
+    <td STYLE="vertical-align:top;font-weight:bold">
+      <p>Cause Of Fault</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5889-6-430431"></a>
+      <b>E001</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Interruption</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Circuit interruption between:<br>S87 Switch - Central Locking (Instrument)<br>Wiring harness connector (wiring harness side) terminal 1<br>&amp;<br>Ground
+        </li>
+      </ul>
+      <p>or</p>
+      <ul>
+        <li>Defective component:<br>S87 Switch - Central Locking (Instrument)
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AO4H5NGLSG','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5889-6-430430"></a>
+      <b>E002</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Short to Ground/Interruption</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Short circuit to ground/interruption of circuit between:<br>A12 Control Unit - Central Locking<br>Wiring harness connector (wiring harness side) terminal 6<br>&amp;<br>S87 Switch - Central Locking (Instrument)<br>Wiring harness connector (wiring harness side) terminal 2
+        </li>
+      </ul>
+      <p>or</p>
+      <ul>
+        <li>Defective component:<br>A12 Control Unit - Central Locking
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('A36HVPGTOG','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5889-6-430428"></a>
+      <b>E003</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Short to Ground/Interruption</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Short circuit to ground/interruption of circuit between:<br>A12 Control Unit - Central Locking<br>Wiring harness connector (wiring harness side) terminal 2<br>&amp;<br>S87 Switch - Central Locking (Instrument)<br>Wiring harness connector (wiring harness side) terminal 4
+        </li>
+      </ul>
+      <p>or</p>
+      <ul>
+        <li>Defective component:<br>A12 Control Unit - Central Locking
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('ASCH1WGFTG','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+</table><br><br><br><br><br></div>

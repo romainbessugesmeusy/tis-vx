@@ -1,0 +1,131 @@
+{
+  "type": "harness_diagram",
+  "id": "instrument-AQS315",
+  "title": "instrument-AQS315",
+  "diagram": {
+    "src": "/data/assets/converted/bc3e3dfbd2a0.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "B1",
+      "description": "Switch - Brake fluid"
+    },
+    {
+      "code": "H1.20",
+      "description": "Illumination - LCD display"
+    },
+    {
+      "code": "B2",
+      "description": "Switch - Parking brake"
+    },
+    {
+      "code": "H1.21",
+      "description": "Illumination - Instrument"
+    },
+    {
+      "code": "B3",
+      "description": "Switch - Oil pressure"
+    },
+    {
+      "code": "H1.22",
+      "description": "Indicator - Coolant temperature"
+    },
+    {
+      "code": "B6",
+      "description": "Switch - Minimum capacity, coolant"
+    },
+    {
+      "code": "H1.23",
+      "description": "Fuel indicator"
+    },
+    {
+      "code": "H1",
+      "description": "Instrument"
+    },
+    {
+      "code": "H1.24",
+      "description": "Tachometer"
+    },
+    {
+      "code": "H1.1",
+      "description": "Charging indicator lamp"
+    },
+    {
+      "code": "H1.25",
+      "description": "Speedometer - Electronic"
+    },
+    {
+      "code": "H1.2",
+      "description": "Telltale - Oil pressure"
+    },
+    {
+      "code": "H1.65",
+      "description": "Warning buzzer"
+    },
+    {
+      "code": "H1.4",
+      "description": "Telltale - Airbag"
+    },
+    {
+      "code": "H1.68",
+      "description": "Telltale - Parking brake"
+    },
+    {
+      "code": "H1.5",
+      "description": "Telltale - Anti-Lock Brake System"
+    },
+    {
+      "code": "H1.69",
+      "description": "Telltale - Coolant level"
+    },
+    {
+      "code": "H1.6",
+      "description": "Telltale - Engine"
+    },
+    {
+      "code": "H1.76",
+      "description": "Telltale - Gear shift up/Anti-theft warning system"
+    },
+    {
+      "code": "H1.12",
+      "description": "Telltale - High beam"
+    },
+    {
+      "code": "P5",
+      "description": "Sensor - Fuel tank content"
+    },
+    {
+      "code": "H1.17",
+      "description": "Telltale - Brake system"
+    },
+    {
+      "code": "S125",
+      "description": "Switch - Illumination/Reset trip odometer"
+    },
+    {
+      "code": "H1.19",
+      "description": "Telltale - Turn signal lamp"
+    },
+    {
+      "code": "X3",
+      "description": "Main harness & Extension harness, engine"
+    },
+    {
+      "code": "X34",
+      "description": "Extension harness, engine & Battery positive"
+    },
+    {
+      "code": "X30",
+      "description": "Fuel tank & Fuel pump/sensor"
+    },
+    {
+      "code": "Z20LET",
+      "description": "Engine Z20LET"
+    },
+    {
+      "code": "Z22SE",
+      "description": "Engine Z22SE"
+    }
+  ]
+}

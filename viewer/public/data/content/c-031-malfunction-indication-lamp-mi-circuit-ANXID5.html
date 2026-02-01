@@ -1,0 +1,470 @@
+<div class="content"><h2>C-031 - Malfunction Indication Lamp (MI) Circuit</h2>
+<table border="2" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+  <tr>
+    <td valign="top" align="center" width="12%" STYLE="font-weight:bold">
+      <p>Test</p>
+    </td>
+    <td valign="top" width="64%" STYLE="font-weight:bold">
+      <p>Work Order Description</p>
+    </td>
+    <td valign="top" width="24%" STYLE="font-weight:bold">
+      <p>Nominal Value</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429277"></a>
+      <b>T001</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Voltage/Ground/Interruption of Signal Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Ignition OFF</li>
+        <li>Ignition ON</li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>Is at least one of the following telltales ON?</p>
+      <p>H1.4 Telltale - Airbag</p>
+      <p>or</p>
+      <p>H1.5 Telltale - Anti-Lock Brake System</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('AQDOPZNJON','1','5862-6-429280',null)">T002</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('ANAOQONARN','1','5862-6-429278',null)">E006</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429280"></a>
+      <b>T002</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Ground of Signal Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Ignition OFF</li>
+        <li>Disconnect wiring harness connector from:<br>A5 Control Unit - Motronic
+        </li>
+        <li>Ignition ON</li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>System telltale OFF</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('AUEOHUNFQN','1','5862-6-429284',null)">T003</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('AQ6O6QNMON','1','5862-6-429281',null)">T006</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="4">
+      <a name="5862-6-429284"></a>
+      <b>T003</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Voltage of Signal Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Ignition OFF</li>
+        <li>Remove electrical component from socket:<br>FB7 Fuse
+        </li>
+        <li>Ignition ON</li>
+        <li>Measure voltage between the following terminals:<br>A5 Control Unit - Motronic<br>Wiring harness connector (wiring harness side) terminal 13 (X31)<br>&amp;<br>Ground
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>less than 0.3&nbsp;V</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2" ACTION="">
+      <table cellspacing="0">
+        <tr>
+          <td width="12%" STYLE="text-align:center"><img STYLE="width:32;height:32" SRC="pic/cpr/v-measure.gif">
+          </td>
+          <td width="39%">Voltage Measurement</td>
+          <td STYLE="text-align:right">Current Value:</td>
+          <td width="10%"><INPUT TYPE="TEXT" name="ARAORWNATN" VALUE="" MAXLENGTH="255" SIZE="15">
+          </td>
+          <td>V</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('A78OKRNHON','1','5862-6-429288',null)">T004</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('AGAOTUN3VN','1','5862-6-429286',null)">T005</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429288"></a>
+      <b>T004</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Interruption of Signal Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Ignition OFF</li>
+        <li>Insert electrical component in socket:<br>FB7 Fuse
+        </li>
+        <li>Connect fused jumper wire to:<br>A5 Control Unit - Motronic<br>Wiring harness connector (wiring harness side) terminal 13 (X31)<br>&amp;<br>Ground
+        </li>
+        <li>Ignition ON</li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>System telltale ON</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('AIHOVXN0UN','1','5862-6-429279',null)">E001</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('AXAO1UNYTN','1','5862-6-429285',null)">E002</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="4">
+      <a name="5862-6-429286"></a>
+      <b>T005</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Voltage of Signal Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Ignition OFF</li>
+        <li>Disconnect wiring harness connector from:<br>A17 Control Unit - Immobiliser
+        </li>
+        <li>Ignition ON</li>
+        <li>Measure voltage between the following terminals:<br>A5 Control Unit - Motronic<br>Wiring harness connector (wiring harness side) terminal 13 (X31)<br>&amp;<br>Ground
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>less than 0.3&nbsp;V</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2" ACTION="">
+      <table cellspacing="0">
+        <tr>
+          <td width="12%" STYLE="text-align:center"><img STYLE="width:32;height:32" SRC="pic/cpr/v-measure.gif">
+          </td>
+          <td width="39%">Voltage Measurement</td>
+          <td STYLE="text-align:right">Current Value:</td>
+          <td width="10%"><INPUT TYPE="TEXT" name="ANFOZPNUVN" VALUE="" MAXLENGTH="255" SIZE="15">
+          </td>
+          <td>V</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('AE7OUYNUPN','1','5862-6-429282',null)">E003</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('A3DOGVNHYN','1','5862-6-429287',null)">E004</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429281"></a>
+      <b>T006</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Ground of Signal Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Ignition OFF</li>
+        <li>Disconnect wiring harness connector from:<br>A17 Control Unit - Immobiliser
+        </li>
+        <li>Ignition ON</li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>System telltale OFF</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('AGEOAQNQRN','1','5862-6-429282',null)">E003</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('AL8ORTNFTN','1','5862-6-429283',null)">E005</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table><br><br>
+<table border="2" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+  <tr>
+    <td valign="top" align="center" width="12%" STYLE="font-weight:bold">
+      <p>Result</p>
+    </td>
+    <td STYLE="vertical-align:top;font-weight:bold">
+      <p>Cause Of Fault</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429279"></a>
+      <b>E001</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Defective Component</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Defective component:<br>A5 Control Unit - Motronic
+        </li>
+      </ul>
+      <p> </p>
+      <p>
+        <b>Note:</b>
+      </p>
+      <p>Reset concerned control unit (engine or immobiliser control unit) with diagnostic tester before replacing. Select immobiliser in the diagnostic tester and call up the corresponding test in the menu ADDITIONAL FUNCTIONS. Ensure that both control units are never reset and replaced at the same time.</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AQ9OWSNPTN','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429285"></a>
+      <b>E002</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Interruption</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Circuit interruption between:<br>A5 Control Unit - Motronic<br>Wiring harness connector (wiring harness side) terminal 13 (X31)<br>&amp;<br>H1 Instrument<br>Wiring harness connector (wiring harness side) terminal B5
+        </li>
+      </ul>
+      <p>or</p>
+      <ul>
+        <li>Defective component:<br>H1 Instrument<br>or<br>H1.6 Telltale - Engine
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AS8OMXN7XN','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429282"></a>
+      <b>E003</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Defective Component</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Defective component:<br>A17 Control Unit - Immobiliser
+        </li>
+      </ul>
+      <p> </p>
+      <p>
+        <b>Note:</b>
+      </p>
+      <p>Reset concerned control unit (engine or immobiliser control unit) with diagnostic tester before replacing. Select immobiliser in the diagnostic tester and call up the corresponding test in the menu ADDITIONAL FUNCTIONS. Ensure that both control units are never reset and replaced at the same time.</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('A0EOXQNLYN','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429287"></a>
+      <b>E004</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Short to Voltage</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Short circuit to voltage between:<br>A5 Control Unit - Motronic<br>Wiring harness connector (wiring harness side) terminal 13 (X31)<br>&amp;<br>H1 Instrument<br>Wiring harness connector (wiring harness side) terminal B5<br>&amp;<br>A17 Control Unit - Immobiliser<br>Wiring harness connector (wiring harness side) terminal 2
+        </li>
+      </ul>
+      <p>or</p>
+      <ul>
+        <li>Defective component:<br>H1 Instrument
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AI7OVYNDON','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429283"></a>
+      <b>E005</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Short to Ground</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Short circuit to ground between:<br>A5 Control Unit - Motronic<br>Wiring harness connector (wiring harness side) terminal 13 (X31)<br>&amp;<br>H1 Instrument<br>Wiring harness connector (wiring harness side) terminal B5<br>&amp;<br>A17 Control Unit - Immobiliser<br>Wiring harness connector (wiring harness side) terminal 2
+        </li>
+      </ul>
+      <p>or</p>
+      <ul>
+        <li>Defective component:<br>H1 Instrument
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('ASFOAWNKSN','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429278"></a>
+      <b>E006</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Defective Component</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Following system/component is faulty:<br>H1 Instrument
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('A4FOHWNLWN','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+</table><br><br><br><br><br></div>

@@ -1,0 +1,7 @@
+{
+  "type": "generic",
+  "id": "load-compartment-AQS315",
+  "title": "load-compartment-AQS315",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\r\n<DIV>\r\n<P  ><FONT STYLE=\"font-size: 12pt; \">         &nbsp;</FONT><P  ><FONT STYLE=\"font-size: 12pt;font-weight: bold; \"> Load Compartment   &nbsp;</FONT><P  ><FONT STYLE=\"font-size: 12pt; \"> The load compartment is located at the rear of the vehicle, behind the engine  compartment. Opening the engine cover provides access to the load compartment.          &nbsp;</FONT></DIV>\r\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "extractedData": {}
+}

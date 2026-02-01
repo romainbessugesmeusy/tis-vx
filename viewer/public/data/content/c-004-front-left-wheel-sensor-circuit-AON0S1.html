@@ -1,0 +1,455 @@
+<div class="content"><h2>C-004 - Front Left Wheel Sensor Circuit</h2>
+<table border="2" width="100%" cellspacing="0" bordercolor="#000000" style="empty-cells:show">
+  <tbody><tr>
+    <td valign="top" align="center" width="12%" style="font-weight:bold">
+      <p>Test</p>
+    </td>
+    <td valign="top" width="64%" style="font-weight:bold">
+      <p>Work Order Description</p>
+    </td>
+    <td valign="top" width="24%" style="font-weight:bold">
+      <p>Nominal Value</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="4">
+      <a name="5602-6-211852"></a>
+      <b>T001</b>
+    </td>
+    <td style="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Voltage of Signal Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Ignition OFF</li>
+        <li>Disconnect wiring harness connector from:<br>A2 Control Unit - Anti Lock Brake System
+        </li>
+        <li>Ignition ON</li>
+        <li>Measure voltage between the following terminals:<br>A2 Control Unit - Anti Lock Brake System<br>Wiring harness connector (wiring harness side) terminal 25<br>&amp;<br>Ground
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>less than 0.3&nbsp;V</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top;background-color:rgb(196,196,196)" colspan="2" action="">
+      <table cellspacing="0">
+        <tbody><tr>
+          <td width="12%" style="text-align:center"><img style="width:32;height:32" src="pic/cpr/v-measure.gif">
+          </td>
+          <td width="39%">Voltage Measurement</td>
+          <td style="text-align:right">Current Value:</td>
+          <td width="10%"><input type="TEXT" name="ASN1TA1651" value="" maxlength="255" size="15">
+          </td>
+          <td>V</td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" bordercolor="#000000" style="empty-cells:show">
+        <tbody><tr>
+          <td style="vertical-align:top;width:50%">
+            <font style="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('ACV1EG12D1','1','5602-6-211853',null)">T002</a>
+            </font>
+          </td>
+          <td style="vertical-align:top;width:50%">
+            <font style="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('AMT1C71XC1','1','5602-6-211854',null)">E006</a>
+            </font>
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="4">
+      <a name="5602-6-211853"></a>
+      <b>T002</b>
+    </td>
+    <td style="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Ground of Signal Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Ignition OFF</li>
+        <li>Measure resistance between the following terminals:<br>A2 Control Unit - Anti Lock Brake System<br>Wiring harness connector (wiring harness side) terminal 25<br>&amp;<br>Ground
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>greater than 500&nbsp;kOhm</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top;background-color:rgb(196,196,196)" colspan="2" action="">
+      <table cellspacing="0">
+        <tbody><tr>
+          <td width="12%" style="text-align:center"><img style="width:32;height:32" src="pic/cpr/v-measure.gif">
+          </td>
+          <td width="39%">Resistance Measurement</td>
+          <td style="text-align:right">Current Value:</td>
+          <td width="10%"><input type="TEXT" name="ATT1881BE1" value="" maxlength="255" size="15">
+          </td>
+          <td>kOhm</td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" bordercolor="#000000" style="empty-cells:show">
+        <tbody><tr>
+          <td style="vertical-align:top;width:50%">
+            <font style="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('AEQ1AB10A1','1','5602-6-211856',null)">T003</a>
+            </font>
+          </td>
+          <td style="vertical-align:top;width:50%">
+            <font style="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('AFV1ZB1681','1','5602-6-211855',null)">E005</a>
+            </font>
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="4">
+      <a name="5602-6-211856"></a>
+      <b>T003</b>
+    </td>
+    <td style="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Interruption of Signal Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Measure resistance between the following terminals:<br>A2 Control Unit - Anti Lock Brake System<br>Wiring harness connector (wiring harness side) terminal 25<br>&amp;<br>A2 Control Unit - Anti Lock Brake System<br>Wiring harness connector (wiring harness side) terminal 14
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>1.4 ... 1.7&nbsp;kOhm</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top;background-color:rgb(196,196,196)" colspan="2" action="">
+      <table cellspacing="0">
+        <tbody><tr>
+          <td width="12%" style="text-align:center"><img style="width:32;height:32" src="pic/cpr/v-measure.gif">
+          </td>
+          <td width="39%">Resistance Measurement</td>
+          <td style="text-align:right">Current Value:</td>
+          <td width="10%"><input type="TEXT" name="ATX12618F1" value="" maxlength="255" size="15">
+          </td>
+          <td>kOhm</td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" bordercolor="#000000" style="empty-cells:show">
+        <tbody><tr>
+          <td style="vertical-align:top;width:50%">
+            <font style="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('APN1681J41','1','5602-6-211859',null)">T004</a>
+            </font>
+          </td>
+          <td style="vertical-align:top;width:50%">
+            <font style="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('AJS16F1KF1','1','5602-15-211856',null)">T005</a>
+            </font>
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="4">
+      <a name="5602-6-211859"></a>
+      <b>T004</b>
+    </td>
+    <td style="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Component</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Switch multimeter to alternating-current voltage measurement.</li>
+        <li>Vehicle jacked-up and front left wheel slowly turned by hand</li>
+        <li>Measure voltage between the following terminals:<br>A2 Control Unit - Anti Lock Brake System<br>Wiring harness connector (wiring harness side) terminal 25<br>&amp;<br>A2 Control Unit - Anti Lock Brake System<br>Wiring harness connector (wiring harness side) terminal 14
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>greater than 0.01&nbsp;V</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top;background-color:rgb(196,196,196)" colspan="2" action="">
+      <table cellspacing="0">
+        <tbody><tr>
+          <td width="12%" style="text-align:center"><img style="width:32;height:32" src="pic/cpr/v-measure.gif">
+          </td>
+          <td width="39%">Voltage Measurement</td>
+          <td style="text-align:right">Current Value:</td>
+          <td width="10%"><input type="TEXT" name="ARN10E1UB1" value="" maxlength="255" size="15">
+          </td>
+          <td>V</td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" bordercolor="#000000" style="empty-cells:show">
+        <tbody><tr>
+          <td style="vertical-align:top;width:50%">
+            <font style="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('ATQ18B1BC1','1','5602-6-211860',null)">E001</a>
+            </font>
+          </td>
+          <td style="vertical-align:top;width:50%">
+            <font style="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('ATO1KD1G71','1','5602-6-211863',null)">E002</a>
+            </font>
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="4">
+      <a name="5602-15-211856"></a>
+      <b>T005</b>
+    </td>
+    <td style="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Interruption of Signal Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Measure resistance between the following terminals:<br>A2 Control Unit - Anti Lock Brake System<br>Wiring harness connector (wiring harness side) terminal 25<br>&amp;<br>A2 Control Unit - Anti Lock Brake System<br>Wiring harness connector (wiring harness side) terminal 14
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>greater than 1.7&nbsp;kOhm</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top;background-color:rgb(196,196,196)" colspan="2" action="">
+      <table cellspacing="0">
+        <tbody><tr>
+          <td width="12%" style="text-align:center"><img style="width:32;height:32" src="pic/cpr/v-measure.gif">
+          </td>
+          <td width="39%">Resistance Measurement</td>
+          <td style="text-align:right">Current Value:</td>
+          <td width="10%"><input type="TEXT" name="AXP1ZA1R91" value="" maxlength="255" size="15">
+          </td>
+          <td>kOhm</td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" bordercolor="#000000" style="empty-cells:show">
+        <tbody><tr>
+          <td style="vertical-align:top;width:50%">
+            <font style="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('ABX1G810D1','1','5602-6-211858',null)">E003</a>
+            </font>
+          </td>
+          <td style="vertical-align:top;width:50%">
+            <font style="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('A7X1LC1AC1','1','5602-6-211857',null)">E004</a>
+            </font>
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+</tbody></table><br><br>
+<table border="2" width="100%" cellspacing="0" bordercolor="#000000" style="empty-cells:show">
+  <tbody><tr>
+    <td valign="top" align="center" width="12%" style="font-weight:bold">
+      <p>Result</p>
+    </td>
+    <td style="vertical-align:top;font-weight:bold">
+      <p>Cause Of Fault</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5602-6-211860"></a>
+      <b>E001</b>
+    </td>
+    <td style="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Defective Component</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Defective component:<br>A2 Control Unit - Anti Lock Brake System
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="background-color:rgb(196,196,196)">
+      <font style="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('A2P1V91G81','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5602-6-211863"></a>
+      <b>E002</b>
+    </td>
+    <td style="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Defective Component</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Defective component:<br>B25 Sensor - Wheel Speed, Front Left
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="background-color:rgb(196,196,196)">
+      <font style="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('A2S1PD1KE1','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5602-6-211858"></a>
+      <b>E003</b>
+    </td>
+    <td style="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Interruption</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Circuit interruption between:<br>A2 Control Unit - Anti Lock Brake System<br>Wiring harness connector (wiring harness side) terminal 25<br>&amp;<br>B25 Sensor - Wheel Speed, Front Left<br>Wiring harness connector (wiring harness side) terminal B<br>or<br>A2 Control Unit - Anti Lock Brake System<br>Wiring harness connector (wiring harness side) terminal 14<br>&amp;<br>B25 Sensor - Wheel Speed, Front Left<br>Wiring harness connector (wiring harness side) terminal A
+        </li>
+      </ul>
+      <p>or</p>
+      <ul>
+        <li>Defective component:<br>B25 Sensor - Wheel Speed, Front Left
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="background-color:rgb(196,196,196)">
+      <font style="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AJN1QD1X41','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5602-6-211857"></a>
+      <b>E004</b>
+    </td>
+    <td style="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Short Circuit in Wiring Harness</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Short circuit in wiring harness between:<br>A2 Control Unit - Anti Lock Brake System<br>Wiring harness connector (wiring harness side) terminal 25<br>&amp;<br>A2 Control Unit - Anti Lock Brake System<br>Wiring harness connector (wiring harness side) terminal 14
+        </li>
+      </ul>
+      <p>or</p>
+      <ul>
+        <li>Defective component:<br>B25 Sensor - Wheel Speed, Front Left
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="background-color:rgb(196,196,196)">
+      <font style="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('ANP1F71491','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5602-6-211855"></a>
+      <b>E005</b>
+    </td>
+    <td style="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Short to Ground</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Short circuit to ground between:<br>A2 Control Unit - Anti Lock Brake System<br>Wiring harness connector (wiring harness side) terminal 25<br>&amp;<br>B25 Sensor - Wheel Speed, Front Left<br>Wiring harness connector (wiring harness side) terminal B<br>or<br>A2 Control Unit - Anti Lock Brake System<br>Wiring harness connector (wiring harness side) terminal 14<br>&amp;<br>B25 Sensor - Wheel Speed, Front Left<br>Wiring harness connector (wiring harness side) terminal A
+        </li>
+      </ul>
+      <p>or</p>
+      <ul>
+        <li>Defective component:<br>B25 Sensor - Wheel Speed, Front Left
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="background-color:rgb(196,196,196)">
+      <font style="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AVY1EJ1WM1','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5602-6-211854"></a>
+      <b>E006</b>
+    </td>
+    <td style="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Short to Voltage</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Short circuit to voltage between:<br>A2 Control Unit - Anti Lock Brake System<br>Wiring harness connector (wiring harness side) terminal 25<br>&amp;<br>B25 Sensor - Wheel Speed, Front Left<br>Wiring harness connector (wiring harness side) terminal B<br>or<br>A2 Control Unit - Anti Lock Brake System<br>Wiring harness connector (wiring harness side) terminal 14<br>&amp;<br>B25 Sensor - Wheel Speed, Front Left<br>Wiring harness connector (wiring harness side) terminal A
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="background-color:rgb(196,196,196)">
+      <font style="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AM42ZI1CJ1','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+</tbody></table><br><br><br><br><br></div>

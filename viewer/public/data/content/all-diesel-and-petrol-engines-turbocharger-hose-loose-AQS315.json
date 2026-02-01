@@ -1,0 +1,30 @@
+{
+  "type": "tsb",
+  "id": "all-diesel-and-petrol-engines-turbocharger-hose-loose-AQS315",
+  "title": "Field Remedy: 2026",
+  "subject": "All diesel and petrol engines -\nTurbocharger hose loose",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "11 - Loose or Comes off",
+    "troubleCode": "None"
+  },
+  "complaint": "Customer complaint about lack of power.",
+  "cause": "Turbocharger hose slipped off.",
+  "production": "Correct torque and cleansing method since\nSOP.",
+  "remedyContent": [
+    {
+      "type": "paragraph",
+      "text": "In case of customer complaint do not retighten the clamp. If the\nconnection becomes loose, disassemble the complete turbocharger\nhose, clean both sides, e.g. the hose inside at its inner clamping\narea as well as the flange at the opposite."
+    },
+    {
+      "type": "text",
+      "text": "For cleansing operation use a pad wettened with either acetone or wettened with some petrol liquid (do not soak pad with acetone or petrol liquid).\nReassemble the hose to the flanges and tight the clamps with 3,5 Nm to 4 Nm (max.)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Due to the design of those clamps the final torque will be lower\nthan 3,5 Nm after setting of the clamp, but that behavior is due to\nthe clamp design. In any case, do not retighten."
+    }
+  ]
+}

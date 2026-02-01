@@ -1,0 +1,222 @@
+{
+  "type": "procedure",
+  "id": "fuel-lines-replace-z20-let-AQS315",
+  "title": "Fuel Lines, Replace (Z20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Release fuel pressure from fuel system",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove protective cap"
+            },
+            {
+              "bullet": "•",
+              "text": "Release fuel pressure using Pressure Tester KM-J-34730-91 (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Collect any escaping fuel in a suitable container"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8f83f0ed0394.jpg",
+            "alt": "Object Number: 2421974  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove Pressure Tester KM-J-34730-91 (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Disconnect test connection hose (2) from fuel rail"
+            },
+            {
+              "bullet": "•",
+              "text": "Install protective cap"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8f83f0ed0394.jpg",
+            "alt": "Object Number: 2421974  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Disconnect 2x fuel line from fuel rail Note: Counter hold adapter with open end of spanner.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x blanking plug"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/492d84df5776.jpg",
+            "alt": "Object Number: 2422908  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Disconnect 4x fuel lines (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use Remover KM-796-A"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 4x blanking plug"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d41206f0bbe6.jpg",
+            "alt": "Object Number: 2422906  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Disconnect 2x fuel line from fuel filter (1) Note: Counterhold fuel filter at hexagon with open end of spanner.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x blanking plug"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/47f404f821e0.jpg",
+            "alt": "Object Number: 2422907  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Release fuel tank from vehicle chassis – see operation “Fuel Tank, Remove and Install” Note: Lower fuel tank to enable access to fuel lines.",
+          "image": {
+            "src": "/data/assets/images/f647bab3753a.jpg",
+            "alt": "Object Number: 2422905  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Disconnect 2x fuel line (1) from fuel tank",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use Remover KM-796-A"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 4x blanking plug"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f647bab3753a.jpg",
+            "alt": "Object Number: 2422905  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 8,
+          "text": "Connect 2x fuel line to fuel tank",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x blanking plug"
+            },
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Secure fuel tank to vehicle chassis – see operation “Fuel Tank, Remove and Install”",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Connect 2x fuel line to fuel filter Note: Counterhold fuel filter at hexagon with open end of spanner.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x blanking plug"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Connect 4x fuel lines (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x blanking plug"
+            },
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d41206f0bbe6.jpg",
+            "alt": "Object Number: 2422906  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 12,
+          "text": "Connect 2x fuel line to fuel rail Note: Counter hold adapter with open end of spanner.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x blanking plug"
+            }
+          ],
+          "image": null
+        }
+      ]
+    }
+  ],
+  "toolsRequired": [
+    "KM-J-34730-91",
+    "KM-796-A"
+  ],
+  "warnings": [
+    "Fuel may escape\n– observe the safety regulations and relevant national\nlegislation."
+  ],
+  "notes": [
+    "Disconnect 2x fuel line from fuel rail\n Counter hold\nadapter with open end of spanner.\n \n\n\n\n•  \nInstall 4x blanking plug",
+    "Disconnect 2x fuel line from fuel filter (1)\n Counterhold fuel\nfilter at hexagon with open end of spanner.\n \n\n\n\n•  \nInstall 4x blanking plug",
+    "Release fuel tank from vehicle chassis – see operation\n“Fuel Tank, Remove and Install”\n Lower fuel tank\nto enable access to fuel lines.",
+    "Connect 2x fuel line to fuel filter\n Counterhold fuel\nfilter at hexagon with open end of spanner.\n \n\n\n\n•  \nRemove 4x blanking plug",
+    "Connect 2x fuel line to fuel rail\n Counter hold\nadapter with open end of spanner.\n \n\n\n\n•  \nRemove 4x blanking plug"
+  ]
+}

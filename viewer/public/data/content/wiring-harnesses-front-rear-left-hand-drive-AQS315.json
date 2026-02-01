@@ -1,0 +1,107 @@
+{
+  "type": "harness_diagram",
+  "id": "wiring-harnesses-front-rear-left-hand-drive-AQS315",
+  "title": "Wiring harnesses - Front & Rear",
+  "diagram": {
+    "src": "/data/assets/converted/f353d7329e25.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "X1",
+      "description": "Main harness & Battery positive"
+    },
+    {
+      "code": "X15",
+      "description": "Main harness & Front passenger door"
+    },
+    {
+      "code": "X2",
+      "description": "Main harness & Extension harness, engine"
+    },
+    {
+      "code": "X25",
+      "description": "Main harness & Extension harness, contact switch - Driver door"
+    },
+    {
+      "code": "X3",
+      "description": "Main harness & Extension harness, engine"
+    },
+    {
+      "code": "X26",
+      "description": "Main harness & Extension harness, contact switch - Front passenger door"
+    },
+    {
+      "code": "X4",
+      "description": "Main harness & Extension harness, engine"
+    },
+    {
+      "code": "X33",
+      "description": "Extension harness, engine & Engine"
+    },
+    {
+      "code": "X5",
+      "description": "Main harness & Rear"
+    },
+    {
+      "code": "X34",
+      "description": "Extension harness, engine & Battery positive"
+    },
+    {
+      "code": "X6",
+      "description": "Main harness & Rear (Fog lamp)"
+    },
+    {
+      "code": "X35",
+      "description": "Main harness & Engine"
+    },
+    {
+      "code": "X7",
+      "description": "Main harness & Rear (Reversing lamp)"
+    },
+    {
+      "code": "X36",
+      "description": "Main harness & Engine"
+    },
+    {
+      "code": "X8",
+      "description": "Main harness & Extension harness, boot switch"
+    },
+    {
+      "code": "X37",
+      "description": "Main harness & Engine"
+    },
+    {
+      "code": "X10",
+      "description": "Main harness & Interior fan"
+    },
+    {
+      "code": "X38",
+      "description": "Extension harness, engine & Engine"
+    },
+    {
+      "code": "X12",
+      "description": "Main harness & Roll hoop"
+    },
+    {
+      "code": "X40",
+      "description": "Main harness & Roll hoop"
+    },
+    {
+      "code": "X13",
+      "description": "Diagnostic link"
+    },
+    {
+      "code": "X41",
+      "description": "Main harness & Extension harness, fog lamp, front left"
+    },
+    {
+      "code": "X14",
+      "description": "Main harness & Driver door"
+    },
+    {
+      "code": "X42",
+      "description": "Main harness & Extension harness, fog lamp, front right"
+    }
+  ]
+}

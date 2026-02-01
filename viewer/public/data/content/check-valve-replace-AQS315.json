@@ -1,0 +1,57 @@
+{
+  "type": "procedure",
+  "id": "check-valve-replace-AQS315",
+  "title": "Check Valve, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove check valve (2) from brake servo",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Disconnect vacuum hose (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Pull out check valve"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/348d9f138cee.jpg",
+            "alt": "Object Number: 2422598  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 2,
+          "text": "Install check valve to brake servo",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            },
+            {
+              "bullet": "•",
+              "text": "Connect vacuum hose"
+            }
+          ],
+          "image": null
+        }
+      ]
+    }
+  ]
+}

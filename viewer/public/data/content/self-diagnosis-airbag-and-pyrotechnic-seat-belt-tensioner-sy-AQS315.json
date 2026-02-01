@@ -1,0 +1,7 @@
+{
+  "type": "generic",
+  "id": "self-diagnosis-airbag-and-pyrotechnic-seat-belt-tensioner-sy-AQS315",
+  "title": "self-diagnosis-airbag-and-pyrotechnic-seat-belt-tensioner-sy-AQS315",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\r\n<DIV>\r\n<P  ><FONT STYLE=\"font-size: 12pt; \">         &nbsp;</FONT><P  ><FONT STYLE=\"font-size: 12pt;font-weight: bold; \"> Self-diagnosis   &nbsp;</FONT><P  ><FONT STYLE=\"font-size: 12pt; \"> The airbag system is monitored by the fault-finding circuits in the control unit.   &nbsp;</FONT><P  ><FONT STYLE=\"font-size: 12pt; \"> The airbag telltale should illuminate for approximately 4 seconds when the  ignition is switched on, then extinguish.  If the telltale does not illuminate  when the ignition is switched on, or if the telltale illuminates when the  vehicle is driven, there is a fault in the system.   &nbsp;</FONT><P  ><FONT STYLE=\"font-size: 12pt; \"> Faults that are detected are stored in the control unit and can be read by means  of TECH 2.          &nbsp;</FONT></DIV>\r\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "extractedData": {}
+}

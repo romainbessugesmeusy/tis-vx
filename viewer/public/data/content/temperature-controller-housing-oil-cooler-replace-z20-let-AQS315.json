@@ -1,0 +1,287 @@
+{
+  "type": "procedure",
+  "id": "temperature-controller-housing-oil-cooler-replace-z20-let-AQS315",
+  "title": "Temperature Controller Housing, Oil Cooler,\nReplace (Z20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove engine undertray (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Raise vehicle"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 13x bolt, 13x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7c957595e425.jpg",
+            "alt": "Object Number: 2422664  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Remove oil filter",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install Oil Filter Tool KM-726-A"
+            },
+            {
+              "bullet": "•",
+              "text": "Discard oil filter"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Release oil cooler feed and return pipe from oil filter housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove banjo bolt from feed pipe (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove banjo bolt from return pipe (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove, then discard 4x sealing washer"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2137f859548d.jpg",
+            "alt": "Object Number: 2422924  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Remove temperature controller from oil cooler housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Position collecting container"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Remove temperature controller housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove adapter nut (1) for oil filter, use socket KM-943"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove housing bolt (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f2333ab679d8.jpg",
+            "alt": "Object Number: 2422927  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Remove, discard O ring seal",
+          "image": {
+            "src": "/data/assets/images/f2333ab679d8.jpg",
+            "alt": "Object Number: 2422927  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 7,
+          "text": "Install temperature controller housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install housing bolt 23 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Lubricate new seal"
+            },
+            {
+              "bullet": "•",
+              "text": "Install adapter nut for oil filter 23"
+            },
+            {
+              "bullet": "•",
+              "text": "Use Socket KM-943"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Secure oil cooler feed and return pipe to oil filter housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install banjo bolt, feed pipe to temperature controller housing"
+            },
+            {
+              "bullet": "•",
+              "text": "Install banjo bolt, return pipe to temperature controller"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 4x new sealing washer"
+            },
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install new oil filter",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install oil filter tool KM-726-A"
+            },
+            {
+              "bullet": "•–",
+              "text": "Remove collecting container",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Lubricate O ring seal"
+                }
+              ]
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Install temperature controller to oil cooler housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install Piston, Spring, new Sealing Washer and Plug 20 Nm + 60° + 30°"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Install engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 13x bolt, 13x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Run engine and check for leaks, stop engine",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Check engine oil level, top up if required"
+            }
+          ],
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install temperature controller housing",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Secure oil cooler feed and return pipe to oil filter housing",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Install new oil filter",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Install temperature controller to oil cooler housing",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Install housing bolt 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install banjo bolt, feed pipe to temperature controller housing 30 Nm",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Screw fit 15 Nm – Lubricate O ring seal – Remove collecting container",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install Piston, Spring, new Sealing Washer and Plug 20 Nm + 60° + 30° Note: Note position for installation.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-726-A",
+    "KM-943"
+  ],
+  "warnings": [
+    "A four post hoist must\nbe used to raise the vehicle when removing the engine undertray.\nThe vehicle can be moved to a two post hoist for other operations\nif required.",
+    "Observe relevant\nenvironmental regulations when disposing of used coolant and\nlubricants."
+  ],
+  "notes": [
+    "Remove Plug, Spring and Piston, then discard Sealing Washer\n Note position for\ninstallation.\n \n\n\n\n–\nPosition collecting container",
+    "Install Piston, Spring, new Sealing Washer and Plug 20 Nm + 60° + 30° \n Note position for\ninstallation."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "type": "procedure",
+  "id": "interior-lamp-remove-and-install-AQS315",
+  "title": "Interior Lamp, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Interior lamp from instrument panel – push the lamp at the switch end in the direction of the arrow against spring to release lamp body from panel, the pivot lamp to remove.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Harness connections from lamp.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Harness connections to lamp.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Interior lamp from instrument panel – place lamp into panel opening with spring end first then pivot into position.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

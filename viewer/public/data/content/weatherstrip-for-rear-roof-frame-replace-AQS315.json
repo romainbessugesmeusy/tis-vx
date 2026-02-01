@@ -1,0 +1,90 @@
+{
+  "type": "procedure",
+  "id": "weatherstrip-for-rear-roof-frame-replace-AQS315",
+  "title": "Weatherstrip for Rear Roof Frame, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove soft top or hard top",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove weatherstrip",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull off weatherstrip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Remove all traces of adhesive residue",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Install weatherstrip to rear roof frame",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Locate weatherstrip in aperture (1) between rear roof frame and"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3176e481efcb.jpg",
+            "alt": "Object Number: 2422362  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Secure weatherstrip to rear roof frame",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove protective tape, position weatherstrip then apply"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Secure weatherstrip to 2x B pillar",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Align rear weatherstrip (2) with front weatherstrip (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove protective tape, position weatherstrip then apply"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a37b2e7aaa74.jpg",
+            "alt": "Object Number: 2422360  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Install soft top or hard top",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

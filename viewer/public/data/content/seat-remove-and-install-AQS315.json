@@ -1,0 +1,50 @@
+{
+  "type": "procedure",
+  "id": "seat-remove-and-install-AQS315",
+  "title": "Seat, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Soft top or hard top from vehicle – see Owner's Manual.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Seat belt from seat – anchor bolt.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Seat from floor – bolts.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Seat to floor – bolts.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Seat belt to seat – anchor bolt.",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Soft top or hard top to vehicle.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

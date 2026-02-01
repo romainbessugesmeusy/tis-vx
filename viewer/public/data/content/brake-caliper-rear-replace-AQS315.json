@@ -1,0 +1,97 @@
+{
+  "type": "procedure",
+  "id": "brake-caliper-rear-replace-AQS315",
+  "title": "Brake Caliper, Rear, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Wheel from vehicle – bolts.",
+          "image": {
+            "src": "/data/assets/images/2d0e71fcac03.jpg",
+            "alt": "Object Number: 2429419  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Parking brake cable from brake caliper.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Brake caliper from support bracket – M10 bolt and M8 screw.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Brake hose from brake caliper.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 5,
+          "text": "Brake hose to brake caliper.",
+          "image": {
+            "src": "/data/assets/images/2d0e71fcac03.jpg",
+            "alt": "Object Number: 2429419  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Brake caliper to support bracket – M10 bolt and M8 screw; use suitable material to lock threads.",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Parking brake cable to brake caliper.",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Wheel to vehicle – bolts 90 Nm .",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "adjust",
+      "label": "Adjust",
+      "icon": "/data/assets/images/8bcc88ed08ca.gif",
+      "steps": [
+        {
+          "number": 9,
+          "text": "Caliper piston and brake pads – operate brake pedal several times to reset.",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Bleed brakes – see operation \"Brake System, Bleed\".",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Parking brake – see operation \"Parking Brake, Check and Adjust\".",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Wheel to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 8
+    }
+  ]
+}

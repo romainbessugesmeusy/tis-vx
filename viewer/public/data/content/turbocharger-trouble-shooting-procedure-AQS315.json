@@ -1,0 +1,110 @@
+{
+  "type": "tsb",
+  "id": "turbocharger-trouble-shooting-procedure-AQS315",
+  "title": "Field Remedy: 2483",
+  "subject": "Turbocharger - Trouble-Shooting\nProcedure",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "",
+    "complaintGroup": "",
+    "troubleCode": ""
+  },
+  "complaint": "Low performance, Noisy, Leaky, Black\nSmoke",
+  "cause": "Many turbochargers are being replaced\nunnecessarily because a trouble-shooting procedure is not being\nfollowed.",
+  "production": "None.",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "Most turbocharger failures are caused by one of the three basic\nreasons:"
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Lack of Lubrication",
+        "Oil Contamination",
+        "Foreign Object Damage"
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Turbin housing",
+        "Thrust bearing",
+        "Compressor wheel",
+        "REA (Elektronic Actuator)",
+        "Compressor housing",
+        "Journal bearing",
+        "Nozzle ring assembly (turbine wheel)"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Many turbochargers are replaced needlessly because a trouble-shooting \nprocedure is not being followed."
+    },
+    {
+      "type": "text",
+      "text": "Please use the following Turbocharger Diagnosis Table before replacing \nparts:"
+    },
+    {
+      "type": "diagnosis_table",
+      "table": {
+        "categories": [
+          {
+            "name": "Noise",
+            "rows": [
+              {
+                "description": "Compressor & Turbine Wheel damaged and bent",
+                "action": "Check for foreign object ingestion"
+              },
+              {
+                "description": "Incorrect wheel rotation or interference with housing",
+                "action": "Check for oil contamination Check oil replacement (service records)"
+              },
+              {
+                "description": "Leak between exhaust",
+                "action": "Check fitting of component manifold & cylinder head or turbine housing inlet"
+              },
+              {
+                "description": "Air hose damage or clamp tightening torque",
+                "action": "Replace air hose or re-tighten clamp insufficient"
+              }
+            ]
+          },
+          {
+            "name": "Leak",
+            "rows": [
+              {
+                "description": "Engine oil Leak",
+                "action": "Check turbo oil feed pipe and washer for damage"
+              },
+              {
+                "description": "Blow-by gas leak",
+                "action": "Check intercooler hose connections and securing clamp"
+              }
+            ]
+          },
+          {
+            "name": "Lack of power or poor acceleration",
+            "rows": [
+              {
+                "description": "No intercooler hose expansion during",
+                "action": "Check compressor wheel for damage and REA performance acceleration"
+              },
+              {
+                "description": "Incorrect compressor and turbine wheel rotation",
+                "action": "Check for oil contamination Check oil replacement (service records)"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/dd7b9ecf9f84.jpg",
+      "alt": "Object Number: 10673539  Size: DEFAULT"
+    }
+  ]
+}

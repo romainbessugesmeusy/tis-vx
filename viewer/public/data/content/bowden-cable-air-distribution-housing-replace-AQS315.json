@@ -1,0 +1,220 @@
+{
+  "type": "procedure",
+  "id": "bowden-cable-air-distribution-housing-replace-AQS315",
+  "title": "Bowden Cable, Air Distribution Housing,\nReplace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove hard top or soft top",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Disconnect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release windscreen wash reservoir, then move to one side"
+            },
+            {
+              "bullet": "•",
+              "text": "Release nut, bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Remove instrument pad assembly – see operation ”Instrument Pad Assembly, Remove and Install”",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Remove wiper motor cover (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x screw (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/408a245aded5.jpg",
+            "alt": "Object Number: 2422334  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Release harness connector (1) from wiper motor",
+          "image": {
+            "src": "/data/assets/images/d6318a2fb105.jpg",
+            "alt": "Object Number: 2422345  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Disconnect bowden cable (1) from lever on air distribution housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Prise off clip (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/65543b62056b.jpg",
+            "alt": "Object Number: 2422346  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Remove bowden cable (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release screw (3)"
+            },
+            {
+              "bullet": "•",
+              "text": "Pull off from air direction control (4)"
+            },
+            {
+              "bullet": "•",
+              "text": "Release grommet (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6d37ffd5c75f.jpg",
+            "alt": "Object Number: 2422347  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 8,
+          "text": "Transfer grommet to new bowden cable",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install new bowden cable",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure grommet"
+            },
+            {
+              "bullet": "•",
+              "text": "Push on to air direction control"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Adjust bowden cable",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Connect inner bowden cable to lever on air distribution"
+            },
+            {
+              "bullet": "•",
+              "text": "Turn knob for air direction control fully clockwise (air flow"
+            },
+            {
+              "bullet": "•",
+              "text": "Ensure lever on air distribution housing is in fully downward"
+            },
+            {
+              "bullet": "•",
+              "text": "Push on clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Check operation"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Secure harness connector to wiper motor",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Install wiper motor cover",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Install instrument pad assembly – see operation ”Instrument Pad Assembly, Remove and Install”",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Connect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure nut, bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Install windscreen wash reservoir",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Program all volatile memories",
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Install hard top or soft top",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

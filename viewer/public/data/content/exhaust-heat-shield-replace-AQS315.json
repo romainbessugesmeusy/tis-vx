@@ -1,0 +1,133 @@
+{
+  "type": "procedure",
+  "id": "exhaust-heat-shield-replace-AQS315",
+  "title": "Exhaust Heat Shield, Replace",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Raise vehicle",
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove exhaust undertray (2) from rear clamshell and engine undertray (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 8x bolt, 2x screw, 2x clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Release intermediate exhaust pipe from catalytic converter",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x bolt, 3x nut (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a3943659de90.jpg",
+            "alt": "Object Number: 2425115  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Remove intermediate exhaust pipe from rear silencer",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove U-clamp (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dad2d3b9abc4.jpg",
+            "alt": "Object Number: 2425118  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Clean all mating surfaces",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Remove heat shield from intermediate exhaust pipe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x bolt, 4x washer, 7x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Install heat shield to intermediate exhaust pipe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 7x clip, 4x washer, 4x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Install intermediate exhaust pipe to rear silencer",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install U-clamp"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install intermediate exhaust pipe to catalytic converter",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tighten 3x bolt, 3x nuts"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Install exhaust undertray to rear clamshell and engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 8x bolt, 2x screw 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Lower vehicle",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

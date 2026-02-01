@@ -1,0 +1,248 @@
+<div class="content"><h2>C-013 - ABS Telltale Circuit</h2>
+<table border="2" width="100%" cellspacing="0" bordercolor="#000000" style="empty-cells:show">
+  <tbody><tr>
+    <td valign="top" align="center" width="12%" style="font-weight:bold">
+      <p>Test</p>
+    </td>
+    <td valign="top" width="64%" style="font-weight:bold">
+      <p>Work Order Description</p>
+    </td>
+    <td valign="top" width="24%" style="font-weight:bold">
+      <p>Nominal Value</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5602-6-213017"></a>
+      <b>T001</b>
+    </td>
+    <td style="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Component</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Ignition ON</li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>Is at least one of the following components switched on?</p>
+      <p>H1.2 Telltale - Oil Pressure</p>
+      <p>H1.1 Charging Indicator Lamp</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" bordercolor="#000000" style="empty-cells:show">
+        <tbody><tr>
+          <td style="vertical-align:top;width:50%">
+            <font style="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('ACC2C02LV1','1','5602-6-213018',null)">T002</a>
+            </font>
+          </td>
+          <td style="vertical-align:top;width:50%">
+            <font style="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('A8J2H02ER1','1','5602-6-213016',null)">E004</a>
+            </font>
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5602-6-213018"></a>
+      <b>T002</b>
+    </td>
+    <td style="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Voltage/Interruption of Signal Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Ignition OFF</li>
+        <li>Disconnect wiring harness connector from:<br>A2 Control Unit - Anti Lock Brake System
+        </li>
+        <li>Ignition ON</li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>Is the following telltale ON?</p>
+      <p>H1.5 Telltale - Anti Lock Brake System</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" bordercolor="#000000" style="empty-cells:show">
+        <tbody><tr>
+          <td style="vertical-align:top;width:50%">
+            <font style="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('AY92J22F02','1','5602-6-213020',null)">T003</a>
+            </font>
+          </td>
+          <td style="vertical-align:top;width:50%">
+            <font style="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('A2E25V1IW1','1','5602-6-213019',null)">E003</a>
+            </font>
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5602-6-213020"></a>
+      <b>T003</b>
+    </td>
+    <td style="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Ground of Signal Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Open short circuit contact in wiring harness connector terminal 20</li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>Is the following telltale OFF?</p>
+      <p>H1.5 Telltale - Anti Lock Brake System</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" bordercolor="#000000" style="empty-cells:show">
+        <tbody><tr>
+          <td style="vertical-align:top;width:50%">
+            <font style="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('A9E27T1ZT1','1','5602-6-213021',null)">E001</a>
+            </font>
+          </td>
+          <td style="vertical-align:top;width:50%">
+            <font style="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('ASD21S1UY1','1','5602-6-213022',null)">E002</a>
+            </font>
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+</tbody></table><br><br>
+<table border="2" width="100%" cellspacing="0" bordercolor="#000000" style="empty-cells:show">
+  <tbody><tr>
+    <td valign="top" align="center" width="12%" style="font-weight:bold">
+      <p>Result</p>
+    </td>
+    <td style="vertical-align:top;font-weight:bold">
+      <p>Cause Of Fault</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5602-6-213021"></a>
+      <b>E001</b>
+    </td>
+    <td style="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Defective Component</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Defective component:<br>A2 Control Unit - Anti Lock Brake System
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="background-color:rgb(196,196,196)">
+      <font style="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AQA2QZ18S1','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5602-6-213022"></a>
+      <b>E002</b>
+    </td>
+    <td style="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Short to Ground</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Short circuit to ground between:<br>Instrument<br>Wiring harness connector (wiring harness side) terminal B12<br>&amp;<br>A2 Control Unit - Anti Lock Brake System<br>Wiring harness connector (wiring harness side) terminal 20
+        </li>
+      </ul>
+      <p>or</p>
+      <ul>
+        <li>Defective component:<br>Instrument
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="background-color:rgb(196,196,196)">
+      <font style="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('A6B2JZ1RQ1','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5602-6-213019"></a>
+      <b>E003</b>
+    </td>
+    <td style="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Short to Voltage/Interruption</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Short circuit to voltage/interruption of circuit between:<br>Instrument<br>Wiring harness connector (wiring harness side) terminal B12<br>&amp;<br>A2 Control Unit - Anti Lock Brake System<br>Wiring harness connector (wiring harness side) terminal 20
+        </li>
+      </ul>
+      <p>or</p>
+      <ul>
+        <li>Defective component:<br>H1.5 Telltale - Anti Lock Brake System<br>or<br>Instrument
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="background-color:rgb(196,196,196)">
+      <font style="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AMD2WX1YY1','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5602-6-213016"></a>
+      <b>E004</b>
+    </td>
+    <td style="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Defective Component</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Following system/component is faulty:<br>Instrument
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="background-color:rgb(196,196,196)">
+      <font style="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('A8F2RW1K02','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+</tbody></table><br><br><br><br><br></div>

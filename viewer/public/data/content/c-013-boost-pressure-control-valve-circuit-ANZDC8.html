@@ -1,0 +1,362 @@
+<div class="content"><h2>C-013 - Boost Pressure Control Valve Circuit</h2>
+<table border="2" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+  <tr>
+    <td valign="top" align="center" width="12%" STYLE="font-weight:bold">
+      <p>Test</p>
+    </td>
+    <td valign="top" width="64%" STYLE="font-weight:bold">
+      <p>Work Order Description</p>
+    </td>
+    <td valign="top" width="24%" STYLE="font-weight:bold">
+      <p>Nominal Value</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="4">
+      <a name="5862-6-428496"></a>
+      <b>T001</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Interruption of Voltage Supply Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Ignition OFF</li>
+        <li>Disconnect wiring harness connector from:<br>Y8 Solenoid Valve - Boost Pressure Regulation
+        </li>
+        <li>Ignition ON</li>
+        <li>Measure voltage between the following terminals:<br>Y8 Solenoid Valve - Boost Pressure Regulation<br>Wiring harness connector (wiring harness side) terminal 2<br>&amp;<br>Ground
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>greater than 11&nbsp;V</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2" ACTION="">
+      <table cellspacing="0">
+        <tr>
+          <td width="12%" STYLE="text-align:center"><img STYLE="width:32;height:32" SRC="pic/cpr/v-measure.gif">
+          </td>
+          <td width="39%">Voltage Measurement</td>
+          <td STYLE="text-align:right">Current Value:</td>
+          <td width="10%"><INPUT TYPE="TEXT" name="AO7GKYFCQF" VALUE="" MAXLENGTH="255" SIZE="15">
+          </td>
+          <td>V</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('AWAG4QFHVF','1','5862-6-428498',null)">T002</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('AJCGRPFJSF','1','5862-6-428495',null)">E005</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-428498"></a>
+      <b>T002</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Voltage/Ground/Interruption of Signal Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Ignition OFF</li>
+        <li>Connect test light to:<br>Y8 Solenoid Valve - Boost Pressure Regulation<br>Wiring harness connector (wiring harness side) terminal 1<br>&amp;<br>Y8 Solenoid Valve - Boost Pressure Regulation<br>Wiring harness connector (wiring harness side) terminal 2
+        </li>
+        <li>Ignition ON</li>
+        <li>Select and enable diagnostic tester actuator test:<br>Boost Pressure Control Solenoid Valve Test
+        </li>
+        <li>Press soft key INACTIVE</li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>Test light OFF?</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('AR8GJTFGQF','1','5862-6-428500',null)">T003</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('A56G5SFGWF','1','5862-6-428501',null)">E004</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-428500"></a>
+      <b>T003</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Voltage/Interruption of Signal Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Press soft key ACTIVE</li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>Test light ON?</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('A38GCSFTPF','1','5862-6-428499',null)">E001</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('AX5GWOFVVF','1','5862-6-428504',null)">T004</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="4">
+      <a name="5862-6-428504"></a>
+      <b>T004</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Voltage/Interruption of Signal Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Ignition OFF</li>
+        <li>Disconnect wiring harness connector from:<br>A5 Control Unit - Motronic<br>(Wiring Harness Connector X32 )
+        </li>
+        <li>Ignition ON</li>
+        <li>Measure voltage between the following terminals:<br>Y8 Solenoid Valve - Boost Pressure Regulation<br>Wiring harness connector (wiring harness side) terminal 1<br>&amp;<br>Ground
+        </li>
+      </ul>
+      <p>
+        <b>Note:</b>
+      </p>
+      <p>Blower motor is running</p>
+    </td>
+    <td valign="top">
+      <p>less than 0.3&nbsp;V</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2" ACTION="">
+      <table cellspacing="0">
+        <tr>
+          <td width="12%" STYLE="text-align:center"><img STYLE="width:32;height:32" SRC="pic/cpr/v-measure.gif">
+          </td>
+          <td width="39%">Voltage Measurement</td>
+          <td STYLE="text-align:right">Current Value:</td>
+          <td width="10%"><INPUT TYPE="TEXT" name="A1FGTNFQUF" VALUE="" MAXLENGTH="255" SIZE="15">
+          </td>
+          <td>V</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('ALGGJPFFOF','1','5862-6-428502',null)">E002</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('AZ8GGXFWQF','1','5862-6-428503',null)">E003</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table><br><br>
+<table border="2" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+  <tr>
+    <td valign="top" align="center" width="12%" STYLE="font-weight:bold">
+      <p>Result</p>
+    </td>
+    <td STYLE="vertical-align:top;font-weight:bold">
+      <p>Cause Of Fault</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-428499"></a>
+      <b>E001</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Defective Component</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Defective component:<br>Y8 Solenoid Valve - Boost Pressure Regulation
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('ABAGJVFRNF','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-428502"></a>
+      <b>E002</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Interruption</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Circuit interruption between:<br>A5 Control Unit - Motronic<br>Wiring harness connector (wiring harness side) terminal 35 (X32)<br>&amp;<br>Y8 Solenoid Valve - Boost Pressure Regulation<br>Wiring harness connector (wiring harness side) terminal 1
+        </li>
+      </ul>
+      <p>or</p>
+      <ul>
+        <li>Defective component:<br>A5 Control Unit - Motronic
+        </li>
+      </ul>
+      <p> </p>
+      <p>
+        <b>Important:</b>
+      </p>
+      <p>Reset concerned control unit (engine or immobiliser control unit) with diagnostic tester before replacing. Select immobiliser in the diagnostic tester and call up the corresponding test in the menu ADDITIONAL FUNCTIONS. Ensure that both control units are never reset and replaced at the same time.</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AIAGCVFBUF','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-428503"></a>
+      <b>E003</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Short to Voltage</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Short circuit to voltage between:<br>A5 Control Unit - Motronic<br>Wiring harness connector (wiring harness side) terminal 35 (X32)<br>&amp;<br>Y8 Solenoid Valve - Boost Pressure Regulation<br>Wiring harness connector (wiring harness side) terminal 1
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('A1AG6OFSTF','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-428501"></a>
+      <b>E004</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Short to Ground</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Short circuit to ground between:<br>A5 Control Unit - Motronic<br>Wiring harness connector (wiring harness side) terminal 35 (X32)<br>&amp;<br>Y8 Solenoid Valve - Boost Pressure Regulation<br>Wiring harness connector (wiring harness side) terminal 1
+        </li>
+      </ul>
+      <p>or</p>
+      <ul>
+        <li>Defective component:<br>A5 Control Unit - Motronic
+        </li>
+      </ul>
+      <p> </p>
+      <p>
+        <b>Important:</b>
+      </p>
+      <p>Reset concerned control unit (engine or immobiliser control unit) with diagnostic tester before replacing. Select immobiliser in the diagnostic tester and call up the corresponding test in the menu ADDITIONAL FUNCTIONS. Ensure that both control units are never reset and replaced at the same time.</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AS6GLUFNQF','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-428495"></a>
+      <b>E005</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Interruption</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Circuit interruption between:<br>FB20 Fuse<br>Output contact<br>&amp;<br>Y8 Solenoid Valve - Boost Pressure Regulation<br>Wiring harness connector (wiring harness side) terminal 2
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AU5GTRF3NF','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+</table><br><br><br><br><br></div>

@@ -1,0 +1,369 @@
+{
+  "type": "procedure",
+  "id": "silencer-replace-z-20-let-AQS315",
+  "title": "Silencer, Replace (Z 20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Disconnect oxygen sensor for secondary catalytic converter",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Disconnect engine harness connector (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/692777ecc310.jpg",
+            "alt": "Object Number: 2422576  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove engine undertray (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Raise vehicle"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 13x bolt, 13x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Remove exhaust pipe undertray (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 12x bolt, 12x washer, 2x clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Release harness for secondary catalytic converter",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x clip from left subframe for oxygen sensor"
+            },
+            {
+              "bullet": "•",
+              "text": "Release clip from rear silencer heatshield"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Remove secondary catalytic converter (1) for exhaust",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x front nut (3), then discard"
+            },
+            {
+              "bullet": "•",
+              "text": "Release rubber mount bracket"
+            },
+            {
+              "bullet": "•",
+              "text": "Release rubber mount"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove gasket (4) from front joint, then discard"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f0c4b7a1574c.jpg",
+            "alt": "Object Number: 2422309  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Remove intermediate pipe and heatshield from rear silencer",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clamp (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/95cd95b5c0db.jpg",
+            "alt": "Object Number: 2422575  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Release rear silencer, left support bracket from silencer",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x nut (1), then discard"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7522be43fca6.jpg",
+            "alt": "Object Number: 2422574  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Remove rear silencer, left flexible support from subframe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove clamp"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7522be43fca6.jpg",
+            "alt": "Object Number: 2422574  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Release rear silencer, right support bracket from silencer",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x nut (1), then discard"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7522be43fca6.jpg",
+            "alt": "Object Number: 2422574  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Remove rear silencer, right flexible support from subframe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove clamp"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7522be43fca6.jpg",
+            "alt": "Object Number: 2422574  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 11,
+          "text": "Remove silencer from vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/22ac6ddf2064.jpg",
+            "alt": "Object Number: 2422579  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 12,
+          "text": "Install silencer to vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Install rear silencer, right flexible support to subframe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clamp"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Secure rear silencer, right support bracket to silencer",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x new nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Install rear silencer, left flexible support to subframe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clamp"
+            },
+            {
+              "bullet": "•",
+              "text": "install 2x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Secure rear silencer, left support bracket to silencer",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x new nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Install intermediate pipe and heatshield to rear silencer",
+          "image": null
+        },
+        {
+          "number": 18,
+          "text": "Install secondary catalytic converter for exhaust",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install new gasket to front joint"
+            },
+            {
+              "bullet": "•",
+              "text": "Position bracket for rubber mount"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 3x new rear nut"
+            },
+            {
+              "bullet": "•",
+              "text": "Position rubber mount"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Install harness to rear silencer heatshield for oxygen sensor installed to secondary catalytic converter",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clip to heatshield"
+            },
+            {
+              "bullet": "•",
+              "text": "Install harness to subframe"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 20,
+          "text": "Secure clamp for intermediate pipe",
+          "image": null
+        },
+        {
+          "number": 21,
+          "text": "Install engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 13x bolt, 13x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 22,
+          "text": "Install exhaust pipe undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 12x bolt, 12x washer, 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 23,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 24,
+          "text": "Connect oxygen sensor for secondary catalytic converter to engine harness",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Connect harness connector"
+            }
+          ],
+          "image": null
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "A four-post hoist must\nbe used to raise the vehicle when removing the engine undertray and\nexhaust pipe undertray. The vehicle can be moved to a two-post\nhoist for other operations if required."
+  ],
+  "notes": [
+    "Remove gasket (4) from front joint, then discard\n Illustration\nshows exhaust removed for clarity.",
+    "Remove clamp\n Illustration\nshows left side only."
+  ]
+}

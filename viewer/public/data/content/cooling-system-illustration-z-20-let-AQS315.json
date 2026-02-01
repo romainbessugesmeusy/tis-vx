@@ -1,0 +1,22 @@
+{
+  "type": "procedure",
+  "id": "cooling-system-illustration-z-20-let-AQS315",
+  "title": "Cooling System Illustration (Z 20 LET)",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Cooling system illustrated",
+          "image": {
+            "src": "/data/assets/images/5d96f2463e82.jpg",
+            "alt": "Object Number: 2422600  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ]
+}

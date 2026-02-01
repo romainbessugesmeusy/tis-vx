@@ -1,0 +1,236 @@
+{
+  "type": "procedure",
+  "id": "oil-pan-lower-replace-z-20-let-AQS315",
+  "title": "Oil Pan, Lower, Replace (Z 20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove engine undertray (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Raise vehicle"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 13x bolt, 13x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Remove exhaust pipe undertray (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 12x bolt, 12x washer, 2x clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Remove drain bolt (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Position collecting container"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove, then discard O ring"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0d1b48368755.jpg",
+            "alt": "Object Number: 2422654  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Release lower oil pan from upper oil pan Note: Support lower oil pan when removing to avoid damage to harness for oil level sensor.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 16x bolt (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0d1b48368755.jpg",
+            "alt": "Object Number: 2422654  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Release oil level sensor from lower oil pan",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove, then discard oil pan gasket"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0d1b48368755.jpg",
+            "alt": "Object Number: 2422654  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 6,
+          "text": "Secure oil level sensor to lower oil pan",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt 8 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Install lower oil pan to upper oil pan",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install new oil pan gasket"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 16x bolt 8 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Install drain bolt 10 Nm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Lubricate new O ring"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Fill engine to correct oil level",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Start and run engine until oil light goes out"
+            },
+            {
+              "bullet": "•",
+              "text": "Check oil level, adjust if necessary"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Install engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 13x bolt, 13x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Install exhaust pipe undertray (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 12x bolt, 12x washer, 2x clip"
+            }
+          ],
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 14,
+          "text": "Lower vehicle",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Secure oil level sensor to lower oil pan",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Install lower oil pan to upper oil pan",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Install drain bolt 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Install 2x bolt 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "A four-post hoist must\nbe used to raise the vehicle when removing the engine undertray and\nexhaust pipe undertray. The vehicle can be moved to a two-post\nhoist for other operations if required."
+  ],
+  "notes": [
+    "Release lower oil pan from upper oil pan\n Support lower oil\npan when removing to avoid damage to harness for oil level\nsensor.\n \n\n\n\n•  \nRemove 16x bolt (2)"
+  ]
+}

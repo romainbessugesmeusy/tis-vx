@@ -1,0 +1,7 @@
+{
+  "type": "generic",
+  "id": "4-wheel-measurement-AQS315",
+  "title": "4-wheel measurement",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">4-wheel measurement</p>\n\n<p>This measurement procedure measures all four wheels\nsimultaneously taking into account the axis of symmetry and the\ngeometric driving axis.</p>\n\n<p>This measurement method offers maximum precision and time-saving\nas the set-up times required for 2-wheel alignment are\nexcluded.</p>\n\n<p>All important geometric vehicle values may be determined.</p>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "extractedData": {}
+}

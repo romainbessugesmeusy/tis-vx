@@ -1,0 +1,536 @@
+<div class="content"><h2>C-022 - O2 Sensor Circuit (Before Catalyst)</h2>
+<table border="2" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+  <tr>
+    <td valign="top" align="center" width="12%" STYLE="font-weight:bold">
+      <p>Test</p>
+    </td>
+    <td valign="top" width="64%" STYLE="font-weight:bold">
+      <p>Work Order Description</p>
+    </td>
+    <td valign="top" width="24%" STYLE="font-weight:bold">
+      <p>Nominal Value</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="4">
+      <a name="5862-6-427534"></a>
+      <b>T001</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Voltage/Interruption of Ground Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Ignition OFF</li>
+        <li>Disconnect wiring harness connector from:<br>A5 Control Unit - Motronic<br>(Wiring Harness Connector X32 )<br>and<br>B117 Sensor - Oxygen, Exhaust, Heated 1
+        </li>
+        <li>Ignition ON</li>
+        <li>Measure voltage between the following terminals:<br>B117 Sensor - Oxygen, Exhaust, Heated 1<br>Wiring harness connector (wiring harness side) terminal 4<br>&amp;<br>Ground
+        </li>
+      </ul>
+      <p>
+        <b>Note:</b>
+      </p>
+      <p>Blower motor is running</p>
+    </td>
+    <td valign="top">
+      <p>less than 0.3&nbsp;V</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2" ACTION="">
+      <table cellspacing="0">
+        <tr>
+          <td width="12%" STYLE="text-align:center"><img STYLE="width:32;height:32" SRC="pic/cpr/v-measure.gif">
+          </td>
+          <td width="39%">Voltage Measurement</td>
+          <td STYLE="text-align:right">Current Value:</td>
+          <td width="10%"><INPUT TYPE="TEXT" name="AX1ONLNRDN" VALUE="" MAXLENGTH="255" SIZE="15">
+          </td>
+          <td>V</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('A7ZNLON2EN','1','5862-6-427536',null)">T002</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('AY3OPEN1NN','1','5862-6-427540',null)">E007</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="4">
+      <a name="5862-6-427536"></a>
+      <b>T002</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Ground of Signal Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Ignition OFF</li>
+        <li>Measure resistance between the following terminals:<br>B117 Sensor - Oxygen, Exhaust, Heated 1<br>Wiring harness connector (wiring harness side) terminal 4<br>&amp;<br>Ground
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>greater than 500&nbsp;kOhm</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2" ACTION="">
+      <table cellspacing="0">
+        <tr>
+          <td width="12%" STYLE="text-align:center"><img STYLE="width:32;height:32" SRC="pic/cpr/v-measure.gif">
+          </td>
+          <td width="39%">Resistance Measurement</td>
+          <td STYLE="text-align:right">Current Value:</td>
+          <td width="10%"><INPUT TYPE="TEXT" name="AN2OIFN4HN" VALUE="" MAXLENGTH="255" SIZE="15">
+          </td>
+          <td>kOhm</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('AQ5OKLNHEN','1','5862-6-427535',null)">T003</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('AD0O7LNKLN','1','5862-6-427542',null)">E006</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="4">
+      <a name="5862-6-427535"></a>
+      <b>T003</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Circuit Interruption of Ground Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Measure resistance between the following terminals:<br>B117 Sensor - Oxygen, Exhaust, Heated 1<br>Wiring harness connector (wiring harness side) terminal 4<br>&amp;<br>A5 Control Unit - Motronic<br>Wiring harness connector (wiring harness side) terminal 8 (X32)
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>less than 5&nbsp;Ohm</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2" ACTION="">
+      <table cellspacing="0">
+        <tr>
+          <td width="12%" STYLE="text-align:center"><img STYLE="width:32;height:32" SRC="pic/cpr/v-measure.gif">
+          </td>
+          <td width="39%">Resistance Measurement</td>
+          <td STYLE="text-align:right">Current Value:</td>
+          <td width="10%"><INPUT TYPE="TEXT" name="A45OKGNWIN" VALUE="" MAXLENGTH="255" SIZE="15">
+          </td>
+          <td>Ohm</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('AC5OGHN7EN','1','5862-6-427538',null)">T004</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('AFZNDINGNN','1','5862-6-427541',null)">E005</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="4">
+      <a name="5862-6-427538"></a>
+      <b>T004</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Voltage/Ground/Interruption of Signal Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Ignition OFF</li>
+        <li>Connect wiring harness connector to:<br>A5 Control Unit - Motronic
+        </li>
+        <li>Ignition ON</li>
+        <li>Measure voltage between the following terminals:<br>B117 Sensor - Oxygen, Exhaust, Heated 1<br>Wiring harness connector (wiring harness side) terminal 3<br>&amp;<br>B117 Sensor - Oxygen, Exhaust, Heated 1<br>Wiring harness connector (wiring harness side) terminal 4
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>350 ... 550&nbsp;mV</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2" ACTION="">
+      <table cellspacing="0">
+        <tr>
+          <td width="12%" STYLE="text-align:center"><img STYLE="width:32;height:32" SRC="pic/cpr/v-measure.gif">
+          </td>
+          <td width="39%">Voltage Measurement</td>
+          <td STYLE="text-align:right">Current Value:</td>
+          <td width="10%"><INPUT TYPE="TEXT" name="A8XNYKNVLN" VALUE="" MAXLENGTH="255" SIZE="15">
+          </td>
+          <td>mV</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('AN4O2NN6NN','1','5862-6-427539',null)">T005</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('A21O4JN8DN','1','5862-15-427538',null)">T006</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-427539"></a>
+      <b>T005</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Mechanical Functionality</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Check mechanical functionality of the following components and all attached parts:<br>Exhaust system<br>Intake system<br>Injection valves<br>Fuel pressure
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>Test okay?</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('ASZNNINLLN','1','5862-6-427532',null)">E001</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('AX2O7JNKIN','1','5862-6-427543',null)">E002</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="4">
+      <a name="5862-15-427538"></a>
+      <b>T006</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Voltage/Ground/Interruption of Signal Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Ignition OFF</li>
+        <li>Connect wiring harness connector to:<br>A5 Control Unit - Motronic
+        </li>
+        <li>Ignition ON</li>
+        <li>Measure voltage between the following terminals:<br>B117 Sensor - Oxygen, Exhaust, Heated 1<br>Wiring harness connector (wiring harness side) terminal 3<br>&amp;<br>B117 Sensor - Oxygen, Exhaust, Heated 1<br>Wiring harness connector (wiring harness side) terminal 4
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>less than 350&nbsp;mV</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2" ACTION="">
+      <table cellspacing="0">
+        <tr>
+          <td width="12%" STYLE="text-align:center"><img STYLE="width:32;height:32" SRC="pic/cpr/v-measure.gif">
+          </td>
+          <td width="39%">Voltage Measurement</td>
+          <td STYLE="text-align:right">Current Value:</td>
+          <td width="10%"><INPUT TYPE="TEXT" name="AM1OFON4NN" VALUE="" MAXLENGTH="255" SIZE="15">
+          </td>
+          <td>mV</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('A52O3LNWLN','1','5862-6-427537',null)">E003</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('A36OCFNUJN','1','5862-6-427533',null)">E004</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table><br><br>
+<table border="2" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+  <tr>
+    <td valign="top" align="center" width="12%" STYLE="font-weight:bold">
+      <p>Result</p>
+    </td>
+    <td STYLE="vertical-align:top;font-weight:bold">
+      <p>Cause Of Fault</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-427532"></a>
+      <b>E001</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Defective Component</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Defective component:<br>A5 Control Unit - Motronic<br>or<br>B117 Sensor - Oxygen, Exhaust, Heated 1
+        </li>
+      </ul>
+      <p> </p>
+      <p>
+        <b>Important:</b>
+      </p>
+      <p>Reset concerned control unit (engine or immobiliser control unit) with diagnostic tester before replacing. Select immobiliser in the diagnostic tester and call up the corresponding test in the menu ADDITIONAL FUNCTIONS. Ensure that both control units are never reset and replaced at the same time.</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('ALVNOFNHLN','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-427543"></a>
+      <b>E002</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Defective Component</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Repair the concerned circuit/component.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('ANZNSINZCN','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-427537"></a>
+      <b>E003</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Short to Ground/Interruption</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Short circuit to ground/interruption of circuit between:<br>B117 Sensor - Oxygen, Exhaust, Heated 1<br>Wiring harness connector (wiring harness side) terminal 3<br>&amp;<br>A5 Control Unit - Motronic<br>Wiring harness connector (wiring harness side) terminal 25 (X32)
+        </li>
+      </ul>
+      <p>or</p>
+      <ul>
+        <li>Defective component:<br>A5 Control Unit - Motronic
+        </li>
+      </ul>
+      <p> </p>
+      <p>
+        <b>Important:</b>
+      </p>
+      <p>Reset concerned control unit (engine or immobiliser control unit) with diagnostic tester before replacing. Select immobiliser in the diagnostic tester and call up the corresponding test in the menu ADDITIONAL FUNCTIONS. Ensure that both control units are never reset and replaced at the same time.</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AD5O8ONYKN','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-427533"></a>
+      <b>E004</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Short to Voltage</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Short circuit to voltage between:<br>B117 Sensor - Oxygen, Exhaust, Heated 1<br>Wiring harness connector (wiring harness side) terminal 3<br>&amp;<br>A5 Control Unit - Motronic<br>Wiring harness connector (wiring harness side) terminal 25 (X32)
+        </li>
+      </ul>
+      <p>or</p>
+      <ul>
+        <li>Defective component:<br>A5 Control Unit - Motronic
+        </li>
+      </ul>
+      <p> </p>
+      <p>
+        <b>Important:</b>
+      </p>
+      <p>Reset concerned control unit (engine or immobiliser control unit) with diagnostic tester before replacing. Select immobiliser in the diagnostic tester and call up the corresponding test in the menu ADDITIONAL FUNCTIONS. Ensure that both control units are never reset and replaced at the same time.</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('A31OENNDLN','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-427541"></a>
+      <b>E005</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Interruption</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Circuit interruption between:<br>B117 Sensor - Oxygen, Exhaust, Heated 1<br>Wiring harness connector (wiring harness side) terminal 4<br>&amp;<br>A5 Control Unit - Motronic<br>Wiring harness connector (wiring harness side) terminal 8 (X32)
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AVVNUJNHDN','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-427542"></a>
+      <b>E006</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Short to Ground</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Short circuit to ground between:<br>B117 Sensor - Oxygen, Exhaust, Heated 1<br>Wiring harness connector (wiring harness side) terminal 4<br>&amp;<br>A5 Control Unit - Motronic<br>Wiring harness connector (wiring harness side) terminal 8 (X32)
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AE0OLLNSJN','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-427540"></a>
+      <b>E007</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Short to Voltage</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Short circuit to voltage between:<br>B117 Sensor - Oxygen, Exhaust, Heated 1<br>Wiring harness connector (wiring harness side) terminal 4<br>&amp;<br>A5 Control Unit - Motronic<br>Wiring harness connector (wiring harness side) terminal 8 (X32)
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AY0OEON9EN','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+</table><br><br><br><br><br></div>

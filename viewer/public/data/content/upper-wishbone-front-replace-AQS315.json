@@ -1,0 +1,229 @@
+{
+  "type": "procedure",
+  "id": "upper-wishbone-front-replace-AQS315",
+  "title": "Upper Wishbone, Front, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Chock both rear road wheels",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Raise and support vehicle",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Remove road wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use special socket located under front bonnet"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Release brake hose from upper wishbone",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip, remove nut (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1d03e7751dfc.jpg",
+            "alt": "Object Number: 2419721  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Remove upper wishbone from steering arm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove nut"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0392618a91a4.jpg",
+            "alt": "Object Number: 2419722  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Disconnect upper wishbone from chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "At rear, remove nut, bolt, washer"
+            },
+            {
+              "bullet": "•",
+              "text": "At front, remove nut, bolt, 2x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/503952f0a8ec.jpg",
+            "alt": "Object Number: 2419723  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Remove upper wishbone from chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove shims, thrust washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/503952f0a8ec.jpg",
+            "alt": "Object Number: 2419723  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 8,
+          "text": "Loosely install upper wishbone to chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install shims, thrust washer"
+            },
+            {
+              "bullet": "•",
+              "text": "Loosely install 2x bolt, 3x washer, 2x new nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Loosely install upper wishbone to steering arm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Loosely install new nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Secure upper wishbone to chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x bolt, 2x nut 45 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Secure upper wishbone to steering arm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure nut 55 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Secure brake hose to upper wishbone",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clip, install nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Install road wheel to vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt, install security bolt 90 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Raise vehicle and remove support",
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Remove chocks from both rear road wheels",
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Perform wheel alignment check",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Secure upper wishbone to chassis",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Secure upper wishbone to steering arm",
+      "value": "55",
+      "unit": "Nm",
+      "stepRef": 11
+    },
+    {
+      "component": "Install road wheel to vehicle",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Secure 2x bolt, 2x nut 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Secure nut 55 Nm",
+      "value": "55",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install 4x bolt, install security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Remove shims, thrust washer\n Observe locations\nand quantities of shims for installation",
+    "Loosely install 2x bolt, 3x washer, 2x new nut\n Install shims and\nthrust washer in original location"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "harness_diagram",
+  "id": "body-rear-rear-AQS315",
+  "title": "Body rear - Rear",
+  "diagram": {
+    "src": "/data/assets/converted/6bc8837e01fd.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "S16",
+      "description": "Switch - Engine hood, anti-theft warning system"
+    },
+    {
+      "code": "X8",
+      "description": "Main harness & Extension harness, boot switch"
+    }
+  ]
+}

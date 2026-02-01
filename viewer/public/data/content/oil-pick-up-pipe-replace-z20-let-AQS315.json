@@ -1,0 +1,79 @@
+{
+  "type": "procedure",
+  "id": "oil-pick-up-pipe-replace-z20-let-AQS315",
+  "title": "Oil Pick-up Pipe, Replace (Z20 LET)",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove upper oil pan - see operation “Oil Pan, Upper, Replace (Z 20 LET)”",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove oil pick-up pipe from engine",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt from oil pump (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt from balancer shaft unit (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove, then discard O ring"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7e44e9fa5067.jpg",
+            "alt": "Object Number: 2422916  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Install new oil pick-up pipe to engine",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x new bolt to oil pump 8"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 2x new bolt to balancer shaft unit 8 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Install new O ring"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Install oil pan upper - see operation “Oil Pan, Upper, Replace (Z 20 LET)”",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install new oil pick-up pipe to engine",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 3
+    },
+    {
+      "component": "Install 2x new bolt to oil pump 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "type": "procedure",
+  "id": "shock-absorber-remove-and-install-AQS315",
+  "title": "Shock Absorber, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Rear wheel from vehicle.",
+          "image": {
+            "src": "/data/assets/images/674558ce12f3.jpg",
+            "alt": "Object Number: 2429706  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Rear wheel arch liner – screws, clips.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Shock absorber from lower wishbone – bolt, nut (1), washers.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Shock absorber from bracket on chassis – bolt, nut, washers.",
+          "image": {
+            "src": "/data/assets/images/674558ce12f3.jpg",
+            "alt": "Object Number: 2429706  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Shock absorber to bracket on chassis – bolt, nut 45 Nm , washers.",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Shock absorber to lower wishbone – bolt, nut (1) 45 Nm , washers.",
+          "image": {
+            "src": "/data/assets/images/674558ce12f3.jpg",
+            "alt": "Object Number: 2429706  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Rear wheel arch liner – screws, clips.",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Rear wheel to vehicle – bolts 90 Nm .",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Shock absorber to bracket on chassis – bolt, nut 45 Nm , washers.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Rear wheel to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Shock absorber to lower wishbone – bolt, nut (1) 45 Nm , washers.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

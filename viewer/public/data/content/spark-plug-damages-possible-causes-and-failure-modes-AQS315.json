@@ -1,0 +1,143 @@
+{
+  "type": "tsb",
+  "id": "spark-plug-damages-possible-causes-and-failure-modes-AQS315",
+  "title": "Field Remedy: 1826",
+  "subject": "Spark plug damages - possible causes and\nfailure modes",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "01 - Broken or Cracked,05 - Excessive\nwear,11 - Loose or Comes off,13 - No/Poor Function,18 - Poor\nDrivebility,19 - Poor Engine Driveability,20 - Poor Performance,21\n- Poor Startability,22 - Smokes",
+    "troubleCode": "None"
+  },
+  "complaint": "",
+  "cause": "",
+  "production": "",
+  "remedyContent": [
+    {
+      "type": "bullets",
+      "items": [
+        "Failure mode:",
+        "thermal overload at centre-, ground electrode, insulator foot",
+        "broken centre-, ground electrode",
+        "insulator foot broken",
+        "thread damaged, wrenched"
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Fault causes:",
+        "tightening torque too low",
+        "tightening torque too high"
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Thermal overload (Picture I)"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Tightening torque too low (\n< 15 Nm) - spark plug was not correct tightened thereby the heat transfer was   disturbed - centre-, ground electrode and insulator foot are melted"
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Broken centre electrodes (Picture II)"
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Tightening torque too low (",
+        "< 15 Nm) - outer sealing ring thickness >",
+        "1,4 mm",
+        "vibration marks at the terminal head"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Through vibrations the spark plug loosened and the centre\nelectrode broke."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Broken centre- and ground electrode (Picture III)"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Tightening torque too low (\n< 15 Nm) - thickness of outer sealing ring >\n 1,4 mm"
+    },
+    {
+      "type": "text",
+      "text": "The spark plugs loosened caused by vibrations. Hence it follows breaking of\nground- and centre electrode and break out of the insulator foot."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Insulator foot fracture (Picture IV)"
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Tightening torque too high (>",
+        "35 Nm)",
+        "outer sealing ring thickness",
+        "< 1,2 mm"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Compound housing/insulator loosened"
+    },
+    {
+      "type": "paragraph",
+      "text": "Through shaking of the plug the spark plug has been completely\ndestructed."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Thread wrenched"
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Tightening torque too high (>",
+        "50 Nm)",
+        "strong tracks of the spark plug -wrench at the hexagon",
+        "forced rupture in the thread"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Subsequent damage (e.g. engine, cylinder) caused by described\nfailures must not be covered by warranty."
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/e618e21ef609.jpg",
+      "alt": "Object Number: 8132526  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/e3221b4087cd.jpg",
+      "alt": "Object Number: 8132527  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/3e11c65e7a82.jpg",
+      "alt": "Object Number: 8132528  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/c0c0385aba91.jpg",
+      "alt": "Object Number: 8132529  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/3c4c4d4b89e0.jpg",
+      "alt": "Object Number: 8132530  Size: DEFAULT"
+    }
+  ]
+}

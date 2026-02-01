@@ -1,0 +1,85 @@
+{
+  "type": "procedure",
+  "id": "parking-lamp-replace-AQS315",
+  "title": "Parking Lamp, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Open front bonnet for access to nut at rear of front lamp assembly.",
+          "image": {
+            "src": "/data/assets/images/565b3e3db64a.jpg",
+            "alt": "Object Number: 7362235  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Front lamp assembly (1) from front clam shell – nut, washer, bracket and harness connector.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Do not disturb splash shield (2) (if installed).",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Trim cover from front lamp assembly – screws.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Harness connector from bulb.",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Parking lamp from front lamp assembly.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 7,
+          "text": "Parking lamp to front lamp assembly.",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Harness connector to bulb.",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Trim cover to front lamp assembly – screws.",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Front lamp assembly to front clam shell – harness connector, bracket, washer and nut.",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Ensure that splash shield is not disturbed (if installed).",
+          "image": null
+        }
+      ]
+    }
+  ]
+}
