@@ -333,23 +333,23 @@ function EPCColumnNav({ roots, nodes, epcIdToSlug, searchQuery, maxVisibleColumn
     } catch (e) {}
   }, [selectedPath])
 
-  // Update path when URL changes
+  // Update path when URL changes (only react to URL changes, not path changes)
+  const prevActiveMainIdRef = useRef(activeMainId)
   useEffect(() => {
+    // Only update if the URL actually changed (not due to user clicking in sidebar)
+    if (activeMainId === prevActiveMainIdRef.current) return
+    prevActiveMainIdRef.current = activeMainId
+    
     if (!activeMainId) return
     const newPath = buildPathToNode(activeMainId)
     
     if (newPath.length > 0) {
-      const pathChanged = newPath.length !== selectedPath.length || 
-        newPath.some((id, i) => selectedPath[i] !== id)
-      
-      if (pathChanged) {
-        setSelectedPath(newPath)
-        if (isMobileColumnMode && newPath.length >= maxVisibleColumns) {
-          setVisibleColumnStart(Math.max(0, newPath.length - maxVisibleColumns + 1))
-        }
+      setSelectedPath(newPath)
+      if (isMobileColumnMode && newPath.length >= maxVisibleColumns) {
+        setVisibleColumnStart(Math.max(0, newPath.length - maxVisibleColumns + 1))
       }
     }
-  }, [activeMainId, buildPathToNode, selectedPath, isMobileColumnMode, maxVisibleColumns])
+  }, [activeMainId, buildPathToNode, isMobileColumnMode, maxVisibleColumns])
 
   // Handle clicking on an item
   const handleItemClick = (nodeId, columnIndex) => {
@@ -915,8 +915,13 @@ function ColumnNav({ roots, nodes, tocIdToSlug, searchQuery, maxVisibleColumns =
     }
   }, [selectedPath])
 
-  // Update path when URL changes (navigation to a different document)
+  // Update path when URL changes (only react to URL changes, not path changes)
+  const prevActiveDocIdRef = useRef(activeDocId)
   useEffect(() => {
+    // Only update if the URL actually changed (not due to user clicking in sidebar)
+    if (activeDocId === prevActiveDocIdRef.current) return
+    prevActiveDocIdRef.current = activeDocId
+    
     if (!activeDocId) return
     const activeTocId = slugToTocId[activeDocId]
     if (!activeTocId) return
@@ -924,20 +929,14 @@ function ColumnNav({ roots, nodes, tocIdToSlug, searchQuery, maxVisibleColumns =
     const newPath = buildPathToNode(activeTocId)
     
     if (newPath.length > 0) {
-      // Only update if the path is different
-      const pathChanged = newPath.length !== selectedPath.length || 
-        newPath.some((id, i) => selectedPath[i] !== id)
+      setSelectedPath(newPath)
       
-      if (pathChanged) {
-        setSelectedPath(newPath)
-        
-        // In mobile mode, adjust visible column start to show the last columns
-        if (isMobileColumnMode && newPath.length >= maxVisibleColumns) {
-          setVisibleColumnStart(Math.max(0, newPath.length - maxVisibleColumns + 1))
-        }
+      // In mobile mode, adjust visible column start to show the last columns
+      if (isMobileColumnMode && newPath.length >= maxVisibleColumns) {
+        setVisibleColumnStart(Math.max(0, newPath.length - maxVisibleColumns + 1))
       }
     }
-  }, [activeDocId, slugToTocId, buildPathToNode, selectedPath, isMobileColumnMode, maxVisibleColumns])
+  }, [activeDocId, slugToTocId, buildPathToNode, isMobileColumnMode, maxVisibleColumns])
 
   // Handle clicking on an item
   const handleItemClick = (nodeId, columnIndex) => {
