@@ -287,36 +287,48 @@ function ContentViewer({ manifest, onNavigateToComponent }) {
   }, [id])
 
   if (!id) {
+    const vehicleLabel = manifest?.vehicle 
+      ? `${manifest.vehicle.model} • ${manifest.vehicle.year} • ${manifest.vehicle.engine}`
+      : 'VX220 / Speedster'
+    
     return (
       <div className="content-welcome">
-        <DonationCallout />
-        
-        <h2>Welcome to the VX220 Service Manual</h2>
-        <p>Select a document from the sidebar to view its contents.</p>
-        
-        <ComponentGrid manifest={manifest} onNavigateToComponent={onNavigateToComponent} />
+        <div className="welcome-hero">
+          <div className="welcome-hero-content">
+            <div className="car-badge">
+              <span className="car-badge-icon">🏎️</span>
+              <span>{vehicleLabel}</span>
+            </div>
+            <h2>VX220 Service Manual</h2>
+            <p>Complete workshop documentation for your Vauxhall VX220 / Opel Speedster. Browse repair procedures, wiring diagrams, torque specs and more.</p>
+          </div>
+        </div>
         
         <div className="welcome-links">
           <h3>Quick Access</h3>
           <div className="quick-links">
             <a href="/ref/tools" className="quick-link">
               <span className="quick-icon">🔧</span>
-              <span>Special Service Tools</span>
+              <span>Service Tools</span>
             </a>
             <a href="/ref/torque" className="quick-link">
               <span className="quick-icon">🔩</span>
-              <span>Torque Specifications</span>
+              <span>Torque Specs</span>
             </a>
             <a href="/ref/pictograms" className="quick-link">
               <span className="quick-icon">📋</span>
-              <span>Pictograms Reference</span>
+              <span>Pictograms</span>
             </a>
             <a href="/ref/glossary" className="quick-link">
               <span className="quick-icon">📖</span>
-              <span>Technical Glossary</span>
+              <span>Glossary</span>
             </a>
           </div>
         </div>
+        
+        <ComponentGrid manifest={manifest} onNavigateToComponent={onNavigateToComponent} />
+        
+        <DonationCallout />
       </div>
     )
   }

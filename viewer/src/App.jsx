@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, useLocation } from 'react-router-dom'
 import { useState, useEffect, useCallback, useRef } from 'react'
 import Sidebar from './components/Sidebar'
 import ContentViewer from './components/ContentViewer'
@@ -9,6 +9,7 @@ const MOBILE_BREAKPOINT = 768
 const TABLET_BREAKPOINT = 1024
 
 function App() {
+  const location = useLocation()
   const [manifest, setManifest] = useState(null)
   const [loading, setLoading] = useState(true)
   const [sidebarWidth, setSidebarWidth] = useState(() => {
@@ -198,7 +199,7 @@ function App() {
             title="Drag to resize sidebar"
           />
         )}
-        <main className="content">
+        <main className={`content${location.pathname === '/' ? ' is-homepage' : ''}`}>
           <Routes>
             <Route path="/" element={<ContentViewer manifest={manifest} onNavigateToComponent={handleNavigateToComponent} />} />
             <Route path="/doc/:id" element={<ContentViewer manifest={manifest} onNavigateToComponent={handleNavigateToComponent} />} />
