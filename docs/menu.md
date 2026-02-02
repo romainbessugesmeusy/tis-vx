@@ -203,6 +203,46 @@ const [isTablet, setIsTablet] = useState(() =>
 - **User-select**: Disabled on interactive elements to prevent text selection
 - **Touch scrolling**: `-webkit-overflow-scrolling: touch` for momentum scrolling
 - **Overscroll containment**: `overscroll-behavior: contain` prevents pull-to-refresh interference
+- **Edge swipe gesture**: Swipe right from the left edge (≤30px) to reopen the menu
+
+### Edge Swipe Gesture
+When the menu is closed on mobile/tablet, users can swipe right from the left edge of the screen to reopen the menu. This prevents the frustrating scenario where swiping right triggers the browser's back navigation instead of reopening the menu.
+
+**Implementation:**
+- `EDGE_THRESHOLD`: 30px - touch must start within this distance from left edge
+- `SWIPE_THRESHOLD`: 50px - minimum horizontal swipe distance to trigger
+- The swipe must be primarily horizontal (deltaX > deltaY * 1.5) to distinguish from vertical scrolling
+- `preventDefault()` is called on the touch event to stop the browser's back gesture
+
+```javascript
+// In App.jsx
+const swipeRef = useRef({
+  startX: 0,
+  startY: 0,
+  isEdgeSwipe: false
+})
+
+useEffect(() => {
+  // Edge swipe detection logic
+  const handleTouchStart = (e) => {
+    if (isMobileMenuOpen) return
+    const touch = e.touches[0]
+    if (touch.clientX <= EDGE_THRESHOLD) {
+      swipeRef.current = { startX: touch.clientX, startY: touch.clientY, isEdgeSwipe: true }
+    }
+  }
+  
+  const handleTouchMove = (e) => {
+    if (!swipeRef.current.isEdgeSwipe) return
+    const deltaX = e.touches[0].clientX - swipeRef.current.startX
+    if (deltaX > SWIPE_THRESHOLD) {
+      e.preventDefault() // Stop browser back gesture
+      setIsMobileMenuOpen(true)
+    }
+  }
+  // ... event listeners with passive: false for touchmove
+}, [isMobileMenuOpen])
+```
 
 ### CSS Structure for Mobile
 ```css
@@ -317,6 +357,13 @@ Using `overflow: hidden` on `.column-group` ensures the border-radius is respect
 - Dot indicators help distinguish group items from folder items
 - Count badges use slightly smaller font and rounded pill styling
 
+### Edge Swipe Gesture Detection
+- Touch event listeners must use `{ passive: false }` for `touchmove` to allow `preventDefault()`
+- Without `preventDefault()`, the browser's back swipe gesture takes precedence
+- The swipe angle check (`deltaX > deltaY * 1.5`) prevents triggering during vertical scroll
+- Edge threshold (30px) is narrow enough to avoid accidental triggers but wide enough to be discoverable
+- The swipe ref tracking pattern prevents stale closure issues in the effect
+
 ## Future Considerations
 
 - Keyboard navigation (arrow keys to move between columns/items)
@@ -324,6 +371,5 @@ Using `overflow: hidden` on `.column-group` ensures the border-radius is respect
 - Column width could be configurable or adaptive based on content
 - Persist collapsed group state in localStorage
 - Search highlighting within groups
-- Swipe gestures for mobile back navigation
 - Pull-down to refresh on mobile
 - Landscape mode optimization for tablets

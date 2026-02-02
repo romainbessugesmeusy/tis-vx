@@ -8,6 +8,10 @@ import ReferenceIndex from './components/ReferenceIndex'
 const MOBILE_BREAKPOINT = 768
 const TABLET_BREAKPOINT = 1024
 
+// Swipe gesture constants
+const EDGE_THRESHOLD = 30 // Distance from left edge to start detecting swipe
+const SWIPE_THRESHOLD = 50 // Minimum swipe distance to trigger menu open
+
 function App() {
   const location = useLocation()
   const [manifest, setManifest] = useState(null)
@@ -26,6 +30,13 @@ function App() {
   
   // External navigation path for sidebar
   const [externalNavPath, setExternalNavPath] = useState(null)
+  
+  // Swipe gesture tracking
+  const swipeRef = useRef({
+    startX: 0,
+    startY: 0,
+    isEdgeSwipe: false
+  })
   
   const isResizing = useRef(false)
   const minWidth = 240
@@ -70,6 +81,63 @@ function App() {
     }
     return () => {
       document.body.style.overflow = ''
+    }
+  }, [isMobileMenuOpen])
+
+  // Edge swipe gesture to open menu on mobile
+  useEffect(() => {
+    const showMobileMenu = window.innerWidth < TABLET_BREAKPOINT
+    if (!showMobileMenu) return
+
+    const handleTouchStart = (e) => {
+      // Only detect swipes when menu is closed
+      if (isMobileMenuOpen) return
+      
+      const touch = e.touches[0]
+      const startX = touch.clientX
+      
+      // Check if touch started near the left edge
+      if (startX <= EDGE_THRESHOLD) {
+        swipeRef.current = {
+          startX,
+          startY: touch.clientY,
+          isEdgeSwipe: true
+        }
+      } else {
+        swipeRef.current.isEdgeSwipe = false
+      }
+    }
+
+    const handleTouchMove = (e) => {
+      if (!swipeRef.current.isEdgeSwipe || isMobileMenuOpen) return
+      
+      const touch = e.touches[0]
+      const deltaX = touch.clientX - swipeRef.current.startX
+      const deltaY = Math.abs(touch.clientY - swipeRef.current.startY)
+      
+      // Check if horizontal swipe is dominant (not scrolling vertically)
+      if (deltaX > SWIPE_THRESHOLD && deltaX > deltaY * 1.5) {
+        // Prevent default to stop browser's back gesture
+        e.preventDefault()
+        // Open the menu
+        setIsMobileMenuOpen(true)
+        swipeRef.current.isEdgeSwipe = false
+      }
+    }
+
+    const handleTouchEnd = () => {
+      swipeRef.current.isEdgeSwipe = false
+    }
+
+    // Use passive: false for touchmove to allow preventDefault
+    document.addEventListener('touchstart', handleTouchStart, { passive: true })
+    document.addEventListener('touchmove', handleTouchMove, { passive: false })
+    document.addEventListener('touchend', handleTouchEnd, { passive: true })
+
+    return () => {
+      document.removeEventListener('touchstart', handleTouchStart)
+      document.removeEventListener('touchmove', handleTouchMove)
+      document.removeEventListener('touchend', handleTouchEnd)
     }
   }, [isMobileMenuOpen])
 
