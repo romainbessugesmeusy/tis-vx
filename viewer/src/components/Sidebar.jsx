@@ -88,6 +88,9 @@ const STORAGE_KEYS = {
 // Build EPC tree structure from parts.json data
 // Converts the EPC hierarchy (Groups → SubSections → Main) into a tree format
 // compatible with ColumnNav and TreeNode components
+// 
+// Optimization: When a subsection has only one main item, collapse it into a
+// direct leaf node (skip the intermediate level)
 function buildEpcTree(epcData) {
   if (!epcData || !epcData.groups) return null
   
@@ -100,7 +103,70 @@ function buildEpcTree(epcData) {
     const groupId = `epc-${group.id}`
     roots.push(groupId)
     
-    const subSectionIds = group.subSections.map(sub => `epc-${sub.id}`)
+    const subSectionIds = []
+    
+    // Process subsections
+    group.subSections.forEach(subSection => {
+      const subSectionId = `epc-${subSection.id}`
+      const partsCount = subSection.main.reduce((a, m) => a + m.parts.length, 0)
+      
+      // Optimization: If subsection has only one main item, make subsection a leaf
+      if (subSection.main.length === 1) {
+        const main = subSection.main[0]
+        subSectionIds.push(subSectionId)
+        
+        // Create subsection as leaf node (direct link to parts)
+        nodes[subSectionId] = {
+          id: subSectionId,
+          title: subSection.name,
+          isLeaf: true,
+          children: null,
+          parentId: groupId,
+          epcGroupId: group.id,
+          epcSubSectionId: subSection.id,
+          epcMainId: main.id,
+          partsCount: partsCount
+        }
+        
+        // Map to URL slug
+        epcIdToSlug[subSectionId] = `epc/${group.id}/${subSection.id}/${main.id}`
+      } else {
+        // Multiple main items: create subsection as folder with children
+        subSectionIds.push(subSectionId)
+        const mainIds = subSection.main.map(main => `epc-${main.id}`)
+        
+        nodes[subSectionId] = {
+          id: subSectionId,
+          title: subSection.name,
+          isLeaf: false,
+          children: mainIds,
+          parentId: groupId,
+          epcGroupId: group.id,
+          epcSubSectionId: subSection.id,
+          partsCount: partsCount
+        }
+        
+        // Add main items as leaf nodes
+        subSection.main.forEach(main => {
+          const mainId = `epc-${main.id}`
+          
+          nodes[mainId] = {
+            id: mainId,
+            title: main.name,
+            isLeaf: true,
+            children: null,
+            parentId: subSectionId,
+            epcGroupId: group.id,
+            epcSubSectionId: subSection.id,
+            epcMainId: main.id,
+            partsCount: main.parts.length
+          }
+          
+          // Build URL slug for this leaf node
+          epcIdToSlug[mainId] = `epc/${group.id}/${subSection.id}/${main.id}`
+        })
+      }
+    })
     
     nodes[groupId] = {
       id: groupId,
@@ -113,43 +179,6 @@ function buildEpcTree(epcData) {
         acc + s.main.reduce((a, m) => a + m.parts.length, 0), 0
       )
     }
-    
-    // Add subsections as children of group
-    group.subSections.forEach(subSection => {
-      const subSectionId = `epc-${subSection.id}`
-      const mainIds = subSection.main.map(main => `epc-${main.id}`)
-      
-      nodes[subSectionId] = {
-        id: subSectionId,
-        title: subSection.name,
-        isLeaf: false,
-        children: mainIds,
-        parentId: groupId,
-        epcGroupId: group.id,
-        epcSubSectionId: subSection.id,
-        partsCount: subSection.main.reduce((a, m) => a + m.parts.length, 0)
-      }
-      
-      // Add main items as leaf nodes (they link to parts view)
-      subSection.main.forEach(main => {
-        const mainId = `epc-${main.id}`
-        
-        nodes[mainId] = {
-          id: mainId,
-          title: main.name,
-          isLeaf: true,
-          children: null,
-          parentId: subSectionId,
-          epcGroupId: group.id,
-          epcSubSectionId: subSection.id,
-          epcMainId: main.id,
-          partsCount: main.parts.length
-        }
-        
-        // Build URL slug for this leaf node
-        epcIdToSlug[mainId] = `epc/${group.id}/${subSection.id}/${main.id}`
-      })
-    })
   })
   
   return { roots, nodes, epcIdToSlug }
