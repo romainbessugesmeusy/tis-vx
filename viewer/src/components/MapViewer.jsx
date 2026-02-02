@@ -442,10 +442,12 @@ function MapViewer({ src, alt, onError, allowFullscreen = false, hotspots, highl
               wrapperStyle={{
                 width: '100%',
                 height: '100%',
-                overflow: 'hidden'
+                overflow: 'hidden',
+                background: 'inherit'
               }}
               contentStyle={{
-                cursor: 'grab'
+                cursor: 'grab',
+                background: 'transparent'
               }}
             >
               <div className="map-viewer-image-wrapper">

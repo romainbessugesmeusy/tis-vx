@@ -2265,6 +2265,11 @@ main.content:has(.content-welcome) .content-welcome {
   outline: none;
 }
 
+.map-viewer,
+.map-viewer * {
+  box-sizing: border-box;
+}
+
 .map-viewer:focus {
   box-shadow: 0 0 0 2px var(--accent);
 }
@@ -2371,14 +2376,14 @@ main.content:has(.content-welcome) .content-welcome {
 /* Help text */
 .map-viewer-help {
   position: absolute;
-  bottom: 12px;
+  bottom: 8px;
   left: 50%;
   transform: translateX(-50%);
   background: rgba(0, 0, 0, 0.6);
   color: rgba(255, 255, 255, 0.8);
-  padding: 6px 16px;
-  border-radius: 20px;
-  font-size: 0.75rem;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 0.7rem;
   z-index: 10;
   pointer-events: none;
   white-space: nowrap;
@@ -2461,15 +2466,20 @@ main.content:has(.content-welcome) .content-welcome {
   cursor: grabbing;
 }
 
-/* react-zoom-pan-pinch overrides */
-.map-viewer .react-transform-wrapper {
+/* react-zoom-pan-pinch overrides - target CSS module classes */
+.map-viewer [class*="transform-component-module_wrapper"] {
   width: 100% !important;
   height: 100% !important;
+  background: inherit !important;
 }
 
-.map-viewer .react-transform-component {
+.map-viewer [class*="transform-component-module_content"] {
   width: 100% !important;
   height: 100% !important;
+  background: inherit !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 /* Responsive */
@@ -3162,23 +3172,23 @@ main.content:has(.content-welcome) .content-welcome {
 
 /* Header */
 .epc-header {
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .epc-header h1 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   color: var(--text-primary);
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
 
 .epc-subtitle {
   color: var(--text-secondary);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
 }
 
 .epc-parts-count {
   color: var(--text-muted);
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 /* Breadcrumb */
@@ -3186,12 +3196,12 @@ main.content:has(.content-welcome) .content-welcome {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 24px;
-  padding: 12px 16px;
+  gap: 6px;
+  margin-bottom: 20px;
+  padding: 10px 14px;
   background: var(--bg-main);
   border-radius: 8px;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 .epc-breadcrumb-item {
@@ -3217,7 +3227,7 @@ main.content:has(.content-welcome) .content-welcome {
 /* Search */
 .epc-search-container {
   position: relative;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .epc-search-small {
@@ -3226,10 +3236,10 @@ main.content:has(.content-welcome) .content-welcome {
 
 .epc-search-input {
   width: 100%;
-  padding: 14px 48px 14px 18px;
+  padding: 12px 44px 12px 16px;
   border: 1px solid var(--border);
-  border-radius: 12px;
-  font-size: 1rem;
+  border-radius: 10px;
+  font-size: 0.95rem;
   background: var(--bg-card);
   transition: border-color 0.15s, box-shadow 0.15s;
 }
@@ -3911,53 +3921,58 @@ main.content:has(.content-welcome) .content-welcome {
 
 /* EPC Home Page */
 .epc-home {
-  padding: 32px;
+  padding: 24px;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .epc-home .epc-header {
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 
 .epc-home .epc-header h1 {
-  font-size: 2rem;
-  margin-bottom: 8px;
+  font-size: 1.75rem;
+  margin-bottom: 6px;
 }
 
 .epc-stats {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: var(--text-muted);
-  margin-top: 8px;
+  margin-top: 6px;
 }
 
 .epc-search-large {
   max-width: 600px;
-  margin: 0 auto 32px;
+  margin: 0 auto 24px;
 }
 
 .epc-search-large .epc-search-input {
-  padding: 16px 20px;
-  font-size: 1rem;
+  padding: 14px 18px;
+  font-size: 0.95rem;
 }
 
 .epc-home-hint {
   text-align: center;
   color: var(--text-muted);
-  padding: 48px 24px;
+  padding: 32px 20px;
   background: rgba(255, 255, 255, 0.02);
-  border-radius: 12px;
+  border-radius: 10px;
   border: 1px dashed var(--border-dark);
 }
 
 .epc-home-hint p {
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .epc-breadcrumb-root {
   font-weight: 500;
+}
+
+/* Main parts container */
+.epc-parts {
+  padding: 0;
 }
 
 /* ======================================== 
@@ -3967,26 +3982,26 @@ main.content:has(.content-welcome) .content-welcome {
 .epc-diagram-groups {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 12px;
 }
 
 .epc-diagram-group {
   background: var(--bg-card);
   border: 1px solid var(--border);
-  border-radius: 12px;
+  border-radius: 10px;
   overflow: hidden;
 }
 
 .epc-diagram-header {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
   width: 100%;
-  padding: 16px 20px;
+  padding: 12px 16px;
   background: var(--bg-main);
   border: none;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: 600;
   color: var(--text-primary);
   text-align: left;
@@ -4024,15 +4039,32 @@ main.content:has(.content-welcome) .content-welcome {
 
 .epc-diagram-content {
   padding: 0;
+  border-radius: 0;
+  max-width: none;
+  max-height: none;
+  background: transparent;
 }
 
 .epc-diagram-viewer-wrapper {
   background: #1a1a2e;
-  border-bottom: 1px solid var(--border);
+  overflow: hidden;
 }
 
 .epc-diagram-map {
   height: 400px;
+  border-radius: 0;
+  background: #1a1a2e;
+}
+
+/* Ensure dark background throughout the transform component hierarchy */
+.epc-diagram-map [class*="transform-component-module_wrapper"],
+.epc-diagram-map [class*="transform-component-module_content"] {
+  background: #1a1a2e !important;
+}
+
+/* But keep map-viewer-image-wrapper transparent so image shows */
+.epc-diagram-map .map-viewer-image-wrapper {
+  background: transparent !important;
 }
 
 /* ======================================== 
@@ -4040,14 +4072,14 @@ main.content:has(.content-welcome) .content-welcome {
    ======================================== */
 
 .epc-parts-responsive {
-  padding: 16px;
+  padding: 10px;
 }
 
 /* Mobile: Show cards, hide table */
 .epc-parts-cards {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 12px;
+  gap: 8px;
 }
 
 .epc-parts-table-wrapper {
@@ -4057,8 +4089,8 @@ main.content:has(.content-welcome) .content-welcome {
 .epc-part-card {
   background: var(--bg-main);
   border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 14px 16px;
+  border-radius: 8px;
+  padding: 10px 12px;
   transition: all 0.15s;
   text-decoration: none;
   color: inherit;
@@ -4078,22 +4110,22 @@ main.content:has(.content-welcome) .content-welcome {
 .epc-part-card-header {
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin-bottom: 10px;
+  gap: 8px;
+  margin-bottom: 6px;
 }
 
 .epc-part-ref {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 32px;
-  height: 32px;
-  padding: 0 8px;
+  min-width: 28px;
+  height: 28px;
+  padding: 0 6px;
   background: var(--accent);
   color: white;
-  border-radius: 6px;
+  border-radius: 5px;
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 .epc-part-card.highlighted .epc-part-ref {
@@ -4101,16 +4133,16 @@ main.content:has(.content-welcome) .content-welcome {
 }
 
 .epc-part-usage {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 500;
   color: var(--text-secondary);
   background: rgba(0, 0, 0, 0.05);
-  padding: 4px 8px;
-  border-radius: 4px;
+  padding: 2px 6px;
+  border-radius: 3px;
 }
 
 .epc-part-qty {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   color: var(--text-muted);
   margin-left: auto;
 }
@@ -4118,37 +4150,37 @@ main.content:has(.content-welcome) .content-welcome {
 .epc-part-card-body {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 4px;
 }
 
 .epc-part-description {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: var(--text-primary);
-  line-height: 1.4;
+  line-height: 1.35;
 }
 
 .epc-part-numbers {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px;
   align-items: center;
 }
 
 .epc-part-partno {
   font-family: 'SF Mono', Monaco, 'Consolas', monospace;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: var(--accent);
   font-weight: 500;
 }
 
 .epc-part-katno {
   font-family: 'SF Mono', Monaco, 'Consolas', monospace;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   color: var(--text-muted);
 }
 
 .epc-part-location {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   color: var(--text-muted);
   margin-left: auto;
 }
@@ -4157,7 +4189,7 @@ main.content:has(.content-welcome) .content-welcome {
 .epc-parts-list {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 12px;
+  gap: 8px;
 }
 
 /* ======================================== 
@@ -4210,6 +4242,7 @@ main.content:has(.content-welcome) .content-welcome {
 .map-viewer-image-wrapper {
   position: relative;
   display: inline-block;
+  line-height: 0;
 }
 
 .map-viewer-hotspots {
@@ -4335,23 +4368,23 @@ main.content:has(.content-welcome) .content-welcome {
 @media (max-width: 768px) {
   .epc-groups-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
+    gap: 10px;
   }
   
   .epc-group-card {
-    padding: 16px 12px;
+    padding: 14px 10px;
   }
   
   .epc-group-icon {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
   
   .epc-group-letter {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
   }
   
   .epc-group-name {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
   }
   
   .epc-parts-table {
@@ -4360,7 +4393,7 @@ main.content:has(.content-welcome) .content-welcome {
   
   .epc-parts-table th,
   .epc-parts-table td {
-    padding: 10px 12px;
+    padding: 8px 10px;
   }
   
   .epc-desc-cell {
@@ -4368,60 +4401,133 @@ main.content:has(.content-welcome) .content-welcome {
   }
   
   .epc-diagram-header {
-    padding: 14px 16px;
-    font-size: 0.9rem;
+    padding: 10px 12px;
+    font-size: 0.85rem;
+    gap: 8px;
+  }
+  
+  .epc-diagram-chevron {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .epc-diagram-count {
+    font-size: 0.7rem;
+    padding: 2px 8px;
   }
   
   .epc-diagram-map {
-    height: 300px;
+    height: 280px;
   }
   
   .epc-parts-responsive {
-    padding: 12px;
+    padding: 8px;
+  }
+  
+  .epc-parts-cards {
+    gap: 6px;
   }
   
   .epc-part-card {
-    padding: 12px 14px;
+    padding: 8px 10px;
   }
   
   .epc-home {
-    padding: 20px 16px;
+    padding: 16px 12px;
   }
   
   .epc-home .epc-header h1 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   
   .epc-search-large .epc-search-input {
-    padding: 14px 16px;
-    font-size: 0.95rem;
+    padding: 12px 14px;
+    font-size: 0.9rem;
+  }
+  
+  .epc-search-small {
+    margin-bottom: 16px;
+  }
+  
+  .epc-search-small .epc-search-input {
+    padding: 10px 12px;
+    font-size: 0.85rem;
+  }
+  
+  .epc-header {
+    margin-bottom: 16px;
+  }
+  
+  .epc-breadcrumb {
+    margin-bottom: 16px;
+    padding: 8px 12px;
+    font-size: 0.8rem;
+  }
+  
+  /* Hide minimap on mobile */
+  .map-minimap {
+    display: none;
+  }
+  
+  .map-viewer-help {
+    font-size: 0.7rem;
+    padding: 4px 8px;
   }
 }
 
 @media (max-width: 480px) {
   .epc-groups-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
   }
   
   .epc-breadcrumb {
-    font-size: 0.8rem;
-    padding: 10px 12px;
+    font-size: 0.75rem;
+    padding: 6px 10px;
   }
   
   .epc-header h1 {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
+  }
+  
+  .epc-parts-count {
+    font-size: 0.8rem;
+  }
+  
+  .epc-diagram-groups {
+    gap: 10px;
   }
   
   .epc-diagram-map {
-    height: 250px;
+    height: 220px;
   }
   
   .epc-part-card-header {
     flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 4px;
+  }
+  
+  .epc-part-ref {
+    min-width: 26px;
+    height: 26px;
+    font-size: 0.8rem;
   }
   
   .epc-part-qty {
     margin-left: 0;
+  }
+  
+  .epc-part-description {
+    font-size: 0.8rem;
+  }
+  
+  .epc-part-partno {
+    font-size: 0.75rem;
+  }
+  
+  .epc-part-katno {
+    font-size: 0.7rem;
   }
   
   /* Fullscreen takes full viewport on mobile */
