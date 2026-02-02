@@ -1,0 +1,50 @@
+{
+  "diagramId": "b97656c1dc2b",
+  "imageWidth": 1240,
+  "imageHeight": 1761,
+  "sheetCode": {
+    "text": "E9",
+    "bbox": {
+      "x": 153,
+      "y": 1614,
+      "width": 46,
+      "height": 32
+    },
+    "confidence": 77
+  },
+  "hotspots": [
+    {
+      "ref": 5,
+      "bbox": {
+        "x": 812,
+        "y": 660,
+        "width": 13,
+        "height": 19
+      },
+      "normalized": {
+        "x": 0.6548387096774193,
+        "y": 0.3747870528109029,
+        "width": 0.010483870967741936,
+        "height": 0.010789324247586598
+      },
+      "confidence": 72
+    },
+    {
+      "ref": 9,
+      "bbox": {
+        "x": 995,
+        "y": 740,
+        "width": 12,
+        "height": 19
+      },
+      "normalized": {
+        "x": 0.8024193548387096,
+        "y": 0.4202157864849517,
+        "width": 0.00967741935483871,
+        "height": 0.010789324247586598
+      },
+      "confidence": 96
+    }
+  ],
+  "extractedAt": "2026-02-02T13:56:56.382Z"
+}

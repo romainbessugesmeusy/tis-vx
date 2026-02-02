@@ -1,9 +1,10 @@
-import { useState, useEffect, useMemo, useCallback, useRef } from 'react'
+import { useState, useEffect, useMemo, useCallback } from 'react'
 import { useParams, Link } from 'react-router-dom'
+import MapViewer from './MapViewer'
 
 /**
  * EPC (Electronic Parts Catalog) Browser
- * Displays parts table when a main item is selected
+ * Displays parts grouped by diagram when a main item is selected
  * Navigation is handled by the Sidebar component
  */
 
@@ -20,12 +21,10 @@ function EPCBrowser() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
   const [searchQuery, setSearchQuery] = useState('')
-  const [selectedDiagram, setSelectedDiagram] = useState(null)
-  const [hotspots, setHotspots] = useState(null)
+  const [hotspots, setHotspots] = useState({}) // Map of diagramId -> hotspots
   const [highlightedRef, setHighlightedRef] = useState(null)
   const [sortConfig, setSortConfig] = useState({ key: null, direction: 'asc' })
-  const diagramImageRef = useRef(null)
-  const [diagramLoaded, setDiagramLoaded] = useState(false)
+  const [expandedDiagrams, setExpandedDiagrams] = useState(new Set())
 
   // Load EPC data
   useEffect(() => {
@@ -64,37 +63,97 @@ function EPCBrowser() {
     }
   }, [data, groupId, subSectionId, mainId])
 
+  // Group parts by diagram
+  const partsByDiagram = useMemo(() => {
+    if (!parts.length) return []
+    
+    const groups = new Map()
+    
+    for (const part of parts) {
+      const diagramId = part.diagramId || '_none'
+      if (!groups.has(diagramId)) {
+        groups.set(diagramId, [])
+      }
+      groups.get(diagramId).push(part)
+    }
+    
+    // Convert to array and get diagram info
+    return Array.from(groups.entries()).map(([diagramId, groupParts]) => ({
+      diagramId,
+      diagram: diagramId !== '_none' && data?.diagrams?.[diagramId] ? data.diagrams[diagramId] : null,
+      parts: groupParts
+    }))
+  }, [parts, data])
+
+  // Expand all diagrams by default when parts change
+  useEffect(() => {
+    if (partsByDiagram.length > 0) {
+      setExpandedDiagrams(new Set(partsByDiagram.map(g => g.diagramId)))
+    }
+  }, [partsByDiagram])
+
+  // Load hotspots for all diagrams in current view
+  useEffect(() => {
+    if (!partsByDiagram.length) return
+    
+    const diagramIds = partsByDiagram
+      .filter(g => g.diagramId !== '_none' && g.diagram)
+      .map(g => g.diagramId)
+    
+    // Load hotspots for each diagram
+    diagramIds.forEach(diagramId => {
+      if (!hotspots[diagramId]) {
+        fetch(`/data/epc/hotspots/${diagramId}.json`)
+          .then(res => res.ok ? res.json() : null)
+          .then(data => {
+            if (data) {
+              setHotspots(prev => ({ ...prev, [diagramId]: data }))
+            }
+          })
+          .catch(() => {})
+      }
+    })
+  }, [partsByDiagram])
+
   // Filter parts by search query
-  const filteredParts = useMemo(() => {
-    if (!searchQuery.trim()) return parts
+  const filteredPartsByDiagram = useMemo(() => {
+    if (!searchQuery.trim()) return partsByDiagram
     
     const query = searchQuery.toLowerCase()
-    return parts.filter(part => 
-      part.description?.toLowerCase().includes(query) ||
-      part.partNo?.toLowerCase().includes(query) ||
-      part.katNo?.toLowerCase().includes(query) ||
-      part.ref?.toString().includes(query)
-    )
-  }, [parts, searchQuery])
+    return partsByDiagram
+      .map(group => ({
+        ...group,
+        parts: group.parts.filter(part => 
+          part.description?.toLowerCase().includes(query) ||
+          part.partNo?.toLowerCase().includes(query) ||
+          part.katNo?.toLowerCase().includes(query) ||
+          part.ref?.toString().includes(query)
+        )
+      }))
+      .filter(group => group.parts.length > 0)
+  }, [partsByDiagram, searchQuery])
 
-  // Sort parts
-  const sortedParts = useMemo(() => {
-    if (!sortConfig.key) return filteredParts
+  // Sort parts within each group
+  const sortedPartsByDiagram = useMemo(() => {
+    if (!sortConfig.key) return filteredPartsByDiagram
     
-    return [...filteredParts].sort((a, b) => {
-      const aVal = a[sortConfig.key] || ''
-      const bVal = b[sortConfig.key] || ''
-      
-      if (sortConfig.key === 'ref' || sortConfig.key === 'qty') {
-        const aNum = parseInt(aVal) || 0
-        const bNum = parseInt(bVal) || 0
-        return sortConfig.direction === 'asc' ? aNum - bNum : bNum - aNum
-      }
-      
-      const comparison = aVal.toString().localeCompare(bVal.toString())
-      return sortConfig.direction === 'asc' ? comparison : -comparison
-    })
-  }, [filteredParts, sortConfig])
+    return filteredPartsByDiagram.map(group => ({
+      ...group,
+      parts: [...group.parts].sort((a, b) => {
+        const aVal = a[sortConfig.key] || ''
+        const bVal = b[sortConfig.key] || ''
+        
+        if (sortConfig.key === 'ref' || sortConfig.key === 'qty') {
+          const aNum = parseInt(aVal) || 0
+          const bNum = parseInt(bVal) || 0
+          return sortConfig.direction === 'asc' ? aNum - bNum : bNum - aNum
+        }
+        
+        const comparison = aVal.toString().localeCompare(bVal.toString())
+        return sortConfig.direction === 'asc' ? comparison : -comparison
+      })
+    }))
+  }, [filteredPartsByDiagram, sortConfig])
 
   // Handle sort click
   const handleSort = useCallback((key) => {
@@ -104,25 +163,17 @@ function EPCBrowser() {
     }))
   }, [])
 
-  // Handle diagram click
-  const handleDiagramClick = useCallback((diagramId) => {
-    if (!diagramId || !data?.diagrams) return
-    const diagram = data.diagrams[diagramId]
-    if (diagram?.filename) {
-      setSelectedDiagram({ id: diagramId, ...diagram })
-      setDiagramLoaded(false)
-      setHotspots(null)
-      // Load hotspots for this diagram
-      fetch(`/data/epc/hotspots/${diagramId}.json`)
-        .then(res => res.ok ? res.json() : null)
-        .then(data => setHotspots(data))
-        .catch(() => setHotspots(null))
-    }
-  }, [data])
-
-  // Handle diagram image load
-  const handleDiagramLoad = useCallback(() => {
-    setDiagramLoaded(true)
+  // Toggle diagram expansion
+  const toggleDiagram = useCallback((diagramId) => {
+    setExpandedDiagrams(prev => {
+      const next = new Set(prev)
+      if (next.has(diagramId)) {
+        next.delete(diagramId)
+      } else {
+        next.add(diagramId)
+      }
+      return next
+    })
   }, [])
 
   // Global search across all parts (for home page)
@@ -234,32 +285,27 @@ function EPCBrowser() {
       {globalSearchResults && globalSearchResults.length > 0 ? (
         <div className="epc-search-results">
           <h3>Search Results ({globalSearchResults.length}{globalSearchResults.length === 100 ? '+' : ''})</h3>
-          <table className="epc-parts-table">
-            <thead>
-              <tr>
-                <th>Location</th>
-                <th>Ref</th>
-                <th>Description</th>
-                <th>Part No</th>
-                <th>Kat No</th>
-              </tr>
-            </thead>
-            <tbody>
-              {globalSearchResults.map((part, idx) => (
-                <tr key={idx}>
-                  <td className="epc-location-cell">
-                    <Link to={`/epc/${part.groupId}/${part.subSectionId}/${part.mainId}`}>
-                      {GROUP_ICONS[part.groupId]} {part.mainName}
-                    </Link>
-                  </td>
-                  <td className="epc-ref-cell">{part.ref}</td>
-                  <td>{part.description}</td>
-                  <td className="epc-partno-cell">{part.partNo}</td>
-                  <td className="epc-katno-cell">{part.katNo}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+          <div className="epc-parts-list">
+            {globalSearchResults.map((part, idx) => (
+              <Link 
+                key={idx} 
+                to={`/epc/${part.groupId}/${part.subSectionId}/${part.mainId}`}
+                className="epc-part-card"
+              >
+                <div className="epc-part-card-header">
+                  <span className="epc-part-ref">{part.ref}</span>
+                  <span className="epc-part-location">{GROUP_ICONS[part.groupId]} {part.mainName}</span>
+                </div>
+                <div className="epc-part-card-body">
+                  <div className="epc-part-description">{part.description}</div>
+                  <div className="epc-part-numbers">
+                    <span className="epc-part-partno">{part.partNo}</span>
+                    {part.katNo && <span className="epc-part-katno">{part.katNo}</span>}
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
         </div>
       ) : globalSearchResults && globalSearchResults.length === 0 ? (
         <div className="epc-no-results">
@@ -273,8 +319,137 @@ function EPCBrowser() {
     </div>
   )
 
-  // Render parts table
-  const renderPartsTable = () => (
+  // Render a single part card (mobile-first)
+  const renderPartCard = (part, diagramId) => (
+    <div 
+      key={`${part.partNo}-${part.ref}`}
+      className={`epc-part-card ${highlightedRef === part.ref ? 'highlighted' : ''}`}
+      onMouseEnter={() => setHighlightedRef(part.ref)}
+      onMouseLeave={() => setHighlightedRef(null)}
+    >
+      <div className="epc-part-card-header">
+        <span className="epc-part-ref">{part.ref}</span>
+        {part.usage && <span className="epc-part-usage">{part.usage}</span>}
+        {part.qty && <span className="epc-part-qty">×{part.qty}</span>}
+      </div>
+      <div className="epc-part-card-body">
+        <div className="epc-part-description">{part.description}</div>
+        <div className="epc-part-numbers">
+          <span className="epc-part-partno">{part.partNo}</span>
+          {part.katNo && <span className="epc-part-katno">{part.katNo}</span>}
+        </div>
+      </div>
+    </div>
+  )
+
+  // Render parts table (desktop)
+  const renderPartsTable = (groupParts, diagramId) => (
+    <div className="epc-parts-table-container">
+      <table className="epc-parts-table">
+        <thead>
+          <tr>
+            <th onClick={() => handleSort('ref')} className="sortable">
+              Ref {sortConfig.key === 'ref' && (sortConfig.direction === 'asc' ? '↑' : '↓')}
+            </th>
+            <th onClick={() => handleSort('description')} className="sortable">
+              Description {sortConfig.key === 'description' && (sortConfig.direction === 'asc' ? '↑' : '↓')}
+            </th>
+            <th onClick={() => handleSort('usage')} className="sortable">
+              Usage {sortConfig.key === 'usage' && (sortConfig.direction === 'asc' ? '↑' : '↓')}
+            </th>
+            <th onClick={() => handleSort('qty')} className="sortable">
+              Qty {sortConfig.key === 'qty' && (sortConfig.direction === 'asc' ? '↑' : '↓')}
+            </th>
+            <th onClick={() => handleSort('partNo')} className="sortable">
+              Part No {sortConfig.key === 'partNo' && (sortConfig.direction === 'asc' ? '↑' : '↓')}
+            </th>
+            <th onClick={() => handleSort('katNo')} className="sortable">
+              Kat No {sortConfig.key === 'katNo' && (sortConfig.direction === 'asc' ? '↑' : '↓')}
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          {groupParts.map((part, idx) => (
+            <tr 
+              key={idx} 
+              className={highlightedRef === part.ref ? 'highlighted' : ''}
+              onMouseEnter={() => setHighlightedRef(part.ref)}
+              onMouseLeave={() => setHighlightedRef(null)}
+            >
+              <td className="epc-ref-cell">
+                <span className="epc-ref-badge">{part.ref}</span>
+              </td>
+              <td className="epc-desc-cell">{part.description}</td>
+              <td className="epc-usage-cell">{part.usage}</td>
+              <td className="epc-qty-cell">{part.qty}</td>
+              <td className="epc-partno-cell">{part.partNo}</td>
+              <td className="epc-katno-cell">{part.katNo}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  )
+
+  // Render diagram group
+  const renderDiagramGroup = (group) => {
+    const { diagramId, diagram, parts: groupParts } = group
+    const isExpanded = expandedDiagrams.has(diagramId)
+    const diagramHotspots = hotspots[diagramId]
+    
+    return (
+      <div key={diagramId} className="epc-diagram-group">
+        {/* Diagram Header */}
+        <button 
+          className={`epc-diagram-header ${isExpanded ? 'expanded' : ''}`}
+          onClick={() => toggleDiagram(diagramId)}
+        >
+          <svg className="epc-diagram-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+          <span className="epc-diagram-title">
+            {diagram ? `Diagram ${diagramHotspots?.sheetCode?.text || ''}` : 'Parts without diagram'}
+          </span>
+          <span className="epc-diagram-count">{groupParts.length} parts</span>
+        </button>
+        
+        {isExpanded && (
+          <div className="epc-diagram-content">
+            {/* Diagram Viewer */}
+            {diagram && (
+              <div className="epc-diagram-viewer-wrapper">
+                <MapViewer
+                  src={`/data/epc/diagrams/${diagram.filename}`}
+                  alt={`Parts diagram`}
+                  allowFullscreen={true}
+                  hotspots={diagramHotspots}
+                  highlightedRef={highlightedRef}
+                  onHotspotHover={setHighlightedRef}
+                  className="epc-diagram-map"
+                />
+              </div>
+            )}
+            
+            {/* Parts List - Card view for mobile, table for desktop */}
+            <div className="epc-parts-responsive">
+              {/* Mobile: Card layout */}
+              <div className="epc-parts-cards">
+                {groupParts.map(part => renderPartCard(part, diagramId))}
+              </div>
+              
+              {/* Desktop: Table layout */}
+              <div className="epc-parts-table-wrapper">
+                {renderPartsTable(groupParts, diagramId)}
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+    )
+  }
+
+  // Render main parts view (grouped by diagram)
+  const renderPartsView = () => (
     <div className="epc-parts">
       {renderBreadcrumb()}
       
@@ -296,118 +471,14 @@ function EPCBrowser() {
         )}
       </div>
 
-      <div className="epc-parts-container">
-        <table className="epc-parts-table">
-          <thead>
-            <tr>
-              <th onClick={() => handleSort('ref')} className="sortable">
-                Ref {sortConfig.key === 'ref' && (sortConfig.direction === 'asc' ? '↑' : '↓')}
-              </th>
-              <th onClick={() => handleSort('description')} className="sortable">
-                Description {sortConfig.key === 'description' && (sortConfig.direction === 'asc' ? '↑' : '↓')}
-              </th>
-              <th onClick={() => handleSort('usage')} className="sortable">
-                Usage {sortConfig.key === 'usage' && (sortConfig.direction === 'asc' ? '↑' : '↓')}
-              </th>
-              <th onClick={() => handleSort('qty')} className="sortable">
-                Qty {sortConfig.key === 'qty' && (sortConfig.direction === 'asc' ? '↑' : '↓')}
-              </th>
-              <th onClick={() => handleSort('partNo')} className="sortable">
-                Part No {sortConfig.key === 'partNo' && (sortConfig.direction === 'asc' ? '↑' : '↓')}
-              </th>
-              <th onClick={() => handleSort('katNo')} className="sortable">
-                Kat No {sortConfig.key === 'katNo' && (sortConfig.direction === 'asc' ? '↑' : '↓')}
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            {sortedParts.map((part, idx) => (
-              <tr 
-                key={idx} 
-                className={`${part.diagramId ? 'has-diagram' : ''} ${highlightedRef === part.ref ? 'highlighted' : ''}`}
-                onMouseEnter={() => selectedDiagram && setHighlightedRef(part.ref)}
-                onMouseLeave={() => setHighlightedRef(null)}
-              >
-                <td className="epc-ref-cell">
-                  {part.diagramId ? (
-                    <button 
-                      className="epc-ref-link"
-                      onClick={() => handleDiagramClick(part.diagramId)}
-                      title="View diagram"
-                    >
-                      {part.ref}
-                    </button>
-                  ) : (
-                    part.ref
-                  )}
-                </td>
-                <td className="epc-desc-cell">{part.description}</td>
-                <td className="epc-usage-cell">{part.usage}</td>
-                <td className="epc-qty-cell">{part.qty}</td>
-                <td className="epc-partno-cell">{part.partNo}</td>
-                <td className="epc-katno-cell">{part.katNo}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-
-        {sortedParts.length === 0 && searchQuery && (
-          <div className="epc-no-results">
-            <p>No parts match "{searchQuery}"</p>
-          </div>
-        )}
+      {/* Diagram Groups */}
+      <div className="epc-diagram-groups">
+        {sortedPartsByDiagram.map(group => renderDiagramGroup(group))}
       </div>
 
-      {/* Diagram Modal */}
-      {selectedDiagram && (
-        <div className="epc-diagram-modal" onClick={() => setSelectedDiagram(null)}>
-          <div className="epc-diagram-content" onClick={e => e.stopPropagation()}>
-            <button className="epc-diagram-close" onClick={() => setSelectedDiagram(null)}>×</button>
-            <h3>{currentMain.name}</h3>
-            <div className="epc-diagram-image-container">
-              <img 
-                ref={diagramImageRef}
-                src={`/data/epc/diagrams/${selectedDiagram.filename}`}
-                alt={`Diagram for ${currentMain.name}`}
-                className="epc-diagram-image"
-                onLoad={handleDiagramLoad}
-              />
-              {/* Hotspot overlays */}
-              {diagramLoaded && hotspots && diagramImageRef.current && (
-                <div className="epc-hotspots-container">
-                  {hotspots.hotspots.map((hotspot, idx) => {
-                    const img = diagramImageRef.current
-                    const scaleX = img.offsetWidth / hotspots.imageWidth
-                    const scaleY = img.offsetHeight / hotspots.imageHeight
-                    const isHighlighted = highlightedRef === hotspot.ref
-                    
-                    return (
-                      <div
-                        key={idx}
-                        className={`epc-hotspot ${isHighlighted ? 'highlighted' : ''}`}
-                        style={{
-                          left: `${hotspot.bbox.x * scaleX}px`,
-                          top: `${hotspot.bbox.y * scaleY}px`,
-                          width: `${hotspot.bbox.width * scaleX}px`,
-                          height: `${hotspot.bbox.height * scaleY}px`,
-                        }}
-                        onMouseEnter={() => setHighlightedRef(hotspot.ref)}
-                        onMouseLeave={() => setHighlightedRef(null)}
-                        title={`Part #${hotspot.ref}`}
-                      >
-                        <span className="epc-hotspot-label">{hotspot.ref}</span>
-                      </div>
-                    )
-                  })}
-                </div>
-              )}
-            </div>
-            {hotspots?.sheetCode && (
-              <div className="epc-diagram-sheet-code">
-                Sheet: {hotspots.sheetCode.text}
-              </div>
-            )}
-          </div>
+      {sortedPartsByDiagram.length === 0 && searchQuery && (
+        <div className="epc-no-results">
+          <p>No parts match "{searchQuery}"</p>
         </div>
       )}
     </div>
@@ -427,7 +498,7 @@ function EPCBrowser() {
     )
   }
 
-  return renderPartsTable()
+  return renderPartsView()
 }
 
 export default EPCBrowser

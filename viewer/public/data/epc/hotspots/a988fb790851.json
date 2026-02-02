@@ -1,0 +1,34 @@
+{
+  "diagramId": "a988fb790851",
+  "imageWidth": 1240,
+  "imageHeight": 1761,
+  "sheetCode": {
+    "text": "E16",
+    "bbox": {
+      "x": 156,
+      "y": 1614,
+      "width": 69,
+      "height": 33
+    },
+    "confidence": 96
+  },
+  "hotspots": [
+    {
+      "ref": 5,
+      "bbox": {
+        "x": 490,
+        "y": 1024,
+        "width": 302,
+        "height": 165
+      },
+      "normalized": {
+        "x": 0.3951612903225806,
+        "y": 0.5814877910278251,
+        "width": 0.2435483870967742,
+        "height": 0.09369676320272573
+      },
+      "confidence": 9
+    }
+  ],
+  "extractedAt": "2026-02-02T13:56:40.714Z"
+}

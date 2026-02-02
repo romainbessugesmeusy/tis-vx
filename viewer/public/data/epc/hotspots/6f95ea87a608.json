@@ -1,0 +1,34 @@
+{
+  "diagramId": "6f95ea87a608",
+  "imageWidth": 1240,
+  "imageHeight": 1761,
+  "sheetCode": {
+    "text": "M5",
+    "bbox": {
+      "x": 148,
+      "y": 1618,
+      "width": 55,
+      "height": 32
+    },
+    "confidence": 96
+  },
+  "hotspots": [
+    {
+      "ref": 3,
+      "bbox": {
+        "x": 848,
+        "y": 1280,
+        "width": 74,
+        "height": 53
+      },
+      "normalized": {
+        "x": 0.6838709677419355,
+        "y": 0.7268597387847814,
+        "width": 0.05967741935483871,
+        "height": 0.030096536059057353
+      },
+      "confidence": 56
+    }
+  ],
+  "extractedAt": "2026-02-02T13:55:56.291Z"
+}

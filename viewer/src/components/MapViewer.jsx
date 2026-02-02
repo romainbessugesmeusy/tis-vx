@@ -15,7 +15,7 @@ import { TransformWrapper, TransformComponent, useControls } from 'react-zoom-pa
  */
 
 // Control buttons component (needs to be inside TransformWrapper context)
-function Controls({ onFitToView }) {
+function Controls({ onFitToView, isFullscreen, onToggleFullscreen }) {
   const { zoomIn, zoomOut, resetTransform } = useControls()
   
   return (
@@ -66,6 +66,33 @@ function Controls({ onFitToView }) {
           <path d="M16 21h3a2 2 0 0 0 2-2v-3" />
         </svg>
       </button>
+      {onToggleFullscreen && (
+        <>
+          <div className="map-control-divider" />
+          <button 
+            className="map-control-btn" 
+            onClick={onToggleFullscreen}
+            title={isFullscreen ? "Exit fullscreen (Esc)" : "Fullscreen"}
+            aria-label={isFullscreen ? "Exit fullscreen" : "Fullscreen"}
+          >
+            {isFullscreen ? (
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M8 3v3a2 2 0 0 1-2 2H3" />
+                <path d="M21 8h-3a2 2 0 0 1-2-2V3" />
+                <path d="M3 16h3a2 2 0 0 1 2 2v3" />
+                <path d="M16 21v-3a2 2 0 0 1 2-2h3" />
+              </svg>
+            ) : (
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M3 8V5a2 2 0 0 1 2-2h3" />
+                <path d="M16 3h3a2 2 0 0 1 2 2v3" />
+                <path d="M21 16v3a2 2 0 0 1-2 2h-3" />
+                <path d="M8 21H5a2 2 0 0 1-2-2v-3" />
+              </svg>
+            )}
+          </button>
+        </>
+      )}
     </div>
   )
 }
@@ -128,14 +155,51 @@ function ZoomIndicator({ scale }) {
   )
 }
 
-function MapViewer({ src, alt, onError }) {
+function MapViewer({ src, alt, onError, allowFullscreen = false, hotspots, highlightedRef, onHotspotHover, className }) {
   const [scale, setScale] = useState(1)
   const [position, setPosition] = useState({ x: 0, y: 0 })
   const [imageError, setImageError] = useState(false)
   const [imageLoaded, setImageLoaded] = useState(false)
+  const [isFullscreen, setIsFullscreen] = useState(false)
   const containerRef = useRef(null)
   const imageRef = useRef(null)
   const transformRef = useRef(null)
+  
+  // Toggle fullscreen mode
+  const toggleFullscreen = () => {
+    setIsFullscreen(prev => !prev)
+  }
+  
+  // Handle escape key to exit fullscreen
+  useEffect(() => {
+    if (!isFullscreen) return
+    
+    const handleEscape = (e) => {
+      if (e.key === 'Escape') {
+        setIsFullscreen(false)
+      }
+    }
+    
+    document.addEventListener('keydown', handleEscape)
+    // Prevent body scroll when fullscreen
+    document.body.style.overflow = 'hidden'
+    
+    return () => {
+      document.removeEventListener('keydown', handleEscape)
+      document.body.style.overflow = ''
+    }
+  }, [isFullscreen])
+  
+  // Re-fit to view when entering/exiting fullscreen
+  useEffect(() => {
+    if (imageLoaded) {
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          handleFitToView()
+        })
+      })
+    }
+  }, [isFullscreen])
   
   // Handle transform changes
   const handleTransform = (ref, state) => {
@@ -252,7 +316,7 @@ function MapViewer({ src, alt, onError }) {
   
   if (imageError) {
     return (
-      <div className="map-viewer-error">
+      <div className={`map-viewer-error ${className || ''}`}>
         <div className="map-viewer-error-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
@@ -266,8 +330,84 @@ function MapViewer({ src, alt, onError }) {
     )
   }
   
-  return (
-    <div className="map-viewer" ref={containerRef} tabIndex={0}>
+  // Render hotspots overlay
+  const renderHotspots = () => {
+    if (!imageLoaded || !hotspots?.hotspots || !imageRef.current) return null
+    
+    const img = imageRef.current
+    const scaleX = img.offsetWidth / hotspots.imageWidth
+    const scaleY = img.offsetHeight / hotspots.imageHeight
+    
+    return (
+      <div className="map-viewer-hotspots">
+        {hotspots.hotspots.map((hotspot, idx) => {
+          const isHighlighted = highlightedRef === hotspot.ref
+          
+          // Handle polygon hotspots
+          if (hotspot.type === 'polygon' && hotspot.points) {
+            const scaledPoints = hotspot.points.map(p => ({
+              x: p.x * scaleX,
+              y: p.y * scaleY
+            }))
+            const xs = scaledPoints.map(p => p.x)
+            const ys = scaledPoints.map(p => p.y)
+            const bounds = {
+              x: Math.min(...xs),
+              y: Math.min(...ys),
+              width: Math.max(...xs) - Math.min(...xs),
+              height: Math.max(...ys) - Math.min(...ys)
+            }
+            const localPoints = scaledPoints.map(p => 
+              `${p.x - bounds.x},${p.y - bounds.y}`
+            ).join(' ')
+            
+            return (
+              <div
+                key={idx}
+                className={`map-hotspot map-hotspot-polygon ${isHighlighted ? 'highlighted' : ''}`}
+                style={{
+                  left: `${bounds.x}px`,
+                  top: `${bounds.y}px`,
+                  width: `${bounds.width}px`,
+                  height: `${bounds.height}px`,
+                }}
+                onMouseEnter={() => onHotspotHover?.(hotspot.ref)}
+                onMouseLeave={() => onHotspotHover?.(null)}
+                title={`Part #${hotspot.ref}`}
+              >
+                <svg viewBox={`0 0 ${bounds.width} ${bounds.height}`}>
+                  <polygon points={localPoints} />
+                </svg>
+                <span className="map-hotspot-label">{hotspot.ref}</span>
+              </div>
+            )
+          }
+          
+          // Rectangle hotspot (default)
+          return (
+            <div
+              key={idx}
+              className={`map-hotspot ${isHighlighted ? 'highlighted' : ''}`}
+              style={{
+                left: `${hotspot.bbox.x * scaleX}px`,
+                top: `${hotspot.bbox.y * scaleY}px`,
+                width: `${hotspot.bbox.width * scaleX}px`,
+                height: `${hotspot.bbox.height * scaleY}px`,
+              }}
+              onMouseEnter={() => onHotspotHover?.(hotspot.ref)}
+              onMouseLeave={() => onHotspotHover?.(null)}
+              title={`Part #${hotspot.ref}`}
+            >
+              <span className="map-hotspot-label">{hotspot.ref}</span>
+            </div>
+          )
+        })}
+      </div>
+    )
+  }
+  
+  const viewerContent = (
+    <div className={`map-viewer ${isFullscreen ? 'map-viewer-fullscreen' : ''} ${className || ''}`} ref={containerRef} tabIndex={0}>
       <TransformWrapper
         ref={transformRef}
         initialScale={1}
@@ -282,7 +422,11 @@ function MapViewer({ src, alt, onError }) {
       >
         {() => (
           <>
-            <Controls onFitToView={handleFitToView} />
+            <Controls 
+              onFitToView={handleFitToView} 
+              isFullscreen={isFullscreen}
+              onToggleFullscreen={allowFullscreen ? toggleFullscreen : undefined}
+            />
             <ZoomIndicator scale={scale} />
             {imageLoaded && (
               <Minimap 
@@ -304,15 +448,18 @@ function MapViewer({ src, alt, onError }) {
                 cursor: 'grab'
               }}
             >
-              <img
-                ref={imageRef}
-                src={src}
-                alt={alt || 'Diagram'}
-                className="map-viewer-image"
-                onLoad={handleImageLoad}
-                onError={handleImageError}
-                draggable={false}
-              />
+              <div className="map-viewer-image-wrapper">
+                <img
+                  ref={imageRef}
+                  src={src}
+                  alt={alt || 'Diagram'}
+                  className="map-viewer-image"
+                  onLoad={handleImageLoad}
+                  onError={handleImageError}
+                  draggable={false}
+                />
+                {renderHotspots()}
+              </div>
             </TransformComponent>
           </>
         )}
@@ -330,6 +477,17 @@ function MapViewer({ src, alt, onError }) {
       </div>
     </div>
   )
+  
+  // Wrap in fullscreen overlay when active
+  if (isFullscreen) {
+    return (
+      <div className="map-viewer-fullscreen-overlay">
+        {viewerContent}
+      </div>
+    )
+  }
+  
+  return viewerContent
 }
 
 export default MapViewer

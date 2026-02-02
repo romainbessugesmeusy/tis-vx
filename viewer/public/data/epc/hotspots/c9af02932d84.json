@@ -1,0 +1,25 @@
+{
+  "diagramId": "c9af02932d84",
+  "imageWidth": 1240,
+  "imageHeight": 1761,
+  "sheetCode": null,
+  "hotspots": [
+    {
+      "ref": 1,
+      "bbox": {
+        "x": 596,
+        "y": 777,
+        "width": 7,
+        "height": 19
+      },
+      "normalized": {
+        "x": 0.4806451612903226,
+        "y": 0.44122657580919933,
+        "width": 0.00564516129032258,
+        "height": 0.010789324247586598
+      },
+      "confidence": 74
+    }
+  ],
+  "extractedAt": "2026-02-02T13:57:09.414Z"
+}

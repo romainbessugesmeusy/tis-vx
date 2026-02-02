@@ -1,0 +1,17 @@
+{
+  "diagramId": "86c80e31f335",
+  "imageWidth": 1240,
+  "imageHeight": 1761,
+  "sheetCode": {
+    "text": "M2",
+    "bbox": {
+      "x": 162,
+      "y": 1610,
+      "width": 53,
+      "height": 31
+    },
+    "confidence": 95
+  },
+  "hotspots": [],
+  "extractedAt": "2026-02-02T13:56:12.228Z"
+}

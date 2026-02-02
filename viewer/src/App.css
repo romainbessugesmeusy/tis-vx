@@ -3609,11 +3609,49 @@ main.content:has(.content-welcome) .content-welcome {
   white-space: nowrap;
   opacity: 0;
   transition: opacity 0.15s;
+  pointer-events: none;
 }
 
 .epc-hotspot:hover .epc-hotspot-label,
 .epc-hotspot.highlighted .epc-hotspot-label {
   opacity: 1;
+  background: #ef4444;
+}
+
+/* Polygon Hotspots */
+.epc-hotspot-polygon {
+  border: none;
+  background: transparent;
+}
+
+.epc-hotspot-polygon svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.epc-hotspot-polygon polygon {
+  fill: rgba(139, 92, 246, 0.2);
+  stroke: rgba(139, 92, 246, 0.6);
+  stroke-width: 2;
+  transition: all 0.15s;
+}
+
+.epc-hotspot-polygon:hover polygon,
+.epc-hotspot-polygon.highlighted polygon {
+  fill: rgba(239, 68, 68, 0.3);
+  stroke: #ef4444;
+}
+
+.epc-hotspot-polygon .epc-hotspot-label {
+  background: #8b5cf6;
+}
+
+.epc-hotspot-polygon:hover .epc-hotspot-label,
+.epc-hotspot-polygon.highlighted .epc-hotspot-label {
   background: #ef4444;
 }
 
@@ -3922,7 +3960,378 @@ main.content:has(.content-welcome) .content-welcome {
   font-weight: 500;
 }
 
-/* Responsive EPC */
+/* ======================================== 
+   EPC Diagram Groups Layout
+   ======================================== */
+
+.epc-diagram-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.epc-diagram-group {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.epc-diagram-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 16px 20px;
+  background: var(--bg-main);
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-align: left;
+  transition: background 0.15s;
+}
+
+.epc-diagram-header:hover {
+  background: var(--border);
+}
+
+.epc-diagram-chevron {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  transition: transform 0.2s;
+  stroke: var(--text-muted);
+}
+
+.epc-diagram-header.expanded .epc-diagram-chevron {
+  transform: rotate(180deg);
+}
+
+.epc-diagram-title {
+  flex: 1;
+}
+
+.epc-diagram-count {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  background: rgba(59, 130, 246, 0.1);
+  padding: 4px 10px;
+  border-radius: 12px;
+}
+
+.epc-diagram-content {
+  padding: 0;
+}
+
+.epc-diagram-viewer-wrapper {
+  background: #1a1a2e;
+  border-bottom: 1px solid var(--border);
+}
+
+.epc-diagram-map {
+  height: 400px;
+}
+
+/* ======================================== 
+   EPC Parts Cards (Mobile-first layout)
+   ======================================== */
+
+.epc-parts-responsive {
+  padding: 16px;
+}
+
+/* Mobile: Show cards, hide table */
+.epc-parts-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.epc-parts-table-wrapper {
+  display: none;
+}
+
+.epc-part-card {
+  background: var(--bg-main);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 16px;
+  transition: all 0.15s;
+  text-decoration: none;
+  color: inherit;
+}
+
+.epc-part-card:hover,
+.epc-part-card.highlighted {
+  border-color: var(--accent);
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.15);
+}
+
+.epc-part-card.highlighted {
+  background: rgba(239, 68, 68, 0.08);
+  border-color: #ef4444;
+}
+
+.epc-part-card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.epc-part-ref {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  height: 32px;
+  padding: 0 8px;
+  background: var(--accent);
+  color: white;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.epc-part-card.highlighted .epc-part-ref {
+  background: #ef4444;
+}
+
+.epc-part-usage {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  background: rgba(0, 0, 0, 0.05);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.epc-part-qty {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-left: auto;
+}
+
+.epc-part-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.epc-part-description {
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  line-height: 1.4;
+}
+
+.epc-part-numbers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.epc-part-partno {
+  font-family: 'SF Mono', Monaco, 'Consolas', monospace;
+  font-size: 0.85rem;
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.epc-part-katno {
+  font-family: 'SF Mono', Monaco, 'Consolas', monospace;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.epc-part-location {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-left: auto;
+}
+
+/* Parts list for search results */
+.epc-parts-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+/* ======================================== 
+   EPC Parts Table Updates
+   ======================================== */
+
+.epc-parts-table-container {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.epc-ref-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  height: 32px;
+  padding: 0 8px;
+  background: var(--accent);
+  color: white;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.epc-parts-table tbody tr.highlighted .epc-ref-badge {
+  background: #ef4444;
+}
+
+/* ======================================== 
+   MapViewer Fullscreen & Hotspots
+   ======================================== */
+
+.map-viewer-fullscreen-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.95);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map-viewer-fullscreen {
+  width: 100vw;
+  height: 100vh;
+  border-radius: 0;
+}
+
+.map-viewer-image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.map-viewer-hotspots {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.map-hotspot {
+  position: absolute;
+  border: 2px solid rgba(59, 130, 246, 0.6);
+  background: rgba(59, 130, 246, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  pointer-events: auto;
+  transition: all 0.15s ease;
+}
+
+.map-hotspot:hover,
+.map-hotspot.highlighted {
+  border-color: #ef4444;
+  background: rgba(239, 68, 68, 0.3);
+  transform: scale(1.15);
+  z-index: 10;
+}
+
+.map-hotspot-label {
+  position: absolute;
+  top: -22px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #3b82f6;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.map-hotspot:hover .map-hotspot-label,
+.map-hotspot.highlighted .map-hotspot-label {
+  opacity: 1;
+  background: #ef4444;
+}
+
+/* Polygon Hotspots */
+.map-hotspot-polygon {
+  border: none;
+  background: transparent;
+}
+
+.map-hotspot-polygon svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.map-hotspot-polygon polygon {
+  fill: rgba(139, 92, 246, 0.2);
+  stroke: rgba(139, 92, 246, 0.6);
+  stroke-width: 2;
+  transition: all 0.15s;
+}
+
+.map-hotspot-polygon:hover polygon,
+.map-hotspot-polygon.highlighted polygon {
+  fill: rgba(239, 68, 68, 0.3);
+  stroke: #ef4444;
+}
+
+.map-hotspot-polygon .map-hotspot-label {
+  background: #8b5cf6;
+}
+
+.map-hotspot-polygon:hover .map-hotspot-label,
+.map-hotspot-polygon.highlighted .map-hotspot-label {
+  background: #ef4444;
+}
+
+/* ======================================== 
+   Responsive EPC
+   ======================================== */
+
+/* Tablet and up: Show table, hide cards */
+@media (min-width: 769px) {
+  .epc-parts-cards {
+    display: none;
+  }
+  
+  .epc-parts-table-wrapper {
+    display: block;
+  }
+  
+  .epc-parts-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .epc-diagram-map {
+    height: 500px;
+  }
+}
+
+/* Large screens */
+@media (min-width: 1200px) {
+  .epc-parts-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .epc-diagram-map {
+    height: 600px;
+  }
+}
+
+/* Mobile styles */
 @media (max-width: 768px) {
   .epc-groups-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -3957,6 +4366,36 @@ main.content:has(.content-welcome) .content-welcome {
   .epc-desc-cell {
     max-width: 200px;
   }
+  
+  .epc-diagram-header {
+    padding: 14px 16px;
+    font-size: 0.9rem;
+  }
+  
+  .epc-diagram-map {
+    height: 300px;
+  }
+  
+  .epc-parts-responsive {
+    padding: 12px;
+  }
+  
+  .epc-part-card {
+    padding: 12px 14px;
+  }
+  
+  .epc-home {
+    padding: 20px 16px;
+  }
+  
+  .epc-home .epc-header h1 {
+    font-size: 1.5rem;
+  }
+  
+  .epc-search-large .epc-search-input {
+    padding: 14px 16px;
+    font-size: 0.95rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -3971,5 +4410,30 @@ main.content:has(.content-welcome) .content-welcome {
   
   .epc-header h1 {
     font-size: 1.25rem;
+  }
+  
+  .epc-diagram-map {
+    height: 250px;
+  }
+  
+  .epc-part-card-header {
+    flex-wrap: wrap;
+  }
+  
+  .epc-part-qty {
+    margin-left: 0;
+  }
+  
+  /* Fullscreen takes full viewport on mobile */
+  .map-viewer-fullscreen {
+    border-radius: 0;
+  }
+  
+  .map-viewer-fullscreen .map-viewer-help {
+    display: none;
+  }
+  
+  .map-viewer-fullscreen .map-minimap {
+    display: none;
   }
 }

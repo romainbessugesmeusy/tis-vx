@@ -1,0 +1,1679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EPC Diagram Hotspot Editor</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #1a1a2e;
+      color: #eee;
+      min-height: 100vh;
+      user-select: none;
+    }
+    
+    .container {
+      display: grid;
+      grid-template-columns: 320px 1fr;
+      height: 100vh;
+    }
+    
+    /* Sidebar */
+    .sidebar {
+      background: #16213e;
+      padding: 16px;
+      overflow-y: auto;
+      border-right: 1px solid #0f3460;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    
+    .sidebar h1 {
+      font-size: 1.1rem;
+      color: #e94560;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .connection-status {
+      font-size: 0.65rem;
+      padding: 2px 8px;
+      border-radius: 10px;
+      background: #dc2626;
+    }
+    
+    .connection-status.connected { background: #16a34a; }
+    
+    .diagram-search {
+      width: 100%;
+      padding: 10px 12px;
+      background: #0f3460;
+      border: 1px solid #333;
+      color: #eee;
+      border-radius: 6px;
+      font-size: 0.9rem;
+    }
+    
+    .diagram-search:focus { outline: none; border-color: #e94560; }
+    
+    .filter-row {
+      display: flex;
+      gap: 6px;
+    }
+    
+    .filter-btn {
+      flex: 1;
+      padding: 6px;
+      background: #0f3460;
+      border: 1px solid transparent;
+      color: #888;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      cursor: pointer;
+    }
+    
+    .filter-btn:hover { background: #1a3a6e; }
+    .filter-btn.active { border-color: #e94560; color: #eee; }
+    
+    .diagram-list {
+      flex: 1;
+      overflow-y: auto;
+      margin: 0 -16px;
+      padding: 0 16px;
+      min-height: 120px;
+      max-height: 200px;
+    }
+    
+    .diagram-item {
+      padding: 8px 10px;
+      background: #0f3460;
+      border-radius: 6px;
+      margin-bottom: 4px;
+      cursor: pointer;
+      transition: all 0.15s;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.85rem;
+    }
+    
+    .diagram-item:hover { background: #1a3a6e; }
+    .diagram-item.selected { background: #e94560; }
+    
+    .diagram-item .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #666;
+      flex-shrink: 0;
+    }
+    
+    .diagram-item .status-dot.todo { background: #f59e0b; }
+    .diagram-item .status-dot.done { background: #16a34a; }
+    
+    .diagram-item .sheet-code {
+      font-weight: bold;
+      min-width: 45px;
+    }
+    
+    .diagram-item .hotspot-count {
+      font-size: 0.7rem;
+      color: #888;
+      margin-left: auto;
+    }
+    
+    .diagram-item.selected .hotspot-count { color: rgba(255,255,255,0.7); }
+    
+    .info-panel {
+      background: #0f3460;
+      padding: 12px;
+      border-radius: 8px;
+    }
+    
+    .info-panel h3 {
+      font-size: 0.8rem;
+      color: #888;
+      margin-bottom: 6px;
+    }
+    
+    .info-panel .value {
+      font-size: 1rem;
+      color: #e94560;
+    }
+    
+    .info-panel .stats {
+      font-size: 0.7rem;
+      color: #666;
+      margin-top: 6px;
+    }
+    
+    .status-toggle {
+      display: flex;
+      gap: 6px;
+      margin-top: 10px;
+    }
+    
+    .status-toggle .status-btn {
+      flex: 1;
+      padding: 8px;
+      border: 1px solid #333;
+      border-radius: 4px;
+      background: #1a1a2e;
+      color: #888;
+      font-size: 0.8rem;
+      cursor: pointer;
+    }
+    
+    .status-toggle .status-btn:hover { background: #0f3460; }
+    .status-toggle .status-btn.active.todo { border-color: #f59e0b; color: #f59e0b; }
+    .status-toggle .status-btn.active.done { border-color: #16a34a; color: #16a34a; }
+    
+    .edit-panel {
+      background: #0f3460;
+      padding: 12px;
+      border-radius: 8px;
+      display: none;
+    }
+    
+    .edit-panel.visible { display: block; }
+    
+    .edit-panel h3 {
+      font-size: 0.8rem;
+      color: #888;
+      margin-bottom: 8px;
+    }
+    
+    .edit-panel .field {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 6px;
+    }
+    
+    .edit-panel label {
+      font-size: 0.75rem;
+      color: #888;
+      min-width: 50px;
+    }
+    
+    .edit-panel input {
+      flex: 1;
+      padding: 5px 8px;
+      background: #1a1a2e;
+      border: 1px solid #333;
+      color: #eee;
+      border-radius: 4px;
+      font-size: 0.85rem;
+    }
+    
+    .edit-panel input:focus { outline: none; border-color: #e94560; }
+    
+    .edit-panel .btn-row {
+      display: flex;
+      gap: 6px;
+      margin-top: 8px;
+    }
+    
+    .hotspots-list {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+    }
+    
+    .hotspots-list h2 {
+      font-size: 0.85rem;
+      margin-bottom: 8px;
+      color: #888;
+    }
+    
+    .hotspots-scroll {
+      flex: 1;
+      overflow-y: auto;
+      margin: 0 -16px;
+      padding: 0 16px;
+    }
+    
+    .hotspot-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 10px;
+      background: #0f3460;
+      border-radius: 6px;
+      margin-bottom: 4px;
+      cursor: pointer;
+      transition: all 0.15s;
+      font-size: 0.85rem;
+    }
+    
+    .hotspot-item:hover { background: #1a3a6e; }
+    .hotspot-item.selected { background: #e94560; }
+    .hotspot-item.highlighted { background: #f59e0b; }
+    
+    .hotspot-item .ref { font-weight: bold; min-width: 28px; }
+    .hotspot-item .type { font-size: 0.65rem; color: #666; }
+    .hotspot-item .delete-btn {
+      background: none;
+      border: none;
+      color: #e94560;
+      cursor: pointer;
+      font-size: 1.1rem;
+      opacity: 0.5;
+      padding: 0 4px;
+      margin-left: auto;
+    }
+    .hotspot-item .delete-btn:hover { opacity: 1; }
+    
+    .actions {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    
+    .btn {
+      padding: 10px 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      font-weight: 500;
+      transition: all 0.15s;
+    }
+    
+    .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+    .btn-primary { background: #e94560; color: white; }
+    .btn-primary:hover:not(:disabled) { background: #ff6b6b; }
+    .btn-secondary { background: #0f3460; color: #eee; border: 1px solid #333; }
+    .btn-secondary:hover:not(:disabled) { background: #1a3a6e; }
+    .btn-success { background: #16a34a; color: white; }
+    .btn-small { padding: 5px 10px; font-size: 0.75rem; }
+    
+    .unsaved-indicator {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: #f59e0b;
+      border-radius: 50%;
+      margin-left: 6px;
+      animation: pulse 1s infinite;
+    }
+    
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+    
+    .keyboard-hints {
+      font-size: 0.65rem;
+      color: #555;
+      padding: 8px;
+      background: rgba(0,0,0,0.2);
+      border-radius: 6px;
+      line-height: 1.7;
+    }
+    
+    .keyboard-hints kbd {
+      background: #333;
+      padding: 1px 5px;
+      border-radius: 3px;
+      font-family: monospace;
+    }
+    
+    /* Main Area */
+    .main-area {
+      padding: 16px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      background: #12121f;
+    }
+    
+    .toolbar {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 12px;
+      padding: 8px 12px;
+      background: #16213e;
+      border-radius: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+    .toolbar .mode {
+      padding: 6px 12px;
+      background: #0f3460;
+      border: 1px solid transparent;
+      color: #eee;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.15s;
+      font-size: 0.8rem;
+    }
+    
+    .toolbar .mode:hover { background: #1a3a6e; }
+    .toolbar .mode.active { border-color: #e94560; background: #e94560; }
+    
+    .toolbar .separator {
+      width: 1px;
+      height: 20px;
+      background: #333;
+      margin: 0 6px;
+    }
+    
+    .toolbar input {
+      padding: 6px 10px;
+      background: #0f3460;
+      border: 1px solid #333;
+      color: #eee;
+      border-radius: 4px;
+      width: 70px;
+      font-size: 0.8rem;
+    }
+    
+    .toolbar input:focus { outline: none; border-color: #4ecdc4; }
+    
+    .toolbar label {
+      font-size: 0.8rem;
+      color: #888;
+    }
+    
+    .toolbar .hint {
+      font-size: 0.7rem;
+      color: #666;
+      margin-left: auto;
+    }
+    
+    .zoom-controls {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      margin-left: 8px;
+    }
+    
+    .zoom-controls button {
+      width: 28px;
+      height: 28px;
+      background: #0f3460;
+      border: 1px solid #333;
+      color: #eee;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    
+    .zoom-controls button:hover { background: #1a3a6e; }
+    
+    .zoom-controls .zoom-level {
+      font-size: 0.75rem;
+      color: #888;
+      min-width: 45px;
+      text-align: center;
+    }
+    
+    .viewport {
+      flex: 1;
+      overflow: auto;
+      background: #0a0a12;
+      border-radius: 8px;
+      position: relative;
+    }
+    
+    .diagram-container {
+      position: relative;
+      transform-origin: 0 0;
+      background: white;
+      display: inline-block;
+    }
+    
+    .diagram-container img {
+      display: block;
+      pointer-events: none;
+    }
+    
+    .diagram-container.drawing { cursor: crosshair; }
+    .diagram-container.polygon { cursor: crosshair; }
+    .diagram-container.moving { cursor: move; }
+    .diagram-container.panning { cursor: grab; }
+    .diagram-container.panning:active { cursor: grabbing; }
+    
+    /* Hotspot overlays */
+    .hotspot-overlay {
+      position: absolute;
+      cursor: move;
+      transition: opacity 0.15s;
+    }
+    
+    .hotspot-overlay.rect {
+      border: 2px solid #3b82f6;
+      background: rgba(59, 130, 246, 0.15);
+      border-radius: 3px;
+    }
+    
+    .hotspot-overlay.polygon {
+      pointer-events: none;
+    }
+    
+    .hotspot-overlay.polygon svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+    
+    .hotspot-overlay.polygon polygon {
+      fill: rgba(139, 92, 246, 0.2);
+      stroke: #8b5cf6;
+      stroke-width: 2;
+      pointer-events: auto;
+      cursor: move;
+    }
+    
+    .hotspot-overlay:hover .rect-bg,
+    .hotspot-overlay.rect:hover {
+      border-color: #60a5fa;
+      background: rgba(59, 130, 246, 0.25);
+    }
+    
+    .hotspot-overlay.polygon:hover polygon {
+      fill: rgba(139, 92, 246, 0.35);
+    }
+    
+    .hotspot-overlay.selected.rect {
+      border-color: #e94560;
+      background: rgba(233, 69, 96, 0.3);
+      z-index: 10;
+    }
+    
+    .hotspot-overlay.selected.polygon polygon {
+      fill: rgba(233, 69, 96, 0.3);
+      stroke: #e94560;
+    }
+    
+    .hotspot-overlay.highlighted.rect {
+      border-color: #f59e0b;
+      background: rgba(245, 158, 11, 0.3);
+    }
+    
+    .hotspot-overlay.highlighted.polygon polygon {
+      fill: rgba(245, 158, 11, 0.3);
+      stroke: #f59e0b;
+    }
+    
+    .hotspot-overlay .label {
+      position: absolute;
+      top: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #3b82f6;
+      color: white;
+      padding: 1px 5px;
+      border-radius: 3px;
+      font-size: 10px;
+      font-weight: bold;
+      white-space: nowrap;
+      pointer-events: none;
+    }
+    
+    .hotspot-overlay.polygon .label { background: #8b5cf6; }
+    .hotspot-overlay.selected .label { background: #e94560; }
+    .hotspot-overlay.highlighted .label { background: #f59e0b; }
+    
+    .resize-handle {
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      background: #e94560;
+      border: 1px solid white;
+      border-radius: 2px;
+      display: none;
+    }
+    
+    .hotspot-overlay.selected .resize-handle { display: block; }
+    
+    .resize-handle.nw { top: -4px; left: -4px; cursor: nw-resize; }
+    .resize-handle.ne { top: -4px; right: -4px; cursor: ne-resize; }
+    .resize-handle.sw { bottom: -4px; left: -4px; cursor: sw-resize; }
+    .resize-handle.se { bottom: -4px; right: -4px; cursor: se-resize; }
+    
+    /* Polygon vertex handles */
+    .vertex-handle {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background: #8b5cf6;
+      border: 2px solid white;
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      cursor: move;
+      display: none;
+    }
+    
+    .hotspot-overlay.selected .vertex-handle { display: block; }
+    
+    .sheet-code-overlay {
+      position: absolute;
+      border: 2px solid #4ecdc4;
+      background: rgba(78, 205, 196, 0.2);
+      pointer-events: none;
+    }
+    
+    .sheet-code-overlay .label {
+      position: absolute;
+      top: -18px;
+      left: 0;
+      background: #4ecdc4;
+      color: #1a1a2e;
+      padding: 1px 5px;
+      border-radius: 3px;
+      font-size: 10px;
+      font-weight: bold;
+    }
+    
+    .draw-preview {
+      position: absolute;
+      border: 2px dashed #4ecdc4;
+      background: rgba(78, 205, 196, 0.2);
+      pointer-events: none;
+      display: none;
+    }
+    
+    .draw-preview.visible { display: block; }
+    
+    /* Polygon drawing preview */
+    .polygon-preview {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+    
+    .polygon-preview polyline {
+      fill: none;
+      stroke: #4ecdc4;
+      stroke-width: 2;
+      stroke-dasharray: 5, 5;
+    }
+    
+    .polygon-preview .temp-line {
+      stroke: #4ecdc4;
+      stroke-width: 1;
+      stroke-dasharray: 3, 3;
+      opacity: 0.5;
+    }
+    
+    .polygon-preview circle {
+      fill: #4ecdc4;
+      stroke: white;
+      stroke-width: 2;
+    }
+    
+    .polygon-preview circle.close-hint {
+      fill: #16a34a;
+      r: 8;
+    }
+    
+    /* Dialog */
+    .overlay-bg {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.7);
+      z-index: 999;
+      display: none;
+    }
+    
+    .overlay-bg.visible { display: block; }
+    
+    .dialog {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: #16213e;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+      z-index: 1000;
+      display: none;
+      min-width: 260px;
+    }
+    
+    .dialog.visible { display: block; }
+    
+    .dialog h3 { margin-bottom: 16px; color: #e94560; font-size: 1rem; }
+    
+    .dialog input {
+      width: 100%;
+      padding: 10px;
+      background: #0f3460;
+      border: 1px solid #e94560;
+      color: #eee;
+      border-radius: 6px;
+      font-size: 1rem;
+      margin-bottom: 12px;
+    }
+    
+    .dialog input:focus { outline: none; border-color: #ff6b6b; }
+    
+    .dialog .buttons { display: flex; gap: 8px; }
+    .dialog .buttons .btn { flex: 1; }
+    
+    /* Toast */
+    .toast {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 12px 20px;
+      background: #4ecdc4;
+      color: #1a1a2e;
+      border-radius: 8px;
+      font-weight: 500;
+      font-size: 0.9rem;
+      transform: translateY(100px);
+      opacity: 0;
+      transition: all 0.3s;
+      z-index: 2000;
+    }
+    
+    .toast.visible { transform: translateY(0); opacity: 1; }
+    .toast.error { background: #dc2626; color: white; }
+    .toast.success { background: #16a34a; color: white; }
+    
+    .empty-state {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      color: #666;
+      text-align: center;
+      padding: 40px;
+    }
+    
+    .empty-state .icon { font-size: 3rem; margin-bottom: 16px; opacity: 0.5; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <h1>
+        🔧 Hotspot Editor
+        <span class="connection-status" id="connectionStatus">offline</span>
+      </h1>
+      
+      <input type="text" class="diagram-search" id="diagramSearch" placeholder="Search diagrams...">
+      
+      <div class="filter-row">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="todo">⏳ To-Do</button>
+        <button class="filter-btn" data-filter="done">✅ Done</button>
+      </div>
+      
+      <div class="diagram-list" id="diagramList">
+        <div class="empty-state">
+          <div class="icon">📡</div>
+          <p>Connecting...</p>
+        </div>
+      </div>
+      
+      <div class="info-panel" id="infoPanel" style="display: none;">
+        <h3>Current Diagram</h3>
+        <div class="value" id="currentDiagram">—</div>
+        <div class="stats">
+          <span id="imageSize">—</span> • <span id="hotspotCount">0</span> hotspots
+        </div>
+        <div class="status-toggle">
+          <button class="status-btn todo" data-status="todo">⏳ To-Do</button>
+          <button class="status-btn done" data-status="done">✅ Done</button>
+        </div>
+      </div>
+      
+      <div class="edit-panel" id="editPanel">
+        <h3>Edit Hotspot</h3>
+        <div class="field">
+          <label>Ref #</label>
+          <input type="number" id="editRef" min="1" max="99">
+        </div>
+        <div class="btn-row">
+          <button class="btn btn-primary btn-small" id="applyEditBtn">Apply</button>
+          <button class="btn btn-secondary btn-small" id="deleteSelectedBtn">Delete</button>
+        </div>
+      </div>
+      
+      <div class="hotspots-list" id="hotspotsPanel" style="display: none;">
+        <h2>Hotspots <span id="unsavedIndicator" class="unsaved-indicator" style="display: none;"></span></h2>
+        <div class="hotspots-scroll" id="hotspotsList"></div>
+      </div>
+      
+      <div class="actions">
+        <button class="btn btn-success" id="saveBtn" disabled>💾 Save</button>
+        <button class="btn btn-secondary" id="clearAllBtn" disabled>🗑️ Clear All</button>
+      </div>
+      
+      <div class="keyboard-hints">
+        <kbd>Del</kbd> Delete • <kbd>Esc</kbd> Select mode • <kbd>⌘S</kbd> Save<br>
+        <kbd>Scroll</kbd> Zoom • <kbd>Drag</kbd> Pan (in Select mode)
+      </div>
+    </div>
+    
+    <div class="main-area">
+      <div class="toolbar" id="toolbar" style="display: none;">
+        <button class="mode" data-mode="select">🖱️ Select</button>
+        <button class="mode active" data-mode="draw">▢ Rectangle</button>
+        <button class="mode" data-mode="polygon">⬡ Polygon</button>
+        <div class="separator"></div>
+        <label>Sheet:</label>
+        <input type="text" id="sheetCodeInput" placeholder="A10">
+        <div class="zoom-controls">
+          <button id="zoomOut">−</button>
+          <span class="zoom-level" id="zoomLevel">100%</span>
+          <button id="zoomIn">+</button>
+          <button id="zoomFit" title="Fit to view">⊡</button>
+        </div>
+        <span class="hint" id="modeHint">Click and drag to draw</span>
+      </div>
+      
+      <div class="viewport" id="viewport">
+        <div class="diagram-container" id="diagramContainer" style="display: none;">
+          <img id="diagramImage" src="" alt="Diagram" draggable="false">
+          <div id="overlays"></div>
+          <div class="draw-preview" id="drawPreview"></div>
+          <svg class="polygon-preview" id="polygonPreview" style="display: none;">
+            <polyline id="polygonLines" points=""></polyline>
+            <line id="tempLine" class="temp-line" x1="0" y1="0" x2="0" y2="0"></line>
+          </svg>
+        </div>
+        
+        <div class="empty-state" id="emptyState">
+          <div class="icon">🖼️</div>
+          <p>Select a diagram to edit</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="overlay-bg" id="overlayBg"></div>
+  <div class="dialog" id="refDialog">
+    <h3>Part Reference Number</h3>
+    <input type="number" id="refInput" placeholder="1-99" min="1" max="99">
+    <div class="buttons">
+      <button class="btn btn-primary" id="confirmRefBtn">Add</button>
+      <button class="btn btn-secondary" id="cancelRefBtn">Cancel</button>
+    </div>
+  </div>
+  
+  <div class="toast" id="toast"></div>
+
+  <script>
+    const API_BASE = 'http://localhost:3001/api';
+    
+    // State
+    let diagrams = [];
+    let currentData = null;
+    let currentDiagramId = null;
+    let currentMode = 'draw';
+    let currentFilter = 'all';
+    let hasUnsavedChanges = false;
+    let isConnected = false;
+    
+    // Interaction
+    let selectedIndex = null;
+    let isDrawing = false;
+    let isMoving = false;
+    let isResizing = false;
+    let isPanning = false;
+    let spacePressed = false;
+    let resizeHandle = null;
+    let vertexIndex = null;
+    let drawStart = null;
+    let moveStart = null;
+    let panStart = null;
+    let originalBbox = null;
+    let originalPoints = null;
+    
+    // Polygon drawing
+    let polygonPoints = [];
+    let tempMousePos = null;
+    
+    // Zoom
+    let zoom = 1;
+    const MIN_ZOOM = 0.25;
+    const MAX_ZOOM = 4;
+    
+    // Elements
+    const viewport = document.getElementById('viewport');
+    const diagramContainer = document.getElementById('diagramContainer');
+    const diagramImage = document.getElementById('diagramImage');
+    const drawPreview = document.getElementById('drawPreview');
+    const polygonPreview = document.getElementById('polygonPreview');
+    const polygonLines = document.getElementById('polygonLines');
+    const tempLine = document.getElementById('tempLine');
+    
+    // Connection
+    async function checkConnection() {
+      try {
+        const res = await fetch(`${API_BASE}/diagrams`);
+        if (res.ok) {
+          isConnected = true;
+          document.getElementById('connectionStatus').textContent = 'online';
+          document.getElementById('connectionStatus').classList.add('connected');
+          return true;
+        }
+      } catch (e) {}
+      isConnected = false;
+      document.getElementById('connectionStatus').textContent = 'offline';
+      document.getElementById('connectionStatus').classList.remove('connected');
+      return false;
+    }
+    
+    // Load diagrams
+    async function loadDiagramList() {
+      const connected = await checkConnection();
+      if (!connected) {
+        document.getElementById('diagramList').innerHTML = `
+          <div class="empty-state">
+            <div class="icon">⚠️</div>
+            <p style="font-size: 0.8rem;">Run: node hotspot-server.js</p>
+          </div>
+        `;
+        return;
+      }
+      
+      try {
+        const response = await fetch(`${API_BASE}/diagrams`);
+        const data = await response.json();
+        diagrams = data.diagrams;
+        renderDiagramList();
+      } catch (e) {
+        showToast('Failed to load diagrams', 'error');
+      }
+    }
+    
+    function renderDiagramList() {
+      const list = document.getElementById('diagramList');
+      const search = document.getElementById('diagramSearch').value.toLowerCase();
+      
+      let filtered = diagrams.filter(d => {
+        const matchesSearch = !search || 
+          d.sheetCode?.toLowerCase().includes(search) ||
+          d.id.toLowerCase().includes(search);
+        const matchesFilter = currentFilter === 'all' ||
+          (currentFilter === 'done' && d.status === 'done') ||
+          (currentFilter === 'todo' && d.status !== 'done');
+        return matchesSearch && matchesFilter;
+      });
+      
+      if (filtered.length === 0) {
+        list.innerHTML = `<div class="empty-state"><p style="font-size:0.8rem">No diagrams</p></div>`;
+        return;
+      }
+      
+      list.innerHTML = filtered.map(d => `
+        <div class="diagram-item ${d.id === currentDiagramId ? 'selected' : ''}" data-id="${d.id}">
+          <span class="status-dot ${d.status || 'todo'}"></span>
+          <span class="sheet-code">${d.sheetCode || '—'}</span>
+          <span class="hotspot-count">${d.hotspotCount}</span>
+        </div>
+      `).join('');
+      
+      list.querySelectorAll('.diagram-item').forEach(item => {
+        item.addEventListener('click', () => {
+          if (hasUnsavedChanges && !confirm('Unsaved changes. Continue?')) return;
+          loadDiagram(item.dataset.id);
+        });
+      });
+    }
+    
+    // Load diagram
+    async function loadDiagram(diagramId) {
+      if (!isConnected) return;
+      
+      currentDiagramId = diagramId;
+      selectedIndex = null;
+      polygonPoints = [];
+      
+      try {
+        const response = await fetch(`${API_BASE}/hotspots/${diagramId}`);
+        currentData = await response.json();
+        if (!currentData.hotspots) currentData.hotspots = [];
+        if (!currentData.status) currentData.status = 'todo';
+        
+        diagramImage.src = `/data/epc/diagrams/${diagramId}.png`;
+        
+        await new Promise((resolve, reject) => {
+          diagramImage.onload = () => {
+            if (!currentData.imageWidth) {
+              currentData.imageWidth = diagramImage.naturalWidth;
+              currentData.imageHeight = diagramImage.naturalHeight;
+            }
+            resolve();
+          };
+          diagramImage.onerror = reject;
+        });
+        
+        document.getElementById('emptyState').style.display = 'none';
+        diagramContainer.style.display = 'block';
+        document.getElementById('toolbar').style.display = 'flex';
+        document.getElementById('infoPanel').style.display = 'block';
+        document.getElementById('hotspotsPanel').style.display = 'flex';
+        
+        document.getElementById('currentDiagram').textContent = currentData.sheetCode?.text || diagramId;
+        document.getElementById('imageSize').textContent = `${currentData.imageWidth}×${currentData.imageHeight}`;
+        document.getElementById('sheetCodeInput').value = currentData.sheetCode?.text || '';
+        
+        updateStatusButtons();
+        
+        hasUnsavedChanges = false;
+        updateUI();
+        fitToView();
+        
+        document.getElementById('saveBtn').disabled = false;
+        document.getElementById('clearAllBtn').disabled = false;
+        
+      } catch (e) {
+        showToast('Failed to load diagram', 'error');
+      }
+    }
+    
+    // Zoom
+    function setZoom(newZoom, centerX, centerY) {
+      const oldZoom = zoom;
+      zoom = Math.max(MIN_ZOOM, Math.min(MAX_ZOOM, newZoom));
+      
+      diagramContainer.style.transform = `scale(${zoom})`;
+      document.getElementById('zoomLevel').textContent = `${Math.round(zoom * 100)}%`;
+      
+      // Adjust scroll to zoom towards center point
+      if (centerX !== undefined && centerY !== undefined) {
+        const rect = viewport.getBoundingClientRect();
+        const scrollX = (centerX - rect.left + viewport.scrollLeft) * (zoom / oldZoom) - (centerX - rect.left);
+        const scrollY = (centerY - rect.top + viewport.scrollTop) * (zoom / oldZoom) - (centerY - rect.top);
+        viewport.scrollLeft = scrollX;
+        viewport.scrollTop = scrollY;
+      }
+    }
+    
+    function fitToView() {
+      if (!currentData) return;
+      const vw = viewport.clientWidth - 40;
+      const vh = viewport.clientHeight - 40;
+      const iw = currentData.imageWidth;
+      const ih = currentData.imageHeight;
+      const fitZoom = Math.min(vw / iw, vh / ih, 1);
+      setZoom(fitZoom);
+      viewport.scrollLeft = 0;
+      viewport.scrollTop = 0;
+    }
+    
+    // Render
+    function updateUI() {
+      updateUnsavedIndicator();
+      updateEditPanel();
+      renderDiagramList();
+      renderHotspots();
+      renderHotspotList();
+    }
+    
+    function updateUnsavedIndicator() {
+      document.getElementById('unsavedIndicator').style.display = hasUnsavedChanges ? 'inline-block' : 'none';
+      const btn = document.getElementById('saveBtn');
+      btn.classList.toggle('btn-primary', hasUnsavedChanges);
+      btn.classList.toggle('btn-success', !hasUnsavedChanges);
+    }
+    
+    function updateStatusButtons() {
+      document.querySelectorAll('.status-toggle .status-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.status === currentData?.status);
+      });
+    }
+    
+    function updateEditPanel() {
+      const panel = document.getElementById('editPanel');
+      if (selectedIndex === null || !currentData?.hotspots[selectedIndex]) {
+        panel.classList.remove('visible');
+        return;
+      }
+      const h = currentData.hotspots[selectedIndex];
+      panel.classList.add('visible');
+      document.getElementById('editRef').value = h.ref;
+    }
+    
+    function renderHotspots() {
+      const container = document.getElementById('overlays');
+      container.innerHTML = '';
+      if (!currentData) return;
+      
+      // Sheet code
+      if (currentData.sheetCode?.bbox) {
+        const sc = currentData.sheetCode;
+        const div = document.createElement('div');
+        div.className = 'sheet-code-overlay';
+        div.style.cssText = `left:${sc.bbox.x}px;top:${sc.bbox.y}px;width:${sc.bbox.width}px;height:${sc.bbox.height}px;`;
+        div.innerHTML = `<span class="label">Sheet: ${sc.text}</span>`;
+        container.appendChild(div);
+      }
+      
+      // Hotspots
+      currentData.hotspots.forEach((h, index) => {
+        const isSelected = index === selectedIndex;
+        const div = document.createElement('div');
+        
+        if (h.type === 'polygon' && h.points) {
+          // Polygon hotspot
+          const bounds = getPolygonBounds(h.points);
+          div.className = `hotspot-overlay polygon ${isSelected ? 'selected' : ''}`;
+          div.dataset.index = index;
+          div.style.cssText = `left:${bounds.x}px;top:${bounds.y}px;width:${bounds.width}px;height:${bounds.height}px;`;
+          
+          // Create SVG polygon
+          const localPoints = h.points.map(p => `${p.x - bounds.x},${p.y - bounds.y}`).join(' ');
+          div.innerHTML = `
+            <span class="label">${h.ref}</span>
+            <svg viewBox="0 0 ${bounds.width} ${bounds.height}">
+              <polygon points="${localPoints}" data-index="${index}"></polygon>
+            </svg>
+            ${isSelected ? h.points.map((p, vi) => 
+              `<div class="vertex-handle" data-vertex="${vi}" style="left:${p.x - bounds.x}px;top:${p.y - bounds.y}px;"></div>`
+            ).join('') : ''}
+          `;
+          
+          // Events on polygon
+          div.querySelector('polygon').addEventListener('mousedown', (e) => handleHotspotMouseDown(e, index));
+          
+          // Vertex drag
+          div.querySelectorAll('.vertex-handle').forEach(vh => {
+            vh.addEventListener('mousedown', (e) => {
+              e.stopPropagation();
+              vertexIndex = parseInt(vh.dataset.vertex);
+              selectedIndex = index;
+              originalPoints = h.points.map(p => ({...p}));
+              moveStart = { x: e.clientX, y: e.clientY };
+              updateUI();
+            });
+          });
+          
+        } else {
+          // Rectangle hotspot
+          div.className = `hotspot-overlay rect ${isSelected ? 'selected' : ''}`;
+          div.dataset.index = index;
+          div.style.cssText = `left:${h.bbox.x}px;top:${h.bbox.y}px;width:${h.bbox.width}px;height:${h.bbox.height}px;`;
+          div.innerHTML = `
+            <span class="label">${h.ref}</span>
+            <div class="resize-handle nw" data-handle="nw"></div>
+            <div class="resize-handle ne" data-handle="ne"></div>
+            <div class="resize-handle sw" data-handle="sw"></div>
+            <div class="resize-handle se" data-handle="se"></div>
+          `;
+          
+          div.addEventListener('mousedown', (e) => handleHotspotMouseDown(e, index));
+        }
+        
+        container.appendChild(div);
+      });
+      
+      // Polygon preview points
+      if (polygonPoints.length > 0) {
+        polygonPoints.forEach((p, i) => {
+          const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+          circle.setAttribute('cx', p.x);
+          circle.setAttribute('cy', p.y);
+          circle.setAttribute('r', i === 0 && polygonPoints.length >= 3 ? '8' : '5');
+          if (i === 0 && polygonPoints.length >= 3) circle.classList.add('close-hint');
+          polygonPreview.appendChild(circle);
+        });
+      }
+    }
+    
+    function handleHotspotMouseDown(e, index) {
+      if (currentMode !== 'select') return;
+      e.stopPropagation();
+      
+      const handle = e.target.dataset?.handle;
+      if (handle) {
+        isResizing = true;
+        resizeHandle = handle;
+        selectedIndex = index;
+        originalBbox = { ...currentData.hotspots[index].bbox };
+        moveStart = { x: e.clientX, y: e.clientY };
+      } else {
+        selectHotspot(index);
+        isMoving = true;
+        const h = currentData.hotspots[index];
+        if (h.type === 'polygon') {
+          originalPoints = h.points.map(p => ({...p}));
+        } else {
+          originalBbox = { ...h.bbox };
+        }
+        moveStart = { x: e.clientX, y: e.clientY };
+        diagramContainer.classList.add('moving');
+      }
+    }
+    
+    function getPolygonBounds(points) {
+      const xs = points.map(p => p.x);
+      const ys = points.map(p => p.y);
+      const x = Math.min(...xs);
+      const y = Math.min(...ys);
+      return { x, y, width: Math.max(...xs) - x, height: Math.max(...ys) - y };
+    }
+    
+    function renderHotspotList() {
+      const list = document.getElementById('hotspotsList');
+      document.getElementById('hotspotCount').textContent = currentData?.hotspots.length || 0;
+      if (!currentData) { list.innerHTML = ''; return; }
+      
+      const sorted = [...currentData.hotspots]
+        .map((h, i) => ({ ...h, idx: i }))
+        .sort((a, b) => a.ref - b.ref);
+      
+      list.innerHTML = sorted.map(h => `
+        <div class="hotspot-item ${h.idx === selectedIndex ? 'selected' : ''}" data-index="${h.idx}">
+          <span class="ref">#${h.ref}</span>
+          <span class="type">${h.type === 'polygon' ? '⬡' : '▢'}</span>
+          <button class="delete-btn">×</button>
+        </div>
+      `).join('');
+      
+      list.querySelectorAll('.hotspot-item').forEach(item => {
+        const idx = parseInt(item.dataset.index);
+        item.addEventListener('click', (e) => {
+          if (e.target.classList.contains('delete-btn')) return;
+          selectHotspot(idx);
+        });
+        item.addEventListener('mouseenter', () => highlightHotspot(idx));
+        item.addEventListener('mouseleave', () => highlightHotspot(null));
+        item.querySelector('.delete-btn').addEventListener('click', (e) => {
+          e.stopPropagation();
+          deleteHotspot(idx);
+        });
+      });
+    }
+    
+    function selectHotspot(index) {
+      selectedIndex = index;
+      updateUI();
+    }
+    
+    function highlightHotspot(index) {
+      document.querySelectorAll('.hotspot-overlay').forEach(el => {
+        const i = parseInt(el.dataset.index);
+        el.classList.toggle('highlighted', i === index && i !== selectedIndex);
+      });
+      document.querySelectorAll('.hotspot-item').forEach(el => {
+        const i = parseInt(el.dataset.index);
+        el.classList.toggle('highlighted', i === index && i !== selectedIndex);
+      });
+    }
+    
+    function deleteHotspot(index) {
+      currentData.hotspots.splice(index, 1);
+      if (selectedIndex === index) selectedIndex = null;
+      else if (selectedIndex > index) selectedIndex--;
+      markUnsaved();
+      updateUI();
+    }
+    
+    function markUnsaved() {
+      hasUnsavedChanges = true;
+      updateUnsavedIndicator();
+    }
+    
+    // Add hotspot
+    function addRectHotspot(bbox, ref) {
+      const h = {
+        type: 'rect',
+        ref,
+        bbox: { ...bbox },
+        normalized: {
+          x: bbox.x / currentData.imageWidth,
+          y: bbox.y / currentData.imageHeight,
+          width: bbox.width / currentData.imageWidth,
+          height: bbox.height / currentData.imageHeight,
+        },
+        confidence: 100,
+        manual: true,
+      };
+      currentData.hotspots.push(h);
+      selectedIndex = currentData.hotspots.length - 1;
+      markUnsaved();
+      updateUI();
+      showToast(`Added #${ref}`, 'success');
+    }
+    
+    function addPolygonHotspot(points, ref) {
+      const h = {
+        type: 'polygon',
+        ref,
+        points: points.map(p => ({ x: p.x, y: p.y })),
+        confidence: 100,
+        manual: true,
+      };
+      currentData.hotspots.push(h);
+      selectedIndex = currentData.hotspots.length - 1;
+      polygonPoints = [];
+      markUnsaved();
+      updateUI();
+      showToast(`Added polygon #${ref}`, 'success');
+    }
+    
+    // Save
+    async function saveChanges() {
+      if (!currentData || !currentDiagramId) return;
+      
+      const sheetText = document.getElementById('sheetCodeInput').value.trim();
+      currentData.sheetCode = sheetText ? { text: sheetText, bbox: currentData.sheetCode?.bbox || null } : null;
+      
+      try {
+        const res = await fetch(`${API_BASE}/hotspots/${currentDiagramId}`, {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(currentData),
+        });
+        if (!res.ok) throw new Error();
+        
+        hasUnsavedChanges = false;
+        updateUnsavedIndicator();
+        showToast('Saved!', 'success');
+        
+        // Update diagram list
+        const d = diagrams.find(d => d.id === currentDiagramId);
+        if (d) {
+          d.hotspotCount = currentData.hotspots.length;
+          d.sheetCode = currentData.sheetCode?.text || null;
+          d.status = currentData.status;
+          renderDiagramList();
+        }
+      } catch (e) {
+        showToast('Save failed', 'error');
+      }
+    }
+    
+    // Mode
+    function setMode(mode) {
+      currentMode = mode;
+      polygonPoints = [];
+      polygonPreview.style.display = 'none';
+      
+      document.querySelectorAll('.toolbar .mode').forEach(b => {
+        b.classList.toggle('active', b.dataset.mode === mode);
+      });
+      
+      diagramContainer.className = 'diagram-container';
+      if (mode === 'draw') diagramContainer.classList.add('drawing');
+      if (mode === 'polygon') diagramContainer.classList.add('polygon');
+      
+      const hints = {
+        select: 'Click hotspot to select • Drag empty space to pan',
+        draw: 'Click and drag to draw rectangle',
+        polygon: 'Click to add points • Click first point to close',
+      };
+      document.getElementById('modeHint').textContent = hints[mode];
+      
+      if (mode !== 'select') {
+        selectedIndex = null;
+        updateUI();
+      }
+    }
+    
+    // Mouse position relative to image
+    function getImagePos(e) {
+      const rect = diagramContainer.getBoundingClientRect();
+      return {
+        x: (e.clientX - rect.left) / zoom,
+        y: (e.clientY - rect.top) / zoom,
+      };
+    }
+    
+    // Dialog
+    let pendingShape = null;
+    
+    function showRefDialog(shape) {
+      pendingShape = shape;
+      document.getElementById('overlayBg').classList.add('visible');
+      document.getElementById('refDialog').classList.add('visible');
+      const input = document.getElementById('refInput');
+      input.value = '';
+      // Use setTimeout to ensure focus works after DOM update
+      setTimeout(() => {
+        input.focus();
+        input.select();
+      }, 50);
+    }
+    
+    function closeDialog() {
+      document.getElementById('overlayBg').classList.remove('visible');
+      document.getElementById('refDialog').classList.remove('visible');
+      pendingShape = null;
+      drawPreview.classList.remove('visible');
+      polygonPreview.style.display = 'none';
+      polygonPoints = [];
+      renderHotspots();
+    }
+    
+    function showToast(msg, type = '') {
+      const t = document.getElementById('toast');
+      t.textContent = msg;
+      t.className = 'toast visible ' + type;
+      setTimeout(() => t.classList.remove('visible'), 2000);
+    }
+    
+    // Event handlers
+    diagramContainer.addEventListener('mousedown', (e) => {
+      if (!currentData) return;
+      if (e.target.closest('.hotspot-overlay')) return;
+      
+      const pos = getImagePos(e);
+      
+      // Middle mouse button or space+click always pans
+      if (e.button === 1 || spacePressed) {
+        e.preventDefault();
+        isPanning = true;
+        panStart = { x: e.clientX, y: e.clientY, scrollX: viewport.scrollLeft, scrollY: viewport.scrollTop };
+        diagramContainer.classList.add('panning');
+        return;
+      }
+      
+      if (currentMode === 'draw') {
+        drawStart = pos;
+        isDrawing = true;
+      } else if (currentMode === 'polygon') {
+        // Check if clicking near first point to close
+        if (polygonPoints.length >= 3) {
+          const first = polygonPoints[0];
+          const dist = Math.hypot(pos.x - first.x, pos.y - first.y);
+          if (dist < 15) {
+            showRefDialog({ type: 'polygon', points: [...polygonPoints] });
+            return;
+          }
+        }
+        polygonPoints.push(pos);
+        updatePolygonPreview();
+      } else if (currentMode === 'select') {
+        // In select mode, clicking empty space starts panning
+        isPanning = true;
+        panStart = { x: e.clientX, y: e.clientY, scrollX: viewport.scrollLeft, scrollY: viewport.scrollTop };
+        diagramContainer.classList.add('panning');
+        selectedIndex = null;
+        updateUI();
+      }
+    });
+    
+    // Prevent middle-click auto-scroll
+    diagramContainer.addEventListener('auxclick', (e) => {
+      if (e.button === 1) e.preventDefault();
+    });
+    
+    document.addEventListener('mousemove', (e) => {
+      if (!currentData) return;
+      
+      const pos = getImagePos(e);
+      tempMousePos = pos;
+      
+      if (isPanning && panStart) {
+        viewport.scrollLeft = panStart.scrollX - (e.clientX - panStart.x);
+        viewport.scrollTop = panStart.scrollY - (e.clientY - panStart.y);
+        return;
+      }
+      
+      if (isDrawing && drawStart) {
+        const left = Math.min(drawStart.x, pos.x);
+        const top = Math.min(drawStart.y, pos.y);
+        const width = Math.abs(pos.x - drawStart.x);
+        const height = Math.abs(pos.y - drawStart.y);
+        drawPreview.style.cssText = `left:${left}px;top:${top}px;width:${width}px;height:${height}px;`;
+        drawPreview.classList.add('visible');
+      }
+      
+      if (currentMode === 'polygon' && polygonPoints.length > 0) {
+        updatePolygonPreview();
+      }
+      
+      if (isMoving && moveStart && selectedIndex !== null) {
+        const dx = (e.clientX - moveStart.x) / zoom;
+        const dy = (e.clientY - moveStart.y) / zoom;
+        const h = currentData.hotspots[selectedIndex];
+        
+        if (h.type === 'polygon' && originalPoints) {
+          h.points = originalPoints.map(p => ({ x: p.x + dx, y: p.y + dy }));
+        } else if (originalBbox) {
+          h.bbox.x = Math.max(0, originalBbox.x + dx);
+          h.bbox.y = Math.max(0, originalBbox.y + dy);
+        }
+        renderHotspots();
+      }
+      
+      if (vertexIndex !== null && moveStart && selectedIndex !== null) {
+        const dx = (e.clientX - moveStart.x) / zoom;
+        const dy = (e.clientY - moveStart.y) / zoom;
+        const h = currentData.hotspots[selectedIndex];
+        if (h.type === 'polygon' && originalPoints) {
+          h.points[vertexIndex] = {
+            x: originalPoints[vertexIndex].x + dx,
+            y: originalPoints[vertexIndex].y + dy,
+          };
+          renderHotspots();
+        }
+      }
+      
+      if (isResizing && moveStart && selectedIndex !== null) {
+        const dx = (e.clientX - moveStart.x) / zoom;
+        const dy = (e.clientY - moveStart.y) / zoom;
+        const h = currentData.hotspots[selectedIndex];
+        const min = 10;
+        
+        if (resizeHandle.includes('w')) {
+          const newX = Math.min(originalBbox.x + originalBbox.width - min, originalBbox.x + dx);
+          h.bbox.width = originalBbox.width - (newX - originalBbox.x);
+          h.bbox.x = newX;
+        }
+        if (resizeHandle.includes('e')) h.bbox.width = Math.max(min, originalBbox.width + dx);
+        if (resizeHandle.includes('n')) {
+          const newY = Math.min(originalBbox.y + originalBbox.height - min, originalBbox.y + dy);
+          h.bbox.height = originalBbox.height - (newY - originalBbox.y);
+          h.bbox.y = newY;
+        }
+        if (resizeHandle.includes('s')) h.bbox.height = Math.max(min, originalBbox.height + dy);
+        
+        renderHotspots();
+      }
+    });
+    
+    document.addEventListener('mouseup', (e) => {
+      if (isPanning) {
+        isPanning = false;
+        panStart = null;
+        diagramContainer.classList.remove('panning');
+        return;
+      }
+      
+      if (isDrawing && drawStart) {
+        const pos = getImagePos(e);
+        const left = Math.min(drawStart.x, pos.x);
+        const top = Math.min(drawStart.y, pos.y);
+        const width = Math.abs(pos.x - drawStart.x);
+        const height = Math.abs(pos.y - drawStart.y);
+        
+        if (width > 10 && height > 10) {
+          showRefDialog({ type: 'rect', bbox: { x: left, y: top, width, height } });
+        } else {
+          drawPreview.classList.remove('visible');
+        }
+        isDrawing = false;
+        drawStart = null;
+      }
+      
+      if ((isMoving || isResizing || vertexIndex !== null) && selectedIndex !== null) {
+        markUnsaved();
+        updateEditPanel();
+      }
+      
+      isMoving = false;
+      isResizing = false;
+      vertexIndex = null;
+      resizeHandle = null;
+      moveStart = null;
+      originalBbox = null;
+      originalPoints = null;
+      diagramContainer.classList.remove('moving');
+    });
+    
+    function updatePolygonPreview() {
+      if (polygonPoints.length === 0) {
+        polygonPreview.style.display = 'none';
+        return;
+      }
+      
+      polygonPreview.style.display = 'block';
+      polygonLines.setAttribute('points', polygonPoints.map(p => `${p.x},${p.y}`).join(' '));
+      
+      if (tempMousePos && polygonPoints.length > 0) {
+        const last = polygonPoints[polygonPoints.length - 1];
+        tempLine.setAttribute('x1', last.x);
+        tempLine.setAttribute('y1', last.y);
+        tempLine.setAttribute('x2', tempMousePos.x);
+        tempLine.setAttribute('y2', tempMousePos.y);
+      }
+      
+      // Re-render to show vertex circles
+      renderHotspots();
+    }
+    
+    // Zoom wheel - gentler zoom speed
+    viewport.addEventListener('wheel', (e) => {
+      if (!currentData) return;
+      e.preventDefault();
+      const delta = e.deltaY > 0 ? 0.95 : 1.05;
+      setZoom(zoom * delta, e.clientX, e.clientY);
+    }, { passive: false });
+    
+    // Keyboard
+    document.addEventListener('keydown', (e) => {
+      if (e.code === 'Space' && !e.target.matches('input')) {
+        e.preventDefault();
+        spacePressed = true;
+        if (currentData) diagramContainer.classList.add('panning');
+      }
+      
+      if (e.key === 's' && (e.ctrlKey || e.metaKey)) {
+        e.preventDefault();
+        if (!document.getElementById('saveBtn').disabled) saveChanges();
+      }
+      
+      if (e.key === 'Escape') {
+        if (pendingShape) {
+          closeDialog();
+        } else if (polygonPoints.length > 0) {
+          polygonPoints = [];
+          updatePolygonPreview();
+        } else if (selectedIndex !== null) {
+          selectedIndex = null;
+          updateUI();
+        } else if (currentMode !== 'select') {
+          // ESC with nothing selected reverts to Select mode
+          setMode('select');
+        }
+      }
+      
+      if ((e.key === 'Delete' || e.key === 'Backspace') && selectedIndex !== null && !e.target.matches('input')) {
+        e.preventDefault();
+        deleteHotspot(selectedIndex);
+      }
+    });
+    
+    document.addEventListener('keyup', (e) => {
+      if (e.code === 'Space') {
+        spacePressed = false;
+        if (currentData && !isPanning) diagramContainer.classList.remove('panning');
+      }
+    });
+    
+    // UI event bindings
+    document.querySelectorAll('.toolbar .mode').forEach(btn => {
+      btn.addEventListener('click', () => setMode(btn.dataset.mode));
+    });
+    
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        currentFilter = btn.dataset.filter;
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.toggle('active', b === btn));
+        renderDiagramList();
+      });
+    });
+    
+    document.querySelectorAll('.status-toggle .status-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        if (!currentData) return;
+        currentData.status = btn.dataset.status;
+        markUnsaved();
+        updateStatusButtons();
+      });
+    });
+    
+    document.getElementById('confirmRefBtn').addEventListener('click', () => {
+      const ref = parseInt(document.getElementById('refInput').value);
+      if (ref >= 1 && ref <= 99 && pendingShape) {
+        if (pendingShape.type === 'rect') addRectHotspot(pendingShape.bbox, ref);
+        else if (pendingShape.type === 'polygon') addPolygonHotspot(pendingShape.points, ref);
+      }
+      closeDialog();
+    });
+    
+    document.getElementById('cancelRefBtn').addEventListener('click', closeDialog);
+    document.getElementById('overlayBg').addEventListener('click', closeDialog);
+    
+    document.getElementById('refInput').addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') document.getElementById('confirmRefBtn').click();
+      else if (e.key === 'Escape') closeDialog();
+    });
+    
+    document.getElementById('sheetCodeInput').addEventListener('input', markUnsaved);
+    document.getElementById('saveBtn').addEventListener('click', saveChanges);
+    document.getElementById('clearAllBtn').addEventListener('click', () => {
+      if (!confirm('Clear all hotspots?')) return;
+      currentData.hotspots = [];
+      selectedIndex = null;
+      markUnsaved();
+      updateUI();
+    });
+    
+    document.getElementById('diagramSearch').addEventListener('input', renderDiagramList);
+    
+    document.getElementById('applyEditBtn').addEventListener('click', () => {
+      if (selectedIndex === null) return;
+      currentData.hotspots[selectedIndex].ref = parseInt(document.getElementById('editRef').value) || 1;
+      markUnsaved();
+      updateUI();
+    });
+    
+    document.getElementById('deleteSelectedBtn').addEventListener('click', () => {
+      if (selectedIndex !== null) deleteHotspot(selectedIndex);
+    });
+    
+    document.getElementById('editRef').addEventListener('change', () => {
+      document.getElementById('applyEditBtn').click();
+    });
+    
+    document.getElementById('zoomIn').addEventListener('click', () => setZoom(zoom * 1.25));
+    document.getElementById('zoomOut').addEventListener('click', () => setZoom(zoom / 1.25));
+    document.getElementById('zoomFit').addEventListener('click', fitToView);
+    
+    window.addEventListener('resize', () => {
+      if (currentData) renderHotspots();
+    });
+    
+    window.addEventListener('beforeunload', (e) => {
+      if (hasUnsavedChanges) { e.preventDefault(); e.returnValue = ''; }
+    });
+    
+    // Init
+    loadDiagramList();
+    setInterval(() => { if (!isConnected) loadDiagramList(); }, 3000);
+  </script>
+</body>
+</html>
