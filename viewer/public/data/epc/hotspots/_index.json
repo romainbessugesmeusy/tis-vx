@@ -1,1994 +1,906 @@
 {
-  "processedAt": "2026-02-02T13:57:53.799Z",
-  "totalDiagrams": 332,
-  "processed": 331,
-  "failed": 1,
+  "updatedAt": "2026-02-02T15:15:33.650Z",
+  "totalDiagrams": 150,
   "diagrams": [
     {
-      "id": "019608a5fe83",
-      "sheetCode": "A13",
-      "hotspotCount": 13,
-      "uniqueRefs": 12
-    },
-    {
-      "id": "025cdcc1da1f",
-      "sheetCode": "C13",
-      "hotspotCount": 2,
-      "uniqueRefs": 1
-    },
-    {
-      "id": "028ba4338f19",
-      "sheetCode": "J1",
-      "hotspotCount": 4,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "02b56cfd4a52",
-      "sheetCode": "E30",
-      "hotspotCount": 5,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "03164f0eddaa",
-      "sheetCode": "E13",
-      "hotspotCount": 6,
-      "uniqueRefs": 5
-    },
-    {
-      "id": "038d24dacfeb",
-      "sheetCode": "E1",
-      "hotspotCount": 7,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "04a62cecbba5",
-      "sheetCode": "H7",
-      "hotspotCount": 10,
-      "uniqueRefs": 8
-    },
-    {
-      "id": "0629f7c94008",
-      "sheetCode": "J5",
-      "hotspotCount": 16,
-      "uniqueRefs": 10
-    },
-    {
-      "id": "07091ed6d7c8",
-      "sheetCode": "E1",
-      "hotspotCount": 7,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "075a644e72c4",
-      "sheetCode": "E17",
-      "hotspotCount": 4,
-      "uniqueRefs": 4
-    },
-    {
       "id": "0781cb4a7cdc",
-      "sheetCode": null,
+      "sheetCode": "?",
       "hotspotCount": 4,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "088c5748ab6a",
-      "sheetCode": "P8",
-      "hotspotCount": 2,
-      "uniqueRefs": 2
-    },
-    {
-      "id": "098cd33fe7c7",
-      "sheetCode": "C2",
-      "hotspotCount": 12,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "09b3b7befd25",
-      "sheetCode": "P1",
-      "hotspotCount": 6,
-      "uniqueRefs": 5
+      "status": "todo"
     },
     {
       "id": "0a0248f5feed",
-      "sheetCode": null,
+      "sheetCode": "?",
       "hotspotCount": 4,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "0a188d4c929c",
-      "sheetCode": "P10",
-      "hotspotCount": 6,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "0afbe7a6ce6c",
-      "sheetCode": "B6",
-      "hotspotCount": 11,
-      "uniqueRefs": 8
-    },
-    {
-      "id": "0d8e41b0eb9e",
-      "sheetCode": "B5",
-      "hotspotCount": 3,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "0df5fa5e650b",
-      "sheetCode": "A7",
-      "hotspotCount": 10,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "0e8a33d35f7d",
-      "sheetCode": "A2",
-      "hotspotCount": 12,
-      "uniqueRefs": 10
+      "status": "todo"
     },
     {
       "id": "0f8956c076f5",
-      "sheetCode": null,
+      "sheetCode": "?",
       "hotspotCount": 1,
-      "uniqueRefs": 1
-    },
-    {
-      "id": "0fc95815fe59",
-      "sheetCode": "G1",
-      "hotspotCount": 19,
-      "uniqueRefs": 14
-    },
-    {
-      "id": "115848a6f542",
-      "sheetCode": "E12",
-      "hotspotCount": 5,
-      "uniqueRefs": 5
-    },
-    {
-      "id": "115f29af20c7",
-      "sheetCode": "E13",
-      "hotspotCount": 6,
-      "uniqueRefs": 5
-    },
-    {
-      "id": "12c783b8ab56",
-      "sheetCode": "E27",
-      "hotspotCount": 12,
-      "uniqueRefs": 8
-    },
-    {
-      "id": "1309a828f1b7",
-      "sheetCode": "C7",
-      "hotspotCount": 20,
-      "uniqueRefs": 15
-    },
-    {
-      "id": "137cdaf20937",
-      "sheetCode": "B3",
-      "hotspotCount": 17,
-      "uniqueRefs": 13
-    },
-    {
-      "id": "15198684c216",
-      "sheetCode": "C2",
-      "hotspotCount": 12,
-      "uniqueRefs": 9
+      "status": "todo"
     },
     {
       "id": "15fba4ad1343",
-      "sheetCode": null,
+      "sheetCode": "?",
       "hotspotCount": 8,
-      "uniqueRefs": 7
-    },
-    {
-      "id": "1ac86ddb81fc",
-      "sheetCode": "E4",
-      "hotspotCount": 6,
-      "uniqueRefs": 6
-    },
-    {
-      "id": "1c4c7a4f72e8",
-      "sheetCode": "B4",
-      "hotspotCount": 9,
-      "uniqueRefs": 7
-    },
-    {
-      "id": "1d211d984cf4",
-      "sheetCode": "P6",
-      "hotspotCount": 13,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "1d62eaef6242",
-      "sheetCode": "J6",
-      "hotspotCount": 4,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "1e720b5f92ba",
-      "sheetCode": "P3",
-      "hotspotCount": 15,
-      "uniqueRefs": 10
+      "status": "todo"
     },
     {
       "id": "1fdac7b3d9cc",
-      "sheetCode": null,
+      "sheetCode": "?",
       "hotspotCount": 2,
-      "uniqueRefs": 2
+      "status": "todo"
     },
     {
       "id": "203218875673",
-      "sheetCode": null,
+      "sheetCode": "?",
       "hotspotCount": 4,
-      "uniqueRefs": 4
+      "status": "todo"
     },
     {
       "id": "203680268721",
-      "sheetCode": null,
+      "sheetCode": "?",
       "hotspotCount": 0,
-      "uniqueRefs": 0
-    },
-    {
-      "id": "22b71c5837b7",
-      "sheetCode": "E13",
-      "hotspotCount": 6,
-      "uniqueRefs": 5
-    },
-    {
-      "id": "23ae1689f354",
-      "sheetCode": null,
-      "hotspotCount": 8,
-      "uniqueRefs": 7
-    },
-    {
-      "id": "241a4c848e34",
-      "sheetCode": "Q4",
-      "hotspotCount": 0,
-      "uniqueRefs": 0
-    },
-    {
-      "id": "260c65a18d26",
-      "sheetCode": "C15",
-      "hotspotCount": 7,
-      "uniqueRefs": 4
+      "status": "todo"
     },
     {
       "id": "26770c090df7",
-      "sheetCode": null,
+      "sheetCode": "?",
       "hotspotCount": 6,
-      "uniqueRefs": 4
+      "status": "todo"
     },
     {
       "id": "27e9169af867",
-      "sheetCode": null,
+      "sheetCode": "?",
       "hotspotCount": 16,
-      "uniqueRefs": 8
-    },
-    {
-      "id": "27fdedaaadd3",
-      "sheetCode": "Q5",
-      "hotspotCount": 5,
-      "uniqueRefs": 4
+      "status": "todo"
     },
     {
       "id": "28204bb962e7",
-      "sheetCode": null,
+      "sheetCode": "?",
       "hotspotCount": 5,
-      "uniqueRefs": 4
+      "status": "todo"
     },
     {
       "id": "2831f37e6883",
-      "sheetCode": null,
+      "sheetCode": "?",
       "hotspotCount": 2,
-      "uniqueRefs": 2
-    },
-    {
-      "id": "29564046b5b4",
-      "sheetCode": "E11",
-      "hotspotCount": 4,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "2a2974929537",
-      "sheetCode": "P6",
-      "hotspotCount": 13,
-      "uniqueRefs": 9
+      "status": "todo"
     },
     {
       "id": "2b37a27d72d4",
-      "sheetCode": null,
+      "sheetCode": "?",
       "hotspotCount": 5,
-      "uniqueRefs": 5
-    },
-    {
-      "id": "2cfe82ff7c3c",
-      "sheetCode": "H7",
-      "hotspotCount": 10,
-      "uniqueRefs": 8
-    },
-    {
-      "id": "2ed7170ab4eb",
-      "sheetCode": "Q6",
-      "hotspotCount": 0,
-      "uniqueRefs": 0
-    },
-    {
-      "id": "30afda4a23ae",
-      "sheetCode": "A13",
-      "hotspotCount": 13,
-      "uniqueRefs": 12
-    },
-    {
-      "id": "345feed48173",
-      "sheetCode": "F1-2",
-      "hotspotCount": 15,
-      "uniqueRefs": 11
-    },
-    {
-      "id": "35f6b4685a13",
-      "sheetCode": "C8",
-      "hotspotCount": 22,
-      "uniqueRefs": 17
-    },
-    {
-      "id": "368dfb08e932",
-      "sheetCode": "E28",
-      "hotspotCount": 6,
-      "uniqueRefs": 6
-    },
-    {
-      "id": "36c45326f2b6",
-      "sheetCode": "C3",
-      "hotspotCount": 2,
-      "uniqueRefs": 2
-    },
-    {
-      "id": "36f90c404692",
-      "sheetCode": "P13-1",
-      "hotspotCount": 4,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "385962df6135",
-      "sheetCode": "P8",
-      "hotspotCount": 2,
-      "uniqueRefs": 2
-    },
-    {
-      "id": "3aab4ad724dc",
-      "sheetCode": "P19",
-      "hotspotCount": 10,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "3b31ef573a50",
-      "sheetCode": "G8",
-      "hotspotCount": 15,
-      "uniqueRefs": 12
-    },
-    {
-      "id": "3b5cd1960a0d",
-      "sheetCode": "E10",
-      "hotspotCount": 13,
-      "uniqueRefs": 10
-    },
-    {
-      "id": "3dda717d4edb",
-      "sheetCode": "N1",
-      "hotspotCount": 10,
-      "uniqueRefs": 7
-    },
-    {
-      "id": "3df5d3be535e",
-      "sheetCode": "E24",
-      "hotspotCount": 11,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "3f75874f4965",
-      "sheetCode": "A13",
-      "hotspotCount": 13,
-      "uniqueRefs": 12
-    },
-    {
-      "id": "3fef081320e8",
-      "sheetCode": "G4",
-      "hotspotCount": 7,
-      "uniqueRefs": 6
-    },
-    {
-      "id": "4098b0fa75a3",
-      "sheetCode": "P6",
-      "hotspotCount": 13,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "411923cde6ba",
-      "sheetCode": "E10",
-      "hotspotCount": 13,
-      "uniqueRefs": 10
-    },
-    {
-      "id": "41b9432cf429",
-      "sheetCode": "C1",
-      "hotspotCount": 4,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "42ed7450ecff",
-      "sheetCode": null,
-      "hotspotCount": 4,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "433ed7c2da01",
-      "sheetCode": "E24",
-      "hotspotCount": 11,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "4536dcacf802",
-      "sheetCode": "P15",
-      "hotspotCount": 16,
-      "uniqueRefs": 14
-    },
-    {
-      "id": "464fb33a2a64",
-      "sheetCode": null,
-      "hotspotCount": 6,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "475ccae14269",
-      "sheetCode": "H3",
-      "hotspotCount": 5,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "47659a7b85ea",
-      "sheetCode": "A12",
-      "hotspotCount": 2,
-      "uniqueRefs": 2
-    },
-    {
-      "id": "4bc7c6454d3f",
-      "sheetCode": "B5",
-      "hotspotCount": 3,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "4c3b51e8f60e",
-      "sheetCode": "C10",
-      "hotspotCount": 31,
-      "uniqueRefs": 16
-    },
-    {
-      "id": "4c6122819b6a",
-      "sheetCode": "A13",
-      "hotspotCount": 13,
-      "uniqueRefs": 12
-    },
-    {
-      "id": "4c65b1d16dcd",
-      "sheetCode": "E10",
-      "hotspotCount": 13,
-      "uniqueRefs": 10
-    },
-    {
-      "id": "4e4172736ae0",
-      "sheetCode": "C7",
-      "hotspotCount": 20,
-      "uniqueRefs": 15
-    },
-    {
-      "id": "4f337fc8c562",
-      "sheetCode": "D1",
-      "hotspotCount": 3,
-      "uniqueRefs": 3
+      "status": "todo"
     },
     {
       "id": "51469d6b3dda",
-      "sheetCode": null,
+      "sheetCode": "?",
       "hotspotCount": 11,
-      "uniqueRefs": 9
+      "status": "todo"
+    },
+    {
+      "id": "5525bd82b71a",
+      "sheetCode": "?",
+      "hotspotCount": 6,
+      "status": "todo"
+    },
+    {
+      "id": "5eb64bb9f186",
+      "sheetCode": "?",
+      "hotspotCount": 5,
+      "status": "todo"
+    },
+    {
+      "id": "62a5ec2bd1ac",
+      "sheetCode": "?",
+      "hotspotCount": 8,
+      "status": "todo"
+    },
+    {
+      "id": "7949b2b2c0ef",
+      "sheetCode": "?",
+      "hotspotCount": 9,
+      "status": "todo"
+    },
+    {
+      "id": "7b48bb1091cc",
+      "sheetCode": "?",
+      "hotspotCount": 0,
+      "status": "todo"
+    },
+    {
+      "id": "7ce39e29a429",
+      "sheetCode": "?",
+      "hotspotCount": 0,
+      "status": "todo"
+    },
+    {
+      "id": "8b231921a34f",
+      "sheetCode": "?",
+      "hotspotCount": 3,
+      "status": "todo"
+    },
+    {
+      "id": "a11f9e93d32a",
+      "sheetCode": "?",
+      "hotspotCount": 12,
+      "status": "todo"
+    },
+    {
+      "id": "c2802213e569",
+      "sheetCode": "?",
+      "hotspotCount": 3,
+      "status": "todo"
+    },
+    {
+      "id": "c3c501a6d347",
+      "sheetCode": "?",
+      "hotspotCount": 11,
+      "status": "todo"
+    },
+    {
+      "id": "c712c30cb921",
+      "sheetCode": "?",
+      "hotspotCount": 10,
+      "status": "todo"
+    },
+    {
+      "id": "c9af02932d84",
+      "sheetCode": "?",
+      "hotspotCount": 1,
+      "status": "todo"
+    },
+    {
+      "id": "d628055fc204",
+      "sheetCode": "?",
+      "hotspotCount": 14,
+      "status": "todo"
+    },
+    {
+      "id": "f041a9362025",
+      "sheetCode": "?",
+      "hotspotCount": 11,
+      "status": "todo"
+    },
+    {
+      "id": "fcfa75893f2e",
+      "sheetCode": "?",
+      "hotspotCount": 5,
+      "status": "todo"
+    },
+    {
+      "id": "fe51394789dc",
+      "sheetCode": "?",
+      "hotspotCount": 3,
+      "status": "todo"
+    },
+    {
+      "id": "c2c6a21c24c1",
+      "sheetCode": "A1",
+      "hotspotCount": 1,
+      "status": "done"
     },
     {
       "id": "51bfd123c40a",
       "sheetCode": "A10",
       "hotspotCount": 14,
-      "uniqueRefs": 11
+      "status": "todo"
     },
     {
-      "id": "522841b7518b",
-      "sheetCode": "P13-1",
-      "hotspotCount": 4,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "52d610c5d4d2",
-      "sheetCode": "C1",
-      "hotspotCount": 4,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "54488070e03f",
-      "sheetCode": "C4",
-      "hotspotCount": 4,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "54d03b702528",
-      "sheetCode": "P9",
+      "id": "47659a7b85ea",
+      "sheetCode": "A12",
       "hotspotCount": 2,
-      "uniqueRefs": 2
+      "status": "todo"
     },
     {
-      "id": "54f90f04d0d2",
-      "sheetCode": "C2",
-      "hotspotCount": 12,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "5525bd82b71a",
-      "sheetCode": null,
-      "hotspotCount": 6,
-      "uniqueRefs": 5
-    },
-    {
-      "id": "55590b7bdc19",
-      "sheetCode": "P19-1",
-      "hotspotCount": 4,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "56b5f10c0dcf",
-      "sheetCode": "A2",
-      "hotspotCount": 12,
-      "uniqueRefs": 10
-    },
-    {
-      "id": "56e6f984304c",
-      "sheetCode": "E29",
-      "hotspotCount": 10,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "58bd9de80ad8",
-      "sheetCode": "P15",
-      "hotspotCount": 16,
-      "uniqueRefs": 14
-    },
-    {
-      "id": "5a125d5a6a22",
-      "sheetCode": "P2",
-      "hotspotCount": 5,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "5c7b8d9fd13b",
-      "sheetCode": "P16",
-      "hotspotCount": 5,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "5d07cbd05d2b",
-      "sheetCode": "A6",
-      "hotspotCount": 15,
-      "uniqueRefs": 10
-    },
-    {
-      "id": "5d23350af7d6",
-      "sheetCode": "E22",
-      "hotspotCount": 10,
-      "uniqueRefs": 10
-    },
-    {
-      "id": "5d33bb47d0bb",
-      "sheetCode": "P6",
-      "hotspotCount": 13,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "5d76c69cfd44",
-      "sheetCode": "C1",
-      "hotspotCount": 4,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "5dc5b89b96db",
-      "sheetCode": "P15",
-      "hotspotCount": 16,
-      "uniqueRefs": 14
-    },
-    {
-      "id": "5e4d00d731b5",
-      "sheetCode": null,
-      "hotspotCount": 11,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "5eb64bb9f186",
-      "sheetCode": null,
-      "hotspotCount": 5,
-      "uniqueRefs": 5
-    },
-    {
-      "id": "5ed13158c305",
-      "sheetCode": "J4",
-      "hotspotCount": 16,
-      "uniqueRefs": 13
-    },
-    {
-      "id": "60de7e300bef",
-      "sheetCode": "C7",
-      "hotspotCount": 20,
-      "uniqueRefs": 15
-    },
-    {
-      "id": "6192a53241fa",
-      "sheetCode": "E27",
-      "hotspotCount": 12,
-      "uniqueRefs": 8
-    },
-    {
-      "id": "62a13c072cec",
-      "sheetCode": "L1",
-      "hotspotCount": 7,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "62a5ec2bd1ac",
-      "sheetCode": null,
-      "hotspotCount": 8,
-      "uniqueRefs": 6
-    },
-    {
-      "id": "63ebe2f48b83",
-      "sheetCode": "A9",
-      "hotspotCount": 15,
-      "uniqueRefs": 13
-    },
-    {
-      "id": "641de0324cb3",
-      "sheetCode": null,
-      "hotspotCount": 4,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "6421cf6dda2a",
-      "sheetCode": "E7",
-      "hotspotCount": 6,
-      "uniqueRefs": 6
-    },
-    {
-      "id": "64527875a61e",
-      "sheetCode": null,
-      "hotspotCount": 2,
-      "uniqueRefs": 2
-    },
-    {
-      "id": "64596d9663d3",
-      "sheetCode": "E11",
-      "hotspotCount": 4,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "64f4d4c48a02",
-      "sheetCode": "C7",
-      "hotspotCount": 20,
-      "uniqueRefs": 15
-    },
-    {
-      "id": "653fe9c0f71b",
-      "sheetCode": "Q5",
-      "hotspotCount": 5,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "664330d2dd89",
-      "sheetCode": "F2",
-      "hotspotCount": 11,
-      "uniqueRefs": 8
-    },
-    {
-      "id": "67398058d514",
-      "sheetCode": "A15",
-      "hotspotCount": 4,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "68b1895249b9",
-      "sheetCode": "E24",
-      "hotspotCount": 11,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "6a07b0b02b2f",
-      "sheetCode": "E11",
-      "hotspotCount": 4,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "6a680fa1ea39",
-      "sheetCode": "L2",
-      "hotspotCount": 22,
-      "uniqueRefs": 13
-    },
-    {
-      "id": "6abaa56eea48",
-      "sheetCode": "J6",
-      "hotspotCount": 4,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "6c8672bbe8cc",
-      "sheetCode": "B2",
-      "hotspotCount": 13,
-      "uniqueRefs": 8
-    },
-    {
-      "id": "6ce84264a91f",
-      "sheetCode": null,
-      "hotspotCount": 8,
-      "uniqueRefs": 7
-    },
-    {
-      "id": "6e6913b354df",
-      "sheetCode": "A7",
-      "hotspotCount": 10,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "6f6242c90d43",
-      "sheetCode": "E22",
-      "hotspotCount": 10,
-      "uniqueRefs": 10
-    },
-    {
-      "id": "6f95ea87a608",
-      "sheetCode": "M5",
-      "hotspotCount": 1,
-      "uniqueRefs": 1
-    },
-    {
-      "id": "6fba9c26f6ee",
-      "sheetCode": "E15",
-      "hotspotCount": 1,
-      "uniqueRefs": 1
-    },
-    {
-      "id": "71807ef384f9",
-      "sheetCode": "G2",
-      "hotspotCount": 11,
-      "uniqueRefs": 10
-    },
-    {
-      "id": "7290d11296d3",
-      "sheetCode": null,
-      "hotspotCount": 8,
-      "uniqueRefs": 7
-    },
-    {
-      "id": "72afc35dd4ab",
-      "sheetCode": "Q5",
-      "hotspotCount": 5,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "72ba7e6a9ad4",
-      "sheetCode": "P10",
-      "hotspotCount": 6,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "732bec1955d9",
-      "sheetCode": "G2",
-      "hotspotCount": 11,
-      "uniqueRefs": 10
-    },
-    {
-      "id": "7350af764f17",
-      "sheetCode": "E24",
-      "hotspotCount": 11,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "73513b2192d6",
-      "sheetCode": "P19-1",
-      "hotspotCount": 4,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "738911ca823d",
-      "sheetCode": null,
-      "hotspotCount": 11,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "73a66835b373",
-      "sheetCode": "J7",
-      "hotspotCount": 14,
-      "uniqueRefs": 11
-    },
-    {
-      "id": "73e1292e178c",
-      "sheetCode": "C2",
-      "hotspotCount": 12,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "751d21e81efd",
-      "sheetCode": "C5-1",
-      "hotspotCount": 7,
-      "uniqueRefs": 7
-    },
-    {
-      "id": "76293d542d1a",
-      "sheetCode": "N1",
-      "hotspotCount": 10,
-      "uniqueRefs": 7
-    },
-    {
-      "id": "78b6e087ae17",
-      "sheetCode": "P19-1",
-      "hotspotCount": 4,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "78c32f5da101",
-      "sheetCode": "C12",
-      "hotspotCount": 10,
-      "uniqueRefs": 8
-    },
-    {
-      "id": "78cc38bcf79a",
-      "sheetCode": "P4",
-      "hotspotCount": 6,
-      "uniqueRefs": 5
-    },
-    {
-      "id": "7949b2b2c0ef",
-      "sheetCode": null,
-      "hotspotCount": 9,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "7b48bb1091cc",
-      "sheetCode": null,
-      "hotspotCount": 0,
-      "uniqueRefs": 0
-    },
-    {
-      "id": "7c8124a052f6",
-      "sheetCode": null,
-      "hotspotCount": 11,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "7ce39e29a429",
-      "sheetCode": null,
-      "hotspotCount": 0,
-      "uniqueRefs": 0
-    },
-    {
-      "id": "80594b460932",
-      "sheetCode": "E18",
-      "hotspotCount": 10,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "81570a9b3bf0",
-      "sheetCode": null,
-      "hotspotCount": 8,
-      "uniqueRefs": 7
-    },
-    {
-      "id": "817231d956c2",
-      "sheetCode": "Q4",
-      "hotspotCount": 0,
-      "uniqueRefs": 0
-    },
-    {
-      "id": "829af0422389",
-      "sheetCode": "D1",
-      "hotspotCount": 3,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "83bbd81d9786",
-      "sheetCode": "E15",
-      "hotspotCount": 1,
-      "uniqueRefs": 1
-    },
-    {
-      "id": "83bd34838674",
-      "sheetCode": "P19",
-      "hotspotCount": 10,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "842ed7037039",
-      "sheetCode": "P19",
-      "hotspotCount": 10,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "84d9326de960",
-      "sheetCode": "E4",
-      "hotspotCount": 6,
-      "uniqueRefs": 6
-    },
-    {
-      "id": "8507d7df8261",
-      "sheetCode": null,
-      "hotspotCount": 8,
-      "uniqueRefs": 6
-    },
-    {
-      "id": "865c0ade767f",
-      "sheetCode": "G11-1",
-      "hotspotCount": 12,
-      "uniqueRefs": 12
-    },
-    {
-      "id": "86c80e31f335",
-      "sheetCode": "M2",
-      "hotspotCount": 0,
-      "uniqueRefs": 0
-    },
-    {
-      "id": "8833dacb3dff",
-      "sheetCode": "G6",
-      "hotspotCount": 11,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "886a30b2b14e",
-      "sheetCode": null,
-      "hotspotCount": 5,
-      "uniqueRefs": 5
-    },
-    {
-      "id": "889749c6e398",
-      "sheetCode": "E13",
-      "hotspotCount": 6,
-      "uniqueRefs": 5
-    },
-    {
-      "id": "892e72bae2ce",
-      "sheetCode": "C1",
-      "hotspotCount": 4,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "8aa4dbeeff19",
-      "sheetCode": "K2",
-      "hotspotCount": 9,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "8b231921a34f",
-      "sheetCode": null,
-      "hotspotCount": 3,
-      "uniqueRefs": 2
-    },
-    {
-      "id": "8cbe4fbba794",
-      "sheetCode": null,
-      "hotspotCount": 6,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "8dc3397eac9b",
-      "sheetCode": "D2",
-      "hotspotCount": 5,
-      "uniqueRefs": 5
-    },
-    {
-      "id": "905bf1ace1fe",
-      "sheetCode": "P16",
-      "hotspotCount": 5,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "90d5f3bdaebe",
-      "sheetCode": "P3",
-      "hotspotCount": 15,
-      "uniqueRefs": 10
-    },
-    {
-      "id": "9156357e76e2",
-      "sheetCode": "E30",
-      "hotspotCount": 5,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "917b608c1db6",
-      "sheetCode": "K1",
-      "hotspotCount": 8,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "9240a84f4dd4",
-      "sheetCode": "F1",
-      "hotspotCount": 12,
-      "uniqueRefs": 8
-    },
-    {
-      "id": "924abdb226e8",
-      "sheetCode": "E10",
-      "hotspotCount": 13,
-      "uniqueRefs": 10
-    },
-    {
-      "id": "936918a7daeb",
-      "sheetCode": "B6",
-      "hotspotCount": 11,
-      "uniqueRefs": 8
-    },
-    {
-      "id": "936e26dc1390",
-      "sheetCode": "E15",
-      "hotspotCount": 1,
-      "uniqueRefs": 1
-    },
-    {
-      "id": "937246986e98",
-      "sheetCode": null,
-      "hotspotCount": 8,
-      "uniqueRefs": 7
-    },
-    {
-      "id": "93be6fd7993c",
-      "sheetCode": "P13",
-      "hotspotCount": 10,
-      "uniqueRefs": 10
-    },
-    {
-      "id": "949fb8c1154a",
-      "sheetCode": null,
-      "hotspotCount": 4,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "94a39bcb1c49",
-      "sheetCode": "E21",
-      "hotspotCount": 14,
-      "uniqueRefs": 10
-    },
-    {
-      "id": "955ad9c64852",
-      "sheetCode": "P13",
-      "hotspotCount": 10,
-      "uniqueRefs": 10
-    },
-    {
-      "id": "9629e9c0e563",
-      "sheetCode": "M2",
-      "hotspotCount": 0,
-      "uniqueRefs": 0
-    },
-    {
-      "id": "96a8ede5e6da",
-      "sheetCode": "E24",
-      "hotspotCount": 11,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "97493e6c84e9",
-      "sheetCode": "C8",
-      "hotspotCount": 22,
-      "uniqueRefs": 17
-    },
-    {
-      "id": "986defa9122c",
-      "sheetCode": "E13",
-      "hotspotCount": 6,
-      "uniqueRefs": 5
-    },
-    {
-      "id": "98722b69d225",
-      "sheetCode": "E13",
-      "hotspotCount": 6,
-      "uniqueRefs": 5
-    },
-    {
-      "id": "99b53d5fa99f",
-      "sheetCode": "C1",
-      "hotspotCount": 4,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "99cd505db443",
-      "sheetCode": "A2",
-      "hotspotCount": 12,
-      "uniqueRefs": 10
-    },
-    {
-      "id": "9a89eda4515a",
-      "sheetCode": null,
-      "hotspotCount": 4,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "9bbb3bb40c18",
-      "sheetCode": "E14",
-      "hotspotCount": 13,
-      "uniqueRefs": 7
-    },
-    {
-      "id": "9c926ae195c2",
-      "sheetCode": "B6",
-      "hotspotCount": 11,
-      "uniqueRefs": 8
-    },
-    {
-      "id": "9d33e60ce92c",
-      "sheetCode": "A10",
-      "hotspotCount": 14,
-      "uniqueRefs": 11
-    },
-    {
-      "id": "9d345e8153d0",
-      "sheetCode": "G1",
-      "hotspotCount": 19,
-      "uniqueRefs": 14
-    },
-    {
-      "id": "9dfc21720009",
-      "sheetCode": null,
-      "hotspotCount": 6,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "9f7c5c49237e",
-      "sheetCode": "C9",
-      "hotspotCount": 2,
-      "uniqueRefs": 2
-    },
-    {
-      "id": "a02d30ef0c8a",
-      "sheetCode": "P8",
-      "hotspotCount": 2,
-      "uniqueRefs": 2
-    },
-    {
-      "id": "a11f9e93d32a",
-      "sheetCode": null,
-      "hotspotCount": 12,
-      "uniqueRefs": 11
-    },
-    {
-      "id": "a126a4afb084",
-      "sheetCode": null,
-      "hotspotCount": 8,
-      "uniqueRefs": 6
-    },
-    {
-      "id": "a14cc88c796b",
-      "sheetCode": "F3",
-      "hotspotCount": 4,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "a2cd08258aca",
-      "sheetCode": "Q1",
-      "hotspotCount": 3,
-      "uniqueRefs": 2
-    },
-    {
-      "id": "a3849e20ef78",
-      "sheetCode": null,
-      "hotspotCount": 6,
-      "uniqueRefs": 5
-    },
-    {
-      "id": "a3df32a22d87",
-      "sheetCode": "D4",
-      "hotspotCount": 16,
-      "uniqueRefs": 13
-    },
-    {
-      "id": "a4430390093a",
-      "sheetCode": "E22",
-      "hotspotCount": 10,
-      "uniqueRefs": 10
-    },
-    {
-      "id": "a48e60127f00",
-      "sheetCode": "F1-1",
-      "hotspotCount": 24,
-      "uniqueRefs": 17
-    },
-    {
-      "id": "a4e834593227",
-      "sheetCode": "P6",
-      "hotspotCount": 13,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "a52ee4fe4880",
-      "sheetCode": "P19",
-      "hotspotCount": 10,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "a5b5cf13e864",
-      "sheetCode": null,
-      "hotspotCount": 12,
-      "uniqueRefs": 11
-    },
-    {
-      "id": "a7587f51751d",
-      "sheetCode": "E28",
-      "hotspotCount": 6,
-      "uniqueRefs": 6
-    },
-    {
-      "id": "a77b13c3e2a0",
-      "sheetCode": "A2",
-      "hotspotCount": 12,
-      "uniqueRefs": 10
-    },
-    {
-      "id": "a7e5779b75bf",
-      "sheetCode": "E2",
-      "hotspotCount": 1,
-      "uniqueRefs": 1
-    },
-    {
-      "id": "a988fb790851",
-      "sheetCode": "E16",
-      "hotspotCount": 1,
-      "uniqueRefs": 1
-    },
-    {
-      "id": "ab87d13da04f",
-      "sheetCode": "G5",
-      "hotspotCount": 9,
-      "uniqueRefs": 6
-    },
-    {
-      "id": "ac928ed203e9",
-      "sheetCode": "L1",
-      "hotspotCount": 7,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "aceda00e99b5",
-      "sheetCode": "E4",
-      "hotspotCount": 6,
-      "uniqueRefs": 6
-    },
-    {
-      "id": "af2bc184bb4a",
-      "sheetCode": "E25",
-      "hotspotCount": 8,
-      "uniqueRefs": 5
-    },
-    {
-      "id": "af9bdd0f0f8f",
-      "sheetCode": "E1",
-      "hotspotCount": 7,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "afbe5b565d80",
-      "sheetCode": "A16",
-      "hotspotCount": 17,
-      "uniqueRefs": 10
-    },
-    {
-      "id": "afc7cb97fd49",
-      "sheetCode": "A9",
-      "hotspotCount": 15,
-      "uniqueRefs": 13
-    },
-    {
-      "id": "b017c4a62587",
-      "sheetCode": "P15",
-      "hotspotCount": 16,
-      "uniqueRefs": 14
-    },
-    {
-      "id": "b1060775dee4",
-      "sheetCode": "C2",
-      "hotspotCount": 12,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "b1244dc56d93",
-      "sheetCode": "B5",
-      "hotspotCount": 3,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "b158d5b0aaf2",
-      "sheetCode": null,
-      "hotspotCount": 12,
-      "uniqueRefs": 11
-    },
-    {
-      "id": "b18473961615",
-      "sheetCode": null,
-      "hotspotCount": 11,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "b1935a777dc4",
-      "sheetCode": "C8",
-      "hotspotCount": 22,
-      "uniqueRefs": 17
-    },
-    {
-      "id": "b203c107a067",
-      "sheetCode": "A5",
-      "hotspotCount": 3,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "b2ea78bc38d0",
-      "sheetCode": null,
-      "hotspotCount": 8,
-      "uniqueRefs": 6
-    },
-    {
-      "id": "b30b639859be",
-      "sheetCode": "L3",
-      "hotspotCount": 13,
-      "uniqueRefs": 11
-    },
-    {
-      "id": "b3682774adca",
-      "sheetCode": "A7",
-      "hotspotCount": 10,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "b4b809e0f165",
-      "sheetCode": "P6",
-      "hotspotCount": 13,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "b4f6f1872452",
-      "sheetCode": "G1",
-      "hotspotCount": 19,
-      "uniqueRefs": 14
-    },
-    {
-      "id": "b59abc9a08b4",
-      "sheetCode": "P19",
-      "hotspotCount": 10,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "b64e53298d68",
-      "sheetCode": "P1",
-      "hotspotCount": 6,
-      "uniqueRefs": 5
-    },
-    {
-      "id": "b69f3748002f",
-      "sheetCode": "E27",
-      "hotspotCount": 12,
-      "uniqueRefs": 8
-    },
-    {
-      "id": "b6c55571548b",
-      "sheetCode": "J3",
-      "hotspotCount": 6,
-      "uniqueRefs": 5
-    },
-    {
-      "id": "b73b15938f56",
-      "sheetCode": null,
-      "hotspotCount": 4,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "b8372a42a377",
-      "sheetCode": null,
-      "hotspotCount": 5,
-      "uniqueRefs": 5
-    },
-    {
-      "id": "b83948017624",
-      "sheetCode": "C8",
-      "hotspotCount": 22,
-      "uniqueRefs": 17
-    },
-    {
-      "id": "b898ae1717f8",
-      "sheetCode": "Q6",
-      "hotspotCount": 0,
-      "uniqueRefs": 0
-    },
-    {
-      "id": "b9281788213b",
-      "sheetCode": "G3",
-      "hotspotCount": 15,
-      "uniqueRefs": 14
-    },
-    {
-      "id": "b9452ce09195",
-      "sheetCode": "A14-2",
-      "hotspotCount": 13,
-      "uniqueRefs": 11
-    },
-    {
-      "id": "b97656c1dc2b",
-      "sheetCode": "E9",
-      "hotspotCount": 2,
-      "uniqueRefs": 2
-    },
-    {
-      "id": "bae30f7400c1",
-      "sheetCode": "H5",
-      "hotspotCount": 1,
-      "uniqueRefs": 1
-    },
-    {
-      "id": "bbb570b60f56",
+      "id": "019608a5fe83",
       "sheetCode": "A13",
       "hotspotCount": 13,
-      "uniqueRefs": 12
-    },
-    {
-      "id": "bd05d74664a6",
-      "sheetCode": "G8",
-      "hotspotCount": 15,
-      "uniqueRefs": 12
-    },
-    {
-      "id": "be78442e4f16",
-      "sheetCode": "E6",
-      "hotspotCount": 5,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "be86d137b4da",
-      "sheetCode": null,
-      "hotspotCount": 4,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "bef6ab5ff08d",
-      "sheetCode": null,
-      "hotspotCount": 9,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "bef8921ad670",
-      "sheetCode": "F2",
-      "hotspotCount": 11,
-      "uniqueRefs": 8
-    },
-    {
-      "id": "bf961b4700da",
-      "sheetCode": "C7",
-      "hotspotCount": 20,
-      "uniqueRefs": 15
-    },
-    {
-      "id": "bf9e8c18aab4",
-      "sheetCode": null,
-      "hotspotCount": 8,
-      "uniqueRefs": 6
-    },
-    {
-      "id": "c2802213e569",
-      "sheetCode": null,
-      "hotspotCount": 3,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "c2c6a21c24c1",
-      "sheetCode": "A1",
-      "hotspotCount": 0,
-      "uniqueRefs": 0
-    },
-    {
-      "id": "c349ed4e9a07",
-      "sheetCode": "E19",
-      "hotspotCount": 10,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "c3b02a6ccde3",
-      "sheetCode": "E21",
-      "hotspotCount": 14,
-      "uniqueRefs": 10
-    },
-    {
-      "id": "c3c501a6d347",
-      "sheetCode": null,
-      "hotspotCount": 11,
-      "uniqueRefs": 8
-    },
-    {
-      "id": "c64e24d63652",
-      "sheetCode": "C4",
-      "hotspotCount": 4,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "c6ebb1265e09",
-      "sheetCode": "P2",
-      "hotspotCount": 5,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "c712c30cb921",
-      "sheetCode": null,
-      "hotspotCount": 10,
-      "uniqueRefs": 6
-    },
-    {
-      "id": "c867da7f47a7",
-      "sheetCode": "H2",
-      "hotspotCount": 7,
-      "uniqueRefs": 7
-    },
-    {
-      "id": "c91ead1e7131",
-      "sheetCode": "C9",
-      "hotspotCount": 2,
-      "uniqueRefs": 2
-    },
-    {
-      "id": "c93c0c46dde9",
-      "sheetCode": "K3",
-      "hotspotCount": 16,
-      "uniqueRefs": 12
-    },
-    {
-      "id": "c9465474f8e9",
-      "sheetCode": "N1",
-      "hotspotCount": 10,
-      "uniqueRefs": 7
-    },
-    {
-      "id": "c9af02932d84",
-      "sheetCode": null,
-      "hotspotCount": 1,
-      "uniqueRefs": 1
-    },
-    {
-      "id": "c9f9065fc6c0",
-      "sheetCode": "H6",
-      "hotspotCount": 10,
-      "uniqueRefs": 7
-    },
-    {
-      "id": "ca9d5d169b3f",
-      "sheetCode": "L3",
-      "hotspotCount": 13,
-      "uniqueRefs": 11
-    },
-    {
-      "id": "cd39f948107c",
-      "sheetCode": "C5",
-      "hotspotCount": 7,
-      "uniqueRefs": 7
-    },
-    {
-      "id": "cd8bb1b71471",
-      "sheetCode": "P1",
-      "hotspotCount": 6,
-      "uniqueRefs": 5
-    },
-    {
-      "id": "cdcd376ee350",
-      "sheetCode": "E25",
-      "hotspotCount": 8,
-      "uniqueRefs": 5
-    },
-    {
-      "id": "ce78209c4efa",
-      "sheetCode": null,
-      "hotspotCount": 6,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "ce8246332cc0",
-      "sheetCode": "C10",
-      "hotspotCount": 31,
-      "uniqueRefs": 16
-    },
-    {
-      "id": "ce8914f37b8e",
-      "sheetCode": "Q6",
-      "hotspotCount": 0,
-      "uniqueRefs": 0
-    },
-    {
-      "id": "ceb6a9179691",
-      "sheetCode": "E26",
-      "hotspotCount": 17,
-      "uniqueRefs": 12
-    },
-    {
-      "id": "cf27876ee311",
-      "sheetCode": "E27",
-      "hotspotCount": 12,
-      "uniqueRefs": 8
-    },
-    {
-      "id": "cfefc4625f79",
-      "sheetCode": null,
-      "hotspotCount": 2,
-      "uniqueRefs": 2
-    },
-    {
-      "id": "d055d3e8f90b",
-      "sheetCode": "M4",
-      "hotspotCount": 2,
-      "uniqueRefs": 2
-    },
-    {
-      "id": "d1802813c51e",
-      "sheetCode": "H1",
-      "hotspotCount": 0,
-      "uniqueRefs": 0
-    },
-    {
-      "id": "d2b254cda2a3",
-      "sheetCode": "F1",
-      "hotspotCount": 12,
-      "uniqueRefs": 8
-    },
-    {
-      "id": "d3fc706659d8",
-      "sheetCode": null,
-      "hotspotCount": 3,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "d49f49254841",
-      "sheetCode": "C11",
-      "hotspotCount": 6,
-      "uniqueRefs": 6
-    },
-    {
-      "id": "d4cddefda80d",
-      "sheetCode": "N1",
-      "hotspotCount": 10,
-      "uniqueRefs": 7
+      "status": "todo"
     },
     {
       "id": "d541c02a9d4d",
       "sheetCode": "A14",
       "hotspotCount": 11,
-      "uniqueRefs": 10
+      "status": "todo"
     },
     {
-      "id": "d5f331df6a6b",
-      "sheetCode": "P19",
-      "hotspotCount": 10,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "d5f3bf440eb0",
-      "sheetCode": "P19-1",
-      "hotspotCount": 4,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "d628055fc204",
-      "sheetCode": null,
-      "hotspotCount": 14,
-      "uniqueRefs": 13
-    },
-    {
-      "id": "d653fb553b50",
-      "sheetCode": "J7",
-      "hotspotCount": 14,
-      "uniqueRefs": 11
-    },
-    {
-      "id": "d84e0725443b",
-      "sheetCode": null,
-      "hotspotCount": 4,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "da06a5f5c11d",
-      "sheetCode": "E13",
-      "hotspotCount": 6,
-      "uniqueRefs": 5
-    },
-    {
-      "id": "da273a8ca4bb",
-      "sheetCode": "M1",
-      "hotspotCount": 5,
-      "uniqueRefs": 5
-    },
-    {
-      "id": "da75a52d1d12",
-      "sheetCode": "C2",
-      "hotspotCount": 12,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "dc0946873fd5",
-      "sheetCode": "P6",
+      "id": "b9452ce09195",
+      "sheetCode": "A14-2",
       "hotspotCount": 13,
-      "uniqueRefs": 9
+      "status": "todo"
     },
     {
-      "id": "dc6dcbc79dd8",
-      "sheetCode": "E28",
-      "hotspotCount": 6,
-      "uniqueRefs": 6
+      "id": "67398058d514",
+      "sheetCode": "A15",
+      "hotspotCount": 4,
+      "status": "todo"
     },
     {
-      "id": "dc7802c37c3c",
+      "id": "afbe5b565d80",
+      "sheetCode": "A16",
+      "hotspotCount": 17,
+      "status": "todo"
+    },
+    {
+      "id": "0e8a33d35f7d",
+      "sheetCode": "A2",
+      "hotspotCount": 18,
+      "status": "done"
+    },
+    {
+      "id": "b203c107a067",
+      "sheetCode": "A5",
+      "hotspotCount": 3,
+      "status": "todo"
+    },
+    {
+      "id": "5d07cbd05d2b",
+      "sheetCode": "A6",
+      "hotspotCount": 15,
+      "status": "todo"
+    },
+    {
+      "id": "0df5fa5e650b",
       "sheetCode": "A7",
       "hotspotCount": 10,
-      "uniqueRefs": 9
+      "status": "todo"
     },
     {
-      "id": "dc78c0813076",
-      "sheetCode": "E21",
-      "hotspotCount": 14,
-      "uniqueRefs": 10
+      "id": "63ebe2f48b83",
+      "sheetCode": "A9",
+      "hotspotCount": 15,
+      "status": "todo"
     },
     {
-      "id": "dce849103e91",
-      "sheetCode": "P18",
-      "hotspotCount": 7,
-      "uniqueRefs": 7
-    },
-    {
-      "id": "def9ca86e8e7",
-      "sheetCode": "G5",
-      "hotspotCount": 9,
-      "uniqueRefs": 6
-    },
-    {
-      "id": "e119adf7629e",
-      "sheetCode": "G10",
-      "hotspotCount": 25,
-      "uniqueRefs": 18
-    },
-    {
-      "id": "e1380a959180",
-      "sheetCode": null,
-      "hotspotCount": 1,
-      "uniqueRefs": 1
-    },
-    {
-      "id": "e15d6cb20fcc",
-      "sheetCode": "E16",
-      "hotspotCount": 1,
-      "uniqueRefs": 1
-    },
-    {
-      "id": "e242ba541ca2",
-      "sheetCode": "E9",
-      "hotspotCount": 2,
-      "uniqueRefs": 2
-    },
-    {
-      "id": "e3c0335d7c51",
-      "sheetCode": "P17",
+      "id": "6c8672bbe8cc",
+      "sheetCode": "B2",
       "hotspotCount": 13,
-      "uniqueRefs": 8
+      "status": "todo"
     },
     {
-      "id": "e53e24e4db29",
-      "sheetCode": "Q5",
-      "hotspotCount": 5,
-      "uniqueRefs": 4
+      "id": "137cdaf20937",
+      "sheetCode": "B3",
+      "hotspotCount": 17,
+      "status": "todo"
     },
     {
-      "id": "e5c98c5e3faa",
-      "sheetCode": null,
-      "hotspotCount": 16,
-      "uniqueRefs": 8
-    },
-    {
-      "id": "e7f0b05111e9",
-      "sheetCode": "N1",
-      "hotspotCount": 10,
-      "uniqueRefs": 7
-    },
-    {
-      "id": "e8735df0c8c6",
-      "sheetCode": "G11",
-      "hotspotCount": 14,
-      "uniqueRefs": 13
-    },
-    {
-      "id": "e8b0fee6e4ce",
-      "sheetCode": "K2",
+      "id": "1c4c7a4f72e8",
+      "sheetCode": "B4",
       "hotspotCount": 9,
-      "uniqueRefs": 9
+      "status": "todo"
     },
     {
-      "id": "e953d4a31181",
-      "sheetCode": null,
+      "id": "0d8e41b0eb9e",
+      "sheetCode": "B5",
       "hotspotCount": 3,
-      "uniqueRefs": 3
+      "status": "todo"
     },
     {
-      "id": "e9923f3d8eb5",
-      "sheetCode": "P2",
-      "hotspotCount": 5,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "ec2c9c06847e",
+      "id": "0afbe7a6ce6c",
       "sheetCode": "B6",
       "hotspotCount": 11,
-      "uniqueRefs": 8
+      "status": "todo"
     },
     {
-      "id": "ec6e393e2638",
+      "id": "41b9432cf429",
+      "sheetCode": "C1",
+      "hotspotCount": 4,
+      "status": "todo"
+    },
+    {
+      "id": "5d76c69cfd44",
+      "sheetCode": "C1",
+      "hotspotCount": 4,
+      "status": "todo"
+    },
+    {
+      "id": "4c3b51e8f60e",
+      "sheetCode": "C10",
+      "hotspotCount": 31,
+      "status": "todo"
+    },
+    {
+      "id": "d49f49254841",
+      "sheetCode": "C11",
+      "hotspotCount": 6,
+      "status": "todo"
+    },
+    {
+      "id": "78c32f5da101",
+      "sheetCode": "C12",
+      "hotspotCount": 10,
+      "status": "todo"
+    },
+    {
+      "id": "025cdcc1da1f",
+      "sheetCode": "C13",
+      "hotspotCount": 2,
+      "status": "todo"
+    },
+    {
+      "id": "260c65a18d26",
+      "sheetCode": "C15",
+      "hotspotCount": 7,
+      "status": "todo"
+    },
+    {
+      "id": "098cd33fe7c7",
+      "sheetCode": "C2",
+      "hotspotCount": 12,
+      "status": "todo"
+    },
+    {
+      "id": "36c45326f2b6",
+      "sheetCode": "C3",
+      "hotspotCount": 2,
+      "status": "todo"
+    },
+    {
+      "id": "54488070e03f",
+      "sheetCode": "C4",
+      "hotspotCount": 4,
+      "status": "todo"
+    },
+    {
+      "id": "cd39f948107c",
+      "sheetCode": "C5",
+      "hotspotCount": 7,
+      "status": "todo"
+    },
+    {
+      "id": "751d21e81efd",
+      "sheetCode": "C5-1",
+      "hotspotCount": 7,
+      "status": "todo"
+    },
+    {
+      "id": "1309a828f1b7",
+      "sheetCode": "C7",
+      "hotspotCount": 20,
+      "status": "todo"
+    },
+    {
+      "id": "35f6b4685a13",
+      "sheetCode": "C8",
+      "hotspotCount": 22,
+      "status": "todo"
+    },
+    {
+      "id": "9f7c5c49237e",
+      "sheetCode": "C9",
+      "hotspotCount": 2,
+      "status": "todo"
+    },
+    {
+      "id": "4f337fc8c562",
+      "sheetCode": "D1",
+      "hotspotCount": 3,
+      "status": "todo"
+    },
+    {
+      "id": "8dc3397eac9b",
+      "sheetCode": "D2",
+      "hotspotCount": 5,
+      "status": "todo"
+    },
+    {
+      "id": "a3df32a22d87",
+      "sheetCode": "D4",
+      "hotspotCount": 16,
+      "status": "todo"
+    },
+    {
+      "id": "038d24dacfeb",
+      "sheetCode": "E1",
+      "hotspotCount": 7,
+      "status": "todo"
+    },
+    {
+      "id": "3b5cd1960a0d",
+      "sheetCode": "E10",
+      "hotspotCount": 13,
+      "status": "todo"
+    },
+    {
+      "id": "29564046b5b4",
+      "sheetCode": "E11",
+      "hotspotCount": 4,
+      "status": "todo"
+    },
+    {
+      "id": "115848a6f542",
+      "sheetCode": "E12",
+      "hotspotCount": 5,
+      "status": "todo"
+    },
+    {
+      "id": "03164f0eddaa",
+      "sheetCode": "E13",
+      "hotspotCount": 6,
+      "status": "todo"
+    },
+    {
+      "id": "9bbb3bb40c18",
+      "sheetCode": "E14",
+      "hotspotCount": 13,
+      "status": "todo"
+    },
+    {
+      "id": "6fba9c26f6ee",
+      "sheetCode": "E15",
+      "hotspotCount": 1,
+      "status": "todo"
+    },
+    {
+      "id": "a988fb790851",
+      "sheetCode": "E16",
+      "hotspotCount": 1,
+      "status": "todo"
+    },
+    {
+      "id": "075a644e72c4",
+      "sheetCode": "E17",
+      "hotspotCount": 4,
+      "status": "todo"
+    },
+    {
+      "id": "80594b460932",
+      "sheetCode": "E18",
+      "hotspotCount": 10,
+      "status": "todo"
+    },
+    {
+      "id": "c349ed4e9a07",
+      "sheetCode": "E19",
+      "hotspotCount": 10,
+      "status": "todo"
+    },
+    {
+      "id": "a7e5779b75bf",
+      "sheetCode": "E2",
+      "hotspotCount": 1,
+      "status": "todo"
+    },
+    {
+      "id": "94a39bcb1c49",
+      "sheetCode": "E21",
+      "hotspotCount": 14,
+      "status": "todo"
+    },
+    {
+      "id": "5d23350af7d6",
+      "sheetCode": "E22",
+      "hotspotCount": 10,
+      "status": "todo"
+    },
+    {
+      "id": "3df5d3be535e",
+      "sheetCode": "E24",
+      "hotspotCount": 11,
+      "status": "todo"
+    },
+    {
+      "id": "af2bc184bb4a",
+      "sheetCode": "E25",
+      "hotspotCount": 8,
+      "status": "todo"
+    },
+    {
+      "id": "ceb6a9179691",
+      "sheetCode": "E26",
+      "hotspotCount": 17,
+      "status": "todo"
+    },
+    {
+      "id": "12c783b8ab56",
       "sheetCode": "E27",
       "hotspotCount": 12,
-      "uniqueRefs": 8
+      "status": "todo"
+    },
+    {
+      "id": "368dfb08e932",
+      "sheetCode": "E28",
+      "hotspotCount": 6,
+      "status": "todo"
+    },
+    {
+      "id": "56e6f984304c",
+      "sheetCode": "E29",
+      "hotspotCount": 10,
+      "status": "todo"
     },
     {
       "id": "edf54d325e35",
       "sheetCode": "E3",
       "hotspotCount": 1,
-      "uniqueRefs": 1
+      "status": "todo"
     },
     {
-      "id": "ef61deb8e939",
-      "sheetCode": "E1",
+      "id": "02b56cfd4a52",
+      "sheetCode": "E30",
+      "hotspotCount": 5,
+      "status": "todo"
+    },
+    {
+      "id": "1ac86ddb81fc",
+      "sheetCode": "E4",
+      "hotspotCount": 6,
+      "status": "todo"
+    },
+    {
+      "id": "be78442e4f16",
+      "sheetCode": "E6",
+      "hotspotCount": 5,
+      "status": "todo"
+    },
+    {
+      "id": "6421cf6dda2a",
+      "sheetCode": "E7",
+      "hotspotCount": 6,
+      "status": "todo"
+    },
+    {
+      "id": "b97656c1dc2b",
+      "sheetCode": "E9",
+      "hotspotCount": 2,
+      "status": "todo"
+    },
+    {
+      "id": "9240a84f4dd4",
+      "sheetCode": "F1",
+      "hotspotCount": 12,
+      "status": "todo"
+    },
+    {
+      "id": "a48e60127f00",
+      "sheetCode": "F1-1",
+      "hotspotCount": 24,
+      "status": "todo"
+    },
+    {
+      "id": "345feed48173",
+      "sheetCode": "F1-2",
+      "hotspotCount": 15,
+      "status": "todo"
+    },
+    {
+      "id": "664330d2dd89",
+      "sheetCode": "F2",
+      "hotspotCount": 11,
+      "status": "todo"
+    },
+    {
+      "id": "a14cc88c796b",
+      "sheetCode": "F3",
+      "hotspotCount": 4,
+      "status": "todo"
+    },
+    {
+      "id": "0fc95815fe59",
+      "sheetCode": "G1",
+      "hotspotCount": 19,
+      "status": "todo"
+    },
+    {
+      "id": "e119adf7629e",
+      "sheetCode": "G10",
+      "hotspotCount": 25,
+      "status": "todo"
+    },
+    {
+      "id": "e8735df0c8c6",
+      "sheetCode": "G11",
+      "hotspotCount": 14,
+      "status": "todo"
+    },
+    {
+      "id": "865c0ade767f",
+      "sheetCode": "G11-1",
+      "hotspotCount": 12,
+      "status": "todo"
+    },
+    {
+      "id": "71807ef384f9",
+      "sheetCode": "G2",
+      "hotspotCount": 11,
+      "status": "todo"
+    },
+    {
+      "id": "b9281788213b",
+      "sheetCode": "G3",
+      "hotspotCount": 15,
+      "status": "todo"
+    },
+    {
+      "id": "3fef081320e8",
+      "sheetCode": "G4",
       "hotspotCount": 7,
-      "uniqueRefs": 4
+      "status": "todo"
     },
     {
-      "id": "ef684ee4eb13",
+      "id": "ab87d13da04f",
+      "sheetCode": "G5",
+      "hotspotCount": 9,
+      "status": "todo"
+    },
+    {
+      "id": "8833dacb3dff",
+      "sheetCode": "G6",
+      "hotspotCount": 11,
+      "status": "todo"
+    },
+    {
+      "id": "3b31ef573a50",
+      "sheetCode": "G8",
+      "hotspotCount": 15,
+      "status": "todo"
+    },
+    {
+      "id": "d1802813c51e",
+      "sheetCode": "H1",
+      "hotspotCount": 0,
+      "status": "todo"
+    },
+    {
+      "id": "c867da7f47a7",
+      "sheetCode": "H2",
+      "hotspotCount": 7,
+      "status": "todo"
+    },
+    {
+      "id": "475ccae14269",
+      "sheetCode": "H3",
+      "hotspotCount": 5,
+      "status": "todo"
+    },
+    {
+      "id": "bae30f7400c1",
+      "sheetCode": "H5",
+      "hotspotCount": 1,
+      "status": "todo"
+    },
+    {
+      "id": "c9f9065fc6c0",
+      "sheetCode": "H6",
+      "hotspotCount": 10,
+      "status": "todo"
+    },
+    {
+      "id": "04a62cecbba5",
       "sheetCode": "H7",
       "hotspotCount": 10,
-      "uniqueRefs": 8
+      "status": "todo"
     },
     {
-      "id": "f041a9362025",
-      "sheetCode": null,
-      "hotspotCount": 11,
-      "uniqueRefs": 9
+      "id": "028ba4338f19",
+      "sheetCode": "J1",
+      "hotspotCount": 4,
+      "status": "todo"
     },
     {
-      "id": "f05117237d30",
+      "id": "b6c55571548b",
+      "sheetCode": "J3",
+      "hotspotCount": 6,
+      "status": "todo"
+    },
+    {
+      "id": "5ed13158c305",
+      "sheetCode": "J4",
+      "hotspotCount": 16,
+      "status": "todo"
+    },
+    {
+      "id": "0629f7c94008",
       "sheetCode": "J5",
       "hotspotCount": 16,
-      "uniqueRefs": 10
+      "status": "todo"
     },
     {
-      "id": "f120e2e87a3d",
-      "sheetCode": null,
-      "hotspotCount": 12,
-      "uniqueRefs": 11
+      "id": "1d62eaef6242",
+      "sheetCode": "J6",
+      "hotspotCount": 4,
+      "status": "todo"
     },
     {
-      "id": "f1a6c6857bb4",
-      "sheetCode": null,
+      "id": "73a66835b373",
+      "sheetCode": "J7",
+      "hotspotCount": 14,
+      "status": "todo"
+    },
+    {
+      "id": "917b608c1db6",
+      "sheetCode": "K1",
       "hotspotCount": 8,
-      "uniqueRefs": 6
+      "status": "todo"
     },
     {
-      "id": "f4d48bfa80fc",
-      "sheetCode": "P18",
-      "hotspotCount": 7,
-      "uniqueRefs": 7
+      "id": "8aa4dbeeff19",
+      "sheetCode": "K2",
+      "hotspotCount": 9,
+      "status": "todo"
     },
     {
-      "id": "f53994b4d068",
-      "sheetCode": null,
-      "hotspotCount": 6,
-      "uniqueRefs": 5
+      "id": "c93c0c46dde9",
+      "sheetCode": "K3",
+      "hotspotCount": 16,
+      "status": "todo"
     },
     {
       "id": "f6496dbe63bc",
       "sheetCode": "K4",
       "hotspotCount": 5,
-      "uniqueRefs": 5
+      "status": "todo"
     },
     {
-      "id": "f722d147cc50",
-      "sheetCode": null,
-      "hotspotCount": 4,
-      "uniqueRefs": 4
+      "id": "62a13c072cec",
+      "sheetCode": "L1",
+      "hotspotCount": 7,
+      "status": "todo"
     },
     {
-      "id": "f7e9257f38b5",
-      "sheetCode": "E3",
+      "id": "6a680fa1ea39",
+      "sheetCode": "L2",
+      "hotspotCount": 22,
+      "status": "todo"
+    },
+    {
+      "id": "b30b639859be",
+      "sheetCode": "L3",
+      "hotspotCount": 13,
+      "status": "todo"
+    },
+    {
+      "id": "da273a8ca4bb",
+      "sheetCode": "M1",
+      "hotspotCount": 5,
+      "status": "todo"
+    },
+    {
+      "id": "86c80e31f335",
+      "sheetCode": "M2",
+      "hotspotCount": 0,
+      "status": "todo"
+    },
+    {
+      "id": "d055d3e8f90b",
+      "sheetCode": "M4",
+      "hotspotCount": 2,
+      "status": "todo"
+    },
+    {
+      "id": "6f95ea87a608",
+      "sheetCode": "M5",
       "hotspotCount": 1,
-      "uniqueRefs": 1
+      "status": "todo"
     },
     {
-      "id": "f824326aa8e4",
-      "sheetCode": "C7",
-      "hotspotCount": 20,
-      "uniqueRefs": 15
-    },
-    {
-      "id": "f857b7727f06",
-      "sheetCode": "F1",
-      "hotspotCount": 12,
-      "uniqueRefs": 8
-    },
-    {
-      "id": "f8b57d157e5d",
-      "sheetCode": "Q5",
-      "hotspotCount": 5,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "f8c4f37644fc",
-      "sheetCode": "P15",
-      "hotspotCount": 16,
-      "uniqueRefs": 14
-    },
-    {
-      "id": "f98baa0f3cb2",
-      "sheetCode": "E19",
-      "hotspotCount": 10,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "fa20014e34ef",
-      "sheetCode": "E25",
-      "hotspotCount": 8,
-      "uniqueRefs": 5
-    },
-    {
-      "id": "fc795eb793a4",
-      "sheetCode": "E27",
-      "hotspotCount": 12,
-      "uniqueRefs": 8
-    },
-    {
-      "id": "fcfa75893f2e",
-      "sheetCode": null,
-      "hotspotCount": 5,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "fd783cb0cc8a",
-      "sheetCode": null,
-      "hotspotCount": 11,
-      "uniqueRefs": 9
-    },
-    {
-      "id": "fddcddb60c42",
-      "sheetCode": "E12",
-      "hotspotCount": 5,
-      "uniqueRefs": 5
-    },
-    {
-      "id": "fe40bfee1bfd",
-      "sheetCode": null,
-      "hotspotCount": 3,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "fe51394789dc",
-      "sheetCode": null,
-      "hotspotCount": 3,
-      "uniqueRefs": 3
-    },
-    {
-      "id": "fe75c8458182",
-      "sheetCode": "Q1",
-      "hotspotCount": 3,
-      "uniqueRefs": 2
-    },
-    {
-      "id": "ff435eb469ab",
-      "sheetCode": "P16",
-      "hotspotCount": 5,
-      "uniqueRefs": 4
-    },
-    {
-      "id": "ffcfe1a7ea74",
+      "id": "3dda717d4edb",
       "sheetCode": "N1",
       "hotspotCount": 10,
-      "uniqueRefs": 7
+      "status": "todo"
+    },
+    {
+      "id": "09b3b7befd25",
+      "sheetCode": "P1",
+      "hotspotCount": 6,
+      "status": "todo"
+    },
+    {
+      "id": "0a188d4c929c",
+      "sheetCode": "P10",
+      "hotspotCount": 6,
+      "status": "todo"
+    },
+    {
+      "id": "93be6fd7993c",
+      "sheetCode": "P13",
+      "hotspotCount": 10,
+      "status": "todo"
+    },
+    {
+      "id": "36f90c404692",
+      "sheetCode": "P13-1",
+      "hotspotCount": 4,
+      "status": "todo"
+    },
+    {
+      "id": "4536dcacf802",
+      "sheetCode": "P15",
+      "hotspotCount": 16,
+      "status": "todo"
+    },
+    {
+      "id": "5c7b8d9fd13b",
+      "sheetCode": "P16",
+      "hotspotCount": 5,
+      "status": "todo"
+    },
+    {
+      "id": "e3c0335d7c51",
+      "sheetCode": "P17",
+      "hotspotCount": 13,
+      "status": "todo"
+    },
+    {
+      "id": "dce849103e91",
+      "sheetCode": "P18",
+      "hotspotCount": 7,
+      "status": "todo"
+    },
+    {
+      "id": "3aab4ad724dc",
+      "sheetCode": "P19",
+      "hotspotCount": 10,
+      "status": "todo"
+    },
+    {
+      "id": "55590b7bdc19",
+      "sheetCode": "P19-1",
+      "hotspotCount": 4,
+      "status": "todo"
+    },
+    {
+      "id": "5a125d5a6a22",
+      "sheetCode": "P2",
+      "hotspotCount": 5,
+      "status": "todo"
+    },
+    {
+      "id": "1e720b5f92ba",
+      "sheetCode": "P3",
+      "hotspotCount": 15,
+      "status": "todo"
+    },
+    {
+      "id": "78cc38bcf79a",
+      "sheetCode": "P4",
+      "hotspotCount": 6,
+      "status": "todo"
+    },
+    {
+      "id": "1d211d984cf4",
+      "sheetCode": "P6",
+      "hotspotCount": 13,
+      "status": "todo"
+    },
+    {
+      "id": "088c5748ab6a",
+      "sheetCode": "P8",
+      "hotspotCount": 2,
+      "status": "todo"
+    },
+    {
+      "id": "54d03b702528",
+      "sheetCode": "P9",
+      "hotspotCount": 2,
+      "status": "todo"
+    },
+    {
+      "id": "a2cd08258aca",
+      "sheetCode": "Q1",
+      "hotspotCount": 3,
+      "status": "todo"
+    },
+    {
+      "id": "241a4c848e34",
+      "sheetCode": "Q4",
+      "hotspotCount": 0,
+      "status": "todo"
+    },
+    {
+      "id": "27fdedaaadd3",
+      "sheetCode": "Q5",
+      "hotspotCount": 5,
+      "status": "todo"
+    },
+    {
+      "id": "2ed7170ab4eb",
+      "sheetCode": "Q6",
+      "hotspotCount": 0,
+      "status": "todo"
     }
   ]
 }
