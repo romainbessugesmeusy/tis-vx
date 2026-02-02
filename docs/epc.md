@@ -153,7 +153,7 @@ The EPC data is transformed into a tree structure compatible with the sidebar's 
 
 ```
 Groups (A-R)           → Root nodes with emoji icons
-├── SubSections        → Folder nodes (expandable)
+├── SubSections        → Folder nodes OR leaf nodes (if single child)
 │   └── Main Items     → Leaf nodes (link to parts view)
 ```
 
@@ -161,6 +161,13 @@ Groups (A-R)           → Root nodes with emoji icons
 - `roots`: Array of group node IDs (`epc-A`, `epc-B`, etc.)
 - `nodes`: Object mapping node IDs to node data
 - `epcIdToSlug`: Maps node IDs to URL paths
+
+#### Single-Child Optimization
+
+When a subsection has only one main item, the intermediate level is collapsed:
+- The subsection becomes a direct leaf node linking to the parts view
+- Reduces unnecessary navigation depth
+- Example: "Fuel pump" (1 item) → direct link instead of "Fuel pump" → "Fuel pump"
 
 #### EPC-Specific Components
 
