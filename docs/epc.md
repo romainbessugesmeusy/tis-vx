@@ -127,61 +127,27 @@ node scrape-epc.js
 
 ### EPCBrowser (`viewer/src/components/EPCBrowser.jsx`)
 
-Main component for displaying parts when a section is selected. Navigation is handled by the Sidebar.
+Main component for browsing the parts catalog.
 
 **Features:**
-- **Home Page**: Global search across all parts with statistics
+- **Groups Grid**: Visual grid of all groups (A-R) with icons
+- **Hierarchical Navigation**: Drill down through levels with breadcrumbs
 - **Parts Table**: Sortable columns (click headers), filterable by search
 - **Diagram Viewer**: Modal popup showing diagram when clicking Ref number
-- **Hotspot Integration**: Interactive hotspots on diagrams (hover to highlight parts)
-- **Breadcrumb**: Shows current location (Group → SubSection → Main)
+- **Global Search**: Search across all parts by description, part number, or catalog number
 
 **Routes:**
-- `/epc` - Home page with global search
-- `/epc/:groupId/:subSectionId/:mainId` - Parts table for selected section
+- `/epc` - Groups grid (home)
+- `/epc/:groupId` - Sub sections list
+- `/epc/:groupId/:subSectionId` - Main items list
+- `/epc/:groupId/:subSectionId/:mainId` - Parts table
 
 ### Sidebar Integration
 
 The sidebar has a mode toggle between "Manual" and "Parts":
 - Stored in localStorage (`tis-sidebar-mode`)
 - Auto-detects mode from URL (paths starting with `/epc` = parts mode)
-- **Parts mode uses the same tree/column navigation as Manual mode**
-
-#### EPC Tree Structure
-
-The EPC data is transformed into a tree structure compatible with the sidebar's navigation components:
-
-```
-Groups (A-R)           → Root nodes with emoji icons
-├── SubSections        → Folder nodes OR leaf nodes (if single child)
-│   └── Main Items     → Leaf nodes (link to parts view)
-```
-
-**Helper function:** `buildEpcTree(epcData)` in `Sidebar.jsx` converts the EPC JSON into:
-- `roots`: Array of group node IDs (`epc-A`, `epc-B`, etc.)
-- `nodes`: Object mapping node IDs to node data
-- `epcIdToSlug`: Maps node IDs to URL paths
-
-#### Single-Child Optimization
-
-When a subsection has only one main item, the intermediate level is collapsed:
-- The subsection becomes a direct leaf node linking to the parts view
-- Reduces unnecessary navigation depth
-- Example: "Fuel pump" (1 item) → direct link instead of "Fuel pump" → "Fuel pump"
-
-#### EPC-Specific Components
-
-| Component | Description |
-|-----------|-------------|
-| `EPCTreeNode` | Tree view renderer with parts count badges |
-| `EPCColumnNav` | Column navigation for EPC (Finder-style) |
-
-#### State Persistence
-
-| Key | Purpose |
-|-----|---------|
-| `tis-epc-column-path` | Selected path in column view |
-| `tis-epc-expanded-nodes` | Expanded nodes in tree view |
+- Parts mode shows a simplified group navigation in the sidebar
 
 ### Group Icons
 ```javascript
@@ -215,12 +181,11 @@ EPC-specific styles are in `viewer/src/App.css` under the section:
 ```
 
 Key CSS classes:
-- `.epc-home` - Home page layout
+- `.epc-groups-grid` - Groups home page grid
+- `.epc-group-card` - Individual group card
+- `.epc-list` / `.epc-list-item` - Sub section and main item lists
 - `.epc-parts-table` - Parts table with sortable headers
 - `.epc-diagram-modal` - Diagram viewer modal
-- `.epc-hotspot` / `.epc-hotspots-container` - Diagram hotspots
-- `.epc-tree-*` - Tree navigation styles
-- `.epc-column-*` - Column navigation styles
 - `.sidebar-mode-toggle` - Manual/Parts mode toggle
 
 ## Statistics (as of last scrape)
@@ -229,7 +194,33 @@ Key CSS classes:
 - **130 Sub Sections**
 - **332 Main Items**
 - **3018 Parts**
-- **332 Diagrams**
+- **151 Unique Diagrams** (deduplicated from 332 original files)
+
+## Diagram Deduplication
+
+The original scrape contained 332 diagram files, but many were duplicates (same diagram used across different part categories). A deduplication process was performed:
+
+### Process
+
+1. **Hash Comparison**: Each diagram's pixel content was hashed using MD5
+2. **Duplicate Detection**: 181 duplicate images identified (54.5% reduction)
+3. **Reference Update**: 1085 part references in `parts.json` updated to canonical IDs
+4. **Cleanup**: Duplicate PNG and hotspot JSON files removed
+
+### Utility Scripts
+
+```bash
+# Find duplicates (analysis only)
+node find-duplicate-diagrams.js
+
+# Run deduplication (modifies files!)
+node deduplicate-diagrams.js
+```
+
+### Reference Files
+
+- `duplicate-diagrams-report.json` - Analysis results with duplicate groups
+- `diagram-id-mapping.json` - Maps old duplicate IDs → canonical IDs
 
 ## Diagram Hotspots
 

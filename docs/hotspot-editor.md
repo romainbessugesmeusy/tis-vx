@@ -143,7 +143,7 @@ The server runs on port **3001**.
       "status": "done"
     }
   ],
-  "total": 332
+  "total": 151
 }
 ```
 
@@ -156,6 +156,10 @@ The server runs on port **3001**.
 | **Select** | 🖱️ | Click to select hotspots, drag to move, resize handles on corners |
 | **Rectangle** | ▢ | Click and drag to draw rectangular hotspots |
 | **Polygon** | ⬡ | Click to place vertices, click first point to close |
+
+### Drawing Behavior
+
+When actively drawing (rectangle drag or placing polygon points), existing hotspots are automatically **hidden** (faded to 15% opacity and non-interactive). This allows drawing new hotspots over existing ones when parts overlap. Hotspots restore when drawing completes or is cancelled.
 
 ### Zoom Controls
 
@@ -252,12 +256,15 @@ The script applies image preprocessing for better OCR:
 tis-vx/
 ├── hotspot-server.js              # API server
 ├── extract-diagram-hotspots.js    # OCR extraction script
+├── find-duplicate-diagrams.js     # Duplicate detection script
+├── deduplicate-diagrams.js        # Deduplication script
+├── diagram-id-mapping.json        # Old ID → canonical ID mapping
 ├── package.json                   # npm scripts: hotspot-server, extract-hotspots
 ├── viewer/
 │   ├── public/
 │   │   ├── hotspot-editor.html    # Standalone editor
 │   │   └── data/epc/
-│   │       ├── diagrams/          # PNG diagram images (332 files)
+│   │       ├── diagrams/          # PNG diagram images (151 unique files)
 │   │       └── hotspots/          # JSON hotspot files
 │   │           ├── _index.json    # Summary index
 │   │           └── *.json         # Per-diagram hotspots
