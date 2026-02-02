@@ -3,6 +3,7 @@ import { useState, useEffect, useCallback, useRef } from 'react'
 import Sidebar from './components/Sidebar'
 import ContentViewer from './components/ContentViewer'
 import ReferenceIndex from './components/ReferenceIndex'
+import EPCBrowser from './components/EPCBrowser'
 
 // Breakpoints
 const MOBILE_BREAKPOINT = 768
@@ -237,6 +238,7 @@ function App() {
           <h1>VX220 Service Manual</h1>
         </a>
         <nav className="header-nav">
+          <a href="/epc" className="nav-pill">Parts</a>
           <a href="/ref/tools" className="nav-pill">Tools</a>
           <a href="/ref/torque" className="nav-pill">Torque</a>
           <a href="/ref/pictograms" className="nav-pill">Pictograms</a>
@@ -272,6 +274,10 @@ function App() {
             <Route path="/" element={<ContentViewer manifest={manifest} onNavigateToComponent={handleNavigateToComponent} />} />
             <Route path="/doc/:id" element={<ContentViewer manifest={manifest} onNavigateToComponent={handleNavigateToComponent} />} />
             <Route path="/ref/:type" element={<ReferenceIndex />} />
+            <Route path="/epc" element={<EPCBrowser />} />
+            <Route path="/epc/:groupId" element={<EPCBrowser />} />
+            <Route path="/epc/:groupId/:subSectionId" element={<EPCBrowser />} />
+            <Route path="/epc/:groupId/:subSectionId/:mainId" element={<EPCBrowser />} />
           </Routes>
         </main>
       </div>

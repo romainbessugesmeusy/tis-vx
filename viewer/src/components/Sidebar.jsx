@@ -1,6 +1,12 @@
 import { useState, useMemo, useCallback, useRef, useEffect } from 'react'
-import { NavLink, useParams, useNavigate } from 'react-router-dom'
+import { NavLink, useParams, useNavigate, useLocation } from 'react-router-dom'
 import SearchBar from './SearchBar'
+
+// Group icons for EPC navigation
+const EPC_GROUP_ICONS = {
+  A: '🚗', B: '🔩', C: '🪟', D: '💺', E: '⚙️', F: '❄️', G: '⛽', H: '🔧',
+  J: '🛞', K: '🏎️', L: '🎯', M: '🔄', N: '⭕', P: '⚡', Q: '📦', R: '🚙',
+}
 
 // Document type folders that should be treated as group labels (not columns)
 const GROUP_FOLDER_TITLES = [
@@ -75,7 +81,87 @@ const collectGroupLeaves = (groupNode, nodes) => {
 const STORAGE_KEYS = {
   COLUMN_PATH: 'tis-column-path',
   EXPANDED_NODES: 'tis-expanded-nodes',
-  COLLAPSED_GROUPS: 'tis-collapsed-groups'
+  COLLAPSED_GROUPS: 'tis-collapsed-groups',
+  SIDEBAR_MODE: 'tis-sidebar-mode'
+}
+
+// EPC Sidebar Navigation Component
+function EPCSidebarNav({ onClose, showMobileMenu }) {
+  const navigate = useNavigate()
+  const location = useLocation()
+  const [epcData, setEpcData] = useState(null)
+  const [searchQuery, setSearchQuery] = useState('')
+  
+  // Load EPC data
+  useEffect(() => {
+    fetch('/data/epc/parts.json')
+      .then(res => res.ok ? res.json() : null)
+      .then(data => setEpcData(data))
+      .catch(() => setEpcData(null))
+  }, [])
+  
+  // Get current group from URL
+  const currentGroupId = useMemo(() => {
+    const match = location.pathname.match(/^\/epc\/([A-R])/)
+    return match ? match[1] : null
+  }, [location.pathname])
+  
+  // Filter groups by search
+  const filteredGroups = useMemo(() => {
+    if (!epcData?.groups) return []
+    if (!searchQuery.trim()) return epcData.groups
+    
+    const query = searchQuery.toLowerCase()
+    return epcData.groups.filter(g => 
+      g.name.toLowerCase().includes(query) ||
+      g.id.toLowerCase().includes(query)
+    )
+  }, [epcData, searchQuery])
+  
+  const handleGroupClick = (groupId) => {
+    navigate(`/epc/${groupId}`)
+    if (showMobileMenu && onClose) {
+      onClose()
+    }
+  }
+  
+  if (!epcData) {
+    return (
+      <div className="epc-sidebar-nav">
+        <div className="epc-sidebar-loading">
+          <p>Parts catalog not available</p>
+          <p className="epc-sidebar-hint">Run the scraper to download parts data.</p>
+        </div>
+      </div>
+    )
+  }
+  
+  return (
+    <div className="epc-sidebar-nav">
+      <div className="epc-sidebar-search">
+        <input
+          type="text"
+          placeholder="Search groups..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+        />
+      </div>
+      <ul className="epc-sidebar-groups">
+        {filteredGroups.map(group => (
+          <li key={group.id} className="epc-sidebar-group">
+            <button
+              className={`epc-sidebar-group-btn ${currentGroupId === group.id ? 'active' : ''}`}
+              onClick={() => handleGroupClick(group.id)}
+            >
+              <span className="epc-sidebar-group-icon">{EPC_GROUP_ICONS[group.id] || '📦'}</span>
+              <span className="epc-sidebar-group-letter">{group.id}</span>
+              <span className="epc-sidebar-group-name">{group.name}</span>
+            </button>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
 }
 
 // Mixed column component - renders group folders as labels AND other folders as clickable items
@@ -1139,7 +1225,50 @@ function Sidebar({ sections, tree, tocIdToSlug, isColumnLayout, isMobile, isTabl
   const [searchQuery, setSearchQuery] = useState('')
   const { id: activeDocId } = useParams()
   const navigate = useNavigate()
+  const location = useLocation()
   const initialExpandRef = useRef(true)
+  
+  // Sidebar mode: 'manual' or 'epc'
+  const [sidebarMode, setSidebarMode] = useState(() => {
+    // Auto-detect from URL
+    if (location.pathname.startsWith('/epc')) {
+      return 'epc'
+    }
+    // Try to restore from localStorage
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.SIDEBAR_MODE)
+      if (saved === 'epc' || saved === 'manual') {
+        return saved
+      }
+    } catch (e) {}
+    return 'manual'
+  })
+  
+  // Update mode when URL changes
+  useEffect(() => {
+    if (location.pathname.startsWith('/epc')) {
+      setSidebarMode('epc')
+    } else if (location.pathname.startsWith('/doc') || location.pathname === '/') {
+      setSidebarMode('manual')
+    }
+  }, [location.pathname])
+  
+  // Persist mode to localStorage
+  useEffect(() => {
+    try {
+      localStorage.setItem(STORAGE_KEYS.SIDEBAR_MODE, sidebarMode)
+    } catch (e) {}
+  }, [sidebarMode])
+  
+  // Handle mode change
+  const handleModeChange = useCallback((mode) => {
+    setSidebarMode(mode)
+    if (mode === 'epc' && !location.pathname.startsWith('/epc')) {
+      navigate('/epc')
+    } else if (mode === 'manual' && location.pathname.startsWith('/epc')) {
+      navigate('/')
+    }
+  }, [navigate, location.pathname])
 
   // Build reverse mapping: slug -> tocId for finding active document in tree
   const slugToTocId = useMemo(() => {
@@ -1329,37 +1458,62 @@ function Sidebar({ sections, tree, tocIdToSlug, isColumnLayout, isMobile, isTabl
           <span className="mobile-menu-title">Menu</span>
         </div>
       )}
-      <SearchBar value={searchQuery} onChange={setSearchQuery} />
-      <nav className="sidebar-nav">
-        {isColumnLayout && hasTree ? (
-          <ColumnNav
-            roots={filteredRoots}
-            nodes={tree.nodes}
-            tocIdToSlug={tocIdToSlug}
-            searchQuery={searchQuery}
-            maxVisibleColumns={maxVisibleColumns}
-            onDocumentSelect={showMobileMenu ? handleMobileNavigate : null}
-            externalNavPath={externalNavPath}
-            onExternalNavComplete={onExternalNavComplete}
-          />
-        ) : hasTree ? (
-          <ul className="tree-root">
-            {filteredRoots.map(rootId => (
-              <TreeNode
-                key={rootId}
-                nodeId={rootId}
+      
+      {/* Mode Toggle */}
+      <div className="sidebar-mode-toggle">
+        <button
+          className={`sidebar-mode-btn ${sidebarMode === 'manual' ? 'active' : ''}`}
+          onClick={() => handleModeChange('manual')}
+        >
+          <span className="sidebar-mode-icon">📖</span>
+          Manual
+        </button>
+        <button
+          className={`sidebar-mode-btn ${sidebarMode === 'epc' ? 'active' : ''}`}
+          onClick={() => handleModeChange('epc')}
+        >
+          <span className="sidebar-mode-icon">🔧</span>
+          Parts
+        </button>
+      </div>
+      
+      {sidebarMode === 'epc' ? (
+        <EPCSidebarNav onClose={onClose} showMobileMenu={showMobileMenu} />
+      ) : (
+        <>
+          <SearchBar value={searchQuery} onChange={setSearchQuery} />
+          <nav className="sidebar-nav">
+            {isColumnLayout && hasTree ? (
+              <ColumnNav
+                roots={filteredRoots}
                 nodes={tree.nodes}
                 tocIdToSlug={tocIdToSlug}
-                expandedNodes={expandedNodes}
-                toggleNode={toggleNode}
                 searchQuery={searchQuery}
+                maxVisibleColumns={maxVisibleColumns}
+                onDocumentSelect={showMobileMenu ? handleMobileNavigate : null}
+                externalNavPath={externalNavPath}
+                onExternalNavComplete={onExternalNavComplete}
               />
-            ))}
-          </ul>
-        ) : (
-          <CategoryView sections={sections} searchQuery={searchQuery} />
-        )}
-      </nav>
+            ) : hasTree ? (
+              <ul className="tree-root">
+                {filteredRoots.map(rootId => (
+                  <TreeNode
+                    key={rootId}
+                    nodeId={rootId}
+                    nodes={tree.nodes}
+                    tocIdToSlug={tocIdToSlug}
+                    expandedNodes={expandedNodes}
+                    toggleNode={toggleNode}
+                    searchQuery={searchQuery}
+                  />
+                ))}
+              </ul>
+            ) : (
+              <CategoryView sections={sections} searchQuery={searchQuery} />
+            )}
+          </nav>
+        </>
+      )}
     </>
   )
 
