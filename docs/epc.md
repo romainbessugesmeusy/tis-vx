@@ -127,27 +127,54 @@ node scrape-epc.js
 
 ### EPCBrowser (`viewer/src/components/EPCBrowser.jsx`)
 
-Main component for browsing the parts catalog.
+Main component for displaying parts when a section is selected. Navigation is handled by the Sidebar.
 
 **Features:**
-- **Groups Grid**: Visual grid of all groups (A-R) with icons
-- **Hierarchical Navigation**: Drill down through levels with breadcrumbs
+- **Home Page**: Global search across all parts with statistics
 - **Parts Table**: Sortable columns (click headers), filterable by search
 - **Diagram Viewer**: Modal popup showing diagram when clicking Ref number
-- **Global Search**: Search across all parts by description, part number, or catalog number
+- **Hotspot Integration**: Interactive hotspots on diagrams (hover to highlight parts)
+- **Breadcrumb**: Shows current location (Group → SubSection → Main)
 
 **Routes:**
-- `/epc` - Groups grid (home)
-- `/epc/:groupId` - Sub sections list
-- `/epc/:groupId/:subSectionId` - Main items list
-- `/epc/:groupId/:subSectionId/:mainId` - Parts table
+- `/epc` - Home page with global search
+- `/epc/:groupId/:subSectionId/:mainId` - Parts table for selected section
 
 ### Sidebar Integration
 
 The sidebar has a mode toggle between "Manual" and "Parts":
 - Stored in localStorage (`tis-sidebar-mode`)
 - Auto-detects mode from URL (paths starting with `/epc` = parts mode)
-- Parts mode shows a simplified group navigation in the sidebar
+- **Parts mode uses the same tree/column navigation as Manual mode**
+
+#### EPC Tree Structure
+
+The EPC data is transformed into a tree structure compatible with the sidebar's navigation components:
+
+```
+Groups (A-R)           → Root nodes with emoji icons
+├── SubSections        → Folder nodes (expandable)
+│   └── Main Items     → Leaf nodes (link to parts view)
+```
+
+**Helper function:** `buildEpcTree(epcData)` in `Sidebar.jsx` converts the EPC JSON into:
+- `roots`: Array of group node IDs (`epc-A`, `epc-B`, etc.)
+- `nodes`: Object mapping node IDs to node data
+- `epcIdToSlug`: Maps node IDs to URL paths
+
+#### EPC-Specific Components
+
+| Component | Description |
+|-----------|-------------|
+| `EPCTreeNode` | Tree view renderer with parts count badges |
+| `EPCColumnNav` | Column navigation for EPC (Finder-style) |
+
+#### State Persistence
+
+| Key | Purpose |
+|-----|---------|
+| `tis-epc-column-path` | Selected path in column view |
+| `tis-epc-expanded-nodes` | Expanded nodes in tree view |
 
 ### Group Icons
 ```javascript
@@ -181,11 +208,12 @@ EPC-specific styles are in `viewer/src/App.css` under the section:
 ```
 
 Key CSS classes:
-- `.epc-groups-grid` - Groups home page grid
-- `.epc-group-card` - Individual group card
-- `.epc-list` / `.epc-list-item` - Sub section and main item lists
+- `.epc-home` - Home page layout
 - `.epc-parts-table` - Parts table with sortable headers
 - `.epc-diagram-modal` - Diagram viewer modal
+- `.epc-hotspot` / `.epc-hotspots-container` - Diagram hotspots
+- `.epc-tree-*` - Tree navigation styles
+- `.epc-column-*` - Column navigation styles
 - `.sidebar-mode-toggle` - Manual/Parts mode toggle
 
 ## Statistics (as of last scrape)
@@ -196,11 +224,68 @@ Key CSS classes:
 - **3018 Parts**
 - **332 Diagrams**
 
+## Diagram Hotspots
+
+Part numbers are extracted from diagram images using OCR and stored as interactive hotspots.
+
+### Extraction Script (`extract-diagram-hotspots.js`)
+
+```bash
+# Extract hotspots from all diagrams
+node extract-diagram-hotspots.js
+
+# Extract specific diagrams
+node extract-diagram-hotspots.js 52d610c5d4d2.png 78b6e087ae17.png
+```
+
+### Output
+- `viewer/public/data/epc/hotspots/*.json` - Individual hotspot files per diagram
+- `viewer/public/data/epc/hotspots/_index.json` - Summary index
+
+### Hotspot JSON Structure
+```json
+{
+  "diagramId": "52d610c5d4d2",
+  "imageWidth": 1240,
+  "imageHeight": 1761,
+  "sheetCode": {
+    "text": "C1",
+    "bbox": { "x": 151, "y": 1616, "width": 44, "height": 33 },
+    "confidence": 91
+  },
+  "hotspots": [
+    {
+      "ref": 2,
+      "bbox": { "x": 805, "y": 469, "width": 13, "height": 18 },
+      "normalized": { "x": 0.649, "y": 0.266, "width": 0.010, "height": 0.010 },
+      "confidence": 96
+    }
+  ],
+  "extractedAt": "2026-02-02T..."
+}
+```
+
+### Visual Hotspot Editor
+
+A browser-based editor is available at `/hotspot-editor.html` to:
+- View detected hotspots overlaid on diagrams
+- Add missing hotspots by clicking on the image
+- Delete incorrect hotspots
+- Export corrected JSON for manual placement
+
+### Viewer Integration
+
+In the EPC Browser:
+- **Hover table row** → Highlights corresponding hotspot(s) on the diagram
+- **Hover hotspot** → Highlights corresponding table row(s)
+- Sheet code is displayed below the diagram
+
 ## Future Improvements
 
 Potential enhancements:
 1. Part number cross-reference with service manual procedures
 2. Search by diagram callout number
 3. Export parts list to CSV
-4. Highlight part location on diagram when hovering table row
+4. ~~Highlight part location on diagram when hovering table row~~ ✅ Implemented
 5. Price lookup integration (if API available)
+6. AI-powered hotspot extraction for better accuracy

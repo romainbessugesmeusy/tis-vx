@@ -85,83 +85,448 @@ const STORAGE_KEYS = {
   SIDEBAR_MODE: 'tis-sidebar-mode'
 }
 
-// EPC Sidebar Navigation Component
-function EPCSidebarNav({ onClose, showMobileMenu }) {
+// Build EPC tree structure from parts.json data
+// Converts the EPC hierarchy (Groups → SubSections → Main) into a tree format
+// compatible with ColumnNav and TreeNode components
+function buildEpcTree(epcData) {
+  if (!epcData || !epcData.groups) return null
+  
+  const nodes = {}
+  const roots = []
+  const epcIdToSlug = {} // Maps node IDs to URL slugs for navigation
+  
+  epcData.groups.forEach(group => {
+    // Add group as root node
+    const groupId = `epc-${group.id}`
+    roots.push(groupId)
+    
+    const subSectionIds = group.subSections.map(sub => `epc-${sub.id}`)
+    
+    nodes[groupId] = {
+      id: groupId,
+      title: `${EPC_GROUP_ICONS[group.id] || '📦'} ${group.id} - ${group.name}`,
+      isLeaf: false,
+      children: subSectionIds,
+      parentId: null,
+      epcGroupId: group.id,
+      partsCount: group.subSections.reduce((acc, s) => 
+        acc + s.main.reduce((a, m) => a + m.parts.length, 0), 0
+      )
+    }
+    
+    // Add subsections as children of group
+    group.subSections.forEach(subSection => {
+      const subSectionId = `epc-${subSection.id}`
+      const mainIds = subSection.main.map(main => `epc-${main.id}`)
+      
+      nodes[subSectionId] = {
+        id: subSectionId,
+        title: subSection.name,
+        isLeaf: false,
+        children: mainIds,
+        parentId: groupId,
+        epcGroupId: group.id,
+        epcSubSectionId: subSection.id,
+        partsCount: subSection.main.reduce((a, m) => a + m.parts.length, 0)
+      }
+      
+      // Add main items as leaf nodes (they link to parts view)
+      subSection.main.forEach(main => {
+        const mainId = `epc-${main.id}`
+        
+        nodes[mainId] = {
+          id: mainId,
+          title: main.name,
+          isLeaf: true,
+          children: null,
+          parentId: subSectionId,
+          epcGroupId: group.id,
+          epcSubSectionId: subSection.id,
+          epcMainId: main.id,
+          partsCount: main.parts.length
+        }
+        
+        // Build URL slug for this leaf node
+        epcIdToSlug[mainId] = `epc/${group.id}/${subSection.id}/${main.id}`
+      })
+    })
+  })
+  
+  return { roots, nodes, epcIdToSlug }
+}
+
+// EPC Tree Node - handles special rendering for EPC items (with parts count)
+function EPCTreeNode({ nodeId, nodes, epcIdToSlug, expandedNodes, toggleNode, searchQuery, onDocumentSelect }) {
+  const node = nodes[nodeId]
+  if (!node) return null
+
+  const isExpanded = expandedNodes.has(nodeId)
+  const hasChildren = node.children && node.children.length > 0
+
+  // For leaf nodes (main items), render as link
+  if (node.isLeaf) {
+    const slug = epcIdToSlug[nodeId]
+    if (!slug) return null
+
+    // Filter by search query
+    if (searchQuery) {
+      const query = searchQuery.toLowerCase()
+      const matchesSearch = node.title.toLowerCase().includes(query)
+      if (!matchesSearch) return null
+    }
+
+    return (
+      <li className="tree-leaf epc-tree-leaf">
+        {onDocumentSelect ? (
+          <button
+            type="button"
+            className="nav-link document-leaf epc-nav-link"
+            onClick={() => onDocumentSelect(slug)}
+          >
+            <span className="epc-tree-title">{node.title}</span>
+            <span className="epc-tree-count">{node.partsCount}</span>
+          </button>
+        ) : (
+          <NavLink
+            to={`/${slug}`}
+            className={({ isActive }) => `nav-link document-leaf epc-nav-link ${isActive ? 'active' : ''}`}
+          >
+            <span className="epc-tree-title">{node.title}</span>
+            <span className="epc-tree-count">{node.partsCount}</span>
+          </NavLink>
+        )}
+      </li>
+    )
+  }
+
+  // Check if any descendants match the search
+  const hasVisibleDescendants = useMemo(() => {
+    if (!searchQuery) return hasChildren
+    
+    const checkDescendants = (childIds) => {
+      for (const childId of childIds) {
+        const child = nodes[childId]
+        if (!child) continue
+        
+        if (child.isLeaf) {
+          if (child.title.toLowerCase().includes(searchQuery.toLowerCase())) {
+            return true
+          }
+        } else if (child.children && child.children.length > 0) {
+          if (checkDescendants(child.children)) return true
+        }
+      }
+      return false
+    }
+    
+    return checkDescendants(node.children || [])
+  }, [node.children, nodes, searchQuery, hasChildren])
+
+  // Hide empty folders when searching
+  if (searchQuery && !hasVisibleDescendants) return null
+
+  // Check if this is a group node (first level)
+  const isGroupNode = node.parentId === null
+
+  return (
+    <li className={`tree-folder ${isGroupNode ? 'epc-tree-group' : 'epc-tree-subsection'}`}>
+      <button 
+        className={`folder-toggle ${isExpanded ? 'expanded' : ''}`}
+        onClick={() => toggleNode(nodeId)}
+        type="button"
+      >
+        <span className="folder-icon">{isExpanded ? '▼' : '▶'}</span>
+        <span className="folder-title">{node.title}</span>
+        {isGroupNode && <span className="epc-folder-count">{node.partsCount} parts</span>}
+      </button>
+      {isExpanded && hasChildren && (
+        <ul className="tree-children">
+          {node.children.map(childId => (
+            <EPCTreeNode
+              key={childId}
+              nodeId={childId}
+              nodes={nodes}
+              epcIdToSlug={epcIdToSlug}
+              expandedNodes={expandedNodes}
+              toggleNode={toggleNode}
+              searchQuery={searchQuery}
+              onDocumentSelect={onDocumentSelect}
+            />
+          ))}
+        </ul>
+      )}
+    </li>
+  )
+}
+
+// EPC Column Navigation - uses same column layout but with EPC-specific rendering
+function EPCColumnNav({ roots, nodes, epcIdToSlug, searchQuery, maxVisibleColumns = Infinity, onDocumentSelect }) {
   const navigate = useNavigate()
   const location = useLocation()
-  const [epcData, setEpcData] = useState(null)
-  const [searchQuery, setSearchQuery] = useState('')
+  const containerRef = useRef(null)
+  const initialLoadRef = useRef(true)
   
-  // Load EPC data
-  useEffect(() => {
-    fetch('/data/epc/parts.json')
-      .then(res => res.ok ? res.json() : null)
-      .then(data => setEpcData(data))
-      .catch(() => setEpcData(null))
-  }, [])
-  
-  // Get current group from URL
-  const currentGroupId = useMemo(() => {
-    const match = location.pathname.match(/^\/epc\/([A-R])/)
-    return match ? match[1] : null
+  const isMobileColumnMode = maxVisibleColumns < Infinity
+
+  // Get active main item from URL
+  const activeMainId = useMemo(() => {
+    const match = location.pathname.match(/^\/epc\/([A-R])\/([A-R]\d+)\/([A-R]\d+-\d+)$/)
+    if (match) {
+      return `epc-${match[3]}`
+    }
+    return null
   }, [location.pathname])
-  
-  // Filter groups by search
-  const filteredGroups = useMemo(() => {
-    if (!epcData?.groups) return []
-    if (!searchQuery.trim()) return epcData.groups
+
+  // Helper function to build path from a node to root
+  const buildPathToNode = useCallback((nodeId) => {
+    if (!nodeId || !nodes[nodeId]) return []
     
-    const query = searchQuery.toLowerCase()
-    return epcData.groups.filter(g => 
-      g.name.toLowerCase().includes(query) ||
-      g.id.toLowerCase().includes(query)
-    )
-  }, [epcData, searchQuery])
-  
-  const handleGroupClick = (groupId) => {
-    navigate(`/epc/${groupId}`)
-    if (showMobileMenu && onClose) {
-      onClose()
+    const path = []
+    const findPath = (id) => {
+      const node = nodes[id]
+      if (node && node.parentId) {
+        findPath(node.parentId)
+      }
+      path.push(id)
+    }
+    findPath(nodeId)
+    
+    // Remove the leaf node from path (we only select folders)
+    const node = nodes[nodeId]
+    if (node && node.isLeaf && path.length > 0) {
+      path.pop()
+    }
+    
+    return path
+  }, [nodes])
+
+  // Initialize selectedPath from URL or localStorage
+  const [selectedPath, setSelectedPath] = useState(() => {
+    if (activeMainId) {
+      const path = buildPathToNode(activeMainId)
+      if (path.length > 0) return path
+    }
+    
+    try {
+      const saved = localStorage.getItem('tis-epc-column-path')
+      if (saved) {
+        const parsed = JSON.parse(saved)
+        if (Array.isArray(parsed) && parsed.every(id => nodes[id])) {
+          return parsed
+        }
+      }
+    } catch (e) {}
+    
+    return []
+  })
+
+  const [visibleColumnStart, setVisibleColumnStart] = useState(0)
+
+  // Persist selectedPath to localStorage
+  useEffect(() => {
+    if (initialLoadRef.current) {
+      initialLoadRef.current = false
+      return
+    }
+    try {
+      localStorage.setItem('tis-epc-column-path', JSON.stringify(selectedPath))
+    } catch (e) {}
+  }, [selectedPath])
+
+  // Update path when URL changes
+  useEffect(() => {
+    if (!activeMainId) return
+    const newPath = buildPathToNode(activeMainId)
+    
+    if (newPath.length > 0) {
+      const pathChanged = newPath.length !== selectedPath.length || 
+        newPath.some((id, i) => selectedPath[i] !== id)
+      
+      if (pathChanged) {
+        setSelectedPath(newPath)
+        if (isMobileColumnMode && newPath.length >= maxVisibleColumns) {
+          setVisibleColumnStart(Math.max(0, newPath.length - maxVisibleColumns + 1))
+        }
+      }
+    }
+  }, [activeMainId, buildPathToNode, selectedPath, isMobileColumnMode, maxVisibleColumns])
+
+  // Handle clicking on an item
+  const handleItemClick = (nodeId, columnIndex) => {
+    const node = nodes[nodeId]
+    if (!node) return
+
+    if (node.isLeaf) {
+      const slug = epcIdToSlug[nodeId]
+      if (slug) {
+        if (onDocumentSelect) {
+          onDocumentSelect(slug)
+        } else {
+          navigate(`/${slug}`)
+        }
+      }
+    } else {
+      setSelectedPath(prev => {
+        const newPath = prev.slice(0, columnIndex)
+        newPath.push(nodeId)
+        return newPath
+      })
+      
+      if (isMobileColumnMode) {
+        const newColumnCount = columnIndex + 2
+        if (newColumnCount > maxVisibleColumns) {
+          setVisibleColumnStart(newColumnCount - maxVisibleColumns)
+        }
+      }
     }
   }
   
-  if (!epcData) {
-    return (
-      <div className="epc-sidebar-nav">
-        <div className="epc-sidebar-loading">
-          <p>Parts catalog not available</p>
-          <p className="epc-sidebar-hint">Run the scraper to download parts data.</p>
-        </div>
-      </div>
-    )
+  const handleMobileBack = useCallback(() => {
+    if (visibleColumnStart > 0) {
+      setVisibleColumnStart(prev => prev - 1)
+      setSelectedPath(prev => prev.slice(0, -1))
+    }
+  }, [visibleColumnStart])
+
+  // Build columns based on selected path
+  const columns = useMemo(() => {
+    const cols = []
+    
+    // First column: root items (groups)
+    cols.push({
+      items: roots.map(id => ({ id, node: nodes[id] })).filter(item => item.node),
+      selectedId: selectedPath[0] || null
+    })
+
+    // Subsequent columns: children of selected items
+    for (let i = 0; i < selectedPath.length; i++) {
+      const selectedId = selectedPath[i]
+      const selectedNode = nodes[selectedId]
+      
+      if (selectedNode && selectedNode.children && selectedNode.children.length > 0) {
+        cols.push({
+          items: selectedNode.children.map(id => ({ id, node: nodes[id] })).filter(item => item.node),
+          selectedId: selectedPath[i + 1] || null
+        })
+      }
+    }
+
+    return cols
+  }, [roots, nodes, selectedPath])
+
+  // Auto-scroll to show new columns
+  useEffect(() => {
+    if (containerRef.current && columns.length > 1) {
+      const scrollableParent = containerRef.current.closest('.sidebar-nav')
+      if (scrollableParent) {
+        requestAnimationFrame(() => {
+          scrollableParent.scrollTo({
+            left: scrollableParent.scrollWidth,
+            behavior: 'smooth'
+          })
+        })
+      }
+    }
+  }, [columns.length])
+
+  // Filter items by search query
+  const filterItems = (items) => {
+    if (!searchQuery) return items
+    const query = searchQuery.toLowerCase()
+    return items.filter(({ node }) => {
+      if (node.title.toLowerCase().includes(query)) return true
+      if (!node.isLeaf && node.children) {
+        return hasMatchingDescendant(node.children, query, nodes)
+      }
+      return false
+    })
   }
+
+  const visibleColumns = isMobileColumnMode
+    ? columns.slice(visibleColumnStart, visibleColumnStart + maxVisibleColumns)
+    : columns
   
+  const getActualColumnIndex = (visibleIndex) => {
+    return isMobileColumnMode ? visibleIndex + visibleColumnStart : visibleIndex
+  }
+
   return (
-    <div className="epc-sidebar-nav">
-      <div className="epc-sidebar-search">
-        <input
-          type="text"
-          placeholder="Search groups..."
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-        />
-      </div>
-      <ul className="epc-sidebar-groups">
-        {filteredGroups.map(group => (
-          <li key={group.id} className="epc-sidebar-group">
-            <button
-              className={`epc-sidebar-group-btn ${currentGroupId === group.id ? 'active' : ''}`}
-              onClick={() => handleGroupClick(group.id)}
-            >
-              <span className="epc-sidebar-group-icon">{EPC_GROUP_ICONS[group.id] || '📦'}</span>
-              <span className="epc-sidebar-group-letter">{group.id}</span>
-              <span className="epc-sidebar-group-name">{group.name}</span>
-            </button>
-          </li>
-        ))}
-      </ul>
+    <div className={`column-nav epc-column-nav ${isMobileColumnMode ? 'mobile-column-nav' : ''}`} ref={containerRef}>
+      {isMobileColumnMode && visibleColumnStart > 0 && (
+        <button type="button" className="mobile-back-button" onClick={handleMobileBack}>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <polyline points="15 18 9 12 15 6" />
+          </svg>
+          <span>Back</span>
+        </button>
+      )}
+      
+      {visibleColumns.map((col, visibleIndex) => {
+        const colIndex = getActualColumnIndex(visibleIndex)
+        const isFirstColumn = colIndex === 0
+        
+        return (
+          <div key={colIndex} className={`column-nav-column ${isFirstColumn ? 'epc-groups-column' : ''}`}>
+            <ul className="column-nav-list">
+              {filterItems(col.items).map(({ id, node }) => {
+                const isSelected = col.selectedId === id
+                const isLeaf = node.isLeaf
+                const isActive = isLeaf && id === activeMainId
+
+                return (
+                  <li key={id} className="column-nav-item">
+                    {isLeaf ? (
+                      onDocumentSelect ? (
+                        <button
+                          type="button"
+                          className={`column-nav-link epc-column-link ${isActive ? 'active' : ''}`}
+                          onClick={() => handleItemClick(id, colIndex)}
+                        >
+                          <span className="column-nav-title">{node.title}</span>
+                          <span className="epc-column-count">{node.partsCount}</span>
+                        </button>
+                      ) : (
+                        <NavLink
+                          to={`/${epcIdToSlug[id]}`}
+                          className={`column-nav-link epc-column-link ${isActive ? 'active' : ''}`}
+                        >
+                          <span className="column-nav-title">{node.title}</span>
+                          <span className="epc-column-count">{node.partsCount}</span>
+                        </NavLink>
+                      )
+                    ) : (
+                      <button
+                        type="button"
+                        className={`column-nav-link epc-column-link ${isSelected ? 'selected' : ''}`}
+                        onClick={() => handleItemClick(id, colIndex)}
+                      >
+                        <span className="column-nav-title">{node.title}</span>
+                        {isFirstColumn && <span className="epc-column-count">{node.partsCount}</span>}
+                        <span className="column-nav-arrow">›</span>
+                      </button>
+                    )}
+                  </li>
+                )
+              })}
+            </ul>
+          </div>
+        )
+      })}
     </div>
   )
+}
+
+// Helper for search filtering
+function hasMatchingDescendant(childIds, query, nodes) {
+  for (const childId of childIds) {
+    const child = nodes[childId]
+    if (!child) continue
+    if (child.title.toLowerCase().includes(query)) return true
+    if (!child.isLeaf && child.children) {
+      if (hasMatchingDescendant(child.children, query, nodes)) return true
+    }
+  }
+  return false
 }
 
 // Mixed column component - renders group folders as labels AND other folders as clickable items
@@ -1225,10 +1590,58 @@ const isValidRootFolder = (node) => {
 
 function Sidebar({ sections, tree, tocIdToSlug, isColumnLayout, isMobile, isTablet, isOpen, onClose, externalNavPath, onExternalNavComplete }) {
   const [searchQuery, setSearchQuery] = useState('')
+  const [epcSearchQuery, setEpcSearchQuery] = useState('')
   const { id: activeDocId } = useParams()
   const navigate = useNavigate()
   const location = useLocation()
   const initialExpandRef = useRef(true)
+  
+  // EPC data and tree
+  const [epcData, setEpcData] = useState(null)
+  const [epcTree, setEpcTree] = useState(null)
+  
+  // Load EPC data
+  useEffect(() => {
+    fetch('/data/epc/parts.json')
+      .then(res => res.ok ? res.json() : null)
+      .then(data => {
+        if (data) {
+          setEpcData(data)
+          setEpcTree(buildEpcTree(data))
+        }
+      })
+      .catch(() => setEpcData(null))
+  }, [])
+  
+  // EPC expanded nodes for tree view
+  const [epcExpandedNodes, setEpcExpandedNodes] = useState(() => {
+    try {
+      const saved = localStorage.getItem('tis-epc-expanded-nodes')
+      if (saved) {
+        return new Set(JSON.parse(saved))
+      }
+    } catch (e) {}
+    return new Set()
+  })
+  
+  // Persist EPC expanded nodes
+  useEffect(() => {
+    try {
+      localStorage.setItem('tis-epc-expanded-nodes', JSON.stringify([...epcExpandedNodes]))
+    } catch (e) {}
+  }, [epcExpandedNodes])
+  
+  const toggleEpcNode = useCallback((nodeId) => {
+    setEpcExpandedNodes(prev => {
+      const next = new Set(prev)
+      if (next.has(nodeId)) {
+        next.delete(nodeId)
+      } else {
+        next.add(nodeId)
+      }
+      return next
+    })
+  }, [])
   
   // Sidebar mode: 'manual' or 'epc'
   const [sidebarMode, setSidebarMode] = useState(() => {
@@ -1346,6 +1759,16 @@ function Sidebar({ sections, tree, tocIdToSlug, isColumnLayout, isMobile, isTabl
     if (showMobileMenu && onClose) {
       navigate(`/doc/${slug}`)
       onClose()
+    }
+  }, [showMobileMenu, onClose, navigate])
+  
+  // Handle EPC navigation on mobile (auto-close menu)
+  const handleEpcNavigate = useCallback((slug) => {
+    if (showMobileMenu && onClose) {
+      navigate(`/${slug}`)
+      onClose()
+    } else {
+      navigate(`/${slug}`)
     }
   }, [showMobileMenu, onClose, navigate])
 
@@ -1480,7 +1903,41 @@ function Sidebar({ sections, tree, tocIdToSlug, isColumnLayout, isMobile, isTabl
       </div>
       
       {sidebarMode === 'epc' ? (
-        <EPCSidebarNav onClose={onClose} showMobileMenu={showMobileMenu} />
+        <>
+          <SearchBar value={epcSearchQuery} onChange={setEpcSearchQuery} placeholder="Search parts..." />
+          <nav className="sidebar-nav">
+            {!epcTree ? (
+              <div className="epc-sidebar-loading">
+                <p>Parts catalog not available</p>
+                <p className="epc-sidebar-hint">Run the scraper to download parts data.</p>
+              </div>
+            ) : isColumnLayout ? (
+              <EPCColumnNav
+                roots={epcTree.roots}
+                nodes={epcTree.nodes}
+                epcIdToSlug={epcTree.epcIdToSlug}
+                searchQuery={epcSearchQuery}
+                maxVisibleColumns={maxVisibleColumns}
+                onDocumentSelect={showMobileMenu ? handleEpcNavigate : null}
+              />
+            ) : (
+              <ul className="tree-root epc-tree-root">
+                {epcTree.roots.map(rootId => (
+                  <EPCTreeNode
+                    key={rootId}
+                    nodeId={rootId}
+                    nodes={epcTree.nodes}
+                    epcIdToSlug={epcTree.epcIdToSlug}
+                    expandedNodes={epcExpandedNodes}
+                    toggleNode={toggleEpcNode}
+                    searchQuery={epcSearchQuery}
+                    onDocumentSelect={showMobileMenu ? handleEpcNavigate : null}
+                  />
+                ))}
+              </ul>
+            )}
+          </nav>
+        </>
       ) : (
         <>
           <SearchBar value={searchQuery} onChange={setSearchQuery} />

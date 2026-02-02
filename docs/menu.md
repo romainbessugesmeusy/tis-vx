@@ -380,12 +380,92 @@ Using `overflow: hidden` on `.column-group` ensures the border-radius is respect
 - Icons help users quickly distinguish between navigable folders and clickable documents
 - Opacity (0.7 for folders, 0.6 for documents) keeps icons subtle without being invisible
 
+## EPC (Parts Catalog) Navigation
+
+The sidebar supports EPC navigation using the same tree/column components as the manual navigation. This provides a consistent UX across both modes.
+
+### Mode Toggle
+
+A mode toggle button switches between "Manual" and "Parts":
+- Stored in localStorage (`tis-sidebar-mode`)
+- Auto-detects from URL (paths starting with `/epc` = parts mode)
+- Clicking the toggle navigates to the appropriate section
+
+### EPC Tree Structure
+
+The `buildEpcTree()` function converts EPC JSON data into a tree structure:
+
+```javascript
+// Input: EPC data with groups → subSections → main
+// Output: { roots, nodes, epcIdToSlug }
+
+const epcTree = buildEpcTree(epcData)
+// roots: ['epc-A', 'epc-B', ...] 
+// nodes: { 'epc-A': { title, children, partsCount, ... }, ... }
+// epcIdToSlug: { 'epc-A1-1': 'epc/A/A1/A1-1', ... }
+```
+
+### EPC-Specific Components
+
+| Component | Purpose |
+|-----------|---------|
+| `EPCTreeNode` | Renders EPC nodes in tree view with parts count badges |
+| `EPCColumnNav` | Column navigation for EPC with parts count display |
+
+### Node Structure
+
+Each EPC node includes:
+```javascript
+{
+  id: 'epc-A1',
+  title: 'Partial body',
+  isLeaf: false,
+  children: ['epc-A1-1', 'epc-A1-2'],
+  parentId: 'epc-A',
+  epcGroupId: 'A',
+  epcSubSectionId: 'A1',
+  partsCount: 42
+}
+```
+
+### Parts Count Display
+
+- Tree view: Count badge after title (e.g., "Bonnet hinge 12")
+- Column view: Count pill on the right side of each item
+- Active/selected items highlight the count badge
+
+### State Persistence
+
+| Key | Purpose |
+|-----|---------|
+| `tis-epc-column-path` | Selected path in EPC column view |
+| `tis-epc-expanded-nodes` | Expanded nodes in EPC tree view |
+
+### CSS Classes
+
+```css
+/* EPC Tree */
+.epc-tree-root        /* Root ul for EPC tree */
+.epc-tree-group       /* Group-level folder */
+.epc-tree-subsection  /* SubSection-level folder */
+.epc-tree-leaf        /* Main item (leaf) */
+.epc-tree-title       /* Title text (flex: 1) */
+.epc-tree-count       /* Parts count badge */
+.epc-folder-count     /* Count for folder nodes */
+
+/* EPC Columns */
+.epc-column-nav       /* Column container */
+.epc-groups-column    /* First column (groups) */
+.epc-column-link      /* Item link/button */
+.epc-column-count     /* Parts count pill */
+```
+
 ## Future Considerations
 
 - Keyboard navigation (arrow keys to move between columns/items)
 - Remembering scroll position when returning to a previously viewed section
 - Column width could be configurable or adaptive based on content
-- Persist collapsed group state in localStorage
+- ~~Persist collapsed group state in localStorage~~ ✅ Implemented
 - Search highlighting within groups
 - Pull-down to refresh on mobile
 - Landscape mode optimization for tablets

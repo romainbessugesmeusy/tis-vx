@@ -275,8 +275,6 @@ function App() {
             <Route path="/doc/:id" element={<ContentViewer manifest={manifest} onNavigateToComponent={handleNavigateToComponent} />} />
             <Route path="/ref/:type" element={<ReferenceIndex />} />
             <Route path="/epc" element={<EPCBrowser />} />
-            <Route path="/epc/:groupId" element={<EPCBrowser />} />
-            <Route path="/epc/:groupId/:subSectionId" element={<EPCBrowser />} />
             <Route path="/epc/:groupId/:subSectionId/:mainId" element={<EPCBrowser />} />
           </Routes>
         </main>

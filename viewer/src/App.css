@@ -3559,12 +3559,81 @@ main.content:has(.content-welcome) .content-welcome {
   overflow: auto;
   padding: 20px;
   background: #f5f5f5;
+  position: relative;
 }
 
 .epc-diagram-image {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+/* Hotspots Container */
+.epc-hotspots-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  pointer-events: none;
+}
+
+/* Individual Hotspot */
+.epc-hotspot {
+  position: absolute;
+  border: 2px solid rgba(59, 130, 246, 0.6);
+  background: rgba(59, 130, 246, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  pointer-events: auto;
+  transition: all 0.15s ease;
+}
+
+.epc-hotspot:hover,
+.epc-hotspot.highlighted {
+  border-color: #ef4444;
+  background: rgba(239, 68, 68, 0.3);
+  transform: scale(1.15);
+  z-index: 10;
+}
+
+.epc-hotspot-label {
+  position: absolute;
+  top: -22px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #3b82f6;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.epc-hotspot:hover .epc-hotspot-label,
+.epc-hotspot.highlighted .epc-hotspot-label {
+  opacity: 1;
+  background: #ef4444;
+}
+
+/* Diagram Sheet Code Badge */
+.epc-diagram-sheet-code {
+  padding: 8px 16px;
+  background: #f0f0f0;
+  border-top: 1px solid var(--border);
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+/* Highlighted Table Row */
+.epc-parts-table tbody tr.highlighted {
+  background: rgba(239, 68, 68, 0.15) !important;
+}
+
+.epc-parts-table tbody tr.highlighted td {
+  color: #dc2626;
 }
 
 /* Sidebar Mode Toggle */
@@ -3704,6 +3773,153 @@ main.content:has(.content-welcome) .content-welcome {
 .epc-sidebar-hint {
   font-size: 0.75rem;
   opacity: 0.7;
+}
+
+/* EPC Tree Navigation Styles */
+.epc-tree-root {
+  padding: 8px 0;
+}
+
+.epc-tree-group > .folder-toggle {
+  font-size: 0.9rem;
+}
+
+.epc-tree-group > .folder-toggle .folder-title {
+  color: var(--text-light);
+}
+
+.epc-folder-count {
+  margin-left: auto;
+  padding: 2px 8px;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+}
+
+.epc-tree-leaf .nav-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.epc-tree-title {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.epc-tree-count {
+  flex-shrink: 0;
+  padding: 2px 8px;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+}
+
+.epc-nav-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.epc-nav-link.active .epc-tree-count {
+  background: rgba(59, 130, 246, 0.2);
+  color: var(--accent);
+}
+
+/* EPC Column Navigation Styles */
+.epc-column-nav .column-nav-column {
+  min-width: 220px;
+}
+
+.epc-groups-column .column-nav-link {
+  font-size: 0.85rem;
+}
+
+.epc-column-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.epc-column-link .column-nav-title {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.epc-column-count {
+  flex-shrink: 0;
+  padding: 2px 8px;
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+}
+
+.epc-column-link.active .epc-column-count,
+.epc-column-link.selected .epc-column-count {
+  background: rgba(59, 130, 246, 0.2);
+  color: var(--accent);
+}
+
+.epc-column-link .column-nav-arrow {
+  margin-left: auto;
+}
+
+/* EPC Home Page */
+.epc-home {
+  padding: 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.epc-home .epc-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.epc-home .epc-header h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.epc-stats {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-top: 8px;
+}
+
+.epc-search-large {
+  max-width: 600px;
+  margin: 0 auto 32px;
+}
+
+.epc-search-large .epc-search-input {
+  padding: 16px 20px;
+  font-size: 1rem;
+}
+
+.epc-home-hint {
+  text-align: center;
+  color: var(--text-muted);
+  padding: 48px 24px;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 12px;
+  border: 1px dashed var(--border-dark);
+}
+
+.epc-home-hint p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.epc-breadcrumb-root {
+  font-weight: 500;
 }
 
 /* Responsive EPC */

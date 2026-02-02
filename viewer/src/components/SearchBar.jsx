@@ -1,9 +1,9 @@
-function SearchBar({ value, onChange }) {
+function SearchBar({ value, onChange, placeholder = "Search documents..." }) {
   return (
     <div className="search-bar">
       <input
         type="search"
-        placeholder="Search documents..."
+        placeholder={placeholder}
         value={value}
         onChange={(e) => onChange(e.target.value)}
         className="search-input"

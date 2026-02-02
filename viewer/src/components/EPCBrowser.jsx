@@ -1,41 +1,31 @@
-import { useState, useEffect, useMemo, useCallback } from 'react'
-import { useParams, useNavigate, Link } from 'react-router-dom'
+import { useState, useEffect, useMemo, useCallback, useRef } from 'react'
+import { useParams, Link } from 'react-router-dom'
 
 /**
  * EPC (Electronic Parts Catalog) Browser
- * Displays parts catalog with hierarchical navigation and diagram viewer
+ * Displays parts table when a main item is selected
+ * Navigation is handled by the Sidebar component
  */
 
 // Group icons mapping
 const GROUP_ICONS = {
-  A: '🚗', // Body shell and panels
-  B: '🔩', // Body exterior fittings
-  C: '🪟', // Body interior fittings
-  D: '💺', // Body interior trim
-  E: '⚙️', // Engine and clutch
-  F: '❄️', // Cooling
-  G: '⛽', // Fuel and exhaust
-  H: '🔧', // Transmission
-  J: '🛞', // Brakes
-  K: '🏎️', // Front axle and suspension
-  L: '🎯', // Steering
-  M: '🔄', // Rear axle and suspension
-  N: '⭕', // Road wheels
-  P: '⚡', // Electrical
-  Q: '📦', // Accessories
-  R: '🚙', // Special vehicle option specification
+  A: '🚗', B: '🔩', C: '🪟', D: '💺', E: '⚙️', F: '❄️', G: '⛽', H: '🔧',
+  J: '🛞', K: '🏎️', L: '🎯', M: '🔄', N: '⭕', P: '⚡', Q: '📦', R: '🚙',
 }
 
 function EPCBrowser() {
   const { groupId, subSectionId, mainId } = useParams()
-  const navigate = useNavigate()
   
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
   const [searchQuery, setSearchQuery] = useState('')
   const [selectedDiagram, setSelectedDiagram] = useState(null)
+  const [hotspots, setHotspots] = useState(null)
+  const [highlightedRef, setHighlightedRef] = useState(null)
   const [sortConfig, setSortConfig] = useState({ key: null, direction: 'asc' })
+  const diagramImageRef = useRef(null)
+  const [diagramLoaded, setDiagramLoaded] = useState(false)
 
   // Load EPC data
   useEffect(() => {
@@ -120,12 +110,24 @@ function EPCBrowser() {
     const diagram = data.diagrams[diagramId]
     if (diagram?.filename) {
       setSelectedDiagram({ id: diagramId, ...diagram })
+      setDiagramLoaded(false)
+      setHotspots(null)
+      // Load hotspots for this diagram
+      fetch(`/data/epc/hotspots/${diagramId}.json`)
+        .then(res => res.ok ? res.json() : null)
+        .then(data => setHotspots(data))
+        .catch(() => setHotspots(null))
     }
   }, [data])
 
-  // Global search across all parts
+  // Handle diagram image load
+  const handleDiagramLoad = useCallback(() => {
+    setDiagramLoaded(true)
+  }, [])
+
+  // Global search across all parts (for home page)
   const globalSearchResults = useMemo(() => {
-    if (!data || !searchQuery.trim() || groupId) return null
+    if (!data || !searchQuery.trim() || mainId) return null
     
     const query = searchQuery.toLowerCase()
     const results = []
@@ -154,8 +156,8 @@ function EPCBrowser() {
       }
     }
     
-    return results.slice(0, 50) // Limit results
-  }, [data, searchQuery, groupId])
+    return results.slice(0, 100) // Limit results
+  }, [data, searchQuery, mainId])
 
   if (loading) {
     return (
@@ -180,49 +182,49 @@ function EPCBrowser() {
   }
 
   // Render breadcrumb navigation
-  const renderBreadcrumb = () => (
-    <nav className="epc-breadcrumb">
-      <Link to="/epc" className="epc-breadcrumb-item">Parts Catalog</Link>
-      {currentGroup && (
-        <>
-          <span className="epc-breadcrumb-sep">›</span>
-          <Link to={`/epc/${groupId}`} className="epc-breadcrumb-item">
-            {GROUP_ICONS[groupId]} {currentGroup.name}
-          </Link>
-        </>
-      )}
-      {currentSubSection && (
-        <>
-          <span className="epc-breadcrumb-sep">›</span>
-          <Link to={`/epc/${groupId}/${subSectionId}`} className="epc-breadcrumb-item">
-            {currentSubSection.name}
-          </Link>
-        </>
-      )}
-      {currentMain && (
-        <>
-          <span className="epc-breadcrumb-sep">›</span>
-          <span className="epc-breadcrumb-current">{currentMain.name}</span>
-        </>
-      )}
-    </nav>
-  )
+  const renderBreadcrumb = () => {
+    if (!currentGroup) return null
+    
+    return (
+      <nav className="epc-breadcrumb">
+        <span className="epc-breadcrumb-item epc-breadcrumb-root">
+          {GROUP_ICONS[groupId]} {currentGroup.name}
+        </span>
+        {currentSubSection && (
+          <>
+            <span className="epc-breadcrumb-sep">›</span>
+            <span className="epc-breadcrumb-item">{currentSubSection.name}</span>
+          </>
+        )}
+        {currentMain && (
+          <>
+            <span className="epc-breadcrumb-sep">›</span>
+            <span className="epc-breadcrumb-current">{currentMain.name}</span>
+          </>
+        )}
+      </nav>
+    )
+  }
 
-  // Render groups grid (home view)
-  const renderGroupsGrid = () => (
-    <div className="epc-groups">
+  // Home view - shows global search
+  const renderHome = () => (
+    <div className="epc-home">
       <div className="epc-header">
-        <h1>Parts Catalog</h1>
+        <h1>🔧 Parts Catalog</h1>
         <p className="epc-subtitle">Electronic Parts Catalog for Opel/Vauxhall Speedster & VX220</p>
+        <p className="epc-stats">
+          {data.groups.length} groups • {data.groups.reduce((acc, g) => acc + g.subSections.length, 0)} sections • {data.groups.reduce((acc, g) => acc + g.subSections.reduce((a, s) => a + s.main.reduce((x, m) => x + m.parts.length, 0), 0), 0).toLocaleString()} parts
+        </p>
       </div>
       
-      <div className="epc-search-container">
+      <div className="epc-search-container epc-search-large">
         <input
           type="text"
           placeholder="Search all parts by description, part number, or catalog number..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           className="epc-search-input"
+          autoFocus
         />
         {searchQuery && (
           <button className="epc-search-clear" onClick={() => setSearchQuery('')}>×</button>
@@ -231,7 +233,7 @@ function EPCBrowser() {
 
       {globalSearchResults && globalSearchResults.length > 0 ? (
         <div className="epc-search-results">
-          <h3>Search Results ({globalSearchResults.length}{globalSearchResults.length === 50 ? '+' : ''})</h3>
+          <h3>Search Results ({globalSearchResults.length}{globalSearchResults.length === 100 ? '+' : ''})</h3>
           <table className="epc-parts-table">
             <thead>
               <tr>
@@ -247,7 +249,7 @@ function EPCBrowser() {
                 <tr key={idx}>
                   <td className="epc-location-cell">
                     <Link to={`/epc/${part.groupId}/${part.subSectionId}/${part.mainId}`}>
-                      {part.groupName} › {part.mainName}
+                      {GROUP_ICONS[part.groupId]} {part.mainName}
                     </Link>
                   </td>
                   <td className="epc-ref-cell">{part.ref}</td>
@@ -264,77 +266,10 @@ function EPCBrowser() {
           <p>No parts found matching "{searchQuery}"</p>
         </div>
       ) : (
-        <div className="epc-groups-grid">
-          {data.groups.map(group => (
-            <Link 
-              key={group.id} 
-              to={`/epc/${group.id}`}
-              className="epc-group-card"
-            >
-              <span className="epc-group-icon">{GROUP_ICONS[group.id] || '📦'}</span>
-              <span className="epc-group-letter">{group.id}</span>
-              <span className="epc-group-name">{group.name}</span>
-              <span className="epc-group-count">
-                {group.subSections.reduce((acc, s) => acc + s.main.reduce((a, m) => a + m.parts.length, 0), 0)} parts
-              </span>
-            </Link>
-          ))}
+        <div className="epc-home-hint">
+          <p>Use the sidebar to browse parts by category, or search above.</p>
         </div>
       )}
-    </div>
-  )
-
-  // Render sub sections list
-  const renderSubSections = () => (
-    <div className="epc-subsections">
-      {renderBreadcrumb()}
-      
-      <div className="epc-header">
-        <h1>{GROUP_ICONS[groupId]} {currentGroup.name}</h1>
-      </div>
-
-      <div className="epc-list">
-        {currentGroup.subSections.map(subSection => (
-          <Link 
-            key={subSection.id} 
-            to={`/epc/${groupId}/${subSection.id}`}
-            className="epc-list-item"
-          >
-            <span className="epc-list-number">{subSection.id.replace(groupId, '')}</span>
-            <span className="epc-list-name">{subSection.name}</span>
-            <span className="epc-list-count">
-              {subSection.main.reduce((acc, m) => acc + m.parts.length, 0)} parts
-            </span>
-            <span className="epc-list-arrow">›</span>
-          </Link>
-        ))}
-      </div>
-    </div>
-  )
-
-  // Render main items list
-  const renderMainItems = () => (
-    <div className="epc-main-items">
-      {renderBreadcrumb()}
-      
-      <div className="epc-header">
-        <h1>{currentSubSection.name}</h1>
-      </div>
-
-      <div className="epc-list">
-        {currentSubSection.main.map(main => (
-          <Link 
-            key={main.id} 
-            to={`/epc/${groupId}/${subSectionId}/${main.id}`}
-            className="epc-list-item"
-          >
-            <span className="epc-list-number">{main.id.split('-').pop()}</span>
-            <span className="epc-list-name">{main.name}</span>
-            <span className="epc-list-count">{main.parts.length} parts</span>
-            <span className="epc-list-arrow">›</span>
-          </Link>
-        ))}
-      </div>
     </div>
   )
 
@@ -387,7 +322,12 @@ function EPCBrowser() {
           </thead>
           <tbody>
             {sortedParts.map((part, idx) => (
-              <tr key={idx} className={part.diagramId ? 'has-diagram' : ''}>
+              <tr 
+                key={idx} 
+                className={`${part.diagramId ? 'has-diagram' : ''} ${highlightedRef === part.ref ? 'highlighted' : ''}`}
+                onMouseEnter={() => selectedDiagram && setHighlightedRef(part.ref)}
+                onMouseLeave={() => setHighlightedRef(null)}
+              >
                 <td className="epc-ref-cell">
                   {part.diagramId ? (
                     <button 
@@ -423,56 +363,66 @@ function EPCBrowser() {
         <div className="epc-diagram-modal" onClick={() => setSelectedDiagram(null)}>
           <div className="epc-diagram-content" onClick={e => e.stopPropagation()}>
             <button className="epc-diagram-close" onClick={() => setSelectedDiagram(null)}>×</button>
-            <h3>Diagram {selectedDiagram.id}</h3>
+            <h3>{currentMain.name}</h3>
             <div className="epc-diagram-image-container">
               <img 
+                ref={diagramImageRef}
                 src={`/data/epc/diagrams/${selectedDiagram.filename}`}
-                alt={`Diagram ${selectedDiagram.id}`}
+                alt={`Diagram for ${currentMain.name}`}
                 className="epc-diagram-image"
+                onLoad={handleDiagramLoad}
               />
+              {/* Hotspot overlays */}
+              {diagramLoaded && hotspots && diagramImageRef.current && (
+                <div className="epc-hotspots-container">
+                  {hotspots.hotspots.map((hotspot, idx) => {
+                    const img = diagramImageRef.current
+                    const scaleX = img.offsetWidth / hotspots.imageWidth
+                    const scaleY = img.offsetHeight / hotspots.imageHeight
+                    const isHighlighted = highlightedRef === hotspot.ref
+                    
+                    return (
+                      <div
+                        key={idx}
+                        className={`epc-hotspot ${isHighlighted ? 'highlighted' : ''}`}
+                        style={{
+                          left: `${hotspot.bbox.x * scaleX}px`,
+                          top: `${hotspot.bbox.y * scaleY}px`,
+                          width: `${hotspot.bbox.width * scaleX}px`,
+                          height: `${hotspot.bbox.height * scaleY}px`,
+                        }}
+                        onMouseEnter={() => setHighlightedRef(hotspot.ref)}
+                        onMouseLeave={() => setHighlightedRef(null)}
+                        title={`Part #${hotspot.ref}`}
+                      >
+                        <span className="epc-hotspot-label">{hotspot.ref}</span>
+                      </div>
+                    )
+                  })}
+                </div>
+              )}
             </div>
+            {hotspots?.sheetCode && (
+              <div className="epc-diagram-sheet-code">
+                Sheet: {hotspots.sheetCode.text}
+              </div>
+            )}
           </div>
         </div>
       )}
     </div>
   )
 
-  // Main render logic
-  if (!groupId) {
-    return renderGroupsGrid()
-  }
-  
-  if (!currentGroup) {
-    return (
-      <div className="epc-error">
-        <p>Group not found</p>
-        <Link to="/epc">Back to Parts Catalog</Link>
-      </div>
-    )
-  }
-
-  if (!subSectionId) {
-    return renderSubSections()
-  }
-
-  if (!currentSubSection) {
-    return (
-      <div className="epc-error">
-        <p>Sub section not found</p>
-        <Link to={`/epc/${groupId}`}>Back to {currentGroup.name}</Link>
-      </div>
-    )
-  }
-
+  // Main render logic - Show home if no main item selected
   if (!mainId) {
-    return renderMainItems()
+    return renderHome()
   }
 
   if (!currentMain) {
     return (
       <div className="epc-error">
-        <p>Section not found</p>
-        <Link to={`/epc/${groupId}/${subSectionId}`}>Back to {currentSubSection.name}</Link>
+        <p>Part section not found</p>
+        <Link to="/epc">Back to Parts Catalog</Link>
       </div>
     )
   }
