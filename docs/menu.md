@@ -53,6 +53,15 @@ Certain folder titles are treated as "group labels" rather than navigable column
 - Documents within groups are listed directly below the label
 - Non-group folders (sub-assemblies) appear below all groups as navigable items
 
+### Subcomponent Folder Icon
+Non-group folders (sub-assemblies) display a 📂 folder icon before their title. This creates better visual rhythm in the menu by balancing the horizontal spacing with the group emojis and document page icons (📄).
+
+| Element | Icon | Purpose |
+|---------|------|---------|
+| Document (leaf) | 📄 | Page icon indicates clickable document |
+| Subcomponent folder | 📂 | Open folder indicates navigable section |
+| Group folders | Various | Type-specific emoji (🔧, 📖, etc.) |
+
 ### Mixed Columns
 
 When a parent folder contains both group folders and regular folders, a "mixed column" is rendered:
@@ -113,6 +122,7 @@ Sidebar.jsx
 .column-nav-link          /* Item button/link */
 .column-nav-link.selected /* Selected folder */
 .column-nav-link.active   /* Active document */
+.column-nav-folder-icon   /* 📂 emoji for subcomponent folders */
 
 /* Group styles */
 .column-mixed             /* Mixed column with groups and folders */
@@ -363,6 +373,12 @@ Using `overflow: hidden` on `.column-group` ensures the border-radius is respect
 - The swipe angle check (`deltaX > deltaY * 1.5`) prevents triggering during vertical scroll
 - Edge threshold (30px) is narrow enough to avoid accidental triggers but wide enough to be discoverable
 - The swipe ref tracking pattern prevents stale closure issues in the effect
+
+### Visual Rhythm with Icons
+- Adding icons to all interactive elements (folders, documents, groups) creates consistent horizontal rhythm
+- The 📂 folder icon balances visually with 📄 document icons and group emojis
+- Icons help users quickly distinguish between navigable folders and clickable documents
+- Opacity (0.7 for folders, 0.6 for documents) keeps icons subtle without being invisible
 
 ## Future Considerations
 

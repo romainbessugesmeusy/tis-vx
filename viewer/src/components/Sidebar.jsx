@@ -332,6 +332,7 @@ function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, activeDoc
                     className={`column-nav-link ${isSelected ? 'selected' : ''}`}
                     onClick={() => onFolderClick(id)}
                   >
+                    <span className="column-nav-folder-icon">📂</span>
                     <span className="column-nav-title">{node.title}</span>
                     <span className="column-nav-arrow">›</span>
                   </button>
@@ -845,6 +846,7 @@ function ColumnNav({ roots, nodes, tocIdToSlug, searchQuery, maxVisibleColumns =
                         className={`column-nav-link ${isSelected ? 'selected' : ''}`}
                         onClick={() => handleItemClick(id, colIndex)}
                       >
+                        <span className="column-nav-folder-icon">📂</span>
                         <span className="column-nav-title">{node.title}</span>
                         <span className="column-nav-arrow">›</span>
                       </button>

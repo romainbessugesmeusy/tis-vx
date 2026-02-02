@@ -505,6 +505,14 @@ body {
   opacity: 0.6;
 }
 
+/* Folder/subcomponent icon */
+.column-nav-folder-icon {
+  font-size: 0.95rem;
+  opacity: 0.7;
+  flex-shrink: 0;
+  margin-right: 2px;
+}
+
 .column-nav-arrow {
   color: var(--text-muted);
   font-size: 1.1rem;
