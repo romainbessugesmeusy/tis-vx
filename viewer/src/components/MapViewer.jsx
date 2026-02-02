@@ -155,12 +155,14 @@ function ZoomIndicator({ scale }) {
   )
 }
 
-function MapViewer({ src, alt, onError, allowFullscreen = false, hotspots, highlightedRef, onHotspotHover, className }) {
+function MapViewer({ src, alt, onError, allowFullscreen = false, hotspots, highlightedRef, onHotspotHover, onHotspotClick, className }) {
   const [scale, setScale] = useState(1)
   const [position, setPosition] = useState({ x: 0, y: 0 })
   const [imageError, setImageError] = useState(false)
   const [imageLoaded, setImageLoaded] = useState(false)
   const [isFullscreen, setIsFullscreen] = useState(false)
+  const [hotspotsVisible, setHotspotsVisible] = useState(false)
+  const [hoveredHotspot, setHoveredHotspot] = useState(null)
   const containerRef = useRef(null)
   const imageRef = useRef(null)
   const transformRef = useRef(null)
@@ -330,6 +332,12 @@ function MapViewer({ src, alt, onError, allowFullscreen = false, hotspots, highl
     )
   }
   
+  // Compare refs (handles string/number mismatch)
+  const refsMatch = (ref1, ref2) => {
+    if (ref1 === null || ref2 === null || ref1 === undefined || ref2 === undefined) return false
+    return String(ref1) === String(ref2)
+  }
+  
   // Render hotspots overlay
   const renderHotspots = () => {
     if (!imageLoaded || !hotspots?.hotspots || !imageRef.current) return null
@@ -338,10 +346,40 @@ function MapViewer({ src, alt, onError, allowFullscreen = false, hotspots, highl
     const scaleX = img.offsetWidth / hotspots.imageWidth
     const scaleY = img.offsetHeight / hotspots.imageHeight
     
+    // Hotspots are hidden by default, shown when:
+    // - hotspotsVisible is true (mouse is over the diagram)
+    // - OR there's a highlightedRef (selected from parts list)
+    const shouldShowHotspots = hotspotsVisible || highlightedRef !== null
+    
+    // Sort hotspots by area (largest first, so smallest render on top)
+    const sortedHotspots = [...hotspots.hotspots].sort((a, b) => {
+      const areaA = a.type === 'polygon' && a.points 
+        ? Math.abs(a.points.reduce((acc, p, i, arr) => {
+            const next = arr[(i + 1) % arr.length]
+            return acc + (p.x * next.y - next.x * p.y)
+          }, 0) / 2)
+        : (a.bbox?.width || 0) * (a.bbox?.height || 0)
+      const areaB = b.type === 'polygon' && b.points
+        ? Math.abs(b.points.reduce((acc, p, i, arr) => {
+            const next = arr[(i + 1) % arr.length]
+            return acc + (p.x * next.y - next.x * p.y)
+          }, 0) / 2)
+        : (b.bbox?.width || 0) * (b.bbox?.height || 0)
+      return areaB - areaA // Larger areas first (will be behind)
+    })
+    
     return (
-      <div className="map-viewer-hotspots">
-        {hotspots.hotspots.map((hotspot, idx) => {
-          const isHighlighted = highlightedRef === hotspot.ref
+      <div 
+        className={`map-viewer-hotspots ${shouldShowHotspots ? 'visible' : 'hidden'}`}
+        onMouseEnter={() => setHotspotsVisible(true)}
+        onMouseLeave={() => {
+          setHotspotsVisible(false)
+          setHoveredHotspot(null)
+        }}
+      >
+        {sortedHotspots.map((hotspot, idx) => {
+          const isHighlighted = refsMatch(highlightedRef, hotspot.ref)
+          const isHovered = refsMatch(hoveredHotspot, hotspot.ref)
           
           // Handle polygon hotspots
           if (hotspot.type === 'polygon' && hotspot.points) {
@@ -364,21 +402,26 @@ function MapViewer({ src, alt, onError, allowFullscreen = false, hotspots, highl
             return (
               <div
                 key={idx}
-                className={`map-hotspot map-hotspot-polygon ${isHighlighted ? 'highlighted' : ''}`}
+                className={`map-hotspot map-hotspot-polygon ${isHighlighted ? 'highlighted' : ''} ${isHovered ? 'hovered' : ''}`}
                 style={{
                   left: `${bounds.x}px`,
                   top: `${bounds.y}px`,
                   width: `${bounds.width}px`,
                   height: `${bounds.height}px`,
                 }}
-                onMouseEnter={() => onHotspotHover?.(hotspot.ref)}
-                onMouseLeave={() => onHotspotHover?.(null)}
-                title={`Part #${hotspot.ref}`}
+                onMouseEnter={() => {
+                  setHoveredHotspot(hotspot.ref)
+                  onHotspotHover?.(hotspot.ref)
+                }}
+                onMouseLeave={() => {
+                  setHoveredHotspot(null)
+                  onHotspotHover?.(null)
+                }}
+                onClick={() => onHotspotClick?.(hotspot.ref)}
               >
                 <svg viewBox={`0 0 ${bounds.width} ${bounds.height}`}>
                   <polygon points={localPoints} />
                 </svg>
-                <span className="map-hotspot-label">{hotspot.ref}</span>
               </div>
             )
           }
@@ -387,19 +430,23 @@ function MapViewer({ src, alt, onError, allowFullscreen = false, hotspots, highl
           return (
             <div
               key={idx}
-              className={`map-hotspot ${isHighlighted ? 'highlighted' : ''}`}
+              className={`map-hotspot ${isHighlighted ? 'highlighted' : ''} ${isHovered ? 'hovered' : ''}`}
               style={{
                 left: `${hotspot.bbox.x * scaleX}px`,
                 top: `${hotspot.bbox.y * scaleY}px`,
                 width: `${hotspot.bbox.width * scaleX}px`,
                 height: `${hotspot.bbox.height * scaleY}px`,
               }}
-              onMouseEnter={() => onHotspotHover?.(hotspot.ref)}
-              onMouseLeave={() => onHotspotHover?.(null)}
-              title={`Part #${hotspot.ref}`}
-            >
-              <span className="map-hotspot-label">{hotspot.ref}</span>
-            </div>
+              onMouseEnter={() => {
+                setHoveredHotspot(hotspot.ref)
+                onHotspotHover?.(hotspot.ref)
+              }}
+              onMouseLeave={() => {
+                setHoveredHotspot(null)
+                onHotspotHover?.(null)
+              }}
+              onClick={() => onHotspotClick?.(hotspot.ref)}
+            />
           )
         })}
       </div>
@@ -450,7 +497,14 @@ function MapViewer({ src, alt, onError, allowFullscreen = false, hotspots, highl
                 background: 'transparent'
               }}
             >
-              <div className="map-viewer-image-wrapper">
+              <div 
+                className="map-viewer-image-wrapper"
+                onMouseEnter={() => setHotspotsVisible(true)}
+                onMouseLeave={() => {
+                  setHotspotsVisible(false)
+                  setHoveredHotspot(null)
+                }}
+              >
                 <img
                   ref={imageRef}
                   src={src}

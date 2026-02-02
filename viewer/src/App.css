@@ -3675,12 +3675,21 @@ main.content:has(.content-welcome) .content-welcome {
   text-align: center;
 }
 
-/* Highlighted Table Row */
+/* Highlighted Table Row (hover) */
 .epc-parts-table tbody tr.highlighted {
-  background: rgba(239, 68, 68, 0.15) !important;
+  background: rgba(59, 130, 246, 0.12) !important;
 }
 
 .epc-parts-table tbody tr.highlighted td {
+  color: var(--text-primary);
+}
+
+/* Selected Table Row (clicked from list) */
+.epc-parts-table tbody tr.selected {
+  background: rgba(239, 68, 68, 0.15) !important;
+}
+
+.epc-parts-table tbody tr.selected td {
   color: #dc2626;
 }
 
@@ -3975,6 +3984,24 @@ main.content:has(.content-welcome) .content-welcome {
   padding: 0;
 }
 
+.epc-parts.epc-parts-compact {
+  padding: 0;
+}
+
+.epc-parts.epc-parts-compact .epc-diagram-groups {
+  gap: 0;
+}
+
+.epc-parts.epc-parts-compact .epc-diagram-group {
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+}
+
+.epc-parts.epc-parts-compact .epc-diagram-group:first-child {
+  border-top: none;
+}
+
 /* ======================================== 
    EPC Diagram Groups Layout
    ======================================== */
@@ -4062,6 +4089,73 @@ main.content:has(.content-welcome) .content-welcome {
   background: #1a1a2e !important;
 }
 
+/* Part Info Bar - shows selected/hovered part information */
+.epc-part-info-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.12) 0%, rgba(59, 130, 246, 0.06) 100%);
+  border-bottom: 1px solid rgba(59, 130, 246, 0.2);
+  flex-wrap: wrap;
+  animation: slideDown 0.2s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.epc-part-info-ref {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  height: 32px;
+  padding: 0 8px;
+  background: var(--accent);
+  color: white;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.epc-part-info-desc {
+  flex: 1;
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 0.9rem;
+}
+
+.epc-part-info-partno {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  background: rgba(0, 0, 0, 0.15);
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.epc-part-info-usage {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--accent);
+  background: rgba(59, 130, 246, 0.15);
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.epc-part-info-qty {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
 /* But keep map-viewer-image-wrapper transparent so image shows */
 .epc-diagram-map .map-viewer-image-wrapper {
   background: transparent !important;
@@ -4103,8 +4197,14 @@ main.content:has(.content-welcome) .content-welcome {
 }
 
 .epc-part-card.highlighted {
-  background: rgba(239, 68, 68, 0.08);
+  background: rgba(59, 130, 246, 0.08);
+  border-color: #3b82f6;
+}
+
+.epc-part-card.selected {
+  background: rgba(239, 68, 68, 0.1);
   border-color: #ef4444;
+  box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.2);
 }
 
 .epc-part-card-header {
@@ -4126,9 +4226,27 @@ main.content:has(.content-welcome) .content-welcome {
   border-radius: 5px;
   font-weight: 700;
   font-size: 0.85rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.epc-part-ref:hover {
+  transform: scale(1.1);
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.4);
+}
+
+.epc-part-ref.selected {
+  background: #ef4444;
+  animation: pulse-ref 1s ease-in-out infinite;
 }
 
 .epc-part-card.highlighted .epc-part-ref {
+  background: #3b82f6;
+  transform: scale(1.05);
+}
+
+.epc-part-card.selected .epc-part-ref {
   background: #ef4444;
 }
 
@@ -4213,9 +4331,33 @@ main.content:has(.content-welcome) .content-welcome {
   border-radius: 6px;
   font-weight: 600;
   font-size: 0.85rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.epc-ref-badge:hover {
+  transform: scale(1.1);
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.4);
+}
+
+.epc-ref-badge.selected {
+  background: #ef4444;
+  animation: pulse-ref 1s ease-in-out infinite;
+}
+
+@keyframes pulse-ref {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.4); }
+  50% { box-shadow: 0 0 0 6px rgba(239, 68, 68, 0); }
 }
 
 .epc-parts-table tbody tr.highlighted .epc-ref-badge {
+  background: #3b82f6;
+  transform: scale(1.05);
+}
+
+.epc-parts-table tbody tr.selected .epc-ref-badge,
+.epc-parts-table tbody tr.selected.highlighted .epc-ref-badge {
   background: #ef4444;
 }
 
@@ -4249,13 +4391,26 @@ main.content:has(.content-welcome) .content-welcome {
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
   pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+/* Hide hotspots by default */
+.map-viewer-hotspots.hidden {
+  opacity: 0;
+}
+
+/* Show hotspots on hover or when visible class is set */
+.map-viewer-hotspots.visible {
+  opacity: 1;
 }
 
 .map-hotspot {
   position: absolute;
-  border: 2px solid rgba(59, 130, 246, 0.6);
-  background: rgba(59, 130, 246, 0.15);
+  border: 2px solid rgba(59, 130, 246, 0.5);
+  background: transparent;
   border-radius: 4px;
   cursor: pointer;
   pointer-events: auto;
@@ -4263,34 +4418,28 @@ main.content:has(.content-welcome) .content-welcome {
 }
 
 .map-hotspot:hover,
+.map-hotspot.hovered {
+  border-color: #3b82f6;
+  background: rgba(59, 130, 246, 0.08);
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+
 .map-hotspot.highlighted {
   border-color: #ef4444;
-  background: rgba(239, 68, 68, 0.3);
-  transform: scale(1.15);
-  z-index: 10;
+  border-width: 3px;
+  background: transparent;
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.4), inset 0 0 0 1px rgba(239, 68, 68, 0.3);
+  animation: pulse-hotspot 1.5s ease-in-out infinite;
 }
 
+@keyframes pulse-hotspot {
+  0%, 100% { box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.4), inset 0 0 0 1px rgba(239, 68, 68, 0.3); }
+  50% { box-shadow: 0 0 0 6px rgba(239, 68, 68, 0.2), inset 0 0 0 1px rgba(239, 68, 68, 0.2); }
+}
+
+/* Hotspot label - no longer used, info shown in info bar instead */
 .map-hotspot-label {
-  position: absolute;
-  top: -22px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: #3b82f6;
-  color: white;
-  padding: 2px 6px;
-  border-radius: 4px;
-  font-size: 11px;
-  font-weight: 600;
-  white-space: nowrap;
-  opacity: 0;
-  transition: opacity 0.15s;
-  pointer-events: none;
-}
-
-.map-hotspot:hover .map-hotspot-label,
-.map-hotspot.highlighted .map-hotspot-label {
-  opacity: 1;
-  background: #ef4444;
+  display: none;
 }
 
 /* Polygon Hotspots */
@@ -4309,25 +4458,30 @@ main.content:has(.content-welcome) .content-welcome {
 }
 
 .map-hotspot-polygon polygon {
-  fill: rgba(139, 92, 246, 0.2);
-  stroke: rgba(139, 92, 246, 0.6);
+  fill: transparent;
+  stroke: rgba(139, 92, 246, 0.5);
   stroke-width: 2;
   transition: all 0.15s;
 }
 
 .map-hotspot-polygon:hover polygon,
+.map-hotspot-polygon.hovered polygon {
+  fill: rgba(139, 92, 246, 0.08);
+  stroke: #8b5cf6;
+  stroke-width: 2.5;
+}
+
 .map-hotspot-polygon.highlighted polygon {
-  fill: rgba(239, 68, 68, 0.3);
+  fill: transparent;
   stroke: #ef4444;
+  stroke-width: 3;
+  filter: drop-shadow(0 0 3px rgba(239, 68, 68, 0.5));
+  animation: pulse-polygon 1.5s ease-in-out infinite;
 }
 
-.map-hotspot-polygon .map-hotspot-label {
-  background: #8b5cf6;
-}
-
-.map-hotspot-polygon:hover .map-hotspot-label,
-.map-hotspot-polygon.highlighted .map-hotspot-label {
-  background: #ef4444;
+@keyframes pulse-polygon {
+  0%, 100% { filter: drop-shadow(0 0 3px rgba(239, 68, 68, 0.5)); }
+  50% { filter: drop-shadow(0 0 8px rgba(239, 68, 68, 0.3)); }
 }
 
 /* ======================================== 

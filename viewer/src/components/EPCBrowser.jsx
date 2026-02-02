@@ -23,6 +23,7 @@ function EPCBrowser() {
   const [searchQuery, setSearchQuery] = useState('')
   const [hotspots, setHotspots] = useState({}) // Map of diagramId -> hotspots
   const [highlightedRef, setHighlightedRef] = useState(null)
+  const [selectedRef, setSelectedRef] = useState(null) // Selected from parts list (click)
   const [sortConfig, setSortConfig] = useState({ key: null, direction: 'asc' })
   const [expandedDiagrams, setExpandedDiagrams] = useState(new Set())
 
@@ -176,6 +177,18 @@ function EPCBrowser() {
     })
   }, [])
 
+  // Compare refs (handles string/number mismatch)
+  const refsMatch = useCallback((ref1, ref2) => {
+    if (ref1 === null || ref2 === null || ref1 === undefined || ref2 === undefined) return false
+    return String(ref1) === String(ref2)
+  }, [])
+
+  // Get part info for currently highlighted or selected ref
+  const getActivePartInfo = useCallback((groupParts, activeRef) => {
+    if (!activeRef) return null
+    return groupParts.find(p => refsMatch(p.ref, activeRef))
+  }, [refsMatch])
+
   // Global search across all parts (for home page)
   const globalSearchResults = useMemo(() => {
     if (!data || !searchQuery.trim() || mainId) return null
@@ -323,12 +336,17 @@ function EPCBrowser() {
   const renderPartCard = (part, diagramId) => (
     <div 
       key={`${part.partNo}-${part.ref}`}
-      className={`epc-part-card ${highlightedRef === part.ref ? 'highlighted' : ''}`}
+      className={`epc-part-card ${refsMatch(highlightedRef, part.ref) ? 'highlighted' : ''} ${refsMatch(selectedRef, part.ref) ? 'selected' : ''}`}
       onMouseEnter={() => setHighlightedRef(part.ref)}
       onMouseLeave={() => setHighlightedRef(null)}
     >
       <div className="epc-part-card-header">
-        <span className="epc-part-ref">{part.ref}</span>
+        <button 
+          className={`epc-part-ref ${refsMatch(selectedRef, part.ref) ? 'selected' : ''}`}
+          onClick={() => setSelectedRef(prev => refsMatch(prev, part.ref) ? null : part.ref)}
+        >
+          {part.ref}
+        </button>
         {part.usage && <span className="epc-part-usage">{part.usage}</span>}
         {part.qty && <span className="epc-part-qty">×{part.qty}</span>}
       </div>
@@ -372,12 +390,18 @@ function EPCBrowser() {
           {groupParts.map((part, idx) => (
             <tr 
               key={idx} 
-              className={highlightedRef === part.ref ? 'highlighted' : ''}
+              className={`${refsMatch(highlightedRef, part.ref) ? 'highlighted' : ''} ${refsMatch(selectedRef, part.ref) ? 'selected' : ''}`}
               onMouseEnter={() => setHighlightedRef(part.ref)}
               onMouseLeave={() => setHighlightedRef(null)}
             >
               <td className="epc-ref-cell">
-                <span className="epc-ref-badge">{part.ref}</span>
+                <button 
+                  className={`epc-ref-badge ${refsMatch(selectedRef, part.ref) ? 'selected' : ''}`}
+                  onClick={() => setSelectedRef(prev => refsMatch(prev, part.ref) ? null : part.ref)}
+                  title="Click to highlight on diagram"
+                >
+                  {part.ref}
+                </button>
               </td>
               <td className="epc-desc-cell">{part.description}</td>
               <td className="epc-usage-cell">{part.usage}</td>
@@ -396,6 +420,8 @@ function EPCBrowser() {
     const { diagramId, diagram, parts: groupParts } = group
     const isExpanded = expandedDiagrams.has(diagramId)
     const diagramHotspots = hotspots[diagramId]
+    const activeRef = selectedRef || highlightedRef
+    const activePartInfo = getActivePartInfo(groupParts, activeRef)
     
     return (
       <div key={diagramId} className="epc-diagram-group">
@@ -408,7 +434,7 @@ function EPCBrowser() {
             <polyline points="6 9 12 15 18 9" />
           </svg>
           <span className="epc-diagram-title">
-            {diagram ? `Diagram ${diagramHotspots?.sheetCode?.text || ''}` : 'Parts without diagram'}
+            {currentMain?.name || (diagram ? `Diagram ${diagramHotspots?.sheetCode?.text || ''}` : 'Parts without diagram')}
           </span>
           <span className="epc-diagram-count">{groupParts.length} parts</span>
         </button>
@@ -423,10 +449,22 @@ function EPCBrowser() {
                   alt={`Parts diagram`}
                   allowFullscreen={true}
                   hotspots={diagramHotspots}
-                  highlightedRef={highlightedRef}
+                  highlightedRef={activeRef}
                   onHotspotHover={setHighlightedRef}
+                  onHotspotClick={(ref) => setSelectedRef(prev => refsMatch(prev, ref) ? null : ref)}
                   className="epc-diagram-map"
                 />
+              </div>
+            )}
+            
+            {/* Part Info Bar - shows selected/hovered part info */}
+            {activePartInfo && (
+              <div className="epc-part-info-bar visible">
+                <span className="epc-part-info-ref">#{activePartInfo.ref}</span>
+                <span className="epc-part-info-desc">{activePartInfo.description}</span>
+                <span className="epc-part-info-partno">{activePartInfo.partNo}</span>
+                {activePartInfo.usage && <span className="epc-part-info-usage">{activePartInfo.usage}</span>}
+                {activePartInfo.qty && <span className="epc-part-info-qty">Qty: {activePartInfo.qty}</span>}
               </div>
             )}
             
@@ -450,28 +488,8 @@ function EPCBrowser() {
 
   // Render main parts view (grouped by diagram)
   const renderPartsView = () => (
-    <div className="epc-parts">
-      {renderBreadcrumb()}
-      
-      <div className="epc-header">
-        <h1>{currentMain.name}</h1>
-        <p className="epc-parts-count">{parts.length} parts</p>
-      </div>
-
-      <div className="epc-search-container epc-search-small">
-        <input
-          type="text"
-          placeholder="Filter parts..."
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-          className="epc-search-input"
-        />
-        {searchQuery && (
-          <button className="epc-search-clear" onClick={() => setSearchQuery('')}>×</button>
-        )}
-      </div>
-
-      {/* Diagram Groups */}
+    <div className="epc-parts epc-parts-compact">
+      {/* Diagram Groups - directly render without extra headers */}
       <div className="epc-diagram-groups">
         {sortedPartsByDiagram.map(group => renderDiagramGroup(group))}
       </div>

@@ -1123,18 +1123,6 @@
         
         container.appendChild(div);
       });
-      
-      // Polygon preview points
-      if (polygonPoints.length > 0) {
-        polygonPoints.forEach((p, i) => {
-          const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-          circle.setAttribute('cx', p.x);
-          circle.setAttribute('cy', p.y);
-          circle.setAttribute('r', i === 0 && polygonPoints.length >= 3 ? '8' : '5');
-          if (i === 0 && polygonPoints.length >= 3) circle.classList.add('close-hint');
-          polygonPreview.appendChild(circle);
-        });
-      }
     }
     
     function handleHotspotMouseDown(e, index) {
@@ -1263,7 +1251,18 @@
       };
       currentData.hotspots.push(h);
       selectedIndex = currentData.hotspots.length - 1;
+      
+      // Clear polygon drawing state
       polygonPoints = [];
+      polygonPreview.querySelectorAll('circle').forEach(c => c.remove());
+      polygonLines.setAttribute('points', '');
+      tempLine.setAttribute('x1', 0);
+      tempLine.setAttribute('y1', 0);
+      tempLine.setAttribute('x2', 0);
+      tempLine.setAttribute('y2', 0);
+      polygonPreview.style.display = 'none';
+      diagramContainer.classList.remove('hide-hotspots');
+      
       markUnsaved();
       updateUI();
       showToast(`Added polygon #${ref}`, 'success');
@@ -1304,7 +1303,15 @@
     // Mode
     function setMode(mode) {
       currentMode = mode;
+      
+      // Fully reset polygon drawing state
       polygonPoints = [];
+      polygonPreview.querySelectorAll('circle').forEach(c => c.remove());
+      polygonLines.setAttribute('points', '');
+      tempLine.setAttribute('x1', 0);
+      tempLine.setAttribute('y1', 0);
+      tempLine.setAttribute('x2', 0);
+      tempLine.setAttribute('y2', 0);
       polygonPreview.style.display = 'none';
       diagramContainer.classList.remove('hide-hotspots');
       
@@ -1359,8 +1366,17 @@
       document.getElementById('refDialog').classList.remove('visible');
       pendingShape = null;
       drawPreview.classList.remove('visible');
-      polygonPreview.style.display = 'none';
+      
+      // Fully reset polygon drawing state
       polygonPoints = [];
+      polygonPreview.querySelectorAll('circle').forEach(c => c.remove());
+      polygonLines.setAttribute('points', '');
+      tempLine.setAttribute('x1', 0);
+      tempLine.setAttribute('y1', 0);
+      tempLine.setAttribute('x2', 0);
+      tempLine.setAttribute('y2', 0);
+      polygonPreview.style.display = 'none';
+      
       diagramContainer.classList.remove('hide-hotspots');
       renderHotspots();
     }
@@ -1536,8 +1552,16 @@
     });
     
     function updatePolygonPreview() {
+      // Clear existing circles first
+      polygonPreview.querySelectorAll('circle').forEach(c => c.remove());
+      
       if (polygonPoints.length === 0) {
         polygonPreview.style.display = 'none';
+        polygonLines.setAttribute('points', '');
+        tempLine.setAttribute('x1', 0);
+        tempLine.setAttribute('y1', 0);
+        tempLine.setAttribute('x2', 0);
+        tempLine.setAttribute('y2', 0);
         return;
       }
       
@@ -1552,8 +1576,15 @@
         tempLine.setAttribute('y2', tempMousePos.y);
       }
       
-      // Re-render to show vertex circles
-      renderHotspots();
+      // Add circles for each point
+      polygonPoints.forEach((p, i) => {
+        const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        circle.setAttribute('cx', p.x);
+        circle.setAttribute('cy', p.y);
+        circle.setAttribute('r', i === 0 && polygonPoints.length >= 3 ? '8' : '5');
+        if (i === 0 && polygonPoints.length >= 3) circle.classList.add('close-hint');
+        polygonPreview.appendChild(circle);
+      });
     }
     
     // Zoom wheel - gentler zoom speed
