@@ -9,26 +9,10 @@
       "y": 1614,
       "width": 47,
       "height": 31
-    },
-    "confidence": 89
-  },
-  "hotspots": [
-    {
-      "ref": 4,
-      "bbox": {
-        "x": 172,
-        "y": 479,
-        "width": 45,
-        "height": 58
-      },
-      "normalized": {
-        "x": 0.13870967741935483,
-        "y": 0.2720045428733674,
-        "width": 0.036290322580645164,
-        "height": 0.032935831913685404
-      },
-      "confidence": 27
     }
-  ],
-  "extractedAt": "2026-02-02T13:56:40.223Z"
+  },
+  "hotspots": [],
+  "extractedAt": "2026-02-02T13:56:40.223Z",
+  "status": "todo",
+  "modifiedAt": "2026-02-03T16:51:03.587Z"
 }
