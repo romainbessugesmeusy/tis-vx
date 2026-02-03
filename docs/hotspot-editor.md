@@ -151,15 +151,30 @@ The server runs on port **3001**.
 
 ### Toolbar Modes
 
-| Mode | Icon | Description |
-|------|------|-------------|
-| **Select** | 🖱️ | Click to select hotspots, drag to move, resize handles on corners |
-| **Rectangle** | ▢ | Click and drag to draw rectangular hotspots |
-| **Polygon** | ⬡ | Click to place vertices, click first point to close |
+| Mode | Icon | Shortcut | Description |
+|------|------|----------|-------------|
+| **Select** | 🖱️ | `V` | Click to select hotspots, drag to move, resize handles on corners |
+| **Rectangle** | ▢ | `R` | Click and drag to draw rectangular hotspots |
+| **Isometric** | ◇ | `I` | Click and drag to draw diamond/lozenge shapes for isometric parts |
+| **Polygon** | ⬡ | `L` | Click to place vertices, click first point to close |
 
 ### Drawing Behavior
 
-When actively drawing (rectangle drag or placing polygon points), existing hotspots are automatically **hidden** (faded to 15% opacity and non-interactive). This allows drawing new hotspots over existing ones when parts overlap. Hotspots restore when drawing completes or is cancelled.
+When actively drawing (rectangle/isometric drag or placing polygon points), existing hotspots are automatically **hidden** (faded to 15% opacity and non-interactive). This allows drawing new hotspots over existing ones when parts overlap. Hotspots restore when drawing completes or is cancelled.
+
+### Polygon Point Editing
+
+When a polygon is selected, you can edit its shape:
+
+| Action | Result |
+|--------|--------|
+| **Drag vertex** | Move the point to a new position |
+| **Click vertex** | Delete the point (only if polygon has 4+ points) |
+| **Click edge** | Insert a new point at that position |
+
+Visual indicators:
+- Vertex handles turn **red** on hover (indicating deletable)
+- Edge segments show **purple highlight** on hover (indicating where new point will be added)
 
 ### Zoom Controls
 
@@ -178,6 +193,10 @@ When actively drawing (rectangle drag or placing polygon points), existing hotsp
 
 | Key | Action |
 |-----|--------|
+| `V` | Switch to Select mode |
+| `R` | Switch to Rectangle mode |
+| `I` | Switch to Isometric mode |
+| `L` | Switch to Polygon mode |
 | `Esc` | Cancel current action → Deselect → Switch to Select mode |
 | `Del` / `Backspace` | Delete selected hotspot |
 | `Cmd/Ctrl + S` | Save changes |
@@ -336,9 +355,11 @@ const displayX = hotspot.bbox.x * scaleX;
 
 - **Polygon mode**: Great for parts with irregular shapes or leader lines
 - **Rectangle mode**: Faster for simple isolated parts
+- **Isometric mode**: Perfect for parts drawn in isometric projection (rotated view)
 - **Sheet codes**: Edit in the toolbar input field
 - **Repeated numbers**: Create multiple hotspots with the same ref
 - **Overlapping parts**: Use polygons to trace exact boundaries
+- **Edit polygons**: Select a polygon, then drag vertices or click edges to refine the shape
 
 ## Troubleshooting
 
