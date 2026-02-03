@@ -561,6 +561,23 @@
     
     .hotspot-overlay.selected .vertex-handle { display: block; }
     
+    .vertex-handle:hover {
+      background: #ef4444;
+      transform: translate(-50%, -50%) scale(1.3);
+    }
+    
+    /* Edge segments for adding points */
+    .edge-segment {
+      stroke: transparent;
+      stroke-width: 12;
+      cursor: copy;
+      pointer-events: stroke;
+    }
+    
+    .edge-segment:hover {
+      stroke: rgba(139, 92, 246, 0.4);
+    }
+    
     .sheet-code-overlay {
       position: absolute;
       border: 2px solid #4ecdc4;
@@ -598,6 +615,23 @@
       width: 100%;
       height: 100%;
       pointer-events: none;
+    }
+    
+    /* Isometric/diamond drawing preview */
+    .isometric-preview {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+    
+    .isometric-preview polygon {
+      fill: rgba(255, 183, 77, 0.2);
+      stroke: #ffb74d;
+      stroke-width: 2;
+      stroke-dasharray: 5, 3;
     }
     
     .polygon-preview polyline {
@@ -770,9 +804,10 @@
     
     <div class="main-area">
       <div class="toolbar" id="toolbar" style="display: none;">
-        <button class="mode" data-mode="select">🖱️ Select</button>
-        <button class="mode active" data-mode="draw">▢ Rectangle</button>
-        <button class="mode" data-mode="polygon">⬡ Polygon</button>
+        <button class="mode" data-mode="select" title="Select tool (V)">🖱️ Select</button>
+        <button class="mode active" data-mode="draw" title="Rectangle tool (R)">▢ Rect</button>
+        <button class="mode" data-mode="isometric" title="Isometric/Diamond tool (I)">◇ Iso</button>
+        <button class="mode" data-mode="polygon" title="Polygon tool (L)">⬡ Poly</button>
         <div class="separator"></div>
         <label>Sheet:</label>
         <input type="text" id="sheetCodeInput" placeholder="A10">
@@ -790,6 +825,9 @@
           <img id="diagramImage" src="" alt="Diagram" draggable="false">
           <div id="overlays"></div>
           <div class="draw-preview" id="drawPreview"></div>
+          <svg class="isometric-preview" id="isometricPreview" style="display: none;">
+            <polygon id="isometricShape" points=""></polygon>
+          </svg>
           <svg class="polygon-preview" id="polygonPreview" style="display: none;">
             <polyline id="polygonLines" points=""></polyline>
             <line id="tempLine" class="temp-line" x1="0" y1="0" x2="0" y2="0"></line>
@@ -857,6 +895,8 @@
     const diagramContainer = document.getElementById('diagramContainer');
     const diagramImage = document.getElementById('diagramImage');
     const drawPreview = document.getElementById('drawPreview');
+    const isometricPreview = document.getElementById('isometricPreview');
+    const isometricShape = document.getElementById('isometricShape');
     const polygonPreview = document.getElementById('polygonPreview');
     const polygonLines = document.getElementById('polygonLines');
     const tempLine = document.getElementById('tempLine');
@@ -1078,30 +1118,80 @@
           div.dataset.index = index;
           div.style.cssText = `left:${bounds.x}px;top:${bounds.y}px;width:${bounds.width}px;height:${bounds.height}px;`;
           
-          // Create SVG polygon
+          // Create SVG polygon with edge segments
           const localPoints = h.points.map(p => `${p.x - bounds.x},${p.y - bounds.y}`).join(' ');
+          
+          // Create edge lines for click-to-add-point
+          let edgeLines = '';
+          if (isSelected) {
+            for (let ei = 0; ei < h.points.length; ei++) {
+              const p1 = h.points[ei];
+              const p2 = h.points[(ei + 1) % h.points.length];
+              edgeLines += `<line class="edge-segment" data-edge="${ei}" 
+                x1="${p1.x - bounds.x}" y1="${p1.y - bounds.y}" 
+                x2="${p2.x - bounds.x}" y2="${p2.y - bounds.y}"/>`;
+            }
+          }
+          
           div.innerHTML = `
             <span class="label">${h.ref}</span>
             <svg viewBox="0 0 ${bounds.width} ${bounds.height}">
               <polygon points="${localPoints}" data-index="${index}"></polygon>
+              ${edgeLines}
             </svg>
             ${isSelected ? h.points.map((p, vi) => 
-              `<div class="vertex-handle" data-vertex="${vi}" style="left:${p.x - bounds.x}px;top:${p.y - bounds.y}px;"></div>`
+              `<div class="vertex-handle" data-vertex="${vi}" style="left:${p.x - bounds.x}px;top:${p.y - bounds.y}px;" title="Drag to move • Click to delete"></div>`
             ).join('') : ''}
           `;
           
           // Events on polygon
           div.querySelector('polygon').addEventListener('mousedown', (e) => handleHotspotMouseDown(e, index));
           
-          // Vertex drag
+          // Edge click to add point
+          div.querySelectorAll('.edge-segment').forEach(edge => {
+            edge.addEventListener('click', (e) => {
+              e.stopPropagation();
+              const edgeIdx = parseInt(edge.dataset.edge);
+              const rect = div.getBoundingClientRect();
+              const svgRect = div.querySelector('svg').getBoundingClientRect();
+              // Calculate click position in image coordinates
+              const newPoint = {
+                x: bounds.x + (e.clientX - svgRect.left) / zoom,
+                y: bounds.y + (e.clientY - svgRect.top) / zoom
+              };
+              // Insert after edgeIdx
+              h.points.splice(edgeIdx + 1, 0, newPoint);
+              markUnsaved();
+              renderHotspots();
+            });
+          });
+          
+          // Vertex drag and click-to-delete
           div.querySelectorAll('.vertex-handle').forEach(vh => {
+            let vertexDragStartPos = null;
             vh.addEventListener('mousedown', (e) => {
               e.stopPropagation();
               vertexIndex = parseInt(vh.dataset.vertex);
               selectedIndex = index;
               originalPoints = h.points.map(p => ({...p}));
               moveStart = { x: e.clientX, y: e.clientY };
+              vertexDragStartPos = { x: e.clientX, y: e.clientY };
               updateUI();
+            });
+            vh.addEventListener('mouseup', (e) => {
+              // Check if it was a click (minimal movement)
+              if (vertexDragStartPos) {
+                const dist = Math.hypot(e.clientX - vertexDragStartPos.x, e.clientY - vertexDragStartPos.y);
+                if (dist < 5 && h.points.length > 3) {
+                  // Delete vertex
+                  const vi = parseInt(vh.dataset.vertex);
+                  h.points.splice(vi, 1);
+                  vertexIndex = null;
+                  markUnsaved();
+                  renderHotspots();
+                }
+              }
+              vertexDragStartPos = null;
             });
           });
           
@@ -1321,11 +1411,13 @@
       
       diagramContainer.className = 'diagram-container';
       if (mode === 'draw') diagramContainer.classList.add('drawing');
+      if (mode === 'isometric') diagramContainer.classList.add('isometric');
       if (mode === 'polygon') diagramContainer.classList.add('polygon');
       
       const hints = {
         select: 'Click hotspot to select • Drag empty space to pan',
         draw: 'Click and drag to draw rectangle',
+        isometric: 'Click and drag to draw diamond/lozenge',
         polygon: 'Click to add points • Click first point to close',
       };
       document.getElementById('modeHint').textContent = hints[mode];
@@ -1366,6 +1458,7 @@
       document.getElementById('refDialog').classList.remove('visible');
       pendingShape = null;
       drawPreview.classList.remove('visible');
+      isometricPreview.style.display = 'none';
       
       // Fully reset polygon drawing state
       polygonPoints = [];
@@ -1404,7 +1497,7 @@
         return;
       }
       
-      if (currentMode === 'draw') {
+      if (currentMode === 'draw' || currentMode === 'isometric') {
         drawStart = pos;
         isDrawing = true;
         diagramContainer.classList.add('hide-hotspots');
@@ -1449,12 +1542,28 @@
       }
       
       if (isDrawing && drawStart) {
-        const left = Math.min(drawStart.x, pos.x);
-        const top = Math.min(drawStart.y, pos.y);
-        const width = Math.abs(pos.x - drawStart.x);
-        const height = Math.abs(pos.y - drawStart.y);
-        drawPreview.style.cssText = `left:${left}px;top:${top}px;width:${width}px;height:${height}px;`;
-        drawPreview.classList.add('visible');
+        if (currentMode === 'isometric') {
+          // Draw diamond/lozenge shape
+          const midX = (drawStart.x + pos.x) / 2;
+          const midY = (drawStart.y + pos.y) / 2;
+          const points = [
+            `${midX},${drawStart.y}`,  // top
+            `${pos.x},${midY}`,         // right
+            `${midX},${pos.y}`,         // bottom
+            `${drawStart.x},${midY}`,   // left
+          ].join(' ');
+          isometricPreview.style.display = 'block';
+          isometricShape.setAttribute('points', points);
+          drawPreview.classList.remove('visible');
+        } else {
+          const left = Math.min(drawStart.x, pos.x);
+          const top = Math.min(drawStart.y, pos.y);
+          const width = Math.abs(pos.x - drawStart.x);
+          const height = Math.abs(pos.y - drawStart.y);
+          drawPreview.style.cssText = `left:${left}px;top:${top}px;width:${width}px;height:${height}px;`;
+          drawPreview.classList.add('visible');
+          isometricPreview.style.display = 'none';
+        }
       }
       
       if (currentMode === 'polygon' && polygonPoints.length > 0) {
@@ -1521,15 +1630,29 @@
       
       if (isDrawing && drawStart) {
         const pos = getImagePos(e);
-        const left = Math.min(drawStart.x, pos.x);
-        const top = Math.min(drawStart.y, pos.y);
         const width = Math.abs(pos.x - drawStart.x);
         const height = Math.abs(pos.y - drawStart.y);
         
         if (width > 10 && height > 10) {
-          showRefDialog({ type: 'rect', bbox: { x: left, y: top, width, height } });
+          if (currentMode === 'isometric') {
+            // Create diamond polygon
+            const midX = (drawStart.x + pos.x) / 2;
+            const midY = (drawStart.y + pos.y) / 2;
+            const points = [
+              { x: midX, y: drawStart.y },  // top
+              { x: pos.x, y: midY },         // right
+              { x: midX, y: pos.y },         // bottom
+              { x: drawStart.x, y: midY },   // left
+            ];
+            showRefDialog({ type: 'polygon', points });
+          } else {
+            const left = Math.min(drawStart.x, pos.x);
+            const top = Math.min(drawStart.y, pos.y);
+            showRefDialog({ type: 'rect', bbox: { x: left, y: top, width, height } });
+          }
         } else {
           drawPreview.classList.remove('visible');
+          isometricPreview.style.display = 'none';
           diagramContainer.classList.remove('hide-hotspots');
         }
         isDrawing = false;
@@ -1627,6 +1750,23 @@
       if ((e.key === 'Delete' || e.key === 'Backspace') && selectedIndex !== null && !e.target.matches('input')) {
         e.preventDefault();
         deleteHotspot(selectedIndex);
+      }
+      
+      // Tool shortcuts (only when not typing in input)
+      if (!e.target.matches('input') && !e.ctrlKey && !e.metaKey) {
+        if (e.key === 'v' || e.key === 'V') {
+          e.preventDefault();
+          setMode('select');
+        } else if (e.key === 'r' || e.key === 'R') {
+          e.preventDefault();
+          setMode('draw');
+        } else if (e.key === 'l' || e.key === 'L') {
+          e.preventDefault();
+          setMode('polygon');
+        } else if (e.key === 'i' || e.key === 'I') {
+          e.preventDefault();
+          setMode('isometric');
+        }
       }
     });
     
