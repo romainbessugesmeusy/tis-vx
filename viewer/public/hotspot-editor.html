@@ -875,6 +875,7 @@
     let spacePressed = false;
     let resizeHandle = null;
     let vertexIndex = null;
+    let vertexClickStart = null; // Track if vertex was clicked (for click-to-delete)
     let drawStart = null;
     let moveStart = null;
     let panStart = null;
@@ -1152,12 +1153,15 @@
             edge.addEventListener('click', (e) => {
               e.stopPropagation();
               const edgeIdx = parseInt(edge.dataset.edge);
-              const rect = div.getBoundingClientRect();
-              const svgRect = div.querySelector('svg').getBoundingClientRect();
-              // Calculate click position in image coordinates
+              const svgEl = div.querySelector('svg');
+              const svgRect = svgEl.getBoundingClientRect();
+              // Convert screen coordinates to SVG/image coordinates
+              // viewBox is in image pixels, display size is affected by zoom
+              const scaleX = bounds.width / svgRect.width;
+              const scaleY = bounds.height / svgRect.height;
               const newPoint = {
-                x: bounds.x + (e.clientX - svgRect.left) / zoom,
-                y: bounds.y + (e.clientY - svgRect.top) / zoom
+                x: bounds.x + (e.clientX - svgRect.left) * scaleX,
+                y: bounds.y + (e.clientY - svgRect.top) * scaleY
               };
               // Insert after edgeIdx
               h.points.splice(edgeIdx + 1, 0, newPoint);
@@ -1168,30 +1172,14 @@
           
           // Vertex drag and click-to-delete
           div.querySelectorAll('.vertex-handle').forEach(vh => {
-            let vertexDragStartPos = null;
             vh.addEventListener('mousedown', (e) => {
               e.stopPropagation();
               vertexIndex = parseInt(vh.dataset.vertex);
               selectedIndex = index;
               originalPoints = h.points.map(p => ({...p}));
               moveStart = { x: e.clientX, y: e.clientY };
-              vertexDragStartPos = { x: e.clientX, y: e.clientY };
-              updateUI();
-            });
-            vh.addEventListener('mouseup', (e) => {
-              // Check if it was a click (minimal movement)
-              if (vertexDragStartPos) {
-                const dist = Math.hypot(e.clientX - vertexDragStartPos.x, e.clientY - vertexDragStartPos.y);
-                if (dist < 5 && h.points.length > 3) {
-                  // Delete vertex
-                  const vi = parseInt(vh.dataset.vertex);
-                  h.points.splice(vi, 1);
-                  vertexIndex = null;
-                  markUnsaved();
-                  renderHotspots();
-                }
-              }
-              vertexDragStartPos = null;
+              vertexClickStart = { x: e.clientX, y: e.clientY, hotspotIndex: index };
+              // Don't call updateUI() here - it destroys the element mid-interaction
             });
           });
           
@@ -1543,14 +1531,19 @@
       
       if (isDrawing && drawStart) {
         if (currentMode === 'isometric') {
-          // Draw diamond/lozenge shape
+          // Draw isometric diamond (30° angles)
+          const width = pos.x - drawStart.x;
+          const height = pos.y - drawStart.y;
           const midX = (drawStart.x + pos.x) / 2;
           const midY = (drawStart.y + pos.y) / 2;
+          // Isometric uses 30° angles: vertical extent = horizontal extent * tan(30°) ≈ 0.577
+          const halfWidth = Math.abs(width) / 2;
+          const halfHeight = Math.abs(height) / 2;
           const points = [
-            `${midX},${drawStart.y}`,  // top
-            `${pos.x},${midY}`,         // right
-            `${midX},${pos.y}`,         // bottom
-            `${drawStart.x},${midY}`,   // left
+            `${midX},${midY - halfHeight}`,     // top
+            `${midX + halfWidth},${midY}`,      // right
+            `${midX},${midY + halfHeight}`,     // bottom
+            `${midX - halfWidth},${midY}`,      // left
           ].join(' ');
           isometricPreview.style.display = 'block';
           isometricShape.setAttribute('points', points);
@@ -1635,14 +1628,16 @@
         
         if (width > 10 && height > 10) {
           if (currentMode === 'isometric') {
-            // Create diamond polygon
+            // Create isometric diamond polygon (30° angles)
             const midX = (drawStart.x + pos.x) / 2;
             const midY = (drawStart.y + pos.y) / 2;
+            const halfWidth = width / 2;
+            const halfHeight = height / 2;
             const points = [
-              { x: midX, y: drawStart.y },  // top
-              { x: pos.x, y: midY },         // right
-              { x: midX, y: pos.y },         // bottom
-              { x: drawStart.x, y: midY },   // left
+              { x: midX, y: midY - halfHeight },  // top
+              { x: midX + halfWidth, y: midY },   // right
+              { x: midX, y: midY + halfHeight },  // bottom
+              { x: midX - halfWidth, y: midY },   // left
             ];
             showRefDialog({ type: 'polygon', points });
           } else {
@@ -1659,6 +1654,21 @@
         drawStart = null;
       }
       
+      // Check for vertex click-to-delete (minimal movement = click, not drag)
+      if (vertexClickStart && vertexIndex !== null) {
+        const dist = Math.hypot(e.clientX - vertexClickStart.x, e.clientY - vertexClickStart.y);
+        const h = currentData.hotspots[vertexClickStart.hotspotIndex];
+        if (dist < 5 && h && h.type === 'polygon' && h.points.length > 3) {
+          // Delete vertex on click
+          h.points.splice(vertexIndex, 1);
+          vertexIndex = null;
+          markUnsaved();
+          renderHotspots();
+          vertexClickStart = null;
+          return;
+        }
+      }
+      
       if ((isMoving || isResizing || vertexIndex !== null) && selectedIndex !== null) {
         markUnsaved();
         updateEditPanel();
@@ -1667,6 +1677,7 @@
       isMoving = false;
       isResizing = false;
       vertexIndex = null;
+      vertexClickStart = null;
       resizeHandle = null;
       moveStart = null;
       originalBbox = null;
