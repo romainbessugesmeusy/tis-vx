@@ -546,33 +546,41 @@
     .resize-handle.sw { bottom: -4px; left: -4px; cursor: sw-resize; }
     .resize-handle.se { bottom: -4px; right: -4px; cursor: se-resize; }
     
-    /* Polygon vertex handles */
+    /* Vertex layer - sits on top of SVG */
+    .vertex-layer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 100;
+      pointer-events: none; /* Layer itself doesn't capture */
+    }
+    
+    /* Polygon vertex handles - must be above SVG edges */
     .vertex-handle {
       position: absolute;
-      width: 10px;
-      height: 10px;
+      width: 18px;
+      height: 18px;
       background: #8b5cf6;
       border: 2px solid white;
       border-radius: 50%;
       transform: translate(-50%, -50%);
       cursor: move;
-      display: none;
-    }
-    
-    .hotspot-overlay.selected .vertex-handle { 
-      display: block; 
-      z-index: 10; /* Above edge segments */
+      pointer-events: auto; /* But handles do capture */
+      box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.3);
     }
     
     .vertex-handle:hover {
       background: #ef4444;
-      transform: translate(-50%, -50%) scale(1.3);
+      transform: translate(-50%, -50%) scale(1.2);
+      box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.3);
     }
     
-    /* Edge segments for adding points */
+    /* Edge segments for adding points - avoid vertex areas */
     .edge-segment {
       stroke: transparent;
-      stroke-width: 8;
+      stroke-width: 10;
       cursor: copy;
       pointer-events: stroke;
     }
@@ -581,14 +589,9 @@
       stroke: rgba(139, 92, 246, 0.4);
     }
     
-    /* Make sure SVG doesn't block vertex handles */
+    /* SVG must not block vertex handles */
     .hotspot-overlay.polygon svg {
-      pointer-events: none;
-    }
-    
-    .hotspot-overlay.polygon svg polygon,
-    .hotspot-overlay.polygon svg .edge-segment {
-      pointer-events: auto;
+      overflow: visible;
     }
     
     .sheet-code-overlay {
@@ -1153,9 +1156,9 @@
               <polygon points="${localPoints}" data-index="${index}"></polygon>
               ${edgeLines}
             </svg>
-            ${isSelected ? h.points.map((p, vi) => 
+            ${isSelected ? `<div class="vertex-layer">${h.points.map((p, vi) => 
               `<div class="vertex-handle" data-vertex="${vi}" style="left:${p.x - bounds.x}px;top:${p.y - bounds.y}px;" title="Drag to move • Click to delete"></div>`
-            ).join('') : ''}
+            ).join('')}</div>` : ''}
           `;
           
           // Events on polygon
