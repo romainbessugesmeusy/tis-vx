@@ -435,6 +435,7 @@
     
     .diagram-container.drawing { cursor: crosshair; }
     .diagram-container.polygon { cursor: crosshair; }
+    .diagram-container.lasso { cursor: crosshair; }
     .diagram-container.moving { cursor: move; }
     .diagram-container.panning { cursor: grab; }
     .diagram-container.panning:active { cursor: grabbing; }
@@ -657,6 +658,18 @@
       stroke-dasharray: 5, 5;
     }
     
+    .polygon-preview.lasso-mode polyline {
+      stroke: #f472b6;
+      stroke-dasharray: none;
+    }
+    
+    .polygon-preview.lasso-mode .close-line {
+      stroke: #f472b6;
+      stroke-width: 1;
+      stroke-dasharray: 3, 3;
+      opacity: 0.5;
+    }
+    
     .polygon-preview .temp-line {
       stroke: #4ecdc4;
       stroke-width: 1;
@@ -813,8 +826,8 @@
       </div>
       
       <div class="keyboard-hints">
-        <kbd>Del</kbd> Delete • <kbd>Esc</kbd> Select mode • <kbd>⌘S</kbd> Save<br>
-        <kbd>Scroll</kbd> Zoom • <kbd>Drag</kbd> Pan (in Select mode)
+        <kbd>V</kbd> Select • <kbd>R</kbd> Rect • <kbd>L</kbd> Poly • <kbd>O</kbd> Lasso<br>
+        <kbd>Del</kbd> Delete • <kbd>Esc</kbd> Cancel • <kbd>⌘S</kbd> Save
       </div>
     </div>
     
@@ -824,6 +837,7 @@
         <button class="mode active" data-mode="draw" title="Rectangle tool (R)">▢ Rect</button>
         <button class="mode" data-mode="isometric" title="Isometric/Diamond tool (I)">◇ Iso</button>
         <button class="mode" data-mode="polygon" title="Polygon tool (L)">⬡ Poly</button>
+        <button class="mode" data-mode="lasso" title="Lasso tool (O)">◠ Lasso</button>
         <div class="separator"></div>
         <label>Sheet:</label>
         <input type="text" id="sheetCodeInput" placeholder="A10">
@@ -847,6 +861,7 @@
           <svg class="polygon-preview" id="polygonPreview" style="display: none;">
             <polyline id="polygonLines" points=""></polyline>
             <line id="tempLine" class="temp-line" x1="0" y1="0" x2="0" y2="0"></line>
+            <line id="closeLine" class="close-line" x1="0" y1="0" x2="0" y2="0" style="display: none;"></line>
           </svg>
         </div>
         
@@ -902,6 +917,10 @@
     let polygonPoints = [];
     let tempMousePos = null;
     
+    // Lasso drawing
+    let isLassoDrawing = false;
+    const LASSO_MIN_DISTANCE = 5; // Minimum pixels between captured points
+    
     // Zoom
     let zoom = 1;
     const MIN_ZOOM = 0.25;
@@ -917,6 +936,7 @@
     const polygonPreview = document.getElementById('polygonPreview');
     const polygonLines = document.getElementById('polygonLines');
     const tempLine = document.getElementById('tempLine');
+    const closeLine = document.getElementById('closeLine');
     
     // Connection
     async function checkConnection() {
@@ -1398,15 +1418,22 @@
     function setMode(mode) {
       currentMode = mode;
       
-      // Fully reset polygon drawing state
+      // Fully reset polygon/lasso drawing state
       polygonPoints = [];
+      isLassoDrawing = false;
       polygonPreview.querySelectorAll('circle').forEach(c => c.remove());
       polygonLines.setAttribute('points', '');
       tempLine.setAttribute('x1', 0);
       tempLine.setAttribute('y1', 0);
       tempLine.setAttribute('x2', 0);
       tempLine.setAttribute('y2', 0);
+      closeLine.setAttribute('x1', 0);
+      closeLine.setAttribute('y1', 0);
+      closeLine.setAttribute('x2', 0);
+      closeLine.setAttribute('y2', 0);
+      closeLine.style.display = 'none';
       polygonPreview.style.display = 'none';
+      polygonPreview.classList.remove('lasso-mode');
       diagramContainer.classList.remove('hide-hotspots');
       
       document.querySelectorAll('.toolbar .mode').forEach(b => {
@@ -1417,12 +1444,14 @@
       if (mode === 'draw') diagramContainer.classList.add('drawing');
       if (mode === 'isometric') diagramContainer.classList.add('isometric');
       if (mode === 'polygon') diagramContainer.classList.add('polygon');
+      if (mode === 'lasso') diagramContainer.classList.add('lasso');
       
       const hints = {
         select: 'Click hotspot to select • Drag empty space to pan',
         draw: 'Click and drag to draw rectangle',
         isometric: 'Click and drag to draw diamond/lozenge',
         polygon: 'Click to add points • Click first point to close',
+        lasso: 'Click and drag to draw freehand shape',
       };
       document.getElementById('modeHint').textContent = hints[mode];
       
@@ -1464,14 +1493,21 @@
       drawPreview.classList.remove('visible');
       isometricPreview.style.display = 'none';
       
-      // Fully reset polygon drawing state
+      // Fully reset polygon/lasso drawing state
       polygonPoints = [];
+      isLassoDrawing = false;
       polygonPreview.querySelectorAll('circle').forEach(c => c.remove());
+      polygonPreview.classList.remove('lasso-mode');
       polygonLines.setAttribute('points', '');
       tempLine.setAttribute('x1', 0);
       tempLine.setAttribute('y1', 0);
       tempLine.setAttribute('x2', 0);
       tempLine.setAttribute('y2', 0);
+      closeLine.setAttribute('x1', 0);
+      closeLine.setAttribute('y1', 0);
+      closeLine.setAttribute('x2', 0);
+      closeLine.setAttribute('y2', 0);
+      closeLine.style.display = 'none';
       polygonPreview.style.display = 'none';
       
       diagramContainer.classList.remove('hide-hotspots');
@@ -1505,6 +1541,13 @@
         drawStart = pos;
         isDrawing = true;
         diagramContainer.classList.add('hide-hotspots');
+      } else if (currentMode === 'lasso') {
+        // Start lasso drawing
+        isLassoDrawing = true;
+        polygonPoints = [pos];
+        diagramContainer.classList.add('hide-hotspots');
+        polygonPreview.classList.add('lasso-mode');
+        updateLassoPreview();
       } else if (currentMode === 'polygon') {
         // Check if clicking near first point to close
         if (polygonPoints.length >= 3) {
@@ -1579,6 +1622,16 @@
         updatePolygonPreview();
       }
       
+      // Lasso: capture points while dragging
+      if (isLassoDrawing && polygonPoints.length > 0) {
+        const lastPoint = polygonPoints[polygonPoints.length - 1];
+        const dist = Math.hypot(pos.x - lastPoint.x, pos.y - lastPoint.y);
+        if (dist >= LASSO_MIN_DISTANCE) {
+          polygonPoints.push(pos);
+          updateLassoPreview();
+        }
+      }
+      
       if (isMoving && moveStart && selectedIndex !== null) {
         const dx = (e.clientX - moveStart.x) / zoom;
         const dy = (e.clientY - moveStart.y) / zoom;
@@ -1634,6 +1687,25 @@
         isPanning = false;
         panStart = null;
         diagramContainer.classList.remove('panning');
+        return;
+      }
+      
+      // Finish lasso drawing
+      if (isLassoDrawing) {
+        isLassoDrawing = false;
+        if (polygonPoints.length >= 3) {
+          // Simplify the polygon to reduce point count
+          const simplified = simplifyPolygon(polygonPoints, 3);
+          if (simplified.length >= 3) {
+            showRefDialog({ type: 'polygon', points: simplified });
+          } else {
+            // Not enough points after simplification
+            resetLassoState();
+          }
+        } else {
+          // Not enough points
+          resetLassoState();
+        }
         return;
       }
       
@@ -1737,6 +1809,88 @@
       });
     }
     
+    function updateLassoPreview() {
+      if (polygonPoints.length === 0) {
+        polygonPreview.style.display = 'none';
+        return;
+      }
+      
+      polygonPreview.style.display = 'block';
+      polygonLines.setAttribute('points', polygonPoints.map(p => `${p.x},${p.y}`).join(' '));
+      
+      // Show closing line from last point back to first
+      if (polygonPoints.length >= 2) {
+        const first = polygonPoints[0];
+        const last = polygonPoints[polygonPoints.length - 1];
+        closeLine.setAttribute('x1', last.x);
+        closeLine.setAttribute('y1', last.y);
+        closeLine.setAttribute('x2', first.x);
+        closeLine.setAttribute('y2', first.y);
+        closeLine.style.display = 'block';
+      }
+    }
+    
+    function resetLassoState() {
+      polygonPoints = [];
+      isLassoDrawing = false;
+      polygonPreview.classList.remove('lasso-mode');
+      polygonLines.setAttribute('points', '');
+      closeLine.style.display = 'none';
+      closeLine.setAttribute('x1', 0);
+      closeLine.setAttribute('y1', 0);
+      closeLine.setAttribute('x2', 0);
+      closeLine.setAttribute('y2', 0);
+      polygonPreview.style.display = 'none';
+      diagramContainer.classList.remove('hide-hotspots');
+    }
+    
+    // Douglas-Peucker polygon simplification
+    function simplifyPolygon(points, tolerance) {
+      if (points.length <= 2) return points;
+      
+      // Find the point with the maximum distance from line between first and last
+      let maxDist = 0;
+      let maxIndex = 0;
+      const first = points[0];
+      const last = points[points.length - 1];
+      
+      for (let i = 1; i < points.length - 1; i++) {
+        const dist = perpendicularDistance(points[i], first, last);
+        if (dist > maxDist) {
+          maxDist = dist;
+          maxIndex = i;
+        }
+      }
+      
+      // If max distance is greater than tolerance, recursively simplify
+      if (maxDist > tolerance) {
+        const left = simplifyPolygon(points.slice(0, maxIndex + 1), tolerance);
+        const right = simplifyPolygon(points.slice(maxIndex), tolerance);
+        return left.slice(0, -1).concat(right);
+      } else {
+        return [first, last];
+      }
+    }
+    
+    function perpendicularDistance(point, lineStart, lineEnd) {
+      const dx = lineEnd.x - lineStart.x;
+      const dy = lineEnd.y - lineStart.y;
+      const lineLengthSq = dx * dx + dy * dy;
+      
+      if (lineLengthSq === 0) {
+        return Math.hypot(point.x - lineStart.x, point.y - lineStart.y);
+      }
+      
+      const t = Math.max(0, Math.min(1, 
+        ((point.x - lineStart.x) * dx + (point.y - lineStart.y) * dy) / lineLengthSq
+      ));
+      
+      const projX = lineStart.x + t * dx;
+      const projY = lineStart.y + t * dy;
+      
+      return Math.hypot(point.x - projX, point.y - projY);
+    }
+    
     // Zoom wheel - gentler zoom speed
     viewport.addEventListener('wheel', (e) => {
       if (!currentData) return;
@@ -1761,6 +1915,8 @@
       if (e.key === 'Escape') {
         if (pendingShape) {
           closeDialog();
+        } else if (isLassoDrawing || (currentMode === 'lasso' && polygonPoints.length > 0)) {
+          resetLassoState();
         } else if (polygonPoints.length > 0) {
           polygonPoints = [];
           diagramContainer.classList.remove('hide-hotspots');
@@ -1793,6 +1949,9 @@
         } else if (e.key === 'i' || e.key === 'I') {
           e.preventDefault();
           setMode('isometric');
+        } else if (e.key === 'o' || e.key === 'O') {
+          e.preventDefault();
+          setMode('lasso');
         }
       }
     });

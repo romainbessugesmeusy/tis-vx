@@ -157,10 +157,22 @@ The server runs on port **3001**.
 | **Rectangle** | ▢ | `R` | Click and drag to draw rectangular hotspots |
 | **Isometric** | ◇ | `I` | Click and drag to draw diamond/lozenge shapes for isometric parts |
 | **Polygon** | ⬡ | `L` | Click to place vertices, click first point to close |
+| **Lasso** | ◠ | `O` | Click and drag freehand to trace irregular shapes |
 
 ### Drawing Behavior
 
-When actively drawing (rectangle/isometric drag or placing polygon points), existing hotspots are automatically **hidden** (faded to 15% opacity and non-interactive). This allows drawing new hotspots over existing ones when parts overlap. Hotspots restore when drawing completes or is cancelled.
+When actively drawing (rectangle/isometric/lasso drag or placing polygon points), existing hotspots are automatically **hidden** (faded to 15% opacity and non-interactive). This allows drawing new hotspots over existing ones when parts overlap. Hotspots restore when drawing completes or is cancelled.
+
+### Lasso Drawing
+
+The lasso tool creates polygon hotspots by tracing freehand:
+
+1. Click and hold to start drawing
+2. Drag to trace around the part - points are captured as you move
+3. Release mouse button - the shape auto-closes
+4. Enter the ref number in the dialog
+
+The lasso automatically **simplifies** the captured path using the Douglas-Peucker algorithm, reducing hundreds of raw points to a clean polygon with ~10-30 vertices.
 
 ### Polygon Point Editing
 
@@ -197,6 +209,7 @@ Visual indicators:
 | `R` | Switch to Rectangle mode |
 | `I` | Switch to Isometric mode |
 | `L` | Switch to Polygon mode |
+| `O` | Switch to Lasso mode |
 | `Esc` | Cancel current action → Deselect → Switch to Select mode |
 | `Del` / `Backspace` | Delete selected hotspot |
 | `Cmd/Ctrl + S` | Save changes |
@@ -217,6 +230,7 @@ Visual indicators:
 - **Orange dot** next to "Hotspots": Unsaved changes
 - **Blue border**: Rectangle hotspot
 - **Purple border**: Polygon hotspot
+- **Pink line**: Lasso drawing preview
 - **Red border**: Selected hotspot
 - **Orange border**: Highlighted hotspot (hover)
 
@@ -356,10 +370,11 @@ const displayX = hotspot.bbox.x * scaleX;
 - **Polygon mode**: Great for parts with irregular shapes or leader lines
 - **Rectangle mode**: Faster for simple isolated parts
 - **Isometric mode**: Perfect for parts drawn in isometric projection (rotated view)
+- **Lasso mode**: Fastest for complex shapes - just trace around the part freehand
 - **Sheet codes**: Edit in the toolbar input field
 - **Repeated numbers**: Create multiple hotspots with the same ref
-- **Overlapping parts**: Use polygons to trace exact boundaries
-- **Edit polygons**: Select a polygon, then drag vertices or click edges to refine the shape
+- **Overlapping parts**: Use polygons or lasso to trace exact boundaries
+- **Edit polygons**: Select a polygon (including lasso-created ones), then drag vertices or click edges to refine the shape
 
 ## Troubleshooting
 
