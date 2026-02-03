@@ -559,7 +559,10 @@
       display: none;
     }
     
-    .hotspot-overlay.selected .vertex-handle { display: block; }
+    .hotspot-overlay.selected .vertex-handle { 
+      display: block; 
+      z-index: 10; /* Above edge segments */
+    }
     
     .vertex-handle:hover {
       background: #ef4444;
@@ -569,13 +572,23 @@
     /* Edge segments for adding points */
     .edge-segment {
       stroke: transparent;
-      stroke-width: 12;
+      stroke-width: 8;
       cursor: copy;
       pointer-events: stroke;
     }
     
     .edge-segment:hover {
       stroke: rgba(139, 92, 246, 0.4);
+    }
+    
+    /* Make sure SVG doesn't block vertex handles */
+    .hotspot-overlay.polygon svg {
+      pointer-events: none;
+    }
+    
+    .hotspot-overlay.polygon svg polygon,
+    .hotspot-overlay.polygon svg .edge-segment {
+      pointer-events: auto;
     }
     
     .sheet-code-overlay {
