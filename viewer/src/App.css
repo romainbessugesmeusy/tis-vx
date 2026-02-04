@@ -3425,6 +3425,38 @@ main.content:has(.content-welcome) .content-welcome {
   background: rgba(59, 130, 246, 0.06);
 }
 
+.epc-thumb-header {
+  width: 44px;
+  padding: 8px 4px !important;
+}
+
+.epc-thumb-cell {
+  width: 44px;
+  padding: 4px !important;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.part-thumbnail {
+  display: block;
+  border-radius: 4px;
+  background: var(--bg-main);
+  transition: opacity 0.2s ease;
+}
+
+.part-thumbnail.loading {
+  opacity: 0;
+}
+
+.part-thumbnail.loaded {
+  opacity: 1;
+}
+
+.part-thumbnail-empty {
+  background: var(--bg-secondary);
+  border-radius: 4px;
+}
+
 .epc-ref-cell {
   width: 60px;
   text-align: center;

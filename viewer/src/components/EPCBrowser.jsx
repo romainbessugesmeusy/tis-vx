@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo, useCallback } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import MapViewer from './MapViewer'
+import PartThumbnail from './PartThumbnail'
 
 /**
  * EPC (Electronic Parts Catalog) Browser
@@ -189,6 +190,12 @@ function EPCBrowser() {
     return groupParts.find(p => refsMatch(p.ref, activeRef))
   }, [refsMatch])
 
+  // Find hotspot for a given ref in a diagram's hotspots
+  const findHotspotForRef = useCallback((diagramHotspots, ref) => {
+    if (!diagramHotspots?.hotspots || ref === undefined) return null
+    return diagramHotspots.hotspots.find(h => refsMatch(h.ref, ref))
+  }, [refsMatch])
+
   // Global search across all parts (for home page)
   const globalSearchResults = useMemo(() => {
     if (!data || !searchQuery.trim() || mainId) return null
@@ -333,39 +340,51 @@ function EPCBrowser() {
   )
 
   // Render a single part card (mobile-first)
-  const renderPartCard = (part, diagramId) => (
-    <div 
-      key={`${part.partNo}-${part.ref}`}
-      className={`epc-part-card ${refsMatch(highlightedRef, part.ref) ? 'highlighted' : ''} ${refsMatch(selectedRef, part.ref) ? 'selected' : ''}`}
-      onMouseEnter={() => setHighlightedRef(part.ref)}
-      onMouseLeave={() => setHighlightedRef(null)}
-    >
-      <div className="epc-part-card-header">
-        <button 
-          className={`epc-part-ref ${refsMatch(selectedRef, part.ref) ? 'selected' : ''}`}
-          onClick={() => setSelectedRef(prev => refsMatch(prev, part.ref) ? null : part.ref)}
-        >
-          {part.ref}
-        </button>
-        {part.usage && <span className="epc-part-usage">{part.usage}</span>}
-        {part.qty && <span className="epc-part-qty">×{part.qty}</span>}
-      </div>
-      <div className="epc-part-card-body">
-        <div className="epc-part-description">{part.description}</div>
-        <div className="epc-part-numbers">
-          <span className="epc-part-partno">{part.partNo}</span>
-          {part.katNo && <span className="epc-part-katno">{part.katNo}</span>}
+  const renderPartCard = (part, diagramId, diagram, diagramHotspots) => {
+    const hotspot = findHotspotForRef(diagramHotspots, part.ref)
+    return (
+      <div 
+        key={`${part.partNo}-${part.ref}`}
+        className={`epc-part-card ${refsMatch(highlightedRef, part.ref) ? 'highlighted' : ''} ${refsMatch(selectedRef, part.ref) ? 'selected' : ''}`}
+        onMouseEnter={() => setHighlightedRef(part.ref)}
+        onMouseLeave={() => setHighlightedRef(null)}
+      >
+        <div className="epc-part-card-header">
+          {diagram && hotspot && (
+            <PartThumbnail
+              diagramSrc={`/data/epc/diagrams/${diagram.filename}`}
+              hotspot={hotspot}
+              size={32}
+              padding={4}
+            />
+          )}
+          <button 
+            className={`epc-part-ref ${refsMatch(selectedRef, part.ref) ? 'selected' : ''}`}
+            onClick={() => setSelectedRef(prev => refsMatch(prev, part.ref) ? null : part.ref)}
+          >
+            {part.ref}
+          </button>
+          {part.usage && <span className="epc-part-usage">{part.usage}</span>}
+          {part.qty && <span className="epc-part-qty">×{part.qty}</span>}
+        </div>
+        <div className="epc-part-card-body">
+          <div className="epc-part-description">{part.description}</div>
+          <div className="epc-part-numbers">
+            <span className="epc-part-partno">{part.partNo}</span>
+            {part.katNo && <span className="epc-part-katno">{part.katNo}</span>}
+          </div>
         </div>
       </div>
-    </div>
-  )
+    )
+  }
 
   // Render parts table (desktop)
-  const renderPartsTable = (groupParts, diagramId) => (
+  const renderPartsTable = (groupParts, diagramId, diagram, diagramHotspots) => (
     <div className="epc-parts-table-container">
       <table className="epc-parts-table">
         <thead>
           <tr>
+            <th className="epc-thumb-header"></th>
             <th onClick={() => handleSort('ref')} className="sortable">
               Ref {sortConfig.key === 'ref' && (sortConfig.direction === 'asc' ? '↑' : '↓')}
             </th>
@@ -387,29 +406,42 @@ function EPCBrowser() {
           </tr>
         </thead>
         <tbody>
-          {groupParts.map((part, idx) => (
-            <tr 
-              key={idx} 
-              className={`${refsMatch(highlightedRef, part.ref) ? 'highlighted' : ''} ${refsMatch(selectedRef, part.ref) ? 'selected' : ''}`}
-              onMouseEnter={() => setHighlightedRef(part.ref)}
-              onMouseLeave={() => setHighlightedRef(null)}
-            >
-              <td className="epc-ref-cell">
-                <button 
-                  className={`epc-ref-badge ${refsMatch(selectedRef, part.ref) ? 'selected' : ''}`}
-                  onClick={() => setSelectedRef(prev => refsMatch(prev, part.ref) ? null : part.ref)}
-                  title="Click to highlight on diagram"
-                >
-                  {part.ref}
-                </button>
-              </td>
-              <td className="epc-desc-cell">{part.description}</td>
-              <td className="epc-usage-cell">{part.usage}</td>
-              <td className="epc-qty-cell">{part.qty}</td>
-              <td className="epc-partno-cell">{part.partNo}</td>
-              <td className="epc-katno-cell">{part.katNo}</td>
-            </tr>
-          ))}
+          {groupParts.map((part, idx) => {
+            const hotspot = findHotspotForRef(diagramHotspots, part.ref)
+            return (
+              <tr 
+                key={idx} 
+                className={`${refsMatch(highlightedRef, part.ref) ? 'highlighted' : ''} ${refsMatch(selectedRef, part.ref) ? 'selected' : ''}`}
+                onMouseEnter={() => setHighlightedRef(part.ref)}
+                onMouseLeave={() => setHighlightedRef(null)}
+              >
+                <td className="epc-thumb-cell">
+                  {diagram && hotspot && (
+                    <PartThumbnail
+                      diagramSrc={`/data/epc/diagrams/${diagram.filename}`}
+                      hotspot={hotspot}
+                      size={36}
+                      padding={5}
+                    />
+                  )}
+                </td>
+                <td className="epc-ref-cell">
+                  <button 
+                    className={`epc-ref-badge ${refsMatch(selectedRef, part.ref) ? 'selected' : ''}`}
+                    onClick={() => setSelectedRef(prev => refsMatch(prev, part.ref) ? null : part.ref)}
+                    title="Click to highlight on diagram"
+                  >
+                    {part.ref}
+                  </button>
+                </td>
+                <td className="epc-desc-cell">{part.description}</td>
+                <td className="epc-usage-cell">{part.usage}</td>
+                <td className="epc-qty-cell">{part.qty}</td>
+                <td className="epc-partno-cell">{part.partNo}</td>
+                <td className="epc-katno-cell">{part.katNo}</td>
+              </tr>
+            )
+          })}
         </tbody>
       </table>
     </div>
@@ -472,12 +504,12 @@ function EPCBrowser() {
             <div className="epc-parts-responsive">
               {/* Mobile: Card layout */}
               <div className="epc-parts-cards">
-                {groupParts.map(part => renderPartCard(part, diagramId))}
+                {groupParts.map(part => renderPartCard(part, diagramId, diagram, diagramHotspots))}
               </div>
               
               {/* Desktop: Table layout */}
               <div className="epc-parts-table-wrapper">
-                {renderPartsTable(groupParts, diagramId)}
+                {renderPartsTable(groupParts, diagramId, diagram, diagramHotspots)}
               </div>
             </div>
           </div>
