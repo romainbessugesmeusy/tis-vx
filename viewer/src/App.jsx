@@ -192,6 +192,11 @@ function App() {
     }
   }, [])
 
+  // Handle external navigation completion (memoized to prevent unnecessary re-renders)
+  const handleExternalNavComplete = useCallback(() => {
+    setExternalNavPath(null)
+  }, [])
+
   useEffect(() => {
     fetch('/data/manifest.json')
       .then(res => res.json())
@@ -260,7 +265,7 @@ function App() {
           isOpen={showMobileMenu ? isMobileMenuOpen : true}
           onClose={handleMenuClose}
           externalNavPath={externalNavPath}
-          onExternalNavComplete={() => setExternalNavPath(null)}
+          onExternalNavComplete={handleExternalNavComplete}
         />
         {!showMobileMenu && (
           <div 

@@ -702,7 +702,7 @@ function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, activeDoc
             const isActive = slug === activeDocId
 
             return (
-              <li key={id} className="column-nav-item">
+              <li key={id} className="column-nav-item" data-node-id={id}>
                 {isLeaf ? (
                   onDocumentSelect ? (
                     <button
@@ -756,7 +756,7 @@ function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, activeDoc
           const isActive = slug === activeDocId
 
           return (
-            <div key={id} className="column-group column-group-single">
+            <div key={id} className="column-group column-group-single" data-node-id={id}>
               {onDocumentSelect ? (
                 <button
                   type="button"
@@ -785,7 +785,7 @@ function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, activeDoc
         const isCollapsed = collapsedGroups.has(id)
 
         return (
-          <div key={id} className={`column-group ${isCollapsed ? 'collapsed' : ''}`}>
+          <div key={id} className={`column-group ${isCollapsed ? 'collapsed' : ''}`} data-node-id={id}>
             <button 
               type="button"
               className="column-group-label"
@@ -911,11 +911,17 @@ function ColumnNav({ roots, nodes, tocIdToSlug, searchQuery, maxVisibleColumns =
 
   const [visibleColumnStart, setVisibleColumnStart] = useState(0) // For mobile: which column to start showing
 
+  // Track if we need to scroll to selected item after external navigation
+  const scrollToSelectedRef = useRef(null)
+
   // Handle external navigation path from homepage component grid
   useEffect(() => {
     if (externalNavPath && externalNavPath.length > 0) {
       // Set the selected path to the external navigation path
       setSelectedPath(externalNavPath)
+      
+      // Mark that we need to scroll to the last item in the path
+      scrollToSelectedRef.current = externalNavPath[externalNavPath.length - 1]
       
       // In mobile mode, adjust visible column start to show the last columns
       if (isMobileColumnMode && externalNavPath.length >= maxVisibleColumns) {
@@ -929,7 +935,29 @@ function ColumnNav({ roots, nodes, tocIdToSlug, searchQuery, maxVisibleColumns =
         onExternalNavComplete()
       }
     }
-  }, [externalNavPath, onExternalNavComplete, maxVisibleColumns])
+  }, [externalNavPath, onExternalNavComplete, maxVisibleColumns, isMobileColumnMode])
+
+  // Scroll to selected item after external navigation
+  useEffect(() => {
+    if (scrollToSelectedRef.current && containerRef.current) {
+      const nodeId = scrollToSelectedRef.current
+      scrollToSelectedRef.current = null
+      
+      // Wait for DOM to update
+      requestAnimationFrame(() => {
+        // Find the selected item element
+        const selectedElement = containerRef.current?.querySelector(`[data-node-id="${nodeId}"]`)
+        if (selectedElement) {
+          selectedElement.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'nearest' })
+          // Add highlight animation
+          selectedElement.classList.add('nav-highlight')
+          setTimeout(() => {
+            selectedElement.classList.remove('nav-highlight')
+          }, 1500)
+        }
+      })
+    }
+  }, [selectedPath])
 
   // Persist selectedPath to localStorage when it changes (but not on initial load from URL)
   useEffect(() => {
@@ -1215,7 +1243,7 @@ function ColumnNav({ roots, nodes, tocIdToSlug, searchQuery, maxVisibleColumns =
                 const isActive = slug === activeDocId
 
                 return (
-                  <li key={id} className="column-nav-item">
+                  <li key={id} className="column-nav-item" data-node-id={id}>
                     {isLeaf ? (
                       onDocumentSelect ? (
                         <button
@@ -1321,7 +1349,7 @@ function TreeGroup({ nodeId, node, nodes, tocIdToSlug, expandedNodes, toggleNode
   if (filteredLeaves.length === 1 && nestedGroups.length === 0) {
     const { id, node: leafNode, slug } = filteredLeaves[0]
     return (
-      <li className="tree-group tree-group-single">
+      <li className="tree-group tree-group-single" data-tree-node-id={nodeId}>
         <NavLink
           to={`/doc/${slug}`}
           className={({ isActive }) => `tree-group-link ${isActive ? 'active' : ''}`}
@@ -1336,7 +1364,7 @@ function TreeGroup({ nodeId, node, nodes, tocIdToSlug, expandedNodes, toggleNode
 
   // Multiple items: render as collapsible dropdown
   return (
-    <li className={`tree-group ${isExpanded ? '' : 'collapsed'}`}>
+    <li className={`tree-group ${isExpanded ? '' : 'collapsed'}`} data-tree-node-id={nodeId}>
       <button 
         className="tree-group-toggle"
         onClick={() => toggleNode(nodeId)}
@@ -1400,7 +1428,7 @@ function TreeNode({ nodeId, nodes, tocIdToSlug, expandedNodes, toggleNode, searc
     }
 
     return (
-      <li className="tree-leaf">
+      <li className="tree-leaf" data-tree-node-id={nodeId}>
         <NavLink
           to={`/doc/${slug}`}
           className={({ isActive }) => `nav-link document-leaf ${isActive ? 'active' : ''}`}
@@ -1494,7 +1522,7 @@ function TreeNode({ nodeId, nodes, tocIdToSlug, expandedNodes, toggleNode, searc
   if (searchQuery && !hasVisibleDescendants) return null
 
   return (
-    <li className="tree-folder">
+    <li className="tree-folder" data-tree-node-id={nodeId}>
       <button 
         className={`folder-toggle ${isExpanded ? 'expanded' : ''}`}
         onClick={() => toggleNode(nodeId)}
@@ -1893,6 +1921,53 @@ function Sidebar({ sections, tree, tocIdToSlug, isColumnLayout, isMobile, isTabl
     }
   }, [searchQuery, hasTree, tree, tocIdToSlug, isColumnLayout])
 
+  // Track node to scroll to in tree view
+  const treeScrollToRef = useRef(null)
+  const sidebarNavRef = useRef(null)
+
+  // Handle external navigation path from homepage component grid (for tree view mode)
+  useEffect(() => {
+    if (!externalNavPath || externalNavPath.length === 0 || !hasTree || isColumnLayout) return
+
+    // In tree view mode, expand all nodes in the external nav path
+    const nodesToExpand = new Set(externalNavPath)
+    
+    setExpandedNodes(prev => {
+      const next = new Set(prev)
+      nodesToExpand.forEach(id => next.add(id))
+      return next
+    })
+
+    // Mark the last node in path for scrolling
+    treeScrollToRef.current = externalNavPath[externalNavPath.length - 1]
+
+    // Notify that navigation is complete
+    if (onExternalNavComplete) {
+      onExternalNavComplete()
+    }
+  }, [externalNavPath, hasTree, isColumnLayout, onExternalNavComplete])
+
+  // Scroll to node in tree view after external navigation
+  useEffect(() => {
+    if (treeScrollToRef.current && sidebarNavRef.current && !isColumnLayout) {
+      const nodeId = treeScrollToRef.current
+      treeScrollToRef.current = null
+      
+      // Wait for DOM to update after expansion
+      requestAnimationFrame(() => {
+        const targetElement = sidebarNavRef.current?.querySelector(`[data-tree-node-id="${nodeId}"]`)
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: 'smooth', block: 'center' })
+          // Add highlight animation
+          targetElement.classList.add('nav-highlight')
+          setTimeout(() => {
+            targetElement.classList.remove('nav-highlight')
+          }, 1500)
+        }
+      })
+    }
+  }, [expandedNodes, isColumnLayout])
+
   // Mobile overlay wrapper
   const sidebarContent = (
     <>
@@ -1969,7 +2044,7 @@ function Sidebar({ sections, tree, tocIdToSlug, isColumnLayout, isMobile, isTabl
       ) : (
         <>
           <SearchBar value={searchQuery} onChange={setSearchQuery} />
-          <nav className="sidebar-nav">
+          <nav className="sidebar-nav" ref={sidebarNavRef}>
             {isColumnLayout && hasTree ? (
               <ColumnNav
                 roots={filteredRoots}

@@ -4729,3 +4729,38 @@ main.content:has(.content-welcome) .content-welcome {
     display: none;
   }
 }
+
+/* ========================================
+   Navigation Highlight Animation
+   ======================================== */
+
+/* Highlight animation for items clicked from homepage */
+@keyframes nav-highlight-pulse {
+  0% {
+    background-color: rgba(59, 130, 246, 0.4);
+  }
+  50% {
+    background-color: rgba(59, 130, 246, 0.25);
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+.nav-highlight {
+  animation: nav-highlight-pulse 1.5s ease-out;
+  border-radius: 6px;
+}
+
+/* Tree view highlight */
+.tree-folder.nav-highlight,
+.tree-leaf.nav-highlight,
+.tree-group.nav-highlight {
+  animation: nav-highlight-pulse 1.5s ease-out;
+}
+
+/* Column view highlight */
+.column-nav-item.nav-highlight,
+.column-group.nav-highlight {
+  animation: nav-highlight-pulse 1.5s ease-out;
+}

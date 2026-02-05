@@ -171,12 +171,16 @@ function ComponentGrid({ manifest, onNavigateToComponent }) {
 
   // Handle click on component card header
   const handleComponentClick = (rootId) => {
-    onNavigateToComponent([rootId])
+    if (onNavigateToComponent) {
+      onNavigateToComponent([rootId])
+    }
   }
 
   // Handle click on a sub-component
   const handleSubComponentClick = (rootId, subComponentId) => {
-    onNavigateToComponent([rootId, subComponentId])
+    if (onNavigateToComponent) {
+      onNavigateToComponent([rootId, subComponentId])
+    }
   }
 
   return (

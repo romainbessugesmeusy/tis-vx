@@ -460,10 +460,124 @@ Each EPC node includes:
 .epc-column-count     /* Parts count pill */
 ```
 
+## Homepage Component Grid Navigation
+
+The homepage displays a grid of car component cards that allow users to quickly navigate to specific sections in the sidebar.
+
+### Flow
+
+1. User clicks on a component card (e.g., "Engine", "Brakes")
+2. `handleNavigateToComponent(path)` is called with array of node IDs
+3. `externalNavPath` state is set in App.jsx
+4. On mobile/tablet, the sidebar menu opens
+5. Sidebar receives the path and navigates to it
+6. The selected item scrolls into view and highlights
+
+### Implementation
+
+**App.jsx:**
+```javascript
+// External navigation path for sidebar
+const [externalNavPath, setExternalNavPath] = useState(null)
+
+// Handle navigation from homepage grid
+const handleNavigateToComponent = useCallback((path) => {
+  setExternalNavPath(path)
+  if (window.innerWidth < TABLET_BREAKPOINT) {
+    setIsMobileMenuOpen(true)
+  }
+}, [])
+
+// Memoized callback to clear path after navigation
+const handleExternalNavComplete = useCallback(() => {
+  setExternalNavPath(null)
+}, [])
+```
+
+**Sidebar.jsx (ColumnNav):**
+```javascript
+// Track if we need to scroll after external navigation
+const scrollToSelectedRef = useRef(null)
+
+useEffect(() => {
+  if (externalNavPath && externalNavPath.length > 0) {
+    setSelectedPath(externalNavPath)
+    scrollToSelectedRef.current = externalNavPath[externalNavPath.length - 1]
+    onExternalNavComplete?.()
+  }
+}, [externalNavPath, onExternalNavComplete, ...])
+
+// Scroll and highlight after path update
+useEffect(() => {
+  if (scrollToSelectedRef.current) {
+    const nodeId = scrollToSelectedRef.current
+    scrollToSelectedRef.current = null
+    requestAnimationFrame(() => {
+      const el = containerRef.current?.querySelector(`[data-node-id="${nodeId}"]`)
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' })
+        el.classList.add('nav-highlight')
+        setTimeout(() => el.classList.remove('nav-highlight'), 1500)
+      }
+    })
+  }
+}, [selectedPath])
+```
+
+### Data Attributes
+
+Elements need data attributes to be found for scrolling:
+
+| Attribute | Used in | Purpose |
+|-----------|---------|---------|
+| `data-node-id` | Column items | Find item in ColumnNav |
+| `data-tree-node-id` | Tree nodes | Find node in tree view |
+
+### Highlight Animation
+
+A CSS animation provides visual feedback when navigating:
+
+```css
+@keyframes nav-highlight-pulse {
+  0% { background-color: rgba(59, 130, 246, 0.4); }
+  50% { background-color: rgba(59, 130, 246, 0.25); }
+  100% { background-color: transparent; }
+}
+
+.nav-highlight {
+  animation: nav-highlight-pulse 1.5s ease-out;
+  border-radius: 6px;
+}
+```
+
+### Tree View Handling
+
+When the sidebar is in tree view mode (desktop with narrow sidebar), the external navigation:
+1. Expands all nodes in the path
+2. Scrolls to the last node
+3. Applies the same highlight animation
+
+```javascript
+// In Sidebar component
+useEffect(() => {
+  if (!externalNavPath || isColumnLayout) return
+  
+  // Expand nodes in path
+  setExpandedNodes(prev => {
+    const next = new Set(prev)
+    externalNavPath.forEach(id => next.add(id))
+    return next
+  })
+  
+  treeScrollToRef.current = externalNavPath[externalNavPath.length - 1]
+  onExternalNavComplete?.()
+}, [externalNavPath, isColumnLayout, ...])
+```
+
 ## Future Considerations
 
 - Keyboard navigation (arrow keys to move between columns/items)
-- Remembering scroll position when returning to a previously viewed section
+- ~~Remembering scroll position when returning to a previously viewed section~~ ✅ Scroll-to-view implemented
 - Column width could be configurable or adaptive based on content
 - ~~Persist collapsed group state in localStorage~~ ✅ Implemented
 - Search highlighting within groups
