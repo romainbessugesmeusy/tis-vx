@@ -490,15 +490,17 @@ function EPCBrowser() {
             )}
             
             {/* Part Info Bar - shows selected/hovered part info */}
-            {activePartInfo && (
-              <div className="epc-part-info-bar visible">
-                <span className="epc-part-info-ref">#{activePartInfo.ref}</span>
-                <span className="epc-part-info-desc">{activePartInfo.description}</span>
-                <span className="epc-part-info-partno">{activePartInfo.partNo}</span>
-                {activePartInfo.usage && <span className="epc-part-info-usage">{activePartInfo.usage}</span>}
-                {activePartInfo.qty && <span className="epc-part-info-qty">Qty: {activePartInfo.qty}</span>}
-              </div>
-            )}
+            <div className={`epc-part-info-bar ${activePartInfo ? 'visible' : ''}`}>
+              {activePartInfo && (
+                <>
+                  <span className="epc-part-info-ref">#{activePartInfo.ref}</span>
+                  <span className="epc-part-info-desc">{activePartInfo.description}</span>
+                  <span className="epc-part-info-partno">{activePartInfo.partNo}</span>
+                  {activePartInfo.usage && <span className="epc-part-info-usage">{activePartInfo.usage}</span>}
+                  {activePartInfo.qty && <span className="epc-part-info-qty">Qty: {activePartInfo.qty}</span>}
+                </>
+              )}
+            </div>
             
             {/* Parts List - Card view for mobile, table for desktop */}
             <div className="epc-parts-responsive">
