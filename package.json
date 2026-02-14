@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "hotspot-server": "node hotspot-server.js",
-    "extract-hotspots": "node extract-diagram-hotspots.js"
+    "extract-hotspots": "node extract-diagram-hotspots.js",
+    "build-rag-index": "node build-rag-index.js",
+    "rag-server": "node rag-server.js"
   },
   "keywords": [],
   "author": "",

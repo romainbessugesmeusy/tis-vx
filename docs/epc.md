@@ -342,6 +342,39 @@ In the EPC Browser:
 - **Navigation reset** → Search query and selection are cleared when navigating to a different page via sidebar
 - **Resize handle** → Drag to resize the diagram panel; height is stored in localStorage
 
+## RAG Grounding Integration
+
+The chat/RAG pipeline now consumes EPC + hotspot data to ground part explanations spatially.
+
+### Index build
+
+Run:
+
+```bash
+node build-rag-index.js
+```
+
+Generated grounding files:
+
+- `viewer/public/data/rag/parts-index.json` - flattened EPC parts records with group/subSection/main context
+- `viewer/public/data/rag/part-procedure-links.json` - links TIS `parts[]` (TSB/procedure) to EPC by normalized part number and catalogue number
+- `viewer/public/data/rag/diagram-grounding.json` - per-part diagram grounding:
+  - `diagram.id`, `diagram.filename`, `sheetCode`
+  - `ref`, `hotspot.mode` (`exact`, `numeric-fallback`, `none`)
+  - hotspot geometries (`bbox` and/or `points`)
+
+### Runtime API usage
+
+`rag-server.js` provides:
+
+- `POST /api/locate-part` for direct part localization on diagrams
+- `POST /api/chat` for responses that include:
+  - `requiredParts[]`
+  - `diagramGrounding[]`
+  - `citations[]`
+
+This allows responses such as "replace turbo on Z20LET" to include both procedural citations and EPC diagram callout links.
+
 ## Future Improvements
 
 Potential enhancements:

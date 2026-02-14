@@ -229,3 +229,53 @@ Re-run transform for that variant, then merge again so `viewer/public/data` is u
 - **Transform:** Inspect `output-*/pages/<id>.html` and `viewer/public/data/content/<id>.json` to debug classification or parsing.
 - **Merge:** Log merged node count and a sample node’s `engines`/`variants` to confirm alignment.
 - **Viewer:** Check manifest in Network tab; confirm `vehicle.engines` and node `engines`/`variants` when testing filter and content loading.
+
+---
+
+## 9. RAG and chat indexes
+
+After `transform-content.js` (and `merge-variants.js` if used), build retrieval indexes:
+
+```bash
+node build-rag-index.js
+```
+
+Optional flags:
+
+```bash
+node build-rag-index.js --data-dir viewer/public/data --output-dir viewer/public/data/rag
+```
+
+### Generated files
+
+`viewer/public/data/rag/`:
+
+- `procedure-chunks.json` - chunked retrieval corpus with deterministic `chunkId`
+- `doc-metadata.json` - content metadata (`contentType`, engines, tree paths)
+- `parts-index.json` - flattened EPC parts index
+- `part-procedure-links.json` - joined TIS `parts[]` to EPC `partNo`/`katNo`
+- `diagram-grounding.json` - part-to-diagram-to-hotspot grounding data
+- `index-manifest.json` - index build stats and file counts
+
+### API server
+
+Run the RAG API server:
+
+```bash
+node rag-server.js
+```
+
+Endpoints:
+
+- `POST /api/retrieve` - retrieval-only debug payload
+- `POST /api/locate-part` - part/diagram/hotspot lookup
+- `POST /api/chat` - structured chat response with citations
+
+Runtime behavior notes:
+
+- LLM provider settings are supplied by the chat UI (`localStorage`) on each `/api/chat` request (`provider` + `llm.apiKey` + optional `llm.model`), so the server does not require provider keys in environment variables.
+- If `provider` is set but the API key is missing or the provider call fails, `/api/chat` falls back to retrieval-based output and appends a warning instead of returning HTTP 500.
+- If indexes are not loaded, retrieval endpoints return HTTP 503 with guidance to run `node build-rag-index.js` and restart `node rag-server.js`.
+- Invalid JSON request bodies return HTTP 400 (`{ ok: false, error: "Invalid JSON request body" }`).
+
+For the viewer dev server, `viewer/vite.config.js` proxies `/api` to `http://localhost:3002`.

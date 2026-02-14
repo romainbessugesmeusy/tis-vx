@@ -1,0 +1,352 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-02-14T18:14:06.213Z",
+  "linksCount": 6,
+  "unmatchedCount": 1,
+  "links": [
+    {
+      "docId": "cheater-seal-water-ingress-around-door-mirror-area-A26D1C",
+      "docTitle": "Field Remedy: 1684",
+      "contentType": "tsb",
+      "engines": [
+        "Z20LET",
+        "Z22SE"
+      ],
+      "treePaths": [
+        "A Maintenance, Body and Chassis Sheet Metal Parts, Frame > Technical Service Bulletins > Leaks > Cheater seal - Water ingress around door mirror area",
+        "A Maintenance, Body and Chassis Sheet Metal Parts, Frame > Technical Service Bulletins > Poor Operation, Incorrect Operation > Cheater seal - Water ingress around door mirror area"
+      ],
+      "tisPart": {
+        "docId": "cheater-seal-water-ingress-around-door-mirror-area-A26D1C",
+        "docTitle": "Field Remedy: 1684",
+        "contentType": "tsb",
+        "engines": [
+          "Z20LET",
+          "Z22SE"
+        ],
+        "treePaths": [
+          "A Maintenance, Body and Chassis Sheet Metal Parts, Frame > Technical Service Bulletins > Leaks > Cheater seal - Water ingress around door mirror area",
+          "A Maintenance, Body and Chassis Sheet Metal Parts, Frame > Technical Service Bulletins > Poor Operation, Incorrect Operation > Cheater seal - Water ingress around door mirror area"
+        ],
+        "partIndex": 0,
+        "name": "Gutter Seal Extrusion",
+        "partNumber": "93182346",
+        "partNumberNormalized": "93182346",
+        "catalogueNumber": "48 01 675",
+        "catalogueNumberNormalized": "48 01 675"
+      },
+      "epcMatches": [
+        {
+          "matchType": "partNo",
+          "confidence": 0.81,
+          "partNo": "93182346",
+          "partNoNormalized": "93182346",
+          "katNo": "48 01 675",
+          "katNoNormalized": "48 01 675",
+          "description": "MOULDING,SEAL,DOOR FRAME",
+          "usage": "",
+          "qty": "2",
+          "diagramId": "26770c090df7",
+          "diagramFilename": "26770c090df7.png",
+          "diagramUrl": "/data/epc/diagrams/26770c090df7.png",
+          "ref": "-",
+          "refNormalized": null,
+          "groupId": "C",
+          "groupName": "Body interior fittings",
+          "subSectionId": "C5",
+          "subSectionName": "Weatherstrips",
+          "mainId": "C5-1",
+          "mainName": "Door weatherstrip",
+          "sheetCode": "C6",
+          "hotspotMode": "none",
+          "hotspotCount": 0
+        }
+      ]
+    },
+    {
+      "docId": "cheater-seal-water-ingress-around-door-mirror-area-A26D1C",
+      "docTitle": "Field Remedy: 1684",
+      "contentType": "tsb",
+      "engines": [
+        "Z20LET",
+        "Z22SE"
+      ],
+      "treePaths": [
+        "A Maintenance, Body and Chassis Sheet Metal Parts, Frame > Technical Service Bulletins > Leaks > Cheater seal - Water ingress around door mirror area",
+        "A Maintenance, Body and Chassis Sheet Metal Parts, Frame > Technical Service Bulletins > Poor Operation, Incorrect Operation > Cheater seal - Water ingress around door mirror area"
+      ],
+      "tisPart": {
+        "docId": "cheater-seal-water-ingress-around-door-mirror-area-A26D1C",
+        "docTitle": "Field Remedy: 1684",
+        "contentType": "tsb",
+        "engines": [
+          "Z20LET",
+          "Z22SE"
+        ],
+        "treePaths": [
+          "A Maintenance, Body and Chassis Sheet Metal Parts, Frame > Technical Service Bulletins > Leaks > Cheater seal - Water ingress around door mirror area",
+          "A Maintenance, Body and Chassis Sheet Metal Parts, Frame > Technical Service Bulletins > Poor Operation, Incorrect Operation > Cheater seal - Water ingress around door mirror area"
+        ],
+        "partIndex": 1,
+        "name": "Cheater Seal",
+        "partNumber": "93181845",
+        "partNumberNormalized": "93181845",
+        "catalogueNumber": "48 01 674",
+        "catalogueNumberNormalized": "48 01 674"
+      },
+      "epcMatches": [
+        {
+          "matchType": "partNo",
+          "confidence": 1,
+          "partNo": "93181845",
+          "partNoNormalized": "93181845",
+          "katNo": "48 01 674",
+          "katNoNormalized": "48 01 674",
+          "description": "SEAL,DOOR FRAME,FRONT,RH (USED WITH 93182346 48 01 675)",
+          "usage": "",
+          "qty": "1",
+          "diagramId": "26770c090df7",
+          "diagramFilename": "26770c090df7.png",
+          "diagramUrl": "/data/epc/diagrams/26770c090df7.png",
+          "ref": "1",
+          "refNormalized": "1",
+          "groupId": "C",
+          "groupName": "Body interior fittings",
+          "subSectionId": "C5",
+          "subSectionName": "Weatherstrips",
+          "mainId": "C5-1",
+          "mainName": "Door weatherstrip",
+          "sheetCode": "C6",
+          "hotspotMode": "exact",
+          "hotspotCount": 1
+        }
+      ]
+    },
+    {
+      "docId": "cheater-seal-water-ingress-around-door-mirror-area-AQS315",
+      "docTitle": "Field Remedy: 1684",
+      "contentType": "tsb",
+      "engines": [
+        "Z20LET",
+        "Z22SE"
+      ],
+      "treePaths": [
+        "A Maintenance, Body and Chassis Sheet Metal Parts, Frame > Technical Service Bulletins > Leaks > Cheater seal - Water ingress around door mirror area",
+        "A Maintenance, Body and Chassis Sheet Metal Parts, Frame > Technical Service Bulletins > Poor Operation, Incorrect Operation > Cheater seal - Water ingress around door mirror area"
+      ],
+      "tisPart": {
+        "docId": "cheater-seal-water-ingress-around-door-mirror-area-AQS315",
+        "docTitle": "Field Remedy: 1684",
+        "contentType": "tsb",
+        "engines": [
+          "Z20LET",
+          "Z22SE"
+        ],
+        "treePaths": [
+          "A Maintenance, Body and Chassis Sheet Metal Parts, Frame > Technical Service Bulletins > Leaks > Cheater seal - Water ingress around door mirror area",
+          "A Maintenance, Body and Chassis Sheet Metal Parts, Frame > Technical Service Bulletins > Poor Operation, Incorrect Operation > Cheater seal - Water ingress around door mirror area"
+        ],
+        "partIndex": 0,
+        "name": "Gutter Seal Extrusion",
+        "partNumber": "93182346",
+        "partNumberNormalized": "93182346",
+        "catalogueNumber": "48 01 675",
+        "catalogueNumberNormalized": "48 01 675"
+      },
+      "epcMatches": [
+        {
+          "matchType": "partNo",
+          "confidence": 0.81,
+          "partNo": "93182346",
+          "partNoNormalized": "93182346",
+          "katNo": "48 01 675",
+          "katNoNormalized": "48 01 675",
+          "description": "MOULDING,SEAL,DOOR FRAME",
+          "usage": "",
+          "qty": "2",
+          "diagramId": "26770c090df7",
+          "diagramFilename": "26770c090df7.png",
+          "diagramUrl": "/data/epc/diagrams/26770c090df7.png",
+          "ref": "-",
+          "refNormalized": null,
+          "groupId": "C",
+          "groupName": "Body interior fittings",
+          "subSectionId": "C5",
+          "subSectionName": "Weatherstrips",
+          "mainId": "C5-1",
+          "mainName": "Door weatherstrip",
+          "sheetCode": "C6",
+          "hotspotMode": "none",
+          "hotspotCount": 0
+        }
+      ]
+    },
+    {
+      "docId": "cheater-seal-water-ingress-around-door-mirror-area-AQS315",
+      "docTitle": "Field Remedy: 1684",
+      "contentType": "tsb",
+      "engines": [
+        "Z20LET",
+        "Z22SE"
+      ],
+      "treePaths": [
+        "A Maintenance, Body and Chassis Sheet Metal Parts, Frame > Technical Service Bulletins > Leaks > Cheater seal - Water ingress around door mirror area",
+        "A Maintenance, Body and Chassis Sheet Metal Parts, Frame > Technical Service Bulletins > Poor Operation, Incorrect Operation > Cheater seal - Water ingress around door mirror area"
+      ],
+      "tisPart": {
+        "docId": "cheater-seal-water-ingress-around-door-mirror-area-AQS315",
+        "docTitle": "Field Remedy: 1684",
+        "contentType": "tsb",
+        "engines": [
+          "Z20LET",
+          "Z22SE"
+        ],
+        "treePaths": [
+          "A Maintenance, Body and Chassis Sheet Metal Parts, Frame > Technical Service Bulletins > Leaks > Cheater seal - Water ingress around door mirror area",
+          "A Maintenance, Body and Chassis Sheet Metal Parts, Frame > Technical Service Bulletins > Poor Operation, Incorrect Operation > Cheater seal - Water ingress around door mirror area"
+        ],
+        "partIndex": 1,
+        "name": "Cheater Seal",
+        "partNumber": "93181845",
+        "partNumberNormalized": "93181845",
+        "catalogueNumber": "48 01 674",
+        "catalogueNumberNormalized": "48 01 674"
+      },
+      "epcMatches": [
+        {
+          "matchType": "partNo",
+          "confidence": 1,
+          "partNo": "93181845",
+          "partNoNormalized": "93181845",
+          "katNo": "48 01 674",
+          "katNoNormalized": "48 01 674",
+          "description": "SEAL,DOOR FRAME,FRONT,RH (USED WITH 93182346 48 01 675)",
+          "usage": "",
+          "qty": "1",
+          "diagramId": "26770c090df7",
+          "diagramFilename": "26770c090df7.png",
+          "diagramUrl": "/data/epc/diagrams/26770c090df7.png",
+          "ref": "1",
+          "refNormalized": "1",
+          "groupId": "C",
+          "groupName": "Body interior fittings",
+          "subSectionId": "C5",
+          "subSectionName": "Weatherstrips",
+          "mainId": "C5-1",
+          "mainName": "Door weatherstrip",
+          "sheetCode": "C6",
+          "hotspotMode": "exact",
+          "hotspotCount": 1
+        }
+      ]
+    },
+    {
+      "docId": "engine-z22se-z22yh-high-oil-consumption-A26D1C",
+      "docTitle": "Field Remedy: 1713",
+      "contentType": "tsb",
+      "engines": [
+        "Z22SE"
+      ],
+      "treePaths": [
+        "J Engine and Engine Aggregates > Fuel Injection Systems > GMPT-E15 > Technical Service Bulletins > Poor Fuel Economy > Engine Z22SE, Z22YH - High oil consumption",
+        "J Engine and Engine Aggregates > Fuel Injection Systems > GMPT-E15 > Technical Service Bulletins > Poor Operation, Incorrect Operation > Engine Z22SE, Z22YH - High oil consumption"
+      ],
+      "tisPart": {
+        "docId": "engine-z22se-z22yh-high-oil-consumption-A26D1C",
+        "docTitle": "Field Remedy: 1713",
+        "contentType": "tsb",
+        "engines": [
+          "Z22SE"
+        ],
+        "treePaths": [
+          "J Engine and Engine Aggregates > Fuel Injection Systems > GMPT-E15 > Technical Service Bulletins > Poor Fuel Economy > Engine Z22SE, Z22YH - High oil consumption",
+          "J Engine and Engine Aggregates > Fuel Injection Systems > GMPT-E15 > Technical Service Bulletins > Poor Operation, Incorrect Operation > Engine Z22SE, Z22YH - High oil consumption"
+        ],
+        "partIndex": 0,
+        "name": "Piston ring set, Z22SE",
+        "partNumber": "9194704",
+        "partNumberNormalized": "9194704",
+        "catalogueNumber": "06 30 569",
+        "catalogueNumberNormalized": "06 30 569"
+      },
+      "epcMatches": [
+        {
+          "matchType": "partNo",
+          "confidence": 1,
+          "partNo": "9194704",
+          "partNoNormalized": "9194704",
+          "katNo": "6 30 569",
+          "katNoNormalized": "6 30 569",
+          "description": "-RING SET,PISTON,STD.",
+          "usage": "",
+          "qty": "4",
+          "diagramId": "2b37a27d72d4",
+          "diagramFilename": "2b37a27d72d4.png",
+          "diagramUrl": "/data/epc/diagrams/2b37a27d72d4.png",
+          "ref": "2",
+          "refNormalized": "2",
+          "groupId": "E",
+          "groupName": "Engine and clutch",
+          "subSectionId": "E2",
+          "subSectionName": "Z22SE petrol engine",
+          "mainId": "E2-31",
+          "mainName": "Piston and rings",
+          "sheetCode": "E20",
+          "hotspotMode": "exact",
+          "hotspotCount": 1
+        }
+      ]
+    },
+    {
+      "docId": "engine-z22se-z22yh-high-oil-consumption-A26D1C",
+      "docTitle": "Field Remedy: 1713",
+      "contentType": "tsb",
+      "engines": [
+        "Z22SE"
+      ],
+      "treePaths": [
+        "J Engine and Engine Aggregates > Fuel Injection Systems > GMPT-E15 > Technical Service Bulletins > Poor Fuel Economy > Engine Z22SE, Z22YH - High oil consumption",
+        "J Engine and Engine Aggregates > Fuel Injection Systems > GMPT-E15 > Technical Service Bulletins > Poor Operation, Incorrect Operation > Engine Z22SE, Z22YH - High oil consumption"
+      ],
+      "tisPart": {
+        "docId": "engine-z22se-z22yh-high-oil-consumption-A26D1C",
+        "docTitle": "Field Remedy: 1713",
+        "contentType": "tsb",
+        "engines": [
+          "Z22SE"
+        ],
+        "treePaths": [
+          "J Engine and Engine Aggregates > Fuel Injection Systems > GMPT-E15 > Technical Service Bulletins > Poor Fuel Economy > Engine Z22SE, Z22YH - High oil consumption",
+          "J Engine and Engine Aggregates > Fuel Injection Systems > GMPT-E15 > Technical Service Bulletins > Poor Operation, Incorrect Operation > Engine Z22SE, Z22YH - High oil consumption"
+        ],
+        "partIndex": 1,
+        "name": "Piston ring set, Z22YH",
+        "partNumber": "93174528",
+        "partNumberNormalized": "93174528",
+        "catalogueNumber": "06 30 122",
+        "catalogueNumberNormalized": "06 30 122"
+      },
+      "epcMatches": []
+    }
+  ],
+  "unmatchedTisParts": [
+    {
+      "docId": "engine-z22se-z22yh-high-oil-consumption-A26D1C",
+      "docTitle": "Field Remedy: 1713",
+      "contentType": "tsb",
+      "engines": [
+        "Z22SE"
+      ],
+      "treePaths": [
+        "J Engine and Engine Aggregates > Fuel Injection Systems > GMPT-E15 > Technical Service Bulletins > Poor Fuel Economy > Engine Z22SE, Z22YH - High oil consumption",
+        "J Engine and Engine Aggregates > Fuel Injection Systems > GMPT-E15 > Technical Service Bulletins > Poor Operation, Incorrect Operation > Engine Z22SE, Z22YH - High oil consumption"
+      ],
+      "partIndex": 1,
+      "name": "Piston ring set, Z22YH",
+      "partNumber": "93174528",
+      "partNumberNormalized": "93174528",
+      "catalogueNumber": "06 30 122",
+      "catalogueNumberNormalized": "06 30 122"
+    }
+  ]
+}
