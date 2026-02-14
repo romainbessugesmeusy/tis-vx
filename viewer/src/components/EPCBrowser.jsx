@@ -1,5 +1,5 @@
-import { useState, useEffect, useMemo, useCallback } from 'react'
-import { useParams, Link } from 'react-router-dom'
+import { useState, useEffect, useMemo, useCallback, useRef } from 'react'
+import { useParams, Link, useNavigate } from 'react-router-dom'
 import MapViewer from './MapViewer'
 import PartThumbnail from './PartThumbnail'
 
@@ -25,9 +25,11 @@ const GROUP_ICONS = {
 }
 
 function EPCBrowser() {
-  const { groupId, subSectionId, mainId } = useParams()
-  
+  const { groupId, subSectionId, mainId, diagramId } = useParams()
+  const navigate = useNavigate()
+
   const [data, setData] = useState(null)
+  const [hotspotIndex, setHotspotIndex] = useState(null) // sheetCode per diagramId from _index.json
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
   const [searchQuery, setSearchQuery] = useState('')
@@ -35,24 +37,38 @@ function EPCBrowser() {
   const [highlightedRef, setHighlightedRef] = useState(null)
   const [selectedRef, setSelectedRef] = useState(null) // Selected from parts list (click)
   const [sortConfig, setSortConfig] = useState({ key: null, direction: 'asc' })
-  const [expandedDiagrams, setExpandedDiagrams] = useState(new Set())
+  const [expandedPartGroups, setExpandedPartGroups] = useState(new Set()) // main item ids for foldable groups
   const [copiedPartNo, setCopiedPartNo] = useState(null)
+  const [diagramPanelHeight, setDiagramPanelHeight] = useState(() => {
+    try {
+      const saved = localStorage.getItem('epc-diagram-height')
+      if (saved) {
+        const n = parseInt(saved, 10)
+        if (Number.isFinite(n) && n >= 200) return Math.min(n, 1200)
+      }
+    } catch (_) {}
+    return 420
+  })
+  const isResizingEpcRef = useRef(false)
+  const lastDiagramHeightRef = useRef(diagramPanelHeight)
 
   // Reset search and selection when navigating to a different page
   useEffect(() => {
     setSearchQuery('')
     setSelectedRef(null)
     setHighlightedRef(null)
-  }, [groupId, subSectionId, mainId])
+  }, [groupId, subSectionId, mainId, diagramId])
 
-  // Load EPC data
+  // Load EPC data and hotspot index
   useEffect(() => {
-    fetch('/data/epc/parts.json')
-      .then(res => {
+    Promise.all([
+      fetch('/data/epc/parts.json').then(res => {
         if (!res.ok) throw new Error('Failed to load parts catalog')
         return res.json()
-      })
-      .then(json => {
+      }),
+      fetch('/data/epc/hotspots/_index.json').then(res => (res.ok ? res.json() : null)).catch(() => null)
+    ])
+      .then(([json, index]) => {
         // Pre-process: split descriptions into component arrays
         for (const group of json.groups) {
           for (const sub of group.subSections) {
@@ -64,6 +80,7 @@ function EPCBrowser() {
           }
         }
         setData(json)
+        setHotspotIndex(index)
         setLoading(false)
       })
       .catch(err => {
@@ -72,117 +89,129 @@ function EPCBrowser() {
       })
   }, [])
 
-  // Get current navigation context
-  const { currentGroup, currentSubSection, currentMain, parts } = useMemo(() => {
-    if (!data) return { currentGroup: null, currentSubSection: null, currentMain: null, parts: [] }
-    
-    const group = groupId ? data.groups.find(g => g.id === groupId) : null
-    const subSection = group && subSectionId 
-      ? group.subSections.find(s => s.id === subSectionId) 
-      : null
-    const main = subSection && mainId 
-      ? subSection.main.find(m => m.id === mainId) 
-      : null
-    
-    return {
-      currentGroup: group,
-      currentSubSection: subSection,
-      currentMain: main,
-      parts: main?.parts || []
+  // Diagram index: groupId -> diagramId -> { sheetCode, mainItems: [{ id, name, parts, subSectionId }] }
+  const diagramIndex = useMemo(() => {
+    if (!data?.groups || !data.groups.length) return null
+    const sheetCodeByDiagramId = new Map()
+    if (hotspotIndex?.diagrams) {
+      hotspotIndex.diagrams.forEach(d => {
+        sheetCodeByDiagramId.set(d.id, d.sheetCode ?? '?')
+      })
     }
-  }, [data, groupId, subSectionId, mainId])
-
-  // Group parts by diagram
-  const partsByDiagram = useMemo(() => {
-    if (!parts.length) return []
-    
-    const groups = new Map()
-    
-    for (const part of parts) {
-      const diagramId = part.diagramId || '_none'
-      if (!groups.has(diagramId)) {
-        groups.set(diagramId, [])
-      }
-      groups.get(diagramId).push(part)
-    }
-    
-    // Convert to array and get diagram info
-    return Array.from(groups.entries()).map(([diagramId, groupParts]) => ({
-      diagramId,
-      diagram: diagramId !== '_none' && data?.diagrams?.[diagramId] ? data.diagrams[diagramId] : null,
-      parts: groupParts
-    }))
-  }, [parts, data])
-
-  // Expand all diagrams by default when parts change
-  useEffect(() => {
-    if (partsByDiagram.length > 0) {
-      setExpandedDiagrams(new Set(partsByDiagram.map(g => g.diagramId)))
-    }
-  }, [partsByDiagram])
-
-  // Load hotspots for all diagrams in current view
-  useEffect(() => {
-    if (!partsByDiagram.length) return
-    
-    const diagramIds = partsByDiagram
-      .filter(g => g.diagramId !== '_none' && g.diagram)
-      .map(g => g.diagramId)
-    
-    // Load hotspots for each diagram
-    diagramIds.forEach(diagramId => {
-      if (!hotspots[diagramId]) {
-        fetch(`/data/epc/hotspots/${diagramId}.json`)
-          .then(res => res.ok ? res.json() : null)
-          .then(data => {
-            if (data) {
-              setHotspots(prev => ({ ...prev, [diagramId]: data }))
+    const index = {}
+    data.groups.forEach(group => {
+      index[group.id] = {}
+      group.subSections.forEach(subSection => {
+        subSection.main.forEach(main => {
+          const diagramId = main.parts[0]?.diagramId
+          if (!diagramId) return
+          if (!index[group.id][diagramId]) {
+            index[group.id][diagramId] = {
+              sheetCode: sheetCodeByDiagramId.get(diagramId) ?? '?',
+              mainItems: []
             }
+          }
+          index[group.id][diagramId].mainItems.push({
+            id: main.id,
+            name: main.name,
+            parts: main.parts,
+            subSectionId: subSection.id
           })
-          .catch(() => {})
-      }
+        })
+      })
+      if (Object.keys(index[group.id]).length === 0) delete index[group.id]
     })
-  }, [partsByDiagram])
+    return index
+  }, [data, hotspotIndex])
 
-  // Filter parts by search query
-  const filteredPartsByDiagram = useMemo(() => {
-    if (!searchQuery.trim()) return partsByDiagram
-    
-    const query = searchQuery.toLowerCase()
-    return partsByDiagram
-      .map(group => ({
-        ...group,
-        parts: group.parts.filter(part => 
-          part.description?.toLowerCase().includes(query) ||
-          part.partNo?.toLowerCase().includes(query) ||
-          part.katNo?.toLowerCase().includes(query) ||
-          part.ref?.toString().includes(query)
-        )
-      }))
-      .filter(group => group.parts.length > 0)
-  }, [partsByDiagram, searchQuery])
+  // Redirect old URL (mainId) to diagram URL
+  useEffect(() => {
+    if (!data || !mainId || !groupId || !subSectionId || diagramId) return
+    const group = data.groups.find(g => g.id === groupId)
+    const subSection = group?.subSections.find(s => s.id === subSectionId)
+    const main = subSection?.main.find(m => m.id === mainId)
+    const did = main?.parts[0]?.diagramId
+    if (did) navigate(`/epc/${groupId}/diagram/${did}`, { replace: true })
+  }, [data, groupId, subSectionId, mainId, diagramId, navigate])
 
-  // Sort parts within each group
-  const sortedPartsByDiagram = useMemo(() => {
-    if (!sortConfig.key) return filteredPartsByDiagram
-    
-    return filteredPartsByDiagram.map(group => ({
-      ...group,
-      parts: [...group.parts].sort((a, b) => {
+  // Diagram page: when groupId + diagramId, entry from diagram index
+  const diagramPageEntry = useMemo(() => {
+    if (!groupId || !diagramId || !diagramIndex) return null
+    return diagramIndex[groupId]?.[diagramId] ?? null
+  }, [diagramIndex, groupId, diagramId])
+
+  const currentGroup = useMemo(() => {
+    if (!data || !groupId) return null
+    return data.groups.find(g => g.id === groupId) ?? null
+  }, [data, groupId])
+
+  // All parts for current diagram page (for hotspot loading and active part lookup)
+  const diagramPageParts = useMemo(() => {
+    if (!diagramPageEntry?.mainItems) return []
+    return diagramPageEntry.mainItems.flatMap(m => m.parts)
+  }, [diagramPageEntry])
+
+  // Expand all part groups by default when diagram page changes
+  useEffect(() => {
+    if (diagramPageEntry?.mainItems) {
+      setExpandedPartGroups(new Set(diagramPageEntry.mainItems.map(m => m.id)))
+    }
+  }, [diagramPageEntry])
+
+  // Load hotspot for current diagram when on diagram page
+  useEffect(() => {
+    if (!diagramId || !data?.diagrams?.[diagramId]) return
+    if (hotspots[diagramId]) return
+    fetch(`/data/epc/hotspots/${diagramId}.json`)
+      .then(res => res.ok ? res.json() : null)
+      .then(hotspotData => {
+        if (hotspotData) setHotspots(prev => ({ ...prev, [diagramId]: hotspotData }))
+      })
+      .catch(() => {})
+  }, [diagramId, data?.diagrams, hotspots])
+
+  // Filter and sort main items for diagram page (foldable groups)
+  const filteredAndSortedMainItems = useMemo(() => {
+    if (!diagramPageEntry?.mainItems) return []
+    const query = searchQuery.trim().toLowerCase()
+    let items = diagramPageEntry.mainItems.map(mainItem => ({
+      ...mainItem,
+      parts: query
+        ? mainItem.parts.filter(part =>
+            part.description?.toLowerCase().includes(query) ||
+            part.partNo?.toLowerCase().includes(query) ||
+            part.katNo?.toLowerCase().includes(query) ||
+            part.ref?.toString().includes(query)
+          )
+        : mainItem.parts
+    }))
+    items = items.filter(m => m.parts.length > 0)
+    if (!sortConfig.key) return items
+    return items.map(mainItem => ({
+      ...mainItem,
+      parts: [...mainItem.parts].sort((a, b) => {
         const aVal = a[sortConfig.key] || ''
         const bVal = b[sortConfig.key] || ''
-        
         if (sortConfig.key === 'ref' || sortConfig.key === 'qty') {
           const aNum = parseInt(aVal) || 0
           const bNum = parseInt(bVal) || 0
           return sortConfig.direction === 'asc' ? aNum - bNum : bNum - aNum
         }
-        
         const comparison = aVal.toString().localeCompare(bVal.toString())
         return sortConfig.direction === 'asc' ? comparison : -comparison
       })
     }))
-  }, [filteredPartsByDiagram, sortConfig])
+  }, [diagramPageEntry, searchQuery, sortConfig])
+
+  // Toggle foldable part group (by main item id)
+  const togglePartGroup = useCallback((mainItemId) => {
+    setExpandedPartGroups(prev => {
+      const next = new Set(prev)
+      if (next.has(mainItemId)) next.delete(mainItemId)
+      else next.add(mainItemId)
+      return next
+    })
+  }, [])
 
   // Handle sort click
   const handleSort = useCallback((key) => {
@@ -192,18 +221,42 @@ function EPCBrowser() {
     }))
   }, [])
 
-  // Toggle diagram expansion
-  const toggleDiagram = useCallback((diagramId) => {
-    setExpandedDiagrams(prev => {
-      const next = new Set(prev)
-      if (next.has(diagramId)) {
-        next.delete(diagramId)
-      } else {
-        next.add(diagramId)
-      }
-      return next
-    })
+  // Resize diagram/table split (vertical drag)
+  const handleEpcResizeMouseDown = useCallback((e) => {
+    e.preventDefault()
+    isResizingEpcRef.current = true
+    document.body.style.cursor = 'row-resize'
+    document.body.style.userSelect = 'none'
   }, [])
+
+  const handleEpcResizeMouseMove = useCallback((e) => {
+    if (!isResizingEpcRef.current) return
+    const headerHeight = 60
+    const maxHeight = window.innerHeight - headerHeight - 120
+    const newHeight = Math.min(maxHeight, Math.max(200, e.clientY - headerHeight))
+    lastDiagramHeightRef.current = newHeight
+    setDiagramPanelHeight(newHeight)
+  }, [])
+
+  const handleEpcResizeMouseUp = useCallback(() => {
+    if (isResizingEpcRef.current) {
+      isResizingEpcRef.current = false
+      document.body.style.cursor = ''
+      document.body.style.userSelect = ''
+      try {
+        localStorage.setItem('epc-diagram-height', String(lastDiagramHeightRef.current))
+      } catch (_) {}
+    }
+  }, [])
+
+  useEffect(() => {
+    window.addEventListener('mousemove', handleEpcResizeMouseMove)
+    window.addEventListener('mouseup', handleEpcResizeMouseUp)
+    return () => {
+      window.removeEventListener('mousemove', handleEpcResizeMouseMove)
+      window.removeEventListener('mouseup', handleEpcResizeMouseUp)
+    }
+  }, [handleEpcResizeMouseMove, handleEpcResizeMouseUp])
 
   // Compare refs (handles string/number mismatch)
   const refsMatch = useCallback((ref1, ref2) => {
@@ -232,13 +285,37 @@ function EPCBrowser() {
     return diagramHotspots.hotspots.find(h => refsMatch(h.ref, ref))
   }, [refsMatch])
 
+  // When a hotspot is clicked (selectedRef set), expand the part's group if collapsed and scroll to the row/card
+  useEffect(() => {
+    if (selectedRef == null || !diagramPageEntry?.mainItems) return
+    const mainItem = diagramPageEntry.mainItems.find(m => m.parts.some(p => refsMatch(p.ref, selectedRef)))
+    const needsExpand = mainItem && !expandedPartGroups.has(mainItem.id)
+    if (mainItem && needsExpand) {
+      setExpandedPartGroups(prev => new Set(prev).add(mainItem.id))
+    }
+    const refKey = String(selectedRef)
+    const scrollToPart = () => {
+      const bottom = document.querySelector('.epc-diagram-split-bottom')
+      if (!bottom) return
+      // Prefer table row (visible on desktop); fallback to any part element (card on mobile)
+      const row = bottom.querySelector(`tr[data-part-ref="${refKey}"]`)
+      const el = row || bottom.querySelector(`[data-part-ref="${refKey}"]`)
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' })
+      }
+    }
+    const delay = needsExpand ? 300 : 50
+    const t = setTimeout(scrollToPart, delay)
+    return () => clearTimeout(t)
+  }, [selectedRef, diagramPageEntry, expandedPartGroups, refsMatch])
+
   // Global search across all parts (for home page)
   const globalSearchResults = useMemo(() => {
-    if (!data || !searchQuery.trim() || mainId) return null
-    
+    if (!data || !searchQuery.trim() || groupId) return null
+
     const query = searchQuery.toLowerCase()
     const results = []
-    
+
     for (const group of data.groups) {
       for (const subSection of group.subSections) {
         for (const main of subSection.main) {
@@ -256,15 +333,16 @@ function EPCBrowser() {
                 subSectionName: subSection.name,
                 mainId: main.id,
                 mainName: main.name,
+                diagramId: part.diagramId,
               })
             }
           }
         }
       }
     }
-    
+
     return results.slice(0, 100) // Limit results
-  }, [data, searchQuery, mainId])
+  }, [data, searchQuery, groupId])
 
   if (loading) {
     return (
@@ -288,25 +366,19 @@ function EPCBrowser() {
     )
   }
 
-  // Render breadcrumb navigation
+  // Render breadcrumb navigation (diagram page: group + combined title)
   const renderBreadcrumb = () => {
     if (!currentGroup) return null
-    
+    const combinedTitle = diagramPageEntry?.mainItems?.map(m => m.name).join(' / ')
     return (
       <nav className="epc-breadcrumb">
         <span className="epc-breadcrumb-item epc-breadcrumb-root">
           {GROUP_ICONS[groupId]} {currentGroup.name}
         </span>
-        {currentSubSection && (
+        {combinedTitle && (
           <>
             <span className="epc-breadcrumb-sep">›</span>
-            <span className="epc-breadcrumb-item">{currentSubSection.name}</span>
-          </>
-        )}
-        {currentMain && (
-          <>
-            <span className="epc-breadcrumb-sep">›</span>
-            <span className="epc-breadcrumb-current">{currentMain.name}</span>
+            <span className="epc-breadcrumb-current">{combinedTitle}</span>
           </>
         )}
       </nav>
@@ -345,7 +417,7 @@ function EPCBrowser() {
             {globalSearchResults.map((part, idx) => (
               <Link 
                 key={idx} 
-                to={`/epc/${part.groupId}/${part.subSectionId}/${part.mainId}`}
+                to={`/epc/${part.groupId}/diagram/${part.diagramId}`}
                 className="epc-part-card"
               >
                 <div className="epc-part-card-header">
@@ -382,6 +454,7 @@ function EPCBrowser() {
       <div 
         key={`${part.partNo}-${part.ref}`}
         className={`epc-part-card ${refsMatch(highlightedRef, part.ref) ? 'highlighted' : ''} ${refsMatch(selectedRef, part.ref) ? 'selected' : ''}`}
+        data-part-ref={String(part.ref)}
         onMouseEnter={() => setHighlightedRef(part.ref)}
         onMouseLeave={() => setHighlightedRef(null)}
       >
@@ -446,7 +519,8 @@ function EPCBrowser() {
             const hotspot = findHotspotForRef(diagramHotspots, part.ref)
             return (
               <tr 
-                key={idx} 
+                key={idx}
+                data-part-ref={String(part.ref)}
                 className={`${refsMatch(highlightedRef, part.ref) ? 'highlighted' : ''} ${refsMatch(selectedRef, part.ref) ? 'selected' : ''}`}
                 onMouseEnter={() => setHighlightedRef(part.ref)}
                 onMouseLeave={() => setHighlightedRef(null)}
@@ -488,98 +562,148 @@ function EPCBrowser() {
     </div>
   )
 
-  // Render diagram group
-  const renderDiagramGroup = (group) => {
-    const { diagramId, diagram, parts: groupParts } = group
-    const isExpanded = expandedDiagrams.has(diagramId)
+  // Diagram page: one diagram + foldable part groups
+  const renderDiagramPage = () => {
+    const diagram = data?.diagrams?.[diagramId]
     const diagramHotspots = hotspots[diagramId]
     const activeRef = selectedRef || highlightedRef
-    const activePartInfo = getActivePartInfo(groupParts, activeRef)
-    
+    const activePartInfo = getActivePartInfo(diagramPageParts, activeRef)
+
     return (
-      <div key={diagramId} className="epc-diagram-group">
-        {/* Diagram Viewer */}
-        {diagram && (
-          <div className="epc-diagram-viewer-wrapper">
-            <MapViewer
-              src={`/data/epc/diagrams/${diagram.filename}`}
-              alt={`Parts diagram`}
-              allowFullscreen={true}
-              hotspots={diagramHotspots}
-              highlightedRef={activeRef}
-              centerOnRef={selectedRef}
-              onHotspotHover={setHighlightedRef}
-              onHotspotClick={(ref) => setSelectedRef(prev => refsMatch(prev, ref) ? null : ref)}
-              className="epc-diagram-map"
-            />
+      <div className="epc-parts epc-parts-compact epc-diagram-split">
+        <div
+          className="epc-diagram-split-container"
+          style={{ '--epc-diagram-height': `${diagramPanelHeight}px` }}
+        >
+          <div className="epc-diagram-split-top">
+            <div className="epc-diagram-group">
+              {diagram && (
+                <div className="epc-diagram-viewer-wrapper">
+                  <MapViewer
+                    src={`/data/epc/diagrams/${diagram.filename}`}
+                    alt="Parts diagram"
+                    allowFullscreen={true}
+                    hotspots={diagramHotspots}
+                    highlightedRef={activeRef}
+                    centerOnRef={selectedRef}
+                    onHotspotHover={setHighlightedRef}
+                    onHotspotClick={(ref) => setSelectedRef(prev => refsMatch(prev, ref) ? null : ref)}
+                    className="epc-diagram-map"
+                  />
+                </div>
+              )}
+            </div>
           </div>
-        )}
-        
-        {/* Part Info Bar - shows selected/hovered part info */}
-        <div className={`epc-part-info-bar ${activePartInfo ? 'visible' : ''}`}>
-          {activePartInfo && (
-            <>
-              <span className="epc-part-info-ref">#{activePartInfo.ref}</span>
-              <span className="epc-part-info-desc">{activePartInfo.descriptionParts.join(', ')}</span>
-              <span className="epc-part-info-partno epc-copyable" onClick={(e) => handleCopyPartNo(activePartInfo.partNo, e)} title="Click to copy">
-                {activePartInfo.partNo}
-                <span className={`epc-copy-icon ${copiedPartNo === activePartInfo.partNo ? 'copied' : ''}`}>
-                  {copiedPartNo === activePartInfo.partNo ? '✓' : '⧉'}
-                </span>
-              </span>
-              {activePartInfo.usage && <span className="epc-part-info-usage">{activePartInfo.usage}</span>}
-              {activePartInfo.qty && <span className="epc-part-info-qty">Qty: {activePartInfo.qty}</span>}
-            </>
-          )}
-        </div>
-        
-        {/* Parts List - Card view for mobile, table for desktop */}
-        <div className="epc-parts-responsive">
-          {/* Mobile: Card layout */}
-          <div className="epc-parts-cards">
-            {groupParts.map(part => renderPartCard(part, diagramId, diagram, diagramHotspots))}
-          </div>
-          
-          {/* Desktop: Table layout */}
-          <div className="epc-parts-table-wrapper">
-            {renderPartsTable(groupParts, diagramId, diagram, diagramHotspots)}
+          <div
+            className="epc-epc-resize-handle"
+            onMouseDown={handleEpcResizeMouseDown}
+            title="Drag to resize"
+          />
+          <div className="epc-diagram-split-bottom">
+            <div className={`epc-part-info-bar ${activePartInfo ? 'visible' : ''}`}>
+              {activePartInfo ? (
+                <>
+                  <span className="epc-part-info-ref">#{activePartInfo.ref}</span>
+                  <span className="epc-part-info-desc">{activePartInfo.descriptionParts?.join(', ') || activePartInfo.description}</span>
+                  <span className="epc-part-info-partno epc-copyable" onClick={(e) => handleCopyPartNo(activePartInfo.partNo, e)} title="Click to copy">
+                    {activePartInfo.partNo}
+                    <span className={`epc-copy-icon ${copiedPartNo === activePartInfo.partNo ? 'copied' : ''}`}>
+                      {copiedPartNo === activePartInfo.partNo ? '✓' : '⧉'}
+                    </span>
+                  </span>
+                  {activePartInfo.usage && <span className="epc-part-info-usage">{activePartInfo.usage}</span>}
+                  {activePartInfo.qty && <span className="epc-part-info-qty">Qty: {activePartInfo.qty}</span>}
+                </>
+              ) : (
+                <span className="epc-part-info-placeholder">Hover or click a part to see details</span>
+              )}
+            </div>
+            <div className="epc-search-container">
+              <input
+                type="text"
+                placeholder="Filter parts on this diagram..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="epc-search-input"
+              />
+              {searchQuery && (
+                <button className="epc-search-clear" onClick={() => setSearchQuery('')}>×</button>
+              )}
+            </div>
+            <div className="epc-parts-groups">
+            {filteredAndSortedMainItems.length === 1 ? (
+              <div className="epc-parts-group-content">
+                <div className="epc-parts-responsive">
+                  <div className="epc-parts-cards">
+                    {filteredAndSortedMainItems[0].parts.map(part => renderPartCard(part, diagramId, diagram, diagramHotspots))}
+                  </div>
+                  <div className="epc-parts-table-wrapper">
+                    {renderPartsTable(filteredAndSortedMainItems[0].parts, diagramId, diagram, diagramHotspots)}
+                  </div>
+                </div>
+              </div>
+            ) : (
+              filteredAndSortedMainItems.map((mainItem) => {
+                const isExpanded = expandedPartGroups.has(mainItem.id)
+                return (
+                  <div key={mainItem.id} className="epc-parts-group">
+                    <button
+                      type="button"
+                      className="epc-parts-group-header"
+                      onClick={() => togglePartGroup(mainItem.id)}
+                      aria-expanded={isExpanded}
+                    >
+                      <span className="epc-parts-group-chevron">{isExpanded ? '▼' : '▶'}</span>
+                      <span className="epc-parts-group-title">{mainItem.name}</span>
+                      <span className="epc-parts-group-count">{mainItem.parts.length}</span>
+                    </button>
+                    {isExpanded && (
+                      <div className="epc-parts-group-content">
+                        <div className="epc-parts-responsive">
+                          <div className="epc-parts-cards">
+                            {mainItem.parts.map(part => renderPartCard(part, diagramId, diagram, diagramHotspots))}
+                          </div>
+                          <div className="epc-parts-table-wrapper">
+                            {renderPartsTable(mainItem.parts, diagramId, diagram, diagramHotspots)}
+                          </div>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                )
+              })
+            )}
+            </div>
+            {filteredAndSortedMainItems.length === 0 && searchQuery && (
+              <div className="epc-no-results">
+                <p>No parts match "{searchQuery}"</p>
+              </div>
+            )}
           </div>
         </div>
       </div>
     )
   }
 
-  // Render main parts view (grouped by diagram)
-  const renderPartsView = () => (
-    <div className="epc-parts epc-parts-compact">
-      {/* Diagram Groups - directly render without extra headers */}
-      <div className="epc-diagram-groups">
-        {sortedPartsByDiagram.map(group => renderDiagramGroup(group))}
-      </div>
-
-      {sortedPartsByDiagram.length === 0 && searchQuery && (
-        <div className="epc-no-results">
-          <p>No parts match "{searchQuery}"</p>
-        </div>
-      )}
-    </div>
-  )
-
-  // Main render logic - Show home if no main item selected
-  if (!mainId) {
+  // Main render: home when no group, diagram page when groupId + diagramId, else not found
+  if (!groupId) {
     return renderHome()
   }
 
-  if (!currentMain) {
-    return (
-      <div className="epc-error">
-        <p>Part section not found</p>
-        <Link to="/epc">Back to Parts Catalog</Link>
-      </div>
-    )
+  if (groupId && diagramId) {
+    if (!diagramPageEntry) {
+      return (
+        <div className="epc-error">
+          <p>Diagram not found</p>
+          <Link to="/epc">Back to Parts Catalog</Link>
+        </div>
+      )
+    }
+    return renderDiagramPage()
   }
 
-  return renderPartsView()
+  // Old URL (groupId + subSectionId + mainId) is redirected in useEffect; if we land here, show home
+  return renderHome()
 }
 
 export default EPCBrowser

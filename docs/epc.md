@@ -134,21 +134,26 @@ Raw descriptions from the EPC source are ALL CAPS and comma-separated without sp
 
 Main component for browsing the parts catalog.
 
+**Diagram-centric pages:** The viewer aggregates pages by shared diagram. Main items that share the same diagram (e.g. "Front spoiler" and "Rear spoiler" both on diagram B6) are shown on a single page. The sidebar lists one entry per diagram per group, with a combined title (e.g. "Front spoiler / Rear spoiler"). Old URLs (`/epc/:groupId/:subSectionId/:mainId`) redirect to the diagram URL.
+
 **Features:**
-- **Groups Grid**: Visual grid of all groups (A-R) with icons
-- **Hierarchical Navigation**: Drill down through levels with breadcrumbs
-- **Parts Table**: Sortable columns (click headers), filterable by search
-- **Inline Diagram Viewer**: MapViewer with zoom/pan embedded directly in the page (no modal)
+- **Groups Grid**: Visual grid of all groups (A-R) with icons (home)
+- **Diagram-based navigation**: Sidebar shows group → diagram leaves (no subSection level); each leaf opens one diagram page with all main items that use that diagram
+- **Resizable diagram/table split**: On a diagram page, the top panel is the diagram viewer only; a horizontal drag handle resizes it; the bottom panel (part info bar, search, parts list) has its own vertical scroll. Split height is persisted in localStorage (`epc-diagram-height`)
+- **Foldable part groups**: Parts are grouped by original main item (e.g. "Front spoiler", "Rear spoiler") in collapsible sections with bold headers and part count. When a diagram has only one group, the group header is hidden
+- **Part info bar**: Sits below the drag handle in the table section. Shows selected/hovered part details; when empty shows placeholder "Hover or click a part to see details"
+- **Parts table**: Sortable columns (click headers), filterable by search (pill-shaped search field in the table section). Smaller table header row for clearer hierarchy
+- **Inline Diagram Viewer**: MapViewer fills the top panel height; zoom/pan, fullscreen
 - **Center on Part**: Clicking a ref badge in the table pans and zooms the diagram to that hotspot
-- **Global Search**: Search across all parts by description, part number, or catalog number (auto-cleared on navigation)
+- **Scroll to part**: Clicking a hotspot on the diagram selects the part, expands its group if collapsed, and scrolls the table to that row (smooth, centered)
+- **Global Search**: On home, search across all parts; results link to diagram pages
 - **Copy Part Number**: Click any Part No cell (table or info bar) to copy to clipboard
 - **Prettified Descriptions**: Raw ALL CAPS descriptions are parsed into readable sentence case
 
 **Routes:**
 - `/epc` - Groups grid (home)
-- `/epc/:groupId` - Sub sections list
-- `/epc/:groupId/:subSectionId` - Main items list
-- `/epc/:groupId/:subSectionId/:mainId` - Parts table
+- `/epc/:groupId/diagram/:diagramId` - Diagram page (one diagram, all main items that use it, foldable part groups)
+- `/epc/:groupId/:subSectionId/:mainId` - Redirects to `/epc/:groupId/diagram/:diagramId` for the same content
 
 ### Sidebar Integration
 
@@ -192,10 +197,16 @@ Key CSS classes:
 - `.epc-groups-grid` - Groups home page grid
 - `.epc-group-card` - Individual group card
 - `.epc-list` / `.epc-list-item` - Sub section and main item lists
-- `.epc-parts-table` - Parts table with sortable headers
-- `.epc-diagram-group` - Diagram + table group (edge-to-edge, no border/radius)
+- `.epc-parts-table` - Parts table with sortable headers (smaller thead on diagram page)
+- `.epc-diagram-split` - Diagram page: full-height flex column
+- `.epc-diagram-split-container` - Wrapper for top panel, resize handle, bottom panel
+- `.epc-diagram-split-top` - Diagram viewer panel (height from `--epc-diagram-height`)
+- `.epc-epc-resize-handle` - Horizontal drag handle between diagram and table (row-resize)
+- `.epc-diagram-split-bottom` - Scrollable table section (overflow-y: auto)
+- `.epc-diagram-group` - Diagram viewer wrapper (inside split top)
 - `.epc-diagram-viewer-wrapper` - Viewer background (uses `--bg-sidebar` for consistency)
-- `.epc-part-info-bar` - Hovered/selected part info (fixed height, visibility toggle)
+- `.epc-parts-group` / `.epc-parts-group-header` / `.epc-parts-group-content` - Foldable part sections (bold header, chevron, count)
+- `.epc-part-info-bar` - Selected/hovered part info below drag handle; placeholder when empty
 - `.epc-copyable` / `.epc-copy-icon` - Copy-to-clipboard interaction on part numbers
 - `.sidebar-mode-toggle` - Manual/Parts mode toggle
 
@@ -287,11 +298,12 @@ A browser-based editor is available at `/hotspot-editor.html` to:
 In the EPC Browser:
 - **Hover table row** → Highlights corresponding hotspot(s) on the diagram (polygon outlines only, no bounding box)
 - **Hover hotspot** → Highlights corresponding table row(s)
+- **Click hotspot** → Selects part, expands its foldable group if collapsed, scrolls the table section to that part (smooth), and centers diagram on the hotspot
 - **Click ref badge** → Selects part and centers/zooms diagram on the hotspot (`centerOnRef` prop on MapViewer)
-- **Part Info Bar** → Shows hovered/selected part details between diagram and table (always rendered with fixed height to prevent layout shift)
+- **Part Info Bar** → Below the resize handle in the table section; shows hovered/selected part details; placeholder "Hover or click a part to see details" when empty
 - **Click Part No** → Copies to clipboard with visual feedback (checkmark)
 - **Navigation reset** → Search query and selection are cleared when navigating to a different page via sidebar
-- Sheet code is displayed below the diagram
+- **Resize handle** → Drag to resize the diagram panel; height is stored in localStorage
 
 ## Future Improvements
 

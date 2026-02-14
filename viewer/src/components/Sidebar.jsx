@@ -86,101 +86,65 @@ const STORAGE_KEYS = {
 }
 
 // Build EPC tree structure from parts.json data
-// Converts the EPC hierarchy (Groups → SubSections → Main) into a tree format
-// compatible with ColumnNav and TreeNode components
-// 
-// Optimization: When a subsection has only one main item, collapse it into a
-// direct leaf node (skip the intermediate level)
+// Aggregates by diagram: each group has direct children = one leaf per unique diagram
+// (multiple main items sharing a diagram become one page with title "Name1 / Name2")
 function buildEpcTree(epcData) {
   if (!epcData || !epcData.groups) return null
-  
+
   const nodes = {}
   const roots = []
-  const epcIdToSlug = {} // Maps node IDs to URL slugs for navigation
-  
+  const epcIdToSlug = {}
+
   epcData.groups.forEach(group => {
-    // Add group as root node
-    const groupId = `epc-${group.id}`
-    roots.push(groupId)
-    
-    const subSectionIds = []
-    
-    // Process subsections
+    const groupNodeId = `epc-${group.id}`
+    roots.push(groupNodeId)
+
+    // Within this group, collect all main items and group by diagramId
+    const byDiagram = new Map() // diagramId -> { titleParts: string[], partsCount: number }
     group.subSections.forEach(subSection => {
-      const subSectionId = `epc-${subSection.id}`
-      const partsCount = subSection.main.reduce((a, m) => a + m.parts.length, 0)
-      
-      // Optimization: If subsection has only one main item, make subsection a leaf
-      if (subSection.main.length === 1) {
-        const main = subSection.main[0]
-        subSectionIds.push(subSectionId)
-        
-        // Create subsection as leaf node (direct link to parts)
-        nodes[subSectionId] = {
-          id: subSectionId,
-          title: subSection.name,
-          isLeaf: true,
-          children: null,
-          parentId: groupId,
-          epcGroupId: group.id,
-          epcSubSectionId: subSection.id,
-          epcMainId: main.id,
-          partsCount: partsCount
+      subSection.main.forEach(main => {
+        const did = main.parts[0]?.diagramId
+        if (!did) return
+        if (!byDiagram.has(did)) {
+          byDiagram.set(did, { titleParts: [], partsCount: 0 })
         }
-        
-        // Map to URL slug
-        epcIdToSlug[subSectionId] = `epc/${group.id}/${subSection.id}/${main.id}`
-      } else {
-        // Multiple main items: create subsection as folder with children
-        subSectionIds.push(subSectionId)
-        const mainIds = subSection.main.map(main => `epc-${main.id}`)
-        
-        nodes[subSectionId] = {
-          id: subSectionId,
-          title: subSection.name,
-          isLeaf: false,
-          children: mainIds,
-          parentId: groupId,
-          epcGroupId: group.id,
-          epcSubSectionId: subSection.id,
-          partsCount: partsCount
-        }
-        
-        // Add main items as leaf nodes
-        subSection.main.forEach(main => {
-          const mainId = `epc-${main.id}`
-          
-          nodes[mainId] = {
-            id: mainId,
-            title: main.name,
-            isLeaf: true,
-            children: null,
-            parentId: subSectionId,
-            epcGroupId: group.id,
-            epcSubSectionId: subSection.id,
-            epcMainId: main.id,
-            partsCount: main.parts.length
-          }
-          
-          // Build URL slug for this leaf node
-          epcIdToSlug[mainId] = `epc/${group.id}/${subSection.id}/${main.id}`
-        })
-      }
+        const entry = byDiagram.get(did)
+        entry.titleParts.push(main.name)
+        entry.partsCount += main.parts.length
+      })
     })
-    
-    nodes[groupId] = {
-      id: groupId,
+
+    const diagramNodeIds = []
+    byDiagram.forEach((entry, did) => {
+      const nodeId = `epc-${group.id}-diagram-${did}`
+      diagramNodeIds.push(nodeId)
+      const title = entry.titleParts.join(' / ')
+      nodes[nodeId] = {
+        id: nodeId,
+        title,
+        isLeaf: true,
+        children: null,
+        parentId: groupNodeId,
+        epcGroupId: group.id,
+        epcDiagramId: did,
+        partsCount: entry.partsCount
+      }
+      epcIdToSlug[nodeId] = `epc/${group.id}/diagram/${did}`
+    })
+
+    nodes[groupNodeId] = {
+      id: groupNodeId,
       title: `${EPC_GROUP_ICONS[group.id] || '📦'} ${group.id} - ${group.name}`,
       isLeaf: false,
-      children: subSectionIds,
+      children: diagramNodeIds,
       parentId: null,
       epcGroupId: group.id,
-      partsCount: group.subSections.reduce((acc, s) => 
+      partsCount: group.subSections.reduce((acc, s) =>
         acc + s.main.reduce((a, m) => a + m.parts.length, 0), 0
       )
     }
   })
-  
+
   return { roots, nodes, epcIdToSlug }
 }
 
@@ -297,11 +261,11 @@ function EPCColumnNav({ roots, nodes, epcIdToSlug, searchQuery, maxVisibleColumn
   
   const isMobileColumnMode = maxVisibleColumns < Infinity
 
-  // Get active main item from URL
+  // Get active diagram page from URL (/epc/:groupId/diagram/:diagramId)
   const activeMainId = useMemo(() => {
-    const match = location.pathname.match(/^\/epc\/([A-R])\/([A-R]\d+)\/([A-R]\d+-\d+)$/)
-    if (match) {
-      return `epc-${match[3]}`
+    const diagramMatch = location.pathname.match(/^\/epc\/([A-R])\/diagram\/([a-f0-9]+)$/)
+    if (diagramMatch) {
+      return `epc-${diagramMatch[1]}-diagram-${diagramMatch[2]}`
     }
     return null
   }, [location.pathname])

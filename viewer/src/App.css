@@ -3446,6 +3446,11 @@ main.content:has(.content-welcome) .content-welcome {
   border-bottom: 1px solid var(--border);
 }
 
+.epc-parts-table thead th {
+  padding: 6px 12px;
+  font-size: 0.7rem;
+}
+
 .epc-parts-table th {
   background: var(--bg-main);
   font-weight: 600;
@@ -3775,11 +3780,76 @@ main.content:has(.content-welcome) .content-welcome {
 /* Diagram Sheet Code Badge */
 .epc-diagram-sheet-code {
   padding: 8px 16px;
-  background: #f0f0f0;
+  background: var(--bg-sidebar, #f0f0f0);
   border-top: 1px solid var(--border);
   font-size: 0.8rem;
   color: var(--text-secondary);
   text-align: center;
+}
+
+/* Foldable part groups on diagram page */
+.epc-parts-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.epc-parts-group {
+  border: 1px solid var(--border);
+  border-bottom: none;
+}
+
+.epc-parts-group:last-of-type {
+  border-bottom: 1px solid var(--border);
+}
+
+.epc-parts-group-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 12px 16px;
+  background: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #111;
+  text-align: left;
+  transition: background 0.15s;
+}
+
+.epc-parts-group-header:hover {
+  background: #f0f0f0;
+}
+
+.epc-parts-group-chevron {
+  font-size: 0.7rem;
+  color: #444;
+  flex-shrink: 0;
+}
+
+.epc-parts-group-title {
+  flex: 1;
+}
+
+.epc-parts-group-count {
+  flex-shrink: 0;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #e5e5e5;
+  font-size: 0.8rem;
+  color: #333;
+}
+
+.epc-parts-group-content {
+  padding: 0;
+  background: var(--content-bg);
+  overflow: hidden;
+}
+
+.epc-parts-group-content .epc-parts-responsive {
+  margin: 0;
 }
 
 /* Highlighted Table Row (hover) */
@@ -4102,6 +4172,109 @@ main.content:has(.content-welcome) .content-welcome {
 .epc-parts.epc-parts-compact .epc-diagram-group {
 }
 
+/* EPC diagram page: resizable split (diagram top, table bottom with own scroll) */
+.epc-diagram-split {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - var(--header-height));
+  min-height: 0;
+}
+
+.epc-diagram-split-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.epc-diagram-split-top {
+  height: var(--epc-diagram-height, 420px);
+  min-height: 200px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.epc-diagram-split-top .epc-diagram-group {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.epc-diagram-split-top .epc-diagram-viewer-wrapper {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.epc-diagram-split-top .epc-diagram-map {
+  height: 100% !important;
+  min-height: 0;
+}
+
+.epc-epc-resize-handle {
+  flex-shrink: 0;
+  height: 6px;
+  cursor: row-resize;
+  background: transparent;
+  transition: background 0.15s;
+}
+
+.epc-epc-resize-handle:hover,
+.epc-epc-resize-handle:active {
+  background: var(--accent);
+}
+
+.epc-epc-resize-handle::before {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 4px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.epc-epc-resize-handle:hover::before {
+  opacity: 1;
+}
+
+.epc-diagram-split-bottom {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.epc-diagram-split-bottom .epc-parts-groups {
+  flex: 1;
+}
+
+.epc-diagram-split-bottom .epc-search-container {
+  padding: 12px 16px;
+  margin-bottom: 0;
+  flex-shrink: 0;
+}
+
+.epc-diagram-split-bottom .epc-search-input {
+  padding: 8px 40px 8px 14px;
+  height: 36px;
+  min-height: 36px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+}
+
+.epc-diagram-split-bottom .epc-search-clear {
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 /* ======================================== 
    EPC Diagram Groups Layout
    ======================================== */
@@ -4193,18 +4366,23 @@ main.content:has(.content-welcome) .content-welcome {
   align-items: center;
   gap: 12px;
   padding: 10px 16px;
-  min-height: 53px;
+  min-height: 44px;
   box-sizing: border-box;
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0) 0%, rgba(59, 130, 246, 0) 100%);
-  border-bottom: 1px solid transparent;
   flex-wrap: wrap;
-  transition: opacity 0.15s ease-out, background 0.15s ease-out, border-color 0.15s ease-out;
-  opacity: 0;
+  flex-shrink: 0;
+  transition: background 0.15s ease-out, border-color 0.15s ease-out;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-main);
+}
+
+.epc-part-info-bar .epc-part-info-placeholder {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  font-style: italic;
 }
 
 .epc-part-info-bar.visible {
-  opacity: 1;
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.12) 0%, rgba(59, 130, 246, 0.06) 100%);
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.08) 0%, rgba(59, 130, 246, 0.04) 100%);
   border-bottom-color: rgba(59, 130, 246, 0.2);
 }
 
@@ -4263,7 +4441,7 @@ main.content:has(.content-welcome) .content-welcome {
    ======================================== */
 
 .epc-parts-responsive {
-  padding: 10px;
+  padding: 0;
 }
 
 /* Mobile: Show cards, hide table */

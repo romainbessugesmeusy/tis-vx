@@ -333,6 +333,7 @@ function App() {
             <Route path="/doc/:id" element={<ContentViewer manifest={manifest} selectedEngine={selectedEngine} onNavigateToComponent={handleNavigateToComponent} />} />
             <Route path="/ref/:type" element={<ReferenceIndex />} />
             <Route path="/epc" element={<EPCBrowser />} />
+            <Route path="/epc/:groupId/diagram/:diagramId" element={<EPCBrowser />} />
             <Route path="/epc/:groupId/:subSectionId/:mainId" element={<EPCBrowser />} />
           </Routes>
         </main>
