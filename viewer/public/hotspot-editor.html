@@ -2073,27 +2073,63 @@
       return { mask, width: w, height: h, count, bounds: { minX, maxX, minY, maxY } };
     }
     
-    // Convert flood-filled mask to polygon via radial boundary sampling
-    function wandMaskToPolygon(result, expandRadius) {
-      const { mask, width: w, height: h, bounds } = result;
+    // Morphological dilation — thickens thin lines into proper 2D bands
+    function dilateMask(mask, w, h, radius, bounds) {
+      const result = new Uint8Array(w * h);
+      const r2 = radius * radius;
       const { minX, maxX, minY, maxY } = bounds;
-      
-      // Find boundary pixels and centroid (scan bounding box only)
-      const boundary = [];
-      let sumX = 0, sumY = 0, totalCount = 0;
       
       for (let y = minY; y <= maxY; y++) {
         for (let x = minX; x <= maxX; x++) {
           if (!mask[y * w + x]) continue;
+          for (let dy = -radius; dy <= radius; dy++) {
+            const ny = y + dy;
+            if (ny < 0 || ny >= h) continue;
+            for (let dx = -radius; dx <= radius; dx++) {
+              if (dx * dx + dy * dy > r2) continue;
+              const nx = x + dx;
+              if (nx < 0 || nx >= w) continue;
+              result[ny * w + nx] = 1;
+            }
+          }
+        }
+      }
+      
+      return {
+        mask: result,
+        bounds: {
+          minX: Math.max(0, minX - radius),
+          maxX: Math.min(w - 1, maxX + radius),
+          minY: Math.max(0, minY - radius),
+          maxY: Math.min(h - 1, maxY + radius),
+        }
+      };
+    }
+    
+    // Convert flood-filled mask to polygon: dilate → boundary → radial sample
+    function wandMaskToPolygon(result, expandRadius) {
+      const { mask, width: w, height: h, bounds } = result;
+      
+      // Dilate mask so thin lines become proper 2D bands
+      const dilated = dilateMask(mask, w, h, expandRadius, bounds);
+      const dmask = dilated.mask;
+      const db = dilated.bounds;
+      
+      // Find boundary pixels and centroid of dilated mask
+      const boundary = [];
+      let sumX = 0, sumY = 0, totalCount = 0;
+      
+      for (let y = db.minY; y <= db.maxY; y++) {
+        for (let x = db.minX; x <= db.maxX; x++) {
+          if (!dmask[y * w + x]) continue;
           sumX += x;
           sumY += y;
           totalCount++;
           
-          // Boundary pixel: has at least one 4-neighbor that is unset or out of bounds
-          if (x === 0 || !mask[y * w + (x - 1)] ||
-              x === w - 1 || !mask[y * w + (x + 1)] ||
-              y === 0 || !mask[(y - 1) * w + x] ||
-              y === h - 1 || !mask[(y + 1) * w + x]) {
+          if (x === 0 || !dmask[y * w + (x - 1)] ||
+              x === w - 1 || !dmask[y * w + (x + 1)] ||
+              y === 0 || !dmask[(y - 1) * w + x] ||
+              y === h - 1 || !dmask[(y + 1) * w + x]) {
             boundary.push({ x, y });
           }
         }
@@ -2119,24 +2155,12 @@
         }
       }
       
-      // Collect non-null buckets, expand each point outward from centroid
+      // Collect non-null buckets (no extra expansion — dilation already did it)
       const polygon = [];
       for (let i = 0; i < WAND_BUCKETS; i++) {
         const b = buckets[i];
         if (!b) continue;
-        
-        const dx = b.x - cx;
-        const dy = b.y - cy;
-        const len = Math.hypot(dx, dy);
-        
-        if (len > 0) {
-          polygon.push({
-            x: Math.round(b.x + (dx / len) * expandRadius),
-            y: Math.round(b.y + (dy / len) * expandRadius),
-          });
-        } else {
-          polygon.push({ x: Math.round(b.x), y: Math.round(b.y) });
-        }
+        polygon.push({ x: Math.round(b.x), y: Math.round(b.y) });
       }
       
       return polygon.length >= 3 ? polygon : null;
