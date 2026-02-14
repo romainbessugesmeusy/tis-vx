@@ -155,7 +155,7 @@ function ZoomIndicator({ scale }) {
   )
 }
 
-function MapViewer({ src, alt, onError, allowFullscreen = false, hotspots, highlightedRef, onHotspotHover, onHotspotClick, className }) {
+function MapViewer({ src, alt, onError, allowFullscreen = false, hotspots, highlightedRef, centerOnRef, onHotspotHover, onHotspotClick, className }) {
   const [scale, setScale] = useState(1)
   const [position, setPosition] = useState({ x: 0, y: 0 })
   const [imageError, setImageError] = useState(false)
@@ -229,6 +229,40 @@ function MapViewer({ src, alt, onError, allowFullscreen = false, hotspots, highl
       transformRef.current.setTransform(x, y, newScale, 300, 'easeOut')
     }
   }
+  
+  // Center on a specific hotspot ref
+  useEffect(() => {
+    if (!centerOnRef || !hotspots?.hotspots || !imageRef.current || !containerRef.current || !transformRef.current) return
+    
+    const hotspot = hotspots.hotspots.find(h => String(h.ref) === String(centerOnRef))
+    if (!hotspot) return
+    
+    // Get hotspot center in image coordinates
+    let cx, cy
+    if (hotspot.type === 'polygon' && hotspot.points) {
+      const xs = hotspot.points.map(p => p.x)
+      const ys = hotspot.points.map(p => p.y)
+      cx = (Math.min(...xs) + Math.max(...xs)) / 2
+      cy = (Math.min(...ys) + Math.max(...ys)) / 2
+    } else {
+      cx = hotspot.bbox.x + hotspot.bbox.width / 2
+      cy = hotspot.bbox.y + hotspot.bbox.height / 2
+    }
+    
+    const container = containerRef.current.getBoundingClientRect()
+    const imgW = imageRef.current.naturalWidth
+    const imgH = imageRef.current.naturalHeight
+    
+    // Zoom to ~2x fit scale, capped at 3
+    const fitScale = Math.min(container.width / imgW, container.height / imgH, 1) * 0.95
+    const targetScale = Math.min(fitScale * 2.5, 3)
+    
+    // Position so hotspot center lands at container center
+    const x = container.width / 2 - cx * targetScale
+    const y = container.height / 2 - cy * targetScale
+    
+    transformRef.current.setTransform(x, y, targetScale, 400, 'easeOut')
+  }, [centerOnRef, hotspots])
   
   // Keyboard shortcuts
   useEffect(() => {

@@ -38,6 +38,13 @@ function EPCBrowser() {
   const [expandedDiagrams, setExpandedDiagrams] = useState(new Set())
   const [copiedPartNo, setCopiedPartNo] = useState(null)
 
+  // Reset search and selection when navigating to a different page
+  useEffect(() => {
+    setSearchQuery('')
+    setSelectedRef(null)
+    setHighlightedRef(null)
+  }, [groupId, subSectionId, mainId])
+
   // Load EPC data
   useEffect(() => {
     fetch('/data/epc/parts.json')
@@ -491,70 +498,53 @@ function EPCBrowser() {
     
     return (
       <div key={diagramId} className="epc-diagram-group">
-        {/* Diagram Header */}
-        <button 
-          className={`epc-diagram-header ${isExpanded ? 'expanded' : ''}`}
-          onClick={() => toggleDiagram(diagramId)}
-        >
-          <svg className="epc-diagram-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <polyline points="6 9 12 15 18 9" />
-          </svg>
-          <span className="epc-diagram-title">
-            {currentMain?.name || (diagram ? `Diagram ${diagramHotspots?.sheetCode?.text || ''}` : 'Parts without diagram')}
-          </span>
-          <span className="epc-diagram-count">{groupParts.length} parts</span>
-        </button>
-        
-        {isExpanded && (
-          <div className="epc-diagram-content">
-            {/* Diagram Viewer */}
-            {diagram && (
-              <div className="epc-diagram-viewer-wrapper">
-                <MapViewer
-                  src={`/data/epc/diagrams/${diagram.filename}`}
-                  alt={`Parts diagram`}
-                  allowFullscreen={true}
-                  hotspots={diagramHotspots}
-                  highlightedRef={activeRef}
-                  onHotspotHover={setHighlightedRef}
-                  onHotspotClick={(ref) => setSelectedRef(prev => refsMatch(prev, ref) ? null : ref)}
-                  className="epc-diagram-map"
-                />
-              </div>
-            )}
-            
-            {/* Part Info Bar - shows selected/hovered part info */}
-            <div className={`epc-part-info-bar ${activePartInfo ? 'visible' : ''}`}>
-              {activePartInfo && (
-                <>
-                  <span className="epc-part-info-ref">#{activePartInfo.ref}</span>
-                  <span className="epc-part-info-desc">{activePartInfo.descriptionParts.join(', ')}</span>
-                  <span className="epc-part-info-partno epc-copyable" onClick={(e) => handleCopyPartNo(activePartInfo.partNo, e)} title="Click to copy">
-                    {activePartInfo.partNo}
-                    <span className={`epc-copy-icon ${copiedPartNo === activePartInfo.partNo ? 'copied' : ''}`}>
-                      {copiedPartNo === activePartInfo.partNo ? '✓' : '⧉'}
-                    </span>
-                  </span>
-                  {activePartInfo.usage && <span className="epc-part-info-usage">{activePartInfo.usage}</span>}
-                  {activePartInfo.qty && <span className="epc-part-info-qty">Qty: {activePartInfo.qty}</span>}
-                </>
-              )}
-            </div>
-            
-            {/* Parts List - Card view for mobile, table for desktop */}
-            <div className="epc-parts-responsive">
-              {/* Mobile: Card layout */}
-              <div className="epc-parts-cards">
-                {groupParts.map(part => renderPartCard(part, diagramId, diagram, diagramHotspots))}
-              </div>
-              
-              {/* Desktop: Table layout */}
-              <div className="epc-parts-table-wrapper">
-                {renderPartsTable(groupParts, diagramId, diagram, diagramHotspots)}
-              </div>
-            </div>
+        {/* Diagram Viewer */}
+        {diagram && (
+          <div className="epc-diagram-viewer-wrapper">
+            <MapViewer
+              src={`/data/epc/diagrams/${diagram.filename}`}
+              alt={`Parts diagram`}
+              allowFullscreen={true}
+              hotspots={diagramHotspots}
+              highlightedRef={activeRef}
+              centerOnRef={selectedRef}
+              onHotspotHover={setHighlightedRef}
+              onHotspotClick={(ref) => setSelectedRef(prev => refsMatch(prev, ref) ? null : ref)}
+              className="epc-diagram-map"
+            />
           </div>
         )}
+        
+        {/* Part Info Bar - shows selected/hovered part info */}
+        <div className={`epc-part-info-bar ${activePartInfo ? 'visible' : ''}`}>
+          {activePartInfo && (
+            <>
+              <span className="epc-part-info-ref">#{activePartInfo.ref}</span>
+              <span className="epc-part-info-desc">{activePartInfo.descriptionParts.join(', ')}</span>
+              <span className="epc-part-info-partno epc-copyable" onClick={(e) => handleCopyPartNo(activePartInfo.partNo, e)} title="Click to copy">
+                {activePartInfo.partNo}
+                <span className={`epc-copy-icon ${copiedPartNo === activePartInfo.partNo ? 'copied' : ''}`}>
+                  {copiedPartNo === activePartInfo.partNo ? '✓' : '⧉'}
+                </span>
+              </span>
+              {activePartInfo.usage && <span className="epc-part-info-usage">{activePartInfo.usage}</span>}
+              {activePartInfo.qty && <span className="epc-part-info-qty">Qty: {activePartInfo.qty}</span>}
+            </>
+          )}
+        </div>
+        
+        {/* Parts List - Card view for mobile, table for desktop */}
+        <div className="epc-parts-responsive">
+          {/* Mobile: Card layout */}
+          <div className="epc-parts-cards">
+            {groupParts.map(part => renderPartCard(part, diagramId, diagram, diagramHotspots))}
+          </div>
+          
+          {/* Desktop: Table layout */}
+          <div className="epc-parts-table-wrapper">
+            {renderPartsTable(groupParts, diagramId, diagram, diagramHotspots)}
+          </div>
+        </div>
       </div>
     )
   }

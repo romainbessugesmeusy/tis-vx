@@ -118,6 +118,7 @@ body {
   left: 0;
   width: var(--sidebar-width);
   height: calc(100vh - var(--header-height));
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
   background: var(--bg-sidebar);
   color: var(--text-light);
   overflow-y: auto;
@@ -574,7 +575,7 @@ body {
 main.content {
   flex: 1;
   margin-left: var(--sidebar-width);
-  padding: 32px 40px;
+  padding: 0;
   max-width: calc(100vw - var(--sidebar-width));
   overflow-x: hidden;
 }
@@ -667,6 +668,7 @@ main.content:has(.content-welcome) .content-welcome {
   border-radius: 12px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  margin: 32px 40px;
 }
 
 .content-body {
@@ -4098,13 +4100,6 @@ main.content:has(.content-welcome) .content-welcome {
 }
 
 .epc-parts.epc-parts-compact .epc-diagram-group {
-  border-radius: 0;
-  border-left: none;
-  border-right: none;
-}
-
-.epc-parts.epc-parts-compact .epc-diagram-group:first-child {
-  border-top: none;
 }
 
 /* ======================================== 
@@ -4119,8 +4114,6 @@ main.content:has(.content-welcome) .content-welcome {
 
 .epc-diagram-group {
   background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 10px;
   overflow: hidden;
 }
 
@@ -4178,20 +4171,20 @@ main.content:has(.content-welcome) .content-welcome {
 }
 
 .epc-diagram-viewer-wrapper {
-  background: #1a1a2e;
+  background: var(--bg-sidebar);
   overflow: hidden;
 }
 
 .epc-diagram-map {
   height: 400px;
   border-radius: 0;
-  background: #1a1a2e;
+  background: var(--bg-sidebar);
 }
 
 /* Ensure dark background throughout the transform component hierarchy */
 .epc-diagram-map [class*="transform-component-module_wrapper"],
 .epc-diagram-map [class*="transform-component-module_content"] {
-  background: #1a1a2e !important;
+  background: var(--bg-sidebar) !important;
 }
 
 /* Part Info Bar - shows selected/hovered part information */
@@ -4546,10 +4539,15 @@ main.content:has(.content-welcome) .content-welcome {
   display: none;
 }
 
-/* Polygon Hotspots */
-.map-hotspot-polygon {
+/* Polygon Hotspots — override all rectangle styles */
+.map-hotspot-polygon,
+.map-hotspot-polygon:hover,
+.map-hotspot-polygon.hovered,
+.map-hotspot-polygon.highlighted {
   border: none;
   background: transparent;
+  box-shadow: none;
+  animation: none;
 }
 
 .map-hotspot-polygon svg {

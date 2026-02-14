@@ -138,8 +138,9 @@ Main component for browsing the parts catalog.
 - **Groups Grid**: Visual grid of all groups (A-R) with icons
 - **Hierarchical Navigation**: Drill down through levels with breadcrumbs
 - **Parts Table**: Sortable columns (click headers), filterable by search
-- **Diagram Viewer**: Modal popup showing diagram when clicking Ref number
-- **Global Search**: Search across all parts by description, part number, or catalog number
+- **Inline Diagram Viewer**: MapViewer with zoom/pan embedded directly in the page (no modal)
+- **Center on Part**: Clicking a ref badge in the table pans and zooms the diagram to that hotspot
+- **Global Search**: Search across all parts by description, part number, or catalog number (auto-cleared on navigation)
 - **Copy Part Number**: Click any Part No cell (table or info bar) to copy to clipboard
 - **Prettified Descriptions**: Raw ALL CAPS descriptions are parsed into readable sentence case
 
@@ -192,7 +193,10 @@ Key CSS classes:
 - `.epc-group-card` - Individual group card
 - `.epc-list` / `.epc-list-item` - Sub section and main item lists
 - `.epc-parts-table` - Parts table with sortable headers
-- `.epc-diagram-modal` - Diagram viewer modal
+- `.epc-diagram-group` - Diagram + table group (edge-to-edge, no border/radius)
+- `.epc-diagram-viewer-wrapper` - Viewer background (uses `--bg-sidebar` for consistency)
+- `.epc-part-info-bar` - Hovered/selected part info (fixed height, visibility toggle)
+- `.epc-copyable` / `.epc-copy-icon` - Copy-to-clipboard interaction on part numbers
 - `.sidebar-mode-toggle` - Manual/Parts mode toggle
 
 ## Statistics (as of last scrape)
@@ -281,10 +285,12 @@ A browser-based editor is available at `/hotspot-editor.html` to:
 ### Viewer Integration
 
 In the EPC Browser:
-- **Hover table row** → Highlights corresponding hotspot(s) on the diagram
+- **Hover table row** → Highlights corresponding hotspot(s) on the diagram (polygon outlines only, no bounding box)
 - **Hover hotspot** → Highlights corresponding table row(s)
+- **Click ref badge** → Selects part and centers/zooms diagram on the hotspot (`centerOnRef` prop on MapViewer)
 - **Part Info Bar** → Shows hovered/selected part details between diagram and table (always rendered with fixed height to prevent layout shift)
 - **Click Part No** → Copies to clipboard with visual feedback (checkmark)
+- **Navigation reset** → Search query and selection are cleared when navigating to a different page via sidebar
 - Sheet code is displayed below the diagram
 
 ## Future Improvements
