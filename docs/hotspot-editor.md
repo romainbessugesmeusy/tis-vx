@@ -158,6 +158,7 @@ The server runs on port **3001**.
 | **Isometric** | ◇ | `I` | Click and drag to draw diamond/lozenge shapes for isometric parts |
 | **Polygon** | ⬡ | `L` | Click to place vertices, click first point to close |
 | **Lasso** | ◠ | `O` | Click and drag freehand to trace irregular shapes |
+| **Wand** | 🪄 | `W` | Click on a dark contour line to auto-trace its shape |
 
 ### Drawing Behavior
 
@@ -173,6 +174,18 @@ The lasso tool creates polygon hotspots by tracing freehand:
 4. Enter the ref number in the dialog
 
 The lasso automatically **simplifies** the captured path using the Douglas-Peucker algorithm, reducing hundreds of raw points to a clean polygon with ~10-30 vertices.
+
+### Magic Wand
+
+The magic wand tool auto-detects part outlines from the diagram's black contour lines:
+
+1. Click on (or near) a dark contour line
+2. The tool flood-fills connected dark pixels, traces the outer boundary, expands it slightly, and simplifies to a clean polygon
+3. Enter the ref number in the dialog
+
+**Algorithm:** Snaps click to nearest dark pixel (8px radius) → BFS flood fill (8-connected, brightness < 80) → extracts boundary pixels → radial sampling (72 angular buckets, keeps outermost point per 5° slice) → expands 4px outward from centroid → Douglas-Peucker simplification (tolerance 3).
+
+The low brightness threshold (80) avoids leaking through anti-aliased gray pixels where lines pass near each other.
 
 ### Polygon Point Editing
 
@@ -210,6 +223,7 @@ Visual indicators:
 | `I` | Switch to Isometric mode |
 | `L` | Switch to Polygon mode |
 | `O` | Switch to Lasso mode |
+| `W` | Switch to Magic Wand mode |
 | `Esc` | Cancel current action → Deselect → Switch to Select mode |
 | `Del` / `Backspace` | Delete selected hotspot |
 | `Cmd/Ctrl + S` | Force immediate save |
@@ -383,6 +397,7 @@ const displayX = hotspot.bbox.x * scaleX;
 - **Rectangle mode**: Faster for simple isolated parts
 - **Isometric mode**: Perfect for parts drawn in isometric projection (rotated view)
 - **Lasso mode**: Fastest for complex shapes - just trace around the part freehand
+- **Magic Wand mode**: Click on a black contour line and it auto-traces the shape — great for well-defined outlines. Uses flood fill + radial boundary sampling + Douglas-Peucker simplification.
 - **Sheet codes**: Edit in the "Current Diagram" info panel
 - **Repeated numbers**: Create multiple hotspots with the same ref
 - **Overlapping parts**: Use polygons or lasso to trace exact boundaries

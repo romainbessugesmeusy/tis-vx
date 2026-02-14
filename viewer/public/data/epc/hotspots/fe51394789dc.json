@@ -2,56 +2,12 @@
   "diagramId": "fe51394789dc",
   "imageWidth": 1240,
   "imageHeight": 1761,
-  "sheetCode": null,
-  "hotspots": [
-    {
-      "ref": 2,
-      "bbox": {
-        "x": 395,
-        "y": 1512,
-        "width": 162,
-        "height": 100
-      },
-      "normalized": {
-        "x": 0.3185483870967742,
-        "y": 0.858603066439523,
-        "width": 0.13064516129032258,
-        "height": 0.05678591709256105
-      },
-      "confidence": 9
-    },
-    {
-      "ref": 3,
-      "bbox": {
-        "x": 842,
-        "y": 563,
-        "width": 13,
-        "height": 19
-      },
-      "normalized": {
-        "x": 0.6790322580645162,
-        "y": 0.3197047132311187,
-        "width": 0.010483870967741936,
-        "height": 0.010789324247586598
-      },
-      "confidence": 94
-    },
-    {
-      "ref": 4,
-      "bbox": {
-        "x": 706,
-        "y": 496,
-        "width": 13,
-        "height": 18
-      },
-      "normalized": {
-        "x": 0.5693548387096774,
-        "y": 0.2816581487791028,
-        "width": 0.010483870967741936,
-        "height": 0.010221465076660987
-      },
-      "confidence": 83
-    }
-  ],
-  "extractedAt": "2026-02-02T13:57:52.638Z"
+  "sheetCode": {
+    "text": "G7",
+    "bbox": null
+  },
+  "hotspots": [],
+  "extractedAt": "2026-02-02T13:57:52.638Z",
+  "status": "todo",
+  "modifiedAt": "2026-02-14T13:19:13.109Z"
 }

@@ -483,6 +483,7 @@
     .diagram-container.drawing { cursor: crosshair; }
     .diagram-container.polygon { cursor: crosshair; }
     .diagram-container.lasso { cursor: crosshair; }
+    .diagram-container.wand { cursor: crosshair; }
     .diagram-container.moving { cursor: move; }
     .diagram-container.panning { cursor: grab; }
     .diagram-container.panning:active { cursor: grabbing; }
@@ -876,7 +877,7 @@
       </div>
       
       <div class="keyboard-hints">
-        <kbd>V</kbd> Select • <kbd>R</kbd> Rect • <kbd>I</kbd> Iso • <kbd>L</kbd> Poly • <kbd>O</kbd> Lasso<br>
+        <kbd>V</kbd> Select • <kbd>R</kbd> Rect • <kbd>I</kbd> Iso • <kbd>L</kbd> Poly • <kbd>O</kbd> Lasso • <kbd>W</kbd> Wand<br>
         <kbd>Del</kbd> Delete • <kbd>Esc</kbd> Cancel
       </div>
     </div>
@@ -888,6 +889,7 @@
         <button class="mode" data-mode="isometric" title="Isometric/Diamond tool (I)">◇ Iso</button>
         <button class="mode" data-mode="polygon" title="Polygon tool (L)">⬡ Poly</button>
         <button class="mode" data-mode="lasso" title="Lasso tool (O)">◠ Lasso</button>
+        <button class="mode" data-mode="wand" title="Magic Wand (W)">🪄 Wand</button>
         <div class="separator"></div>
         <div class="zoom-controls">
           <button id="zoomOut">−</button>
@@ -968,6 +970,17 @@
     // Lasso drawing
     let isLassoDrawing = false;
     const LASSO_MIN_DISTANCE = 5; // Minimum pixels between captured points
+    
+    // Magic Wand
+    let wandCanvas = null;
+    let wandCtx = null;
+    let wandImageData = null;
+    const WAND_THRESHOLD = 80;      // Brightness below this = "dark" (low = ignore antialiased gray)
+    const WAND_EXPAND = 4;          // Pixels to expand contour outward
+    const WAND_MAX_PIXELS = 200000; // Flood fill safety limit
+    const WAND_MIN_PIXELS = 10;     // Minimum region size
+    const WAND_BUCKETS = 72;        // Angular resolution (5° per bucket)
+    const WAND_SNAP_RADIUS = 8;     // Snap-to-contour search radius
     
     // Zoom
     let zoom = 1;
@@ -1069,6 +1082,7 @@
       currentDiagramId = diagramId;
       selectedIndex = null;
       polygonPoints = [];
+      wandImageData = null; // Clear wand cache for new diagram
       diagramContainer.classList.remove('hide-hotspots');
       
       try {
@@ -1519,6 +1533,7 @@
       if (mode === 'isometric') diagramContainer.classList.add('isometric');
       if (mode === 'polygon') diagramContainer.classList.add('polygon');
       if (mode === 'lasso') diagramContainer.classList.add('lasso');
+      if (mode === 'wand') diagramContainer.classList.add('wand');
       
       const hints = {
         select: 'Click hotspot to select • Drag empty space to pan',
@@ -1526,6 +1541,7 @@
         isometric: 'Click and drag to draw diamond/lozenge',
         polygon: 'Click to add points • Click first point to close',
         lasso: 'Click and drag to draw freehand shape',
+        wand: 'Click on a dark contour line to auto-trace',
       };
       document.getElementById('modeHint').textContent = hints[mode];
       
@@ -1635,6 +1651,8 @@
         polygonPoints.push(pos);
         diagramContainer.classList.add('hide-hotspots');
         updatePolygonPreview();
+      } else if (currentMode === 'wand') {
+        handleWandClick(pos);
       } else if (currentMode === 'select') {
         // In select mode, clicking empty space starts panning
         isPanning = true;
@@ -1965,6 +1983,202 @@
       return Math.hypot(point.x - projX, point.y - projY);
     }
     
+    // ── Magic Wand algorithm ─────────────────────────────────
+    
+    function ensureWandData() {
+      if (wandImageData) return wandImageData;
+      if (!wandCanvas) {
+        wandCanvas = document.createElement('canvas');
+        wandCtx = wandCanvas.getContext('2d', { willReadFrequently: true });
+      }
+      wandCanvas.width = currentData.imageWidth;
+      wandCanvas.height = currentData.imageHeight;
+      wandCtx.drawImage(diagramImage, 0, 0);
+      wandImageData = wandCtx.getImageData(0, 0, wandCanvas.width, wandCanvas.height);
+      return wandImageData;
+    }
+    
+    function getPixelBrightness(imgData, x, y) {
+      const i = (y * imgData.width + x) * 4;
+      return (imgData.data[i] + imgData.data[i + 1] + imgData.data[i + 2]) / 3;
+    }
+    
+    // Snap click to nearest dark pixel within radius
+    function findNearestDarkPixel(imgData, sx, sy, radius) {
+      const w = imgData.width, h = imgData.height;
+      const x = Math.round(sx), y = Math.round(sy);
+      
+      if (x >= 0 && x < w && y >= 0 && y < h &&
+          getPixelBrightness(imgData, x, y) < WAND_THRESHOLD) {
+        return { x, y };
+      }
+      
+      let bestDist = Infinity, best = null;
+      for (let dy = -radius; dy <= radius; dy++) {
+        for (let dx = -radius; dx <= radius; dx++) {
+          const nx = x + dx, ny = y + dy;
+          if (nx < 0 || nx >= w || ny < 0 || ny >= h) continue;
+          const d2 = dx * dx + dy * dy;
+          if (d2 >= bestDist) continue;
+          if (getPixelBrightness(imgData, nx, ny) < WAND_THRESHOLD) {
+            bestDist = d2;
+            best = { x: nx, y: ny };
+          }
+        }
+      }
+      return best;
+    }
+    
+    // BFS flood fill of connected dark pixels (8-connected)
+    function wandFloodFill(startX, startY, imgData) {
+      const w = imgData.width, h = imgData.height;
+      
+      const mask = new Uint8Array(w * h);
+      const queue = new Int32Array(Math.min(WAND_MAX_PIXELS * 2, w * h));
+      let qHead = 0, qTail = 0;
+      
+      const idx = startY * w + startX;
+      mask[idx] = 1;
+      queue[qTail++] = idx;
+      let count = 0;
+      let minX = startX, maxX = startX, minY = startY, maxY = startY;
+      
+      while (qHead < qTail && count < WAND_MAX_PIXELS) {
+        const ci = queue[qHead++];
+        const cx = ci % w;
+        const cy = (ci - cx) / w;
+        count++;
+        
+        if (cx < minX) minX = cx;
+        if (cx > maxX) maxX = cx;
+        if (cy < minY) minY = cy;
+        if (cy > maxY) maxY = cy;
+        
+        for (let dy = -1; dy <= 1; dy++) {
+          for (let dx = -1; dx <= 1; dx++) {
+            if (dx === 0 && dy === 0) continue;
+            const nx = cx + dx, ny = cy + dy;
+            if (nx < 0 || nx >= w || ny < 0 || ny >= h) continue;
+            const ni = ny * w + nx;
+            if (mask[ni]) continue;
+            if (getPixelBrightness(imgData, nx, ny) < WAND_THRESHOLD) {
+              mask[ni] = 1;
+              if (qTail < queue.length) queue[qTail++] = ni;
+            }
+          }
+        }
+      }
+      
+      if (count < WAND_MIN_PIXELS) return null;
+      return { mask, width: w, height: h, count, bounds: { minX, maxX, minY, maxY } };
+    }
+    
+    // Convert flood-filled mask to polygon via radial boundary sampling
+    function wandMaskToPolygon(result, expandRadius) {
+      const { mask, width: w, height: h, bounds } = result;
+      const { minX, maxX, minY, maxY } = bounds;
+      
+      // Find boundary pixels and centroid (scan bounding box only)
+      const boundary = [];
+      let sumX = 0, sumY = 0, totalCount = 0;
+      
+      for (let y = minY; y <= maxY; y++) {
+        for (let x = minX; x <= maxX; x++) {
+          if (!mask[y * w + x]) continue;
+          sumX += x;
+          sumY += y;
+          totalCount++;
+          
+          // Boundary pixel: has at least one 4-neighbor that is unset or out of bounds
+          if (x === 0 || !mask[y * w + (x - 1)] ||
+              x === w - 1 || !mask[y * w + (x + 1)] ||
+              y === 0 || !mask[(y - 1) * w + x] ||
+              y === h - 1 || !mask[(y + 1) * w + x]) {
+            boundary.push({ x, y });
+          }
+        }
+      }
+      
+      if (boundary.length < 3) return null;
+      
+      const cx = sumX / totalCount;
+      const cy = sumY / totalCount;
+      
+      // Angular bucket sort: keep outermost boundary pixel per angular slice
+      const angleStep = (2 * Math.PI) / WAND_BUCKETS;
+      const buckets = new Array(WAND_BUCKETS).fill(null);
+      
+      for (const p of boundary) {
+        const angle = Math.atan2(p.y - cy, p.x - cx);
+        const norm = ((angle % (2 * Math.PI)) + 2 * Math.PI) % (2 * Math.PI);
+        const bi = Math.floor(norm / angleStep) % WAND_BUCKETS;
+        const dist = Math.hypot(p.x - cx, p.y - cy);
+        
+        if (!buckets[bi] || dist > buckets[bi].dist) {
+          buckets[bi] = { x: p.x, y: p.y, dist };
+        }
+      }
+      
+      // Collect non-null buckets, expand each point outward from centroid
+      const polygon = [];
+      for (let i = 0; i < WAND_BUCKETS; i++) {
+        const b = buckets[i];
+        if (!b) continue;
+        
+        const dx = b.x - cx;
+        const dy = b.y - cy;
+        const len = Math.hypot(dx, dy);
+        
+        if (len > 0) {
+          polygon.push({
+            x: Math.round(b.x + (dx / len) * expandRadius),
+            y: Math.round(b.y + (dy / len) * expandRadius),
+          });
+        } else {
+          polygon.push({ x: Math.round(b.x), y: Math.round(b.y) });
+        }
+      }
+      
+      return polygon.length >= 3 ? polygon : null;
+    }
+    
+    function handleWandClick(pos) {
+      const imgData = ensureWandData();
+      
+      // Snap to nearest dark pixel (forgiving click)
+      const seed = findNearestDarkPixel(imgData, pos.x, pos.y, WAND_SNAP_RADIUS);
+      if (!seed) {
+        showToast('No dark contour found nearby', 'error');
+        return;
+      }
+      
+      const result = wandFloodFill(seed.x, seed.y, imgData);
+      if (!result) {
+        showToast('Region too small to trace', 'error');
+        return;
+      }
+      
+      if (result.count >= WAND_MAX_PIXELS) {
+        showToast('Region too large — try a smaller outline', 'error');
+        return;
+      }
+      
+      const polygon = wandMaskToPolygon(result, WAND_EXPAND);
+      if (!polygon) {
+        showToast('Could not trace contour', 'error');
+        return;
+      }
+      
+      // Simplify to clean polygon
+      const simplified = simplifyPolygon(polygon, 3);
+      if (simplified.length < 3) {
+        showToast('Shape too small to trace', 'error');
+        return;
+      }
+      
+      showRefDialog({ type: 'polygon', points: simplified });
+    }
+    
     // Zoom wheel - gentler zoom speed
     viewport.addEventListener('wheel', (e) => {
       if (!currentData) return;
@@ -2026,6 +2240,9 @@
         } else if (e.key === 'o' || e.key === 'O') {
           e.preventDefault();
           setMode('lasso');
+        } else if (e.key === 'w' || e.key === 'W') {
+          e.preventDefault();
+          setMode('wand');
         }
       }
     });

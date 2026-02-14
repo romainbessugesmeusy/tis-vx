@@ -2,7 +2,12 @@
   "diagramId": "7ce39e29a429",
   "imageWidth": 1240,
   "imageHeight": 1761,
-  "sheetCode": null,
+  "sheetCode": {
+    "text": "C14",
+    "bbox": null
+  },
   "hotspots": [],
-  "extractedAt": "2026-02-02T13:56:06.301Z"
+  "extractedAt": "2026-02-02T13:56:06.301Z",
+  "status": "todo",
+  "modifiedAt": "2026-02-14T13:17:52.329Z"
 }

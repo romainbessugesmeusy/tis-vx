@@ -2,7 +2,10 @@
   "diagramId": "51469d6b3dda",
   "imageWidth": 1240,
   "imageHeight": 1761,
-  "sheetCode": null,
+  "sheetCode": {
+    "text": "E8",
+    "bbox": null
+  },
   "hotspots": [
     {
       "ref": 2,
@@ -181,5 +184,7 @@
       "confidence": 96
     }
   ],
-  "extractedAt": "2026-02-02T13:55:33.933Z"
+  "extractedAt": "2026-02-02T13:55:33.933Z",
+  "status": "todo",
+  "modifiedAt": "2026-02-14T13:18:14.303Z"
 }
