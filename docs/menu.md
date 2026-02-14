@@ -382,7 +382,7 @@ Using `overflow: hidden` on `.column-group` ensures the border-radius is respect
 
 ## EPC (Parts Catalog) Navigation
 
-The sidebar supports EPC navigation using the same tree/column components as the manual navigation. This provides a consistent UX across both modes.
+The sidebar supports EPC navigation using the same tree/column components as the manual navigation. EPC uses **diagram-centric** pages: one URL per diagram, with multiple main item names (e.g. "Front spoiler", "Rear spoiler") combined on a single page.
 
 ### Mode Toggle
 
@@ -393,46 +393,53 @@ A mode toggle button switches between "Manual" and "Parts":
 
 ### EPC Tree Structure
 
-The `buildEpcTree()` function converts EPC JSON data into a tree structure:
+The `buildEpcTree(epcData, hotspotIndex)` function aggregates EPC data by diagram:
+
+- **Input**: EPC JSON (groups → subSections → main) + optional hotspot index (for sheet codes)
+- **Output**: `{ roots, nodes, epcIdToSlug }`
+- **Structure**: One root per group (e.g. `epc-A`, `epc-B`). Children are **diagram leaves** only (no subSection level). Each diagram node represents all main items that share that diagram.
+- **Sheet codes**: If `hotspotIndex` is loaded, each diagram node gets `epcSheetCode` (e.g. "B6", "C3") from the hotspot index for the pill icon.
 
 ```javascript
-// Input: EPC data with groups → subSections → main
-// Output: { roots, nodes, epcIdToSlug }
-
-const epcTree = buildEpcTree(epcData)
-// roots: ['epc-A', 'epc-B', ...] 
-// nodes: { 'epc-A': { title, children, partsCount, ... }, ... }
-// epcIdToSlug: { 'epc-A1-1': 'epc/A/A1/A1-1', ... }
+// roots: ['epc-A', 'epc-B', ...]
+// nodes: { 'epc-B': { title, children: ['epc-B-diagram-xxx', ...], partsCount }, 'epc-B-diagram-xxx': { title, mainItemNames, epcSheetCode, partsCount, isLeaf: true }, ... }
+// epcIdToSlug: { 'epc-B-diagram-xxx': 'epc/B/diagram/xxx', ... }
 ```
 
 ### EPC-Specific Components
 
 | Component | Purpose |
 |-----------|---------|
-| `EPCTreeNode` | Renders EPC nodes in tree view with parts count badges |
-| `EPCColumnNav` | Column navigation for EPC with parts count display |
+| `EPCTreeNode` | Renders EPC nodes in tree view; diagram leaves show a **diagram pill** (sheet code e.g. B6), multi-line title (main item names), and parts count |
+| `EPCColumnNav` | Column navigation for EPC; diagram leaves show same pill + title list + count |
 
-### Node Structure
+### Diagram Leaf Node Structure
 
-Each EPC node includes:
 ```javascript
 {
-  id: 'epc-A1',
-  title: 'Partial body',
-  isLeaf: false,
-  children: ['epc-A1-1', 'epc-A1-2'],
-  parentId: 'epc-A',
-  epcGroupId: 'A',
-  epcSubSectionId: 'A1',
-  partsCount: 42
+  id: 'epc-B-diagram-52d610c5d4d2',
+  title: 'Front spoiler / Rear spoiler',  // joined for search
+  mainItemNames: ['Front spoiler', 'Rear spoiler'],  // for line-break display
+  epcSheetCode: 'B6',  // from hotspot index; "?" if unknown
+  isLeaf: true,
+  parentId: 'epc-B',
+  epcGroupId: 'B',
+  epcDiagramId: '52d610c5d4d2',
+  partsCount: 7
 }
 ```
 
+### Diagram Pill (replaces page emoji)
+
+- In tree and column view, EPC diagram leaves show a **pill** with the diagram ID (e.g. "B6", "C3") instead of the 📄 document icon.
+- Class `epc-diagram-leaf` hides the default `::before` page emoji; `.epc-diagram-pill` styles the pill.
+- Sheet codes come from `/data/epc/hotspots/_index.json`; the sidebar fetches it and passes it to `buildEpcTree`.
+
 ### Parts Count Display
 
-- Tree view: Count badge after title (e.g., "Bonnet hinge 12")
-- Column view: Count pill on the right side of each item
-- Active/selected items highlight the count badge
+- Tree view: Diagram pill, multi-line title, then count badge.
+- Column view: Diagram pill, multi-line title, then count pill on the right.
+- Active/selected items highlight the pill and count.
 
 ### State Persistence
 
@@ -446,12 +453,12 @@ Each EPC node includes:
 ```css
 /* EPC Tree */
 .epc-tree-root        /* Root ul for EPC tree */
-.epc-tree-group       /* Group-level folder */
-.epc-tree-subsection  /* SubSection-level folder */
-.epc-tree-leaf        /* Main item (leaf) */
-.epc-tree-title       /* Title text (flex: 1) */
+.epc-tree-leaf        /* Diagram page (leaf) */
+.epc-diagram-leaf     /* Hides document-leaf ::before; used with pill */
+.epc-diagram-pill     /* Sheet code pill (e.g. B6) */
+.epc-tree-title       /* Title text; .epc-title-list for multi-line */
+.epc-title-line       /* Single line in multi-line title */
 .epc-tree-count       /* Parts count badge */
-.epc-folder-count     /* Count for folder nodes */
 
 /* EPC Columns */
 .epc-column-nav       /* Column container */

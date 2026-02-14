@@ -5,8 +5,13 @@ import PartThumbnail from './PartThumbnail'
 
 /**
  * EPC (Electronic Parts Catalog) Browser
- * Displays parts grouped by diagram when a main item is selected
- * Navigation is handled by the Sidebar component
+ *
+ * Diagram-centric pages: one URL per diagram (/epc/:groupId/diagram/:diagramId).
+ * Main items that share a diagram are combined on one page with foldable part groups.
+ *
+ * - Resizable split: diagram viewer (top), drag handle, scrollable table section (info bar, search, parts).
+ * - Clicking a hotspot selects the part, expands its group if needed, and scrolls the table to that row.
+ * - Navigation is handled by the Sidebar (tree/column view with diagram pills and multi-line titles).
  */
 
 // Parse "CABLE,BONNET LOCK RELEASE" → ["Cable", "Bonnet lock release"]
