@@ -9,6 +9,15 @@ import PartThumbnail from './PartThumbnail'
  * Navigation is handled by the Sidebar component
  */
 
+// Parse "CABLE,BONNET LOCK RELEASE" → ["Cable", "Bonnet lock release"]
+function parseDescription(desc) {
+  if (!desc) return []
+  return desc.split(',').map(s => {
+    const trimmed = s.trim().toLowerCase()
+    return trimmed.charAt(0).toUpperCase() + trimmed.slice(1)
+  })
+}
+
 // Group icons mapping
 const GROUP_ICONS = {
   A: '🚗', B: '🔩', C: '🪟', D: '💺', E: '⚙️', F: '❄️', G: '⛽', H: '🔧',
@@ -27,6 +36,7 @@ function EPCBrowser() {
   const [selectedRef, setSelectedRef] = useState(null) // Selected from parts list (click)
   const [sortConfig, setSortConfig] = useState({ key: null, direction: 'asc' })
   const [expandedDiagrams, setExpandedDiagrams] = useState(new Set())
+  const [copiedPartNo, setCopiedPartNo] = useState(null)
 
   // Load EPC data
   useEffect(() => {
@@ -36,6 +46,16 @@ function EPCBrowser() {
         return res.json()
       })
       .then(json => {
+        // Pre-process: split descriptions into component arrays
+        for (const group of json.groups) {
+          for (const sub of group.subSections) {
+            for (const main of sub.main) {
+              for (const part of main.parts) {
+                part.descriptionParts = parseDescription(part.description)
+              }
+            }
+          }
+        }
         setData(json)
         setLoading(false)
       })
@@ -184,6 +204,15 @@ function EPCBrowser() {
     return String(ref1) === String(ref2)
   }, [])
 
+  // Copy part number to clipboard
+  const handleCopyPartNo = useCallback((partNo, e) => {
+    e.stopPropagation()
+    navigator.clipboard.writeText(partNo).then(() => {
+      setCopiedPartNo(partNo)
+      setTimeout(() => setCopiedPartNo(null), 1500)
+    })
+  }, [])
+
   // Get part info for currently highlighted or selected ref
   const getActivePartInfo = useCallback((groupParts, activeRef) => {
     if (!activeRef) return null
@@ -317,7 +346,7 @@ function EPCBrowser() {
                   <span className="epc-part-location">{GROUP_ICONS[part.groupId]} {part.mainName}</span>
                 </div>
                 <div className="epc-part-card-body">
-                  <div className="epc-part-description">{part.description}</div>
+                  <div className="epc-part-description">{part.descriptionParts?.join(', ') || part.description}</div>
                   <div className="epc-part-numbers">
                     <span className="epc-part-partno">{part.partNo}</span>
                     {part.katNo && <span className="epc-part-katno">{part.katNo}</span>}
@@ -368,7 +397,7 @@ function EPCBrowser() {
           {part.qty && <span className="epc-part-qty">×{part.qty}</span>}
         </div>
         <div className="epc-part-card-body">
-          <div className="epc-part-description">{part.description}</div>
+          <div className="epc-part-description">{part.descriptionParts.join(', ')}</div>
           <div className="epc-part-numbers">
             <span className="epc-part-partno">{part.partNo}</span>
             {part.katNo && <span className="epc-part-katno">{part.katNo}</span>}
@@ -434,10 +463,15 @@ function EPCBrowser() {
                     {part.ref}
                   </button>
                 </td>
-                <td className="epc-desc-cell">{part.description}</td>
+                <td className="epc-desc-cell">{part.descriptionParts.join(', ')}</td>
                 <td className="epc-usage-cell">{part.usage}</td>
                 <td className="epc-qty-cell">{part.qty}</td>
-                <td className="epc-partno-cell">{part.partNo}</td>
+                <td className="epc-partno-cell epc-copyable" onClick={(e) => handleCopyPartNo(part.partNo, e)} title="Click to copy">
+                  {part.partNo}
+                  <span className={`epc-copy-icon ${copiedPartNo === part.partNo ? 'copied' : ''}`}>
+                    {copiedPartNo === part.partNo ? '✓' : '⧉'}
+                  </span>
+                </td>
                 <td className="epc-katno-cell">{part.katNo}</td>
               </tr>
             )
@@ -494,8 +528,13 @@ function EPCBrowser() {
               {activePartInfo && (
                 <>
                   <span className="epc-part-info-ref">#{activePartInfo.ref}</span>
-                  <span className="epc-part-info-desc">{activePartInfo.description}</span>
-                  <span className="epc-part-info-partno">{activePartInfo.partNo}</span>
+                  <span className="epc-part-info-desc">{activePartInfo.descriptionParts.join(', ')}</span>
+                  <span className="epc-part-info-partno epc-copyable" onClick={(e) => handleCopyPartNo(activePartInfo.partNo, e)} title="Click to copy">
+                    {activePartInfo.partNo}
+                    <span className={`epc-copy-icon ${copiedPartNo === activePartInfo.partNo ? 'copied' : ''}`}>
+                      {copiedPartNo === activePartInfo.partNo ? '✓' : '⧉'}
+                    </span>
+                  </span>
                   {activePartInfo.usage && <span className="epc-part-info-usage">{activePartInfo.usage}</span>}
                   {activePartInfo.qty && <span className="epc-part-info-qty">Qty: {activePartInfo.qty}</span>}
                 </>

@@ -109,13 +109,18 @@ node scrape-epc.js
 | Property | Description | Example |
 |----------|-------------|---------|
 | `ref` | Reference number (shown on diagram) | "1", "2", "15" |
-| `description` | Part description | "PANEL,ASSY.,CLAMSHELL,FRONT" |
+| `description` | Raw part description (ALL CAPS, comma-separated) | "PANEL,ASSY.,CLAMSHELL,FRONT" |
+| `descriptionParts` | Parsed description components (added at load time) | ["Panel", "Assy.", "Clamshell", "Front"] |
 | `usage` | Engine/trim variant | "Z20LET", "Z22SE", "" |
 | `range` | Model range | Usually empty |
 | `qty` | Quantity per vehicle | "1", "2", "AR" |
 | `partNo` | Opel/Vauxhall part number | "9198356" |
 | `katNo` | Catalog number | "48 01 403" |
 | `diagramId` | Reference to diagram in diagrams map | "abc123def456" |
+
+### Description Parsing
+
+Raw descriptions from the EPC source are ALL CAPS and comma-separated without spaces (e.g. `"CABLE,BONNET LOCK RELEASE"`). At data load time, `parseDescription()` splits by `,`, lowercases, and sentence-cases each component, storing the result as `descriptionParts`. Display uses `descriptionParts.join(', ')` for readability (e.g. "Cable, Bonnet lock release"). The original `description` field is preserved.
 
 ### Diagram Handling
 - Each unique diagram is downloaded once
@@ -135,6 +140,8 @@ Main component for browsing the parts catalog.
 - **Parts Table**: Sortable columns (click headers), filterable by search
 - **Diagram Viewer**: Modal popup showing diagram when clicking Ref number
 - **Global Search**: Search across all parts by description, part number, or catalog number
+- **Copy Part Number**: Click any Part No cell (table or info bar) to copy to clipboard
+- **Prettified Descriptions**: Raw ALL CAPS descriptions are parsed into readable sentence case
 
 **Routes:**
 - `/epc` - Groups grid (home)
@@ -276,6 +283,8 @@ A browser-based editor is available at `/hotspot-editor.html` to:
 In the EPC Browser:
 - **Hover table row** → Highlights corresponding hotspot(s) on the diagram
 - **Hover hotspot** → Highlights corresponding table row(s)
+- **Part Info Bar** → Shows hovered/selected part details between diagram and table (always rendered with fixed height to prevent layout shift)
+- **Click Part No** → Copies to clipboard with visual feedback (checkmark)
 - Sheet code is displayed below the diagram
 
 ## Future Improvements

@@ -3553,6 +3553,30 @@ main.content:has(.content-welcome) .content-welcome {
   color: var(--accent);
 }
 
+/* Copy-to-clipboard for part numbers */
+.epc-copyable {
+  cursor: pointer;
+  position: relative;
+  user-select: all;
+}
+
+.epc-copy-icon {
+  margin-left: 4px;
+  font-size: 0.75rem;
+  opacity: 0;
+  transition: opacity 0.15s;
+  color: var(--text-tertiary);
+}
+
+.epc-copyable:hover .epc-copy-icon {
+  opacity: 0.6;
+}
+
+.epc-copy-icon.copied {
+  opacity: 1;
+  color: var(--accent);
+}
+
 .epc-katno-cell {
   width: 100px;
   font-family: 'SF Mono', Monaco, monospace;
