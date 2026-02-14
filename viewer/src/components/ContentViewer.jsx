@@ -605,7 +605,13 @@ function TsbViewer({ data }) {
  */
 function DiagramViewer({ data }) {
   const [imageError, setImageError] = useState(false)
-  const isCgm = data.diagram?.src?.toLowerCase().endsWith('.cgm')
+  const rawSrc = data.diagram?.src
+  const isCgm = rawSrc?.toLowerCase().endsWith('.cgm')
+
+  // Auto-resolve .cgm paths to converted PNGs: /data/assets/hash.cgm → /data/assets/converted/hash.png
+  const diagramSrc = isCgm
+    ? rawSrc.replace(/\/data\/assets\/([^/]+)\.cgm$/i, '/data/assets/converted/$1.png')
+    : rawSrc
 
   return (
     <div className="diagram-viewer">
@@ -613,14 +619,14 @@ function DiagramViewer({ data }) {
       
       {data.diagram && (
         <div className="diagram-map-container">
-          {isCgm ? (
+          {isCgm && imageError ? (
             <div className="diagram-fallback">
-              <p>CGM diagram: {data.diagram.src}</p>
-              <p className="diagram-note">CGM format diagrams require a specialized viewer</p>
+              <p>CGM diagram: {rawSrc}</p>
+              <p className="diagram-note">CGM format diagram has not been converted yet — run <code>node transform-cgm.js</code></p>
             </div>
           ) : (
             <MapViewer
-              src={data.diagram.src}
+              src={diagramSrc}
               alt={data.title}
               onError={() => setImageError(true)}
             />
