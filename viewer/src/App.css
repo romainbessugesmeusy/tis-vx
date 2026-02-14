@@ -546,6 +546,12 @@ body {
   opacity: 0.6;
 }
 
+/* EPC diagram leaf: hide page emoji, use diagram pill instead */
+.epc-diagram-leaf::before {
+  content: none !important;
+  display: none !important;
+}
+
 /* Folder/subcomponent icon */
 .column-nav-folder-icon {
   font-size: 0.95rem;
@@ -4044,6 +4050,42 @@ main.content:has(.content-welcome) .content-welcome {
   white-space: nowrap;
 }
 
+.epc-title-list {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+}
+
+.epc-title-line {
+  display: block;
+  line-height: 1.35;
+}
+
+.epc-title-line + .epc-title-line {
+  margin-top: 2px;
+}
+
+.epc-diagram-pill {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  padding: 2px 6px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--text-light);
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+  margin-right: 8px;
+}
+
+.epc-nav-link.active .epc-diagram-pill,
+.epc-column-link.active .epc-diagram-pill {
+  background: rgba(59, 130, 246, 0.35);
+  color: #fff;
+}
+
 .epc-tree-count {
   flex-shrink: 0;
   padding: 2px 8px;
@@ -4084,6 +4126,12 @@ main.content:has(.content-welcome) .content-welcome {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.epc-column-link .column-nav-title.epc-title-list {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
 }
 
 .epc-column-count {

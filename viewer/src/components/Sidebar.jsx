@@ -88,8 +88,15 @@ const STORAGE_KEYS = {
 // Build EPC tree structure from parts.json data
 // Aggregates by diagram: each group has direct children = one leaf per unique diagram
 // (multiple main items sharing a diagram become one page with title "Name1 / Name2")
-function buildEpcTree(epcData) {
+function buildEpcTree(epcData, hotspotIndex = null) {
   if (!epcData || !epcData.groups) return null
+
+  const sheetCodeByDiagramId = new Map()
+  if (hotspotIndex?.diagrams) {
+    hotspotIndex.diagrams.forEach(d => {
+      sheetCodeByDiagramId.set(d.id, d.sheetCode ?? '?')
+    })
+  }
 
   const nodes = {}
   const roots = []
@@ -122,6 +129,8 @@ function buildEpcTree(epcData) {
       nodes[nodeId] = {
         id: nodeId,
         title,
+        mainItemNames: entry.titleParts,
+        epcSheetCode: sheetCodeByDiagramId.get(did) ?? '?',
         isLeaf: true,
         children: null,
         parentId: groupNodeId,
@@ -168,23 +177,35 @@ function EPCTreeNode({ nodeId, nodes, epcIdToSlug, expandedNodes, toggleNode, se
       if (!matchesSearch) return null
     }
 
+    const titleContent = node.mainItemNames?.length ? (
+      <span className="epc-tree-title epc-title-list">
+        {node.mainItemNames.map((name, i) => (
+          <span key={i} className="epc-title-line">{name}</span>
+        ))}
+      </span>
+    ) : (
+      <span className="epc-tree-title">{node.title}</span>
+    )
+    const diagramPill = <span className="epc-diagram-pill" title={`Diagram ${node.epcSheetCode}`}>{node.epcSheetCode}</span>
     return (
       <li className="tree-leaf epc-tree-leaf">
         {onDocumentSelect ? (
           <button
             type="button"
-            className="nav-link document-leaf epc-nav-link"
+            className="nav-link document-leaf epc-nav-link epc-diagram-leaf"
             onClick={() => onDocumentSelect(slug)}
           >
-            <span className="epc-tree-title">{node.title}</span>
+            {diagramPill}
+            {titleContent}
             <span className="epc-tree-count">{node.partsCount}</span>
           </button>
         ) : (
           <NavLink
             to={`/${slug}`}
-            className={({ isActive }) => `nav-link document-leaf epc-nav-link ${isActive ? 'active' : ''}`}
+            className={({ isActive }) => `nav-link document-leaf epc-nav-link epc-diagram-leaf ${isActive ? 'active' : ''}`}
           >
-            <span className="epc-tree-title">{node.title}</span>
+            {diagramPill}
+            {titleContent}
             <span className="epc-tree-count">{node.partsCount}</span>
           </NavLink>
         )}
@@ -469,24 +490,38 @@ function EPCColumnNav({ roots, nodes, epcIdToSlug, searchQuery, maxVisibleColumn
                 return (
                   <li key={id} className="column-nav-item">
                     {isLeaf ? (
-                      onDocumentSelect ? (
-                        <button
-                          type="button"
-                          className={`column-nav-link epc-column-link ${isActive ? 'active' : ''}`}
-                          onClick={() => handleItemClick(id, colIndex)}
-                        >
+                      (() => {
+                        const colTitleContent = node.mainItemNames?.length ? (
+                          <span className="column-nav-title epc-title-list">
+                            {node.mainItemNames.map((name, i) => (
+                              <span key={i} className="epc-title-line">{name}</span>
+                            ))}
+                          </span>
+                        ) : (
                           <span className="column-nav-title">{node.title}</span>
-                          <span className="epc-column-count">{node.partsCount}</span>
-                        </button>
-                      ) : (
-                        <NavLink
-                          to={`/${epcIdToSlug[id]}`}
-                          className={`column-nav-link epc-column-link ${isActive ? 'active' : ''}`}
-                        >
-                          <span className="column-nav-title">{node.title}</span>
-                          <span className="epc-column-count">{node.partsCount}</span>
-                        </NavLink>
-                      )
+                        )
+                        const colDiagramPill = <span className="epc-diagram-pill" title={`Diagram ${node.epcSheetCode}`}>{node.epcSheetCode}</span>
+                        return onDocumentSelect ? (
+                          <button
+                            type="button"
+                            className={`column-nav-link epc-column-link epc-diagram-leaf ${isActive ? 'active' : ''}`}
+                            onClick={() => handleItemClick(id, colIndex)}
+                          >
+                            {colDiagramPill}
+                            {colTitleContent}
+                            <span className="epc-column-count">{node.partsCount}</span>
+                          </button>
+                        ) : (
+                          <NavLink
+                            to={`/${epcIdToSlug[id]}`}
+                            className={`column-nav-link epc-column-link epc-diagram-leaf ${isActive ? 'active' : ''}`}
+                          >
+                            {colDiagramPill}
+                            {colTitleContent}
+                            <span className="epc-column-count">{node.partsCount}</span>
+                          </NavLink>
+                        )
+                      })()
                     ) : (
                       <button
                         type="button"
@@ -1651,22 +1686,30 @@ function Sidebar({ sections, tree, tocIdToSlug, contentTypeStats, selectedEngine
   const location = useLocation()
   const initialExpandRef = useRef(true)
   
-  // EPC data and tree
+  // EPC data, hotspot index, and tree
   const [epcData, setEpcData] = useState(null)
-  const [epcTree, setEpcTree] = useState(null)
+  const [epcHotspotIndex, setEpcHotspotIndex] = useState(null)
   
   // Load EPC data
   useEffect(() => {
     fetch('/data/epc/parts.json')
       .then(res => res.ok ? res.json() : null)
-      .then(data => {
-        if (data) {
-          setEpcData(data)
-          setEpcTree(buildEpcTree(data))
-        }
-      })
+      .then(data => data ? setEpcData(data) : null)
       .catch(() => setEpcData(null))
   }, [])
+  
+  // Load EPC hotspot index (for diagram sheet codes in sidebar)
+  useEffect(() => {
+    fetch('/data/epc/hotspots/_index.json')
+      .then(res => res.ok ? res.json() : null)
+      .then(data => data ? setEpcHotspotIndex(data) : null)
+      .catch(() => setEpcHotspotIndex(null))
+  }, [])
+
+  const epcTree = useMemo(
+    () => buildEpcTree(epcData, epcHotspotIndex),
+    [epcData, epcHotspotIndex]
+  )
   
   // EPC expanded nodes for tree view
   const [epcExpandedNodes, setEpcExpandedNodes] = useState(() => {
