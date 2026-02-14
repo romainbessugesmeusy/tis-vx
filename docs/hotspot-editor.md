@@ -187,6 +187,15 @@ The magic wand tool auto-detects part outlines from the diagram's black contour 
 
 The low brightness threshold (80) avoids leaking through anti-aliased gray pixels where lines pass near each other.
 
+### Hotspot Interactions (Select Mode)
+
+| Action | Result |
+|--------|--------|
+| **Click hotspot** | Select it (shows edit panel + resize handles) |
+| **Double-click hotspot** | Open dialog to update the ref number |
+| **Drag hotspot** | Move it to a new position |
+| **Ctrl/Cmd + D** | Duplicate selected hotspot with same ref number |
+
 ### Polygon Point Editing
 
 When a polygon is selected, you can edit its shape:
@@ -226,6 +235,7 @@ Visual indicators:
 | `W` | Switch to Magic Wand mode |
 | `Esc` | Cancel current action → Deselect → Switch to Select mode |
 | `Del` / `Backspace` | Delete selected hotspot |
+| `Ctrl/Cmd + D` | Duplicate selected hotspot (same ref, 15px offset) |
 | `Cmd/Ctrl + S` | Force immediate save |
 | `Space + Drag` | Pan (in any mode) |
 | `Scroll` | Zoom |

@@ -878,7 +878,8 @@
       
       <div class="keyboard-hints">
         <kbd>V</kbd> Select • <kbd>R</kbd> Rect • <kbd>I</kbd> Iso • <kbd>L</kbd> Poly • <kbd>O</kbd> Lasso • <kbd>W</kbd> Wand<br>
-        <kbd>Del</kbd> Delete • <kbd>Esc</kbd> Cancel
+        <kbd>Del</kbd> Delete • <kbd>Ctrl+D</kbd> Duplicate • <kbd>Esc</kbd> Cancel<br>
+        <em>Double-click</em> hotspot to edit ref #
       </div>
     </div>
     
@@ -1257,6 +1258,10 @@
           
           // Events on polygon
           div.querySelector('polygon').addEventListener('mousedown', (e) => handleHotspotMouseDown(e, index));
+          div.querySelector('polygon').addEventListener('dblclick', (e) => {
+            e.stopPropagation();
+            showEditRefDialog(index);
+          });
           
           // Edge click to add point
           div.querySelectorAll('.edge-segment').forEach(edge => {
@@ -1307,6 +1312,10 @@
           `;
           
           div.addEventListener('mousedown', (e) => handleHotspotMouseDown(e, index));
+          div.addEventListener('dblclick', (e) => {
+            e.stopPropagation();
+            showEditRefDialog(index);
+          });
         }
         
         container.appendChild(div);
@@ -1400,6 +1409,41 @@
       else if (selectedIndex > index) selectedIndex--;
       markUnsaved();
       updateUI();
+    }
+    
+    function duplicateHotspot(index) {
+      const h = currentData.hotspots[index];
+      if (!h) return;
+      const OFFSET = 15;
+      let clone;
+      if (h.type === 'polygon' && h.points) {
+        clone = {
+          type: 'polygon',
+          ref: h.ref,
+          points: h.points.map(p => ({ x: p.x + OFFSET, y: p.y + OFFSET })),
+          confidence: 100,
+          manual: true,
+        };
+      } else {
+        clone = {
+          type: 'rect',
+          ref: h.ref,
+          bbox: { x: h.bbox.x + OFFSET, y: h.bbox.y + OFFSET, width: h.bbox.width, height: h.bbox.height },
+          normalized: {
+            x: (h.bbox.x + OFFSET) / currentData.imageWidth,
+            y: (h.bbox.y + OFFSET) / currentData.imageHeight,
+            width: h.bbox.width / currentData.imageWidth,
+            height: h.bbox.height / currentData.imageHeight,
+          },
+          confidence: 100,
+          manual: true,
+        };
+      }
+      currentData.hotspots.push(clone);
+      selectedIndex = currentData.hotspots.length - 1;
+      markUnsaved();
+      updateUI();
+      showToast(`Duplicated #${h.ref}`, 'success');
     }
     
     let autosaveTimer = null;
@@ -1562,14 +1606,35 @@
     
     // Dialog
     let pendingShape = null;
+    let editingHotspotIndex = null; // non-null when double-click editing ref
     
     function showRefDialog(shape) {
       pendingShape = shape;
+      editingHotspotIndex = null;
       document.getElementById('overlayBg').classList.add('visible');
       document.getElementById('refDialog').classList.add('visible');
+      document.querySelector('#refDialog h3').textContent = 'Part Reference Number';
+      document.getElementById('confirmRefBtn').textContent = 'Add';
       const input = document.getElementById('refInput');
       input.value = '';
       // Use setTimeout to ensure focus works after DOM update
+      setTimeout(() => {
+        input.focus();
+        input.select();
+      }, 50);
+    }
+    
+    function showEditRefDialog(index) {
+      const h = currentData.hotspots[index];
+      if (!h) return;
+      editingHotspotIndex = index;
+      pendingShape = null;
+      document.getElementById('overlayBg').classList.add('visible');
+      document.getElementById('refDialog').classList.add('visible');
+      document.querySelector('#refDialog h3').textContent = 'Update Reference Number';
+      document.getElementById('confirmRefBtn').textContent = 'Update';
+      const input = document.getElementById('refInput');
+      input.value = h.ref;
       setTimeout(() => {
         input.focus();
         input.select();
@@ -1580,6 +1645,7 @@
       document.getElementById('overlayBg').classList.remove('visible');
       document.getElementById('refDialog').classList.remove('visible');
       pendingShape = null;
+      editingHotspotIndex = null;
       drawPreview.classList.remove('visible');
       isometricPreview.style.display = 'none';
       
@@ -2224,6 +2290,11 @@
         saveChanges();
       }
       
+      if (e.key === 'd' && (e.ctrlKey || e.metaKey) && !e.target.matches('input')) {
+        e.preventDefault();
+        if (selectedIndex !== null) duplicateHotspot(selectedIndex);
+      }
+      
       if (e.key === 'Escape') {
         if (pendingShape) {
           closeDialog();
@@ -2302,9 +2373,15 @@
     
     document.getElementById('confirmRefBtn').addEventListener('click', () => {
       const ref = parseInt(document.getElementById('refInput').value);
-      if (ref >= 1 && ref <= 99 && pendingShape) {
-        if (pendingShape.type === 'rect') addRectHotspot(pendingShape.bbox, ref);
-        else if (pendingShape.type === 'polygon') addPolygonHotspot(pendingShape.points, ref);
+      if (ref >= 1 && ref <= 99) {
+        if (editingHotspotIndex !== null) {
+          currentData.hotspots[editingHotspotIndex].ref = ref;
+          markUnsaved();
+          updateUI();
+        } else if (pendingShape) {
+          if (pendingShape.type === 'rect') addRectHotspot(pendingShape.bbox, ref);
+          else if (pendingShape.type === 'polygon') addPolygonHotspot(pendingShape.points, ref);
+        }
       }
       closeDialog();
     });
