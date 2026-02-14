@@ -2531,12 +2531,7 @@ main.content:has(.content-welcome) .content-welcome {
 }
 
 .map-viewer [class*="transform-component-module_content"] {
-  width: 100% !important;
-  height: 100% !important;
   background: inherit !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
 }
 
 /* Responsive */

@@ -210,6 +210,43 @@ Key CSS classes:
 - `.epc-copyable` / `.epc-copy-icon` - Copy-to-clipboard interaction on part numbers
 - `.sidebar-mode-toggle` - Manual/Parts mode toggle
 
+## MapViewer & react-zoom-pan-pinch
+
+The diagram viewer uses `react-zoom-pan-pinch` (v3.7+) with a `TransformWrapper` / `TransformComponent` pair. The library applies a CSS `transform: translate(x, y) scale(s)` with `transform-origin: 0 0` to the content div.
+
+### Centering math
+
+Both `handleFitToView` and the `centerOnRef` effect compute a translate/scale and pass it to `setTransform(x, y, scale, ms, easing)`:
+
+```
+x = containerWidth / 2 − cx * scale
+y = containerHeight / 2 − cy * scale
+```
+
+where `(cx, cy)` is the point to center in **image-pixel coordinates** (natural dimensions). This formula assumes the image starts at `(0, 0)` of the content div. Any CSS that offsets the image (flex centering, margins, padding) will break the calculation.
+
+### Critical CSS constraint
+
+The library's content div (`.transform-component-module_content`) **must not** have `justify-content: center`, `align-items: center`, or any other layout property that moves the image away from the top-left origin. These would introduce a flex offset `((containerW − imageW) / 2, (containerH − imageH) / 2)` that the centering formula doesn't account for, causing the hotspot to land off-center. The error scales with zoom level and is proportionally worse on narrower viewports (mobile).
+
+Current overrides in `App.css`:
+
+```css
+/* Wrapper: fill the container */
+.map-viewer [class*="transform-component-module_wrapper"] {
+  width: 100% !important;
+  height: 100% !important;
+  background: inherit !important;
+}
+
+/* Content: only override background — do NOT add width/height/flex alignment */
+.map-viewer [class*="transform-component-module_content"] {
+  background: inherit !important;
+}
+```
+
+The wrapper override (`width/height: 100%`) is needed so the transform area fills the `.map-viewer` container and clips content via `overflow: hidden`. The content div must keep the library defaults (`width: fit-content; display: flex; flex-wrap: wrap; justify-content: flex-start; align-items: stretch; transform-origin: 0 0`).
+
 ## Statistics (as of last scrape)
 
 - **15 Groups**
@@ -299,7 +336,7 @@ In the EPC Browser:
 - **Hover table row** → Highlights corresponding hotspot(s) on the diagram (polygon outlines only, no bounding box)
 - **Hover hotspot** → Highlights corresponding table row(s)
 - **Click hotspot** → Selects part, expands its foldable group if collapsed, scrolls the table section to that part (smooth), and centers diagram on the hotspot
-- **Click ref badge** → Selects part and centers/zooms diagram on the hotspot (`centerOnRef` prop on MapViewer)
+- **Click ref badge** → Selects part and centers/zooms diagram on the hotspot (`centerOnRef` prop on MapViewer). Zooms to ~2.5× fit scale (capped at 3×) and animates (400ms easeOut)
 - **Part Info Bar** → Below the resize handle in the table section; shows hovered/selected part details; placeholder "Hover or click a part to see details" when empty
 - **Click Part No** → Copies to clipboard with visual feedback (checkmark)
 - **Navigation reset** → Search query and selection are cleared when navigating to a different page via sidebar
