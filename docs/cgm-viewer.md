@@ -49,15 +49,23 @@ node transform-cgm.js
 
 ### Conversion Results
 
-- **67 CGM files** converted to PNG
+- **70 CGM files** converted to PNG (67 from Z20LET, 3 additional from Z22SE)
 - **4K resolution** (3840×2160) for high detail
-- **Total size**: ~51.5 MB
 - **Output location**: `viewer/public/data/assets/converted/`
 
-### Content File Updates
+### Runtime Path Resolution
 
-After conversion, all HTML and JSON content files were updated to reference the new PNG paths:
-- Changed: `/data/assets/[hash].cgm` → `/data/assets/converted/[hash].png`
+Content JSON files store the original `.cgm` path as produced by `transform-content.js` (e.g. `/data/assets/2e0adabcbefc.cgm`). The `DiagramViewer` component automatically resolves these to converted PNGs at runtime:
+
+```
+/data/assets/{hash}.cgm  →  /data/assets/converted/{hash}.png
+```
+
+This means **re-running the transform pipeline does not break diagrams** — no manual path patching is needed. If a converted PNG is missing (image load error), the viewer falls back to a message prompting you to run `transform-cgm.js`.
+
+### When to Re-run
+
+Run `node transform-cgm.js` after any scrape that introduces new CGM files. The script re-converts all CGMs (no skip logic), so it's safe to run repeatedly. Takes ~60 seconds for 70 files.
 
 ## Diagram Viewer Component
 
@@ -68,7 +76,8 @@ The diagram viewing functionality is split between two components:
 1. **DiagramViewer** (`viewer/src/components/ContentViewer.jsx`)
    - Wrapper component that handles diagram data and layout
    - Renders the title, MapViewer, and component tables
-   - Shows fallback message for unconverted CGM files
+   - Auto-resolves `.cgm` src paths to `/data/assets/converted/{hash}.png`
+   - Shows fallback message only when the converted PNG fails to load
 
 2. **MapViewer** (`viewer/src/components/MapViewer.jsx`)
    - Google Maps-style interactive image viewer
@@ -146,6 +155,25 @@ Key classes:
 - `.map-viewer-help` - Help text overlay
 - `.diagram-viewer` - Parent container for diagram content
 - `.diagram-map-container` - Wrapper around MapViewer
+
+## Pipeline Integration
+
+### Full pipeline order (two-engine)
+
+```bash
+node scrape-tis.js                                    # → output-z20let/
+node scrape-tis.js --engine z22se                     # → output-z22se/
+node transform-content.js --input output-z20let --output viewer/public/data-z20let
+node transform-content.js --input output-z22se --output viewer/public/data-z22se
+node merge-variants.js --z20let viewer/public/data-z20let --z22se viewer/public/data-z22se
+node transform-cgm.js                                 # ← converts CGMs in viewer/public/data/assets/
+```
+
+### Pitfall: forgetting `transform-cgm.js` after re-transform
+
+`transform-content.js` copies raw `.cgm` files into `viewer/public/data/assets/` and writes content JSON with `.cgm` src paths. `merge-variants.js` copies these assets and content into the final `viewer/public/data/` directory. Neither script converts CGMs or rewrites paths.
+
+Previously, content JSON paths were manually patched after conversion, which broke whenever the pipeline was re-run (e.g. after adding Z22SE). The DiagramViewer now handles this at runtime (see "Runtime Path Resolution" above), so the only requirement is that converted PNGs exist in `viewer/public/data/assets/converted/`.
 
 ## Alternative CGM Solutions
 
