@@ -143,7 +143,7 @@ function buildEpcTree(epcData, hotspotIndex = null) {
 
     nodes[groupNodeId] = {
       id: groupNodeId,
-      title: `${EPC_GROUP_ICONS[group.id] || '📦'} ${group.id} - ${group.name}`,
+      title: `${EPC_GROUP_ICONS[group.id] || '📦'} ${group.name}`,
       isLeaf: false,
       children: diagramNodeIds,
       parentId: null,
