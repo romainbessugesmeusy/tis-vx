@@ -212,22 +212,34 @@ Visual indicators:
 | `O` | Switch to Lasso mode |
 | `Esc` | Cancel current action → Deselect → Switch to Select mode |
 | `Del` / `Backspace` | Delete selected hotspot |
-| `Cmd/Ctrl + S` | Save changes |
+| `Cmd/Ctrl + S` | Force immediate save |
 | `Space + Drag` | Pan (in any mode) |
 | `Scroll` | Zoom |
 
 ### Sidebar Panels
 
 1. **Diagram List**: Searchable, filterable by status (All/To-Do/Done)
-2. **Info Panel**: Current diagram metadata, status toggle
-3. **Edit Panel**: Edit selected hotspot's ref number
-4. **Hotspots List**: All hotspots sorted by ref, click to select
+2. **Info Panel**: Editable sheet code, diagram UUID, stats, status toggle (To-Do/Done)
+3. **Edit Panel**: Edit selected hotspot's ref number (appears on selection)
+4. **Hotspots List**: All hotspots sorted by ref, click to select. Header shows save status and has a clear-all button.
+
+### Autosave
+
+Changes are **automatically saved** 1.5 seconds after the last edit. The save status appears in the Hotspots panel header:
+- **"Saving..."** (amber) — save in progress
+- **"Saved"** (green) — save complete, fades after 2s
+- **"Save failed"** (red) — server error
+
+Switching diagrams auto-saves the current one first. Closing the page fires a background save via `sendBeacon`. `Cmd/Ctrl + S` triggers an immediate save (bypasses debounce).
+
+### Zoom-Proportional Handles
+
+All editor handles, borders, and labels scale inversely with zoom so they maintain a consistent apparent size. This keeps vertex handles grabbable when zoomed out and prevents them from obscuring the diagram when zoomed in. Affected elements: vertex handles, resize handles, edge segments, hotspot labels, rect/polygon borders, and drawing previews.
 
 ### Visual Indicators
 
 - **Yellow dot** in list: To-Do status
 - **Green dot** in list: Done status
-- **Orange dot** next to "Hotspots": Unsaved changes
 - **Blue border**: Rectangle hotspot
 - **Purple border**: Polygon hotspot
 - **Pink line**: Lasso drawing preview
@@ -357,13 +369,13 @@ const displayX = hotspot.bbox.x * scaleX;
 ### Per-Diagram Workflow
 
 1. Select diagram from list
-2. Use "Fit" (⊡) to see whole diagram
-3. Zoom in on areas with parts
-4. Draw hotspots using Rectangle or Polygon mode
-5. Use ESC to return to Select mode for panning
-6. Set ref numbers when prompted
-7. Mark as "Done" when complete
-8. Save (`Cmd/Ctrl + S`)
+2. Set the sheet code in the info panel if missing
+3. Use "Fit" (⊡) to see whole diagram
+4. Zoom in on areas with parts
+5. Draw hotspots using Rectangle or Polygon mode
+6. Use ESC to return to Select mode for panning
+7. Set ref numbers when prompted
+8. Mark as "Done" when complete (changes autosave)
 
 ### Tips
 
@@ -371,7 +383,7 @@ const displayX = hotspot.bbox.x * scaleX;
 - **Rectangle mode**: Faster for simple isolated parts
 - **Isometric mode**: Perfect for parts drawn in isometric projection (rotated view)
 - **Lasso mode**: Fastest for complex shapes - just trace around the part freehand
-- **Sheet codes**: Edit in the toolbar input field
+- **Sheet codes**: Edit in the "Current Diagram" info panel
 - **Repeated numbers**: Create multiple hotspots with the same ref
 - **Overlapping parts**: Use polygons or lasso to trace exact boundaries
 - **Edit polygons**: Select a polygon (including lasso-created ones), then drag vertices or click edges to refine the shape
@@ -385,9 +397,10 @@ npm run hotspot-server
 # Verify: curl http://localhost:3001/api/diagrams
 ```
 
-### Changes not saving
+### Changes not autosaving
 
 - Check browser console for errors
+- Look for "Save failed" in the hotspots header
 - Verify server is running
 - Check file permissions on hotspots directory
 

@@ -2,7 +2,10 @@
   "diagramId": "2831f37e6883",
   "imageWidth": 1240,
   "imageHeight": 1761,
-  "sheetCode": null,
+  "sheetCode": {
+    "text": "Q3",
+    "bbox": null
+  },
   "hotspots": [
     {
       "ref": 4,
@@ -37,5 +40,7 @@
       "confidence": 28
     }
   ],
-  "extractedAt": "2026-02-02T13:55:13.226Z"
+  "extractedAt": "2026-02-02T13:55:13.226Z",
+  "status": "todo",
+  "modifiedAt": "2026-02-14T12:56:06.844Z"
 }

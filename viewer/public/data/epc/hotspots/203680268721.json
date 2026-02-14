@@ -2,7 +2,31 @@
   "diagramId": "203680268721",
   "imageWidth": 1240,
   "imageHeight": 1761,
-  "sheetCode": null,
-  "hotspots": [],
-  "extractedAt": "2026-02-02T13:55:07.459Z"
+  "sheetCode": {
+    "text": "B1",
+    "bbox": null
+  },
+  "hotspots": [
+    {
+      "type": "rect",
+      "ref": 1,
+      "bbox": {
+        "x": 732.0041987403779,
+        "y": 1072.8667580916217,
+        "width": 187.3142057382786,
+        "height": 322.87053883834847
+      },
+      "normalized": {
+        "x": 0.5903259667261112,
+        "y": 0.6092372277635558,
+        "width": 0.15105984333732145,
+        "height": 0.18334499650104966
+      },
+      "confidence": 100,
+      "manual": true
+    }
+  ],
+  "extractedAt": "2026-02-02T13:55:07.459Z",
+  "status": "done",
+  "modifiedAt": "2026-02-14T12:54:19.239Z"
 }

@@ -146,6 +146,33 @@
       color: #e94560;
     }
     
+    .info-panel input.diagram-name {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      color: #e94560;
+      font-size: 1rem;
+      font-weight: bold;
+      width: 100%;
+      padding: 4px 8px;
+      border-radius: 4px;
+      box-sizing: border-box;
+      outline: none;
+    }
+    .info-panel input.diagram-name:focus {
+      border-color: #e94560;
+      background: rgba(255,255,255,0.12);
+    }
+    .info-panel input.diagram-name::placeholder {
+      color: #555;
+      font-weight: normal;
+    }
+    .diagram-uuid {
+      font-size: 0.65rem;
+      color: #555;
+      font-family: monospace;
+      margin-top: 3px;
+    }
+    
     .info-panel .stats {
       font-size: 0.7rem;
       color: #666;
@@ -226,11 +253,44 @@
       min-height: 0;
     }
     
+    .hotspots-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    
     .hotspots-list h2 {
       font-size: 0.85rem;
-      margin-bottom: 8px;
       color: #888;
     }
+    
+    .save-status {
+      font-size: 0.7rem;
+      margin-left: auto;
+      transition: opacity 0.3s;
+    }
+    .save-status.saving { color: #f59e0b; }
+    .save-status.saved { color: #16a34a; }
+    .save-status.error { color: #ef4444; }
+    .save-status.idle { opacity: 0; }
+    
+    .clear-all-btn {
+      background: none;
+      border: 1px solid #333;
+      color: #666;
+      width: 22px;
+      height: 22px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.7rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .clear-all-btn:hover:not(:disabled) { border-color: #e94560; color: #e94560; }
+    .clear-all-btn:disabled { opacity: 0.3; cursor: not-allowed; }
     
     .hotspots-scroll {
       flex: 1;
@@ -270,11 +330,7 @@
     }
     .hotspot-item .delete-btn:hover { opacity: 1; }
     
-    .actions {
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-    }
+    /* (actions bar removed - autosave) */
     
     .btn {
       padding: 10px 16px;
@@ -294,17 +350,7 @@
     .btn-success { background: #16a34a; color: white; }
     .btn-small { padding: 5px 10px; font-size: 0.75rem; }
     
-    .unsaved-indicator {
-      display: inline-block;
-      width: 8px;
-      height: 8px;
-      background: #f59e0b;
-      border-radius: 50%;
-      margin-left: 6px;
-      animation: pulse 1s infinite;
-    }
-    
-    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+    /* (unsaved indicator removed - replaced by save status) */
     
     .keyboard-hints {
       font-size: 0.65rem;
@@ -426,6 +472,7 @@
       transform-origin: 0 0;
       background: white;
       display: inline-block;
+      --inv-zoom: 1;
     }
     
     .diagram-container img {
@@ -454,7 +501,7 @@
     }
     
     .hotspot-overlay.rect {
-      border: 2px solid #3b82f6;
+      border: calc(2px * var(--inv-zoom, 1)) solid #3b82f6;
       background: rgba(59, 130, 246, 0.15);
       border-radius: 3px;
     }
@@ -475,7 +522,7 @@
     .hotspot-overlay.polygon polygon {
       fill: rgba(139, 92, 246, 0.2);
       stroke: #8b5cf6;
-      stroke-width: 2;
+      stroke-width: calc(2 * var(--inv-zoom, 1));
       pointer-events: auto;
       cursor: move;
     }
@@ -515,7 +562,8 @@
       position: absolute;
       top: -20px;
       left: 50%;
-      transform: translateX(-50%);
+      transform: translateX(-50%) scale(var(--inv-zoom, 1));
+      transform-origin: bottom center;
       background: #3b82f6;
       color: white;
       padding: 1px 5px;
@@ -532,20 +580,21 @@
     
     .resize-handle {
       position: absolute;
-      width: 8px;
-      height: 8px;
+      width: 10px;
+      height: 10px;
       background: #e94560;
       border: 1px solid white;
       border-radius: 2px;
       display: none;
+      transform: scale(var(--inv-zoom, 1));
     }
     
     .hotspot-overlay.selected .resize-handle { display: block; }
     
-    .resize-handle.nw { top: -4px; left: -4px; cursor: nw-resize; }
-    .resize-handle.ne { top: -4px; right: -4px; cursor: ne-resize; }
-    .resize-handle.sw { bottom: -4px; left: -4px; cursor: sw-resize; }
-    .resize-handle.se { bottom: -4px; right: -4px; cursor: se-resize; }
+    .resize-handle.nw { top: -5px; left: -5px; cursor: nw-resize; }
+    .resize-handle.ne { top: -5px; right: -5px; cursor: ne-resize; }
+    .resize-handle.sw { bottom: -5px; left: -5px; cursor: sw-resize; }
+    .resize-handle.se { bottom: -5px; right: -5px; cursor: se-resize; }
     
     /* Vertex layer - sits on top of SVG */
     .vertex-layer {
@@ -566,7 +615,7 @@
       background: #8b5cf6;
       border: 2px solid white;
       border-radius: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%) scale(var(--inv-zoom, 1));
       cursor: move;
       pointer-events: auto; /* But handles do capture */
       box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.3);
@@ -574,14 +623,14 @@
     
     .vertex-handle:hover {
       background: #ef4444;
-      transform: translate(-50%, -50%) scale(1.2);
+      transform: translate(-50%, -50%) scale(calc(var(--inv-zoom, 1) * 1.2));
       box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.3);
     }
     
     /* Edge segments for adding points - avoid vertex areas */
     .edge-segment {
       stroke: transparent;
-      stroke-width: 10;
+      stroke-width: calc(10 * var(--inv-zoom, 1));
       cursor: copy;
       pointer-events: stroke;
     }
@@ -616,7 +665,7 @@
     
     .draw-preview {
       position: absolute;
-      border: 2px dashed #4ecdc4;
+      border: calc(2px * var(--inv-zoom, 1)) dashed #4ecdc4;
       background: rgba(78, 205, 196, 0.2);
       pointer-events: none;
       display: none;
@@ -647,14 +696,14 @@
     .isometric-preview polygon {
       fill: rgba(255, 183, 77, 0.2);
       stroke: #ffb74d;
-      stroke-width: 2;
+      stroke-width: calc(2 * var(--inv-zoom, 1));
       stroke-dasharray: 5, 3;
     }
     
     .polygon-preview polyline {
       fill: none;
       stroke: #4ecdc4;
-      stroke-width: 2;
+      stroke-width: calc(2 * var(--inv-zoom, 1));
       stroke-dasharray: 5, 5;
     }
     
@@ -665,14 +714,14 @@
     
     .polygon-preview.lasso-mode .close-line {
       stroke: #f472b6;
-      stroke-width: 1;
+      stroke-width: calc(1 * var(--inv-zoom, 1));
       stroke-dasharray: 3, 3;
       opacity: 0.5;
     }
     
     .polygon-preview .temp-line {
       stroke: #4ecdc4;
-      stroke-width: 1;
+      stroke-width: calc(1 * var(--inv-zoom, 1));
       stroke-dasharray: 3, 3;
       opacity: 0.5;
     }
@@ -680,12 +729,13 @@
     .polygon-preview circle {
       fill: #4ecdc4;
       stroke: white;
-      stroke-width: 2;
+      stroke-width: calc(2 * var(--inv-zoom, 1));
+      r: calc(5 * var(--inv-zoom, 1));
     }
     
     .polygon-preview circle.close-hint {
       fill: #16a34a;
-      r: 8;
+      r: calc(8 * var(--inv-zoom, 1));
     }
     
     /* Dialog */
@@ -793,7 +843,8 @@
       
       <div class="info-panel" id="infoPanel" style="display: none;">
         <h3>Current Diagram</h3>
-        <div class="value" id="currentDiagram">—</div>
+        <input type="text" class="diagram-name" id="currentDiagramInput" placeholder="Sheet code (e.g. F4)">
+        <div class="diagram-uuid" id="diagramUuid">—</div>
         <div class="stats">
           <span id="imageSize">—</span> • <span id="hotspotCount">0</span> hotspots
         </div>
@@ -816,18 +867,17 @@
       </div>
       
       <div class="hotspots-list" id="hotspotsPanel" style="display: none;">
-        <h2>Hotspots <span id="unsavedIndicator" class="unsaved-indicator" style="display: none;"></span></h2>
+        <div class="hotspots-header">
+          <h2>Hotspots</h2>
+          <span id="saveStatus" class="save-status idle"></span>
+          <button class="clear-all-btn" id="clearAllBtn" disabled title="Clear all hotspots">✕</button>
+        </div>
         <div class="hotspots-scroll" id="hotspotsList"></div>
       </div>
       
-      <div class="actions">
-        <button class="btn btn-success" id="saveBtn" disabled>💾 Save</button>
-        <button class="btn btn-secondary" id="clearAllBtn" disabled>🗑️ Clear All</button>
-      </div>
-      
       <div class="keyboard-hints">
-        <kbd>V</kbd> Select • <kbd>R</kbd> Rect • <kbd>L</kbd> Poly • <kbd>O</kbd> Lasso<br>
-        <kbd>Del</kbd> Delete • <kbd>Esc</kbd> Cancel • <kbd>⌘S</kbd> Save
+        <kbd>V</kbd> Select • <kbd>R</kbd> Rect • <kbd>I</kbd> Iso • <kbd>L</kbd> Poly • <kbd>O</kbd> Lasso<br>
+        <kbd>Del</kbd> Delete • <kbd>Esc</kbd> Cancel
       </div>
     </div>
     
@@ -839,8 +889,6 @@
         <button class="mode" data-mode="polygon" title="Polygon tool (L)">⬡ Poly</button>
         <button class="mode" data-mode="lasso" title="Lasso tool (O)">◠ Lasso</button>
         <div class="separator"></div>
-        <label>Sheet:</label>
-        <input type="text" id="sheetCodeInput" placeholder="A10">
         <div class="zoom-controls">
           <button id="zoomOut">−</button>
           <span class="zoom-level" id="zoomLevel">100%</span>
@@ -1006,8 +1054,9 @@
       `).join('');
       
       list.querySelectorAll('.diagram-item').forEach(item => {
-        item.addEventListener('click', () => {
-          if (hasUnsavedChanges && !confirm('Unsaved changes. Continue?')) return;
+        item.addEventListener('click', async () => {
+          // Autosave current diagram before switching
+          if (hasUnsavedChanges) await saveChanges();
           loadDiagram(item.dataset.id);
         });
       });
@@ -1047,17 +1096,18 @@
         document.getElementById('infoPanel').style.display = 'block';
         document.getElementById('hotspotsPanel').style.display = 'flex';
         
-        document.getElementById('currentDiagram').textContent = currentData.sheetCode?.text || diagramId;
+        document.getElementById('currentDiagramInput').value = currentData.sheetCode?.text || '';
+        document.getElementById('diagramUuid').textContent = diagramId;
         document.getElementById('imageSize').textContent = `${currentData.imageWidth}×${currentData.imageHeight}`;
-        document.getElementById('sheetCodeInput').value = currentData.sheetCode?.text || '';
+        
         
         updateStatusButtons();
         
         hasUnsavedChanges = false;
+        updateSaveStatus('idle');
         updateUI();
         fitToView();
         
-        document.getElementById('saveBtn').disabled = false;
         document.getElementById('clearAllBtn').disabled = false;
         
       } catch (e) {
@@ -1071,6 +1121,7 @@
       zoom = Math.max(MIN_ZOOM, Math.min(MAX_ZOOM, newZoom));
       
       diagramContainer.style.transform = `scale(${zoom})`;
+      diagramContainer.style.setProperty('--inv-zoom', 1 / zoom);
       document.getElementById('zoomLevel').textContent = `${Math.round(zoom * 100)}%`;
       
       // Adjust scroll to zoom towards center point
@@ -1097,18 +1148,27 @@
     
     // Render
     function updateUI() {
-      updateUnsavedIndicator();
+      updateSaveStatus(hasUnsavedChanges ? 'unsaved' : 'idle');
       updateEditPanel();
       renderDiagramList();
       renderHotspots();
       renderHotspotList();
     }
     
-    function updateUnsavedIndicator() {
-      document.getElementById('unsavedIndicator').style.display = hasUnsavedChanges ? 'inline-block' : 'none';
-      const btn = document.getElementById('saveBtn');
-      btn.classList.toggle('btn-primary', hasUnsavedChanges);
-      btn.classList.toggle('btn-success', !hasUnsavedChanges);
+    let saveStatusFadeTimer = null;
+    function updateSaveStatus(status) {
+      const el = document.getElementById('saveStatus');
+      if (!el) return;
+      if (saveStatusFadeTimer) { clearTimeout(saveStatusFadeTimer); saveStatusFadeTimer = null; }
+      el.className = 'save-status ' + status;
+      if (status === 'saving') el.textContent = 'Saving...';
+      else if (status === 'saved') {
+        el.textContent = 'Saved';
+        saveStatusFadeTimer = setTimeout(() => { el.className = 'save-status idle'; el.textContent = ''; }, 2000);
+      }
+      else if (status === 'error') el.textContent = 'Save failed';
+      else if (status === 'unsaved') el.textContent = '';
+      else { el.className = 'save-status idle'; el.textContent = ''; }
     }
     
     function updateStatusButtons() {
@@ -1328,9 +1388,17 @@
       updateUI();
     }
     
+    let autosaveTimer = null;
+    let isSaving = false;
+    const AUTOSAVE_DELAY = 1500;
+    
     function markUnsaved() {
       hasUnsavedChanges = true;
-      updateUnsavedIndicator();
+      updateSaveStatus('unsaved');
+      
+      // Debounce autosave
+      if (autosaveTimer) clearTimeout(autosaveTimer);
+      autosaveTimer = setTimeout(() => saveChanges(), AUTOSAVE_DELAY);
     }
     
     // Add hotspot
@@ -1385,8 +1453,13 @@
     // Save
     async function saveChanges() {
       if (!currentData || !currentDiagramId) return;
+      if (isSaving) return; // prevent re-entrancy
       
-      const sheetText = document.getElementById('sheetCodeInput').value.trim();
+      if (autosaveTimer) { clearTimeout(autosaveTimer); autosaveTimer = null; }
+      isSaving = true;
+      updateSaveStatus('saving');
+      
+      const sheetText = document.getElementById('currentDiagramInput').value.trim();
       currentData.sheetCode = sheetText ? { text: sheetText, bbox: currentData.sheetCode?.bbox || null } : null;
       
       try {
@@ -1398,8 +1471,7 @@
         if (!res.ok) throw new Error();
         
         hasUnsavedChanges = false;
-        updateUnsavedIndicator();
-        showToast('Saved!', 'success');
+        updateSaveStatus('saved');
         
         // Update diagram list
         const d = diagrams.find(d => d.id === currentDiagramId);
@@ -1410,7 +1482,9 @@
           renderDiagramList();
         }
       } catch (e) {
-        showToast('Save failed', 'error');
+        updateSaveStatus('error');
+      } finally {
+        isSaving = false;
       }
     }
     
@@ -1909,7 +1983,7 @@
       
       if (e.key === 's' && (e.ctrlKey || e.metaKey)) {
         e.preventDefault();
-        if (!document.getElementById('saveBtn').disabled) saveChanges();
+        saveChanges();
       }
       
       if (e.key === 'Escape') {
@@ -2002,8 +2076,7 @@
       else if (e.key === 'Escape') closeDialog();
     });
     
-    document.getElementById('sheetCodeInput').addEventListener('input', markUnsaved);
-    document.getElementById('saveBtn').addEventListener('click', saveChanges);
+    document.getElementById('currentDiagramInput').addEventListener('input', markUnsaved);
     document.getElementById('clearAllBtn').addEventListener('click', () => {
       if (!confirm('Clear all hotspots?')) return;
       currentData.hotspots = [];
@@ -2037,8 +2110,16 @@
       if (currentData) renderHotspots();
     });
     
-    window.addEventListener('beforeunload', (e) => {
-      if (hasUnsavedChanges) { e.preventDefault(); e.returnValue = ''; }
+    window.addEventListener('beforeunload', () => {
+      // Fire-and-forget save on page close
+      if (hasUnsavedChanges && currentData && currentDiagramId) {
+        const sheetText = document.getElementById('currentDiagramInput').value.trim();
+        currentData.sheetCode = sheetText ? { text: sheetText, bbox: currentData.sheetCode?.bbox || null } : null;
+        navigator.sendBeacon(
+          `${API_BASE}/hotspots/${currentDiagramId}`,
+          new Blob([JSON.stringify(currentData)], { type: 'application/json' })
+        );
+      }
     });
     
     // Init
