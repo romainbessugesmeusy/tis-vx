@@ -253,8 +253,8 @@ async function extractParts(page, mainUrl, diagrams) {
       const usage = cells.eq(2).text().trim();
       const range = cells.eq(3).text().trim();
       const qty = cells.eq(4).text().trim();
-      const partNo = cells.eq(5).text().trim();
-      const katNo = cells.eq(6)?.text().trim() || "";
+      const partNo = cells.eq(5).text().trim().replace(/^\(|\)$/g, '').trim();
+      const katNo = (cells.eq(6)?.text().trim() || "").replace(/^\(|\)$/g, '').trim();
       
       if (ref && description) {
         parts.push({

@@ -80,6 +80,8 @@ function EPCBrowser() {
             for (const main of sub.main) {
               for (const part of main.parts) {
                 part.descriptionParts = parseDescription(part.description)
+                if (part.partNo) part.partNo = part.partNo.replace(/^\(|\)$/g, '').trim()
+                if (part.katNo) part.katNo = part.katNo.replace(/^\(|\)$/g, '').trim()
               }
             }
           }
