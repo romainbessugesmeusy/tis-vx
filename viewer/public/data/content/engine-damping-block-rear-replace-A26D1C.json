@@ -1,0 +1,61 @@
+{
+  "type": "procedure",
+  "id": "engine-damping-block-rear-replace-A26D1C",
+  "title": "Engine Damping Block, Rear, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Underbody cover – see operation \"Underbody Cover, Remove and Install\" in Group A.",
+          "image": {
+            "src": "/data/assets/images/1048f26f1fc3.jpg",
+            "alt": "Object Number: 2429848  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 2,
+          "text": "Support the engine from underneath.",
+          "image": {
+            "src": "/data/assets/images/1048f26f1fc3.jpg",
+            "alt": "Object Number: 2429848  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Engine damping block (1) from engine and bracket – bolts.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Engine damping block (1) to bracket and engine – bolts.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Underbody cover – see operation \"Underbody Cover, Remove and Install\" in Group A.",
+          "image": {
+            "src": "/data/assets/images/1048f26f1fc3.jpg",
+            "alt": "Object Number: 2429848  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ]
+}

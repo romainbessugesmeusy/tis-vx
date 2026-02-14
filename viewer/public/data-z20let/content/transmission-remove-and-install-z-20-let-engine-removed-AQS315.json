@@ -1,0 +1,123 @@
+{
+  "type": "procedure",
+  "id": "transmission-remove-and-install-z-20-let-engine-removed-AQS315",
+  "title": "Transmission, Remove and Install (Z 20 LET)\n(Engine Removed)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove turbocharger heat shield (1) from engine and transmission assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/25e0688ee2c0.jpg",
+            "alt": "Object Number: 2422492  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Remove transmission (2) from engine assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 11x bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/25e0688ee2c0.jpg",
+            "alt": "Object Number: 2422492  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Install transmission to engine assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 7x bolt (1) 60 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt (2) 40 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3b6fc76e5c1d.jpg",
+            "alt": "Object Number: 2422495  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Install turbocharger heat shield to engine and transmission assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Check oil level and top-up if required",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install transmission to engine assembly",
+      "value": "60",
+      "unit": "Nm",
+      "stepRef": 3
+    },
+    {
+      "component": "Install transmission to engine assembly",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": 3
+    },
+    {
+      "component": "Install 7x bolt (1) 60 Nm symmetrically Note: Includes installation of support bracket for engine harness.",
+      "value": "60",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install 4x bolt (2) 40 Nm symmetrically",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "When removing\ntransmission observe relevant safety measures and national\nlegislation.",
+    "When installing\ntransmission observe safety measures and national legislation."
+  ],
+  "notes": [
+    "Remove 11x bolt\n Includes removal\nof support bracket for engine harness.",
+    "Install 7x bolt (1) 60 Nm\nsymmetrically\n Includes\ninstallation of support bracket for engine harness."
+  ]
+}

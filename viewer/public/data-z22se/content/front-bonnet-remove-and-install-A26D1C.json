@@ -1,0 +1,62 @@
+{
+  "type": "procedure",
+  "id": "front-bonnet-remove-and-install-A26D1C",
+  "title": "Front Bonnet, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Open front bonnet",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove front bonnet",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3 bolts, 3 washers (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e383030a583e.jpg",
+            "alt": "Object Number: 2419661  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Install front bonnet",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fit 3 bolts, 3 washers (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Align front bonnet"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e383030a583e.jpg",
+            "alt": "Object Number: 2419661  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Remove 3 bolts, 3 washers (1)\n 2. Enlist the\nassistance of a second technician.\n Note:   Mark on the\nalignment mark.",
+    "Align front bonnet\n 2. Enlist the\nassistance of a second technician"
+  ]
+}

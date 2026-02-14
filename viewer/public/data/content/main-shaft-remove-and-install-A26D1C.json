@@ -1,0 +1,179 @@
+{
+  "type": "procedure",
+  "id": "main-shaft-remove-and-install-A26D1C",
+  "title": "Main Shaft, Remove and Install",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove transmission from vehicle - see operation \"Transmission, Remove and Install\"",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Disassemble transmission - see operation \"Transmission, Seal Completely",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Check main shaft (1) for wear and damage; replace if necessary. When replacing main shaft, any necessary adjustments to pressure collar must be checked and adjusted if necessary",
+          "image": {
+            "src": "/data/assets/images/e59b7baf1cf5.jpg",
+            "alt": "Object Number: 2415583  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Install removed main shaft to KM-621-23 (3) in conjunction with KM-6146 (2)",
+          "image": {
+            "src": "/data/assets/images/0599945eefdc.jpg",
+            "alt": "Object Number: 2416928  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "2"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Measure dimension (I) at pressure comb on main shaft using commercially available digital depth gauge (4) with measuring range of at least 250 mm and graduation of 0.01 mm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Perform this measurement at three evenly-spaced measurement"
+            },
+            {
+              "bullet": "•",
+              "text": "Add measured values and divide sum by number of"
+            },
+            {
+              "bullet": "•",
+              "text": "This calculation is illustrated in following table"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0599945eefdc.jpg",
+            "alt": "Object Number: 2416928  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Purpose of following tables is to explain pressure comb adjustment using example calculation",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Measurement must be performed in same way for new main shaft. If a value deviates by more than 0.08 mm from other values of a particular measurement, measurement must be repeated because measurement error has occurred",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Mean value for old main shaft is then subtracted from mean value for new main shaft",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "If dimension difference between old and new main shafts is greater than + 0.02/-0.06 mm , pressure comb must be adjusted. For this purpose, tapered roller bearings must be removed from the differential - see operation \"Tapered Roller Bearings, Differential, Remove and Install\"",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "± Difference"
+            },
+            {
+              "bullet": "•",
+              "text": "± Difference"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Select shim",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "If difference is positive (+), then the shim (transmission"
+            },
+            {
+              "bullet": "•",
+              "text": "If difference is negative (-), then the shim (transmission"
+            },
+            {
+              "bullet": "•",
+              "text": "If the shim (transmission housing side) (4) is thicker, the"
+            },
+            {
+              "bullet": "•",
+              "text": "If the shim (transmission housing side) (4) is thinner, the"
+            },
+            {
+              "bullet": "•",
+              "text": "In other words, total thickness of two shims remains same since"
+            },
+            {
+              "bullet": "•",
+              "text": "Corresponding shims can be obtained from \"Aftersales\" division."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/21512f298655.jpg",
+            "alt": "Object Number: 2416929  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 11,
+          "text": "A few examples from the selection of available shims are listed in the table below",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Shims must be selected so that smallest possible tolerance is achieved during adjustment Note: Used shims can be re-used in subsequent adjustment operations provided that shims are not damaged",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Install differential tapered roller bearings - see operation \"Tapered Roller Bearings, Differential, Remove and Install\"",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Install main shaft (1) to transmission",
+          "image": {
+            "src": "/data/assets/images/a80a230678cb.jpg",
+            "alt": "Object Number: 2415651  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 15,
+          "text": "Assemble transmission - see operation \"Transmission, Seal Completely\"",
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Install transmission to vehicle - see operation \"Transmission, Remove and Install\"",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "toolsRequired": [
+    "KM-621-23",
+    "KM-6146"
+  ],
+  "notes": [
+    "Shims must be selected so that smallest possible tolerance is\nachieved during adjustment\n Used shims can be\nre-used in subsequent adjustment operations provided that shims are\nnot damaged"
+  ]
+}

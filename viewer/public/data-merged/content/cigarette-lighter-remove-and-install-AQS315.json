@@ -1,0 +1,50 @@
+{
+  "type": "procedure",
+  "id": "cigarette-lighter-remove-and-install-AQS315",
+  "title": "Cigarette Lighter, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Rear section of console assembly from body, see operation \"Console, Remove and Install\".",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Harness connector from cigarette lighter.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Cigarette lighter from rear console.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Cigarette lighter to rear console.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Harness connector to cigarette lighter.",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Rear console assembly to body.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

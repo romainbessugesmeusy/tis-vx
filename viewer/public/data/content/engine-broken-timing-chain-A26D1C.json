@@ -1,0 +1,60 @@
+{
+  "type": "tsb",
+  "id": "engine-broken-timing-chain-A26D1C",
+  "title": "Field Remedy: 1532",
+  "subject": "Engine Z22SE - Broken Timing Chain",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "01 - Broken or Cracked",
+    "troubleCode": ""
+  },
+  "complaint": "Engine damaged by broken timing chain.",
+  "cause": "Missing or unsufficient lubrication of the\ntiming chain.",
+  "production": "Modified timing chain and lubrication nozzle\nhave been introduced in production as of the following engine-No:\n11065400 (March 2002).",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "Note: Please check first if the car is included in Service Campaign 03-P-24.\nVehicles not included in above mentioned Service Campaign have to be fixed as follows:"
+    },
+    {
+      "type": "paragraph",
+      "text": "In case of customer complaint please use for the necessary\nrepair the timing chain kit. This kit contains the modified timing\nchain and lubrication nozzle."
+    },
+    {
+      "type": "paragraph",
+      "text": "In case of necessary engine repair please consider the local\nrequirements."
+    },
+    {
+      "type": "paragraph",
+      "text": "Note: This Quick Information is valid for all Z22SE engines\nuntil enginenumber 11065400."
+    }
+  ],
+  "labourTimes": [
+    {
+      "code": "U3 153 20",
+      "description": "Install timing chain service kit Astra G,",
+      "tc": "90",
+      "hours": 3
+    },
+    {
+      "code": "U3 153 21",
+      "description": "Install timing chain service kit Zafira A",
+      "tc": "90",
+      "hours": 3.3
+    },
+    {
+      "code": "U3 153 22",
+      "description": "Install timing chain service kit",
+      "tc": "90",
+      "hours": 3.7
+    },
+    {
+      "code": "U3 153 23",
+      "description": "Install timing chain service kit",
+      "tc": "90",
+      "hours": 4.6
+    }
+  ]
+}

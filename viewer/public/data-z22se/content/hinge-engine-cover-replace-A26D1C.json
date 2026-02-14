@@ -1,0 +1,64 @@
+{
+  "type": "procedure",
+  "id": "hinge-engine-cover-replace-A26D1C",
+  "title": "Hinge, Engine Cover, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove rear clamshell - see operation \"Rear Clamshell, Remove and Install (Z 20 LET)\"",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove hinge for engine cover",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x nut (1), 3x washer"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove gasket"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b7953ae8741e.jpg",
+            "alt": "Object Number: 2422244  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Install hinge for engine cover",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install gasket"
+            },
+            {
+              "bullet": "•",
+              "text": "Install, then secure 3x nut, 3x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Install rear clamshell - see operation \"Rear Clamshell, Remove and Install (Z 20 LET)\"",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

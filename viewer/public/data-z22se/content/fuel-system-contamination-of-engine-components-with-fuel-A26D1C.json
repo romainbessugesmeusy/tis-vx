@@ -1,0 +1,26 @@
+{
+  "type": "tsb",
+  "id": "fuel-system-contamination-of-engine-components-with-fuel-A26D1C",
+  "title": "Field Remedy: 2330",
+  "subject": "Fuel system - Contamination of engine\ncomponents with fuel",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "L - Fuel- and Exhaust System",
+    "complaintGroup": "",
+    "troubleCode": "None"
+  },
+  "complaint": "Contamination of engine components with fuel\ncauses different defects.",
+  "cause": "Working on the open fuel system e.g.\nreplacement of fuel filter element or parts of the fuel\nsystem.",
+  "production": "",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "When working on the open fuel system ensure that escaping fuel gets\ncollected in suitable containers. Please make sure that engine and \nvehicle components e.g. starter does not come into contact with \nescaping fuel."
+    },
+    {
+      "type": "text",
+      "text": "Note: Escaping fuel must be disposed immediately and soiled components \n      shall be cleaned."
+    }
+  ]
+}

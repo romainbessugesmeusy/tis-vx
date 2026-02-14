@@ -1,0 +1,42 @@
+{
+  "type": "tsb",
+  "id": "seatbelt-front-or-rear-seat-out-and-or-back-rolling-mechanis-A26D1C",
+  "title": "Field Remedy: 2792",
+  "subject": "Seatbelt front or rear seat - Out and/or\nback rolling mechanism does not work correctly",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "C - Equipment/Windows",
+    "complaintGroup": "02 - Chafing,08 - Hard to operate,13 -\nNo/Poor Function",
+    "troubleCode": ""
+  },
+  "complaint": "Seatbelt does not roll back, or seatbelt\nrolls back too slowly, or seatbelt difficult to pull out.",
+  "cause": "Clothes fibres, dirt, dust or twisted belt\nwebbing can cause seizing or blocking of the seatbelt. The seatbelt\nitself is ok. The seat belt guiding system needs to be\nchecked.",
+  "production": "",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "In Case of customer complaint, check D-loop (deflect mechanism) \nfor contamination regarding dirt, dust or webbing fibres."
+    },
+    {
+      "type": "paragraph",
+      "text": "Clean D-loop and seatbelt. Check function again by maximum pull\nout."
+    },
+    {
+      "type": "text",
+      "text": "Sealbelt webbing must not be twisted! If still an issue, demount \ntrim cover and check again."
+    },
+    {
+      "type": "paragraph",
+      "text": "If the seatbelt rolls back, no part must be replaced."
+    },
+    {
+      "type": "text",
+      "text": "Reassemble Trim Cover and check function again. Take care of correct \npositioning of Trim Cover. No bending should occur, no sharp edges \nmay have contact to the belt webbing!"
+    },
+    {
+      "type": "text",
+      "text": "Caution: \nseat belt webbing should only be cleansed with warm water or suitable \nlow concentration commercially available products. Strong solvent \nbased products should not be used."
+    }
+  ]
+}

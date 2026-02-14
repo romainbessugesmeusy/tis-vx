@@ -1,0 +1,7 @@
+{
+  "type": "generic",
+  "id": "track-AQS315",
+  "title": "Track",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Track</p>\n\n<p>The distance between wheel centre planes of an axle is the\ntrack. On twin tyres, it is measured from the centre of the twin\nwheel to the centre of the twin wheel.</p>\n\n<p>The track affects the cornering behaviour of the vehicle. A\nlarge track allows a higher speed on corners.</p>\n\n<p>For individual suspension with transverse or semi-trailing arms,\nthe track changes on spring compression and extension. This\nincreases the rolling resistance and tyre wear. If the track\nchanges too much, e.g. due to work control arm bushes or faulty\nsteering joints, the straight-ahead steering behaviour of the\nvehicle deteriorates.</p>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "extractedData": {}
+}

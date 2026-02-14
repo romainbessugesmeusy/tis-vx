@@ -1,0 +1,189 @@
+{
+  "type": "procedure",
+  "id": "crankshaft-bearing-clearance-check-micrometer-method-z-20-le-AQS315",
+  "title": "Crankshaft Bearing Clearance, Check (Micrometer\nMethod), (Z 20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Note: The crankshaft is removed.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Install crankshaft bearing cap with crankshaft bearing shell at cylinder block - tightening torque 50 Nm + 45° + 15° . To check the crankshaft bearing play, bolt can be reused.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "measure",
+      "label": "Measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "The average crankshaft bearing diameter is determined using an inside micrometer at points I, II and III and then calculated.",
+          "image": {
+            "src": "/data/assets/images/6cd347379093.jpg",
+            "alt": "Object Number: 2387884  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Formula for calculating the average crankshaft bearing diameter:",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "I + II + III",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Example:",
+          "image": {
+            "src": "/data/assets/images/6cd347379093.jpg",
+            "alt": "Object Number: 2387884  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "54.972 mm",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "54.981 mm",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "+ 54.984 mm",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "164.937 mm",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "÷ 3 = 54.979 mm",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "The average crankshaft bearing diameter is 54.979 mm.",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "The crankshaft journal diameter is measured with a micrometer at points I and II and then calculated.",
+          "image": {
+            "src": "/data/assets/images/b39b74417a62.jpg",
+            "alt": "Object Number: 2387881  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 14,
+          "text": "Formula for calculating the average crankshaft bearing journal diameter:",
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "I + II",
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Example:",
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "54.962 mm",
+          "image": null
+        },
+        {
+          "number": 18,
+          "text": "+ 54.964 mm",
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "109.926 mm",
+          "image": null
+        },
+        {
+          "number": 20,
+          "text": "÷ 2 = 54.963 mm",
+          "image": null
+        },
+        {
+          "number": 21,
+          "text": "The average crankshaft journal diameter is 54.963 mm.",
+          "image": null
+        },
+        {
+          "number": 22,
+          "text": "The crankshaft play is calculated from the difference in diameter between the crankshaft bearing bore and crankshaft journal.",
+          "image": null
+        },
+        {
+          "number": 23,
+          "text": "Example:",
+          "image": null
+        },
+        {
+          "number": 24,
+          "text": "Average crankshaft bearing diameter",
+          "image": null
+        },
+        {
+          "number": 25,
+          "text": "54.979 mm",
+          "image": null
+        },
+        {
+          "number": 26,
+          "text": "Average crankshaft journal diameter",
+          "image": null
+        },
+        {
+          "number": 27,
+          "text": "- 54.963 mm",
+          "image": null
+        },
+        {
+          "number": 28,
+          "text": "0.016 mm",
+          "image": null
+        },
+        {
+          "number": 29,
+          "text": "Permissible crankshaft bearing play: 0.015 to 0.043 mm.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "measure",
+      "label": "Measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": []
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install crankshaft bearing cap with crankshaft bearing shell at cylinder block - tightening torque 50 Nm + 45° + 15° . To check the crankshaft bearing play, bolt can be reused.",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 2
+    }
+  ]
+}

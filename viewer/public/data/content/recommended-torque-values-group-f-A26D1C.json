@@ -1,0 +1,68 @@
+{
+  "type": "torque_table",
+  "id": "recommended-torque-values-group-f-A26D1C",
+  "title": "Recommended Torque Values – Group F",
+  "group": "F",
+  "values": [
+    {
+      "component": "Lower wishbone to chassis, front pivot bolt",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Shock absorber to anchor bracket on chassis bolt",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Track control rod to rear pivot of lower wishbone bolt",
+      "value": "49",
+      "unit": "Nm"
+    },
+    {
+      "component": "Upper wishbone to chassis bolts",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Upper swivel joint carrier to hub carrier bolts",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Wheel bolts",
+      "value": "90",
+      "unit": "Nm"
+    },
+    {
+      "component": "Track control rod to hub carrier",
+      "value": "65",
+      "unit": "Nm"
+    },
+    {
+      "component": "Driveshaft to wheel hub",
+      "value": "220",
+      "unit": "Nm"
+    },
+    {
+      "component": "Brake caliper to hub carrier",
+      "value": "48",
+      "unit": "Nm"
+    },
+    {
+      "component": "Brake disc to hub carrier",
+      "value": "12",
+      "unit": "Nm"
+    },
+    {
+      "component": "Lower wishbone to hub carrier",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Shock absorber to lower wishbone",
+      "value": "45",
+      "unit": "Nm"
+    }
+  ]
+}

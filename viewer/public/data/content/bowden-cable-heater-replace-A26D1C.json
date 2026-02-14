@@ -1,0 +1,245 @@
+{
+  "type": "procedure",
+  "id": "bowden-cable-heater-replace-A26D1C",
+  "title": "Bowden Cable, Heater, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove hard top or soft top",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Disconnect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release windscreen wash reservoir, then move to one side"
+            },
+            {
+              "bullet": "•",
+              "text": "Release nut, bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Remove air intake pipe (1) from heater assembly and air distribution housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove mesh grille (if installed) from air distribution"
+            },
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3d617804afb4.jpg",
+            "alt": "Object Number: 2422757  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Disconnect bowden cable (1) from lever on heater assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Prise off clip (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/74ca2ce7ad01.jpg",
+            "alt": "Object Number: 2422342  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Release bowden cable from bulkhead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove screw (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/de9bcc4f72ce.jpg",
+            "alt": "Object Number: 2422343  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Remove instrument pad assembly – see operation ”Instrument Pad Assembly, Remove and Install”",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Remove bowden cable (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove cable tie (2), then discard"
+            },
+            {
+              "bullet": "•",
+              "text": "Release screw (4)"
+            },
+            {
+              "bullet": "•",
+              "text": "Pull off from air temperature control (5)"
+            },
+            {
+              "bullet": "•",
+              "text": "Release grommet (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dce82d46129d.jpg",
+            "alt": "Object Number: 2422344  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 8,
+          "text": "Transfer grommet to new bowden cable",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install bowden cable",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure grommet"
+            },
+            {
+              "bullet": "•",
+              "text": "Push on to air temperature control"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure screw"
+            },
+            {
+              "bullet": "•",
+              "text": "Install new cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Adjust bowden cable",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Connect inner bowden cable to lever on heater assembly"
+            },
+            {
+              "bullet": "•",
+              "text": "Turn knob for air temperature control fully anti-clockwise"
+            },
+            {
+              "bullet": "•",
+              "text": "Ensure lever on heater assembly in fully closed position"
+            },
+            {
+              "bullet": "•",
+              "text": "Push on clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Check operation"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Install instrument pad assembly – see operation ”Instrument Pad Assembly, Remove and Install”",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Secure bowden cable to bulkhead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Install air intake pipe to heater assembly and air distribution housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install mesh grille (if installed) to air distribution"
+            },
+            {
+              "bullet": "•",
+              "text": "Push on"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Connect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure nut, bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Install windscreen wash reservoir",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Program all volatile memories",
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Install hard top or soft top",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "type": "procedure",
+  "id": "air-distribution-housing-replace-AQS315",
+  "title": "Air Distribution Housing, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Release windscreen wash reservoir from support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull off, then move to one side"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove air intake pipe (1) from heater assembly and air distribution housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove mesh grille (if installed) from air distribution"
+            },
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3d617804afb4.jpg",
+            "alt": "Object Number: 2422757  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Remove wiper motor cover (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x screw (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/408a245aded5.jpg",
+            "alt": "Object Number: 2422334  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Remove wiper motor from support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release connector (1) from wiper motor"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove nut (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 3x bolt (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6b736febdfaa.jpg",
+            "alt": "Object Number: 2422335  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Remove wiper arm from linkage Note: Note position of wiper arm.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull up cover (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove nut (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/cb7ca9a46bc8.jpg",
+            "alt": "Object Number: 2422336  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Remove support bracket for bonnet catch and anti-theft switch (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Apply match marks (4)"
+            },
+            {
+              "bullet": "•",
+              "text": "Disconnect harness from anti-theft switch (5)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/5c185964e913.jpg",
+            "alt": "Object Number: 2422337  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Release windscreen washer pipe from support bracket then move to one side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            },
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0d9b335b9b9b.jpg",
+            "alt": "Object Number: 2422338  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Remove support bracket (1) and wiper linkage from bulkhead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x bolt, grommet"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/12c2ceca7738.jpg",
+            "alt": "Object Number: 2422339  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Disconnect bowden cable (1) from lever on air distribution housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Apply match mark (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Prise off clip (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/4cbb7b4c598c.jpg",
+            "alt": "Object Number: 2422340  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Remove air distribution housing from bulkhead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove screw (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove clip (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/08a0a337f1a8.jpg",
+            "alt": "Object Number: 2422341  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 11,
+          "text": "Install new air distribution housing to bulkhead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Install screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Connect bowden cable to lever on air distribution housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Align match mark"
+            },
+            {
+              "bullet": "•",
+              "text": "Push on clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Install support bracket and wiper linkage to bulkhead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 3x bolt, grommet"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Secure windscreen washer pipe to support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push on"
+            },
+            {
+              "bullet": "•",
+              "text": "Push on"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Install support bracket for bonnet catch and anti-theft switch",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Align match marks"
+            },
+            {
+              "bullet": "•",
+              "text": "Connect harness to anti-theft switch"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Install wiper arm to linkage",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install nut"
+            },
+            {
+              "bullet": "•",
+              "text": "Push on cover"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Install wiper motor to support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Apply locking compound"
+            },
+            {
+              "bullet": "•",
+              "text": "Install nut"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure connector to wiper motor"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 18,
+          "text": "Install wiper motor cover",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Install air intake pipe to heater assembly and air distribution housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install mesh grille (if installed) to air distribution"
+            },
+            {
+              "bullet": "•",
+              "text": "Push on"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 20,
+          "text": "Secure windscreen wash reservoir to support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Slide on"
+            }
+          ],
+          "image": null
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Release linkage from wiper motor\n Note position of\nlinkage.\n \n\n\n\n–\nRemove nut (2)",
+    "Remove wiper arm from linkage\n Note position of\nwiper arm.\n \n\n\n\n•  \nPull up cover (1)\n \n\n\n\n\n\n•  \nRemove nut (2)",
+    "Remove clip (2)\n Clip (2) located\ninside vehicle under lower instrument panel."
+  ]
+}

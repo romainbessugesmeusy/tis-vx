@@ -1,0 +1,71 @@
+{
+  "type": "harness_diagram",
+  "id": "trumpet-horn-AQS315",
+  "title": "trumpet-horn-AQS315",
+  "diagram": {
+    "src": "/data/assets/converted/da4519dcf14e.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "A1",
+      "description": "Control unit - Airbag"
+    },
+    {
+      "code": "R5",
+      "description": "Squib - Belt pretensioner, driver"
+    },
+    {
+      "code": "A17",
+      "description": "Control unit - Immobiliser"
+    },
+    {
+      "code": "R6",
+      "description": "Squib - Belt pretensioner, front passenger"
+    },
+    {
+      "code": "B51",
+      "description": "Trumpet horn"
+    },
+    {
+      "code": "S24",
+      "description": "Switch - Trumpet horn"
+    },
+    {
+      "code": "H22",
+      "description": "Telltale - Seat belt warning"
+    },
+    {
+      "code": "S37",
+      "description": "Switch - Seat belt"
+    },
+    {
+      "code": "K12",
+      "description": "Relay - Trumpet horn"
+    },
+    {
+      "code": "W1",
+      "description": "Contact unit"
+    },
+    {
+      "code": "R1",
+      "description": "Squib - Airbag, driver"
+    },
+    {
+      "code": "X19",
+      "description": "Contact unit & Switch - Trumpet horn"
+    },
+    {
+      "code": "X20",
+      "description": "Main harness & Contact unit"
+    },
+    {
+      "code": "Z20LET",
+      "description": "Engine Z20LET"
+    },
+    {
+      "code": "Z22SE",
+      "description": "Engine Z22SE"
+    }
+  ]
+}

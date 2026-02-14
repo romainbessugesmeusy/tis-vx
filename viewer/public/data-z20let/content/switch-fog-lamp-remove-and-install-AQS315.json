@@ -1,0 +1,129 @@
+{
+  "type": "procedure",
+  "id": "switch-fog-lamp-remove-and-install-AQS315",
+  "title": "Switch, Fog Lamp, Remove and Install",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Open bonnet",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove windscreen wash reservoir from mounting bracket",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Disconnect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Release switch panel assembly from instrument panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2dd7ed88c823.jpg",
+            "alt": "Object Number: 2429513  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Remove switch unit assembly from panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 4x clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6514da11140b.jpg",
+            "alt": "Object Number: 2429519  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Remove front cover from fog lamp switch",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Remove fog lamp switch",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x clip, release harness connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Install fog lamp switch",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x clip, secure harness connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install front cover to fog lamp switch",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Install switch to housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 4x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Secure fog lamp switch to instrument surround",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        }
+      ]
+    }
+  ]
+}

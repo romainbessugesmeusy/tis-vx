@@ -1,0 +1,259 @@
+{
+  "type": "procedure",
+  "id": "intermediate-shaft-disassemble-and-assemble-A26D1C",
+  "title": "Intermediate Shaft, Disassemble and Assemble",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Illustration of intermediate shaft",
+          "image": {
+            "src": "/data/assets/images/0fff11217ec8.jpg",
+            "alt": "Object Number: 2417569  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove intermediate shaft from transmission - see operation \"Intermediate Shaft, Remove and Install\"",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Press intermediate shaft (6) out of 1st / 2nd gear synchromesh body (4) using KM-523-1 (1), KM-6126 (2) and KM-6223 (3)",
+          "image": {
+            "src": "/data/assets/images/c0ea0306a264.jpg",
+            "alt": "Object Number: 2417582  Size: DEFAULT"
+          },
+          "callouts": [
+            "6",
+            "4",
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Remove needle roller bearings (5) from intermediate shaft",
+          "image": {
+            "src": "/data/assets/images/c0ea0306a264.jpg",
+            "alt": "Object Number: 2417582  Size: DEFAULT"
+          },
+          "callouts": [
+            "5"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Disassemble 1st gear",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "(I) Remove thrust washer (1) from 1st gear (5)"
+            },
+            {
+              "bullet": "•",
+              "text": "(II) Remove front roller bearing (2) from 1st gear"
+            },
+            {
+              "bullet": "•",
+              "text": "(III) Remove bushing (3) for roller bearing from 1st gear"
+            },
+            {
+              "bullet": "•",
+              "text": "(IV) Remove rear roller bearing (4) from 1st gear"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3a4c685f9aaa.jpg",
+            "alt": "Object Number: 2417583  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Check wearing parts for damage and replace as necessary",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Disassemble synchromesh",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "(I) Remove 1st gear (6) from synchromesh body (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "(II) Remove spacer (2) from synchromesh body"
+            },
+            {
+              "bullet": "•",
+              "text": "(III) Remove inner synchroniser ring (3) for 1st gear from"
+            },
+            {
+              "bullet": "•",
+              "text": "(IV) Remove intermediate synchroniser ring (4) for 1st gear"
+            },
+            {
+              "bullet": "•",
+              "text": "(V) Remove outer synchroniser ring (5) for 1st gear from"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f4348e0a52bf.jpg",
+            "alt": "Object Number: 2417584  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Check wearing parts for damage and replace as necessary",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Disassemble synchromesh",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "(I) Remove synchromesh body (1) from 2nd gear (5)"
+            },
+            {
+              "bullet": "•",
+              "text": "(II) Remove outer synchroniser ring (2) for 2nd gear from 2nd"
+            },
+            {
+              "bullet": "•",
+              "text": "(III) Remove intermediate synchroniser ring (3) for 2nd gear"
+            },
+            {
+              "bullet": "•",
+              "text": "(IV) Remove inner synchroniser ring (4) for 2nd gear from 2nd"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ae4255afb206.jpg",
+            "alt": "Object Number: 2417585  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Check wearing parts for damage and replace as necessary",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Assemble synchromesh",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "(I) Remove inner synchroniser ring (1) for 2nd gear from 2nd"
+            },
+            {
+              "bullet": "•",
+              "text": "(II) Install intermediate synchroniser ring (3) for 2nd gear to"
+            },
+            {
+              "bullet": "•",
+              "text": "(III) Install outer synchroniser ring (4) for 2nd gear to 2nd"
+            },
+            {
+              "bullet": "•",
+              "text": "(IV) Install synchromesh body (5) to 2nd gear"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/837e876441cc.jpg",
+            "alt": "Object Number: 2417586  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 12,
+          "text": "Assemble synchromesh",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "(I) Install outer synchroniser ring (2) for 1st gear to"
+            },
+            {
+              "bullet": "•",
+              "text": "(II) Install intermediate synchroniser ring (3) for 1st gear to"
+            },
+            {
+              "bullet": "•",
+              "text": "(III) Install inner synchroniser ring (4) for 1st gear to"
+            },
+            {
+              "bullet": "•",
+              "text": "(IV) Install spacer (5) to synchromesh body"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/020bf9b98c0c.jpg",
+            "alt": "Object Number: 2417587  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 13,
+          "text": "Assemble synchromesh",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 1st gear (2) to 1st/2nd gear synchromesh body"
+            },
+            {
+              "bullet": "•",
+              "text": "Install rear roller bearing (1) to 1st gear - narrow collar"
+            },
+            {
+              "bullet": "•",
+              "text": "Install front roller bearing (3) to 1st gear - wide collar"
+            },
+            {
+              "bullet": "•",
+              "text": "Install bushing (4) for roller bearing"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9a70dc1b6be1.jpg",
+            "alt": "Object Number: 2417588  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 14,
+          "text": "1. Press thrust washer (2) and 1st/2nd gear assembly with synchromesh body (3) onto intermediate shaft (4) using KM-6219 (1)",
+          "image": {
+            "src": "/data/assets/images/10018146c58c.jpg",
+            "alt": "Object Number: 2417589  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "3",
+            "4",
+            "1"
+          ]
+        },
+        {
+          "number": 15,
+          "text": "Install intermediate shaft - see operation \"Intermediate Shaft, Remove and Install\"",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "toolsRequired": [
+    "KM-523-1",
+    "KM-6126",
+    "KM-6223",
+    "KM-6219"
+  ],
+  "warnings": [
+    "If gears are damaged,\nalways replace entire intermediate shaft assembly. Obtain\nappropriate synchroniser assembly repair kits from Aftersales"
+  ],
+  "notes": [
+    "(II) Install intermediate synchroniser ring (3) for 2nd gear to\n2nd gear\n Observe installed\nposition (arrows). For enhanced illustration, magnifying glass in\nFig. L5464 shows installation without inner synchroniser ring"
+  ]
+}

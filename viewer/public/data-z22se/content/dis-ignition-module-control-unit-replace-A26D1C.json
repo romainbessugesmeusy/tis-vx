@@ -1,0 +1,115 @@
+{
+  "type": "procedure",
+  "id": "dis-ignition-module-control-unit-replace-A26D1C",
+  "title": "DIS Ignition Module Control Unit, Replace",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Open the bonnet.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Disconnect the battery.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Open the rear engine cover.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Detach the ignition module control unit.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release and detach the wiring harness connector."
+            },
+            {
+              "bullet": "•",
+              "text": "3 bolts (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/738b5d1aa5a3.jpg",
+            "alt": "Object Number: 2412464  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Attach the ignition module control unit.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Coat the bolts with thread locking compound (red) and insert"
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 8 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Attach and secure the wiring harness connector."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/738b5d1aa5a3.jpg",
+            "alt": "Object Number: 2412464  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Close the rear engine cover.",
+          "image": {
+            "src": "/data/assets/images/738b5d1aa5a3.jpg",
+            "alt": "Object Number: 2412464  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Connect the battery.",
+          "image": {
+            "src": "/data/assets/images/738b5d1aa5a3.jpg",
+            "alt": "Object Number: 2412464  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Close the bonnet.",
+          "image": {
+            "src": "/data/assets/images/738b5d1aa5a3.jpg",
+            "alt": "Object Number: 2412464  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Reprogram the volatile memories.",
+          "image": {
+            "src": "/data/assets/images/738b5d1aa5a3.jpg",
+            "alt": "Object Number: 2412464  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Attach the ignition module control unit.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

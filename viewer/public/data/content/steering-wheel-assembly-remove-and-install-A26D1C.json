@@ -1,0 +1,101 @@
+{
+  "type": "procedure",
+  "id": "steering-wheel-assembly-remove-and-install-A26D1C",
+  "title": "Steering Wheel Assembly, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Important: Observe safety regulations during operations on the airbag.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Driver's airbag – see operation \"Driver's Airbag, Remove and Install\" in group C.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Caution !",
+          "image": {
+            "src": "/data/assets/images/646f7d21851a.jpg",
+            "alt": "Object Number: 2429812  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "For removal of steering wheel, steering column must be in straight ahead position. In this position, remove ignition key and turn steering wheel to left or right until steering lock engages.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Airbag contact unit from steering wheel assembly – bolts (1).",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Steering wheel assembly from steering column – nut (2); use Puller KM-210-B .",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 7,
+          "text": "Steering wheel assembly to steering column – nut (2) 25 Nm .",
+          "image": {
+            "src": "/data/assets/images/3493b4e98eae.jpg",
+            "alt": "Object Number: 2429851  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Contact unit to steering wheel assembly – bolts (1).",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Driver's airbag – see operation \"Driver's Airbag, Remove and Install\" in group C.",
+          "image": {
+            "src": "/data/assets/images/646f7d21851a.jpg",
+            "alt": "Object Number: 2429812  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Steering wheel assembly to steering column – nut (2) 25 Nm .",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 7
+    }
+  ]
+}

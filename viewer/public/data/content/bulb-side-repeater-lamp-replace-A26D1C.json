@@ -1,0 +1,50 @@
+{
+  "type": "procedure",
+  "id": "bulb-side-repeater-lamp-replace-A26D1C",
+  "title": "Bulb, Side Repeater Lamp, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Side repeater lamp from front wing – depress retaining lugs.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Lens from lamp body.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Bulb from holder.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Bulb to holder.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Lens to lamp body.",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Side repeater lamp to front wing.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

@@ -16,16 +16,32 @@ const cheerio = require("cheerio");
 // CONFIGURATION
 // ============================================================================
 
+function parseArgs() {
+  const inputDir = (() => {
+    const idx = process.argv.indexOf("--input");
+    if (idx === -1 || !process.argv[idx + 1]) return path.join(__dirname, "output");
+    return path.resolve(process.argv[idx + 1]);
+  })();
+  const outputDir = (() => {
+    const idx = process.argv.indexOf("--output");
+    if (idx === -1 || !process.argv[idx + 1]) return path.join(__dirname, "viewer", "public", "data");
+    return path.resolve(process.argv[idx + 1]);
+  })();
+  return { inputDir, outputDir };
+}
+
+const { inputDir, outputDir: outputBase } = parseArgs();
+
 const config = {
-  pagesDir: path.join(__dirname, "output", "pages"),
-  assetsDir: path.join(__dirname, "output", "assets"),
-  imagesDir: path.join(__dirname, "output", "assets", "images"),
-  manifestPath: path.join(__dirname, "output", "manifest.json"),
-  outputDir: path.join(__dirname, "viewer", "public", "data"),
-  contentDir: path.join(__dirname, "viewer", "public", "data", "content"),
-  viewerAssetsDir: path.join(__dirname, "viewer", "public", "data", "assets"),
-  viewerImagesDir: path.join(__dirname, "viewer", "public", "data", "assets", "images"),
-  referencesDir: path.join(__dirname, "viewer", "public", "data", "references"),
+  pagesDir: path.join(inputDir, "pages"),
+  assetsDir: path.join(inputDir, "assets"),
+  imagesDir: path.join(inputDir, "assets", "images"),
+  manifestPath: path.join(inputDir, "manifest.json"),
+  outputDir: outputBase,
+  contentDir: path.join(outputBase, "content"),
+  viewerAssetsDir: path.join(outputBase, "assets"),
+  viewerImagesDir: path.join(outputBase, "assets", "images"),
+  referencesDir: path.join(outputBase, "references"),
 };
 
 // ============================================================================

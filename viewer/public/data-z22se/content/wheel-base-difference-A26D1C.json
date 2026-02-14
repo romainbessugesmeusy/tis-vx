@@ -1,0 +1,7 @@
+{
+  "type": "generic",
+  "id": "wheel-base-difference-A26D1C",
+  "title": "Wheel base difference",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Wheel base difference</p>\n\n<table border=\"0\">\n<tr>\n<td valign=\"top\" width=\"95%\">\n<p>The wheel base difference is the angle (2) produced by the wheel\noffset (front and/or rear) between the contact lines (1,3) of the\nwheel contact points for the front and rear axles.</p>\n\n<p>The angle is positive if the right wheel base greater than the\nleft wheel base and negative if the left wheel base is greater than\nthe right.</p>\n\n<p>The wheel base difference is generally given in degrees. If the\nnominal wheel base value is known, length data can also be\ngiven.</p>\n</td>\n<td valign=\"top\" align=\"right\"><!--SCDS Link: H2020.itf-->\n<img border=\"0\" width=\"360\" height=\"360\" alt=\n\"Object Number: 2400752  Size: DEFAULT\" align=\"TOP\" src=\"/data/assets/images/246de814fcba.jpg\">\n<br>\n<a href=\"javascript:TFormSubmit('A9ZI1WFI1SFI1','1','A9ZI1WFI1SFI1','detail')\">\n<img src=\"/data/assets/images/db1138827f57.gif\" alt=\n\"Click here for detailed picture of above image\"></a>\n\n<br> </td>\n</tr>\n</table>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "extractedData": {}
+}

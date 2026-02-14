@@ -1,0 +1,104 @@
+{
+  "type": "procedure",
+  "id": "upper-wishbone-remove-and-install-AQS315",
+  "title": "Important!",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Upper Wishbone, Remove and Install",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "remove",
+      "label": "Remove, Disconnect",
+      "icon": "/data/assets/images/4b8970d41392.jpg",
+      "steps": [
+        {
+          "number": 2,
+          "text": "Clamp for brake hose (1) from upper wishbone - nut.",
+          "image": {
+            "src": "/data/assets/images/5fd9f26e0e5b.jpg",
+            "alt": "Object Number: 2429690  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Upper swivel joint (2) from steering arm - nut, use suitable ball joint remover.",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Upper wishbone from chassis - bolts, nuts, washers, shims; steering rack to be on full lock to provide sufficient clearance for removing rear bolt.",
+          "image": {
+            "src": "/data/assets/images/7fa80a9baed1.jpg",
+            "alt": "Object Number: 2429691  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "other",
+      "label": "Important!",
+      "icon": "/data/assets/images/a1f4cd6ec726.jpg",
+      "steps": [
+        {
+          "number": 5,
+          "text": "Note distribution of shims for caster adjustment.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install, Connect",
+      "icon": "/data/assets/images/57d894c25c39.jpg",
+      "steps": [
+        {
+          "number": 6,
+          "text": "Upper wishbone to chassis - bolts, nuts 45 Nm, washers.",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Upper swivel joint (2) to steering arm - nut 45 Nm.",
+          "image": {
+            "src": "/data/assets/images/5fd9f26e0e5b.jpg",
+            "alt": "Object Number: 2429690  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Clamp (1) for brake hose to upper wishbone - nut.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Upper wishbone to chassis - bolts, nuts 45 Nm, washers.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 6
+    }
+  ]
+}

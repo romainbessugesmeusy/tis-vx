@@ -1,0 +1,75 @@
+{
+  "type": "procedure",
+  "id": "switch-lighting-assembly-remove-and-install-AQS315",
+  "title": "Switch Lighting Assembly, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Switches for operating side, head, hazard front drive and rear fog lamps are all grouped together in this switch assembly.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Plastic facia panel around lighting switches from instrument panel (double sided sticky pads).",
+          "image": {
+            "src": "/data/assets/images/2dd7ed88c823.jpg",
+            "alt": "Object Number: 2429513  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Lighting switch assembly fro instrument panel – release retainers arrowed.",
+          "image": {
+            "src": "/data/assets/images/2dd7ed88c823.jpg",
+            "alt": "Object Number: 2429513  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Harness connectors from switch to be replaced.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Lighting switch, from switch assembly housing.",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Lighting switch to switch assembly housing.",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Harness connector to lighting switch.",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Lighting switch assembly housing to instrument panel.",
+          "image": {
+            "src": "/data/assets/images/2dd7ed88c823.jpg",
+            "alt": "Object Number: 2429513  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Plastic insert facia panel to instrument panel – replace double sided sticky pads.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

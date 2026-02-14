@@ -1,0 +1,67 @@
+{
+  "type": "procedure",
+  "id": "lock-door-remove-and-install-AQS315",
+  "title": "Lock, Door, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Door trim from door – see operation \"Door Trim, Remove and Install\".",
+          "image": {
+            "src": "/data/assets/images/17e175d78407.jpg",
+            "alt": "Object Number: 2429800  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Water vapour barrier from door.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Lock from door – screws.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Linkage from lock.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 5,
+          "text": "Linkage to lock.",
+          "image": {
+            "src": "/data/assets/images/17e175d78407.jpg",
+            "alt": "Object Number: 2429800  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Lock to door – screws.",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Water vapour barrier to door.",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Door trim to door.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

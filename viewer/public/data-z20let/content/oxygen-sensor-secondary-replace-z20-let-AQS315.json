@@ -1,0 +1,163 @@
+{
+  "type": "procedure",
+  "id": "oxygen-sensor-secondary-replace-z20-let-AQS315",
+  "title": "Oxygen Sensor, Secondary, Replace (Z20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Disconnect oxygen sensor for secondary catalytic converter",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Disconnect harness connector (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Release integral clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/692777ecc310.jpg",
+            "alt": "Object Number: 2422576  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Remove exhaust undertray (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 12x bolt, 12x washer, 2x clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/01e61ef5f5d8.jpg",
+            "alt": "Object Number: 2425112  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Release harness for secondary catalytic converter",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x clip from subframe"
+            },
+            {
+              "bullet": "•",
+              "text": "Release clip from rear silencer heatshield"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Remove oxygen sensor (1) from secondary catalytic converter (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use KM-6326"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7f5f2f0fc528.jpg",
+            "alt": "Object Number: 2422967  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 6,
+          "text": "Install oxygen sensor to secondary catalytic converter",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use KM-6326"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Install harness for oxygen sensor to rear silencer heatshield",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Install harness for oxygen sensor to subframe"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Install exhaust pipe undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 12x bolt, 12x washer, 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Connect oxygen sensor for secondary catalytic converter",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Connect harness connector"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure integral clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Program volatile memories",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "toolsRequired": [
+    "KM-6326"
+  ]
+}

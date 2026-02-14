@@ -1,0 +1,7 @@
+{
+  "type": "generic",
+  "id": "wheel-balancing-A26D1C",
+  "title": "Wheel Balancing",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Wheel Balancing</p>\n\n<p>To compensate for mass variations due to construction tolerances\nin the vehicle tyres and disc wheels, newly installed wheels must\nbe balanced. Imbalance can lead to radial runout and steering\nvibration, which in turn causes increased wear of the wheel\nbearings, steering train parts and tyres.</p>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "extractedData": {}
+}

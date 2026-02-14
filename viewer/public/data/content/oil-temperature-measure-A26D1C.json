@@ -1,0 +1,12 @@
+{
+  "type": "generic",
+  "id": "oil-temperature-measure-A26D1C",
+  "title": "Oil Temperature, Measure",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Oil Temperature, Measure</p>\n\n<p><img src=\"/data/assets/images/7c3d75e8b2c9.gif\" height=\"30\" width=\"30\"> <span\nclass=\"gt-picto\">&nbsp;&nbsp;Remove</span></p>\n\n<table border=\"0\">\n<tr>\n<td valign=\"top\" width=\"95%\">\n<p>Oil dipstick.</p>\n\n<p><img src=\"/data/assets/images/6eff4d42a9f9.gif\" height=\"30\" width=\"30\">\n<span class=\"gt-picto\">&nbsp;&nbsp;Install</span></p>\n\n<p>Insert the measuring probe <span class=\"tool\">KM-4119-GP</span>\nfrom <span class=\"tool\">KM-4119</span> to approx. 1 cm above the\nfloor of the oil pan through the oil dipstick tube.</p>\n\n<p><img src=\"/data/assets/images/707731fa677f.gif\" height=\"30\" width=\"30\">\n<span class=\"gt-picto\">&nbsp;&nbsp;Measure</span></p>\n\n<p>Oil temperature.</p>\n\n<p>The oil temperature depends upon the engine load. At high\nambient temperatures or at very high engine speeds the oil\ntemperature may reach approx. <span class=\"tech-spec\">150\n&deg;C</span> .</p>\n</td>\n<td valign=\"top\" align=\"right\"><!--SCDS Link: T9602.itf-->\n<img border=\"0\" width=\"360\" height=\"360\" alt=\n\"Object Number: 2429833  Size: DEFAULT\" align=\"TOP\" src=\"/data/assets/images/156c7ced7054.jpg\">\n<br>\n<a href=\"javascript:TFormSubmit('A3SK1ODK1OAK1','1','A3SK1ODK1OAK1','detail')\">\n<img src=\"/data/assets/images/db1138827f57.gif\" alt=\n\"Click here for detailed picture of above image\"></a>\n\n<br> </td>\n</tr>\n</table>\n\n<p><img src=\"/data/assets/images/7c3d75e8b2c9.gif\" height=\"30\" width=\"30\"> <span\nclass=\"gt-picto\">&nbsp;&nbsp;Remove</span></p>\n\n<p>Measuring probe.</p>\n\n<p><img src=\"/data/assets/images/6eff4d42a9f9.gif\" height=\"30\" width=\"30\">\n<span class=\"gt-picto\">&nbsp;&nbsp;Install</span></p>\n\n<p>Oil dipstick.</p>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "extractedData": {
+    "tools": [
+      "KM-4119-GP",
+      "KM-4119"
+    ]
+  }
+}

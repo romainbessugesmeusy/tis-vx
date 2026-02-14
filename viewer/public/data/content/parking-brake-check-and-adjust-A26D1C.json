@@ -1,0 +1,143 @@
+{
+  "type": "procedure",
+  "id": "parking-brake-check-and-adjust-A26D1C",
+  "title": "Parking Brake, Check and Adjust",
+  "phases": [
+    {
+      "phase": "measure",
+      "label": "Measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Important: For the auto adjustment system to function correctly, it is essential that each caliper lever fully returns when the parking brake lever is fully released. Check that dimension X (illustrated) is minimum of 76 mm , to ensure that caliper levers are fully returned.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Dimension X between cable abutment and caliper lever, on each side of vehicle, with parking brake lever fully released.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "If dimension X is less than 76 mm , or alternatively, parking brake cable is too slack, then adjust as follows.",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Dimension X again, with parking brake lever fully released. Ensure that dimension X is minimum of 76 mm .",
+          "image": {
+            "src": "/data/assets/images/ede5b273b505.jpg",
+            "alt": "Object Number: 2429413  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Rear undertray (1) – 13 bolts, 13 washers.",
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Diffuser panel (2) – 7 bolts, 2 clips.",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "adjust",
+      "label": "Adjust",
+      "icon": "/data/assets/images/8bcc88ed08ca.gif",
+      "steps": [
+        {
+          "number": 6,
+          "text": "Fully release parking brake lever and operate brake pedal several times.",
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Parking brake cable at support bracket (illustrated) on left side – loosen locknut (2), then adjust nut (1) until parking brake is fully engaged when parking brake lever is raised four notches.",
+          "image": null,
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Tighten locknut (2).",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "measure",
+      "label": "Measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 10,
+          "text": "Diffuser panel (2) – 7 bolts, 2 clips.",
+          "image": {
+            "src": "/data/assets/images/ede5b273b505.jpg",
+            "alt": "Object Number: 2429413  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "Important: Do not tighten bolts.",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Rear undertray (1) – 13 bolts, 13 washers.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 13,
+          "text": "Tighten diffuser and undertray bolts.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    }
+  ]
+}

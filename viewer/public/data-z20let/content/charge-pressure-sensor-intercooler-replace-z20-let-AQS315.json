@@ -1,0 +1,176 @@
+{
+  "type": "procedure",
+  "id": "charge-pressure-sensor-intercooler-replace-z20-let-AQS315",
+  "title": "Charge Pressure Sensor, Intercooler, Replace (Z20\nLET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Release rear road wheel from right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use special socket located under front bonnet"
+            },
+            {
+              "bullet": "•",
+              "text": "Release 4x wheel bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Remove rear road wheel from right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x bolt, security bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Remove wheel arch liner from right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x screw, 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Disconnect harness connector (1) from charge pressure sensor (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release integral clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9afdf079d969.jpg",
+            "alt": "Object Number: 2422948  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Remove charge pressure sensor (2) from intercooler",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt (3), washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9afdf079d969.jpg",
+            "alt": "Object Number: 2422948  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 7,
+          "text": "Install charge pressure sensor to intercooler",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install bolt, washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Connect harness connector to charge pressure sensor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure integral clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install wheel arch liner to right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x screw, 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Install rear road wheel to right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt, security bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Do not tighten"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Secure rear road wheel to right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tighten 4x bolt, security bolt 90"
+            }
+          ],
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Secure rear road wheel to right side",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "type": "procedure",
+  "id": "radiator-replace-z-22-se-z-20-let-A26D1C",
+  "title": "Radiator, Replace (Z 22 SE, Z 20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Front end – see operation \"Front End, Remove and Install\" in Group A.",
+          "image": {
+            "src": "/data/assets/images/7c0284ebc86a.jpg",
+            "alt": "Object Number: 2429828  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "ABS hydraulic unit and control unit from bracket – bolts, nuts; do not detach the lines, and secure the hydraulic unit and the control unit on one side.",
+          "image": {
+            "src": "/data/assets/images/56f3da04516c.jpg",
+            "alt": "Object Number: 2429839  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "LHD vehicle shown, RHD similar.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Blanking plug (2) from the radiator housing.",
+          "image": {
+            "src": "/data/assets/images/f0673edbb560.jpg",
+            "alt": "Object Number: 2418977  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Left–hand hose (1) from the radiator – clip.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Right–hand hose (3) from the radiator – clip.",
+          "image": null,
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Important:",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Collect and dispose of any escaping coolant.",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Observe the safety regulations.",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Bolts (arrow) from the radiator housing.",
+          "image": {
+            "src": "/data/assets/images/bf88de387e62.jpg",
+            "alt": "Object Number: 2418978  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 11,
+          "text": "Air duct (1) from the heater.",
+          "image": {
+            "src": "/data/assets/images/145ba0116639.jpg",
+            "alt": "Object Number: 2418979  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 12,
+          "text": "Front wiring harness (2) from the radiator housing – clips and cable ties.",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 13,
+          "text": "Bolts (arrow) from the radiator housing.",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Wiring harness connector (1) from the front wiring harness.",
+          "image": {
+            "src": "/data/assets/images/2ba643ac701e.jpg",
+            "alt": "Object Number: 2418980  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 15,
+          "text": "Wiring harness connector (3) from the chassis – nuts.",
+          "image": {
+            "src": "/data/assets/images/aecc0d2001b5.jpg",
+            "alt": "Object Number: 2418981  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 16,
+          "text": "Wiring harnesses (1 and 2) from the radiator housing – pull out from the rubber grommets.",
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Wiring harnesses (1) from the radiator housing – pull out from the rubber grommets.",
+          "image": {
+            "src": "/data/assets/images/5c6fcbbe56ac.jpg",
+            "alt": "Object Number: 2418982  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 18,
+          "text": "Bolts (arrow) from the radiator housing.",
+          "image": {
+            "src": "/data/assets/images/f34c07851c30.jpg",
+            "alt": "Object Number: 2418983  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 19,
+          "text": "Left–hand side shown, right–hand side similar.",
+          "image": null
+        },
+        {
+          "number": 20,
+          "text": "Radiator housing (1) with radiator.",
+          "image": {
+            "src": "/data/assets/images/d93e48e7de63.jpg",
+            "alt": "Object Number: 2418984  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 21,
+          "text": "Radiator from radiator bracket – bolts.",
+          "image": {
+            "src": "/data/assets/images/d93e48e7de63.jpg",
+            "alt": "Object Number: 2418984  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 22,
+          "text": "Radiator to radiator bracket – bolts.",
+          "image": null
+        },
+        {
+          "number": 23,
+          "text": "Radiator housing (1) with radiator.",
+          "image": {
+            "src": "/data/assets/images/d93e48e7de63.jpg",
+            "alt": "Object Number: 2418984  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 24,
+          "text": "Bolts (arrow) in the radiator housing.",
+          "image": {
+            "src": "/data/assets/images/f34c07851c30.jpg",
+            "alt": "Object Number: 2418983  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 25,
+          "text": "Left–hand side shown, right–hand side similar.",
+          "image": null
+        },
+        {
+          "number": 26,
+          "text": "Wiring harnesses (1) to the radiator housing – press into the rubber grommets.",
+          "image": {
+            "src": "/data/assets/images/5c6fcbbe56ac.jpg",
+            "alt": "Object Number: 2418982  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 27,
+          "text": "Wiring harnesses (1 and 2) to the radiator housing – press into the rubber grommets.",
+          "image": {
+            "src": "/data/assets/images/aecc0d2001b5.jpg",
+            "alt": "Object Number: 2418981  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 28,
+          "text": "Wiring harness connector (3) to the chassis – nuts.",
+          "image": null,
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 29,
+          "text": "Wiring harness connector (1) to the front wiring harness.",
+          "image": {
+            "src": "/data/assets/images/2ba643ac701e.jpg",
+            "alt": "Object Number: 2418980  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 30,
+          "text": "Bolts (arrow) in the radiator housing.",
+          "image": {
+            "src": "/data/assets/images/145ba0116639.jpg",
+            "alt": "Object Number: 2418979  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 31,
+          "text": "Front wiring harness (2) to the radiator housing – clips and cable ties.",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 32,
+          "text": "Air duct (1) to the heater.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 33,
+          "text": "Bolts (arrow) in the radiator housing.",
+          "image": {
+            "src": "/data/assets/images/bf88de387e62.jpg",
+            "alt": "Object Number: 2418978  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 34,
+          "text": "Right–hand hose (3) to the radiator.",
+          "image": {
+            "src": "/data/assets/images/f0673edbb560.jpg",
+            "alt": "Object Number: 2418977  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 35,
+          "text": "Left–hand hose (1) to the radiator.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 36,
+          "text": "Blanking plug (2) in the radiator.",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 37,
+          "text": "ABS hydraulic unit and control unit to the bracket – bolts, nuts.",
+          "image": {
+            "src": "/data/assets/images/56f3da04516c.jpg",
+            "alt": "Object Number: 2429839  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 38,
+          "text": "Front end – see operation \"Front End, Remove and Install\" in Group A.",
+          "image": {
+            "src": "/data/assets/images/7c0284ebc86a.jpg",
+            "alt": "Object Number: 2429828  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 39,
+          "text": "Fill up and bleed the cooling system – see operation \"Cooling System, Drain, Fill and Bleed\".",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

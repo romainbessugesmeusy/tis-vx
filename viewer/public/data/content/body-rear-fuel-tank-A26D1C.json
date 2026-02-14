@@ -1,0 +1,23 @@
+{
+  "type": "harness_diagram",
+  "id": "body-rear-fuel-tank-A26D1C",
+  "title": "Body rear - Fuel Tank",
+  "diagram": {
+    "src": "/data/assets/85b4308767f9.cgm",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "M21",
+      "description": "Pump - Fuel"
+    },
+    {
+      "code": "P5",
+      "description": "Sensor - Fuel tank content"
+    },
+    {
+      "code": "X30",
+      "description": "Fuel tank & Fuel pump/sensor"
+    }
+  ]
+}

@@ -1,0 +1,2431 @@
+{
+  "type": "procedure",
+  "id": "engine-and-transmission-remove-and-install-z20-let-AQS315",
+  "title": "Engine and Transmission, Remove and Install (Z20\nLET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove engine undertray (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 13x bolt, 13x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Remove exhaust pipe undertray (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 12x bolt, 12x washer, 2x clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Drain coolant system",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Position collecting container"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove lower hose from radiator feed hose"
+            },
+            {
+              "bullet": "•–",
+              "text": "Remove collecting container when drained",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Release clip (2)"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/97ecaa5b26f9.jpg",
+            "alt": "Object Number: 2422465  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Drain transmission fluid",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Position collecting container"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove drain plug"
+            },
+            {
+              "bullet": "•",
+              "text": "Install new sealing ring"
+            },
+            {
+              "bullet": "•",
+              "text": "Replace drain plug when drained 35"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Release support bracket for auxiliary cooling pump",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove nut (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2ed56771d9e1.jpg",
+            "alt": "Object Number: 2422317  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Disconnect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release windscreen washer bottle (1) position to one side"
+            },
+            {
+              "bullet": "•",
+              "text": "Release bolt, nut (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/482794e97b8a.jpg",
+            "alt": "Object Number: 2422316  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Remove engine cover",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Apply match mark to engine cover 2x hinge"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 6x bolt, 6x washer, 2x shim"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Disconnect harness connector (1) from mass air flow meter, temperature sensor",
+          "image": {
+            "src": "/data/assets/images/fea83aeaea19.jpg",
+            "alt": "Object Number: 2422315  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "Disconnect air intake hose from air cleaner housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/fea83aeaea19.jpg",
+            "alt": "Object Number: 2422315  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 12,
+          "text": "Disconnect engine breather hose from air intake hose",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Disconnect air intake hose from turbocharger",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Remove support bracket for air intake hose and lifting eye from engine",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Disconnect aeration hose (2) from engine",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Release hose from bulkhead"
+            },
+            {
+              "bullet": "•",
+              "text": "Position hose to one side"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8f9e82bf7abb.jpg",
+            "alt": "Object Number: 2422314  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 16,
+          "text": "Disconnect coolant top hose (3) from engine",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8f9e82bf7abb.jpg",
+            "alt": "Object Number: 2422314  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 17,
+          "text": "Disconnect vacuum hose (1) from turbocharger",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8f9e82bf7abb.jpg",
+            "alt": "Object Number: 2422314  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 18,
+          "text": "Disconnect engine harness from body harness, right side of engine compartment",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Disconnect 2x connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Disconnect air intake hose (3) from throttle body",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/fcc305eca887.jpg",
+            "alt": "Object Number: 2422313  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 20,
+          "text": "Disconnect vacuum hose from vacuum unit of switchover valve",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            },
+            {
+              "bullet": "•–",
+              "text": "Remove, then discard cable tie",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Release clip"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/fcc305eca887.jpg",
+            "alt": "Object Number: 2422313  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 21,
+          "text": "Disconnect vacuum hose (5) from throttle body housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Release clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/fcc305eca887.jpg",
+            "alt": "Object Number: 2422313  Size: DEFAULT"
+          },
+          "callouts": [
+            "5"
+          ]
+        },
+        {
+          "number": 22,
+          "text": "Disconnect coolant overflow hose (4) from engine assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/fcc305eca887.jpg",
+            "alt": "Object Number: 2422313  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ]
+        },
+        {
+          "number": 23,
+          "text": "Release fuel pressure from fuel rail",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove cap from pressure relief valve (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Install fuel Pressure Test Equipment KM-J34730-91 to pressure relief valve"
+            },
+            {
+              "bullet": "•",
+              "text": "Position collecting container"
+            },
+            {
+              "bullet": "•",
+              "text": "Bleed pressure from fuel rail at pressure relief valve"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/fcc305eca887.jpg",
+            "alt": "Object Number: 2422313  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 24,
+          "text": "Remove fuel Pressure Test Equipment KM-J34730-91 from pressure relief valve",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove collecting container"
+            },
+            {
+              "bullet": "•",
+              "text": "Install cap to pressure relief valve (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/fcc305eca887.jpg",
+            "alt": "Object Number: 2422313  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 25,
+          "text": "Release fuel feed hose from fuel rail",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release union (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/fcc305eca887.jpg",
+            "alt": "Object Number: 2422313  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 26,
+          "text": "Release fuel return hose from fuel rail",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release union (6)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/fcc305eca887.jpg",
+            "alt": "Object Number: 2422313  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 27,
+          "text": "Disconnect vacuum hose for brake servo from inlet manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release integral clip (7)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/fcc305eca887.jpg",
+            "alt": "Object Number: 2422313  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 28,
+          "text": "Disconnect lower coolant hose from coolant expansion tank",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 29,
+          "text": "Remove coolant expansion tank from support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Release harness connector for level sensor"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 30,
+          "text": "Disconnect hose of distribution housing from auxiliary coolant pump",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 31,
+          "text": "Disconnect lower coolant hose from oil cooler and throttle body",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 32,
+          "text": "Disconnect body/engine harness from support bracket of expansion tank",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Disconnect harness connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 33,
+          "text": "Release harness from coolant hose",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove, then discard 4x cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 34,
+          "text": "Disconnect earth cable of body harness from inlet manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove, then discard cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 35,
+          "text": "Disconnect main engine harness from body harness, left side of engine compartment",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Disconnect 4x connector"
+            },
+            {
+              "bullet": "•",
+              "text": "Move harness to engine"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 36,
+          "text": "Disconnect and remove auxiliary coolant pump and bracket from vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release bolt from transmission housing"
+            },
+            {
+              "bullet": "•",
+              "text": "Disconnect connector"
+            },
+            {
+              "bullet": "•",
+              "text": "Release clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/682a85a5dfc7.jpg",
+            "alt": "Object Number: 2422464  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 37,
+          "text": "Disconnect clutch slave cylinder",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release spring clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Position to one side",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Position to one side\n Note:   Fluid leaks, use\ncollecting container."
+                }
+              ]
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 38,
+          "text": "Disconnect lower coolant hose from distribution piece",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 39,
+          "text": "Disconnect turbocharger coolant hose from lower coolant hose",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Release 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 40,
+          "text": "Release 2x gearshift cable",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x spring clip (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Position to one side"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/58a8ed6f75ca.jpg",
+            "alt": "Object Number: 2422312  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 41,
+          "text": "Raise vehicle to suitable working height",
+          "image": null
+        },
+        {
+          "number": 42,
+          "text": "Remove 2x rear road wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use special socket located under front bonnet"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 8x wheel bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 43,
+          "text": "Remove, hub nut for left rear wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove split pin, nut, washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/5457a060a167.jpg",
+            "alt": "Object Number: 2422311  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 44,
+          "text": "Release left drive shaft from hub",
+          "image": {
+            "src": "/data/assets/images/5457a060a167.jpg",
+            "alt": "Object Number: 2422311  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 45,
+          "text": "Disconnect left ABS harness from ABS sensor (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release integral clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Release 2x clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/5457a060a167.jpg",
+            "alt": "Object Number: 2422311  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 46,
+          "text": "Release left brake hose clip (3) from lower wishbone",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release locking nut"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/5457a060a167.jpg",
+            "alt": "Object Number: 2422311  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 47,
+          "text": "Release left brake cable (4) from left brake caliper",
+          "image": {
+            "src": "/data/assets/images/5457a060a167.jpg",
+            "alt": "Object Number: 2422311  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ]
+        },
+        {
+          "number": 48,
+          "text": "Remove left brake caliper (5) from left disc hub",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Position, then support caliper to one side"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/5457a060a167.jpg",
+            "alt": "Object Number: 2422311  Size: DEFAULT"
+          },
+          "callouts": [
+            "5"
+          ]
+        },
+        {
+          "number": 49,
+          "text": "Disconnect track control arm, left (2) from chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release lock nut for track control arm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/5457a060a167.jpg",
+            "alt": "Object Number: 2422311  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 50,
+          "text": "Release left carrier for upper ball joint (6) from left wheel hub",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Release 4x shim and bracket for ABS sensor"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/5457a060a167.jpg",
+            "alt": "Object Number: 2422311  Size: DEFAULT"
+          },
+          "callouts": [
+            "6"
+          ]
+        },
+        {
+          "number": 51,
+          "text": "Release left lower wishbone from chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release locking tag"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 52,
+          "text": "Release left shock absorber from chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt, nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 53,
+          "text": "Remove left rear disc hub, shock absorber, track control arm, lower wishbone assembly Note: 2x technician required.",
+          "image": {
+            "src": "/data/assets/images/b906833c5eca.jpg",
+            "alt": "Object Number: 2422310  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 54,
+          "text": "Remove left driveshaft from vehicle",
+          "image": null
+        },
+        {
+          "number": 55,
+          "text": "Remove right rear disc hub, shock absorber, track control arm, lower wishbone assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Follow sequence for left side"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 56,
+          "text": "Release oxygen sensor harness from left rear chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 57,
+          "text": "Release oxygen sensor harness from heat shield for catalytic converter",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Position to rear of vehicle"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 58,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 59,
+          "text": "Remove secondary catalytic converter (1) for exhaust",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x front nut (3), then discard"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 3x rear nut (2), then discard"
+            },
+            {
+              "bullet": "•",
+              "text": "Release rubber mount bracket"
+            },
+            {
+              "bullet": "•",
+              "text": "Release rubber mount"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove gasket (4) from front joint, then discard"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f0c4b7a1574c.jpg",
+            "alt": "Object Number: 2422309  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 60,
+          "text": "Release 2x gearshift cable from engine support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Position 2x cable to one side"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 61,
+          "text": "Remove intake air hose from intercooler and turbocharger",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove, then discard cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 62,
+          "text": "Release tension from and remove ribbed V-belt",
+          "image": null
+        },
+        {
+          "number": 63,
+          "text": "Remove idler pulley assembly (1) for ribbed V-belt",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dd1bd054e782.jpg",
+            "alt": "Object Number: 2422144  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 64,
+          "text": "Remove right driveshaft heatshield for rear engine mount",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x bolt, 3x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 65,
+          "text": "Disconnect right body harness from alternator",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x nut, 2x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 66,
+          "text": "Disconnect body harness connector from oil pressure sensor",
+          "image": null
+        },
+        {
+          "number": 67,
+          "text": "Release body harness from support bracket for oil pipe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 68,
+          "text": "Release body harness from support bracket for vacuum tank",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 69,
+          "text": "Disconnect body harness from starter motor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x nut, 2x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 70,
+          "text": "Disconnect earth of body harness from engine block",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 71,
+          "text": "Disconnect harness connector from switchover valve for intake manifold",
+          "image": null
+        },
+        {
+          "number": 72,
+          "text": "Disconnect harness connector from reverse light switch",
+          "image": null
+        },
+        {
+          "number": 73,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 74,
+          "text": "Release body harness from transmission bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Position harness to one side"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 75,
+          "text": "Remove upper 2x bolt from reaction mount bracket, lower, at front of chassis",
+          "image": null
+        },
+        {
+          "number": 76,
+          "text": "Release upper engine mount, right",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x bolt (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d94db0f8870e.jpg",
+            "alt": "Object Number: 2422461  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 77,
+          "text": "Release upper engine mount, left (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x bolt (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/72fbb37086de.jpg",
+            "alt": "Object Number: 2423015  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 78,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 79,
+          "text": "Install and set Engine Support Tool KM-6054 (1), use with Adapter KM-904 (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Support engine weight"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8b79162dcec2.jpg",
+            "alt": "Object Number: 2422308  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 80,
+          "text": "Remove lower reaction mount, rear, from between transmission and rear chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove centre bolt and nut (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 3x bolt (2) and washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8540cec2881d.jpg",
+            "alt": "Object Number: 2422463  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 81,
+          "text": "Remove lower reaction mount, front, from between transmission and front chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove centre bolt and nut (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a8b5f3a6321c.jpg",
+            "alt": "Object Number: 2422468  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 82,
+          "text": "Remove reaction mount bracket from lower front chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/4141aee91dd0.jpg",
+            "alt": "Object Number: 2422459  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 83,
+          "text": "Remove engine and transmission from vehicle",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 84,
+          "text": "Install engine and transmission to vehicle",
+          "image": null
+        },
+        {
+          "number": 85,
+          "text": "Install reaction mount bracket, to lower front chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Recut 2x bolt thread, use recommended locking compound if not"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 2x lower bolt hand tight"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 86,
+          "text": "Install reaction mount, lower front, to between transmission housing and front chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Recut 2x bolt thread, use recommended locking compound if not"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt hand tight"
+            },
+            {
+              "bullet": "•",
+              "text": "Install new engine mount centre bolt and nut hand tight"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 87,
+          "text": "Install reaction mount, lower rear, to between transmission and rear chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Recut 3x bolt thread, use recommended locking compound if not"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 3x bolt, washer hand tight"
+            },
+            {
+              "bullet": "•",
+              "text": "Install new engine mount centre bolt, nut hand tight"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 88,
+          "text": "Remove Engine and Transmission Support Tool KM-6054 (1) with Adapter KM-904 (2)",
+          "image": null,
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 89,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 90,
+          "text": "Install upper engine mount, left",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Recut 3x bolt thread, use recommended locking compound if not"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 3x bolt, hand tight"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 91,
+          "text": "Install upper engine mount, right",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Recut 3x bolt thread, use recommended locking compound if not"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 3x bolt, hand tight"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 92,
+          "text": "Install lower reaction mount bracket, front, 2x bolt",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Recut 2x thread, use recommended locking compound if not"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt, hand tight"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 93,
+          "text": "Secure engine mount bolt, right upper",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 3x bolt (1) 49 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 94,
+          "text": "Secure engine mount bolt, left upper",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 3x bolt (1) 49 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 95,
+          "text": "Position body harness to transmission bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 96,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 97,
+          "text": "Secure reaction mount bracket, lower front",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x bolt 25 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 98,
+          "text": "Secure reaction mount bracket, lower front",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x bolt 49 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure centre bolt, nut 86 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 99,
+          "text": "Secure reaction mount bracket, lower front",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x bolt (2) 49 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure centre bolt, nut (1) 86"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 100,
+          "text": "Secure reaction mount bracket, lower rear",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 3x bolt 49 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure centre bolt, nut 86 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 101,
+          "text": "Connect body harness connector to reversing light switch",
+          "image": null
+        },
+        {
+          "number": 102,
+          "text": "Connect body harness connector to switchover valve for intake manifold",
+          "image": null
+        },
+        {
+          "number": 103,
+          "text": "Connect body harness earth to engine block",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 104,
+          "text": "Connect body harness to starter motor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x washer, 2x nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 105,
+          "text": "Install body harness to support bracket for vacuum tank",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 106,
+          "text": "Install body harness to support bracket for oil pipe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 107,
+          "text": "Connect body harness connector to oil pressure sensor",
+          "image": null
+        },
+        {
+          "number": 108,
+          "text": "Connect body harness to alternator",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x washer, 2x nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 109,
+          "text": "Install right driveshaft heatshield to rear reaction mount",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 3x washer, 3x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 110,
+          "text": "Install idler pulley assembly for ribbed V-belt",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 3x bolt 20 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 111,
+          "text": "Install ribbed V-belt, then apply tension - see operation “Ribbed V-belt Tension, Check”",
+          "image": null
+        },
+        {
+          "number": 112,
+          "text": "Connect intake air hose to intercooler and turbocharger",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install new cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 113,
+          "text": "Install auxiliary coolant pump to transmission housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 114,
+          "text": "Install secondary catalytic converter for exhaust",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install new gasket to front joint"
+            },
+            {
+              "bullet": "•",
+              "text": "Position bracket for rubber mount"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 3x new rear nut"
+            },
+            {
+              "bullet": "•",
+              "text": "Position rubber mount"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 115,
+          "text": "Connect harness connector for auxiliary pump",
+          "image": null
+        },
+        {
+          "number": 116,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 117,
+          "text": "Secure reaction mount bracket, lower front",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt 25 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 118,
+          "text": "Secure auxiliary coolant pump to transmission housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 119,
+          "text": "Raise vehicle to suitable working height",
+          "image": null
+        },
+        {
+          "number": 120,
+          "text": "Install harness to rear silencer heatshield for oxygen sensor installed to secondary catalytic converter",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clip to heatshield"
+            },
+            {
+              "bullet": "•",
+              "text": "Install harness to subframe"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 121,
+          "text": "Install left driveshaft",
+          "image": null
+        },
+        {
+          "number": 122,
+          "text": "Install left rear disc, hub, shock absorber, control arm and lower wishbone assembly Note: 2x technician required.",
+          "image": null
+        },
+        {
+          "number": 123,
+          "text": "Secure left shock absorber to chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install bolt, nut 45 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 124,
+          "text": "Secure left lower wishbone to chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install front bolt, nut 65 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Install new locking tag to nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 125,
+          "text": "Install end of track control arm to left chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure new locking nut 65 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 126,
+          "text": "Install ball joint carrier, left upper, to lower wishbone assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x shim and bracket for ABS sensor connector"
+            },
+            {
+              "bullet": "•",
+              "text": "Recut 2x bolt thread, use recommended locking compound if not"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure 2x bolt 45 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 127,
+          "text": "Install brake caliper to left disc hub",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure upper bolt 45 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure lower bolt 25 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 128,
+          "text": "Install left brake cable to left brake caliper",
+          "image": null
+        },
+        {
+          "number": 129,
+          "text": "Install brake hose clip to lower wishbone",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure new locking nut 9 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 130,
+          "text": "Connect harness connector to left ABS sensor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install connector"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 131,
+          "text": "Install washer, hub nut for left rear wheel",
+          "image": null
+        },
+        {
+          "number": 132,
+          "text": "Install right rear disc, hub, shock absorber, control arm and lower wishbone assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Follow sequence for left side"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 133,
+          "text": "Secure 2x rear wheel hub nut 235 Nm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x new split pin"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 134,
+          "text": "Install 2x rear road wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tighten 8x bolt, 2x security bolt 90"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 135,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 136,
+          "text": "Install 2x gearshift cable",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x ball socket"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 2x spring clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 137,
+          "text": "Install turbocharger coolant hose to coolant bottom hose",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure to fuel filter pipe"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 138,
+          "text": "Connect coolant lower hose to distribution housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 139,
+          "text": "Install coolant main lower hose to oil cooler",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 140,
+          "text": "Install clutch slave cylinder, pipe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install spring clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Install bracket, push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 141,
+          "text": "Install auxiliary coolant pump hose to distribution housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 142,
+          "text": "Connect body harness to switchover valve for intake manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Connect harness connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 143,
+          "text": "Connect main engine harness to main body harness, left side of engine compartment",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Connect 4x harness connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 144,
+          "text": "Connect body harness earth to inlet manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 145,
+          "text": "Install harness to coolant hose",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x new cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 146,
+          "text": "Connect body engine harness to support bracket for expansion tank",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Connect harness connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 147,
+          "text": "Connect coolant hose for auxiliary pump to distribution housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 148,
+          "text": "Install coolant expansion tank to support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Install harness connector for level sensor"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure integral clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 149,
+          "text": "Connect coolant lower hose to expansion tank",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 150,
+          "text": "Connect vacuum hose for brake servo to inlet manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure integral connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 151,
+          "text": "Install fuel return hose to fuel rail",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure union"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 152,
+          "text": "Install fuel feed hose to fuel rail",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure union"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 153,
+          "text": "Connect coolant overflow hose to engine assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 154,
+          "text": "Connect vacuum hose to throttle body housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 155,
+          "text": "Connect vacuum hose to vacuum unit of switchover valve",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure vacuum hose to alternator bracket"
+            },
+            {
+              "bullet": "•",
+              "text": "Install new cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 156,
+          "text": "Connect upper intercooler hose to throttle body",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 157,
+          "text": "Connect engine harness from body harness, right side of engine compartment",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Connect 2x connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 158,
+          "text": "Connect vacuum hose to turbocharger",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 159,
+          "text": "Connect upper coolant hose to throttle body",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 160,
+          "text": "Connect aeration hose to engine",
+          "image": null
+        },
+        {
+          "number": 161,
+          "text": "Install air support bracket, air intake hose for lifting eye to engine",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Recut bolt thread, use recommended locking compound if not"
+            },
+            {
+              "bullet": "•",
+              "text": "Install bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 162,
+          "text": "Install air intake hose assembly to between air cleaner and turbocharger",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 163,
+          "text": "Connect engine breather hose to air intake hose",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 164,
+          "text": "Install air intake hose to air cleaner housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 165,
+          "text": "Install mass air flow meter, temperature sensor connector",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Connect harness connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 166,
+          "text": "Bleed clutch - see operation “Hydraulic Clutch, Bleed” Note: 2x technician required.",
+          "image": null
+        },
+        {
+          "number": 167,
+          "text": "Install engine cover",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Align match marks for 2x hinge"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 2x shim, 6x washer, 6x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 168,
+          "text": "Connect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure bolt, nut"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure windscreen washer bottle"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 169,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 170,
+          "text": "Replenish transmission fluid",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fill to level of plug aperture"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 171,
+          "text": "Connect lower hose for radiator feed",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Install new cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 172,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 173,
+          "text": "Replenish coolant fluid - see operation “Cooling System, Drain, Fill and Bleed”",
+          "image": null
+        },
+        {
+          "number": 174,
+          "text": "Program all volatile memories",
+          "image": null
+        },
+        {
+          "number": 175,
+          "text": "Run engine and check for leaks",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Switch off engine when complete"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 176,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 177,
+          "text": "Install exhaust pipe undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 12x bolt, 12x washer, 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 178,
+          "text": "Install engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 13x bolt, 13x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 179,
+          "text": "Lower vehicle",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Drain transmission fluid",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Secure engine mount bolt, right upper",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 93
+    },
+    {
+      "component": "Secure engine mount bolt, left upper",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 94
+    },
+    {
+      "component": "Secure reaction mount bracket, lower front",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 97
+    },
+    {
+      "component": "Secure reaction mount bracket, lower front",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 98
+    },
+    {
+      "component": "Secure reaction mount bracket, lower front",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": 98
+    },
+    {
+      "component": "Secure reaction mount bracket, lower front",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 99
+    },
+    {
+      "component": "Secure reaction mount bracket, lower front",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": 99
+    },
+    {
+      "component": "Secure reaction mount bracket, lower rear",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 100
+    },
+    {
+      "component": "Secure reaction mount bracket, lower rear",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": 100
+    },
+    {
+      "component": "Install idler pulley assembly for ribbed V-belt",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 110
+    },
+    {
+      "component": "Secure reaction mount bracket, lower front",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 117
+    },
+    {
+      "component": "Secure left shock absorber to chassis",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 123
+    },
+    {
+      "component": "Secure left lower wishbone to chassis",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": 124
+    },
+    {
+      "component": "Install end of track control arm to left chassis",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": 125
+    },
+    {
+      "component": "Install ball joint carrier, left upper, to lower wishbone assembly",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 126
+    },
+    {
+      "component": "Install brake caliper to left disc hub",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 127
+    },
+    {
+      "component": "Install brake caliper to left disc hub",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 127
+    },
+    {
+      "component": "Install brake hose clip to lower wishbone",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 129
+    },
+    {
+      "component": "Secure 2x rear wheel hub nut 235 Nm",
+      "value": "235",
+      "unit": "Nm",
+      "stepRef": 133
+    },
+    {
+      "component": "Install 2x rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 134
+    },
+    {
+      "component": "Replace drain plug when drained 35 Nm",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Secure 3x bolt (1) 49 Nm",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Secure 2x bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Secure centre bolt, nut 86 Nm",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install 3x bolt 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install bolt, nut 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install front bolt, nut 65 Nm",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Secure new locking nut 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tighten 8x bolt, 2x security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-J34730-91",
+    "KM-6054",
+    "KM-904"
+  ],
+  "warnings": [
+    "A four-post hoist must\nbe used to raise the vehicle when removing the engine undertray and\ndiffuser panel. The vehicle can be moved to a two-post hoist for\nother operations if required.",
+    "Observe relevant\nenvironmental regulations when disposing of used coolant and\nlubricants.",
+    "Install new blanking\nplug to open connections on fuel rail. Do not install previously\nused blanking plug.",
+    "Note shim size for\nassembly.",
+    "End of track control\narm locates into chassis. Ensure correct new locking nut is used.\nEarly type have coarse thread, later type have fine thread."
+  ],
+  "notes": [
+    "Remove 6x bolt, 6x washer, 2x shim\n Shims will vary\nfor cover alignment.\n Note:   2x technician\nrequired.",
+    "Disconnect 2x connector\n Located on roll\nbar stay",
+    "Move harness to engine\n Located on\nexpansion tank bracket",
+    "Position to one side\n Fluid leaks, use\ncollecting container.",
+    "Remove left rear disc hub, shock absorber, track control arm,\nlower wishbone assembly\n 2x technician\nrequired.",
+    "Follow sequence for left side\n 2x technician\nrequired",
+    "Remove gasket (4) from front joint, then discard\n Illustration\nshows exhaust removed for clarity.",
+    "Remove 3x bolt\n Bolts are of\ndifferent length, so note position for assembly.",
+    "Install 2x lower bolt hand tight\n Bracket can only\nbe fitted one way.",
+    "Install 3x bolt, hand tight\n Use trolley jack\nto align 2x top mount to engine and engine mount bracket, lower\nfront, 2x bolt.",
+    "Secure nut\n Nut has copper\ncoating.",
+    "Install left rear disc, hub, shock absorber, control arm and\nlower wishbone assembly\n 2x technician\nrequired.",
+    "Connect 4x harness connector\n Located on\nexpansion tank bracket",
+    "Secure union\n Remove caps from\nfuel rail and feed return hoses.",
+    "Connect 2x connector\n Located on right\nroll bar stay",
+    "Bleed clutch - see operation “Hydraulic Clutch,\nBleed”\n 2x technician\nrequired.",
+    "Install 2x shim, 6x washer, 6x bolt\n 2x technician\nrequired."
+  ]
+}

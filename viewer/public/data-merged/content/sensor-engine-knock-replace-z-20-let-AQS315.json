@@ -1,0 +1,255 @@
+{
+  "type": "procedure",
+  "id": "sensor-engine-knock-replace-z-20-let-AQS315",
+  "title": "Sensor, Engine Knock, Replace (Z 20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Disconnect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release windscreen wash reservoir, then move to one side"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove nut, bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Release harness connector (1) for primary oxygen sensor from support bracket (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip (5)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove cable tie, then discard"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0412b5176955.jpg",
+            "alt": "Object Number: 2422500  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Release support bracket (2), then move to one side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0412b5176955.jpg",
+            "alt": "Object Number: 2422500  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Release harness connector (3) for knock sensor from support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Slide off"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 2x cable tie, then discard"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0412b5176955.jpg",
+            "alt": "Object Number: 2422500  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Disconnect harness connector (4) from knock sensor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release integral clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0412b5176955.jpg",
+            "alt": "Object Number: 2422500  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Remove engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Raise vehicle"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 13x bolt, 13x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Remove knock sensor (1) from engine cylinder block",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/54a89889e49b.jpg",
+            "alt": "Object Number: 2422501  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 8,
+          "text": "Install knock sensor to engine cylinder block 20 Nm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 13x bolt, 13x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Connect harness connector to knock sensor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure integral clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Secure harness connector for knock sensor to support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x new cable tie"
+            },
+            {
+              "bullet": "•",
+              "text": "Slide on"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Secure support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Secure harness connector for primary oxygen sensor to support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install new cable tie"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Connect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install nut, bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure windscreen wash reservoir"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Program all volatile memories",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install knock sensor to engine cylinder block 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 8
+    }
+  ],
+  "warnings": [
+    "A four-post hoist must\nbe used to raise the vehicle when removing the engine undertray.\nThe vehicle can be moved to a two-post hoist for other operations\nif required."
+  ]
+}

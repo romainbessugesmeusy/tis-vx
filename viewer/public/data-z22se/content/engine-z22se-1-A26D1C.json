@@ -1,0 +1,103 @@
+{
+  "type": "harness_diagram",
+  "id": "engine-z22se-1-A26D1C",
+  "title": "engine-z22se-1-A26D1C",
+  "diagram": {
+    "src": "/data/assets/b762d1d5590a.cgm",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "A4",
+      "description": "Control unit - Multec"
+    },
+    {
+      "code": "K16",
+      "description": "Relay - Fuel pump"
+    },
+    {
+      "code": "B12",
+      "description": "Sensor - Coolant temperature"
+    },
+    {
+      "code": "K18",
+      "description": "Relay - Engine control unit"
+    },
+    {
+      "code": "B13",
+      "description": "Sensor - Temperature, intake air"
+    },
+    {
+      "code": "T1",
+      "description": "Ignition coil - Direct ignition"
+    },
+    {
+      "code": "B19",
+      "description": "Sensor - Pedal position"
+    },
+    {
+      "code": "Y4",
+      "description": "Solenoid valve - Exhaust gas recirculation"
+    },
+    {
+      "code": "B21",
+      "description": "Sensor - Absolute pressure, intake manifold"
+    },
+    {
+      "code": "Y9.1",
+      "description": "Injection valve - Cylinder 1"
+    },
+    {
+      "code": "B30",
+      "description": "Sensor - Knock control 1"
+    },
+    {
+      "code": "Y9.2",
+      "description": "Injection valve - Cylinder 2"
+    },
+    {
+      "code": "B34",
+      "description": "Impulse sensor - Crankshaft"
+    },
+    {
+      "code": "Y9.3",
+      "description": "Injection valve - Cylinder 3"
+    },
+    {
+      "code": "C1",
+      "description": "Condensor - Ignition coil"
+    },
+    {
+      "code": "Y9.4",
+      "description": "Injection valve - Cylinder 4"
+    },
+    {
+      "code": "X2",
+      "description": "Main harness & Extension harness, engine"
+    },
+    {
+      "code": "X22",
+      "description": "Engine & Control unit - Multec"
+    },
+    {
+      "code": "X3",
+      "description": "Main harness & Extension harness, engine"
+    },
+    {
+      "code": "X33",
+      "description": "Extension harness, engine & Engine"
+    },
+    {
+      "code": "X21",
+      "description": "Extension harness, engine & Control unit - Multec"
+    },
+    {
+      "code": "X38",
+      "description": "Extension harness, engine & Engine"
+    },
+    {
+      "code": "Z22SE",
+      "description": "Engine Z22SE"
+    }
+  ]
+}

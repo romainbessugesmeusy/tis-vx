@@ -1,0 +1,167 @@
+{
+  "type": "procedure",
+  "id": "bowden-cable-luggage-compartment-lid-replace-A26D1C",
+  "title": "Bowden Cable, Luggage Compartment Lid, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Open driver's door",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Detach sill inner trim",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 plastic screws"
+            },
+            {
+              "bullet": "•",
+              "text": "Double–sided adhesive tape"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d6bde26e65c2.jpg",
+            "alt": "Object Number: 2412554  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Remove opening lever for luggage compartment lid lock",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove from holder"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Remove air filter housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "See operation \"Air Filter Assembly, Remove and Install\" in"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Remove luggage compartment lid lock",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 hexagon socket screws (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0bbd285aa94a.jpg",
+            "alt": "Object Number: 2412555  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Remove Bowden cable (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Attach wire"
+            },
+            {
+              "bullet": "•",
+              "text": "Unhook Bowden cable from lock and remove forwards"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/387ceb7e952d.jpg",
+            "alt": "Object Number: 2412556  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 7,
+          "text": "Install Bowden cable",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Transfer wire"
+            },
+            {
+              "bullet": "•",
+              "text": "Fasten screw clamp"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Install luggage compartment lock",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 hexagon socket screws"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install air filter housing.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "See operation \"Air Filter Assembly, Remove and Install\" in"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Install opening lever of luggage compartment lid lock",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Fit sill inner trim",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 plastic screws"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Cleaning work",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Close driver's door",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Transfer wire\n Use silicone\nspray"
+  ]
+}

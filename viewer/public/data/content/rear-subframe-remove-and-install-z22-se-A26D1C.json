@@ -1,0 +1,922 @@
+{
+  "type": "procedure",
+  "id": "rear-subframe-remove-and-install-z22-se-A26D1C",
+  "title": "Rear Subframe, Remove and Install (Z22 SE)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Rear clamshell – see operation \"Rear Clamshell, Remove and Install\".",
+          "image": {
+            "src": "/data/assets/images/0d0ebbcf6698.jpg",
+            "alt": "Object Number: 2418950  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Wiring harnesses of both oxygen sensors – separate into individual cables; 2 wiring harness plugs (arrowed), cable ties.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Wiring harnesses of both rear wheel speed sensors – separate into individual cables; 1 wiring harness plug (arrowed), cable ties on each side.",
+          "image": {
+            "src": "/data/assets/images/282104fd0d6b.jpg",
+            "alt": "Object Number: 2418951  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Front exhaust pipe (2) from exhaust manifold (1) – 3 nuts",
+          "image": {
+            "src": "/data/assets/images/9ee3154f85cc.jpg",
+            "alt": "Object Number: 2418952  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Left exhaust pipe mounting (arrowed) – 1 screw.",
+          "image": {
+            "src": "/data/assets/images/7bf5a8628abd.jpg",
+            "alt": "Object Number: 2418953  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Exhaust system – 3 mountings (arrowed).",
+          "image": {
+            "src": "/data/assets/images/968192dca94b.jpg",
+            "alt": "Object Number: 2418954  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Parking brake cable (1) from compensator (2) – 1 locking pin (4), 1 pin (3).",
+          "image": {
+            "src": "/data/assets/images/fe01b4b9c374.jpg",
+            "alt": "Object Number: 2418955  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2",
+            "4",
+            "3"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Parking brake cables (1) from lever (2) – hang parking brake cables on left and right sides of vehicle.",
+          "image": {
+            "src": "/data/assets/images/0d8c2446e07f.jpg",
+            "alt": "Object Number: 2418956  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Parking brake cables (3) from lower wishbone (4) – detach one bracket (5) on each side.",
+          "image": null,
+          "callouts": [
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Rear brake hoses and rear brake lines (arrowed) from mountings on left and right.",
+          "image": {
+            "src": "/data/assets/images/8e3e2c41ca1c.jpg",
+            "alt": "Object Number: 2418957  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 11,
+          "text": "Important:",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Collect and dispose of escaping brake fluid.",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Follow safety regulations.",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Cover (1) – 1 screw.",
+          "image": {
+            "src": "/data/assets/images/c9519e878aa4.jpg",
+            "alt": "Object Number: 2418958  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 15,
+          "text": "Left lower wishbone (1) from chassis frame and rear sub–frame – 1 screw, 1 nut (arrowed).",
+          "image": {
+            "src": "/data/assets/images/c9519e878aa4.jpg",
+            "alt": "Object Number: 2418958  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 16,
+          "text": "Right lower wishbone (1) from chassis frame and rear sub–frame – 1 screw, 1 nut.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 17,
+          "text": "Important: Proceed with care so as not to damage thread of track rod end (2).",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 18,
+          "text": "Both drive shafts from transmission – see operation \"Drive Shaft, Remove and Install\" in group F.",
+          "image": null
+        },
+        {
+          "number": 25,
+          "text": "Rear engine damping block (1) – 4 screws.",
+          "image": {
+            "src": "/data/assets/images/ac171131ccf3.jpg",
+            "alt": "Object Number: 2419005  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 26,
+          "text": "Screws from sub–frame at bottom (arrowed).",
+          "image": {
+            "src": "/data/assets/images/7887f394e140.jpg",
+            "alt": "Object Number: 2419006  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 27,
+          "text": "Fuel cutoff switch (1) from sub–frame – 2 screws",
+          "image": {
+            "src": "/data/assets/images/f1b0e5e8c814.jpg",
+            "alt": "Object Number: 2418963  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 28,
+          "text": "Attach engine to crane – 2 attachment points (arrowed).",
+          "image": {
+            "src": "/data/assets/images/1977c7765a28.jpg",
+            "alt": "Object Number: 2418964  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 29,
+          "text": "Air filter bracket (1) – 2 screws, 1 nut.",
+          "image": {
+            "src": "/data/assets/images/94add65c2146.jpg",
+            "alt": "Object Number: 2418965  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 30,
+          "text": "Left bracket (3) –3 screws, 1 nut.",
+          "image": null,
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 31,
+          "text": "Left engine damping block (2), 1 nut.",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 32,
+          "text": "Right bracket (4) – 3 screws, 1 nut, 1 fuel line mounting.",
+          "image": null,
+          "callouts": [
+            "4"
+          ]
+        },
+        {
+          "number": 33,
+          "text": "Right engine damping block (5), 1 nut.",
+          "image": null,
+          "callouts": [
+            "5"
+          ]
+        },
+        {
+          "number": 34,
+          "text": "Screws from sub–frame at top (arrowed).",
+          "image": {
+            "src": "/data/assets/images/711bc4bb4280.jpg",
+            "alt": "Object Number: 2418966  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 35,
+          "text": "Important: Do not lean or place any weight on rear sub–frame after removal of rear sub–frame upper screws.",
+          "image": null
+        },
+        {
+          "number": 36,
+          "text": "Rear sub–frame (2) from support arms (1) – 1 screw (arrowed) on each side.",
+          "image": {
+            "src": "/data/assets/images/34b056cf0fd3.jpg",
+            "alt": "Object Number: 2418967  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 37,
+          "text": "2 extra technicians required to remove rear sub–frame.",
+          "image": null
+        },
+        {
+          "number": 38,
+          "text": "Rear Sub–frame, Install",
+          "image": {
+            "src": "/data/assets/images/34b056cf0fd3.jpg",
+            "alt": "Object Number: 2418967  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 60,
+          "text": "Crane from engine (arrowed).",
+          "image": {
+            "src": "/data/assets/images/1977c7765a28.jpg",
+            "alt": "Object Number: 2418964  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 61,
+          "text": "Fuel cutoff switch (1) to rear sub–frame – 2 screws",
+          "image": {
+            "src": "/data/assets/images/f1b0e5e8c814.jpg",
+            "alt": "Object Number: 2418963  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 62,
+          "text": "Retaining ring (arrowed) to both drive shafts.",
+          "image": {
+            "src": "/data/assets/images/f1b0e5e8c814.jpg",
+            "alt": "Object Number: 2418963  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 63,
+          "text": "Blanking plugs from drive shaft apertures.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 19,
+          "text": "Left suspension assembly – 3 screws (arrowed).",
+          "image": {
+            "src": "/data/assets/images/d44f21758712.jpg",
+            "alt": "Object Number: 2418959  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 20,
+          "text": "Important: Collect and dispose of escaping transmission fluid.",
+          "image": null
+        },
+        {
+          "number": 21,
+          "text": "Blanking plug into left drive shaft aperture.",
+          "image": null
+        },
+        {
+          "number": 22,
+          "text": "Right suspension assembly – 3 screws (arrowed).",
+          "image": {
+            "src": "/data/assets/images/647f6c5babfe.jpg",
+            "alt": "Object Number: 2418960  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 23,
+          "text": "Important: Collect and dispose of escaping transmission fluid.",
+          "image": null
+        },
+        {
+          "number": 24,
+          "text": "Blanking plug into right drive shaft aperture.",
+          "image": null
+        },
+        {
+          "number": 39,
+          "text": "Rear sub–frame (1) loosely to support arms (2) – 1 screw (arrowed) on each side.",
+          "image": {
+            "src": "/data/assets/images/769f57b44e2d.jpg",
+            "alt": "Object Number: 2419008  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 40,
+          "text": "2 extra technicians required to install rear sub–frame.",
+          "image": null
+        },
+        {
+          "number": 41,
+          "text": "Upper screws (1 and 2) loosely into rear sub–frame.",
+          "image": {
+            "src": "/data/assets/images/34aa84e04101.jpg",
+            "alt": "Object Number: 2419009  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 42,
+          "text": "Lower screws (3 and 4) loosely into rear sub–frame.",
+          "image": null
+        },
+        {
+          "number": 43,
+          "text": "Important: Use new self–locking nuts.",
+          "image": null
+        },
+        {
+          "number": 44,
+          "text": "Torque",
+          "image": null
+        },
+        {
+          "number": 45,
+          "text": "Rear sub–frame upper screws (1 and 2)– 45 Nm .",
+          "image": null
+        },
+        {
+          "number": 46,
+          "text": "Rear sub–frame lower screws (3 and 4)– 45 Nm .",
+          "image": null
+        },
+        {
+          "number": 47,
+          "text": "Support arms of roll bar to rear sub–frame – tighten 1 screw (arrowed) on each side 45 Nm .",
+          "image": {
+            "src": "/data/assets/images/3816c100d0a8.jpg",
+            "alt": "Object Number: 2418968  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 48,
+          "text": "Left engine damping block (2), 1 nut 45 Nm .",
+          "image": {
+            "src": "/data/assets/images/94add65c2146.jpg",
+            "alt": "Object Number: 2418965  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 49,
+          "text": "Left bracket (3) –3 screws 45 Nm , 1 nut.",
+          "image": null,
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 50,
+          "text": "Right engine damping block (5), –1 nut 45 Nm .",
+          "image": null,
+          "callouts": [
+            "5"
+          ]
+        },
+        {
+          "number": 51,
+          "text": "Right bracket (4) –3 screws 85 Nm , 1 nut.",
+          "image": null,
+          "callouts": [
+            "4"
+          ]
+        },
+        {
+          "number": 52,
+          "text": "Air filter bracket (1) – 2 screws, 1 nut.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 53,
+          "text": "Important:",
+          "image": null
+        },
+        {
+          "number": 54,
+          "text": "Use new self–locking nuts.",
+          "image": null
+        },
+        {
+          "number": 55,
+          "text": "Carefully check installation position of engine damping blocks.",
+          "image": null
+        },
+        {
+          "number": 56,
+          "text": "Rear engine damping block (1) – 4 screws.",
+          "image": {
+            "src": "/data/assets/images/c4e811a6e93a.jpg",
+            "alt": "Object Number: 2418962  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 57,
+          "text": "Torque",
+          "image": null
+        },
+        {
+          "number": 58,
+          "text": "Screw, rear engine damping block to transmission – 86 Nm .",
+          "image": null
+        },
+        {
+          "number": 59,
+          "text": "Screw, rear engine damping block to rear sub–frame – 49 Nm .",
+          "image": null
+        },
+        {
+          "number": 64,
+          "text": "Right drive shaft into transmission.",
+          "image": {
+            "src": "/data/assets/images/3b8fe73d0c82.jpg",
+            "alt": "Object Number: 2418961  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 65,
+          "text": "Right upper wishbone and shock absorber – 3 screws (arrowed); ensure screw of correct length 55 mm (measured from screw base to screw head) is installed in upper wishbone.",
+          "image": null
+        },
+        {
+          "number": 66,
+          "text": "Important: Use new self–locking nuts.",
+          "image": null
+        },
+        {
+          "number": 67,
+          "text": "Torque",
+          "image": null
+        },
+        {
+          "number": 68,
+          "text": "Screw, shock absorber to rear sub–frame – 45 Nm .",
+          "image": null
+        },
+        {
+          "number": 69,
+          "text": "Screw, upper wishbone to rear sub–frame – 45 Nm .",
+          "image": null
+        },
+        {
+          "number": 70,
+          "text": "Left drive shaft into transmission.",
+          "image": {
+            "src": "/data/assets/images/647f6c5babfe.jpg",
+            "alt": "Object Number: 2418960  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 71,
+          "text": "Left upper wishbone and shock absorber – 3 screws (arrowed); ensure screw of correct length 55 mm (measured from screw base to screw head) is installed in upper wishbone.",
+          "image": null
+        },
+        {
+          "number": 72,
+          "text": "Important: Use new self–locking nuts.",
+          "image": null
+        },
+        {
+          "number": 73,
+          "text": "Torque",
+          "image": null
+        },
+        {
+          "number": 74,
+          "text": "Screw, shock absorber to rear sub–frame – 45 Nm .",
+          "image": null
+        },
+        {
+          "number": 75,
+          "text": "Screw, upper wishbone to rear sub–frame – 45 Nm .",
+          "image": null
+        },
+        {
+          "number": 76,
+          "text": "Brake hoses and lines (arrowed) to mounting on each side.",
+          "image": {
+            "src": "/data/assets/images/8e3e2c41ca1c.jpg",
+            "alt": "Object Number: 2418957  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 77,
+          "text": "Wiring harnesses of both rear wheel speed sensors – 1 wiring harness plug (arrowed) and 2 cable ties on each side.",
+          "image": {
+            "src": "/data/assets/images/282104fd0d6b.jpg",
+            "alt": "Object Number: 2418951  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 78,
+          "text": "Parking brake cable (1) to lever (2) – attach to both sides.",
+          "image": {
+            "src": "/data/assets/images/0d8c2446e07f.jpg",
+            "alt": "Object Number: 2418956  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 79,
+          "text": "Parking brake cables (3) to lower wishbone (4) – one bracket (5) on each side.",
+          "image": null,
+          "callouts": [
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "number": 80,
+          "text": "Important: End of track control arm locates into chassis. Ensure correct type of locking nut is used. Early type have coarse thread, later type have fine thread.",
+          "image": {
+            "src": "/data/assets/images/d44f21758712.jpg",
+            "alt": "Object Number: 2418959  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 81,
+          "text": "Left lower wishbone (1) – 1 screw 45 Nm and 1 nut (arrow) 49 Nm ; ensure screw of correct length, 65 mm (measured from screw base to screw head) is installed.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 82,
+          "text": "Right lower wishbone (1) – 1 screw 45 Nm and 1 nut (arrow) 49 Nm ; ensure screw of correct length, 65 mm (measured from screw base to screw head) is installed.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 83,
+          "text": "Important: Use new self–locking nuts.",
+          "image": null
+        },
+        {
+          "number": 84,
+          "text": "Parking brake cable (1) to compensator (2) – 1 pin (3), 1 locking pin (4) – to mount parking brake cable on compensator a second technician must first tighten levers of both rear brake calipers.",
+          "image": {
+            "src": "/data/assets/images/fe01b4b9c374.jpg",
+            "alt": "Object Number: 2418955  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        {
+          "number": 85,
+          "text": "Cover (1) – 1 screw.",
+          "image": {
+            "src": "/data/assets/images/c9519e878aa4.jpg",
+            "alt": "Object Number: 2418958  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 86,
+          "text": "Exhaust system – 3 mountings (arrowed).",
+          "image": {
+            "src": "/data/assets/images/968192dca94b.jpg",
+            "alt": "Object Number: 2418954  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 87,
+          "text": "Front exhaust pipe (2) to exhaust manifold (1) – 3 nuts.",
+          "image": {
+            "src": "/data/assets/images/9ee3154f85cc.jpg",
+            "alt": "Object Number: 2418952  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 88,
+          "text": "Important: Use new nuts.",
+          "image": null
+        },
+        {
+          "number": 89,
+          "text": "Left exhaust pipe mounting (arrowed) – 1 screw.",
+          "image": {
+            "src": "/data/assets/images/7bf5a8628abd.jpg",
+            "alt": "Object Number: 2418953  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 90,
+          "text": "Wiring harness to both oxygen sensors – cable ties.",
+          "image": {
+            "src": "/data/assets/images/0d0ebbcf6698.jpg",
+            "alt": "Object Number: 2418950  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 91,
+          "text": "Wiring harness plugs of oxygen sensors – 2 wiring harness plugs (arrowed).",
+          "image": null
+        },
+        {
+          "number": 92,
+          "text": "Bleed air from braking system – see operation \"Brake System, Bleed\" in group H.",
+          "image": {
+            "src": "/data/assets/images/0d0ebbcf6698.jpg",
+            "alt": "Object Number: 2418950  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 93,
+          "text": "Braking system for leaks.",
+          "image": null
+        },
+        {
+          "number": 94,
+          "text": "Transmission oil level.",
+          "image": null
+        },
+        {
+          "number": 95,
+          "text": "Rear clamshell – see operation \"Rear Clamshell, Remove and Install\".",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Rear sub–frame upper screws (1 and 2)– 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 45
+    },
+    {
+      "component": "Right bracket (4) –3 screws 85 Nm , 1 nut.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 51
+    },
+    {
+      "component": "Screw, rear engine damping block to transmission – 86 Nm .",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": 58
+    },
+    {
+      "component": "Screw, rear engine damping block to rear sub–frame – 49 Nm .",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 59
+    },
+    {
+      "component": "Rear sub–frame lower screws (3 and 4)– 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Left lower wishbone (1) – 1 screw 45 Nm and 1 nut (arrow) 49 Nm ; ensure screw of correct length, 65 mm (measured from screw base to screw head) is installed.",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

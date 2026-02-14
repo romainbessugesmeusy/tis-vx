@@ -1,0 +1,7 @@
+{
+  "type": "generic",
+  "id": "step-e-final-operations-AQS315",
+  "title": "Step E - Final Operations",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Step E - Final Operations</p>\n\n<p class=\"topic\">E1 - Assemble vehicle</p>\n\n<ul type=\"disc\">\n<li>If possible, perform step E2 before assembling the\npanelling.</li>\n\n<li>Secure wiring harnesses at original location with original\nparts, e.g. corrugated tube, wiring trough brackets, cable ties,\nclips, etc.</li>\n\n<li>Re-attach panelling and attaching parts.</li>\n</ul>\n\n<p class=\"topic\">E2 - Perform function check</p>\n\n<ul type=\"disc\">\n<li>Connect battery.</li>\n\n<li>Perform function check. This ensures that the wiring harness\nrepair has been performed successfully.</li>\n</ul>\n\n<p class=\"topic\">E3 - Program volatile memories</p>\n\n<ul type=\"disc\">\n<li>After completing all operations, reprogram volatile memories\nand clear audio equipment using code.</li>\n</ul>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "extractedData": {}
+}

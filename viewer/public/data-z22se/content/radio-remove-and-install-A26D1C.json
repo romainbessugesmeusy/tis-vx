@@ -1,0 +1,47 @@
+{
+  "type": "procedure",
+  "id": "radio-remove-and-install-A26D1C",
+  "title": "Radio, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Four screws (arrowed) from radio.",
+          "image": {
+            "src": "/data/assets/images/a0d3e51378ca.jpg",
+            "alt": "Object Number: 2429843  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Radio – insert removal bars into holes until they engage, then push both removal bars outwards and withdraw radio simultaneously from installation frame.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Radio – push radio in until it engages in installation fame.",
+          "image": {
+            "src": "/data/assets/images/a0d3e51378ca.jpg",
+            "alt": "Object Number: 2429843  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Four screws to radio.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

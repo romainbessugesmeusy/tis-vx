@@ -1,0 +1,23 @@
+{
+  "type": "harness_diagram",
+  "id": "passenger-compartment-steering-wheel-left-hand-drive-AQS315",
+  "title": "Passenger compartment - Steering wheel",
+  "diagram": {
+    "src": "/data/assets/converted/07390f9a2ca7.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "R1",
+      "description": "Squib - Airbag, driver"
+    },
+    {
+      "code": "S24",
+      "description": "Switch - Trumpet horn"
+    },
+    {
+      "code": "X19",
+      "description": "Contact unit & Switch - Trumpet horn"
+    }
+  ]
+}

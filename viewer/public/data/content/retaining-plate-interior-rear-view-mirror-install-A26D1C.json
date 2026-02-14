@@ -1,0 +1,94 @@
+{
+  "type": "procedure",
+  "id": "retaining-plate-interior-rear-view-mirror-install-A26D1C",
+  "title": "Retaining Plate, Interior Rear-view Mirror,\nInstall",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove retaining plate from interior rear-view mirror",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Clean adhesive area of windscreen",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use glass cleaner"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Lightly sand down sealing surface of retaining plate",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use only grain P100"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Clean sealing surface of retaining plate",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 5,
+          "text": "Install interior rear-view mirror to windscreen",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Measure a distance of 95 mm down"
+            },
+            {
+              "bullet": "•",
+              "text": "Measure a distance of 80 mm"
+            },
+            {
+              "bullet": "•",
+              "text": "Use special adhesive"
+            },
+            {
+              "bullet": "•",
+              "text": "Install screw",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Install screw\n Note:   Position of\nretaining plate for interior rear-view mirror on windscreen is\ndependant on left or right drive vehicle"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a546575e77f1.jpg",
+            "alt": "Object Number: 2419912  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Install screw\n Position of\nretaining plate for interior rear-view mirror on windscreen is\ndependant on left or right drive vehicle"
+  ]
+}

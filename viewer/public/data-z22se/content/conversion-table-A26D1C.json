@@ -1,0 +1,103 @@
+{
+  "type": "glossary",
+  "subtype": "conversions",
+  "id": "conversion-table-A26D1C",
+  "title": "Conversion Table",
+  "items": [
+    {
+      "from": "PS",
+      "to": "kW",
+      "factor": "0.735"
+    },
+    {
+      "from": "kW",
+      "to": "PS",
+      "factor": "1.36"
+    },
+    {
+      "from": "kpm",
+      "to": "Nm",
+      "factor": "9.81"
+    },
+    {
+      "from": "Nm",
+      "to": "kpm",
+      "factor": "0.102"
+    },
+    {
+      "from": "bar",
+      "to": "kPa",
+      "factor": "100"
+    },
+    {
+      "from": "kPa",
+      "to": "bar",
+      "factor": "0.01"
+    },
+    {
+      "from": "mm",
+      "to": "in. (inches)",
+      "factor": "0.03937"
+    },
+    {
+      "from": "cm 3",
+      "to": "cu. in.",
+      "factor": "0.061"
+    },
+    {
+      "from": "m",
+      "to": "yd. (yards)",
+      "factor": "1.0936"
+    },
+    {
+      "from": "km",
+      "to": "miles",
+      "factor": "0.6214"
+    },
+    {
+      "from": "m",
+      "to": "feet",
+      "factor": "3.28"
+    },
+    {
+      "from": "kp",
+      "to": "lbs.",
+      "factor": "2.2046"
+    },
+    {
+      "from": "Nm",
+      "to": "lbf. ft.",
+      "factor": "0.737"
+    },
+    {
+      "from": "l",
+      "to": "pts. (Imperial)",
+      "factor": "1.7598"
+    },
+    {
+      "from": "l",
+      "to": "pts. (US)",
+      "factor": "2.1134"
+    },
+    {
+      "from": "l",
+      "to": "gal. (Imperial)",
+      "factor": "0.220"
+    },
+    {
+      "from": "l",
+      "to": "gal. (US)",
+      "factor": "0.2642"
+    },
+    {
+      "from": "°C",
+      "to": "°F (Fahrenheit)",
+      "factor": "1.8 x t C  + 32"
+    },
+    {
+      "from": "kPa (pressure)",
+      "to": "psi",
+      "factor": "0.142"
+    }
+  ]
+}

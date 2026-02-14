@@ -1,0 +1,7 @@
+{
+  "type": "generic",
+  "id": "trim-height-rear-suspension-adjust-AQS315",
+  "title": "Trim Height, Rear Suspension, Adjust",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Trim Height, Rear Suspension, Adjust</p>\n\n<p class=\"para-before-table\">Adjustment of the trim height is not\npossible. Trim height, for purposes of checking geometry and making\nadjustments of wheel alignment and camber, must be as follows:</p>\n\n<table cellspacing=\"0\" cellpadding=\"2\" class=\"border-none\">\n<colgroup>\n<col width=\"8%\">\n<col width=\"92%\"></colgroup>\n\n<tr valign=\"top\">\n<td class=\"border-none\" align=\"left\" valign=\"top\">\n<p>Front</p>\n</td>\n<td class=\"border-none\" align=\"left\" valign=\"top\">\n<p>140 mm below front end of chassis side rail.</p>\n</td>\n</tr>\n\n<tr valign=\"top\">\n<td class=\"border-none\" align=\"left\" valign=\"top\">\n<p>Rear</p>\n</td>\n<td class=\"border-none\" align=\"left\" valign=\"top\">\n<p>140 mm below rear end of chassis side rail.</p>\n</td>\n</tr>\n</table>\n\n<br>\n \n\n<p>These measurements approximate to a load consisting of driver,\npassenger and half a tank of fuel.</p>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "extractedData": {}
+}

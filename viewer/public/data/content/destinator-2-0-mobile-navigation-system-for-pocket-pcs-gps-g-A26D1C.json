@@ -1,0 +1,16 @@
+{
+  "type": "tsb",
+  "id": "destinator-2-0-mobile-navigation-system-for-pocket-pcs-gps-g-A26D1C",
+  "title": "Field Remedy: 1635",
+  "subject": "Destinator 2.0 - Mobile navigation system\nfor pocket PCs - GPS (Global Positioning System) inoperative",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "N - Electrical Equipment",
+    "complaintGroup": "13 - No/Poor Function",
+    "troubleCode": "None"
+  },
+  "complaint": "GPS without function.",
+  "cause": "Vehicle is equipped with Solar Reflect\nWindscreen (heat reflective).",
+  "production": ""
+}

@@ -1,0 +1,204 @@
+{
+  "type": "procedure",
+  "id": "engine-vent-flange-replace-z20-let-AQS315",
+  "title": "Engine Vent Flange, Replace (Z20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Disconnect air intake hose (1) from mass air flow meter (2) and turbocharger (3)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Move air intake hose to one side"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9d635555b6f8.jpg",
+            "alt": "Object Number: 2422474  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Remove support bracket (1) with engine lifting eye from cylinder head",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/4df93314a412.jpg",
+            "alt": "Object Number: 2422475  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Remove engine vent hose (1) from cylinder head cover and engine vent flange",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x clip (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/47fa12184aff.jpg",
+            "alt": "Object Number: 2422995  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Remove heat shield (1) from support bracket (2) on cylinder head",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x bolt, 4x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/4b4332895be0.jpg",
+            "alt": "Object Number: 2422476  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Remove engine vent flange (1) from engine cylinder block",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove, then discard gasket"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9d0b8603d776.jpg",
+            "alt": "Object Number: 2422996  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 6,
+          "text": "Install new engine vent flange to engine cylinder block",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Clean mating surfaces"
+            },
+            {
+              "bullet": "•",
+              "text": "Use new gasket"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt 25 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3f97795ba3bb.jpg",
+            "alt": "Object Number: 2422997  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Install heat shield to support bracket on cylinder head",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt, 4x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Install engine vent hose to cylinder head cover and engine vent flange",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Push on"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install support bracket with engine lifting eye to cylinder head",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Apply locking compound"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Connect air intake hose to mass air flow meter and turbocharger",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x clip"
+            }
+          ],
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install new engine vent flange to engine cylinder block",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Install 2x bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Use new gasket\n When installing\nnew gasket (1), raised side of channel (2) must face upwards."
+  ]
+}

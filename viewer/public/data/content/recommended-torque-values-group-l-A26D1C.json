@@ -1,0 +1,28 @@
+{
+  "type": "torque_table",
+  "id": "recommended-torque-values-group-l-A26D1C",
+  "title": "Recommended Torque Values – Group L",
+  "group": "L",
+  "values": [
+    {
+      "component": "Fuel filter to bulkhead, bolt",
+      "value": "9",
+      "unit": "Nm"
+    },
+    {
+      "component": "Fuel line clips to bulkhead, bolts",
+      "value": "9",
+      "unit": "Nm"
+    },
+    {
+      "component": "Fuel tank to vehicle, bolts",
+      "value": "25",
+      "unit": "Nm"
+    },
+    {
+      "component": "Fuel tank shear panel, bolts",
+      "value": "25",
+      "unit": "Nm"
+    }
+  ]
+}

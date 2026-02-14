@@ -1,0 +1,26 @@
+{
+  "type": "tsb",
+  "id": "engine-z20le-t-l-r-h-whistling-noise-during-deceleration-AQS315",
+  "title": "Field Remedy: 2131",
+  "subject": "Engine Z20LE/T/L/R/H, Z16LE/T/L/R -\nWhistling noise during deceleration",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "14 - Noises or Vibrations",
+    "troubleCode": "None"
+  },
+  "complaint": "Whistling noise during deceleration.",
+  "cause": "Delayed function of the bypass valve of the\nturbo charger due to: - wrong mounted vacuum tank from previous\nrepairs - vacuum tank (below intake manifold): check valve defect,\ndecrease of vacuum - vacuum pipes (polyamid pipe and hoses)\nleaky/defect - switching valve (mounted beside tank) defect -\ncompressor bypass valve defect",
+  "production": "",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "In case of customer complaint check vacuum tank and lines for correct \nmounting. The mark \"TOP\" on the vacuum tank shows in this application \ndownwards. The correct mounting position is important because of the \ncheck valve inside the vacuum tank. It is possible to check all valves \nand vacuum pipes with a Kent Moore hand pump. If vacuucm doesn´t \ndecrease the tested component is OK."
+    },
+    {
+      "type": "paragraph",
+      "text": "Note: In case of complaint refer also to Quick Information\n2259."
+    }
+  ]
+}

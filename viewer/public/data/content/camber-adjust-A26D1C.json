@@ -1,0 +1,54 @@
+{
+  "type": "procedure",
+  "id": "camber-adjust-A26D1C",
+  "title": "Camber, Adjust",
+  "phases": [
+    {
+      "phase": "measure",
+      "label": "Measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Camber angle (negative) is controlled by shims positioned between the steering arm and hub carrier. Shims are available in 1 mm and 3 mm thicknesses.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Camber using optical alignment measuring equipment. For dimensions refer to “Technical Data”",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "adjust",
+      "label": "Adjust",
+      "icon": "/data/assets/images/8bcc88ed08ca.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Camber angle - to decrease negative camber towards zero, add shims. To increase negative camber away from zero, remove shims - 1 mm shim will alter camber by approximately 0.25° .",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Torque",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Steering arm to hub carrier bolts - 45 Nm .",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Steering arm to hub carrier bolts - 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 5
+    }
+  ]
+}

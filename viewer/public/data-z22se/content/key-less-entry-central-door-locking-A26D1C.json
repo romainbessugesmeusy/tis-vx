@@ -1,0 +1,39 @@
+{
+  "type": "harness_diagram",
+  "id": "key-less-entry-central-door-locking-A26D1C",
+  "title": "Key-less entry, central door locking",
+  "diagram": {
+    "src": "/data/assets/d3e8a2fe7aed.cgm",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "A12",
+      "description": "Control unit - Central locking"
+    },
+    {
+      "code": "M3",
+      "description": "Motor - Central locking, front passenger door"
+    },
+    {
+      "code": "A13",
+      "description": "Control unit - Anti-theft warning system"
+    },
+    {
+      "code": "S87",
+      "description": "Switch - Central locking (instrument)"
+    },
+    {
+      "code": "B121",
+      "description": "Sensor - Anti-theft warning unit, passenger compartment"
+    },
+    {
+      "code": "S94",
+      "description": "Impact switch - Fuel cut-off"
+    },
+    {
+      "code": "M2",
+      "description": "Motor - Central locking, driver door"
+    }
+  ]
+}

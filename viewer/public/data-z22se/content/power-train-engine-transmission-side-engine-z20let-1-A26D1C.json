@@ -1,0 +1,31 @@
+{
+  "type": "harness_diagram",
+  "id": "power-train-engine-transmission-side-engine-z20let-1-A26D1C",
+  "title": "Power train - Engine, transmission side",
+  "diagram": {
+    "src": "/data/assets/dd5a95bdccaf.cgm",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "B30",
+      "description": "Sensor - Knock control 1"
+    },
+    {
+      "code": "C1",
+      "description": "Condensor - Ignition coil"
+    },
+    {
+      "code": "B61",
+      "description": "Sensor - Coolant temperature (gauge)"
+    },
+    {
+      "code": "T1",
+      "description": "Ignition coil - Direct ignition"
+    },
+    {
+      "code": "B117",
+      "description": "Sensor - Oxygen, mixture control, heated"
+    }
+  ]
+}

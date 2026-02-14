@@ -1,0 +1,63 @@
+{
+  "type": "harness_diagram",
+  "id": "anti-lock-brake-system-A26D1C",
+  "title": "Anti-Lock Brake System",
+  "diagram": {
+    "src": "/data/assets/9ca94c21ed86.cgm",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "A2",
+      "description": "Control unit - Anti-Lock Brake System"
+    },
+    {
+      "code": "B27",
+      "description": "Sensor - Wheel speed, rear, left"
+    },
+    {
+      "code": "A4",
+      "description": "Control unit - Multec"
+    },
+    {
+      "code": "B28",
+      "description": "Sensor - Wheel speed, rear, right"
+    },
+    {
+      "code": "A5",
+      "description": "Control unit - Motronic"
+    },
+    {
+      "code": "H1.5",
+      "description": "Telltale - Anti-Lock Brake System"
+    },
+    {
+      "code": "A14",
+      "description": "Radio"
+    },
+    {
+      "code": "H1.25",
+      "description": "Speedometer - Electronic"
+    },
+    {
+      "code": "B25",
+      "description": "Sensor - Wheel speed, front, left"
+    },
+    {
+      "code": "S29",
+      "description": "Switch - Stop lamp, single"
+    },
+    {
+      "code": "B26",
+      "description": "Sensor - Wheel speed, front, right"
+    },
+    {
+      "code": "S43",
+      "description": "Switch - Stop lamp, double"
+    },
+    {
+      "code": "X13",
+      "description": "Diagnostic link"
+    }
+  ]
+}

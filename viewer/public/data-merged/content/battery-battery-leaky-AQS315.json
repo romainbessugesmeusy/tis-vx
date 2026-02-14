@@ -1,0 +1,22 @@
+{
+  "type": "tsb",
+  "id": "battery-battery-leaky-AQS315",
+  "title": "Field Remedy: 2133",
+  "subject": "Battery - Battery leaky",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "N - Electrical Equipment",
+    "complaintGroup": "04 - Electrical failures,10 - Leakages",
+    "troubleCode": "None"
+  },
+  "complaint": "Battery leaky.",
+  "cause": "Crack in battery housing etc.",
+  "production": "",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "In case of customer complaint remove both pole terminals from the battery. Clean and check the battery around the pole areas carefully for damage and leakage. In case any crack or other form of leakage is detected battery has to be replaced. \nCheck pole area with indicator paper partnumber: 93173878 / cataloguenumber: 90 97 522 if it shows acid dealer must change the battery, the indicator paper shows no acid dealer must only clean and grease the poles."
+    }
+  ]
+}

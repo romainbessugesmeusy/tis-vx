@@ -1,0 +1,60 @@
+{
+  "type": "tsb",
+  "id": "electric-windows-malfunction-A26D1C",
+  "title": "Field Remedy: 2275",
+  "subject": "Electric windows - Malfunction",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "C - Equipment/Windows",
+    "complaintGroup": "04 - Electrical failures,13 - No/Poor\nFunction",
+    "troubleCode": "None"
+  },
+  "complaint": "I. Automatic opening and closing function of\nthe windows not possible (power supply was cut off). II. Windows\nopen above the middle position.",
+  "cause": "I. Window electronic not activated. II.\nWindow encounters resistance (e.g. ice).",
+  "production": "",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "Note: \nBefore changing any parts follow the instruction below."
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Close doors, ignition on.",
+        "Close window completely and hold 'close'- button for 5 seconds."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Note for Antara only: \nDo NOT!! fully pull the button into end position, \nhold it for 5 seconds in half way position."
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Open window completely do not interrupt.",
+        "Repeat for each window."
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Try to close window 3 times, next closing attempt",
+        "the window should close.",
+        "If not, close the window in stages by intermittent",
+        "pressing the button and hold 'close'- button for further 5 seconds."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Note for Antara only: \nDo NOT!! fully pull the button into end position, \nhold it for 5 seconds in half way position."
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "If efforts were unsuccessful interrupt power supply",
+        "(pull window lifter fuse for a second) and repeat the procedure."
+      ]
+    }
+  ]
+}

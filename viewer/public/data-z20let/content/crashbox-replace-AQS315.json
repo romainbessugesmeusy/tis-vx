@@ -1,0 +1,314 @@
+{
+  "type": "procedure",
+  "id": "crashbox-replace-AQS315",
+  "title": "Crashbox, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove radiator. Note: Includes detaching front clamshell.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "see operation \"Radiator, Remove and Install\" in group J"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Detach left radiator hose (I) from coolant pipe",
+          "image": {
+            "src": "/data/assets/images/e75c9ffd81e2.jpg",
+            "alt": "Object Number: 2412539  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Detach right radiator hose (II) from coolant pipe",
+          "image": {
+            "src": "/data/assets/images/e75c9ffd81e2.jpg",
+            "alt": "Object Number: 2412539  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Remove towing device",
+          "image": {
+            "src": "/data/assets/images/9175726942c9.jpg",
+            "alt": "Object Number: 2412536  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Drill out rivets (1) from left and right gussets",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove gussets"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9110b7afbfed.jpg",
+            "alt": "Object Number: 2412540  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Detach threaded clamps from crashbox",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "10x"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Cut off flange from crashbox at top (I)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "using a pneumatic saw"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2dcba081cdac.jpg",
+            "alt": "Object Number: 2412541  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Make cut in side of crashbox on left",
+          "image": {
+            "src": "/data/assets/images/2dcba081cdac.jpg",
+            "alt": "Object Number: 2412541  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Make cut in side of crashbox on right",
+          "image": {
+            "src": "/data/assets/images/2dcba081cdac.jpg",
+            "alt": "Object Number: 2412541  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Roughly cut out crashbox",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "using a pneumatic saw"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2dcba081cdac.jpg",
+            "alt": "Object Number: 2412541  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 11,
+          "text": "Cut off flange from crashbox at bottom (II)",
+          "image": {
+            "src": "/data/assets/images/2dcba081cdac.jpg",
+            "alt": "Object Number: 2412541  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 12,
+          "text": "Cut off residues (I)",
+          "image": {
+            "src": "/data/assets/images/b3b99e0543b3.jpg",
+            "alt": "Object Number: 2412543  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 13,
+          "text": "Trim down adhesive beads (II)",
+          "image": {
+            "src": "/data/assets/images/b3b99e0543b3.jpg",
+            "alt": "Object Number: 2412543  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 14,
+          "text": "Clean crashbox",
+          "image": {
+            "src": "/data/assets/images/b3b99e0543b3.jpg",
+            "alt": "Object Number: 2412543  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 15,
+          "text": "Clean adhesive points on vehicle (III)",
+          "image": {
+            "src": "/data/assets/images/b3b99e0543b3.jpg",
+            "alt": "Object Number: 2412543  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 16,
+          "text": "Apply primer to crashbox",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Shake primer for 1 minute"
+            },
+            {
+              "bullet": "•",
+              "text": "15 minutes drying time"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b3b99e0543b3.jpg",
+            "alt": "Object Number: 2412543  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 17,
+          "text": "Using primer, make good the adhesive points on the vehicle",
+          "image": {
+            "src": "/data/assets/images/b3b99e0543b3.jpg",
+            "alt": "Object Number: 2412543  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 18,
+          "text": "Apply adhesive to crashbox (IV)",
+          "image": {
+            "src": "/data/assets/images/b3b99e0543b3.jpg",
+            "alt": "Object Number: 2412543  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 19,
+          "text": "Place crashbox in position",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Align crashbox"
+            },
+            {
+              "bullet": "•",
+              "text": "fix in place with strap pliers and tensioning strap"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6a026deeefdf.jpg",
+            "alt": "Object Number: 2412544  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 20,
+          "text": "Remove strap pliers",
+          "image": null
+        },
+        {
+          "number": 21,
+          "text": "Rivet on right gusset",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Drill 2 holes"
+            },
+            {
+              "bullet": "•",
+              "text": "3 rivets"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 22,
+          "text": "Rivet on left gusset",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Drill 2 holes"
+            },
+            {
+              "bullet": "•",
+              "text": "3 rivets"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 23,
+          "text": "Fit threaded clamps",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "12x"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 24,
+          "text": "Install towing device",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Coat screws with locking compound"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 25,
+          "text": "Apply primer to crashbox",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "to coolant pipe"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 26,
+          "text": "Fit right radiator hose",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "to coolant pipe"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 27,
+          "text": "Install radiator",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "see operation \"Radiator, Remove and Install\" in group J"
+            }
+          ],
+          "image": null
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Remove radiator.\n Includes\ndetaching front clamshell.\n \n\n\n\n•  \nsee operation \"Radiator, Remove and Install\" in group J",
+    "fix in place with strap pliers and tensioning strap\n 2. Second\ntechnician required, follow instructions regarding adhesive drying\ntime"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "tsb",
+  "id": "battery-cable-at-terminal-loose-A26D1C",
+  "title": "Field Remedy: 1507",
+  "subject": "Battery - Cable at terminal loose",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "J - Engine,N - Electrical Equipment",
+    "complaintGroup": "04 - Electrical failures,21 - Poor\nStartability,24 - Wrong or not mounted",
+    "troubleCode": "None"
+  },
+  "complaint": "Engine start problem.",
+  "cause": "Disconnected Battery cable after storage not\ntightened correctly.",
+  "production": "",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "Check the battery terminals for correct tightening during PDI.\nThis operation is included in PDI since MY 2001,5."
+    }
+  ]
+}

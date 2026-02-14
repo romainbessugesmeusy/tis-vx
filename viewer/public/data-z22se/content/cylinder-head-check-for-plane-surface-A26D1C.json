@@ -1,0 +1,47 @@
+{
+  "type": "procedure",
+  "id": "cylinder-head-check-for-plane-surface-A26D1C",
+  "title": "Cylinder head, check for plane surface",
+  "phases": [
+    {
+      "phase": "inspect",
+      "label": "Inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Special service tool required:",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Straightedge",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Caution",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Remove gasket residue and clean sealing surfaces. No sharp-edged tools may be used when cleaning. Ensure that the cylinder head sealing surface is not damaged.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Note: For diesel engines the glow plugs and if necessary the swirl chambers must be removed.",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Using a straightedge, check the cylinder head for flexion lengthways and widthways and for distortion in the diagonal.",
+          "image": {
+            "src": "/data/assets/images/7319d3831369.jpg",
+            "alt": "Object Number: 10680473  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "procedure",
+  "id": "control-knobs-replace-AQS315",
+  "title": "Control Knobs, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Control knob (1, 2 or 3) from control unit – pull off.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Control knob (1, 2 or 3) to control unit – push on.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

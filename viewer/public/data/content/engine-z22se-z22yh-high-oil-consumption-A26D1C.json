@@ -1,0 +1,34 @@
+{
+  "type": "tsb",
+  "id": "engine-z22se-z22yh-high-oil-consumption-A26D1C",
+  "title": "Field Remedy: 1713",
+  "subject": "Engine Z22SE, Z22YH - High oil\nconsumption",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "09 - High Consumption",
+    "troubleCode": "None"
+  },
+  "complaint": "High oil consumption.",
+  "cause": "Tangential force of piston rings at lower\nlimit or out of specification.",
+  "production": "Piston rings with correct tangential force\nhave been introduced as of the following engine no's: Z22YH:\nEngine-no. 11301385 (09.12.2003) Z22SE: Engine-no. 11307049\n(08.01.2004)",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "In case of complaint, carry out oil measuring procedure according TIS 2000\nfirst (document 00030907).\nOnly if oil consumption exceeds the specification replace piston rings on\ncomplaint engines."
+    }
+  ],
+  "parts": [
+    {
+      "name": "Piston ring set, Z22SE",
+      "partNumber": "9194704",
+      "catalogueNumber": "06 30 569"
+    },
+    {
+      "name": "Piston ring set, Z22YH",
+      "partNumber": "93174528",
+      "catalogueNumber": "06 30 122"
+    }
+  ]
+}

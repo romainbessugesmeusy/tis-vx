@@ -1,0 +1,1196 @@
+{
+  "type": "procedure",
+  "id": "transmission-seal-completely-A26D1C",
+  "title": "Transmission, Seal Completely",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Illustration of transmission (part 1)",
+          "image": {
+            "src": "/data/assets/images/b3af1c34dda8.jpg",
+            "alt": "Object Number: 2415594  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Illustration of transmission (part 2)",
+          "image": {
+            "src": "/data/assets/images/0f068a5d5681.jpg",
+            "alt": "Object Number: 2419869  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Illustration of transmission (part 3)",
+          "image": {
+            "src": "/data/assets/images/103e7684ac80.jpg",
+            "alt": "Object Number: 2419870  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Remove transmission from vehicle — see operation “Transmission, Remove and Install”",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Install KM-6115 (1) to transmission (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt (arrowed)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d34e5c901953.jpg",
+            "alt": "Object Number: 2415562  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Attach transmission and KM-6115 (3) to KM-113-2 (4)",
+          "image": {
+            "src": "/data/assets/images/d34e5c901953.jpg",
+            "alt": "Object Number: 2415562  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "4"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Remove pressure line (1) from central release (2)",
+          "image": {
+            "src": "/data/assets/images/8c32ed6a0cad.jpg",
+            "alt": "Object Number: 2415560  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Disassemble pressure line from fastening sleeve (3) and remove Note: Carefully release 2x lug (4) with screwdriver by prising outwards",
+          "image": {
+            "src": "/data/assets/images/8c32ed6a0cad.jpg",
+            "alt": "Object Number: 2415560  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "4"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Remove fastening sleeve from transmission",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Disassemble central release (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2a8fa9d1ad04.jpg",
+            "alt": "Object Number: 2415561  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "In centre of intermediate shaft cover (3), drive a hole (6), using suitable drift (2), then screw in KM-6101 (5) in conjunction with KM-328-B (4) with intermediate shaft cover",
+          "image": {
+            "src": "/data/assets/images/2a8fa9d1ad04.jpg",
+            "alt": "Object Number: 2415561  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "6",
+            "2",
+            "5",
+            "4"
+          ]
+        },
+        {
+          "number": 12,
+          "text": "Remove intermediate shaft cover from transmission",
+          "image": {
+            "src": "/data/assets/images/2a8fa9d1ad04.jpg",
+            "alt": "Object Number: 2415561  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 13,
+          "text": "Remove fluid spout from transmission",
+          "image": {
+            "src": "/data/assets/images/2a8fa9d1ad04.jpg",
+            "alt": "Object Number: 2415561  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 14,
+          "text": "Engage gear at shift mechanism assembly",
+          "image": {
+            "src": "/data/assets/images/9d4054a538d8.jpg",
+            "alt": "Object Number: 2415563  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 15,
+          "text": "Lock drive shaft (2) with KM-6117 (1)",
+          "image": {
+            "src": "/data/assets/images/9d4054a538d8.jpg",
+            "alt": "Object Number: 2415563  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 16,
+          "text": "Release intermediate shaft union (3)",
+          "image": {
+            "src": "/data/assets/images/9d4054a538d8.jpg",
+            "alt": "Object Number: 2415563  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 17,
+          "text": "Remove KM-6117",
+          "image": {
+            "src": "/data/assets/images/9d4054a538d8.jpg",
+            "alt": "Object Number: 2415563  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 18,
+          "text": "Turn transmission in KM-113-2 by 90° anti-clockwise",
+          "image": {
+            "src": "/data/assets/images/9d4054a538d8.jpg",
+            "alt": "Object Number: 2415563  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 19,
+          "text": "Remove 8x bolt (arrowed) from transmission housing cover (1)",
+          "image": {
+            "src": "/data/assets/images/022edacd7308.jpg",
+            "alt": "Object Number: 2415564  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 20,
+          "text": "Remove transmission housing cover using KM-J-37228 (2)",
+          "image": {
+            "src": "/data/assets/images/022edacd7308.jpg",
+            "alt": "Object Number: 2415564  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 21,
+          "text": "Remove fluid collector pipe (3)",
+          "image": {
+            "src": "/data/assets/images/022edacd7308.jpg",
+            "alt": "Object Number: 2415564  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 22,
+          "text": "Lock drive shaft with KM-6117 (1)",
+          "image": {
+            "src": "/data/assets/images/ff2995a4fc32.jpg",
+            "alt": "Object Number: 2415565  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 23,
+          "text": "Engage transmission in gear",
+          "image": {
+            "src": "/data/assets/images/ff2995a4fc32.jpg",
+            "alt": "Object Number: 2415565  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 24,
+          "text": "Release union for main shaft (2) and drive shaft (3), then remove from transmission",
+          "image": {
+            "src": "/data/assets/images/ff2995a4fc32.jpg",
+            "alt": "Object Number: 2415565  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "3"
+          ]
+        },
+        {
+          "number": 25,
+          "text": "Remove KM-6117 from drive shaft",
+          "image": {
+            "src": "/data/assets/images/ff2995a4fc32.jpg",
+            "alt": "Object Number: 2415565  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 26,
+          "text": "Engage transmission into neutral",
+          "image": {
+            "src": "/data/assets/images/ff2995a4fc32.jpg",
+            "alt": "Object Number: 2415565  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 27,
+          "text": "Remove bolt (3) from shift mechanism assembly",
+          "image": {
+            "src": "/data/assets/images/6449aa2c3aa8.jpg",
+            "alt": "Object Number: 2415566  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 28,
+          "text": "Remove 5x bolt (arrowed), then remove shift mechanism assembly (1) from transmission",
+          "image": {
+            "src": "/data/assets/images/6449aa2c3aa8.jpg",
+            "alt": "Object Number: 2415566  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 29,
+          "text": "Remove reverse lamp switch (2) from transmission",
+          "image": {
+            "src": "/data/assets/images/6449aa2c3aa8.jpg",
+            "alt": "Object Number: 2415566  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 30,
+          "text": "Remove 12x bolt (arrowed) from clutch housing (1)",
+          "image": {
+            "src": "/data/assets/images/c90eb82f6ed3.jpg",
+            "alt": "Object Number: 2415567  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 31,
+          "text": "Turn transmission in KM-113-2 by 90° anti-clockwise",
+          "image": {
+            "src": "/data/assets/images/c90eb82f6ed3.jpg",
+            "alt": "Object Number: 2415567  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 32,
+          "text": "Remove 7x bolt (arrowed) from transmission housing (2)",
+          "image": {
+            "src": "/data/assets/images/c90eb82f6ed3.jpg",
+            "alt": "Object Number: 2415567  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 33,
+          "text": "Attach KM-6116 (2) using 4x bolt (3) to transmission housing",
+          "image": {
+            "src": "/data/assets/images/420e5b5ed1bf.jpg",
+            "alt": "Object Number: 2415568  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "3"
+          ]
+        },
+        {
+          "number": 34,
+          "text": "Screw in spindle in main and drive shaft",
+          "image": {
+            "src": "/data/assets/images/420e5b5ed1bf.jpg",
+            "alt": "Object Number: 2415568  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 35,
+          "text": "Turn nut (4) and counterhold spindle at head (1)",
+          "image": {
+            "src": "/data/assets/images/420e5b5ed1bf.jpg",
+            "alt": "Object Number: 2415568  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "1"
+          ]
+        },
+        {
+          "number": 36,
+          "text": "Detach transmission housing from clutch housing",
+          "image": {
+            "src": "/data/assets/images/420e5b5ed1bf.jpg",
+            "alt": "Object Number: 2415568  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 37,
+          "text": "Remove KM-6116 from main shaft, drive shaft and transmission housing",
+          "image": {
+            "src": "/data/assets/images/420e5b5ed1bf.jpg",
+            "alt": "Object Number: 2415568  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 38,
+          "text": "Remove transmission housing from clutch housing",
+          "image": {
+            "src": "/data/assets/images/420e5b5ed1bf.jpg",
+            "alt": "Object Number: 2415568  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 39,
+          "text": "Attach KM-6121 (2) to drive shaft (4) using bolt (1) Note: This prevents synchromesh body assembly 4th / 5th gear from falling apart",
+          "image": {
+            "src": "/data/assets/images/6bad1ad5c17e.jpg",
+            "alt": "Object Number: 2415569  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "4",
+            "1"
+          ]
+        },
+        {
+          "number": 40,
+          "text": "Remove magnets (5), then clean",
+          "image": {
+            "src": "/data/assets/images/6bad1ad5c17e.jpg",
+            "alt": "Object Number: 2415569  Size: DEFAULT"
+          },
+          "callouts": [
+            "5"
+          ]
+        },
+        {
+          "number": 41,
+          "text": "If synchromesh body assembly 3rd / 4th gear fall apart, assemble as follows:",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Spring"
+            },
+            {
+              "bullet": "•",
+              "text": "(II) Clamp drive shaft in vice with light alloy protective"
+            },
+            {
+              "bullet": "•",
+              "text": "(III) Press ball into slide block with screwdriver (6), pull"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3b34b50fe799.jpg",
+            "alt": "Object Number: 2415570  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 42,
+          "text": "Press sleeve (2) of gearshift lever shaft from transmission housing from inside",
+          "image": {
+            "src": "/data/assets/images/ce64fbfc66e3.jpg",
+            "alt": "Object Number: 2415628  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 43,
+          "text": "Remove gearshift lever shaft (1) from transmission housing",
+          "image": {
+            "src": "/data/assets/images/ce64fbfc66e3.jpg",
+            "alt": "Object Number: 2415628  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 44,
+          "text": "Remove fluid guide pipe from transmission housing",
+          "image": {
+            "src": "/data/assets/images/ce64fbfc66e3.jpg",
+            "alt": "Object Number: 2415628  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 45,
+          "text": "Remove assembly of main shaft (3), intermediate shaft (1) and drive shaft (2) with the respective gear shift forks out of clutch housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Drive intermediate shaft with KM-6126"
+            },
+            {
+              "bullet": "•",
+              "text": "Second technician secures assembly of main shaft, intermediate"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0a24e1ff9e9a.jpg",
+            "alt": "Object Number: 2415629  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 46,
+          "text": "Remove differential (1) from clutch housing",
+          "image": {
+            "src": "/data/assets/images/d91bfe9c8ffb.jpg",
+            "alt": "Object Number: 2415630  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 47,
+          "text": "Remove main shaft roller bearing (2)",
+          "image": {
+            "src": "/data/assets/images/d91bfe9c8ffb.jpg",
+            "alt": "Object Number: 2415630  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 48,
+          "text": "Remove bearing for main shaft and drive shaft out of transmission housing - see operation \"Bearings, Main Shaft and / or Drive Shaft in Transmission Housing, Remove and Install\"",
+          "image": null
+        },
+        {
+          "number": 49,
+          "text": "Remove both axle shaft seal rings out of clutch and transmission housing using MKM-557-1 (1) and MKM-557-2 (2)",
+          "image": {
+            "src": "/data/assets/images/18681e24c0ed.jpg",
+            "alt": "Object Number: 2415631  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 50,
+          "text": "Clean all sealing faces and transmission parts",
+          "image": {
+            "src": "/data/assets/images/18681e24c0ed.jpg",
+            "alt": "Object Number: 2415631  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 51,
+          "text": "Check all sealing faces and transmission parts for damage and replace if necessary",
+          "image": {
+            "src": "/data/assets/images/18681e24c0ed.jpg",
+            "alt": "Object Number: 2415631  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 52,
+          "text": "Drive both axle shaft seal rings into clutch housing and transmission housing using KM-519 (3)",
+          "image": {
+            "src": "/data/assets/images/18681e24c0ed.jpg",
+            "alt": "Object Number: 2415631  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 53,
+          "text": "Insert main shaft roller bearing Note: Collar (arrowed) points towards clutch housing",
+          "image": {
+            "src": "/data/assets/images/ef077acc787e.jpg",
+            "alt": "Object Number: 2415632  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 54,
+          "text": "Insert main shaft (4), intermediate shaft (1) and drive shaft (3) assemblies into clutch housing with relevant shift forks",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Drive intermediate shaft (arrowed) into intermediate shaft"
+            },
+            {
+              "bullet": "•",
+              "text": "Second technician required"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ef077acc787e.jpg",
+            "alt": "Object Number: 2415632  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "1",
+            "3"
+          ]
+        },
+        {
+          "number": 55,
+          "text": "Detach KM-6121 (2) when all shafts are seated in clutch housing, do not displace shift sleeve",
+          "image": {
+            "src": "/data/assets/images/ef077acc787e.jpg",
+            "alt": "Object Number: 2415632  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 56,
+          "text": "Position transmission housing on clutch housing Note: Main shaft and drive shaft must engage in their bearings in transmission housing. Intermediate shaft and gear shift forks must be seated in their thrust bearings in transmission housing",
+          "image": {
+            "src": "/data/assets/images/85c440ca391b.jpg",
+            "alt": "Object Number: 2415603  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 57,
+          "text": "Position drive shaft bearing (1) and main shaft bearing (2) on transmission housing (3) Note: Bearing retaining rings (arrowed) must not be detached from bearings. Retaining rings cannot be mounted with bearings installed. When replacing main shaft bearing, operation \"Bearing, Main Shaft and/or Drive Shaft in Transmission Housing, Remove and Install\" is observed",
+          "image": {
+            "src": "/data/assets/images/85c440ca391b.jpg",
+            "alt": "Object Number: 2415603  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "number": 58,
+          "text": "Install KM-6116 (1) with thrust pieces (3) using 4x bolt (arrowed) to transmission housing (2)",
+          "image": {
+            "src": "/data/assets/images/e0e49a825e23.jpg",
+            "alt": "Object Number: 2415634  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "3",
+            "2"
+          ]
+        },
+        {
+          "number": 59,
+          "text": "Screw in spindles in main shaft and drive shaft",
+          "image": {
+            "src": "/data/assets/images/1380b47b6118.jpg",
+            "alt": "Object Number: 2415633  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 60,
+          "text": "Turn nut (2) in direction of arrow and counterhold spindle at head (1)",
+          "image": {
+            "src": "/data/assets/images/1380b47b6118.jpg",
+            "alt": "Object Number: 2415633  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 61,
+          "text": "Pull main shaft and drive shaft uniformly into their bearings in transmission housing and thus press transmission housing onto clutch housing",
+          "image": {
+            "src": "/data/assets/images/1380b47b6118.jpg",
+            "alt": "Object Number: 2415633  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 62,
+          "text": "Remove KM-6116 from transmission Note: If retaining rings of two shaft bearings do not bear against transmission housing, drive in both bearings with light taps in conjunction with KM-6116-3 and plastic hammer until they bear against the retaining rings on transmission housing. Install 2x old bolt as an installation aid",
+          "image": {
+            "src": "/data/assets/images/1380b47b6118.jpg",
+            "alt": "Object Number: 2415633  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 63,
+          "text": "Secure clutch housing and transmission housing assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/cc52c7ac18ce.jpg",
+            "alt": "Object Number: 2415635  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 64,
+          "text": "Turn transmission by 180° using KM-6115 in KM-113-2",
+          "image": {
+            "src": "/data/assets/images/cc52c7ac18ce.jpg",
+            "alt": "Object Number: 2415635  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 65,
+          "text": "Remove 4x bolt",
+          "image": {
+            "src": "/data/assets/images/cc52c7ac18ce.jpg",
+            "alt": "Object Number: 2415635  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 66,
+          "text": "Hold transmission housing in position",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Second technician required"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/cc52c7ac18ce.jpg",
+            "alt": "Object Number: 2415635  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 67,
+          "text": "Drive intermediate shaft from clutch housing (1) using KM-6126 in conjunction with KM-523-1 (2) Note: In this way, clutch housing and transmission housing are separated from one another",
+          "image": {
+            "src": "/data/assets/images/cc52c7ac18ce.jpg",
+            "alt": "Object Number: 2415635  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 68,
+          "text": "Lay transmission housing to one side on workbench",
+          "image": {
+            "src": "/data/assets/images/cc52c7ac18ce.jpg",
+            "alt": "Object Number: 2415635  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 69,
+          "text": "Support transmission housing with suitable piece of wood",
+          "image": {
+            "src": "/data/assets/images/b8e0cb42785c.jpg",
+            "alt": "Object Number: 2415636  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 70,
+          "text": "Install differential (1) to transmission housing",
+          "image": {
+            "src": "/data/assets/images/b8e0cb42785c.jpg",
+            "alt": "Object Number: 2415636  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 71,
+          "text": "Insert fluid guide pipe (5)",
+          "image": {
+            "src": "/data/assets/images/b8e0cb42785c.jpg",
+            "alt": "Object Number: 2415636  Size: DEFAULT"
+          },
+          "callouts": [
+            "5"
+          ]
+        },
+        {
+          "number": 72,
+          "text": "Install gearshift lever shaft (4) and guide sleeve (3)",
+          "image": {
+            "src": "/data/assets/images/b8e0cb42785c.jpg",
+            "alt": "Object Number: 2415636  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "3"
+          ]
+        },
+        {
+          "number": 73,
+          "text": "Apply sealing compound to shift mechanism assembly",
+          "image": {
+            "src": "/data/assets/images/b8e0cb42785c.jpg",
+            "alt": "Object Number: 2415636  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 74,
+          "text": "Insert shift mechanism assembly (2) into transmission",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 5x bolt 25 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b8e0cb42785c.jpg",
+            "alt": "Object Number: 2415636  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 75,
+          "text": "Apply locking compound to thread of bolt (arrowed) of shift mechanism assembly",
+          "image": {
+            "src": "/data/assets/images/9b38dee52b3f.jpg",
+            "alt": "Object Number: 2415637  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 76,
+          "text": "Install bolt for shift mechanism assembly (1) into transmission housing so that bolt engages in shift mechanism assembly",
+          "image": {
+            "src": "/data/assets/images/9b38dee52b3f.jpg",
+            "alt": "Object Number: 2415637  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 77,
+          "text": "Apply sealing compound to sealing surfaces (2) of transmission housing (max. 2 mm wide) Note: Collar (arrowed) of main shaft roller bearing (3) points upwards",
+          "image": {
+            "src": "/data/assets/images/9b38dee52b3f.jpg",
+            "alt": "Object Number: 2415637  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "3"
+          ]
+        },
+        {
+          "number": 78,
+          "text": "Remove clutch housing from KM-113-2 using KM-6115",
+          "image": {
+            "src": "/data/assets/images/820af04729d1.jpg",
+            "alt": "Object Number: 2415638  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 79,
+          "text": "Position clutch housing (1) on transmission housing with KM-6115 Note: Main shaft and drive shaft must engage in their bearings in clutch housing. Gear shift forks sit in their thrust bearings in clutch housing",
+          "image": {
+            "src": "/data/assets/images/820af04729d1.jpg",
+            "alt": "Object Number: 2415638  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 80,
+          "text": "Pull intermediate shaft into intermediate shaft bearing with old bolt (2)",
+          "image": {
+            "src": "/data/assets/images/820af04729d1.jpg",
+            "alt": "Object Number: 2415638  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 81,
+          "text": "Assemble clutch housing and transmission housing assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 12x bolt (arrowed) 28 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/820af04729d1.jpg",
+            "alt": "Object Number: 2415638  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 82,
+          "text": "Insert transmission into KM-113-2 with KM-6115",
+          "image": {
+            "src": "/data/assets/images/c409778fde8a.jpg",
+            "alt": "Object Number: 2415639  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 83,
+          "text": "Attach 7x bolt (arrowed) 28 Nm",
+          "image": {
+            "src": "/data/assets/images/c409778fde8a.jpg",
+            "alt": "Object Number: 2415639  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 84,
+          "text": "Engage transmission in gear",
+          "image": {
+            "src": "/data/assets/images/c409778fde8a.jpg",
+            "alt": "Object Number: 2415639  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 85,
+          "text": "Lock drive shaft using KM-6117 (1)",
+          "image": {
+            "src": "/data/assets/images/c409778fde8a.jpg",
+            "alt": "Object Number: 2415639  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 86,
+          "text": "Remove 2x old bolt (2, 3) from main shaft, intermediate shaft and drive shaft",
+          "image": {
+            "src": "/data/assets/images/c409778fde8a.jpg",
+            "alt": "Object Number: 2415639  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 87,
+          "text": "Apply locking compound to 2x new bolt, then install in main shaft, intermediate shaft and drive shaft 100 Nm",
+          "image": {
+            "src": "/data/assets/images/c409778fde8a.jpg",
+            "alt": "Object Number: 2415639  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 88,
+          "text": "Insert fluid catcher pipe",
+          "image": {
+            "src": "/data/assets/images/7674e379facf.jpg",
+            "alt": "Object Number: 2415640  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 89,
+          "text": "Coat transmission housing cover with sealing compound, leaving area (1) free to prevent blocking of fluid pipe (2)",
+          "image": {
+            "src": "/data/assets/images/7674e379facf.jpg",
+            "alt": "Object Number: 2415640  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 90,
+          "text": "Attach transmission housing cover to transmission housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 8x bolt 25 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7674e379facf.jpg",
+            "alt": "Object Number: 2415640  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 91,
+          "text": "Insert fluid spout (5) into intermediate shaft",
+          "image": {
+            "src": "/data/assets/images/a83efcbcb54b.jpg",
+            "alt": "Object Number: 2415641  Size: DEFAULT"
+          },
+          "callouts": [
+            "5"
+          ]
+        },
+        {
+          "number": 92,
+          "text": "Drive intermediate shaft cover (4) flush into clutch housing using KM-6102 in conjunction with KM-523-1 (3)",
+          "image": {
+            "src": "/data/assets/images/a83efcbcb54b.jpg",
+            "alt": "Object Number: 2415641  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "3"
+          ]
+        },
+        {
+          "number": 93,
+          "text": "Install new central release (7) to drive shaft with KM-6059 (6) and attach to transmission",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 3x bolt 10 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a83efcbcb54b.jpg",
+            "alt": "Object Number: 2415641  Size: DEFAULT"
+          },
+          "callouts": [
+            "7",
+            "6"
+          ]
+        },
+        {
+          "number": 94,
+          "text": "Remove KM-6059",
+          "image": {
+            "src": "/data/assets/images/a83efcbcb54b.jpg",
+            "alt": "Object Number: 2415641  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 95,
+          "text": "Insert fastening sleeve (1) to clutch housing",
+          "image": {
+            "src": "/data/assets/images/a83efcbcb54b.jpg",
+            "alt": "Object Number: 2415641  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 96,
+          "text": "Insert pressure line (2) to fastening sleeve (1) Note: Ensure Pressure line is engaged correctly",
+          "image": {
+            "src": "/data/assets/images/a83efcbcb54b.jpg",
+            "alt": "Object Number: 2415641  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 97,
+          "text": "Install pressure line (2) to central release (7) 14 Nm",
+          "image": {
+            "src": "/data/assets/images/a83efcbcb54b.jpg",
+            "alt": "Object Number: 2415641  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "7"
+          ]
+        },
+        {
+          "number": 98,
+          "text": "Apply sealing compound (green) to reverse lamp switch (2), then install to transmission 15 Nm Note: Pay attention to seating and state of seal ring (1)",
+          "image": {
+            "src": "/data/assets/images/dd69671991db.jpg",
+            "alt": "Object Number: 2415642  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 99,
+          "text": "Remove transmission and KM-6115 (1) from KM-113-2 (2)",
+          "image": {
+            "src": "/data/assets/images/07cad7c861f7.jpg",
+            "alt": "Object Number: 2415610  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 100,
+          "text": "Remove KM-6115 (3) from transmission (4)",
+          "image": {
+            "src": "/data/assets/images/07cad7c861f7.jpg",
+            "alt": "Object Number: 2415610  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "4"
+          ]
+        },
+        {
+          "number": 101,
+          "text": "Install transmission to vehicle - see operation \"Transmission, Remove and Install\"",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Insert shift mechanism assembly (2) into transmission",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 74
+    },
+    {
+      "component": "Assemble clutch housing and transmission housing assembly",
+      "value": "28",
+      "unit": "Nm",
+      "stepRef": 81
+    },
+    {
+      "component": "Attach 7x bolt (arrowed) 28 Nm",
+      "value": "28",
+      "unit": "Nm",
+      "stepRef": 83
+    },
+    {
+      "component": "Apply locking compound to 2x new bolt, then install in main shaft, intermediate shaft and drive shaft 100 Nm",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": 87
+    },
+    {
+      "component": "Attach transmission housing cover to transmission housing",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 90
+    },
+    {
+      "component": "Install new central release (7) to drive shaft with KM-6059 (6) and attach to transmission",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 93
+    },
+    {
+      "component": "Install pressure line (2) to central release (7) 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 97
+    },
+    {
+      "component": "Apply sealing compound (green) to reverse lamp switch (2), then install to transmission 15 Nm Note: Pay attention to seating and state of seal ring (1)",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 98
+    },
+    {
+      "component": "Install 5x bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install 12x bolt (arrowed) 28 Nm",
+      "value": "28",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install 3x bolt 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-6115",
+    "KM-113-2",
+    "KM-6101",
+    "KM-328-B",
+    "KM-6117",
+    "KM-J-37228",
+    "KM-6116",
+    "KM-6121",
+    "KM-6126",
+    "KM-523-1",
+    "MKM-557-1",
+    "MKM-557-2",
+    "KM-519",
+    "KM-6116-3",
+    "KM-6102",
+    "KM-6059"
+  ],
+  "warnings": [
+    "In this operation,\ntransmission is disassembled, individual parts are checked for\ndamage, then replaced if necessary. Individual transmission shafts\ncannot be disassembled, they can only be replaced as an assembly.\nDismantling of fastening bolts of transmission shafts with impulse\nor impact screwdriver is not permitted",
+    "Do not damage sealing\nsurfaces",
+    "Ensure drive shaft\nfriction washer (3) does not remain in transmission housing.\nSprings, balls and slide blocks of synchronisation cannot be\nsupplied individually. If lost, replace drive shaft",
+    "For following\noperation, differential, fluid pipe, magnet and shift lever shaft\nare not installed and surface sealant is not applied",
+    "In following section\nof operation, main shaft and drive shaft are pulled into their\nbearings in transmission housing and thus transmission housing is\ncombined with clutch housing. Do no use any force. If large forces\nare necessary when actuating KM-6116 ,\nseparate transmission housing and clutch housing again, check\npositioning of shaft and gear shift forks, then repeat\noperation"
+  ],
+  "notes": [
+    "Disassemble pressure line from fastening sleeve (3) and\nremove\n Carefully release\n2x lug (4) with screwdriver by prising outwards",
+    "Attach KM-6121 (2) to drive shaft (4)\nusing bolt (1)\n This prevents\nsynchromesh body assembly 4th / 5th gear from falling apart",
+    "Insert main shaft roller bearing\n Collar (arrowed)\npoints towards clutch housing",
+    "Second technician required\n Seating of shaft\nand shift forks in clutch housing and against one another must be\ncontinually checked in order to prevent damage to components",
+    "Position transmission housing on clutch housing\n Main shaft and\ndrive shaft must engage in their bearings in transmission housing.\nIntermediate shaft and gear shift forks must be seated in their\nthrust bearings in transmission housing",
+    "Position drive shaft bearing (1) and main shaft bearing (2) on\ntransmission housing (3)\n Bearing retaining\nrings (arrowed) must not be detached from bearings. Retaining rings\ncannot be mounted with bearings installed. When replacing main\nshaft bearing, operation \"Bearing, Main Shaft and/or Drive Shaft in\nTransmission Housing, Remove and Install\" is observed",
+    "Remove KM-6116 from transmission\n If retaining\nrings of two shaft bearings do not bear against transmission\nhousing, drive in both bearings with light taps in conjunction with\nKM-6116-3 and plastic hammer until they\nbear against the retaining rings on transmission housing. Install\n2x old bolt as an installation aid",
+    "Drive intermediate shaft from clutch housing (1) using KM-6126 in conjunction with KM-523-1 (2)\n In this way,\nclutch housing and transmission housing are separated from one\nanother",
+    "Apply sealing compound to sealing surfaces (2) of transmission\nhousing (max. 2 mm wide)\n Collar (arrowed)\nof main shaft roller bearing (3) points upwards",
+    "Position clutch housing (1) on transmission housing with KM-6115 \n Main shaft and\ndrive shaft must engage in their bearings in clutch housing. Gear\nshift forks sit in their thrust bearings in clutch housing",
+    "Insert pressure line (2) to fastening sleeve (1)\n Ensure Pressure\nline is engaged correctly",
+    "Apply sealing compound (green) to reverse lamp switch (2), then\ninstall to transmission 15 Nm \n Pay attention to\nseating and state of seal ring (1)"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "diagnostic",
+  "id": "knock-sensor-A26D1C",
+  "title": "Knock Sensor",
+  "steps": [
+    {
+      "number": 1,
+      "text": "Download the Reference curve."
+    },
+    {
+      "number": 2,
+      "text": "Use a metal object (e.g. a hammer) to strike the\nengine block in the vicinity of the knock sensor. Regardless of the\nengine type the following areas are particularly suitable. Below\nthe bolt used to fasten the alternator to the engine block, flat\nsurfaces on the engine block at the front or rear and the engine\nmounting (use a metal extension if necessary)."
+    },
+    {
+      "number": 1,
+      "text": "Download Setup file (the Tech 32 uses only Setup\nfiles, no reference curves)."
+    },
+    {
+      "number": 2,
+      "text": "Use a metal object (e.g. a hammer) to strike the\nengine block in the vicinity of the knock sensor. Regardless of the\nengine type the following areas are particularly suitable: Below\nthe bolt used to fasten the alternator to the engine block, flat\nsurfaces on the engine block at the front or rear and the engine\nmounting (use a metal extension if necessary)."
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/99c70d0c2486.jpg",
+      "alt": "Object Number: 2400951  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/0d767470d8c5.jpg",
+      "alt": "Object Number: 2419077  Size: DEFAULT"
+    }
+  ]
+}

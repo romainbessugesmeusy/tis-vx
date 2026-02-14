@@ -1,0 +1,42 @@
+{
+  "type": "procedure",
+  "id": "cylinder-block-check-for-plane-surface-z-22-se-z-20-let-A26D1C",
+  "title": "Cylinder Block, Check for Plane Surface (Z 22 SE,\nZ 20 LET)",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Clean the sealing surfaces.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove any gasket residue."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2694e940b629.jpg",
+            "alt": "Object Number: 2417806  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Check for plane surface.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use a straightedge, feeler gauges"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2694e940b629.jpg",
+            "alt": "Object Number: 2417806  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "type": "procedure",
+  "id": "ribbed-v-belt-tension-check-z-20-let-AQS315",
+  "title": "Ribbed V-belt Tension, Check (Z 20 LET)",
+  "phases": [
+    {
+      "phase": "inspect",
+      "label": "Inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Ribbed V-belt tension is adjusted via automatic ribbed V-belt tensioner.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "The position of the movable tensioning arm (1) for the ribbed V-belt tensioner can be checked. This should be located between the stops (2).",
+          "image": {
+            "src": "/data/assets/images/cba64c101675.jpg",
+            "alt": "Object Number: 2421988  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "If movable tensioner arm (1) of ribbed V-belt tensioner is located at one of the stops (2), replace ribbed V-belt and ribbed V-belt tensioner - see operations \"Ribbed V-belt, Replace” and \"Ribbed V-belt Tensioner, Replace”.",
+          "image": null,
+          "callouts": [
+            "1",
+            "2"
+          ]
+        }
+      ]
+    }
+  ]
+}

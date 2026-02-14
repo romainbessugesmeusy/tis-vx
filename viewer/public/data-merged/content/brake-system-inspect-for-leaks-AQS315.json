@@ -1,0 +1,25 @@
+{
+  "type": "procedure",
+  "id": "brake-system-inspect-for-leaks-AQS315",
+  "title": "Brake System, Inspect for Leaks",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Install brake pedal tensioner KM-325 between seat frame and brake pedal, then wait 10 minutes before inspecting brake system",
+          "image": {
+            "src": "/data/assets/images/18e0714199ab.jpg",
+            "alt": "Object Number: 2419918  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ],
+  "toolsRequired": [
+    "KM-325"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "harness_diagram",
+  "id": "power-train-engine-intake-side-engine-z20let-A26D1C",
+  "title": "Power train - Engine, intake side",
+  "diagram": {
+    "src": "/data/assets/9355e48b26d7.cgm",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "B3",
+      "description": "Switch - Oil pressure"
+    },
+    {
+      "code": "G2",
+      "description": "Alternator"
+    },
+    {
+      "code": "B34",
+      "description": "Impulse sensor - Crankshaft"
+    },
+    {
+      "code": "Y2",
+      "description": "Actuator - Recirculation"
+    },
+    {
+      "code": "B118",
+      "description": "Sensor - Oxygen, catalytic converter check"
+    }
+  ]
+}

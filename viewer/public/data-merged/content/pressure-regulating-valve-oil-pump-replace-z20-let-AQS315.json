@@ -1,0 +1,177 @@
+{
+  "type": "procedure",
+  "id": "pressure-regulating-valve-oil-pump-replace-z20-let-AQS315",
+  "title": "Pressure Regulating Valve, Oil Pump, Replace (Z20\nLET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove engine undertray (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Raise vehicle"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 13x bolt, 13x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7c957595e425.jpg",
+            "alt": "Object Number: 2422664  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Release turbo oil feed pipe from engine",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Position collecting container"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Remove pressure regulating valve for oil pump (1) Note: Note position for installation.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove closure plug (5)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove, then discard sealing washer (4)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove spring (3)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove valve (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/fabb82e6c882.jpg",
+            "alt": "Object Number: 2397844  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Install pressure regulating valve for oil pump Note: Note position for installation.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install valve"
+            },
+            {
+              "bullet": "•",
+              "text": "Install spring"
+            },
+            {
+              "bullet": "•",
+              "text": "Use new sealing washer"
+            },
+            {
+              "bullet": "•",
+              "text": "Install closure plug 50 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Secure turbo oil feed pipe to engine",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove collecting container"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Install engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 13x bolt, 13x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Run engine and check for leaks, stop engine",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Check engine oil level, top up if required"
+            }
+          ],
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install pressure regulating valve for oil pump Note: Note position for installation.",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 4
+    },
+    {
+      "component": "Secure turbo oil feed pipe to engine",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Install closure plug 50 Nm",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install bolt 25 Nm – Remove collecting container",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "A four post hoist must\nbe used to raise the vehicle when removing the engine undertray.\nThe vehicle can be moved to a two post hoist for other operations\nif required.",
+    "Observe relevant\nenvironmental regulations when disposing of used coolant and\nlubricants."
+  ],
+  "notes": [
+    "Remove pressure regulating valve for oil pump (1)\n Note position for\ninstallation.\n \n\n\n\n•  \nRemove closure plug (5)\n \n\n\n\n\n\n•  \nRemove, then discard sealing washer (4)\n \n\n\n\n\n\n•  \nRemove spring (3)\n \n\n\n\n\n\n•  \nRemove valve (2)",
+    "Install pressure regulating valve for oil pump\n Note position for\ninstallation.\n \n\n\n\n•  \nInstall valve\n \n\n\n\n\n\n•  \nInstall spring\n \n\n\n\n\n\n•  \nUse new sealing washer\n \n\n\n\n\n\n•  \nInstall closure plug 50 Nm"
+  ]
+}

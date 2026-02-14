@@ -1,0 +1,404 @@
+<div class="content"><h2>C-011 - Intake Air Temperature Sensor Circuit</h2>
+<table border="2" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+  <tr>
+    <td valign="top" align="center" width="12%" STYLE="font-weight:bold">
+      <p>Test</p>
+    </td>
+    <td valign="top" width="64%" STYLE="font-weight:bold">
+      <p>Work Order Description</p>
+    </td>
+    <td valign="top" width="24%" STYLE="font-weight:bold">
+      <p>Nominal Value</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="4">
+      <a name="5862-6-428643"></a>
+      <b>T001</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Ground/Interruption of Voltage Supply Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Ignition OFF</li>
+        <li>Disconnect wiring harness connector from:<br>B21 Sensor - Absolute Pressure, Intake Manifold
+        </li>
+        <li>Ignition ON</li>
+        <li>Measure voltage between the following terminals:<br>B21 Sensor - Absolute Pressure, Intake Manifold<br>Wiring harness connector (wiring harness side) terminal 2<br>&amp;<br>Ground
+        </li>
+      </ul>
+      <p>
+        <b>Note:</b>
+      </p>
+      <p>Blower motor is running</p>
+    </td>
+    <td valign="top">
+      <p>4.8 ... 5.2&nbsp;V</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2" ACTION="">
+      <table cellspacing="0">
+        <tr>
+          <td width="12%" STYLE="text-align:center"><img STYLE="width:32;height:32" SRC="pic/cpr/v-measure.gif">
+          </td>
+          <td width="39%">Voltage Measurement</td>
+          <td STYLE="text-align:right">Current Value:</td>
+          <td width="10%"><INPUT TYPE="TEXT" name="AKPNS2NT2N" VALUE="" MAXLENGTH="255" SIZE="15">
+          </td>
+          <td>V</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('AILND7NL6N','1','5862-6-428640',null)">T002</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('ACSN33NBCN','1','5862-15-428643',null)">T004</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="4">
+      <a name="5862-6-428640"></a>
+      <b>T002</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Component</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Diagnostic Tester Data List Parameter<br>Intake Air Temperature
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>greater than 4.8&nbsp;V</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2" ACTION="">
+      <table cellspacing="0">
+        <tr>
+          <td width="12%" STYLE="text-align:center"><img STYLE="width:32;height:32" SRC="pic/cpr/v-measure.gif">
+          </td>
+          <td width="39%">Diagnostic Tester Data List Parameter</td>
+          <td STYLE="text-align:right">Current Value:</td>
+          <td width="10%"><INPUT TYPE="TEXT" name="AIKNS5N95N" VALUE="" MAXLENGTH="255" SIZE="15">
+          </td>
+          <td></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('AMKN95NU3N','1','5862-6-428638',null)">T003</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('AHKN13NOAN','1','5862-6-428639',null)">E003</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="4">
+      <a name="5862-6-428638"></a>
+      <b>T003</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Circuit Interruption of Ground Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Connect fused jumper wire to:<br>B21 Sensor - Absolute Pressure, Intake Manifold<br>Wiring harness connector (wiring harness side) terminal 1<br>&amp;<br>B21 Sensor - Absolute Pressure, Intake Manifold<br>Wiring harness connector (wiring harness side) terminal 2
+        </li>
+        <li>Diagnostic Tester Data List Parameter<br>Intake Air Temperature
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>less than 0.1&nbsp;V</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2" ACTION="">
+      <table cellspacing="0">
+        <tr>
+          <td width="12%" STYLE="text-align:center"><img STYLE="width:32;height:32" SRC="pic/cpr/v-measure.gif">
+          </td>
+          <td width="39%">Diagnostic Tester Data List Parameter</td>
+          <td STYLE="text-align:right">Current Value:</td>
+          <td width="10%"><INPUT TYPE="TEXT" name="ADNN34N62N" VALUE="" MAXLENGTH="255" SIZE="15">
+          </td>
+          <td></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('ABTNRBNR6N','1','5862-6-428636',null)">E001</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('AMQN7CN09N','1','5862-6-428637',null)">E002</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="4">
+      <a name="5862-15-428643"></a>
+      <b>T004</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Ground/Interruption of Voltage Supply Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Ignition OFF</li>
+        <li>Disconnect wiring harness connector from:<br>B21 Sensor - Absolute Pressure, Intake Manifold
+        </li>
+        <li>Ignition ON</li>
+        <li>Measure voltage between the following terminals:<br>B21 Sensor - Absolute Pressure, Intake Manifold<br>Wiring harness connector (wiring harness side) terminal 2<br>&amp;<br>Ground
+        </li>
+      </ul>
+      <p>
+        <b>Note:</b>
+      </p>
+      <p>Blower motor is running</p>
+    </td>
+    <td valign="top">
+      <p>greater than 5.2&nbsp;V</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2" ACTION="">
+      <table cellspacing="0">
+        <tr>
+          <td width="12%" STYLE="text-align:center"><img STYLE="width:32;height:32" SRC="pic/cpr/v-measure.gif">
+          </td>
+          <td width="39%">Voltage Measurement</td>
+          <td STYLE="text-align:right">Current Value:</td>
+          <td width="10%"><INPUT TYPE="TEXT" name="AGONHANS9N" VALUE="" MAXLENGTH="255" SIZE="15">
+          </td>
+          <td>V</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('A6SN27NM5N','1','5862-6-428642',null)">E004</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('AJSNQ4N29N','1','5862-6-428641',null)">E005</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table><br><br>
+<table border="2" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+  <tr>
+    <td valign="top" align="center" width="12%" STYLE="font-weight:bold">
+      <p>Result</p>
+    </td>
+    <td STYLE="vertical-align:top;font-weight:bold">
+      <p>Cause Of Fault</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-428636"></a>
+      <b>E001</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Defective Component</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Defective component:<br>B21 Sensor - Absolute Pressure, Intake Manifold
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('A8LN17NO9N','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-428637"></a>
+      <b>E002</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Interruption</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Circuit interruption between:<br>A5 Control Unit - Motronic<br>Wiring harness connector (wiring harness side) terminal 9 (X32)<br>&amp;<br>B21 Sensor - Absolute Pressure, Intake Manifold<br>Wiring harness connector (wiring harness side) terminal 1
+        </li>
+      </ul>
+      <p>or</p>
+      <ul>
+        <li>Defective component:<br>A5 Control Unit - Motronic
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AAQNR7N87N','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-428639"></a>
+      <b>E003</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Defective Component</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Defective component:<br>A5 Control Unit - Motronic
+        </li>
+      </ul>
+      <p> </p>
+      <p>
+        <b>Important:</b>
+      </p>
+      <p>Reset concerned control unit (engine or immobiliser control unit) with diagnostic tester before replacing. Select immobiliser in the diagnostic tester and call up the corresponding test in the menu ADDITIONAL FUNCTIONS. Ensure that both control units are never reset and replaced at the same time.</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AKRN68NN1N','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-428642"></a>
+      <b>E004</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Short to Voltage</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Short circuit to voltage between:<br>A5 Control Unit - Motronic<br>Wiring harness connector (wiring harness side) terminal 55 (X32)<br>&amp;<br>B21 Sensor - Absolute Pressure, Intake Manifold<br>Wiring harness connector (wiring harness side) terminal 2
+        </li>
+      </ul>
+      <p>or</p>
+      <ul>
+        <li>Defective component:<br>A5 Control Unit - Motronic
+        </li>
+      </ul>
+      <p> </p>
+      <p>
+        <b>Important:</b>
+      </p>
+      <p>Reset concerned control unit (engine or immobiliser control unit) with diagnostic tester before replacing. Select immobiliser in the diagnostic tester and call up the corresponding test in the menu ADDITIONAL FUNCTIONS. Ensure that both control units are never reset and replaced at the same time.</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('ADRN77NKAN','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-428641"></a>
+      <b>E005</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Short to Ground</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Short circuit to ground/interruption of circuit between:<br>A5 Control Unit - Motronic<br>Wiring harness connector (wiring harness side) terminal 55 (X32)<br>&amp;<br>B21 Sensor - Absolute Pressure, Intake Manifold<br>Wiring harness connector (wiring harness side) terminal 2
+        </li>
+      </ul>
+      <p>or</p>
+      <ul>
+        <li>Defective component:<br>A5 Control Unit - Motronic
+        </li>
+      </ul>
+      <p> </p>
+      <p>
+        <b>Important:</b>
+      </p>
+      <p>Reset concerned control unit (engine or immobiliser control unit) with diagnostic tester before replacing. Select immobiliser in the diagnostic tester and call up the corresponding test in the menu ADDITIONAL FUNCTIONS. Ensure that both control units are never reset and replaced at the same time.</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('APRNY6NR4N','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+</table><br><br><br><br><br></div>

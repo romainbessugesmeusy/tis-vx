@@ -1,0 +1,122 @@
+{
+  "type": "procedure",
+  "id": "front-wheel-arch-liner-remove-and-install-A26D1C",
+  "title": "Front Wheel Arch Liner, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Secure rear wheels using chocks",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Open engine cover",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Detach fuse box from right–hand wheel arch liner if necessary",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Raise and support vehicle",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Remove front wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use special socket under front bonnet"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Remove wheel arch liner",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 6 screws (1)"
+            }
+          ],
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 7,
+          "text": "Install wheel arch liner",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 6 screws (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f21fe35f0f75.jpg",
+            "alt": "Object Number: 2419717  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Install front wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt, security bolt 90"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Remove support and lower the vehicle",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Install fuse box on right–hand wheel arch liner",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Close front bonnet",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Remove chocks",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install front wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Install 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "type": "procedure",
+  "id": "brake-fluid-level-sensor-replace-AQS315",
+  "title": "Brake Fluid Level Sensor, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Brake fluid from reservoir arrowed (take care to avoid any spillage).",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Harness connector from level sensor for brake fluid.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Reservoir from brake master cylinder.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Reservoir to brake master cylinder.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Harness connector to level sensor for brake fluid.",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Refill brake fluid to correct level.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

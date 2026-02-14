@@ -1,0 +1,15 @@
+{
+  "type": "harness_diagram",
+  "id": "power-train-engine-exhaust-side-engine-z20let-2-AQS315",
+  "title": "Power train - Engine, exhaust side",
+  "diagram": {
+    "src": "/data/assets/converted/99d1c4ef3b4d.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "Y8",
+      "description": "Solenoid valve - Boost pressure regulation"
+    }
+  ]
+}

@@ -1,0 +1,621 @@
+{
+  "type": "procedure",
+  "id": "crankshaft-oil-seal-timing-side-replace-z-20-let-AQS315",
+  "title": "Crankshaft Oil Seal, Timing Side, Replace (Z 20\nLET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Raise vehicle"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 13x bolt, 13x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Disconnect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release windscreen wash reservoir, then move to one side"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove nut, bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Disconnect intercooler hose (1) from throttle body (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/505695df5602.jpg",
+            "alt": "Object Number: 2422225  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Raise vehicle to suitable working height and support",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Remove rear road wheel from right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use special socket located under front bonnet"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 4x wheel bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Remove liner from wheel arch",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 6x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Disconnect intercooler hose (1) from intercooler (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove, then discard 4x cable tie"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3357a5bce2de.jpg",
+            "alt": "Object Number: 2422226  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Remove upper cover of camshaft timing belt",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ea151090a0db.jpg",
+            "alt": "Object Number: 2397738  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Remove ribbed V-belt",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Using suitable spanner rotate tensioner (1) clockwise, then",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Using suitable spanner rotate tensioner (1) clockwise, then\nInstall suitable locking pin (2)"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a80bd56f79cd.jpg",
+            "alt": "Object Number: 2421986  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 11,
+          "text": "Remove crankshaft pulley",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Apply match marks to crankshaft pulley and crankshaft"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 4x bolt, using spanner to counter-hold centre nut on"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d61cc4889230.jpg",
+            "alt": "Object Number: 2397739  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 12,
+          "text": "Remove ribbed V-belt tensioner",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d61cc4889230.jpg",
+            "alt": "Object Number: 2397739  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 13,
+          "text": "Remove lower cover of camshaft timing belt",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d61cc4889230.jpg",
+            "alt": "Object Number: 2397739  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 14,
+          "text": "Rotate crankshaft clockwise to top dead centre (TDC) on cylinder No. 1, until 2x timing mark (3) and (1) are aligned",
+          "image": {
+            "src": "/data/assets/images/8168cebf3083.jpg",
+            "alt": "Object Number: 2397740  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "1"
+          ]
+        },
+        {
+          "number": 15,
+          "text": "Lock camshafts in position",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use Locking Tool KM-853 (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8168cebf3083.jpg",
+            "alt": "Object Number: 2397740  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 16,
+          "text": "Release tension from camshaft timing belt",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release bolt, then turn adjusting eccentric in direction of"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8168cebf3083.jpg",
+            "alt": "Object Number: 2397740  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 17,
+          "text": "Remove camshaft timing belt from pulleys, move to one side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Do not remove camshaft timing belt from vehicle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8168cebf3083.jpg",
+            "alt": "Object Number: 2397740  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 18,
+          "text": "Remove crankshaft sprocket (1) from crankshaft",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Counter-hold using KM-662-C"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d19f6c4fcac8.jpg",
+            "alt": "Object Number: 2422583  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 19,
+          "text": "Remove retaining key (1) from crankshaft",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Prise out using suitable tool"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e9ba18374c78.jpg",
+            "alt": "Object Number: 2422584  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 20,
+          "text": "Remove washer (2) from crankshaft",
+          "image": {
+            "src": "/data/assets/images/e9ba18374c78.jpg",
+            "alt": "Object Number: 2422584  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 21,
+          "text": "Remove, then discard crankshaft oil seal (3) from crankshaft",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Prise out using suitable tool"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e9ba18374c78.jpg",
+            "alt": "Object Number: 2422584  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 22,
+          "text": "Install new crankshaft oil seal to crankshaft",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use Assembly Sleeve KM-693"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 23,
+          "text": "Install washer to crankshaft",
+          "image": null
+        },
+        {
+          "number": 24,
+          "text": "Install retaining key to crankshaft",
+          "image": null
+        },
+        {
+          "number": 25,
+          "text": "Install crankshaft sprocket to crankshaft",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Counter-hold using KM-662-C"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 26,
+          "text": "Install camshaft timing belt to pulleys",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ensure timing marks are aligned"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 27,
+          "text": "Adjust tension of camshaft timing belt - see operation “Camshaft Timing Belt Tension, Check and Adjust (Z 20 LET)”",
+          "image": null
+        },
+        {
+          "number": 28,
+          "text": "Install lower cover of camshaft timing belt",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt 6 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 29,
+          "text": "Install ribbed V-belt tensioner",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt 25 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 30,
+          "text": "Install crankshaft pulley",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Align match marks on crankshaft pulley and crankshaft"
+            },
+            {
+              "bullet": "•",
+              "text": "Counter-hold centre nut on crankshaft sprocket using",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Counter-hold centre nut on crankshaft sprocket using\nspanner"
+                }
+              ]
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 31,
+          "text": "Install ribbed V-belt",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Using suitable spanner rotate tensioner clockwise, then remove"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 32,
+          "text": "Install upper cover of camshaft timing belt",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt 6 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 33,
+          "text": "Install intercooler hose to intercooler",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 4x new cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 34,
+          "text": "Install liner to wheel arch",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 6x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 35,
+          "text": "Install rear road wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt, security bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Do not tighten"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 36,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 37,
+          "text": "Secure rear road wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tighten 4x bolt, security bolt 90"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 38,
+          "text": "Connect intercooler hose to throttle body",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 39,
+          "text": "Connect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install nut, bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure windscreen wash reservoir"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 40,
+          "text": "Program all volatile memories",
+          "image": null
+        },
+        {
+          "number": 41,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 42,
+          "text": "Install engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 13x bolt, 13x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 43,
+          "text": "Lower vehicle",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install crankshaft sprocket to crankshaft",
+      "value": "130",
+      "unit": "Nm",
+      "stepRef": 25
+    },
+    {
+      "component": "Install lower cover of camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 28
+    },
+    {
+      "component": "Install ribbed V-belt tensioner",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 29
+    },
+    {
+      "component": "Install crankshaft pulley",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 30
+    },
+    {
+      "component": "Install upper cover of camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 32
+    },
+    {
+      "component": "Secure rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 37
+    },
+    {
+      "component": "Install bolt 130 Nm + 45° – Counter-hold using KM-662-C",
+      "value": "130",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install 2x bolt 6 Nm",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install 2x bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install 4x bolt 20 Nm – Counter-hold centre nut on crankshaft sprocket using spanner",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-853",
+    "KM-662-C",
+    "KM-693"
+  ],
+  "warnings": [
+    "A four-post hoist must\nbe used to raise the vehicle when removing the engine undertray.\nThe vehicle can be moved to a two-post hoist for other operations\nif required."
+  ]
+}

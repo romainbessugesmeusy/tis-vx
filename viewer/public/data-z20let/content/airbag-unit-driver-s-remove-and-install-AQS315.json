@@ -1,0 +1,40 @@
+{
+  "type": "procedure",
+  "id": "airbag-unit-driver-s-remove-and-install-AQS315",
+  "title": "Airbag Unit, Driver's, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Harness connector from airbag unit.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Airbag unit from steering wheel – screws.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Airbag unit to steering wheel – screws.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Harness connector to airbag unit.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "type": "procedure",
+  "id": "pressure-relief-valve-oil-cooler-replace-z22-se-A26D1C",
+  "title": "Pressure Relief Valve, Oil Cooler, Replace (Z22\nSE)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove oil filter cover (1) from oil filter housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use KM-6150"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/83471816f755.jpg",
+            "alt": "Object Number: 2429860  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Remove oil filter element from oil filter housing",
+          "image": {
+            "src": "/data/assets/images/83471816f755.jpg",
+            "alt": "Object Number: 2429860  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Remove pressure relief valve (1) from oil filter housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Compress spring, then withdraw"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/5ba2df324401.jpg",
+            "alt": "Object Number: 2423042  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Install pressure relief valve to oil filter housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Insert valve seat into oil gallery, compress spring, then push"
+            }
+          ],
+          "image": null
+        }
+      ]
+    }
+  ],
+  "toolsRequired": [
+    "KM-6150"
+  ],
+  "warnings": [
+    "If securing ring for\noil cooler adaptor, becomes loose while removing top cover, then\ncounter-hold using Holding Wrench KM-6416\n."
+  ]
+}

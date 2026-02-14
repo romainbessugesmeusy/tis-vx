@@ -1,0 +1,90 @@
+{
+  "type": "procedure",
+  "id": "coolant-hose-return-flow-oil-cooler-replace-z20-let-AQS315",
+  "title": "Coolant Hose, Return Flow, Oil Cooler, Replace\n(Z20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Drain cooling system - see operation “Cooling System, Drain, Fill and Bleed” Note: Includes releasing coolant hose, return flow from coolant return hose.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove, then discard cable tie (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/97ecaa5b26f9.jpg",
+            "alt": "Object Number: 2422465  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove fuel tank - see operation “Fuel Tank, Remove and Install”",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Remove coolant hose (2) from coolant pipe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release, then remove clip (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a49f1c56440d.jpg",
+            "alt": "Object Number: 2423059  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Transfer 2x clip and inner sleeve to new coolant hose, return flow",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Install coolant hose to coolant pipe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Install fuel tank - see operation “Fuel Tank, Remove and Install”",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Fill cooling system - see operation “Cooling System, Drain, Fill and Bleed”",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Drain cooling system - see operation “Cooling System,\nDrain, Fill and Bleed”\n Includes\nreleasing coolant hose, return flow from coolant return hose.\n \n\n\n\n•  \nRelease clip (1)\n \n\n\n\n\n\n•  \nRemove, then discard cable tie (2)"
+  ]
+}

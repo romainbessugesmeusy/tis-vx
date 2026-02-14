@@ -1,0 +1,36 @@
+{
+  "type": "procedure",
+  "id": "engine-check-for-leaks-co-content-in-the-cooling-system-z-22-A26D1C",
+  "title": "Engine, Check for Leaks (CO content in the cooling\nsystem) (Z 22 SE, Z 20 LET)",
+  "phases": [
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Engine at operating temperature (min. oil temperature 80 °C ).",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "With the engine running, place the tester on the coolant expansion tank.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "inspect",
+      "label": "Inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Operate the rubber bellows to extract air from the coolant expansion tank. No coolant must be allowed to be sucked into the tester. If the blue fluid in the upper chamber of the tester turns yellow, then the cylinder head gasket or the cylinder head is not leak–tight.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "type": "procedure",
+  "id": "door-trim-remove-and-install-AQS315",
+  "title": "Door Trim, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Shoulder pad (2) from door trim (1) – pull to release from clips.",
+          "image": {
+            "src": "/data/assets/images/ba2bcd750df3.jpg",
+            "alt": "Object Number: 2425111  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Window regulator handle (6) and plug (5) from door – four screws.",
+          "image": null,
+          "callouts": [
+            "6",
+            "5"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Hub (4) from trim insert panel (3) – screw.",
+          "image": null,
+          "callouts": [
+            "4",
+            "3"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Trim insert panel (3) from door trim (1) – pull to release from clips.",
+          "image": null,
+          "callouts": [
+            "3",
+            "1"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Interior handle trim panel (7) from door trim – pull to release from clips.",
+          "image": null,
+          "callouts": [
+            "7"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Door trim (1) from door – pull to release from clips.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 7,
+          "text": "Door trim to door – push on to engage clips.",
+          "image": {
+            "src": "/data/assets/images/ba2bcd750df3.jpg",
+            "alt": "Object Number: 2425111  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Interior handle trim panel to door trim – push on to engage clips.",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Trim insert panel to door trim – push on to engage clips.",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Hub to trim insert panel – screw.",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Window regulator handle and plug to door – four screws.",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Shoulder pad to door trim – push on to engage clips.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

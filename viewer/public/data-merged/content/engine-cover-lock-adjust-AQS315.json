@@ -1,0 +1,43 @@
+{
+  "type": "procedure",
+  "id": "engine-cover-lock-adjust-AQS315",
+  "title": "Engine Cover Lock, Adjust",
+  "phases": [
+    {
+      "phase": "measure",
+      "label": "Measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": []
+    },
+    {
+      "phase": "adjust",
+      "label": "Adjust",
+      "icon": "/data/assets/images/8bcc88ed08ca.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Measurement of striker pin (x) for engine cover. Measurement x = 58 ± 2.0 mm",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Measurement of striker pin (x) for engine cover if necessary.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Striker pin must enter centre of latch hook (1).",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Engine cover lock must be easy to open.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

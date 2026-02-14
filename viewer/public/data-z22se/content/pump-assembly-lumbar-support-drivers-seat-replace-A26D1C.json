@@ -1,0 +1,100 @@
+{
+  "type": "procedure",
+  "id": "pump-assembly-lumbar-support-drivers-seat-replace-A26D1C",
+  "title": "Pump Assembly, Lumbar Support, Drivers Seat,\nReplace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove pump (1) from valve (3)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a16ff3b171a3.jpg",
+            "alt": "Object Number: 2423048  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "3"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Release valve from support bracket (2) on drivers seat",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull out"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a16ff3b171a3.jpg",
+            "alt": "Object Number: 2423048  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Disconnect valve from hose (4)",
+          "image": {
+            "src": "/data/assets/images/a16ff3b171a3.jpg",
+            "alt": "Object Number: 2423048  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Install new valve to hose",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Secure valve to support bracket on drivers seat",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push on"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Install pump to valve",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push on"
+            }
+          ],
+          "image": null
+        }
+      ]
+    }
+  ]
+}

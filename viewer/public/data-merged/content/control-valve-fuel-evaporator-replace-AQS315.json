@@ -1,0 +1,201 @@
+{
+  "type": "procedure",
+  "id": "control-valve-fuel-evaporator-replace-AQS315",
+  "title": "Control Valve, Fuel Evaporator, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Raise vehicle to suitable working height",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove rear road wheel from right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use special socket located under front bonnet"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 4x wheel bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Remove right rear wheel arch liner",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x screw, 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Remove control valve for fuel evaporator",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release integral clip (4)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove, then discard cable tie (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/83751dc122f9.jpg",
+            "alt": "Object Number: 2422657  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Remove control valve from chassis support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove, then discard 2x nut (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 2x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/83751dc122f9.jpg",
+            "alt": "Object Number: 2422657  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 6,
+          "text": "Install control valve to chassis support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x washer"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 2x new nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Connect vacuum pipe to control valve",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Connect fuel evaporator canister hose to control valve",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install new cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Connect engine harness connector to control valve",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure integral clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Install right rear wheel arch liner",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x screw, 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Install rear wheel to right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt, security bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Do not tighten"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Remove vehicle support",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Secure rear road wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tighten 4x bolt, security bolt 90"
+            }
+          ],
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Secure rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 14
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

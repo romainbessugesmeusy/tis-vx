@@ -1,0 +1,107 @@
+{
+  "type": "procedure",
+  "id": "bearing-intermediate-shaft-in-clutch-housing-remove-and-inst-A26D1C",
+  "title": "Bearing, Intermediate Shaft in Clutch Housing,\nRemove and Install",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Illustration of Intermediate shaft bearing",
+          "image": {
+            "src": "/data/assets/images/d29ab0c9f333.jpg",
+            "alt": "Object Number: 2415587  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove transmission from vehicle - see operation \"Transmission, Remove and Install\"",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Disassemble transmission - see operation \"Transmission, Seal Completely\"",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Remove retaining ring (2) with retaining ring pliers (1)",
+          "image": {
+            "src": "/data/assets/images/449bd0629922.jpg",
+            "alt": "Object Number: 2415555  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Drive intermediate shaft bearing out of clutch housing (4) with KM-248 (3)",
+          "image": {
+            "src": "/data/assets/images/449bd0629922.jpg",
+            "alt": "Object Number: 2415555  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "3"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Clean all removed parts and check for wear and damage; replace if necessary",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Install intermediate shaft bearing into clutch housing (5) with KM-6119 (4) in conjunction with KM-523-1 (3)",
+          "image": {
+            "src": "/data/assets/images/925329266607.jpg",
+            "alt": "Object Number: 2415556  Size: DEFAULT"
+          },
+          "callouts": [
+            "5",
+            "4",
+            "3"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Install new retaining ring (2) with retaining ring pliers (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ensure correct seating of retaining ring in clutch housing"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/925329266607.jpg",
+            "alt": "Object Number: 2415556  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Assemble transmission - see operation \"Transmission, Seal Completely\"",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Install transmission into vehicle - see operation \"Transmission, Remove and Install\"",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "toolsRequired": [
+    "KM-248",
+    "KM-6119",
+    "KM-523-1"
+  ]
+}

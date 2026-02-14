@@ -1,0 +1,60 @@
+{
+  "type": "procedure",
+  "id": "fuel-filler-pipe-remove-and-install-A26D1C",
+  "title": "Fuel Filler Pipe, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Rear clamshell – see operation \"Rear Clamshell, Remove and Install\" in group A.",
+          "image": {
+            "src": "/data/assets/images/14023d041b48.jpg",
+            "alt": "Object Number: 2429770  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 2,
+          "text": "Hoses (arrowed) from fuel filler pipe – clips.",
+          "image": {
+            "src": "/data/assets/images/14023d041b48.jpg",
+            "alt": "Object Number: 2429770  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Fuel filler pipe from vehicle.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Fuel filler pipe to vehicle.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Hoses (arrowed) to fuel filler pipe – clips.",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Rear clamshell – see operation \"Rear Clamshell, Remove and Install\" in group A.",
+          "image": {
+            "src": "/data/assets/images/14023d041b48.jpg",
+            "alt": "Object Number: 2429770  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ]
+}

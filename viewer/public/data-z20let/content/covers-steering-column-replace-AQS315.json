@@ -1,0 +1,188 @@
+{
+  "type": "procedure",
+  "id": "covers-steering-column-replace-AQS315",
+  "title": "Covers, Steering Column, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Open bonnet",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove windscreen wash reservoir from mounting bracket",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Disconnect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Remove airbag assembly from steering wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Release harness connector"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ae506f81df45.jpg",
+            "alt": "Object Number: 2419663  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Disconnect harness connector for horn",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Remove steering wheel from steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Remove upper cover from steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 6x screw (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a0ee6ea9e112.jpg",
+            "alt": "Object Number: 2429520  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Remove lower cover from steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x screw (2), remove clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Release harness connector"
+            }
+          ],
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 9,
+          "text": "Install lower cover to steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure harness connector"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 3x screw, install clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Install upper cover to steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 6x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Install steering wheel to steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Connect harness connector for horn",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Install air bag assembly to steering wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure harness connector"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Connect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Install windscreen wash reservoir to mounting bracket",
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Close bonnet",
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Program all volatile memories",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

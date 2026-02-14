@@ -1,0 +1,272 @@
+{
+  "type": "procedure",
+  "id": "oil-cooler-adaptor-oil-filter-housing-replace-z-22-se-A26D1C",
+  "title": "Oil Cooler Adaptor, Oil Filter Housing, Replace (Z\n22 SE)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Disconnect harness connector (2) from oil pressure switch (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release integral clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Release cable tie (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1f0bc38be700.jpg",
+            "alt": "Object Number: 2422272  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Remove oil feed hose from oil cooler adaptor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release union nut (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0d8334abadbb.jpg",
+            "alt": "Object Number: 2422273  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Remove top cover (2) from oil filter housing, using Oil filter Wrench KM-6150 (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove, then discard O ring"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove oil filter element"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dce65b484dbf.jpg",
+            "alt": "Object Number: 2422274  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Remove oil cooler adaptor (3) from oil filter housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove securing ring (1), using Remover/Installer KM-6264"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove, then discard 2x sealing ring"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b550a953e2bf.jpg",
+            "alt": "Object Number: 2422275  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Remove adaptor for oil feed hose and oil pressure switch from oil cooler adaptor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove, then discard 2x sealing washer"
+            },
+            {
+              "bullet": "•",
+              "text": "Install collecting container under oil filter housing"
+            }
+          ],
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 6,
+          "text": "Install adaptor for oil feed hose and oil pressure switch to new oil cooler adaptor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure adaptor for oil feed hose with new sealing washer 18 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure oil pressure switch with new sealing washer 18 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Install oil cooler adaptor (3) with 2x new sealing ring to oil filter housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure securing ring (1), using Remover/Installer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b550a953e2bf.jpg",
+            "alt": "Object Number: 2422275  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Install top cover (2) with new O ring to oil filter housing, using Oil filter Wrench KM-6150 (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install oil filter element"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure top cover 25 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dce65b484dbf.jpg",
+            "alt": "Object Number: 2422274  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Install oil feed hose to oil cooler adaptor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Counter-hold oil cooler adaptor while securing union nut"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure union nut (1) 45 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0d8334abadbb.jpg",
+            "alt": "Object Number: 2422273  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Connect harness connector (2) to oil pressure switch (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure integral clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure cable tie (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1f0bc38be700.jpg",
+            "alt": "Object Number: 2422272  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "Check engine oil level, top up if required",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install adaptor for oil feed hose and oil pressure switch to new oil cooler adaptor",
+      "value": "18",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Install oil cooler adaptor (3) with 2x new sealing ring to oil filter housing",
+      "value": "120",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Install top cover (2) with new O ring to oil filter housing, using Oil filter Wrench KM-6150 (1)",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Install oil feed hose to oil cooler adaptor",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Secure adaptor for oil feed hose with new sealing washer 18 Nm",
+      "value": "18",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install, then secure securing ring (1), using Remover/Installer KM-6264 120 Nm",
+      "value": "120",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Secure top cover 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Secure union nut (1) 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-6150",
+    "KM-6264"
+  ],
+  "warnings": [
+    "If securing ring for\noil cooler adaptor, becomes loose while removing top cover, then\ncounter-hold using Holding Wrench KM-6416\n.",
+    "Observe correct\ninstallation side of new sealing rings, ridge sides uppermost."
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "type": "procedure",
+  "id": "brake-caliper-rear-overhaul-A26D1C",
+  "title": "Brake Caliper, Rear, Overhaul",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Brake caliper – see operation \"Brake Caliper, Rear, Remove and Install\".",
+          "image": {
+            "src": "/data/assets/images/2d0e71fcac03.jpg",
+            "alt": "Object Number: 2429419  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "clean",
+      "label": "Clean",
+      "icon": "/data/assets/images/d9fe69774efb.gif",
+      "steps": [
+        {
+          "number": 2,
+          "text": "Sleeve (3) from brake caliper.",
+          "image": {
+            "src": "/data/assets/images/2d0e71fcac03.jpg",
+            "alt": "Object Number: 2429419  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Split bush (4) and boot (5) from brake caliper.",
+          "image": null,
+          "callouts": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Boots (1) from bush (2).",
+          "image": null,
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Bush (2) from brake caliper.",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Guide bores in body of brake caliper with brake cleaner.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "inspect",
+      "label": "Inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": [
+        {
+          "number": 7,
+          "text": "Removed components – replace as necessary.",
+          "image": {
+            "src": "/data/assets/images/9317f4e1abc6.jpg",
+            "alt": "Object Number: 2429420  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 8,
+          "text": "Bush (2) to brake caliper – lubricate with silicone grease.",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Boots (1) to bush (2) – lubricate with silicone grease.",
+          "image": null,
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Boot (5) and split bush (4) to brake caliper – lubricate with silicone grease.",
+          "image": null,
+          "callouts": [
+            "5",
+            "4"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "Sleeve (3) to brake caliper – lubricate with silicone grease.",
+          "image": null,
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 12,
+          "text": "Brake caliper – see operation \"Brake Caliper, Rear, Remove and Install\".",
+          "image": {
+            "src": "/data/assets/images/2d0e71fcac03.jpg",
+            "alt": "Object Number: 2429419  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    }
+  ]
+}

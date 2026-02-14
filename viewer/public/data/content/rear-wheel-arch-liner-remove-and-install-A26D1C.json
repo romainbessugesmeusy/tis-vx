@@ -1,0 +1,99 @@
+{
+  "type": "procedure",
+  "id": "rear-wheel-arch-liner-remove-and-install-A26D1C",
+  "title": "Rear Wheel Arch Liner, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Secure both front wheels using chocks",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Raise and support the vehicle",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Remove the rear wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use special socket under the front bonnet"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Remove wheel arch liner",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 6 screws"
+            }
+          ],
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 5,
+          "text": "Install wheel arch liner",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 6 screws"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Install rear wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4 bolts, install locking bolt 90 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Remove support and lower vehicle",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Remove chocks",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install rear wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Install 4 bolts, install locking bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

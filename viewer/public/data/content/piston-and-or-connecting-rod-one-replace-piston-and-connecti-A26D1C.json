@@ -1,0 +1,90 @@
+{
+  "type": "procedure",
+  "id": "piston-and-or-connecting-rod-one-replace-piston-and-connecti-A26D1C",
+  "title": "Piston and or Connecting Rod (one), Replace\n(piston and connecting rod removed)",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Detach the piston from the connecting rod. Note: Note the installation position of the connecting rod and the piston.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove the snap ring (1)."
+            },
+            {
+              "bullet": "•",
+              "text": "Press out the piston pin."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f061f6d55480.jpg",
+            "alt": "Object Number: 2392963  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Attach the piston to the connecting rod.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Press in the piston pin (2)."
+            },
+            {
+              "bullet": "•",
+              "text": "Install the snap ring."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f061f6d55480.jpg",
+            "alt": "Object Number: 2392963  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Install the piston rings.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use new piston rings."
+            },
+            {
+              "bullet": "••",
+              "text": "Intermediate ring of the oil scraper ring in position, steel",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "First piston ring (rectangular–section ring) in\nposition"
+                },
+                {
+                  "bullet": "–",
+                  "text": "Second piston ring (Napier ring) in position"
+                },
+                {
+                  "bullet": "–",
+                  "text": "Intermediate ring of the oil scraper ring in position, steel\nband rings of the oil scraper ring in position"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/aafd38daccc6.jpg",
+            "alt": "Object Number: 2417766  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "The arrow on the\npiston crown points towards the timing chain end of the engine.",
+    "2.  \nAttach the piston to the connecting rod.\n \n\n\n\nThe arrow on the\npiston crown points towards the timing chain end of the engine.\n \n\n\n\n•  \nApply engine oil to the piston pin.\n \n\n\n\n\n\n•  \nPress in the piston pin (2).\n \n\n\n\n\n\n•  \nInstall the snap ring."
+  ],
+  "notes": [
+    "Detach the piston from the connecting rod.\n Note the\ninstallation position of the connecting rod and the piston.\n \n\n\n\n•  \nRemove the snap ring (1).\n \n\n\n\n\n\n•  \nPress out the piston pin.",
+    "Use new piston rings.\n During\ninstallation of the second piston ring (Napier ring): \"Punkt\" (=\npoint or dot) identification faces upwards."
+  ]
+}

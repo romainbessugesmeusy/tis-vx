@@ -1,0 +1,234 @@
+{
+  "type": "procedure",
+  "id": "side-pod-right-side-replace-z-20-let-AQS315",
+  "title": "Side Pod, Right Side, Replace (Z 20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Release rear road wheel from right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 4x bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Use special socket located under front bonnet"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Remove rear road wheel from right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x bolt, security bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Remove wheel arch liner from right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x screw, 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Remove insulation pad (1) from wheel arch",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a6b56640f954.jpg",
+            "alt": "Object Number: 2422236  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Release side pod from wheel arch",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove, then discard 2x nut (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 2x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8e1c0fd0f723.jpg",
+            "alt": "Object Number: 2422237  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Remove side pod from vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x screw (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/75508d8b601e.jpg",
+            "alt": "Object Number: 2422238  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 8,
+          "text": "Install grille (1) to new side pod",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use suitable bonding adhesive"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f1846a07339a.jpg",
+            "alt": "Object Number: 2423043  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Install side pod to vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x screw (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/75508d8b601e.jpg",
+            "alt": "Object Number: 2422238  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Secure side pod to wheel arch",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x washer"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 2x new nut (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8e1c0fd0f723.jpg",
+            "alt": "Object Number: 2422237  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 11,
+          "text": "Install insulation pad (1) to wheel arch",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push on"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a6b56640f954.jpg",
+            "alt": "Object Number: 2422236  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 12,
+          "text": "Install wheel arch liner to right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x screw, 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Install rear road wheel to right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then hand tighten 4x bolt, security bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Secure rear road wheel to right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 5x bolt 90 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Use special socket located under front bonnet"
+            }
+          ],
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Secure rear road wheel to right side",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 15
+    },
+    {
+      "component": "Secure 5x bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

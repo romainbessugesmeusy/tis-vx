@@ -1,0 +1,853 @@
+<div class="content"><h2>C-032 - Auxiliary Coolant Pump Circuit</h2>
+<table border="2" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+  <tr>
+    <td valign="top" align="center" width="12%" STYLE="font-weight:bold">
+      <p>Test</p>
+    </td>
+    <td valign="top" width="64%" STYLE="font-weight:bold">
+      <p>Work Order Description</p>
+    </td>
+    <td valign="top" width="24%" STYLE="font-weight:bold">
+      <p>Nominal Value</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="4">
+      <a name="5862-6-429457"></a>
+      <b>T001</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Ground/Interruption of Voltage Supply Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Ignition OFF</li>
+        <li>Remove electrical component from socket:<br>K82 Relay - Pump, Timing Control
+        </li>
+        <li>Measure voltage between the following terminals:<br>K82 Relay - Pump, Timing Control<br>Socket Terminal 2 (86)<br>&amp;<br>Ground
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>greater than 11&nbsp;V</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2" ACTION="">
+      <table cellspacing="0">
+        <tr>
+          <td width="12%" STYLE="text-align:center"><img STYLE="width:32;height:32" SRC="pic/cpr/v-measure.gif">
+          </td>
+          <td width="39%">Voltage Measurement</td>
+          <td STYLE="text-align:right">Current Value:</td>
+          <td width="10%"><INPUT TYPE="TEXT" name="AV0HJFGYGG" VALUE="" MAXLENGTH="255" SIZE="15">
+          </td>
+          <td>V</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('A5SG4AGTIG','1','5862-6-429463',null)">T002</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('A4TGFIGUGG','1','5862-6-429458',null)">T009</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="4">
+      <a name="5862-6-429463"></a>
+      <b>T002</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Interruption of Voltage Supply Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Measure voltage between the following terminals:<br>K82 Relay - Pump, Timing Control<br>Socket Terminal 1 (30)<br>&amp;<br>Ground
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>greater than 11&nbsp;V</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2" ACTION="">
+      <table cellspacing="0">
+        <tr>
+          <td width="12%" STYLE="text-align:center"><img STYLE="width:32;height:32" SRC="pic/cpr/v-measure.gif">
+          </td>
+          <td width="39%">Voltage Measurement</td>
+          <td STYLE="text-align:right">Current Value:</td>
+          <td width="10%"><INPUT TYPE="TEXT" name="A31HYAGBEG" VALUE="" MAXLENGTH="255" SIZE="15">
+          </td>
+          <td>V</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('AX2HUCG2IG','1','5862-6-429461',null)">T003</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('A40HDHGGAG','1','5862-6-429460',null)">E008</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429461"></a>
+      <b>T003</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Ground of Signal Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Connect test light to:<br>K82 Relay - Pump, Timing Control<br>Socket Terminal 4 (85)<br>&amp;<br>Socket Terminal 2 (86)
+        </li>
+        <li>Ignition ON</li>
+        <li>Select and enable diagnostic tester actuator test:<br>Auxiliary Cooling Pump Relay Test
+        </li>
+        <li>Press soft key INACTIVE</li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>Test light OFF?</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('AV2HPKGFCG','1','5862-6-429464',null)">T004</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('AKTGJKG9BG','1','5862-6-429462',null)">E007</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429464"></a>
+      <b>T004</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Interruption of Signal Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Press soft key ACTIVE</li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>Test light ON?</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('ALWGODG8AG','1','5862-6-429466',null)">T005</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('ADUGMFGTHG','1','5862-6-429465',null)">E006</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="4">
+      <a name="5862-6-429466"></a>
+      <b>T005</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Voltage of Voltage Supply Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Remove test light</li>
+        <li>Measure voltage between the following terminals:<br>K82 Relay - Pump, Timing Control<br>Socket Terminal 3 (87)<br>&amp;<br>Ground
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>less than 0.3&nbsp;V</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2" ACTION="">
+      <table cellspacing="0">
+        <tr>
+          <td width="12%" STYLE="text-align:center"><img STYLE="width:32;height:32" SRC="pic/cpr/v-measure.gif">
+          </td>
+          <td width="39%">Voltage Measurement</td>
+          <td STYLE="text-align:right">Current Value:</td>
+          <td width="10%"><INPUT TYPE="TEXT" name="A4VGDGGCCG" VALUE="" MAXLENGTH="255" SIZE="15">
+          </td>
+          <td>V</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('A9SG8EGAJG','1','5862-6-429469',null)">T006</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('AT2HVGGJFG','1','5862-6-429467',null)">E005</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429469"></a>
+      <b>T006</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Interruption of Voltage Supply Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Connect fused jumper wire to:<br>K82 Relay - Pump, Timing Control<br>Socket Terminal 3 (87)<br>&amp;<br>Socket Terminal 1 (30)
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>Is the following component switched on?</p>
+      <p>M55 Pump - Timing Control</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('A8SGAGGZHG','1','5862-6-429470',null)">T007</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('AP1H7CGRIG','1','5862-6-429472',null)">T008</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="4">
+      <a name="5862-6-429470"></a>
+      <b>T007</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Voltage of Signal Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Ignition OFF</li>
+        <li>Disconnect wiring harness connector from:<br>A5 Control Unit - Motronic
+        </li>
+        <li>Ignition ON</li>
+        <li>Measure voltage between the following terminals:<br>K82 Relay - Pump, Timing Control<br>Socket Terminal 4 (85)<br>&amp;<br>Ground
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>less than 0.3&nbsp;V</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2" ACTION="">
+      <table cellspacing="0">
+        <tr>
+          <td width="12%" STYLE="text-align:center"><img STYLE="width:32;height:32" SRC="pic/cpr/v-measure.gif">
+          </td>
+          <td width="39%">Voltage Measurement</td>
+          <td STYLE="text-align:right">Current Value:</td>
+          <td width="10%"><INPUT TYPE="TEXT" name="A92HACGZJG" VALUE="" MAXLENGTH="255" SIZE="15">
+          </td>
+          <td>V</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('AK2HBEGEJG','1','5862-6-429471',null)">E001</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('ARZGJCGUCG','1','5862-6-429468',null)">E002</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="4">
+      <a name="5862-6-429472"></a>
+      <b>T008</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Interruption of Voltage Supply Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Do not remove fused jumper wire</li>
+        <li>Disconnect wiring harness connector from:<br>M55 Pump - Timing Control
+        </li>
+        <li>Measure voltage between the following terminals:<br>M55 Pump - Timing Control<br>Wiring harness connector (wiring harness side) terminal 2<br>&amp;<br>Ground
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>greater than 11&nbsp;V</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2" ACTION="">
+      <table cellspacing="0">
+        <tr>
+          <td width="12%" STYLE="text-align:center"><img STYLE="width:32;height:32" SRC="pic/cpr/v-measure.gif">
+          </td>
+          <td width="39%">Voltage Measurement</td>
+          <td STYLE="text-align:right">Current Value:</td>
+          <td width="10%"><INPUT TYPE="TEXT" name="AHZGCFGIDG" VALUE="" MAXLENGTH="255" SIZE="15">
+          </td>
+          <td>V</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('AF0H8JG6EG','1','5862-6-429451',null)">E003</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('ASWGOIGVCG','1','5862-6-429473',null)">E004</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429458"></a>
+      <b>T009</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Ground/Interruption of Voltage Supply Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Remove electrical component from socket:<br>FR3 Fuse
+        </li>
+        <li>Check the following component for proper operation:<br>FR3 Fuse
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>Test okay?</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('APVG3GGDEG','1','5862-6-429459',null)">E009</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('AZRGAJGSHG','1','5862-6-429474',null)">T010</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429474"></a>
+      <b>T010</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Ground of Voltage Supply Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Insert new fuse FR3 and then check the fuse for proper operation.</li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>Test okay?</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('AEZG7GGNFG','1','5862-6-429453',null)">T011</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('AGYGEGGAEG','1','5862-6-429452',null)">E012</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429453"></a>
+      <b>T011</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold" colspan="2">
+      <p>Check: Short to Ground of Voltage Supply Circuit</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Connect fused jumper wire to:<br>K82 Relay - Pump, Timing Control<br>Socket Terminal 3 (87)<br>&amp;<br>Battery voltage
+        </li>
+        <li>Check the following component for proper operation:<br>Fuse of the fused jumper wire
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <p>Test okay?</p>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="vertical-align:top;background-color:rgb(196,196,196)" colspan="2">
+      <table border="0" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+        <tr>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">Yes: 
+              <a href="javascript:TFormSubmit('A0XG1FG3AG','1','5862-6-429454',null)">E010</a>
+            </font>
+          </td>
+          <td STYLE="vertical-align:top;width:50%">
+            <font STYLE="font-weight:bold;color:black">No: 
+              <a href="javascript:TFormSubmit('A2TG1LG8GG','1','5862-6-429455',null)">E011</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table><br><br>
+<table border="2" width="100%" cellspacing="0" BORDERCOLOR="#000000" STYLE="empty-cells:show">
+  <tr>
+    <td valign="top" align="center" width="12%" STYLE="font-weight:bold">
+      <p>Result</p>
+    </td>
+    <td STYLE="vertical-align:top;font-weight:bold">
+      <p>Cause Of Fault</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429471"></a>
+      <b>E001</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Defective Component</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Defective component:<br>K82 Relay - Pump, Timing Control
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AO1HUBGBIG','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429468"></a>
+      <b>E002</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Short to Voltage</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Short circuit to voltage between:<br>K82 Relay - Pump, Timing Control<br>Socket Terminal 4 (85)<br>&amp;<br>A5 Control Unit - Motronic<br>Wiring harness connector (wiring harness side) terminal 45 (X31)
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('ABTGPHG0IG','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429451"></a>
+      <b>E003</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Defective Component</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Circuit interruption between:<br>M55 Pump - Timing Control<br>Wiring harness connector (wiring harness side) terminal 1<br>&amp;<br>Ground
+        </li>
+      </ul>
+      <p>or</p>
+      <ul>
+        <li>Defective component:<br>M55 Pump - Timing Control
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('A9TG6FGLIG','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429473"></a>
+      <b>E004</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Interruption</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Circuit interruption between:<br>K82 Relay - Pump, Timing Control<br>Socket Terminal 3 (87)<br>&amp;<br>M55 Pump - Timing Control<br>Wiring harness connector (wiring harness side) terminal 2
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AFWGSEG0HG','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429467"></a>
+      <b>E005</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Defective Component</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Short circuit to voltage between:<br>K82 Relay - Pump, Timing Control<br>Socket Terminal 3 (87)<br>&amp;<br>M55 Pump - Timing Control<br>Wiring harness connector (wiring harness side) terminal 2
+        </li>
+      </ul>
+      <p>or</p>
+      <ul>
+        <li>Defective component:<br>M55 Pump - Timing Control
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AX0HZBG6DG','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429465"></a>
+      <b>E006</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Short to Voltage/Interruption</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Short circuit to voltage/interruption of circuit between:<br>K82 Relay - Pump, Timing Control<br>Socket Terminal 4 (85)<br>&amp;<br>A5 Control Unit - Motronic<br>Wiring harness connector (wiring harness side) terminal 45 (X31)
+        </li>
+      </ul>
+      <p>or</p>
+      <ul>
+        <li>Defective component:<br>A5 Control Unit - Motronic
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AZTGMIG2GG','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429462"></a>
+      <b>E007</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Short to Ground</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Short circuit to ground between:<br>K82 Relay - Pump, Timing Control<br>Socket Terminal 4 (85)<br>&amp;<br>A5 Control Unit - Motronic<br>Wiring harness connector (wiring harness side) terminal 45 (X31)
+        </li>
+      </ul>
+      <p>or</p>
+      <ul>
+        <li>Defective component:<br>A5 Control Unit - Motronic
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AI2H4KGZCG','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429460"></a>
+      <b>E008</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Interruption</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Circuit interruption between:<br>FR3 Fuse<br>Output contact<br>&amp;<br>K82 Relay - Pump, Timing Control<br>Socket Terminal 1 (30)
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('A03H3EGNGG','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429459"></a>
+      <b>E009</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Interruption</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Circuit interruption between:<br>FL4 Fuse<br>Output contact<br>&amp;<br>FR3 Fuse<br>Input contact
+        </li>
+      </ul>
+      <p>or</p>
+      <ul>
+        <li>Circuit interruption between:<br>FR3 Fuse<br>Output contact<br>&amp;<br>K82 Relay - Pump, Timing Control<br>Socket Terminal 2 (86)
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AJYGGEG7BG','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429454"></a>
+      <b>E010</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Defective Component</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Defective component:<br>K82 Relay - Pump, Timing Control
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AR0HEHG6IG','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429455"></a>
+      <b>E011</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Defective Component</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Short circuit to ground between:<br>K82 Relay - Pump, Timing Control<br>Socket Terminal 3 (87)<br>&amp;<br>M55 Pump - Timing Control<br>Wiring harness connector (wiring harness side) terminal 2
+        </li>
+      </ul>
+      <p>or</p>
+      <ul>
+        <li>Defective component:<br>M55 Pump - Timing Control
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AMSG8HG5BG','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="center" rowspan="3">
+      <a name="5862-6-429452"></a>
+      <b>E012</b>
+    </td>
+    <td STYLE="vertical-align:top;color:red;font-weight:bold">
+      <b>Result: Short to Ground</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>Short circuit to ground between:<br>FR3 Fuse<br>Output contact<br>&amp;<br>K82 Relay - Pump, Timing Control<br>Socket Terminal 1 (30), 2 (86)
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td STYLE="background-color:rgb(196,196,196)">
+      <font STYLE="font-weight:bold;color:black">
+        <a href="javascript:TFormSubmit('AH1H8AGIJG','1','',null)">Repair done</a>
+      </font>
+    </td>
+  </tr>
+</table><br><br><br><br><br></div>

@@ -1,0 +1,47 @@
+{
+  "type": "procedure",
+  "id": "window-regulator-mechanism-door-remove-and-install-AQS315",
+  "title": "Window Regulator Mechanism, Door, Remove and\nInstall",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Door window from door – see operation \"Door Window, Remove and Install\".",
+          "image": {
+            "src": "/data/assets/images/68b0d881c7d4.jpg",
+            "alt": "Object Number: 2429797  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 2,
+          "text": "Window regulator mechanism from door – bolts, washers.",
+          "image": {
+            "src": "/data/assets/images/68b0d881c7d4.jpg",
+            "alt": "Object Number: 2429797  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Window regulator mechanism to door – bolts, washers.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Door window to door.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

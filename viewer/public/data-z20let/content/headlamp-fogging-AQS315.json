@@ -1,0 +1,22 @@
+{
+  "type": "tsb",
+  "id": "headlamp-fogging-AQS315",
+  "title": "Field Remedy: 1469",
+  "subject": "Headlamp - Fogging",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "N - Electrical Equipment",
+    "complaintGroup": "12 - Misting",
+    "troubleCode": "None"
+  },
+  "complaint": "Condensation in the headlamps.",
+  "cause": "Due to physical reasons it is possible that\ncondensation in the headlamps appears.",
+  "production": "",
+  "remedyContent": [
+    {
+      "type": "paragraph",
+      "text": "Information has been updated. Please view TSB 1598"
+    }
+  ]
+}

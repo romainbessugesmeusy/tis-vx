@@ -1,0 +1,31 @@
+{
+  "type": "harness_diagram",
+  "id": "passenger-compartment-centre-console-leg-room-AQS315",
+  "title": "Passenger compartment - Centre console / Leg room",
+  "diagram": {
+    "src": "/data/assets/converted/4acc93133242.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "B2",
+      "description": "Switch - Parking brake"
+    },
+    {
+      "code": "H11",
+      "description": "Indicator - Anti-theft warning system"
+    },
+    {
+      "code": "B19",
+      "description": "Sensor - Pedal position"
+    },
+    {
+      "code": "R10",
+      "description": "Cigarette lighter"
+    },
+    {
+      "code": "X13",
+      "description": "Diagnostic link"
+    }
+  ]
+}

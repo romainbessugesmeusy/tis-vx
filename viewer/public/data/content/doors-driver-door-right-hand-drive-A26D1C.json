@@ -1,0 +1,19 @@
+{
+  "type": "harness_diagram",
+  "id": "doors-driver-door-right-hand-drive-A26D1C",
+  "title": "Doors - Driver door",
+  "diagram": {
+    "src": "/data/assets/7e989bc71325.cgm",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "M2",
+      "description": "Motor - Central locking, driver door"
+    },
+    {
+      "code": "X14",
+      "description": "Main harness & Driver door"
+    }
+  ]
+}

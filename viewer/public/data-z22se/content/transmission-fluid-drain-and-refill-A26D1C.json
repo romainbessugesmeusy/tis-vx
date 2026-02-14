@@ -1,0 +1,46 @@
+{
+  "type": "procedure",
+  "id": "transmission-fluid-drain-and-refill-A26D1C",
+  "title": "Transmission Fluid, Drain and Refill",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Drain plug (1) from transmission – drain fluid into suitable container.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Drain plug to transmission – 35 Nm .",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Refill transmission to correct level – see operation \"Transmission Fluid Level, Check and Correct\".",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Drain plug to transmission – 35 Nm .",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 2
+    }
+  ]
+}

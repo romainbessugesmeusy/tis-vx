@@ -1,0 +1,67 @@
+{
+  "type": "procedure",
+  "id": "telltale-switch-handbrake-replace-A26D1C",
+  "title": "Telltale Switch, Handbrake, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Rear console – screws and harness connector.",
+          "image": {
+            "src": "/data/assets/images/84d178e1889c.jpg",
+            "alt": "Object Number: 2429725  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Middle console from around handbrake and gearshift levers - screws.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Telltale switch (inset) from handbrake support bracket - bolt/nut and washer.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Harness connector from switch.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 5,
+          "text": "Harness connector to switch.",
+          "image": {
+            "src": "/data/assets/images/84d178e1889c.jpg",
+            "alt": "Object Number: 2429725  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Switch to handbrake support bracket – bolt/nut and washer.",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Middle console around handbrake and gear lever – screws.",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Rear console – screws and harness connector.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

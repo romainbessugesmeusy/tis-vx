@@ -1,0 +1,23 @@
+{
+  "type": "harness_diagram",
+  "id": "power-train-engine-transmission-side-engine-z22se-A26D1C",
+  "title": "Power train - Engine, transmission side",
+  "diagram": {
+    "src": "/data/assets/88d4bdf64b26.cgm",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "B12",
+      "description": "Sensor - Coolant temperature"
+    },
+    {
+      "code": "C1",
+      "description": "Condensor - Ignition coil"
+    },
+    {
+      "code": "B117",
+      "description": "Sensor - Oxygen, mixture control, heated"
+    }
+  ]
+}

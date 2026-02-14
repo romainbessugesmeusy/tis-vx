@@ -1,0 +1,75 @@
+{
+  "type": "harness_diagram",
+  "id": "heating-A26D1C",
+  "title": "heating-A26D1C",
+  "diagram": {
+    "src": "/data/assets/9c69d71cda65.cgm",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "E39",
+      "description": "Lamp - Passenger compartment"
+    },
+    {
+      "code": "S22",
+      "description": "Switch - Wiper unit"
+    },
+    {
+      "code": "K10",
+      "description": "Relay - Wiper, windscreen (Stage 1/Interval)"
+    },
+    {
+      "code": "S22.1",
+      "description": "Switch - Wiper, windscreen"
+    },
+    {
+      "code": "M12",
+      "description": "Motor - Blower, passenger compartment"
+    },
+    {
+      "code": "S22.2",
+      "description": "Switch - Washer, windscreen"
+    },
+    {
+      "code": "M16",
+      "description": "Motor - Wiper, windscreen"
+    },
+    {
+      "code": "S38",
+      "description": "Contact switch - Driver door"
+    },
+    {
+      "code": "M26",
+      "description": "Pump - Washer, windscreen"
+    },
+    {
+      "code": "S39",
+      "description": "Contact switch - Front passenger door"
+    },
+    {
+      "code": "R10",
+      "description": "Cigarette lighter"
+    },
+    {
+      "code": "S69",
+      "description": "Switch - Blower, heating"
+    },
+    {
+      "code": "R11",
+      "description": "Preresistor - Blower, heating"
+    },
+    {
+      "code": "X10",
+      "description": "Main harness & Interior fan"
+    },
+    {
+      "code": "X26",
+      "description": "Main harness & Extension harness, contact switch - Front passenger door"
+    },
+    {
+      "code": "X25",
+      "description": "Main harness & Extension harness, contact switch - Driver door"
+    }
+  ]
+}

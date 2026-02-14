@@ -559,7 +559,7 @@ function hasMatchingDescendant(childIds, query, nodes) {
 }
 
 // Mixed column component - renders group folders as labels AND other folders as clickable items
-function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, activeDocId, searchQuery, onFolderClick, selectedId, onDocumentSelect }) {
+function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, selectedEngine, visibleNodeIds, activeDocId, searchQuery, onFolderClick, selectedId, onDocumentSelect }) {
   // Track collapsed state for each group - initialize from localStorage
   const [collapsedGroups, setCollapsedGroups] = useState(() => {
     try {
@@ -698,7 +698,7 @@ function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, activeDoc
           {visibleOthers.map(({ id, node }) => {
             const isSelected = selectedId === id
             const isLeaf = node.isLeaf
-            const slug = isLeaf ? tocIdToSlug[id] : null
+            const slug = isLeaf ? getLeafSlug(node, id, tocIdToSlug, selectedEngine) : null
             const isActive = slug === activeDocId
 
             return (
@@ -740,7 +740,8 @@ function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, activeDoc
       {/* Render group folders as labels with documents (at the bottom) */}
       {visibleGroups.map(({ id, node, directLeavesOnly }) => {
         const style = getGroupStyle(node.title)
-        const { leaves: directLeaves, nestedGroups } = collectGroupLeaves(node, nodes)
+        let { leaves: directLeaves, nestedGroups } = collectGroupLeaves(node, nodes)
+        if (visibleNodeIds) directLeaves = directLeaves.filter(({ id: leafId }) => visibleNodeIds.has(leafId))
         
         // Get leaves - if directLeavesOnly, only show direct leaves
         const leaves = directLeavesOnly ? directLeaves : directLeaves
@@ -752,7 +753,7 @@ function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, activeDoc
         // Single item: render as direct link with group icon/color
         if (filteredLeaves.length === 1) {
           const { id: leafId, node: leafNode } = filteredLeaves[0]
-          const slug = tocIdToSlug[leafId]
+          const slug = getLeafSlug(leafNode, leafId, tocIdToSlug, selectedEngine)
           const isActive = slug === activeDocId
 
           return (
@@ -800,7 +801,7 @@ function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, activeDoc
             {!isCollapsed && (
               <ul className="column-group-items">
                 {filteredLeaves.map(({ id: leafId, node: leafNode }) => {
-                  const slug = tocIdToSlug[leafId]
+                  const slug = getLeafSlug(leafNode, leafId, tocIdToSlug, selectedEngine)
                   const isActive = slug === activeDocId
 
                   return (
@@ -834,7 +835,7 @@ function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, activeDoc
 }
 
 // Column-based navigation component (macOS Finder style)
-function ColumnNav({ roots, nodes, tocIdToSlug, searchQuery, maxVisibleColumns = Infinity, onDocumentSelect, externalNavPath, onExternalNavComplete }) {
+function ColumnNav({ roots, nodes, tocIdToSlug, selectedEngine, visibleNodeIds, searchQuery, maxVisibleColumns = Infinity, onDocumentSelect, externalNavPath, onExternalNavComplete }) {
   const navigate = useNavigate()
   const { id: activeDocId } = useParams()
   const containerRef = useRef(null)
@@ -1075,10 +1076,11 @@ function ColumnNav({ roots, nodes, tocIdToSlug, searchQuery, maxVisibleColumns =
   const columns = useMemo(() => {
     const cols = []
     
-    // First column: root items
+    // First column: root items (filter by visibleNodeIds when engine filter active)
+    const rootItems = roots.map(id => ({ id, node: nodes[id] })).filter(item => item.node && (!visibleNodeIds || visibleNodeIds.has(item.id)))
     cols.push({
       type: 'normal',
-      items: roots.map(id => ({ id, node: nodes[id] })).filter(item => item.node),
+      items: rootItems,
       selectedId: selectedPath[0] || null
     })
 
@@ -1090,8 +1092,11 @@ function ColumnNav({ roots, nodes, tocIdToSlug, searchQuery, maxVisibleColumns =
       if (selectedNode && selectedNode.children && selectedNode.children.length > 0) {
         // Check if this node has any group folder children
         if (hasAnyGroupChildren(selectedId)) {
-          const { groups, others } = separateChildren(selectedId)
-          
+          let { groups, others } = separateChildren(selectedId)
+          if (visibleNodeIds) {
+            groups = groups.filter(({ id }) => visibleNodeIds.has(id))
+            others = others.filter(({ id }) => visibleNodeIds.has(id))
+          }
           // Render a mixed column with group labels and regular folders
           cols.push({
             type: 'mixed',
@@ -1113,9 +1118,10 @@ function ColumnNav({ roots, nodes, tocIdToSlug, searchQuery, maxVisibleColumns =
           // Stop here - either nothing selected or a group folder selected (which shows docs inline)
           break
         } else {
+          const childItems = selectedNode.children.map(id => ({ id, node: nodes[id] })).filter(item => item.node && (!visibleNodeIds || visibleNodeIds.has(item.id)))
           cols.push({
             type: 'normal',
-            items: selectedNode.children.map(id => ({ id, node: nodes[id] })).filter(item => item.node),
+            items: childItems,
             selectedId: selectedPath[i + 1] || null
           })
         }
@@ -1123,7 +1129,7 @@ function ColumnNav({ roots, nodes, tocIdToSlug, searchQuery, maxVisibleColumns =
     }
 
     return cols
-  }, [roots, nodes, selectedPath, hasAnyGroupChildren, separateChildren])
+  }, [roots, nodes, selectedPath, hasAnyGroupChildren, separateChildren, visibleNodeIds])
 
   // Auto-scroll to show new columns when they're added
   useEffect(() => {
@@ -1223,6 +1229,8 @@ function ColumnNav({ roots, nodes, tocIdToSlug, searchQuery, maxVisibleColumns =
               otherFolders={col.otherFolders}
               nodes={nodes}
               tocIdToSlug={tocIdToSlug}
+              selectedEngine={selectedEngine}
+              visibleNodeIds={visibleNodeIds}
               activeDocId={activeDocId}
               searchQuery={searchQuery}
               onFolderClick={(nodeId) => handleMixedFolderClick(nodeId, colIndex)}
@@ -1239,7 +1247,7 @@ function ColumnNav({ roots, nodes, tocIdToSlug, searchQuery, maxVisibleColumns =
               {filterItems(col.items).map(({ id, node }) => {
                 const isSelected = col.selectedId === id
                 const isLeaf = node.isLeaf
-                const slug = isLeaf ? tocIdToSlug[id] : null
+                const slug = isLeaf ? getLeafSlug(node, id, tocIdToSlug, selectedEngine) : null
                 const isActive = slug === activeDocId
 
                 return (
@@ -1283,8 +1291,17 @@ function ColumnNav({ roots, nodes, tocIdToSlug, searchQuery, maxVisibleColumns =
   )
 }
 
+// Resolve document slug for a leaf (supports multi-engine variants)
+function getLeafSlug(node, nodeId, tocIdToSlug, selectedEngine) {
+  if (node.variants && typeof node.variants === 'object') {
+    if (selectedEngine && node.variants[selectedEngine]?.slug) return node.variants[selectedEngine].slug
+    return node.variants.Z20LET?.slug || node.variants.Z22SE?.slug || tocIdToSlug?.[nodeId]
+  }
+  return tocIdToSlug?.[nodeId]
+}
+
 // Tree group component - renders a group folder with special styling
-function TreeGroup({ nodeId, node, nodes, tocIdToSlug, expandedNodes, toggleNode, searchQuery }) {
+function TreeGroup({ nodeId, node, nodes, tocIdToSlug, selectedEngine, visibleNodeIds, expandedNodes, toggleNode, searchQuery }) {
   const isExpanded = expandedNodes.has(nodeId)
   const style = getGroupStyle(node.title)
   
@@ -1294,11 +1311,12 @@ function TreeGroup({ nodeId, node, nodes, tocIdToSlug, expandedNodes, toggleNode
     if (!node.children) return result
     
     node.children.forEach(childId => {
+      if (visibleNodeIds && !visibleNodeIds.has(childId)) return
       const child = nodes[childId]
       if (!child) return
       
       if (child.isLeaf) {
-        const slug = tocIdToSlug[childId]
+        const slug = getLeafSlug(child, childId, tocIdToSlug, selectedEngine)
         if (slug) {
           result.leaves.push({ id: childId, node: child, slug })
         }
@@ -1308,7 +1326,7 @@ function TreeGroup({ nodeId, node, nodes, tocIdToSlug, expandedNodes, toggleNode
     })
     
     return result
-  }, [node.children, nodes, tocIdToSlug])
+  }, [node.children, nodes, tocIdToSlug, selectedEngine, visibleNodeIds])
   
   // Filter leaves by search
   const filteredLeaves = useMemo(() => {
@@ -1336,6 +1354,8 @@ function TreeGroup({ nodeId, node, nodes, tocIdToSlug, expandedNodes, toggleNode
             node={nestedNode}
             nodes={nodes}
             tocIdToSlug={tocIdToSlug}
+            selectedEngine={selectedEngine}
+            visibleNodeIds={visibleNodeIds}
             expandedNodes={expandedNodes}
             toggleNode={toggleNode}
             searchQuery={searchQuery}
@@ -1396,6 +1416,8 @@ function TreeGroup({ nodeId, node, nodes, tocIdToSlug, expandedNodes, toggleNode
               node={nestedNode}
               nodes={nodes}
               tocIdToSlug={tocIdToSlug}
+              selectedEngine={selectedEngine}
+              visibleNodeIds={visibleNodeIds}
               expandedNodes={expandedNodes}
               toggleNode={toggleNode}
               searchQuery={searchQuery}
@@ -1408,16 +1430,17 @@ function TreeGroup({ nodeId, node, nodes, tocIdToSlug, expandedNodes, toggleNode
 }
 
 // Recursive tree node component
-function TreeNode({ nodeId, nodes, tocIdToSlug, expandedNodes, toggleNode, searchQuery }) {
+function TreeNode({ nodeId, nodes, tocIdToSlug, selectedEngine, visibleNodeIds, expandedNodes, toggleNode, searchQuery }) {
   const node = nodes[nodeId]
   if (!node) return null
+  if (visibleNodeIds && !visibleNodeIds.has(nodeId)) return null
 
   const isExpanded = expandedNodes.has(nodeId)
   const hasChildren = node.children && node.children.length > 0
 
-  // For leaf nodes, look up the slug directly from tocIdToSlug
+  // For leaf nodes, look up the slug (from variants or tocIdToSlug)
   if (node.isLeaf) {
-    const slug = tocIdToSlug[nodeId]
+    const slug = getLeafSlug(node, nodeId, tocIdToSlug, selectedEngine)
     if (!slug) return null  // No matching document
 
     // Filter by search query
@@ -1427,13 +1450,18 @@ function TreeNode({ nodeId, nodes, tocIdToSlug, expandedNodes, toggleNode, searc
       if (!matchesSearch) return null
     }
 
+    const engineBadge = node.engines?.length === 1
+      ? (node.engines[0] === 'Z20LET' ? <span className="engine-badge engine-badge-turbo">Turbo</span> : node.engines[0] === 'Z22SE' ? <span className="engine-badge engine-badge-na">NA</span> : null)
+      : null
+
     return (
       <li className="tree-leaf" data-tree-node-id={nodeId}>
         <NavLink
           to={`/doc/${slug}`}
           className={({ isActive }) => `nav-link document-leaf ${isActive ? 'active' : ''}`}
         >
-          {node.title}
+          <span className="tree-leaf-label">{node.title}</span>
+          {engineBadge}
         </NavLink>
       </li>
     )
@@ -1447,6 +1475,8 @@ function TreeNode({ nodeId, nodes, tocIdToSlug, expandedNodes, toggleNode, searc
         node={node}
         nodes={nodes}
         tocIdToSlug={tocIdToSlug}
+        selectedEngine={selectedEngine}
+        visibleNodeIds={visibleNodeIds}
         expandedNodes={expandedNodes}
         toggleNode={toggleNode}
         searchQuery={searchQuery}
@@ -1475,24 +1505,22 @@ function TreeNode({ nodeId, nodes, tocIdToSlug, expandedNodes, toggleNode, searc
     return { groupChildren: groups, regularChildren: regular }
   }, [node.children, nodes, hasChildren])
 
-  // Filter visible children based on search
+  // Filter visible children based on search and engine
   const visibleRegularChildren = useMemo(() => {
-    if (!searchQuery) return regularChildren
-    
-    return regularChildren.filter(childId => {
+    let list = regularChildren
+    if (visibleNodeIds) list = list.filter(id => visibleNodeIds.has(id))
+    if (!searchQuery) return list
+    return list.filter(childId => {
       const child = nodes[childId]
       if (!child) return false
-      
       if (child.isLeaf) {
-        const slug = tocIdToSlug[childId]
+        const slug = getLeafSlug(child, childId, tocIdToSlug, selectedEngine)
         if (!slug) return false
         return child.title.toLowerCase().includes(searchQuery.toLowerCase())
       }
-      
-      // For folders, always include (recursive filtering will handle visibility)
       return true
     })
-  }, [regularChildren, nodes, tocIdToSlug, searchQuery])
+  }, [regularChildren, nodes, tocIdToSlug, searchQuery, visibleNodeIds, selectedEngine])
 
   // Check if any descendants match the search
   const hasVisibleDescendants = useMemo(() => {
@@ -1543,6 +1571,8 @@ function TreeNode({ nodeId, nodes, tocIdToSlug, expandedNodes, toggleNode, searc
                 node={childNode}
                 nodes={nodes}
                 tocIdToSlug={tocIdToSlug}
+                selectedEngine={selectedEngine}
+                visibleNodeIds={visibleNodeIds}
                 expandedNodes={expandedNodes}
                 toggleNode={toggleNode}
                 searchQuery={searchQuery}
@@ -1556,6 +1586,8 @@ function TreeNode({ nodeId, nodes, tocIdToSlug, expandedNodes, toggleNode, searc
               nodeId={childId}
               nodes={nodes}
               tocIdToSlug={tocIdToSlug}
+              selectedEngine={selectedEngine}
+              visibleNodeIds={visibleNodeIds}
               expandedNodes={expandedNodes}
               toggleNode={toggleNode}
               searchQuery={searchQuery}
@@ -1568,17 +1600,20 @@ function TreeNode({ nodeId, nodes, tocIdToSlug, expandedNodes, toggleNode, searc
 }
 
 // Fallback: Group sections by category when no tree structure exists
-function CategoryView({ sections, searchQuery }) {
+function CategoryView({ sections, searchQuery, selectedEngine }) {
   const groupedSections = useMemo(() => {
     const groups = {}
-    sections.forEach(section => {
-      if (!groups[section.category]) {
-        groups[section.category] = []
-      }
-      groups[section.category].push(section)
+    let list = sections || []
+    if (selectedEngine) {
+      list = list.filter(s => s.engines && s.engines.includes(selectedEngine))
+    }
+    list.forEach(section => {
+      const cat = section.category || 'Other'
+      if (!groups[cat]) groups[cat] = []
+      groups[cat].push(section)
     })
     return groups
-  }, [sections])
+  }, [sections, selectedEngine])
 
   const filteredGroups = useMemo(() => {
     if (!searchQuery.trim()) {
@@ -1644,7 +1679,7 @@ const isValidRootFolder = (node) => {
   return sectionPattern.test(title) || generalPattern.test(title)
 }
 
-function Sidebar({ sections, tree, tocIdToSlug, isColumnLayout, isMobile, isTablet, isOpen, onClose, externalNavPath, onExternalNavComplete }) {
+function Sidebar({ sections, tree, tocIdToSlug, contentTypeStats, selectedEngine, isColumnLayout, isMobile, isTablet, isOpen, onClose, externalNavPath, onExternalNavComplete }) {
   const [searchQuery, setSearchQuery] = useState('')
   const [epcSearchQuery, setEpcSearchQuery] = useState('')
   const { id: activeDocId } = useParams()
@@ -1828,15 +1863,43 @@ function Sidebar({ sections, tree, tocIdToSlug, isColumnLayout, isMobile, isTabl
     }
   }, [showMobileMenu, onClose, navigate])
 
-  // Filter tree roots to only include actual TIS section folders
+  // When selectedEngine is set, only show nodes that apply to that engine (or have visible descendants)
+  const visibleNodeIds = useMemo(() => {
+    if (!tree?.nodes) return null
+    if (!selectedEngine) return null
+    const nodes = tree.nodes
+    const visible = new Set()
+    const collectLeaves = (nodeId) => {
+      const node = nodes[nodeId]
+      if (!node) return
+      if (node.isLeaf) {
+        if (node.engines && node.engines.includes(selectedEngine)) visible.add(nodeId)
+      } else (node.children || []).forEach(collectLeaves)
+    }
+    ;(tree.roots || []).forEach(collectLeaves)
+    const addAncestors = (nodeId) => {
+      const node = nodes[nodeId]
+      if (!node || visible.has(nodeId)) return
+      visible.add(nodeId)
+      if (node.parentId) addAncestors(node.parentId)
+    }
+    visible.forEach(id => {
+      const node = nodes[id]
+      if (node?.parentId) addAncestors(node.parentId)
+    })
+    return visible
+  }, [tree, selectedEngine])
+
+  // Filter tree roots to only include actual TIS section folders and (when engine filter active) visible nodes
   const filteredRoots = useMemo(() => {
     if (!tree || !tree.roots || !tree.nodes) return []
-    
-    return tree.roots.filter(rootId => {
+    let roots = tree.roots.filter(rootId => {
       const node = tree.nodes[rootId]
       return isValidRootFolder(node)
     })
-  }, [tree])
+    if (visibleNodeIds) roots = roots.filter(id => visibleNodeIds.has(id))
+    return roots
+  }, [tree, visibleNodeIds])
 
   // Check if we have a valid tree structure AND tocIdToSlug mapping
   const hasTree = filteredRoots.length > 0 && tree.nodes && tocIdToSlug && Object.keys(tocIdToSlug).length > 0
@@ -2050,6 +2113,8 @@ function Sidebar({ sections, tree, tocIdToSlug, isColumnLayout, isMobile, isTabl
                 roots={filteredRoots}
                 nodes={tree.nodes}
                 tocIdToSlug={tocIdToSlug}
+                selectedEngine={selectedEngine}
+                visibleNodeIds={visibleNodeIds}
                 searchQuery={searchQuery}
                 maxVisibleColumns={maxVisibleColumns}
                 onDocumentSelect={showMobileMenu ? handleMobileNavigate : null}
@@ -2064,6 +2129,8 @@ function Sidebar({ sections, tree, tocIdToSlug, isColumnLayout, isMobile, isTabl
                     nodeId={rootId}
                     nodes={tree.nodes}
                     tocIdToSlug={tocIdToSlug}
+                    selectedEngine={selectedEngine}
+                    visibleNodeIds={visibleNodeIds}
                     expandedNodes={expandedNodes}
                     toggleNode={toggleNode}
                     searchQuery={searchQuery}
@@ -2071,7 +2138,7 @@ function Sidebar({ sections, tree, tocIdToSlug, isColumnLayout, isMobile, isTabl
                 ))}
               </ul>
             ) : (
-              <CategoryView sections={sections} searchQuery={searchQuery} />
+              <CategoryView sections={sections} searchQuery={searchQuery} selectedEngine={selectedEngine} />
             )}
           </nav>
         </>

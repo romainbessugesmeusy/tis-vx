@@ -1,0 +1,34 @@
+{
+  "type": "tsb",
+  "id": "rear-crankshaft-seal-ring-oil-leakage-A26D1C",
+  "title": "Field Remedy: 1464",
+  "subject": "Rear crankshaft seal ring - Oil\nleakage",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "10 - Leakages",
+    "troubleCode": "Non"
+  },
+  "complaint": "See above.",
+  "cause": "Oil return orifice between main bearing and\nseal ring to crank case not properly machined, causing overpressure\nin this area, resulting in an oil leakage.",
+  "production": "Production process changed as of engine No:\n11 041 547",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "In case of a customer complaint disassemble rear crankshaft seal\nring and check oil return orifice (i.e. a wire).\nOrifice must be completely machined (Diameter 5 mm).If OK, assemble\nwith new rear crankshaft seal ring.\nIf NOK, replace short block."
+    },
+    {
+      "type": "text",
+      "text": "Please note:\nIf a whistling noise occurs, especially at idle speed in the area\nof the radial shaft seal (transmission side) it might be that the\norifice (connection crank case ventilation) in the elbow hose (air\ncleaner to throttle valve body) has not properly drilled. Due to\npressure differences the mentioned whistling noise can occur. The\nnoise disappears when the oil dip stick is pulled out, because of\ncrank case ventilation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Remedy: Replace part."
+    },
+    {
+      "type": "text",
+      "text": "Astra-G, Zafira: Partnumber 24408176 / Catalognumber 58 36 818\nVectra-B:        Partnumber 9196367  / Catalognumber 83 58 23\nSpeedster:       Partnumber 9198076  / Catalognumber 48 01 076"
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "type": "procedure",
+  "id": "differential-replace-A26D1C",
+  "title": "Differential, Replace",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Illustration of differential",
+          "image": {
+            "src": "/data/assets/images/b79ff2a5130c.jpg",
+            "alt": "Object Number: 2415656  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove transmission from vehicle - see operation \"Transmission, Remove and Install\"",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Disassemble transmission - see operation \"Transmission, Seal Completely\"",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Remove tapered roller bearings from differential - see operation \"Tapered Roller Bearings, Differential, Remove and Install\" Note: When replacing differential, pressure comb adjustment must be determined and adjusted if necessary. For this purpose, tapered roller bearings must be removed from differential",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "For adjustment purposes, dimension of transmission housing side shim (2) is first determined. This is required for pressure comb adjustment. Subsequently, dimension of clutch housing side shim (1) is determined. This is required for adjustment of the bearing pre-tension for differential tapered roller bearings. For determination of shims for bearing pre-tension, priority is always given to determination on transmission side for adjustment of pressure comb",
+          "image": {
+            "src": "/data/assets/images/f391b99b407a.jpg",
+            "alt": "Object Number: 2416935  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Determine dimension (I) (height clearance of ring gear to differential tapered roller bearing seat - transmission housing side) using commercially available digital depth gauge (1) with measuring range of at least 250 mm and graduation of 0.01 mm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Perform this measurement at three evenly spaced measurement"
+            },
+            {
+              "bullet": "•",
+              "text": "Add measured values and divide sum by number of"
+            },
+            {
+              "bullet": "•",
+              "text": "This calculation is illustrated in following table"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/941dc83e781c.jpg",
+            "alt": "Object Number: 2416937  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Purpose of following table is to explain pressure comb adjustment using an example calculation",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Measurement is performed on old differential with old ring gear, then on new differential. This can be performed with new or old ring gear, depending on whether ring gear must also be replaced. For removal and installation of differential ring gear - see operation \"Ring Gear, Differential, Replace\"",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "If a value deviates by more than 0.08 mm from other values of a particular measurement, measurement must be repeated as a measurement error has occurred",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Mean value for old differential is then subtracted from mean value for new differential. If dimension difference between old and new differential is greater than + 0.02-0.06 mm , pressure comb must be adjusted",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "± Difference"
+            },
+            {
+              "bullet": "•",
+              "text": "± Difference"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Select shim",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "If difference is positive (+), then the shim (transmission"
+            },
+            {
+              "bullet": "•",
+              "text": "If difference is negative (-), then the shim (transmission"
+            },
+            {
+              "bullet": "•",
+              "text": "If the shim (transmission housing side) (4) is thicker, the"
+            },
+            {
+              "bullet": "•",
+              "text": "If the shim (transmission housing side) (4) is thinner, the"
+            },
+            {
+              "bullet": "•",
+              "text": "In other words, total thickness of the two shims remains"
+            },
+            {
+              "bullet": "•",
+              "text": "Corresponding shims can be obtained from \"Aftersales\" division."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/21512f298655.jpg",
+            "alt": "Object Number: 2416929  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 12,
+          "text": "Examples for using shims are listed in table below",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Shims must be selected so that smallest possible tolerance is achieved during adjustment Note: Used shims can be re-used in subsequent adjustment operations provided that shims are not damaged",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "The shim (clutch housing side) is only altered in the subsequent adjustment of bearing pretension for differential regardless of the shim (transmission housing side)",
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Measure dimensions I, II and III using a commercially available digital depth gauge (1) with a measuring range of at least 250 mm and graduation of 0.01 mm",
+          "image": {
+            "src": "/data/assets/images/2eedc463bf7c.jpg",
+            "alt": "Object Number: 2416934  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 16,
+          "text": "Dimensions II and III are subtracted from dimension I. This calculation is illustrated in following table. This derived dimension IV corresponds to distance between seats of differential tapered roller bearings",
+          "image": {
+            "src": "/data/assets/images/2eedc463bf7c.jpg",
+            "alt": "Object Number: 2416934  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 17,
+          "text": "Purpose of following table is to explain pressure comb adjustment using an example calculation",
+          "image": null
+        },
+        {
+          "number": 18,
+          "text": "Perform this measurement at three evenly-spaced measurement points on differential. Add calculated dimension IV values and divide sum by the number of measurements. This calculation is illustrated in following table",
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "This measurement is performed in same way on new differential",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "If height difference between old and new differential is"
+            },
+            {
+              "bullet": "•",
+              "text": "If height difference is less than +"
+            },
+            {
+              "bullet": "•",
+              "text": "0.90 mm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 20,
+          "text": "Total thickness of two shims remains same as long as height of differential (dimension IV) does not change or deviation remains less than ± 0.04 mm . Determination of shims for adjustment of differential bearing pretension is described in table below Note: Total dimension of shim + height of differential (dimension IV) = remains constant ± 0.04 mm , for new and old differential. This means that differential and shim assembly for new differential must have same dimension as that of old differential. Adjustment has then been performed correctly",
+          "image": null
+        },
+        {
+          "number": 21,
+          "text": "Adjust shims",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "If dimension IV for new differential is larger than dimension"
+            },
+            {
+              "bullet": "•",
+              "text": "If new differential is shorter than old differential, the shim"
+            },
+            {
+              "bullet": "•",
+              "text": "1.05 mm"
+            },
+            {
+              "bullet": "•",
+              "text": "Smallest possible tolerance is desirable for adjustment. In"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 22,
+          "text": "When replacing differential and re-using old inner races for tapered roller bearing (2, 3), these must be reinstalled - see operation \"Tapered Roller Bearing, Differential, Remove and Install\"",
+          "image": {
+            "src": "/data/assets/images/a69523ee890d.jpg",
+            "alt": "Object Number: 2415657  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 23,
+          "text": "When using new inner races for differential tapered roller bearing, outer races for tapered roller bearing (1, 4) must also be replaced - see operation \"Tapered Roller Bearing, Differential, Remove and Install\"",
+          "image": {
+            "src": "/data/assets/images/a69523ee890d.jpg",
+            "alt": "Object Number: 2415657  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 24,
+          "text": "Install differential ring gear - see operation \"Ring Gear, Differential, Replace\"",
+          "image": {
+            "src": "/data/assets/images/a69523ee890d.jpg",
+            "alt": "Object Number: 2415657  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 25,
+          "text": "Assemble transmission - see operation \"Transmission, Seal Completely\"",
+          "image": null
+        },
+        {
+          "number": 26,
+          "text": "Install transmission to vehicle - see operation \"Transmission, Remove and Install\"",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Next measurement is\ncarried out on old and new differential (2) without differential\ntapered roller bearing and without ring gear. However, dimension\nfor the shim (transmission housing side) that has already been\ndetermined must also be taken into account; this dimension must be\ngiven highest priority for adjustment operations on differential\nand must not be altered in subsequent adjustment"
+  ],
+  "notes": [
+    "Remove tapered roller bearings from differential - see\noperation \"Tapered Roller Bearings, Differential, Remove and\nInstall\"\n When replacing\ndifferential, pressure comb adjustment must be determined and\nadjusted if necessary. For this purpose, tapered roller bearings\nmust be removed from differential",
+    "Shims must be selected so that smallest possible tolerance is\nachieved during adjustment\n Used shims can be\nre-used in subsequent adjustment operations provided that shims are\nnot damaged",
+    "Total thickness of two shims remains same as long as height of\ndifferential (dimension IV) does not change or deviation remains\nless than ± 0.04 mm .\nDetermination of shims for adjustment of differential bearing\npretension is described in table below\n Total dimension\nof shim + height of differential (dimension IV) = remains constant\n± 0.04 mm , for new and old\ndifferential. This means that differential and shim assembly for\nnew differential must have same dimension as that of old\ndifferential. Adjustment has then been performed correctly"
+  ]
+}

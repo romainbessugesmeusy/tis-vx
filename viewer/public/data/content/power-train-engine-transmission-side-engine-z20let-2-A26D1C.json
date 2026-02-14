@@ -1,0 +1,15 @@
+{
+  "type": "harness_diagram",
+  "id": "power-train-engine-transmission-side-engine-z20let-2-A26D1C",
+  "title": "Power train - Engine, transmission side",
+  "diagram": {
+    "src": "/data/assets/69f9a5452e7e.cgm",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "M1",
+      "description": "Starter"
+    }
+  ]
+}

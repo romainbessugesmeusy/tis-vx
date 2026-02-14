@@ -1,0 +1,166 @@
+{
+  "type": "procedure",
+  "id": "heat-shield-rear-silencer-replace-z20-let-AQS315",
+  "title": "Heat Shield, Rear Silencer, Replace (Z20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove rear clamshell - see operation “Rear Clamshell, Remove and Install”",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Release intermediate pipe from secondary catalytic converter",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x nut (1), then discard"
+            },
+            {
+              "bullet": "•",
+              "text": "Release mounting bracket"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9b9f229c168a.jpg",
+            "alt": "Object Number: 2422577  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Release heat shield for rear silencer from rear subframe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x bolt, 3x spring washer, 3x flat washer, clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Remove rear silencer and heat shield from rear subframe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 6x bolt (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 4x bolt, 2x clamp (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d0c99d42fa8a.jpg",
+            "alt": "Object Number: 2422470  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Remove intermediate pipe from rear silencer",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clamp (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/95cd95b5c0db.jpg",
+            "alt": "Object Number: 2422575  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Remove rear silencer from heat shield",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull out"
+            }
+          ],
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 7,
+          "text": "Install rear silencer to new heat shield",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Install intermediate pipe to rear silencer",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clamp"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install rear silencer and heat shield to rear subframe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 6x bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt, 2x clamp"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Secure heatshield for rear silencer to rear subframe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 3x bolt, 3x spring washer, 3x flat washer, clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Secure intermediate pipe to secondary catalytic converter",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure mounting bracket"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 3x new nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Install rear clamshell - see operation “Rear Clamshell, Remove and Install”",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

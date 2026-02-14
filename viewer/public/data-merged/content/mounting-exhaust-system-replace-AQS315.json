@@ -1,0 +1,162 @@
+{
+  "type": "procedure",
+  "id": "mounting-exhaust-system-replace-AQS315",
+  "title": "Mounting, Exhaust System, Replace",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Raise vehicle",
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove exhaust undertray (2) from rear clamshell and engine undertray (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 8x bolt, 2x screw, 2x clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Remove lower heat shield (1) from exhaust manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x bolt and clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3f486bb0106f.jpg",
+            "alt": "Object Number: 2425114  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Remove oxygen sensor (1) from exhaust system",
+          "image": {
+            "src": "/data/assets/images/65a48b9fcc4f.jpg",
+            "alt": "Object Number: 2419053  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Remove oxygen sensor (1) from exhaust system",
+          "image": {
+            "src": "/data/assets/images/5a2fff6802e4.jpg",
+            "alt": "Object Number: 2419054  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Remove exhaust down pipe/catalytic converter assembly from exhaust manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 6x nut (1), 3x bolt, gasket"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8b648c8f1091.jpg",
+            "alt": "Object Number: 2425116  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Release mounting (2) from support bracket",
+          "image": {
+            "src": "/data/assets/images/8b648c8f1091.jpg",
+            "alt": "Object Number: 2425116  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Install new mounting to support bracket",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install exhaust down pipe/catalytic converter assembly to exhaust manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install new gasket, 3x bolt, 6x nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Install 2x oxygen sensor to exhaust system",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Apply special grease to the oxygen sensor thread"
+            },
+            {
+              "bullet": "•",
+              "text": "Tighten 2x sensor"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Install lower heat shield to exhaust manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 3x bolt and clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Install exhaust undertray to rear clamshell and engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 8x bolt, 2x screw 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Lower vehicle",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "torque_table",
+  "id": "recommended-torque-values-group-h-A26D1C",
+  "title": "Recommended Torque Values - Group H",
+  "group": "H",
+  "values": [
+    {
+      "component": "Wheel bolts",
+      "value": "90",
+      "unit": "Nm"
+    }
+  ]
+}

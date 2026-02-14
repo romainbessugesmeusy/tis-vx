@@ -1,0 +1,163 @@
+{
+  "type": "procedure",
+  "id": "brake-lines-replace-partially-A26D1C",
+  "title": "Brake Lines, Replace Partially",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Fill brake fluid reservoir to MAX mark and seal with blind cap.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Separation point must be made in vicinity of fastening point – clips, straps, etc.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Only one separation point per brake line is permitted.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Replacement is carried out from connection on corresponding wheel or from brake master cylinder to separation point.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Brake line from clips.",
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Brake line (1) in clip (2).",
+          "image": {
+            "src": "/data/assets/images/587df349d160.jpg",
+            "alt": "Object Number: 2382307  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 18,
+          "text": "Blind cap from reservoir.",
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Bleed brake system – see operation \"Brake System, Bleed\".",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "clean",
+      "label": "Clean",
+      "icon": "/data/assets/images/d9fe69774efb.gif",
+      "steps": [
+        {
+          "number": 6,
+          "text": "Brake line.",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Detach brake line with pipe cutter and deburr.",
+          "image": {
+            "src": "/data/assets/images/a4fc24c97544.jpg",
+            "alt": "Object Number: 2382306  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Place collecting basin underneath, brake fluid will escape.",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Push union bolt (1) onto brake line and form a flare at end of brake line – use suitable tool.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Important:",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Avoid deformation of remaining brake lines.",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Use assembly aid to support heavy flaring tools.",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Cut off length of new part of brake line, form a flare and bend, using part to be replaced as a pattern.",
+          "image": {
+            "src": "/data/assets/images/dd8914e12388.jpg",
+            "alt": "Object Number: 2373817  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 14,
+          "text": "To avoid cross-sectional distortions use pipe bender.",
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Insert spacer (1) to line (2) – union nuts.",
+          "image": {
+            "src": "/data/assets/images/dd8914e12388.jpg",
+            "alt": "Object Number: 2373817  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 16,
+          "text": "Connections.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "phase": "clean",
+      "label": "Clean",
+      "icon": "/data/assets/images/d9fe69774efb.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    }
+  ]
+}

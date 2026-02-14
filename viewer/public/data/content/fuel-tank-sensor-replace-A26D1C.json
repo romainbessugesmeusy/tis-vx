@@ -1,0 +1,593 @@
+{
+  "type": "procedure",
+  "id": "fuel-tank-sensor-replace-A26D1C",
+  "title": "Fuel Tank Sensor, Replace",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Release wash reservoir from support bracket, then move to one side",
+          "image": {
+            "src": "/data/assets/images/372145f87fb3.jpg",
+            "alt": "Object Number: 2419905  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Disconnect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release nut"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/109869f7b46c.jpg",
+            "alt": "Object Number: 2429428  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Disconnect 2x ball joint (1) from 2x selector rod",
+          "image": {
+            "src": "/data/assets/images/bbdf1637c5b5.jpg",
+            "alt": "Object Number: 2425070  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Release support bracket, then move to one side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/bbdf1637c5b5.jpg",
+            "alt": "Object Number: 2425070  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Remove engine undertray (1) from vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 13x bolt, 13x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1d1ad92dd5ed.jpg",
+            "alt": "Object Number: 2425071  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Remove 2x rear road wheel from vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x security bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 8x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Release parking brake cable from compensator, then move parking brake cable to one side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove clip (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/295c86960519.jpg",
+            "alt": "Object Number: 2425072  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Remove guide bracket (1) from fuel tank lower panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6fc5038ed95a.jpg",
+            "alt": "Object Number: 2425078  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Remove 2x lower bolt (1) from lower wishbone mounting",
+          "image": {
+            "src": "/data/assets/images/9a776e675bb5.jpg",
+            "alt": "Object Number: 2425073  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Remove 2x bolt (1) from engine damping block",
+          "image": {
+            "src": "/data/assets/images/281d67494771.jpg",
+            "alt": "Object Number: 2425074  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "Remove fuel tank lower panel (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 5x bolt, 5x washer"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 3x nut, 3x washer, 3x bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/efe3159f3f4e.jpg",
+            "alt": "Object Number: 2425077  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 12,
+          "text": "Release 3x fuel line from bulkhead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Release fuel filter from bulkhead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f41514275c1f.jpg",
+            "alt": "Object Number: 2425075  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 14,
+          "text": "Remove rear wheelarch liner from right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 6x screw"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/835a42393a41.jpg",
+            "alt": "Object Number: 2429857  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 15,
+          "text": "Release fuel evaporation tank, then move to one side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove nut, bolt, cable tie"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/05093654404f.jpg",
+            "alt": "Object Number: 2419922  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 16,
+          "text": "Disconnect 3x hose (1) from fuel evaporation tank Note: Apply alignment marks to 3x hose to aid installation",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0c0330faa516.jpg",
+            "alt": "Object Number: 2425076  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 17,
+          "text": "Disconnect hose (2) from fuel filler pipe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0c0330faa516.jpg",
+            "alt": "Object Number: 2425076  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 18,
+          "text": "Raise vehicle to provide increased access",
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Support fuel tank to prevent damage to fuel pipes and wiring harness",
+          "image": {
+            "src": "/data/assets/images/fbb4919dccc3.jpg",
+            "alt": "Object Number: 2425193  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 20,
+          "text": "Remove fuel tank from vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Disconnect 2x fuel pipe from fuel tank sensor"
+            },
+            {
+              "bullet": "•",
+              "text": "Disconnect harness connector from fuel tank sensor"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 2x fuel pipe plastic sleeve from fuel tank sensor"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 4x bolt, 4x lock washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/fbb4919dccc3.jpg",
+            "alt": "Object Number: 2425193  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 21,
+          "text": "Remove fuel tank sensor from fuel tank",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release circlip"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove sealing ring"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/fbb4919dccc3.jpg",
+            "alt": "Object Number: 2425193  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 22,
+          "text": "Install fuel tank sensor to fuel tank",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install new sealing ring"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure circlip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 23,
+          "text": "Install fuel tank to vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Connect 2x fuel pipe to fuel tank sensor"
+            },
+            {
+              "bullet": "•",
+              "text": "Connect harness connector to fuel tank sensor"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 2x fuel pipe plastic sleeve to fuel tank sensor"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 4x new bolt, 4x lock washer 25"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 24,
+          "text": "Connect 3x hose to fuel evaporation tank",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Align 3x hose to position noted in step 16"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure 3x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 25,
+          "text": "Connect hose to fuel filler pipe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 26,
+          "text": "Install fuel evaporation tank",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure new cable tie, bolt, nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 27,
+          "text": "Install rear wheelarch liner to right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 6x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 28,
+          "text": "Install fuel filter to bulkhead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure bolt 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 3x fuel line"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure 3x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 29,
+          "text": "Install fuel tank lower panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 5x bolt, 5x washer 25 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 3x bolt, 3x washer, 3x nut 45"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 30,
+          "text": "Install 2x bolt to engine damping block 25 Nm",
+          "image": null
+        },
+        {
+          "number": 31,
+          "text": "Install 2x bolt to lower wishbone mounting 45 Nm",
+          "image": null
+        },
+        {
+          "number": 32,
+          "text": "Install guide bracket for gearshift cables to fuel tank lower panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 4x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 33,
+          "text": "Connect parking brake cable to compensator",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 34,
+          "text": "Install 2x rear road wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 8x bolt, 2x security bolt 90"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 35,
+          "text": "Install engine undertray to vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 13x bolt, 13x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 36,
+          "text": "Install support bracket for gearshift cable",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 37,
+          "text": "Connect 2x ball joint of 2x gearshift cable to 2x selector rod",
+          "image": null
+        },
+        {
+          "number": 38,
+          "text": "Connect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 39,
+          "text": "Secure wash reservoir to support bracket",
+          "image": null
+        },
+        {
+          "number": 40,
+          "text": "Program volatile memories",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install fuel tank to vehicle",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 23
+    },
+    {
+      "component": "Install fuel filter to bulkhead",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 28
+    },
+    {
+      "component": "Install fuel tank lower panel",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 29
+    },
+    {
+      "component": "Install fuel tank lower panel",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 29
+    },
+    {
+      "component": "Install 2x bolt to engine damping block 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 30
+    },
+    {
+      "component": "Install 2x bolt to lower wishbone mounting 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 31
+    },
+    {
+      "component": "Install 2x rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 34
+    },
+    {
+      "component": "Install 4x new bolt, 4x lock washer 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Secure bolt 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install 3x bolt, 3x washer, 3x nut 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Secure 8x bolt, 2x security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Disconnect 3x hose (1) from fuel evaporation tank\n Apply alignment\nmarks to 3x hose to aid installation\n \n\n\n\n•  \nRemove 3x clip"
+  ]
+}

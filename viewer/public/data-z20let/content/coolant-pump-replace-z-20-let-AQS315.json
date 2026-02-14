@@ -1,0 +1,621 @@
+{
+  "type": "procedure",
+  "id": "coolant-pump-replace-z-20-let-AQS315",
+  "title": "Coolant Pump, Replace (Z 20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove engine undertray (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Raise vehicle"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 13x bolt, 13x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1d1ad92dd5ed.jpg",
+            "alt": "Object Number: 2425071  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Disconnect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release windscreen washer bottle (1), position to one side"
+            },
+            {
+              "bullet": "•",
+              "text": "Release nut, bolt (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/482794e97b8a.jpg",
+            "alt": "Object Number: 2422316  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Disconnect intercooler hose (1) from throttle body",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/03e5688222f6.jpg",
+            "alt": "Object Number: 2422440  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Drain cooling system",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Position collecting container"
+            },
+            {
+              "bullet": "•",
+              "text": "Disconnect lower coolant hose from radiator feed pipe"
+            },
+            {
+              "bullet": "•–",
+              "text": "Remove collecting container when drained",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Remove, then discard cable tie (2)"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/97ecaa5b26f9.jpg",
+            "alt": "Object Number: 2422465  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Lower vehicle to suitable working height",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Remove rear road wheel from right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use special socket located under front bonnet"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 4x wheel bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Remove wheel arch liner, right rear",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x screw, 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Remove intercooler hose from intercooler",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove, then discard 4x cable tie"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3e8d2c96fb0c.jpg",
+            "alt": "Object Number: 2422660  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 11,
+          "text": "Remove ribbed V-belt - see operation “Ribbed V-belt, Replace (Z 20 LET)”",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Remove V-belt pulley from crankshaft",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Remove upper cover (1) for camshaft timing belt",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/bb295c1cc81e.jpg",
+            "alt": "Object Number: 2422659  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 14,
+          "text": "Remove V-belt tensioner (4)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/bb295c1cc81e.jpg",
+            "alt": "Object Number: 2422659  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ]
+        },
+        {
+          "number": 15,
+          "text": "Remove lower cover (3) for camshaft timing belt",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt (5)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/bb295c1cc81e.jpg",
+            "alt": "Object Number: 2422659  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 16,
+          "text": "Rotate crankshaft until pistons 1 and 4 are at TDC",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Check camshaft alignment marks (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Check crankshaft alignment marks (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Install Camshaft Locking Tool KM-853"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8acff7a9118f.jpg",
+            "alt": "Object Number: 2422230  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 17,
+          "text": "Remove tensioner pulley for camshaft timing belt",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove locking bolt (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Position camshaft timing belt to side"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/403b650c13c1.jpg",
+            "alt": "Object Number: 2422661  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 18,
+          "text": "Remove coolant pump",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x bolt (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove, discard O ring"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/403b650c13c1.jpg",
+            "alt": "Object Number: 2422661  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 19,
+          "text": "Install coolant pump",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 3x bolt 25 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Install new O ring"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 20,
+          "text": "Install tensioner pulley for camshaft timing belt",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install bolt, hand tighten"
+            },
+            {
+              "bullet": "•",
+              "text": "Install camshaft timing belt to pulleys"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 21,
+          "text": "Adjust camshaft timing belt - see operation “Camshaft Timing Belt Tension, Check and Adjust (Z 20 LET)”",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove Camshaft Locking Tool KM-853"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 22,
+          "text": "Check crankshaft and camshaft timing marks for alignment",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Rotate engine two complete revolutions in direction of rotation"
+            },
+            {
+              "bullet": "•",
+              "text": "Install Camshaft Locking Tool KM-853"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 23,
+          "text": "Secure adjustment pulley 20 Nm for camshaft timing belt",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove Camshaft Locking Tool KM-853"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 24,
+          "text": "Install lower casing for camshaft timing belt",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt 6 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 25,
+          "text": "Install V-belt tensioner",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt 25 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 26,
+          "text": "Install crankshaft V-belt pulley",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt 20 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 27,
+          "text": "Install V-belt to pulleys",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove locking pin"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 28,
+          "text": "Install upper cover for camshaft timing belt",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt 6 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 29,
+          "text": "Install intercooler hose to intercooler",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 4x new cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 30,
+          "text": "Install inner wheel arch, right rear",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x screw, 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 31,
+          "text": "Install rear road wheel to right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt, security bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Do not tighten"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 32,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 33,
+          "text": "Connect lower coolant hose to radiator feed pipe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Install new cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 34,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 35,
+          "text": "Secure rear road wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tighten 4x bolt, security bolt 90"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 36,
+          "text": "Connect intercooler hose to throttle body",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 37,
+          "text": "Connect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure nut, bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure windscreen wash bottle"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 38,
+          "text": "Replenish and bleed cooling system - see operation “Cooling system, Drain, Fill and Bleed (Z 20 LET)”",
+          "image": null
+        },
+        {
+          "number": 39,
+          "text": "Program all volatile memories",
+          "image": null
+        },
+        {
+          "number": 40,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 41,
+          "text": "Install engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 13x bolt, 13x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 42,
+          "text": "Lower vehicle",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install coolant pump",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 19
+    },
+    {
+      "component": "Secure adjustment pulley 20 Nm for camshaft timing belt",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 23
+    },
+    {
+      "component": "Install lower casing for camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 24
+    },
+    {
+      "component": "Install V-belt tensioner",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 25
+    },
+    {
+      "component": "Install crankshaft V-belt pulley",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 26
+    },
+    {
+      "component": "Install upper cover for camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 28
+    },
+    {
+      "component": "Secure rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 35
+    },
+    {
+      "component": "Install 3x bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install 2x bolt 6 Nm",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install 4x bolt 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-853"
+  ],
+  "warnings": [
+    "A four-post hoist must\nbe used to raise the vehicle when removing the engine undertray and\nexhaust pipe undertray. The vehicle can be moved to a two-post\nhoist for other operations if required.",
+    "Observe relevant\nenvironmental regulations when disposing of used coolant and\nlubricants.",
+    "Clean sealing\nsurfaces, apply silicon grease"
+  ]
+}

@@ -31,6 +31,13 @@ function App() {
   
   // External navigation path for sidebar
   const [externalNavPath, setExternalNavPath] = useState(null)
+  // Engine filter: null = All, 'Z20LET' = Turbo, 'Z22SE' = NA (only when manifest has multiple engines)
+  const [selectedEngine, setSelectedEngine] = useState(() => {
+    try {
+      const s = localStorage.getItem('vx220-engine-filter')
+      return s === 'Z20LET' || s === 'Z22SE' ? s : null
+    } catch { return null }
+  })
   
   // Swipe gesture tracking
   const swipeRef = useRef({
@@ -197,6 +204,14 @@ function App() {
     setExternalNavPath(null)
   }, [])
 
+  const handleEngineChange = useCallback((engine) => {
+    setSelectedEngine(engine)
+    try {
+      if (engine) localStorage.setItem('vx220-engine-filter', engine)
+      else localStorage.removeItem('vx220-engine-filter')
+    } catch (_) {}
+  }, [])
+
   useEffect(() => {
     fetch('/data/manifest.json')
       .then(res => res.json())
@@ -250,8 +265,45 @@ function App() {
           <a href="/ref/glossary" className="nav-pill">Glossary</a>
         </nav>
         <div className="vehicle-info">
-          {manifest.vehicle.make} {manifest.vehicle.model} | {manifest.vehicle.year} | {manifest.vehicle.engine}
+          {manifest.vehicle.make} {manifest.vehicle.model} | {manifest.vehicle.year}
+          {Array.isArray(manifest.vehicle.engines) && manifest.vehicle.engines.length > 0
+            ? ` | ${manifest.vehicle.engines.join(' / ')}`
+            : manifest.vehicle.engine
+              ? ` | ${manifest.vehicle.engine}`
+              : ''}
         </div>
+        {Array.isArray(manifest.vehicle.engines) && manifest.vehicle.engines.length > 1 && (
+          <div className="engine-filter">
+            <button
+              type="button"
+              className={`engine-pill ${selectedEngine === null ? 'active' : ''}`}
+              onClick={() => handleEngineChange(null)}
+              aria-pressed={selectedEngine === null}
+            >
+              All
+            </button>
+            {manifest.vehicle.engines.includes('Z20LET') && (
+              <button
+                type="button"
+                className={`engine-pill engine-turbo ${selectedEngine === 'Z20LET' ? 'active' : ''}`}
+                onClick={() => handleEngineChange('Z20LET')}
+                aria-pressed={selectedEngine === 'Z20LET'}
+              >
+                Z20LET (Turbo)
+              </button>
+            )}
+            {manifest.vehicle.engines.includes('Z22SE') && (
+              <button
+                type="button"
+                className={`engine-pill engine-na ${selectedEngine === 'Z22SE' ? 'active' : ''}`}
+                onClick={() => handleEngineChange('Z22SE')}
+                aria-pressed={selectedEngine === 'Z22SE'}
+              >
+                Z22SE (NA)
+              </button>
+            )}
+          </div>
+        )}
       </header>
       <div className="main-layout">
         <Sidebar 
@@ -259,6 +311,7 @@ function App() {
           tree={manifest.tree} 
           tocIdToSlug={manifest.tocIdToSlug}
           contentTypeStats={manifest.contentTypeStats}
+          selectedEngine={selectedEngine}
           isColumnLayout={isColumnLayout}
           isMobile={isMobile}
           isTablet={isTablet}
@@ -276,8 +329,8 @@ function App() {
         )}
         <main className={`content${location.pathname === '/' ? ' is-homepage' : ''}`}>
           <Routes>
-            <Route path="/" element={<ContentViewer manifest={manifest} onNavigateToComponent={handleNavigateToComponent} />} />
-            <Route path="/doc/:id" element={<ContentViewer manifest={manifest} onNavigateToComponent={handleNavigateToComponent} />} />
+            <Route path="/" element={<ContentViewer manifest={manifest} selectedEngine={selectedEngine} onNavigateToComponent={handleNavigateToComponent} />} />
+            <Route path="/doc/:id" element={<ContentViewer manifest={manifest} selectedEngine={selectedEngine} onNavigateToComponent={handleNavigateToComponent} />} />
             <Route path="/ref/:type" element={<ReferenceIndex />} />
             <Route path="/epc" element={<EPCBrowser />} />
             <Route path="/epc/:groupId/:subSectionId/:mainId" element={<EPCBrowser />} />

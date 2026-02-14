@@ -1,0 +1,235 @@
+{
+  "type": "procedure",
+  "id": "fuel-evaporation-tank-replace-A26D1C",
+  "title": "Fuel Evaporation Tank, Replace",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Chock front road wheels",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove security bolt from right rear road wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use special socket located under front bonnet"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Release wash reservoir from bracket, then position to one side",
+          "image": {
+            "src": "/data/assets/images/372145f87fb3.jpg",
+            "alt": "Object Number: 2419905  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Disconnect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release nut"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/109869f7b46c.jpg",
+            "alt": "Object Number: 2429428  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Raise and support vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Support vehicle at furthest jacking point to rear"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Lower vehicle to midway position",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Remove rear road wheel from right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use special socket located under front bonnet"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 4x wheel bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Remove rear wheelarch liner, right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 6x screw"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/008b2edd98e7.jpg",
+            "alt": "Object Number: 2419932  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Release 3x hose (1) from fuel evaporation tank",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x clip (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c2606b900fbe.jpg",
+            "alt": "Object Number: 2419921  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Remove fuel evaporation tank from bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove nut, washer, bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/05093654404f.jpg",
+            "alt": "Object Number: 2419922  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 11,
+          "text": "Install new fuel evaporation tank to bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install bolt, washer, nut"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/05093654404f.jpg",
+            "alt": "Object Number: 2419922  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 12,
+          "text": "Secure 3x hose to fuel evaporation tank",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x new clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Install rear wheelarch liner, right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 6x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Install rear wheel to right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt, security bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Do not tighten"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Remove support from vehicle and lower",
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Tighten rear road wheel, right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tighten 4x bolt, security bolt 90"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Remove chock from front road wheels",
+          "image": null
+        },
+        {
+          "number": 18,
+          "text": "Connect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Secure wash reservoir to bracket",
+          "image": null
+        },
+        {
+          "number": 20,
+          "text": "Program all volatile memories",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Tighten rear road wheel, right side",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 16
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

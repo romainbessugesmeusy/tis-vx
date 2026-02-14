@@ -1,0 +1,22 @@
+{
+  "type": "tsb",
+  "id": "toothbelt-service-intervall-overview-A26D1C",
+  "title": "Field Remedy: 1517",
+  "subject": "Toothbelt - Service intervall\noverview",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "05 - Excessive wear,14 - Noises or\nVibrations",
+    "troubleCode": "None"
+  },
+  "complaint": "None",
+  "cause": "Service interval overview.",
+  "production": "",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "Quick Infomation 1517 is invalid. Please check TIS Service \nInstruction for current Toothbelt Service interval."
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "type": "procedure",
+  "id": "trim-panel-rear-bulkhead-remove-and-install-A26D1C",
+  "title": "Trim Panel, Rear Bulkhead, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove soft top from vehicle – see operation “Soft Top, Remove and Install”",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Slide driver's seat forward",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Remove upper anchor for driver's seat belt from B pillar",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release trim, remove bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e43abb2c9107.jpg",
+            "alt": "Object Number: 2419714  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Remove passenger's seat from vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x bolt (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove lower bolt (2) for seat belt from seat"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6bc65c067a51.jpg",
+            "alt": "Object Number: 2419660  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Remove upper anchor for passenger's seat belt from B pillar",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release trim, remove bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e43abb2c9107.jpg",
+            "alt": "Object Number: 2419714  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Remove both loudspeakers from trim panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x loudspeaker cover, pull off"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 6x screw"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c11f2bf0dba9.jpg",
+            "alt": "Object Number: 2419712  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Remove trim panel from rear bulkhead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 6x screw (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7cc99833b02d.jpg",
+            "alt": "Object Number: 2419715  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 8,
+          "text": "Install trim panel to rear bulkhead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 6x screw"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7cc99833b02d.jpg",
+            "alt": "Object Number: 2419715  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Install loudspeakers to trim panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 6x screw"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 2x loudspeaker cover, push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Install upper anchor for driver's seat belt to B pillar",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install bolt, install trim"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Install upper anchor for passenger's seat belt to B pillar",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install bolt, install trim"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Install passenger's seat to vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install lower anchor for seat belt to seat"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Install soft top to vehicle",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

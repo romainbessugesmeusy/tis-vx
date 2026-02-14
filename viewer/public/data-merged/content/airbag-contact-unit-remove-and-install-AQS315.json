@@ -1,0 +1,212 @@
+{
+  "type": "procedure",
+  "id": "airbag-contact-unit-remove-and-install-AQS315",
+  "title": "Airbag Contact Unit, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Open front bonnet.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Screen wash reservoir – pull upwards, then move to one side.",
+          "image": {
+            "src": "/data/assets/images/be05ae38863a.jpg",
+            "alt": "Object Number: 2425069  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Negative lead from battery.",
+          "image": {
+            "src": "/data/assets/images/109869f7b46c.jpg",
+            "alt": "Object Number: 2429428  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Caution !",
+          "image": {
+            "src": "/data/assets/images/109869f7b46c.jpg",
+            "alt": "Object Number: 2429428  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Observe safety regulations during operations on the airbag.",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Harness connector from airbag unit.",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Airbag unit from steering wheel – two screws.",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Caution !",
+          "image": {
+            "src": "/data/assets/images/646f7d21851a.jpg",
+            "alt": "Object Number: 2429812  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "For removal of steering wheel, steering column must be in straight ahead position. In this position, remove ignition key and turn steering wheel to left or right until steering lock engages.",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Airbag contact unit from steering wheel assembly – screws (1).",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "Steering wheel assembly from steering column – disconnect horn connector, release tab washer, then remove nut (2); use Puller KM-210-B .",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 12,
+          "text": "Upper and lower shrouds from steering column – 10 screws, harness connector from trip odometer.",
+          "image": {
+            "src": "/data/assets/images/3493b4e98eae.jpg",
+            "alt": "Object Number: 2429851  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 13,
+          "text": "Airbag contact unit from steering column – harness conductor, cable tie.",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Airbag contact unit to steering column – harness connector, cable tie.",
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Upper and lower shrouds to steering column – harness connector to trip odometer, 10 screws.",
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Steering wheel assembly to steering column – tab washer, nut (2) 25 Nm , lock tab washer, connect horn connector.",
+          "image": {
+            "src": "/data/assets/images/3493b4e98eae.jpg",
+            "alt": "Object Number: 2429851  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 17,
+          "text": "Airbag contact unit to steering wheel assembly – screws (1).",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 18,
+          "text": "Important: If airbag contact unit is replaced ensure that locking screw is removed from new airbag contact unit.",
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Airbag unit to steering wheel – two screws.",
+          "image": {
+            "src": "/data/assets/images/646f7d21851a.jpg",
+            "alt": "Object Number: 2429812  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 20,
+          "text": "Harness connector to airbag unit.",
+          "image": null
+        },
+        {
+          "number": 21,
+          "text": "Negative lead to battery – nut.",
+          "image": {
+            "src": "/data/assets/images/109869f7b46c.jpg",
+            "alt": "Object Number: 2429428  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 22,
+          "text": "Screen wash reservoir.",
+          "image": {
+            "src": "/data/assets/images/be05ae38863a.jpg",
+            "alt": "Object Number: 2425069  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 23,
+          "text": "Close bonnet.",
+          "image": null
+        },
+        {
+          "number": 24,
+          "text": "Reprogram all volatile memories.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Steering wheel assembly to steering column – tab washer, nut (2) 25 Nm , lock tab washer, connect horn connector.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 16
+    }
+  ]
+}

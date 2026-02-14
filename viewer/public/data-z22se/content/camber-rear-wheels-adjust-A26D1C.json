@@ -1,0 +1,57 @@
+{
+  "type": "procedure",
+  "id": "camber-rear-wheels-adjust-A26D1C",
+  "title": "Camber, Rear Wheels, Adjust",
+  "phases": [
+    {
+      "phase": "measure",
+      "label": "Measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Camber angle is controlled by shims (1) positioned between the upper hub carrier and the upper swivel joint carrier . Shims are available in 1mm thickness.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Rear wheel camber using optical alignment measuring equipment. For dimensions refer to “Technical Data”",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "adjust",
+      "label": "Adjust",
+      "icon": "/data/assets/images/8bcc88ed08ca.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "To decrease negative camber angle (move towards zero), add shims. To increase negative camber, remove shims -1 mm shim will alter camber by approximately 0.3°.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Torque",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Bolts; swivel joint carrier to hub carrier - 45 Nm .",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Bolts; swivel joint carrier to hub carrier - 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 5
+    }
+  ]
+}

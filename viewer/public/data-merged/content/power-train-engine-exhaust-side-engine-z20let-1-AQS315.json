@@ -1,0 +1,15 @@
+{
+  "type": "harness_diagram",
+  "id": "power-train-engine-exhaust-side-engine-z20let-1-AQS315",
+  "title": "Power train - Engine, exhaust side",
+  "diagram": {
+    "src": "/data/assets/converted/c8ade822c886.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "M55",
+      "description": "Pump - Coolant, additional"
+    }
+  ]
+}

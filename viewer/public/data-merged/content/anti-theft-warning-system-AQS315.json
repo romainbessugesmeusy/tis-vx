@@ -1,0 +1,63 @@
+{
+  "type": "harness_diagram",
+  "id": "anti-theft-warning-system-AQS315",
+  "title": "Anti-theft warning system",
+  "diagram": {
+    "src": "/data/assets/converted/6f2f9b53f108.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "A12",
+      "description": "Control unit - Central locking"
+    },
+    {
+      "code": "H7",
+      "description": "Turn signal lamp - Side, right"
+    },
+    {
+      "code": "A13",
+      "description": "Control unit - Anti-theft warning system"
+    },
+    {
+      "code": "H11",
+      "description": "Indicator - Anti-theft warning system"
+    },
+    {
+      "code": "B48",
+      "description": "Power sounder - Anti-theft warning system"
+    },
+    {
+      "code": "S16",
+      "description": "Switch - Engine hood, anti-theft warning system"
+    },
+    {
+      "code": "B121",
+      "description": "Sensor - Anti-theft warning unit, passenger compartment"
+    },
+    {
+      "code": "S38",
+      "description": "Contact switch - Driver door"
+    },
+    {
+      "code": "H1.76",
+      "description": "Telltale - Gear shift up/Anti-theft warning system"
+    },
+    {
+      "code": "S39",
+      "description": "Contact switch - Front passenger door"
+    },
+    {
+      "code": "H6",
+      "description": "Turn signal lamp - Side, left"
+    },
+    {
+      "code": "S126",
+      "description": "Switch - Front bonnet, anti-theft warning system"
+    },
+    {
+      "code": "X13",
+      "description": "Diagnostic link"
+    }
+  ]
+}

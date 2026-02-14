@@ -1,0 +1,66 @@
+{
+  "type": "procedure",
+  "id": "battery-remove-and-install-A26D1C",
+  "title": "battery remove and install A26D1C",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Battery, Remove and Install",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "remove",
+      "label": "Remove, Disconnect",
+      "icon": "/data/assets/images/4b8970d41392.jpg",
+      "steps": [
+        {
+          "number": 2,
+          "text": "Screen wash reservoir and battery connectors; see operation \"Battery Ground Lead, Disconnect and Connect\".",
+          "image": {
+            "src": "/data/assets/images/1c64b7a08acc.jpg",
+            "alt": "Object Number: 2429429  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Screen wash reservoir support bracket - bolts.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Battery from battery carrier.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install, Connect",
+      "icon": "/data/assets/images/57d894c25c39.jpg",
+      "steps": [
+        {
+          "number": 5,
+          "text": "Battery to battery carrier.",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Screen wash container support bracket - bolts.",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Battery connectors and screen reservoir.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

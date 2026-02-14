@@ -1,0 +1,68 @@
+{
+  "type": "procedure",
+  "id": "passenger-s-seat-remove-and-install-AQS315",
+  "title": "Passenger's Seat, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove soft top from vehicle – see operation “Soft Top, Remove and Install”",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove seat from vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x bolt (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Bolt (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6bc65c067a51.jpg",
+            "alt": "Object Number: 2419660  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Install passenger's seat to vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Check for correct operation"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Install soft top to vehicle",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

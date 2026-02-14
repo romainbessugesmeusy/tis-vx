@@ -1,0 +1,265 @@
+{
+  "type": "procedure",
+  "id": "ring-gear-differential-replace-A26D1C",
+  "title": "Ring Gear, Differential, Replace",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Illustration of differential",
+          "image": {
+            "src": "/data/assets/images/9391969e87f8.jpg",
+            "alt": "Object Number: 2415550  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove transmission from vehicle - see operation \"Transmission, Remove and Install\"",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Disassemble transmission - see operation \"Transmission, Seal Completely”",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Remove tapered roller bearings from differential - see operation \"Tapered Roller Bearings - Differential, Remove and Install\" Note: When replacing ring gear, pressure comb adjustment must be determined and adjusted if necessary. For this purpose, tapered roller bearings must be removed from differential",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Determine dimension (I) (distance of height of ring gear to seat of differential tapered roller bearing on transmission housing side) using commercially available, digital depth gauge with measuring range of at least 250 mm and gradation of 0.01 mm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Measurement is made at three measurement points (arrows)"
+            },
+            {
+              "bullet": "•",
+              "text": "Measured values are added and divided by number of"
+            },
+            {
+              "bullet": "•",
+              "text": "This method of calculation is illustrated in table below"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/941dc83e781c.jpg",
+            "alt": "Object Number: 2416937  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Purpose of following tables is to explain pressure comb adjustment using an example calculation",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "After installation of new ring gear, replacement of which is described in this operation, measurement must be performed in same way for new ring gear",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "If a value deviates by more than 0.08 mm from other values, measurement must be repeated as a measurement error has occurred",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Mean value for old ring gear is then subtracted from mean value for new ring gear",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "± Difference"
+            },
+            {
+              "bullet": "•",
+              "text": "± Difference"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "If difference between old and new ring gear amounts to more than +0.02/-0.06 mm , then pressure collar must be adjusted",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Select shim",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "If difference is positive (+), then the shim (transmission"
+            },
+            {
+              "bullet": "•",
+              "text": "If difference is negative (-), then the shim (transmission"
+            },
+            {
+              "bullet": "•",
+              "text": "If the shim (transmission housing side) (4) is thicker, the"
+            },
+            {
+              "bullet": "•",
+              "text": "If the shim (transmission housing side) (4) is thinner, the"
+            },
+            {
+              "bullet": "•",
+              "text": "In other words, total thickness of the two shims remains"
+            },
+            {
+              "bullet": "•",
+              "text": "Corresponding shims can be obtained from \"Aftersales\". Actual"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/21512f298655.jpg",
+            "alt": "Object Number: 2416929  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 12,
+          "text": "Examples for using shims are listed in table below",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Shims must be selected so that smallest possible tolerance is achieved during adjustment Note: Used shims can be re-used in subsequent adjustment operations provided that shims are not damaged",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Install differential tapered roller bearings - see operation \"Tapered Roller Bearings, Differential, Remove and Install\"",
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Check differential for damage and wear; replace if necessary",
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Disassemble ring gear (2) from differential (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Clamp differential in vice using jaw protectors"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 10x bolt (arrowed)"
+            },
+            {
+              "bullet": "•",
+              "text": "Detach ring gear using plastic hammer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/357d17fdab8a.jpg",
+            "alt": "Object Number: 2416931  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 17,
+          "text": "Clean all threads (arrowed) and contact surfaces (1) between ring gear and differential",
+          "image": {
+            "src": "/data/assets/images/d3dd51cac9f4.jpg",
+            "alt": "Object Number: 2416932  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 18,
+          "text": "Partially assemble ring gear (1) to differential (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Place ring gear on differential"
+            },
+            {
+              "bullet": "•",
+              "text": "Insert 2x bolt (3), then tighten slightly"
+            },
+            {
+              "bullet": "•",
+              "text": "Drive ring gear onto differential using a plastic hammer, then"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/34d1477b8d98.jpg",
+            "alt": "Object Number: 2416933  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 19,
+          "text": "Fully assemble ring gear (2) to differential (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Clamp differential in vice using jaw protectors"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt previously installed"
+            },
+            {
+              "bullet": "•",
+              "text": "Coat 10x bolt with locking compound"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/357d17fdab8a.jpg",
+            "alt": "Object Number: 2416931  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 20,
+          "text": "Assemble transmission - see operation \"Transmission, Seal Completely\"",
+          "image": null
+        },
+        {
+          "number": 21,
+          "text": "Install transmission to vehicle - see operation \"Transmission, Remove and Install\"",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Fully assemble ring gear (2) to differential (1)",
+      "value": "99",
+      "unit": "Nm",
+      "stepRef": 19
+    },
+    {
+      "component": "Install 10x bolt (arrowed) 99 Nm – Coat 10x bolt with locking compound",
+      "value": "99",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Remove tapered roller bearings from differential - see\noperation \"Tapered Roller Bearings - Differential, Remove and\nInstall\"\n When replacing\nring gear, pressure comb adjustment must be determined and adjusted\nif necessary. For this purpose, tapered roller bearings must be\nremoved from differential",
+    "Shims must be selected so that smallest possible tolerance is\nachieved during adjustment\n Used shims can be\nre-used in subsequent adjustment operations provided that shims are\nnot damaged"
+  ]
+}

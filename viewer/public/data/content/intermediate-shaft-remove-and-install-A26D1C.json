@@ -1,0 +1,53 @@
+{
+  "type": "procedure",
+  "id": "intermediate-shaft-remove-and-install-A26D1C",
+  "title": "Intermediate Shaft, Remove and Install",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Illustration of intermediate shaft",
+          "image": {
+            "src": "/data/assets/images/96b8da4b04c3.jpg",
+            "alt": "Object Number: 2415592  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove transmission - see operation \"Transmission, Remove and Install\"",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Disassemble transmission - see operation \"Transmission, Seal Completely\"",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Inspect intermediate shaft (1) for wear and damage; replace if necessary",
+          "image": {
+            "src": "/data/assets/images/f4733e482e31.jpg",
+            "alt": "Object Number: 2415652  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Assemble transmission - see operation \"Transmission, Seal Completely\"",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Install transmission - see operation \"Transmission, Remove and Install\"",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

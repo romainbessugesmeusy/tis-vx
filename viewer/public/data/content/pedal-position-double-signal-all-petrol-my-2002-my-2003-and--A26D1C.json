@@ -1,0 +1,41 @@
+{
+  "type": "diagnostic",
+  "id": "pedal-position-double-signal-all-petrol-my-2002-my-2003-and--A26D1C",
+  "title": "Pedal Position Double Signal, All Petrol (MY 2002,\nMY 2003 and MY 2004)",
+  "steps": [
+    {
+      "number": 1,
+      "text": "Download Reference curve."
+    },
+    {
+      "number": 2,
+      "text": "Switch on the ignition."
+    },
+    {
+      "number": 3,
+      "text": "Depress the accelerator pedal quickly down to the\nlimit stop, keep it down for approximately half a second and then\nrelease it again."
+    },
+    {
+      "number": 1,
+      "text": "Download Setup file (the Tech 32 uses only Setup\nfiles, no reference curves)."
+    },
+    {
+      "number": 2,
+      "text": "Switch on the ignition."
+    },
+    {
+      "number": 3,
+      "text": "Depress the accelerator pedal quickly down to the\nlimit stop, keep it down for approximately half a second and then\nrelease it again."
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/c349b60b0226.jpg",
+      "alt": "Object Number: 2419088  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/1c0ed99dd739.jpg",
+      "alt": "Object Number: 2419089  Size: DEFAULT"
+    }
+  ]
+}

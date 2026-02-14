@@ -1,0 +1,66 @@
+{
+  "type": "procedure",
+  "id": "brake-pads-inspect-for-wear-AQS315",
+  "title": "Brake Pads, Inspect for Wear",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Illustration shows front and rear brake pads on left side, right side is similar.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "measure",
+      "label": "Measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": [
+        {
+          "number": 2,
+          "text": "Wheels from vehicle – bolts.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Thickness of brake pads (excluding backing).",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Minimum brake pad thickness (excluding backing) – 2.5 mm .",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Important: All four brake pads on an axle must be replaced if any brake pad is less than minimum thickness.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 6,
+          "text": "Wheels to vehicle – bolts 90 Nm .",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Wheels to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 6
+    }
+  ]
+}

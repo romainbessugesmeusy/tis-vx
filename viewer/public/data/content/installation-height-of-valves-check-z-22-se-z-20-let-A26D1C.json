@@ -1,0 +1,175 @@
+{
+  "type": "procedure",
+  "id": "installation-height-of-valves-check-z-22-se-z-20-let-A26D1C",
+  "title": "Installation Height of Valves, Check (Z 22 SE, Z\n20 LET)",
+  "phases": [
+    {
+      "phase": "measure",
+      "label": "Measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Special service tools required:",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Caliper Gauges, KM-419 (OHC I), KM-512 (OHC II), Measuring Bridge KM-301 , Dial Gauge MKM-571-B",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Preconditions:",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Cylinder head sealing surface and valve heads are cleaned.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "The installation height of the valves can be checked from both the underside and from the upper side of the cylinder head.",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Valve indentation (I) can be determined using Measuring Bridge KM-301 and Dial Gauge MKM-571-B .",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "assemble",
+      "label": "Assemble",
+      "icon": "/data/assets/images/1e33bc0b1f5e.gif",
+      "steps": [
+        {
+          "number": 6,
+          "text": "If the valve indentation cannot be determined, the extension provided (1) should be inserted between dial gauge shaft and probe.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Measurement from Underside of Cylinder Head (Valve Indentation)",
+          "image": {
+            "src": "/data/assets/images/ac38e98b7824.jpg",
+            "alt": "Object Number: 2418488  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "If the valve indentation cannot be determined, the extension provided (2) should be inserted between dial gauge shaft and probe.",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "measure",
+      "label": "Measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": []
+    },
+    {
+      "phase": "clean",
+      "label": "Clean",
+      "icon": "/data/assets/images/d9fe69774efb.gif",
+      "steps": [
+        {
+          "number": 9,
+          "text": "Position Measuring Bridge KM-301 (1) on cleaned sealing surface, insert Dial Gauge MKM-571-B under pretension, fasten and adjust dial to Zero.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "assemble",
+      "label": "Assemble",
+      "icon": "/data/assets/images/1e33bc0b1f5e.gif",
+      "steps": []
+    },
+    {
+      "phase": "inspect",
+      "label": "Inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": [
+        {
+          "number": 11,
+          "text": "Position Dial Gauge MKM-571-B with Measuring Bridge KM-301 at valve head and measure indentation of valve.",
+          "image": {
+            "src": "/data/assets/images/8d5d3f3e80d8.jpg",
+            "alt": "Object Number: 2418495  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 12,
+          "text": "The specified valve indentation and the dimensions can be found in the \"Technical Data\".",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "The installation height (1) of the valves should be measured from the upper side of the cylinder head using the depth gauge of a caliper gauge. The measurement is taken from the valve shaft end to the cylinder head.",
+          "image": {
+            "src": "/data/assets/images/37270f9c2f4d.jpg",
+            "alt": "Object Number: 2418496  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 14,
+          "text": "The specified valve projection and the dimensions can be found in the \"Technical Data\".",
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Measurements are made using Distance Gauge KM-512 .",
+          "image": {
+            "src": "/data/assets/images/2c9d094bf933.jpg",
+            "alt": "Object Number: 2418489  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "inspect",
+      "label": "Inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": []
+    },
+    {
+      "phase": "inspect",
+      "label": "Inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 16,
+          "text": "If dimension (I) is exceeded, insert new valve and check valve stem projection again. If the valve stem projection is too great despite replacement of the valve, the cylinder head must be replaced.",
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "The specified valve projection and the dimensions can be found in the \"Technical Data\".",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

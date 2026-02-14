@@ -1,0 +1,34 @@
+{
+  "type": "procedure",
+  "id": "starter-motor-check-installed-A26D1C",
+  "title": "Starter Motor, Check (installed)",
+  "phases": [
+    {
+      "phase": "inspect",
+      "label": "Inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Test conditions: battery charge to specification and good ground connections.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Check the starter motor cable: for correct connections to the starter motor and the battery positive terminal; the max. permissible voltage drop during starting is 0.5 V – measure the voltage at terminal 50 of the starter motor. If the voltage drop is higher: check the contacts of the ignition lock, selector lever switch and the plug connectors.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Check the starter motor: Connect an Opel tester – refer to the operating instructions.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Note: Do not perform a short–circuit test, as this could damage the collector.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

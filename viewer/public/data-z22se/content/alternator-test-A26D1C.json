@@ -1,0 +1,33 @@
+{
+  "type": "diagnostic",
+  "id": "alternator-test-A26D1C",
+  "title": "Alternator Test",
+  "steps": [
+    {
+      "number": 1,
+      "text": "Download Reference curve."
+    },
+    {
+      "number": 2,
+      "text": "Start engine and allow it to idle."
+    },
+    {
+      "number": 1,
+      "text": "Download Setup file (the Tech 32 uses only Setup\nfiles, no reference curves)."
+    },
+    {
+      "number": 2,
+      "text": "Start engine and allow it to idle."
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/b818ea191cd1.jpg",
+      "alt": "Object Number: 2400950  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/3968b0a8a8e4.jpg",
+      "alt": "Object Number: 2419063  Size: DEFAULT"
+    }
+  ]
+}

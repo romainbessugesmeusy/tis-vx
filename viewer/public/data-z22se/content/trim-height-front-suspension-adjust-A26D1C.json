@@ -1,0 +1,7 @@
+{
+  "type": "generic",
+  "id": "trim-height-front-suspension-adjust-A26D1C",
+  "title": "Trim Height, Front Suspension, Adjust",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Trim Height, Front Suspension, Adjust</p>\n\n<p class=\"para-before-table\">Adjustment of the trim height is not\npossible. Trim height, for purposes of checking geometry and making\nadjustments of wheel alignment, camber and castor, must be as\nfollows:</p>\n\n<table cellspacing=\"0\" cellpadding=\"2\" class=\"border-none\">\n<colgroup>\n<col width=\"8%\">\n<col width=\"92%\"></colgroup>\n\n<tr valign=\"top\">\n<td class=\"border-none\" align=\"left\">\n<p>Front</p>\n</td>\n<td class=\"border-none\" align=\"left\">\n<p><span class=\"tech-spec\">140 mm</span> below front end of chassis\nside rail.</p>\n</td>\n</tr>\n\n<tr valign=\"top\">\n<td class=\"border-none\" align=\"left\">\n<p>Rear</p>\n</td>\n<td class=\"border-none\" align=\"left\">\n<p><span class=\"tech-spec\">140 mm</span> below rear end of chassis\nside rail.</p>\n</td>\n</tr>\n</table>\n\n<br>\n \n\n<p>These measurements approximate to a load consisting of driver,\npassenger and half a tank of fuel.</p>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "extractedData": {}
+}

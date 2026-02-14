@@ -1,0 +1,275 @@
+{
+  "type": "procedure",
+  "id": "wiper-motor-linkage-replace-A26D1C",
+  "title": "Wiper Motor Linkage, Replace",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Release harness connector from wash pump",
+          "image": {
+            "src": "/data/assets/images/b3070d1821c0.jpg",
+            "alt": "Object Number: 2429427  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Release wash reservoir from support bracket and position to one side",
+          "image": {
+            "src": "/data/assets/images/b3070d1821c0.jpg",
+            "alt": "Object Number: 2429427  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Disconnect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release nut"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/109869f7b46c.jpg",
+            "alt": "Object Number: 2429428  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Remove wiper motor cover from front crash box",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Disconnect harness connector from wiper motor Note: Identify position of wiper motor linkage to aid installation",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Disconnect linkage from wiper motor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Remove wiper motor from support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b9cde5353046.jpg",
+            "alt": "Object Number: 2429737  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Remove wiper arm from splined drive shaft",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove cover, bolt , washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c2876c2d94f6.jpg",
+            "alt": "Object Number: 2429735  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Release front bonnet latch assembly from support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt, 2x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/4149b42595a9.jpg",
+            "alt": "Object Number: 2429736  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Disconnect harness connector from front cover anti-theft switch",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Remove front cover anti-theft switch",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Release washer hose from support bracket and move to one side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove clip and T-piece"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Remove wiper linkage assembly from vehicle bulkhead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Install wiper linkage to vehicle bulkhead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ensure wiper linkage is installed in position noted during"
+            },
+            {
+              "bullet": "•",
+              "text": "Tighten 3x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Install washer hose to support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install T-piece, clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Install front cover anti-theft switch",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Connect harness connector to front cover anti-theft switch",
+          "image": null
+        },
+        {
+          "number": 18,
+          "text": "Install front bonnet latch assembly to support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x washer and 2x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Install wiper arm to correct wipe position on splined drive shaft",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install bolt and cover"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 20,
+          "text": "Install wiper motor to support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Clean thread of 3x bolt and apply locking compound"
+            },
+            {
+              "bullet": "•",
+              "text": "Tighten 3x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 21,
+          "text": "Connect harness connector to wiper motor",
+          "image": null
+        },
+        {
+          "number": 22,
+          "text": "Install wiper motor cover to front crash box",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 23,
+          "text": "Connect battery",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 24,
+          "text": "Secure wash reservoir to support bracket",
+          "image": null
+        },
+        {
+          "number": 25,
+          "text": "Connect harness connector to wash pump",
+          "image": null
+        },
+        {
+          "number": 26,
+          "text": "Reprogram all volatile memories",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Disconnect harness connector from wiper motor\n Identify position\nof wiper motor linkage to aid installation"
+  ]
+}

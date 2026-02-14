@@ -1,0 +1,39 @@
+{
+  "type": "harness_diagram",
+  "id": "power-train-engine-intake-side-engine-z22se-1-A26D1C",
+  "title": "Power train - Engine, intake side",
+  "diagram": {
+    "src": "/data/assets/ce13b3530368.cgm",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "B3",
+      "description": "Switch - Oil pressure"
+    },
+    {
+      "code": "G2",
+      "description": "Alternator"
+    },
+    {
+      "code": "B30",
+      "description": "Sensor - Knock control 1"
+    },
+    {
+      "code": "M1",
+      "description": "Starter"
+    },
+    {
+      "code": "B34",
+      "description": "Impulse sensor - Crankshaft"
+    },
+    {
+      "code": "X21",
+      "description": "Extension harness, engine & Control unit - Multec"
+    },
+    {
+      "code": "X22",
+      "description": "Engine & Control unit - Multec"
+    }
+  ]
+}

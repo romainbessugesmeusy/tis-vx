@@ -1,0 +1,27 @@
+{
+  "type": "tool_list",
+  "id": "special-service-tools-group-h-AQS315",
+  "title": "Special Service Tools, Group H",
+  "group": "H",
+  "tools": [
+    {
+      "code": "KM-325",
+      "name": "Brake Pedal Tensioner",
+      "description": null
+    },
+    {
+      "code": "KM-6007",
+      "name": "Brake Piston Retractor",
+      "description": null
+    },
+    {
+      "code": "KM-6007-40",
+      "name": "Adaptor",
+      "description": null
+    }
+  ],
+  "image": {
+    "src": "/data/assets/images/84092a2221d9.jpg",
+    "alt": "Object Number: 2422605  Size: DEFAULT"
+  }
+}

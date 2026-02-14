@@ -1,0 +1,196 @@
+{
+  "type": "procedure",
+  "id": "shock-absorber-replace-A26D1C",
+  "title": "Shock Absorber, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Chock front road wheels",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Raise and support vehicle",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Remove rear road wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use special socket located under bonnet"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Release shock absorber from chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt, nut, washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f054d3d25314.jpg",
+            "alt": "Object Number: 2419651  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Release shock absorber from lower wishbone",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt, nut, washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/402137d29d35.jpg",
+            "alt": "Object Number: 2419652  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Remove shock absorber from vehicle",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Remove spring from shock absorber",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use spring compressor"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0de34e7e3094.jpg",
+            "alt": "Object Number: 2419653  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 8,
+          "text": "Install spring to new shock absorber",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use spring compressor"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0de34e7e3094.jpg",
+            "alt": "Object Number: 2419653  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Install shock absorber to vehicle",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Secure shock absorber to lower wishbone",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install bolt, washer, new nut 45"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Secure shock absorber to chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use new nylock nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Remove support from lower wishbone",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Install rear road wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x wheel bolt, security bolt 90"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Raise vehicle and remove support",
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Remove chocks from front road wheels",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Secure shock absorber to lower wishbone",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Secure shock absorber to chassis",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 11
+    },
+    {
+      "component": "Install rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Install bolt, washer, new nut 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install 4x wheel bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Remove bolt, nut, washer\n Support rear\nsuspension at lower wishbone"
+  ]
+}

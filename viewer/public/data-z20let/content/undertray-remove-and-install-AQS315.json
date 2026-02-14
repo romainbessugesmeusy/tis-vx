@@ -1,0 +1,111 @@
+{
+  "type": "procedure",
+  "id": "undertray-remove-and-install-AQS315",
+  "title": "Important!",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Undertray, Remove and Install",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "other",
+      "label": "Important!",
+      "icon": "/data/assets/images/a1f4cd6ec726.jpg",
+      "steps": [
+        {
+          "number": 2,
+          "text": "Follow vehicle lifting instructions given in Introduction.",
+          "image": {
+            "src": "/data/assets/images/c3ba5c193f1f.jpg",
+            "alt": "Object Number: 2418929  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "With undertray installed, vehicle cannot be lifted by means of a two post hoist placed under chassis frame.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "To remove undertray, vehicle should be lifted by means of a four post hoist or a workshop jack.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "To remove undertray by means of a workshop jack, vehicle should be lifted on one side by placing a workshop jack at marked jacking points (arrowed).",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Vehicle must be secured by fitting one safety stand (1) at front jacking point (arrowed) and a second safety stand at rear below rear lower wishbone (2).",
+          "image": null,
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "- Secure vehicle to prevent vehicle rolling away.",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "- Only use authorised safety stands.",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "- Do not damage bottom of vehicle.",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "- Do not damage axle parts.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "remove",
+      "label": "Remove, Disconnect",
+      "icon": "/data/assets/images/4b8970d41392.jpg",
+      "steps": [
+        {
+          "number": 11,
+          "text": "Undertray (1) - 13 bolts.",
+          "image": {
+            "src": "/data/assets/images/1d1ad92dd5ed.jpg",
+            "alt": "Object Number: 2425071  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install, Connect",
+      "icon": "/data/assets/images/57d894c25c39.jpg",
+      "steps": [
+        {
+          "number": 12,
+          "text": "Undertray (1) - 13 bolts.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,651 @@
+{
+  "type": "procedure",
+  "id": "fuel-tank-remove-and-install-AQS315",
+  "title": "Fuel Tank, Remove and Install",
+  "phases": [
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Chocks to front wheels.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Open front bonnet.",
+          "image": null
+        },
+        {
+          "number": 36,
+          "text": "Fuel tank from vehicle – 4 bolts, washers.",
+          "image": null
+        },
+        {
+          "number": 37,
+          "text": "Important: Support fuel tank to prevent damage to pipes and wiring harness.",
+          "image": null
+        },
+        {
+          "number": 40,
+          "text": "Harness connector to fuel pump assembly.",
+          "image": null
+        },
+        {
+          "number": 41,
+          "text": "Fuel pipes to fuel pump assembly – clips.",
+          "image": null
+        },
+        {
+          "number": 42,
+          "text": "Fuel tank to vehicle – 4 bolts 25 Nm , washers.",
+          "image": null
+        },
+        {
+          "number": 43,
+          "text": "Caution !",
+          "image": {
+            "src": "/data/assets/images/fbb4919dccc3.jpg",
+            "alt": "Object Number: 2425193  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 44,
+          "text": "Use new bolts.",
+          "image": null
+        },
+        {
+          "number": 45,
+          "text": "Ensure star washer is used on lower, left bolt.",
+          "image": null
+        },
+        {
+          "number": 46,
+          "text": "Fuel lines to bulkhead – clips, bolts 9 Nm .",
+          "image": {
+            "src": "/data/assets/images/f41514275c1f.jpg",
+            "alt": "Object Number: 2425075  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 47,
+          "text": "Fuel filter to bulkhead – bolt (1) 9 Nm .",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 48,
+          "text": "Fuel tank lower panel (1) – 5 bolts, 3 nuts and bolts – 25 Nm .",
+          "image": {
+            "src": "/data/assets/images/efe3159f3f4e.jpg",
+            "alt": "Object Number: 2425077  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 49,
+          "text": "Lower fixing bolts (1) for front damping block – 25 Nm .",
+          "image": {
+            "src": "/data/assets/images/281d67494771.jpg",
+            "alt": "Object Number: 2425074  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 50,
+          "text": "Lower fixing bolts (1) for lower wishbone, left side, right side – 45 Nm .",
+          "image": {
+            "src": "/data/assets/images/9a776e675bb5.jpg",
+            "alt": "Object Number: 2425073  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 51,
+          "text": "Gearshift cables to hook on underside of transmission.",
+          "image": {
+            "src": "/data/assets/images/6fc5038ed95a.jpg",
+            "alt": "Object Number: 2425078  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 52,
+          "text": "Support bracket (1) for gearshift cables to fuel tank lower panel – 4 bolts.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 53,
+          "text": "Parking brake cables to brackets.",
+          "image": {
+            "src": "/data/assets/images/ec4dafccab9e.jpg",
+            "alt": "Object Number: 2425079  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 54,
+          "text": "Locknuts (1) on parking brake cables, left side, right side.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 55,
+          "text": "Parking brake cables to parking brake compensator.",
+          "image": {
+            "src": "/data/assets/images/295c86960519.jpg",
+            "alt": "Object Number: 2425072  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 56,
+          "text": "Pin and clip (1) to parking brake compensator.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 57,
+          "text": "Lower vehicle halfway.",
+          "image": {
+            "src": "/data/assets/images/295c86960519.jpg",
+            "alt": "Object Number: 2425072  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 58,
+          "text": "Hose (2) to fuel filler pipe – clips.",
+          "image": {
+            "src": "/data/assets/images/0c0330faa516.jpg",
+            "alt": "Object Number: 2425076  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 59,
+          "text": "Hoses (1) to evaporator box assembly – clips.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 60,
+          "text": "Right rear wheelarch liner – 6 clips.",
+          "image": {
+            "src": "/data/assets/images/835a42393a41.jpg",
+            "alt": "Object Number: 2429857  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 61,
+          "text": "Right rear wheel – bolts 90 Nm .",
+          "image": null
+        },
+        {
+          "number": 62,
+          "text": "Raise vehicle.",
+          "image": {
+            "src": "/data/assets/images/835a42393a41.jpg",
+            "alt": "Object Number: 2429857  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 63,
+          "text": "Rear undertray (1) – 13 bolts.",
+          "image": {
+            "src": "/data/assets/images/1d1ad92dd5ed.jpg",
+            "alt": "Object Number: 2425071  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 64,
+          "text": "Lower vehicle.",
+          "image": {
+            "src": "/data/assets/images/1d1ad92dd5ed.jpg",
+            "alt": "Object Number: 2425071  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 65,
+          "text": "Gearshift cable support bracket – bolt (2).",
+          "image": {
+            "src": "/data/assets/images/bbdf1637c5b5.jpg",
+            "alt": "Object Number: 2425070  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 66,
+          "text": "Gearshift cables (1) to transmission.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 67,
+          "text": "Negative lead to battery – nut.",
+          "image": {
+            "src": "/data/assets/images/109869f7b46c.jpg",
+            "alt": "Object Number: 2429428  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 68,
+          "text": "Screen wash reservoir.",
+          "image": {
+            "src": "/data/assets/images/be05ae38863a.jpg",
+            "alt": "Object Number: 2425069  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Screen wash reservoir and move to one side.",
+          "image": {
+            "src": "/data/assets/images/be05ae38863a.jpg",
+            "alt": "Object Number: 2425069  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Negative lead from battery – nut.",
+          "image": {
+            "src": "/data/assets/images/109869f7b46c.jpg",
+            "alt": "Object Number: 2429428  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Open engine cover.",
+          "image": {
+            "src": "/data/assets/images/109869f7b46c.jpg",
+            "alt": "Object Number: 2429428  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Drain fuel tank.",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Caution !",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Observe safety regulations.",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Gearshift cables (1) from transmission – use Remover KM-6042 .",
+          "image": {
+            "src": "/data/assets/images/bbdf1637c5b5.jpg",
+            "alt": "Object Number: 2425070  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Gearshift cable support bracket – bolt (2).",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "Move gearshift cables to one side.",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Raise vehicle.",
+          "image": {
+            "src": "/data/assets/images/bbdf1637c5b5.jpg",
+            "alt": "Object Number: 2425070  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 13,
+          "text": "Rear undertray (1) – 13 bolts.",
+          "image": {
+            "src": "/data/assets/images/1d1ad92dd5ed.jpg",
+            "alt": "Object Number: 2425071  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 14,
+          "text": "Clip (1) and pin from parking brake compensator.",
+          "image": {
+            "src": "/data/assets/images/295c86960519.jpg",
+            "alt": "Object Number: 2425072  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 15,
+          "text": "Parking brake cables from parking brake compensator.",
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Move parking brake cables to one side.",
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Locknuts (1) on parking brake cables, left side, right side.",
+          "image": {
+            "src": "/data/assets/images/ec4dafccab9e.jpg",
+            "alt": "Object Number: 2425079  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 18,
+          "text": "Parking brake cables from brackets.",
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Move parking brake cables to one side.",
+          "image": null
+        },
+        {
+          "number": 20,
+          "text": "Support bracket (1) for gearshift cables from fuel tank lower panel – 4 bolts.",
+          "image": {
+            "src": "/data/assets/images/6fc5038ed95a.jpg",
+            "alt": "Object Number: 2425078  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 21,
+          "text": "Gearshift cables from hook on underside of transmission.",
+          "image": null
+        },
+        {
+          "number": 22,
+          "text": "Move gearshift cables to one side.",
+          "image": null
+        },
+        {
+          "number": 23,
+          "text": "Lower fixing bolts (1) for lower wishbone, left side, right side.",
+          "image": {
+            "src": "/data/assets/images/9a776e675bb5.jpg",
+            "alt": "Object Number: 2425073  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 24,
+          "text": "Important: Ensure only lower fixing bolts are removed.",
+          "image": null
+        },
+        {
+          "number": 25,
+          "text": "Lower fixing bolts (1) for front damping block.",
+          "image": {
+            "src": "/data/assets/images/281d67494771.jpg",
+            "alt": "Object Number: 2425074  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 26,
+          "text": "Important: Ensure only lower fixing bolts are removed.",
+          "image": null
+        },
+        {
+          "number": 27,
+          "text": "Fuel tank lower panel (1) – 5 bolts, 3 nuts and bolts.",
+          "image": {
+            "src": "/data/assets/images/efe3159f3f4e.jpg",
+            "alt": "Object Number: 2425077  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 28,
+          "text": "Fuel lines from bulkhead – clips, bolts.",
+          "image": {
+            "src": "/data/assets/images/f41514275c1f.jpg",
+            "alt": "Object Number: 2425075  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 29,
+          "text": "Fuel filter from bulkhead – bolt (1).",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 30,
+          "text": "Lower vehicle halfway.",
+          "image": {
+            "src": "/data/assets/images/f41514275c1f.jpg",
+            "alt": "Object Number: 2425075  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 31,
+          "text": "Right rear wheel.",
+          "image": null
+        },
+        {
+          "number": 32,
+          "text": "Right rear wheelarch liner – 6 clips.",
+          "image": {
+            "src": "/data/assets/images/835a42393a41.jpg",
+            "alt": "Object Number: 2429857  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 33,
+          "text": "Hoses (1) from evaporator box assembly – clips.",
+          "image": {
+            "src": "/data/assets/images/0c0330faa516.jpg",
+            "alt": "Object Number: 2425076  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 34,
+          "text": "Hose (2) from fuel filler pipe – clips.",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 35,
+          "text": "Raise rear of vehicle to provide increased access.",
+          "image": {
+            "src": "/data/assets/images/0c0330faa516.jpg",
+            "alt": "Object Number: 2425076  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 38,
+          "text": "Fuel pipes from fuel pump assembly – clips.",
+          "image": null
+        },
+        {
+          "number": 39,
+          "text": "Harness connector from fuel pump assembly.",
+          "image": null
+        },
+        {
+          "number": 72,
+          "text": "Chocks from front wheels.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "phase": "inspect",
+      "label": "Inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": [
+        {
+          "number": 69,
+          "text": "Add fuel and check for leaks.",
+          "image": {
+            "src": "/data/assets/images/be05ae38863a.jpg",
+            "alt": "Object Number: 2425069  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 70,
+          "text": "Reprogrammable all volatile memories.",
+          "image": null
+        },
+        {
+          "number": 71,
+          "text": "Close front bonnet and engine cover.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Fuel tank to vehicle – 4 bolts 25 Nm , washers.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 42
+    },
+    {
+      "component": "Fuel lines to bulkhead – clips, bolts 9 Nm .",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 46
+    },
+    {
+      "component": "Lower fixing bolts (1) for lower wishbone, left side, right side – 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 50
+    },
+    {
+      "component": "Right rear wheel – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 61
+    },
+    {
+      "component": "Fuel filter to bulkhead – bolt (1) 9 Nm .",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Fuel tank lower panel (1) – 5 bolts, 3 nuts and bolts – 25 Nm .",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

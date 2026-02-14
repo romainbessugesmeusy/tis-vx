@@ -1,0 +1,410 @@
+{
+  "type": "procedure",
+  "id": "steering-gear-replace-A26D1C",
+  "title": "Steering Gear, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove hard top or soft top from vehicle",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Raise and support front of vehicle from hoist",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x chock to rear road wheel"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Lower vehicle to suitable working height",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Remove front road wheel, from left side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use special socket located under front bonnet"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 4x wheel bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Remove left tie-rod end from left steering arm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove, then discard nut"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/81ed2d7adf0b.jpg",
+            "alt": "Object Number: 2429776  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Remove front road wheel, from right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use special socket located under front bonnet"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 4x wheel bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Remove right tie-rod end from right steering arm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove, then discard nut"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/81ed2d7adf0b.jpg",
+            "alt": "Object Number: 2429776  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Release steering gear from steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x nut, 2x bolt (1) from lower universal joint"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove nut, bolt (2) from upper universal joint"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dacbd205bebf.jpg",
+            "alt": "Object Number: 2422976  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 11,
+          "text": "Release steering gear from bulkhead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x lower bolt (4) for steering gear"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 2x upper bolt (3) for steering gear"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dacbd205bebf.jpg",
+            "alt": "Object Number: 2422976  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 12,
+          "text": "Remove lower universal joint and pinion shaft",
+          "image": {
+            "src": "/data/assets/images/dacbd205bebf.jpg",
+            "alt": "Object Number: 2422976  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 13,
+          "text": "Remove pinion shaft grommet from bulkhead",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Raise vehicle to suitable working height",
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Remove steering gear from vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Lift both ends of steering gear, then move steering gear to"
+            },
+            {
+              "bullet": "•",
+              "text": "Lower steering gear, then rotate to remove pinion from"
+            },
+            {
+              "bullet": "•",
+              "text": "Withdraw steering gear from right side of vehicle"
+            }
+          ],
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 16,
+          "text": "Install new steering gear to vehicle from right side Note: 2x technician required.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Raise steering gear, then rotate to install pinion to"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 18,
+          "text": "Install steering gear to bulkhead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x lower bolt to steering gear, loose fit"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 2x upper bolt to steering gear, loose fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Install pinion shaft grommet to bulkhead",
+          "image": null
+        },
+        {
+          "number": 20,
+          "text": "Install lower universal joint and pinion shaft",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Check straight ahead position, then align match marks"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 2x nut, 2x bolt to lower universal joint 35 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Install nut, bolt to upper universal joint 35 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 21,
+          "text": "Secure 2x upper bolt for steering gear 45 Nm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x lower bolt for steering gear 22 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 22,
+          "text": "Raise vehicle to suitable working height",
+          "image": null
+        },
+        {
+          "number": 23,
+          "text": "Install right tie-rod end to right steering arm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install new nut 30 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 24,
+          "text": "Install left tie-rod end to left steering arm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install new nut 30 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 25,
+          "text": "Install front roadwheel to left side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt 90 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Use special socket located under front bonnet"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 26,
+          "text": "Install front roadwheel to right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt 90 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Use special socket located under front bonnet"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 27,
+          "text": "Lower vehicle to hoist",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x chock from rear road wheel"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 28,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 29,
+          "text": "Install hard top or soft top to vehicle",
+          "image": null
+        },
+        {
+          "number": 30,
+          "text": "Check steering wheel and front wheel alignment - see operation “Front Wheel Geometry” and “Straight Ahead Position, Check and Adjust”",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install lower universal joint and pinion shaft",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 20
+    },
+    {
+      "component": "Secure 2x upper bolt for steering gear 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 21
+    },
+    {
+      "component": "Secure 2x upper bolt for steering gear 45 Nm",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 21
+    },
+    {
+      "component": "Install right tie-rod end to right steering arm",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 23
+    },
+    {
+      "component": "Install left tie-rod end to left steering arm",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 24
+    },
+    {
+      "component": "Install front roadwheel to left side",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 25
+    },
+    {
+      "component": "Install front roadwheel to right side",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 26
+    },
+    {
+      "component": "Install 2x nut, 2x bolt to lower universal joint 35 Nm",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Secure 2x lower bolt for steering gear 22 Nm",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install new nut 30 Nm",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install 4x bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Remove, then discard nut\n Use commercially\navailable joint separator.",
+    "Remove nut, bolt (2) from upper universal joint\n Apply match mark\nto upper and lower universal joints.",
+    "Lift both ends of steering gear, then move steering gear to\nright side of vehicle\n 2x technician\nrequired.",
+    "Lower steering gear, then rotate to remove pinion from\nbulkhead\n 2x technician\nrequired.",
+    "Withdraw steering gear from right side of vehicle\n 2x technician\nrequired.",
+    "Install new steering gear to vehicle from right side\n 2x technician\nrequired.\n \n\n\n\n•  \nRaise steering gear, then rotate to install pinion to\nbulkhead\n Note:   2x technician\nrequired.",
+    "Raise steering gear, then rotate to install pinion to\nbulkhead\n 2x technician\nrequired.",
+    "Install 2x upper bolt to steering gear, loose fit\n Use recommended\nthread locking compound.\n Note:   2x technician\nrequired."
+  ]
+}

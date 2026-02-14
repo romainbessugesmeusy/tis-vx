@@ -1,0 +1,26 @@
+{
+  "type": "tsb",
+  "id": "engines-egr-valve-overview-A26D1C",
+  "title": "Field Remedy: 1583",
+  "subject": "Engines - EGR valve overview",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "N - Electrical Equipment",
+    "complaintGroup": "23 - Wrong Indication",
+    "troubleCode": "None"
+  },
+  "complaint": "EGR valve does not longer exist in some\nengines.",
+  "cause": "Different causes.",
+  "production": "",
+  "remedyContent": [
+    {
+      "type": "paragraph",
+      "text": "Overview of engines with/without EGR-valve:"
+    },
+    {
+      "type": "text",
+      "text": "Z10XE:existing \nZ12XE:removal as of MY03\nZ10/12/14XEP:existing \nZ14/16XE:existing, TSB 1897, Quick Information 1899 \nZ16SE:TSB 1900 \nZ16XEP:existing\nZ16XE1:existing\nZ16XER:existing\nZ16LET:not existing\nZ18XE:Vectra-C: removal as of MY03(Running Change)\nZ18XE:Corsa: removal as of MY03(Running Change)\nZ18XE:Astra/Zafira: removal as of MY04 (Running Change)\nZ18XE:Meriva und Vectra-B no EGR\nZ18XER:existing\nZ20NET:not existing\nZ22XE:existing \nZ22SE:removal as of MY04 (w/o Speedster, VX220) Quick Information 1721\nZ22YH:removal as of MY06, Quick Information 2015\nY26/32SE:not existing\nZ28NEX:not existing\nZ32SE:not existing"
+    }
+  ]
+}

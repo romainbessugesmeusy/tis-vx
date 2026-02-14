@@ -1,0 +1,58 @@
+{
+  "type": "procedure",
+  "id": "cantrail-bracket-replace-A26D1C",
+  "title": "Cantrail Bracket, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove rear cantrail bracket from roll bar",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/55d931d463f0.jpg",
+            "alt": "Object Number: 2419957  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 2,
+          "text": "Install rear cantrail bracket to roll bar",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ensure dowel pin is installed in roll bar"
+            },
+            {
+              "bullet": "•",
+              "text": "Apply locking compound to bolt thread"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/55d931d463f0.jpg",
+            "alt": "Object Number: 2419957  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Front cantrail brackets are fixed and not serviceable",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

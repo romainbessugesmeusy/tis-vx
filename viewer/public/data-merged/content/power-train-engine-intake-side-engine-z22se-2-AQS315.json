@@ -1,0 +1,31 @@
+{
+  "type": "harness_diagram",
+  "id": "power-train-engine-intake-side-engine-z22se-2-AQS315",
+  "title": "Power train - Engine, intake side",
+  "diagram": {
+    "src": "/data/assets/converted/5b2e0c89d693.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "B13",
+      "description": "Sensor - Temperature, intake air"
+    },
+    {
+      "code": "Y4",
+      "description": "Solenoid valve - Exhaust gas recirculation"
+    },
+    {
+      "code": "B21",
+      "description": "Sensor - Absolute pressure, intake manifold"
+    },
+    {
+      "code": "Y29",
+      "description": "Throttle valve - Positioner"
+    },
+    {
+      "code": "T1",
+      "description": "Ignition coil - Direct ignition"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "type": "procedure",
+  "id": "bearing-drive-shaft-in-clutch-housing-replace-A26D1C",
+  "title": "Bearing, Drive Shaft in Clutch Housing,\nReplace",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Illustration of drive shaft",
+          "image": {
+            "src": "/data/assets/images/8be76a45c4fd.jpg",
+            "alt": "Object Number: 2415586  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove transmission from vehicle- see operation \"Transmission, Remove and Install\"",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Disassemble transmission - see operation \"Transmission, Seal Completely\"",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Remove drive shaft bearing (4) and spacer sleeve (3) from clutch housing with KM-248-2 (1) and KM-248-4 (2)",
+          "image": {
+            "src": "/data/assets/images/437f55d0a968.jpg",
+            "alt": "Object Number: 2415643  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "3",
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Clean all removed parts and check for wear and damage; replace if necessary",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Install drive shaft bearing (3) into clutch housing with KM-6120 (2) in conjunction with KM-523-1 (1). Rounded-off side (arrows) of drive shaft bearing points to spacer sleeve",
+          "image": {
+            "src": "/data/assets/images/b35e514d39bc.jpg",
+            "alt": "Object Number: 2415644  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Install spacer sleeve (4) into clutch housing with KM-6112 (2) in conjunction with KM-523-1 (1)",
+          "image": {
+            "src": "/data/assets/images/b35e514d39bc.jpg",
+            "alt": "Object Number: 2415644  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Assemble transmission - see operation \"Transmission, Seal Completely\"",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install transmission into vehicle- see operation \"Transmission, Remove and Install\"",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "toolsRequired": [
+    "KM-248-2",
+    "KM-248-4",
+    "KM-6120",
+    "KM-523-1",
+    "KM-6112"
+  ]
+}

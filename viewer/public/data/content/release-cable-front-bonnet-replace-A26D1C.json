@@ -1,0 +1,151 @@
+{
+  "type": "procedure",
+  "id": "release-cable-front-bonnet-replace-A26D1C",
+  "title": "Release Cable, Front Bonnet, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Open front bonnet",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Detach front bonnet closing mechanism from bracket.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2 screws, 2 washers"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/5d5e274c5d95.jpg",
+            "alt": "Object Number: 2419903  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Remove front bonnet closing mechanism",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove screw"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2414fc6400c5.jpg",
+            "alt": "Object Number: 2419923  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Detach front bonnet handle and bracket from instrument panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Detach front bonnet handle from bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b0c7dcb3dfad.jpg",
+            "alt": "Object Number: 2419953  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Detach front bonnet handle from release cable",
+          "image": {
+            "src": "/data/assets/images/437fe4bf231d.jpg",
+            "alt": "Object Number: 2419954  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Remove release cable",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 8,
+          "text": "Install new release cable",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Attach front bonnet handle to release cable",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Attach front bonnet handle to bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fasten clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Attach front bonnet handle and bracket to instrument panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fasten clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Attach front bonnet closing mechanism to bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fasten 2 clips"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Attach front bonnet closing mechanism to bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fit 2 washers, 2 screws"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Adjust front bonnet and close",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

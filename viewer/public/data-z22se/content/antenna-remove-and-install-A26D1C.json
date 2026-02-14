@@ -1,0 +1,50 @@
+{
+  "type": "procedure",
+  "id": "antenna-remove-and-install-A26D1C",
+  "title": "Antenna, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Hard top or soft top from vehicle – see Owner's Manual.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Rear header panel from vehicle – see operation \"Rear Header Panel, Remove and Install\" in group A.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Antenna from rear header panel – nut, washer.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Antenna to rear header panel – washer, nut.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Rear header panel to vehicle.",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Hard top or soft top to vehicle.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

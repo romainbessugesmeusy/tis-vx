@@ -1,0 +1,66 @@
+{
+  "type": "procedure",
+  "id": "upper-wishbone-rear-remove-and-install-A26D1C",
+  "title": "Upper Wishbone, Rear, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Upper swivel joint from ball joint carrier (1) – nut (2); use suitable ball joint remover to separate swivel joint from ball joint carrier.",
+          "image": {
+            "src": "/data/assets/images/63ef582a1465.jpg",
+            "alt": "Object Number: 2429741  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 2,
+          "text": "Upper wishbone from chassis – bolts, nuts, washers.",
+          "image": {
+            "src": "/data/assets/images/63ef582a1465.jpg",
+            "alt": "Object Number: 2429741  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Upper wishbone to chassis – bolts, nuts 45 Nm , washers.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Upper swivel joint to upper ball joint carrier (1) – nut (2).",
+          "image": {
+            "src": "/data/assets/images/63ef582a1465.jpg",
+            "alt": "Object Number: 2429741  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Upper wishbone to chassis – bolts, nuts 45 Nm , washers.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 3
+    }
+  ]
+}

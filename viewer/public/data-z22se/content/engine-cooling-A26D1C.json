@@ -1,0 +1,71 @@
+{
+  "type": "harness_diagram",
+  "id": "engine-cooling-A26D1C",
+  "title": "engine-cooling-A26D1C",
+  "diagram": {
+    "src": "/data/assets/bf368d28563e.cgm",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "A4",
+      "description": "Control unit - Multec"
+    },
+    {
+      "code": "M19",
+      "description": "Motor - Radiator fan"
+    },
+    {
+      "code": "B117",
+      "description": "Sensor - Oxygen, mixture control, heated"
+    },
+    {
+      "code": "M21",
+      "description": "Pump - Fuel"
+    },
+    {
+      "code": "B118",
+      "description": "Sensor - Oxygen, catalytic converter check"
+    },
+    {
+      "code": "S94",
+      "description": "Impact switch - Fuel cut-off"
+    },
+    {
+      "code": "Y5",
+      "description": "Solenoid valve - Tank ventilation"
+    },
+    {
+      "code": "K13",
+      "description": "Relay - Radiator fan"
+    },
+    {
+      "code": "Y29",
+      "description": "Throttle valve - Positioner"
+    },
+    {
+      "code": "K103",
+      "description": "Relay - Impact, unlock doors"
+    },
+    {
+      "code": "X22",
+      "description": "Engine & Control unit - Multec"
+    },
+    {
+      "code": "X45",
+      "description": "Engine & Control unit - Multec"
+    },
+    {
+      "code": "X30",
+      "description": "Fuel tank & Fuel pump/sensor"
+    },
+    {
+      "code": "Z20LET",
+      "description": "Engine Z20LET"
+    },
+    {
+      "code": "Z22SE",
+      "description": "Engine Z22SE"
+    }
+  ]
+}

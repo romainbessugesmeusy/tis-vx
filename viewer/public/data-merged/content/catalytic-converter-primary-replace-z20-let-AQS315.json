@@ -1,0 +1,864 @@
+{
+  "type": "procedure",
+  "id": "catalytic-converter-primary-replace-z20-let-AQS315",
+  "title": "Catalytic Converter, Primary, Replace (Z20\nLET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove engine cover - see operation “Engine Cover, Remove and Install” in group A",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Disconnect air intake hose (1) from mass air flow meter (2) and turbocharger (3)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Move air intake hose to one side"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9d635555b6f8.jpg",
+            "alt": "Object Number: 2422474  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Remove support bracket with engine lifting eye (1) from cylinder head",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/4df93314a412.jpg",
+            "alt": "Object Number: 2422475  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Remove heat shield (1) from support bracket (2) on cylinder head",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x bolt, 4x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/4b4332895be0.jpg",
+            "alt": "Object Number: 2422476  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Remove support bracket (1) for heat shield from cylinder head",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt, 2x washer"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/04f0afe681f8.jpg",
+            "alt": "Object Number: 2422477  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Disconnect harness connector (2) from switchover valve (1) on turbocharger",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release integral clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a7ea3f9c5e20.jpg",
+            "alt": "Object Number: 2422478  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Disconnect vacuum hose (3) from turbocharger",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a7ea3f9c5e20.jpg",
+            "alt": "Object Number: 2422478  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Remove guide tube (4) for oil level dipstick from engine cylinder block",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove oil level dipstick"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 2x O ring, then discard"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a7ea3f9c5e20.jpg",
+            "alt": "Object Number: 2422478  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Disconnect harness connector for primary oxygen sensor (1) from engine harness",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release integral clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Release cable tie, then discard"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9722433dbccf.jpg",
+            "alt": "Object Number: 2422480  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Disconnect harness connector (1) for secondary oxygen sensor from engine harness",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release integral clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Lower harness through aperture in left rear inner wheel"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/eb688c0cef72.jpg",
+            "alt": "Object Number: 2422479  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "Release heat shield for turbocharger from transmission housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/45ea8e47a1fb.jpg",
+            "alt": "Object Number: 2422482  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 12,
+          "text": "Remove engine undertray (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Raise vehicle"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 13x bolt, 13x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 13,
+          "text": "Remove exhaust undertray (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 12x bolt, 12x washer, 2x clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 14,
+          "text": "Remove secondary catalytic converter (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 6x nut, then discard"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove gasket, then discard"
+            },
+            {
+              "bullet": "•–",
+              "text": "Release harness from clip",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Release 2x cable tie, then discard"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3d48e3cae1b0.jpg",
+            "alt": "Object Number: 2422497  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 15,
+          "text": "Remove hose (3) from turbocharger (2) and intercooler (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove cable tie, then discard"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0cd05d6d1724.jpg",
+            "alt": "Object Number: 2422235  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 16,
+          "text": "Release heat shield for turbocharger from engine cylinder block",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt, washer (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/198545d11bab.jpg",
+            "alt": "Object Number: 2422483  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 17,
+          "text": "Disconnect oil return pipe from engine cylinder block",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Position suitable collecting container"
+            },
+            {
+              "bullet": "•–",
+              "text": "Install blanking plug",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Discard 2x seal ring"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/77442a82cc99.jpg",
+            "alt": "Object Number: 2422484  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 18,
+          "text": "Disconnect oil feed pipe from engine cylinder block",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Disconnect pipe union (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/59701cd6e3d1.jpg",
+            "alt": "Object Number: 2422499  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 19,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 20,
+          "text": "Disconnect coolant feed hose (1) from turbocharger, then secure to one side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Position suitable collecting container"
+            },
+            {
+              "bullet": "•",
+              "text": "Install clamp"
+            },
+            {
+              "bullet": "•",
+              "text": "Discard 2x seal ring"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2a2c19c01e53.jpg",
+            "alt": "Object Number: 2422485  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 21,
+          "text": "Disconnect coolant return hose from turbocharger",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d02e8086dade.jpg",
+            "alt": "Object Number: 2422486  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 22,
+          "text": "Remove exhaust manifold with turbocharger from cylinder head",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 10x nut, then discard"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove gasket, then discard"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 23,
+          "text": "Remove heat shield (3) from exhaust manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/44680256d7ca.jpg",
+            "alt": "Object Number: 2422963  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 24,
+          "text": "Remove catalytic converter (2) from exhaust manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove clamp (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/44680256d7ca.jpg",
+            "alt": "Object Number: 2422963  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 25,
+          "text": "Remove oxygen sensor (1) from primary catalytic converter (2)",
+          "image": {
+            "src": "/data/assets/images/c90ceab01493.jpg",
+            "alt": "Object Number: 2422964  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 26,
+          "text": "Install oxygen sensor to primary catalytic converter",
+          "image": null
+        },
+        {
+          "number": 27,
+          "text": "Install catalytic converter to exhaust manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clamp 8 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 28,
+          "text": "Install heat shield to exhaust manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 29,
+          "text": "Install exhaust manifold with turbocharger to cylinder head",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install new gasket"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 10x new nut"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/55ad4b9efdcb.jpg",
+            "alt": "Object Number: 2418801  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 30,
+          "text": "Install guide tube for oil level dipstick to engine cylinder block",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x new O ring"
+            },
+            {
+              "bullet": "•",
+              "text": "Install bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Install oil level dipstick"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 31,
+          "text": "Connect vacuum hose to turbocharger",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 32,
+          "text": "Connect harness connector to switchover valve on turbocharger",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure integral clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 33,
+          "text": "Connect coolant feed hose to turbocharger",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Connect pipe union, 2x new seal ring"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove clamp"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 34,
+          "text": "Install support bracket for heat shield to cylinder head",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install bolt, 2x washer"
+            },
+            {
+              "bullet": "•",
+              "text": "Install bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 35,
+          "text": "Install heat shield to support bracket on cylinder head",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt, 4x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 36,
+          "text": "Secure heat shield for turbocharger to transmission housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 37,
+          "text": "Install support bracket with engine lifting eye to cylinder head",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Apply locking compound"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 38,
+          "text": "Connect coolant return hose to turbocharger",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 39,
+          "text": "Connect harness connector for primary oxygen sensor to engine harness",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure integral clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure new cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 40,
+          "text": "Connect air intake hose to mass air flow meter and turbocharger",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 41,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 42,
+          "text": "Connect oil feed pipe to engine cylinder block",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install bolt 35 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Connect pipe union 20 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 43,
+          "text": "Connect oil return pipe to engine cylinder block",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove blanking plug, then discard"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 44,
+          "text": "Secure heat shield for turbocharger to engine cylinder block",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install bolt, washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 45,
+          "text": "Install hose to turbocharger and intercooler",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Install new cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 46,
+          "text": "Install secondary catalytic converter",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 6x new nut"
+            },
+            {
+              "bullet": "•",
+              "text": "Install new gasket"
+            },
+            {
+              "bullet": "•–",
+              "text": "Secure 2x new cable tie",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Secure harness to clip"
+                }
+              ]
+            },
+            {
+              "bullet": "•",
+              "text": "Raise harness through aperture in left rear inner wheel"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 47,
+          "text": "Install engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 13x bolt, 13x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 48,
+          "text": "Install exhaust undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 12x bolt, 12x washer, 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 49,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 50,
+          "text": "Connect harness connector for secondary oxygen sensor to engine harness",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure integral clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 51,
+          "text": "Install engine cover - see operation “Engine Cover, Remove and Install” in group A",
+          "image": null
+        },
+        {
+          "number": 52,
+          "text": "Check coolant level, then top-up as required",
+          "image": null
+        },
+        {
+          "number": 53,
+          "text": "Program volatile memories",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install catalytic converter to exhaust manifold",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 27
+    },
+    {
+      "component": "Install exhaust manifold with turbocharger to cylinder head",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 29
+    },
+    {
+      "component": "Connect oil feed pipe to engine cylinder block",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 42
+    },
+    {
+      "component": "Connect oil feed pipe to engine cylinder block",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 42
+    },
+    {
+      "component": "Connect oil return pipe to engine cylinder block",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 43
+    },
+    {
+      "component": "Install clamp 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install bolt 35 Nm",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Connect pipe union 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Connect pipe union 30 Nm , 2x new seal ring – Remove blanking plug, then discard",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "A four-post hoist must\nbe used to raise the vehicle when removing the engine undertray.\nThe vehicle can be moved to a two-post hoist for other operations\nif required.",
+    "Observe relevant\nenvironmental requirements when disposing of used oil.",
+    "Observe relevant\nenvironmental requirements when disposing of used coolant\n(anti-freeze)."
+  ],
+  "notes": [
+    "Remove clamp (1)\n Note position of\ncatalytic converter when removing from exhaust manifold.",
+    "Install 10x new nut\n Tighten 10x nut\n8 Nm in sequence shown. Wait 5\nminutes, then re-tighten 10x nut 8\nNm in sequence shown."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "harness_diagram",
+  "id": "body-rear-rear-compartment-right-A26D1C",
+  "title": "Body rear - Rear compartment, right",
+  "diagram": {
+    "src": "/data/assets/c1452881ebc4.cgm",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "E4",
+      "description": "Rear lamp unit - Right"
+    },
+    {
+      "code": "E11",
+      "description": "Lamp - Licence plate, right"
+    }
+  ]
+}

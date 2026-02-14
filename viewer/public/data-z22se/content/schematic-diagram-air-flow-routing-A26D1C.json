@@ -1,0 +1,41 @@
+{
+  "type": "procedure",
+  "id": "schematic-diagram-air-flow-routing-A26D1C",
+  "title": "Schematic diagram (air flow routing)",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "",
+          "image": {
+            "src": "/data/assets/images/0612ded4151e.jpg",
+            "alt": "Object Number: 2412458  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "When tightening the hose clamps, carefully ensure that the tightening torque of 3,5 Nm is adhered to. Note: It can only be guaranteed that the intake system is leak–free and will thus operate safely and reliably if the hose clamps are tightened to the specified tightening torque.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "When tightening the hose clamps, carefully ensure that the tightening torque of 3,5 Nm is adhered to. Note: It can only be guaranteed that the intake system is leak–free and will thus operate safely and reliably if the hose clamps are tightened to the specified tightening torque.",
+      "value": "5",
+      "unit": "Nm",
+      "stepRef": 2
+    }
+  ],
+  "warnings": [
+    "Prior to installation,\nclean any contamination (grease, oil etc.) from the air intake pipe\nand the connection pieces."
+  ],
+  "notes": [
+    "When tightening the hose clamps, carefully ensure that the\ntightening torque of 3,5 Nm is\nadhered to.\n It can only be\nguaranteed that the intake system is leak–free and will thus\noperate safely and reliably if the hose clamps are tightened to the\nspecified tightening torque."
+  ]
+}

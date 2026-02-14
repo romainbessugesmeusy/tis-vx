@@ -1,0 +1,106 @@
+{
+  "type": "procedure",
+  "id": "wheel-bearing-remove-and-install-A26D1C",
+  "title": "wheel bearing remove and install A26D1C",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Wheel Bearing Assembly, Remove and Install",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "remove",
+      "label": "Remove, Disconnect",
+      "icon": "/data/assets/images/4b8970d41392.jpg",
+      "steps": [
+        {
+          "number": 2,
+          "text": "Brake caliper from hub carrier - two bolts; move to one side and support.",
+          "image": {
+            "src": "/data/assets/images/3255b57eb193.jpg",
+            "alt": "Object Number: 2429479  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Brake disc - one screw.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Harness connector from wheel speed sensor (2).",
+          "image": {
+            "src": "/data/assets/images/0310889ccf27.jpg",
+            "alt": "Object Number: 2429677  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Bolt (3), nut, thrust washers and dust shield from wheel bearing assembly.",
+          "image": null,
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Wheel bearing assembly from hub carrier - three bolts (1).",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install, Connect",
+      "icon": "/data/assets/images/57d894c25c39.jpg",
+      "steps": [
+        {
+          "number": 7,
+          "text": "Wheel bearing assembly to hub carrier - bolts.",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Bolt, thrust washers and dust shield to wheel bearing assembly - 210 Nm.",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Harness connector to wheel speed sensor.",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Brake disc - one screw.",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Brake caliper to hub carrier - two bolts.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Bolt, thrust washers and dust shield to wheel bearing assembly - 210 Nm.",
+      "value": "210",
+      "unit": "Nm",
+      "stepRef": 8
+    }
+  ]
+}

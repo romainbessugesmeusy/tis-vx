@@ -1,0 +1,22 @@
+{
+  "type": "tsb",
+  "id": "window-glass-visible-circular-marks-on-glass-A26D1C",
+  "title": "Field Remedy: 1863",
+  "subject": "Window Glass - Visible Circular Marks on\nGlass",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "C - Equipment/Windows",
+    "complaintGroup": "07 - Foreign Material or Fluid",
+    "troubleCode": "None"
+  },
+  "complaint": "Circular marks may 'appear' when the glass\nis damp.",
+  "cause": "Most production lines use rubber suction\nheads that can leave impression marks on the glass surface.",
+  "production": "",
+  "remedyContent": [
+    {
+      "type": "paragraph",
+      "text": "In case of customer complaint the glass should be polished using\na suitable proprietary mild abrasive. Substances like jewellers\nrouge, certain teeth whitening products or toothpaste are\nparticularly suitable."
+    }
+  ]
+}

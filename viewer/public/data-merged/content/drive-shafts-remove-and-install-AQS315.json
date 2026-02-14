@@ -1,0 +1,212 @@
+{
+  "type": "procedure",
+  "id": "drive-shafts-remove-and-install-AQS315",
+  "title": "Drive Shafts, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Appropriate rear wheel from vehicle.",
+          "image": {
+            "src": "/data/assets/images/b199d7acf6e8.jpg",
+            "alt": "Object Number: 2429699  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Undertray and diffuser panel from underside of vehicle – bolts.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Nut (3) from drive shaft – split pin; apply parking brake.",
+          "image": {
+            "src": "/data/assets/images/49b020d66667.jpg",
+            "alt": "Object Number: 2429700  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Wheel speed sensor from carrier.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Track control rod (2) from hub carrier – nut.",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Upper ball joint carrier (1) from hub carrier – two bolts; retain camber shims.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Shock absorber from chassis – bolt, nut, washers",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Caution !",
+          "image": {
+            "src": "/data/assets/images/49b020d66667.jpg",
+            "alt": "Object Number: 2429700  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Do not attempt to remove drive shaft from transmission by pulling on drive shaft. This will cause joint to become disassembled. Apply pressure only to outer body of joint.",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Oil escapes – place collecting basin underneath and close off openings with plugs.",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Treat new drive shaft carefully. Do not support drive shaft on folding cover.",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Drive shaft from transmission – lever out.",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Drive shaft from hub – use puller if necessary.",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Coat splines and bearing points with transmission fluid.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 15,
+          "text": "Drive shaft to hub.",
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Drive shaft to transmission – ensure retaining ring engages.",
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Shock absorber to chassis – bolt, nut 45 Nm , washers",
+          "image": null
+        },
+        {
+          "number": 18,
+          "text": "Upper ball joint carrier (1) to hub carrier – camber shims, two bolts 45 Nm .",
+          "image": {
+            "src": "/data/assets/images/49b020d66667.jpg",
+            "alt": "Object Number: 2429700  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 19,
+          "text": "Track control rod (2) to hub carrier – nut.",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 20,
+          "text": "Wheel speed sensor to hub carrier.",
+          "image": null
+        },
+        {
+          "number": 21,
+          "text": "Nut (3) to drive shaft; split pin; apply parking brake.",
+          "image": null,
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 22,
+          "text": "Level of transmission fluid and correct if necessary – see operation \"Transmission Fluid Level, Check and Correct\".",
+          "image": {
+            "src": "/data/assets/images/49b020d66667.jpg",
+            "alt": "Object Number: 2429700  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 23,
+          "text": "Undertray and diffuser panel to underside of vehicle – bolts.",
+          "image": null
+        },
+        {
+          "number": 24,
+          "text": "Rear wheel to vehicle – bolts 90 Nm .",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "inspect",
+      "label": "Inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Shock absorber to chassis – bolt, nut 45 Nm , washers",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 17
+    },
+    {
+      "component": "Rear wheel to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 24
+    },
+    {
+      "component": "Upper ball joint carrier (1) to hub carrier – camber shims, two bolts 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

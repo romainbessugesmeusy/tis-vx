@@ -1,0 +1,72 @@
+{
+  "type": "procedure",
+  "id": "rear-spoiler-replace-as-of-my03-A26D1C",
+  "title": "Rear Spoiler, Replace (As of MY03)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Release mat from load compartment",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Position mat to one side"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove rear spoiler (1) from rear clamshell (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Discard 3x nut"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9be24cea0821.jpg",
+            "alt": "Object Number: 2422945  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Install rear spoiler to rear clamshell",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure 3x new nut, 3x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Secure mat to load compartment",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure velcro fastening"
+            }
+          ],
+          "image": null
+        }
+      ]
+    }
+  ]
+}

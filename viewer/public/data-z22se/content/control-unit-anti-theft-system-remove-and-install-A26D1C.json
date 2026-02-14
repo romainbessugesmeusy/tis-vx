@@ -1,0 +1,57 @@
+{
+  "type": "procedure",
+  "id": "control-unit-anti-theft-system-remove-and-install-A26D1C",
+  "title": "Control Unit, Anti-Theft System, Remove and\nInstall",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Instrument pad assembly – see operation \"Instrument Pad Assembly, Remove and Install\".",
+          "image": {
+            "src": "/data/assets/images/15d6534b2326.jpg",
+            "alt": "Object Number: 2429747  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Harness connector from control unit.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Control unit from instrument panel – bolts.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Control unit to instrument panel – bolts.",
+          "image": {
+            "src": "/data/assets/images/15d6534b2326.jpg",
+            "alt": "Object Number: 2429747  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Harness connector to control unit.",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Instrument pad assembly.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "type": "procedure",
+  "id": "latch-front-bonnet-replace-AQS315",
+  "title": "Latch, Front Bonnet, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Release bonnet latch from retaining bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt, 2x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/5d5e274c5d95.jpg",
+            "alt": "Object Number: 2419903  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove bonnet latch",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/fc992387bf76.jpg",
+            "alt": "Object Number: 2419964  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Install new bonnet latch",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/fc992387bf76.jpg",
+            "alt": "Object Number: 2419964  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Secure bonnet latch to retaining bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x washer, 2x bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/5d5e274c5d95.jpg",
+            "alt": "Object Number: 2419903  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Align front bonnet",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

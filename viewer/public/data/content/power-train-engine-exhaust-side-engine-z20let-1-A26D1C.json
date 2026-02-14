@@ -1,0 +1,15 @@
+{
+  "type": "harness_diagram",
+  "id": "power-train-engine-exhaust-side-engine-z20let-1-A26D1C",
+  "title": "Power train - Engine, exhaust side",
+  "diagram": {
+    "src": "/data/assets/c8ade822c886.cgm",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "M55",
+      "description": "Pump - Coolant, additional"
+    }
+  ]
+}

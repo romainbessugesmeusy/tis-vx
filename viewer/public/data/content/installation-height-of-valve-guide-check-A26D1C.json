@@ -1,0 +1,39 @@
+{
+  "type": "procedure",
+  "id": "installation-height-of-valve-guide-check-A26D1C",
+  "title": "Installation height of valve guide, check",
+  "phases": [
+    {
+      "phase": "inspect",
+      "label": "Inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Preconditions: Valves removed.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Special service tools required:",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Caliper gauge",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Note: The engine-specific values can be found in the corresponding \"Technical Data\".",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "The installation height of the valve guide is measured from the lower seat of the valve head and the valve guide using the depth gauge of a caliper gauge.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

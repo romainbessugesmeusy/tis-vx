@@ -1,0 +1,195 @@
+{
+  "type": "procedure",
+  "id": "injectors-remove-and-install-A26D1C",
+  "title": "Injectors, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Engine wiring harness (2) from the fuel distribution pipe – cable ties.",
+          "image": {
+            "src": "/data/assets/images/9e2c49310e90.jpg",
+            "alt": "Object Number: 2429868  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Breather hose (1) from the cylinder head cover – clip.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Wiring harness connector (3) from the throttle valve housing.",
+          "image": null,
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Wiring harness connector from injectors.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Wiring harness connector (1) from the engine control unit.",
+          "image": {
+            "src": "/data/assets/images/522de599ab13.jpg",
+            "alt": "Object Number: 2429869  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Ground cable from the engine control unit – bolt (2).",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Fuel lines (arrow) from the fuel distribution pipe.",
+          "image": {
+            "src": "/data/assets/images/2f83cc82f2e0.jpg",
+            "alt": "Object Number: 2429870  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Important: Fuel may escape – observe the safety regulations and relevant national legislation.",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Vacuum line (arrow) from the fuel pressure regulator.",
+          "image": {
+            "src": "/data/assets/images/67b7934e50a0.jpg",
+            "alt": "Object Number: 2429871  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 10,
+          "text": "Fuel distribution pipe from the intake manifold.",
+          "image": {
+            "src": "/data/assets/images/67b7934e50a0.jpg",
+            "alt": "Object Number: 2429871  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 11,
+          "text": "Injectors from the fuel distribution pipe.",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Injectors into the fuel distribution pipe – use new seals.",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Fuel distribution pipe to the intake manifold.",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Vacuum line to the fuel pressure regulator.",
+          "image": {
+            "src": "/data/assets/images/67b7934e50a0.jpg",
+            "alt": "Object Number: 2429871  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 15,
+          "text": "Fuel lines (arrow) to the fuel distribution pipe.",
+          "image": {
+            "src": "/data/assets/images/2f83cc82f2e0.jpg",
+            "alt": "Object Number: 2429870  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 16,
+          "text": "Ground cable to the engine control unit – bolt (2).",
+          "image": {
+            "src": "/data/assets/images/522de599ab13.jpg",
+            "alt": "Object Number: 2429869  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 17,
+          "text": "Wiring harness connector (1) to the engine control unit.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 18,
+          "text": "Wiring harness connector to injectors.",
+          "image": {
+            "src": "/data/assets/images/9e2c49310e90.jpg",
+            "alt": "Object Number: 2429868  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 19,
+          "text": "Wiring harness connector (3) to the throttle valve housing.",
+          "image": null,
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 20,
+          "text": "Breather hose (1) to the cylinder head cover – clip.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 21,
+          "text": "Engine wiring harness (2) to the fuel distribution pipe – cable ties.",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "diagnostic",
+  "id": "compression-4-cylinder-unsynchronised-A26D1C",
+  "title": "Compression 4-cylinder, Unsynchronised",
+  "steps": [
+    {
+      "number": 1,
+      "text": "Download the Reference curve"
+    },
+    {
+      "number": 2,
+      "text": "Operate starter until HOLD appears in the top right\ncorner of the screen (the engine must not start during the test; if\nit does the test must be repeated)."
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/605efe90047e.jpg",
+      "alt": "Object Number: 2400933  Size: DEFAULT"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "type": "procedure",
+  "id": "oil-pump-pressure-control-valve-remove-and-install-z-22-se-A26D1C",
+  "title": "Oil Pump Pressure Control Valve, Remove and\nInstall (Z 22 SE)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Open the rear engine cover.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Raise the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Remove the lower engine splash shield (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Place a drip tray underneath.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Remove the oil pump pressure control valve.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove the screw plug (1)."
+            },
+            {
+              "bullet": "•",
+              "text": "Take out the oil seal (2), spring (3) and piston (4)."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/51c6e93b0884.jpg",
+            "alt": "Object Number: 2417807  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Check the components.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Piston, spring"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/51c6e93b0884.jpg",
+            "alt": "Object Number: 2417807  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 7,
+          "text": "Install the oil pump pressure control valve.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use a new oil seal."
+            },
+            {
+              "bullet": "•",
+              "text": "Coat the piston and spring with engine oil and insert them."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 65 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Attach the lower engine splash shield.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 bolts"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Lower the lifting ramp.",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Check the engine oil level, correct if necessary.",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Close the rear engine cover.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install the oil pump pressure control valve.",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Tightening torque 65 Nm",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Oil pump pressure control valve\n Check it does not\nstick.\n \n\n\n\n–\nPiston, spring"
+  ]
+}

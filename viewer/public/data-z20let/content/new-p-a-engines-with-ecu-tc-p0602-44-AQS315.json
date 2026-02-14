@@ -1,0 +1,22 @@
+{
+  "type": "tsb",
+  "id": "new-p-a-engines-with-ecu-tc-p0602-44-AQS315",
+  "title": "Field Remedy: 1678",
+  "subject": "New P&A engines with ECU - TC P0602\n(44)",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "04 - Electrical failures",
+    "troubleCode": "TC P0602 (44)"
+  },
+  "complaint": "SVS on and TC P0602 (44) stored after\nprogramming of ECU",
+  "cause": "Engines supplied from P&A are being\ncompleted with a production ECM, which is not usable for P&A\npurposes, because they are built up for the assembly plants.",
+  "production": "Not affected",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "Please use the old ECM in case of an engine exchange. The new ECM coming with\nthe new engine has to be assembled to the old engine, which will be returned\nto the warranty return center or the engine core return process."
+    }
+  ]
+}

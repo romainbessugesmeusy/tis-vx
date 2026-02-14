@@ -1,0 +1,19 @@
+{
+  "type": "harness_diagram",
+  "id": "doors-front-passenger-door-left-hand-drive-A26D1C",
+  "title": "Doors - Front passenger door",
+  "diagram": {
+    "src": "/data/assets/17b8e179e93a.cgm",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "M3",
+      "description": "Motor - Central locking, front passenger door"
+    },
+    {
+      "code": "X15",
+      "description": "Main harness & Front passenger door"
+    }
+  ]
+}

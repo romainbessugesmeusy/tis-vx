@@ -1,0 +1,229 @@
+{
+  "type": "procedure",
+  "id": "lambda-probe-replace-z-22-se-A26D1C",
+  "title": "Lambda Probe, Replace (Z 22 SE)",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove the lower engine splash shield (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Open the bonnet.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Disconnect the battery.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Detach the wiring harness connector of the lambda probe for closed–loop mixture control (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Detach from the bracket."
+            },
+            {
+              "bullet": "•",
+              "text": "Disconnect the wiring harness connector."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Expose the wiring harness.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Raise the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/dca4fe37e038.jpg",
+            "alt": "Object Number: 2412525  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Remove the cover from the exhaust system.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "9 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dca4fe37e038.jpg",
+            "alt": "Object Number: 2412525  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Remove the lambda probe for closed–loop mixture control (1).",
+          "image": {
+            "src": "/data/assets/images/dca4fe37e038.jpg",
+            "alt": "Object Number: 2412525  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Install the lambda probe for closed–loop mixture control.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Transfer the clips."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 40 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dca4fe37e038.jpg",
+            "alt": "Object Number: 2412525  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Lower the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/dca4fe37e038.jpg",
+            "alt": "Object Number: 2412525  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 11,
+          "text": "Attach the wiring harness connector of the lambda probe for closed–loop mixture control.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Route the wiring harness."
+            },
+            {
+              "bullet": "•",
+              "text": "Connect the wiring harness connector."
+            },
+            {
+              "bullet": "•",
+              "text": "Attach to bracket."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dca4fe37e038.jpg",
+            "alt": "Object Number: 2412525  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 12,
+          "text": "Connect the battery.",
+          "image": {
+            "src": "/data/assets/images/dca4fe37e038.jpg",
+            "alt": "Object Number: 2412525  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 13,
+          "text": "Close the bonnet.",
+          "image": {
+            "src": "/data/assets/images/dca4fe37e038.jpg",
+            "alt": "Object Number: 2412525  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 14,
+          "text": "Reprogram the volatile memories.",
+          "image": {
+            "src": "/data/assets/images/dca4fe37e038.jpg",
+            "alt": "Object Number: 2412525  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 15,
+          "text": "Attach the cover for the exhaust system.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "9 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dca4fe37e038.jpg",
+            "alt": "Object Number: 2412525  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 16,
+          "text": "Attach the lower engine splash shield.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Vehicle on a 4–post lifting ramp"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dca4fe37e038.jpg",
+            "alt": "Object Number: 2412525  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install the lambda probe for closed–loop mixture control.",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Tightening torque 40 Nm",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "Only remove the lambda\nprobe when the engine is at operating temperature."
+  ],
+  "notes": [
+    "Transfer the clips.\n When reusing the\nlambda probe, coat the thread with special grease (black)."
+  ]
+}

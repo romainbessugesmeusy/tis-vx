@@ -1,0 +1,222 @@
+{
+  "type": "procedure",
+  "id": "door-remove-and-install-AQS315",
+  "title": "Door, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Front clamshell – see operation \"Front Clamshell, Remove and Install\".",
+          "image": {
+            "src": "/data/assets/images/74bbcf1b368a.jpg",
+            "alt": "Object Number: 2418985  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Blanking caps (2).",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Hinge bolts (1).",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Door – 2nd technician.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Lower hinge bushing (3).",
+          "image": null,
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Important: Align door correctly in hinge.",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Important!",
+          "image": {
+            "src": "/data/assets/images/74bbcf1b368a.jpg",
+            "alt": "Object Number: 2418985  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Do not lubricate hinge bushing.",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Align door correctly when attaching.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 10,
+          "text": "Door – 2nd technician.",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Upper hinge bolt (1) – 45 Nm .",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 12,
+          "text": "Lower hinge bushing (3).",
+          "image": null,
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 13,
+          "text": "Lower hinge bolt (2) – 45 Nm .",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 14,
+          "text": "Blanking caps (arrowed).",
+          "image": {
+            "src": "/data/assets/images/6c0e53e4cac9.jpg",
+            "alt": "Object Number: 2418986  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 25,
+          "text": "Front clamshell – see operation \"Front Clamshell, Remove and Install\".",
+          "image": {
+            "src": "/data/assets/images/58e0466e1c25.jpg",
+            "alt": "Object Number: 2418992  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "phase": "inspect",
+      "label": "Inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": [
+        {
+          "number": 15,
+          "text": "Door gaps A and B.",
+          "image": {
+            "src": "/data/assets/images/de6b2e41a428.jpg",
+            "alt": "Object Number: 2418987  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "adjust",
+      "label": "Adjust",
+      "icon": "/data/assets/images/8bcc88ed08ca.gif",
+      "steps": [
+        {
+          "number": 16,
+          "text": "Adjust gap if necessary. Door gap is set by adjusting door hinge:",
+          "image": {
+            "src": "/data/assets/images/58e0466e1c25.jpg",
+            "alt": "Object Number: 2418992  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 17,
+          "text": "Area A",
+          "image": null
+        },
+        {
+          "number": 18,
+          "text": "– Adjustment in direction 2.",
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "– Angle adjustment in direction 4.",
+          "image": null
+        },
+        {
+          "number": 20,
+          "text": "Area B",
+          "image": null
+        },
+        {
+          "number": 21,
+          "text": "– Adjustment in direction 3.",
+          "image": null
+        },
+        {
+          "number": 22,
+          "text": "Misalignment of doors in direction 1 is adjusted by adding or removing spacers (C).",
+          "image": null
+        },
+        {
+          "number": 23,
+          "text": "If necessary adjust door latch striker pins – see operation \"Door Striker, Adjust\" in group C.",
+          "image": null
+        },
+        {
+          "number": 24,
+          "text": "If necessary install door window – see operation \"Door Window, Remove and Install\" in group C.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Upper hinge bolt (1) – 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 11
+    },
+    {
+      "component": "Lower hinge bolt (2) – 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

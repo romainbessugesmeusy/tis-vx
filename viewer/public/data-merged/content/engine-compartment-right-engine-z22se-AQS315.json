@@ -1,0 +1,15 @@
+{
+  "type": "harness_diagram",
+  "id": "engine-compartment-right-engine-z22se-AQS315",
+  "title": "Engine compartment - Right",
+  "diagram": {
+    "src": "/data/assets/converted/ce0a4427aa36.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "Y5",
+      "description": "Solenoid valve - Tank ventilation"
+    }
+  ]
+}

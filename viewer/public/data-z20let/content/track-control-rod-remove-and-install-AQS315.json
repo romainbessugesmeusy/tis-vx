@@ -1,0 +1,80 @@
+{
+  "type": "procedure",
+  "id": "track-control-rod-remove-and-install-AQS315",
+  "title": "track control rod remove and install",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Track Control Rod, Remove and Install",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "remove",
+      "label": "Remove, Disconnect",
+      "icon": "/data/assets/images/4b8970d41392.jpg",
+      "steps": [
+        {
+          "number": 2,
+          "text": "Brake caliper assembly from hub carrier - see operation \"Brake Caliper, Rear, Remove and Install\" in group H; support to one side.",
+          "image": {
+            "src": "/data/assets/images/2d0e71fcac03.jpg",
+            "alt": "Object Number: 2429419  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Track control rod from lower wishbone - nut, washers.",
+          "image": {
+            "src": "/data/assets/images/bfa1c2249fee.jpg",
+            "alt": "Object Number: 2429746  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Track control rod from hub carrier - nut, washers.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install, Connect",
+      "icon": "/data/assets/images/57d894c25c39.jpg",
+      "steps": [
+        {
+          "number": 5,
+          "text": "Track control rod to hub carrier - nut, washers.",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Track control rod to lower wishbone - nut 49 Nm, washers.",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Brake caliper assembly to hub carrier - see operation \"Brake Caliper, Rear, Remove and Install\" in group H.",
+          "image": {
+            "src": "/data/assets/images/2d0e71fcac03.jpg",
+            "alt": "Object Number: 2429419  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Track control rod to lower wishbone - nut 49 Nm, washers.",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 6
+    }
+  ]
+}

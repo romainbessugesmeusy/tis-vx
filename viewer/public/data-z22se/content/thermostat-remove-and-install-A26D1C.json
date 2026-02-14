@@ -1,0 +1,59 @@
+{
+  "type": "procedure",
+  "id": "thermostat-remove-and-install-A26D1C",
+  "title": "Thermostat, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Wiring harness connector from thermostat cover.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 2,
+          "text": "Thermostat cover from the thermostat housing – 2 bolts (arrow).",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Thermostat from the housing.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Thermostat and O–ring in the housing.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Thermostat cover to the thermostat housing – 2 bolts (arrow) 10 Nm .",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Wiring harness connector to the thermostat cover.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Thermostat cover to the thermostat housing – 2 bolts (arrow) 10 Nm .",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 5
+    }
+  ]
+}

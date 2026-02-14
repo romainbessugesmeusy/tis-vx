@@ -1,0 +1,308 @@
+{
+  "type": "procedure",
+  "id": "steering-arm-replace-A26D1C",
+  "title": "Steering Arm, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Chock both rear road wheels",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Raise and support vehicle",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Remove front road wheel",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Remove brake caliper assembly from hub carrier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e91f408abc7e.jpg",
+            "alt": "Object Number: 2419654  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "For earlier type wheel hub, remove brake disc",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove screw"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/048da1eb351c.jpg",
+            "alt": "Object Number: 2419655  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "For later type wheel hub, remove brake disc",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove screw"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9d902990b3a9.jpg",
+            "alt": "Object Number: 2422944  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Release harness connector from wheel speed sensor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8e6f9ae32a2b.jpg",
+            "alt": "Object Number: 2419656  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "For earlier type wheel hub assembly, remove from hub carrier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove centre bolt, 4x washer, nut"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 3x bolt, 3x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/88f4b06423df.jpg",
+            "alt": "Object Number: 2419657  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "For later type wheel hub assembly, remove from hub carrier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x bolt, 3x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e5dda15cdf55.jpg",
+            "alt": "Object Number: 2422942  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Release lower wishbone from hub carrier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove nut (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ac46df76dad3.jpg",
+            "alt": "Object Number: 2422943  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 11,
+          "text": "Remove hub carrier and shims",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f4a4bb722d10.jpg",
+            "alt": "Object Number: 2419659  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 12,
+          "text": "Install hub carrier and shims",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt 45 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Secure lower wishbone to hub carrier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install new nut 45 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Install wheel hub assembly to hub carrier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 3x washer, 3x bolt 77 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "For earlier type wheel hub, install centre bolt, 4x washer, nut 45 Nm",
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Secure harness connector to wheel speed sensor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Install brake disc to wheel hub",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 18,
+          "text": "Install brake caliper assembly to hub carrier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt 45 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Install front road wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt, install security bolt 90 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 20,
+          "text": "Raise vehicle and remove support",
+          "image": null
+        },
+        {
+          "number": 21,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 22,
+          "text": "Remove chocks from both rear road wheels",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install hub carrier and shims",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Secure lower wishbone to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Install wheel hub assembly to hub carrier",
+      "value": "77",
+      "unit": "Nm",
+      "stepRef": 14
+    },
+    {
+      "component": "For earlier type wheel hub, install centre bolt, 4x washer, nut 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 15
+    },
+    {
+      "component": "Install brake caliper assembly to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 18
+    },
+    {
+      "component": "Install front road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 19
+    },
+    {
+      "component": "Install 2x bolt 45 Nm Note: Clean threads and apply locking compound.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install 3x washer, 3x bolt 77 Nm",
+      "value": "77",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install 4x bolt, install security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Install 2x bolt 45 Nm \n Clean threads and\napply locking compound."
+  ]
+}

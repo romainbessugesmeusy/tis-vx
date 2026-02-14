@@ -1,0 +1,19 @@
+{
+  "type": "harness_diagram",
+  "id": "body-rear-under-vehicle-AQS315",
+  "title": "Body rear - Under vehicle",
+  "diagram": {
+    "src": "/data/assets/converted/c6f00a1b8dec.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "G1",
+      "description": "Battery"
+    },
+    {
+      "code": "X1",
+      "description": "Main harness & Battery positive"
+    }
+  ]
+}

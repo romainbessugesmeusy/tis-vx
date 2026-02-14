@@ -1,0 +1,66 @@
+{
+  "type": "procedure",
+  "id": "front-bonnet-hinge-replace-AQS315",
+  "title": "Front Bonnet Hinge, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Front bonnet – see operation \"Front Bonnet, Remove and Install\".",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Front clamshell – see operation \"Front Clamshell, Remove and Install\".",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Front bonnet hinge from radiator case – 3 bolts (2) on each side from nuts (1).",
+          "image": null,
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Front bonnet hinge to radiator case – 3 bolts (2) on each side to nuts (1) – 20 Nm .",
+          "image": null,
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Clamshell",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Front bonnet",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Front bonnet hinge to radiator case – 3 bolts (2) on each side to nuts (1) – 20 Nm .",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 4
+    }
+  ]
+}

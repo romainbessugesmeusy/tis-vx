@@ -1,0 +1,31 @@
+{
+  "type": "harness_diagram",
+  "id": "immobiliser-AQS315",
+  "title": "Immobiliser",
+  "diagram": {
+    "src": "/data/assets/converted/585f22926e5c.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "A4",
+      "description": "Control unit - Multec"
+    },
+    {
+      "code": "A17",
+      "description": "Control unit - Immobiliser"
+    },
+    {
+      "code": "A5",
+      "description": "Control unit - Motronic"
+    },
+    {
+      "code": "H1.6",
+      "description": "Telltale - Engine"
+    },
+    {
+      "code": "X13",
+      "description": "Diagnostic link"
+    }
+  ]
+}

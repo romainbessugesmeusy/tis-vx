@@ -1,0 +1,25 @@
+{
+  "type": "procedure",
+  "id": "engine-identification-engine-number-A26D1C",
+  "title": "Engine Identification, Engine Number",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "The engine identification is engraved on the flattened part of the oil filter housing (arrow II). Note: When installing a short–block engine, the engine number should be stamped onto the base plate of the cylinder block (arrow I) before installing the engine.",
+          "image": {
+            "src": "/data/assets/images/f083e193db50.jpg",
+            "alt": "Object Number: 2417976  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "The engine identification is engraved on the flattened part of\nthe oil filter housing (arrow II).\n When installing a\nshort–block engine, the engine number should be stamped onto\nthe base plate of the cylinder block (arrow I) before installing\nthe engine."
+  ]
+}

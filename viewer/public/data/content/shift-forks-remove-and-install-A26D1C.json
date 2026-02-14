@@ -1,0 +1,50 @@
+{
+  "type": "procedure",
+  "id": "shift-forks-remove-and-install-A26D1C",
+  "title": "Shift Forks, Remove and Install",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Illustration of shift fork",
+          "image": {
+            "src": "/data/assets/images/cb0c11295a7b.jpg",
+            "alt": "Object Number: 2415589  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove transmission from vehicle - see operation \"Transmission, Remove and Install\"",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Disassemble transmission - see operation \"Transmission, Seal Completely\"",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Inspect relevant gear shift fork. If plastic parts in hatched area are worn, or damaged, or if gear shift fork is damaged in any way, then gear shift fork must be replaced",
+          "image": {
+            "src": "/data/assets/images/6eed65feba30.jpg",
+            "alt": "Object Number: 2415654  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Assemble transmission - see operation \"Transmission, Seal Completely\"",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Install transmission in vehicle- see operation \"Transmission, Remove and Install\"",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

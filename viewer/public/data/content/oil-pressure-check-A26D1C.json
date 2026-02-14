@@ -1,0 +1,86 @@
+{
+  "type": "procedure",
+  "id": "oil-pressure-check-A26D1C",
+  "title": "Oil Pressure, Check",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Oil pressure switch – see operation \"Oil Pressure Switch, Remove and Install\".",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Oil pressure recorder and adapter from oil filter housing.",
+          "image": {
+            "src": "/data/assets/images/8e640d389a2f.jpg",
+            "alt": "Object Number: 2429834  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 2,
+          "text": "Adapter KM-6106 to oil filter housing.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Oil pressure recorder KM-498-B to adapter KM-6106 .",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Oil pressure switch – 18 Nm .",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "inspect",
+      "label": "Inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Engine oil level, correct as required.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Oil pressure specification 4.0 – 5.6 bar with the engine idling and at operating temperature.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Oil pressure switch – 18 Nm .",
+      "value": "18",
+      "unit": "Nm",
+      "stepRef": 7
+    }
+  ]
+}

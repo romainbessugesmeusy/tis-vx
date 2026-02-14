@@ -1,0 +1,58 @@
+{
+  "type": "procedure",
+  "id": "ribbed-v-belt-tensioner-replace-z-20-let-AQS315",
+  "title": "Ribbed V-belt Tensioner, Replace (Z 20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove Ribbed V-belt, - see operation \"Ribbed V-belt, Replace\".",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove 2x bolt, then remove ribbed V-belt tensioner (1) from alternator main bracket.",
+          "image": {
+            "src": "/data/assets/images/03064a38a54e.jpg",
+            "alt": "Object Number: 2421987  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Attach ribbed V-belt tensioner to alternator support. Install 2x bolt 35 Nm",
+          "image": {
+            "src": "/data/assets/images/03064a38a54e.jpg",
+            "alt": "Object Number: 2421987  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Install ribbed V-belt, - see operation \"Ribbed V-belt, Replace\".",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Attach ribbed V-belt tensioner to alternator support. Install 2x bolt 35 Nm",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 3
+    }
+  ]
+}

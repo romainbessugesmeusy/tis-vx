@@ -1,0 +1,111 @@
+{
+  "type": "procedure",
+  "id": "upper-coolant-hose-engine-replace-z-22-se-A26D1C",
+  "title": "Upper Coolant Hose, Engine, Replace (Z 22 SE)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Drain coolant system – see operation “Coolant System, Drain, Fill and Bleed”",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Release upper coolant hose from thermostat housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release, then remove clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Remove fuel tank - see operation “Fuel Tank, Remove and Install”",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Remove upper coolant hose (2) from coolant pipe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release, then remove clip (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/810ba1733912.jpg",
+            "alt": "Object Number: 2423058  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 7,
+          "text": "Transfer 2x clip to new upper coolant hose",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Install new upper coolant hose to coolant pipe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install fuel tank - see operation “Fuel Tank, Remove and Install”",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Secure upper coolant hose to thermostat housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Fill cooling system - see operation “Cooling System, Drain, Fill and Bleed”",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

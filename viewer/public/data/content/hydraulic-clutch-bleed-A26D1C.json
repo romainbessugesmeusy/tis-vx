@@ -1,0 +1,179 @@
+{
+  "type": "procedure",
+  "id": "hydraulic-clutch-bleed-A26D1C",
+  "title": "Hydraulic Clutch, Bleed",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Caution !",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "If fluid has escaped from central release or from pressure line for central release, hydraulic clutch system must be manually bled. If no fluid has leaked from central release or from pressure line for central release, then hydraulic system can be bled with a brake bleeder.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "During manual bleeding, pressure equipment must not be connected.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Use only DOT 4 brake fluid.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Cap from reservoir, then top up clutch fluid reservoir to maximum level.",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Valve cap from bleed valve.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 7,
+          "text": "Hydraulic Clutch, Manual Bleed",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Bleeding hose to bleed valve (1).",
+          "image": {
+            "src": "/data/assets/images/1509bfe603fa.jpg",
+            "alt": "Object Number: 2429757  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Second mechanic depresses clutch pedal and holds it in this position. Open bleed valve (1) and allow air/fluid to escape into container, close bleed valve then release clutch pedal slowly to upper limit or stop.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Ensuring that fluid level does not sink below \"MIN\" level on reservoir, repeat procedure approximately 20 times until bubble free fluid escapes into container.",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Close valve and remove hose, tighten valve – 9 Nm .",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Hydraulic Clutch, Bleed with Brake Bleeder Unit",
+          "image": {
+            "src": "/data/assets/images/1509bfe603fa.jpg",
+            "alt": "Object Number: 2429757  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 13,
+          "text": "Caution !",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Observe manufacturer's instructions before putting the unit into operation.",
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Bleeder unit to fluid reservoir, then open valve on bleeder unit to pressurize clutch system.",
+          "image": {
+            "src": "/data/assets/images/1509bfe603fa.jpg",
+            "alt": "Object Number: 2429757  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 16,
+          "text": "Open bleed valve (1) to bleed system until clear bubble free fluid escapes.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 17,
+          "text": "Close valve and remove hose, tighten valve – 9 Nm .",
+          "image": null
+        },
+        {
+          "number": 21,
+          "text": "Cap to bleed valve.",
+          "image": null
+        },
+        {
+          "number": 22,
+          "text": "Cap to reservoir.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "phase": "inspect",
+      "label": "Inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": [
+        {
+          "number": 18,
+          "text": "Check clutch pedal actuation pressure and ease of movement.",
+          "image": {
+            "src": "/data/assets/images/1509bfe603fa.jpg",
+            "alt": "Object Number: 2429757  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 19,
+          "text": "Check gear shift through all gears with engine running and clutch disengaged.",
+          "image": null
+        },
+        {
+          "number": 20,
+          "text": "Check fluid level is up to \"MAX\".",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Close valve and remove hose, tighten valve – 9 Nm .",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 11
+    }
+  ]
+}

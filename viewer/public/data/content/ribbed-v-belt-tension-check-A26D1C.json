@@ -1,0 +1,37 @@
+{
+  "type": "procedure",
+  "id": "ribbed-v-belt-tension-check-A26D1C",
+  "title": "Ribbed V-belt Tension, Check",
+  "phases": [
+    {
+      "phase": "inspect",
+      "label": "Inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Warning!",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "The tension of the ribbed V–belt is automatically adjusted by the ribbed V–belt tensioner pulley. It is only possible to check the position of the tensioner pulley. The pointer (1) on the moveable part of the tensioner pulley must be positioned between the two markings (2) on the fixed part of the tensioner pulley.",
+          "image": null,
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Check whether the pointer (1) is positioned between the two markings (2). If the pointer is positioned outside the two markings, then the ribbed V–belt needs to be renewed – see operation \"Ribbed V–belt, Remove and Install\".",
+          "image": null,
+          "callouts": [
+            "1",
+            "2"
+          ]
+        }
+      ]
+    }
+  ]
+}

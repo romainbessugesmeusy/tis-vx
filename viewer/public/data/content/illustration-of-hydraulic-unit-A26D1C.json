@@ -1,0 +1,22 @@
+{
+  "type": "procedure",
+  "id": "illustration-of-hydraulic-unit-A26D1C",
+  "title": "Illustration of Hydraulic Unit",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Illustration of hydraulic unit",
+          "image": {
+            "src": "/data/assets/images/d1d1e4b36921.jpg",
+            "alt": "Object Number: 2419899  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ]
+}

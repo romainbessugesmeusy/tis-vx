@@ -1,0 +1,71 @@
+{
+  "type": "procedure",
+  "id": "camshaft-connection-flange-cover-replace-z-22-se-A26D1C",
+  "title": "Camshaft Connection Flange Cover, Replace (Z 22\nSE)",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Open the rear engine cover.",
+          "image": {
+            "src": "/data/assets/images/7633e0412b84.jpg",
+            "alt": "Object Number: 2417776  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove the camshaft connecting flange cover (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 bolts (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7633e0412b84.jpg",
+            "alt": "Object Number: 2417776  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Install the camshaft connecting flange cover.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use a new gasket."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 23 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7633e0412b84.jpg",
+            "alt": "Object Number: 2417776  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install the camshaft connecting flange cover.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 3
+    },
+    {
+      "component": "Tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

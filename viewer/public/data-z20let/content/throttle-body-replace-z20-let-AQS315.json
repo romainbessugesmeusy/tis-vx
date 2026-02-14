@@ -1,0 +1,114 @@
+{
+  "type": "procedure",
+  "id": "throttle-body-replace-z20-let-AQS315",
+  "title": "Throttle Body, Replace (Z20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Disconnect ground cable from battery.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Drain coolant – see operation ”Coolant System, Drain, Fill and Bleed”",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Remove intercooler hose (5) from throttle body, upper.",
+          "image": {
+            "src": "/data/assets/images/8c10734256c9.jpg",
+            "alt": "Object Number: 2422889  Size: DEFAULT"
+          },
+          "callouts": [
+            "5"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Remove throttle body, upper (4) from throttle body, lower.",
+          "image": null,
+          "callouts": [
+            "4"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Remove throttle body coolant lines (2) from throttle body. Remove engine vent hose (3) from cylinder head cover.",
+          "image": null,
+          "callouts": [
+            "2",
+            "3"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Disconnect throttle body wiring harness plug (1).",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Remove throttle body.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 8,
+          "text": "Replace throttle body sealing rings and attach throttle body coolant lines to throttle body. Attach engine vent hose to cylinder head cover.",
+          "image": {
+            "src": "/data/assets/images/8c10734256c9.jpg",
+            "alt": "Object Number: 2422889  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Attach throttle body, upper to throttle body, lower – tightening torque 9 Nm . Attach intercooler hose to throttle body upper – tightening torque – 3.5 Nm .",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Connect ground cable to battery.",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Charge cooling system – see operations ”Coolant System, Drain, Fill and Bleed”.",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Perform a relearning procedure after throttle body module (E-Gas) replacement. To do so, turn on ignition and wait at least 10 seconds. Under no circumstances should starting occur during the waiting period as this would interrupt the relearning procedure.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Attach throttle body, upper to throttle body, lower – tightening torque 9 Nm . Attach intercooler hose to throttle body upper – tightening torque – 3.5 Nm .",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Attach throttle body, upper to throttle body, lower – tightening torque 9 Nm . Attach intercooler hose to throttle body upper – tightening torque – 3.5 Nm .",
+      "value": "3.5",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "type": "procedure",
+  "id": "tie-rod-end-remove-and-install-A26D1C",
+  "title": "Tie Rod End, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Slacken lock nut on tie rod.",
+          "image": {
+            "src": "/data/assets/images/81ed2d7adf0b.jpg",
+            "alt": "Object Number: 2429776  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Fastening nut from tie rod end.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Tie rod end from steering arm – use Remover KM-507-C .",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Tie rod end from tie rod.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "measure",
+      "label": "Measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Front wheel from vehicle.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Measure free thread length (A) from lock nut to thread end on tie rod.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "phase": "adjust",
+      "label": "Adjust",
+      "icon": "/data/assets/images/8bcc88ed08ca.gif",
+      "steps": [
+        {
+          "number": 7,
+          "text": "Tie rod end to tie rod – note previously measured free thread length.",
+          "image": {
+            "src": "/data/assets/images/81ed2d7adf0b.jpg",
+            "alt": "Object Number: 2429776  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Tie rod end to steering arm – use new nut.",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Tighten lock nut on tie rod end 30 Nm .",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Front wheel to vehicle – bolts 90 Nm .",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Check toe-in and adjust – see operation \"Toe-in, Adjust\" in group E.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Tighten lock nut on tie rod end 30 Nm .",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Front wheel to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 10
+    }
+  ]
+}

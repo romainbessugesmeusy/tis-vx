@@ -1,0 +1,230 @@
+{
+  "type": "procedure",
+  "id": "bearings-main-shaft-and-or-drive-shaft-in-transmission-housi-A26D1C",
+  "title": "Bearings, Main Shaft and/or Drive Shaft in\nTransmission Housing, Replace",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Illustration of main shaft and drive shaft in transmission housing",
+          "image": {
+            "src": "/data/assets/images/73fd9b3c2c7b.jpg",
+            "alt": "Object Number: 2415591  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove transmission from vehicle- see operation \"Transmission, Remove and Install\"",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Disassemble transmission - see operation \"Transmission, Seal Completely\"",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "If required, remove and install new, or old, main shaft bearings using KM-6122 (1) in conjunction with KM-523-1 (2)",
+          "image": {
+            "src": "/data/assets/images/206e47498637.jpg",
+            "alt": "Object Number: 2415650  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Remove drive shaft bearing from transmission housing using KM-6123 (3) in conjunction with KM-523-1 (4)",
+          "image": {
+            "src": "/data/assets/images/206e47498637.jpg",
+            "alt": "Object Number: 2415650  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "4"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Clean all parts",
+          "image": {
+            "src": "/data/assets/images/206e47498637.jpg",
+            "alt": "Object Number: 2415650  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Check all parts; replace if necessary",
+          "image": {
+            "src": "/data/assets/images/206e47498637.jpg",
+            "alt": "Object Number: 2415650  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "When replacing main shaft bearing in transmission housing, pressure collar adjustment must be determined and adjusted if necessary. For this, seat of bearing inner race for main shaft relative to sealing surface of transmission housing must be determined. This is described in following steps",
+          "image": {
+            "src": "/data/assets/images/206e47498637.jpg",
+            "alt": "Object Number: 2415650  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Support transmission housing using wooden block so that main shaft bearing inner ring is unobstructed",
+          "image": {
+            "src": "/data/assets/images/9ed039598e05.jpg",
+            "alt": "Object Number: 2416930  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Position KM-621-23 (1) on transmission housing (3)",
+          "image": {
+            "src": "/data/assets/images/9ed039598e05.jpg",
+            "alt": "Object Number: 2416930  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "3"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "Determine dimension (I) (bearing inner ring to transmission housing sealing surface) using commercially available digital depth gauge (2) with measuring range of at least 250 mm and graduation of 0.01 mm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Perform this measurement at three evenly-spaced measurement"
+            },
+            {
+              "bullet": "•",
+              "text": "Add measured values and divide sum by number of measurements."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9ed039598e05.jpg",
+            "alt": "Object Number: 2416930  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 12,
+          "text": "Purpose of following tables is to explain pressure comb adjustment using example calculation",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "After installation, this measurement must be performed in same way for new main shaft bearing. If a value deviates by more than 0.08 mm from other values of a particular measurement, measurement must be repeated as measurement error has occurred",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Mean value for new main shaft bearing is then subtracted from mean value for old main shaft bearing. If dimension difference between old and new main shafts is greater than + 0.02-0.06 mm , pressure comb must be adjusted. For this purpose, tapered roller bearings must be removed from differential - see operation \"Tapered Roller Bearings - Differential, Remove and Install\"",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "± Difference"
+            },
+            {
+              "bullet": "•",
+              "text": "± Difference"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Select shim",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "If difference is positive (+), then the shim (transmission"
+            },
+            {
+              "bullet": "•",
+              "text": "If difference is negative (-), then the shim (transmission"
+            },
+            {
+              "bullet": "•",
+              "text": "If the shim (transmission housing side) (4) is thicker, the"
+            },
+            {
+              "bullet": "•",
+              "text": "If the shim (transmission housing side) (4) is thinner, the"
+            },
+            {
+              "bullet": "•",
+              "text": "In other words, total thickness of two shims remains same since"
+            },
+            {
+              "bullet": "•",
+              "text": "Corresponding shims can be obtained from \"Aftersales\" division."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/21512f298655.jpg",
+            "alt": "Object Number: 2416929  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 16,
+          "text": "Examples for selection of available shims are listed in following table",
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Shims must be selected so that smallest possible tolerance is achieved during adjustment Note: Used shims can be re-used in subsequent adjustment operations provided that shims are not damaged",
+          "image": null
+        },
+        {
+          "number": 18,
+          "text": "Install differential tapered roller bearings - see operation \"Tapered Roller Bearings - Differential, Remove and Install\"",
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Install drive shaft bearing (1) and main shaft bearing (2) in transmission housing (3) - see operation \"Transmission, Seal Completely\"",
+          "image": {
+            "src": "/data/assets/images/85c440ca391b.jpg",
+            "alt": "Object Number: 2415603  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "number": 20,
+          "text": "Assemble transmission - see operation \"Transmission, Seal Completely\"",
+          "image": null
+        },
+        {
+          "number": 21,
+          "text": "Install transmission - see operation \"Transmission, Remove and Install\"",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "toolsRequired": [
+    "KM-6122",
+    "KM-523-1",
+    "KM-6123",
+    "KM-621-23"
+  ],
+  "warnings": [
+    "For measurement of\nmain shaft bearing, bearing must not contact surface of\nworkbench"
+  ],
+  "notes": [
+    "Shims must be selected so that smallest possible tolerance is\nachieved during adjustment\n Used shims can be\nre-used in subsequent adjustment operations provided that shims are\nnot damaged"
+  ]
+}

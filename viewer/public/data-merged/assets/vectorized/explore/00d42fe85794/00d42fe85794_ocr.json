@@ -1,0 +1,119 @@
+{
+  "fullText": "Sm Pa\n0\n3 Re Ey To od\n1 i Berns\nEy ie A Biz i\nAR f FF XY\n4 ay J I NE\n2 SG 1 5 pr J\nppd dE IRENE\nai HEIL\nwg C2\nv eT 8 0005742\n",
+  "elements": [
+    {
+      "text": "0",
+      "confidence": 83,
+      "bbox": {
+        "x": 188,
+        "y": 18,
+        "width": 105,
+        "height": 14
+      },
+      "type": "symbol"
+    },
+    {
+      "text": "3",
+      "confidence": 96,
+      "bbox": {
+        "x": 20,
+        "y": 64,
+        "width": 12,
+        "height": 17
+      },
+      "type": "word"
+    },
+    {
+      "text": "1",
+      "confidence": 86,
+      "bbox": {
+        "x": 59,
+        "y": 72,
+        "width": 36,
+        "height": 26
+      },
+      "type": "symbol"
+    },
+    {
+      "text": "4",
+      "confidence": 89,
+      "bbox": {
+        "x": 20,
+        "y": 177,
+        "width": 7,
+        "height": 6
+      },
+      "type": "symbol"
+    },
+    {
+      "text": "J",
+      "confidence": 40,
+      "bbox": {
+        "x": 75,
+        "y": 167,
+        "width": 3,
+        "height": 14
+      },
+      "type": "word"
+    },
+    {
+      "text": "2",
+      "confidence": 88,
+      "bbox": {
+        "x": 15,
+        "y": 187,
+        "width": 11,
+        "height": 16
+      },
+      "type": "word"
+    },
+    {
+      "text": "1",
+      "confidence": 89,
+      "bbox": {
+        "x": 71,
+        "y": 183,
+        "width": 4,
+        "height": 21
+      },
+      "type": "symbol"
+    },
+    {
+      "text": "5",
+      "confidence": 89,
+      "bbox": {
+        "x": 123,
+        "y": 199,
+        "width": 8,
+        "height": 4
+      },
+      "type": "symbol"
+    },
+    {
+      "text": "2",
+      "confidence": 87,
+      "bbox": {
+        "x": 111,
+        "y": 285,
+        "width": 13,
+        "height": 11
+      },
+      "type": "symbol"
+    },
+    {
+      "text": "80005742",
+      "confidence": 98.875,
+      "bbox": {
+        "x": 235,
+        "y": 288,
+        "width": 83,
+        "height": 23
+      },
+      "type": "reference_code",
+      "originalElements": 8
+    }
+  ],
+  "imageWidth": 325,
+  "imageHeight": 311,
+  "preprocessMethod": 0
+}

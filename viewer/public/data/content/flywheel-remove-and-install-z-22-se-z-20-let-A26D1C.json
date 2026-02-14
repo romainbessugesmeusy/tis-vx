@@ -1,0 +1,61 @@
+{
+  "type": "procedure",
+  "id": "flywheel-remove-and-install-z-22-se-z-20-let-A26D1C",
+  "title": "Flywheel, Remove and Install (Z 22 SE, Z 20\nLET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Clutch plate and clutch pressure plate – see operation \"Clutch Plate and Clutch Pressure Plate, Remove and Install\" in Group K.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "clean",
+      "label": "Clean",
+      "icon": "/data/assets/images/d9fe69774efb.gif",
+      "steps": [
+        {
+          "number": 2,
+          "text": "Flywheel from crankshaft – bolts, immobilise the flywheel with KM-652 .",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Flywheel bores; flange surfaces of the crankshaft and the flywheel.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Flywheel to crankshaft – align the centring spigot, immobilise the flywheel with KM-652 , use new bolts, use 53 Nm + 25° to tighten the bolts evenly.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Clutch plate and clutch pressure plate.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Flywheel to crankshaft – align the centring spigot, immobilise the flywheel with KM-652 , use new bolts, use 53 Nm + 25° to tighten the bolts evenly.",
+      "value": "53",
+      "unit": "Nm",
+      "stepRef": 4
+    }
+  ]
+}

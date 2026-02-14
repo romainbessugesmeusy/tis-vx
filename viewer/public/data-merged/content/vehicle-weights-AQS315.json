@@ -1,0 +1,7 @@
+{
+  "type": "generic",
+  "id": "vehicle-weights-AQS315",
+  "title": "Vehicle Weights",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Vehicle Weights</p>\n\n<table cellspacing=\"0\" cellpadding=\"2\" class=\"border-all\">\n<colgroup>\n<col>\n<col>\n<col></colgroup>\n\n<tr valign=\"top\">\n<td class=\"border-botright\">&nbsp;</td>\n<td class=\"border-botright\" align=\"center\">\n<p class=\"bold\">Speedster/VX220</p>\n</td>\n<td class=\"border-bot\" align=\"center\">\n<p class=\"bold\">Speedster/VX220 Turbo</p>\n</td>\n</tr>\n\n<tr valign=\"top\">\n<td class=\"border-botright\">\n<p>Kerb weight (kg)</p>\n</td>\n<td class=\"border-botright\" align=\"center\">\n<p>945</p>\n</td>\n<td class=\"border-bot\" align=\"center\">\n<p>1050</p>\n</td>\n</tr>\n\n<tr valign=\"top\">\n<td class=\"border-right\">\n<p>Permissible gross vehicle weight (kg)</p>\n</td>\n<td class=\"border-right\" align=\"center\">\n<p>1150</p>\n</td>\n<td class=\"border-none\" align=\"center\">\n<p>1150</p>\n</td>\n</tr>\n</table>\n\n<br>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "extractedData": {}
+}

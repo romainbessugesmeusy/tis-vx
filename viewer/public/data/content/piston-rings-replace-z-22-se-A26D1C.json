@@ -1,0 +1,71 @@
+{
+  "type": "procedure",
+  "id": "piston-rings-replace-z-22-se-A26D1C",
+  "title": "Piston Rings, Replace (Z 22 SE)",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove the piston rings.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use piston ring pliers (1)."
+            },
+            {
+              "bullet": "•",
+              "text": "Any carbon build–up should be removed with a piston ring"
+            },
+            {
+              "bullet": "•",
+              "text": "Compress the piston ring in the cylinder and measure the gap"
+            },
+            {
+              "bullet": "•",
+              "text": "Piston ring sizes and permissible piston ring gaps – see"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f0e0302c618b.jpg",
+            "alt": "Object Number: 2417934  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Install the piston rings. Note: During installation of the second piston ring (Napier ring): \"Punkt\" (= point or dot) identification faces upwards.",
+          "substeps": [
+            {
+              "bullet": "••",
+              "text": "Intermediate ring of the oil scraper ring in position, steel",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "First piston ring (rectangular–section ring) in\nposition"
+                },
+                {
+                  "bullet": "–",
+                  "text": "Second piston ring (Napier ring) in position"
+                },
+                {
+                  "bullet": "–",
+                  "text": "Intermediate ring of the oil scraper ring in position, steel\nband rings of the oil scraper ring in position"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/aafd38daccc6.jpg",
+            "alt": "Object Number: 2417766  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Install the piston rings.\n During\ninstallation of the second piston ring (Napier ring): \"Punkt\" (=\npoint or dot) identification faces upwards.\n \n\n\n\n•  \nAdjust the piston ring gap.\n \n\n\n\n–\nFirst piston ring (rectangular–section ring) in\nposition\n \n\n\n\n\n\n–\nSecond piston ring (Napier ring) in position\n \n\n\n\n\n\n–\nIntermediate ring of the oil scraper ring in position, steel\nband rings of the oil scraper ring in position"
+  ]
+}

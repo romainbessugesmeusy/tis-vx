@@ -1,0 +1,23 @@
+{
+  "type": "harness_diagram",
+  "id": "body-rear-rear-compartment-left-engine-z22se-A26D1C",
+  "title": "Body rear - Rear compartment, left",
+  "diagram": {
+    "src": "/data/assets/dea2f9e48155.cgm",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "K18",
+      "description": "Relay - Engine control unit"
+    },
+    {
+      "code": "K24",
+      "description": "Relay - Starter"
+    },
+    {
+      "code": "K16",
+      "description": "Relay - Fuel pump"
+    }
+  ]
+}

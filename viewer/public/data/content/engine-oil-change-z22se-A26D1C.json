@@ -1,0 +1,122 @@
+{
+  "type": "procedure",
+  "id": "engine-oil-change-z22se-A26D1C",
+  "title": "Engine Oil, Change – Z22SE",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove the element from the oil filter housing.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use KM-6150 (1)."
+            },
+            {
+              "bullet": "•",
+              "text": "Remove the oil filter element."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8dcfd2640ae1.jpg",
+            "alt": "Object Number: 2419055  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Raise the lifting ramp.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Detach the engine undershield – see operation \"Engine Undershield, Detach and Reattach\" in Group A.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Place a drip tray underneath the engine.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Drain the engine oil.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove the drain plug."
+            },
+            {
+              "bullet": "•",
+              "text": "Install the drain plug using a new oil seal 25 Nm ."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Attach the engine undershield – see operation \"Engine Undershield, Detach and Reattach\" in Group A.",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Lower the lifting ramp.",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Install the element in the oil filter housing.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install a new oil seal (2)."
+            },
+            {
+              "bullet": "•",
+              "text": "Attach the oil filter element (1) to the cover."
+            },
+            {
+              "bullet": "•",
+              "text": "Attach the cover 25 Nm ."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b94f649d3368.jpg",
+            "alt": "Object Number: 2417951  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Fill up with engine oil and check the oil level.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Drain the engine oil.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Install the element in the oil filter housing.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Install the drain plug using a new oil seal 25 Nm .",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-6150"
+  ]
+}

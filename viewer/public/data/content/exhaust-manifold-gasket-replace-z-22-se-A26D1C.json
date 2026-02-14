@@ -1,0 +1,703 @@
+{
+  "type": "procedure",
+  "id": "exhaust-manifold-gasket-replace-z-22-se-A26D1C",
+  "title": "Exhaust Manifold Gasket, Replace (Z 22 SE)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Open the bonnet.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Disconnect the battery.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Open the engine cover (1).",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Detach the engine cover.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "6 bolts (2) and (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Release the fuel pressure.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Warning!"
+            },
+            {
+              "bullet": "•",
+              "text": "Collect any escaping fuel in a suitable container."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/77b9e84bc8f7.jpg",
+            "alt": "Object Number: 2412454  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Disconnect the fuel lines.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 union nuts (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "2 bolts (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Reposition the fuel lines (3) to one side."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/96b59af655a2.jpg",
+            "alt": "Object Number: 2412455  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Detach the ignition module (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release and detach the wiring harness connector."
+            },
+            {
+              "bullet": "•",
+              "text": "4 bolts (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0c4aa59965a6.jpg",
+            "alt": "Object Number: 2416672  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Remove the cylinder head cover.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Detach the engine breather hose (2)."
+            },
+            {
+              "bullet": "•",
+              "text": "2 bolts, 1 nut"
+            },
+            {
+              "bullet": "•",
+              "text": "1 bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "12 bolts (1), (3), (4) and (8)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/055fa4fa9cf5.jpg",
+            "alt": "Object Number: 2412456  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Remove the lower heat shield (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2ccda3dcd825.jpg",
+            "alt": "Object Number: 2412469  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Detach the upper heat shield (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2ccda3dcd825.jpg",
+            "alt": "Object Number: 2412469  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "Raise the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/2ccda3dcd825.jpg",
+            "alt": "Object Number: 2412469  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 12,
+          "text": "Detach the rear left–hand wheel.",
+          "image": {
+            "src": "/data/assets/images/d5f9fc343126.jpg",
+            "alt": "Object Number: 2412470  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 13,
+          "text": "Detach the rear left–hand wheel arch trim.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "6 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d5f9fc343126.jpg",
+            "alt": "Object Number: 2412470  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 14,
+          "text": "Disconnect the lambda probe wiring harness connector (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Expose the wiring harness."
+            },
+            {
+              "bullet": "•",
+              "text": "5 clips, 1 retaining clip (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d5f9fc343126.jpg",
+            "alt": "Object Number: 2412470  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 15,
+          "text": "Raise the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 16,
+          "text": "Remove the lower engine splash shield (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 17,
+          "text": "Detach the front exhaust pipe.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 nuts (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove the gasket."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/899ebb0955a4.jpg",
+            "alt": "Object Number: 2412471  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 18,
+          "text": "Lower the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/899ebb0955a4.jpg",
+            "alt": "Object Number: 2412471  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 19,
+          "text": "Remove the exhaust manifold (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "10 nuts."
+            },
+            {
+              "bullet": "•",
+              "text": "Remove the gasket (2)."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2f3e26238475.jpg",
+            "alt": "Object Number: 2416669  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 20,
+          "text": "Clean the sealing surfaces.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Exhaust manifold, cylinder head, front exhaust pipe."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2f3e26238475.jpg",
+            "alt": "Object Number: 2416669  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 21,
+          "text": "Install the exhaust manifold.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use a new gasket."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 12 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 12 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 22,
+          "text": "Raise the lifting ramp.",
+          "image": null
+        },
+        {
+          "number": 23,
+          "text": "Attach the front exhaust pipe.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use a new gasket."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 16 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 24,
+          "text": "Attach the lower engine splash shield.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 bolts"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 25,
+          "text": "Lower the lifting ramp.",
+          "image": null
+        },
+        {
+          "number": 26,
+          "text": "Connect the lambda probe wiring harness connector.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Route the wiring harness."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 27,
+          "text": "Install the wheel arch trim.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "6 bolts"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 28,
+          "text": "Attach the rear left–hand wheel.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Do not tighten yet."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 29,
+          "text": "Lower the lifting ramp.",
+          "image": null
+        },
+        {
+          "number": 30,
+          "text": "Tighten the rear left–hand wheel.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 90 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 31,
+          "text": "Attach the upper heat shield.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 nut"
+            },
+            {
+              "bullet": "•",
+              "text": "3 studs"
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 23 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 32,
+          "text": "Install the lower heat shield.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 8 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 33,
+          "text": "Detach the ground cable from the cylinder head.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 34,
+          "text": "Attach the cylinder head cover",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Clean the sealing surfaces."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "2 bolts, 1 nut"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ef30e1bc79e7.jpg",
+            "alt": "Object Number: 2417739  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 35,
+          "text": "Attach the engine breather hose.",
+          "image": {
+            "src": "/data/assets/images/ef30e1bc79e7.jpg",
+            "alt": "Object Number: 2417739  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 36,
+          "text": "Attach the fuel line bracket.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 8 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ef30e1bc79e7.jpg",
+            "alt": "Object Number: 2417739  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 37,
+          "text": "Attach the ignition module.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Attach and secure the wiring harness connector."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ef30e1bc79e7.jpg",
+            "alt": "Object Number: 2417739  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 38,
+          "text": "Connect the fuel lines.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 10 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 9 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 39,
+          "text": "Install the rear engine cover.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Check the alignment."
+            },
+            {
+              "bullet": "•",
+              "text": "6 bolts, tightening torque 14 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 40,
+          "text": "Close the rear engine cover.",
+          "image": null
+        },
+        {
+          "number": 41,
+          "text": "Connect the battery.",
+          "image": null
+        },
+        {
+          "number": 42,
+          "text": "Close the bonnet.",
+          "image": null
+        },
+        {
+          "number": 43,
+          "text": "Reprogram the volatile memories.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install the exhaust manifold.",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": 21
+    },
+    {
+      "component": "Attach the front exhaust pipe.",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": 23
+    },
+    {
+      "component": "Tighten the rear left–hand wheel.",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 30
+    },
+    {
+      "component": "Attach the upper heat shield.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 31
+    },
+    {
+      "component": "Install the lower heat shield.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 32
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 34
+    },
+    {
+      "component": "Attach the fuel line bracket.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 36
+    },
+    {
+      "component": "Attach the ignition module.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 37
+    },
+    {
+      "component": "Connect the fuel lines.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 38
+    },
+    {
+      "component": "Connect the fuel lines.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 38
+    },
+    {
+      "component": "Install the rear engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 39
+    },
+    {
+      "component": "Tightening torque 12 Nm",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 16 Nm",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-J-34730-91"
+  ],
+  "notes": [
+    "Use new gaskets.\n The sealing lips\nof the seals (1) must be inserted into the groove on the cylinder\nhead cover.\n \n\n\n\n–\nTightening torque 9 Nm"
+  ]
+}

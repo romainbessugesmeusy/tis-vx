@@ -1,0 +1,80 @@
+{
+  "type": "procedure",
+  "id": "crankshaft-out-of-round-check-z-22-se-z-20-let-A26D1C",
+  "title": "Crankshaft Out-of-round Check (Z 22 SE, Z 20\nLET)",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Crankshaft removed Note: Crankshaft removed – see operation \"Crankshaft, Remove and Install\"",
+          "image": {
+            "src": "/data/assets/images/28a13fba0f4e.jpg",
+            "alt": "Object Number: 2417974  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Lay the crankshaft in the cylinder block.",
+          "image": {
+            "src": "/data/assets/images/28a13fba0f4e.jpg",
+            "alt": "Object Number: 2417974  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Attach the dial gauge MKM-571-B .",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Attach with the bracket to the cylinder block."
+            },
+            {
+              "bullet": "•",
+              "text": "Position and adjust the dual gauge probe on the crankshaft"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/28a13fba0f4e.jpg",
+            "alt": "Object Number: 2417974  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Check the radial run–out of the crankshaft.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Turn the crankshaft smoothly."
+            },
+            {
+              "bullet": "•",
+              "text": "Max. permissible radial run–out: 0,03 mm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/28a13fba0f4e.jpg",
+            "alt": "Object Number: 2417974  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Detach the dial gauge MKM-571-B .",
+          "image": {
+            "src": "/data/assets/images/28a13fba0f4e.jpg",
+            "alt": "Object Number: 2417974  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ],
+  "toolsRequired": [
+    "MKM-571-B"
+  ],
+  "notes": [
+    "Crankshaft removed\n Crankshaft\nremoved – see operation \"Crankshaft, Remove and Install\""
+  ]
+}

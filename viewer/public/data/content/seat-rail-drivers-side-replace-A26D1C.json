@@ -1,0 +1,183 @@
+{
+  "type": "procedure",
+  "id": "seat-rail-drivers-side-replace-A26D1C",
+  "title": "Seat Rail (Drivers Side), Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove hard top or soft top",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Release drivers seat from chassis floor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x bolt (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9683cdf30fe4.jpg",
+            "alt": "Object Number: 2422953  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Remove 2x seat rail from seat",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 6x bolt (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Release 2x nut (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9683cdf30fe4.jpg",
+            "alt": "Object Number: 2422953  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Install 2x seat rail to seat",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 6x bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Operate seat handle and move seat rails forward and rearward to"
+            },
+            {
+              "bullet": "•",
+              "text": "Release handle on each notch to ensure lockout on both rails"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure 2x nut (3) 15 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure 6x bolt (2) 15 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Install seat to floor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Operate seat handle and move seat forward and rearward, check"
+            },
+            {
+              "bullet": "•",
+              "text": "Release handle on each notch to ensure lockout on both sides"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Position seat forward",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x bolt 25 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Operate seat handle and move seat forward and rearward, check"
+            },
+            {
+              "bullet": "•",
+              "text": "Release handle on each notch to ensure lockout on both sides"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Position seat rearward",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x bolt 25 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Operate seat handle and move seat forward and rearward, check"
+            },
+            {
+              "bullet": "•",
+              "text": "Release handle on each notch to ensure lockout on both sides"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Install hard top or soft top",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install 2x seat rail to seat",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 4
+    },
+    {
+      "component": "Position seat forward",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Position seat rearward",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Secure 2x nut (3) 15 Nm",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Secure 2x bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Install 6x bolt\n Do not secure 6x\nbolt and 2x nut.",
+    "Install 4x bolt\n Do not secure 4x\nbolt."
+  ]
+}

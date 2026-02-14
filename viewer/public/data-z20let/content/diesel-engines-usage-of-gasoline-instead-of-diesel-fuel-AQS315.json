@@ -1,0 +1,34 @@
+{
+  "type": "tsb",
+  "id": "diesel-engines-usage-of-gasoline-instead-of-diesel-fuel-AQS315",
+  "title": "Field Remedy: 1832",
+  "subject": "Diesel Engines - Usage of Gasoline instead\nof Diesel Fuel",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "07 - Foreign Material or Fluid",
+    "troubleCode": ""
+  },
+  "complaint": "The following failure modes can be detected\n(for example): bad warm start, engine destroyed, high pressure pump\nblocked; tooth belt torn; valves damaged",
+  "cause": "Due to the use of gasoline the high pressure\npump gets destroyed (lack of lubrication) and the tooth belt will\nbe torn. This may end up in the mentioned damages.",
+  "production": "",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "If the described failure is detected the usage of correct fuel has to \nbe verified. A diesel fuel and engine oil sample has to be analyses \nfor gas contamination. The needed test-bottles for the samples can be \nrequested under special part-no. S-10571 (test-bottle 500ml)."
+    },
+    {
+      "type": "text",
+      "text": "Note:\nSpecial parts can be ordered via e-mail-address\n\"etac-special-parts@de.gm.com\".\nPlease add the VIN of the affected vehicle."
+    },
+    {
+      "type": "text",
+      "text": "In case of gasoline refuelling on vehicles with diesel engine \nthe whole fuel system has to be drained and rinsed."
+    },
+    {
+      "type": "text",
+      "text": "Note:\nWarranty can only be claimed, if no usage of gasoline has been \ndetected."
+    }
+  ]
+}

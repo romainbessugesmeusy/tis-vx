@@ -1,0 +1,207 @@
+{
+  "type": "procedure",
+  "id": "oil-return-pipe-turbocharger-replace-z20-let-AQS315",
+  "title": "Oil Return Pipe, Turbocharger, Replace (Z20\nLET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Raise vehicle"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 13x bolt, 13x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove hose (3) from turbocharger (2) and intercooler (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove, then discard cable tie"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0cd05d6d1724.jpg",
+            "alt": "Object Number: 2422235  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Release heat shield for turbocharger from engine cylinder block",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt, washer (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/198545d11bab.jpg",
+            "alt": "Object Number: 2422483  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Disconnect oil return pipe for turbocharger from engine cylinder block",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Position suitable collecting container"
+            },
+            {
+              "bullet": "•",
+              "text": "Discard 2x seal ring"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/77442a82cc99.jpg",
+            "alt": "Object Number: 2422484  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Remove oil return pipe (2) from turbocharger",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Discard gasket"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a47250ac3ed9.jpg",
+            "alt": "Object Number: 2422909  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 6,
+          "text": "Install new oil return pipe to turbocharger",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use new gasket"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Connect oil return pipe for turbocharger to engine cylinder block",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use 2x new seal ring"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Secure heat shield for turbocharger to engine cylinder block",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install bolt, washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install hose to turbocharger and intercooler",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install new cable tie"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Install engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 13x bolt, 13x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Check engine oil level and correct as necessary",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install new oil return pipe to turbocharger",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Connect oil return pipe for turbocharger to engine cylinder block",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Install 2x bolt 8 Nm , gasket – Use new gasket",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install pipe union 30 Nm , 2x seal ring – Use 2x new seal ring",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "A four-post hoist must\nbe used to raise the vehicle when removing the engine undertray.\nThe vehicle can be moved to a two-post hoist for other operations\nif required.",
+    "Observe relevant\nenvironmental requirements when disposing of used oil."
+  ]
+}

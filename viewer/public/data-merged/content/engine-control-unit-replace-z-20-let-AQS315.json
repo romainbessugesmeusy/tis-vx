@@ -1,0 +1,131 @@
+{
+  "type": "procedure",
+  "id": "engine-control-unit-replace-z-20-let-AQS315",
+  "title": "Engine Control Unit, Replace (Z 20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Disconnect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release windscreen wash reservoir, then move to one side"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove nut, bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Release, then disconnect 2x harness connector (1) from engine control unit (2)",
+          "image": {
+            "src": "/data/assets/images/b587f3aa534e.jpg",
+            "alt": "Object Number: 2422594  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Remove engine control unit from support bracket Note: Engine control unit with support bracket shown removed from vehicle for clarity.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Discard nut"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove bolt, 2x washer (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove bolt, clamp (3)"
+            },
+            {
+              "bullet": "•–",
+              "text": "Discard nut",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Remove nut, washer"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/40167a56468d.jpg",
+            "alt": "Object Number: 2422595  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Install engine control unit to support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install new nut, washer"
+            },
+            {
+              "bullet": "•",
+              "text": "Install bolt, clamp"
+            },
+            {
+              "bullet": "•",
+              "text": "Install bolt, 2x washer"
+            },
+            {
+              "bullet": "•",
+              "text": "Install new nut, washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Connect, then secure 2x harness connector to engine control unit",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Connect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install nut, bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure windscreen wash reservoir"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Program all volatile memories",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Remove engine control unit from support bracket\n Engine control\nunit with support bracket shown removed from vehicle for\nclarity.\n \n\n\n\n•  \nRemove nut, washer (1)\n \n\n\n\n–\nDiscard nut\n \n\n\n\n\n\n\n\n\n•  \nRemove bolt, 2x washer (2)\n \n\n\n\n\n\n•  \nRemove bolt, clamp (3)\n \n\n\n\n\n\n•  \nDisconnect negative lead (4) from engine control unit\n \n\n\n\n–\nRemove nut, washer\n \n\n\n\n\n\n–\nDiscard nut"
+  ]
+}

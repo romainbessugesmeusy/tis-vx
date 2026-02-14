@@ -1,0 +1,64 @@
+{
+  "type": "tsb",
+  "id": "petrol-engines-refuelled-with-diesel-fuel-A26D1C",
+  "title": "Field Remedy: 1637",
+  "subject": "Petrol engines - Refuelled with diesel\nfuel",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "19 - Poor Engine Driveability",
+    "troubleCode": "None,P030X"
+  },
+  "complaint": "Following complaints could happen in one or\nseveral of them: - Piston top land broken (intake side) - Bad\nengine running especially after cold start and cold drive ability -\nKnocking noise (sometimes failure code P030X is set) - Molten\ncatalytic converter as a consequential damage - Increased oil level\n(oil dilution)",
+  "cause": "Vehicle with petrol engine refuelled with\ndiesel fuel.",
+  "production": "Not affected",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "Picture I (see arrow) and picture II (see arrow) show the\ntypical type of failure (pisten top land broken)."
+    },
+    {
+      "type": "text",
+      "text": "If the described failure is detected the usage of correct\nfuel has to be verified. A fuel and engine oil sample has\nto be analysed for diesel contamination. The needed test-\nbottles for the samples can be requested from TAC/ETAC\nunder special part-no. S-10571-(test-bottle 500ml)."
+    },
+    {
+      "type": "text",
+      "text": "Note: Special parts can be ordered via e-mail-address \n\"etac-special-parts@de.gm.com\"."
+    },
+    {
+      "type": "paragraph",
+      "text": "The following information is mandatory:"
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "dealer number",
+        "affected VIN-range",
+        "special part number (S-XXXXX)",
+        "amount of special parts",
+        "contactperson",
+        "phonenumber",
+        "complete delivery address"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Furthermore the fuel filler neck has to be checked for any\ndamages (the useage of a diesel nozzle widens the diameter\nof the fuel filler neck).\nIn case of diesel refuelling on vehicles with petrol engine\nthe whole fuel system has to be drained and rinsed."
+    },
+    {
+      "type": "text",
+      "text": "Note: Warranty costs must not be claimed under warranty if\n      diesel is found."
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/92cb27361e5d.jpg",
+      "alt": "Object Number: 2435196  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/2f09a049fb2d.jpg",
+      "alt": "Object Number: 2435197  Size: DEFAULT"
+    }
+  ]
+}

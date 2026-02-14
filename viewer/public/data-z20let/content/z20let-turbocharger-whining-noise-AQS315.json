@@ -1,0 +1,43 @@
+{
+  "type": "tsb",
+  "id": "z20let-turbocharger-whining-noise-AQS315",
+  "title": "Field Remedy: 1584",
+  "subject": "Z20LET - Turbocharger - Whining noise",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "14 - Noises or Vibrations",
+    "troubleCode": "None"
+  },
+  "complaint": "Whining noise from Turbocharger.",
+  "cause": "Damage of Turbocharger due to lack of oil or\nthermal overstress.",
+  "production": "",
+  "remedyContent": [
+    {
+      "type": "numbered",
+      "items": [
+        "In case of customer complaint the following failures can be detected:",
+        "Damage of the charger shaft friction bearing because of oil",
+        "shortage ->",
+        "Turbocharger has to be replaced.",
+        "To avoid repeated charger failure it is strictly necessary to check the",
+        "complete engine oil supply system (Oil pressure check according TIS)."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "In case of an engine oil exchange, the oil filter cartridge has to be\npre-filled before installation.\nNote: Do not push the accelerator pedal before the oil pressure lamp \n      goes off. Otherwise the turbo charger is rewing -up without\n      sufficient oil supply causing a damage of the bearing. \n(This procedure will be added to the regular Inspection Procedure)."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Imbalance due to thermal overstress",
+        "A thermal overstress in mainly caused by increased boost pressure",
+        "(Tuning - check the SPS data in the ECU). In such a case the warranty",
+        "laim has to be refused and the customer has to be informed accordingly",
+        "(please also refer to Field Remedy 1510)"
+      ]
+    }
+  ]
+}

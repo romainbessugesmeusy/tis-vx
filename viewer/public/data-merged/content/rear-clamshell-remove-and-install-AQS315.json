@@ -1,0 +1,1183 @@
+{
+  "type": "procedure",
+  "id": "rear-clamshell-remove-and-install-AQS315",
+  "title": "Rear Clamshell, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Release washer fluid reservoir from bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Slide off"
+            },
+            {
+              "bullet": "•",
+              "text": "Position washer fluid reservoir to one side"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/372145f87fb3.jpg",
+            "alt": "Object Number: 2419905  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Disconnect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release nut and bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/109869f7b46c.jpg",
+            "alt": "Object Number: 2429428  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Remove soft top – see operation \"Soft Top, Remove and Install\" in group C",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Move driver seat forward",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Remove upper anchor bolt of seat belt for driver seat from B–pillar",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release cover, then remove bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e43abb2c9107.jpg",
+            "alt": "Object Number: 2419714  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Release passenger seat",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x bolt (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6bc65c067a51.jpg",
+            "alt": "Object Number: 2419660  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Remove lower anchor bolt (2) of seat belt",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove front seat from vehicle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6bc65c067a51.jpg",
+            "alt": "Object Number: 2419660  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Remove upper anchor bolt of seat belt for passenger seat from B–pillar",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release cover, then remove bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Remove 2x loudspeaker from rear bulkhead trim",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "For early type, remove 2x cover, 6x screw"
+            },
+            {
+              "bullet": "•",
+              "text": "For later type (illustrated), remove 8x screw (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 4x harness connector"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/760d28a91ed4.jpg",
+            "alt": "Object Number: 2422331  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Remove rear bulkhead trim",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 6x fastener (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Disconnect harness connector from ultrasonic control unit for"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove soundproof insulation"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7cc99833b02d.jpg",
+            "alt": "Object Number: 2419715  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 11,
+          "text": "Remove engine undertray (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Raise vehicle"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 13x bolt, 13x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 12,
+          "text": "Remove exhaust undertray (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 12x bolt, 12x washer, 2x clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 13,
+          "text": "Lower vehicle to suitable working height",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Remove rear road wheel from right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use special socket located under front bonnet"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 4x wheel bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Remove right rear wheel arch liner",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x screw, 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Release rear clamshell from right chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove insulation pad"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt, 4x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Install right rear road wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Hand tighten 4x bolt, security bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 18,
+          "text": "Remove rear road wheel from left side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use special socket located under front bonnet"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 4x wheel bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Remove left rear wheel arch liner",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x screw, 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 20,
+          "text": "Release rear clamshell from left chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt, 4x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 21,
+          "text": "Disconnect 3x harness connector from electronic control unit and air temperature sensor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 3x integral clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/5e6b4bb6ce73.jpg",
+            "alt": "Object Number: 2422241  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 22,
+          "text": "Release earth connector (2) from support bracket for electronic control unit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove nut (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/47563bf190ce.jpg",
+            "alt": "Object Number: 2422242  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 23,
+          "text": "Disconnect harness connector (1) for contact switch of anti-theft warning system",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release integral clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove, then discard cable tie (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0e674d119a26.jpg",
+            "alt": "Object Number: 2422243  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 24,
+          "text": "Install rear left road wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Hand tighten 4x bolt, security bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 25,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 26,
+          "text": "Remove engine cover from rear clamshell",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Apply match marks"
+            },
+            {
+              "bullet": "•",
+              "text": "2nd technician required"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2713d39f6370.jpg",
+            "alt": "Object Number: 2419662  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 27,
+          "text": "Release latch for engine cover with contact switch of anti-theft warning system from rear clamshell, then move to one side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Apply match mark"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 2x screw, 2x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9098ee1107a0.jpg",
+            "alt": "Object Number: 2419729  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 28,
+          "text": "Remove luggage compartment mat and soundproof insulation",
+          "image": null
+        },
+        {
+          "number": 29,
+          "text": "Disconnect negative and positive leads from auxiliary battery",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x screw (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d65e088b76b9.jpg",
+            "alt": "Object Number: 2422245  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 30,
+          "text": "Disconnect backup-up power switch for central door locking",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Disconnect harness connector (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Release harness from 3x clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3c6c409d5065.jpg",
+            "alt": "Object Number: 2422246  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 31,
+          "text": "Remove relay and fuse cover (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x screw (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a0b50734bbb2.jpg",
+            "alt": "Object Number: 2422247  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 32,
+          "text": "Disconnect harness connector from compact disc changer (where fitted)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release integral clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Withdraw harness through aperture in right rear inner wheel"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 33,
+          "text": "Release relay and fuse holder from rear clamshell",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x relay (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 2x screw (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/33b12a294fe8.jpg",
+            "alt": "Object Number: 2422248  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 34,
+          "text": "Disconnect 3x harness connector (1) for rear lighting",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 3x integral clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Withdraw harness through aperture of left rear inner wheel arch"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/5984c4bb1cfa.jpg",
+            "alt": "Object Number: 2422249  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 35,
+          "text": "Release luggage compartment floor from rear subframe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x bolt (1), (2), 3x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a780f204c1cc.jpg",
+            "alt": "Object Number: 2422332  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 36,
+          "text": "Release rear clamshell from rear bulkhead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt, 2x washer (arrowed)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 2x nut, 2x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c222577a38a9.jpg",
+            "alt": "Object Number: 2418944  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 37,
+          "text": "Release rear header panel from roll bar, then tilt forward Note: Do not remove the weatherseal from the panel. Care should be taken not to cut or damage the weatherseal.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x soft top cantrail bracket"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt, 6x nut from 6x stud (1), 6x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8f71972b8d36.jpg",
+            "alt": "Object Number: 2425010  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 38,
+          "text": "Remove fuel filler cap from fuel filler neck",
+          "image": {
+            "src": "/data/assets/images/0cdfafb7a739.jpg",
+            "alt": "Object Number: 2425014  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 39,
+          "text": "Remove trim plate from fuel filler neck",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 6x screw"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0cdfafb7a739.jpg",
+            "alt": "Object Number: 2425014  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 40,
+          "text": "Install fuel filler cap to fuel filler neck",
+          "image": {
+            "src": "/data/assets/images/0cdfafb7a739.jpg",
+            "alt": "Object Number: 2425014  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 41,
+          "text": "Remove rear clamshell (1) Note: Second technician required.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Slide clamshell rearward to clear exhaust pipe, then lift"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/747a15ce601d.jpg",
+            "alt": "Object Number: 2418947  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 42,
+          "text": "Install rear clamshell Note: Second technician required. Note: Align rear clamshell to specification, see operation “Body Panel Alignment Values” in group A. Only the areas detailed in this section are adjustable. All further gaps align as a consequence of these adjustments as the body panels are formed from common moulds.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Loosely assemble all fixing points"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 43,
+          "text": "Remove fuel filler cap from fuel filler neck",
+          "image": null
+        },
+        {
+          "number": 44,
+          "text": "Install trim plate to fuel filler neck",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure 6x screw"
+            },
+            {
+              "bullet": "•",
+              "text": "Install fuel filler cap to fuel filler neck"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 45,
+          "text": "Secure rear header panel to roll bar",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure 6x nut, 6x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 46,
+          "text": "Secure 2x cantrail bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ensure dowel pin is installed in roll bar"
+            },
+            {
+              "bullet": "•",
+              "text": "Apply locking compound to bolt thread"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 47,
+          "text": "Secure rear clamshell to rear bulkhead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x bolt, 2x washer"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure 2x nut, 2x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 48,
+          "text": "Secure luggage compartment floor to chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 3x bolt, 3x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 49,
+          "text": "Install latch for engine cover with contact switch of anti-theft warning system to rear clamshell",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Align match mark"
+            },
+            {
+              "bullet": "•",
+              "text": "Install, then secure 2x screw, 2x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 50,
+          "text": "Connect 3x harness connector for rear lighting Note: With left drive and right drive vehicles the positions of the reverse light and rear fog light are transposed. When reconnecting the lighting harness take care of the following connections. For left drive vehicles connect the main harness labelled “FOG” to the rear harness labelled “L” and the main harness labelled “REV” to the rear harness labelled “R”. For right drive vehicles connect the main harness labelled “REV” to the rear harness labelled “L” and the main harness labelled “FOG” to the rear harness labelled “R”.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ensure correct sealing of harness grommet"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure 3x integral clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 51,
+          "text": "Secure relay and fuse holder to rear clamshell",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure 2x screw"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 4x relay"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 52,
+          "text": "Connect harness connector to compact disc changer (where fitted)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure integral clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Ensure correct sealing of harness grommet"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 53,
+          "text": "Install cover for fuse and relay assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure 4x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 54,
+          "text": "Connect backup-up power switch for central door locking",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Connect harness connector"
+            },
+            {
+              "bullet": "•",
+              "text": "Install, then secure harness to 3x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 55,
+          "text": "Connect negative and positive leads to auxiliary battery",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure 2x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 56,
+          "text": "Install luggage compartment mat and soundproof insulation",
+          "image": null
+        },
+        {
+          "number": 57,
+          "text": "Raise vehicle to suitable working height",
+          "image": null
+        },
+        {
+          "number": 58,
+          "text": "Remove rear road wheel from left side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use special socket located under front bonnet"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 4x wheel bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 59,
+          "text": "Secure earth lead to support bracket for electronic control unit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 60,
+          "text": "Connect 3x harness connector to electronic control unit and air temperature sensor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 3x integral clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 61,
+          "text": "Connect harness connector for contact switch of anti-theft warning system",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure integral clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Install, then secure with new cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 62,
+          "text": "Secure rear clamshell to left chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x bolt 4x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 63,
+          "text": "Install left rear wheel arch liner",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure 4x screw, 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 64,
+          "text": "Install rear road wheel to left side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Hand tighten 4x bolt, security bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 65,
+          "text": "Remove rear road wheel from right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use special socket located under front bonnet"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 4x wheel bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 66,
+          "text": "Secure rear clamshell to right chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x bolt, 3x washer"
+            },
+            {
+              "bullet": "•",
+              "text": "Install insulation pad"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 67,
+          "text": "Install right rear wheel arch liner",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure 4x screw, 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 68,
+          "text": "Install rear road wheel to right side",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Hand tighten 4x bolt, security bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 69,
+          "text": "Install exhaust undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure 12x bolt, 12x washer, 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 70,
+          "text": "Install engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure 13x bolt, 13x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 71,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 72,
+          "text": "Secure 2x rear road wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use special socket located under front bonnet"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 73,
+          "text": "Install engine cover to rear clamshell",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Align match marks"
+            },
+            {
+              "bullet": "•",
+              "text": "Align engine cover - see operation “Body Panel Alignment"
+            },
+            {
+              "bullet": "•",
+              "text": "Install shims"
+            },
+            {
+              "bullet": "•",
+              "text": "Second technician required"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 74,
+          "text": "Install rear bulkhead trim",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install soundproof insulation"
+            },
+            {
+              "bullet": "•",
+              "text": "Connect harness connector to ultrasonic control unit for"
+            },
+            {
+              "bullet": "•",
+              "text": "Install, then secure 6x fastener"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 75,
+          "text": "Install 2x loudspeaker to rear bulkhead trim",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "For early type, install 6x screw, 2x cover"
+            },
+            {
+              "bullet": "•",
+              "text": "For later type, install 8x screw"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 4x harness connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 76,
+          "text": "Install upper anchor bolt of seat belt for driver seat to B–pillar",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure bolt 33 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure cover"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 77,
+          "text": "Install upper anchor bolt of seat belt for passenger seat to B–pillar",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure bolt 33 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure cover"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 78,
+          "text": "Position passenger seat, then install lower anchor bolt of seat belt",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure bolt 33 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 79,
+          "text": "Install passenger seat",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure 4x bolt 25"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 80,
+          "text": "Install soft top – see operation \"Soft Top, Remove and Install\"",
+          "image": null
+        },
+        {
+          "number": 81,
+          "text": "Connect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure nut and bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 82,
+          "text": "Secure washer fluid reservoir to bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Slide on"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 83,
+          "text": "Program all volatile memories",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Secure 2x rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 72
+    },
+    {
+      "component": "Install upper anchor bolt of seat belt for driver seat to B–pillar",
+      "value": "33",
+      "unit": "Nm",
+      "stepRef": 76
+    },
+    {
+      "component": "Install upper anchor bolt of seat belt for passenger seat to B–pillar",
+      "value": "33",
+      "unit": "Nm",
+      "stepRef": 77
+    },
+    {
+      "component": "Position passenger seat, then install lower anchor bolt of seat belt",
+      "value": "33",
+      "unit": "Nm",
+      "stepRef": 78
+    },
+    {
+      "component": "Install passenger seat",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 79
+    },
+    {
+      "component": "Tighten 8x bolt, 2x security bolt 90 Nm – Use special socket located under front bonnet",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install, then secure bolt 33 Nm",
+      "value": "33",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install, then secure 4x bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "A four-post hoist must\nbe used to raise the vehicle when removing the engine undertray.\nThe vehicle can be moved to a two-post hoist for other operations\nif required.",
+    "During handling, care\nshould be taken not to damage the rear clamshell or adjacent\nfibreglass parts. Protect the clamshell from damage when removed,\nwith particular attention to edges and corners."
+  ],
+  "notes": [
+    "Remove 6x bolt (1), 6x washer and shims\n Mark position of\nshims for installation.\n \n\n\n\n–\n2nd technician required",
+    "Remove 2x screw, 2x washer\n Release cable for\nlatch not disconnected.",
+    "Remove 4x relay (1)\n Mark position of\nrelays for installation.",
+    "Release rear header panel from roll bar, then tilt forward\n Do not remove the\nweatherseal from the panel. Care should be taken not to cut or\ndamage the weatherseal.\n \n\n\n\n•  \nRelease 2x soft top cantrail bracket\n \n\n\n\n\n\n•  \nRemove 2x bolt, 6x nut from 6x stud (1), 6x washer",
+    "Remove rear clamshell (1)\n Second technician\nrequired.\n \n\n\n\n•  \nSlide clamshell rearward to clear exhaust pipe, then lift\noff",
+    "Install rear clamshell\n Second technician\nrequired.\n Note:   Align rear\nclamshell to specification, see operation “Body Panel\nAlignment Values” in group A. Only the areas detailed in this\nsection are adjustable. All further gaps align as a consequence of\nthese adjustments as the body panels are formed from common\nmoulds.\n \n\n\n\n•  \nLoosely assemble all fixing points",
+    "Connect 3x harness connector for rear lighting\n With left drive\nand right drive vehicles the positions of the reverse light and\nrear fog light are transposed. When reconnecting the lighting\nharness take care of the following connections. For left drive\nvehicles connect the main harness labelled “FOG” to the\nrear harness labelled “L” and the main harness labelled\n“REV” to the rear harness labelled “R”. For\nright drive vehicles connect the main harness labelled\n“REV” to the rear harness labelled “L” and\nthe main harness labelled “FOG” to the rear harness\nlabelled “R”.\n \n\n\n\n•  \nInsert harness through aperture of left rear inner wheel arch\ninto luggage compartment\n \n\n\n\n–\nEnsure correct sealing of harness grommet\n \n\n\n\n\n\n\n\n\n•  \nSecure 3x integral clip",
+    "Install 4x relay\n Position of\nrelays marked on removal.",
+    "Install shims\n Position of shims\nmarked on removal."
+  ]
+}

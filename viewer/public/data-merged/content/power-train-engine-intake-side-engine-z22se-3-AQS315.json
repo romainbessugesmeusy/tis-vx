@@ -1,0 +1,27 @@
+{
+  "type": "harness_diagram",
+  "id": "power-train-engine-intake-side-engine-z22se-3-AQS315",
+  "title": "Power train - Engine, intake side",
+  "diagram": {
+    "src": "/data/assets/converted/6dc5e6cf1536.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "Y9.1",
+      "description": "Injection valve - Cylinder 1"
+    },
+    {
+      "code": "Y9.3",
+      "description": "Injection valve - Cylinder 3"
+    },
+    {
+      "code": "Y9.2",
+      "description": "Injection valve - Cylinder 2"
+    },
+    {
+      "code": "Y9.4",
+      "description": "Injection valve - Cylinder 4"
+    }
+  ]
+}

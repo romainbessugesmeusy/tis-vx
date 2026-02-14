@@ -1,0 +1,90 @@
+{
+  "type": "procedure",
+  "id": "partial-body-assembly-replace-AQS315",
+  "title": "Partial Body Assembly, Replace",
+  "phases": [
+    {
+      "phase": "disassemble",
+      "label": "Disassemble",
+      "icon": "/data/assets/images/f624612d033b.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "The following components should be removed from the original vehicle, inspected for damage where applicable and stored for installation to the new partial body in a logical sequence. Refer to individual component instructions for more information (additional technicians may be required)",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "assemble",
+      "label": "Assemble",
+      "icon": "/data/assets/images/1e33bc0b1f5e.gif",
+      "steps": [
+        {
+          "number": 2,
+          "text": "The following list outlines only the major components that need to be installed to the new partial body. All required components should be transferred as necessary. Components should be installed to the new partial body assembly in a logical sequence. Refer to individual component instructions for more information",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "adjust",
+      "label": "Adjust",
+      "icon": "/data/assets/images/8bcc88ed08ca.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Front and rear suspension - see relevant operations",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "inspect",
+      "label": "Inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Fill and bleed coolant system - see operation “Cooling System, Drain, Fill and Bleed” in group J",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Bleed brake system - see operation “Brake System, Bleed” in group H",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Bleed clutch - see operation “Hydraulic Clutch, Bleed” in group K",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Add fuel and check for leaks",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Program all volatile memories",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "adjust",
+      "label": "Adjust",
+      "icon": "/data/assets/images/8bcc88ed08ca.gif",
+      "steps": [
+        {
+          "number": 9,
+          "text": "Where body components such as front or rear clamshell have been repaired due to accident damage, then minor adjustment or alignment of the new panels by elongating the mounting holes will be required. Align body parts to specification, see operation “Body Panel Alignment Values” in group A. Only the areas detailed in this section are adjustable. All further gaps align as a consequence of these adjustments as the body panels are formed from common moulds",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "A four-post hoist must\nbe used to raise the vehicle when removing the engine undertray.\nThe vehicle can be moved to a two-post hoist for other operations\nif required."
+  ]
+}

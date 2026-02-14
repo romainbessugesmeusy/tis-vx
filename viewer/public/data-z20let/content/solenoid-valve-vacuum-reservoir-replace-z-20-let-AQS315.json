@@ -1,0 +1,78 @@
+{
+  "type": "procedure",
+  "id": "solenoid-valve-vacuum-reservoir-replace-z-20-let-AQS315",
+  "title": "Solenoid Valve, Vacuum Reservoir, Replace (Z 20\nLET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Disconnect harness connector (2) from solenoid valve",
+          "image": {
+            "src": "/data/assets/images/01b1464cd930.jpg",
+            "alt": "Object Number: 2422473  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Disconnect 3x vacuum hose (3)",
+          "image": {
+            "src": "/data/assets/images/01b1464cd930.jpg",
+            "alt": "Object Number: 2422473  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Remove solenoid valve from support bracket on intake manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/01b1464cd930.jpg",
+            "alt": "Object Number: 2422473  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Install solenoid valve to support bracket on intake manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Connect 3x vacuum hose",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Connect harness connector to solenoid valve",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

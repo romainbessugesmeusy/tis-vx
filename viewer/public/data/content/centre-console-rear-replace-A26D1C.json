@@ -1,0 +1,83 @@
+{
+  "type": "procedure",
+  "id": "centre-console-rear-replace-A26D1C",
+  "title": "Centre Console, Rear, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove element from cigar lighter",
+          "image": {
+            "src": "/data/assets/images/4ae8ac4707fa.jpg",
+            "alt": "Object Number: 2419902  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove centre console from panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove clip (1), integral clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Release 2x harness connector"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/4ae8ac4707fa.jpg",
+            "alt": "Object Number: 2419902  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Remove cigar lighter from centre console",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Install cigar lighter to new centre console",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Install new centre console to panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x harness connector"
+            },
+            {
+              "bullet": "•",
+              "text": "Install integral clip, clip (1)"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Install element to cigar lighter",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "type": "procedure",
+  "id": "liner-front-wheelarch-remove-and-install-AQS315",
+  "title": "liner front wheelarch remove and install",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Liner, Front Wheelarch, Remove and Install",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "remove",
+      "label": "Remove, Disconnect",
+      "icon": "/data/assets/images/4b8970d41392.jpg",
+      "steps": [
+        {
+          "number": 2,
+          "text": "Wheel - bolts.",
+          "image": {
+            "src": "/data/assets/images/e9d4d9ec0bc8.jpg",
+            "alt": "Object Number: 2425098  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "For liner on right side only, remove from front compartment:",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "- tyre inflator aerosol - release from clips",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "- fuse box - 2 screws",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "- relay box - 2 screws.",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Liner - 6 screws.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install, Connect",
+      "icon": "/data/assets/images/57d894c25c39.jpg",
+      "steps": [
+        {
+          "number": 8,
+          "text": "Liner - 6 screws.",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "For liner on right side only, install to front compartment:",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "- relay box - 2 screws",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "- fuse box - 2 screws",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "- tyre inflator aerosol - engage in clips.",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Wheel - bolts 90 Nm.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Wheel - bolts 90 Nm.",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 13
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "type": "procedure",
+  "id": "drive-shaft-disassemble-and-reassemble-A26D1C",
+  "title": "Drive Shaft, Disassemble and Reassemble",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Illustration of drive shaft",
+          "image": {
+            "src": "/data/assets/images/04bacb30f3ec.jpg",
+            "alt": "Object Number: 2417567  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove drive shaft from transmission - see operation \"Drive Shaft, Remove and Install\"",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Remove thrust washer (6) and radial needle bearing (5)",
+          "image": {
+            "src": "/data/assets/images/7fae21a28c5e.jpg",
+            "alt": "Object Number: 2417570  Size: DEFAULT"
+          },
+          "callouts": [
+            "6",
+            "5"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Remove 4th gear (4), needle bearing (3), and 4th gear synchroniser ring (2) from drive shaft (1)",
+          "image": {
+            "src": "/data/assets/images/7fae21a28c5e.jpg",
+            "alt": "Object Number: 2417570  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "3",
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Remove shift sleeve (1) from synchromesh body",
+          "image": {
+            "src": "/data/assets/images/58f854f16c24.jpg",
+            "alt": "Object Number: 2417571  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Check all parts for damage, replace damaged parts as necessary",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Press bushing (1) and 3rd/4th gear synchromesh body assembly (2), 3rd gear synchroniser ring (3), thrust washer (4), radial needle bearing (5), and 3rd gear (6) from drive shaft using KM-6220 (7) and KM-6222 (8)",
+          "image": {
+            "src": "/data/assets/images/f5afacbd6517.jpg",
+            "alt": "Object Number: 2417572  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Check all parts for damage; replace damaged parts as necessary",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Carefully spread needle roller bearings (2, 3), then remove from drive shaft (4) in lateral direction",
+          "image": {
+            "src": "/data/assets/images/6a238065ae53.jpg",
+            "alt": "Object Number: 2417573  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Remove radial needle bearing (1) from drive shaft",
+          "image": {
+            "src": "/data/assets/images/6a238065ae53.jpg",
+            "alt": "Object Number: 2417573  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "Check all parts for damage; replace damaged parts as necessary",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Install radial needle bearing (1) to drive shaft (4)",
+          "image": null,
+          "callouts": [
+            "1",
+            "4"
+          ]
+        },
+        {
+          "number": 13,
+          "text": "Carefully spread needle roller bearings (2, 3), then install onto drive shaft in lateral direction",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Sand down molybdenum layer on reverse side of 3rd gear synchroniser ring (2) using fine grained sandpaper (1) on smooth surface",
+          "image": {
+            "src": "/data/assets/images/fefcd123d7d1.jpg",
+            "alt": "Object Number: 2417563  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 15,
+          "text": "Install 3rd gear (4) to main shaft (3)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ensure that needle roller bearings (1, 2) are not damaged"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c8033c6efb7c.jpg",
+            "alt": "Object Number: 2417574  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "3"
+          ]
+        },
+        {
+          "number": 16,
+          "text": "Install radial needle bearing (5) to 3rd gear",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Check for proper seating"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c8033c6efb7c.jpg",
+            "alt": "Object Number: 2417574  Size: DEFAULT"
+          },
+          "callouts": [
+            "5"
+          ]
+        },
+        {
+          "number": 17,
+          "text": "Install thrust washer (6) to 3rd gear",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Check for proper seating"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c8033c6efb7c.jpg",
+            "alt": "Object Number: 2417574  Size: DEFAULT"
+          },
+          "callouts": [
+            "6"
+          ]
+        },
+        {
+          "number": 18,
+          "text": "Install 3rd gear synchroniser ring (7) to 3rd gear Note: More recent transmissions as well as repair kits for 3rd/4th gear synchroniser ring contain wave springs (arrowed)",
+          "image": {
+            "src": "/data/assets/images/c8033c6efb7c.jpg",
+            "alt": "Object Number: 2417574  Size: DEFAULT"
+          },
+          "callouts": [
+            "7"
+          ]
+        },
+        {
+          "number": 19,
+          "text": "Install 3rd/4th gear synchromesh body for 1st/2nd (3) to drive shaft",
+          "image": {
+            "src": "/data/assets/images/580d2b2c7c82.jpg",
+            "alt": "Object Number: 2417575  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 20,
+          "text": "Press bushing (2) onto drive shaft using KM-6219 (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ensure that fluid bores (5) coincide and guide (arrow I) of"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/580d2b2c7c82.jpg",
+            "alt": "Object Number: 2417575  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 21,
+          "text": "Assemble synchromesh",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Spring"
+            },
+            {
+              "bullet": "•",
+              "text": "(II) Clamp drive shaft in vice - use protective jaws. Slide"
+            },
+            {
+              "bullet": "•",
+              "text": "(III) Push slider slightly upwards. Press ball against spring"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3b34b50fe799.jpg",
+            "alt": "Object Number: 2415570  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 22,
+          "text": "Sand down molybdenum layer on reverse side of 4th gear synchroniser ring (2) using fine grained sandpaper (1) on smooth surface",
+          "image": {
+            "src": "/data/assets/images/fefcd123d7d1.jpg",
+            "alt": "Object Number: 2417563  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 23,
+          "text": "Attach 4th gear synchroniser ring (1) and needle roller bearing (2) to synchromesh body Note: Observe installed position",
+          "image": {
+            "src": "/data/assets/images/7ab0165c57a9.jpg",
+            "alt": "Object Number: 2417576  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 24,
+          "text": "Install 4th gear (4) with radial needle bearing (3), radial roller bearing (5) and thrust washer (6) to drive shaft",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ensure that needle roller bearings and radial needle bearings"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7ab0165c57a9.jpg",
+            "alt": "Object Number: 2417576  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "3",
+            "5",
+            "6"
+          ]
+        },
+        {
+          "number": 25,
+          "text": "Install drive shaft to transmission - see operation \"Drive Shaft, Remove and Install\"",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "toolsRequired": [
+    "KM-6220",
+    "KM-6222",
+    "KM-6219"
+  ],
+  "warnings": [
+    "If gears are damaged,\nalways replace entire drive shaft assembly. Obtain appropriate\nsynchroniser assembly repair kits from Aftersales",
+    "Ball (2), slider (3)\nare under spring tension. When removing shift sleeve (1), ensure\nthat ball, slider, and spring (4) are not lost",
+    "Before installation of\n3rd gear synchroniser ring, molybdenum layer on reverse side must\nbe removed (shaded area)",
+    "Before installation of\n4th gear synchroniser ring, the molybdenum layer on the reverse\nside must be removed (shaded area)"
+  ],
+  "notes": [
+    "Install 3rd gear synchroniser ring (7) to 3rd gear\n More recent\ntransmissions as well as repair kits for 3rd/4th gear synchroniser\nring contain wave springs (arrowed)",
+    "Ensure that fluid bores (5) coincide and guide (arrow I) of\n3rd/4th gear synchroniser ring (4) is located over cavity (arrow\nII) of 3rd/4th gear synchromesh body\n More recent\ntransmissions as well as repair kits for 3rd/4th gear synchroniser\nring contain wave springs (arrow)",
+    "Attach 4th gear synchroniser ring (1) and needle roller bearing\n(2) to synchromesh body\n Observe installed\nposition",
+    "Ensure that needle roller bearings and radial needle bearings\nare not damaged\n More recent\ntransmissions as well as repair kits for 3rd/4th gear synchroniser\nring contain wave springs (arrow)"
+  ]
+}

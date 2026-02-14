@@ -1,0 +1,67 @@
+{
+  "type": "procedure",
+  "id": "soft-top-adjust-A26D1C",
+  "title": "Soft Top, Adjust",
+  "phases": [
+    {
+      "phase": "adjust",
+      "label": "Adjust",
+      "icon": "/data/assets/images/8bcc88ed08ca.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Open windows and doors",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Release cant rail latches on left side, then disengage soft top from brackets",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x latch"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/67387a4bb87a.jpg",
+            "alt": "Object Number: 2419727  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Roll soft top cant rail towards centre of vehicle",
+          "image": {
+            "src": "/data/assets/images/5f3688ca3a92.jpg",
+            "alt": "Object Number: 2422596  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Adjust tension of rear cable",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release lock nut (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Adjust tension as required, then secure lock nut"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/10cf66c06a92.jpg",
+            "alt": "Object Number: 2422597  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Repeat operation for front cable if required",
+          "image": {
+            "src": "/data/assets/images/10cf66c06a92.jpg",
+            "alt": "Object Number: 2422597  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ]
+}

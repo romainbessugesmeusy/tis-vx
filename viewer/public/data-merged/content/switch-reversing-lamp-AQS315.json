@@ -1,0 +1,67 @@
+{
+  "type": "harness_diagram",
+  "id": "switch-reversing-lamp-AQS315",
+  "title": "switch-reversing-lamp-AQS315",
+  "diagram": {
+    "src": "/data/assets/converted/2dd47136a6b3.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "E24",
+      "description": "Stop lamp - Centre position"
+    },
+    {
+      "code": "S6",
+      "description": "Switch - Hazard light"
+    },
+    {
+      "code": "S28",
+      "description": "Switch - Clutch Pedal"
+    },
+    {
+      "code": "H6",
+      "description": "Turn signal lamp - Side, left"
+    },
+    {
+      "code": "S29",
+      "description": "Switch - Stop lamp, single"
+    },
+    {
+      "code": "H7",
+      "description": "Turn signal lamp - Side, right"
+    },
+    {
+      "code": "S31",
+      "description": "Switch - Reversing lamp"
+    },
+    {
+      "code": "K5",
+      "description": "Relay - Fog lamp, rear"
+    },
+    {
+      "code": "S43",
+      "description": "Switch - Stop lamp, double"
+    },
+    {
+      "code": "K31",
+      "description": "Flasher unit"
+    },
+    {
+      "code": "S122",
+      "description": "Switch - Fog lamps, rear"
+    },
+    {
+      "code": "X12",
+      "description": "Main harness & Roll hoop"
+    },
+    {
+      "code": "Z20LET",
+      "description": "Engine Z20LET"
+    },
+    {
+      "code": "Z22SE",
+      "description": "Engine Z22SE"
+    }
+  ]
+}

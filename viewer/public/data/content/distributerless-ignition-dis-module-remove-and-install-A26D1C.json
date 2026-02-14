@@ -1,0 +1,48 @@
+{
+  "type": "procedure",
+  "id": "distributerless-ignition-dis-module-remove-and-install-A26D1C",
+  "title": "Distributerless Ignition (DIS) Module, Remove and\nInstall",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Wiring harness connector from the DIS module.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "DIS module from the cylinder head cover – 4 bolts.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "DIS module to the cylinder head cover – 4 bolts, 10 Nm .",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Wiring harness connector to the DIS module.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "DIS module to the cylinder head cover – 4 bolts, 10 Nm .",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 3
+    }
+  ]
+}

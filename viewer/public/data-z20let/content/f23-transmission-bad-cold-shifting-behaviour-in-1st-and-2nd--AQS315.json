@@ -1,0 +1,22 @@
+{
+  "type": "tsb",
+  "id": "f23-transmission-bad-cold-shifting-behaviour-in-1st-and-2nd--AQS315",
+  "title": "Field Remedy: 1653",
+  "subject": "F23 transmission - Bad cold shifting\nbehaviour in 1st and 2nd gear",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "K - Clutch/Transmission",
+    "complaintGroup": "08 - Hard to operate",
+    "troubleCode": "None"
+  },
+  "complaint": "Some customer complain about bad cold\nshifting behaviour in 1st and 2nd gear. The gearshift mechanism is\ncorrectly adjusted and clutch system is bleeded.",
+  "cause": "Tolerances of toothing of the sliding\ngear.",
+  "production": "Introduction of transmission with modified\nsiding gear as of transmission number Gxx03240969 in calendar week\n41 / 2003.",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "In case of customer complaint the sliding gear has to be replaced by\nusing the Repair Kit, Partno.: 9201451 / Catalogno.: 16 07 013. There\nis no need to replace the entire transmission."
+    }
+  ]
+}

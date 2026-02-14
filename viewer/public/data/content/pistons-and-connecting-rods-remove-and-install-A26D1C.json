@@ -1,0 +1,2647 @@
+{
+  "type": "procedure",
+  "id": "pistons-and-connecting-rods-remove-and-install-A26D1C",
+  "title": "Pistons and Connecting Rods, Remove and\nInstall",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Open the bonnet.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Disconnect the battery.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Open the engine cover (1).",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Detach the engine cover.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "6 bolts (2) and (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Release the fuel pressure.",
+          "image": {
+            "src": "/data/assets/images/77b9e84bc8f7.jpg",
+            "alt": "Object Number: 2412454  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Disconnect the fuel lines.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 union nuts (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "2 bolts (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Reposition the fuel lines (3) to one side."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/96b59af655a2.jpg",
+            "alt": "Object Number: 2412455  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Detach the ignition module (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release and detach the wiring harness connector."
+            },
+            {
+              "bullet": "•",
+              "text": "4 bolts (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0c4aa59965a6.jpg",
+            "alt": "Object Number: 2416672  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Remove the cylinder head cover.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Detach the engine breather hose (2)."
+            },
+            {
+              "bullet": "•",
+              "text": "2 bolts, 1 nut"
+            },
+            {
+              "bullet": "•",
+              "text": "1 bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "12 bolts (1), (3), (4) and (8)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/055fa4fa9cf5.jpg",
+            "alt": "Object Number: 2412456  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Remove the lower heat shield (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2ccda3dcd825.jpg",
+            "alt": "Object Number: 2412469  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Detach the upper heat shield (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2ccda3dcd825.jpg",
+            "alt": "Object Number: 2412469  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "Undo the bolts on the rear wheels.",
+          "image": {
+            "src": "/data/assets/images/2ccda3dcd825.jpg",
+            "alt": "Object Number: 2412469  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 12,
+          "text": "Raise the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/2ccda3dcd825.jpg",
+            "alt": "Object Number: 2412469  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 13,
+          "text": "Detach the rear wheels.",
+          "image": {
+            "src": "/data/assets/images/2ccda3dcd825.jpg",
+            "alt": "Object Number: 2412469  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 14,
+          "text": "Remove the wheel arch trim on the left and right–hand side.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "12 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2ccda3dcd825.jpg",
+            "alt": "Object Number: 2412469  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 15,
+          "text": "Disconnect the lambda probe wiring harness connector (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Expose the wiring harness."
+            },
+            {
+              "bullet": "•",
+              "text": "5 clips, 1 retaining clip (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d5f9fc343126.jpg",
+            "alt": "Object Number: 2412470  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 16,
+          "text": "Raise the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/d5f9fc343126.jpg",
+            "alt": "Object Number: 2412470  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 17,
+          "text": "Remove the lower engine splash shield (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 18,
+          "text": "Remove the cover from the exhaust system.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "14 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 19,
+          "text": "Detach the front exhaust pipe.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 nuts (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove the gasket."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/899ebb0955a4.jpg",
+            "alt": "Object Number: 2412471  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 20,
+          "text": "Place a drip tray underneath.",
+          "image": {
+            "src": "/data/assets/images/28966656352c.jpg",
+            "alt": "Object Number: 2412462  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 21,
+          "text": "Drain the coolant.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Open the coolant drain plug at the radiator and the coolant"
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 20 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/28966656352c.jpg",
+            "alt": "Object Number: 2412462  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 22,
+          "text": "Place a drip tray underneath.",
+          "image": {
+            "src": "/data/assets/images/eaf0186d1402.jpg",
+            "alt": "Object Number: 2417754  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 23,
+          "text": "Drain the engine oil.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Open the oil drain plug."
+            },
+            {
+              "bullet": "•",
+              "text": "Install the oil drain plug using a new oil seal."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 25 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/eaf0186d1402.jpg",
+            "alt": "Object Number: 2417754  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 24,
+          "text": "Remove the oil pan.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "17 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/eaf0186d1402.jpg",
+            "alt": "Object Number: 2417754  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 25,
+          "text": "Place a drip tray underneath.",
+          "image": {
+            "src": "/data/assets/images/eaf0186d1402.jpg",
+            "alt": "Object Number: 2417754  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 26,
+          "text": "Align the crankshaft.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Rotate the crankshaft in the normal direction of rotation to"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/65c9b6fe7f54.jpg",
+            "alt": "Object Number: 2417749  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 27,
+          "text": "Unbolt the camshaft timing chain guide rail.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove the screw plug (1)."
+            },
+            {
+              "bullet": "•",
+              "text": "1 bolt (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/34eaf5d823b4.jpg",
+            "alt": "Object Number: 2416692  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 28,
+          "text": "Disconnect the wiring harness connector (1) for the tank breather valve (2).",
+          "image": {
+            "src": "/data/assets/images/2ba1488e2482.jpg",
+            "alt": "Object Number: 2412472  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 29,
+          "text": "Lower the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/2f3e26238475.jpg",
+            "alt": "Object Number: 2416669  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 30,
+          "text": "Remove the exhaust manifold (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "10 nuts."
+            },
+            {
+              "bullet": "•",
+              "text": "Remove the gasket (2)."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2f3e26238475.jpg",
+            "alt": "Object Number: 2416669  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 31,
+          "text": "Undo the bolts on the oil dipstick guide tube (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull out the oil dipstick (1)."
+            },
+            {
+              "bullet": "•",
+              "text": "1 bolt (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/839872b80755.jpg",
+            "alt": "Object Number: 2416675  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 32,
+          "text": "Remove the oil dipstick guide tube.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Detach the knock sensor wiring harness connector."
+            },
+            {
+              "bullet": "•",
+              "text": "Pull the oil dipstick guide tube out from the oil pan and take"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/839872b80755.jpg",
+            "alt": "Object Number: 2416675  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 33,
+          "text": "Detach the tank breather valve line (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposition the line to one side."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/254345c435b1.jpg",
+            "alt": "Object Number: 2417964  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 34,
+          "text": "Drill out the shear bolt (4).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Centre–punch"
+            },
+            {
+              "bullet": "•–",
+              "text": "Max. depth 10 mm",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Use a 3 mm drill."
+                }
+              ]
+            },
+            {
+              "bullet": "•–",
+              "text": "Until the head of the bolt comes free.",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Use a 6.5 mm drill."
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d30b869f7f2d.jpg",
+            "alt": "Object Number: 2412527  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ]
+        },
+        {
+          "number": 35,
+          "text": "Remove retaining bolt (2).",
+          "image": {
+            "src": "/data/assets/images/d30b869f7f2d.jpg",
+            "alt": "Object Number: 2412527  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 36,
+          "text": "Remove the bridge piece (3).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposition the ground cable to one side."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d30b869f7f2d.jpg",
+            "alt": "Object Number: 2412527  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 37,
+          "text": "Remove the retaining bolts (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d30b869f7f2d.jpg",
+            "alt": "Object Number: 2412527  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 38,
+          "text": "Take out the engine control unit.",
+          "image": {
+            "src": "/data/assets/images/d30b869f7f2d.jpg",
+            "alt": "Object Number: 2412527  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 39,
+          "text": "Detach the coolant hoses (1) and (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d5b48a98aa78.jpg",
+            "alt": "Object Number: 2412473  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 40,
+          "text": "Detach the wiring harness connector (1) from the injectors (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release and detach the 4 wiring harness connectors."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c31affcd4874.jpg",
+            "alt": "Object Number: 2416677  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 41,
+          "text": "Detach the MAP sensor wiring harness connector.",
+          "image": {
+            "src": "/data/assets/images/c31affcd4874.jpg",
+            "alt": "Object Number: 2416677  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 42,
+          "text": "Detach the throttle body wiring harness connector.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release and detach the wiring harness connector."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c31affcd4874.jpg",
+            "alt": "Object Number: 2416677  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 43,
+          "text": "Detach the wiring harness.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 clips"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c31affcd4874.jpg",
+            "alt": "Object Number: 2416677  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 44,
+          "text": "Disconnect the tank breather line from the intake manifold.",
+          "image": {
+            "src": "/data/assets/images/c31affcd4874.jpg",
+            "alt": "Object Number: 2416677  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 45,
+          "text": "Unbolt the exhaust gas recirculation pipe.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c31affcd4874.jpg",
+            "alt": "Object Number: 2416677  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 46,
+          "text": "Detach the wiring harness connector from the exhaust gas recirculation valve.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release and detach the wiring harness connector."
+            },
+            {
+              "bullet": "•",
+              "text": "Reposition the wiring harness to one side."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c31affcd4874.jpg",
+            "alt": "Object Number: 2416677  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 47,
+          "text": "Undo the bolts on the intake manifold (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "5 bolts, 2 nuts, 2 studs"
+            },
+            {
+              "bullet": "•",
+              "text": "Lift out the intake manifold."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b973aa6d7559.jpg",
+            "alt": "Object Number: 2416682  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 48,
+          "text": "Remove the guide rail (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 bolts (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e362d7f90897.jpg",
+            "alt": "Object Number: 2416678  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 49,
+          "text": "Note: If there is no marking (1) on the camshaft timing chain tensioner (2), then it should be replaced with a new camshaft timing chain tensioner (part number 24 448 509) including a new camshaft timing chain tensioner rail (part number 24 449 448).",
+          "image": {
+            "src": "/data/assets/images/c856d6a2b9e9.jpg",
+            "alt": "Object Number: 2412306  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 50,
+          "text": "Remove the camshaft timing chain tensioner (1).",
+          "image": {
+            "src": "/data/assets/images/020d9b093f8c.jpg",
+            "alt": "Object Number: 2416679  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 51,
+          "text": "Remove the exhaust camshaft sprocket (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Hold the exhaust camshaft by the hexagon."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9a6fd5fae624.jpg",
+            "alt": "Object Number: 2418816  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 52,
+          "text": "Remove the intake camshaft sprocket (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Hold the exhaust camshaft by the hexagon."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9a6fd5fae624.jpg",
+            "alt": "Object Number: 2418816  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 53,
+          "text": "Detach the cylinder head.",
+          "image": {
+            "src": "/data/assets/images/1b0104aab82d.jpg",
+            "alt": "Object Number: 2416697  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 54,
+          "text": "Remove the cylinder head (1). Note: 2 technicians required",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Place the cylinder head on wooden blocks."
+            },
+            {
+              "bullet": "•",
+              "text": "Take off the cylinder head gasket (2)."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c1e37eae4a92.jpg",
+            "alt": "Object Number: 2416698  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 55,
+          "text": "Raise the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/c1e37eae4a92.jpg",
+            "alt": "Object Number: 2416698  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 56,
+          "text": "Unscrew the bolts on pistons 1 and 4.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Attach the rotational vibration damper to the crankshaft, and"
+            },
+            {
+              "bullet": "•",
+              "text": "Mark the connecting rod and big–end bearing cap (1)."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/352370a0730c.jpg",
+            "alt": "Object Number: 2417756  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 57,
+          "text": "Detach the big–end bearing caps.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 off"
+            },
+            {
+              "bullet": "•",
+              "text": "4 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/33547d05cf9c.jpg",
+            "alt": "Object Number: 2417755  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 58,
+          "text": "Press out the piston and connecting rod from the cylinder bore.",
+          "image": {
+            "src": "/data/assets/images/f1c185769dd2.jpg",
+            "alt": "Object Number: 2417757  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 59,
+          "text": "Lower the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/f1c185769dd2.jpg",
+            "alt": "Object Number: 2417757  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 60,
+          "text": "Remove pistons 1 and 4.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Take out the pistons and connecting rods."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f1c185769dd2.jpg",
+            "alt": "Object Number: 2417757  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 61,
+          "text": "Raise the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/f1c185769dd2.jpg",
+            "alt": "Object Number: 2417757  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 62,
+          "text": "Unscrew the bolts on pistons 2 and 3.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Rotate the crankshaft via the rotational vibration damper 180° in the normal direction of"
+            },
+            {
+              "bullet": "•",
+              "text": "Mark the connecting rod and big–end bearing cap (1)."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/352370a0730c.jpg",
+            "alt": "Object Number: 2417756  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 63,
+          "text": "Detach the big–end bearing caps.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 off"
+            },
+            {
+              "bullet": "•",
+              "text": "4 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/89c504e5114c.jpg",
+            "alt": "Object Number: 2417759  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 64,
+          "text": "Press out the piston and connecting rod from the cylinder bore.",
+          "image": {
+            "src": "/data/assets/images/74537fe95243.jpg",
+            "alt": "Object Number: 2417758  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 65,
+          "text": "Lower the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/74537fe95243.jpg",
+            "alt": "Object Number: 2417758  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 66,
+          "text": "Remove pistons 2 and 3.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Take out the pistons and connecting rods."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/74537fe95243.jpg",
+            "alt": "Object Number: 2417758  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "measure",
+      "label": "Measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": [
+        {
+          "number": 67,
+          "text": "Take out the big–end bearing shells (1) and (2). Note: Note the installation position and allocation.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Visually inspect the components."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ae970ac1c8db.jpg",
+            "alt": "Object Number: 2417760  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 68,
+          "text": "Measure the pistons.",
+          "substeps": [
+            {
+              "bullet": "•–",
+              "text": "4 off",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Position the micrometer 90°\noffset to the piston pin axis and 14.5 mm from the lower edge."
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1c23b8bf9e74.jpg",
+            "alt": "Object Number: 2417761  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 69,
+          "text": "Set up the inside micrometer.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Assemble the inside micrometer so that its span is greater than"
+            },
+            {
+              "bullet": "•",
+              "text": "Attach the dial gauge to the inside micrometer."
+            },
+            {
+              "bullet": "•",
+              "text": "Adjust the inside micrometer to the size of the piston."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d321536ee662.jpg",
+            "alt": "Object Number: 2417762  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 70,
+          "text": "Determine the turning point, zero the scale. Note: The turning point of the pointer corresponds to the actual piston size.",
+          "image": {
+            "src": "/data/assets/images/f9317b3eb6c2.jpg",
+            "alt": "Object Number: 2417763  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 71,
+          "text": "Measure the cylinder bores.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Insert the inside micrometer into the cylinder bores."
+            },
+            {
+              "bullet": "•",
+              "text": "Measure at three levels (I, II and III), working diagonally in"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f059f177c889.jpg",
+            "alt": "Object Number: 2417764  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 72,
+          "text": "Tip back and forth to determine the turning point of the pointer.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "The difference between \"zero\" on the scale and the turning"
+            },
+            {
+              "bullet": "•",
+              "text": "Make a note of the obtained values."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/85a5bad41fad.jpg",
+            "alt": "Object Number: 2417765  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 73,
+          "text": "Comparison between specified values and actual values",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use the largest value from measurements 1 to 6 as the basis for"
+            },
+            {
+              "bullet": "•",
+              "text": "Piston size + largest running clearance = cylinder diameter at"
+            },
+            {
+              "bullet": "•",
+              "text": "Largest value of a measuring plane – smallest value of a"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/85a5bad41fad.jpg",
+            "alt": "Object Number: 2417765  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 74,
+          "text": "Dismantle the inside micrometer.",
+          "image": {
+            "src": "/data/assets/images/85a5bad41fad.jpg",
+            "alt": "Object Number: 2417765  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 75,
+          "text": "Insert the big–end bearing shells.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Coat the big–end bearing shells with engine oil."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 76,
+          "text": "Adjust the piston ring gaps on piston 2.",
+          "substeps": [
+            {
+              "bullet": "•–",
+              "text": "Intermediate ring of the oil scraper ring in position (5),",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Second piston ring (Napier ring) in position (4)"
+                },
+                {
+                  "bullet": "–",
+                  "text": "Intermediate ring of the oil scraper ring in position (5),\nsteel band rings of the oil scraper ring in position (2) or (3)"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/aafd38daccc6.jpg",
+            "alt": "Object Number: 2417766  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 77,
+          "text": "Install piston 2.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Coat the piston and the cylinder bore with engine oil."
+            },
+            {
+              "bullet": "•",
+              "text": "Compress the piston rings with a piston ring compressor."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/929737150d3b.jpg",
+            "alt": "Object Number: 2417768  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 78,
+          "text": "Raise the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/929737150d3b.jpg",
+            "alt": "Object Number: 2417768  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 79,
+          "text": "Detach KM-J-41742 .",
+          "image": {
+            "src": "/data/assets/images/929737150d3b.jpg",
+            "alt": "Object Number: 2417768  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 80,
+          "text": "Lower the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/929737150d3b.jpg",
+            "alt": "Object Number: 2417768  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 81,
+          "text": "Adjust the piston ring gaps on piston 3.",
+          "substeps": [
+            {
+              "bullet": "•–",
+              "text": "Intermediate ring of the oil scraper ring in position (5),",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Second piston ring (Napier ring) in position (4)"
+                },
+                {
+                  "bullet": "–",
+                  "text": "Intermediate ring of the oil scraper ring in position (5),\nsteel band rings of the oil scraper ring in position (2) or (3)"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/aafd38daccc6.jpg",
+            "alt": "Object Number: 2417766  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 82,
+          "text": "Install piston 3.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Coat the piston and the cylinder bore with engine oil."
+            },
+            {
+              "bullet": "•",
+              "text": "Compress the piston rings with a piston ring compressor."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dc6112e15acd.jpg",
+            "alt": "Object Number: 2417767  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 83,
+          "text": "Raise the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/dc6112e15acd.jpg",
+            "alt": "Object Number: 2417767  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 84,
+          "text": "Detach KM-J-41742 .",
+          "image": {
+            "src": "/data/assets/images/dc6112e15acd.jpg",
+            "alt": "Object Number: 2417767  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 85,
+          "text": "Install big–end bearing caps 2 and 3.",
+          "image": {
+            "src": "/data/assets/images/89c504e5114c.jpg",
+            "alt": "Object Number: 2417759  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 86,
+          "text": "Coat the big–end bearing journals with engine oil.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 25 Nm + 50° +"
+            },
+            {
+              "bullet": "•",
+              "text": "Rotate the crankshaft via the rotational vibration damper 180° in the normal direction of"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/352370a0730c.jpg",
+            "alt": "Object Number: 2417756  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 87,
+          "text": "Lower the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/352370a0730c.jpg",
+            "alt": "Object Number: 2417756  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 88,
+          "text": "Adjust the piston ring gaps on piston 1.",
+          "substeps": [
+            {
+              "bullet": "•–",
+              "text": "Intermediate ring of the oil scraper ring in position (5),",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Second piston ring (Napier ring) in position (4)"
+                },
+                {
+                  "bullet": "–",
+                  "text": "Intermediate ring of the oil scraper ring in position (5),\nsteel band rings of the oil scraper ring in position (2) or (3)"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/aafd38daccc6.jpg",
+            "alt": "Object Number: 2417766  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 89,
+          "text": "Install piston 1.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Coat the piston and the cylinder bore with engine oil."
+            },
+            {
+              "bullet": "•",
+              "text": "Compress the piston rings with a piston ring compressor."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c7df9127ed73.jpg",
+            "alt": "Object Number: 2417770  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 90,
+          "text": "Raise the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/c7df9127ed73.jpg",
+            "alt": "Object Number: 2417770  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 91,
+          "text": "Detach KM-J-41742 .",
+          "image": {
+            "src": "/data/assets/images/c7df9127ed73.jpg",
+            "alt": "Object Number: 2417770  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 92,
+          "text": "Lower the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/c7df9127ed73.jpg",
+            "alt": "Object Number: 2417770  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 93,
+          "text": "Adjust the piston ring gaps on piston 4.",
+          "substeps": [
+            {
+              "bullet": "•–",
+              "text": "Intermediate ring of the oil scraper ring in position (5),",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Second piston ring (Napier ring) in position (4)"
+                },
+                {
+                  "bullet": "–",
+                  "text": "Intermediate ring of the oil scraper ring in position (5),\nsteel band rings of the oil scraper ring in position (2) or (3)"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/aafd38daccc6.jpg",
+            "alt": "Object Number: 2417766  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 94,
+          "text": "Install piston 4.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Coat the piston and the cylinder bore with engine oil."
+            },
+            {
+              "bullet": "•",
+              "text": "Compress the piston rings with a piston ring compressor."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/76deb3a61481.jpg",
+            "alt": "Object Number: 2417769  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 95,
+          "text": "Raise the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/76deb3a61481.jpg",
+            "alt": "Object Number: 2417769  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 96,
+          "text": "Detach KM-J-41742 .",
+          "image": {
+            "src": "/data/assets/images/76deb3a61481.jpg",
+            "alt": "Object Number: 2417769  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 97,
+          "text": "Install big–end bearing caps 1 and 4.",
+          "image": {
+            "src": "/data/assets/images/33547d05cf9c.jpg",
+            "alt": "Object Number: 2417755  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 98,
+          "text": "Coat the big–end bearing journals with engine oil.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 25 Nm + 50° +"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/352370a0730c.jpg",
+            "alt": "Object Number: 2417756  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 99,
+          "text": "Clean the sealing surfaces.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Cylinder block base plate, oil pan"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/352370a0730c.jpg",
+            "alt": "Object Number: 2417756  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 100,
+          "text": "Recut the thread.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "15 off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/352370a0730c.jpg",
+            "alt": "Object Number: 2417756  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 101,
+          "text": "Install the oil pan.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Apply a bead of silicone sealant (grey) (approx. 2 mm to 2.5 mm"
+            },
+            {
+              "bullet": "•",
+              "text": "Apply an additional bead of silicone sealant (grey) (approx."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6406f6364d10.jpg",
+            "alt": "Object Number: 2417774  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 102,
+          "text": "Tighten all bolts loosely. Note: Observe the tightening sequence.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "To the cylinder block base plate – tightening torque"
+            },
+            {
+              "bullet": "•",
+              "text": "To the transmission housing – tightening torque 23 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a6bb93aa1a59.jpg",
+            "alt": "Object Number: 2417775  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 103,
+          "text": "Rotate the crankshaft in the normal direction of rotation to TDC on cylinder no. 4 (marking 1).",
+          "image": {
+            "src": "/data/assets/images/65c9b6fe7f54.jpg",
+            "alt": "Object Number: 2417749  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 104,
+          "text": "Lower the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/65c9b6fe7f54.jpg",
+            "alt": "Object Number: 2417749  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 105,
+          "text": "Install new intake manifold gaskets (1) and (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "5 off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a9a3787d2c92.jpg",
+            "alt": "Object Number: 2417771  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 106,
+          "text": "Recut the M8 thread.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "4 bolts, 4 bores"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a9a3787d2c92.jpg",
+            "alt": "Object Number: 2417771  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 107,
+          "text": "Clean the sealing surfaces and bores.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Cylinder block, cylinder head, front exhaust pipe."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a9a3787d2c92.jpg",
+            "alt": "Object Number: 2417771  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 108,
+          "text": "Check for plane surface.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Cylinder block (II), cylinder head (I)"
+            },
+            {
+              "bullet": "•",
+              "text": "Use a straightedge, feeler gauges"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8d96708a1a26.jpg",
+            "alt": "Object Number: 2416699  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 109,
+          "text": "Place the cylinder head (1) in place. Note: 2 technicians required",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fit a new cylinder head gasket (2)."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c1e37eae4a92.jpg",
+            "alt": "Object Number: 2416698  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 110,
+          "text": "Attach the cylinder head.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque (M10) 30 Nm + 75°",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Tightening torque (M10) 30 Nm + 75°\n+ 75° + 15°"
+                }
+              ]
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 35 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c405bfa644ba.jpg",
+            "alt": "Object Number: 2417772  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 111,
+          "text": "Install the intake camshaft sprocket.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use a new bolt."
+            },
+            {
+              "bullet": "•",
+              "text": "Tighten finger tight."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c3cb004957cc.jpg",
+            "alt": "Object Number: 2417777  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 112,
+          "text": "Attach KM-6148 to the cylinder head.",
+          "image": {
+            "src": "/data/assets/images/c3cb004957cc.jpg",
+            "alt": "Object Number: 2417777  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 113,
+          "text": "Secure the intake camshaft sprocket.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use the positioning bolt from KM-6148"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c3cb004957cc.jpg",
+            "alt": "Object Number: 2417777  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 114,
+          "text": "Fit the camshaft timing chain.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Feed the camshaft timing chain by hand through the timing"
+            },
+            {
+              "bullet": "•",
+              "text": "Chain link (copper colour) (1) to INT marking (2) on the intake"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c3cb004957cc.jpg",
+            "alt": "Object Number: 2417777  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 115,
+          "text": "Install the exhaust camshaft sprocket.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull back the positioning bolt from KM-6148 ."
+            },
+            {
+              "bullet": "•",
+              "text": "Rotate the exhaust camshaft by the hexagon until the exhaust"
+            },
+            {
+              "bullet": "•",
+              "text": "Use a new bolt."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/69a8b8d190f6.jpg",
+            "alt": "Object Number: 2417748  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 116,
+          "text": "Detach KM-6148 .",
+          "image": {
+            "src": "/data/assets/images/69a8b8d190f6.jpg",
+            "alt": "Object Number: 2417748  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 117,
+          "text": "Tighten the camshaft sprockets.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Hold the camshaft by the hexagon."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 85 Nm + 30° +"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/69a8b8d190f6.jpg",
+            "alt": "Object Number: 2417748  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 118,
+          "text": "Recut the thread.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/69a8b8d190f6.jpg",
+            "alt": "Object Number: 2417748  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 119,
+          "text": "Install the guide rail.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 8 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/69a8b8d190f6.jpg",
+            "alt": "Object Number: 2417748  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 120,
+          "text": "Raise the vehicle.",
+          "image": {
+            "src": "/data/assets/images/34eaf5d823b4.jpg",
+            "alt": "Object Number: 2416692  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 121,
+          "text": "Attach the camshaft timing chain guide rail.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 10 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 65 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/34eaf5d823b4.jpg",
+            "alt": "Object Number: 2416692  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 122,
+          "text": "Lower the vehicle.",
+          "image": {
+            "src": "/data/assets/images/34eaf5d823b4.jpg",
+            "alt": "Object Number: 2416692  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 123,
+          "text": "Install the camshaft timing chain tensioner.",
+          "substeps": [
+            {
+              "bullet": "••",
+              "text": "Insert the piston into the housing.",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Clamp the piston at the square into a vice."
+                },
+                {
+                  "bullet": "–",
+                  "text": "Turn clockwise to lock the internal piston (6) in the last\nlatch position (5)."
+                }
+              ]
+            },
+            {
+              "bullet": "•",
+              "text": "Use new oil seals (2) and (3)."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 75 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/468e539957d0.jpg",
+            "alt": "Object Number: 2411811  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 124,
+          "text": "Important: Failure to follow this instruction could cause the camshaft timing chain to jump.",
+          "image": {
+            "src": "/data/assets/images/f57a4ba0e2fa.jpg",
+            "alt": "Object Number: 2402051  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 125,
+          "text": "Release the camshaft timing chain tensioner by pressing on the tensioner rail or the camshaft timing chain (using a blunt tool – e.g. a rounded assembly lever). Note: If the TDC markings no longer line up with the coloured chain links, refit the camshaft timing chain. Once the crankshaft has been rotated another turn they will no longer line up.",
+          "image": {
+            "src": "/data/assets/images/f57a4ba0e2fa.jpg",
+            "alt": "Object Number: 2402051  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 126,
+          "text": "Raise the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/65c9b6fe7f54.jpg",
+            "alt": "Object Number: 2417749  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 127,
+          "text": "Rotate the crankshaft 720° .",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Rotate the crankshaft in the normal direction of rotation to"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/65c9b6fe7f54.jpg",
+            "alt": "Object Number: 2417749  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 128,
+          "text": "Lower the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/65c9b6fe7f54.jpg",
+            "alt": "Object Number: 2417749  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 129,
+          "text": "Attach KM-6148 . Note: In this position the cams (1) and (2) of cylinder no. 4 point upwards.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Attach KM-6148 with the enclosed"
+            },
+            {
+              "bullet": "•",
+              "text": "Slide the positioning bolts (5) into the designated bores (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ec477ca946f9.jpg",
+            "alt": "Object Number: 2417738  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 130,
+          "text": "Detach KM-6148 .",
+          "image": {
+            "src": "/data/assets/images/ec477ca946f9.jpg",
+            "alt": "Object Number: 2417738  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 131,
+          "text": "Attach the intake manifold.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 9 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 132,
+          "text": "Route the tank breather valve wiring harness.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 133,
+          "text": "Attach the exhaust gas recirculation pipe.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Clean the sealing surfaces."
+            },
+            {
+              "bullet": "•",
+              "text": "Use a new gasket."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 8 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 134,
+          "text": "Attach the tank breather line.",
+          "image": null
+        },
+        {
+          "number": 135,
+          "text": "Attach the wiring harness.",
+          "image": null
+        },
+        {
+          "number": 136,
+          "text": "Attach the wiring harness connector for the throttle body.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure the wiring harness connector(s)."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 137,
+          "text": "Attach the MAP sensor wiring harness connector.",
+          "image": null
+        },
+        {
+          "number": 138,
+          "text": "Attach the injector wiring harness connector.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure the 4 wiring harness connectors."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 139,
+          "text": "Connect the coolant hoses.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 off"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 140,
+          "text": "Clean the engine control unit.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Clean the engine control unit and the plug contacts with"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 141,
+          "text": "Install the engine control unit.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Attach and secure the wiring harness connector."
+            },
+            {
+              "bullet": "•",
+              "text": "Route the ground cable."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 10 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 142,
+          "text": "Connect the tank breather valve line.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "To the intake manifold"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 143,
+          "text": "Insert the oil dipstick guide tube.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Coat the oil seals with silicone grease (white)."
+            },
+            {
+              "bullet": "•",
+              "text": "Insert the oil dipstick guide tube as far as the stop into the"
+            },
+            {
+              "bullet": "•",
+              "text": "Attach the knock sensor wiring harness connector."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 144,
+          "text": "Attach the oil dipstick guide tube.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 9 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 145,
+          "text": "Insert the oil dipstick guide.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Coat the oil seals with silicone grease (white)."
+            },
+            {
+              "bullet": "•",
+              "text": "Insert the oil dipstick guide tube as far as the stop into the"
+            },
+            {
+              "bullet": "•",
+              "text": "Attach the knock sensor wiring harness connector."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 146,
+          "text": "Attach the oil dipstick guide tube.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 9 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 147,
+          "text": "Install the exhaust manifold.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use a new gasket."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 12 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 12 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 148,
+          "text": "Raise the lifting ramp.",
+          "image": null
+        },
+        {
+          "number": 149,
+          "text": "Connect the tank breather valve wiring harness connector.",
+          "image": null
+        },
+        {
+          "number": 150,
+          "text": "Attach the front exhaust pipe.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use a new gasket."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 16 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 151,
+          "text": "Attach the cover for the exhaust system.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "14 bolts"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 152,
+          "text": "Attach the lower engine splash shield.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 bolts"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 153,
+          "text": "Connect the lambda probe wiring harness.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Route the wiring harness."
+            },
+            {
+              "bullet": "•",
+              "text": "5 clips, 1 retaining clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 154,
+          "text": "Attach the wheel arch trim on the left and right–hand side.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "12 bolts"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 155,
+          "text": "Attach the rear wheels.",
+          "image": null
+        },
+        {
+          "number": 156,
+          "text": "Lower the lifting ramp.",
+          "image": null
+        },
+        {
+          "number": 157,
+          "text": "Tighten the rear wheels.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 90 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 158,
+          "text": "Attach the upper heat shield.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 nut"
+            },
+            {
+              "bullet": "•",
+              "text": "3 studs"
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 23 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 159,
+          "text": "Install the lower heat shield.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 8 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 160,
+          "text": "Attach the cylinder head cover",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Clean the sealing surfaces."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "2 bolts, 1 nut"
+            },
+            {
+              "bullet": "•",
+              "text": "Attach the engine breather hose."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 8 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ef30e1bc79e7.jpg",
+            "alt": "Object Number: 2417739  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 161,
+          "text": "Attach the ignition module.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Attach and secure the wiring harness connector."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ef30e1bc79e7.jpg",
+            "alt": "Object Number: 2417739  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 162,
+          "text": "Connect the fuel lines.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Insert the fuel lines into the clip."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 10 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 163,
+          "text": "Fill up with engine oil and check the oil level.",
+          "image": null
+        },
+        {
+          "number": 164,
+          "text": "Fill up with coolant and correct as required.",
+          "image": null
+        },
+        {
+          "number": 165,
+          "text": "Install the rear engine cover.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Check the alignment."
+            },
+            {
+              "bullet": "•",
+              "text": "6 bolts, tightening torque 14 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 166,
+          "text": "Close the rear engine cover.",
+          "image": null
+        },
+        {
+          "number": 167,
+          "text": "Connect the battery.",
+          "image": null
+        },
+        {
+          "number": 168,
+          "text": "Close the bonnet.",
+          "image": null
+        },
+        {
+          "number": 169,
+          "text": "Reprogram the volatile memories.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Drain the coolant.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 21
+    },
+    {
+      "component": "Drain the engine oil.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 23
+    },
+    {
+      "component": "Coat the big–end bearing journals with engine oil.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 86
+    },
+    {
+      "component": "Coat the big–end bearing journals with engine oil.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 98
+    },
+    {
+      "component": "Tighten all bolts loosely. Note: Observe the tightening sequence.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 102
+    },
+    {
+      "component": "Attach the cylinder head.",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 110
+    },
+    {
+      "component": "Attach the cylinder head.",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 110
+    },
+    {
+      "component": "Tighten the camshaft sprockets.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 117
+    },
+    {
+      "component": "Install the guide rail.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 119
+    },
+    {
+      "component": "Attach the camshaft timing chain guide rail.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 121
+    },
+    {
+      "component": "Attach the camshaft timing chain guide rail.",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": 121
+    },
+    {
+      "component": "Install the camshaft timing chain tensioner.",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 123
+    },
+    {
+      "component": "Attach the intake manifold.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 131
+    },
+    {
+      "component": "Attach the exhaust gas recirculation pipe.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 133
+    },
+    {
+      "component": "Attach the exhaust gas recirculation pipe.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 133
+    },
+    {
+      "component": "Install the engine control unit.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 141
+    },
+    {
+      "component": "Install the engine control unit.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 141
+    },
+    {
+      "component": "Attach the oil dipstick guide tube.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 144
+    },
+    {
+      "component": "Attach the oil dipstick guide tube.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 146
+    },
+    {
+      "component": "Install the exhaust manifold.",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": 147
+    },
+    {
+      "component": "Attach the front exhaust pipe.",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": 150
+    },
+    {
+      "component": "Tighten the rear wheels.",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 157
+    },
+    {
+      "component": "Attach the upper heat shield.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 158
+    },
+    {
+      "component": "Install the lower heat shield.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 159
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 160
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 160
+    },
+    {
+      "component": "Attach the ignition module.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 161
+    },
+    {
+      "component": "Connect the fuel lines.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 162
+    },
+    {
+      "component": "Install the rear engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 165
+    },
+    {
+      "component": "Tightening torque 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "To the cylinder block base plate – tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque (M10) 30 Nm + 75° + 75° + 15°",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 35 Nm",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 85 Nm + 30° + 15°",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 65 Nm",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 75 Nm",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 12 Nm",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 16 Nm",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-J-34730-91",
+    "KM-J-41742",
+    "KM-6148"
+  ],
+  "warnings": [
+    "Fuel may escape\n– observe the safety regulations and relevant national\nlegislation.",
+    "5.  \nRelease the fuel pressure.\n \n\n\n\nFuel may escape\n– observe the safety regulations and relevant national\nlegislation.\n \n\n\n\n•  \nRelease the fuel pressure with the pressure tester KM-J-34730-91 (1) via test connection (2).\n \n\n\n\n–\nCollect any escaping fuel in a suitable container.",
+    "The cylinder head must\nonly be removed when the engine is cold (i.e. at room\ntemperature).",
+    "53.  \nDetach the cylinder head.\n \n\n\n\nThe cylinder head must\nonly be removed when the engine is cold (i.e. at room\ntemperature).\n \n\n\n\n•  \n4 Torx bolts and 10 hexagon bolts\n Note:   Undo the bolts in\nthe order shown.\n \n\n\n\n–\nUndo the bolts ( 90° )\n \n\n\n\n\n\n–\nUndo the bolts ( 180° )",
+    "The broken surfaces of\nthe connecting rods and the big–end bearing caps form a\nunique fit and must not be swapped or damaged. Do not put the parts\ndown on the broken surfaces.",
+    "The arrow on the\npiston crown points towards the timing chain end of the engine.",
+    "77.  \nInstall piston 2.\n \n\n\n\n•  \nCoat the piston and the cylinder bore with engine oil.\n \n\n\n\n\n\n•  \nCompress the piston rings with a piston ring compressor.\n \n\n\n\n\n\nThe arrow on the\npiston crown points towards the timing chain end of the engine.\n \n\n\n\n•  \nAttach KM-J-41742 (1) to the\nconnecting rod and slide in the piston.",
+    "82.  \nInstall piston 3.\n \n\n\n\n•  \nCoat the piston and the cylinder bore with engine oil.\n \n\n\n\n\n\n•  \nCompress the piston rings with a piston ring compressor.\n \n\n\n\n\n\nThe arrow on the\npiston crown points towards the timing chain end of the engine.\n \n\n\n\n•  \nAttach KM-J-41742 (1) to the\nconnecting rod and slide in the piston.",
+    "Note the applied\nmarkings (1).",
+    "86.  \nCoat the big–end bearing journals with engine oil.\n \n\n\n\nNote the applied\nmarkings (1).\n \n\n\n\n•  \nRenew the bolts.\n \n\n\n\n\n\n•  \nTightening torque 25 Nm + 50° +\n50° + 10° \n \n\n\n\n\n\n•  \nRotate the crankshaft via the rotational vibration damper 180° in the normal direction of\nrotation.",
+    "89.  \nInstall piston 1.\n \n\n\n\n•  \nCoat the piston and the cylinder bore with engine oil.\n \n\n\n\n\n\n•  \nCompress the piston rings with a piston ring compressor.\n \n\n\n\n\n\nThe arrow on the\npiston crown points towards the timing chain end of the engine.\n \n\n\n\n•  \nAttach KM-J-41742 (1) to the\nconnecting rod and slide in the piston.",
+    "94.  \nInstall piston 4.\n \n\n\n\n•  \nCoat the piston and the cylinder bore with engine oil.\n \n\n\n\n\n\n•  \nCompress the piston rings with a piston ring compressor.\n \n\n\n\n\n\nThe arrow on the\npiston crown points towards the timing chain end of the engine.\n \n\n\n\n•  \nAttach KM-J-41742 (1) to the\nconnecting rod and slide in the piston.",
+    "98.  \nCoat the big–end bearing journals with engine oil.\n \n\n\n\nNote the applied\nmarkings (1).\n \n\n\n\n•  \nRenew the bolts.\n \n\n\n\n\n\n•  \nTightening torque 25 Nm + 50° +\n50° + 10°",
+    "Check that the TDC\nreference points line up.",
+    "115.  \nInstall the exhaust camshaft sprocket.\n \n\n\n\nCheck that the TDC\nreference points line up.\n \n\n\n\n•  \nChain link (1) to EXH marking (2) on the exhaust camshaft\nsprocket\n \n\n\n\n\n\n•  \nPull back the positioning bolt from KM-6148 .\n \n\n\n\n\n\n•  \nRotate the exhaust camshaft by the hexagon until the exhaust\ncamshaft sprocket is seated in the guide.\n \n\n\n\n\n\n•  \nUse a new bolt."
+  ],
+  "notes": [
+    "17 bolts\n Use a suitable\ntool to evenly prise it off at the leverage points (arrow).",
+    "Rotate the crankshaft in the normal direction of rotation to\nTDC on cylinder no. 4 (marking 1).\n In this position\nthe cams of cylinder no. 4 point upwards.",
+    "4 Torx bolts and 10 hexagon bolts\n Undo the bolts in\nthe order shown.\n \n\n\n\n–\nUndo the bolts ( 90° )\n \n\n\n\n\n\n–\nUndo the bolts ( 180° )",
+    "Remove the cylinder head (1).\n 2 technicians\nrequired\n \n\n\n\n•  \nPlace the cylinder head on wooden blocks.\n \n\n\n\n\n\n•  \nTake off the cylinder head gasket (2).",
+    "Mark the connecting rod and big–end bearing cap (1).\n Note the cylinder\nsequence.",
+    "Take out the pistons and connecting rods.\n Clean and\nvisually inspect all components.",
+    "Take out the big–end bearing shells (1) and (2).\n Note the\ninstallation position and allocation.\n \n\n\n\n•  \nVisually inspect the components.",
+    "Determine the turning point, zero the scale.\n The turning point\nof the pointer corresponds to the actual piston size.",
+    "Tighten all bolts loosely.\n Observe the\ntightening sequence.\n \n\n\n\n•  \nTo the cylinder block base plate – tightening torque\n23 Nm \n \n\n\n\n\n\n•  \nTo the transmission housing – tightening torque 23 Nm",
+    "Place the cylinder head (1) in place.\n 2 technicians\nrequired\n \n\n\n\n•  \nFit a new cylinder head gasket (2).\n Note:   The OBEN / TOP\nmark must face upwards.\n \nWhen placing the cylinder head on the upper part of the cylinder\nblock, guide the camshaft timing chain up through the timing case,\ne.g. with a bent piece of electrode wire (to be fabricated by the\ntechnician).",
+    "Fit a new cylinder head gasket (2).\n The OBEN / TOP\nmark must face upwards.\n \nWhen placing the cylinder head on the upper part of the cylinder\nblock, guide the camshaft timing chain up through the timing case,\ne.g. with a bent piece of electrode wire (to be fabricated by the\ntechnician).",
+    "Use new cylinder head bolts (hexagon bolts).\n Observe the\ntightening sequence.\n \n\n\n\n–\nTightening torque (M10) 30 Nm + 75°\n+ 75° + 15°",
+    "Feed the camshaft timing chain by hand through the timing\ncase.\n The TDC reference\npoints on the timing chain are indicated by coloured links in the\nchain. These must line up with the markings on the chain links.",
+    "Release the camshaft timing chain tensioner by pressing on the\ntensioner rail or the camshaft timing chain (using a blunt tool\n– e.g. a rounded assembly lever).\n If the TDC\nmarkings no longer line up with the coloured chain links, refit the\ncamshaft timing chain. Once the crankshaft has been rotated another\nturn they will no longer line up.",
+    "Attach KM-6148 .\n In this position\nthe cams (1) and (2) of cylinder no. 4 point upwards.\n \n\n\n\n•  \nAttach KM-6148 with the enclosed\nbolts (4).\n \n\n\n\n\n\n•  \nSlide the positioning bolts (5) into the designated bores (3)\non the camshaft sprockets.",
+    "Attach and secure the wiring harness connector.\n Check for proper\nseating and good electrical contact.",
+    "Use new gaskets.\n The sealing lips\nof the seals (1) must be inserted into the groove on the cylinder\nhead cover.\n \n\n\n\n–\nTightening torque 9 Nm"
+  ]
+}

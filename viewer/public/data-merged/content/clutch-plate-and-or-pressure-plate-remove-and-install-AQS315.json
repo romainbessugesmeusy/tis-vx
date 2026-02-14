@@ -1,0 +1,59 @@
+{
+  "type": "procedure",
+  "id": "clutch-plate-and-or-pressure-plate-remove-and-install-AQS315",
+  "title": "Clutch Plate and/or Pressure Plate, Remove and\nInstall",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Transmission – see operation \"Transmission, Remove and Install\".",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Lock flywheel with KM-652 (1), then release pressure plate and disc from flywheel – bolts (arrowed).",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Pressure plate and disc to flywheel – use Clutch Aligning Guide KM-736 (2), locate pressure plate over centring pins. Use new bolts – 15 Nm .",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Transmission.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Bleed clutch hydraulics – see operation \"Hydraulic Clutch Bleed\".",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Pressure plate and disc to flywheel – use Clutch Aligning Guide KM-736 (2), locate pressure plate over centring pins. Use new bolts – 15 Nm .",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 3
+    }
+  ]
+}

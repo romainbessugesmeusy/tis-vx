@@ -1,0 +1,171 @@
+{
+  "type": "procedure",
+  "id": "shift-mechanism-assembly-remove-and-install-A26D1C",
+  "title": "Shift Mechanism Assembly, Remove and Install",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Illustration of shift mechanism assembly",
+          "image": {
+            "src": "/data/assets/images/d0efa5d4b513.jpg",
+            "alt": "Object Number: 2415590  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove transmission from vehicle - see operation \"Transmission, Remove and Install\"",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Install KM-6115 (3) to transmission",
+          "image": {
+            "src": "/data/assets/images/e8e24ddceaba.jpg",
+            "alt": "Object Number: 2415597  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Install KM-6115 with transmission to KM-113-2",
+          "image": {
+            "src": "/data/assets/images/e8e24ddceaba.jpg",
+            "alt": "Object Number: 2415597  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Remove bolt (2) from shift mechanism assembly",
+          "image": {
+            "src": "/data/assets/images/e8e24ddceaba.jpg",
+            "alt": "Object Number: 2415597  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Remove 5x bolt (arrowed) from shift mechanism assembly",
+          "image": {
+            "src": "/data/assets/images/e8e24ddceaba.jpg",
+            "alt": "Object Number: 2415597  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Remove shift mechanism assembly (1) from transmission",
+          "image": {
+            "src": "/data/assets/images/e8e24ddceaba.jpg",
+            "alt": "Object Number: 2415597  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Clean sealing surfaces and thread",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Check all removed parts, replace if necessary",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Apply sealing compound to area (1) of transmission housing - maximum thickness 2 mm",
+          "image": {
+            "src": "/data/assets/images/b175de713dfb.jpg",
+            "alt": "Object Number: 2415598  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "Align shift mechanism assembly (2) to transmission inner parts of shift mechanism and insert into transmission",
+          "image": {
+            "src": "/data/assets/images/b175de713dfb.jpg",
+            "alt": "Object Number: 2415598  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 12,
+          "text": "Install 5x bolt 25 Nm to shift mechanism assembly",
+          "image": {
+            "src": "/data/assets/images/b175de713dfb.jpg",
+            "alt": "Object Number: 2415598  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 13,
+          "text": "Apply locking compound to thread (arrowed) of bolt (1)",
+          "image": {
+            "src": "/data/assets/images/6f3fbd3f3c85.jpg",
+            "alt": "Object Number: 2415599  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 14,
+          "text": "Install bolt (2) 25 Nm to shift mechanism assembly",
+          "image": {
+            "src": "/data/assets/images/6f3fbd3f3c85.jpg",
+            "alt": "Object Number: 2415599  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 15,
+          "text": "Remove KM-6115 with transmission from KM-113-2",
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Remove KM-6115 from transmission",
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Install transmission to vehicle - see operation \"Transmission, Remove and Install\"",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install 5x bolt 25 Nm to shift mechanism assembly",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Install bolt (2) 25 Nm to shift mechanism assembly",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 14
+    }
+  ],
+  "toolsRequired": [
+    "KM-6115",
+    "KM-113-2"
+  ]
+}

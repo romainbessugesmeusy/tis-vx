@@ -1,0 +1,284 @@
+{
+  "type": "tsb",
+  "id": "instrument-panel-lifting-at-sides-A26D1C",
+  "title": "Field Remedy: 1768",
+  "subject": "Instrument panel - Lifting at sides",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "C - Equipment/Windows",
+    "complaintGroup": "01 - Broken or Cracked,11 - Loose or Comes\noff",
+    "troubleCode": "Non"
+  },
+  "complaint": "Instrument panel is lifting at the outer\nedges near the A-pillars.",
+  "cause": "The instrument panel becomes loose.",
+  "production": "As of VIN W0L0EBR973N007335 (LHD) and\nW0L0EBR973N007265 (RHD) the instrument panel is mounted using\nadditional brackets.",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "In case of customer complaint fit additional brackets to the driver’s side\nand passengers side."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Remove instrument panel"
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "see working procedure \"Instrument Pad Assembly, Remove and Install\",",
+        "Group \"C\", Service Instruction Speedster/VX220",
+        "(Document-Number 00031508)."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Note:\n    The heater control unit must not be removed."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Lay instrument panel onto work bench."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Important:\n    Lay protection cloth under instrument panel."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Remove identification plate with production number from instrument panel.",
+        "Degrease brackets to provide better adhesion (Picture I, arrows)."
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Degrease instrument panel left and right in hatched area (Picture II)."
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Prepare 2K-adhesive."
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Note:",
+        "mix adhesive with hardener in a ratio of 1:1",
+        "pay attention to instructions on the rear of the packaging"
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Install brackets to the left and the right side of the instrument panel",
+        "(Picture III, 1)."
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Note:",
+        "Measure \"x\" = 3 mm",
+        "fill-out the holes in brackets (arrowed) using the rest of 2K-adhesive",
+        "let the 2K-adhesive cure completely",
+        "pay attention to instructions on the rear of packaging"
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Carefully remove adhesive strips of left and right cover",
+        "(Picture IV, 1 and 2)."
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Loosely refit instrument panel to vehicle."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Important:\n    Pay attention for correct position of instrument panel."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "On the driver’s side mark the position of the bonded bracket onto the",
+        "dash extrusion (Picture V, 1)."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Picture V shows passengers side on LHD vehicle."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "On the driver’s side drill hole for bracket onto the dash extrusion with a",
+        "3,5 mm drill bit."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Note:\n    Drill hole 2 mm above the marking, otherwise the light switch can not be\n    reinstalled."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Install bracket with a blind rivet to dash extrusion (Picture VI)."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Picture VI shows passengers side on LHD vehicle."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "On the passengers side mark the position of the bonded bracket onto the",
+        "dash extrusion (Picture VII, 1)."
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Note:",
+        "align position of bracket to bonded bracket",
+        "Measure \"x\" = 4 mm"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Picture VII shows passengers side on LHD vehicle."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "On the passengers side drill hole for bracket onto the dash extrusion",
+        "with a 3,5 mm drill bit.",
+        "Install bracket with a blind rivet to dash extrusion."
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Drill through both the dash extrusion and the bonded bracket using a 3 mm",
+        "drill bit (Picture VIII)."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Important:\n    Extreme care must be taken when drilling to ensure the instrument panel\n    is not damaged."
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Note:",
+        "ensuring first that the instrument panel is pushed down whilst drilling",
+        "also ensuring that the hole will penetrate into the centre of the",
+        "bonded bracket"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Picture VIII shows driver’s side on LHD vehicle."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Remove instrument panel.",
+        "Drill a 5 mm clearance hole through the pre-drilled 3 mm hole in the",
+        "driver’s side dash extrusion, which will aid final assembly."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Note:\n    Ensure any swarf is vacuumed out from inside the extrusion area."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Align instrument panel to the original mounting points."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Note:\n    Connect the starter switch."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Fasten instrument panel left and right (Picture IX, 1 and 2)."
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Install identification plate.",
+        "Clean working area.",
+        "Install instrument panel"
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "see working procedure \"Instrument Pad Assembly, Remove and Install\",",
+        "Group \"C\", Service Instruction Speedster/VX220",
+        "(Document-Number 00031508)."
+      ]
+    }
+  ],
+  "labourTimes": [
+    {
+      "code": "U3 176 80",
+      "description": "Mount instrument panel",
+      "tc": "90",
+      "hours": 2.1
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/0e7a85bcd254.jpg",
+      "alt": "Object Number: 8231495  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/4de2d8b4a8bc.jpg",
+      "alt": "Object Number: 8231496  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/c401ecfc2cee.jpg",
+      "alt": "Object Number: 8231497  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/36eb02bebae3.jpg",
+      "alt": "Object Number: 8231498  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/c617db8de3c6.jpg",
+      "alt": "Object Number: 8231499  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/6d8dd8dfeec3.jpg",
+      "alt": "Object Number: 8231500  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/2787e9d66817.jpg",
+      "alt": "Object Number: 8231501  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/4607b908da40.jpg",
+      "alt": "Object Number: 8231502  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/f326a60a5b09.jpg",
+      "alt": "Object Number: 8231503  Size: DEFAULT"
+    }
+  ]
+}

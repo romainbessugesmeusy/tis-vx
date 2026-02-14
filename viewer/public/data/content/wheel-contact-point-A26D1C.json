@@ -1,0 +1,7 @@
+{
+  "type": "generic",
+  "id": "wheel-contact-point-A26D1C",
+  "title": "Wheel contact point",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Wheel contact point</p>\n\n<table border=\"0\">\n<tr>\n<td valign=\"top\" width=\"95%\">\n<p>The wheel contact point (3) is the intersection of the wheel\ncentre plane (1) with the axis of rotation on the road surface\n(2).</p>\n</td>\n<td valign=\"top\" align=\"right\"><!--SCDS Link: L0013683.itf-->\n<img border=\"0\" width=\"360\" height=\"715\" alt=\n\"Object Number: 8036359  Size: DEFAULT\" align=\"TOP\" src=\"/data/assets/images/47e3cfc4d2c8.jpg\">\n<br>\n<a href=\"javascript:TFormSubmit('AL5J16DI1FCI1','1','AL5J16DI1FCI1','detail')\">\n<img src=\"/data/assets/images/db1138827f57.gif\" alt=\n\"Click here for detailed picture of above image\"></a>\n\n<br> </td>\n</tr>\n</table>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "extractedData": {}
+}

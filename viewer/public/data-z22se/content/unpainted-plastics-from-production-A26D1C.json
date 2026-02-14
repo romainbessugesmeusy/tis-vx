@@ -1,0 +1,25 @@
+{
+  "type": "procedure",
+  "id": "unpainted-plastics-from-production-A26D1C",
+  "title": "Unpainted Plastics from Production",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Illustration of unpainted plastics from production",
+          "image": {
+            "src": "/data/assets/images/f257c5972518.jpg",
+            "alt": "Object Number: 2422498  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Unpainted parts should\nnot be painted."
+  ]
+}

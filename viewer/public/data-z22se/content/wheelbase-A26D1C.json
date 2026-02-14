@@ -1,0 +1,7 @@
+{
+  "type": "generic",
+  "id": "wheelbase-A26D1C",
+  "title": "Wheelbase",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Wheelbase</p>\n\n<p>The wheelbase is measured from centre of front axle to centre of\nrear axle.</p>\n\n<p>A large wheelbase gives a large useful space, more driving\ncomfort and less pitching. A short wheelbase makes it easier to\ndrive round tight corners and gives a smaller turning circle.</p>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "extractedData": {}
+}

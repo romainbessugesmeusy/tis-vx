@@ -1,0 +1,124 @@
+{
+  "type": "procedure",
+  "id": "battery-replace-AQS315",
+  "title": "Battery, Replace",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Open bonnet",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove windscreen wash reservoir from mounting bracket",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Release heater duct from bulkhead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Disconnect battery leads",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x nut"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1c64b7a08acc.jpg",
+            "alt": "Object Number: 2429429  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Remove battery clamp from bulkhead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x clamp bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Remove battery from vehicle",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Remove leak hose from battery and install to new battery",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Install battery to vehicle",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install battery clamp to bulkhead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 3x clamp bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Connect leads to battery",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Secure heater duct to bulkhead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Install windscreen wash reservoir to mounting bracket",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Close bonnet",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

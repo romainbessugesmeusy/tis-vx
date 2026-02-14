@@ -1,0 +1,328 @@
+{
+  "type": "procedure",
+  "id": "crankshaft-oil-seal-front-replace-z-22-se-A26D1C",
+  "title": "Crankshaft Oil Seal, Front, Replace (Z 22 SE)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Open the bonnet.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Disconnect the battery.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Open the engine cover (1).",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Detach the engine cover.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "6 bolts (2) and (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Raise the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Remove the lower engine splash shield (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Remove the ribbed V–belt.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Mark the running direction of the ribbed V–belt."
+            },
+            {
+              "bullet": "•",
+              "text": "Take out the ribbed V–belt."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/21d2a98ee79a.jpg",
+            "alt": "Object Number: 2412468  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Detach the rotational vibration damper (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use holding adapter KM-J-38122-A in"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2399923737fc.jpg",
+            "alt": "Object Number: 2416685  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Remove the oil seal (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use a suitable tool to remove the oil seal."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/4ead28430ae1.jpg",
+            "alt": "Object Number: 2417792  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Clean the sealing surfaces.",
+          "image": {
+            "src": "/data/assets/images/4ead28430ae1.jpg",
+            "alt": "Object Number: 2417792  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 11,
+          "text": "Install the oil seal (2).",
+          "substeps": [
+            {
+              "bullet": "•••",
+              "text": "Take out KM-6105 .",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Coat the sealing lips with silicone grease (white)."
+                },
+                {
+                  "bullet": "–",
+                  "text": "Slide the oil seal over the protective sleeve onto the\nconnecting rod journal."
+                },
+                {
+                  "bullet": "–",
+                  "text": "Use KM-6105 to press the oil seal\ninto the timing case."
+                },
+                {
+                  "bullet": "–",
+                  "text": "Use bolt (4) of the rotational vibration damper."
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0263216305cd.jpg",
+            "alt": "Object Number: 2416704  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 12,
+          "text": "Attach the rotational vibration damper (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use holding adapter KM-J-38122-A in"
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 100 Nm + 75° +",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Tightening torque 100 Nm + 75° +\n15°"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2399923737fc.jpg",
+            "alt": "Object Number: 2416685  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 13,
+          "text": "Install the ribbed V–belt.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Lay the ribbed V–belt in place."
+            },
+            {
+              "bullet": "•",
+              "text": "Tension the ribbed V–belt tensioner in the direction of"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/21d2a98ee79a.jpg",
+            "alt": "Object Number: 2412468  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 14,
+          "text": "Install the lower engine splash shield",
+          "image": {
+            "src": "/data/assets/images/21d2a98ee79a.jpg",
+            "alt": "Object Number: 2412468  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 15,
+          "text": "Lower the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/21d2a98ee79a.jpg",
+            "alt": "Object Number: 2412468  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 16,
+          "text": "Install the engine cover.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Check the alignment."
+            },
+            {
+              "bullet": "•",
+              "text": "6 bolts, tightening torque 14 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/21d2a98ee79a.jpg",
+            "alt": "Object Number: 2412468  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 17,
+          "text": "Close the engine cover.",
+          "image": {
+            "src": "/data/assets/images/21d2a98ee79a.jpg",
+            "alt": "Object Number: 2412468  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 18,
+          "text": "Connect the battery.",
+          "image": {
+            "src": "/data/assets/images/21d2a98ee79a.jpg",
+            "alt": "Object Number: 2412468  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 19,
+          "text": "Close the bonnet.",
+          "image": {
+            "src": "/data/assets/images/21d2a98ee79a.jpg",
+            "alt": "Object Number: 2412468  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 20,
+          "text": "Reprogram the volatile memories.",
+          "image": {
+            "src": "/data/assets/images/21d2a98ee79a.jpg",
+            "alt": "Object Number: 2412468  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Attach the rotational vibration damper (2).",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Install the engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 16
+    },
+    {
+      "component": "Tightening torque 100 Nm + 75° + 15°",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-6151",
+    "KM-J-38122-A",
+    "KM-956-1",
+    "KM-6105"
+  ],
+  "notes": [
+    "Lay the ribbed V–belt in place.\n Note the running\ndirection and installation position of the ribbed V–belt."
+  ]
+}

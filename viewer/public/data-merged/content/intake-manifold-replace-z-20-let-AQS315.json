@@ -1,0 +1,792 @@
+{
+  "type": "procedure",
+  "id": "intake-manifold-replace-z-20-let-AQS315",
+  "title": "Intake Manifold, Replace (Z 20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Release screen wash reservoir from support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Position screen wash reservoir to one side"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/372145f87fb3.jpg",
+            "alt": "Object Number: 2419905  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Disconnect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release nut and bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/109869f7b46c.jpg",
+            "alt": "Object Number: 2429428  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Disconnect intercooler hose (1) from connecting pipe for throttle body",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Position intercooler hose (1) to one side"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/03e5688222f6.jpg",
+            "alt": "Object Number: 2422440  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Disconnect vacuum hose (1) from cylinder head cover",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a6cee6aa8972.jpg",
+            "alt": "Object Number: 2422441  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Disconnect vacuum hose (1) from fuel pressure regulator (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "pull off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/926c35a52d06.jpg",
+            "alt": "Object Number: 2422442  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Disconnect vacuum hose (1) for switchover valve from throttle body",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "pull off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f7ca3b9b2be5.jpg",
+            "alt": "Object Number: 2422443  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Disconnect 2x coolant hose (1) from throttle body",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x clamp to 2x hose (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Position collecting container under 2x hose"
+            },
+            {
+              "bullet": "•",
+              "text": "Release 2x clip (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a1f43e87c446.jpg",
+            "alt": "Object Number: 2422444  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Disconnect vacuum hose (1) for fuel purge valve from intake manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Release clip (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/fd09c3005b74.jpg",
+            "alt": "Object Number: 2422445  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Disconnect harness connector (1) from throttle position sensor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release integral clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a957ad2ad382.jpg",
+            "alt": "Object Number: 2422446  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Remove throttle body (1) from intake manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x bolt (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/935b076bd388.jpg",
+            "alt": "Object Number: 2422447  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "Release fuel pressure from fuel system",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove protective cap"
+            },
+            {
+              "bullet": "•",
+              "text": "Release fuel pressure using Pressure Tester KM-J-34730-91 (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Collect any escaping fuel in a suitable container"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8f83f0ed0394.jpg",
+            "alt": "Object Number: 2421974  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 12,
+          "text": "Remove Pressure Tester KM-J-34730-91 (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Disconnect test connection hose (2) from fuel rail"
+            },
+            {
+              "bullet": "•",
+              "text": "Install protective cap"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8f83f0ed0394.jpg",
+            "alt": "Object Number: 2421974  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 13,
+          "text": "Disconnect breather hose (1) from cylinder head cover",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7ef5800454c8.jpg",
+            "alt": "Object Number: 2422448  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 14,
+          "text": "Release breather hose (1) from lifting eye",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove, then discard cable tie (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7ef5800454c8.jpg",
+            "alt": "Object Number: 2422448  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 15,
+          "text": "Release fuel rail assembly (3) from intake manifold Remove 2x bolt (1)",
+          "image": {
+            "src": "/data/assets/images/631b1f0f3cf9.jpg",
+            "alt": "Object Number: 2422449  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "1"
+          ]
+        },
+        {
+          "number": 16,
+          "text": "Remove cover (2) from housing for injector harness",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 10x integral clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/631b1f0f3cf9.jpg",
+            "alt": "Object Number: 2422449  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 17,
+          "text": "Remove 4x injector (2) from fuel rail assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x clip (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove, then discard 8x O ring"
+            },
+            {
+              "bullet": "•",
+              "text": "Position fuel rail assembly to one side"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6e0a994d2d4a.jpg",
+            "alt": "Object Number: 2422450  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 18,
+          "text": "Remove upper support bracket (2) for alternator with support bracket for harness connector of crankshaft position sensor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x bolt (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/27ef307c19fb.jpg",
+            "alt": "Object Number: 2422451  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 19,
+          "text": "Remove side support bracket (2) for alternator with support clip for vacuum hose of purge valve",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt (1), washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/24e8a05f80ef.jpg",
+            "alt": "Object Number: 2422452  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 20,
+          "text": "Disconnect 2x earth connector (2) from intake manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/06a9f45fe8fe.jpg",
+            "alt": "Object Number: 2422453  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 21,
+          "text": "Disconnect vacuum pipe (1) for brake servo from intake manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release integral clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/02bc9ef2cefe.jpg",
+            "alt": "Object Number: 2422454  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 22,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 23,
+          "text": "Remove exhaust undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 12x bolt, 12x washer, 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 24,
+          "text": "Release support bracket (2) for vacuum tank of switchover valve from intake manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/df6dca7977b6.jpg",
+            "alt": "Object Number: 2422455  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 25,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 26,
+          "text": "Remove intake manifold from vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove, then discard 7x nut (2) and gasket"
+            },
+            {
+              "bullet": "•",
+              "text": "Clean all mating surfaces"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/baf990e449d4.jpg",
+            "alt": "Object Number: 2422456  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 27,
+          "text": "Install intake manifold with new gasket to vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure bolt, 7x new nut 22 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 28,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 29,
+          "text": "Secure support bracket for vacuum tank of switchover valve to intake manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure bolt 25 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 30,
+          "text": "Install exhaust undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure 12x bolt, 12x washer, 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 31,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 32,
+          "text": "Connect vacuum pipe for brake servo to intake manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure integral clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 33,
+          "text": "Connect 2x earth connector to intake manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 34,
+          "text": "Install side support bracket for alternator with support clip for vacuum hose of purge valve",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure 2x bolt, washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 35,
+          "text": "Install upper support bracket for alternator with support bracket for harness connector of crankshaft position sensor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure 3x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 36,
+          "text": "Install 8x new O ring to 4x injector",
+          "image": null
+        },
+        {
+          "number": 37,
+          "text": "Install 4x injector to fuel rail assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 38,
+          "text": "Secure fuel rail assembly to intake manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure 2x bolt 8"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 39,
+          "text": "Install cover to housing for injector harness",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 10x integral clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 40,
+          "text": "Connect breather hose to cylinder head cover",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 41,
+          "text": "Secure breather hose to lifting eye",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install new cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 42,
+          "text": "Install throttle body to intake manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x new sealing ring"
+            },
+            {
+              "bullet": "•",
+              "text": "Install, then secure 4x bolt 9"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 43,
+          "text": "Connect harness connector to throttle position sensor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure integral clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 44,
+          "text": "Connect vacuum hose for fuel purge valve to intake manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 45,
+          "text": "Connect 2x coolant hose to throttle body",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x clamp from 2x hose"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure 2x clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove collecting container from under 2x hose"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 46,
+          "text": "Connect vacuum hose for switchover valve to throttle body",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "push on"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 47,
+          "text": "Connect vacuum hose to fuel pressure regulator",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "push on"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 48,
+          "text": "Connect vacuum hose to cylinder head cover",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 49,
+          "text": "Connect intercooler hose to connecting pipe for throttle body",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 50,
+          "text": "Connect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure nut and bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 51,
+          "text": "Secure screen wash reservoir to support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push on"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 52,
+          "text": "Check coolant level, then top up if required",
+          "image": null
+        },
+        {
+          "number": 53,
+          "text": "program all volatile memories",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install intake manifold with new gasket to vehicle",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 27
+    },
+    {
+      "component": "Secure support bracket for vacuum tank of switchover valve to intake manifold",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 29
+    },
+    {
+      "component": "Secure fuel rail assembly to intake manifold",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 38
+    },
+    {
+      "component": "Install throttle body to intake manifold",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 42
+    },
+    {
+      "component": "Install, then secure bolt, 7x new nut 22 Nm",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install, then secure bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install, then secure 2x bolt 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install, then secure 4x bolt 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-J-34730-91"
+  ],
+  "warnings": [
+    "Fuel may escape\n– observe the safety regulations and relevant national\nlegislation."
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "type": "procedure",
+  "id": "track-control-arm-remove-and-install-A26D1C",
+  "title": "Track Control Arm, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove rear brake pads from caliper - see operation \"Brake Pads, Rear, Replace\" in group H",
+          "image": {
+            "src": "/data/assets/images/2d0e71fcac03.jpg",
+            "alt": "Object Number: 2429419  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove track control arm from hub carrier Note: Illustration shows wheel hub and drive shaft removed for clarity",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove nut, conical spacer, spacer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/38b6b2144a46.jpg",
+            "alt": "Object Number: 2419802  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Release track control arm from lower wishbone",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove nut"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/38b6b2144a46.jpg",
+            "alt": "Object Number: 2419802  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Install new track control arm to lower wishbone",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install new nut 45 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Install track control arm to hub carrier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install spacer, conical spacer, new nut 45 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Install rear brake pads to caliper - see operation \"Brake Pads, Rear, Replace\" in group H",
+          "image": {
+            "src": "/data/assets/images/2d0e71fcac03.jpg",
+            "alt": "Object Number: 2429419  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install new track control arm to lower wishbone",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 4
+    },
+    {
+      "component": "Install track control arm to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Install new nut 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "End of track control\narm locates into chassis. Ensure correct new locking nut is used.\nEarly type have coarse thread, later type have fine thread."
+  ],
+  "notes": [
+    "Remove track control arm from hub carrier\n Illustration\nshows wheel hub and drive shaft removed for clarity\n \n\n\n\n•  \nRemove nut, conical spacer, spacer"
+  ]
+}

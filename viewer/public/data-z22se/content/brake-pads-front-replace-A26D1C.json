@@ -1,0 +1,108 @@
+{
+  "type": "procedure",
+  "id": "brake-pads-front-replace-A26D1C",
+  "title": "Brake Pads, Front, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "inspect",
+      "label": "Inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Wheel from vehicle – bolts.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Brake pads from brake caliper – retaining clips, pins (1 and 3), anti-rattle plate (2).",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Caliper pistons – push caliper pistons fully into brake caliper.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "If there is any sign of fluid leakage from a piston seal, replace brake caliper.",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Brake pads to brake caliper – anti-rattle plate (2), pins (1 and 3), retaining clips.",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Wheel to vehicle – bolts 90 Nm .",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Fluid level in master cylinder reservoir – correct if necessary.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "clean",
+      "label": "Clean",
+      "icon": "/data/assets/images/d9fe69774efb.gif",
+      "steps": [
+        {
+          "number": 5,
+          "text": "Brake pad recess in brake caliper – avoid dust inhalation.",
+          "image": {
+            "src": "/data/assets/images/2b7359f61642.jpg",
+            "alt": "Object Number: 2429415  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "phase": "adjust",
+      "label": "Adjust",
+      "icon": "/data/assets/images/8bcc88ed08ca.gif",
+      "steps": [
+        {
+          "number": 8,
+          "text": "Caliper pistons and brake pads – operate brake pedal several times to reset.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "inspect",
+      "label": "Inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": []
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Wheel to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 7
+    }
+  ]
+}

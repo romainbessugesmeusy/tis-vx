@@ -1,0 +1,344 @@
+{
+  "type": "procedure",
+  "id": "heater-assembly-replace-A26D1C",
+  "title": "Heater Assembly, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Drain coolant - see operation “Cooling system, Drain, Fill and Bleed (Z22 SE, Z 20 LET)”",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove screen wash reservoir from support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Slide off"
+            },
+            {
+              "bullet": "•",
+              "text": "Disconnect pump (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/20b7940eed93.jpg",
+            "alt": "Object Number: 2422756  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Remove air intake pipe (1) from heater assembly and air distribution housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove mesh grille (if installed) from air distribution"
+            },
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3d617804afb4.jpg",
+            "alt": "Object Number: 2422757  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Release wiring harness (1) from radiator housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 5x cable ties, then discard"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/031503b1573f.jpg",
+            "alt": "Object Number: 2422758  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Remove battery",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x nut, bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 3x bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1c64b7a08acc.jpg",
+            "alt": "Object Number: 2429429  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Release 2x coolant hose (1) from heater assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x clip (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 4x blanking plug"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d13908671e23.jpg",
+            "alt": "Object Number: 2422760  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Disconnect bowden cable (1) from lever on heater assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Apply match mark (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Prise off clip (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c5751c15241e.jpg",
+            "alt": "Object Number: 2422761  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Remove 2x support bracket for wiring harness (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Drill out 2x rivet"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9b9da3a81124.jpg",
+            "alt": "Object Number: 2422762  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Disconnect extension harness for heater assembly (1) from body harness (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release connector (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ba4de7ba66ce.jpg",
+            "alt": "Object Number: 2422763  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Remove heater assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt (1), 4x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/922130c8014d.jpg",
+            "alt": "Object Number: 2422333  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 11,
+          "text": "Transfer extension harness to new heater assembly",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Install new heater assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt (1), 4x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Connect extension harness for heater assembly to body harness",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Install 2x support bracket for wiring harness",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x rivet"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Connect bowden cable to lever on heater assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Align match mark"
+            },
+            {
+              "bullet": "•",
+              "text": "Push on clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Secure 2x coolant hose to heater assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x blanking plug"
+            },
+            {
+              "bullet": "•",
+              "text": "Push on"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Install battery Note: Note relevant position of bolts. Upper fixing bolt has thinner head.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 3x bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure 2x nut, bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 18,
+          "text": "Secure wiring harness to radiator housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 5x new cable ties"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Install air intake pipe to heater assembly and air distribution housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install mesh grille (if installed) to air distribution"
+            },
+            {
+              "bullet": "•",
+              "text": "Push on"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 20,
+          "text": "Install screen wash reservoir to support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Connect pump"
+            },
+            {
+              "bullet": "•",
+              "text": "Push on"
+            },
+            {
+              "bullet": "•",
+              "text": "Slide on"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 21,
+          "text": "Program all volatile memories",
+          "image": null
+        },
+        {
+          "number": 22,
+          "text": "Refill and bleed cooling system - see operation “Cooling system, Drain, Fill and Bleed (Z22 SE, Z 20 LET)”",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Install battery\n Note relevant\nposition of bolts. Upper fixing bolt has thinner head.\n \n\n\n\n•  \nInstall battery clamp to bulkhead\n \n\n\n\n–\nInstall 3x bolt\n \n\n\n\n\n\n\n\n\n•  \nConnect battery leads\n \n\n\n\n–\nSecure 2x nut, bolt"
+  ]
+}

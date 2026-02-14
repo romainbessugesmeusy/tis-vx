@@ -1,0 +1,19 @@
+{
+  "type": "procedure",
+  "id": "front-fog-light-adjust-A26D1C",
+  "title": "Front Fog Light, Adjust",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "See operation “Headlamps, Check and Adjust” in group N",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

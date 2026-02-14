@@ -1,0 +1,44 @@
+{
+  "type": "procedure",
+  "id": "valves-remove-A26D1C",
+  "title": "Valves, remove",
+  "phases": [
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Special service tools required:",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Assembly tool set KM-6215, installation/removal set MKM-6086",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Note: All attaching parts such as camshaft(s) and hydraulic valve lifters are removed.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Attach side mounts KM-6215-5 (1) for lever KM-6215-4 (2) to assembly device KM-6215-1. Attach lever KM-6215-4 (2).",
+          "image": null,
+          "callouts": [
+            "1",
+            "2",
+            "2"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "See operation \"Cylinder head, disassemble\" , \"Cylinder head, assemble\".",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "type": "procedure",
+  "id": "folding-cover-drive-shaft-wheel-side-replace-A26D1C",
+  "title": "Folding Cover, Drive Shaft, Wheel Side,\nReplace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove relevant drive shaft from vehicle - see operation “Drive Shaft, Remove and Install”",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Secure drive shaft in soft jaw vice",
+          "image": {
+            "src": "/data/assets/images/eaba1aa01d5b.jpg",
+            "alt": "Object Number: 2422978  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Using suitable tool, release 2x clip (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Slide folding cover along shaft"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/eaba1aa01d5b.jpg",
+            "alt": "Object Number: 2422978  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Remove constant velocity joint from drive shaft",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use soft head mallet to tap inner bearing race"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove, then discard clip from drive shaft"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/61c05c3ac444.jpg",
+            "alt": "Object Number: 2422981  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Remove, then discard folding cover from drive shaft",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Clean all components",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 7,
+          "text": "Install new folding cover to drive shaft",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Position new retaining clip for folding cover to drive"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Install constant velocity joint to drive shaft",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install new retaining clip to drive shaft"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install folding cover to groove on drive shaft and groove on be constant velocity joint",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Check positioning of folding cover and 2x retaining clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Use commercially available pliers"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Install drive shaft to vehicle - see operation “Drive Shaft, Remove and Install”",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Use specified grease\nfor constant velocity joint."
+  ]
+}

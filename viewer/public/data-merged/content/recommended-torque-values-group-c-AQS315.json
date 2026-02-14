@@ -1,0 +1,48 @@
+{
+  "type": "torque_table",
+  "id": "recommended-torque-values-group-c-AQS315",
+  "title": "Recommended Torque Values – Group C",
+  "group": "C",
+  "values": [
+    {
+      "component": "Seat to Floor",
+      "value": "25",
+      "unit": "Nm"
+    },
+    {
+      "component": "Fixings, hard top bracket",
+      "value": "10",
+      "unit": "Nm"
+    },
+    {
+      "component": "Seat belt to seat (anchor bolt)",
+      "value": "35",
+      "unit": "Nm"
+    },
+    {
+      "component": "Seat belt to roll bar (upper anchor point)",
+      "value": "35",
+      "unit": "Nm"
+    },
+    {
+      "component": "Inertia reel assembly to roll bar (lower anchor bolt)",
+      "value": "35",
+      "unit": "Nm"
+    },
+    {
+      "component": "Seat belt buckle to seat",
+      "value": "35",
+      "unit": "Nm"
+    },
+    {
+      "component": "Door lock striker",
+      "value": "25",
+      "unit": "Nm"
+    },
+    {
+      "component": "Steering wheel assembly to steering column, nut",
+      "value": "25",
+      "unit": "Nm"
+    }
+  ]
+}

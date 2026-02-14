@@ -1,0 +1,22 @@
+{
+  "type": "procedure",
+  "id": "illustration-of-rear-wheel-suspension-and-axle-A26D1C",
+  "title": "Illustration of Rear Wheel Suspension and Axle",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Illustration of rear wheel suspension and axle",
+          "image": {
+            "src": "/data/assets/images/4a2691029268.jpg",
+            "alt": "Object Number: 2419920  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ]
+}

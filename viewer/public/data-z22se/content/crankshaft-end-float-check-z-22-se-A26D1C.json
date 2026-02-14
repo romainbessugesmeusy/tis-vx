@@ -1,0 +1,61 @@
+{
+  "type": "procedure",
+  "id": "crankshaft-end-float-check-z-22-se-A26D1C",
+  "title": "Crankshaft End Float, Check (Z 22 SE)",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Attach the dial gauge MKM-571-B .",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Attach to one end face of the cylinder block using the"
+            },
+            {
+              "bullet": "•",
+              "text": "Position and adjust the dual gauge probe on the crankshaft."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ad2852ca4bc7.jpg",
+            "alt": "Object Number: 2417973  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Measure the crankshaft end float.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Move the crankshaft lengthways."
+            },
+            {
+              "bullet": "•",
+              "text": "Permissible crankshaft end float: 0,092"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ad2852ca4bc7.jpg",
+            "alt": "Object Number: 2417973  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Detach the dial gauge MKM-571-B .",
+          "image": {
+            "src": "/data/assets/images/ad2852ca4bc7.jpg",
+            "alt": "Object Number: 2417973  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ],
+  "toolsRequired": [
+    "MKM-571-B"
+  ]
+}

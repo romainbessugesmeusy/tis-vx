@@ -1,0 +1,198 @@
+{
+  "type": "procedure",
+  "id": "mounting-exhaust-system-replace-z20-let-AQS315",
+  "title": "Mounting, Exhaust System, Replace (Z20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove exhaust undertray (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 12x bolt, 12x washer, 2x clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/01e61ef5f5d8.jpg",
+            "alt": "Object Number: 2425112  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Release intermediate pipe with heatshield (1) from secondary catalytic convertor (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x nut (3), then discard"
+            },
+            {
+              "bullet": "•",
+              "text": "Release mounting bracket for secondary catalytic convertor (4)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b307354451ee.jpg",
+            "alt": "Object Number: 2422994  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Remove intermediate pipe with heatshield from rear silencer",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clamp (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/95cd95b5c0db.jpg",
+            "alt": "Object Number: 2422575  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Release support bracket from rear silencer",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x nut (1), then discard"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7522be43fca6.jpg",
+            "alt": "Object Number: 2422574  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Remove flexible support for rear silencer and support bracket from subframe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove clamp"
+            },
+            {
+              "bullet": "•",
+              "text": "Pull off flexible support for rear silencer from support"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7522be43fca6.jpg",
+            "alt": "Object Number: 2422574  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 7,
+          "text": "Install new flexible support for rear silencer and new support bracket to subframe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push on flexible support for rear silencer to support"
+            },
+            {
+              "bullet": "•",
+              "text": "Install clamp"
+            },
+            {
+              "bullet": "•",
+              "text": "Do not tighten"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Secure support bracket to rear silencer",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x new nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Secure flexible support for rear silencer to subframe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Install intermediate pipe with heatshield to rear silencer and secondary catalytic convertor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clamp"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Secure intermediate pipe with heatshield to secondary catalytic convertor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure mounting bracket for secondary catalytic convertor to"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 3x new nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Install exhaust undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 12x bolt, 12x washer, 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Lower vehicle",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

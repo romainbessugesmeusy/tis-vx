@@ -1,0 +1,49 @@
+{
+  "type": "diagnostic",
+  "id": "wheel-speed-sensor-except-vectra-c-signum-and-astra-h-A26D1C",
+  "title": "Wheel Speed Sensor, Except Vectra-C/Signum and\nAstra-H",
+  "steps": [
+    {
+      "number": 1,
+      "text": "Download Reference curve."
+    },
+    {
+      "number": 2,
+      "text": "Switch on the ignition."
+    },
+    {
+      "number": 3,
+      "text": "Lift the concerning wheel free from the floor."
+    },
+    {
+      "number": 4,
+      "text": "Rotate the wheel."
+    },
+    {
+      "number": 1,
+      "text": "Download Setup file (the Tech 32 uses only Setup\nfiles, no reference curves)."
+    },
+    {
+      "number": 2,
+      "text": "Switch on the ignition."
+    },
+    {
+      "number": 3,
+      "text": "Lift the concerning wheel free from the floor."
+    },
+    {
+      "number": 4,
+      "text": "Rotate the wheel."
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/db588b0e372b.jpg",
+      "alt": "Object Number: 2419162  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/cbee6531c2a5.jpg",
+      "alt": "Object Number: 2419163  Size: DEFAULT"
+    }
+  ]
+}

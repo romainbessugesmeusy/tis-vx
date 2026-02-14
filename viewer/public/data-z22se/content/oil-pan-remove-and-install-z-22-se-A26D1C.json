@@ -1,0 +1,370 @@
+{
+  "type": "procedure",
+  "id": "oil-pan-remove-and-install-z-22-se-A26D1C",
+  "title": "Oil Pan, Remove and Install (Z 22 SE)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Open the bonnet.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Disconnect the battery.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Open the rear engine cover (1).",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Detach the rear engine cover.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "6 bolts (2) and (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Undo the bolts on the oil dipstick guide tube (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull out the oil dipstick (1)."
+            },
+            {
+              "bullet": "•",
+              "text": "1 bolt (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/839872b80755.jpg",
+            "alt": "Object Number: 2416675  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Remove the oil dipstick guide tube.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull the oil dipstick guide tube out from the oil pan and lift"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/839872b80755.jpg",
+            "alt": "Object Number: 2416675  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Raise the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/839872b80755.jpg",
+            "alt": "Object Number: 2416675  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Remove the lower engine splash shield (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Place a drip tray underneath.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Drain the engine oil.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Open the oil drain plug."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 25 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 11,
+          "text": "Remove the oil pan.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "17 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/eaf0186d1402.jpg",
+            "alt": "Object Number: 2417754  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 12,
+          "text": "Clean the sealing surfaces.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Cylinder block base plate, oil pan"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/eaf0186d1402.jpg",
+            "alt": "Object Number: 2417754  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 13,
+          "text": "Recut the thread.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "15 off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/eaf0186d1402.jpg",
+            "alt": "Object Number: 2417754  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 14,
+          "text": "Install the oil pan.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Apply a bead of silicone sealant (grey) (approx. 2 mm to 2.5 mm"
+            },
+            {
+              "bullet": "•",
+              "text": "Apply an additional bead of silicone sealant (grey) (approx."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6406f6364d10.jpg",
+            "alt": "Object Number: 2417774  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 15,
+          "text": "Note: Observe the tightening sequence.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tighten all bolts loosely."
+            },
+            {
+              "bullet": "•",
+              "text": "To the cylinder block base plate – tightening torque"
+            },
+            {
+              "bullet": "•",
+              "text": "To the transmission housing – tightening torque 23 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a6bb93aa1a59.jpg",
+            "alt": "Object Number: 2417775  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 16,
+          "text": "Install the lower engine splash shield",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 bolts"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Lower the lifting ramp.",
+          "image": null
+        },
+        {
+          "number": 18,
+          "text": "Insert the oil dipstick guide tube.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Coat the oil seals with silicone grease (white)."
+            },
+            {
+              "bullet": "•",
+              "text": "Insert the oil dipstick guide tube as far as the stop into the"
+            },
+            {
+              "bullet": "•",
+              "text": "Attach the knock sensor wiring harness connector."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Attach the oil dipstick guide tube.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 9 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 20,
+          "text": "Fill up with engine oil and check the oil level.",
+          "image": null
+        },
+        {
+          "number": 21,
+          "text": "Install the rear engine cover.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Check the alignment."
+            },
+            {
+              "bullet": "•",
+              "text": "6 bolts, tightening torque 14 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 22,
+          "text": "Close the rear engine cover.",
+          "image": null
+        },
+        {
+          "number": 23,
+          "text": "Connect the battery.",
+          "image": null
+        },
+        {
+          "number": 24,
+          "text": "Close the bonnet.",
+          "image": null
+        },
+        {
+          "number": 25,
+          "text": "Reprogram the volatile memories.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Drain the engine oil.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Note: Observe the tightening sequence.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 15
+    },
+    {
+      "component": "Attach the oil dipstick guide tube.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 19
+    },
+    {
+      "component": "Install the rear engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 21
+    },
+    {
+      "component": "Tightening torque 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "To the cylinder block base plate – tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "17 bolts\n Use a suitable\ntool to evenly prise it off at the leverage points (arrow).",
+    "Observe the\ntightening sequence.\n \n\n\n\n•  \nTighten all bolts loosely.\n \n\n\n\n\n\n•  \nTo the cylinder block base plate – tightening torque\n23 Nm \n \n\n\n\n\n\n•  \nTo the transmission housing – tightening torque 23 Nm"
+  ]
+}

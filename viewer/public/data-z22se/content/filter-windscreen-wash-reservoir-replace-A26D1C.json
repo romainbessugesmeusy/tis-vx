@@ -1,0 +1,78 @@
+{
+  "type": "procedure",
+  "id": "filter-windscreen-wash-reservoir-replace-A26D1C",
+  "title": "Filter, Windscreen Wash Reservoir, Replace",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove windscreen wash reservoir from mounting bracket",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Release pump from windscreen wash reservoir",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Drain water from windscreen wash reservoir",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Remove filter from windscreen wash reservoir",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Install filter to windscreen wash reservoir",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Secure pump to windscreen wash reservoir",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Secure windscreen wash reservoir to mounting bracket",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Replenish windscreen wash reservoir to correct level",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

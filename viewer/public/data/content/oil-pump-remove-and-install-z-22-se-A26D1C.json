@@ -1,0 +1,780 @@
+{
+  "type": "procedure",
+  "id": "oil-pump-remove-and-install-z-22-se-A26D1C",
+  "title": "Oil Pump, Remove and Install (Z 22 SE)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Open the bonnet.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Disconnect the battery.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Open the rear engine cover (1).",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Detach the rear engine cover.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "6 bolts (2) and (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Remove the lower heat shield (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/63ad44fed025.jpg",
+            "alt": "Object Number: 2416674  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Raise the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Remove the lower engine splash shield (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Place a drip tray underneath.",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Drain the engine oil.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Open the oil drain plug."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 25 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Detach the front exhaust pipe.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "6 nuts (1) and (2), 3 bolts"
+            },
+            {
+              "bullet": "•",
+              "text": "Unhook the exhaust pipe from its mountings."
+            },
+            {
+              "bullet": "•",
+              "text": "Remove the gaskets."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f7ff82c3a46c.jpg",
+            "alt": "Object Number: 2412459  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 11,
+          "text": "Remove the ribbed V–belt.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Mark the running direction of the ribbed V–belt."
+            },
+            {
+              "bullet": "•",
+              "text": "Take out the ribbed V–belt."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/21d2a98ee79a.jpg",
+            "alt": "Object Number: 2412468  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 12,
+          "text": "Detach the rotational vibration damper (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use holding adapter KM-J-38122-A in"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2399923737fc.jpg",
+            "alt": "Object Number: 2416685  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 13,
+          "text": "Detach the ribbed V–belt tensioner.",
+          "image": {
+            "src": "/data/assets/images/e8f95b7d631a.jpg",
+            "alt": "Object Number: 2416686  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 14,
+          "text": "Detach the bracket for the gearshift cables.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "From the transmission"
+            },
+            {
+              "bullet": "•",
+              "text": "1 bolt (arrow)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/95f6f327989e.jpg",
+            "alt": "Object Number: 2419003  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 15,
+          "text": "Support the engine from underneath with KM-904 together with KM-6054 .",
+          "image": {
+            "src": "/data/assets/images/f2255dc6d432.jpg",
+            "alt": "Object Number: 2412460  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 16,
+          "text": "Release the rear engine damping block (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 bolt (1), 1 nut"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f2255dc6d432.jpg",
+            "alt": "Object Number: 2412460  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 17,
+          "text": "Undo the bolts on the right–hand engine damping block bracket.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 bolts (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a295c48766f5.jpg",
+            "alt": "Object Number: 2412461  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 18,
+          "text": "Undo the bolts on the right–hand engine damping block.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 nut (arrow)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a295c48766f5.jpg",
+            "alt": "Object Number: 2412461  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 19,
+          "text": "Take out the engine damping block bracket together with the right–hand engine damping block.",
+          "image": {
+            "src": "/data/assets/images/a295c48766f5.jpg",
+            "alt": "Object Number: 2412461  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 20,
+          "text": "Undo the bolts on the timing case (5).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "11 bolts (1), (2) and (6)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1c725496ca76.jpg",
+            "alt": "Object Number: 2416693  Size: DEFAULT"
+          },
+          "callouts": [
+            "5"
+          ]
+        },
+        {
+          "number": 21,
+          "text": "Lower the engine. Note: It must be possible to guide the long bolt (2) of the timing case past the longitudinal member.",
+          "image": {
+            "src": "/data/assets/images/1c725496ca76.jpg",
+            "alt": "Object Number: 2416693  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 22,
+          "text": "Remove the timing case.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove the gasket (3)."
+            },
+            {
+              "bullet": "•",
+              "text": "Use a suitable tool to remove the oil seal."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1c725496ca76.jpg",
+            "alt": "Object Number: 2416693  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 23,
+          "text": "Remove the oil pump.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "15 bolts"
+            },
+            {
+              "bullet": "•",
+              "text": "Take out the outer rotor (3) together with the inner rotor"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/19d3dfdacfbc.jpg",
+            "alt": "Object Number: 2417788  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 24,
+          "text": "Visually inspect the components.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Inner rotor, outer rotor and oil pump cover"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/19d3dfdacfbc.jpg",
+            "alt": "Object Number: 2417788  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 25,
+          "text": "Install the oil pump",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Coat the outer rotor and inner rotor with engine oil and insert"
+            },
+            {
+              "bullet": "•",
+              "text": "Clean the sealing surfaces."
+            },
+            {
+              "bullet": "•",
+              "text": "Attach the oil pump cover."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 26,
+          "text": "Install the timing case. Note: Remove the cloth from the opening in the timing case.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use a new gasket."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 21 Nm"
+            },
+            {
+              "bullet": "•••–",
+              "text": "Take out KM-6105 .",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Slide protective sleeve (1) from KM-6105 (3) onto the connecting rod journal."
+                },
+                {
+                  "bullet": "–",
+                  "text": "Coat the sealing lips with silicone grease (white)."
+                },
+                {
+                  "bullet": "–",
+                  "text": "Slide the oil seal over the protective sleeve onto the\nconnecting rod journal."
+                },
+                {
+                  "bullet": "–",
+                  "text": "Use KM-6105 to press the oil seal\ninto the timing case."
+                },
+                {
+                  "bullet": "–",
+                  "text": "Use bolt (4) of the rotational vibration damper."
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0263216305cd.jpg",
+            "alt": "Object Number: 2416704  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 27,
+          "text": "Raise the engine.",
+          "image": null
+        },
+        {
+          "number": 28,
+          "text": "Insert the right–hand engine damping block together with the engine damping block bracket.",
+          "image": null
+        },
+        {
+          "number": 29,
+          "text": "Attach the right–hand engine damping block.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 45 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 30,
+          "text": "Attach the engine damping block bracket.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 85 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 31,
+          "text": "Attach the rear engine damping block.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 86 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 32,
+          "text": "Lower the engine.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Take out KM-904 with KM-6054 ."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 33,
+          "text": "Attach the bracket for the gearshift cables.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "To the transmission"
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 22 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 34,
+          "text": "Attach the rotational vibration damper (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use holding adapter KM-J-38122-A in"
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 100 Nm + 75° +",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Tightening torque 100 Nm + 75° +\n15°"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2399923737fc.jpg",
+            "alt": "Object Number: 2416685  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 35,
+          "text": "Attach the ribbed V–belt tensioner. Note: The lug (1) of the ribbed V–belt tensioner engages into the bore in the timing case (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 43 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/070f0a65f840.jpg",
+            "alt": "Object Number: 2417750  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 36,
+          "text": "Install the ribbed V–belt.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Lay the ribbed V–belt in place."
+            },
+            {
+              "bullet": "•",
+              "text": "Tension the ribbed V–belt tensioner in the direction of"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/21d2a98ee79a.jpg",
+            "alt": "Object Number: 2412468  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 37,
+          "text": "Install the front exhaust pipe.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use new gaskets."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 16 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Hook into the mountings."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 38,
+          "text": "Install the lower engine splash shield",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 bolts"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 39,
+          "text": "Lower the lifting ramp.",
+          "image": null
+        },
+        {
+          "number": 40,
+          "text": "Install the lower heat shield.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 8 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 41,
+          "text": "Fill up with engine oil.",
+          "image": null
+        },
+        {
+          "number": 42,
+          "text": "Install the rear engine cover.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Check the alignment."
+            },
+            {
+              "bullet": "•",
+              "text": "6 bolts, tightening torque 14 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 43,
+          "text": "Close the rear engine cover.",
+          "image": null
+        },
+        {
+          "number": 44,
+          "text": "Connect the battery.",
+          "image": null
+        },
+        {
+          "number": 45,
+          "text": "Close the bonnet.",
+          "image": null
+        },
+        {
+          "number": 46,
+          "text": "Reprogram the volatile memories.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Drain the engine oil.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Install the timing case. Note: Remove the cloth from the opening in the timing case.",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": 26
+    },
+    {
+      "component": "Attach the right–hand engine damping block.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 29
+    },
+    {
+      "component": "Attach the engine damping block bracket.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 30
+    },
+    {
+      "component": "Attach the rear engine damping block.",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": 31
+    },
+    {
+      "component": "Attach the bracket for the gearshift cables.",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 33
+    },
+    {
+      "component": "Attach the rotational vibration damper (2).",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": 34
+    },
+    {
+      "component": "Attach the ribbed V–belt tensioner. Note: The lug (1) of the ribbed V–belt tensioner engages into the bore in the timing case (2).",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": 35
+    },
+    {
+      "component": "Install the front exhaust pipe.",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": 37
+    },
+    {
+      "component": "Install the lower heat shield.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 40
+    },
+    {
+      "component": "Install the rear engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 42
+    },
+    {
+      "component": "Tightening torque 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 21 Nm",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 85 Nm",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 86 Nm",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 22 Nm",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 100 Nm + 75° + 15°",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 43 Nm",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 16 Nm",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-6151",
+    "KM-J-38122-A",
+    "KM-956-1",
+    "KM-904",
+    "KM-6054",
+    "KM-6105"
+  ],
+  "warnings": [
+    "Do not damage the\nsealing surfaces.",
+    "22.  \nRemove the timing case.\n \n\n\n\n•  \nRemove the gasket (3).\n Note:   Cover the opening\n(4) in the timing case with a cloth.\n \n\n\n\n\n\n•  \nUse a suitable tool to remove the oil seal.\n \n\n\n\n\n\nDo not damage the\nsealing surfaces.\n \n\n\n\n•  \nClean the sealing surfaces."
+  ],
+  "notes": [
+    "Lower the engine.\n It must be\npossible to guide the long bolt (2) of the timing case past the\nlongitudinal member.",
+    "Remove the gasket (3).\n Cover the opening\n(4) in the timing case with a cloth.",
+    "Install the timing case.\n Remove the cloth\nfrom the opening in the timing case.\n \n\n\n\n•  \nUse a new gasket.\n \n\n\n\n\n\n•  \nTightening torque 21 Nm \n \n\n\n\n\n\n•  \nInstall a new crankshaft front oil seal (2).\n \n\n\n\n–\nSlide protective sleeve (1) from KM-6105 (3) onto the connecting rod journal.\n \n\n\n\n\n\n–\nCoat the sealing lips with silicone grease (white).\n \n\n\n\n\n\n–\nSlide the oil seal over the protective sleeve onto the\nconnecting rod journal.\n \n\n\n\n\n\n–\nUse KM-6105 to press the oil seal\ninto the timing case.\n \n\n\n\n\n\n–\nUse bolt (4) of the rotational vibration damper.\n \n\n\n\n\n\n–\nTake out KM-6105 .",
+    "Attach the ribbed V–belt tensioner.\n The lug (1) of\nthe ribbed V–belt tensioner engages into the bore in the\ntiming case (2).\n \n\n\n\n•  \nTightening torque 43 Nm",
+    "Lay the ribbed V–belt in place.\n Note the running\ndirection and installation position of the ribbed V–belt."
+  ]
+}

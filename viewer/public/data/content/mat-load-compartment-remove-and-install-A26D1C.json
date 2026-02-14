@@ -1,0 +1,30 @@
+{
+  "type": "procedure",
+  "id": "mat-load-compartment-remove-and-install-A26D1C",
+  "title": "Mat, Load Compartment, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Mat from load compartment – release from velcro fastening.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Mat to load compartment – attach to velcro fastening.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

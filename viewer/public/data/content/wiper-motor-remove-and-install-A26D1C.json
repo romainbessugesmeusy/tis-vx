@@ -1,0 +1,83 @@
+{
+  "type": "procedure",
+  "id": "wiper-motor-remove-and-install-A26D1C",
+  "title": "Wiper Motor, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Wiper arm – see operation \"Wiper Arm, Replace\".",
+          "image": {
+            "src": "/data/assets/images/4149b42595a9.jpg",
+            "alt": "Object Number: 2429736  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Rubber seal from drive shaft.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Cover – plastic plugs.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Bonnet locking plate from mounting frame of wiper motor.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 5,
+          "text": "Bolts holding mounting frame of wiper motor to front bulkhead.",
+          "image": {
+            "src": "/data/assets/images/4149b42595a9.jpg",
+            "alt": "Object Number: 2429736  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Bolts holding mounting frame of wiper motor to front bulkhead.",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Bonnet locking plate to mounting of wiper motor frame.",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Cover – plastic plugs.",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Rubber seal to drive shaft.",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Wiper arm – see operation \"Wiper Arm, Replace\".",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

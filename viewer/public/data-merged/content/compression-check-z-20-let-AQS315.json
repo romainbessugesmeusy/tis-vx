@@ -1,0 +1,188 @@
+{
+  "type": "procedure",
+  "id": "compression-check-z-20-let-AQS315",
+  "title": "Compression, Check (Z 20 LET)",
+  "phases": [
+    {
+      "phase": "measure",
+      "label": "Measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Disconnect harness connector (1) from ignition module",
+          "image": {
+            "src": "/data/assets/images/fb7c6ec0f3bf.jpg",
+            "alt": "Object Number: 2421971  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Remove top trim cover (2) from cylinder head",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Slide off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/fb7c6ec0f3bf.jpg",
+            "alt": "Object Number: 2421971  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Remove ignition module from cylinder head",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a3e616786715.jpg",
+            "alt": "Object Number: 2421972  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Remove spark plug from cylinder head",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Remove fuel pump relay located in luggage compartment",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Install compression gauge (1), (commercially available) into cylinder head",
+          "image": {
+            "src": "/data/assets/images/e3c7a42e8b80.jpg",
+            "alt": "Object Number: 2421973  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Crank engine for approximately 4 seconds",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Observe reading of compression gauge"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Remove compression gauge (1) from cylinder head",
+          "image": {
+            "src": "/data/assets/images/e3c7a42e8b80.jpg",
+            "alt": "Object Number: 2421973  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Install spark plug to cylinder head 25 Nm",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Repeat process for remaining cylinders",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Install fuel pump relay located in luggage compartment",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Install ignition module to cylinder head",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt (1) 8 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a3e616786715.jpg",
+            "alt": "Object Number: 2421972  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 13,
+          "text": "Install top trim cover (2) to cylinder head",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Slide on"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/fb7c6ec0f3bf.jpg",
+            "alt": "Object Number: 2421971  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 14,
+          "text": "Connect harness connector (1) to ignition module",
+          "image": {
+            "src": "/data/assets/images/fb7c6ec0f3bf.jpg",
+            "alt": "Object Number: 2421971  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install spark plug to cylinder head 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Install ignition module to cylinder head",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Install 2x bolt (1) 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

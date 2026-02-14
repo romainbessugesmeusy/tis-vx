@@ -1,0 +1,19 @@
+{
+  "type": "harness_diagram",
+  "id": "body-rear-under-vehicle-A26D1C",
+  "title": "Body rear - Under vehicle",
+  "diagram": {
+    "src": "/data/assets/c6f00a1b8dec.cgm",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "G1",
+      "description": "Battery"
+    },
+    {
+      "code": "X1",
+      "description": "Main harness & Battery positive"
+    }
+  ]
+}

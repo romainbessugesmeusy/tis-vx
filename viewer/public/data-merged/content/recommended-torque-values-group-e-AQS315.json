@@ -1,0 +1,78 @@
+{
+  "type": "torque_table",
+  "id": "recommended-torque-values-group-e-AQS315",
+  "title": "Recommended Torque Values - Group E",
+  "group": "E",
+  "values": [
+    {
+      "component": "Steering tie rod lock nuts",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Lower wishbone to pivot points bolts",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Pivot bushes of upper wishbone bolts",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Shock absorber to chassis bracket bolt and nut",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Shock absorber to lower wishbone bolt",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Stabiliser bar with pivot bushes to chassis clamp bolt",
+      "value": "25",
+      "unit": "Nm"
+    },
+    {
+      "component": "Steering arm to hub carrier bolts",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Tie rod to steering arm, nut",
+      "value": "30",
+      "unit": "Nm"
+    },
+    {
+      "component": "Upper swivel joint to steering arm nut",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Wheel bearing assembly bolt",
+      "value": "210",
+      "unit": "Nm"
+    },
+    {
+      "component": "Wheel bolts",
+      "value": "90",
+      "unit": "Nm"
+    },
+    {
+      "component": "Wheel hub assembly to hub carrier",
+      "value": "90",
+      "unit": "Nm"
+    },
+    {
+      "component": "Brake caliper to hub carrier",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Stabiliser bar to link rod",
+      "value": "45",
+      "unit": "Nm"
+    }
+  ]
+}

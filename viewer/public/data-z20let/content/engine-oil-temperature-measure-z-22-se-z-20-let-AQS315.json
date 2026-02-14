@@ -1,0 +1,11 @@
+{
+  "type": "generic",
+  "id": "engine-oil-temperature-measure-z-22-se-z-20-let-AQS315",
+  "title": "Engine Oil Temperature, Measure (Z 22 SE, Z 20\nLET)",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Engine Oil Temperature, Measure (Z 22 SE, Z 20\nLET)</p>\n\n<p><img src=\"/data/assets/images/7c3d75e8b2c9.gif\" height=\"30\" width=\"30\"> <span\nclass=\"gt-picto\">&nbsp;&nbsp;Remove</span></p>\n\n<p>Remove oil dipstick.</p>\n\n<p><img src=\"/data/assets/images/707731fa677f.gif\" height=\"30\" width=\"30\">\n<span class=\"gt-picto\">&nbsp;&nbsp;Measure</span></p>\n\n<table border=\"0\">\n<tr>\n<td></tr>\n\n<tr>\n<td valign=\"top\" width=\"95%\">\n<p>Measure oil temperature with <span class=\"tool\">MKM-596-A</span>\n(1). Insert probe into oil dipstick guide tube up to approx. 1 cm\nabove bottom of oil pan. Seal opening of guide tube with included\nrubber plug.</p>\n\n<p><span class=\"gt-notice\">Note:&nbsp;&nbsp;</span> The oil\ntemperature is dependent on the engine load. High ambient\ntemperatures and engine loads can cause oil temperatures of up to\napprox. 150 &deg;C/302 &deg;F.</p>\n</td>\n<td valign=\"top\" align=\"right\"><!--SCDS Link: G3519.itf-->\n<img border=\"0\" width=\"360\" height=\"360\" alt=\n\"Object Number: 2397727  Size: DEFAULT\" align=\"TOP\" src=\"/data/assets/images/29bd97071d73.jpg\">\n<br>\n<a href=\"javascript:TFormSubmit('AKWA1UCA1ODA1','1','AKWA1UCA1ODA1','detail')\">\n<img src=\"/data/assets/images/db1138827f57.gif\" alt=\n\"Click here for detailed picture of above image\"></a>\n\n<br> </td>\n</tr>\n</table>\n\n<br>\n \n\n<p><img src=\"/data/assets/images/6eff4d42a9f9.gif\" height=\"30\" width=\"30\">\n<span class=\"gt-picto\">&nbsp;&nbsp;Install</span></p>\n\n<p>Insert oil dipstick.</p>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "extractedData": {
+    "tools": [
+      "MKM-596-A"
+    ]
+  }
+}

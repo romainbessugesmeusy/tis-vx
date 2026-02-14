@@ -1,0 +1,64 @@
+{
+  "type": "procedure",
+  "id": "engine-cover-remove-and-install-AQS315",
+  "title": "Engine Cover, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Release and support engine cover",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Detach engine cover",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 6 bolts (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2713d39f6370.jpg",
+            "alt": "Object Number: 2419662  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Install engine cover",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fit 6 bolts"
+            },
+            {
+              "bullet": "•",
+              "text": "Align engine cover"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Close engine cover.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Remove 6 bolts (1)\n 2. Enlist the\nassistance of a second technician\n Note:   Mark on the\nalignment mark",
+    "Align engine cover\n 2. Enlist the\nassistance of a second technician"
+  ]
+}

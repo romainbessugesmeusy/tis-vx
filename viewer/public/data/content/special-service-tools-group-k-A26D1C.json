@@ -1,0 +1,132 @@
+{
+  "type": "tool_list",
+  "id": "special-service-tools-group-k-A26D1C",
+  "title": "Special Service Tools – Group K",
+  "group": "K",
+  "tools": [
+    {
+      "code": "KM-113-2",
+      "name": "Bracket",
+      "description": null
+    },
+    {
+      "code": "KM-161-B",
+      "name": "Bearing Puller",
+      "description": null
+    },
+    {
+      "code": "KM-519",
+      "name": "Installer",
+      "description": null
+    },
+    {
+      "code": "KM-523-1",
+      "name": "Remover, Installer",
+      "description": null
+    },
+    {
+      "code": "MKM-557-A",
+      "name": "Puller Set",
+      "description": null
+    },
+    {
+      "code": "KM-652",
+      "name": "Flywheel Holder",
+      "description": null
+    },
+    {
+      "code": "KM-736",
+      "name": "Centring Tool",
+      "description": null
+    },
+    {
+      "code": "MKM-886",
+      "name": "Transmission Holder",
+      "description": null
+    },
+    {
+      "code": "KM-6042",
+      "name": "Removal Lever",
+      "description": null
+    },
+    {
+      "code": "KM-6110",
+      "name": "Bearing Remover",
+      "description": null
+    },
+    {
+      "code": "KM-6111",
+      "name": "Bearing Installer",
+      "description": null
+    },
+    {
+      "code": "KM-6112",
+      "name": "Distance Ring Installer",
+      "description": null
+    },
+    {
+      "code": "KM-6113",
+      "name": "Bearing Remover",
+      "description": null
+    },
+    {
+      "code": "KM-6114",
+      "name": "Bearing Installer",
+      "description": null
+    },
+    {
+      "code": "KM-6115",
+      "name": "Clutch Housing Holder",
+      "description": null
+    },
+    {
+      "code": "KM-6116",
+      "name": "Clutch Housing Remover",
+      "description": null
+    },
+    {
+      "code": "KM-6117",
+      "name": "Transmission Shaft Holder",
+      "description": null
+    },
+    {
+      "code": "KM-6118",
+      "name": "Bearing Remover",
+      "description": null
+    },
+    {
+      "code": "KM-6119",
+      "name": "Bearing Installer",
+      "description": null
+    },
+    {
+      "code": "KM-6120",
+      "name": "Bearing Installer",
+      "description": null
+    },
+    {
+      "code": "KM-6121",
+      "name": "Mounting Sleeve",
+      "description": null
+    },
+    {
+      "code": "KM-6122",
+      "name": "Bearing Remover",
+      "description": null
+    },
+    {
+      "code": "KM-6123",
+      "name": "Bearing Remover",
+      "description": null
+    },
+    {
+      "code": "KM-6126",
+      "name": "Intermediate Shaft Remover",
+      "description": null
+    }
+  ],
+  "image": {
+    "src": "/data/assets/images/e2fdc5e189a1.jpg",
+    "alt": "Object Number: 2429753  Size: DEFAULT"
+  }
+}

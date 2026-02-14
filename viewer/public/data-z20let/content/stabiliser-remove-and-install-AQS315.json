@@ -1,0 +1,70 @@
+{
+  "type": "procedure",
+  "id": "stabiliser-remove-and-install-AQS315",
+  "title": "stabiliser remove and install",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Stabiliser, Remove and Install",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "remove",
+      "label": "Remove, Disconnect",
+      "icon": "/data/assets/images/4b8970d41392.jpg",
+      "steps": [
+        {
+          "number": 2,
+          "text": "Links from stabiliser bar and lower wishbone - nuts.",
+          "image": {
+            "src": "/data/assets/images/9933fd035561.jpg",
+            "alt": "Object Number: 2429681  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Stabiliser bar with pivot bushes from chassis - bolts, washers, clamps brackets and spacers.",
+          "image": {
+            "src": "/data/assets/images/ea37b379f21b.jpg",
+            "alt": "Object Number: 2429682  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install, Connect",
+      "icon": "/data/assets/images/57d894c25c39.jpg",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Stabiliser bar with pivot bushes to chassis - spacers, clamps , 8 bolts 25 Nm, washers.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Links to stabiliser bar and lower wishbone - nuts.",
+          "image": {
+            "src": "/data/assets/images/9933fd035561.jpg",
+            "alt": "Object Number: 2429681  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Stabiliser bar with pivot bushes to chassis - spacers, clamps , 8 bolts 25 Nm, washers.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 4
+    }
+  ]
+}

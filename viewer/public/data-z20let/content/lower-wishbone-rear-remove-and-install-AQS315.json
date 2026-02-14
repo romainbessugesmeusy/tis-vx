@@ -1,0 +1,242 @@
+{
+  "type": "procedure",
+  "id": "lower-wishbone-rear-remove-and-install-AQS315",
+  "title": "Lower Wishbone, Rear, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove brake pads from caliper - see \"Brake Pads, Rear, Replace\" in group H",
+          "image": {
+            "src": "/data/assets/images/2d0e71fcac03.jpg",
+            "alt": "Object Number: 2429419  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove brake disc from wheel hub",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove screw"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2d0e71fcac03.jpg",
+            "alt": "Object Number: 2429419  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Remove shock absorber from lower wishbone",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove nut (1), washer, bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ad99b47bc38c.jpg",
+            "alt": "Object Number: 2429708  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Release parking brake cable from lower wishbone",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove nut, clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Remove lower wishbone from hub carrier Note: Illustration shows wheel hub and drive shaft removed for clarity",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove nut"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/4c4f511ecf25.jpg",
+            "alt": "Object Number: 2429738  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Remove lower wishbone (1) from front chassis bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt, tab washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b25a5c2a4c6b.jpg",
+            "alt": "Object Number: 2429912  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Remove lower wishbone from rear chassis bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove nut, washer"
+            },
+            {
+              "bullet": "•",
+              "text": "Release track control arm (2) from chassis bracket and lower"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b25a5c2a4c6b.jpg",
+            "alt": "Object Number: 2429912  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 8,
+          "text": "Install lower wishbone to front chassis bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install new tab washer, bolt 45"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install lower wishbone to hub carrier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install new nut 45 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Install lower wishbone to rear chassis bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install track control arm to chassis bracket and lower"
+            },
+            {
+              "bullet": "•",
+              "text": "Install washer, new nut 45 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Install shock absorber to lower wishbone",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install bolt, washer, new nut 45"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Connect parking brake cable to lower wishbone",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clip, new nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Install brake disc to hub carrier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install screw 12 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Install brake pads to caliper - see \"Brake Pads, Rear, Replace\" in group H",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install lower wishbone to front chassis bracket",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Install lower wishbone to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Install lower wishbone to rear chassis bracket",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Install shock absorber to lower wishbone",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 11
+    },
+    {
+      "component": "Install brake disc to hub carrier",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Install new tab washer, bolt 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install screw 12 Nm",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "End of track control\narm locates into chassis. Ensure correct new locking nut is used.\nEarly type have coarse thread, later type have fine thread."
+  ],
+  "notes": [
+    "Remove lower wishbone from hub carrier\n Illustration\nshows wheel hub and drive shaft removed for clarity\n \n\n\n\n•  \nRemove nut"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "type": "diagnostic",
+  "id": "throttle-valve-potentiometer-double-signal-motronic-as-of-my-AQS315",
+  "title": "Throttle Valve Potentiometer (Double Signal),\nMotronic (as of MY2001)",
+  "steps": [
+    {
+      "number": 1,
+      "text": "Download the Reference curve."
+    },
+    {
+      "number": 2,
+      "text": "Ignition on."
+    },
+    {
+      "number": 3,
+      "text": "Depress the accelerator pedal quickly down to the\nlimit stop and then release it again."
+    },
+    {
+      "number": 1,
+      "text": "Download Setup File."
+    },
+    {
+      "number": 2,
+      "text": "Start the engine and allow it to idle."
+    },
+    {
+      "number": 3,
+      "text": "Depress the accelerator pedal quickly down to the\nlimit stop and then release it again."
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/5bbdfbdc0be0.jpg",
+      "alt": "Object Number: 2419834  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/4cf1af0e7d54.jpg",
+      "alt": "Object Number: 2419081  Size: DEFAULT"
+    }
+  ]
+}

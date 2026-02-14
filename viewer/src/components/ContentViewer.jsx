@@ -233,13 +233,31 @@ function ComponentGrid({ manifest, onNavigateToComponent }) {
  * Content viewer that loads and displays documents.
  * Automatically selects the appropriate viewer based on content type.
  */
-function ContentViewer({ manifest, onNavigateToComponent }) {
+// Resolve which content slug to load when section has engine variants
+function resolveContentSlug(manifest, urlId, selectedEngine) {
+  const section = manifest?.sections?.find(
+    (s) => s.id === urlId || Object.values(s.variants || {}).some((v) => v?.slug === urlId)
+  )
+  if (section?.variants && typeof section.variants === 'object') {
+    if (selectedEngine && section.variants[selectedEngine]?.slug) return section.variants[selectedEngine].slug
+    return section.variants.Z20LET?.slug || section.variants.Z22SE?.slug || urlId
+  }
+  return urlId
+}
+
+function ContentViewer({ manifest, selectedEngine, onNavigateToComponent }) {
   const { id } = useParams()
   const [content, setContent] = useState(null)
   const [contentType, setContentType] = useState(null)
   const [htmlFallback, setHtmlFallback] = useState(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(null)
+
+  const contentSlug = resolveContentSlug(manifest, id, selectedEngine)
+  const section = manifest?.sections?.find(
+    (s) => s.id === id || Object.values(s.variants || {}).some((v) => v?.slug === id)
+  )
+  const hasMultipleVariants = section?.variants && Object.keys(section.variants || {}).length > 1
 
   useEffect(() => {
     if (!id) {
@@ -251,9 +269,10 @@ function ContentViewer({ manifest, onNavigateToComponent }) {
 
     setLoading(true)
     setError(null)
+    const slug = resolveContentSlug(manifest, id, selectedEngine)
 
     // Try to load JSON first (structured content)
-    fetch(`/data/content/${id}.json`)
+    fetch(`/data/content/${slug}.json`)
       .then(res => {
         if (!res.ok) throw new Error('JSON not found')
         return res.json()
@@ -264,14 +283,14 @@ function ContentViewer({ manifest, onNavigateToComponent }) {
         
         // For generic type, also load HTML fallback
         if (data.type === 'generic') {
-          return fetch(`/data/content/${id}.html`)
+          return fetch(`/data/content/${slug}.html`)
             .then(res => res.ok ? res.text() : null)
             .then(html => setHtmlFallback(html))
         }
       })
       .catch(() => {
         // Fallback to HTML only
-        return fetch(`/data/content/${id}.html`)
+        return fetch(`/data/content/${slug}.html`)
           .then(res => {
             if (!res.ok) throw new Error(`Document not found: ${id}`)
             return res.text()
@@ -288,11 +307,14 @@ function ContentViewer({ manifest, onNavigateToComponent }) {
       .finally(() => {
         setLoading(false)
       })
-  }, [id])
+  }, [id, manifest, selectedEngine])
 
   if (!id) {
+    const engineStr = Array.isArray(manifest?.vehicle?.engines) 
+      ? manifest.vehicle.engines.join(' / ') 
+      : manifest?.vehicle?.engine
     const vehicleLabel = manifest?.vehicle 
-      ? `${manifest.vehicle.model} • ${manifest.vehicle.year} • ${manifest.vehicle.engine}`
+      ? `${manifest.vehicle.model} • ${manifest.vehicle.year}${engineStr ? ` • ${engineStr}` : ''}`
       : 'VX220 / Speedster'
     
     return (
@@ -348,6 +370,11 @@ function ContentViewer({ manifest, onNavigateToComponent }) {
   // Render based on content type
   return (
     <article className="content-article">
+      {hasMultipleVariants && !selectedEngine && (
+        <p className="content-variant-note">
+          This document is available for multiple engine variants. Select an engine in the header to filter or switch variant.
+        </p>
+      )}
       {contentType === 'procedure' && content && (
         <ProcedureViewer data={content} />
       )}

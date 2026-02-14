@@ -1,0 +1,28 @@
+{
+  "type": "tsb",
+  "id": "ball-joint-transverse-link-stud-difficult-to-remove-AQS315",
+  "title": "Field Remedy: 2406",
+  "subject": "Ball joint transverse link - Stud\ndifficult to remove",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "E - Front wheel suspension/Wheels/Tyres",
+    "complaintGroup": "03 - Corrosion",
+    "troubleCode": "None"
+  },
+  "complaint": "Stud of ball joint lower transverse link\ndifficult to remove from steering knuckle.",
+  "cause": "Corrosion.",
+  "production": "",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "In case of service operation the steering knuckle must be expanded\nonly by the special tool KM-915 (picture I). Improper expanding \n(for example with chisel or tip lever) can cause hidden damage of\nstud or steering knuckle which can lead to a crack."
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/d4b2873a4e14.jpg",
+      "alt": "Object Number: 10685977  Size: DEFAULT"
+    }
+  ]
+}

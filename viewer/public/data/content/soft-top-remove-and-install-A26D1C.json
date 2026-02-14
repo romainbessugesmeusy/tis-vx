@@ -1,0 +1,119 @@
+{
+  "type": "procedure",
+  "id": "soft-top-remove-and-install-A26D1C",
+  "title": "Soft Top, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Open windows and doors",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Release latches at driver's side, then disengage soft top from brackets",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x latch"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/67387a4bb87a.jpg",
+            "alt": "Object Number: 2419727  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Roll soft top into centre of vehicle",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Release latches at passenger's side, then disengage soft top from brackets",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x latch"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Remove soft top, then place in protective bag",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Remove spreader bars from vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x spreader bar"
+            }
+          ],
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 7,
+          "text": "Install spreader bars to vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x spreader bar"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Install soft top to passenger's side, then secure locating pins into brackets",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x latch"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/52e420d3f28e.jpg",
+            "alt": "Object Number: 2419728  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Roll soft top to driver's side, then secure locating pins into brackets",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x latch"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/52e420d3f28e.jpg",
+            "alt": "Object Number: 2419728  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Close windows and doors",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Install 2x spreader bar\n Ensure arrows on\nspreader bars point forward"
+  ]
+}

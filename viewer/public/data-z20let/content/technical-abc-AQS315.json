@@ -1,0 +1,603 @@
+{
+  "type": "glossary",
+  "subtype": "terms",
+  "id": "technical-abc-AQS315",
+  "title": "Technical ABC",
+  "items": [
+    {
+      "term": "Corsa-C",
+      "description": "Corsa-C  , arrangement  , description of function  , conditions for\nswitching on  , temperature control  , start procedure\n , safety\ncriteria  , block circuit diagram",
+      "links": [
+        "javascript:TFormSubmit('AI4714V616P61','1','AI4714V616P61','_top')",
+        "javascript:TFormSubmit('A6F71ON61UO61','1','A6F71ON61UO61','_top')",
+        "javascript:TFormSubmit('AHE71JU61HS61','1','AHE71JU61HS61','_top')",
+        "javascript:TFormSubmit('ABF719V61NM61','1','ABF719V61NM61','_top')",
+        "javascript:TFormSubmit('A1E71UV61WM61','1','A1E71UV61WM61','_top')",
+        "javascript:TFormSubmit('ADE71MR61WP61','1','ADE71MR61WP61','_top')",
+        "javascript:TFormSubmit('AD871OM61GT61','1','AD871OM61GT61','_top')",
+        "javascript:TFormSubmit('AUD71PU614T61','1','AUD71PU614T61','_top')"
+      ]
+    },
+    {
+      "term": "Astra-G with X 20 DTL-engine",
+      "description": "Astra-G with X 20 DTL-engine, from model year 1999",
+      "links": [
+        "javascript:TFormSubmit('AP671FS61EQ61','1','AP671FS61EQ61','_top')"
+      ]
+    },
+    {
+      "term": "Zafira",
+      "description": "Zafira  , arrangement  , block circuit diagram",
+      "links": [
+        "javascript:TFormSubmit('AC571FV61GO61','1','AC571FV61GO61','_top')",
+        "javascript:TFormSubmit('AM671CT61IO61','1','AM671CT61IO61','_top')",
+        "javascript:TFormSubmit('AZC71IM61RR61','1','AZC71IM61RR61','_top')"
+      ]
+    },
+    {
+      "term": "Sintra",
+      "description": "Sintra, from model year 1998",
+      "links": [
+        "javascript:TFormSubmit('AE771RP616V61','1','AE771RP616V61','_top')"
+      ]
+    },
+    {
+      "term": "12 V Power Pack",
+      "description": "12 V Power Pack",
+      "links": [
+        "javascript:TFormSubmit('A0D71YT61FL61','1','A0D71YT61FL61','_top')"
+      ]
+    },
+    {
+      "term": "13-pin socket",
+      "description": "13-pin socket, trailer tow hitch"
+    },
+    {
+      "term": "Pin occupancy",
+      "description": "Pin occupancy, example",
+      "links": [
+        "javascript:TFormSubmit('ARA71QQ61VT61','1','ARA71QQ61VT61','_top')"
+      ]
+    },
+    {
+      "term": "ABS (Antilock Braking System)",
+      "description": "ABS (Antilock Braking System)",
+      "links": [
+        "javascript:TFormSubmit('AH971MM612V61','1','AH971MM612V61','_top')"
+      ]
+    },
+    {
+      "term": "Examples: Agila",
+      "description": "Examples: Agila  , Frontera, model year 1995.5  with hydraulic\nunit  , ABS 8.0  , Agila, model year 2003  , Vectra-C  , Omega-B\n with\nfunction plan  block circuit diagram with  and without TC  , ABS 430\n/ ABS 5.3 / TC  , ABS 430 / ABS 5.3 / TC block circuit diagram\n , ABS MK\n70  , ABS MK 60 ESP  , ABS-M",
+      "links": [
+        "javascript:TFormSubmit('ACB71LP61KU61','1','ACB71LP61KU61','_top')",
+        "javascript:TFormSubmit('AO571RQ613O61','1','AO571RQ613O61','_top')",
+        "javascript:TFormSubmit('A1C71DT61PR61','1','A1C71DT61PR61','_top')",
+        "javascript:TFormSubmit('AEC71GS61XV61','1','AEC71GS61XV61','_top')",
+        "javascript:TFormSubmit('AQ571AN61BT61','1','AQ571AN61BT61','_top')",
+        "javascript:TFormSubmit('AHD71FQ61WQ61','1','AHD71FQ61WQ61','_top')",
+        "javascript:TFormSubmit('AW871JT613Q61','1','AW871JT613Q61','_top')",
+        "javascript:TFormSubmit('AU771UR61OS61','1','AU771UR61OS61','_top')",
+        "javascript:TFormSubmit('AJA71FO61IN61','1','AJA71FO61IN61','_top')",
+        "javascript:TFormSubmit('AK571MQ61WN61','1','AK571MQ61WN61','_top')",
+        "javascript:TFormSubmit('A6571FW61VO61','1','A6571FW61VO61','_top')",
+        "javascript:TFormSubmit('AU4712Q61MP61','1','AU4712Q61MP61','_top')",
+        "javascript:TFormSubmit('AS871TO61TP61','1','AS871TO61TP61','_top')",
+        "javascript:TFormSubmit('AS971CQ610V61','1','AS971CQ610V61','_top')",
+        "javascript:TFormSubmit('A2C71NO61NV61','1','A2C71NO61NV61','_top')"
+      ]
+    },
+    {
+      "term": "AC (Air Condition)",
+      "description": "AC (Air Condition), see also ECC"
+    },
+    {
+      "term": "ACC (Adaptive Cruise Control)",
+      "description": "ACC (Adaptive Cruise Control), speed regulator"
+    },
+    {
+      "term": "Active Head Restraint",
+      "description": "Active Head Restraint"
+    },
+    {
+      "term": "Model year 2000",
+      "description": "Model year 2000  , example Astra-H, section \"Active Head\nRestraint\"",
+      "links": [
+        "javascript:TFormSubmit('AJ871QV619S61','1','AJ871QV619S61','_top')",
+        "javascript:TFormSubmit('A0571NR612W61','1','A0571NR612W61','_top')"
+      ]
+    },
+    {
+      "term": "Active Safety",
+      "description": "Active Safety, example Astra-H",
+      "links": [
+        "javascript:TFormSubmit('AM771VR61UU61','1','AM771VR61UU61','_top')"
+      ]
+    },
+    {
+      "term": "Active Select Steering wheel gear selection in conjunction with\nMTA transmission",
+      "description": "Active Select Steering wheel gear selection in conjunction with\nMTA transmission",
+      "links": [
+        "javascript:TFormSubmit('ABC71VS61IU61','1','ABC71VS61IU61','_top')"
+      ]
+    },
+    {
+      "term": "Additional Brake Light",
+      "description": "Additional Brake Light, Example: Vectra-B",
+      "links": [
+        "javascript:TFormSubmit('AY9716X610Q61','1','AY9716X610Q61','_top')"
+      ]
+    },
+    {
+      "term": "AFL (Adaptive Forward Lighting)",
+      "description": "AFL (Adaptive Forward Lighting)  , example\nAstra-H, model year 2004.5",
+      "links": [
+        "javascript:TFormSubmit('AGF71HW611W61','1','AGF71HW611W61','_top')",
+        "javascript:TFormSubmit('AN971WP61KL61','1','AN971WP61KL61','_top')"
+      ]
+    },
+    {
+      "term": "AHL (Automatic Headlamp Levelling)",
+      "description": "AHL (Automatic Headlamp Levelling)  , example\nAstra-H, model year 2004.5",
+      "links": [
+        "javascript:TFormSubmit('AVC71WU618O61','1','AVC71WU618O61','_top')",
+        "javascript:TFormSubmit('AT771XW61FO61','1','AT771XW61FO61','_top')"
+      ]
+    },
+    {
+      "term": "AHS (Auxiliary Heater System)",
+      "description": "AHS (Auxiliary Heater System)",
+      "links": [
+        "javascript:TFormSubmit('APB713Q61WS61','1','APB713Q61WS61','_top')"
+      ]
+    },
+    {
+      "term": "Air Conditioning",
+      "description": "Air Conditioning, example Astra-H, model year 2004.5  , arrangement of\nthe components Z 17 DTH  , petrol engines  , tasks and\nfunctions of the components  , see also ECC",
+      "links": [
+        "javascript:TFormSubmit('AG471GV61DU61','1','AG471GV61DU61','_top')",
+        "javascript:TFormSubmit('A4571GQ614Q61','1','A4571GQ614Q61','_top')",
+        "javascript:TFormSubmit('AGB71VM614N61','1','AGB71VM614N61','_top')",
+        "javascript:TFormSubmit('AFF71ZM61RS61','1','AFF71ZM61RS61','_top')"
+      ]
+    },
+    {
+      "term": "Air Quality Sensor",
+      "description": "Air Quality Sensor, see AQS"
+    },
+    {
+      "term": "Airbag",
+      "description": "Airbag, see Full-Size-Airbag"
+    },
+    {
+      "term": "ALC (Automatic Lighting Control)",
+      "description": "ALC (Automatic Lighting Control)"
+    },
+    {
+      "term": "Automatic control switching on headlight with tunnel detection\nand ambient light sensor. Switches headlights on/off\nautomatically.",
+      "description": "Automatic control switching on headlight with tunnel detection\nand ambient light sensor. Switches headlights on/off\nautomatically."
+    },
+    {
+      "term": "ALDL (Assembly Line Diagnostic Link) diagnostic tester\nconnection for TECH 2",
+      "description": "ALDL (Assembly Line Diagnostic Link) diagnostic tester\nconnection for TECH 2, see diagnostic tester connection"
+    },
+    {
+      "term": "All Round View",
+      "description": "All Round View, example Tigra",
+      "links": [
+        "javascript:TFormSubmit('AQD712R61LU61','1','AQD712R61LU61','_top')"
+      ]
+    },
+    {
+      "term": "APP Sensor(Accelerator pedal positioning sensor) Accelerator\npedal positioning sensor. Example: Antara Z 32 SE petrol engine",
+      "description": "APP Sensor(Accelerator pedal positioning sensor) Accelerator\npedal positioning sensor. Example: Antara Z 32 SE petrol engine",
+      "links": [
+        "javascript:TFormSubmit('A9871VQ61GU61','1','A9871VQ61GU61','_top')"
+      ]
+    },
+    {
+      "term": "AQS (Air Quality Sensor)  and",
+      "description": "AQS (Air Quality Sensor)  and",
+      "links": [
+        "javascript:TFormSubmit('ADA719P618R61','1','ADA719P618R61','_top')",
+        "javascript:TFormSubmit('AD771BQ61FV61','1','AD771BQ61FV61','_top')"
+      ]
+    },
+    {
+      "term": "ARP (Anti Rollover Protection) Rollover protection. ESP\nfunction.",
+      "description": "ARP (Anti Rollover Protection) Rollover protection. ESP\nfunction."
+    },
+    {
+      "term": "Example of Antara",
+      "description": "Example of Antara",
+      "links": [
+        "javascript:TFormSubmit('AGD715R618U61','1','AGD715R618U61','_top')"
+      ]
+    },
+    {
+      "term": "ASC (Automatic Stability Control)",
+      "description": "ASC (Automatic Stability Control), see ESP"
+    },
+    {
+      "term": "ASM (Alarm Siren Module)",
+      "description": "ASM (Alarm Siren Module),"
+    },
+    {
+      "term": "ASR",
+      "description": "ASR, Anti-Spin Regulation, see TC"
+    },
+    {
+      "term": "ATWS (Anti Theft Warning System)",
+      "description": "ATWS (Anti Theft Warning System), see DWA"
+    },
+    {
+      "term": "AU (Exhaust Emission Check)",
+      "description": "AU (Exhaust Emission Check), Various implementation\nspecifications for various engines:"
+    },
+    {
+      "term": "AU for petrol vehicles without catalytic converter or with\nopen-loop catalytic converter",
+      "description": "AU for petrol vehicles without catalytic converter or with\nopen-loop catalytic converter"
+    },
+    {
+      "term": "Visual inspection",
+      "description": "Visual inspection"
+    },
+    {
+      "term": "CO-measurement when idling",
+      "description": "CO-measurement when idling"
+    },
+    {
+      "term": "CO-measurement at fast idling speed (approx. 3000 rpm)",
+      "description": "CO-measurement at fast idling speed (approx. 3000 rpm)"
+    },
+    {
+      "term": "AU for petrol vehicles with catalytic converter",
+      "description": "AU for petrol vehicles with catalytic converter"
+    },
+    {
+      "term": "Visual inspection",
+      "description": "Visual inspection"
+    },
+    {
+      "term": "CO-measurement when idling",
+      "description": "CO-measurement when idling"
+    },
+    {
+      "term": "CO-measurement at fast idling speed (approx. 3000 rpm)",
+      "description": "CO-measurement at fast idling speed (approx. 3000 rpm)"
+    },
+    {
+      "term": "Oxygen measurement at fast idling speed (approx. 3000 rpm)",
+      "description": "Oxygen measurement at fast idling speed (approx. 3000 rpm)"
+    },
+    {
+      "term": "Regulating circuit test via basic procedure or substitute\nprocedure or alternative procedure",
+      "description": "Regulating circuit test via basic procedure or substitute\nprocedure or alternative procedure"
+    },
+    {
+      "term": "AU for petrol vehicles with catalytic converter and OBD",
+      "description": "AU for petrol vehicles with catalytic converter and OBD"
+    },
+    {
+      "term": "Visual inspection",
+      "description": "Visual inspection"
+    },
+    {
+      "term": "CO-measurement at fast idling speed (approx. 3000 rpm)",
+      "description": "CO-measurement at fast idling speed (approx. 3000 rpm)"
+    },
+    {
+      "term": "Oxygen measurement at fast idling speed (approx. 3000 rpm)",
+      "description": "Oxygen measurement at fast idling speed (approx. 3000 rpm)"
+    },
+    {
+      "term": "Reading out the OBD-data (readiness bits",
+      "description": "Reading out the OBD-data (readiness bits, number of the fault\ncode, OBD-status)"
+    },
+    {
+      "term": "AU for diesel vehicles",
+      "description": "AU for diesel vehicles"
+    },
+    {
+      "term": "Visual inspection",
+      "description": "Visual inspection"
+    },
+    {
+      "term": "Regulated speed",
+      "description": "Regulated speed"
+    },
+    {
+      "term": "Density of smoke",
+      "description": "Density of smoke"
+    },
+    {
+      "term": "AUS (Audio Systems)",
+      "description": "AUS (Audio Systems), audio systems, see Radio"
+    },
+    {
+      "term": "Auxiliary Heating",
+      "description": "Auxiliary Heating",
+      "links": [
+        "javascript:TFormSubmit('AWE716P61MM61','1','AWE716P61MM61','_top')"
+      ]
+    },
+    {
+      "term": "Corsa-C",
+      "description": "Corsa-C",
+      "links": [
+        "javascript:TFormSubmit('A8B71AW613P61','1','A8B71AW613P61','_top')"
+      ]
+    },
+    {
+      "term": "AWD (All Wheel Drive) All wheel drive. Example: Antara",
+      "description": "AWD (All Wheel Drive) All wheel drive. Example: Antara",
+      "links": [
+        "javascript:TFormSubmit('A3D717P61SQ61','1','A3D717P61SQ61','_top')"
+      ]
+    },
+    {
+      "term": "adjustable camshaft sprockets",
+      "description": "adjustable camshaft sprockets, example Zafira-B  , function  , Vectra-C",
+      "links": [
+        "javascript:TFormSubmit('AL871DO61AR61','1','AL871DO61AR61','_top')",
+        "javascript:TFormSubmit('A9F71CN613R61','1','A9F71CN613R61','_top')",
+        "javascript:TFormSubmit('AIE71HN61KQ61','1','AIE71HN61KQ61','_top')"
+      ]
+    },
+    {
+      "term": "Battery",
+      "description": "Battery",
+      "links": [
+        "javascript:TFormSubmit('ACC71YM619W61','1','ACC71YM619W61','_top')"
+      ]
+    },
+    {
+      "term": "Model year 2001",
+      "description": "Model year 2001, reconnection of battery on vehicles with\nnavigation",
+      "links": [
+        "javascript:TFormSubmit('A06715Q610P61','1','A06715Q610P61','_top')"
+      ]
+    },
+    {
+      "term": "See also idle current measurement",
+      "description": "See also idle current measurement, battery discharge"
+    },
+    {
+      "term": "Battery Isolator Switch",
+      "description": "Battery Isolator Switch, example Movano, model year 2004.5",
+      "links": [
+        "javascript:TFormSubmit('AOA71LV61XS61','1','AOA71LV61XS61','_top')"
+      ]
+    },
+    {
+      "term": "BCM (Body Control Module)",
+      "description": "BCM (Body Control Module),"
+    },
+    {
+      "term": "Corsa-C  and Multitimer",
+      "description": "Corsa-C  and Multitimer",
+      "links": [
+        "javascript:TFormSubmit('A3F71PV61MN61','1','A3F71PV61MN61','_top')",
+        "javascript:TFormSubmit('AT9717Q61IQ61','1','AT9717Q61IQ61','_top')"
+      ]
+    },
+    {
+      "term": "Vectra-C",
+      "description": "Vectra-C",
+      "links": [
+        "javascript:TFormSubmit('A5871RR61BW61','1','A5871RR61BW61','_top')"
+      ]
+    },
+    {
+      "term": "Sintra",
+      "description": "Sintra, basic principles  , block circuit diagrams  and",
+      "links": [
+        "javascript:TFormSubmit('A5E71JW611M61','1','A5E71JW611M61','_top')",
+        "javascript:TFormSubmit('AV471MW61CT61','1','AV471MW61CT61','_top')",
+        "javascript:TFormSubmit('A36713R61DO61','1','A36713R61DO61','_top')"
+      ]
+    },
+    {
+      "term": "Arrangement in the vehicle",
+      "description": "Arrangement in the vehicle  , receiver  , transmitter  , shock\nsensor",
+      "links": [
+        "javascript:TFormSubmit('A15718X615M61','1','A15718X615M61','_top')",
+        "javascript:TFormSubmit('AXA71JR61FN61','1','AXA71JR61FN61','_top')",
+        "javascript:TFormSubmit('AO671GW618T61','1','AO671GW618T61','_top')",
+        "javascript:TFormSubmit('AI7718N61LT61','1','AI7718N61LT61','_top')"
+      ]
+    },
+    {
+      "term": "BDU (Body Distribution Unit)",
+      "description": "BDU (Body Distribution Unit),",
+      "links": [
+        "javascript:TFormSubmit('AAA71YS61LO61','1','AAA71YS61LO61','_top')"
+      ]
+    },
+    {
+      "term": "Belt Fastened Detection",
+      "description": "Belt Fastened Detection, example: Signum  ,",
+      "links": [
+        "javascript:TFormSubmit('AW771IP61MO61','1','AW771IP61MO61','_top')"
+      ]
+    },
+    {
+      "term": "Belt fastened detection",
+      "description": "Belt fastened detection, passenger,",
+      "links": [
+        "javascript:TFormSubmit('AQC71TV61ZP61','1','AQC71TV61ZP61','_top')"
+      ]
+    },
+    {
+      "term": "Belt Force-Limiter",
+      "description": "Belt Force-Limiter"
+    },
+    {
+      "term": "Examples: Corsa-B and Vectra-B",
+      "description": "Examples: Corsa-B and Vectra-B",
+      "links": [
+        "javascript:TFormSubmit('AB971EU613S61','1','AB971EU613S61','_top')"
+      ]
+    },
+    {
+      "term": "Astra-G",
+      "description": "Astra-G",
+      "links": [
+        "javascript:TFormSubmit('A8671ZR610M61','1','A8671ZR610M61','_top')"
+      ]
+    },
+    {
+      "term": "Belt Tensioner / Belt Buckle Tensioner",
+      "description": "Belt Tensioner / Belt Buckle Tensioner, see mechanical or\npyrotechnic belt buckle tensioner"
+    },
+    {
+      "term": "BIC Connection/interface for auxiliary battery",
+      "description": "BIC Connection/interface for auxiliary battery, Vivaro/Movano",
+      "links": [
+        "javascript:TFormSubmit('ABA716N61CV61','1','ABA716N61CV61','_top')"
+      ]
+    },
+    {
+      "term": "BID (Board Computer Info Display)",
+      "description": "BID (Board Computer Info Display),"
+    },
+    {
+      "term": "Body Connection Technology Astra-G",
+      "description": "Body Connection Technology Astra-G",
+      "links": [
+        "javascript:TFormSubmit('AJ971XM61DN61','1','AJ971XM61DN61','_top')"
+      ]
+    },
+    {
+      "term": "CAN-Bus",
+      "description": "CAN-Bus",
+      "links": [
+        "javascript:TFormSubmit('AN871YR61FR61','1','AN871YR61FR61','_top')"
+      ]
+    },
+    {
+      "term": "CAN-bus protocol",
+      "description": "CAN-bus protocol  , priorities of data frame  , priorities  , handling\nfaults  , filtering data frame  , Corsa-C  , fault\nlocation and diagnosis  , Astra-H, model year 2004.5  , block circuit\ndiagrams and function tables",
+      "links": [
+        "javascript:TFormSubmit('AI971JX616W61','1','AI971JX616W61','_top')",
+        "javascript:TFormSubmit('A0F71BO61PQ61','1','A0F71BO61PQ61','_top')",
+        "javascript:TFormSubmit('A7E71OQ61QN61','1','A7E71OQ61QN61','_top')",
+        "javascript:TFormSubmit('AN471SS61UN61','1','AN471SS61UN61','_top')",
+        "javascript:TFormSubmit('AMA716R61YT61','1','AMA716R61YT61','_top')",
+        "javascript:TFormSubmit('AGE71HR613U61','1','AGE71HR613U61','_top')",
+        "javascript:TFormSubmit('AA971OV61DV61','1','AA971OV61DV61','_top')",
+        "javascript:TFormSubmit('A1771BV615W61','1','A1771BV615W61','_top')",
+        "javascript:TFormSubmit('AKA71ZU61RU61','1','AKA71ZU61RU61','_top')"
+      ]
+    },
+    {
+      "term": "V-Bus: transmission rate 500 kBit/s",
+      "description": "V-Bus: transmission rate 500 kBit/s"
+    },
+    {
+      "term": "E-Bus: transmission rate 47.6 kBit/s",
+      "description": "E-Bus: transmission rate 47.6 kBit/s"
+    },
+    {
+      "term": "CANdi (CAN-diagnostic interface)",
+      "description": "CANdi (CAN-diagnostic interface)"
+    },
+    {
+      "term": "TECH 2 Adapter for vehicle diagnosis",
+      "description": "TECH 2 Adapter for vehicle diagnosis, use from Vectra-C,\nAstra-H",
+      "links": [
+        "javascript:TFormSubmit('AK471GT61PU61','1','AK471GT61PU61','_top')"
+      ]
+    },
+    {
+      "term": "Car Pass  and",
+      "description": "Car Pass  and",
+      "links": [
+        "javascript:TFormSubmit('AK8715O61VN61','1','AK8715O61VN61','_top')",
+        "javascript:TFormSubmit('APD712P614R61','1','APD712P614R61','_top')"
+      ]
+    },
+    {
+      "term": "The Car Pass contains vehicle information relevant to security\nand is handed over to the customer on delivery of the vehicle. If\nlost",
+      "description": "The Car Pass contains vehicle information relevant to security\nand is handed over to the customer on delivery of the vehicle. If\nlost, please contact the \"Technical Assistance Centre\"."
+    },
+    {
+      "term": "Further information",
+      "description": "Further information, see WFS with Transponder."
+    },
+    {
+      "term": "Carphone",
+      "description": "Carphone, see radio equipment from model year 2000 and\ntelephone"
+    },
+    {
+      "term": "Carphone",
+      "description": "Carphone, see telephone"
+    },
+    {
+      "term": "CBC (Cornering Brake Control)",
+      "description": "CBC (Cornering Brake Control),"
+    },
+    {
+      "term": "CDC (Clutch Control Module) Clutch control module. Monitors and\ncontrols the clutch unit in the all-wheel drive of the Antara",
+      "description": "CDC (Clutch Control Module) Clutch control module. Monitors and\ncontrols the clutch unit in the all-wheel drive of the Antara",
+      "links": [
+        "javascript:TFormSubmit('AHC71MT61AQ61','1','AHC71MT61AQ61','_top')"
+      ]
+    },
+    {
+      "term": "CDC (Compact Disc Changer)",
+      "description": "CDC (Compact Disc Changer),"
+    },
+    {
+      "term": "CD-changer control SC 804",
+      "description": "CD-changer control SC 804",
+      "links": [
+        "javascript:TFormSubmit('A2571KO61BO61','1','A2571KO61BO61','_top')"
+      ]
+    },
+    {
+      "term": "CDC (Continuous Damping Control)",
+      "description": "CDC (Continuous Damping Control),, example Astra-H, model year\n2004.5  , Vectra-C  , Zafira-B",
+      "links": [
+        "javascript:TFormSubmit('AQ471PT61NU61','1','AQ471PT61NU61','_top')",
+        "javascript:TFormSubmit('AFB715S61PM61','1','AFB715S61PM61','_top')",
+        "javascript:TFormSubmit('AB5710P61RO61','1','AB5710P61RO61','_top')"
+      ]
+    },
+    {
+      "term": "Check-Control-Function",
+      "description": "Check-Control-Function, example: Omega-B  , fault messages\nand display priority",
+      "links": [
+        "javascript:TFormSubmit('AUE718T61NQ61','1','AUE718T61NQ61','_top')",
+        "javascript:TFormSubmit('AP4717T61GW61','1','AP4717T61GW61','_top')"
+      ]
+    },
+    {
+      "term": "Example: Vectra-C",
+      "description": "Example: Vectra-C",
+      "links": [
+        "javascript:TFormSubmit('AWA712U61JU61','1','AWA712U61JU61','_top')"
+      ]
+    },
+    {
+      "term": "Children's Seats",
+      "description": "Children's Seats"
+    },
+    {
+      "term": "In general",
+      "description": "In general, vehicle specific owner's manual, comply with\ninstructions for child seat, comply with special publication \"Seat\nOccupancy Detection\", training video \"Seat Occupancy Detection\" and\nsafety regulations for the restraint system  .",
+      "links": [
+        "javascript:TFormSubmit('AP971DX61AT61','1','AP971DX61AT61','_top')"
+      ]
+    },
+    {
+      "term": "All child seats and carrycots (also rear-facing) can be placed\non the rear seat.",
+      "description": "All child seats and carrycots (also rear-facing) can be placed\non the rear seat."
+    },
+    {
+      "term": "In some vehicles",
+      "description": "In some vehicles, child seats may also be placed on the front\npassenger seat (push front passenger seat as far back as possible)\n- but never facing towards the rear or in vehicles with a side\nairbag."
+    }
+  ],
+  "totalItems": 585
+}

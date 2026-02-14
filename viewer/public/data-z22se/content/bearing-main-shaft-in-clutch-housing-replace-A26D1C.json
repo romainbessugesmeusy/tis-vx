@@ -1,0 +1,171 @@
+{
+  "type": "procedure",
+  "id": "bearing-main-shaft-in-clutch-housing-replace-A26D1C",
+  "title": "Bearing, Main Shaft in Clutch Housing, Replace",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Illustration of main shaft bearing",
+          "image": {
+            "src": "/data/assets/images/fe2f143b69f6.jpg",
+            "alt": "Object Number: 2416936  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove transmission from vehicle- see operation \"Transmission, Remove and Install\"",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Disassemble transmission - see operation \"Transmission, Seal Completely\"",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Remove 2x bolt (4)",
+          "image": {
+            "src": "/data/assets/images/03008d3c8997.jpg",
+            "alt": "Object Number: 2415645  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Insert KM-6110 (2) into bearing ring (3). Lug (arrowed) on KM-6110 must be seated in clutch housing as shown",
+          "image": {
+            "src": "/data/assets/images/03008d3c8997.jpg",
+            "alt": "Object Number: 2415645  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "3"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Spread KM-6110 by tightening nut (5) in bearing ring; at same time, counterhold spindle (1)",
+          "image": {
+            "src": "/data/assets/images/03008d3c8997.jpg",
+            "alt": "Object Number: 2415645  Size: DEFAULT"
+          },
+          "callouts": [
+            "5",
+            "1"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Counterhold spindle (1) of KM-6110 (3), then pull bearing ring out of clutch housing by turning nut (2)",
+          "image": {
+            "src": "/data/assets/images/ce350a1bc724.jpg",
+            "alt": "Object Number: 2415646  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "3",
+            "2"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Clean all removed parts and check for wear and damage; replace if necessary",
+          "image": {
+            "src": "/data/assets/images/ce350a1bc724.jpg",
+            "alt": "Object Number: 2415646  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Clean thread in clutch housing",
+          "image": {
+            "src": "/data/assets/images/de353103ba7a.jpg",
+            "alt": "Object Number: 2415647  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Insert bearing ring (3) in clutch housing and position with 2x bolt M6 x 35 (4)",
+          "image": {
+            "src": "/data/assets/images/de353103ba7a.jpg",
+            "alt": "Object Number: 2415647  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "4"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "Drive bearing ring flush into clutch housing with KM-6111 (2) in conjunction with KM-523-1 (1)",
+          "image": {
+            "src": "/data/assets/images/de353103ba7a.jpg",
+            "alt": "Object Number: 2415647  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 12,
+          "text": "Remove 2x bolt M6 x 35",
+          "image": {
+            "src": "/data/assets/images/042658b501da.jpg",
+            "alt": "Object Number: 2415648  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 13,
+          "text": "Install 2x bolt (1) 10 Nm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Coat with locking compound"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/042658b501da.jpg",
+            "alt": "Object Number: 2415648  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 14,
+          "text": "Assemble transmission- see operation \"Transmission, Seal Completely\"",
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Install transmission to vehicle - see operation \"Transmission, Remove and Install\"",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install 2x bolt (1) 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 13
+    }
+  ],
+  "toolsRequired": [
+    "KM-6110",
+    "KM-6111",
+    "KM-523-1"
+  ],
+  "warnings": [
+    "When replacing main\nshaft bearing ring, also replace roller bearing on main shaft"
+  ]
+}

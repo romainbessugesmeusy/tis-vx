@@ -1,0 +1,293 @@
+{
+  "type": "procedure",
+  "id": "crankshaft-oil-seal-flywheel-side-replace-z-20-let-AQS315",
+  "title": "Crankshaft Oil Seal, Flywheel Side, Replace (Z 20\nLET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove engine with transmission - see operation “Engine with Transmission, Remove and Install (Z 20 LET)”",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove turbocharger heat shield (1) from engine and transmission assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/25e0688ee2c0.jpg",
+            "alt": "Object Number: 2422492  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Remove transmission (2) from engine assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 11x bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/25e0688ee2c0.jpg",
+            "alt": "Object Number: 2422492  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Remove clutch plate with pressure plate (2) from flywheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install Flywheel Holder KM-652 (1) to",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Install Flywheel Holder KM-652 (1) to\nengine block"
+                }
+              ]
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 6x bolt, then discard"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1e95c080bd85.jpg",
+            "alt": "Object Number: 2422493  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Remove flywheel (1) from crankshaft",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 6x bolt, then discard"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/444ef481ba71.jpg",
+            "alt": "Object Number: 2422494  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Remove Flywheel Holder KM-652 from engine block",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Remove seal ring (1) from crankshaft",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Prise out using suitable tool"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3b6fc76e5c1d.jpg",
+            "alt": "Object Number: 2422495  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 8,
+          "text": "Install seal ring to crankshaft",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use Seal Ring Installer KM-635 with"
+            },
+            {
+              "bullet": "•",
+              "text": "Apply oil to seal lip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install flywheel to crankshaft",
+          "substeps": [
+            {
+              "bullet": "•–",
+              "text": "Do not tighten",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Apply locking compound"
+                }
+              ]
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Immobilize flywheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install Flywheel Holder KM-652 to"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Secure flywheel to crankshaft",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 6x bolt 65 Nm + 30° +"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Install clutch plate with pressure plate to flywheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 6x new bolt 15 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Remove Flywheel Holder KM-652 from engine block",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Install transmission to engine",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 7x bolt (1) 60 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt (2) 40 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3ccf63214111.jpg",
+            "alt": "Object Number: 2422496  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 15,
+          "text": "Install turbocharger heat shield to engine and transmission assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Check oil level and top-up if required",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Secure flywheel to crankshaft",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": 11
+    },
+    {
+      "component": "Install clutch plate with pressure plate to flywheel",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Install transmission to engine",
+      "value": "60",
+      "unit": "Nm",
+      "stepRef": 14
+    },
+    {
+      "component": "Install transmission to engine",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": 14
+    },
+    {
+      "component": "Secure 6x bolt 65 Nm + 30° + 15° symmetrically",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install 6x new bolt 15 Nm symmetrically",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install 7x bolt (1) 60 Nm symmetrically Note: Includes installation of support bracket for engine harness.",
+      "value": "60",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install 4x bolt (2) 40 Nm symmetrically",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-652",
+    "KM-635",
+    "KM-535"
+  ],
+  "warnings": [
+    "When removing\ntransmission observe relevant safety measures and national\nlegislation.",
+    "When installing\ntransmission observe safety measures and national legislation."
+  ],
+  "notes": [
+    "Remove 11x bolt\n Includes removal\nof support bracket for engine harness.",
+    "Install 7x bolt (1) 60 Nm\nsymmetrically\n Includes\ninstallation of support bracket for engine harness."
+  ]
+}

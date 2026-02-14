@@ -1,0 +1,22 @@
+{
+  "type": "procedure",
+  "id": "coolant-hoses-illustration-z20-let-AQS315",
+  "title": "Coolant Hoses, Illustration (Z20 LET)",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Coolant hoses illustrated",
+          "image": {
+            "src": "/data/assets/images/a22a191e62e9.jpg",
+            "alt": "Object Number: 2423047  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ]
+}

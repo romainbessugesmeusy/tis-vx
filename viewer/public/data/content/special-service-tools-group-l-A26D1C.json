@@ -1,0 +1,22 @@
+{
+  "type": "tool_list",
+  "id": "special-service-tools-group-l-A26D1C",
+  "title": "Special Service Tools – Group L",
+  "group": "L",
+  "tools": [
+    {
+      "code": "MKM-667",
+      "name": "Pressure and Vacuum Pump",
+      "description": null
+    },
+    {
+      "code": "KM-807",
+      "name": "Closure Plug",
+      "description": null
+    }
+  ],
+  "image": {
+    "src": "/data/assets/images/86eeb9922ff5.jpg",
+    "alt": "Object Number: 2429824  Size: DEFAULT"
+  }
+}

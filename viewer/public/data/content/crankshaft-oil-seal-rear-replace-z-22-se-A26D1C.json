@@ -1,0 +1,160 @@
+{
+  "type": "procedure",
+  "id": "crankshaft-oil-seal-rear-replace-z-22-se-A26D1C",
+  "title": "Crankshaft Oil Seal, Rear, Replace (Z 22 SE)",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove the transmission.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Note:"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e817cec85c6e.jpg",
+            "alt": "Object Number: 2418047  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Detach the drive plate.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Immobilise the drive plate via the starter ring gear with KM-652 (1)."
+            },
+            {
+              "bullet": "•",
+              "text": "6 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e817cec85c6e.jpg",
+            "alt": "Object Number: 2418047  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Remove the crankshaft rear oil seal (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use a suitable tool to prise it out – do not damage the"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0cf4ca044d03.jpg",
+            "alt": "Object Number: 2417793  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Install the crankshaft rear oil seal.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Clean the sealing surfaces."
+            },
+            {
+              "bullet": "•",
+              "text": "Coat the sealing lip with silicone grease (white)."
+            },
+            {
+              "bullet": "•",
+              "text": "Turn back the installation tool KM-J-42067 (2)."
+            },
+            {
+              "bullet": "•",
+              "text": "Slide the oil seal onto KM-J-42067"
+            },
+            {
+              "bullet": "•",
+              "text": "Attach KM-J-42067 to the"
+            },
+            {
+              "bullet": "•",
+              "text": "Press in the oil seal with KM-J-4206"
+            },
+            {
+              "bullet": "•",
+              "text": "Detach KM-J-42067 ."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0cf4ca044d03.jpg",
+            "alt": "Object Number: 2417793  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Attach the drive plate.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Recut the thread in the crankshaft."
+            },
+            {
+              "bullet": "•",
+              "text": "Use new bolts."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 53 Nm +"
+            },
+            {
+              "bullet": "•",
+              "text": "Detach KM-652 ."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0cf4ca044d03.jpg",
+            "alt": "Object Number: 2417793  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Install the transmission.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Note:"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0cf4ca044d03.jpg",
+            "alt": "Object Number: 2417793  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Attach the drive plate.",
+      "value": "53",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Tightening torque 53 Nm + 25°",
+      "value": "53",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-652",
+    "KM-J-42067",
+    "KM-J-4206"
+  ]
+}

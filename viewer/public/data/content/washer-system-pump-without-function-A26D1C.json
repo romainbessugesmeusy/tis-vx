@@ -1,0 +1,51 @@
+{
+  "type": "tsb",
+  "id": "washer-system-pump-without-function-A26D1C",
+  "title": "Field Remedy: 2579",
+  "subject": "Washer system, pump - Without\nfunction",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "N - Electrical Equipment",
+    "complaintGroup": "13 - No/Poor Function",
+    "troubleCode": "None"
+  },
+  "complaint": "Washer system without function.",
+  "cause": "Washer system fuse blown due to frozen\nwasher fluid.",
+  "production": "",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "In case of customer complaint perform the following checks prior \nwasher pump replacement:"
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Check if the antifreezing concentrate is OK, respectively that",
+        "the washer fluid/system is not frozen."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If the concentrate is insufficient/the washer fluid is frozen, \n    inform the customer about the correct mixture and/or refer to \n    the owner manual."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "If the washer fluid is frozen, defrost the washer system and",
+        "fill-up washer system with washer fluid in correct mixture."
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Check the function of the pump and nozzles of the washer",
+        "system if necessary replace the washer system fuse."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Note: A frozen pump will cause the fuse to blow through\nagain."
+    }
+  ]
+}

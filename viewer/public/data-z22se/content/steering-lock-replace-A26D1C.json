@@ -1,0 +1,47 @@
+{
+  "type": "procedure",
+  "id": "steering-lock-replace-A26D1C",
+  "title": "Steering Lock, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Upper and lower shrouds from steering column – screws.",
+          "image": {
+            "src": "/data/assets/images/70962b6a13a4.jpg",
+            "alt": "Object Number: 2393913  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Lock cylinder from lock casing by inserting ignition key in ignition lock, then pressing down spring catch with the lock cylinder in position 1 (use wire or small screwdriver).",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Press down spring catch with lock cylinder in position 1 using wire or small screwdriver. Insert lock cylinder and slide in until fully engaged.",
+          "image": {
+            "src": "/data/assets/images/6e6749f828c4.jpg",
+            "alt": "Object Number: 2429702  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Steering column upper and lower shrouds – screws.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

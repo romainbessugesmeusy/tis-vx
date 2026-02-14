@@ -1,0 +1,167 @@
+{
+  "type": "procedure",
+  "id": "engine-damping-block-front-replace-z20-let-AQS315",
+  "title": "Engine Damping Block, Front, Replace (Z20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Raise vehicle"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 13x bolt, 13x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Install engine support to engine and transmission assembly",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Remove engine damping block with support bracket from transmission and chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove centre bolt, nut (1), then discard"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a8b5f3a6321c.jpg",
+            "alt": "Object Number: 2422468  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Remove engine damping block (2) from support bracket (3)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Apply match marks (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Use hydraulic press"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c8af828bf775.jpg",
+            "alt": "Object Number: 2422998  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 5,
+          "text": "Install new engine damping block to support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Transfer match marks to new engine damping block"
+            },
+            {
+              "bullet": "•",
+              "text": "Use hydraulic press"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Install engine damping block with support bracket to transmission and chassis",
+          "substeps": [
+            {
+              "bullet": "•–",
+              "text": "Do not tighten",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Use new bolt, nut"
+                }
+              ]
+            },
+            {
+              "bullet": "•",
+              "text": "Apply locking compound"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Remove engine support from engine and transmission assembly",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Secure centre bolt, nut for engine damping block 86 Nm",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 13x bolt, 13x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Lower vehicle",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install engine damping block with support bracket to transmission and chassis",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Secure centre bolt, nut for engine damping block 86 Nm",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Install 2x bolt, washer 49 Nm – Apply locking compound",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "A four-post hoist must\nbe used to raise the vehicle when removing the engine undertray.\nThe vehicle can be moved to a two-post hoist for other operations\nif required.",
+    "Do not support on oil\npan."
+  ]
+}

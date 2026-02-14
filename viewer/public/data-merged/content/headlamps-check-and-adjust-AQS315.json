@@ -1,0 +1,147 @@
+{
+  "type": "procedure",
+  "id": "headlamps-check-and-adjust-AQS315",
+  "title": "Headlamps, Check and Adjust",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Main headlamp housing or retainer displays reference 1.2% for low beam adjustment according to EEC 767/56 or ECE-R48 guidelines",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "767/56 EEC or ECE-R48 guidelines cover checking and adjustment of headlamps on vehicle. Correct adjustment of headlamps on vehicle should enable optimal road illumination by low beam, with minimal dazzling of oncoming traffic. To this end, inclination of headlamp beam to level road surface and angle of beam to vertical longitudinal plane running through vehicle's centre must satisfy conditions laid down in guidelines",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Dazzling (low beam) is considered eliminated if intensity of illumination at a distance of 25m from each individual headlamp on the plane perpendicular to the road and at height of headlamp as well as beyond, is not greater than 1 lux. This requirement is generally satisfied if headlamp adjustment is carried out according to adjustment guidelines",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Reference 1.2 % corresponds to adjustment dimension of headlamp in reference to the inclination of the light beam. The inclination at 12 m distance from vehicle headlamp is therefore 12 cm (illustrations G 4944 and G6849). The inclination of low beam headlamp is indicated by its light/dark border",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Adjustment guideline is clarified by illustrations G 4944 and G 6849",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Abbreviations used",
+          "image": {
+            "src": "/data/assets/images/ed8406e1bd54.jpg",
+            "alt": "Object Number: 2398751  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Abbreviations (continued)",
+          "image": {
+            "src": "/data/assets/images/8232c3521494.jpg",
+            "alt": "Object Number: 2399620  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Headlamp adjustment is carried out according to regulations, as shown in illustrations D 6213 and D 6214, using an adjuster. When using headlamp adjuster, ensure that vehicle road surface and surface for setting up adjuster are level and parallel to one another",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Vehicle tyres must have specified air pressure. Defective headlamp lenses and mirrors as well as blackened bulbs must be replaced before adjusting",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Adjustment is carried out at vehicle kerb weight plus one person or 75 kg on driver's seat. (Kerb weight = weight of operation-ready vehicle with completely filled fuel tank as well as weight of all equipment carried during operation, e.g. tools, first aid kit, emergency warning triangle, etc.)",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "The intersection between the horizontal and the ascending parts of the light/dark border (break point) must lie on the perpendicular through the central marking",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "For easier determination of the intersection point, headlamp halves can be alternately covered and uncovered",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "The headlamp adjuster used must correspond to existing guidelines, and manufacturer's operating instructions must be followed",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "The headlamp adjuster must be regularly checked by manufacturer's maintenance service",
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "The headlamp adjuster is set up according to manufacturer's guidelines and is adjusted to 1.2 % inclination for the low beam or 2 % inclination for the fog lamp",
+          "image": {
+            "src": "/data/assets/images/74cb4032298b.jpg",
+            "alt": "Object Number: 2383441  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 16,
+          "text": "The 15° line for the low beam on the measurement screen is dispensed with according to directive 767/56 EEC (illustration D 6213 shows adjustment for vehicles driving on the right). The adjustment direction can also be achieved using headlamp adjusters which show the 15° line on the measuring screen",
+          "image": {
+            "src": "/data/assets/images/74cb4032298b.jpg",
+            "alt": "Object Number: 2383441  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 17,
+          "text": "For headlamps with joint adjustment for low beam and high beam, the light beam centre of the high beam must lie within the corner limits surrounding the central marking (illustration D 6214)",
+          "image": {
+            "src": "/data/assets/images/c88f16ce7f30.jpg",
+            "alt": "Object Number: 2383442  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 18,
+          "text": "Adjust headlamps",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Vertical Adjustment"
+            },
+            {
+              "bullet": "•",
+              "text": "Lateral Adjustment"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Headlamps must be adjusted using a legally specified projection wall or with optical headlamp adjuster",
+          "image": null
+        },
+        {
+          "number": 20,
+          "text": "Vertical adjustment. The light/dark borderline left of the adjustment cross must run horizontally along the adjustment line",
+          "image": null
+        },
+        {
+          "number": 21,
+          "text": "Lateral adjustment. The light-dark border must run horizontally from the left side up to the adjusting cross and from there on at an angle of up to approximately 15° towards the upper right. The beam inclination is 1.2 % on 12 m",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Carry out vertical\nadjustment first, then lateral adjustment. Check vertical\nadjustment again after lateral adjustment"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "type": "procedure",
+  "id": "camshaft-timing-belt-upper-cover-replace-z-20-let-AQS315",
+  "title": "Camshaft Timing Belt, Upper Cover, Replace (Z 20\nLET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Raise vehicle"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 13x bolt, 13x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ea151090a0db.jpg",
+            "alt": "Object Number: 2397738  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove 2x bolt (1) from upper cover of camshaft timing belt",
+          "image": {
+            "src": "/data/assets/images/ea151090a0db.jpg",
+            "alt": "Object Number: 2397738  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Remove upper cover of camshaft timing belt",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull off to release"
+            }
+          ],
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 5,
+          "text": "Install upper cover of camshaft timing belt",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit to secure"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Install 2x bolt (1) to upper cover of camshaft timing belt 6 Nm",
+          "image": {
+            "src": "/data/assets/images/ea151090a0db.jpg",
+            "alt": "Object Number: 2397738  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Install engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 13x bolt, 13x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Lower vehicle",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install 2x bolt (1) to upper cover of camshaft timing belt 6 Nm",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 7
+    }
+  ],
+  "warnings": [
+    "A four-post hoist must\nbe used to raise the vehicle when removing the engine undertray.\nThe vehicle can be moved to a two-post hoist for other operations\nif required."
+  ]
+}

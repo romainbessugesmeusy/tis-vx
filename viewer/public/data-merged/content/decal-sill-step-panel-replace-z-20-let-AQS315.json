@@ -1,0 +1,46 @@
+{
+  "type": "procedure",
+  "id": "decal-sill-step-panel-replace-z-20-let-AQS315",
+  "title": "Decal, Sill Step Panel, Replace (Z 20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove decal (1) from sill step panel",
+          "image": {
+            "src": "/data/assets/images/1f7c891b967c.jpg",
+            "alt": "Object Number: 2422977  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 2,
+          "text": "Install new decal to sill step panel Note: Remove protective covering from adhesive backing.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Clean sill step panel"
+            }
+          ],
+          "image": null
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Install new decal to sill step panel\n Remove protective\ncovering from adhesive backing.\n \n\n\n\n•  \nClean sill step panel"
+  ]
+}

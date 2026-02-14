@@ -1,0 +1,155 @@
+{
+  "type": "procedure",
+  "id": "accelerator-pedal-and-potentiometer-replace-z22-se-z20-let-AQS315",
+  "title": "Accelerator Pedal and Potentiometer, Replace (Z22\nSE, Z20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove soft top or hard top",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Disconnect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release windscreen wash reservoir, then move to one side"
+            },
+            {
+              "bullet": "•",
+              "text": "Release nut, bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Disconnect harness (1) from potentiometer",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull out clip (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/48786b1df831.jpg",
+            "alt": "Object Number: 2422759  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Remove accelerator pedal and potentiometer from bulkhead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x bolt (1), 3x nut"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/4b54bffd6f74.jpg",
+            "alt": "Object Number: 2422754  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Remove pad from accelerator pedal",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt (1), 2x nut, 2x washer, then discard 2x nut"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d5abc2f809af.jpg",
+            "alt": "Object Number: 2422755  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 6,
+          "text": "Install pad to new accelerator pedal",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt, 2x new nut, 2x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Install accelerator pedal and potentiometer to bulkhead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 3x bolt, 3x nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Connect harness to potentiometer",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push in clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Connect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure nut, bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Install windscreen wash reservoir",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Program all volatile memories",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Install soft top or hard top",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Remove 3x bolt (1), 3x nut\n Second technician\nrequired to counterhold nuts from inside vehicle.",
+    "Install 3x bolt, 3x nut\n Second technician\nrequired to counterhold nuts from inside vehicle."
+  ]
+}

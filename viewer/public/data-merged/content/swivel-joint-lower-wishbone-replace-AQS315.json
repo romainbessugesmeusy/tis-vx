@@ -1,0 +1,47 @@
+{
+  "type": "procedure",
+  "id": "swivel-joint-lower-wishbone-replace-AQS315",
+  "title": "Swivel Joint, Lower Wishbone, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Lower wishbone from rear suspension – see operation \"Lower Wishbone, Remove and Install\".",
+          "image": {
+            "src": "/data/assets/images/da21d3b7ba1f.jpg",
+            "alt": "Object Number: 2429740  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Swivel joint from lower wishbone – press out.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Swivel joint to lower wishbone – press in.",
+          "image": {
+            "src": "/data/assets/images/da21d3b7ba1f.jpg",
+            "alt": "Object Number: 2429740  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Lower wishbone to rear suspension.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

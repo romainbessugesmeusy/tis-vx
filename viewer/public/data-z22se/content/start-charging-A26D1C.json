@@ -1,0 +1,59 @@
+{
+  "type": "harness_diagram",
+  "id": "start-charging-A26D1C",
+  "title": "start-charging-A26D1C",
+  "diagram": {
+    "src": "/data/assets/2e0adabcbefc.cgm",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "G1",
+      "description": "Battery"
+    },
+    {
+      "code": "G2",
+      "description": "Alternator"
+    },
+    {
+      "code": "K24",
+      "description": "Relay - Starter"
+    },
+    {
+      "code": "M1",
+      "description": "Starter"
+    },
+    {
+      "code": "S1",
+      "description": "Switch - Starter"
+    },
+    {
+      "code": "S124",
+      "description": "Switch - Starter button"
+    },
+    {
+      "code": "X1",
+      "description": "Main harness & Battery positive"
+    },
+    {
+      "code": "X4",
+      "description": "Main harness & Extension harness, engine"
+    },
+    {
+      "code": "X3",
+      "description": "Main harness & Extension harness, engine"
+    },
+    {
+      "code": "X34",
+      "description": "Extension harness, engine & Battery positive"
+    },
+    {
+      "code": "Z20LET",
+      "description": "Engine Z20LET"
+    },
+    {
+      "code": "Z22SE",
+      "description": "Engine Z22SE"
+    }
+  ]
+}

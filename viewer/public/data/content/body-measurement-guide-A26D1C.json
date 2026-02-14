@@ -1,0 +1,11 @@
+{
+  "type": "generic",
+  "id": "body-measurement-guide-A26D1C",
+  "title": "Body Measurement Guide",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td><a href=\"#relatedlus\">Related Literature Units</a></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  <tr><td><hr size=\"1\" ></td></tr>\r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Body Measurement Guide</p>\n\n<p>The traditional fast measurement method using a telescopic rule\n<span class=\"tool\">MKM-642-A</span> is not permitted.</p>\n\n<p>Further procedure:</p>\n\n<p>Visually inspect the aluminium chassis for damage.</p>\n\n<p>If chassis damage cannot be definitely ruled out, then the\nvehicle dimensions must be measured.</p>\n\n<p>Measure the vehicle dimensions using the usual straightening\nsystem and its data sheets.</p>\n\n<p>Keep a record of the measurements for the specialists and the\ninsurance companies.</p>\n\n<p>Where the body measurements are outside the tolerances given,\ntake appropriate action.</p>\n\n<p>Refer to the chapter 'Body Repair Using the Straightening\nSystem'.</p>\n</td>\r\n  </tr>\r\n  <tr><td><hr size=\"1\" ></td></tr>\r\n  <tr>\r\n    <td ><a id=\"relatedlus\"></a><table ><tr ><th colspan=\"2\" >Related Literature Units</th></tr><tr ><td >-</td><td ><a href=\"javascript:TFormSubmit('ANPH1E7H1P6H1','1','ANPH1E7H1P6H1','_top')\" id=\"ANPH1E7H1P6H1\" >General Warnings and Safety Regulations</a></td></tr><tr ><td >-</td><td ><a href=\"javascript:TFormSubmit('AQOH1G5H1M5H1','1','AQOH1G5H1M5H1','_top')\" id=\"AQOH1G5H1M5H1\" >Safety Regulations for the Bodywork</a></td></tr></table></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "extractedData": {
+    "tools": [
+      "MKM-642-A"
+    ]
+  }
+}

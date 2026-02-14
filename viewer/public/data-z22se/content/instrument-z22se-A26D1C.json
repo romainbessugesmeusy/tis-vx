@@ -1,0 +1,139 @@
+{
+  "type": "harness_diagram",
+  "id": "instrument-z22se-A26D1C",
+  "title": "Instrument (Z22SE)",
+  "diagram": {
+    "src": "/data/assets/71e4e32e8763.cgm",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "A1",
+      "description": "Control unit - Airbag"
+    },
+    {
+      "code": "H1.17",
+      "description": "Telltale - Brake system"
+    },
+    {
+      "code": "A2",
+      "description": "Control unit - Anti-Lock Brake System"
+    },
+    {
+      "code": "H1.19",
+      "description": "Telltale - Turn signal lamp"
+    },
+    {
+      "code": "A4",
+      "description": "Control unit - Multec"
+    },
+    {
+      "code": "H1.22",
+      "description": "Indicator - Coolant temperature"
+    },
+    {
+      "code": "A13",
+      "description": "Control unit - Anti-theft warning system"
+    },
+    {
+      "code": "H1.23",
+      "description": "Fuel indicator"
+    },
+    {
+      "code": "A17",
+      "description": "Control unit - Immobiliser"
+    },
+    {
+      "code": "H1.24",
+      "description": "Tachometer"
+    },
+    {
+      "code": "B1",
+      "description": "Switch - Brake fluid"
+    },
+    {
+      "code": "H1.25",
+      "description": "Speedometer - Electronic"
+    },
+    {
+      "code": "B2",
+      "description": "Switch - Parking brake"
+    },
+    {
+      "code": "H1.65",
+      "description": "Warning buzzer"
+    },
+    {
+      "code": "B3",
+      "description": "Switch - Oil pressure"
+    },
+    {
+      "code": "H1.68",
+      "description": "Telltale - Parking brake"
+    },
+    {
+      "code": "B6",
+      "description": "Switch - Minimum capacity, coolant"
+    },
+    {
+      "code": "H1.69",
+      "description": "Telltale - Coolant level"
+    },
+    {
+      "code": "G2",
+      "description": "Alternator"
+    },
+    {
+      "code": "P5",
+      "description": "Sensor - Fuel tank content"
+    },
+    {
+      "code": "H1.1",
+      "description": "Charging indicator lamp"
+    },
+    {
+      "code": "S3.1",
+      "description": "Switch - High beam"
+    },
+    {
+      "code": "H1.2",
+      "description": "Telltale - Oil pressure"
+    },
+    {
+      "code": "S3.2",
+      "description": "Switch - Turn signal"
+    },
+    {
+      "code": "H1.4",
+      "description": "Telltale - Airbag"
+    },
+    {
+      "code": "S3.3",
+      "description": "Switch - Headlamp flash"
+    },
+    {
+      "code": "H1.5",
+      "description": "Telltale - Anti-Lock Brake System"
+    },
+    {
+      "code": "S6",
+      "description": "Switch - Hazard light"
+    },
+    {
+      "code": "H1.6",
+      "description": "Telltale - Engine"
+    },
+    {
+      "code": "S38",
+      "description": "Contact switch - Driver door"
+    },
+    {
+      "code": "H1.12",
+      "description": "Telltale - High beam"
+    },
+    {
+      "code": "S39",
+      "description": "Contact switch - Front passenger door"
+    }
+  ]
+}

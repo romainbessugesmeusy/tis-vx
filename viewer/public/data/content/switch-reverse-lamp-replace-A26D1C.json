@@ -1,0 +1,95 @@
+{
+  "type": "procedure",
+  "id": "switch-reverse-lamp-replace-A26D1C",
+  "title": "Switch, Reverse Lamp, Replace",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Open bonnet",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove windscreen wash reservoir from mounting bracket",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Disconnect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Disconnect harness connector (1) from reverse lamp switch",
+          "image": {
+            "src": "/data/assets/images/7df070ba3bd1.jpg",
+            "alt": "Object Number: 2419716  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Remove reverse lamp switch from transmission",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Install reverse lamp switch to transmission 20 Nm",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Secure harness connector to reverse lamp switch",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Connect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install windscreen wash reservoir to mounting bracket",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Close bonnet",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Program all volatile memories",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install reverse lamp switch to transmission 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 6
+    }
+  ]
+}

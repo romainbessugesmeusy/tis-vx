@@ -1,0 +1,106 @@
+{
+  "type": "procedure",
+  "id": "shift-cables-remove-and-install-A26D1C",
+  "title": "Shift Cables, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Centre console – see operation \"Centre Console, Remove and Install\" in group C.",
+          "image": {
+            "src": "/data/assets/images/7dd626c20ea9.jpg",
+            "alt": "Object Number: 2429762  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Shift cables (1) from shift lever and support bracket.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Shift cables (2) from transmission.",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Cable support (3) from underside of vehicle – bolts.",
+          "image": null,
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Shift cables from vehicle – clips.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "phase": "adjust",
+      "label": "Adjust",
+      "icon": "/data/assets/images/8bcc88ed08ca.gif",
+      "steps": [
+        {
+          "number": 6,
+          "text": "Shift cables to vehicle – clips.",
+          "image": {
+            "src": "/data/assets/images/7dd626c20ea9.jpg",
+            "alt": "Object Number: 2429762  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Cable support (3) to underside of vehicle – bolts.",
+          "image": null,
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Shift cables (2) to transmission.",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Shift cables (1) to shift lever and support bracket.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Centre console – see operation \"Centre Console, Remove and Install\" in group C.",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Transmission shift linkage – see operation \"Transmission Shift Linkage, Adjust\".",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

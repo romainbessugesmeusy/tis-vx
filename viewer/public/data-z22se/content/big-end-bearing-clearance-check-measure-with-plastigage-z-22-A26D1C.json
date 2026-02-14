@@ -1,0 +1,137 @@
+{
+  "type": "procedure",
+  "id": "big-end-bearing-clearance-check-measure-with-plastigage-z-22-A26D1C",
+  "title": "Big-end Bearing Clearance, Check, measure with\nPlastigage) (Z 22 SE)",
+  "phases": [
+    {
+      "phase": "measure",
+      "label": "Measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Oil pan removed Note: Oil pan removed – see operation \"Oil Pan, Remove and Install\".",
+          "image": {
+            "src": "/data/assets/images/352370a0730c.jpg",
+            "alt": "Object Number: 2417756  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Detach the big–end bearing caps.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Mark the installation position of the big–end bearing cap"
+            },
+            {
+              "bullet": "•",
+              "text": "Grease the big–end bearing caps and coat the"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/352370a0730c.jpg",
+            "alt": "Object Number: 2417756  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Lay the Plastigage in place.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Lay Plastigage (mouldable plastic thread) across the entire"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Note: Plastigage is available via the \"Opel/Vauxhall – Workshop Equipment\" catalogue.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Attach the big–end bearing caps.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 25 Nm + 50° +"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Detach the big–end bearing caps.",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Measure the big–end bearing clearance.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Compare the width of the flattened plastic thread with the"
+            },
+            {
+              "bullet": "•",
+              "text": "Permissible connecting rod bearing clearance: 0,041 to 0,043"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/17af1760bc6e.jpg",
+            "alt": "Object Number: 2417970  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Attach the big–end bearing caps.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Coat the big–end bearing journals and the big–end"
+            },
+            {
+              "bullet": "•",
+              "text": "Use new bolts."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 25 Nm + 50° +"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/352370a0730c.jpg",
+            "alt": "Object Number: 2417756  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Attach the big–end bearing caps.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Attach the big–end bearing caps.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Tightening torque 25 Nm + 50° + 50° + 10°",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Oil pan removed\n Oil pan removed\n– see operation \"Oil Pan, Remove and Install\".",
+    "Compare the width of the flattened plastic thread with the\nmeasuring scale.\n When reading off\nfrom the scale, do not confuse millimetres and inches.",
+    "Coat the big–end bearing journals and the big–end\nbearing shells with engine oil.\n Note the applied\nmarkings (1)."
+  ]
+}

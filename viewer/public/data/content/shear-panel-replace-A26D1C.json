@@ -1,0 +1,287 @@
+{
+  "type": "procedure",
+  "id": "shear-panel-replace-A26D1C",
+  "title": "Shear Panel, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Release parking brake",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Remove engine undertray (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 13x bolt, 13x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1d1ad92dd5ed.jpg",
+            "alt": "Object Number: 2425071  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Release cable (1) for parking brake from lever (2) of rear left brake caliper",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/10735b34ce22.jpg",
+            "alt": "Object Number: 2422439  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Release compensator yoke (1) from parking brake cable",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove clip (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove pin (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f6d65211d5bb.jpg",
+            "alt": "Object Number: 2422434  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Release 2x gearshift cable from shear panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bracket (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 2x screw (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ec0d6724d7a9.jpg",
+            "alt": "Object Number: 2422435  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Release shear panel from left side and right side suspension mount (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x bolt (2), 4x nut, 8x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9218f9163390.jpg",
+            "alt": "Object Number: 2422436  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Release shear panel from support bracket (1) for damping block",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c81da4043357.jpg",
+            "alt": "Object Number: 2422437  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Remove shear panel (1) from vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 8x bolt (2), 3x nut, 11x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2a029a9f4ca1.jpg",
+            "alt": "Object Number: 2422438  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 10,
+          "text": "Install shear panel to vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure 8x bolt, 3x nut, 11x washer 25 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Secure shear panel to support bracket for damping block",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure 2x bolt 25"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Secure shear panel to left side and right side suspension mount",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure 4x bolt, 4x nut, 8x washer 45 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Secure 2x gearshift cable to shear panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install bracket"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 2x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Secure compensator yoke to parking brake cable",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install pin"
+            },
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Secure cable for parking brake to lever of rear left brake caliper",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push on"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Install engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure 13x bolt, 13x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 18,
+          "text": "Secure parking brake",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install shear panel to vehicle",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Secure shear panel to support bracket for damping block",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 11
+    },
+    {
+      "component": "Secure shear panel to left side and right side suspension mount",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Install, then secure 8x bolt, 3x nut, 11x washer 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install, then secure 4x bolt, 4x nut, 8x washer 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "A four-post hoist must\nbe used to raise the vehicle when removing the engine undertray.\nThe vehicle can be moved to a two-post hoist for other operations\nif required.",
+    "Vehicle must not be\ndriven without shear panel installed"
+  ]
+}

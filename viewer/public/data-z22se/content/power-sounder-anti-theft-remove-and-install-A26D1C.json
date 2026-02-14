@@ -1,0 +1,57 @@
+{
+  "type": "procedure",
+  "id": "power-sounder-anti-theft-remove-and-install-A26D1C",
+  "title": "Power Sounder, Anti-Theft, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Slacken nuts that hold power sounder to bracket.",
+          "image": {
+            "src": "/data/assets/images/4cf178b71e9e.jpg",
+            "alt": "Object Number: 2429729  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Ease power sounder from bolts in bracket and pivot pip.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Harness connector from power sounder.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Harness connector to power sounder.",
+          "image": {
+            "src": "/data/assets/images/4cf178b71e9e.jpg",
+            "alt": "Object Number: 2429729  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Power sounder to bracket, locate bolts heads into slots on sounder and pivot pip in bracket – tighten nuts.",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Bracket shown removed for clarity.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

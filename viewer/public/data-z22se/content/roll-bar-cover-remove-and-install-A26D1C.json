@@ -1,0 +1,94 @@
+{
+  "type": "procedure",
+  "id": "roll-bar-cover-remove-and-install-A26D1C",
+  "title": "Roll Bar Cover, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Soft top or hard top – see Owner's Manual.",
+          "image": {
+            "src": "/data/assets/images/5d7a74c5a7c2.jpg",
+            "alt": "Object Number: 2418943  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Roll bar cover (1) – 3 screws and 3 spacers (2), 3 nuts and washers.",
+          "image": null,
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Important: Note arrangement of all washers.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Do not lose spacers (2).",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Do not drop washers into engine compartment.",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Weatherstrip from roll bar cover.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 7,
+          "text": "Roll bar cover (1) – 3 screws and 3 spacers (2), 3 nuts and washers.",
+          "image": {
+            "src": "/data/assets/images/5d7a74c5a7c2.jpg",
+            "alt": "Object Number: 2418943  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Weatherstrip to roll bar cover.",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Important: Install washers in arrangement noted on removal.",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Soft top or hard top – see Owner's Manual.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    }
+  ]
+}

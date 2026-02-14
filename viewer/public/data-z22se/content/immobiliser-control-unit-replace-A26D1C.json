@@ -1,0 +1,307 @@
+{
+  "type": "procedure",
+  "id": "immobiliser-control-unit-replace-A26D1C",
+  "title": "Immobiliser Control Unit, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Disconnect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release windscreen washer bottle (1), position to side"
+            },
+            {
+              "bullet": "•",
+              "text": "Release nut, bolt (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/482794e97b8a.jpg",
+            "alt": "Object Number: 2422316  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove air bag unit from steering wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x screw"
+            },
+            {
+              "bullet": "•",
+              "text": "Release locking clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Disconnect harness connector"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c9495824374a.jpg",
+            "alt": "Object Number: 2429726  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Disconnect horn from combination switch assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Disconnect harness connector"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f2a47ebbaf58.jpg",
+            "alt": "Object Number: 2429724  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Remove steering wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x bolt, 4x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f2a47ebbaf58.jpg",
+            "alt": "Object Number: 2429724  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Remove upper cover from steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 6x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Remove lower cover from steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x screw"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Disconnect 2x harness connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Remove locking ring (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/75134266218a.jpg",
+            "alt": "Object Number: 2422653  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Remove bracket (3)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Slide off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/75134266218a.jpg",
+            "alt": "Object Number: 2422653  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Remove immobiliser control unit (1) from steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release integral clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/75134266218a.jpg",
+            "alt": "Object Number: 2422653  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 10,
+          "text": "Install immobiliser control unit to steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure integral clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Install bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Slide on"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Install locking ring",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Install lower cover to steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 3x screw"
+            },
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Connect 2x harness connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Install upper cover to steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 6x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Install steering wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Apply locking compound"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Connect horn to combination switch assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Connect harness connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Install air bag unit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x screw 7 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Connect harness connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 18,
+          "text": "Connect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure bolt, nut"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure windscreen wash bottle"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Program all volatile memories",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install air bag unit",
+      "value": "7",
+      "unit": "Nm",
+      "stepRef": 17
+    },
+    {
+      "component": "Install 2x screw 7 Nm",
+      "value": "7",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Disconnect harness connector\n Illustration\nshows steering wheel removed for clarity"
+  ]
+}

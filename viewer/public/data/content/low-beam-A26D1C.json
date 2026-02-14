@@ -1,0 +1,95 @@
+{
+  "type": "harness_diagram",
+  "id": "low-beam-A26D1C",
+  "title": "low-beam-A26D1C",
+  "diagram": {
+    "src": "/data/assets/f54803730b92.cgm",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "E22",
+      "description": "Headlamp - Left"
+    },
+    {
+      "code": "E22.1",
+      "description": "Low beam"
+    },
+    {
+      "code": "K2",
+      "description": "Relay - High beam"
+    },
+    {
+      "code": "E22.2",
+      "description": "High beam"
+    },
+    {
+      "code": "K19",
+      "description": "Relay - Low beam"
+    },
+    {
+      "code": "E22.3",
+      "description": "Turn signal lamp"
+    },
+    {
+      "code": "K20",
+      "description": "Relay - Parking lamp"
+    },
+    {
+      "code": "E22.4",
+      "description": "Parking lamp"
+    },
+    {
+      "code": "S2",
+      "description": "Switch unit - Light"
+    },
+    {
+      "code": "E23",
+      "description": "Headlamp - Right"
+    },
+    {
+      "code": "S3",
+      "description": "Switch unit - Steering column"
+    },
+    {
+      "code": "E23.1",
+      "description": "Low beam"
+    },
+    {
+      "code": "S3.1",
+      "description": "Switch - High beam"
+    },
+    {
+      "code": "E23.2",
+      "description": "High beam"
+    },
+    {
+      "code": "S3.2",
+      "description": "Switch - Turn signal"
+    },
+    {
+      "code": "E23.3",
+      "description": "Turn signal lamp"
+    },
+    {
+      "code": "S3.3",
+      "description": "Switch - Headlamp flash"
+    },
+    {
+      "code": "E23.4",
+      "description": "Parking lamp"
+    },
+    {
+      "code": "S4",
+      "description": "Switch - Parking lamp"
+    },
+    {
+      "code": "X17",
+      "description": "Main harness & Switch unit - Steering column"
+    },
+    {
+      "code": "X18",
+      "description": "Main harness & Switch unit - Steering column"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "type": "generic",
+  "id": "requirements-at-the-measurement-point-A26D1C",
+  "title": "Requirements at the measurement point",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Requirements at the measurement point</p>\n\n<p>The measurement point must meet certain requirements to allow\nprecise alignment and setting. The reproducibility of measurement\nvalues is also ensured in this way.</p>\n\n<p>It is very important that the wheel contact points of the\nmeasurement plate are height-aligned to each other. This is usually\nchecked with a visual levelling device.</p>\n\n<p>The permitted height difference between the left and right side\nis max. 1 mm, between front and rear and diagonal max. 2 mm. The\nlift must be adjustable in three working heights with this\ndimensional accuracy.</p>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "extractedData": {}
+}

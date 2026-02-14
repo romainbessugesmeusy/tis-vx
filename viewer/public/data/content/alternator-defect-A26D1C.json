@@ -1,0 +1,30 @@
+{
+  "type": "tsb",
+  "id": "alternator-defect-A26D1C",
+  "title": "Field Remedy: 2513",
+  "subject": "Alternator - Defect",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "N - Electrical Equipment",
+    "complaintGroup": "04 - Electrical failures",
+    "troubleCode": "None"
+  },
+  "complaint": "Battery discharged and/or alternator control\nindicator illuminates.",
+  "cause": "Battery or alternator defective.",
+  "production": "",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "Note: Before replacing alternator the following check has to be \n      carried out."
+    },
+    {
+      "type": "text",
+      "text": "In case of customer complaint the alternator has to be checked\naccording TIS2Web service instruction e.g. Model Corsa-D, Astra-H."
+    },
+    {
+      "type": "text",
+      "text": "Use group J Engine and Engine Aggregates->\n Engine Electrics->\n \nAlternator->\n Repair Instruction->\n Test battery/alternator."
+    }
+  ]
+}

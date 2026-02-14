@@ -1,0 +1,57 @@
+{
+  "type": "tool_list",
+  "id": "special-service-tools-z-20-let-AQS315",
+  "title": "Special Service Tools (Z 20 LET)",
+  "group": null,
+  "tools": [
+    {
+      "code": "KM-135",
+      "name": "Adapter",
+      "description": null
+    },
+    {
+      "code": "KM-2355",
+      "name": "T55 Wrench",
+      "description": null
+    },
+    {
+      "code": "KM-422",
+      "name": "Installer",
+      "description": null
+    },
+    {
+      "code": "KM-427",
+      "name": "Remover/Installer",
+      "description": null
+    },
+    {
+      "code": "KM-6054",
+      "name": "Adapter",
+      "description": null
+    },
+    {
+      "code": "KM-635",
+      "name": "Installer",
+      "description": null
+    },
+    {
+      "code": "KM-726-A",
+      "name": "Oil Filter Wrench",
+      "description": null
+    },
+    {
+      "code": "KM-845",
+      "name": "Suction Device",
+      "description": null
+    },
+    {
+      "code": "KM-853",
+      "name": "Locking Tool",
+      "description": null
+    }
+  ],
+  "image": {
+    "src": "/data/assets/images/7e1ff09eca1f.jpg",
+    "alt": "Object Number: 2422715  Size: DEFAULT"
+  }
+}

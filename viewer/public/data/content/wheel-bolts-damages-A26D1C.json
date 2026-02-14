@@ -1,0 +1,146 @@
+{
+  "type": "tsb",
+  "id": "wheel-bolts-damages-A26D1C",
+  "title": "Field Remedy: 2272",
+  "subject": "Wheel bolts - Damages",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "E - Front wheel suspension/Wheels/Tyres",
+    "complaintGroup": "01 - Broken or Cracked,02 - Chafing,11 -\nLoose or Comes off",
+    "troubleCode": "None"
+  },
+  "complaint": "Damages of wheel bolts due to none\ncompliance of working procedure.",
+  "cause": "",
+  "production": "",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "Before mounting the wheels the contact surfaces of the brake discs/\nbrake drums and the rims have to be cleaned with a steel brush. Both \ncontact surfaces have to be free of grease, only around the centering \nit is allowed to slightly grease."
+    },
+    {
+      "type": "text",
+      "text": "Before each mounting operation of the wheel bolts/nuts the cone has to \nbe cleaned up with a clean cloth."
+    },
+    {
+      "type": "text",
+      "text": "Note:\nWheel bolts which require grease on the cone need to be replaced if \nthey have be mounted several times without grease. It has to be taken \ncare that no grease is on the bolt thread."
+    },
+    {
+      "type": "text",
+      "text": "Antara:          Torque = 140 Nm / Cone = no grease"
+    },
+    {
+      "type": "text",
+      "text": "Opel GT:         Torque = 140 Nm / Cone = grease"
+    },
+    {
+      "type": "text",
+      "text": "Agila A:         up to MY 2004 (wheel nuts) \n                 Torgue = 85 Nm / Cone = grease\n                 from MY 2004 (wheel bolts) \n                 Torque = 110 Nm / Cone = grease"
+    },
+    {
+      "type": "text",
+      "text": "Agila B:         (version wheel bolts) \n                 Torque = 85 Nm / Cone = no grease"
+    },
+    {
+      "type": "text",
+      "text": "Vivaro:          Torque = 140 Nm / Cone = no grease"
+    },
+    {
+      "type": "text",
+      "text": "Movano A:        up to 2001.5 MY (15\" Wheels, wheel nuts)\n                 Torque = 150 Nm / Cone = no grease"
+    },
+    {
+      "type": "text",
+      "text": "Movano A:        from 2001.5 MY (16\" Wheels, wheel bolts)\n                 Torque = 170 Nm / Cone = no grease"
+    },
+    {
+      "type": "text",
+      "text": "Movano B:        Front Wheel Drive (wheel bolts)\n                 Torque = 170 Nm / Cone = no grease"
+    },
+    {
+      "type": "text",
+      "text": "Movano B:        Rear Wheel Drive with Single Rear Wheel (wheel bolts)\n                 Torque = 260 Nm / Cone = no grease"
+    },
+    {
+      "type": "text",
+      "text": "Movano B:        Rear Wheel Drive with Twin Rear Wheel (wheel nuts)\n                 Torque = 230 Nm / Cone = no grease"
+    },
+    {
+      "type": "text",
+      "text": "Insignia:        Torque = 150 Nm / Cone = no grease"
+    },
+    {
+      "type": "text",
+      "text": "Astra J:         Torque = 140 Nm / Cone = no grease"
+    },
+    {
+      "type": "text",
+      "text": "Astra G:         Torque = 110 Nm / Cone = grease"
+    },
+    {
+      "type": "text",
+      "text": "Astra H:         Torque = 110 Nm / Cone = grease"
+    },
+    {
+      "type": "text",
+      "text": "Corsa C:         Torque = 110 Nm / Cone = grease"
+    },
+    {
+      "type": "text",
+      "text": "Corsa C Combo:   Torque = 110 Nm / Cone = grease"
+    },
+    {
+      "type": "text",
+      "text": "Corsa D:         Torque = 110 Nm / Cone = grease"
+    },
+    {
+      "type": "text",
+      "text": "Meriva:          Torque = 110 Nm / Cone = grease"
+    },
+    {
+      "type": "text",
+      "text": "Meriva B:        Torque = 110 Nm / Cone = grease"
+    },
+    {
+      "type": "text",
+      "text": "Signum:          Torque = 110 Nm / Cone = grease"
+    },
+    {
+      "type": "text",
+      "text": "Tigra B:         Torque = 110 Nm / Cone = grease"
+    },
+    {
+      "type": "text",
+      "text": "Vectra C:        Torque = 110 Nm / Cone = grease"
+    },
+    {
+      "type": "text",
+      "text": "Zafira A:        Torque = 110 Nm / Cone = grease"
+    },
+    {
+      "type": "text",
+      "text": "Zafira B:        Torque = 110 Nm / Cone = grease"
+    },
+    {
+      "type": "text",
+      "text": "Frontera A:      Torque = 110 Nm / Cone = grease (steel wheels)\n                 Torque = 120 Nm / Cone = grease (alloy wheels)"
+    },
+    {
+      "type": "text",
+      "text": "Frontera B:      Torque = 118 Nm / Cone = grease"
+    },
+    {
+      "type": "text",
+      "text": "Campo:           Torque = 118 Nm / Cone = grease"
+    },
+    {
+      "type": "text",
+      "text": "Sintra:          Torque = 140 Nm / Cone = grease"
+    },
+    {
+      "type": "text",
+      "text": "Note: \nFor further models or information please refer to TIS2Web information."
+    }
+  ]
+}

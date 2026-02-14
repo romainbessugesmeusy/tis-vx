@@ -1,0 +1,49 @@
+{
+  "type": "diagnostic",
+  "id": "exhaust-gas-recirculation-valve-z22se-my-2002-my-2003-and-my-A26D1C",
+  "title": "Exhaust Gas Recirculation Valve, Z22SE (MY 2002,\nMY 2003 and MY 2004)",
+  "steps": [
+    {
+      "number": 1,
+      "text": "Download Reference curve."
+    },
+    {
+      "number": 2,
+      "text": "For this test it is necessary to drive the\nvehicle."
+    },
+    {
+      "number": 3,
+      "text": "Start the engine and drive the vehicle slowly in\nfirst gear (Automatic Transmission in 1)."
+    },
+    {
+      "number": 4,
+      "text": "Alternate the engine speed between 1500 and 2500\nrevs/min in partial load to allow the Exhaust Gas Recirculation\nvalve to be actuated."
+    },
+    {
+      "number": 1,
+      "text": "Download Setup file (the Tech 32 uses only Setup\nfiles, no reference curves)."
+    },
+    {
+      "number": 2,
+      "text": "For this test it is necessary to drive the\nvehicle."
+    },
+    {
+      "number": 3,
+      "text": "Start the engine and drive the vehicle slowly in\nfirst gear (Automatic Transmission in 1)."
+    },
+    {
+      "number": 4,
+      "text": "Alternate the engine speed between 1500 and 2500\nrevs/min in partial load to allow the Exhaust Gas Recirculation\nvalve to be actuated."
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/2bee55b2e94d.jpg",
+      "alt": "Object Number: 2419110  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/695af475e495.jpg",
+      "alt": "Object Number: 2419111  Size: DEFAULT"
+    }
+  ]
+}

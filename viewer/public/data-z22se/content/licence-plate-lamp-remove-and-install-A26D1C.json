@@ -1,0 +1,40 @@
+{
+  "type": "procedure",
+  "id": "licence-plate-lamp-remove-and-install-A26D1C",
+  "title": "Licence Plate Lamp, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "License plate lamp from rear clam shell – screws.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Harness from license plate lamp.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Harness to license plate lamp.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "License plate lamp to rear clam shell – screws.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

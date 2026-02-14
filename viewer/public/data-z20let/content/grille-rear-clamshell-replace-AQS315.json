@@ -1,0 +1,87 @@
+{
+  "type": "procedure",
+  "id": "grille-rear-clamshell-replace-AQS315",
+  "title": "Grille, Rear Clamshell, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove rear clamshell - see operation “Rear Clamshell, Remove and Install”",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Roughly cut out rear grille (1) from rear clamshell (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use suitable tool"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/50db61f86896.jpg",
+            "alt": "Object Number: 2422954  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Cut off grille flange from rear clamshell",
+          "image": {
+            "src": "/data/assets/images/50db61f86896.jpg",
+            "alt": "Object Number: 2422954  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Cut off residues",
+          "image": {
+            "src": "/data/assets/images/50db61f86896.jpg",
+            "alt": "Object Number: 2422954  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Trim down adhesive beads",
+          "image": {
+            "src": "/data/assets/images/50db61f86896.jpg",
+            "alt": "Object Number: 2422954  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 6,
+          "text": "Install new rear grille to clamshell",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use suitable bonding adhesive"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Install rear clamshell - see operation “Rear Clamshell, Remove and Install”",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Observe manufacturers\ninstructions for curing time of bonding adhesive."
+  ]
+}

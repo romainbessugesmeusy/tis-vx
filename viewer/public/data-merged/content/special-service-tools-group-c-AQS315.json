@@ -1,0 +1,37 @@
+{
+  "type": "tool_list",
+  "id": "special-service-tools-group-c-AQS315",
+  "title": "Special Service Tools - Group C",
+  "group": "C",
+  "tools": [
+    {
+      "code": "KM-210-B",
+      "name": "Puller",
+      "description": null
+    },
+    {
+      "code": "MKM-641",
+      "name": "Suction Lifter",
+      "description": null
+    },
+    {
+      "code": "KM-799-B",
+      "name": "Deployment Unit for Airbag Unit",
+      "description": null
+    },
+    {
+      "code": "MKM-846-1P",
+      "name": "Oscillating Knife",
+      "description": null
+    },
+    {
+      "code": "KM-2063/MKM-589-C",
+      "name": "Cutting wire",
+      "description": null
+    }
+  ],
+  "image": {
+    "src": "/data/assets/images/ca22ba3cf40c.jpg",
+    "alt": "Object Number: 2422229  Size: DEFAULT"
+  }
+}

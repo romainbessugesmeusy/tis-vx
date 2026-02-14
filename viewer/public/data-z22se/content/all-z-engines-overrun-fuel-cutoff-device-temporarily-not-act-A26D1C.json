@@ -1,0 +1,26 @@
+{
+  "type": "tsb",
+  "id": "all-z-engines-overrun-fuel-cutoff-device-temporarily-not-act-A26D1C",
+  "title": "Field Remedy: 1529",
+  "subject": "All Z engines - Overrun fuel cutoff device\ntemporarily not active",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "19 - Poor Engine Driveability",
+    "troubleCode": "None"
+  },
+  "complaint": "Temporary no overrun.",
+  "cause": "Normal engine caracteristic.",
+  "production": "",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "In case of complaint inform the customer about the modified engine\ncharacteristic to protect the catalytic converter. Since introduction of\nthe EOBD functionality (MY 2001) the engine management of all Z-engines\nwas adapted as follows:"
+    },
+    {
+      "type": "text",
+      "text": "When the catalytic converter reaches a critical temperature the overrun\nfuel cut-off device will be deactivated to avoid early ageing of the cat.\nThis happens especially in lean combustion operation e.g. in overrun\ncondition after high speed drive. The a.m. description is also included\nin the owners manual since Vectra-C (page 181) and will be introduced for\nall other carlines step by step."
+    }
+  ]
+}

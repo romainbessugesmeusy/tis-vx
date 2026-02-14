@@ -1,0 +1,235 @@
+{
+  "type": "procedure",
+  "id": "main-shaft-disassemble-and-reassemble-A26D1C",
+  "title": "Main Shaft, Disassemble and Reassemble",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Illustration of main shaft",
+          "image": {
+            "src": "/data/assets/images/c884c579946a.jpg",
+            "alt": "Object Number: 2417568  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove main shaft - see operation \"Main Shaft, Remove and Install\"",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Press 4th gear (4) from main shaft using KM-6220 (1), KM-6223-1 (2), and KM-6223-2 (3)",
+          "image": {
+            "src": "/data/assets/images/705ff65cf13d.jpg",
+            "alt": "Object Number: 2417577  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Press 3rd gear (4) from main shaft (5) using KM-6220 (1), KM-6223-1 (2), and KM-6224 (3)",
+          "image": {
+            "src": "/data/assets/images/13176a379aa8.jpg",
+            "alt": "Object Number: 2417578  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "5",
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Check wearing parts for damage and replace as necessary",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Remove 5th gear (2) and 5th gear synchroniser ring (1) from main shaft (3)",
+          "image": {
+            "src": "/data/assets/images/6381e42f48c1.jpg",
+            "alt": "Object Number: 2417579  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1",
+            "3"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Remove 2x needle roller bearing (4, 5) from bushing",
+          "image": {
+            "src": "/data/assets/images/6381e42f48c1.jpg",
+            "alt": "Object Number: 2417579  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Check wearing parts for damage and replace as necessary Note: Ball (1), slider (2) are under spring tension. When removing shift sleeve (4), ensure that ball, slider, and spring (3) are not lost",
+          "image": {
+            "src": "/data/assets/images/b084a665044b.jpg",
+            "alt": "Object Number: 2417580  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2",
+            "4",
+            "3"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Press reverse gear (6) with pressure comb (8), needle roller bearing (7), reverse synchroniser ring (5), synchromesh body for 5th-/reverse gear (4) and bushing (3) from main shaft (9) using KM-6220 (1) and KM-6221 (2)",
+          "image": {
+            "src": "/data/assets/images/5ff556f05218.jpg",
+            "alt": "Object Number: 2417581  Size: DEFAULT"
+          },
+          "callouts": [
+            "6",
+            "8",
+            "7",
+            "5",
+            "4",
+            "3",
+            "9",
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Check all parts for damage and replace damaged parts as necessary.",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Assemble syncromesh",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Spring"
+            },
+            {
+              "bullet": "•",
+              "text": "(II) Clamp main shaft in vice - use protective jaws. Slide"
+            },
+            {
+              "bullet": "•",
+              "text": "(III) Push slider slightly upwards. Press ball against spring"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3b34b50fe799.jpg",
+            "alt": "Object Number: 2415570  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 12,
+          "text": "Install pressure comb (11), reverse gear (9) and needle roller bearing (10) to main shaft (3)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ensure that needle roller bearing is not damaged"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0faddd8eb473.jpg",
+            "alt": "Object Number: 2417590  Size: DEFAULT"
+          },
+          "callouts": [
+            "11",
+            "9",
+            "10",
+            "3"
+          ]
+        },
+        {
+          "number": 13,
+          "text": "Install reverse gear synchroniser ring (8), 5th /reverse gear synchromesh body (7) and 5th gear synchroniser ring (6) on main shaft",
+          "image": {
+            "src": "/data/assets/images/0faddd8eb473.jpg",
+            "alt": "Object Number: 2417590  Size: DEFAULT"
+          },
+          "callouts": [
+            "8",
+            "7",
+            "6"
+          ]
+        },
+        {
+          "number": 14,
+          "text": "Install 5th gear (4) and needle roller bearing (5) to main shaft",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ensure that needle roller bearing is not damaged"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0faddd8eb473.jpg",
+            "alt": "Object Number: 2417590  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "number": 15,
+          "text": "Press 3rd gear onto main shaft using KM-514",
+          "image": {
+            "src": "/data/assets/images/0faddd8eb473.jpg",
+            "alt": "Object Number: 2417590  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 16,
+          "text": "Press 4th gear (2) onto main shaft (3) using KM-6219 (1)",
+          "image": {
+            "src": "/data/assets/images/fc17f9f748c5.jpg",
+            "alt": "Object Number: 2417591  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "3",
+            "1"
+          ]
+        },
+        {
+          "number": 17,
+          "text": "Install main shaft - see operation \"Main Shaft, Remove and Install\"",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "toolsRequired": [
+    "KM-6220",
+    "KM-6223-1",
+    "KM-6223-2",
+    "KM-6224",
+    "KM-6221",
+    "KM-514",
+    "KM-6219"
+  ],
+  "warnings": [
+    "If gears are damaged,\nalways replace entire main shaft assembly. Obtain appropriate\nrepair kits for synchroniser assembly from Aftersales",
+    "High pressure force is\nneeded. Observe operating instructions for shop press"
+  ],
+  "notes": [
+    "Check wearing parts for damage and replace as necessary\n Ball (1), slider\n(2) are under spring tension. When removing shift sleeve (4),\nensure that ball, slider, and spring (3) are not lost"
+  ]
+}

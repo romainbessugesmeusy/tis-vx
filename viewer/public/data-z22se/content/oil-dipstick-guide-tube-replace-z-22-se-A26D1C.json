@@ -1,0 +1,196 @@
+{
+  "type": "procedure",
+  "id": "oil-dipstick-guide-tube-replace-z-22-se-A26D1C",
+  "title": "Oil Dipstick Guide Tube, Replace (Z 22 SE)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Open the bonnet.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Disconnect the battery.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Open the rear engine cover (1).",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Detach the rear engine cover.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "6 bolts (2) and (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Undo the bolts on the oil dipstick guide tube (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull out the oil dipstick (1)."
+            },
+            {
+              "bullet": "•",
+              "text": "1 bolt (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/839872b80755.jpg",
+            "alt": "Object Number: 2416675  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Remove the oil dipstick guide tube.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Detach the knock sensor wiring harness connector."
+            },
+            {
+              "bullet": "•",
+              "text": "Pull the oil dipstick guide tube out from the oil pan and take"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/839872b80755.jpg",
+            "alt": "Object Number: 2416675  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 7,
+          "text": "Insert the oil dipstick guide tube.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Coat the oil seals with silicone grease (white)."
+            },
+            {
+              "bullet": "•",
+              "text": "Insert the oil dipstick guide tube as far as the stop into the"
+            },
+            {
+              "bullet": "•",
+              "text": "Attach the knock sensor wiring harness connector."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Attach the oil dipstick guide tube.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Insert the oil dipstick."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install the rear engine cover.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Check the alignment."
+            },
+            {
+              "bullet": "•",
+              "text": "6 bolts, tightening torque 14 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Close the rear engine cover.",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Connect the battery.",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Close the bonnet.",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Reprogram the volatile memories.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Attach the oil dipstick guide tube.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Install the rear engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

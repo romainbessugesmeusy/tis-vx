@@ -1,0 +1,70 @@
+{
+  "type": "procedure",
+  "id": "clutch-master-cylinder-remove-and-install-A26D1C",
+  "title": "Clutch Master Cylinder, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Hydraulic lines (arrowed) from master cylinder.",
+          "image": {
+            "src": "/data/assets/images/82dfa97adf52.jpg",
+            "alt": "Object Number: 2429836  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Pin from brake pedal and push rod of master cylinder – clip, washers.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Master cylinder from support bracket – nuts.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Master cylinder to support bracket – new nuts 20 Nm .",
+          "image": {
+            "src": "/data/assets/images/82dfa97adf52.jpg",
+            "alt": "Object Number: 2429836  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Pin to brake pedal and push rod of master cylinder – washers, clip.",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Hydraulic lines (arrowed) to master cylinder.",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Bleed clutch hydraulics – see operation \"Hydraulic Clutch, Bleed\".",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Master cylinder to support bracket – new nuts 20 Nm .",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 4
+    }
+  ]
+}

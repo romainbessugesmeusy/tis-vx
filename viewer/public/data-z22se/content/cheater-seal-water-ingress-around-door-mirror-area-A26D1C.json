@@ -1,0 +1,40 @@
+{
+  "type": "tsb",
+  "id": "cheater-seal-water-ingress-around-door-mirror-area-A26D1C",
+  "title": "Field Remedy: 1684",
+  "subject": "Cheater seal - Water ingress around door\nmirror area",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "A - Body",
+    "complaintGroup": "10 - Leakages",
+    "troubleCode": "None"
+  },
+  "complaint": "Water ingress around door mirror area into\nvehicle.",
+  "cause": "Inefficient sealing around the door mirror\narea.",
+  "production": "As of VIN W0L0EBR973N007089 a new modified\ncheater seal has been introduced in production.",
+  "remedyContent": [
+    {
+      "type": "paragraph",
+      "text": "In case of customer complaint replace the old cheater seal\nagainst the new improved cheater seal."
+    }
+  ],
+  "parts": [
+    {
+      "name": "Gutter Seal Extrusion",
+      "partNumber": "93182346",
+      "catalogueNumber": "48 01 675"
+    },
+    {
+      "name": "Cheater Seal",
+      "partNumber": "93181845",
+      "catalogueNumber": "48 01 674"
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/0978f58480cc.jpg",
+      "alt": "Object Number: 8132515  Size: DEFAULT"
+    }
+  ]
+}

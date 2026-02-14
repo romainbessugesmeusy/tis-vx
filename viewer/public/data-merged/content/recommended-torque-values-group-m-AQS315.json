@@ -1,0 +1,33 @@
+{
+  "type": "torque_table",
+  "id": "recommended-torque-values-group-m-AQS315",
+  "title": "Recommended Torque Values - Group M",
+  "group": "M",
+  "values": [
+    {
+      "component": "Steering column lower mounting bolt",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Steering column pinch bolt",
+      "value": "35",
+      "unit": "Nm"
+    },
+    {
+      "component": "Steering column upper mounting bolts",
+      "value": "25",
+      "unit": "Nm"
+    },
+    {
+      "component": "Steering wheel assembly to steering column nut",
+      "value": "25",
+      "unit": "Nm"
+    },
+    {
+      "component": "Wheel bolts",
+      "value": "90",
+      "unit": "Nm"
+    }
+  ]
+}

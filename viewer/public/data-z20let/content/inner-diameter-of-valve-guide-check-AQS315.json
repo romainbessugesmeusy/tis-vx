@@ -1,0 +1,121 @@
+{
+  "type": "procedure",
+  "id": "inner-diameter-of-valve-guide-check-AQS315",
+  "title": "Inner diameter of valve guide, check",
+  "phases": [
+    {
+      "phase": "assemble",
+      "label": "Assemble",
+      "icon": "/data/assets/images/1e33bc0b1f5e.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Preconditions: Valves removed.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Special service tools required:",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "MKM-6216, MKM-6216-200/300/400",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Note: The engine-specific values can be found in the corresponding \"Technical Data\".",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "The components of the dial gauge must be assembled according to the following instructions.",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Insert extension (3) in holder (2) and fasten. Insert internal caliper (4) in extension and fasten. Attach holder with extension and internal caliper to the dial gauge (1) with approx. 1 mm pretension and fasten. Fit calibration disc (5) for adjusting the dial gauge onto the internal caliper. Adjust dial gauge to Zero by turning dial. Carefully remove calibration disc.",
+          "image": null,
+          "callouts": [
+            "3",
+            "2",
+            "4",
+            "1",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "measure",
+      "label": "Measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": [
+        {
+          "number": 7,
+          "text": "Determine inner diameter of valve guide at three different levels, note values. Calculate mean value.",
+          "image": {
+            "src": "/data/assets/images/6bca28e792af.jpg",
+            "alt": "Object Number: 2418494  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Calculation example:",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Inner diameter of valve guide:",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Measurement I",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "7.025 mm",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Measurement II",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "7.030 mm",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Measurement III",
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "7.020 mm",
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "21.075 mm",
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "7.025 mm",
+          "image": null
+        },
+        {
+          "number": 18,
+          "text": "Mean value = 7.025",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "type": "procedure",
+  "id": "cover-intermediate-shaft-replace-A26D1C",
+  "title": "Cover, Intermediate Shaft, Replace",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Illustration of cover, intermediate shaft",
+          "image": {
+            "src": "/data/assets/images/0d0643e1e0d9.jpg",
+            "alt": "Object Number: 2415588  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove transmission from vehicle - see operation \"Transmission, Remove and Install\"",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Install KM-6115 (3) to transmission (4)",
+          "image": {
+            "src": "/data/assets/images/07cad7c861f7.jpg",
+            "alt": "Object Number: 2415610  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "4"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Install KM-6115 (5) with transmission to KM-113-2 (2)",
+          "image": {
+            "src": "/data/assets/images/07cad7c861f7.jpg",
+            "alt": "Object Number: 2415610  Size: DEFAULT"
+          },
+          "callouts": [
+            "5",
+            "2"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Drive a hole (3) through the centre of intermediate shaft cover (2) using suitable drift (1)",
+          "image": {
+            "src": "/data/assets/images/4b2c78bde678.jpg",
+            "alt": "Object Number: 2415601  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Drive KM-6101 (4) in conjunction with KM-328-B (5) flush with intermediate shaft cover",
+          "image": {
+            "src": "/data/assets/images/4b2c78bde678.jpg",
+            "alt": "Object Number: 2415601  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Drive intermediate shaft cover from transmission",
+          "image": {
+            "src": "/data/assets/images/4b2c78bde678.jpg",
+            "alt": "Object Number: 2415601  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Remove fluid spout from transmission",
+          "image": {
+            "src": "/data/assets/images/7873b4edb969.jpg",
+            "alt": "Object Number: 2415600  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Clean all parts",
+          "image": {
+            "src": "/data/assets/images/7873b4edb969.jpg",
+            "alt": "Object Number: 2415600  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Check condition of fluid spout, replace if necessary",
+          "image": {
+            "src": "/data/assets/images/7873b4edb969.jpg",
+            "alt": "Object Number: 2415600  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 11,
+          "text": "Install fluid spout (4) to transmission",
+          "image": {
+            "src": "/data/assets/images/7873b4edb969.jpg",
+            "alt": "Object Number: 2415600  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ]
+        },
+        {
+          "number": 12,
+          "text": "Drive intermediate shaft cover (3) flush with transmission using KM-6102 (2) in conjunction with KM-523-1 (1)",
+          "image": {
+            "src": "/data/assets/images/7873b4edb969.jpg",
+            "alt": "Object Number: 2415600  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 13,
+          "text": "Remove KM-6115 with transmission from KM-113-2",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Remove KM-6115 from transmission",
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Install transmission - see operation \"Transmission, Remove and Install\"",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "toolsRequired": [
+    "KM-6115",
+    "KM-113-2",
+    "KM-6101",
+    "KM-328-B",
+    "KM-6102",
+    "KM-523-1"
+  ]
+}

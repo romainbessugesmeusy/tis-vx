@@ -1,0 +1,40 @@
+{
+  "type": "procedure",
+  "id": "fuel-pump-replace-A26D1C",
+  "title": "Fuel Pump, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Fuel tank from vehicle – see operation \"Fuel Tank, Remove and Install\".",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Fuel pump from fuel tank – locking ring.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Fuel pump to fuel tank – locking ring.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Fuel tank to vehicle – see operation \"Fuel Tank, Remove and Install\".",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

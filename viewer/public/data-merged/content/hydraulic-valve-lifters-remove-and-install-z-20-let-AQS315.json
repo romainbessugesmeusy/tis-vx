@@ -1,0 +1,55 @@
+{
+  "type": "procedure",
+  "id": "hydraulic-valve-lifters-remove-and-install-z-20-let-AQS315",
+  "title": "Hydraulic Valve Lifters, Remove and Install (Z 20\nLET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove camshafts - see operation \"Camshaft, Replace (Z 20 LET)\".",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove hydraulic valve lifters from cylinder head with KM-845 .",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Lay hydraulic valve lifters aside in correct order, to ensure that the hydraulic valve lifters can be allocated to their valves on installation.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Coat hydraulic valve lifter with engine oil and insert in cylinder head in correct sequence.",
+          "image": {
+            "src": "/data/assets/images/2f2e0ce1f0c8.jpg",
+            "alt": "Object Number: 2397742  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Install camshafts - see operation \"Camshaft, Replace (Z 20 LET)l\".",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

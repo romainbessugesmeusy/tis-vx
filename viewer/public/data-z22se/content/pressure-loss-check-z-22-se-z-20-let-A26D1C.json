@@ -1,0 +1,228 @@
+{
+  "type": "procedure",
+  "id": "pressure-loss-check-z-22-se-z-20-let-A26D1C",
+  "title": "Pressure Loss, Check (Z 22 SE, Z 20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Engine at operating temperature (minimum oil temperature 80 °C ).",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Direct ignition module – see operation \"Direct Ignition Module, Remove and Install\".",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Use KM-194-E spark plugs.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Air intake hose from throttle valve housing.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Cap from oil filler opening.",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Oil dipstick.",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Filler cap from coolant reservoir.",
+          "image": null
+        },
+        {
+          "number": 23,
+          "text": "Pressure loss tester from adapter.",
+          "image": null
+        },
+        {
+          "number": 24,
+          "text": "Pressure loss tester from compressed air system.",
+          "image": null
+        },
+        {
+          "number": 25,
+          "text": "Adapter from spark plug bore.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 8,
+          "text": "Adapter into spark plug bore of cylinder no. 1.",
+          "image": {
+            "src": "/data/assets/images/ad802ad2cd14.jpg",
+            "alt": "Object Number: 2429832  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Connect the pressure loss tester to the compressed air system and calibrate.",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Pressure loss tester to adapter.",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Important: Follow the manufacturer's instructions.",
+          "image": null
+        },
+        {
+          "number": 26,
+          "text": "Filler cap onto coolant reservoir.",
+          "image": null
+        },
+        {
+          "number": 27,
+          "text": "Oil dipstick.",
+          "image": null
+        },
+        {
+          "number": 28,
+          "text": "Cap onto oil filler opening.",
+          "image": null
+        },
+        {
+          "number": 29,
+          "text": "Air intake hose to throttle valve housing.",
+          "image": null
+        },
+        {
+          "number": 30,
+          "text": "Use KM-194-E , 25 Nm spark plugs.",
+          "image": null
+        },
+        {
+          "number": 31,
+          "text": "Direct ignition module – see operation \"Direct Ignition Module, Remove and Install\".",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "adjust",
+      "label": "Adjust",
+      "icon": "/data/assets/images/8bcc88ed08ca.gif",
+      "steps": [
+        {
+          "number": 12,
+          "text": "Set the piston of cylinder no. 1 to TDC of the compression stroke – rotate the crankshaft in the normal direction of rotation until the markings line up.",
+          "image": {
+            "src": "/data/assets/images/ad802ad2cd14.jpg",
+            "alt": "Object Number: 2429832  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 13,
+          "text": "Rotate the crankshaft slowly and evenly.",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Warning!",
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "The crankshaft must not rotate during the individual cylinder tests – engage 1st gear and apply the handbrake.",
+          "image": null
+        },
+        {
+          "number": 18,
+          "text": "Mark TDC for each cylinder with a coloured marking on the belt pulley, and apply a further mark at an offset of a further 180° . Rotate the engine in the normal direction of operation until the next colour marking aligns with the marking on the timing case.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "measure",
+      "label": "Measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": [
+        {
+          "number": 16,
+          "text": "Pressure loss",
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Listen out for audible leakage of compressed air at the intake manifold, exhaust system, crankcase and spark plug bore, and look out for bubbles forming in the coolant expansion tank.",
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Pressure loss on all cylinders in firing sequence.",
+          "image": null
+        },
+        {
+          "number": 20,
+          "text": "Check each cylinder at TDC of the compression stroke.",
+          "image": null
+        },
+        {
+          "number": 21,
+          "text": "Maximum permissible pressure difference between individual cylinders – 10%.",
+          "image": null
+        },
+        {
+          "number": 22,
+          "text": "Maximum pressure loss per cylinder – 25%.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "adjust",
+      "label": "Adjust",
+      "icon": "/data/assets/images/8bcc88ed08ca.gif",
+      "steps": []
+    },
+    {
+      "phase": "measure",
+      "label": "Measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": []
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Use KM-194-E , 25 Nm spark plugs.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 30
+    }
+  ]
+}

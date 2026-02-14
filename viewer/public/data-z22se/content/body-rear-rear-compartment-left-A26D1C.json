@@ -1,0 +1,31 @@
+{
+  "type": "harness_diagram",
+  "id": "body-rear-rear-compartment-left-A26D1C",
+  "title": "Body rear - Rear compartment, left",
+  "diagram": {
+    "src": "/data/assets/5aca00060fc3.cgm",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "E3",
+      "description": "Rear lamp unit - Left"
+    },
+    {
+      "code": "E10",
+      "description": "Lamp - Licence plate, left"
+    },
+    {
+      "code": "X5",
+      "description": "Main harness & Rear"
+    },
+    {
+      "code": "X7",
+      "description": "Main harness & Rear (Reversing lamp)"
+    },
+    {
+      "code": "X6",
+      "description": "Main harness & Rear (Fog lamp)"
+    }
+  ]
+}

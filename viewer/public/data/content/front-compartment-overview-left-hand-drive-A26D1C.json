@@ -1,0 +1,95 @@
+{
+  "type": "harness_diagram",
+  "id": "front-compartment-overview-left-hand-drive-A26D1C",
+  "title": "Front compartment - Overview",
+  "diagram": {
+    "src": "/data/assets/0f25f0a2e88f.cgm",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "A2",
+      "description": "Control unit - Anti-Lock Brake System"
+    },
+    {
+      "code": "E23",
+      "description": "Headlamp - Right"
+    },
+    {
+      "code": "B1",
+      "description": "Switch - Brake fluid"
+    },
+    {
+      "code": "H6",
+      "description": "Turn signal lamp - Side, left"
+    },
+    {
+      "code": "B25",
+      "description": "Sensor - Wheel speed, front, left"
+    },
+    {
+      "code": "H7",
+      "description": "Turn signal lamp - Side, right"
+    },
+    {
+      "code": "B26",
+      "description": "Sensor - Wheel speed, front, right"
+    },
+    {
+      "code": "M16",
+      "description": "Motor - Wiper, windscreen"
+    },
+    {
+      "code": "B48",
+      "description": "Power sounder - Anti-theft warning system"
+    },
+    {
+      "code": "M19",
+      "description": "Motor - Radiator fan"
+    },
+    {
+      "code": "B51",
+      "description": "Trumpet horn"
+    },
+    {
+      "code": "M26",
+      "description": "Pump - Washer, windscreen"
+    },
+    {
+      "code": "E18",
+      "description": "Fog lamp - Front, left"
+    },
+    {
+      "code": "S29",
+      "description": "Switch - Stop lamp, single"
+    },
+    {
+      "code": "E19",
+      "description": "Fog lamp - Front, right"
+    },
+    {
+      "code": "S43",
+      "description": "Switch - Stop lamp, double"
+    },
+    {
+      "code": "E22",
+      "description": "Headlamp - Left"
+    },
+    {
+      "code": "S126",
+      "description": "Switch - Front bonnet, anti-theft warning system"
+    },
+    {
+      "code": "X10",
+      "description": "Main harness & Interior fan"
+    },
+    {
+      "code": "X42",
+      "description": "Main harness & Extension harness, fog lamp, front right"
+    },
+    {
+      "code": "X41",
+      "description": "Main harness & Extension harness, fog lamp, front left"
+    }
+  ]
+}

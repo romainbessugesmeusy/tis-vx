@@ -1,0 +1,261 @@
+{
+  "type": "tsb",
+  "id": "toothed-belt-diagnosis-possible-causes-and-remedys-A26D1C",
+  "title": "Field Remedy: 1463",
+  "subject": "Toothed belt diagnosis - Possible causes\nand remedys",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "01 - Broken or Cracked,05 - Excessive\nwear,14 - Noises or Vibrations,24 - Wrong or not mounted",
+    "troubleCode": "Non"
+  },
+  "complaint": "",
+  "cause": "",
+  "production": "",
+  "remedyContent": [
+    {
+      "type": "paragraph",
+      "text": "Excessive drive noise from toothed belt drive (picture I)"
+    },
+    {
+      "type": "text",
+      "text": "Problem and cause:                         Remedy:"
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Side tension too high                      Adjust to correct tension",
+        "belt whines / squeals"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Side tension too low                       Adjust to correct tension\n     -belt strikes against cover"
+    },
+    {
+      "type": "paragraph",
+      "text": "Excessive adge wear (picture II)"
+    },
+    {
+      "type": "text",
+      "text": "Problem and cause:                         Remedy:"
+    },
+    {
+      "type": "text",
+      "text": "Belt not running parallel to axis          Align correctly\nand impacting against flanged pulley"
+    },
+    {
+      "type": "text",
+      "text": "Deflective flanged pulley                  Replace sprocket"
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Gearwheel misalign                         Align correctly",
+        "belt cannot run true"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Excessive fabric wear at base (picture III)"
+    },
+    {
+      "type": "text",
+      "text": "Problem and cause:                         Remedy:"
+    },
+    {
+      "type": "text",
+      "text": "Side tension too high                      Adjust to correct tension"
+    },
+    {
+      "type": "text",
+      "text": "Belt operating in excessive  heat          Identify problem and recify"
+    },
+    {
+      "type": "text",
+      "text": "Worn sprocket                              Replace sprocket"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tooth flank wear / roof fractores and tooth shear (picture\nIV)"
+    },
+    {
+      "type": "text",
+      "text": "Problem and cause:                         Remedy:"
+    },
+    {
+      "type": "text",
+      "text": "Side tension too high / low, leading       Adjust to correct tension\nto incorrect pitch ratios"
+    },
+    {
+      "type": "text",
+      "text": "Belt does not comply with permissible      Replace sprocket\nlength tolerance"
+    },
+    {
+      "type": "text",
+      "text": "Action of external media(e.g. oil)         Identify problem and recify"
+    },
+    {
+      "type": "text",
+      "text": "Sprocket / pulley jammed                   Identify problem and recify"
+    },
+    {
+      "type": "paragraph",
+      "text": "Separation of teeth and fabric from belt body (tension member)\n(picture V)"
+    },
+    {
+      "type": "text",
+      "text": "Problem and cause:                         Remedy:"
+    },
+    {
+      "type": "text",
+      "text": "Fabric damaged during installation         Fit new belts carefully"
+    },
+    {
+      "type": "text",
+      "text": "Action of external media                   Check cover if seated properly"
+    },
+    {
+      "type": "paragraph",
+      "text": "Damage on pulley side of belt (picture VI)"
+    },
+    {
+      "type": "text",
+      "text": "Problem and cause:                         Remedy:"
+    },
+    {
+      "type": "text",
+      "text": "Foreign object caught in belt drive        Remove foreign object, check \n                                           cover if seated properly"
+    },
+    {
+      "type": "text",
+      "text": "Damage to gearwheel teeth caused by        Replace sprocket\nforeign object or installation tool"
+    },
+    {
+      "type": "text",
+      "text": "Belt damaged prior to / during             Ensure proper installation\ninstallation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cracks in backing (picture VII)"
+    },
+    {
+      "type": "text",
+      "text": "Problem and cause:                         Remedy:"
+    },
+    {
+      "type": "text",
+      "text": "Exposure to excessive heat                 Identify problem and recify"
+    },
+    {
+      "type": "text",
+      "text": "Exposure to excessive low temperature      Identify problem and recify"
+    },
+    {
+      "type": "text",
+      "text": "Action of external media                   Check cover if seated proberly"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tearing of the belt (picture VIII)"
+    },
+    {
+      "type": "text",
+      "text": "Problem and cause:                          Remedy:"
+    },
+    {
+      "type": "text",
+      "text": "Foreign object caught in drive              Check cover if seated properly"
+    },
+    {
+      "type": "text",
+      "text": "Action of external media                    Check cover if seated properly"
+    },
+    {
+      "type": "text",
+      "text": "Initial tension too high                    Adjust to correct tension"
+    },
+    {
+      "type": "text",
+      "text": "Belt crimped prior to / during              Observe handling instruction\ninstallation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fault system component (picture IX)"
+    },
+    {
+      "type": "text",
+      "text": "Problem and cause:                          Remedy:"
+    },
+    {
+      "type": "text",
+      "text": "Bearing play                                Substitute idler pulley, tension \n                                            coil and/or guide roller"
+    },
+    {
+      "type": "text",
+      "text": "Damaged bearing surface                     Substitute idler pulley, tension \n                                            coil and/or guide roller"
+    },
+    {
+      "type": "text",
+      "text": "Fracture on fixing spot tension coil-oil pump (1,4 - 2.2 litre engines)\n(picture X)"
+    },
+    {
+      "type": "text",
+      "text": "Problem and cause:                          Remedy:"
+    },
+    {
+      "type": "text",
+      "text": "Wrong torque of tension coil on             Replace oil pump\nfixing spot of oil pump"
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "check the oil pump on each toothed belt check or each replace",
+        "interval and each toothed belt damage for cracks (arrows)."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/e1f7eb2d6d55.jpg",
+      "alt": "Object Number: 2435061  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/fc313eb824be.jpg",
+      "alt": "Object Number: 2435062  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/d87310409017.jpg",
+      "alt": "Object Number: 2435063  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/d29e24556de6.jpg",
+      "alt": "Object Number: 2435064  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/9fe81fcf567f.jpg",
+      "alt": "Object Number: 2435065  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/221ac8b5d6fb.jpg",
+      "alt": "Object Number: 2435066  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/ed4807018a62.jpg",
+      "alt": "Object Number: 2435067  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/490ebe545c26.jpg",
+      "alt": "Object Number: 2435068  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/6bb93a551caf.jpg",
+      "alt": "Object Number: 2435069  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/6afa33f01d17.jpg",
+      "alt": "Object Number: 2435070  Size: DEFAULT"
+    }
+  ]
+}

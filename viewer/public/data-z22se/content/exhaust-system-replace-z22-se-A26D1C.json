@@ -1,0 +1,253 @@
+{
+  "type": "procedure",
+  "id": "exhaust-system-replace-z22-se-A26D1C",
+  "title": "Exhaust System, Replace (Z22 SE)",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Raise vehicle",
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove exhaust undertray (2) from rear clamshell and engine undertray (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 8x bolt, 2x screw, 2x clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Remove lower heat shield (1) from exhaust manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x bolt and clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3f486bb0106f.jpg",
+            "alt": "Object Number: 2425114  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Remove oxygen sensor (1) from exhaust system",
+          "image": {
+            "src": "/data/assets/images/65a48b9fcc4f.jpg",
+            "alt": "Object Number: 2419053  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Remove oxygen sensor (1) from exhaust system",
+          "image": {
+            "src": "/data/assets/images/5a2fff6802e4.jpg",
+            "alt": "Object Number: 2419054  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Remove exhaust down pipe/catalytic converter assembly from exhaust manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 6x nut (1), 3x bolt, gasket"
+            },
+            {
+              "bullet": "•",
+              "text": "Release rubber mounting (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8b648c8f1091.jpg",
+            "alt": "Object Number: 2425116  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Remove intermediate exhaust pipe from rear silencer",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x nut, 2x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dad2d3b9abc4.jpg",
+            "alt": "Object Number: 2425118  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Remove right outer support bracket (1) from rear silencer and chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt, 2x nut"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/4ca900bd70d3.jpg",
+            "alt": "Object Number: 2425119  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Release left support bracket (1) from rear silencer, then remove rear silencer",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x nut"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8ad9dc84d5d9.jpg",
+            "alt": "Object Number: 2425120  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Clean all mating faces",
+          "image": {
+            "src": "/data/assets/images/8ad9dc84d5d9.jpg",
+            "alt": "Object Number: 2425120  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 11,
+          "text": "Install rear muffler to left outer support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "install 2x nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Install right outer support bracket to rear silencer and chassis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt, 2x nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Secure right and left outer support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tighten 2x bolt, 4x nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Install intermediate exhaust pipe to rear silencer",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x washer, 2x nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Install exhaust down pipe/catalytic converter assembly to exhaust manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install gasket, 3x bolt, 6x nut"
+            },
+            {
+              "bullet": "•",
+              "text": "Install mounting rubber"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Install 2x oxygen sensor to exhaust system",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x sensor"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Install lower heat shield to exhaust manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 3x bolt and clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 18,
+          "text": "Install exhaust undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 8x bolt, 2x screw 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Lower vehicle",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "install 2x nut\n To aid assembly,\ninitially install right and left support bracket in a loose\ncondition"
+  ]
+}

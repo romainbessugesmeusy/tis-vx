@@ -1,0 +1,16 @@
+{
+  "type": "tsb",
+  "id": "engine-z20let-poly-v-belt-comes-off-tears-AQS315",
+  "title": "Field Remedy: 1725",
+  "subject": "Engine Z20LET - Poly-V-belt comes off /\ntears",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "J - Engine,N - Electrical Equipment",
+    "complaintGroup": "01 - Broken or Cracked",
+    "troubleCode": "None"
+  },
+  "complaint": "Poly-V-belt comes off / tears.",
+  "cause": "On Speester Z20LET without A/C an idler is\ninstalled instead of the A/C compressor. The idler bracket design\ncauses an incorrect Poly-V- belt alignment.",
+  "production": "Implementation of a modified pulley bracket\n(moving the belt forward by 3.6mm) as of the following\nVIN/Engine-no.: BP: W0L0EBR973N007200 Engine-no.: Z20LET31024880;\nDate: 19.11.2003"
+}

@@ -1,0 +1,725 @@
+{
+  "type": "procedure",
+  "id": "coolant-pump-remove-and-install-z-22-se-A26D1C",
+  "title": "Coolant Pump, Remove and Install (Z 22 SE)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Open the bonnet.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Disconnect the battery.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Open the rear engine cover (1).",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Detach the rear engine cover.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "6 bolts (2) and (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Raise the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Remove the lower engine splash shield (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Place a drip tray underneath.",
+          "image": {
+            "src": "/data/assets/images/28966656352c.jpg",
+            "alt": "Object Number: 2412462  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Drain the coolant.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Open the coolant drain plug at the radiator and the coolant"
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 20 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/28966656352c.jpg",
+            "alt": "Object Number: 2412462  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Lower the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/28966656352c.jpg",
+            "alt": "Object Number: 2412462  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Detach the lower heat shield (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/63ad44fed025.jpg",
+            "alt": "Object Number: 2416674  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "Remove the upper heat shield (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 nut"
+            },
+            {
+              "bullet": "•",
+              "text": "3 studs"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2fa150dd01a0.jpg",
+            "alt": "Object Number: 2417942  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 12,
+          "text": "Detach the coolant hoses.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 off – (1) and (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3dbf7a95b985.jpg",
+            "alt": "Object Number: 2429863  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 13,
+          "text": "Detach the coolant temperature sensor wiring harness (2).",
+          "image": {
+            "src": "/data/assets/images/3dbf7a95b985.jpg",
+            "alt": "Object Number: 2429863  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 14,
+          "text": "Detach the lambda probe wiring harness.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3dbf7a95b985.jpg",
+            "alt": "Object Number: 2429863  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 15,
+          "text": "Remove the thermostat housing.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 stud (3), 2 bolts (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Lift out to the top with coolant pipe (2)."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/5c0219bb788c.jpg",
+            "alt": "Object Number: 2417944  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 16,
+          "text": "Detach the coolant pipe.",
+          "image": {
+            "src": "/data/assets/images/5c0219bb788c.jpg",
+            "alt": "Object Number: 2417944  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 17,
+          "text": "Unscrew the coolant pump.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 bolt (1) (transmission side)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/757388d84b39.jpg",
+            "alt": "Object Number: 2417953  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 18,
+          "text": "Raise the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/757388d84b39.jpg",
+            "alt": "Object Number: 2417953  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 19,
+          "text": "Remove the coolant pump housing cover.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 stud (2), 4 bolts (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/af444fc24dba.jpg",
+            "alt": "Object Number: 2417954  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 20,
+          "text": "Detach the coolant pump service opening.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Take out together with the gasket."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/25cc30391b5f.jpg",
+            "alt": "Object Number: 2417955  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 21,
+          "text": "Secure the coolant pump sprocket with KM-J-43651 (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Insert KM-J-43651 ."
+            },
+            {
+              "bullet": "•",
+              "text": "Attach it to the coolant pump sprocket."
+            },
+            {
+              "bullet": "•",
+              "text": "Use the two bolts (2) of the coolant pump service opening."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ee8d0b2e67a7.jpg",
+            "alt": "Object Number: 2417956  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 22,
+          "text": "Unscrew the coolant pump sprocket.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 bolts (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ee8d0b2e67a7.jpg",
+            "alt": "Object Number: 2417956  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 23,
+          "text": "Remove the coolant pump.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 bolts (timing case side) (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "1 bolt (transmission side) (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/923137e2405b.jpg",
+            "alt": "Object Number: 2417959  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 24,
+          "text": "Install the coolant pump.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use a new seal (1)."
+            },
+            {
+              "bullet": "•",
+              "text": "Align the coolant pump drive gear (2)."
+            },
+            {
+              "bullet": "•",
+              "text": "1 bolt (transmission side)",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "1 bolt (transmission side)\n Note:   Note the\ndifferent bolt lengths."
+                }
+              ]
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 23 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/30e9c5bfb47a.jpg",
+            "alt": "Object Number: 2417960  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 25,
+          "text": "Attach the coolant pump sprocket.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 8 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/30e9c5bfb47a.jpg",
+            "alt": "Object Number: 2417960  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 26,
+          "text": "Remove the holding tool KM-J-43651 .",
+          "image": {
+            "src": "/data/assets/images/30e9c5bfb47a.jpg",
+            "alt": "Object Number: 2417960  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 27,
+          "text": "Attach the coolant pump service opening.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use a new gasket."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 7 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/30e9c5bfb47a.jpg",
+            "alt": "Object Number: 2417960  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 28,
+          "text": "Attach the coolant pump housing cover.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use a new oil seal."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/30e9c5bfb47a.jpg",
+            "alt": "Object Number: 2417960  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 29,
+          "text": "Lower the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/f15289892ac7.jpg",
+            "alt": "Object Number: 2417931  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 30,
+          "text": "Attach the coolant pump.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 bolt (transmission side)"
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 22 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f15289892ac7.jpg",
+            "alt": "Object Number: 2417931  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 31,
+          "text": "Attach the coolant pipe (2). Note: The lug on the coolant pipe engages in the cut–out on the thermostat housing.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Coat the oil seals with silicone grease (white)."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f15289892ac7.jpg",
+            "alt": "Object Number: 2417931  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 32,
+          "text": "Clean the sealing surfaces.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Cylinder block, thermostat housing"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f15289892ac7.jpg",
+            "alt": "Object Number: 2417931  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 33,
+          "text": "Install the thermostat housing.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use a new oil seal."
+            },
+            {
+              "bullet": "•",
+              "text": "Insert with the coolant pipe."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Attach the clip."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f15289892ac7.jpg",
+            "alt": "Object Number: 2417931  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 34,
+          "text": "Attach the lambda probe wiring harness.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 35,
+          "text": "Attach the coolant temperature sensor wiring harness connector.",
+          "image": null
+        },
+        {
+          "number": 36,
+          "text": "Connect the coolant hoses.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 off"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 37,
+          "text": "Install the upper heat shield.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 studs"
+            },
+            {
+              "bullet": "•",
+              "text": "1 nut"
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 23 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 38,
+          "text": "Attach the lower heat shield.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 8 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 39,
+          "text": "Fill up with coolant and correct as required.",
+          "image": null
+        },
+        {
+          "number": 40,
+          "text": "Install the rear engine cover.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Check the alignment."
+            },
+            {
+              "bullet": "•",
+              "text": "6 bolts, tightening torque 14 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 41,
+          "text": "Close the rear engine cover.",
+          "image": null
+        },
+        {
+          "number": 42,
+          "text": "Raise the lifting ramp.",
+          "image": null
+        },
+        {
+          "number": 43,
+          "text": "Attach the lower engine splash shield.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 bolts"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 44,
+          "text": "Lower the lifting ramp.",
+          "image": null
+        },
+        {
+          "number": 45,
+          "text": "Connect the battery.",
+          "image": null
+        },
+        {
+          "number": 46,
+          "text": "Close the bonnet.",
+          "image": null
+        },
+        {
+          "number": 47,
+          "text": "Reprogram the volatile memories.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Drain the coolant.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Install the coolant pump.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 24
+    },
+    {
+      "component": "Attach the coolant pump sprocket.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 25
+    },
+    {
+      "component": "Attach the coolant pump service opening.",
+      "value": "7",
+      "unit": "Nm",
+      "stepRef": 27
+    },
+    {
+      "component": "Attach the coolant pump.",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 30
+    },
+    {
+      "component": "Install the thermostat housing.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 33
+    },
+    {
+      "component": "Install the upper heat shield.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 37
+    },
+    {
+      "component": "Attach the lower heat shield.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 38
+    },
+    {
+      "component": "Install the rear engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 40
+    },
+    {
+      "component": "Tightening torque 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 7 Nm",
+      "value": "7",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 22 Nm",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-J-43651"
+  ],
+  "notes": [
+    "1 stud (2), 4 bolts (1)\n Note the centring\nsleeves.",
+    "2 bolts (timing case side) (2)\n 1 of the bolts\ncannot be taken out.",
+    "1 bolt (transmission side)\n Note the\ndifferent bolt lengths.",
+    "Attach the coolant pipe (2).\n The lug on the\ncoolant pipe engages in the cut–out on the thermostat\nhousing.\n \n\n\n\n•  \nUse new seals (1).\n \n\n\n\n–\nCoat the oil seals with silicone grease (white)."
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "type": "procedure",
+  "id": "fuel-pump-relay-remove-and-install-z-22-se-A26D1C",
+  "title": "Fuel Pump Relay, Remove and Install (Z 22 SE)",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Open the bonnet.",
+          "image": {
+            "src": "/data/assets/images/1ca5ce823301.jpg",
+            "alt": "Object Number: 2412528  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Disconnect the battery.",
+          "image": {
+            "src": "/data/assets/images/1ca5ce823301.jpg",
+            "alt": "Object Number: 2412528  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Open the rear engine cover.",
+          "image": {
+            "src": "/data/assets/images/1ca5ce823301.jpg",
+            "alt": "Object Number: 2412528  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Remove the fuel pump relay (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull it out from the socket."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1ca5ce823301.jpg",
+            "alt": "Object Number: 2412528  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Install the fuel pump relay.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Check that the electrical contacts are good."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1ca5ce823301.jpg",
+            "alt": "Object Number: 2412528  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Close the rear engine cover.",
+          "image": {
+            "src": "/data/assets/images/1ca5ce823301.jpg",
+            "alt": "Object Number: 2412528  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Connect the battery.",
+          "image": {
+            "src": "/data/assets/images/1ca5ce823301.jpg",
+            "alt": "Object Number: 2412528  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Reprogram the volatile memories.",
+          "image": {
+            "src": "/data/assets/images/1ca5ce823301.jpg",
+            "alt": "Object Number: 2412528  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Close the bonnet.",
+          "image": {
+            "src": "/data/assets/images/1ca5ce823301.jpg",
+            "alt": "Object Number: 2412528  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ]
+}

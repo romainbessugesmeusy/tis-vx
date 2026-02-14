@@ -1,0 +1,47 @@
+{
+  "type": "procedure",
+  "id": "bushings-upper-wishbone-replace-AQS315",
+  "title": "Bushings, Upper Wishbone, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Upper wishbone from front suspension – see operation \"Upper Wishbone, Remove and Install\".",
+          "image": {
+            "src": "/data/assets/images/03a73cc5b461.jpg",
+            "alt": "Object Number: 2429743  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Bushings from upper wishbone – press out.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Bushings to upper wishbone – coat with IPC 'P-80' rubber lubricant, press in.",
+          "image": {
+            "src": "/data/assets/images/b51c49be65dc.jpg",
+            "alt": "Object Number: 2429744  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Upper wishbone to front suspension.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

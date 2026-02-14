@@ -1,0 +1,168 @@
+{
+  "type": "procedure",
+  "id": "rear-window-replace-A26D1C",
+  "title": "Rear Window, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove rear clamshell - see operation “Rear Clamshell, Remove and Install”",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Install Suction Lifter MKM-641 to engine side of rear window",
+          "image": {
+            "src": "/data/assets/images/1b476802043b.jpg",
+            "alt": "Object Number: 2420290  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Remove rear window from rear window aperture",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use Oscillating Knife MKM-846-1P in"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8b8b78e79017.jpg",
+            "alt": "Object Number: 2420291  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Place rear window on suitable stand, then remove Suction Lifter MKM-641",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Remove residual sealant from rear window aperture to approx. 1 mm thickness",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use suitable scraper"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f6860fa33a33.jpg",
+            "alt": "Object Number: 2420292  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Clean sealing surface of rear window aperture and new rear window",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 7,
+          "text": "Apply activator to sealing surface of new rear window and sealing surface of rear window aperture",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use suitable bonding kit"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1205a7d35ea6.jpg",
+            "alt": "Object Number: 2420294  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Apply primer to sealing surface of rear window and sealing surface of rear window aperture",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Shake primer bottle thoroughly before applying"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install Suction Lifter MKM-641 to engine compartment side of rear window",
+          "image": {
+            "src": "/data/assets/images/85b35dd7e510.jpg",
+            "alt": "Object Number: 2420297  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Apply sealant to sealing surface of rear window",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use bonding kit"
+            },
+            {
+              "bullet": "•",
+              "text": "Use suitable applicator"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Install rear window to rear window aperture",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ensure correct location of window"
+            },
+            {
+              "bullet": "•",
+              "text": "Apply gentle pressure to rear window to ensure correct sealing"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Remove Suction Lifter MKM-641 from rear window",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Clean both sides of rear window",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Install rear clamshell - see operation “Rear Clamshell, Remove and Install”",
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Allow vehicle to stand for 10 hours before moving.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "toolsRequired": [
+    "MKM-641",
+    "MKM-846-1P",
+    "MKM-846-3"
+  ],
+  "warnings": [
+    "Primer should be left\nto dry for 15 minutes before rear window is fitted to rear window\naperture.",
+    "Waiting time of 1 hour\nis necessary before any further work is carried out on rear\nwindow.",
+    "Vehicle must be\nallowed to stand for recommended period of time"
+  ],
+  "notes": [
+    "Use Oscillating Knife MKM-846-1P in\nconjunction with Blade MKM-846-3 \n Cut out rear\nwindow from engine side."
+  ]
+}

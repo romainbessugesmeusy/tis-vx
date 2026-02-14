@@ -1,0 +1,7 @@
+{
+  "type": "generic",
+  "id": "stationery-balancing-A26D1C",
+  "title": "Stationery Balancing",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Stationery Balancing</p>\n\n<p>Firstly, static and dynamic imbalance are eliminated from newly\ninstalled tyres on a stationary balancer. Carry out balancing\nextremely scrupulously. In no circumstances must a residual\nimbalance of <span class=\"tech-spec\">3g</span> be exceeded. Carry\nout wheel balancing according to the wheel balancer manufacturer's\ninstructions.</p>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "extractedData": {}
+}

@@ -1,0 +1,7 @@
+{
+  "type": "generic",
+  "id": "restrictions-AQS315",
+  "title": "Restrictions",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Restrictions</p>\n\n<p class=\"para-before-list\">For the following systems and wiring\nharnesses, repair is not allowed:</p>\n\n<ul type=\"disc\">\n<li>Shielded lines/coaxial cables for anti-lock brake\nsystem/anti-skid control system, radio, telephone, motor,\nanti-theft warning system, for example. An exception to this rule\nare CAN-bus wires, they can be repaired as given in chapter Step D6\n- Perform Repair</li>\n\n<li>Airbag and pyrotechnic seat belt tensioner system</li>\n\n<li>Electronically controlled throttle valve</li>\n\n<li>Power steering system</li>\n\n<li>Electrical seat adjustment</li>\n\n<li>High-voltage live cables (e.g. ignition system, xenon\nlamp)</li>\n</ul>\n\n<p><span class=\"gt-notice\">Note:&nbsp;&nbsp;</span> In single\ncases, within the framework of field remedies, deviations to these\nrules can be made.</p>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "extractedData": {}
+}

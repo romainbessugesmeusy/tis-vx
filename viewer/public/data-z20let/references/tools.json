@@ -1,0 +1,560 @@
+{
+  "tools": [
+    {
+      "code": "KM-845",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "attaching-parts-cylinder-head-remove-and-install-z-20-let-AQS315"
+      ]
+    },
+    {
+      "code": "KM-949",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "balancer-shaft-backlash-check-and-adjust-z20-let-AQS315"
+      ]
+    },
+    {
+      "code": "KM-798",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "balancer-shaft-backlash-check-and-adjust-z20-let-AQS315"
+      ]
+    },
+    {
+      "code": "KM-6007",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "brake-pads-rear-replace-AQS315"
+      ]
+    },
+    {
+      "code": "KM-6007-40",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "brake-pads-rear-replace-AQS315"
+      ]
+    },
+    {
+      "code": "KM-325",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "brake-system-bleed-AQS315",
+        "brake-system-inspect-for-leaks-AQS315"
+      ]
+    },
+    {
+      "code": "KM-853",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "camshaft-oil-seal-timing-side-replace-z20-let-AQS315",
+        "camshaft-pulleys-replace-z20-let-AQS315",
+        "camshaft-timing-belt-rear-cover-replace-z20-let-AQS315",
+        "camshaft-timing-belt-replace-z-20-let-AQS315",
+        "camshaft-timing-belt-tension-check-and-adjust-z-20-let-AQS315",
+        "camshafts-replace-z20-let-AQS315",
+        "coolant-pump-replace-z-20-let-AQS315",
+        "crankshaft-oil-seal-timing-side-replace-z-20-let-AQS315",
+        "cylinder-head-remove-and-install-z20-let-AQS315",
+        "guide-roller-camshaft-timing-belt-replace-z-20-let-AQS315",
+        "oil-pump-replace-z20-let-AQS315",
+        "sprocket-crankshaft-timing-belt-replace-z20-let-AQS315",
+        "tensioner-camshaft-timing-belt-replace-z-20-let-AQS315"
+      ]
+    },
+    {
+      "code": "KM-422",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "camshaft-oil-seal-timing-side-replace-z20-let-AQS315"
+      ]
+    },
+    {
+      "code": "KM-662-C",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "camshaft-timing-belt-rear-cover-replace-z20-let-AQS315",
+        "crankshaft-oil-seal-timing-side-replace-z-20-let-AQS315",
+        "oil-pump-replace-z20-let-AQS315",
+        "sprocket-crankshaft-timing-belt-replace-z20-let-AQS315"
+      ]
+    },
+    {
+      "code": "KM-6054",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "camshaft-timing-belt-rear-cover-replace-z20-let-AQS315",
+        "camshaft-timing-belt-replace-z-20-let-AQS315",
+        "engine-and-transmission-remove-and-install-z20-let-AQS315",
+        "oil-pump-replace-z20-let-AQS315",
+        "rear-subframe-replace-z-20-let-AQS315"
+      ]
+    },
+    {
+      "code": "KM-904",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "camshaft-timing-belt-rear-cover-replace-z20-let-AQS315",
+        "camshaft-timing-belt-replace-z-20-let-AQS315",
+        "engine-and-transmission-remove-and-install-z20-let-AQS315",
+        "oil-pump-replace-z20-let-AQS315",
+        "rear-subframe-replace-z-20-let-AQS315"
+      ]
+    },
+    {
+      "code": "KM-471",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "cooling-system-drain-fill-and-bleed-z22-se-z20-let-AQS315"
+      ]
+    },
+    {
+      "code": "KM-652",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "crankshaft-oil-seal-flywheel-side-replace-z-20-let-AQS315"
+      ]
+    },
+    {
+      "code": "KM-635",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "crankshaft-oil-seal-flywheel-side-replace-z-20-let-AQS315"
+      ]
+    },
+    {
+      "code": "KM-535",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "crankshaft-oil-seal-flywheel-side-replace-z-20-let-AQS315"
+      ]
+    },
+    {
+      "code": "KM-693",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "crankshaft-oil-seal-timing-side-replace-z-20-let-AQS315",
+        "oil-pump-check-z20-let-AQS315"
+      ]
+    },
+    {
+      "code": "KM-J-34730-91",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "cylinder-head-remove-and-install-z20-let-AQS315",
+        "fuel-injectors-replace-z20let-AQS315",
+        "fuel-lines-replace-z20-let-AQS315",
+        "fuel-pressure-check-z-20-let-AQS315",
+        "intake-manifold-replace-z-20-let-AQS315",
+        "relief-valve-fuel-pressure-replace-z20-let-AQS315"
+      ]
+    },
+    {
+      "code": "KM-2355",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "cylinder-head-remove-and-install-z20-let-AQS315"
+      ]
+    },
+    {
+      "code": "KM-J34730-91",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "engine-and-transmission-remove-and-install-z20-let-AQS315"
+      ]
+    },
+    {
+      "code": "KM-796-A",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "fuel-lines-replace-z20-let-AQS315"
+      ]
+    },
+    {
+      "code": "MKM-667",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "fuel-pressure-check-z-20-let-AQS315"
+      ]
+    },
+    {
+      "code": "KM-726-A",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "oil-pump-replace-z20-let-AQS315",
+        "pressure-relief-valve-oil-cooler-replace-z20-let-AQS315",
+        "temperature-controller-housing-oil-cooler-replace-z20-let-AQS315"
+      ]
+    },
+    {
+      "code": "KM-943",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "oil-pump-replace-z20-let-AQS315",
+        "pressure-relief-valve-oil-cooler-replace-z20-let-AQS315",
+        "temperature-controller-housing-oil-cooler-replace-z20-let-AQS315"
+      ]
+    },
+    {
+      "code": "KM-693-A",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "oil-pump-replace-z20-let-AQS315"
+      ]
+    },
+    {
+      "code": "KM-6326",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "oxygen-sensor-primary-replace-z20-let-AQS315",
+        "oxygen-sensor-secondary-replace-z20-let-AQS315"
+      ]
+    },
+    {
+      "code": "KM-6150",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "pressure-relief-valve-oil-cooler-replace-z22-se-AQS315"
+      ]
+    },
+    {
+      "code": "MKM-641",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "rear-window-replace-AQS315",
+        "windscreen-replace-AQS315"
+      ]
+    },
+    {
+      "code": "MKM-846-1P",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "rear-window-replace-AQS315",
+        "windscreen-replace-AQS315"
+      ]
+    },
+    {
+      "code": "MKM-846-3",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "rear-window-replace-AQS315"
+      ]
+    },
+    {
+      "code": "MKM-846-9",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "side-sill-replace-AQS315"
+      ]
+    },
+    {
+      "code": "KM-210-B",
+      "name": "Puller",
+      "description": null,
+      "sourcePage": "special-service-tools-group-c-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-799-B",
+      "name": "Deployment Unit for Airbag Unit",
+      "description": null,
+      "sourcePage": "special-service-tools-group-c-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-2063/MKM-589-C",
+      "name": "Cutting wire",
+      "description": null,
+      "sourcePage": "special-service-tools-group-c-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-113-2",
+      "name": "Bracket",
+      "description": null,
+      "sourcePage": "special-service-tools-group-k-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-161-B",
+      "name": "Bearing Puller",
+      "description": null,
+      "sourcePage": "special-service-tools-group-k-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-519",
+      "name": "Installer",
+      "description": null,
+      "sourcePage": "special-service-tools-group-k-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-523-1",
+      "name": "Remover, Installer",
+      "description": null,
+      "sourcePage": "special-service-tools-group-k-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "MKM-557-A",
+      "name": "Puller Set",
+      "description": null,
+      "sourcePage": "special-service-tools-group-k-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-736",
+      "name": "Centring Tool",
+      "description": null,
+      "sourcePage": "special-service-tools-group-k-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "MKM-886",
+      "name": "Transmission Holder",
+      "description": null,
+      "sourcePage": "special-service-tools-group-k-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-6042",
+      "name": "Removal Lever",
+      "description": null,
+      "sourcePage": "special-service-tools-group-k-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-6110",
+      "name": "Bearing Remover",
+      "description": null,
+      "sourcePage": "special-service-tools-group-k-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-6111",
+      "name": "Bearing Installer",
+      "description": null,
+      "sourcePage": "special-service-tools-group-k-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-6112",
+      "name": "Distance Ring Installer",
+      "description": null,
+      "sourcePage": "special-service-tools-group-k-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-6113",
+      "name": "Bearing Remover",
+      "description": null,
+      "sourcePage": "special-service-tools-group-k-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-6114",
+      "name": "Bearing Installer",
+      "description": null,
+      "sourcePage": "special-service-tools-group-k-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-6115",
+      "name": "Clutch Housing Holder",
+      "description": null,
+      "sourcePage": "special-service-tools-group-k-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-6116",
+      "name": "Clutch Housing Remover",
+      "description": null,
+      "sourcePage": "special-service-tools-group-k-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-6117",
+      "name": "Transmission Shaft Holder",
+      "description": null,
+      "sourcePage": "special-service-tools-group-k-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-6118",
+      "name": "Bearing Remover",
+      "description": null,
+      "sourcePage": "special-service-tools-group-k-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-6119",
+      "name": "Bearing Installer",
+      "description": null,
+      "sourcePage": "special-service-tools-group-k-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-6120",
+      "name": "Bearing Installer",
+      "description": null,
+      "sourcePage": "special-service-tools-group-k-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-6121",
+      "name": "Mounting Sleeve",
+      "description": null,
+      "sourcePage": "special-service-tools-group-k-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-6122",
+      "name": "Bearing Remover",
+      "description": null,
+      "sourcePage": "special-service-tools-group-k-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-6123",
+      "name": "Bearing Remover",
+      "description": null,
+      "sourcePage": "special-service-tools-group-k-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-6126",
+      "name": "Intermediate Shaft Remover",
+      "description": null,
+      "sourcePage": "special-service-tools-group-k-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-807",
+      "name": "Closure Plug",
+      "description": null,
+      "sourcePage": "special-service-tools-group-l-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-108",
+      "name": "Remover/Installer",
+      "description": null,
+      "sourcePage": "special-service-tools-group-m-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-507-C",
+      "name": "Remover",
+      "description": null,
+      "sourcePage": "special-service-tools-group-m-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "MKM-610",
+      "name": "Torque Wrench 1/2\" Drive",
+      "description": null,
+      "sourcePage": "special-service-tools-group-m-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "MKM-611",
+      "name": "Torque Wrench 3/8\" Drive",
+      "description": null,
+      "sourcePage": "special-service-tools-group-m-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-135",
+      "name": "Adapter",
+      "description": null,
+      "sourcePage": "special-service-tools-z-20-let-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "KM-427",
+      "name": "Remover/Installer",
+      "description": null,
+      "sourcePage": "special-service-tools-z-20-let-AQS315",
+      "usedIn": []
+    },
+    {
+      "code": "MKM-846-6",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "windscreen-replace-AQS315"
+      ]
+    },
+    {
+      "code": "KM-2063",
+      "name": null,
+      "description": null,
+      "sourcePage": null,
+      "usedIn": [
+        "windscreen-replace-AQS315"
+      ]
+    }
+  ]
+}

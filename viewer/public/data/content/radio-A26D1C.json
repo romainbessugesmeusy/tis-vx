@@ -1,0 +1,51 @@
+{
+  "type": "harness_diagram",
+  "id": "radio-A26D1C",
+  "title": "Radio",
+  "diagram": {
+    "src": "/data/assets/75dbc1c0216a.cgm",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "A2",
+      "description": "Control unit - Anti-Lock Brake System"
+    },
+    {
+      "code": "B39",
+      "description": "Loudspeaker - Rear, right"
+    },
+    {
+      "code": "A14",
+      "description": "Radio"
+    },
+    {
+      "code": "S2",
+      "description": "Switch unit - Light"
+    },
+    {
+      "code": "B36",
+      "description": "Loudspeaker - Front, left"
+    },
+    {
+      "code": "S4",
+      "description": "Switch - Parking lamp"
+    },
+    {
+      "code": "B37",
+      "description": "Loudspeaker - Front, right"
+    },
+    {
+      "code": "S31",
+      "description": "Switch - Reversing lamp"
+    },
+    {
+      "code": "B38",
+      "description": "Loudspeaker - Rear, left"
+    },
+    {
+      "code": "W6",
+      "description": "Antenna - Radio"
+    }
+  ]
+}

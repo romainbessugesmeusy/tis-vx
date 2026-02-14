@@ -1,0 +1,373 @@
+{
+  "type": "procedure",
+  "id": "fuel-injectors-replace-z20let-AQS315",
+  "title": "Fuel Injectors, Replace (Z20LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Release screen wash reservoir from support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Position screen wash reservoir to one side"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/372145f87fb3.jpg",
+            "alt": "Object Number: 2419905  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Disconnect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release nut and bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/109869f7b46c.jpg",
+            "alt": "Object Number: 2429428  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Release fuel pressure from fuel system",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove protective cap"
+            },
+            {
+              "bullet": "•",
+              "text": "Connect test connection hose (2) of Pressure Tester KM-J-34730-91 (1) to fuel rail"
+            },
+            {
+              "bullet": "•",
+              "text": "Collect any escaping fuel in a suitable container"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8f83f0ed0394.jpg",
+            "alt": "Object Number: 2421974  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Remove Pressure Tester KM-J-34730-91 (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Disconnect test connection hose (2) of Pressure Tester KM-J-34730-91 (1) from fuel rail"
+            },
+            {
+              "bullet": "•",
+              "text": "Install protective cap"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8f83f0ed0394.jpg",
+            "alt": "Object Number: 2421974  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Disconnect breather hose (1) from cylinder head cover",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7ef5800454c8.jpg",
+            "alt": "Object Number: 2422448  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Release breather hose (1) from lifting eye",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove, then discard cable tie (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7ef5800454c8.jpg",
+            "alt": "Object Number: 2422448  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Disconnect vacuum hose (1) from cylinder head cover",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a6cee6aa8972.jpg",
+            "alt": "Object Number: 2422441  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Disconnect vacuum hose (1) from fuel pressure regulator (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "pull off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/926c35a52d06.jpg",
+            "alt": "Object Number: 2422442  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Disconnect harness connector (1) from throttle position sensor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release integral clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a957ad2ad382.jpg",
+            "alt": "Object Number: 2422446  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Release fuel rail assembly (3) from intake manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/631b1f0f3cf9.jpg",
+            "alt": "Object Number: 2422449  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "Remove cover (2) from housing for injector harness",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 10x integral clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/631b1f0f3cf9.jpg",
+            "alt": "Object Number: 2422449  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 12,
+          "text": "Remove 4x injector (2) from fuel rail assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x clip (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove, then discard 8x O ring"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6e0a994d2d4a.jpg",
+            "alt": "Object Number: 2422450  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 13,
+          "text": "Install 8x new O ring to 4x injector",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Install 4x injector to fuel rail assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Secure fuel rail assembly to intake manifold",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install, then secure 2x bolt 8"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Install cover to housing for injector harness",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 10x integral clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Connect breather hose to cylinder head cover",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 18,
+          "text": "Secure breather hose to lifting eye",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install new cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Connect harness connector to throttle position sensor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure integral clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 20,
+          "text": "Connect vacuum hose to fuel pressure regulator",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "push on"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 21,
+          "text": "Connect vacuum hose to cylinder head cover",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 22,
+          "text": "Connect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure nut and bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 23,
+          "text": "Secure screen wash reservoir to support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "slide on"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 24,
+          "text": "program all volatile memories",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Secure fuel rail assembly to intake manifold",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 15
+    },
+    {
+      "component": "Install, then secure 2x bolt 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-J-34730-91"
+  ],
+  "warnings": [
+    "Fuel may escape\n– observe safety regulations and relevant national\nlegislation."
+  ]
+}

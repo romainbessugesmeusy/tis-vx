@@ -1,0 +1,150 @@
+{
+  "type": "procedure",
+  "id": "switch-hazard-warning-lamp-replace-A26D1C",
+  "title": "Switch, Hazard Warning Lamp Replace",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Open bonnet",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove windscreen wash reservoir from mounting bracket",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Disconnect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Release switch panel assembly from instrument panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2dd7ed88c823.jpg",
+            "alt": "Object Number: 2429513  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Remove switch assembly from panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 4x clip (arrowed)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6514da11140b.jpg",
+            "alt": "Object Number: 2429519  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Remove front cover from hazard warning lamp switch",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Remove hazard warning lamp switch from housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x clip, release harness connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Install hazard warning lamp switch to housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x clip, secure harness connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install front cover to hazard warning lamp switch",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Install switch assembly to panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 4x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Secure switch panel assembly to instrument panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Connect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Install windscreen wash reservoir to mounting bracket",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Close bonnet",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

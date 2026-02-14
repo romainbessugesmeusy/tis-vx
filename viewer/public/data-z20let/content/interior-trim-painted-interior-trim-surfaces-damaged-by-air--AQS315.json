@@ -1,0 +1,22 @@
+{
+  "type": "tsb",
+  "id": "interior-trim-painted-interior-trim-surfaces-damaged-by-air--AQS315",
+  "title": "Field Remedy: 1673",
+  "subject": "Interior Trim - Painted interior trim\nsurfaces damaged by air refreshers",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "N - Electrical Equipment",
+    "complaintGroup": "07 - Foreign Material or Fluid",
+    "troubleCode": "None"
+  },
+  "complaint": "Customer complains about loosing paint on\ninterior trim components like radio, dashboard, switches and the\ncenter console.",
+  "cause": "Painted surfaces will be attacked and\ndamaged by usage of air refreshers in vehicles. Air refreshers\ncontain aggressive ingredients therefore it should be avoid to get\nin direct contact with painted surfaces.",
+  "production": "",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "Customers have to be informed about this concern. Often a hint is even printed\non the air refresher packaging that every contact with painted surfaces has to\nbe avoided. Parts damaged by usage of air refreshers in the vehicle will not\nbe accepted by warranty."
+    }
+  ]
+}

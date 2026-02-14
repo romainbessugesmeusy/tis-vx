@@ -1,0 +1,156 @@
+{
+  "type": "procedure",
+  "id": "brake-fluid-reservoir-replace-A26D1C",
+  "title": "Brake Fluid Reservoir, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Open front bonnet",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Release cap from brake fluid reservoir",
+          "image": {
+            "src": "/data/assets/images/57fcfc3e4aaf.jpg",
+            "alt": "Object Number: 2419898  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Empty brake fluid reservoir of fluid",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use syringe to remove brake fluid"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Release clutch hose (1) from brake fluid reservoir",
+          "image": {
+            "src": "/data/assets/images/99bd08e9af08.jpg",
+            "alt": "Object Number: 2419897  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Remove brake fluid reservoir from bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove cable tie"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8f4372af7657.jpg",
+            "alt": "Object Number: 2419913  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Release 2x brake hose from brake fluid reservoir",
+          "image": {
+            "src": "/data/assets/images/0bbbf1882ef9.jpg",
+            "alt": "Object Number: 2419914  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Remove 3x grommet from brake fluid reservoir",
+          "image": {
+            "src": "/data/assets/images/49181ad2c4cf.jpg",
+            "alt": "Object Number: 2419915  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Remove filter from brake fluid reservoir",
+          "image": {
+            "src": "/data/assets/images/f83cef26240c.jpg",
+            "alt": "Object Number: 2419916  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 9,
+          "text": "Install filter to new brake fluid reservoir",
+          "image": {
+            "src": "/data/assets/images/f83cef26240c.jpg",
+            "alt": "Object Number: 2419916  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Install 3x grommet to brake fluid reservoir",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Secure 2x brake hose to brake fluid reservoir",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Install brake fluid reservoir to bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Secure clutch hose to brake fluid reservoir",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Replenish brake fluid reservoir to correct level",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use only DOT 4 brake fluid"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Secure cap to brake fluid reservoir",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

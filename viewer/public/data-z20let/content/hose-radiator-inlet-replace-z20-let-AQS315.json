@@ -1,0 +1,94 @@
+{
+  "type": "procedure",
+  "id": "hose-radiator-inlet-replace-z20-let-AQS315",
+  "title": "Hose, Radiator Inlet, Replace (Z20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Drain coolant system - see operation “Coolant System, Drain, Fill and Bleed”",
+          "image": {
+            "src": "/data/assets/images/507a4508614e.jpg",
+            "alt": "Object Number: 2422662  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Disconnect radiator inlet hose from coolant pipe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release, then remove clip (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/507a4508614e.jpg",
+            "alt": "Object Number: 2422662  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Remove coolant hose from radiator inlet",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove clip (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d3a6a05ea31c.jpg",
+            "alt": "Object Number: 2423050  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 5,
+          "text": "Install coolant hose to radiator inlet",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Secure radiator inlet hose to coolant pipe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Fill coolant system - see operation “Coolant System, Drain, Fill and Bleed”",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

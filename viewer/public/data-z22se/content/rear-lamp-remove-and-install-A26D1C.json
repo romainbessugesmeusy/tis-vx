@@ -1,0 +1,40 @@
+{
+  "type": "procedure",
+  "id": "rear-lamp-remove-and-install-A26D1C",
+  "title": "Rear Lamp, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Harness connector from rear lamp assembly.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Rear lamp assembly from rear clam shell – nuts.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Rear lamp assembly to rear clam shell – nuts.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Harness connector to rear lamp assembly.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

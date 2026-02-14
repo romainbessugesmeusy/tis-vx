@@ -1,0 +1,5702 @@
+{
+  "values": [
+    {
+      "component": "Secure rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 14,
+      "sourcePage": "air-cleaner-element-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "air-cleaner-element-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 14,
+      "sourcePage": "air-cleaner-housing-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "air-cleaner-housing-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Steering wheel assembly to steering column – tab washer, nut (2) 25 Nm , lock tab washer, connect horn connector.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 16,
+      "sourcePage": "airbag-contact-unit-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install alternator with lower support bracket to engine",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 12,
+      "sourcePage": "alternator-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure top support bracket to alternator",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 16,
+      "sourcePage": "alternator-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure side support bracket to alternator",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 17,
+      "sourcePage": "alternator-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure alternator to lower support bracket",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 20,
+      "sourcePage": "alternator-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt (1) 35 Nm",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "alternator-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "alternator-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 4x spark plug to cylinder head",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 10,
+      "sourcePage": "attaching-parts-cylinder-head-remove-and-install-z-20-let-AQS315"
+    },
+    {
+      "component": "Install coolant bypass housing with new O ring to cylinder head",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 11,
+      "sourcePage": "attaching-parts-cylinder-head-remove-and-install-z-20-let-AQS315"
+    },
+    {
+      "component": "Install camshaft position sensor to cylinder head",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 12,
+      "sourcePage": "attaching-parts-cylinder-head-remove-and-install-z-20-let-AQS315"
+    },
+    {
+      "component": "Install thermostat housing with new O ring to cylinder head",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 13,
+      "sourcePage": "attaching-parts-cylinder-head-remove-and-install-z-20-let-AQS315"
+    },
+    {
+      "component": "Install lifting eye to cylinder head",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 14,
+      "sourcePage": "attaching-parts-cylinder-head-remove-and-install-z-20-let-AQS315"
+    },
+    {
+      "component": "Install coolant distribution housing with new gasket to cylinder head",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 15,
+      "sourcePage": "attaching-parts-cylinder-head-remove-and-install-z-20-let-AQS315"
+    },
+    {
+      "component": "Install coolant distribution housing with new gasket to cylinder head",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 15,
+      "sourcePage": "attaching-parts-cylinder-head-remove-and-install-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure 4x spark plug 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "attaching-parts-cylinder-head-remove-and-install-z-20-let-AQS315"
+    },
+    {
+      "component": "Install, secure 2x bolt 15 Nm",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "attaching-parts-cylinder-head-remove-and-install-z-20-let-AQS315"
+    },
+    {
+      "component": "Install, secure bolt 6 Nm",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "attaching-parts-cylinder-head-remove-and-install-z-20-let-AQS315"
+    },
+    {
+      "component": "Install, secure bolt 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "attaching-parts-cylinder-head-remove-and-install-z-20-let-AQS315"
+    },
+    {
+      "component": "Install, then secure M10 bolt 30 Nm",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "attaching-parts-cylinder-head-remove-and-install-z-20-let-AQS315"
+    },
+    {
+      "component": "Install balancer shaft unit to engine",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "balancer-shaft-backlash-check-and-adjust-z20-let-AQS315"
+    },
+    {
+      "component": "Install front baffle plate to balancer shaft unit",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 13,
+      "sourcePage": "balancer-shaft-backlash-check-and-adjust-z20-let-AQS315"
+    },
+    {
+      "component": "Install 15x bolt 20 Nm + 45° – Clean all mating surfaces",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "balancer-shaft-backlash-check-and-adjust-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "balancer-shaft-backlash-check-and-adjust-z20-let-AQS315"
+    },
+    {
+      "component": "Install balancer shaft unit to engine",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 33,
+      "sourcePage": "balancer-shaft-unit-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install oil pick up pipe to engine",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 34,
+      "sourcePage": "balancer-shaft-unit-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install upper oil pan to engine",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 35,
+      "sourcePage": "balancer-shaft-unit-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure oil level sensor to lower oil pan",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 37,
+      "sourcePage": "balancer-shaft-unit-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install lower oil pan to upper oil pan",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 38,
+      "sourcePage": "balancer-shaft-unit-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install drain bolt 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 39,
+      "sourcePage": "balancer-shaft-unit-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure rear engine mount",
+      "value": "46",
+      "unit": "Nm",
+      "stepRef": 44,
+      "sourcePage": "balancer-shaft-unit-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install toothed belt lower cover",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 46,
+      "sourcePage": "balancer-shaft-unit-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install crankshaft pulley",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 47,
+      "sourcePage": "balancer-shaft-unit-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install toothed belt upper cover (2)",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 50,
+      "sourcePage": "balancer-shaft-unit-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 55,
+      "sourcePage": "balancer-shaft-unit-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 15x bolt 20 Nm + 45°",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "balancer-shaft-unit-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt to oil pump 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "balancer-shaft-unit-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure 2x bolt 46 Nm",
+      "value": "46",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "balancer-shaft-unit-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 6 Nm",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "balancer-shaft-unit-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "balancer-shaft-unit-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Wheel to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "brake-caliper-front-remove-and-install-AQS315"
+    },
+    {
+      "component": "Wheel to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "brake-caliper-rear-remove-and-install-AQS315"
+    },
+    {
+      "component": "Wheel to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "brake-caliper-rear-replace-AQS315"
+    },
+    {
+      "component": "Wheel to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "brake-disc-front-remove-and-install-AQS315"
+    },
+    {
+      "component": "Wheel to vehicle – bolts 90 Nm.",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 16,
+      "sourcePage": "brake-hose-front-remove-and-install-AQS315"
+    },
+    {
+      "component": "Wheel to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 14,
+      "sourcePage": "brake-hose-rear-remove-and-install-AQS315"
+    },
+    {
+      "component": "Wheel to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "brake-pads-front-replace-AQS315"
+    },
+    {
+      "component": "Wheels to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "brake-pads-inspect-for-wear-AQS315"
+    },
+    {
+      "component": "Secure brake caliper to hub carrier",
+      "value": "28",
+      "unit": "Nm",
+      "stepRef": 16,
+      "sourcePage": "brake-pads-rear-replace-AQS315"
+    },
+    {
+      "component": "Install rear road wheels",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 20,
+      "sourcePage": "brake-pads-rear-replace-AQS315"
+    },
+    {
+      "component": "Install bolt 28 Nm Note: Clean thread and apply locking compound.",
+      "value": "28",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "brake-pads-rear-replace-AQS315"
+    },
+    {
+      "component": "Install 8x wheel bolt, 2x security bolt 90 Nm – Use special socket located under front bonnet",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "brake-pads-rear-replace-AQS315"
+    },
+    {
+      "component": "Install steering intermediate shaft with lower universal joint to steering gear and steering column",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 26,
+      "sourcePage": "brake-pedal-replace-AQS315"
+    },
+    {
+      "component": "Install 3x bolt, 3x nut 35 Nm – Use 3x new nut",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "brake-pedal-replace-AQS315"
+    },
+    {
+      "component": "Steering arm to hub carrier bolts - 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 5,
+      "sourcePage": "camber-adjust-AQS315"
+    },
+    {
+      "component": "Bolts; swivel joint carrier to hub carrier - 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 5,
+      "sourcePage": "camber-rear-wheels-adjust-AQS315"
+    },
+    {
+      "component": "Install camshaft sprocket",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 28,
+      "sourcePage": "camshaft-oil-seal-timing-side-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install camshaft cover",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 29,
+      "sourcePage": "camshaft-oil-seal-timing-side-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install ignition module to cylinder head",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 33,
+      "sourcePage": "camshaft-oil-seal-timing-side-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure tensioner",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 42,
+      "sourcePage": "camshaft-oil-seal-timing-side-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install lower cover of camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 44,
+      "sourcePage": "camshaft-oil-seal-timing-side-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install ribbed V-belt tensioner",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 45,
+      "sourcePage": "camshaft-oil-seal-timing-side-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install crankshaft pulley",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 46,
+      "sourcePage": "camshaft-oil-seal-timing-side-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install upper cover of camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 48,
+      "sourcePage": "camshaft-oil-seal-timing-side-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 53,
+      "sourcePage": "camshaft-oil-seal-timing-side-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install, then secure new bolt, washer 50 Nm + 60° + 15°",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-oil-seal-timing-side-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 10x bolt 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-oil-seal-timing-side-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Tighten bolt 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-oil-seal-timing-side-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 6 Nm",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-oil-seal-timing-side-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-oil-seal-timing-side-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-oil-seal-timing-side-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x new camshaft pulley to 2x camshaft Note: Note position of locating pin on exhaust pulley.",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 26,
+      "sourcePage": "camshaft-pulleys-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install cylinder head cover to cylinder head",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 27,
+      "sourcePage": "camshaft-pulleys-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install ignition module to cylinder head",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 30,
+      "sourcePage": "camshaft-pulleys-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure tensioner",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 39,
+      "sourcePage": "camshaft-pulleys-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install lower cover of camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 41,
+      "sourcePage": "camshaft-pulleys-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install ribbed V-belt tensioner",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 42,
+      "sourcePage": "camshaft-pulleys-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install crankshaft pulley",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 43,
+      "sourcePage": "camshaft-pulleys-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install upper cover of camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 45,
+      "sourcePage": "camshaft-pulleys-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure rear road wheel right side",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 50,
+      "sourcePage": "camshaft-pulleys-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x new bolt, 2x washer 50 Nm + 60° + 15° – Counter-hold camshaft at hexagon with open end of spanner – Second technician required",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-pulleys-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 10x bolt 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-pulleys-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure bolt 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-pulleys-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 6 Nm",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-pulleys-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-pulleys-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-pulleys-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install lower cover of camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 10,
+      "sourcePage": "camshaft-timing-belt-lower-cover-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install ribbed V-belt tensioner",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 11,
+      "sourcePage": "camshaft-timing-belt-lower-cover-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install crankshaft pulley",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 12,
+      "sourcePage": "camshaft-timing-belt-lower-cover-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt (1) to upper cover of camshaft timing belt 6 Nm",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 17,
+      "sourcePage": "camshaft-timing-belt-lower-cover-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-timing-belt-lower-cover-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 4x bolt 20 Nm using suitable spanner to counter-hold centre nut on crankshaft sprocket",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-timing-belt-lower-cover-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install rear cover of camshaft timing belt to engine cylinder block",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 35,
+      "sourcePage": "camshaft-timing-belt-rear-cover-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install support bracket to engine cylinder block",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 36,
+      "sourcePage": "camshaft-timing-belt-rear-cover-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install engine mounting bracket to support bracket on engine cylinder block and damping block",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 38,
+      "sourcePage": "camshaft-timing-belt-rear-cover-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x camshaft pulley to 2x camshaft Note: Note position of locating pin on exhaust pulley.",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 41,
+      "sourcePage": "camshaft-timing-belt-rear-cover-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install cylinder head cover to cylinder head",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 42,
+      "sourcePage": "camshaft-timing-belt-rear-cover-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install ignition module to cylinder head",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 45,
+      "sourcePage": "camshaft-timing-belt-rear-cover-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x guide roller for timing belt",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 49,
+      "sourcePage": "camshaft-timing-belt-rear-cover-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install crankshaft sprocket to crankshaft",
+      "value": "130",
+      "unit": "Nm",
+      "stepRef": 51,
+      "sourcePage": "camshaft-timing-belt-rear-cover-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure tensioner",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 57,
+      "sourcePage": "camshaft-timing-belt-rear-cover-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install lower cover of camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 59,
+      "sourcePage": "camshaft-timing-belt-rear-cover-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install ribbed V-belt tensioner",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 60,
+      "sourcePage": "camshaft-timing-belt-rear-cover-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install crankshaft pulley",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 61,
+      "sourcePage": "camshaft-timing-belt-rear-cover-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install upper cover of camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 63,
+      "sourcePage": "camshaft-timing-belt-rear-cover-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure rear road wheel to right side",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 68,
+      "sourcePage": "camshaft-timing-belt-rear-cover-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 3x screw, 2x bolt 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-timing-belt-rear-cover-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-timing-belt-rear-cover-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 3x bolt 50 Nm",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-timing-belt-rear-cover-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x new bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-timing-belt-rear-cover-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install new bolt 130 Nm + 45° – Counter-hold using KM-662-C",
+      "value": "130",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-timing-belt-rear-cover-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure bolt 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-timing-belt-rear-cover-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 6 Nm",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-timing-belt-rear-cover-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-timing-belt-rear-cover-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install engine mounting bracket to support bracket on cylinder head and damping block",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 24,
+      "sourcePage": "camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Tighten tensioner",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 29,
+      "sourcePage": "camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install lower cover of camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 31,
+      "sourcePage": "camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install ribbed V-belt tensioner",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 32,
+      "sourcePage": "camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install crankshaft pulley",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 33,
+      "sourcePage": "camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install upper cover of camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 35,
+      "sourcePage": "camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install rear road wheel to right side",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 38,
+      "sourcePage": "camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install, then secure 3x bolt 50 Nm",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure bolt 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install, then secure 2x bolt (1) 6 Nm",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install, then secure 2x bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Tighten tensioner",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 21,
+      "sourcePage": "camshaft-timing-belt-tension-check-and-adjust-z-20-let-AQS315"
+    },
+    {
+      "component": "Install lower cover of camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 23,
+      "sourcePage": "camshaft-timing-belt-tension-check-and-adjust-z-20-let-AQS315"
+    },
+    {
+      "component": "Install ribbed V-belt tensioner",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 24,
+      "sourcePage": "camshaft-timing-belt-tension-check-and-adjust-z-20-let-AQS315"
+    },
+    {
+      "component": "Install crankshaft pulley",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 25,
+      "sourcePage": "camshaft-timing-belt-tension-check-and-adjust-z-20-let-AQS315"
+    },
+    {
+      "component": "Install upper cover of camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 27,
+      "sourcePage": "camshaft-timing-belt-tension-check-and-adjust-z-20-let-AQS315"
+    },
+    {
+      "component": "Install rear road wheel to right side",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 30,
+      "sourcePage": "camshaft-timing-belt-tension-check-and-adjust-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure bolt 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-timing-belt-tension-check-and-adjust-z-20-let-AQS315"
+    },
+    {
+      "component": "Install, then secure 2x bolt (1) 6 Nm",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-timing-belt-tension-check-and-adjust-z-20-let-AQS315"
+    },
+    {
+      "component": "Install, then secure 2x bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-timing-belt-tension-check-and-adjust-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 4x bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-timing-belt-tension-check-and-adjust-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt (1) to upper cover of camshaft timing belt 6 Nm",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "camshaft-timing-belt-upper-cover-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install new exhaust camshaft to cylinder head",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 33,
+      "sourcePage": "camshafts-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install new intake camshaft to cylinder head",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 35,
+      "sourcePage": "camshafts-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x camshaft pulley to 2x camshaft Note: Note position of locating pin on exhaust pulley.",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 36,
+      "sourcePage": "camshafts-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install cylinder head cover to cylinder head",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 37,
+      "sourcePage": "camshafts-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install ignition module to cylinder head",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 41,
+      "sourcePage": "camshafts-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure tensioner",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 53,
+      "sourcePage": "camshafts-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install lower cover of camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 55,
+      "sourcePage": "camshafts-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install ribbed V-belt tensioner",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 56,
+      "sourcePage": "camshafts-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install crankshaft pulley",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 57,
+      "sourcePage": "camshafts-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install upper cover of camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 59,
+      "sourcePage": "camshafts-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure rear road wheel right side",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 64,
+      "sourcePage": "camshafts-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 10x bolt 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshafts-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x new bolt, 2x washer 50 Nm + 60° + 15° – Counter-hold camshaft at hexagon with open end of spanner – Second technician required",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshafts-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure bolt 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshafts-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 6 Nm",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshafts-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshafts-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshafts-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Pivot bolts - 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "caster-adjust-AQS315"
+    },
+    {
+      "component": "Install catalytic converter to exhaust manifold",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 27,
+      "sourcePage": "catalytic-converter-primary-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install exhaust manifold with turbocharger to cylinder head",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 29,
+      "sourcePage": "catalytic-converter-primary-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Connect oil feed pipe to engine cylinder block",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 42,
+      "sourcePage": "catalytic-converter-primary-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Connect oil feed pipe to engine cylinder block",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 42,
+      "sourcePage": "catalytic-converter-primary-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Connect oil return pipe to engine cylinder block",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 43,
+      "sourcePage": "catalytic-converter-primary-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install clamp 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "catalytic-converter-primary-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install bolt 35 Nm",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "catalytic-converter-primary-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Connect pipe union 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "catalytic-converter-primary-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Connect pipe union 30 Nm , 2x new seal ring – Remove blanking plug, then discard",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "catalytic-converter-primary-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Central release to transmission housing – bolts (arrowed) 5 Nm .",
+      "value": "5",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "central-release-remove-and-install-AQS315"
+    },
+    {
+      "component": "Pressure line (1) to central release – 14 Nm .",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "central-release-remove-and-install-AQS315"
+    },
+    {
+      "component": "Secure rear road wheel to right side",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 12,
+      "sourcePage": "charge-pressure-sensor-intercooler-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "charge-pressure-sensor-intercooler-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Master cylinder to support bracket – new nuts 20 Nm .",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 4,
+      "sourcePage": "clutch-master-cylinder-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install steering intermediate shaft with lower universal joint to steering gear and steering column",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 26,
+      "sourcePage": "clutch-pedal-replace-AQS315"
+    },
+    {
+      "component": "Install 3x bolt, 3x nut 35 Nm – Use 3x new nut",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "clutch-pedal-replace-AQS315"
+    },
+    {
+      "component": "Pressure plate and disc to flywheel – use Clutch Aligning Guide KM-736 (2), locate pressure plate over centring pins. Use new bolts – 15 Nm .",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 3,
+      "sourcePage": "clutch-plate-and-or-pressure-plate-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install spark plug to cylinder head 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 9,
+      "sourcePage": "compression-check-z-20-let-AQS315"
+    },
+    {
+      "component": "Install ignition module to cylinder head",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 12,
+      "sourcePage": "compression-check-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt (1) 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "compression-check-z-20-let-AQS315"
+    },
+    {
+      "component": "Install con-rod bearing cap with con-rod bearing shell to con-rod - Tightening torque 35 Nm + 45° + 15° .",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 2,
+      "sourcePage": "con-rod-bearing-play-check-micrometer-method-z-20-let-AQS315"
+    },
+    {
+      "component": "Attach con-rod bearing cap to con-rod - tightening torque 35 Nm + 45° + 15 . To check the con-rod bearing play, the bolts can be used once again.",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "con-rod-bearing-play-check-plastigage-method-z-20-let-AQS315"
+    },
+    {
+      "component": "Insert new con-rod bearing shells with engine oil. Attach con-rod bearing caps to con-rod with new bolts – tightening torque 35 Nm + 45° + 15° .",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "con-rod-bearing-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 14,
+      "sourcePage": "control-valve-fuel-evaporator-replace-AQS315"
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "control-valve-fuel-evaporator-replace-AQS315"
+    },
+    {
+      "component": "Attach coolant flange to cylinder head with new gasket – tightening torque (M8) 20 Nm , (M10) 30 Nm .",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "coolant-flange-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Attach wiring harness plug bracket to coolant flange – tightening torque 8 Nm .",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "coolant-flange-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Attach coolant flange to cylinder head with new gasket – tightening torque (M8) 20 Nm , (M10) 30 Nm .",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "coolant-flange-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install coolant pump",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 19,
+      "sourcePage": "coolant-pump-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure adjustment pulley 20 Nm for camshaft timing belt",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 23,
+      "sourcePage": "coolant-pump-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install lower casing for camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 24,
+      "sourcePage": "coolant-pump-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install V-belt tensioner",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 25,
+      "sourcePage": "coolant-pump-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install crankshaft V-belt pulley",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 26,
+      "sourcePage": "coolant-pump-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install upper cover for camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 28,
+      "sourcePage": "coolant-pump-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 35,
+      "sourcePage": "coolant-pump-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 3x bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "coolant-pump-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 6 Nm",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "coolant-pump-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 4x bolt 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "coolant-pump-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "coolant-pump-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install crankshaft bearing cap with crankshaft bearing shell at cylinder block - tightening torque 50 Nm + 45° + 15° . To check the crankshaft bearing play, bolt can be reused.",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 2,
+      "sourcePage": "crankshaft-bearing-clearance-check-micrometer-method-z-20-le-AQS315"
+    },
+    {
+      "component": "Cut strip to width of bearing and lay axially between crankshaft bearing journal and bearing shell (arrow). Attach bearing cap with torque - tightening torque 50 Nm + 45° + 15° .",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 5,
+      "sourcePage": "crankshaft-bearing-clearance-check-plastigage-method-z-20-le-AQS315"
+    },
+    {
+      "component": "Attach crankshaft bearing cap to cylinder block with new bolts - 50 Nm + 45° + 15° .",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-bearing-clearance-check-plastigage-method-z-20-le-AQS315"
+    },
+    {
+      "component": "Secure flywheel to crankshaft",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": 11,
+      "sourcePage": "crankshaft-oil-seal-flywheel-side-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install clutch plate with pressure plate to flywheel",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 12,
+      "sourcePage": "crankshaft-oil-seal-flywheel-side-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install transmission to engine",
+      "value": "60",
+      "unit": "Nm",
+      "stepRef": 14,
+      "sourcePage": "crankshaft-oil-seal-flywheel-side-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install transmission to engine",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": 14,
+      "sourcePage": "crankshaft-oil-seal-flywheel-side-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure 6x bolt 65 Nm + 30° + 15° symmetrically",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-oil-seal-flywheel-side-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 6x new bolt 15 Nm symmetrically",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-oil-seal-flywheel-side-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 7x bolt (1) 60 Nm symmetrically Note: Includes installation of support bracket for engine harness.",
+      "value": "60",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-oil-seal-flywheel-side-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 4x bolt (2) 40 Nm symmetrically",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-oil-seal-flywheel-side-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install crankshaft sprocket to crankshaft",
+      "value": "130",
+      "unit": "Nm",
+      "stepRef": 25,
+      "sourcePage": "crankshaft-oil-seal-timing-side-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install lower cover of camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 28,
+      "sourcePage": "crankshaft-oil-seal-timing-side-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install ribbed V-belt tensioner",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 29,
+      "sourcePage": "crankshaft-oil-seal-timing-side-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install crankshaft pulley",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 30,
+      "sourcePage": "crankshaft-oil-seal-timing-side-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install upper cover of camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 32,
+      "sourcePage": "crankshaft-oil-seal-timing-side-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 37,
+      "sourcePage": "crankshaft-oil-seal-timing-side-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install bolt 130 Nm + 45° – Counter-hold using KM-662-C",
+      "value": "130",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-oil-seal-timing-side-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 6 Nm",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-oil-seal-timing-side-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-oil-seal-timing-side-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 4x bolt 20 Nm – Counter-hold centre nut on crankshaft sprocket using spanner",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-oil-seal-timing-side-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-oil-seal-timing-side-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install new crankshaft pulley Note: Note position of crankshaft pulley.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 4,
+      "sourcePage": "crankshaft-pulley-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 4x bolt 20 Nm – Counter-hold centre nut on crankshaft sprocket",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-pulley-replace-z20-let-AQS315"
+    },
+    {
+      "component": "When replacing crankshaft: transfer crankshaft pulse pickup sensor disc (1) with new bolts - tightening torque 13 Nm",
+      "value": "13",
+      "unit": "Nm",
+      "stepRef": 13,
+      "sourcePage": "crankshaft-replace-engine-removed-z20-let-AQS315"
+    },
+    {
+      "component": "Crankshaft bearing caps to cylinder block 50 Nm + 45° + 15°",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 15,
+      "sourcePage": "crankshaft-replace-engine-removed-z20-let-AQS315"
+    },
+    {
+      "component": "Con-rod bearing caps to con-rod 35 Nm + 45° + 15°",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 18,
+      "sourcePage": "crankshaft-replace-engine-removed-z20-let-AQS315"
+    },
+    {
+      "component": "Attach transmission to cylinder block – tightening torque 60 Nm",
+      "value": "60",
+      "unit": "Nm",
+      "stepRef": 24,
+      "sourcePage": "crankshaft-replace-engine-removed-z20-let-AQS315"
+    },
+    {
+      "component": "Install cylinder head cover",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "cylinder-head-cover-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install ignition module to cylinder head",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 12,
+      "sourcePage": "cylinder-head-cover-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 10x bolt 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-cover-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install cylinder head to cylinder block",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 85,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install exhaust camshaft to cylinder head",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 87,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install intake camshaft to cylinder head",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 89,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install pulley to exhaust camshaft",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 90,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install pulley to intake camshaft",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 91,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install ignition module to cylinder head cover",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 94,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install intake manifold to cylinder head",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 100,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install side support bracket for alternator",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 103,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Secure fuel rail assembly to intake manifold Install, then secure 2x bolt 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 105,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install upper support bracket for alternator",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 107,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Secure crankshaft position sensor to cylinder block",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 108,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install throttle body with 2x new O ring to intake manifold",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 113,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install exhaust manifold and turbocharger assembly with new gasket to cylinder head",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 122,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Tension timing belt",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 138,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Secure rear cover for timing belt to cylinder head",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 139,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install lower cover for timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 140,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install ribbed V-belt tensioner",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 141,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install crankshaft pulley",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 142,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install upper front cover for timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 143,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Secure vacuum tank support bracket to intake manifold",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 149,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Connect oil feed pipe to connecting pipe for turbocharger",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 150,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Secure connecting pipe for turbocharger to cylinder block",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 151,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Connect oil return pipe for turbocharger",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 152,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Secure rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 161,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install, then secure 10x new bolt 25 Nm + 90° + 90° + 90° + 15°",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install, then secure new bolt, washer 50 Nm) + 60° + 15°",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install, then secure bolt, 7x new nut 22 Nm",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install, then secure bolt 20 Nm , washer",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install, then secure 4x bolt 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Important: Observe tightening sequence. Wait 5 minutes, then re-tighten 10x nut 8 Nm .",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install, then secure 3x bolt 6 Nm",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install, then secure bolt 35 Nm",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install, then secure pipe union bolt 30 Nm",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Upper hinge bolt (1) – 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 11,
+      "sourcePage": "door-remove-and-install-AQS315"
+    },
+    {
+      "component": "Lower hinge bolt (2) – 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "door-remove-and-install-AQS315"
+    },
+    {
+      "component": "Shock absorber to chassis – bolt, nut 45 Nm , washers",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 17,
+      "sourcePage": "drive-shafts-remove-and-install-AQS315"
+    },
+    {
+      "component": "Rear wheel to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 24,
+      "sourcePage": "drive-shafts-remove-and-install-AQS315"
+    },
+    {
+      "component": "Upper ball joint carrier (1) to hub carrier – camber shims, two bolts 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "drive-shafts-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install oil level sensor to lower oil pan",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "dynamic-oil-level-control-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install lower oil pan to engine",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "dynamic-oil-level-control-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install oil drain plug 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 11,
+      "sourcePage": "dynamic-oil-level-control-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 2x new bolt 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "dynamic-oil-level-control-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Drain transmission fluid",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 5,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Secure engine mount bolt, right upper",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 93,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Secure engine mount bolt, left upper",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 94,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Secure reaction mount bracket, lower front",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 97,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Secure reaction mount bracket, lower front",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 98,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Secure reaction mount bracket, lower front",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": 98,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Secure reaction mount bracket, lower front",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 99,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Secure reaction mount bracket, lower front",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": 99,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Secure reaction mount bracket, lower rear",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 100,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Secure reaction mount bracket, lower rear",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": 100,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install idler pulley assembly for ribbed V-belt",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 110,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Secure reaction mount bracket, lower front",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 117,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Secure left shock absorber to chassis",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 123,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Secure left lower wishbone to chassis",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": 124,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install end of track control arm to left chassis",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": 125,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install ball joint carrier, left upper, to lower wishbone assembly",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 126,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install brake caliper to left disc hub",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 127,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install brake caliper to left disc hub",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 127,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install brake hose clip to lower wishbone",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 129,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Secure 2x rear wheel hub nut 235 Nm",
+      "value": "235",
+      "unit": "Nm",
+      "stepRef": 133,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 134,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Replace drain plug when drained 35 Nm",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Secure 3x bolt (1) 49 Nm",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Secure 2x bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Secure centre bolt, nut 86 Nm",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install 3x bolt 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install bolt, nut 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install front bolt, nut 65 Nm",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Secure new locking nut 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Tighten 8x bolt, 2x security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-and-transmission-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Install engine damping block with support bracket to transmission and chassis",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "engine-damping-block-front-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure centre bolt, nut for engine damping block 86 Nm",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "engine-damping-block-front-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt, washer 49 Nm – Apply locking compound",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-damping-block-front-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install mounting bracket to transmission and engine damping block Note: Ensure locating lug (1) on engine damping block locates in hole in mounting bracket (2). Note: Illustration shows parts removed for clarity.",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": 12,
+      "sourcePage": "engine-damping-block-left-side-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure engine damping block to chassis",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": 18,
+      "sourcePage": "engine-damping-block-left-side-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure rear road wheel to left side",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 21,
+      "sourcePage": "engine-damping-block-left-side-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 3x bolt 48 Nm – Apply locking compound",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-damping-block-left-side-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-damping-block-left-side-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure support bracket and heatshield to transmission",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 10,
+      "sourcePage": "engine-damping-block-rear-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure centre bolt and nut for engine damping block 86 Nm",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": 13,
+      "sourcePage": "engine-damping-block-rear-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure 3x bolt, 2x washer 49 Nm",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-damping-block-rear-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install engine mounting bracket to support bracket on engine cylinder block and engine damping block Note: Ensure locating lug (1) on engine damping block locates in hole in engine mounting bracket (2). Note: Illustration shows parts removed for clarity.",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": 11,
+      "sourcePage": "engine-damping-block-right-side-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure engine damping block to chassis",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": 17,
+      "sourcePage": "engine-damping-block-right-side-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure rear road wheel to right side",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 20,
+      "sourcePage": "engine-damping-block-right-side-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 3x bolt 48 Nm – Apply locking compound",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-damping-block-right-side-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-damping-block-right-side-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Coat seal ring of new oil filter slightly with engine oil and attach to oil pump - tightening torque 15 Nm .",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 3,
+      "sourcePage": "engine-oil-filter-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Coat seal ring of new oil filter slightly with engine oil and attach to oil pump - tightening torque 15 Nm .",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "engine-oil-with-oil-filter-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install oil drain plug, new O ring - tightening torque 10 Nm .",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "engine-oil-with-oil-filter-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install new engine vent flange to engine cylinder block",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "engine-vent-flange-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-vent-flange-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install oil return pipe to turbocharger",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 30,
+      "sourcePage": "exhaust-manifold-with-turbocharger-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install oil feed pipe to turbocharger",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 31,
+      "sourcePage": "exhaust-manifold-with-turbocharger-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install catalytic converter to exhaust manifold",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 32,
+      "sourcePage": "exhaust-manifold-with-turbocharger-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install exhaust manifold with turbocharger to cylinder head",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 35,
+      "sourcePage": "exhaust-manifold-with-turbocharger-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Connect oil feed pipe to engine cylinder block",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 48,
+      "sourcePage": "exhaust-manifold-with-turbocharger-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Connect oil feed pipe to engine cylinder block",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 48,
+      "sourcePage": "exhaust-manifold-with-turbocharger-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Connect oil return pipe to engine cylinder block",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 49,
+      "sourcePage": "exhaust-manifold-with-turbocharger-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 8 Nm , new gasket",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "exhaust-manifold-with-turbocharger-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Connect pipe union 35 Nm , 2x new seal ring",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "exhaust-manifold-with-turbocharger-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Connect pipe union 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "exhaust-manifold-with-turbocharger-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Connect pipe union 30 Nm , 2x new seal ring – Remove blanking plug, then discard",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "exhaust-manifold-with-turbocharger-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install front road wheel to vehicle",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 19,
+      "sourcePage": "fog-lamp-replace-AQS315"
+    },
+    {
+      "component": "Install 4x bolt, install security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "fog-lamp-replace-AQS315"
+    },
+    {
+      "component": "Front bonnet hinge to radiator case – 3 bolts (2) on each side to nuts (1) – 20 Nm .",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 4,
+      "sourcePage": "front-bonnet-hinge-replace-AQS315"
+    },
+    {
+      "component": "Install front wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "front-wheel-arch-liner-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "front-wheel-arch-liner-remove-and-install-AQS315"
+    },
+    {
+      "component": "Tighten rear road wheel, right side",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 16,
+      "sourcePage": "fuel-evaporation-tank-replace-AQS315"
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "fuel-evaporation-tank-replace-AQS315"
+    },
+    {
+      "component": "Fuel filter to bulkhead – bolt (1) 9 Nm .",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "fuel-filter-replace-AQS315"
+    },
+    {
+      "component": "Secure fuel rail assembly to intake manifold",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 15,
+      "sourcePage": "fuel-injectors-replace-z20let-AQS315"
+    },
+    {
+      "component": "Install, then secure 2x bolt 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "fuel-injectors-replace-z20let-AQS315"
+    },
+    {
+      "component": "Fuel tank to vehicle – 4 bolts 25 Nm , washers.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 42,
+      "sourcePage": "fuel-tank-remove-and-install-AQS315"
+    },
+    {
+      "component": "Fuel lines to bulkhead – clips, bolts 9 Nm .",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 46,
+      "sourcePage": "fuel-tank-remove-and-install-AQS315"
+    },
+    {
+      "component": "Lower fixing bolts (1) for lower wishbone, left side, right side – 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 50,
+      "sourcePage": "fuel-tank-remove-and-install-AQS315"
+    },
+    {
+      "component": "Right rear wheel – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 61,
+      "sourcePage": "fuel-tank-remove-and-install-AQS315"
+    },
+    {
+      "component": "Fuel filter to bulkhead – bolt (1) 9 Nm .",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "fuel-tank-remove-and-install-AQS315"
+    },
+    {
+      "component": "Fuel tank lower panel (1) – 5 bolts, 3 nuts and bolts – 25 Nm .",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "fuel-tank-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install fuel tank to vehicle",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 23,
+      "sourcePage": "fuel-tank-sensor-replace-AQS315"
+    },
+    {
+      "component": "Install fuel filter to bulkhead",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 28,
+      "sourcePage": "fuel-tank-sensor-replace-AQS315"
+    },
+    {
+      "component": "Install fuel tank lower panel",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 29,
+      "sourcePage": "fuel-tank-sensor-replace-AQS315"
+    },
+    {
+      "component": "Install fuel tank lower panel",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 29,
+      "sourcePage": "fuel-tank-sensor-replace-AQS315"
+    },
+    {
+      "component": "Install 2x bolt to engine damping block 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 30,
+      "sourcePage": "fuel-tank-sensor-replace-AQS315"
+    },
+    {
+      "component": "Install 2x bolt to lower wishbone mounting 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 31,
+      "sourcePage": "fuel-tank-sensor-replace-AQS315"
+    },
+    {
+      "component": "Install 2x rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 34,
+      "sourcePage": "fuel-tank-sensor-replace-AQS315"
+    },
+    {
+      "component": "Install 4x new bolt, 4x lock washer 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "fuel-tank-sensor-replace-AQS315"
+    },
+    {
+      "component": "Secure bolt 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "fuel-tank-sensor-replace-AQS315"
+    },
+    {
+      "component": "Install 3x bolt, 3x washer, 3x nut 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "fuel-tank-sensor-replace-AQS315"
+    },
+    {
+      "component": "Secure 8x bolt, 2x security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "fuel-tank-sensor-replace-AQS315"
+    },
+    {
+      "component": "Install new guide roller for camshaft timing belt",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 19,
+      "sourcePage": "guide-roller-camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure tensioner",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 23,
+      "sourcePage": "guide-roller-camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install lower cover of camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 25,
+      "sourcePage": "guide-roller-camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install ribbed V-belt tensioner",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 26,
+      "sourcePage": "guide-roller-camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install crankshaft pulley",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 27,
+      "sourcePage": "guide-roller-camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install upper cover of camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 29,
+      "sourcePage": "guide-roller-camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 34,
+      "sourcePage": "guide-roller-camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "guide-roller-camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Tighten bolt 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "guide-roller-camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 6 Nm",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "guide-roller-camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "guide-roller-camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure lower fixing's of 2x hard top bracket",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "hard-top-adjust-AQS315"
+    },
+    {
+      "component": "Secure upper fixing's of 2x rear hard top bracket",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 9,
+      "sourcePage": "hard-top-adjust-AQS315"
+    },
+    {
+      "component": "Tighten 4x bolt 10 Nm Note: Maintain maximum contact with front header seal.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "hard-top-adjust-AQS315"
+    },
+    {
+      "component": "Secure rear road wheel right side",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 10,
+      "sourcePage": "hose-intercooler-to-throttle-valve-housing-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "hose-intercooler-to-throttle-valve-housing-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install swivel joint carrier to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 13,
+      "sourcePage": "hub-carrier-replace-AQS315"
+    },
+    {
+      "component": "Install track control arm to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 14,
+      "sourcePage": "hub-carrier-replace-AQS315"
+    },
+    {
+      "component": "Install ball joint of lower wishbone to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 15,
+      "sourcePage": "hub-carrier-replace-AQS315"
+    },
+    {
+      "component": "Install drive shaft to wheel hub",
+      "value": "220",
+      "unit": "Nm",
+      "stepRef": 17,
+      "sourcePage": "hub-carrier-replace-AQS315"
+    },
+    {
+      "component": "Install brake caliper to hub carrier",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": 18,
+      "sourcePage": "hub-carrier-replace-AQS315"
+    },
+    {
+      "component": "Install brake disc to hub carrier",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": 19,
+      "sourcePage": "hub-carrier-replace-AQS315"
+    },
+    {
+      "component": "Tighten 2x bolt 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "hub-carrier-replace-AQS315"
+    },
+    {
+      "component": "Install nut 220 Nm",
+      "value": "220",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "hub-carrier-replace-AQS315"
+    },
+    {
+      "component": "Install bolt 48 Nm",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "hub-carrier-replace-AQS315"
+    },
+    {
+      "component": "Install screw 12 Nm",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "hub-carrier-replace-AQS315"
+    },
+    {
+      "component": "Close valve and remove hose, tighten valve – 9 Nm .",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 11,
+      "sourcePage": "hydraulic-clutch-bleed-AQS315"
+    },
+    {
+      "component": "Install new idler pulley for ribbed V-belt to accessory bracket",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 5,
+      "sourcePage": "idler-pulley-ribbed-v-belt-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 3x bolt, washer 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "idler-pulley-ribbed-v-belt-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install ignition module to cylinder head",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 4,
+      "sourcePage": "ignition-module-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt (1), 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "ignition-module-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install air bag unit",
+      "value": "7",
+      "unit": "Nm",
+      "stepRef": 17,
+      "sourcePage": "immobiliser-control-unit-replace-AQS315"
+    },
+    {
+      "component": "Install 2x screw 7 Nm",
+      "value": "7",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "immobiliser-control-unit-replace-AQS315"
+    },
+    {
+      "component": "Install intake manifold with new gasket to vehicle",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 27,
+      "sourcePage": "intake-manifold-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure support bracket for vacuum tank of switchover valve to intake manifold",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 29,
+      "sourcePage": "intake-manifold-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure fuel rail assembly to intake manifold",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 38,
+      "sourcePage": "intake-manifold-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install throttle body to intake manifold",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 42,
+      "sourcePage": "intake-manifold-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install, then secure bolt, 7x new nut 22 Nm",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "intake-manifold-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install, then secure bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "intake-manifold-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install, then secure 2x bolt 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "intake-manifold-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install, then secure 4x bolt 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "intake-manifold-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure rear road wheel right side",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 30,
+      "sourcePage": "intercooler-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "intercooler-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Wheel - bolts 90 Nm.",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 13,
+      "sourcePage": "liner-front-wheelarch-remove-and-install-AQS315"
+    },
+    {
+      "component": "Wheel - bolts 90 Nm.",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 5,
+      "sourcePage": "liner-rer-wheelarch-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install alternator with lower support bracket to engine",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 12,
+      "sourcePage": "lower-support-bracket-alternator-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure top support bracket to alternator",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 16,
+      "sourcePage": "lower-support-bracket-alternator-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure side support bracket to alternator",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 17,
+      "sourcePage": "lower-support-bracket-alternator-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure lower support bracket to alternator",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 20,
+      "sourcePage": "lower-support-bracket-alternator-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt (1) 35 Nm",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "lower-support-bracket-alternator-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "lower-support-bracket-alternator-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Lower wishbone to chassis – bolts, washers, nuts 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "lower-wishbone-front-remove-and-install-AQS315"
+    },
+    {
+      "component": "Shock absorber (1) to lower wishbone – bolt, washer, nut 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "lower-wishbone-front-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install lower wishbone to front chassis bracket",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "lower-wishbone-rear-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install lower wishbone to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 9,
+      "sourcePage": "lower-wishbone-rear-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install lower wishbone to rear chassis bracket",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 10,
+      "sourcePage": "lower-wishbone-rear-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install shock absorber to lower wishbone",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 11,
+      "sourcePage": "lower-wishbone-rear-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install brake disc to hub carrier",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": 13,
+      "sourcePage": "lower-wishbone-rear-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install new tab washer, bolt 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "lower-wishbone-rear-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install screw 12 Nm",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "lower-wishbone-rear-remove-and-install-AQS315"
+    },
+    {
+      "component": "Lower wishbone to chassis - bolt 45 Nm at front pivot point, washer.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "lower-wishbone-remove-and-install-AQS315"
+    },
+    {
+      "component": "Track control rod to lower wishbone and chassis - nut 49 Nm, washers.",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "lower-wishbone-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install steering intermediate shaft with lower universal joint to steering gear and steering column",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 22,
+      "sourcePage": "mounting-bracket-brake-pedal-and-clutch-pedal-replace-AQS315"
+    },
+    {
+      "component": "Install 3x bolt, 3x nut 35 Nm – Use 3x new nut",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "mounting-bracket-brake-pedal-and-clutch-pedal-replace-AQS315"
+    },
+    {
+      "component": "Attach oil lines to thermostat housing for oil cooler, and oil cooler, using new seal rings – tightening torque 30 Nm .",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "oil-cooler-oil-lines-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install oil drain bolt with new seal ring – tightening torque 10 Nm .",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 3,
+      "sourcePage": "oil-cooler-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Insert oil cooler and attach to cylinder block using fastening bolts – tightening torque 20 Nm .",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 14,
+      "sourcePage": "oil-cooler-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Attach oil lines to oil cooler with new seal rings – tightening torque 30 Nm .",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 15,
+      "sourcePage": "oil-cooler-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Attach wiring harness plug bracket to coolant flange – tightening torque 8 Nm .",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 21,
+      "sourcePage": "oil-cooler-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install new intermediate pipe to threaded adaptor on engine cylinder block",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "oil-feed-pipe-intermediate-turbocharger-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure intermediate pipe to engine cylinder block",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "oil-feed-pipe-intermediate-turbocharger-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Connect intermediate pipe to oil feed pipe for turbocharger",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "oil-feed-pipe-intermediate-turbocharger-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Connect pipe union 35 Nm",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-feed-pipe-intermediate-turbocharger-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Connect pipe union 30 Nm",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-feed-pipe-intermediate-turbocharger-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install new oil feed pipe to turbocharger",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 26,
+      "sourcePage": "oil-feed-pipe-turbocharger-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install exhaust manifold with turbocharger to cylinder head",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 29,
+      "sourcePage": "oil-feed-pipe-turbocharger-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Connect oil feed pipe to engine cylinder block",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 42,
+      "sourcePage": "oil-feed-pipe-turbocharger-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Connect oil feed pipe to engine cylinder block",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 42,
+      "sourcePage": "oil-feed-pipe-turbocharger-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Connect oil return pipe to engine cylinder block",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 43,
+      "sourcePage": "oil-feed-pipe-turbocharger-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Connect pipe union 35 Nm , 2x new seal ring",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-feed-pipe-turbocharger-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 10x new nut Note: Tighten 10x nut 8 Nm in sequence shown. Wait 5 minutes, then re-tighten 10x nut 8 Nm in sequence shown.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-feed-pipe-turbocharger-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Connect pipe union 20 Nm – Remove blanking plug, then discard",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-feed-pipe-turbocharger-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Connect pipe union 30 Nm , 2x new seal ring",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-feed-pipe-turbocharger-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure oil level sensor to lower oil pan",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "oil-pan-lower-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install lower oil pan to upper oil pan",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "oil-pan-lower-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install drain bolt 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "oil-pan-lower-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pan-lower-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install upper oil pan to vehicle",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 18,
+      "sourcePage": "oil-pan-upper-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install upper oil pan to vehicle",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": 18,
+      "sourcePage": "oil-pan-upper-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install heat shield to rear engine mount",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 22,
+      "sourcePage": "oil-pan-upper-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install lower oil pan to upper oil pan Note: Support lower oil pan when installing to avoid damage to harness for oil level sensor.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 25,
+      "sourcePage": "oil-pan-upper-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install drain bolt 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 26,
+      "sourcePage": "oil-pan-upper-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 14x bolt 20 Nm to cylinder block",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pan-upper-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 4x bolt 40 Nm to transmission",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pan-upper-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt to engine mount 49 Nm – Recut 2x bolt thread – Use recommended locking compound",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pan-upper-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pan-upper-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install new oil pick-up pipe to engine",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 3,
+      "sourcePage": "oil-pick-up-pipe-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x new bolt to oil pump 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pick-up-pipe-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install oil pressure switch with new seal ring to oil pump – tightening torque 40 Nm .",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": 3,
+      "sourcePage": "oil-pressure-check-z-20-let-AQS315"
+    },
+    {
+      "component": "Install oil pressure switch (2) with new seal ring to oil pump - tightening torque 40 Nm .",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": 3,
+      "sourcePage": "oil-pressure-switch-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install rear cover to oil pump",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "oil-pump-check-z20-let-AQS315"
+    },
+    {
+      "component": "Install rear cover to oil pump",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "oil-pump-check-z20-let-AQS315"
+    },
+    {
+      "component": "Install 5x screw 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-check-z20-let-AQS315"
+    },
+    {
+      "component": "Install pressure regulating valve to oil pump body 50 Nm – Use new sealing washer",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-check-z20-let-AQS315"
+    },
+    {
+      "component": "Install drain bolt (1) 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 33,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install new oil pump to engine cylinder block",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 62,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install thermostat housing for oil cooler to oil pump",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 64,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install rear cover of camshaft timing belt to engine cylinder block",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 65,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install support bracket to engine cylinder block",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 66,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install engine mounting bracket to support bracket on engine cylinder block and damping block",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 68,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x camshaft pulley to 2x camshaft Note: Note position of locating pin on pulley for exhaust camshaft.",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 72,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install cylinder head cover to cylinder head",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 73,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install ignition module to cylinder head",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 77,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x guide roller for timing belt",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 81,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install crankshaft sprocket to crankshaft",
+      "value": "130",
+      "unit": "Nm",
+      "stepRef": 84,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure tensioner",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 90,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install lower cover of camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 92,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install ribbed V-belt tensioner",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 93,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install crankshaft pulley",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 94,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install upper cover of camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 96,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install oil pick-up pipe to oil pump and balancer shafts",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 99,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install upper oil pan to engine cylinder block",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 100,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install upper oil pan to engine cylinder block",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": 100,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install lower oil pan to upper oil pan Note: Support lower oil pan when installing to avoid damage to harness for oil level sensor.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 102,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure 2x oil line to thermostat housing for oil cooler",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 105,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install new oil filter",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 106,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install heatshield to rear engine mount and engine cylinder block",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 109,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 118,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 6x bolt 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install bolt 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 3x bolt 50 Nm",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x new bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install new bolt 130 Nm + 45° – Counter-hold using KM-662-C",
+      "value": "130",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure bolt 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 6 Nm",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 4x bolt 40 Nm to transmission",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install banjo bolt, feed pipe to thermostat housing for oil cooler 30 Nm",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Tighten 15 Nm – Lubricate O ring seal",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt to rear engine mount 49 Nm",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install new oil return pipe to turbocharger",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "oil-return-pipe-turbocharger-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Connect oil return pipe for turbocharger to engine cylinder block",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "oil-return-pipe-turbocharger-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 8 Nm , gasket – Use new gasket",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-return-pipe-turbocharger-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install pipe union 30 Nm , 2x seal ring – Use 2x new seal ring",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-return-pipe-turbocharger-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Note sequence of con-rod bearing caps. Attach con-rod bearing cap to con-rod with new bolts – con-rod bearing cap bead (1) points to transmission side – tightening torque 35 Nm + 45° + 15° .",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 11,
+      "sourcePage": "piston-and-con-rod-remove-and-install-z20-let-AQS315"
+    },
+    {
+      "component": "Pressure line to central release – 14 Nm .",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 9,
+      "sourcePage": "pressure-line-clutch-central-release-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install pressure regulating valve for oil pump Note: Note position for installation.",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 4,
+      "sourcePage": "pressure-regulating-valve-oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure turbo oil feed pipe to engine",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 5,
+      "sourcePage": "pressure-regulating-valve-oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install closure plug 50 Nm",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "pressure-regulating-valve-oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install bolt 25 Nm – Remove collecting container",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "pressure-regulating-valve-oil-pump-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install temperature controller housing for oil cooler",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "pressure-relief-valve-oil-cooler-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure oil feed pipe and oil return pipe to oil filter housing",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 9,
+      "sourcePage": "pressure-relief-valve-oil-cooler-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install new oil filter",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 10,
+      "sourcePage": "pressure-relief-valve-oil-cooler-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install bolt 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "pressure-relief-valve-oil-cooler-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install banjo bolt for oil feed pipe 30 Nm",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "pressure-relief-valve-oil-cooler-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Screw fit 15 Nm – Lubricate O ring seal",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "pressure-relief-valve-oil-cooler-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure 2x rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 72,
+      "sourcePage": "rear-clamshell-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install upper anchor bolt of seat belt for driver seat to B–pillar",
+      "value": "33",
+      "unit": "Nm",
+      "stepRef": 76,
+      "sourcePage": "rear-clamshell-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install upper anchor bolt of seat belt for passenger seat to B–pillar",
+      "value": "33",
+      "unit": "Nm",
+      "stepRef": 77,
+      "sourcePage": "rear-clamshell-remove-and-install-AQS315"
+    },
+    {
+      "component": "Position passenger seat, then install lower anchor bolt of seat belt",
+      "value": "33",
+      "unit": "Nm",
+      "stepRef": 78,
+      "sourcePage": "rear-clamshell-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install passenger seat",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 79,
+      "sourcePage": "rear-clamshell-remove-and-install-AQS315"
+    },
+    {
+      "component": "Tighten 8x bolt, 2x security bolt 90 Nm – Use special socket located under front bonnet",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "rear-clamshell-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install, then secure bolt 33 Nm",
+      "value": "33",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "rear-clamshell-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install, then secure 4x bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "rear-clamshell-remove-and-install-AQS315"
+    },
+    {
+      "component": "Tighten 2x upper subframe bolt 85 Nm",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 48,
+      "sourcePage": "rear-subframe-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Tighten 2x lower subframe nut and bolt 85 Nm",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 49,
+      "sourcePage": "rear-subframe-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install left engine mount to chassis and engine",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 50,
+      "sourcePage": "rear-subframe-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install left engine mount to chassis and engine",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": 50,
+      "sourcePage": "rear-subframe-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install right engine mount to chassis and engine",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 51,
+      "sourcePage": "rear-subframe-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install right engine mount to chassis and engine",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": 51,
+      "sourcePage": "rear-subframe-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Tighten 2x bolt for roll bar stay bolt 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 53,
+      "sourcePage": "rear-subframe-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install new upper bolt, washer and nut 45 Nm for shock absorber",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 66,
+      "sourcePage": "rear-subframe-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install front bolt and locking tag for left lower wishbone ( 65 Nm )",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": 67,
+      "sourcePage": "rear-subframe-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install new front bolt, locking tag and locking nut to upper wishbone 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 68,
+      "sourcePage": "rear-subframe-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install new rear bolt, locking tag and locking nut to upper wishbone 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 69,
+      "sourcePage": "rear-subframe-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure track control arm 65 Nm",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": 71,
+      "sourcePage": "rear-subframe-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure 2x hub nut 235 Nm for rear wheel",
+      "value": "235",
+      "unit": "Nm",
+      "stepRef": 78,
+      "sourcePage": "rear-subframe-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 2x rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 79,
+      "sourcePage": "rear-subframe-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install reaction mount, lower rear to between transmission and chassis",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": 83,
+      "sourcePage": "rear-subframe-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install reaction mount, lower rear to between transmission and chassis",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 83,
+      "sourcePage": "rear-subframe-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Check tightness of reaction mount, lower front between transmission and front chassis",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": 85,
+      "sourcePage": "rear-subframe-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Check tightness of reaction mount, lower front between transmission and front chassis",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 85,
+      "sourcePage": "rear-subframe-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 3x bolt 49 Nm",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "rear-subframe-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install new damping block nut 48 Nm Note: Access for damping block nut can be achieved through opening. – Recut 3x bolt thread, use recommended locking compound if not micro-encapsulated",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "rear-subframe-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 8x bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "rear-subframe-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install new centre bolt, nut 86 Nm",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "rear-subframe-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install rear wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "rear-wheel-arch-liner-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install 4 bolts, install locking bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "rear-wheel-arch-liner-remove-and-install-AQS315"
+    },
+    {
+      "component": "Hinge bolts, door",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-AQS315",
+      "group": "A"
+    },
+    {
+      "component": "Towing eye bracket screws",
+      "value": "25",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-AQS315",
+      "group": "A"
+    },
+    {
+      "component": "Rear sub–frame screws",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-AQS315",
+      "group": "A"
+    },
+    {
+      "component": "Support arm screws, roll bar",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-AQS315",
+      "group": "A"
+    },
+    {
+      "component": "Engine damping block nut, left and right",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-AQS315",
+      "group": "A"
+    },
+    {
+      "component": "Bracket screws, right, engine damping block",
+      "value": "85",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-AQS315",
+      "group": "A"
+    },
+    {
+      "component": "Bracket screws, left, engine damping block",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-AQS315",
+      "group": "A"
+    },
+    {
+      "component": "Engine damping block screw, rear to transmission",
+      "value": "86",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-AQS315",
+      "group": "A"
+    },
+    {
+      "component": "Engine damping block screw, rear to rear sub–frame",
+      "value": "49",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-AQS315",
+      "group": "A"
+    },
+    {
+      "component": "Shock absorber screw to rear sub–frame",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-AQS315",
+      "group": "A"
+    },
+    {
+      "component": "Upper wishbone screw to rear sub–frame",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-AQS315",
+      "group": "A"
+    },
+    {
+      "component": "Lower wishbone screw",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-AQS315",
+      "group": "A"
+    },
+    {
+      "component": "Lower wishbone nut",
+      "value": "49",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-AQS315",
+      "group": "A"
+    },
+    {
+      "component": "Wheel bolts",
+      "value": "90",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-AQS315",
+      "group": "A"
+    },
+    {
+      "component": "Hinge bolts, front bonnet",
+      "value": "20",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-AQS315",
+      "group": "A"
+    },
+    {
+      "component": "Hinge bolts, engine cover",
+      "value": "14",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-AQS315",
+      "group": "A"
+    },
+    {
+      "component": "Screws and nuts, front clamshell to radiator case",
+      "value": "14",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-AQS315",
+      "group": "A"
+    },
+    {
+      "component": "Screws, front clamshell to windscreen frame",
+      "value": "14",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-AQS315",
+      "group": "A"
+    },
+    {
+      "component": "Screws, front clamshell to sill",
+      "value": "14",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-AQS315",
+      "group": "A"
+    },
+    {
+      "component": "Screws, front clamshell to A–pillar",
+      "value": "14",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-AQS315",
+      "group": "A"
+    },
+    {
+      "component": "Nuts, rear header panel to roll bar",
+      "value": "10",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-AQS315",
+      "group": "A"
+    },
+    {
+      "component": "Screws, soft top guides to roll bar",
+      "value": "11",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-AQS315",
+      "group": "A"
+    },
+    {
+      "component": "Screws, rear clamshell to rear bulkhead",
+      "value": "14",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-AQS315",
+      "group": "A"
+    },
+    {
+      "component": "Screws, rear clamshell to rear sub–frame",
+      "value": "16",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-AQS315",
+      "group": "A"
+    },
+    {
+      "component": "Screws, engine cover lock to rear clamshell",
+      "value": "16",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-AQS315",
+      "group": "A"
+    },
+    {
+      "component": "Screws, rear clamshell to sill",
+      "value": "9",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-AQS315",
+      "group": "A"
+    },
+    {
+      "component": "Seat to Floor",
+      "value": "25",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-c-AQS315",
+      "group": "C"
+    },
+    {
+      "component": "Fixings, hard top bracket",
+      "value": "10",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-c-AQS315",
+      "group": "C"
+    },
+    {
+      "component": "Seat belt to seat (anchor bolt)",
+      "value": "35",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-c-AQS315",
+      "group": "C"
+    },
+    {
+      "component": "Seat belt to roll bar (upper anchor point)",
+      "value": "35",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-c-AQS315",
+      "group": "C"
+    },
+    {
+      "component": "Inertia reel assembly to roll bar (lower anchor bolt)",
+      "value": "35",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-c-AQS315",
+      "group": "C"
+    },
+    {
+      "component": "Seat belt buckle to seat",
+      "value": "35",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-c-AQS315",
+      "group": "C"
+    },
+    {
+      "component": "Door lock striker",
+      "value": "25",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-c-AQS315",
+      "group": "C"
+    },
+    {
+      "component": "Steering wheel assembly to steering column, nut",
+      "value": "25",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-c-AQS315",
+      "group": "C"
+    },
+    {
+      "component": "Steering tie rod lock nuts",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-AQS315",
+      "group": "E"
+    },
+    {
+      "component": "Lower wishbone to pivot points bolts",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-AQS315",
+      "group": "E"
+    },
+    {
+      "component": "Pivot bushes of upper wishbone bolts",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-AQS315",
+      "group": "E"
+    },
+    {
+      "component": "Shock absorber to chassis bracket bolt and nut",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-AQS315",
+      "group": "E"
+    },
+    {
+      "component": "Shock absorber to lower wishbone bolt",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-AQS315",
+      "group": "E"
+    },
+    {
+      "component": "Stabiliser bar with pivot bushes to chassis clamp bolt",
+      "value": "25",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-AQS315",
+      "group": "E"
+    },
+    {
+      "component": "Steering arm to hub carrier bolts",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-AQS315",
+      "group": "E"
+    },
+    {
+      "component": "Tie rod to steering arm, nut",
+      "value": "30",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-AQS315",
+      "group": "E"
+    },
+    {
+      "component": "Upper swivel joint to steering arm nut",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-AQS315",
+      "group": "E"
+    },
+    {
+      "component": "Wheel bearing assembly bolt",
+      "value": "210",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-AQS315",
+      "group": "E"
+    },
+    {
+      "component": "Wheel bolts",
+      "value": "90",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-AQS315",
+      "group": "E"
+    },
+    {
+      "component": "Wheel hub assembly to hub carrier",
+      "value": "90",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-AQS315",
+      "group": "E"
+    },
+    {
+      "component": "Brake caliper to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-AQS315",
+      "group": "E"
+    },
+    {
+      "component": "Stabiliser bar to link rod",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-AQS315",
+      "group": "E"
+    },
+    {
+      "component": "Lower wishbone to chassis, front pivot bolt",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-f-AQS315",
+      "group": "F"
+    },
+    {
+      "component": "Shock absorber to anchor bracket on chassis bolt",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-f-AQS315",
+      "group": "F"
+    },
+    {
+      "component": "Track control rod to rear pivot of lower wishbone bolt",
+      "value": "49",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-f-AQS315",
+      "group": "F"
+    },
+    {
+      "component": "Upper wishbone to chassis bolts",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-f-AQS315",
+      "group": "F"
+    },
+    {
+      "component": "Upper swivel joint carrier to hub carrier bolts",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-f-AQS315",
+      "group": "F"
+    },
+    {
+      "component": "Wheel bolts",
+      "value": "90",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-f-AQS315",
+      "group": "F"
+    },
+    {
+      "component": "Track control rod to hub carrier",
+      "value": "65",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-f-AQS315",
+      "group": "F"
+    },
+    {
+      "component": "Driveshaft to wheel hub",
+      "value": "220",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-f-AQS315",
+      "group": "F"
+    },
+    {
+      "component": "Brake caliper to hub carrier",
+      "value": "48",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-f-AQS315",
+      "group": "F"
+    },
+    {
+      "component": "Brake disc to hub carrier",
+      "value": "12",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-f-AQS315",
+      "group": "F"
+    },
+    {
+      "component": "Lower wishbone to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-f-AQS315",
+      "group": "F"
+    },
+    {
+      "component": "Shock absorber to lower wishbone",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-f-AQS315",
+      "group": "F"
+    },
+    {
+      "component": "Wheel bolts",
+      "value": "90",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-h-AQS315",
+      "group": "H"
+    },
+    {
+      "component": "Clutch bleeder valve",
+      "value": "9",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-k-AQS315",
+      "group": "K"
+    },
+    {
+      "component": "Clutch pressure plate to flywheel bolts",
+      "value": "15",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-k-AQS315",
+      "group": "K"
+    },
+    {
+      "component": "Central release to transmission bolts",
+      "value": "5",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-k-AQS315",
+      "group": "K"
+    },
+    {
+      "component": "End shield cover to transmission M7 x 1.0 bolts",
+      "value": "15",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-k-AQS315",
+      "group": "K"
+    },
+    {
+      "component": "End shield cover to transmission M8 x 1.25 bolts",
+      "value": "20",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-k-AQS315",
+      "group": "K"
+    },
+    {
+      "component": "Fluid drain plug",
+      "value": "35",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-k-AQS315",
+      "group": "K"
+    },
+    {
+      "component": "Fluid filler plug",
+      "value": "35",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-k-AQS315",
+      "group": "K"
+    },
+    {
+      "component": "Fluid level plug",
+      "value": "35",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-k-AQS315",
+      "group": "K"
+    },
+    {
+      "component": "Left engine damping block bracket to transmission bolts",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-k-AQS315",
+      "group": "K"
+    },
+    {
+      "component": "Left engine damping block to engine bracket bolts",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-k-AQS315",
+      "group": "K"
+    },
+    {
+      "component": "Master cylinder to support bracket nuts",
+      "value": "20",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-k-AQS315",
+      "group": "K"
+    },
+    {
+      "component": "Oil sump to transmission bolts",
+      "value": "40",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-k-AQS315",
+      "group": "K"
+    },
+    {
+      "component": "Pressure line to central release union",
+      "value": "14",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-k-AQS315",
+      "group": "K"
+    },
+    {
+      "component": "Pressure plate bolts",
+      "value": "15",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-k-AQS315",
+      "group": "K"
+    },
+    {
+      "component": "Reverse lamp switch",
+      "value": "20",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-k-AQS315",
+      "group": "K"
+    },
+    {
+      "component": "Right engine damping block to engine bracket bolts",
+      "value": "85",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-k-AQS315",
+      "group": "K"
+    },
+    {
+      "component": "Transmission to engine bolts",
+      "value": "60",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-k-AQS315",
+      "group": "K"
+    },
+    {
+      "component": "Fuel filter to bulkhead, bolt",
+      "value": "9",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-l-AQS315",
+      "group": "L"
+    },
+    {
+      "component": "Fuel line clips to bulkhead, bolts",
+      "value": "9",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-l-AQS315",
+      "group": "L"
+    },
+    {
+      "component": "Fuel tank to vehicle, bolts",
+      "value": "25",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-l-AQS315",
+      "group": "L"
+    },
+    {
+      "component": "Fuel tank shear panel, bolts",
+      "value": "25",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-l-AQS315",
+      "group": "L"
+    },
+    {
+      "component": "Steering column lower mounting bolt",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-m-AQS315",
+      "group": "M"
+    },
+    {
+      "component": "Steering column pinch bolt",
+      "value": "35",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-m-AQS315",
+      "group": "M"
+    },
+    {
+      "component": "Steering column upper mounting bolts",
+      "value": "25",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-m-AQS315",
+      "group": "M"
+    },
+    {
+      "component": "Steering wheel assembly to steering column nut",
+      "value": "25",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-m-AQS315",
+      "group": "M"
+    },
+    {
+      "component": "Wheel bolts",
+      "value": "90",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-m-AQS315",
+      "group": "M"
+    },
+    {
+      "component": "Attach ribbed V-belt tensioner to alternator support. Install 2x bolt 35 Nm",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 3,
+      "sourcePage": "ribbed-v-belt-tensioner-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install road wheel to vehicle",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 5,
+      "sourcePage": "road-wheel-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install security bolt 90 Nm to road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "road-wheel-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install 4x wheel bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "road-wheel-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install 2x seat rail to seat",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 4,
+      "sourcePage": "seat-rail-drivers-side-replace-AQS315"
+    },
+    {
+      "component": "Position seat forward",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "seat-rail-drivers-side-replace-AQS315"
+    },
+    {
+      "component": "Position seat rearward",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "seat-rail-drivers-side-replace-AQS315"
+    },
+    {
+      "component": "Secure 2x nut (3) 15 Nm",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "seat-rail-drivers-side-replace-AQS315"
+    },
+    {
+      "component": "Secure 2x bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "seat-rail-drivers-side-replace-AQS315"
+    },
+    {
+      "component": "Secure camshaft sensor",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "sensor-camshaft-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install ignition module to cylinder head",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 9,
+      "sourcePage": "sensor-camshaft-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install bolt (3) 6 Nm",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "sensor-camshaft-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install new temperature sensor 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 5,
+      "sourcePage": "sensor-coolant-temperature-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install crankshaft pulse sensor to engine cylinder block",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "sensor-crankshaft-pulse-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install accessory bracket to engine cylinder block",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 9,
+      "sourcePage": "sensor-crankshaft-pulse-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install ribbed V-belt idler pulley to accessory bracket",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 10,
+      "sourcePage": "sensor-crankshaft-pulse-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install bolt 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "sensor-crankshaft-pulse-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 4x bolt 35 Nm",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "sensor-crankshaft-pulse-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 3x bolt, washer 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "sensor-crankshaft-pulse-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install knock sensor to engine cylinder block 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "sensor-engine-knock-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install shear panel to vehicle",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 10,
+      "sourcePage": "shear-panel-replace-AQS315"
+    },
+    {
+      "component": "Secure shear panel to support bracket for damping block",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 11,
+      "sourcePage": "shear-panel-replace-AQS315"
+    },
+    {
+      "component": "Secure shear panel to left side and right side suspension mount",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 12,
+      "sourcePage": "shear-panel-replace-AQS315"
+    },
+    {
+      "component": "Install, then secure 8x bolt, 3x nut, 11x washer 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "shear-panel-replace-AQS315"
+    },
+    {
+      "component": "Install, then secure 4x bolt, 4x nut, 8x washer 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "shear-panel-replace-AQS315"
+    },
+    {
+      "component": "Shock absorber to bracket on chassis – bolt, nut 45 Nm , washers.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 5,
+      "sourcePage": "shock-absorber-remove-and-install-AQS315"
+    },
+    {
+      "component": "Rear wheel to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "shock-absorber-remove-and-install-AQS315"
+    },
+    {
+      "component": "Shock absorber to lower wishbone – bolt, nut (1) 45 Nm , washers.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "shock-absorber-remove-and-install-AQS315"
+    },
+    {
+      "component": "Secure shock absorber to lower wishbone",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 10,
+      "sourcePage": "shock-absorber-replace-AQS315"
+    },
+    {
+      "component": "Secure shock absorber to chassis",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 11,
+      "sourcePage": "shock-absorber-replace-AQS315"
+    },
+    {
+      "component": "Install rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 13,
+      "sourcePage": "shock-absorber-replace-AQS315"
+    },
+    {
+      "component": "Install bolt, washer, new nut 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "shock-absorber-replace-AQS315"
+    },
+    {
+      "component": "Install 4x wheel bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "shock-absorber-replace-AQS315"
+    },
+    {
+      "component": "Secure rear road wheel to left side",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 12,
+      "sourcePage": "side-pod-left-side-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure 4x bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "side-pod-left-side-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure rear road wheel to right side",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 15,
+      "sourcePage": "side-pod-right-side-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure 5x bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "side-pod-right-side-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 4x spark plug to cylinder head 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 5,
+      "sourcePage": "spark-plugs-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install ignition module to cylinder head",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "spark-plugs-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt (1), 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "spark-plugs-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install new crankshaft sprocket to crankshaft",
+      "value": "130",
+      "unit": "Nm",
+      "stepRef": 19,
+      "sourcePage": "sprocket-crankshaft-timing-belt-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure tensioner",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 24,
+      "sourcePage": "sprocket-crankshaft-timing-belt-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install lower cover of camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 26,
+      "sourcePage": "sprocket-crankshaft-timing-belt-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install ribbed V-belt tensioner",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 27,
+      "sourcePage": "sprocket-crankshaft-timing-belt-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install crankshaft pulley Note: Note position of crankshaft pulley.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 28,
+      "sourcePage": "sprocket-crankshaft-timing-belt-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install upper cover of camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 30,
+      "sourcePage": "sprocket-crankshaft-timing-belt-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure rear road wheel right side",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 35,
+      "sourcePage": "sprocket-crankshaft-timing-belt-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install new bolt 130 Nm + 45° – Counter-hold using KM-662-C",
+      "value": "130",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "sprocket-crankshaft-timing-belt-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure bolt 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "sprocket-crankshaft-timing-belt-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 6 Nm",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "sprocket-crankshaft-timing-belt-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "sprocket-crankshaft-timing-belt-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "sprocket-crankshaft-timing-belt-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install stabiliser bar to each link rod",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 15,
+      "sourcePage": "stabiliser-bar-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install 2x front road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 17,
+      "sourcePage": "stabiliser-bar-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install 2x clamp for 2x bush to chassis",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 18,
+      "sourcePage": "stabiliser-bar-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install new 2x nut 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "stabiliser-bar-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install 8x bolt, 2x security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "stabiliser-bar-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install 4x bolt 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "stabiliser-bar-remove-and-install-AQS315"
+    },
+    {
+      "component": "Stabiliser bar with pivot bushes to chassis - spacers, clamps , 8 bolts 25 Nm, washers.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 4,
+      "sourcePage": "stabiliser-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install starter motor",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "starter-motor-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install vacuum cut-off valve bracket to engine",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 9,
+      "sourcePage": "starter-motor-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install upper bolt for starter motor 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 12,
+      "sourcePage": "starter-motor-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install lower bolt 40 Nm",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "starter-motor-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "starter-motor-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Steering arm to hub carrier - shims, bolts 45 Nm.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 5,
+      "sourcePage": "steering-arm-remove-and-install-AQS315"
+    },
+    {
+      "component": "Tie rod to steering arm - nut 30 Nm.",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "steering-arm-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install hub carrier and shims",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 12,
+      "sourcePage": "steering-arm-replace-AQS315"
+    },
+    {
+      "component": "Secure lower wishbone to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 13,
+      "sourcePage": "steering-arm-replace-AQS315"
+    },
+    {
+      "component": "Install wheel hub assembly to hub carrier",
+      "value": "77",
+      "unit": "Nm",
+      "stepRef": 14,
+      "sourcePage": "steering-arm-replace-AQS315"
+    },
+    {
+      "component": "For earlier type wheel hub, install centre bolt, 4x washer, nut 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 15,
+      "sourcePage": "steering-arm-replace-AQS315"
+    },
+    {
+      "component": "Install brake caliper assembly to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 18,
+      "sourcePage": "steering-arm-replace-AQS315"
+    },
+    {
+      "component": "Install front road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 19,
+      "sourcePage": "steering-arm-replace-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 45 Nm Note: Clean threads and apply locking compound.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "steering-arm-replace-AQS315"
+    },
+    {
+      "component": "Install 3x washer, 3x bolt 77 Nm",
+      "value": "77",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "steering-arm-replace-AQS315"
+    },
+    {
+      "component": "Install 4x bolt, install security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "steering-arm-replace-AQS315"
+    },
+    {
+      "component": "Install universal joint to steering column",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 24,
+      "sourcePage": "steering-column-remove-and-install-AQS315"
+    },
+    {
+      "component": "Secure steering column to instrument panel",
+      "value": "22.5",
+      "unit": "Nm",
+      "stepRef": 25,
+      "sourcePage": "steering-column-remove-and-install-AQS315"
+    },
+    {
+      "component": "Secure steering column to bulkhead",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 26,
+      "sourcePage": "steering-column-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install steering wheel boss to steering column",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 31,
+      "sourcePage": "steering-column-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install upper bolt to intermediate shaft 22.5 Nm",
+      "value": "22.5",
+      "unit": "Nm",
+      "stepRef": 37,
+      "sourcePage": "steering-column-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install bolt, nut 35 Nm",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "steering-column-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install 2x washer, 2x bolt 22.5 Nm",
+      "value": "22.5",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "steering-column-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install washer, bolt 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "steering-column-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install new nut, washer, secure spring 25 Nm Note: Twist washer upwards against nut to secure.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "steering-column-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install lower universal joint and pinion shaft",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 20,
+      "sourcePage": "steering-gear-replace-AQS315"
+    },
+    {
+      "component": "Secure 2x upper bolt for steering gear 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 21,
+      "sourcePage": "steering-gear-replace-AQS315"
+    },
+    {
+      "component": "Secure 2x upper bolt for steering gear 45 Nm",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 21,
+      "sourcePage": "steering-gear-replace-AQS315"
+    },
+    {
+      "component": "Install right tie-rod end to right steering arm",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 23,
+      "sourcePage": "steering-gear-replace-AQS315"
+    },
+    {
+      "component": "Install left tie-rod end to left steering arm",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 24,
+      "sourcePage": "steering-gear-replace-AQS315"
+    },
+    {
+      "component": "Install front roadwheel to left side",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 25,
+      "sourcePage": "steering-gear-replace-AQS315"
+    },
+    {
+      "component": "Install front roadwheel to right side",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 26,
+      "sourcePage": "steering-gear-replace-AQS315"
+    },
+    {
+      "component": "Install 2x nut, 2x bolt to lower universal joint 35 Nm",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "steering-gear-replace-AQS315"
+    },
+    {
+      "component": "Secure 2x lower bolt for steering gear 22 Nm",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "steering-gear-replace-AQS315"
+    },
+    {
+      "component": "Install new nut 30 Nm",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "steering-gear-replace-AQS315"
+    },
+    {
+      "component": "Install 4x bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "steering-gear-replace-AQS315"
+    },
+    {
+      "component": "Steering wheel assembly to steering column – nut (2) 25 Nm .",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "steering-wheel-assembly-remove-and-install-AQS315"
+    },
+    {
+      "component": "Secure shock absorber to lower wishbone",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 10,
+      "sourcePage": "suspension-spring-replace-AQS315"
+    },
+    {
+      "component": "Secure shock absorber to chassis",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 11,
+      "sourcePage": "suspension-spring-replace-AQS315"
+    },
+    {
+      "component": "Install rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 13,
+      "sourcePage": "suspension-spring-replace-AQS315"
+    },
+    {
+      "component": "Install bolt, washer, new nut 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "suspension-spring-replace-AQS315"
+    },
+    {
+      "component": "Install 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "suspension-spring-replace-AQS315"
+    },
+    {
+      "component": "Install temperature controller housing",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "temperature-controller-housing-oil-cooler-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure oil cooler feed and return pipe to oil filter housing",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "temperature-controller-housing-oil-cooler-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install new oil filter",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 9,
+      "sourcePage": "temperature-controller-housing-oil-cooler-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install temperature controller to oil cooler housing",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 10,
+      "sourcePage": "temperature-controller-housing-oil-cooler-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install housing bolt 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "temperature-controller-housing-oil-cooler-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install banjo bolt, feed pipe to temperature controller housing 30 Nm",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "temperature-controller-housing-oil-cooler-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Screw fit 15 Nm – Lubricate O ring seal – Remove collecting container",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "temperature-controller-housing-oil-cooler-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install Piston, Spring, new Sealing Washer and Plug 20 Nm + 60° + 30° Note: Note position for installation.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "temperature-controller-housing-oil-cooler-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install new temperature controller to housing for oil cooler system Note: Note position for installation.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 3,
+      "sourcePage": "temperature-controller-oil-cooler-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Install plug 20 Nm + 60° + 30° – Position collecting container",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "temperature-controller-oil-cooler-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Secure tensioner",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 23,
+      "sourcePage": "tensioner-camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install lower cover of camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 25,
+      "sourcePage": "tensioner-camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install ribbed V-belt tensioner",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 26,
+      "sourcePage": "tensioner-camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install crankshaft pulley",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 27,
+      "sourcePage": "tensioner-camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install upper cover of camshaft timing belt",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 29,
+      "sourcePage": "tensioner-camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Secure rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 34,
+      "sourcePage": "tensioner-camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Tighten bolt 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "tensioner-camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 6 Nm",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "tensioner-camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "tensioner-camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "tensioner-camshaft-timing-belt-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Attach thermostat housing to cylinder head with new seal ring. Install 2x bolt 15 Nm .",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "thermostat-replace-z-20-let-AQS315"
+    },
+    {
+      "component": "Attach throttle body, upper to throttle body, lower – tightening torque 9 Nm . Attach intercooler hose to throttle body upper – tightening torque – 3.5 Nm .",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 9,
+      "sourcePage": "throttle-body-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Attach throttle body, upper to throttle body, lower – tightening torque 9 Nm . Attach intercooler hose to throttle body upper – tightening torque – 3.5 Nm .",
+      "value": "3.5",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "throttle-body-replace-z20-let-AQS315"
+    },
+    {
+      "component": "Tighten lock nut on tie rod end 30 Nm .",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 9,
+      "sourcePage": "tie-rod-end-remove-and-install-AQS315"
+    },
+    {
+      "component": "Front wheel to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 10,
+      "sourcePage": "tie-rod-end-remove-and-install-AQS315"
+    },
+    {
+      "component": "Loosen locknuts (1) and (2) on both right and left tie rods. Always adjust both tie rods same amount to obtain setting. Tighten locknuts on both tie rods - 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 3,
+      "sourcePage": "toe-in-rear-wheels-adjust-AQS315"
+    },
+    {
+      "component": "Loosen locknuts (1) on both right and left tie rods. Always adjust both tie rods same amount to obtain setting. Tighten locknuts on both tie rods - 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 3,
+      "sourcePage": "toe-out-front-wheels-adjust-AQS315"
+    },
+    {
+      "component": "Towing eye bracket (1) – 3 screws (arrowed) 25 Nm .",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 5,
+      "sourcePage": "towing-eye-bracket-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install new track control arm to lower wishbone",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 4,
+      "sourcePage": "track-control-arm-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install track control arm to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 5,
+      "sourcePage": "track-control-arm-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install new nut 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "track-control-arm-remove-and-install-AQS315"
+    },
+    {
+      "component": "Track control rod to lower wishbone - nut 49 Nm, washers.",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "track-control-rod-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install transmission to engine assembly",
+      "value": "60",
+      "unit": "Nm",
+      "stepRef": 3,
+      "sourcePage": "transmission-remove-and-install-z-20-let-engine-removed-AQS315"
+    },
+    {
+      "component": "Install transmission to engine assembly",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": 3,
+      "sourcePage": "transmission-remove-and-install-z-20-let-engine-removed-AQS315"
+    },
+    {
+      "component": "Install 7x bolt (1) 60 Nm symmetrically Note: Includes installation of support bracket for engine harness.",
+      "value": "60",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "transmission-remove-and-install-z-20-let-engine-removed-AQS315"
+    },
+    {
+      "component": "Install 4x bolt (2) 40 Nm symmetrically",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "transmission-remove-and-install-z-20-let-engine-removed-AQS315"
+    },
+    {
+      "component": "Secure upper wishbone to chassis",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 10,
+      "sourcePage": "upper-wishbone-front-replace-AQS315"
+    },
+    {
+      "component": "Secure upper wishbone to steering arm",
+      "value": "55",
+      "unit": "Nm",
+      "stepRef": 11,
+      "sourcePage": "upper-wishbone-front-replace-AQS315"
+    },
+    {
+      "component": "Install road wheel to vehicle",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 13,
+      "sourcePage": "upper-wishbone-front-replace-AQS315"
+    },
+    {
+      "component": "Secure 2x bolt, 2x nut 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "upper-wishbone-front-replace-AQS315"
+    },
+    {
+      "component": "Secure nut 55 Nm",
+      "value": "55",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "upper-wishbone-front-replace-AQS315"
+    },
+    {
+      "component": "Install 4x bolt, install security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "upper-wishbone-front-replace-AQS315"
+    },
+    {
+      "component": "Upper wishbone to chassis – bolts, nuts 45 Nm , washers.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 3,
+      "sourcePage": "upper-wishbone-rear-remove-and-install-AQS315"
+    },
+    {
+      "component": "Upper wishbone to chassis - bolts, nuts 45 Nm, washers.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "upper-wishbone-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install swivel joint carrier to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 13,
+      "sourcePage": "wheel-bearing-assembly-replace-AQS315"
+    },
+    {
+      "component": "Install track control arm to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 14,
+      "sourcePage": "wheel-bearing-assembly-replace-AQS315"
+    },
+    {
+      "component": "Install ball joint of lower wishbone to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 15,
+      "sourcePage": "wheel-bearing-assembly-replace-AQS315"
+    },
+    {
+      "component": "Install drive shaft to wheel hub",
+      "value": "220",
+      "unit": "Nm",
+      "stepRef": 17,
+      "sourcePage": "wheel-bearing-assembly-replace-AQS315"
+    },
+    {
+      "component": "Install brake caliper to hub carrier",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": 18,
+      "sourcePage": "wheel-bearing-assembly-replace-AQS315"
+    },
+    {
+      "component": "Install brake disc to hub carrier",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": 19,
+      "sourcePage": "wheel-bearing-assembly-replace-AQS315"
+    },
+    {
+      "component": "Tighten 2x bolt 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "wheel-bearing-assembly-replace-AQS315"
+    },
+    {
+      "component": "Install nut 220 Nm",
+      "value": "220",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "wheel-bearing-assembly-replace-AQS315"
+    },
+    {
+      "component": "Install bolt 48 Nm",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "wheel-bearing-assembly-replace-AQS315"
+    },
+    {
+      "component": "Install screw 12 Nm",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "wheel-bearing-assembly-replace-AQS315"
+    },
+    {
+      "component": "Install wheel hub assembly to hub carrier Note: Wheel bearing part of hub assembly.",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 10,
+      "sourcePage": "wheel-bearing-front-replace-AQS315"
+    },
+    {
+      "component": "For earlier type wheel hub, install centre bolt, 4x washer, nut 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 11,
+      "sourcePage": "wheel-bearing-front-replace-AQS315"
+    },
+    {
+      "component": "Install brake caliper assembly to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 14,
+      "sourcePage": "wheel-bearing-front-replace-AQS315"
+    },
+    {
+      "component": "Install front road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 15,
+      "sourcePage": "wheel-bearing-front-replace-AQS315"
+    },
+    {
+      "component": "Install 3x washer, 3x bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "wheel-bearing-front-replace-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 45 Nm Note: Clean threads and apply locking compound.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "wheel-bearing-front-replace-AQS315"
+    },
+    {
+      "component": "Bolt, thrust washers and dust shield to wheel bearing assembly - 210 Nm.",
+      "value": "210",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "wheel-bearing-remove-and-install-AQS315"
+    },
+    {
+      "component": "Track control rod (2) to hub carrier – nut 80 Nm .",
+      "value": "80",
+      "unit": "Nm",
+      "stepRef": 13,
+      "sourcePage": "wheel-hub-and-drive-shaft-assembly-remove-and-install-AQS315"
+    },
+    {
+      "component": "Upper ball joint carrier (1) to hub carrier – camber shims, two bolts 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 15,
+      "sourcePage": "wheel-hub-and-drive-shaft-assembly-remove-and-install-AQS315"
+    },
+    {
+      "component": "Rear wheel to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 19,
+      "sourcePage": "wheel-hub-and-drive-shaft-assembly-remove-and-install-AQS315"
+    },
+    {
+      "component": "Install wheel hub assembly to hub carrier Note: Wheel speed sensor part of hub assembly.",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 10,
+      "sourcePage": "wheel-speed-sensor-abs-front-or-rear-replace-AQS315"
+    },
+    {
+      "component": "For earlier type wheel hub, install centre bolt, 4x washer, nut 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 11,
+      "sourcePage": "wheel-speed-sensor-abs-front-or-rear-replace-AQS315"
+    },
+    {
+      "component": "Install brake caliper assembly to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 14,
+      "sourcePage": "wheel-speed-sensor-abs-front-or-rear-replace-AQS315"
+    },
+    {
+      "component": "Install front road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 15,
+      "sourcePage": "wheel-speed-sensor-abs-front-or-rear-replace-AQS315"
+    },
+    {
+      "component": "Install 3x washer, 3x bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "wheel-speed-sensor-abs-front-or-rear-replace-AQS315"
+    },
+    {
+      "component": "Install 2x bolt 45 Nm Note: Clean threads and apply locking compound.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "wheel-speed-sensor-abs-front-or-rear-replace-AQS315"
+    },
+    {
+      "component": "Install front bonnet lock",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": 42,
+      "sourcePage": "windscreen-frame-replace-AQS315"
+    },
+    {
+      "component": "Install front wheels",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 54,
+      "sourcePage": "windscreen-frame-replace-AQS315"
+    },
+    {
+      "component": "Install right door",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 55,
+      "sourcePage": "windscreen-frame-replace-AQS315"
+    },
+    {
+      "component": "Install left door",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 56,
+      "sourcePage": "windscreen-frame-replace-AQS315"
+    },
+    {
+      "component": "Tightening torque 16 Nm",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "windscreen-frame-replace-AQS315"
+    },
+    {
+      "component": "Tightening torque 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "windscreen-frame-replace-AQS315"
+    },
+    {
+      "component": "Tightening torque 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "windscreen-frame-replace-AQS315"
+    }
+  ]
+}

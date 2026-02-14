@@ -1,0 +1,228 @@
+{
+  "type": "procedure",
+  "id": "brake-system-bleed-AQS315",
+  "title": "Brake System, Bleed",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Open front bonnet",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Release cap from brake fluid reservoir",
+          "image": {
+            "src": "/data/assets/images/57fcfc3e4aaf.jpg",
+            "alt": "Object Number: 2419898  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Top up brake fluid reservoir to MAX mark",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use only DOT 4 brake fluid"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Remove filter from brake fluid reservoir",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Install bleed bottle to 4x brake caliper",
+          "image": {
+            "src": "/data/assets/images/3852e2921a2e.jpg",
+            "alt": "Object Number: 2429409  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Install bleeding equipment to brake fluid reservoir",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Follow manufacturer's installation instructions supplied with"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Connect Tech2 machine to harness connector",
+          "image": {
+            "src": "/data/assets/images/75864bf4b33d.jpg",
+            "alt": "Object Number: 2419919  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Bleed brake system",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Turn on Tech2 machine"
+            },
+            {
+              "bullet": "•",
+              "text": "Press enter"
+            },
+            {
+              "bullet": "•",
+              "text": "Select F0: DIAGNOSTICS, press enter"
+            },
+            {
+              "bullet": "•",
+              "text": "Select appropriate model year, press enter"
+            },
+            {
+              "bullet": "•",
+              "text": "Select vehicle, press enter"
+            },
+            {
+              "bullet": "•",
+              "text": "Select F1: CHASSIS, press enter"
+            },
+            {
+              "bullet": "•",
+              "text": "Select ABS 430, press enter"
+            },
+            {
+              "bullet": "•",
+              "text": "Turn on ignition, press confirm"
+            },
+            {
+              "bullet": "•",
+              "text": "Check vehicle details, press confirm"
+            },
+            {
+              "bullet": "•",
+              "text": "Select F4: BRAKE BLEED, press enter"
+            },
+            {
+              "bullet": "•",
+              "text": "Open all bleed screws, press continue"
+            },
+            {
+              "bullet": "•",
+              "text": "Operate brake pedal several times until bubble-free fluid flows"
+            },
+            {
+              "bullet": "•",
+              "text": "Press continue"
+            },
+            {
+              "bullet": "•",
+              "text": "Operate brake pedal several times until bubble-free fluid flows"
+            },
+            {
+              "bullet": "•",
+              "text": "Press continue"
+            },
+            {
+              "bullet": "•",
+              "text": "Operate brake pedal several times until bubble-free fluid flows"
+            },
+            {
+              "bullet": "•",
+              "text": "Press continue"
+            },
+            {
+              "bullet": "•",
+              "text": "Operate brake pedal several times until bubble-free fluid flows"
+            },
+            {
+              "bullet": "•",
+              "text": "Press continue"
+            },
+            {
+              "bullet": "•",
+              "text": "Turn off Tech2 machine"
+            },
+            {
+              "bullet": "•",
+              "text": "Turn off ignition"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Disconnect Tech2 machine from harness connector",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Remove bleeding equipment from brake fluid reservoir",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Follow manufacturer's removal instructions supplied with"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Install filter to brake fluid reservoir",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Replenish brake fluid reservoir to correct level",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use only DOT 4 brake fluid"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Secure cap to brake fluid reservoir",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Remove bleed bottle from 4x brake caliper",
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Inspect brake system for leaks",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install brake pedal tensioner KM-325"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/18e0714199ab.jpg",
+            "alt": "Object Number: 2419918  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 16,
+          "text": "Close front bonnet",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "toolsRequired": [
+    "KM-325"
+  ],
+  "notes": [
+    "Turn off ignition\n 2x Technician\nrequired"
+  ]
+}

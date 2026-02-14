@@ -1,0 +1,30 @@
+{
+  "type": "procedure",
+  "id": "glass-external-rear-view-mirror-replace-AQS315",
+  "title": "Glass, External Rear-view Mirror, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Glass from exterior rear-view mirror – carefully prise off around periphery of glass to release from clips.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Glass to exterior rear-view mirror – press glass into housing to engage in clips.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

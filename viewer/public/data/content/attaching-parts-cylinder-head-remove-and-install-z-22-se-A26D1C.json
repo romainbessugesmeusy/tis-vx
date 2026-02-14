@@ -1,0 +1,443 @@
+{
+  "type": "procedure",
+  "id": "attaching-parts-cylinder-head-remove-and-install-z-22-se-A26D1C",
+  "title": "Attaching Parts, Cylinder Head, Remove and Install\n(Z 22 SE)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Detach the exhaust gas recirculation valve.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 bolts"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove the gasket."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0f326df82d26.jpg",
+            "alt": "Object Number: 2417946  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Detach the fuel distribution pipe.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 bolts (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0f326df82d26.jpg",
+            "alt": "Object Number: 2417946  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Remove the coolant flange connection.",
+          "image": {
+            "src": "/data/assets/images/6f34551b7cfe.jpg",
+            "alt": "Object Number: 2417985  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Remove the spark plugs.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use spark plug socket KM-194-E"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6f34551b7cfe.jpg",
+            "alt": "Object Number: 2417985  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Detach the camshaft connecting flange cover (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 bolts (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7633e0412b84.jpg",
+            "alt": "Object Number: 2417776  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Remove the intake camshaft.",
+          "substeps": [
+            {
+              "bullet": "••",
+              "text": "Visually inspect the camshaft and the camshaft bearings for",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Working in a spiral pattern from the outside towards the\nmiddle, release the bolts on the camshaft bearing caps (I to VI)\n1/2 to 1 turn at a time.\n Note:   The camshaft must\nbe released evenly from the bearings."
+                },
+                {
+                  "bullet": "–",
+                  "text": "Take out the camshaft."
+                },
+                {
+                  "bullet": "–",
+                  "text": "Visually inspect the camshaft and the camshaft bearings for\nwear.\n Note:   The cylinder head\nshould be replaced if the camshaft bearings are defective."
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/22ccec93c03d.jpg",
+            "alt": "Object Number: 2417779  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Take out the roller cam followers.",
+          "image": {
+            "src": "/data/assets/images/e31acd9944c1.jpg",
+            "alt": "Object Number: 2417780  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Take out the hydraulic tappets.",
+          "image": {
+            "src": "/data/assets/images/01becda511ac.jpg",
+            "alt": "Object Number: 2417957  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Remove the exhaust camshaft.",
+          "substeps": [
+            {
+              "bullet": "••",
+              "text": "Visually inspect the camshaft and the camshaft bearings for",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Working in a spiral pattern from the outside towards the\nmiddle, release the bolts on the camshaft bearing caps (I to VI)\n1/2 to 1 turn at a time.\n Note:   The camshaft must\nbe released evenly from the bearings."
+                },
+                {
+                  "bullet": "–",
+                  "text": "Take out the camshaft."
+                },
+                {
+                  "bullet": "–",
+                  "text": "Visually inspect the camshaft and the camshaft bearings for\nwear.\n Note:   The cylinder head\nshould be replaced if the camshaft bearings are defective."
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/96266c02cf55.jpg",
+            "alt": "Object Number: 2417781  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Take out the roller cam followers.",
+          "image": {
+            "src": "/data/assets/images/e4932ffb0eb5.jpg",
+            "alt": "Object Number: 2417782  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 11,
+          "text": "Take out the hydraulic tappets.",
+          "image": {
+            "src": "/data/assets/images/f6de7b1db91c.jpg",
+            "alt": "Object Number: 2417958  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 12,
+          "text": "Insert the hydraulic tappets.",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Insert the roller cam followers.",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Install the exhaust camshaft.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Coat the sliding surfaces with engine oil."
+            },
+            {
+              "bullet": "•",
+              "text": "Insert the camshaft and the camshaft bearings."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1cf11cc8f755.jpg",
+            "alt": "Object Number: 2417784  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 15,
+          "text": "Insert the hydraulic tappets.",
+          "image": {
+            "src": "/data/assets/images/1cf11cc8f755.jpg",
+            "alt": "Object Number: 2417784  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 16,
+          "text": "Insert the roller cam followers.",
+          "image": {
+            "src": "/data/assets/images/1cf11cc8f755.jpg",
+            "alt": "Object Number: 2417784  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 17,
+          "text": "Install the intake camshaft.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Clean the sealing surfaces of camshaft bearing cap no. 11."
+            },
+            {
+              "bullet": "•",
+              "text": "Coat the sliding surfaces with engine oil."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/92e7d2e2b07e.jpg",
+            "alt": "Object Number: 2417785  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 18,
+          "text": "Install the camshaft bearing caps.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Coat the sealing surfaces of camshaft bearing cap no. 6 with"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/57a20e800b98.jpg",
+            "alt": "Object Number: 2417783  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 19,
+          "text": "Working in a spiral pattern from the middle towards the outside, tighten the bolts on the camshaft bearing caps (I to VI) in stages.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque (M6) 9 Nm ,"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7d57fae74f78.jpg",
+            "alt": "Object Number: 2417786  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 20,
+          "text": "Attach the camshaft connecting flange cover.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use a new gasket."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 23 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7d57fae74f78.jpg",
+            "alt": "Object Number: 2417786  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 21,
+          "text": "Install the spark plugs.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use spark plug socket KM-194-E"
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 20 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7d57fae74f78.jpg",
+            "alt": "Object Number: 2417786  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 22,
+          "text": "Install the coolant flange connection.",
+          "image": {
+            "src": "/data/assets/images/7d57fae74f78.jpg",
+            "alt": "Object Number: 2417786  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 23,
+          "text": "Install the fuel distribution pipe.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Coat the new oil seals with engine oil and insert them."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 9 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7d57fae74f78.jpg",
+            "alt": "Object Number: 2417786  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 24,
+          "text": "Clean the sealing surfaces.",
+          "image": null
+        },
+        {
+          "number": 25,
+          "text": "Install the exhaust gas recirculation valve.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use a new gasket."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 23 Nm"
+            }
+          ],
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install the exhaust camshaft.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 14
+    },
+    {
+      "component": "Working in a spiral pattern from the middle towards the outside, tighten the bolts on the camshaft bearing caps (I to VI) in stages.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 19
+    },
+    {
+      "component": "Working in a spiral pattern from the middle towards the outside, tighten the bolts on the camshaft bearing caps (I to VI) in stages.",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 19
+    },
+    {
+      "component": "Attach the camshaft connecting flange cover.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 20
+    },
+    {
+      "component": "Install the spark plugs.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 21
+    },
+    {
+      "component": "Install the fuel distribution pipe.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 23
+    },
+    {
+      "component": "Install the exhaust gas recirculation valve.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 25
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque (M6) 9 Nm , (M8) 22 Nm",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-194-E"
+  ],
+  "warnings": [
+    "Note the correct\nallocation.",
+    "7.  \nTake out the roller cam followers.\n \n\n\n\nNote the correct\nallocation.\n \n\n\n\n•  \n8 off\n Note:   The roller cam\nfollowers must be renewed when installing a new camshaft.",
+    "8.  \nTake out the hydraulic tappets.\n \n\n\n\nNote the correct\nallocation.\n \n\n\n\n•  \n8 off",
+    "10.  \nTake out the roller cam followers.\n \n\n\n\nNote the correct\nallocation.\n \n\n\n\n•  \n8 off\n Note:   The roller cam\nfollowers must be renewed when installing a new camshaft.",
+    "11.  \nTake out the hydraulic tappets.\n \n\n\n\nNote the correct\nallocation.\n \n\n\n\n•  \n8 off",
+    "12.  \nInsert the hydraulic tappets.\n \n\n\n\nNote the correct\nallocation.\n \n\n\n\n•  \nCoat the sliding surfaces with engine oil.",
+    "13.  \nInsert the roller cam followers.\n \n\n\n\nNote the correct\nallocation.\n \n\n\n\n•  \nCoat the sliding surfaces with engine oil.",
+    "Note the\nidentification markings and the correct allocation, arrow (1)\npoints towards the timing chain end.",
+    "14.  \nInstall the exhaust camshaft.\n \n\n\n\n•  \nCoat the sliding surfaces with engine oil.\n \n\n\n\n\n\n•  \nInsert the camshaft and the camshaft bearings.\n \n\n\n\n\n\nNote the\nidentification markings and the correct allocation, arrow (1)\npoints towards the timing chain end.\n \n\n\n\n•  \nInstall the camshaft bearing caps.\n \n\n\n\n–\nWorking in a spiral pattern from the middle towards the\noutside, tighten the bolts on the camshaft bearing caps (I to V) in\nstages.\n \n\n\n\n\n\n–\nTightening torque 9 Nm",
+    "15.  \nInsert the hydraulic tappets.\n \n\n\n\nNote the correct\nallocation.\n \n\n\n\n•  \nCoat the sliding surfaces with engine oil.",
+    "16.  \nInsert the roller cam followers.\n \n\n\n\nNote the correct\nallocation.\n \n\n\n\n•  \nCoat the sliding surfaces with engine oil.",
+    "17.  \nInstall the intake camshaft.\n \n\n\n\n•  \nClean the sealing surfaces of camshaft bearing cap no. 11.\n \n\n\n\n\n\n•  \nCoat the sliding surfaces with engine oil.\n \n\n\n\n\n\nNote the\nidentification markings and the correct allocation, arrow (1)\npoints towards the timing chain end.\n \n\n\n\n•  \nInsert the camshaft and the camshaft bearings."
+  ],
+  "notes": [
+    "Remove the camshaft bearing caps.\n Note\nidentification marking (1).\n \n\n\n\n–\nWorking in a spiral pattern from the outside towards the\nmiddle, release the bolts on the camshaft bearing caps (I to VI)\n1/2 to 1 turn at a time.\n Note:   The camshaft must\nbe released evenly from the bearings.\n \n\n\n\n\n\n–\nTake out the camshaft.\n \n\n\n\n\n\n–\nVisually inspect the camshaft and the camshaft bearings for\nwear.\n Note:   The cylinder head\nshould be replaced if the camshaft bearings are defective.",
+    "Working in a spiral pattern from the outside towards the\nmiddle, release the bolts on the camshaft bearing caps (I to VI)\n1/2 to 1 turn at a time.\n The camshaft must\nbe released evenly from the bearings.",
+    "Visually inspect the camshaft and the camshaft bearings for\nwear.\n The cylinder head\nshould be replaced if the camshaft bearings are defective.",
+    "8 off\n The roller cam\nfollowers must be renewed when installing a new camshaft."
+  ]
+}

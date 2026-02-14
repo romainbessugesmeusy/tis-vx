@@ -1,0 +1,119 @@
+{
+  "type": "harness_diagram",
+  "id": "engine-z22se-A26D1C",
+  "title": "Engine Z22SE",
+  "diagram": {
+    "src": "/data/assets/6b5315525bfa.cgm",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "A2",
+      "description": "Control unit - Anti-Lock Brake System"
+    },
+    {
+      "code": "H1.24",
+      "description": "Tachometer"
+    },
+    {
+      "code": "A4",
+      "description": "Control unit - Multec"
+    },
+    {
+      "code": "K24",
+      "description": "Relay - Starter"
+    },
+    {
+      "code": "A17",
+      "description": "Control unit - Immobiliser"
+    },
+    {
+      "code": "M19",
+      "description": "Motor - Radiator fan"
+    },
+    {
+      "code": "B12",
+      "description": "Sensor - Coolant temperature"
+    },
+    {
+      "code": "M21",
+      "description": "Pump - Fuel"
+    },
+    {
+      "code": "B13",
+      "description": "Sensor - Temperature, intake air"
+    },
+    {
+      "code": "S94",
+      "description": "Impact switch - Fuel cut-off"
+    },
+    {
+      "code": "B19",
+      "description": "Sensor - Pedal position"
+    },
+    {
+      "code": "T1",
+      "description": "Ignition coil - Direct ignition"
+    },
+    {
+      "code": "B21",
+      "description": "Sensor - Absolute pressure, intake manifold"
+    },
+    {
+      "code": "Y4",
+      "description": "Solenoid valve - Exhaust gas recirculation"
+    },
+    {
+      "code": "B30",
+      "description": "Sensor - Knock control 1"
+    },
+    {
+      "code": "Y5",
+      "description": "Solenoid valve - Tank ventilation"
+    },
+    {
+      "code": "B34",
+      "description": "Impulse sensor - Crankshaft"
+    },
+    {
+      "code": "Y9.1",
+      "description": "Injection valve - Cylinder 1"
+    },
+    {
+      "code": "B117",
+      "description": "Sensor - Oxygen, mixture control, heated"
+    },
+    {
+      "code": "Y9.2",
+      "description": "Injection valve - Cylinder 2"
+    },
+    {
+      "code": "B118",
+      "description": "Sensor - Oxygen, catalytic converter check"
+    },
+    {
+      "code": "Y9.3",
+      "description": "Injection valve - Cylinder 3"
+    },
+    {
+      "code": "H1.6",
+      "description": "Telltale - Engine"
+    },
+    {
+      "code": "Y9.4",
+      "description": "Injection valve - Cylinder 4"
+    },
+    {
+      "code": "H1.22",
+      "description": "Indicator - Coolant temperature"
+    },
+    {
+      "code": "Y29",
+      "description": "Throttle valve - Positioner"
+    },
+    {
+      "code": "X13",
+      "description": "Diagnostic link"
+    }
+  ]
+}

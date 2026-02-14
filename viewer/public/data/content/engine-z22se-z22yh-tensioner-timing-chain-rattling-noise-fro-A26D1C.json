@@ -1,0 +1,38 @@
+{
+  "type": "tsb",
+  "id": "engine-z22se-z22yh-tensioner-timing-chain-rattling-noise-fro-A26D1C",
+  "title": "Field Remedy: 2366",
+  "subject": "Engine Z22SE/Z22YH, tensioner timing chain\n- Rattling noise from timing chain",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "05 - Excessive wear",
+    "troubleCode": "None"
+  },
+  "complaint": "Rattling noise from timing chain, often\ntogether with elongated timing chain.",
+  "cause": "Blocked timing chain tensioner.",
+  "production": "A modified Z20NET tensioner will be\nintroduced in production with MY 2009.",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "Note: For Z22SE engines please first take note of Quick \nInformation 1532."
+    },
+    {
+      "type": "text",
+      "text": "In case of customer complaint exchange timing chain \n(including the improved tensioner)."
+    },
+    {
+      "type": "text",
+      "text": "Improved timing chain kits for engine Z22YH/Z22SE available\nvia P&A under partnumber / cataloguenumber:"
+    },
+    {
+      "type": "text",
+      "text": "-->\n Kit timing chain for engine Z22YH partnumber: 55569838 /\n    cataloguenumber: 6 36 176"
+    },
+    {
+      "type": "text",
+      "text": "-->\n Kit timing chain for engine Z22SE partnumber: 55570337 / \n    cataloguenumber: 6 36 177"
+    }
+  ]
+}

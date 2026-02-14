@@ -1,0 +1,256 @@
+{
+  "type": "procedure",
+  "id": "fog-lamp-replace-AQS315",
+  "title": "Fog Lamp, Replace",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Chock rear road wheels",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove front road wheel from vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use special socket located under front bonnet"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "For right fog lamp, remove fuse box from right wheelarch liner",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Raise and support vehicle",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Remove front wheelarch liner from wheelarch",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 6x screw"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f21fe35f0f75.jpg",
+            "alt": "Object Number: 2419717  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Remove headlamp (1) from front clamshell",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Do not disturb splash shield (2) (if installed)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove nut, washer"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove bracket"
+            },
+            {
+              "bullet": "•",
+              "text": "Disconnect harness connector"
+            }
+          ],
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Release harness connector (1) from fog lamp",
+          "image": {
+            "src": "/data/assets/images/ca4fd16c1aee.jpg",
+            "alt": "Object Number: 2419719  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Remove dust cover from fog lamp",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Remove support bracket with fog lamp from front clamshell",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x bolt (1), 3x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e6fb2df08e73.jpg",
+            "alt": "Object Number: 2419720  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Remove fog lamp from support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x screw, 2x spacer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Install fog lamp to support bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x screw, 2x spacer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Install support bracket with fog lamp to front clamshell",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 3x bolt, 3x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Install dust cover to fog lamp",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Secure harness connector to fog lamp",
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Install headlamp to front clamshell",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ensure that splash shield is not disturbed (if installed)"
+            },
+            {
+              "bullet": "•",
+              "text": "Connect harness connector"
+            },
+            {
+              "bullet": "•",
+              "text": "Install bracket"
+            },
+            {
+              "bullet": "•",
+              "text": "Install nut, washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Adjust headlamp and fog lamp",
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Install front wheelarch liner to wheelarch",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 5x screw, clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 18,
+          "text": "For right fog lamp, install fuse box to right wheelarch liner",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Install front road wheel to vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt, install security bolt 90 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 20,
+          "text": "Raise vehicle and remove support",
+          "image": null
+        },
+        {
+          "number": 21,
+          "text": "Remove chocks from rear road wheels",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install front road wheel to vehicle",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 19
+    },
+    {
+      "component": "Install 4x bolt, install security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

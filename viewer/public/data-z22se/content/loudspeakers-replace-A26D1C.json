@@ -1,0 +1,116 @@
+{
+  "type": "procedure",
+  "id": "loudspeakers-replace-A26D1C",
+  "title": "Loudspeakers, Replace",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Slide driver's seat forward",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove driver's side loudspeaker cover",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Remove driver's side loudspeaker from trim panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x screw (1), release 2x harness connector"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c11f2bf0dba9.jpg",
+            "alt": "Object Number: 2419712  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Install driver's side loudspeaker to trim panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x harness connector, install 3x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Install driver's side loudspeaker cover",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Remove passenger's side loudspeaker cover",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull off"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Remove passenger's side loudspeaker from trim panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x screw, release 2x harness connector (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f546a0b1cd91.jpg",
+            "alt": "Object Number: 2419713  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Install passenger's side loudspeaker to trim panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x harness connector, install 3x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install passenger's side loudspeaker cover",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Push fit"
+            }
+          ],
+          "image": null
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Pull off\n Passenger's seat\ndoes not slide forward"
+  ]
+}

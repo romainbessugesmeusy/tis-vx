@@ -1,0 +1,7 @@
+{
+  "type": "generic",
+  "id": "coolant-temperature-indication-A26D1C",
+  "title": "coolant-temperature-indication-A26D1C",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\r\n<DIV>\r\n<P  ><FONT STYLE=\"font-size: 12pt; \">         &nbsp;</FONT><P  ><FONT STYLE=\"font-size: 12pt;font-weight: bold; \"> Coolant Temperature Indication   &nbsp;</FONT><P  ><FONT STYLE=\"font-size: 12pt; \"> The coolant temperature is shown in the liquid crystal display (LCD) in the  instrument assembly (see Section 13.5 \"Instruments Assembly\").  The LCD is  driven by a signal from the Multec control unit, which receives a coolant  temperature signal from the coolant temperature sensor (see Section 9.14.2.3  \"Coolant Temperature Sensor\") in the thermostat housing.         &nbsp;</FONT></DIV>\r\n<DIV>\r\n<P  >&nbsp;&nbsp;</DIV>\r\n<DIV>\r\n<P  ><FONT STYLE=\"font-size: 12pt; \">      &nbsp;</FONT></DIV>\r\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "extractedData": {}
+}

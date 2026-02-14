@@ -1,0 +1,261 @@
+{
+  "type": "procedure",
+  "id": "cooling-system-drain-fill-and-bleed-z22-se-z20-let-AQS315",
+  "title": "Cooling System, Drain, Fill and Bleed (Z22 SE, Z20\nLET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove cap from coolant reservoir",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove engine undertray (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Raise vehicle"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 13x bolt, 13x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1d1ad92dd5ed.jpg",
+            "alt": "Object Number: 2425071  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Drain cooling system at engine",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Position collecting container"
+            },
+            {
+              "bullet": "•",
+              "text": "Disconnect engine lower hose"
+            },
+            {
+              "bullet": "•–",
+              "text": "Remove collecting container when drained",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Remove, then discard cable tie (2)"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/97ecaa5b26f9.jpg",
+            "alt": "Object Number: 2422465  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Remove front undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 9x bolt, 9x washer"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 3x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Drain cooling system at radiator",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Position collecting container"
+            },
+            {
+              "bullet": "•–",
+              "text": "Remove collecting container when drained",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Release clip (1)"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2321d4b6db22.jpg",
+            "alt": "Object Number: 2422642  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 6,
+          "text": "Connect radiator coolant hose",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Connect engine lower hose",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Install new cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Fill cooling system to neck of reservoir",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Apply pressure to cooling system 1.0 bar to 1.5 bar",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use commercially available tool with adaptor KM-471"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Bleed cooling system Note: Open bleed valves until the emerging coolant is bubble-free.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Open engine bleed valve(s) (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Open radiator bleed valve (2), left side of radiator"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/056bd03f13cf.jpg",
+            "alt": "Object Number: 2422641  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 12,
+          "text": "Close bleed valves",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Remove commercially available tool and adaptor KM-471",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Check coolant level",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Top-up if necessary"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Install coolant expansion tank cap",
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Allow engine to achieve normal operating temperature",
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Allow engine to cool, then check coolant level",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Top-up if necessary"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 18,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Install engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 13x bolt, 13x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 20,
+          "text": "Install front undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 9x bolt, 9x washer"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 3x bolt"
+            }
+          ],
+          "image": null
+        }
+      ]
+    }
+  ],
+  "toolsRequired": [
+    "KM-471"
+  ],
+  "warnings": [
+    "A four-post hoist must\nbe used to raise the vehicle when removing the engine undertray and\nexhaust pipe undertray. The vehicle can be moved to a two-post\nhoist for other operations if required."
+  ],
+  "notes": [
+    "Bleed cooling system\n Open bleed valves\nuntil the emerging coolant is bubble-free.\n \n\n\n\n•  \nOpen engine bleed valve(s) (1)\n \n\n\n\n\n\n•  \nOpen radiator bleed valve (2), left side of radiator"
+  ]
+}

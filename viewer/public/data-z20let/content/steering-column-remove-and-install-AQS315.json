@@ -1,0 +1,543 @@
+{
+  "type": "procedure",
+  "id": "steering-column-remove-and-install-AQS315",
+  "title": "Steering Column, Remove and Install",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove soft top from vehicle - see operation “Soft Top, Remove and Install”",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Open bonnet",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Disconnect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove windscreen wash reservoir from mounting bracket"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Remove airbag from steering wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Release harness connector"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ae506f81df45.jpg",
+            "alt": "Object Number: 2419663  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Disconnect horn switch from switch assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release harness connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Remove steering wheel from steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f2a47ebbaf58.jpg",
+            "alt": "Object Number: 2429724  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Release upper bolt of intermediate shaft",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove nut, bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Remove upper cover from steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 6x screw (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e3632d63f899.jpg",
+            "alt": "Object Number: 2429510  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Remove lower cover from steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x screw (2), remove clip, release harness connector"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e3632d63f899.jpg",
+            "alt": "Object Number: 2429510  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Remove turn signal switch",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e3632d63f899.jpg",
+            "alt": "Object Number: 2429510  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 11,
+          "text": "Remove windscreen wipe switch",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e3632d63f899.jpg",
+            "alt": "Object Number: 2429510  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 12,
+          "text": "Disconnect airbag contact unit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release cable tie, release harness connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Remove steering wheel boss",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove nut, washer, release spring"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Remove housing for turn signal switch from steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x torx screw, washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Remove ignition barrel and ignition switch from steering column — see operation “Switch, Ignition for Steering Column Lock Assembly, Replace”",
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Remove instrument housing from instrument panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tilt instrument housing forward"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a6f8abf3d258.jpg",
+            "alt": "Object Number: 2419711  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 17,
+          "text": "Remove steering column from instrument panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt, washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 18,
+          "text": "Remove bottom of steering column from bulkhead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt, washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Remove universal joint from steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bolt, nut"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/00eac3977121.jpg",
+            "alt": "Object Number: 2389571  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 20,
+          "text": "Remove cover support bracket of steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove screw, release clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 21,
+          "text": "Remove steering column from vehicle",
+          "image": null
+        },
+        {
+          "number": 22,
+          "text": "Install steering column into vehicle",
+          "image": null
+        },
+        {
+          "number": 23,
+          "text": "Secure cover support bracket of steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install screw, secure clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 24,
+          "text": "Install universal joint to steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install bolt, nut 35 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 25,
+          "text": "Secure steering column to instrument panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x washer, 2x bolt 22.5"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 26,
+          "text": "Secure steering column to bulkhead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install washer, bolt 45 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 27,
+          "text": "Install instrument housing to instrument panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt, washer, secure harness connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 28,
+          "text": "Install ignition switch to steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 29,
+          "text": "Install engine immobilizer and ignition barrel to steering column",
+          "image": null
+        },
+        {
+          "number": 30,
+          "text": "Install turn signal switch housing to steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x torx screw, washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 31,
+          "text": "Install steering wheel boss to steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install new nut, washer, secure spring 25 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 32,
+          "text": "Connect airbag contact unit to steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure harness connector, secure cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 33,
+          "text": "Install windscreen wipe switch to steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 34,
+          "text": "Install turn signal switch to steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 35,
+          "text": "Install lower cover to steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 3x screw, secure clip, secure harness connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 36,
+          "text": "Install upper cover to steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 6x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 37,
+          "text": "Install upper bolt to intermediate shaft 22.5 Nm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 38,
+          "text": "Install steering wheel to steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 39,
+          "text": "Connect horn switch to switch assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure harness connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 40,
+          "text": "Install airbag to steering wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure harness connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 41,
+          "text": "Connect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install nut"
+            },
+            {
+              "bullet": "•",
+              "text": "Install windscreen wash reservoir to mounting bracket"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 42,
+          "text": "Close bonnet",
+          "image": null
+        },
+        {
+          "number": 43,
+          "text": "Install soft top to vehicle - see operation “Soft Top, Remove and Install”",
+          "image": null
+        },
+        {
+          "number": 44,
+          "text": "Program all volatile memories",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install universal joint to steering column",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 24
+    },
+    {
+      "component": "Secure steering column to instrument panel",
+      "value": "22.5",
+      "unit": "Nm",
+      "stepRef": 25
+    },
+    {
+      "component": "Secure steering column to bulkhead",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 26
+    },
+    {
+      "component": "Install steering wheel boss to steering column",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 31
+    },
+    {
+      "component": "Install upper bolt to intermediate shaft 22.5 Nm",
+      "value": "22.5",
+      "unit": "Nm",
+      "stepRef": 37
+    },
+    {
+      "component": "Install bolt, nut 35 Nm",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install 2x washer, 2x bolt 22.5 Nm",
+      "value": "22.5",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install washer, bolt 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install new nut, washer, secure spring 25 Nm Note: Twist washer upwards against nut to secure.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Install new nut, washer, secure spring 25 Nm \n Twist washer\nupwards against nut to secure."
+  ]
+}

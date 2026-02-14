@@ -1,0 +1,40 @@
+{
+  "type": "procedure",
+  "id": "fuse-box-remove-and-install-AQS315",
+  "title": "Fuse Box, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Fuse box from wheel arch – bolts.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Harness connectors from fuse box.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Harness connectors to fuse box.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Fuse box to wheel arch – bolts.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

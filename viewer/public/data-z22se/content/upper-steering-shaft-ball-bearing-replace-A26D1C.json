@@ -1,0 +1,175 @@
+{
+  "type": "procedure",
+  "id": "upper-steering-shaft-ball-bearing-replace-A26D1C",
+  "title": "Upper Steering Shaft Ball Bearing, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Steering column – see operation \"Steering Column, Remove and Install\".",
+          "image": {
+            "src": "/data/assets/images/90bc1fb0742c.jpg",
+            "alt": "Object Number: 2389567  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Switch casing from steering column – bolts (1).",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "disassemble",
+      "label": "Disassemble",
+      "icon": "/data/assets/images/f624612d033b.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Spacer ring (1) from steering shaft (2).",
+          "image": {
+            "src": "/data/assets/images/db9c36d80aa0.jpg",
+            "alt": "Object Number: 2389568  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Support steering column in vice.",
+          "image": {
+            "src": "/data/assets/images/db9c36d80aa0.jpg",
+            "alt": "Object Number: 2389568  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Centre punch bolts of steering and ignition lock casing.",
+          "image": {
+            "src": "/data/assets/images/0dc3c7c763bc.jpg",
+            "alt": "Object Number: 2389573  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Using 5 mm drill, spot drill shear bolts approx. 15 mm deep.",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Drive screwdriver into bore and unscrew shear bolt.",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Centre punch 4 bolts of upper steering shaft housing.",
+          "image": {
+            "src": "/data/assets/images/c6219478beba.jpg",
+            "alt": "Object Number: 2389569  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Using 5 mm drill, spot drill shear bolts approx. 15 mm deep.",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Drive screwdriver into bore and unscrew shear bolt.",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Upper housing with steering shaft ball bearing from steering column (illustration I).",
+          "image": {
+            "src": "/data/assets/images/c6219478beba.jpg",
+            "alt": "Object Number: 2389569  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 12,
+          "text": "Upper steering shaft ball bearing from housing using Remover/Installer KM-108 (illustration II).",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Upper steering shaft ball bearing into housing using Remover/Installer KM-108 (illustration III).",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Upper housing with steering shaft ball bearing to steering column – use new shear bolts. Tighten bolts until bolt head shears off.",
+          "image": {
+            "src": "/data/assets/images/db9c36d80aa0.jpg",
+            "alt": "Object Number: 2389568  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 15,
+          "text": "Spacer ring (1) to steering shaft (2).",
+          "image": null,
+          "callouts": [
+            "1",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "disassemble",
+      "label": "Disassemble",
+      "icon": "/data/assets/images/f624612d033b.gif",
+      "steps": []
+    },
+    {
+      "phase": "disassemble",
+      "label": "Disassemble",
+      "icon": "/data/assets/images/f624612d033b.gif",
+      "steps": []
+    },
+    {
+      "phase": "disassemble",
+      "label": "Disassemble",
+      "icon": "/data/assets/images/f624612d033b.gif",
+      "steps": []
+    },
+    {
+      "phase": "assemble",
+      "label": "Assemble",
+      "icon": "/data/assets/images/1e33bc0b1f5e.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 16,
+          "text": "Switch casing to steering column – bolts (1).",
+          "image": {
+            "src": "/data/assets/images/90bc1fb0742c.jpg",
+            "alt": "Object Number: 2389567  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 17,
+          "text": "Steering column – see operation \"Steering Column, Remove and Install\".",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

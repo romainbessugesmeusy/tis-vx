@@ -1,0 +1,55 @@
+{
+  "type": "procedure",
+  "id": "brake-disc-rear-remove-and-install-AQS315",
+  "title": "Brake Disc, Rear, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "clean",
+      "label": "Clean",
+      "icon": "/data/assets/images/d9fe69774efb.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Brake pads – see operation \"Brake Pads, Rear, Replace\".",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Brake disc from wheel hub – one screw.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Mating face between brake disc and wheel hub.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Brake disc to wheel hub – one screw.",
+          "image": {
+            "src": "/data/assets/images/df2b0ecc3801.jpg",
+            "alt": "Object Number: 2429422  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Brake pads – see operation \"Brake Pads, Rear, Replace\".",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

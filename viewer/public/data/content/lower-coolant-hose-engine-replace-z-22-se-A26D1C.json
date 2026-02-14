@@ -1,0 +1,102 @@
+{
+  "type": "procedure",
+  "id": "lower-coolant-hose-engine-replace-z-22-se-A26D1C",
+  "title": "Lower Coolant Hose, Engine, Replace (Z 22 SE)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Drain cooling system - see operation “Cooling System, Drain, Fill and Bleed” Note: Includes releasing lower coolant hose from oil cooler.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove, then discard cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove fuel tank - see operation “Fuel Tank, Remove and Install”",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Remove lower coolant hose (2) from coolant pipe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release, then remove clip (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a49f1c56440d.jpg",
+            "alt": "Object Number: 2423059  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Transfer 2x clip to new lower coolant hose",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Install new lower coolant hose to coolant pipe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Install fuel tank - see operation “Fuel Tank, Remove and Install”",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Secure lower coolant hose to oil cooler",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Install cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Fill cooling system - see operation “Cooling System, Drain, Fill and Bleed”",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Drain cooling system - see operation “Cooling System,\nDrain, Fill and Bleed”\n Includes\nreleasing lower coolant hose from oil cooler.\n \n\n\n\n•  \nRelease clip\n \n\n\n\n\n\n•  \nRemove, then discard cable tie"
+  ]
+}

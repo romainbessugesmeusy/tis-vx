@@ -1,0 +1,7 @@
+{
+  "type": "generic",
+  "id": "tyre-pressures-speedster-vx220-turbo-A26D1C",
+  "title": "Tyre pressures - Speedster/VX220 Turbo",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Tyre pressures - Speedster/VX220 Turbo</p>\n\n<table cellspacing=\"0\" cellpadding=\"2\" class=\"border-none\">\n<colgroup>\n<col width=\"49%\">\n<col width=\"52%\"></colgroup>\n\n<tr valign=\"top\">\n<td class=\"border-none\">\n<p>Front</p>\n</td>\n<td class=\"border-none\">\n<p>1.8 bar / 26 psi</p>\n</td>\n</tr>\n\n<tr valign=\"top\">\n<td class=\"border-none\">\n<p>Rear</p>\n</td>\n<td class=\"border-none\">\n<p>2.1 bar / 30 psi</p>\n</td>\n</tr>\n</table>\n\n<br>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "extractedData": {}
+}

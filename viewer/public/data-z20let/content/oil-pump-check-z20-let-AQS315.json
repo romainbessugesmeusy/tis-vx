@@ -1,0 +1,183 @@
+{
+  "type": "procedure",
+  "id": "oil-pump-check-z20-let-AQS315",
+  "title": "Oil Pump, Check (Z20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove oil pump, see operation “Oil Pump, Replace”",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove rear cover from oil pump",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 5x screw"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove gears from oil pump body"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove pressure regulating valve from oil pump body"
+            }
+          ],
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "clean",
+      "label": "Clean",
+      "icon": "/data/assets/images/d9fe69774efb.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Clean inner, outer gear and oil pump body",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Check inner, outer gear and oil pump body for signs of wear"
+            },
+            {
+              "bullet": "•",
+              "text": "Clean, check pressure regulating valve for signs of wear"
+            }
+          ],
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "inspect",
+      "label": "Inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Install oil pump gears to oil pump body",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Position alignment marks (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c3f53f60c65c.jpg",
+            "alt": "Object Number: 2422928  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Check side measurement between gears and straight edge (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "0.03 mm to 0.10 mm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c3f53f60c65c.jpg",
+            "alt": "Object Number: 2422928  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 6,
+          "text": "Install rear cover to oil pump",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 5x screw 8 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Use new sealing washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Remove crankshaft front seal from oil pump, then discard",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Clean crankshaft oil seal seat"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Install new crankshaft front seal to oil pump",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use Installer KM-693"
+            },
+            {
+              "bullet": "•",
+              "text": "Apply grease to seal"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install oil pump, see operation “Oil Pump, Replace”",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install rear cover to oil pump",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Install rear cover to oil pump",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Install 5x screw 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install pressure regulating valve to oil pump body 50 Nm – Use new sealing washer",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-693"
+  ],
+  "warnings": [
+    "If measurements are\noutside specified range, Install new pump."
+  ]
+}

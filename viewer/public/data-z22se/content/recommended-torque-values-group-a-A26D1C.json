@@ -1,0 +1,138 @@
+{
+  "type": "torque_table",
+  "id": "recommended-torque-values-group-a-A26D1C",
+  "title": "Recommended Torque Values, Group A",
+  "group": "A",
+  "values": [
+    {
+      "component": "Hinge bolts, door",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Towing eye bracket screws",
+      "value": "25",
+      "unit": "Nm"
+    },
+    {
+      "component": "Rear sub–frame screws",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Support arm screws, roll bar",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Engine damping block nut, left and right",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Bracket screws, right, engine damping block",
+      "value": "85",
+      "unit": "Nm"
+    },
+    {
+      "component": "Bracket screws, left, engine damping block",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Engine damping block screw, rear to transmission",
+      "value": "86",
+      "unit": "Nm"
+    },
+    {
+      "component": "Engine damping block screw, rear to rear sub–frame",
+      "value": "49",
+      "unit": "Nm"
+    },
+    {
+      "component": "Shock absorber screw to rear sub–frame",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Upper wishbone screw to rear sub–frame",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Lower wishbone screw",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Lower wishbone nut",
+      "value": "49",
+      "unit": "Nm"
+    },
+    {
+      "component": "Wheel bolts",
+      "value": "90",
+      "unit": "Nm"
+    },
+    {
+      "component": "Hinge bolts, front bonnet",
+      "value": "20",
+      "unit": "Nm"
+    },
+    {
+      "component": "Hinge bolts, engine cover",
+      "value": "14",
+      "unit": "Nm"
+    },
+    {
+      "component": "Screws and nuts, front clamshell to radiator case",
+      "value": "14",
+      "unit": "Nm"
+    },
+    {
+      "component": "Screws, front clamshell to windscreen frame",
+      "value": "14",
+      "unit": "Nm"
+    },
+    {
+      "component": "Screws, front clamshell to sill",
+      "value": "14",
+      "unit": "Nm"
+    },
+    {
+      "component": "Screws, front clamshell to A–pillar",
+      "value": "14",
+      "unit": "Nm"
+    },
+    {
+      "component": "Nuts, rear header panel to roll bar",
+      "value": "10",
+      "unit": "Nm"
+    },
+    {
+      "component": "Screws, soft top guides to roll bar",
+      "value": "11",
+      "unit": "Nm"
+    },
+    {
+      "component": "Screws, rear clamshell to rear bulkhead",
+      "value": "14",
+      "unit": "Nm"
+    },
+    {
+      "component": "Screws, rear clamshell to rear sub–frame",
+      "value": "16",
+      "unit": "Nm"
+    },
+    {
+      "component": "Screws, engine cover lock to rear clamshell",
+      "value": "16",
+      "unit": "Nm"
+    },
+    {
+      "component": "Screws, rear clamshell to sill",
+      "value": "9",
+      "unit": "Nm"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "type": "procedure",
+  "id": "engine-oil-filter-replace-z-20-let-AQS315",
+  "title": "Engine Oil Filter, Replace (Z 20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Important: Observe relevant environmental regulations when disposing of used engine oil.",
+          "image": {
+            "src": "/data/assets/images/e797bcbc32e2.jpg",
+            "alt": "Object Number: 2387680  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove oil filter with KM-726-A (1) - place collecting basin underneath.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Coat seal ring of new oil filter slightly with engine oil and attach to oil pump - tightening torque 15 Nm .",
+          "image": {
+            "src": "/data/assets/images/e797bcbc32e2.jpg",
+            "alt": "Object Number: 2387680  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Top up engine with oil.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "inspect",
+      "label": "Inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": [
+        {
+          "number": 5,
+          "text": "Check engine oil level and correct if necessary.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Coat seal ring of new oil filter slightly with engine oil and attach to oil pump - tightening torque 15 Nm .",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 3
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "type": "generic",
+  "id": "axle-offset-A26D1C",
+  "title": "Axle offset",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Axle offset</p>\n\n<table border=\"0\">\n<tr>\n<td valign=\"top\" width=\"95%\">\n<p>Axle offset is a angular misalignment (1) between the axis of\nsymmetry (3) and the geometric driving axis (2).</p>\n\n<p>The angle is positive if the axis of symmetry deviates from the\ngeometric driving axis in an anti-clockwise direction.</p>\n\n<p>The axle offset is generally given in degrees. If the wheel base\nis known, length data is also possible.</p>\n</td>\n<td valign=\"top\" align=\"right\"><!--SCDS Link: H2022.itf-->\n<img border=\"0\" width=\"360\" height=\"360\" alt=\n\"Object Number: 2400754  Size: DEFAULT\" align=\"TOP\" src=\"/data/assets/images/b4b76aab3b23.jpg\">\n<br>\n<a href=\"javascript:TFormSubmit('ADXI13LI1RKI1','1','ADXI13LI1RKI1','detail')\">\n<img src=\"/data/assets/images/db1138827f57.gif\" alt=\n\"Click here for detailed picture of above image\"></a>\n\n<br> </td>\n</tr>\n</table>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "extractedData": {}
+}

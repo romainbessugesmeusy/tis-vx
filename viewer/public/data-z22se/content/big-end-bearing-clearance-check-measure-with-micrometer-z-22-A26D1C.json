@@ -1,0 +1,69 @@
+{
+  "type": "procedure",
+  "id": "big-end-bearing-clearance-check-measure-with-micrometer-z-22-A26D1C",
+  "title": "Big-end Bearing Clearance, Check, measure with\nmicrometer (Z 22 SE)",
+  "phases": [
+    {
+      "phase": "measure",
+      "label": "Measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Fit the internal gauge and calibrate it with the micrometer (1). Attach the big–end bearing caps to the connecting rods.",
+          "image": {
+            "src": "/data/assets/images/434020a25b61.jpg",
+            "alt": "Object Number: 2417971  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "",
+          "image": {
+            "src": "/data/assets/images/b28b6a1fe280.jpg",
+            "alt": "Object Number: 2417972  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Determine the big–end bearing clearance.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Formula: Mean big–end bearing diameter – mean"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Comparison between specified values and actual values",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Permissible big–end bearing clearance: 0,041 - 0,043 mm"
+            }
+          ],
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Fit the internal gauge and calibrate it with the micrometer (1). Attach the big–end bearing caps to the connecting rods.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 1
+    },
+    {
+      "component": "Tightening torque 25 Nm + 50° + 50° + 10°",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

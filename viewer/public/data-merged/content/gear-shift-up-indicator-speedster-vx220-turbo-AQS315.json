@@ -1,0 +1,7 @@
+{
+  "type": "generic",
+  "id": "gear-shift-up-indicator-speedster-vx220-turbo-AQS315",
+  "title": "Gear Shift-up Indicator - Speedster/VX220\nTurbo",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Gear Shift-up Indicator - Speedster/VX220\nTurbo</p>\n\n<p>The Speedster/VX220 Turbo is equipped with an illuminated LED\nindicator to advise the driver when a higher gear needs to be\nselected during acceleration periods.</p>\n\n<p>The indicator illuminates at the engine &ldquo;red line&rdquo;\nof 6 250 rpm, and is extinguished when the engine speed decreases\nto 6 150 rpm.</p>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "extractedData": {}
+}

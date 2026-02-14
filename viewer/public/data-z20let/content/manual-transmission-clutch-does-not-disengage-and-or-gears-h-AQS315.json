@@ -1,0 +1,22 @@
+{
+  "type": "tsb",
+  "id": "manual-transmission-clutch-does-not-disengage-and-or-gears-h-AQS315",
+  "title": "Field Remedy: 2130",
+  "subject": "Manual transmission - Clutch does not\ndisengage and/or gears hard to engage",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "K - Clutch/Transmission",
+    "complaintGroup": "08 - Hard to operate",
+    "troubleCode": "None"
+  },
+  "complaint": "Clutch does not disengage and /or gears hard\nto engage.",
+  "cause": "Toothing of the input shaft not greased\n(either forgotten in procution or after clutch replacement in\nservice).",
+  "production": "",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "In case of customer complaint check first the greasing of the input shaft. \nIf necessary thinly grease gear teeth of input shaft with grease \n(partnumber: 90397024 / cataloguenumber: 19 48 568). Please do \nnot change any other parts."
+    }
+  ]
+}

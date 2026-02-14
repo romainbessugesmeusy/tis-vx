@@ -1,0 +1,187 @@
+{
+  "type": "procedure",
+  "id": "wheel-hub-and-drive-shaft-assembly-remove-and-install-A26D1C",
+  "title": "Wheel Hub and Drive Shaft Assembly, Remove and\nInstall",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Appropriate rear wheel from vehicle.",
+          "image": {
+            "src": "/data/assets/images/b199d7acf6e8.jpg",
+            "alt": "Object Number: 2429699  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Undertray and diffuser panel from underside of vehicle – bolts.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Brake caliper from hub carrier – see operation \"Brake Caliper, Remove and Install\" in group H; support to one side.",
+          "image": {
+            "src": "/data/assets/images/55005578af79.jpg",
+            "alt": "Object Number: 2429703  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Harness connector from wheel speed sensor.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Track control rod (2) from hub carrier – nut.",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Upper ball joint carrier (1) from hub carrier – two bolts; retain camber shims.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Caution !",
+          "image": {
+            "src": "/data/assets/images/55005578af79.jpg",
+            "alt": "Object Number: 2429703  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Do not attempt to remove drive shaft from transmission by pulling on drive shaft. This will cause joint to become disassembled. Apply pressure only to outer body of joint.",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Oil escapes – pace collecting basin underneath and close off openings with plugs.",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Treat new axle shaft carefully. Do not support drive shaft on folding cover.",
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Wheel hub and drive shaft assembly from transmission – lever out.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 12,
+          "text": "Wheel hub and drive shaft assembly to transmission – ensure retaining ring engages.",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Track control rod (2) to hub carrier – nut 80 Nm .",
+          "image": {
+            "src": "/data/assets/images/55005578af79.jpg",
+            "alt": "Object Number: 2429703  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 14,
+          "text": "Harness connector to wheel speed sensor.",
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Upper ball joint carrier (1) to hub carrier – camber shims, two bolts 45 Nm .",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 16,
+          "text": "Brake caliper to hub carrier – see operation \"Brake Caliper, Remove and Install\" in group H.",
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Level of transmission fluid and correct if necessary – see operation \"Transmission Fluid Level, Check and Correct\".",
+          "image": {
+            "src": "/data/assets/images/55005578af79.jpg",
+            "alt": "Object Number: 2429703  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 18,
+          "text": "Undertray and diffuser panel to underside of vehicle – bolts.",
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Rear wheel to vehicle – bolts 90 Nm .",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "phase": "inspect",
+      "label": "Inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Track control rod (2) to hub carrier – nut 80 Nm .",
+      "value": "80",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Upper ball joint carrier (1) to hub carrier – camber shims, two bolts 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 15
+    },
+    {
+      "component": "Rear wheel to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 19
+    }
+  ]
+}

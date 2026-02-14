@@ -1,0 +1,617 @@
+{
+  "type": "procedure",
+  "id": "connecting-rod-bearings-replace-z-22-se-A26D1C",
+  "title": "Connecting Rod Bearings, Replace (Z 22 SE)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Open the bonnet.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Disconnect the battery.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Open the engine cover (1).",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Detach the engine cover.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "6 bolts (2) and (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Undo the bolts on the oil dipstick guide tube (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull out the oil dipstick (1)."
+            },
+            {
+              "bullet": "•",
+              "text": "1 bolt (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/839872b80755.jpg",
+            "alt": "Object Number: 2416675  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Remove the oil dipstick guide tube.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull the oil dipstick guide tube out from the oil pan and lift"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/839872b80755.jpg",
+            "alt": "Object Number: 2416675  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Raise the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Remove the lower engine splash shield (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Place a drip tray underneath.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Drain the engine oil.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Open the oil drain plug."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 25 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 11,
+          "text": "Remove the oil pan.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "17 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/eaf0186d1402.jpg",
+            "alt": "Object Number: 2417754  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "disassemble",
+      "label": "Disassemble",
+      "icon": "/data/assets/images/f624612d033b.gif",
+      "steps": [
+        {
+          "number": 12,
+          "text": "Remove big–end bearing caps 1 and 4.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Rotate the crankshaft in the normal direction of rotation until"
+            },
+            {
+              "bullet": "•",
+              "text": "Mark the connecting rod and big–end bearing cap (1)."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/352370a0730c.jpg",
+            "alt": "Object Number: 2417756  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 13,
+          "text": "Detach the big–end bearing caps.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 off"
+            },
+            {
+              "bullet": "•",
+              "text": "4 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/33547d05cf9c.jpg",
+            "alt": "Object Number: 2417755  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 14,
+          "text": "Press the pistons and connecting rods upwards. Important: The broken surfaces of the connecting rods and the big–end bearing caps form a unique fit and must not be swapped or damaged. Do not put the parts down on the broken surfaces.",
+          "image": {
+            "src": "/data/assets/images/33547d05cf9c.jpg",
+            "alt": "Object Number: 2417755  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 15,
+          "text": "Take out the big–end bearing shells. Note: Note the installation position and allocation.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove from connecting rod (1) and big–end bearing cap"
+            },
+            {
+              "bullet": "•",
+              "text": "Visually inspect the components."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ae970ac1c8db.jpg",
+            "alt": "Object Number: 2417760  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "assemble",
+      "label": "Assemble",
+      "icon": "/data/assets/images/1e33bc0b1f5e.gif",
+      "steps": [
+        {
+          "number": 16,
+          "text": "Insert the big–end bearing shells.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Coat the big–end bearing shells with engine oil."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Install big–end bearings 1 and 4.",
+          "image": {
+            "src": "/data/assets/images/33547d05cf9c.jpg",
+            "alt": "Object Number: 2417755  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 18,
+          "text": "Coat the big–end bearing journals with engine oil.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 25 Nm + 50° +"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/352370a0730c.jpg",
+            "alt": "Object Number: 2417756  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "disassemble",
+      "label": "Disassemble",
+      "icon": "/data/assets/images/f624612d033b.gif",
+      "steps": [
+        {
+          "number": 19,
+          "text": "Remove big–end bearing caps 2 and 3.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Rotate the crankshaft in the normal direction of rotation"
+            },
+            {
+              "bullet": "•",
+              "text": "Mark the connecting rod and big–end bearing cap (1)."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/352370a0730c.jpg",
+            "alt": "Object Number: 2417756  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 20,
+          "text": "Detach the big–end bearing caps.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 off"
+            },
+            {
+              "bullet": "•",
+              "text": "4 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/89c504e5114c.jpg",
+            "alt": "Object Number: 2417759  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 21,
+          "text": "Press the pistons and connecting rods upwards.",
+          "image": {
+            "src": "/data/assets/images/89c504e5114c.jpg",
+            "alt": "Object Number: 2417759  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 22,
+          "text": "Important: The broken surfaces of the connecting rods and the big–end bearing caps form a unique fit and must not be swapped or damaged. Do not put the parts down on the broken surfaces.",
+          "image": {
+            "src": "/data/assets/images/89c504e5114c.jpg",
+            "alt": "Object Number: 2417759  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 23,
+          "text": "Take out the big–end bearing shells. Note: Note the installation position and allocation.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove from connecting rod (1) and big–end bearing cap"
+            },
+            {
+              "bullet": "•",
+              "text": "Visually inspect the components."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ae970ac1c8db.jpg",
+            "alt": "Object Number: 2417760  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 24,
+          "text": "Insert the big–end bearing shells.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Coat the big–end bearing shells with engine oil."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ae970ac1c8db.jpg",
+            "alt": "Object Number: 2417760  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "assemble",
+      "label": "Assemble",
+      "icon": "/data/assets/images/1e33bc0b1f5e.gif",
+      "steps": [
+        {
+          "number": 25,
+          "text": "Install big–end bearing caps 2 and 3.",
+          "image": {
+            "src": "/data/assets/images/89c504e5114c.jpg",
+            "alt": "Object Number: 2417759  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 26,
+          "text": "Coat the big–end bearing journals with engine oil.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 25 Nm + 50° +"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/352370a0730c.jpg",
+            "alt": "Object Number: 2417756  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 27,
+          "text": "Clean the sealing surfaces.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Cylinder block base plate, oil pan"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/352370a0730c.jpg",
+            "alt": "Object Number: 2417756  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 28,
+          "text": "Recut the thread.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "15 off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/352370a0730c.jpg",
+            "alt": "Object Number: 2417756  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 29,
+          "text": "Install the oil pan.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Apply a bead of silicone sealant (grey) (approx. 2 mm to 2.5 mm"
+            },
+            {
+              "bullet": "•",
+              "text": "Apply an additional bead of silicone sealant (grey) (approx."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6406f6364d10.jpg",
+            "alt": "Object Number: 2417774  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 30,
+          "text": "Note: Observe the tightening sequence.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tighten all bolts loosely."
+            },
+            {
+              "bullet": "•",
+              "text": "To the cylinder block base plate – tightening torque"
+            },
+            {
+              "bullet": "•",
+              "text": "To the transmission housing – tightening torque 23 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a6bb93aa1a59.jpg",
+            "alt": "Object Number: 2417775  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 31,
+          "text": "Install the lower engine splash shield",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 bolts"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 32,
+          "text": "Lower the lifting ramp.",
+          "image": null
+        },
+        {
+          "number": 33,
+          "text": "Insert the oil dipstick guide tube.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Coat the oil seals with silicone grease (white)."
+            },
+            {
+              "bullet": "•",
+              "text": "Insert the oil dipstick guide tube as far as the stop into the"
+            },
+            {
+              "bullet": "•",
+              "text": "Attach the knock sensor wiring harness connector."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 34,
+          "text": "Attach the oil dipstick guide tube.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 9 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 35,
+          "text": "Fill up with engine oil and check the oil level.",
+          "image": null
+        },
+        {
+          "number": 36,
+          "text": "Install the rear engine cover.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Check the alignment."
+            },
+            {
+              "bullet": "•",
+              "text": "6 bolts, tightening torque 14 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 37,
+          "text": "Close the rear engine cover.",
+          "image": null
+        },
+        {
+          "number": 38,
+          "text": "Connect the battery.",
+          "image": null
+        },
+        {
+          "number": 39,
+          "text": "Close the bonnet.",
+          "image": null
+        },
+        {
+          "number": 40,
+          "text": "Reprogram the volatile memories.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Drain the engine oil.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Coat the big–end bearing journals with engine oil.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 18
+    },
+    {
+      "component": "Coat the big–end bearing journals with engine oil.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 26
+    },
+    {
+      "component": "Note: Observe the tightening sequence.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 30
+    },
+    {
+      "component": "Attach the oil dipstick guide tube.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 34
+    },
+    {
+      "component": "Install the rear engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 36
+    },
+    {
+      "component": "Tightening torque 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "To the cylinder block base plate – tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "Note the applied\nmarkings (1).",
+    "18.  \nCoat the big–end bearing journals with engine oil.\n \n\n\n\nNote the applied\nmarkings (1).\n \n\n\n\n•  \nRenew the bolts.\n \n\n\n\n\n\n•  \nTightening torque 25 Nm + 50° +\n50° + 10°"
+  ],
+  "notes": [
+    "17 bolts\n Use a suitable\ntool to evenly prise it off at the leverage points (arrow).",
+    "Mark the connecting rod and big–end bearing cap (1).\n Note the cylinder\nsequence.",
+    "Take out the big–end bearing shells.\n Note the\ninstallation position and allocation.\n \n\n\n\n•  \nRemove from connecting rod (1) and big–end bearing cap\n(2).\n \n\n\n\n\n\n•  \nVisually inspect the components.",
+    "Observe the\ntightening sequence.\n \n\n\n\n•  \nTighten all bolts loosely.\n \n\n\n\n\n\n•  \nTo the cylinder block base plate – tightening torque\n23 Nm \n \n\n\n\n\n\n•  \nTo the transmission housing – tightening torque 23 Nm"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "type": "procedure",
+  "id": "instrument-pad-assembly-remove-and-install-AQS315",
+  "title": "Instrument Pad Assembly, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Facial panels (1 and 3) from instrument panel – carefully lever off.",
+          "image": {
+            "src": "/data/assets/images/1ea80daa7b96.jpg",
+            "alt": "Object Number: 2429813  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Radio (4) and installation frame from instrument panel – see operation \"Installation Frame, Radio, Remove and Install\" in group R.",
+          "image": null,
+          "callouts": [
+            "4"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Control unit (5) from instrument panel – see operation \"Control Unit, Remove and Install\" in group D.",
+          "image": null,
+          "callouts": [
+            "5"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Instrument housing (2) and cover assembly from instrument panel – see operation \"Instrument Housing, Remove and Install\".",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Switch assembly (6) from instrument panel – press clips to release, then move switch assembly to one side.",
+          "image": null,
+          "callouts": [
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 6,
+          "text": "Instrument pad assembly from vehicle – screws; harness connector from starter button.",
+          "image": {
+            "src": "/data/assets/images/1ea80daa7b96.jpg",
+            "alt": "Object Number: 2429813  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Instrument pad assembly to vehicle – harness connector to starter button; screws.",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Switch assembly (6) to instrument panel – push in to engage clips.",
+          "image": {
+            "src": "/data/assets/images/1ea80daa7b96.jpg",
+            "alt": "Object Number: 2429813  Size: DEFAULT"
+          },
+          "callouts": [
+            "6"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Instrument housing (2) and cover assembly to instrument panel – see operation \"Instrument Housing, Remove and Install\".",
+          "image": null,
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Control unit (5) to instrument panel – see operation \"Control Unit, Remove and Install\" in group D.",
+          "image": null,
+          "callouts": [
+            "5"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "Installation frame and radio (4) to instrument panel – see operation \"Installation Frame, Radio, Remove and Install\" in group R.",
+          "image": null,
+          "callouts": [
+            "4"
+          ]
+        },
+        {
+          "number": 12,
+          "text": "Facia panels (1 and 3) to instrument panel.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

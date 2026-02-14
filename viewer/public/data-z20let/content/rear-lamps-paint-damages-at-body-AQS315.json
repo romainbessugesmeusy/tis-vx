@@ -1,0 +1,167 @@
+{
+  "type": "tsb",
+  "id": "rear-lamps-paint-damages-at-body-AQS315",
+  "title": "Field Remedy: 1769",
+  "subject": "Rear lamps - Paint damages at body",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "",
+    "complaintGroup": "",
+    "troubleCode": ""
+  },
+  "complaint": "Paint damages by contact with rear lamp\nunits.",
+  "cause": "Body tolerances at manufactoring\nprocess.",
+  "production": "Improved rear lamp units in production since\nCW 1/2004.",
+  "remedyContent": [
+    {
+      "type": "numbered",
+      "items": [
+        "Remove rear lamps"
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "see working procedure \"Rear Lamp, Remove and Install\",",
+        "group \"N\", Service Instruction Speedster/VX220.",
+        "(Document Number 00031700)"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Note:\n    retain the selflocking nuts and washers to re-use later."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Inspect body work for paint damages"
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "repair possible paint damages per standard",
+        "paint repair process"
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Apply commercially available transparent protective tape (1)",
+        "on aperture surface of rear lamp.",
+        "(Picture I)"
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "clean surface with a commercial silicone remover",
+        "apply protective tape to give extra protection to painted",
+        "surface"
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Carefully chamfer all lens edges of rear lamps.",
+        "(Picture II)"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Notice:\n    Use sanding block and sanding paper."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Remove 3x top tips (arrows) completely at the back of each rear",
+        "lamp. (Picture III)"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Important:\n    Be careful not to damage the lens edges of the rear lamps."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Add sealing strip S-10582 all around rear lamp edge.",
+        "(hatched area in Picture IV)"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Note:\n    Apply sealing strip 2 mm away from the outer circular angles.\n    Sealing strip is necessary to avoid visible gap and contact\n    to aperture surfaces."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Attach 4x specified washers to studs (arrows) of each rear lamp.",
+        "(Picture V)"
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Align rear lamp in aperture. (Picture VI)"
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "install lamp and check for constant gap condition",
+        "use a feeler gauge (1) 1 mm thickness to maintain",
+        "a correct gap on bottom of lamp"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Note:\n    Circumferential gap should be 1-2 mm.\n    Remove the lamp and correct the fit by adding or removing \n    specified washers if clearance is not acceptable."
+    },
+    {
+      "type": "text",
+      "text": "Important:\n    Act very carefully to avoid any damage to the painted surfaces \n    and body work."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Install lamps if acceptable gap is achieved"
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "see working procedure \"Rear Lamp, Remove and Install\",",
+        "group \"N\", Service Instruction Speedster/VX220.",
+        "(Document Number 00031700)"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/6d16b87fcaa3.jpg",
+      "alt": "Object Number: 10676662  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/b12277129d9d.jpg",
+      "alt": "Object Number: 10676656  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/97c72bb7ce68.jpg",
+      "alt": "Object Number: 10676657  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/630636f99312.jpg",
+      "alt": "Object Number: 10676658  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/fa21f9e29b42.jpg",
+      "alt": "Object Number: 10676659  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/cdb55f428027.jpg",
+      "alt": "Object Number: 10676660  Size: DEFAULT"
+    }
+  ]
+}

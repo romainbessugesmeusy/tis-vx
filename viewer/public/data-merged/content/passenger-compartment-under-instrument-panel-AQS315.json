@@ -1,0 +1,23 @@
+{
+  "type": "harness_diagram",
+  "id": "passenger-compartment-under-instrument-panel-AQS315",
+  "title": "Passenger compartment - Under instrument panel",
+  "diagram": {
+    "src": "/data/assets/converted/2268b37766b9.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "K10",
+      "description": "Relay - Wiper, windscreen (Stage 1/Interval)"
+    },
+    {
+      "code": "K104",
+      "description": "Relay - Back-up power, central door locking"
+    },
+    {
+      "code": "K31",
+      "description": "Flasher unit"
+    }
+  ]
+}

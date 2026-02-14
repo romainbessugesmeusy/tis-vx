@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html lang="en"><head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="res/common/style.css">
+
+
+    <title>TIS</title>
+
+    <script type="text/javascript">
+    <!--
+            function TFormSubmit(paramName, paramValue, bookmark, targetFrame) {
+            	TFormSubmit(paramName, paramValue, bookmark, targetFrame, false);
+           }
+
+            var flag=false;
+            function TFormSubmit(paramName,paramValue,bookmark,targetFrame, disposeWindow) {
+               //JAVASCRIPT-DISABLE
+               if (!flag) {
+               flag=true;
+               window.setTimeout("flag=false", 5000);
+               var _form=document.forms[0];
+	           if (_form) {
+	               var oldaction=_form.action;
+	               _form.action=_form.action+"&"+paramName+"="+paramValue+"&bm="+bookmark+"#"+bookmark;
+	               if (targetFrame) {
+	               		//window.open("about:blank",targetFrame,"toolbar=no, resizable=yes, menubar=yes, scrollbars=yes");
+	                   	var tmp=_form.target;
+			           _form.target=targetFrame;
+			           _form.submit();
+			           _form.target=tmp;
+		           } else {
+		               _form.submit();
+		           }
+	               _form.action=oldaction;
+
+	               if (disposeWindow) {
+	               	 window.close();
+	               }
+
+	            } else {
+	               alert("form not found");
+	            }
+	            //JAVASCRIPT-DISABLE-END
+}
+             }
+
+            function FormSubmit(paramName,paramValue,bookmark) {
+                TFormSubmit(paramName,paramValue,bookmark,null);
+            }
+
+     //-->
+    </script>
+    
+
+</head>
+
+
+<body onload="javascript:window.focus()">
+    <form action="/tis2web/?target=AW0D1ANC1ILC1&amp;target.method=onSubmit" method="post" id="AW0D1ANC1ILC1" onsubmit="javascript:return false" accept-charset="UTF-8">  <table border="0" cellpadding="0" cellspacing="0">
+    <tbody><tr>
+      <td><table id="sitfilterwidget"><tbody><tr><td>Filter</td><td>:</td><td><select name="SITSelection" size="1" id="SITSelection" onchange="javascript:TFormSubmit('SITSelectioncid','1','selectednode','_top')"><option value="null">No Selection</option><option value="1">Component Locator</option><option value="2">Description and Operation</option><option value="3">Diagnostic Information and Procedures</option><option value="4">Inspections</option><option value="5">Labour Time Allowances</option><option value="6">Other Information</option><option value="7">Repair Instructions</option><option value="8">Repair Instructions - Off Vehicle</option><option value="9">Repair Instructions - On Vehicle</option><option value="10">Schematic and Routing Diagrams</option><option value="11">Special Tools and Equipment</option><option value="12">Specifications</option><option value="13">Technical Information</option><option value="14">Technical Service Bulletins</option><option value="15">Warnings, Disclaimers, Safety</option></select></td></tr></tbody></table></td>
+    </tr>
+    <tr>
+      <td><table class="tree" border="0" cellspacing="0" cellpadding="2"><tbody><tr><td valign="top"><a href="javascript:TFormSubmit('AF1D1YKC1WIC1','1','AF1D1YKC1WIC1',null)" id="AF1D1YKC1WIC1"><img src="pic/common/folder-closed.gif" alt="" border="0"></a></td><td><a href="javascript:TFormSubmit('AD8D1JSC1CHC1','1','AD8D1JSC1CHC1',null)" id="AD8D1JSC1CHC1">General Vehicle Information</a></td></tr><tr><td valign="top"><a href="javascript:TFormSubmit('A55D12LC1DOC1','1','A55D12LC1DOC1',null)" id="A55D12LC1DOC1"><img src="pic/common/folder-closed.gif" alt="" border="0"></a></td><td><a href="javascript:TFormSubmit('A47D1GJC1VMC1','1','A47D1GJC1VMC1',null)" id="A47D1GJC1VMC1">A  Maintenance, Body and Chassis Sheet Metal Parts, Frame</a></td></tr><tr><td valign="top"><a href="javascript:TFormSubmit('A4AD14NC16OC1','1','A4AD14NC16OC1',null)" id="A4AD14NC16OC1"><img src="pic/common/folder-closed.gif" alt="" border="0"></a></td><td><a href="javascript:TFormSubmit('A38D1WKC1MQC1','1','A38D1WKC1MQC1',null)" id="A38D1WKC1MQC1">B  Paint</a></td></tr><tr><td valign="top"><a href="javascript:TFormSubmit('A97D15KC10JC1','1','A97D15KC10JC1',null)" id="A97D15KC10JC1"><img src="pic/common/folder-closed.gif" alt="" border="0"></a></td><td><a href="javascript:TFormSubmit('A8AD1KQC10NC1','1','A8AD1KQC10NC1',null)" id="A8AD1KQC10NC1">C  Body Equipment</a></td></tr><tr><td valign="top"><a href="javascript:TFormSubmit('AA6D17PC13RC1','1','AA6D17PC13RC1',null)" id="AA6D17PC13RC1"><img src="pic/common/folder-closed.gif" alt="" border="0"></a></td><td><a href="javascript:TFormSubmit('AY8D1YJC13IC1','1','AY8D1YJC13IC1',null)" id="AY8D1YJC13IC1">D  Heating, Ventilation, Air Conditioning (HVAC)</a></td></tr><tr><td valign="top"><a href="javascript:TFormSubmit('AF3D1PPC1QLC1','1','AF3D1PPC1QLC1',null)" id="AF3D1PPC1QLC1"><img src="pic/common/folder-closed.gif" alt="" border="0"></a></td><td><a href="javascript:TFormSubmit('AM4D1MNC12OC1','1','AM4D1MNC12OC1',null)" id="AM4D1MNC12OC1">E  Front Wheel Suspension, Wheels and Tyres</a></td></tr><tr><td valign="top"><a href="javascript:TFormSubmit('AU3D1ZRC14IC1','1','AU3D1ZRC14IC1',null)" id="AU3D1ZRC14IC1"><img src="pic/common/folder-closed.gif" alt="" border="0"></a></td><td><a href="javascript:TFormSubmit('A02D1NMC1HMC1','1','A02D1NMC1HMC1',null)" id="A02D1NMC1HMC1">F  Rear Axle and Rear Wheel Suspension</a></td></tr><tr><td valign="top"><a href="javascript:TFormSubmit('AK9D1JPC1DMC1','1','AK9D1JPC1DMC1',null)" id="AK9D1JPC1DMC1"><img src="pic/common/folder-closed.gif" alt="" border="0"></a></td><td><a href="javascript:TFormSubmit('AU8D1MLC1EQC1','1','AU8D1MLC1EQC1',null)" id="AU8D1MLC1EQC1">H  Brakes</a></td></tr><tr><td valign="top"><a href="javascript:TFormSubmit('A36D13JC1TKC1','1','A36D13JC1TKC1',null)" id="A36D13JC1TKC1"><img src="pic/common/folder-closed.gif" alt="" border="0"></a></td><td><a href="javascript:TFormSubmit('AL5D1ULC1KHC1','1','AL5D1ULC1KHC1',null)" id="AL5D1ULC1KHC1">J  Engine and Engine Aggregates</a></td></tr><tr><td valign="top"><a href="javascript:TFormSubmit('AW3D16JC16HC1','1','AW3D16JC16HC1',null)" id="AW3D16JC16HC1"><img src="pic/common/folder-closed.gif" alt="" border="0"></a></td><td><a href="javascript:TFormSubmit('AU7D16RC1HHC1','1','AU7D16RC1HHC1',null)" id="AU7D16RC1HHC1">K  Clutch and Transmission</a></td></tr><tr><td valign="top"><a href="javascript:TFormSubmit('AJ6D13PC1IQC1','1','AJ6D13PC1IQC1',null)" id="AJ6D13PC1IQC1"><img src="pic/common/folder-closed.gif" alt="" border="0"></a></td><td><a href="javascript:TFormSubmit('AC0D1DKC1GJC1','1','AC0D1DKC1GJC1',null)" id="AC0D1DKC1GJC1">L  Fuel and Exhaust System</a></td></tr><tr><td valign="top"><a href="javascript:TFormSubmit('AP6D17JC1HNC1','1','AP6D17JC1HNC1',null)" id="AP6D17JC1HNC1"><img src="pic/common/folder-closed.gif" alt="" border="0"></a></td><td><a href="javascript:TFormSubmit('AQ4D1OSC10OC1','1','AQ4D1OSC10OC1',null)" id="AQ4D1OSC10OC1">M  Steering</a></td></tr><tr><td valign="top"><a href="javascript:TFormSubmit('AL9D11KC1BQC1','1','AL9D11KC1BQC1',null)" id="AL9D11KC1BQC1"><img src="pic/common/folder-closed.gif" alt="" border="0"></a></td><td><a href="javascript:TFormSubmit('AT0D1UOC12HC1','1','AT0D1UOC12HC1',null)" id="AT0D1UOC12HC1">N  Electrical Equipment and Instruments</a></td></tr><tr><td valign="top"><a href="javascript:TFormSubmit('A28D1ZKC1LOC1','1','A28D1ZKC1LOC1',null)" id="A28D1ZKC1LOC1"><img src="pic/common/folder-closed.gif" alt="" border="0"></a></td><td><a href="javascript:TFormSubmit('AR5D1OQC1AIC1','1','AR5D1OQC1AIC1',null)" id="AR5D1OQC1AIC1">R  Accessories</a></td></tr></tbody></table></td>
+    </tr>
+  </tbody></table>
+</form>
+
+
+</body></html>

@@ -1,0 +1,130 @@
+{
+  "type": "procedure",
+  "id": "clutch-housing-replace-A26D1C",
+  "title": "Clutch Housing, Replace",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Illustration of clutch housing",
+          "image": {
+            "src": "/data/assets/images/fe8e8d0be57d.jpg",
+            "alt": "Object Number: 2415584  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove transmission from vehicle- see operation \"Transmission, Remove and Install\"",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Disassemble transmission - see operation \"Transmission, Seal Completely\"",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Remove tapered roller bearing outer race for differential (1) - see operation \"Tapered Roller Bearing, Differential, Replace\"",
+          "image": {
+            "src": "/data/assets/images/8c8f81f17caf.jpg",
+            "alt": "Object Number: 2415585  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Remove intermediate shaft bearing (3) - see operation \"Bearings, Intermediate Shaft in Clutch Housing, Replace\"",
+          "image": {
+            "src": "/data/assets/images/8c8f81f17caf.jpg",
+            "alt": "Object Number: 2415585  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Remove drive shaft bearing (4) - see operation \"Bearings, Drive Shaft in Clutch Housing, Replace\"",
+          "image": {
+            "src": "/data/assets/images/8c8f81f17caf.jpg",
+            "alt": "Object Number: 2415585  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Remove main shaft bearing (2) - see operation \"Bearings, Main Shaft in Clutch Housing, Replace\"",
+          "image": {
+            "src": "/data/assets/images/8c8f81f17caf.jpg",
+            "alt": "Object Number: 2415585  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Install main shaft bearing (2) - see operation \"Bearings, Main Shaft in Clutch Housing, Replace\"",
+          "image": {
+            "src": "/data/assets/images/8c8f81f17caf.jpg",
+            "alt": "Object Number: 2415585  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Install drive shaft bearing (4) - see operation \"Bearings, Drive Shaft in Clutch Housing, Replace\"",
+          "image": {
+            "src": "/data/assets/images/8c8f81f17caf.jpg",
+            "alt": "Object Number: 2415585  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Install intermediate shaft bearing (3) - see operation \"Bearings, Intermediate Shaft in Clutch Housing, Replace\"",
+          "image": {
+            "src": "/data/assets/images/8c8f81f17caf.jpg",
+            "alt": "Object Number: 2415585  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "Install tapered roller bearing outer race for differential (1) - see operation \"Tapered Roller Bearing, Differential, Replace\"",
+          "image": {
+            "src": "/data/assets/images/8c8f81f17caf.jpg",
+            "alt": "Object Number: 2415585  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 12,
+          "text": "Assemble transmission - see operation \"Transmission, Seal Completely\"",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Install transmission into vehicle - see operation \"Transmission, Remove and Install\"",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

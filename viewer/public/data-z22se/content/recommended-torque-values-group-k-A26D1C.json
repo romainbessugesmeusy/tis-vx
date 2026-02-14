@@ -1,0 +1,93 @@
+{
+  "type": "torque_table",
+  "id": "recommended-torque-values-group-k-A26D1C",
+  "title": "Recommended Torque Values – Group K",
+  "group": "K",
+  "values": [
+    {
+      "component": "Clutch bleeder valve",
+      "value": "9",
+      "unit": "Nm"
+    },
+    {
+      "component": "Clutch pressure plate to flywheel bolts",
+      "value": "15",
+      "unit": "Nm"
+    },
+    {
+      "component": "Central release to transmission bolts",
+      "value": "5",
+      "unit": "Nm"
+    },
+    {
+      "component": "End shield cover to transmission M7 x 1.0 bolts",
+      "value": "15",
+      "unit": "Nm"
+    },
+    {
+      "component": "End shield cover to transmission M8 x 1.25 bolts",
+      "value": "20",
+      "unit": "Nm"
+    },
+    {
+      "component": "Fluid drain plug",
+      "value": "35",
+      "unit": "Nm"
+    },
+    {
+      "component": "Fluid filler plug",
+      "value": "35",
+      "unit": "Nm"
+    },
+    {
+      "component": "Fluid level plug",
+      "value": "35",
+      "unit": "Nm"
+    },
+    {
+      "component": "Left engine damping block bracket to transmission bolts",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Left engine damping block to engine bracket bolts",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Master cylinder to support bracket nuts",
+      "value": "20",
+      "unit": "Nm"
+    },
+    {
+      "component": "Oil sump to transmission bolts",
+      "value": "40",
+      "unit": "Nm"
+    },
+    {
+      "component": "Pressure line to central release union",
+      "value": "14",
+      "unit": "Nm"
+    },
+    {
+      "component": "Pressure plate bolts",
+      "value": "15",
+      "unit": "Nm"
+    },
+    {
+      "component": "Reverse lamp switch",
+      "value": "20",
+      "unit": "Nm"
+    },
+    {
+      "component": "Right engine damping block to engine bracket bolts",
+      "value": "85",
+      "unit": "Nm"
+    },
+    {
+      "component": "Transmission to engine bolts",
+      "value": "60",
+      "unit": "Nm"
+    }
+  ]
+}

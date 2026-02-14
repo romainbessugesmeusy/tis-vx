@@ -1,0 +1,30 @@
+{
+  "type": "tsb",
+  "id": "engine-or-drivetrain-damaged-due-to-tuning-A26D1C",
+  "title": "Field Remedy: 1510",
+  "subject": "Engine or drivetrain - Damaged due to\nTuning",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "13 - No/Poor Function",
+    "troubleCode": "None"
+  },
+  "complaint": "Engine or drivetrain damages.",
+  "cause": "Tuning of petrol and diesel engines.",
+  "production": "",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "The number of offers for engine tuning kits for petrol and diesel engines\nwith electronic injection is growing. \nAn increasing number of engine damages as well as damages of the drivetrain\nhave been caused by engine tuning."
+    },
+    {
+      "type": "text",
+      "text": "We have to point out that such manipulated vehicles will be taken out of\nwarranty immediately. Repair works have to be paid by the customer."
+    },
+    {
+      "type": "text",
+      "text": "Furthermore we have to stress that manipulated vehicles do not fulfill the\ntype approval requirements as well as the vehicle insurance will expire."
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "type": "procedure",
+  "id": "tapered-roller-bearings-differential-replace-A26D1C",
+  "title": "Tapered Roller Bearings, Differential, Replace",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Illustration of differential",
+          "image": {
+            "src": "/data/assets/images/1c1c71c1c568.jpg",
+            "alt": "Object Number: 2416927  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove transmission from vehicle - see operation \"Transmission, Remove and Install\"",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Disassemble transmission - see operation \"Transmission, Seal Completely\"",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Attach KM-6118-2 (1) to inner race (2)",
+          "image": {
+            "src": "/data/assets/images/a96248d242e0.jpg",
+            "alt": "Object Number: 2415551  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Attach KM-6118-1 uniformly to KM-6118-2 (1); do not tilt. Tighten bolts (arrowed)",
+          "image": {
+            "src": "/data/assets/images/9fa086eb71fa.jpg",
+            "alt": "Object Number: 2416926  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Press inner race of tapered roller bearing from differential (4) with KM-6118 (3) in conjunction with KM-500-5 (2) and workshop press (1) Note: This operation is described for inner race of tapered roller bearing in transmission housing side. Removal and installation of inner race of tapered roller bearing in clutch housing side is performed in a similar manner",
+          "image": {
+            "src": "/data/assets/images/17bdef303610.jpg",
+            "alt": "Object Number: 2415552  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "3",
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Clean and check all parts; replace if necessary",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "When re-using old bearings, note allocation of shims (2) on differential (1)",
+          "image": {
+            "src": "/data/assets/images/43296c83b48f.jpg",
+            "alt": "Object Number: 2415553  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Press inner race (2) flush onto differential (3) with KM-522 (1). At same time, KM-522 must also be positioned under differential to prevent damage to lower tapered roller bearing",
+          "image": {
+            "src": "/data/assets/images/1bda99344b29.jpg",
+            "alt": "Object Number: 2415554  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "3",
+            "1"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Insert KM-6113 (2) in outer race (4) into recesses in transmission housing",
+          "image": {
+            "src": "/data/assets/images/755dc07f8521.jpg",
+            "alt": "Object Number: 2415557  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "4"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "Spread KM-6113 by tightening nut (3) in bearing, at the same time, counterhold spindle (1) Note: Claws of KM-6113 must engage in grooves (arrowed) of transmission housing",
+          "image": {
+            "src": "/data/assets/images/755dc07f8521.jpg",
+            "alt": "Object Number: 2415557  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "1"
+          ]
+        },
+        {
+          "number": 12,
+          "text": "Counterhold shaft of KM-6113 (2), then pull outer race of tapered roller bearing out of transmission housing (3) by turning nut (1) Note: Removal of outer race of tapered roller bearing in clutch housing is performed in a similar manner",
+          "image": {
+            "src": "/data/assets/images/5d2c12bf8943.jpg",
+            "alt": "Object Number: 2415558  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "3",
+            "1"
+          ]
+        },
+        {
+          "number": 13,
+          "text": "Clean all removed parts and check for wear and damage; replace if necessary",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Insert outer race (1) in transmission housing",
+          "image": {
+            "src": "/data/assets/images/6c4353b3e87d.jpg",
+            "alt": "Object Number: 2415559  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 15,
+          "text": "Drive outer race into transmission housing using KM-6114 (3) in conjunction with KM-523-1 (2) Note: Installation of outer race for tapered roller bearing in clutch housing is performed in a similar manner",
+          "image": {
+            "src": "/data/assets/images/6c4353b3e87d.jpg",
+            "alt": "Object Number: 2415559  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "2"
+          ]
+        },
+        {
+          "number": 16,
+          "text": "Assemble transmission - see operation \"Transmission, Seal Completely\"",
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Install transmission into vehicle - see operation \"Transmission, Remove and Install\"",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "toolsRequired": [
+    "KM-6118-2",
+    "KM-6118-1",
+    "KM-6118",
+    "KM-500-5",
+    "KM-522",
+    "KM-6113",
+    "KM-6114",
+    "KM-523-1"
+  ],
+  "warnings": [
+    "When replacing\ndifferential tapered roller bearings, respective outer races of\ntapered roller bearing in clutch and transmission housings must\nalways be replaced. Ensure that shims under tapered roller bearings\nare not interchanged",
+    "The edge (arrowed) of\nKM-6118-2 (1) must engage under cage of\ntapered roller bearing",
+    "When replacing inner\nraces of tapered roller bearings, outer races must also always be\nreplaced"
+  ],
+  "notes": [
+    "Press inner race of tapered roller bearing from differential\n(4) with KM-6118 (3) in conjunction with\nKM-500-5 (2) and workshop press (1)\n This operation is\ndescribed for inner race of tapered roller bearing in transmission\nhousing side. Removal and installation of inner race of tapered\nroller bearing in clutch housing side is performed in a similar\nmanner",
+    "Spread KM-6113 by tightening nut (3)\nin bearing, at the same time, counterhold spindle (1)\n Claws of KM-6113 must engage in grooves (arrowed) of\ntransmission housing",
+    "Counterhold shaft of KM-6113 (2),\nthen pull outer race of tapered roller bearing out of transmission\nhousing (3) by turning nut (1)\n Removal of outer\nrace of tapered roller bearing in clutch housing is performed in a\nsimilar manner",
+    "Drive outer race into transmission housing using KM-6114 (3) in conjunction with KM-523-1 (2)\n Installation of\nouter race for tapered roller bearing in clutch housing is\nperformed in a similar manner"
+  ]
+}

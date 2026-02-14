@@ -1,0 +1,91 @@
+{
+  "type": "procedure",
+  "id": "transmission-housing-replace-A26D1C",
+  "title": "Transmission Housing, Replace",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Illustration of transmission housing",
+          "image": {
+            "src": "/data/assets/images/084c30eaa189.jpg",
+            "alt": "Object Number: 2415658  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove transmission from vehicle - see operation \"Transmission, Remove and Install\".",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Disassemble transmission - see operation \"Transmission, Seal Completely\".",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Remove bearing for main (2) and drive shaft (3) - see operation \"Bearings, Main Shaft and / or Drive Shaft in Transmission Housing, Replace\"",
+          "image": {
+            "src": "/data/assets/images/57dfb33ca362.jpg",
+            "alt": "Object Number: 2415659  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "3"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Remove tapered roller bearing outer race for differential (1) - see operation \"Tapered Roller Bearing, Differential, Replace\" Note: Press sleeves, which are pressed into transmission housing, are not available as individual parts, but are already installed in new transmission housing",
+          "image": {
+            "src": "/data/assets/images/57dfb33ca362.jpg",
+            "alt": "Object Number: 2415659  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Install tapered roller bearing outer race for differential (1) - see operation \"Tapered Roller Bearing, Differential, Replace\"",
+          "image": {
+            "src": "/data/assets/images/57dfb33ca362.jpg",
+            "alt": "Object Number: 2415659  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Install bearing for main (2) and drive shaft (3) - see operation \"Bearings, Main Shaft and / or Drive Shaft in Transmission Housing, Replace\"",
+          "image": {
+            "src": "/data/assets/images/57dfb33ca362.jpg",
+            "alt": "Object Number: 2415659  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "3"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Assemble transmission - see operation \"Transmission, Seal Completely\"",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install transmission into vehicle- see operation \"Transmission, Remove and Install\"",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Remove tapered roller bearing outer race for differential (1) -\nsee operation \"Tapered Roller Bearing, Differential, Replace\"\n Press sleeves,\nwhich are pressed into transmission housing, are not available as\nindividual parts, but are already installed in new transmission\nhousing"
+  ]
+}

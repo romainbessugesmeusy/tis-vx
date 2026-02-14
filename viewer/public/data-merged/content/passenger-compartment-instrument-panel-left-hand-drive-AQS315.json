@@ -1,0 +1,119 @@
+{
+  "type": "harness_diagram",
+  "id": "passenger-compartment-instrument-panel-left-hand-drive-AQS315",
+  "title": "Passenger compartment - Instrument panel",
+  "diagram": {
+    "src": "/data/assets/converted/3ae796af62b9.png",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "A1",
+      "description": "Control unit - Airbag"
+    },
+    {
+      "code": "S4",
+      "description": "Switch - Parking lamp"
+    },
+    {
+      "code": "A12",
+      "description": "Control unit - Central locking"
+    },
+    {
+      "code": "S6",
+      "description": "Switch - Hazard light"
+    },
+    {
+      "code": "A14",
+      "description": "Radio"
+    },
+    {
+      "code": "S22",
+      "description": "Switch - Wiper unit"
+    },
+    {
+      "code": "A17",
+      "description": "Control unit - Immobiliser"
+    },
+    {
+      "code": "S38",
+      "description": "Contact switch - Driver door"
+    },
+    {
+      "code": "B36",
+      "description": "Loudspeaker - Front, left"
+    },
+    {
+      "code": "S39",
+      "description": "Contact switch - Front passenger door"
+    },
+    {
+      "code": "B37",
+      "description": "Loudspeaker - Front, right"
+    },
+    {
+      "code": "S69",
+      "description": "Switch - Blower, heating"
+    },
+    {
+      "code": "E39",
+      "description": "Lamp - Passenger compartment"
+    },
+    {
+      "code": "S76",
+      "description": "Switch - Fog lamps, front"
+    },
+    {
+      "code": "H1",
+      "description": "Instrument"
+    },
+    {
+      "code": "S87",
+      "description": "Switch - Central locking (instrument)"
+    },
+    {
+      "code": "S1",
+      "description": "Switch - Starter"
+    },
+    {
+      "code": "S122",
+      "description": "Switch - Fog lamps, rear"
+    },
+    {
+      "code": "S2",
+      "description": "Switch unit - Light"
+    },
+    {
+      "code": "S124",
+      "description": "Switch - Starter button"
+    },
+    {
+      "code": "S3",
+      "description": "Switch unit - Steering column"
+    },
+    {
+      "code": "S125",
+      "description": "Switch - Illumination/Reset trip odometer"
+    },
+    {
+      "code": "X20",
+      "description": "Main harness & Contact unit"
+    },
+    {
+      "code": "X25",
+      "description": "Main harness & Extension harness, contact switch - Driver door"
+    },
+    {
+      "code": "X23",
+      "description": "Main harness & Control unit - Anti-theft warning system"
+    },
+    {
+      "code": "X26",
+      "description": "Main harness & Extension harness, contact switch - Front passenger door"
+    },
+    {
+      "code": "X24",
+      "description": "Main harness & Control unit - Anti-theft warning system"
+    }
+  ]
+}

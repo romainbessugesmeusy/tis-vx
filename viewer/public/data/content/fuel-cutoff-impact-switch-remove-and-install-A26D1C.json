@@ -1,0 +1,46 @@
+{
+  "type": "procedure",
+  "id": "fuel-cutoff-impact-switch-remove-and-install-A26D1C",
+  "title": "Fuel Cutoff Impact Switch, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Harness connector from fuel cutoff impact switch (1).",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Fuel cutoff impact switch from rear sub-frame – 2x screw, 2x washer.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Fuel cutoff impact switch (1) to rear sub-frame – 2x screw, 2x washer.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Harness connector to fuel cutoff impact switch.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

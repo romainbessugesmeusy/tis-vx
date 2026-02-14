@@ -1,0 +1,22 @@
+{
+  "type": "tsb",
+  "id": "radio-cd-drive-cd-drive-does-not-play-copy-protected-cds-A26D1C",
+  "title": "Field Remedy: 1680",
+  "subject": "Radio - CD-drive - CD-drive does not play\ncopy-protected CDs",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "N - Electrical Equipment",
+    "complaintGroup": "13 - No/Poor Function",
+    "troubleCode": "None"
+  },
+  "complaint": "Customer complain that copy-protected CDs\ncannot be played in the CD-drive.",
+  "cause": "Copy-protected CD's are not according to the\ninternational Audio Compact Disc Standard (Red Book Standard) which\nis the basis for the development of CD-drives. Therefore most\ncopy-protected CDs cannot be read by the CD-drive.",
+  "production": "None",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "During the development phase of most on the market available CD-drives\ncopy-protection was not known. Due to the fact that the music industry\ninstalled a copy protection on some music CDs to avoid that they can be\ncopied on a PC, most of the market available CD-drives can not play them\nanymore because their CD-drive is similar to a PC-drive. \nThe CD-drive manufacturers are able to consider current copy protection\nmethods in their new developments. \nBut they can not guarantee for their CD.drives to be able to play all\nCD-types because the music industry still permanently changes their copy\nprotection methods. \nBased on these facts exchange of CD-radios is not be supported by the car\nmanufacturers because the CD-drives were developed according to the\ninternational Audio Compact Disc Standard (Red Book Standard)."
+    }
+  ]
+}

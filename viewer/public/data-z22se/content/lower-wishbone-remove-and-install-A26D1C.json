@@ -1,0 +1,129 @@
+{
+  "type": "procedure",
+  "id": "lower-wishbone-remove-and-install-A26D1C",
+  "title": "lower wishbone remove and install A26D1C",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Lower Wishbone, Remove and Install",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "remove",
+      "label": "Remove, Disconnect",
+      "icon": "/data/assets/images/4b8970d41392.jpg",
+      "steps": [
+        {
+          "number": 2,
+          "text": "Clips for brake hose and parking brake cable from lower wishbone - nuts.",
+          "image": {
+            "src": "/data/assets/images/ad99b47bc38c.jpg",
+            "alt": "Object Number: 2429708  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Shock absorber from lower wishbone - bolt, nut (1), washers.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Lower swivel joint from hub carrier - nut; use suitable ball joint remover (illustration shows wheel hub and drive shaft assembly removed for clarity).",
+          "image": {
+            "src": "/data/assets/images/4c4f511ecf25.jpg",
+            "alt": "Object Number: 2429738  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Track control rod (2) from lower wishbone and chassis - nut, washers.",
+          "image": {
+            "src": "/data/assets/images/b25a5c2a4c6b.jpg",
+            "alt": "Object Number: 2429912  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Lower wishbone (1) from chassis - bolt at front pivot point, washer.",
+          "image": null,
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install, Connect",
+      "icon": "/data/assets/images/57d894c25c39.jpg",
+      "steps": [
+        {
+          "number": 7,
+          "text": "Lower wishbone to chassis - bolt 45 Nm at front pivot point, washer.",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Track control rod to lower wishbone and chassis - nut 49 Nm, washers.",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Lower swivel joint to hub carrier - nut.",
+          "image": {
+            "src": "/data/assets/images/4c4f511ecf25.jpg",
+            "alt": "Object Number: 2429738  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Shock absorber to lower wishbone - bolt, nut 45 Nm, washers.",
+          "image": {
+            "src": "/data/assets/images/ad99b47bc38c.jpg",
+            "alt": "Object Number: 2429708  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 11,
+          "text": "Clips for brake hose and parking brake cable to lower wishbone - nuts.",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Wheel bearing assembly to hub carrier - see operation \"Wheel Bearing Assembly, Remove and Install\".",
+          "image": {
+            "src": "/data/assets/images/ebec651d6b3d.jpg",
+            "alt": "Object Number: 2429683  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Lower wishbone to chassis - bolt 45 Nm at front pivot point, washer.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Track control rod to lower wishbone and chassis - nut 49 Nm, washers.",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 8
+    }
+  ]
+}

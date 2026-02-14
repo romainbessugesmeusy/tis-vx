@@ -1,0 +1,57 @@
+{
+  "type": "procedure",
+  "id": "liner-rer-wheelarch-remove-and-install-A26D1C",
+  "title": "liner rer wheelarch remove and install A26D1C",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Liner, Rear Wheelarch, Remove and Install",
+      "icon": "/data/assets/images/4b8970d41392.jpg",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Left side shown, right side similar.",
+          "image": {
+            "src": "/data/assets/images/670bed5416a4.jpg",
+            "alt": "Object Number: 2425016  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Wheel - bolts.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Liner - 6 screws.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install, Connect",
+      "icon": "/data/assets/images/57d894c25c39.jpg",
+      "steps": [
+        {
+          "number": 4,
+          "text": "Liner - 6 screws.",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Wheel - bolts 90 Nm.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Wheel - bolts 90 Nm.",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 5
+    }
+  ]
+}

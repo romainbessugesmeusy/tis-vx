@@ -1,0 +1,40 @@
+{
+  "type": "procedure",
+  "id": "bulbs-rear-lamp-replace-AQS315",
+  "title": "Bulbs, Rear Lamp, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Bulb holder from rear lamp assembly.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Bulb from holder.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Bulb to holder.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Bulb holder to rear lamp assembly.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

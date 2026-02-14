@@ -28,23 +28,42 @@ const { chromium } = require("playwright");
 // CONFIGURATION
 // ============================================================================
 
+const ENGINES = {
+  z20let: { label: /Z.*20.*LET/i, dir: "output-z20let", code: "Z20LET" },
+  z22se: { label: /Z.*22.*SE/i, dir: "output-z22se", code: "Z22SE" },
+};
+
+function parseEngineArg() {
+  const idx = process.argv.indexOf("--engine");
+  if (idx === -1 || !process.argv[idx + 1]) return "z20let";
+  const arg = process.argv[idx + 1].toLowerCase();
+  if (ENGINES[arg]) return arg;
+  return "z20let";
+}
+
+const engineKey = parseEngineArg();
+const selectedEngine = ENGINES[engineKey];
+const outputBase = path.join(__dirname, selectedEngine.dir);
+
 const config = {
   baseUrl: "http://localhost:9090/tis2web/",
-  outputDir: path.join(__dirname, "output"),
-  pagesDir: path.join(__dirname, "output", "pages"),
-  assetsDir: path.join(__dirname, "output", "assets"),
-  imagesDir: path.join(__dirname, "output", "assets", "images"),
-  rawDir: path.join(__dirname, "output", "raw"),
-  screenshotsDir: path.join(__dirname, "output", "_screenshots"),
+  outputDir: outputBase,
+  pagesDir: path.join(outputBase, "pages"),
+  assetsDir: path.join(outputBase, "assets"),
+  imagesDir: path.join(outputBase, "assets", "images"),
+  rawDir: path.join(outputBase, "raw"),
+  screenshotsDir: path.join(outputBase, "_screenshots"),
   headless: false,
   throttleMs: 80,
   maxIterations: 2000,
+  engineKey,
+  selectedEngine,
 
   vehicle: {
     make: "Vauxhall",
     model: "SPEEDSTER",
     year: "2003",
-    engine: "Z 20 LET",
+    engine: selectedEngine.code,
   },
 };
 
@@ -139,9 +158,9 @@ const selectVehicle = async (page) => {
   await sleep(300);
   
   try {
-    await page.selectOption("#vc\\.attributename\\.engine", { label: /Z.*20.*LET/i });
+    await page.selectOption("#vc\\.attributename\\.engine", { label: config.selectedEngine.label });
   } catch {
-    await page.selectOption("#vc\\.attributename\\.engine", { value: "1" });
+    await page.selectOption("#vc\\.attributename\\.engine", { value: engineKey === "z22se" ? "2" : "1" });
   }
   await sleep(300);
   
@@ -828,7 +847,7 @@ const main = async () => {
   ensureDir(config.rawDir);
   ensureDir(config.screenshotsDir);
   
-  log("Starting TIS2Web Scraper V4...\n");
+  log(`Starting TIS2Web Scraper V4 (engine: ${config.selectedEngine.code}, output: ${config.outputDir})...\n`);
   
   const browser = await chromium.launch({ headless: config.headless });
   const context = await browser.newContext({ 

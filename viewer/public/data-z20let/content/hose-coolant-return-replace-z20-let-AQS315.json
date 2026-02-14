@@ -1,0 +1,137 @@
+{
+  "type": "procedure",
+  "id": "hose-coolant-return-replace-z20-let-AQS315",
+  "title": "Hose, Coolant Return, Replace (Z20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Drain cooling system - see operation “Cooling System, Drain, Fill and Bleed”",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove clip from coolant return hose",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Disconnect engine harness from auxiliary coolant pump",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release integral connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Release coolant return hose from heater hose",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release, then discard cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Disconnect turbo-charger coolant hose from coolant return hose",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Remove, then discard coolant return hose from oil cooler housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove clip (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e147afdf2d5a.jpg",
+            "alt": "Object Number: 2423055  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 8,
+          "text": "Connect coolant return hose to oil cooler housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Connect turbo-charger coolant hose to coolant return hose",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Secure coolant return hose to heater hose",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install new cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Connect engine harness to auxiliary coolant pump",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure integral connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Fill coolant system - see operation “Cooling System, Drain, Fill and Bleed”",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

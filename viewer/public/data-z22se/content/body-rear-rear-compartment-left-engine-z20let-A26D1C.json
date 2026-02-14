@@ -1,0 +1,27 @@
+{
+  "type": "harness_diagram",
+  "id": "body-rear-rear-compartment-left-engine-z20let-A26D1C",
+  "title": "Body rear - Rear compartment, left",
+  "diagram": {
+    "src": "/data/assets/f384ceee5d19.cgm",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "K16",
+      "description": "Relay - Fuel pump"
+    },
+    {
+      "code": "K18",
+      "description": "Relay - Engine control unit"
+    },
+    {
+      "code": "K24",
+      "description": "Relay - Starter"
+    },
+    {
+      "code": "K82",
+      "description": "Relay - Pump, coolant additional"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "type": "procedure",
+  "id": "abs-hydraulic-unit-with-control-unit-replace-AQS315",
+  "title": "ABS Hydraulic Unit with Control Unit, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove front bonnet - see operation \"Front Bonnet, Remove and Install\" in group A.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Install 2x clamp to 2x brake hose (1)",
+          "image": {
+            "src": "/data/assets/images/05f21bcbaa82.jpg",
+            "alt": "Object Number: 2425083  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Disconnect harness connector (1) from control unit",
+          "image": {
+            "src": "/data/assets/images/89da1c7a553b.jpg",
+            "alt": "Object Number: 2425086  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Disconnect 6x brake line (2) from hydraulic unit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 6x union"
+            },
+            {
+              "bullet": "•",
+              "text": "Collect escaping fluid"
+            },
+            {
+              "bullet": "•",
+              "text": "Install blanking plug to 12x open connection"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/89da1c7a553b.jpg",
+            "alt": "Object Number: 2425086  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Remove support bracket with hydraulic unit and control unit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3x nut (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/00e0d702abed.jpg",
+            "alt": "Object Number: 2425087  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Remove support bracket from hydraulic unit and control unit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Remove control unit from hydraulic unit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x screw"
+            }
+          ],
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 8,
+          "text": "Install new control unit to hydraulic unit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install support bracket to hydraulic unit and control unit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Install support bracket with hydraulic unit and control unit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 3x nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Connect 6x brake line to hydraulic unit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 6x union"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove, then discard 12x blanking plug"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Connect harness connector to control unit",
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Remove 2x clamp from 2x brake hose",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Bleed brake system - see operation “Brake System, Bleed”",
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Check brake system for leaks - see operation “Brake System, Check for Leaks”",
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Install front bonnet - see operation \"Front Bonnet, Remove and Install\" in group A.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

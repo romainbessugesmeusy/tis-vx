@@ -1,0 +1,106 @@
+{
+  "type": "procedure",
+  "id": "drill-holes-on-the-right-hand-side-for-adapter-km-412-2-z22--A26D1C",
+  "title": "Drill Holes on the Right–hand Side for\nAdapter KM–412–2 (Z22 SE)",
+  "phases": [
+    {
+      "phase": "general",
+      "label": "Procedure",
+      "icon": null,
+      "steps": [
+        {
+          "number": 1,
+          "text": "Lower the engine onto the workbench. Note: 2 technicians required.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Support the engine at the transmission and at the oil pan."
+            },
+            {
+              "bullet": "•",
+              "text": "Take the weight with the workshop crane."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Apply the drilling template KM-6213 (3) to the bearing housing at the cylinder block.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 3 bolts (4)."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7e37a60a1f3a.jpg",
+            "alt": "Object Number: 2418082  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Adjust the drilling depth.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use a clip."
+            },
+            {
+              "bullet": "•",
+              "text": "Dimension \"X\" = 55 mm"
+            },
+            {
+              "bullet": "•",
+              "text": "Bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/4dee9da4d92c.jpg",
+            "alt": "Object Number: 2418083  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Drill 2 holes.",
+          "image": {
+            "src": "/data/assets/images/4dee9da4d92c.jpg",
+            "alt": "Object Number: 2418083  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Take off drilling template KM-6213 .",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 3 bolts."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Cut two M8 x 1.25 threads.",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Clean the threads.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "toolsRequired": [
+    "KM-6213"
+  ],
+  "warnings": [
+    "The guide sleeve (2)\nof the drilling template KM-6213 (3) must\nbe centred on the cast lug (1)"
+  ],
+  "notes": [
+    "Lower the engine onto the workbench.\n 2 technicians\nrequired.\n \n\n\n\n•  \nSupport the engine at the transmission and at the oil pan.\n \n\n\n\n\n\n•  \nTake the weight with the workshop crane."
+  ]
+}

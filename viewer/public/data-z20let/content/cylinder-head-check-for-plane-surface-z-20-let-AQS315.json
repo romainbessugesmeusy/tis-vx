@@ -1,0 +1,58 @@
+{
+  "type": "procedure",
+  "id": "cylinder-head-check-for-plane-surface-z-20-let-AQS315",
+  "title": "Cylinder Head, Check for Plane Surface (Z 20\nLET)",
+  "phases": [
+    {
+      "phase": "clean",
+      "label": "Clean",
+      "icon": "/data/assets/images/d9fe69774efb.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove gasket residues and clean sealing surfaces.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "inspect",
+      "label": "Inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": [
+        {
+          "number": 2,
+          "text": "Cylinder head dismantled.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "measure",
+      "label": "Measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Check length and width of cylinder head sealing surfaces for deformation and diagonals for warpage - use straight edge.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Caution",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Resurfacing of the cylinder head is not permitted.",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Measure height of cylinder head (sealing surface to sealing surface): dimension (I) - 134 mm.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "type": "procedure",
+  "id": "hard-top-adjust-A26D1C",
+  "title": "Hard Top, Adjust",
+  "phases": [
+    {
+      "phase": "adjust",
+      "label": "Adjust",
+      "icon": "/data/assets/images/8bcc88ed08ca.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Ensure rear bracket's of hard top assembly are loose",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Position hard top on vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Locate rear edge of hard top to rear header rail"
+            },
+            {
+              "bullet": "•",
+              "text": "Lower front edge of hard top to front header rail"
+            },
+            {
+              "bullet": "•",
+              "text": "Push hard top fully forward"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/29ec944771cb.jpg",
+            "alt": "Object Number: 2419958  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Loosely install 2x front tethered bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Loosely install 2x bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a5204f976a3c.jpg",
+            "alt": "Object Number: 2419959  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Secure 2x front tethered bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ensure hard top is centrally located to front header rail"
+            },
+            {
+              "bullet": "•",
+              "text": "Use tool provided"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9c55051e13ce.jpg",
+            "alt": "Object Number: 2419960  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Install 2x rear tethered bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ensure engagement with rear cantrail bracket"
+            },
+            {
+              "bullet": "•",
+              "text": "Use tool provided"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7c6683c205f2.jpg",
+            "alt": "Object Number: 2419961  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "2. Push hard top fully forward to obtain maximum contact with front header seal",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2x technician required"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Secure lower fixing's of 2x hard top bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tighten 4x bolt 10 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/601102b763e9.jpg",
+            "alt": "Object Number: 2419962  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Remove 2x rear tethered bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use tool provided",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Use tool provided\n Note:   To gain access to\nupper fixing's of 2x rear hard top bracket"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7c6683c205f2.jpg",
+            "alt": "Object Number: 2419961  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Secure upper fixing's of 2x rear hard top bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tighten 4x bolt 10 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/300bc6646335.jpg",
+            "alt": "Object Number: 2419963  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Install 2x rear tethered bracket",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use tool provided"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7c6683c205f2.jpg",
+            "alt": "Object Number: 2419961  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 11,
+          "text": "Check seal of front header rail for integrity",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Check position of hard top",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Close doors"
+            },
+            {
+              "bullet": "•",
+              "text": "Raise door glass fully"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Adjust door glass if necessary - see operation \"Door Window, Remove and Install\"",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Secure lower fixing's of 2x hard top bracket",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Secure upper fixing's of 2x rear hard top bracket",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Tighten 4x bolt 10 Nm Note: Maintain maximum contact with front header seal.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "Use of any other\ntooling may damage vehicle parts"
+  ],
+  "notes": [
+    "Tighten 4x bolt 10 Nm \n Maintain maximum\ncontact with front header seal.",
+    "Use tool provided\n To gain access to\nupper fixing's of 2x rear hard top bracket"
+  ]
+}

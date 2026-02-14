@@ -1,0 +1,502 @@
+{
+  "type": "procedure",
+  "id": "instrument-panel-replace-AQS315",
+  "title": "Instrument Panel, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove soft top/hardtop",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Release electrical harness from wash pump",
+          "image": {
+            "src": "/data/assets/images/b3070d1821c0.jpg",
+            "alt": "Object Number: 2429427  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Release wash reservoir from support bracket, then position to one side",
+          "image": {
+            "src": "/data/assets/images/b3070d1821c0.jpg",
+            "alt": "Object Number: 2429427  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Disconnect battery",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release nut"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/109869f7b46c.jpg",
+            "alt": "Object Number: 2429428  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Remove 2x plastic insert from fascia panel",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Remove radio from installation frame",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove radio display fascia, then store in protective display"
+            },
+            {
+              "bullet": "•",
+              "text": "Push each extraction tool outwards, then withdraw radio"
+            },
+            {
+              "bullet": "•",
+              "text": "Disconnect aerial connector and harness connector"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a0d3e51378ca.jpg",
+            "alt": "Object Number: 2429843  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Remove installation frame for radio from instrument panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Lightly press top and bottom of installation frame together"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/73272cc9769b.jpg",
+            "alt": "Object Number: 2429844  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Remove driver's air bag unit from steering wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x screw"
+            },
+            {
+              "bullet": "•",
+              "text": "Release harness connector"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c9495824374a.jpg",
+            "alt": "Object Number: 2429726  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Disconnect horn switch from combination switch assembly",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release harness connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Remove steering wheel from steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x bolt"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f2a47ebbaf58.jpg",
+            "alt": "Object Number: 2429724  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 11,
+          "text": "Remove upper shroud from steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 6x screw (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a0ee6ea9e112.jpg",
+            "alt": "Object Number: 2429520  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 12,
+          "text": "Remove lower shroud from steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Disconnect trip switch"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a0ee6ea9e112.jpg",
+            "alt": "Object Number: 2429520  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 13,
+          "text": "Remove instrument panel housing",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt, 2x washer, harness connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Remove lighting switch assembly from instrument panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 4x retainer (arrowed)"
+            },
+            {
+              "bullet": "•",
+              "text": "Disconnect 5x harness connector"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6514da11140b.jpg",
+            "alt": "Object Number: 2429519  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 15,
+          "text": "Remove top fascia from instrument panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Disconnect harness connector from starter switch"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 4x screw"
+            },
+            {
+              "bullet": "•",
+              "text": "Release harness connector"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d71c5fb9b45c.jpg",
+            "alt": "Object Number: 2429815  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 16,
+          "text": "Disconnect 2x control cable from heater control unit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Disconnect electrical harness from heater control unit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 4x electrical connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 18,
+          "text": "Release heater control unit from instrument panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x screw, 4x washer, 4x nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 19,
+          "text": "Release demist duct from top fascia",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 20x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 20,
+          "text": "Remove 2x fascia panel from instrument panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 21,
+          "text": "Remove instrument centre panel extrusion",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 4x bolt, 4x washer"
+            }
+          ],
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 22,
+          "text": "Install instrument centre panel extrusion",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x washer, 4x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 23,
+          "text": "Install 2x fascia panel to instrument panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 24,
+          "text": "Connect demist duct to top fascia",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 20x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 25,
+          "text": "Install heater control unit to instrument panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x washer, 4x screw, 4x nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 26,
+          "text": "Connect 2x control cable to heater control unit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tighten 2x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 27,
+          "text": "Connect demist duct to top fascia",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 20x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 28,
+          "text": "Install top fascia to instrument panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 4x screw"
+            },
+            {
+              "bullet": "•",
+              "text": "Install harness connector"
+            },
+            {
+              "bullet": "•",
+              "text": "Connect harness connector to starter switch"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 29,
+          "text": "Install lighting switch assembly to instrument panel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Connect 5x electrical connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 30,
+          "text": "Install instrument panel housing",
+          "image": null
+        },
+        {
+          "number": 31,
+          "text": "Install lower shroud to steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Connect trip switch"
+            },
+            {
+              "bullet": "•",
+              "text": "Install harness connector, clip, 3x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 32,
+          "text": "Install upper shroud to steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 6x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 33,
+          "text": "Install steering wheel to steering column",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tighten 4x bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 34,
+          "text": "Connect horn switch to combination switch assembly",
+          "image": null
+        },
+        {
+          "number": 35,
+          "text": "Install driver's air bag unit to steering wheel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Connect harness connector to airbag unit"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 2x screw"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 36,
+          "text": "Install installation frame for radio to instrument panel",
+          "image": null
+        },
+        {
+          "number": 37,
+          "text": "Install radio to installation frame",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Connect aerial connector and harness connector"
+            },
+            {
+              "bullet": "•",
+              "text": "Install radio display fascia"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 38,
+          "text": "Install 2x plastic insert to fascia panel",
+          "image": null
+        },
+        {
+          "number": 39,
+          "text": "Connect battery",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 40,
+          "text": "Secure wash reservoir to support bracket",
+          "image": null
+        },
+        {
+          "number": 41,
+          "text": "Connect harness connector to wash pump",
+          "image": null
+        },
+        {
+          "number": 42,
+          "text": "Reprogram all volatile memories",
+          "image": null
+        },
+        {
+          "number": 43,
+          "text": "Install soft top/hardtop",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Observe all safety\nregulations for removal and storage of airbag unit"
+  ]
+}

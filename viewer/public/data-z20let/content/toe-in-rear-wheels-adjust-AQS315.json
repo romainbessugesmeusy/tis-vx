@@ -1,0 +1,59 @@
+{
+  "type": "procedure",
+  "id": "toe-in-rear-wheels-adjust-AQS315",
+  "title": "Toe-in, Rear Wheels, Adjust",
+  "phases": [
+    {
+      "phase": "measure",
+      "label": "Measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Rear wheel toe-in using optical alignment measuring equipment. For dimensions refer to “Technical Data”",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Toe-in setting, final check.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "adjust",
+      "label": "Adjust",
+      "icon": "/data/assets/images/8bcc88ed08ca.gif",
+      "steps": [
+        {
+          "number": 2,
+          "text": "Toe-in if necessary:",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Loosen locknuts (1) and (2) on both right and left tie rods. Always adjust both tie rods same amount to obtain setting. Tighten locknuts on both tie rods - 45 Nm .",
+          "image": null,
+          "callouts": [
+            "1",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "measure",
+      "label": "Measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": []
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Loosen locknuts (1) and (2) on both right and left tie rods. Always adjust both tie rods same amount to obtain setting. Tighten locknuts on both tie rods - 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 3
+    }
+  ]
+}

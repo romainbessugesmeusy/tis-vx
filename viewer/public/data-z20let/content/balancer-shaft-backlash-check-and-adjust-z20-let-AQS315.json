@@ -1,0 +1,266 @@
+{
+  "type": "procedure",
+  "id": "balancer-shaft-backlash-check-and-adjust-z20-let-AQS315",
+  "title": "Balancer Shaft Backlash, Check and Adjust (Z20\nLET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove upper oil pan, see operation “Oil Pan, Upper, Replace”",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove oil pick up pipe from engine",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt from oil pump (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt from balancer shaft unit (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove, then discard O ring"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7e44e9fa5067.jpg",
+            "alt": "Object Number: 2422916  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Remove front baffle plate from balancer shaft unit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/10db56d71e65.jpg",
+            "alt": "Object Number: 2422915  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Install Screw Measuring Device KM-949",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Set measuring arm to 9 o'clock position"
+            },
+            {
+              "bullet": "•",
+              "text": "Install short knurled bolt (2) to balancer shaft unit"
+            },
+            {
+              "bullet": "•",
+              "text": "Set dial gauge to zero"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/55b53c3c7b10.jpg",
+            "alt": "Object Number: 2396297  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Measure balancer shaft unit, tooth backlash",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Toothed backlash must be measured in 4 different locations"
+            },
+            {
+              "bullet": "•",
+              "text": "Permissible backlash 0.02 mm to"
+            },
+            {
+              "bullet": "•",
+              "text": "Use knurled bolt (2) to rotate shaft"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/55b53c3c7b10.jpg",
+            "alt": "Object Number: 2396297  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Remove balancer shaft unit from engine",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove 15x bolt (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove shim"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/eef04280dd04.jpg",
+            "alt": "Object Number: 2422920  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Check identification number against table",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "One shim only to be used"
+            }
+          ],
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 8,
+          "text": "Install balancer shaft unit to engine",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install shim"
+            },
+            {
+              "bullet": "•",
+              "text": "Clean all mating surfaces"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install Screw Measuring Device KM-949",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Set measuring arm to 9 o'clock position"
+            },
+            {
+              "bullet": "•",
+              "text": "Rotate shaft"
+            },
+            {
+              "bullet": "•",
+              "text": "Set dial gauge to zero"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/55b53c3c7b10.jpg",
+            "alt": "Object Number: 2396297  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 10,
+          "text": "Measure balancer shaft unit, tooth backlash (5)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Toothed backlash must be measured in 4 different locations"
+            },
+            {
+              "bullet": "•",
+              "text": "Permissible backlash 0.02 mm to"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/55b53c3c7b10.jpg",
+            "alt": "Object Number: 2396297  Size: DEFAULT"
+          },
+          "callouts": [
+            "5"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "Remove Screw Measuring Device KM-949 from balancer shaft unit",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Install oil pick up pipe to engine",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt to oil pump"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt to balancer shaft unit"
+            },
+            {
+              "bullet": "•",
+              "text": "Install new O ring"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Install front baffle plate to balancer shaft unit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt 8 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Install upper oil pan, see operation “Oil Pan, Upper, Replace”",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install balancer shaft unit to engine",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Install front baffle plate to balancer shaft unit",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Install 15x bolt 20 Nm + 45° – Clean all mating surfaces",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install 2x bolt 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-949",
+    "KM-798"
+  ],
+  "notes": [
+    "One shim only to be used\n Each shim is 0.02\nmm thick."
+  ]
+}

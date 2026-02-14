@@ -1,0 +1,50 @@
+{
+  "type": "procedure",
+  "id": "throttle-valve-housing-remove-and-install-A26D1C",
+  "title": "Throttle Valve Housing, Remove and Install",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Hoses from the throttle valve housing.",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Wiring harness connector(s) from the throttle valve housing.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Throttle valve housing from the intake manifold – bolts (arrow).",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Throttle valve housing to the intake manifold – bolts (arrow).",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Wiring harness connector(s) to the throttle valve housing.",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Hoses to the throttle valve housing.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,571 @@
+{
+  "type": "procedure",
+  "id": "side-sill-replace-AQS315",
+  "title": "Side Sill, Replace",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Detach front clamshell",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "see operation \"Front Clamshell, Remove and Install\"."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Detach rear clamshell",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "see operation \"Rear Clamshell, Remove and Install\"."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Remove door",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "see operation \"Door, Remove and Install\"."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Detach ancillary components",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Sill inner trim (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Door lock (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Door seal (3)"
+            },
+            {
+              "bullet": "•",
+              "text": "Door contact switch (4)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e5d3cd76ba6b.jpg",
+            "alt": "Object Number: 2412542  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Mark out cutting lines Note: Mark out all cutting lines to avoid damage when cutting out.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Mark out cutting lines I, II, III and IV"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0aba7061431f.jpg",
+            "alt": "Object Number: 2412545  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Mark out cutting lines Note: Mark out all cutting lines to avoid damage when cutting out.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Mark out cutting lines I, II, III and IV"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0b7de725dbd4.jpg",
+            "alt": "Object Number: 2412546  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 7,
+          "text": "Mark out cutting lines Note: Mark out all cutting lines to avoid damage when cutting out.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Mark out cutting lines I and II"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/11819eaa0637.jpg",
+            "alt": "Object Number: 2412547  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 8,
+          "text": "Cut step plate at bottom along entire length",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Cut free in rear section",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Detach along marked cutting line"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Cut free at rear of B–pillar",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Detach along marked cutting line from top to bottom"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Cut free at front of B–pillar",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Detach along marked cutting line from top to bottom"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Cut free at hinge area",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Detach along marked cutting line"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Cut free at top of A–pillar",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Detach along marked cutting line"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Cut free at front of A–pillar",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Detach along marked cutting line from top to bottom"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Detach step plate at top",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Detach along marked cutting line"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Remove sill",
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Cutting out window frame corner (II) Note: Window frame corner (II) is re–used.",
+          "image": {
+            "src": "/data/assets/images/df1c1a446f8b.jpg",
+            "alt": "Object Number: 2412548  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 18,
+          "text": "Change cutting blade",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "MKM-846-9"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/df1c1a446f8b.jpg",
+            "alt": "Object Number: 2412548  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 19,
+          "text": "Detach remaining flange at front of A–pillar",
+          "image": {
+            "src": "/data/assets/images/df1c1a446f8b.jpg",
+            "alt": "Object Number: 2412548  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 20,
+          "text": "Remove remaining flange from windscreen frame (IV)",
+          "image": {
+            "src": "/data/assets/images/df1c1a446f8b.jpg",
+            "alt": "Object Number: 2412548  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 21,
+          "text": "Remove remaining flange in hinge area (III)",
+          "image": {
+            "src": "/data/assets/images/df1c1a446f8b.jpg",
+            "alt": "Object Number: 2412548  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 22,
+          "text": "Remove remaining flange on step plate (I)",
+          "image": {
+            "src": "/data/assets/images/0644109ac0c0.jpg",
+            "alt": "Object Number: 2412549  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 23,
+          "text": "Remove remaining flange at front of B–pillar (II)",
+          "image": {
+            "src": "/data/assets/images/0644109ac0c0.jpg",
+            "alt": "Object Number: 2412549  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 24,
+          "text": "Remove remaining flange at rear of B–pillar (III)",
+          "image": {
+            "src": "/data/assets/images/0644109ac0c0.jpg",
+            "alt": "Object Number: 2412549  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 25,
+          "text": "Remove remaining flange at rear wheel well (IV)",
+          "image": {
+            "src": "/data/assets/images/0644109ac0c0.jpg",
+            "alt": "Object Number: 2412549  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 26,
+          "text": "Remove remaining flange from step plate at bottom",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Cut at the top and bottom along the remaining flange"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d5457e49bf4f.jpg",
+            "alt": "Object Number: 2412550  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 27,
+          "text": "Remove the adhesive residues in the grooves Note: Lower areas of step plate and B–pillar must be completely free or adhesive residues",
+          "image": {
+            "src": "/data/assets/images/4896c5a3df5c.jpg",
+            "alt": "Object Number: 2412551  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 28,
+          "text": "Remove adhesive residues from step plate at top",
+          "image": {
+            "src": "/data/assets/images/4896c5a3df5c.jpg",
+            "alt": "Object Number: 2412551  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 29,
+          "text": "Remove adhesive residues from front of A–pillar",
+          "image": {
+            "src": "/data/assets/images/4896c5a3df5c.jpg",
+            "alt": "Object Number: 2412551  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 30,
+          "text": "Remove adhesive residues from rear wheel well",
+          "image": {
+            "src": "/data/assets/images/4896c5a3df5c.jpg",
+            "alt": "Object Number: 2412551  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 31,
+          "text": "Remove adhesive residues from windscreen frame",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Scraper and carpet knife"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/4896c5a3df5c.jpg",
+            "alt": "Object Number: 2412551  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 32,
+          "text": "Remove adhesive residues from hinge support",
+          "image": {
+            "src": "/data/assets/images/4896c5a3df5c.jpg",
+            "alt": "Object Number: 2412551  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 33,
+          "text": "Remove adhesive residues from rear bulkhead",
+          "image": {
+            "src": "/data/assets/images/4896c5a3df5c.jpg",
+            "alt": "Object Number: 2412551  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 34,
+          "text": "Remove adhesive residues from roll bar",
+          "image": {
+            "src": "/data/assets/images/4896c5a3df5c.jpg",
+            "alt": "Object Number: 2412551  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 35,
+          "text": "Check that new part fits",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Offer up and correct if necessary"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 36,
+          "text": "Clean all adhesive areas on vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Activator from adhesive pack"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 37,
+          "text": "Prime all adhesive areas on vehicle",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Primer from adhesive pack"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 38,
+          "text": "Clean all adhesive areas on new part",
+          "image": null
+        },
+        {
+          "number": 39,
+          "text": "Prime all adhesive areas on new part",
+          "image": null
+        },
+        {
+          "number": 40,
+          "text": "Detach corner (1) from old part",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Clamp in vice"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d02f049984ba.jpg",
+            "alt": "Object Number: 2412552  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 41,
+          "text": "Remove adhesive residues from window frame corner",
+          "image": null
+        },
+        {
+          "number": 42,
+          "text": "Clean window frame corner",
+          "image": null
+        },
+        {
+          "number": 43,
+          "text": "Prime window frame corner",
+          "image": null
+        },
+        {
+          "number": 44,
+          "text": "Apply adhesive",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Together 462 cm , of which on"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 45,
+          "text": "Place new part in position",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2nd technician required"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 46,
+          "text": "Fix new part in place",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fix in place with tensioning straps"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/40dc3a59438c.jpg",
+            "alt": "Object Number: 2412553  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 47,
+          "text": "Apply adhesive to window frame corner",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "30 cm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 48,
+          "text": "Insert window frame corner and fix in place",
+          "image": null
+        },
+        {
+          "number": 49,
+          "text": "Attach the ancillary components",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Door contact switch"
+            },
+            {
+              "bullet": "•",
+              "text": "Sill inner trim"
+            },
+            {
+              "bullet": "•",
+              "text": "Door lock"
+            },
+            {
+              "bullet": "•",
+              "text": "Door seal"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 50,
+          "text": "Install door",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "4 screws to A–pillar"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 51,
+          "text": "Attach front clamshell",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "see operation \"Front Clamshell, Detach and Attach\"."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 52,
+          "text": "Attach rear clamshell",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "see operation \"Rear Clamshell, Detach and Attach\"."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 53,
+          "text": "Cleaning work",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "toolsRequired": [
+    "MKM-846-9"
+  ],
+  "warnings": [
+    "Do not damage\nbulkhead"
+  ],
+  "notes": [
+    "Mark out cutting lines\n Mark out all\ncutting lines to avoid damage when cutting out.\n \n\n\n\n•  \nMark out cutting lines I, II, III and IV",
+    "Mark out cutting lines\n Mark out all\ncutting lines to avoid damage when cutting out.\n \n\n\n\n•  \nMark out cutting lines I and II",
+    "Cutting out window frame corner (II)\n Window frame\ncorner (II) is re–used.",
+    "Remove the adhesive residues in the grooves\n Lower areas of\nstep plate and B–pillar must be completely free or adhesive\nresidues"
+  ]
+}

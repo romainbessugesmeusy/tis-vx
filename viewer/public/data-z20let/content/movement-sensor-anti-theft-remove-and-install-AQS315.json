@@ -1,0 +1,67 @@
+{
+  "type": "procedure",
+  "id": "movement-sensor-anti-theft-remove-and-install-AQS315",
+  "title": "Movement Sensor, Anti-Theft, Remove and\nInstall",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Seats and seat belts.",
+          "image": {
+            "src": "/data/assets/images/ec57fe58ed48.jpg",
+            "alt": "Object Number: 2429523  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Rear trim panel from rear bulkhead.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Harness connector from movement sensor.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Movement sensor from rear bulkhead.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 5,
+          "text": "Movement sensor to rear bulkhead.",
+          "image": {
+            "src": "/data/assets/images/ec57fe58ed48.jpg",
+            "alt": "Object Number: 2429523  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Harness connector to movement sensor.",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Rear trim panel to rear bulkhead.",
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Seats and seat belts.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

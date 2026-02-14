@@ -1,0 +1,86 @@
+{
+  "type": "procedure",
+  "id": "compression-pressure-check-A26D1C",
+  "title": "Compression Pressure, Check",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Engine at operating temperature (minimum oil temperature 80 °C ).",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Direct ignition module – see operation \"Direct Ignition Module, Remove and Install\".",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Use KM-194-E spark plugs.",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Fuel pump relay from luggage compartment.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "inspect",
+      "label": "Inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": [
+        {
+          "number": 5,
+          "text": "Use a compression pressure recorder with a rubber cone and a measuring range up to 40 bar .",
+          "image": null
+        },
+        {
+          "number": 6,
+          "text": "Operate the starter for approx. 4 seconds with the throttle valve wide open – minimum engine speed 300 rpm .",
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Max. pressure difference between cylinders: 1 bar (14.7 psi) .",
+          "image": null
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 8,
+          "text": "Fuel pump relay",
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Use KM-194-E , 25 Nm spark plugs.",
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Direct ignition module.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Use KM-194-E , 25 Nm spark plugs.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 9
+    }
+  ]
+}

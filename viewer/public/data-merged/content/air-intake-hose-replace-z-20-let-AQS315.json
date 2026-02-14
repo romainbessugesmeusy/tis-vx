@@ -1,0 +1,93 @@
+{
+  "type": "procedure",
+  "id": "air-intake-hose-replace-z-20-let-AQS315",
+  "title": "Air Intake Hose, Replace (Z 20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Disconnect engine breather hose (1) from air intake hose (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/acd18c6fcbaf.jpg",
+            "alt": "Object Number: 2421981  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Remove air intake hose from mass air flow meter (3) and turbocharger (4)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release 2x clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/acd18c6fcbaf.jpg",
+            "alt": "Object Number: 2421981  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "4"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Install air intake hose (2) to mass air flow meter (3) and turbocharger (4)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure 2x clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/acd18c6fcbaf.jpg",
+            "alt": "Object Number: 2421981  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Connect engine breather hose (1) to air intake hose",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure clip"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/acd18c6fcbaf.jpg",
+            "alt": "Object Number: 2421981  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ]
+}

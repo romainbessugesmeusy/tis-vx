@@ -1,0 +1,262 @@
+{
+  "type": "procedure",
+  "id": "starter-motor-replace-z-20-let-AQS315",
+  "title": "Starter Motor, Replace (Z 20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Disconnect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release windscreen washer bottle (1), position to one side"
+            },
+            {
+              "bullet": "•",
+              "text": "Release nut, bolt (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/482794e97b8a.jpg",
+            "alt": "Object Number: 2422316  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Remove upper bolt for starter motor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove bracket"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Remove engine undertray (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Raise vehicle"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 13x bolt, 13x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1d1ad92dd5ed.jpg",
+            "alt": "Object Number: 2425071  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Release vacuum cut-off valve bracket from engine",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Disconnect body harness connector"
+            },
+            {
+              "bullet": "•",
+              "text": "Release harness clip (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 2x bolt (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Position vacuum tank to one side"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9108465b638b.jpg",
+            "alt": "Object Number: 2422363  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Remove starter motor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove lower bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove bolt"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove nut, washer"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove nut, washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8f0cf7af4db5.jpg",
+            "alt": "Object Number: 2422214  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 6,
+          "text": "Install starter motor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install lower bolt 40 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 7,
+          "text": "Install positive battery cable to starter motor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install washer, nut"
+            },
+            {
+              "bullet": "•",
+              "text": "Install washer, nut"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Connect harness earth lead to engine block",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Install vacuum cut-off valve bracket to engine",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x bolt 25 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Install harness clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Connect body harness connector"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Install engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 13x bolt, 13x washer"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Install upper bolt for starter motor 45 Nm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install bracket"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Connect battery negative lead",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure bolt, nut"
+            },
+            {
+              "bullet": "•",
+              "text": "Secure windscreen washer bottle"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Program all volatile memories",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install starter motor",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Install vacuum cut-off valve bracket to engine",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Install upper bolt for starter motor 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Install lower bolt 40 Nm",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Install 2x bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "A four-post hoist must\nbe used to raise the vehicle when removing the engine undertray and\nexhaust pipe undertray. The vehicle can be moved to a two-post\nhoist for other operations if required.",
+    "Position starter motor\nbefore tightening bolt."
+  ]
+}

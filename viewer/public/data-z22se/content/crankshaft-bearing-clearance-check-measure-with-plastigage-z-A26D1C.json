@@ -1,0 +1,124 @@
+{
+  "type": "procedure",
+  "id": "crankshaft-bearing-clearance-check-measure-with-plastigage-z-A26D1C",
+  "title": "Crankshaft Bearing Clearance, Check, Measure with\nPlastigage (Z 22 SE)",
+  "phases": [
+    {
+      "phase": "measure",
+      "label": "Measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Cylinder block base plate removed. Note: Cylinder block base plate removed – see operation \"Crankshaft, Remove and Install\"",
+          "image": {
+            "src": "/data/assets/images/bbf6860f667e.jpg",
+            "alt": "Object Number: 2392758  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Lay the Plastigage in place.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Lay the Plastigage (mouldable plastic thread) axially over the"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/bbf6860f667e.jpg",
+            "alt": "Object Number: 2392758  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 3,
+          "text": "Do not rotate the crankshaft.",
+          "image": {
+            "src": "/data/assets/images/bbf6860f667e.jpg",
+            "alt": "Object Number: 2392758  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 4,
+          "text": "Attach the cylinder block base plate. Note: Observe the tightening sequence.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tighten all bolts loosely."
+            },
+            {
+              "bullet": "•",
+              "text": "Tighten the M10 bolts – tightening torque 20 Nm + 70° + 15°"
+            },
+            {
+              "bullet": "•",
+              "text": "Tighten the M8 bolts – tightening torque 23 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c345be03a3ad.jpg",
+            "alt": "Object Number: 2417803  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Detach the cylinder block base plate.",
+          "image": {
+            "src": "/data/assets/images/5ae1154d2b76.jpg",
+            "alt": "Object Number: 2392759  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Measure the crankshaft bearing clearance.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Compare the width of the flattened plastic thread (arrow) with"
+            },
+            {
+              "bullet": "•",
+              "text": "Permissible crankshaft bearing clearance: 0,026 - 0,070 mm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/5ae1154d2b76.jpg",
+            "alt": "Object Number: 2392759  Size: DEFAULT"
+          }
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Attach the cylinder block base plate. Note: Observe the tightening sequence.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 4
+    },
+    {
+      "component": "Attach the cylinder block base plate. Note: Observe the tightening sequence.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 4
+    },
+    {
+      "component": "Tighten the M10 bolts – tightening torque 20 Nm + 70° + 15°",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tighten the M8 bolts – tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Cylinder block base plate removed.\n Cylinder block\nbase plate removed – see operation \"Crankshaft, Remove and\nInstall\"",
+    "Lay the Plastigage (mouldable plastic thread) axially over the\nentire width of the crankshaft bearing journal (arrow).\n Plastigage is\navailable via the \"Opel/Vauxhall – Workshop Equipment\"\ncatalogue.",
+    "Attach the cylinder block base plate.\n Observe the\ntightening sequence.\n \n\n\n\n•  \nTighten all bolts loosely.\n \n\n\n\n\n\n•  \nTighten the M10 bolts – tightening torque 20 Nm + 70° + 15° \n \n\n\n\n\n\n•  \nTighten the M8 bolts – tightening torque 23 Nm",
+    "Compare the width of the flattened plastic thread (arrow) with\nthe measuring scale.\n When reading off\nfrom the scale, do not confuse millimetres and inches."
+  ]
+}

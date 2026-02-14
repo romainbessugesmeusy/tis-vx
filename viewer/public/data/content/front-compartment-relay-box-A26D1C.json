@@ -1,0 +1,27 @@
+{
+  "type": "harness_diagram",
+  "id": "front-compartment-relay-box-A26D1C",
+  "title": "Front compartment - Relay box",
+  "diagram": {
+    "src": "/data/assets/9d193a4bf01d.cgm",
+    "type": "cgm"
+  },
+  "components": [
+    {
+      "code": "K2",
+      "description": "Relay - High beam"
+    },
+    {
+      "code": "K13",
+      "description": "Relay - Radiator fan"
+    },
+    {
+      "code": "K12",
+      "description": "Relay - Trumpet horn"
+    },
+    {
+      "code": "K19",
+      "description": "Relay - Low beam"
+    }
+  ]
+}

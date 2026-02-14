@@ -1,0 +1,245 @@
+{
+  "type": "procedure",
+  "id": "dynamic-oil-level-control-replace-z-20-let-AQS315",
+  "title": "Dynamic Oil Level Control, Replace (Z 20 LET)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove engine undertray (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Raise vehicle"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove 13x bolt, 13x washer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1d1ad92dd5ed.jpg",
+            "alt": "Object Number: 2425071  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Remove intercooler lower hose",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove, then discard cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Disconnect engine harness connector from oil level sensor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release integral clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Drain engine oil",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Position collecting container"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove oil drain plug (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove, then discard sealing ring"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0d1b48368755.jpg",
+            "alt": "Object Number: 2422654  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 5,
+          "text": "Remove lower oil pan",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove, then discard gasket"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0d1b48368755.jpg",
+            "alt": "Object Number: 2422654  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Remove oil level sensor from lower oil pan",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove, then discard 2x bolt (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/62090419888c.jpg",
+            "alt": "Object Number: 2422655  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 7,
+          "text": "Install oil level sensor to lower oil pan",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 2x new bolt 8 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 8,
+          "text": "Install lower oil pan to engine",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install new gasket"
+            },
+            {
+              "bullet": "•",
+              "text": "Install clip"
+            },
+            {
+              "bullet": "•",
+              "text": "Install 16x bolt 8 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 9,
+          "text": "Connect engine harness to oil level sensor",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure integral clip"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 10,
+          "text": "Install intercooler lower hose",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install new cable tie"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 11,
+          "text": "Install oil drain plug 10 Nm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install new sealing ring"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 12,
+          "text": "Install engine undertray",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 13x bolt, 13x washer"
+            },
+            {
+              "bullet": "•",
+              "text": "Lower vehicle"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 13,
+          "text": "Replenish engine oil",
+          "image": null
+        },
+        {
+          "number": 14,
+          "text": "Run engine until oil light goes out",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Check oil level, top up if required"
+            }
+          ],
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Install oil level sensor to lower oil pan",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Install lower oil pan to engine",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Install oil drain plug 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 11
+    },
+    {
+      "component": "Install 2x new bolt 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "A four-post hoist must\nbe used to raise the vehicle when removing exhaust pipe undertray.\nThe vehicle can be moved to a two-post hoist for other operations\nif required.",
+    "Observe relevant\nenvironmental regulations when disposing of used coolant and\nlubricants."
+  ],
+  "notes": [
+    "Install 16x bolt 8 Nm \n 2x technician\nrequired."
+  ]
+}

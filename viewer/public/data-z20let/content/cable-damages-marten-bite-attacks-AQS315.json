@@ -1,0 +1,26 @@
+{
+  "type": "tsb",
+  "id": "cable-damages-marten-bite-attacks-AQS315",
+  "title": "Field Remedy: 1423",
+  "subject": "Cable damages - Marten bite attacks",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "N - Electrical Equipment",
+    "complaintGroup": "01 - Broken or Cracked",
+    "troubleCode": ""
+  },
+  "complaint": "Cable damages with different origin",
+  "cause": "Martenbites in engine compartment",
+  "production": "",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "In case of marten attacks it seems to be useful to wrap the replaced and \nlikewise other exposed cables with plastic grooved tubes. Please see \npartnumbers below."
+    },
+    {
+      "type": "paragraph",
+      "text": "Note: Repair activities must NOT be claimed under warranty."
+    }
+  ]
+}
