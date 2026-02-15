@@ -528,50 +528,37 @@ function retrieveContext(state, { query, selectedEngine, limit = 10 }) {
 }
 
 function buildLlmPrompts({ query, retrieval, selectedEngine }) {
-  const schemaInstructions = `Return strict JSON with exactly these keys:
-{
-  "answer": string,
-  "procedureSummary": string,
-  "requiredParts": [{"partNo": string, "katNo": string, "description": string, "usage": string, "qty": string, "diagramId": string, "diagramUrl": string, "ref": string}],
-  "requiredTools": [{"code": string, "name": string, "description": string}],
-  "torqueSpecs": [{"component": string, "value": string, "unit": string, "sourcePage": string}],
-  "diagramGrounding": [{"partNo": string, "description": string, "usage": string, "ref": string, "diagramId": string, "sheetCode": string, "geometryCount": number, "hotspotMode": string, "hotspotConfidence": number, "groupId": string, "groupName": string, "diagramUrl": string}],
-  "warnings": [string],
-  "citations": [{"type": string, "docId": string, "chunkId": string, "title": string, "url": string, "score": number}]
-}`;
+  const schemaInstructions = `Return strict JSON: {"answer":string,"procedureSummary":string,"requiredParts":[{"partNo":string,"description":string,"qty":string}],"requiredTools":[{"code":string,"name":string}],"torqueSpecs":[{"component":string,"value":string,"unit":string}],"warnings":[string]}`;
 
   const systemPrompt =
     "You are a workshop assistant for Opel/Vauxhall TIS and EPC data. " +
-    "Only use provided retrieval context. Do not invent unsupported parts, tools, torque, or procedures. " +
-    "If evidence is weak, say so in warnings.";
+    "Only use provided context. Do not invent parts, tools or torque values. " +
+    "If evidence is weak, say so in warnings. Be concise.";
 
-  const compactContext = {
-    selectedEngine: selectedEngine || null,
-    topChunks: retrieval.topChunks.slice(0, 8).map((chunk) => ({
-      chunkId: chunk.chunkId,
-      docId: chunk.docId,
-      title: chunk.title,
-      text: clipText(chunk.text, 900),
-      score: chunk.score,
-    })),
-    matchedParts: retrieval.matchedParts.slice(0, 8),
-    tools: retrieval.tools.slice(0, 8),
-    torqueSpecs: retrieval.torqueSpecs.slice(0, 8),
-    diagramGrounding: retrieval.diagramGrounding.slice(0, 8),
-    citations: retrieval.citations.slice(0, 12),
-    warnings: retrieval.warnings,
-  };
+  // Keep context compact to stay under ~2000 tokens input
+  const topN = retrieval.topChunks.slice(0, 3);
+  const contextLines = [];
+  for (const chunk of topN) {
+    contextLines.push(`[${chunk.title}] ${clipText(chunk.text, 400)}`);
+  }
+  const parts = retrieval.matchedParts.slice(0, 5).map((p) =>
+    `${p.partNo || "?"} - ${p.description || ""}${p.qty ? " (qty: " + p.qty + ")" : ""}`
+  );
+  const tools = retrieval.tools.slice(0, 4).map((t) => `${t.code || ""} ${t.name || ""}`);
+  const torque = retrieval.torqueSpecs.slice(0, 4).map((t) => `${t.component}: ${t.value} ${t.unit || ""}`);
 
   const userPrompt =
-    `User query: ${query}\n\n` +
-    `Retrieved context JSON:\n${JSON.stringify(compactContext, null, 2)}\n\n` +
-    `${schemaInstructions}\n` +
-    "Use concise workshop language.";
+    `Query: ${query}${selectedEngine ? " (engine: " + selectedEngine + ")" : ""}\n\n` +
+    `Procedures:\n${contextLines.join("\n")}\n\n` +
+    (parts.length ? `Parts: ${parts.join("; ")}\n` : "") +
+    (tools.length ? `Tools: ${tools.join("; ")}\n` : "") +
+    (torque.length ? `Torque: ${torque.join("; ")}\n` : "") +
+    `\n${schemaInstructions}`;
 
   return { systemPrompt, userPrompt };
 }
 
-function createServer({ dataDir = DEFAULT_DATA_DIR, ragDir = DEFAULT_RAG_DIR, port = DEFAULT_PORT } = {}) {
+function createServer({ dataDir = DEFAULT_DATA_DIR, ragDir = DEFAULT_RAG_DIR, port = DEFAULT_PORT, lazyLoad = false } = {}) {
   const app = express();
   app.use(express.json({ limit: "2mb" }));
 
@@ -591,6 +578,7 @@ function createServer({ dataDir = DEFAULT_DATA_DIR, ragDir = DEFAULT_RAG_DIR, po
   });
 
   let state = null;
+  let loading = false;
 
   const loadState = () => {
     const chunksData = readJson(path.join(ragDir, "procedure-chunks.json"), { chunks: [] });
@@ -612,8 +600,32 @@ function createServer({ dataDir = DEFAULT_DATA_DIR, ragDir = DEFAULT_RAG_DIR, po
     });
   };
 
-  const ensureStateLoaded = (res) => {
+  const ensureStateLoaded = (res, retryAfter = 20) => {
     if (state) return true;
+    if (lazyLoad && !loading) {
+      loading = true;
+      setImmediate(() => {
+        try {
+          loadState();
+        } finally {
+          loading = false;
+        }
+      });
+      res.status(503).json({
+        ok: false,
+        error: "RAG indexes are loading (serverless cold start). Please retry in a few seconds.",
+        retryAfter,
+      });
+      return false;
+    }
+    if (lazyLoad && loading) {
+      res.status(503).json({
+        ok: false,
+        error: "RAG indexes are still loading. Please retry shortly.",
+        retryAfter: 10,
+      });
+      return false;
+    }
     res.status(503).json({
       ok: false,
       error: "RAG indexes are not loaded. Run `npm run build-rag-index` then restart `npm run rag-server`.",
@@ -621,7 +633,7 @@ function createServer({ dataDir = DEFAULT_DATA_DIR, ragDir = DEFAULT_RAG_DIR, po
     return false;
   };
 
-  loadState();
+  if (!lazyLoad) loadState();
 
   app.get("/api/health", (req, res) => {
     res.json({

@@ -177,28 +177,36 @@ function ChatPanel({ selectedEngine }) {
     setMessages(prev => [...prev, userMessage])
 
     setLoading(true)
-    try {
-      const requestBody = {
-        query,
-        selectedEngine,
-      }
-      if (chatSettings.provider) {
-        requestBody.provider = chatSettings.provider
-        requestBody.llm = {
-          provider: chatSettings.provider,
-        }
-        const apiKey = chatSettings.apiKey.trim()
-        const model = chatSettings.model.trim()
-        if (apiKey) requestBody.llm.apiKey = apiKey
-        if (model) requestBody.llm.model = model
-      }
+    const requestBody = {
+      query,
+      selectedEngine,
+    }
+    if (chatSettings.provider) {
+      requestBody.provider = chatSettings.provider
+      requestBody.llm = { provider: chatSettings.provider }
+      const apiKey = chatSettings.apiKey.trim()
+      const model = chatSettings.model.trim()
+      if (apiKey) requestBody.llm.apiKey = apiKey
+      if (model) requestBody.llm.model = model
+    }
 
-      const response = await fetch('/api/chat', {
+    const doRequest = (retryCount = 0) =>
+      fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(requestBody),
+      }).then(async response => {
+        const payload = await response.json().catch(() => null)
+        if (response.status === 503 && payload?.retryAfter != null && retryCount < 2) {
+          const sec = Math.min(Number(payload.retryAfter) || 15, 30)
+          await new Promise(r => setTimeout(r, sec * 1000))
+          return doRequest(retryCount + 1)
+        }
+        return { response, payload }
       })
-      const payload = await response.json().catch(() => null)
+
+    try {
+      const { response, payload } = await doRequest()
 
       if (!response.ok) {
         const backendError =

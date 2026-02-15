@@ -11,7 +11,7 @@ const dataDir = path.join(__dirname, "rag-data");
 const ragDir = path.join(__dirname, "rag-data", "rag");
 const FUNCTION_BASE = "/.netlify/functions/rag-api";
 
-const { app } = createServer({ dataDir, ragDir });
+const { app } = createServer({ dataDir, ragDir, lazyLoad: true });
 const sls = serverless(app);
 
 module.exports = {
