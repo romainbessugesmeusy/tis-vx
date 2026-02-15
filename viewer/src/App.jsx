@@ -4,6 +4,7 @@ import Sidebar from './components/Sidebar'
 import ContentViewer from './components/ContentViewer'
 import ReferenceIndex from './components/ReferenceIndex'
 import EPCBrowser from './components/EPCBrowser'
+import ChatPanel from './components/ChatPanel'
 import AppHeader from './components/AppHeader'
 import { useOffline } from './hooks/useOffline'
 
@@ -284,6 +285,7 @@ function App() {
             <Route path="/epc/:groupId/:subSectionId/:mainId" element={<EPCBrowser />} />
           </Routes>
         </main>
+        <ChatPanel selectedEngine={selectedEngine} />
       </div>
     </div>
   )

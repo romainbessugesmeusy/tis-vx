@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-02-14T18:14:06.213Z",
+  "sourceDataDir": "C:\\Users\\PC\\TIS\\viewer\\public\\data",
+  "outputDir": "C:\\Users\\PC\\TIS\\viewer\\public\\data\\rag",
+  "files": [
+    {
+      "name": "procedure-chunks.json",
+      "count": 3997
+    },
+    {
+      "name": "doc-metadata.json",
+      "count": 1771
+    },
+    {
+      "name": "parts-index.json",
+      "count": 3018
+    },
+    {
+      "name": "part-procedure-links.json",
+      "count": 6
+    },
+    {
+      "name": "diagram-grounding.json",
+      "count": 3018
+    }
+  ],
+  "stats": {
+    "contentFilesProcessed": 1771,
+    "tisPartMentions": 6,
+    "unmatchedTisPartMentions": 1,
+    "epcParts": 3018,
+    "exactHotspotMatches": 2130,
+    "numericFallbackMatches": 24,
+    "noHotspotMatch": 864
+  }
+}
