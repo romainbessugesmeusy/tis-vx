@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
 
 /**
@@ -10,8 +10,11 @@ function ReferenceIndex() {
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
   const [filter, setFilter] = useState(searchParams.get('q') || '')
+  const setSearchParamsRef = useRef(setSearchParams)
+  setSearchParamsRef.current = setSearchParams
 
   useEffect(() => {
+    setData(null) // Clear stale data from previous type before fetching
     setLoading(true)
     const filename = type === 'torque' ? 'torque-values.json' : `${type}.json`
     
@@ -27,13 +30,14 @@ function ReferenceIndex() {
       })
   }, [type])
 
+  // Sync filter to URL search params (use ref to avoid infinite loop with setSearchParams)
   useEffect(() => {
     if (filter) {
-      setSearchParams({ q: filter })
+      setSearchParamsRef.current({ q: filter })
     } else {
-      setSearchParams({})
+      setSearchParamsRef.current({})
     }
-  }, [filter, setSearchParams])
+  }, [filter])
 
   if (loading) {
     return <div className="reference-loading">Loading references...</div>
@@ -104,7 +108,7 @@ function getFilterPlaceholder(type) {
 /**
  * Tools list component
  */
-function ToolsList({ tools, filter }) {
+function ToolsList({ tools = [], filter }) {
   const filtered = tools.filter(tool => {
     if (!filter) return true
     const q = filter.toLowerCase()
@@ -168,7 +172,7 @@ function ToolsList({ tools, filter }) {
 /**
  * Torque values list component
  */
-function TorqueList({ values, filter }) {
+function TorqueList({ values = [], filter }) {
   const filtered = values.filter(tv => {
     if (!filter) return true
     const q = filter.toLowerCase()
@@ -241,7 +245,7 @@ function TorqueList({ values, filter }) {
 /**
  * Pictograms list component
  */
-function PictogramsList({ pictograms, filter }) {
+function PictogramsList({ pictograms = [], filter }) {
   const filtered = pictograms.filter(p => {
     if (!filter) return true
     const q = filter.toLowerCase()
@@ -278,7 +282,7 @@ function PictogramsList({ pictograms, filter }) {
 /**
  * Glossary list component
  */
-function GlossaryList({ terms, filter }) {
+function GlossaryList({ terms = [], filter }) {
   const filtered = terms.filter(term => {
     if (!filter) return true
     const q = filter.toLowerCase()

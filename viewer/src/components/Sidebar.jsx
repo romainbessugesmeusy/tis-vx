@@ -2057,24 +2057,6 @@ function Sidebar({ sections, tree, tocIdToSlug, contentTypeStats, selectedEngine
         </div>
       )}
       
-      {/* Mode Toggle */}
-      <div className="sidebar-mode-toggle">
-        <button
-          className={`sidebar-mode-btn ${sidebarMode === 'manual' ? 'active' : ''}`}
-          onClick={() => handleModeChange('manual')}
-        >
-          <span className="sidebar-mode-icon">📖</span>
-          Manual
-        </button>
-        <button
-          className={`sidebar-mode-btn ${sidebarMode === 'epc' ? 'active' : ''}`}
-          onClick={() => handleModeChange('epc')}
-        >
-          <span className="sidebar-mode-icon">🔧</span>
-          Parts
-        </button>
-      </div>
-      
       {sidebarMode === 'epc' ? (
         <>
           <SearchBar value={epcSearchQuery} onChange={setEpcSearchQuery} placeholder="Search parts..." />

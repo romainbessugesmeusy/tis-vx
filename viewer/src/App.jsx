@@ -5,6 +5,8 @@ import ContentViewer from './components/ContentViewer'
 import ReferenceIndex from './components/ReferenceIndex'
 import EPCBrowser from './components/EPCBrowser'
 import ChatPanel from './components/ChatPanel'
+import AppHeader from './components/AppHeader'
+import { useOffline } from './hooks/useOffline'
 
 // Breakpoints
 const MOBILE_BREAKPOINT = 768
@@ -51,6 +53,7 @@ function App() {
   const minWidth = 240
   const minContentWidth = 100 // Always keep at least 100px for content
   const columnThreshold = 450 // Switch to column layout when wider
+  const { isOffline } = useOffline()
 
   // Update breakpoint state on window resize
   useEffect(() => {
@@ -240,72 +243,16 @@ function App() {
 
   return (
     <div className="app" style={{ '--sidebar-width': `${sidebarWidth}px` }}>
-      <header className="header">
-        {showMobileMenu && (
-          <button 
-            className="menu-toggle"
-            onClick={() => setIsMobileMenuOpen(true)}
-            aria-label="Open menu"
-            aria-expanded={isMobileMenuOpen}
-          >
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <line x1="3" y1="6" x2="21" y2="6" />
-              <line x1="3" y1="12" x2="21" y2="12" />
-              <line x1="3" y1="18" x2="21" y2="18" />
-            </svg>
-          </button>
-        )}
-        <a href="/" className="header-title">
-          <h1>VX220 Service Manual</h1>
-        </a>
-        <nav className="header-nav">
-          <a href="/epc" className="nav-pill">Parts</a>
-          <a href="/ref/tools" className="nav-pill">Tools</a>
-          <a href="/ref/torque" className="nav-pill">Torque</a>
-          <a href="/ref/pictograms" className="nav-pill">Pictograms</a>
-          <a href="/ref/glossary" className="nav-pill">Glossary</a>
-        </nav>
-        <div className="vehicle-info">
-          {manifest.vehicle.make} {manifest.vehicle.model} | {manifest.vehicle.year}
-          {Array.isArray(manifest.vehicle.engines) && manifest.vehicle.engines.length > 0
-            ? ` | ${manifest.vehicle.engines.join(' / ')}`
-            : manifest.vehicle.engine
-              ? ` | ${manifest.vehicle.engine}`
-              : ''}
-        </div>
-        {Array.isArray(manifest.vehicle.engines) && manifest.vehicle.engines.length > 1 && (
-          <div className="engine-filter">
-            <button
-              type="button"
-              className={`engine-pill ${selectedEngine === null ? 'active' : ''}`}
-              onClick={() => handleEngineChange(null)}
-              aria-pressed={selectedEngine === null}
-            >
-              All
-            </button>
-            {manifest.vehicle.engines.includes('Z20LET') && (
-              <button
-                type="button"
-                className={`engine-pill engine-turbo ${selectedEngine === 'Z20LET' ? 'active' : ''}`}
-                onClick={() => handleEngineChange('Z20LET')}
-                aria-pressed={selectedEngine === 'Z20LET'}
-              >
-                Z20LET (Turbo)
-              </button>
-            )}
-            {manifest.vehicle.engines.includes('Z22SE') && (
-              <button
-                type="button"
-                className={`engine-pill engine-na ${selectedEngine === 'Z22SE' ? 'active' : ''}`}
-                onClick={() => handleEngineChange('Z22SE')}
-                aria-pressed={selectedEngine === 'Z22SE'}
-              >
-                Z22SE (NA)
-              </button>
-            )}
-          </div>
-        )}
-      </header>
+      <AppHeader
+        manifest={manifest}
+        selectedEngine={selectedEngine}
+        onEngineChange={handleEngineChange}
+        isOffline={isOffline}
+        isMobile={isMobile}
+        isTablet={isTablet}
+        onMenuToggle={() => setIsMobileMenuOpen(true)}
+        onNavigateToNode={handleNavigateToComponent}
+      />
       <div className="main-layout">
         <Sidebar 
           sections={manifest.sections} 

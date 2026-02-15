@@ -4,7 +4,7 @@ Extract and modernize Opel/Vauxhall TIS2Web service documentation into a React-b
 
 **Full pipeline and troubleshooting:** [docs/tis-scraper.md](docs/tis-scraper.md) — actionable reference for scraper, transform, merge, and viewer data flow.
 
-Other docs: [docs/menu.md](docs/menu.md) (sidebar nav), [docs/epc.md](docs/epc.md) (parts catalog), [docs/cgm-viewer.md](docs/cgm-viewer.md), [docs/hotspot-editor.md](docs/hotspot-editor.md).
+Other docs: [docs/app-header.md](docs/app-header.md) (header nav & breadcrumb), [docs/menu.md](docs/menu.md) (sidebar nav), [docs/epc.md](docs/epc.md) (parts catalog), [docs/cgm-viewer.md](docs/cgm-viewer.md), [docs/hotspot-editor.md](docs/hotspot-editor.md).
 
 ## What it does
 
@@ -126,7 +126,7 @@ Full layout (output dirs, viewer data, merged manifest): [docs/tis-scraper.md](d
 3. **LLM-assisted parsing** - Use AI to parse complex ASCII-layout content
 4. **Offline PWA** - Make the viewer work offline with service workers
 5. **Print styling** - Add print-optimized CSS for workshop use
-6. **Breadcrumb navigation** - Show path in tree when viewing a document
+6. ~~**Breadcrumb navigation**~~ ✅ Interactive breadcrumb in AppHeader with tree path tracing
 7. **Image callout highlighting** - Overlay clickable hotspots on numbered diagram callouts
 
 ---
