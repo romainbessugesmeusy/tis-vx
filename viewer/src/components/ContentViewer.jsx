@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import ProcedureViewer from './ProcedureViewer'
 import MapViewer from './MapViewer'
+import { useOffline } from '../hooks/useOffline'
 
 /**
  * Donation callout with PayPal button
@@ -247,6 +248,7 @@ function resolveContentSlug(manifest, urlId, selectedEngine) {
 
 function ContentViewer({ manifest, selectedEngine, onNavigateToComponent }) {
   const { id } = useParams()
+  const { isOffline } = useOffline()
   const [content, setContent] = useState(null)
   const [contentType, setContentType] = useState(null)
   const [htmlFallback, setHtmlFallback] = useState(null)
@@ -364,6 +366,14 @@ function ContentViewer({ manifest, selectedEngine, onNavigateToComponent }) {
   }
 
   if (error) {
+    if (isOffline) {
+      return (
+        <div className="content-error content-offline-unavailable">
+          <p>This section is not available offline.</p>
+          <p>When you are back online, open <strong>Offline</strong> in the header to download sections for use without internet.</p>
+        </div>
+      )
+    }
     return <div className="content-error">{error}</div>
   }
 

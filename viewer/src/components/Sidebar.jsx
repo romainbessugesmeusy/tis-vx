@@ -2074,7 +2074,6 @@ function Sidebar({ sections, tree, tocIdToSlug, contentTypeStats, selectedEngine
           Parts
         </button>
       </div>
-      
       {sidebarMode === 'epc' ? (
         <>
           <SearchBar value={epcSearchQuery} onChange={setEpcSearchQuery} placeholder="Search parts..." />
