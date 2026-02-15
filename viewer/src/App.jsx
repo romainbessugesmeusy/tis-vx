@@ -4,7 +4,7 @@ import Sidebar from './components/Sidebar'
 import ContentViewer from './components/ContentViewer'
 import ReferenceIndex from './components/ReferenceIndex'
 import EPCBrowser from './components/EPCBrowser'
-import DownloadManager from './components/DownloadManager'
+import AppHeader from './components/AppHeader'
 import { useOffline } from './hooks/useOffline'
 
 // Breakpoints
@@ -33,9 +33,6 @@ function App() {
   
   // External navigation path for sidebar
   const [externalNavPath, setExternalNavPath] = useState(null)
-  // Download Manager dropdown (top-right)
-  const [showDownloadManager, setShowDownloadManager] = useState(false)
-  const offlineDropdownRef = useRef(null)
   // Engine filter: null = All, 'Z20LET' = Turbo, 'Z22SE' = NA (only when manifest has multiple engines)
   const [selectedEngine, setSelectedEngine] = useState(() => {
     try {
@@ -74,37 +71,21 @@ function App() {
     return () => window.removeEventListener('resize', handleResize)
   }, [])
 
-  // Close mobile menu and offline dropdown on escape key
+  // Close mobile menu on escape key
   useEffect(() => {
     const handleEscape = (e) => {
       if (e.key === 'Escape' && isMobileMenuOpen) {
         setIsMobileMenuOpen(false)
       }
-      if (e.key === 'Escape' && showDownloadManager) {
-        setShowDownloadManager(false)
-      }
     }
     
     window.addEventListener('keydown', handleEscape)
     return () => window.removeEventListener('keydown', handleEscape)
-  }, [isMobileMenuOpen, showDownloadManager])
+  }, [isMobileMenuOpen])
 
-  // Close offline dropdown when clicking outside
+  // Prevent body scroll when mobile menu is open
   useEffect(() => {
-    if (!showDownloadManager) return
-    const handleClickOutside = (e) => {
-      if (offlineDropdownRef.current && !offlineDropdownRef.current.contains(e.target)) {
-        setShowDownloadManager(false)
-      }
-    }
-    document.addEventListener('mousedown', handleClickOutside)
-    return () => document.removeEventListener('mousedown', handleClickOutside)
-  }, [showDownloadManager])
-
-  // Prevent body scroll when mobile menu or offline drawer is open (mobile/tablet)
-  useEffect(() => {
-    const lock = isMobileMenuOpen || (showDownloadManager && (isMobile || isTablet))
-    if (lock) {
+    if (isMobileMenuOpen) {
       document.body.style.overflow = 'hidden'
     } else {
       document.body.style.overflow = ''
@@ -112,7 +93,7 @@ function App() {
     return () => {
       document.body.style.overflow = ''
     }
-  }, [isMobileMenuOpen, showDownloadManager, isMobile, isTablet])
+  }, [isMobileMenuOpen])
 
   // Edge swipe gesture to open menu on mobile
   useEffect(() => {
@@ -261,99 +242,16 @@ function App() {
 
   return (
     <div className="app" style={{ '--sidebar-width': `${sidebarWidth}px` }}>
-      <header className="header">
-        {showMobileMenu && (
-          <button 
-            className="menu-toggle"
-            onClick={() => setIsMobileMenuOpen(true)}
-            aria-label="Open menu"
-            aria-expanded={isMobileMenuOpen}
-          >
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <line x1="3" y1="6" x2="21" y2="6" />
-              <line x1="3" y1="12" x2="21" y2="12" />
-              <line x1="3" y1="18" x2="21" y2="18" />
-            </svg>
-          </button>
-        )}
-        <a href="/" className="header-title">
-          <h1>VX220 Service Manual</h1>
-        </a>
-        <nav className="header-nav">
-          <a href="/epc" className="nav-pill">Parts</a>
-          <a href="/ref/tools" className="nav-pill">Tools</a>
-          <a href="/ref/torque" className="nav-pill">Torque</a>
-          <a href="/ref/pictograms" className="nav-pill">Pictograms</a>
-          <a href="/ref/glossary" className="nav-pill">Glossary</a>
-        </nav>
-        <div className="header-right">
-        <div className="vehicle-info">
-          {manifest.vehicle.make} {manifest.vehicle.model} | {manifest.vehicle.year}
-          {Array.isArray(manifest.vehicle.engines) && manifest.vehicle.engines.length > 0
-            ? ` | ${manifest.vehicle.engines.join(' / ')}`
-            : manifest.vehicle.engine
-              ? ` | ${manifest.vehicle.engine}`
-              : ''}
-        </div>
-        {Array.isArray(manifest.vehicle.engines) && manifest.vehicle.engines.length > 1 && (
-          <div className="engine-filter">
-            <button
-              type="button"
-              className={`engine-pill ${selectedEngine === null ? 'active' : ''}`}
-              onClick={() => handleEngineChange(null)}
-              aria-pressed={selectedEngine === null}
-            >
-              All
-            </button>
-            {manifest.vehicle.engines.includes('Z20LET') && (
-              <button
-                type="button"
-                className={`engine-pill engine-turbo ${selectedEngine === 'Z20LET' ? 'active' : ''}`}
-                onClick={() => handleEngineChange('Z20LET')}
-                aria-pressed={selectedEngine === 'Z20LET'}
-              >
-                Z20LET (Turbo)
-              </button>
-            )}
-            {manifest.vehicle.engines.includes('Z22SE') && (
-              <button
-                type="button"
-                className={`engine-pill engine-na ${selectedEngine === 'Z22SE' ? 'active' : ''}`}
-                onClick={() => handleEngineChange('Z22SE')}
-                aria-pressed={selectedEngine === 'Z22SE'}
-              >
-                Z22SE (NA)
-              </button>
-            )}
-          </div>
-        )}
-        <div className="header-offline-dropdown" ref={offlineDropdownRef}>
-          <button
-            type="button"
-            className="header-offline-trigger"
-            onClick={() => setShowDownloadManager(!showDownloadManager)}
-            aria-expanded={showDownloadManager}
-            aria-haspopup="true"
-            title={showDownloadManager ? 'Close offline downloads' : 'Offline downloads'}
-          >
-            <span className="header-offline-trigger-label">Offline</span>
-            {isOffline && <span className="header-offline-dot" title="You are offline" />}
-            <svg className={`header-offline-arrow ${showDownloadManager ? 'is-open' : ''}`} width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden>
-              <polyline points="6 9 12 15 18 9" />
-            </svg>
-          </button>
-          {showDownloadManager && (
-            <div
-              className={`header-offline-panel ${showMobileMenu ? 'header-offline-panel--fullscreen' : ''}`}
-              role="dialog"
-              aria-label="Offline downloads"
-            >
-              <DownloadManager manifest={manifest} onClose={() => setShowDownloadManager(false)} />
-            </div>
-          )}
-        </div>
-        </div>
-      </header>
+      <AppHeader
+        manifest={manifest}
+        selectedEngine={selectedEngine}
+        onEngineChange={handleEngineChange}
+        isOffline={isOffline}
+        isMobile={isMobile}
+        isTablet={isTablet}
+        onMenuToggle={() => setIsMobileMenuOpen(true)}
+        onNavigateToNode={handleNavigateToComponent}
+      />
       <div className="main-layout">
         <Sidebar 
           sections={manifest.sections} 
@@ -369,14 +267,6 @@ function App() {
           externalNavPath={externalNavPath}
           onExternalNavComplete={handleExternalNavComplete}
         />
-        {showDownloadManager && showMobileMenu && (
-          <div
-            className="header-offline-backdrop"
-            onClick={() => setShowDownloadManager(false)}
-            onKeyDown={(e) => e.key === 'Escape' && setShowDownloadManager(false)}
-            aria-hidden
-          />
-        )}
         {!showMobileMenu && (
           <div 
             className="sidebar-resize-handle"
