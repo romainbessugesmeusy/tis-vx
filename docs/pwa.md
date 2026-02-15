@@ -54,7 +54,7 @@ When offline:
 | **viewer/src/App.jsx** | Renders the Offline trigger button (top-right), the dropdown panel containing `<DownloadManager />`, backdrop and fullscreen class on mobile/tablet, click-outside and Escape to close, body scroll lock when drawer is open on mobile/tablet. Passes `onOpenOfflineDownloads` to Sidebar. |
 | **viewer/src/App.css** | Styles for `.header-right`, `.header-offline-dropdown`, `.header-offline-trigger`, `.header-offline-panel`, `.header-offline-panel--fullscreen`, `.header-offline-backdrop`, and `.content-offline-unavailable`. |
 | **viewer/src/components/ContentViewer.jsx** | Uses `useOffline()`. When `error` is set and `isOffline` is true, renders the offline-unavailable message instead of the generic error. |
-| **viewer/src/components/Sidebar.jsx** | Accepts `onOpenOfflineDownloads` prop; renders "Offline downloads" button that calls it to open the Download Manager. |
+| **viewer/src/components/Sidebar.jsx** | No offline entry; the header Offline button is the sole entry point to the Download Manager. |
 | **viewer/vite.config.js** | Should configure `vite-plugin-pwa` (see below). If the PWA block is missing, the app still works but there is no service worker; only the Download Manager and Cache API are used when online to fill the cache, and offline behavior depends on the browser’s handling of uncached fetches. |
 
 ---
@@ -198,7 +198,7 @@ URLs passed to these helpers are stored and used as-is for cache keys; when they
   - The panel gets an extra class `header-offline-panel--fullscreen`: fixed, full viewport (100vh/100dvh), no border-radius.
   - A backdrop div `header-offline-backdrop` is rendered (sibling to main layout); clicking it or the overlay closes the drawer.
   - Body scroll is locked when either the mobile menu or the offline drawer is open on mobile/tablet (`document.body.style.overflow = 'hidden'`).
-- **Sidebar**: A button "Offline downloads" calls `onOpenOfflineDownloads`, which sets `showDownloadManager` to true (same drawer opens).
+- **Sidebar**: No Offline entry; the header trigger is the only way to open the Download Manager.
 
 ---
 

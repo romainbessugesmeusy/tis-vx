@@ -1678,7 +1678,7 @@ const isValidRootFolder = (node) => {
   return sectionPattern.test(title) || generalPattern.test(title)
 }
 
-function Sidebar({ sections, tree, tocIdToSlug, contentTypeStats, selectedEngine, isColumnLayout, isMobile, isTablet, isOpen, onClose, externalNavPath, onExternalNavComplete, onOpenOfflineDownloads }) {
+function Sidebar({ sections, tree, tocIdToSlug, contentTypeStats, selectedEngine, isColumnLayout, isMobile, isTablet, isOpen, onClose, externalNavPath, onExternalNavComplete }) {
   const [searchQuery, setSearchQuery] = useState('')
   const [epcSearchQuery, setEpcSearchQuery] = useState('')
   const { id: activeDocId } = useParams()
@@ -2074,13 +2074,6 @@ function Sidebar({ sections, tree, tocIdToSlug, contentTypeStats, selectedEngine
           Parts
         </button>
       </div>
-      {typeof onOpenOfflineDownloads === 'function' && (
-        <div className="sidebar-offline-row">
-          <button type="button" className="sidebar-offline-btn" onClick={onOpenOfflineDownloads}>
-            📥 Offline downloads
-          </button>
-        </div>
-      )}
       {sidebarMode === 'epc' ? (
         <>
           <SearchBar value={epcSearchQuery} onChange={setEpcSearchQuery} placeholder="Search parts..." />

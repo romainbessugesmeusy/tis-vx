@@ -4050,27 +4050,6 @@ main.content:has(.content-welcome) .content-welcome {
   font-size: 1.1rem;
 }
 
-.sidebar-offline-row {
-  padding: 8px 16px;
-  border-bottom: 1px solid var(--border-dark);
-}
-
-.sidebar-offline-btn {
-  width: 100%;
-  padding: 8px 12px;
-  background: rgba(59, 130, 246, 0.15);
-  border: 1px solid rgba(59, 130, 246, 0.3);
-  border-radius: 8px;
-  color: var(--accent);
-  font-size: 0.85rem;
-  cursor: pointer;
-  transition: background 0.15s;
-}
-
-.sidebar-offline-btn:hover {
-  background: rgba(59, 130, 246, 0.25);
-}
-
 /* EPC Sidebar Navigation */
 .epc-sidebar-nav {
   padding: 8px 0;

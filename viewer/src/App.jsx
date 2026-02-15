@@ -368,7 +368,6 @@ function App() {
           onClose={handleMenuClose}
           externalNavPath={externalNavPath}
           onExternalNavComplete={handleExternalNavComplete}
-          onOpenOfflineDownloads={() => setShowDownloadManager(true)}
         />
         {showDownloadManager && showMobileMenu && (
           <div
