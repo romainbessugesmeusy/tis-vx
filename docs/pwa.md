@@ -50,7 +50,7 @@ When offline:
 | File | Role |
 |------|------|
 | **viewer/src/hooks/useOffline.js** | Online/offline state (`useOnline`, `useOffline`), Cache API helpers (`openDataCache`, `addToCache`, `removeUrlsFromCache`, `removeCachedSection`), localStorage helpers for section URL lists (`getStoredSectionUrls`, `setStoredSectionUrls`, `clearStoredSection`), `getStorageEstimate()`, `requestPersistentStorage()`. |
-| **viewer/src/components/DownloadManager.jsx** | Full UI: three collapsible panels (Pages, Parts EPC, Manual), per-item and "Download all" / "Remove all", progress, storage display. Builds EPC group list from `parts.json` when the EPC panel is expanded. |
+| **viewer/src/components/DownloadManager.jsx** | Embedded download UI (no card shell, no header, no close button): three collapsible panels (Pages, Parts EPC, Manual), per-item and "Download all" / "Remove all", progress, storage display. Styles live in `App.css` (dark-theme CSS variables). Builds EPC group list from `parts.json` when the EPC panel is expanded. |
 | **viewer/src/App.jsx** | Renders the Offline trigger button (top-right), the dropdown panel containing `<DownloadManager />`, backdrop and fullscreen class on mobile/tablet, click-outside and Escape to close, body scroll lock when drawer is open on mobile/tablet. Passes `onOpenOfflineDownloads` to Sidebar. |
 | **viewer/src/App.css** | Styles for `.header-right`, `.header-offline-dropdown`, `.header-offline-trigger`, `.header-offline-panel`, `.header-offline-panel--fullscreen`, `.header-offline-backdrop`, and `.content-offline-unavailable`. |
 | **viewer/src/components/ContentViewer.jsx** | Uses `useOffline()`. When `error` is set and `isOffline` is true, renders the offline-unavailable message instead of the generic error. |
@@ -185,20 +185,17 @@ URLs passed to these helpers are stored and used as-is for cache keys; when they
 - **Storage line**: Uses `getStorageEstimate()`; shows "Storage: X used of Y" and "(persistent)" if `requestPersistentStorage()` succeeded.
 - **Meta line per item**: For manual sections, "X docs · Y files"; for others, "Y file(s)". EPC core shows "2 files".
 - **Progress**: While a section is downloading, a thin progress bar appears under that row; "Download" label shows "done/total" during download.
-- **Styling**: Panel headers use `.download-manager-panel-header`; lists use `.download-manager-list` and `.download-manager-item`. Inline `<style>` in the component defines `.download-manager-*` so the panel is self-contained; `.header-offline-panel` and fullscreen overrides live in `App.css`.
+- **Styling**: Panel headers use `.download-manager-panel-header`; lists use `.download-manager-list` and `.download-manager-item`. All `.download-manager-*` styles live in `App.css` under the "Download Manager" section, using dark-theme CSS variables (`var(--text-light)`, `var(--text-muted)`, `rgba(255,255,255,...)` borders) to match the settings panel.
 
 ---
 
 ## App shell: Offline trigger and drawer
 
-- **Placement**: Top-right of the header, inside a `header-right` block that also holds vehicle info and engine filter. Implemented as a dropdown: button with label "Offline", optional offline-status dot, and a chevron that rotates when open.
-- **Ref**: `offlineDropdownRef` is attached to the dropdown container so that mousedown outside closes the panel (and Escape also closes it).
-- **Panel**: When `showDownloadManager` is true, a div with class `header-offline-panel` is rendered; it contains `<DownloadManager manifest={manifest} onClose={() => setShowDownloadManager(false)} />`.
-- **Mobile/tablet** (same breakpoint as sidebar: `isMobile || isTablet`):
-  - The panel gets an extra class `header-offline-panel--fullscreen`: fixed, full viewport (100vh/100dvh), no border-radius.
-  - A backdrop div `header-offline-backdrop` is rendered (sibling to main layout); clicking it or the overlay closes the drawer.
-  - Body scroll is locked when either the mobile menu or the offline drawer is open on mobile/tablet (`document.body.style.overflow = 'hidden'`).
-- **Sidebar**: No Offline entry; the header trigger is the only way to open the Download Manager.
+- **Placement**: Inside the Settings dropdown panel in the AppHeader, below the Engine Filter section. The Settings button (sliders icon) is in the header's right nav actions.
+- **Integration**: `DownloadManager` renders as flat content within a `settings-section` div labelled "Downloads". It has no card wrapper, no header, and no close button — the settings panel's own dismiss logic (click-outside, Escape, backdrop on mobile) handles closing.
+- **Styling**: All `.download-manager-*` classes live in `App.css` and use dark-theme CSS variables (matching the settings popover's `var(--bg-sidebar)` background). No inline `<style>` in the component.
+- **Mobile/tablet**: The settings panel becomes fullscreen (`settings-fullscreen`), with a backdrop. Download content scrolls within `.settings-popover-inner`.
+- **Sidebar**: No Offline entry; the header Settings button is the only way to open the Download Manager.
 
 ---
 

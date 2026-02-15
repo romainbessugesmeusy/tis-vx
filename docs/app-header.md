@@ -84,9 +84,10 @@ The settings panel is a dropdown (desktop) or fullscreen overlay (mobile) contai
 - Persisted in localStorage (`vx220-engine-filter`)
 
 ### Downloads
-- Embeds the `DownloadManager` component directly
+- `DownloadManager` is embedded directly as flat content (no card wrapper, no header, no close button)
+- The component has no `onClose` prop — closing is handled by the settings panel itself
+- Styles use CSS variables from `App.css` (dark theme) instead of inline `<style>` — no more light-themed card inside dark panel
 - Offline indicator badge shown when browser is offline
-- On mobile: full-screen panel with close button and backdrop
 
 ## State Management
 

@@ -458,8 +458,167 @@ body {
   font-weight: 600;
 }
 
-.settings-downloads .download-manager {
-  max-height: none;
+/* ===== Download Manager (inside settings panel) ===== */
+.download-manager {
+  display: flex;
+  flex-direction: column;
+}
+
+.download-manager-offline-msg {
+  padding: 8px 0;
+  color: #fbbf24;
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+.download-manager-storage {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+
+.download-manager-persisted {
+  color: var(--accent);
+}
+
+.download-manager-actions {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.download-manager-btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text-light);
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: background 0.15s;
+}
+
+.download-manager-btn:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.download-manager-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.download-manager-btn-primary {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+.download-manager-btn-primary:hover:not(:disabled) {
+  background: var(--accent-hover);
+}
+
+.download-manager-panels {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.download-manager-panel-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.04);
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-light);
+  text-align: left;
+  transition: background 0.12s;
+}
+
+.download-manager-panel-header:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.download-manager-panel-chevron {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  width: 12px;
+  text-align: center;
+}
+
+.download-manager-panel-title {
+  flex: 1;
+}
+
+.download-manager-list {
+  list-style: none;
+  margin: 4px 0 0 0;
+  padding: 0;
+}
+
+.download-manager-item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.download-manager-item:last-child {
+  border-bottom: none;
+}
+
+.download-manager-item-muted {
+  padding: 8px 10px;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.download-manager-item-main {
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.download-manager-item-title {
+  font-weight: 500;
+  font-size: 0.85rem;
+  color: var(--text-light);
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.download-manager-item-meta {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.download-manager-item-actions {
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.download-manager-btn-small {
+  padding: 3px 10px;
+  font-size: 0.75rem;
+}
+
+.download-manager-progress {
+  height: 3px;
+  background: rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+}
+
+.download-manager-progress-bar {
+  height: 100%;
+  background: var(--accent);
+  transition: width 0.2s ease;
 }
 
 /* Settings fullscreen (mobile) */
@@ -483,13 +642,6 @@ body {
 .settings-fullscreen .settings-popover-inner {
   height: 100%;
   overflow-y: auto;
-}
-
-.settings-fullscreen .download-manager {
-  max-width: none;
-  max-height: none;
-  border-radius: 0;
-  box-shadow: none;
 }
 
 /* Backdrop for mobile panels */

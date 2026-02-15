@@ -443,7 +443,7 @@ function AppHeader({
                       Downloads
                       {isOffline && <span className="settings-offline-badge">Offline</span>}
                     </div>
-                    <DownloadManager manifest={manifest} onClose={() => setActiveDropdown(null)} />
+                    <DownloadManager manifest={manifest} />
                   </div>
                 </div>
               </div>

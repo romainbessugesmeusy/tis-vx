@@ -98,7 +98,7 @@ function buildEpcItems(partsData) {
   }
 }
 
-export default function DownloadManager({ manifest, onClose }) {
+export default function DownloadManager({ manifest }) {
   const { isOnline } = useOffline()
   const [storage, setStorage] = useState({ usage: 0, quota: 0 })
   const [downloadingId, setDownloadingId] = useState(null)
@@ -274,12 +274,6 @@ export default function DownloadManager({ manifest, onClose }) {
 
   return (
     <div className="download-manager">
-      <div className="download-manager-header">
-        <h2>Offline downloads</h2>
-        <button type="button" className="download-manager-close" onClick={onClose} aria-label="Close">
-          ×
-        </button>
-      </div>
       {!isOnline && (
         <p className="download-manager-offline-msg">You need to be online to download sections.</p>
       )}
@@ -316,7 +310,7 @@ export default function DownloadManager({ manifest, onClose }) {
             onClick={() => togglePanel('pages')}
             aria-expanded={expandedPanels.pages}
           >
-            <span className="download-manager-panel-chevron">{expandedPanels.pages ? '▼' : '▶'}</span>
+            <span className="download-manager-panel-chevron">{expandedPanels.pages ? '▾' : '▸'}</span>
             <span className="download-manager-panel-title">Pages (Tools, Torque, Pictograms, Glossary)</span>
           </button>
           {expandedPanels.pages && (
@@ -332,7 +326,7 @@ export default function DownloadManager({ manifest, onClose }) {
             onClick={() => togglePanel('epc')}
             aria-expanded={expandedPanels.epc}
           >
-            <span className="download-manager-panel-chevron">{expandedPanels.epc ? '▼' : '▶'}</span>
+            <span className="download-manager-panel-chevron">{expandedPanels.epc ? '▾' : '▸'}</span>
             <span className="download-manager-panel-title">Parts (EPC)</span>
           </button>
           {expandedPanels.epc && (
@@ -352,7 +346,7 @@ export default function DownloadManager({ manifest, onClose }) {
             onClick={() => togglePanel('manual')}
             aria-expanded={expandedPanels.manual}
           >
-            <span className="download-manager-panel-chevron">{expandedPanels.manual ? '▼' : '▶'}</span>
+            <span className="download-manager-panel-chevron">{expandedPanels.manual ? '▾' : '▸'}</span>
             <span className="download-manager-panel-title">Manual sections</span>
           </button>
           {expandedPanels.manual && (
@@ -362,159 +356,6 @@ export default function DownloadManager({ manifest, onClose }) {
           )}
         </div>
       </div>
-      <style>{`
-        .download-manager {
-          background: var(--bg-card, #fff);
-          border-radius: 8px;
-          box-shadow: 0 4px 20px rgba(0,0,0,0.15);
-          width: 100%;
-          min-height: 0;
-          display: flex;
-          flex-direction: column;
-          overflow: hidden;
-        }
-        .download-manager-header {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          padding: 16px 20px;
-          border-bottom: 1px solid var(--border, #e5e7eb);
-          background: var(--bg-card, #fff);
-        }
-        .download-manager-header h2 {
-          font-size: 1.25rem;
-          font-weight: 600;
-          margin: 0;
-          color: #1a1d23;
-        }
-        .download-manager-close {
-          background: none;
-          border: none;
-          font-size: 1.5rem;
-          line-height: 1;
-          cursor: pointer;
-          color: #6b7280;
-          padding: 0 4px;
-          border-radius: 4px;
-        }
-        .download-manager-close:hover {
-          color: #1a1d23;
-          background: rgba(0,0,0,0.06);
-        }
-        .download-manager-offline-msg {
-          padding: 12px 20px;
-          background: #fef3c7;
-          color: #92400e;
-          margin: 0;
-          font-size: 0.9rem;
-        }
-        .download-manager-storage {
-          padding: 12px 20px;
-          font-size: 0.875rem;
-          color: #4b5563;
-        }
-        .download-manager-persisted { color: var(--accent); }
-        .download-manager-actions {
-          padding: 0 20px 12px;
-          display: flex;
-          gap: 8px;
-        }
-        .download-manager-btn {
-          padding: 8px 14px;
-          border-radius: 6px;
-          border: 1px solid var(--border);
-          background: var(--bg-main);
-          cursor: pointer;
-          font-size: 0.875rem;
-        }
-        .download-manager-btn:disabled { opacity: 0.6; cursor: not-allowed; }
-        .download-manager-btn-primary {
-          background: var(--accent);
-          color: #fff;
-          border-color: var(--accent);
-        }
-        .download-manager-btn-primary:hover:not(:disabled) {
-          background: var(--accent-hover);
-        }
-        .download-manager-panels {
-          flex: 1;
-          overflow-y: auto;
-          padding: 0 20px 20px;
-        }
-        .download-manager-panel {
-          margin-bottom: 12px;
-        }
-        .download-manager-panel-header {
-          display: flex;
-          align-items: center;
-          gap: 8px;
-          width: 100%;
-          padding: 10px 12px;
-          border: 1px solid var(--border, #e5e7eb);
-          border-radius: 8px;
-          background: rgba(0,0,0,0.03);
-          cursor: pointer;
-          font-size: 0.95rem;
-          font-weight: 600;
-          color: #1a1d23;
-          text-align: left;
-        }
-        .download-manager-panel-header:hover {
-          background: rgba(0,0,0,0.06);
-        }
-        .download-manager-panel-chevron {
-          font-size: 0.7rem;
-          color: #6b7280;
-        }
-        .download-manager-panel-title {
-          flex: 1;
-        }
-        .download-manager-list {
-          list-style: none;
-          margin: 4px 0 0 0;
-          padding: 0;
-        }
-        .download-manager-item {
-          border: 1px solid var(--border);
-          border-radius: 6px;
-          margin-bottom: 8px;
-          overflow: hidden;
-        }
-        .download-manager-item-muted {
-          padding: 12px 14px;
-          color: #6b7280;
-          font-size: 0.9rem;
-          border-style: dashed;
-        }
-        .download-manager-item-main {
-          padding: 12px 14px;
-          display: flex;
-          flex-wrap: wrap;
-          align-items: center;
-          gap: 8px;
-        }
-        .download-manager-item-title {
-          font-weight: 500;
-          flex: 1 1 100%;
-          color: #1a1d23;
-        }
-        .download-manager-item-meta {
-          font-size: 0.8rem;
-          color: #6b7280;
-        }
-        .download-manager-item-actions { margin-left: auto; }
-        .download-manager-btn-small { padding: 4px 10px; font-size: 0.8rem; }
-        .download-manager-progress {
-          height: 4px;
-          background: var(--border);
-          overflow: hidden;
-        }
-        .download-manager-progress-bar {
-          height: 100%;
-          background: var(--accent);
-          transition: width 0.2s ease;
-        }
-      `}</style>
     </div>
   )
 }
