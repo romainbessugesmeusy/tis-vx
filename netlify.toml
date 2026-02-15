@@ -6,6 +6,11 @@
 [build.environment]
   NODE_VERSION = "20"
 
+# Include RAG data and rag-server in the function bundle (paths relative to base = viewer).
+# Without this, only statically required files are bundled; rag-data/ is used via path.join(__dirname, "rag-data").
+[functions]
+  included_files = ["netlify/functions/rag-data/**", "netlify/functions/rag-server.js"]
+
 # Proxy /api/* to RAG serverless function (must be before SPA catch-all)
 [[redirects]]
   from = "/api/*"

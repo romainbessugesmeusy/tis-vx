@@ -274,19 +274,26 @@ function buildFallbackAnswer({ query, retrieval, selectedEngine }) {
       `.\nTop matches: ${titles.slice(0, 5).join("; ")}.`;
   }
 
-  return {
-    answer,
-    procedureSummary: topChunks.map((chunk) => `${chunk.title}: ${clipText(chunk.text, 280)}`).join("\n"),
-    requiredParts: topParts.map((part) => ({
+  const safePart = (part) => {
+    if (!part || typeof part !== "object") return null;
+    const groupId = part.groupId != null ? part.groupId : "";
+    const diagramId = part.diagramId != null ? part.diagramId : "";
+    return {
       partNo: part.partNo,
       katNo: part.katNo,
       description: part.description,
       usage: part.usage,
       qty: part.qty,
       diagramId: part.diagramId,
-      diagramUrl: `/epc/${part.groupId}/diagram/${part.diagramId}`,
+      diagramUrl: groupId && diagramId ? `/epc/${groupId}/diagram/${diagramId}` : null,
       ref: part.ref,
-    })),
+    };
+  };
+
+  return {
+    answer,
+    procedureSummary: topChunks.map((chunk) => `${chunk.title}: ${clipText(chunk.text, 280)}`).join("\n"),
+    requiredParts: topParts.map(safePart).filter(Boolean),
     requiredTools: topTools,
     torqueSpecs: topTorque,
     diagramGrounding: topGrounding,
@@ -807,6 +814,9 @@ function createServer({ dataDir = DEFAULT_DATA_DIR, ragDir = DEFAULT_RAG_DIR, po
         if (!responsePayload.warnings.includes(providerWarning)) {
           responsePayload.warnings.push(providerWarning);
         }
+      }
+      if (typeof responsePayload.answer !== "string" || responsePayload.answer.trim() === "") {
+        responsePayload.answer = "I could not find a confident match in the indexed content.";
       }
 
       return res.json({
