@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const MAX_VISIBLE_PARTS = 8
 const MAX_VISIBLE_TOOLS = 8
@@ -456,9 +457,9 @@ function ChatPanel({ selectedEngine }) {
                               {part.diagramUrl && (
                                 <>
                                   {' '}
-                                  <a href={part.diagramUrl} className="chat-link">
+                                  <Link to={part.diagramUrl} className="chat-link">
                                     Locate ({part.ref || '?'})
-                                  </a>
+                                  </Link>
                                 </>
                               )}
                             </li>
@@ -511,9 +512,9 @@ function ChatPanel({ selectedEngine }) {
                         <ul className="chat-list">
                           {message.data.citations.slice(0, MAX_VISIBLE_CITATIONS).map((citation, index) => (
                             <li key={`${citation.chunkId || citation.url || index}`}>
-                              <a href={citation.url || '#'} className="chat-link">
+                              <Link to={citation.url || '#'} className="chat-link">
                                 {citation.title || citation.docId || `Source ${index + 1}`}
-                              </a>
+                              </Link>
                             </li>
                           ))}
                         </ul>
