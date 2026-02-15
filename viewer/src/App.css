@@ -5814,6 +5814,22 @@ main.content:has(.content-welcome) .content-welcome {
   color: var(--chat-text);
 }
 
+.chat-procedure-images {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.chat-procedure-image img {
+  max-width: 100%;
+  border-radius: 4px;
+  border: 1px solid var(--chat-border, #3a3a3a);
+}
+.chat-procedure-image-caption {
+  font-size: 0.75rem;
+  color: var(--chat-muted, #888);
+  margin-top: 2px;
+}
+
 .chat-list {
   margin: 0;
   padding-left: 16px;

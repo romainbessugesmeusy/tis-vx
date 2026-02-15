@@ -182,6 +182,14 @@ function ChatPanel({ selectedEngine }) {
       query,
       selectedEngine,
     }
+    // Include conversation history for multi-turn context
+    const history = messages.filter(m => m.role === 'user' || m.role === 'assistant')
+    if (history.length > 0) {
+      requestBody.history = history.map(m => ({
+        role: m.role,
+        text: m.role === 'assistant' && m.data?.answer ? m.data.answer : m.text,
+      }))
+    }
     if (chatSettings.provider) {
       requestBody.provider = chatSettings.provider
       requestBody.llm = { provider: chatSettings.provider }
@@ -492,6 +500,24 @@ function ChatPanel({ selectedEngine }) {
                             </li>
                           ))}
                         </ul>
+                      </div>
+                    )}
+
+                    {Array.isArray(message.data.procedureImages) && message.data.procedureImages.length > 0 && (
+                      <div className="chat-section">
+                        <div className="chat-section-title">Procedure images</div>
+                        <div className="chat-procedure-images">
+                          {message.data.procedureImages.slice(0, 6).map((img, index) => (
+                            <div key={`img-${index}`} className="chat-procedure-image">
+                              <img src={img.url} alt={img.description || `Step ${img.step || index + 1}`} loading="lazy" />
+                              {(img.step || img.description) && (
+                                <div className="chat-procedure-image-caption">
+                                  {img.step ? `Step ${img.step}: ` : ''}{img.description || ''}
+                                </div>
+                              )}
+                            </div>
+                          ))}
+                        </div>
                       </div>
                     )}
 
