@@ -15,6 +15,10 @@ output/
 # Build outputs
 viewer/dist/
 
+# Netlify function build artifacts (copied by copy-rag-for-netlify)
+viewer/netlify/functions/rag-data/
+viewer/netlify/functions/rag-server.js
+
 # IDE
 .vscode/
 .idea/

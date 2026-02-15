@@ -1,7 +1,17 @@
 [build]
   base = "viewer"
-  command = "npm install && npm run build"
+  command = "npm run copy-rag-for-netlify && npm install && npm run build"
   publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Proxy /api/* to RAG serverless function (must be before SPA catch-all)
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/rag-api/:splat"
+  status = 200
+  force = true
 
 # SPA deep linking - redirect all routes to index.html
 [[redirects]]
