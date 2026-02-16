@@ -200,8 +200,11 @@ After caching a section's content/reference JSON files, `handleDownload` and `ha
 2. Calls `extractImageUrlsFromJson(json)` which finds image URLs by content type:
    - **Procedure**: `phases[].icon`, `phases[].steps[].image.src`
    - **Harness diagram**: `diagram.src` (+ converted PNG for `.cgm` files at `/data/assets/converted/{hash}.png`)
-   - **Generic HTML**: Regex on `htmlContent` for `src="/data/assets/..."` attributes
+   - **TSB / diagnostic**: `data.images[].src`
+   - **Tool list**: `data.image.src`
+   - **Generic HTML**: Regex on `htmlContent` for `src="/data/..."` attributes
    - **Pictograms reference**: `pictograms[].icon`
+   - **Top-level images**: `images[].src` (fallback for other content types)
 3. Caches all discovered image URLs in the same `tis-data` cache.
 4. Stores the combined list (content + images) in localStorage so "Remove" cleans up everything.
 
@@ -211,9 +214,9 @@ Progress updates in two phases: first content files, then images. The total coun
 
 - **expandedPanels**: `{ pages, epc, manual }`. Clicking a panel header toggles that key. All default to `true`.
 - **epcPartsData**: Result of `fetch('/data/epc/parts.json').then(r => r.json())`, or null. Fetched only when `expandedPanels.epc` is true and `epcPartsData` is still null.
-- **handleDownload(section)**: Requires `section.urls.length > 0`. Sets `downloadingId`, caches content URLs, then extracts and caches images, then calls `setStoredSectionUrls(section.rootId, allUrls)` (content + images) and clears `downloadingId`.
+- **handleDownload(section)**: Requires `section.urls.length > 0`. Adds progress to `downloading` map (keyed by `rootId`), caches content URLs, then extracts and caches images, then calls `setStoredSectionUrls(section.rootId, allUrls)` (content + images) and clears the entry from `downloading`. Multiple sections can download in parallel; each has its own progress pill and progress bar.
 - **handleRemove(section)**: Calls `removeCachedSection(section.rootId)` and refreshes stored state.
-- **handleDownloadAll**: Caches `['/data/manifest.json']` first, then iterates `allItems` and for each caches content + extracts and caches images. Progress is global (done/total across all, including images).
+- **handleDownloadAll**: Caches `['/data/manifest.json']` first, then iterates `allItems` and for each caches content + extracts and caches images. Uses the `_all` key in the `downloading` map for its own progress.
 - **handleRemoveAll**: Calls `removeCachedSection(section.rootId)` for every item in `allItems`.
 
 ### UI details

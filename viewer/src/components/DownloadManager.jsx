@@ -67,39 +67,52 @@ const EPC_CORE_URLS = ['/data/epc/parts.json', '/data/epc/hotspots/_index.json']
 function extractImageUrlsFromJson(json) {
   const urls = new Set()
 
+  const addAsset = (src) => {
+    if (!src || typeof src !== 'string') return
+    urls.add(src)
+    // CGM → also cache the converted PNG used by DiagramViewer
+    if (src.endsWith('.cgm')) {
+      urls.add(src.replace(/\/data\/assets\/([^/]+)\.cgm$/i, '/data/assets/converted/$1.png'))
+    }
+  }
+
   // Procedure: phases[].icon, phases[].steps[].image.src
   if (json.phases) {
     for (const phase of json.phases) {
-      if (phase.icon) urls.add(phase.icon)
+      addAsset(phase.icon)
       for (const step of phase.steps || []) {
-        if (step.image?.src) urls.add(step.image.src)
+        addAsset(step.image?.src)
       }
     }
   }
 
-  // Harness diagram: diagram.src (+ converted PNG for CGM files)
-  if (json.diagram?.src) {
-    const src = json.diagram.src
-    urls.add(src)
-    if (src.endsWith('.cgm')) {
-      const name = src.split('/').pop().replace('.cgm', '')
-      urls.add(`/data/assets/converted/${name}.png`)
-    }
+  // Harness diagram: diagram.src
+  addAsset(json.diagram?.src)
+
+  // TSB / diagnostic / torque_table: data.images[].src
+  if (json.data?.images) {
+    for (const img of json.data.images) addAsset(img.src)
+  }
+  // Tool list: data.image.src
+  addAsset(json.data?.image?.src)
+  // Top-level images[] (some content types)
+  if (Array.isArray(json.images)) {
+    for (const img of json.images) addAsset(img.src)
   }
 
-  // Generic HTML: extract /data/assets/* src attributes from htmlContent
+  // Generic HTML: extract /data/ src attributes from htmlContent
   if (json.htmlContent) {
-    const re = /src\s*=\s*["'](\/data\/assets\/[^"']+)["']/gi
+    const re = /src\s*=\s*["'](\/data\/[^"']+)["']/gi
     let m
     while ((m = re.exec(json.htmlContent))) urls.add(m[1])
   }
 
   // Reference pages: pictograms[].icon
   if (json.pictograms) {
-    for (const p of json.pictograms) {
-      if (p.icon) urls.add(p.icon)
-    }
+    for (const p of json.pictograms) addAsset(p.icon)
   }
+
+  // EPC hotspot JSON: has diagramId but no direct image URL (diagrams are in section.urls)
 
   return [...urls]
 }
@@ -163,8 +176,7 @@ function buildEpcItems(partsData) {
 export default function DownloadManager({ manifest }) {
   const { isOnline } = useOffline()
   const [storage, setStorage] = useState({ usage: 0, quota: 0 })
-  const [downloadingId, setDownloadingId] = useState(null)
-  const [progress, setProgress] = useState({ done: 0, total: 0 })
+  const [downloading, setDownloading] = useState({}) // { [rootId]: { done, total } }
   const [removingId, setRemovingId] = useState(null)
   const [stored, setStored] = useState(getStoredSectionUrls)
   const [persisted, setPersisted] = useState(false)
@@ -192,7 +204,7 @@ export default function DownloadManager({ manifest }) {
 
   useEffect(() => {
     getStorageEstimate().then(setStorage)
-  }, [stored, downloadingId])
+  }, [stored, downloading])
 
   useEffect(() => {
     requestPersistentStorage().then(setPersisted)
@@ -210,27 +222,39 @@ export default function DownloadManager({ manifest }) {
     setExpandedPanels((prev) => ({ ...prev, [panel]: !prev[panel] }))
   }, [])
 
+  const setSectionProgress = useCallback((rootId, done, total) => {
+    setDownloading((prev) => ({ ...prev, [rootId]: { done, total } }))
+  }, [])
+
+  const clearSectionProgress = useCallback((rootId) => {
+    setDownloading((prev) => {
+      const { [rootId]: _, ...rest } = prev
+      return rest
+    })
+  }, [])
+
   const handleDownload = useCallback(
     async (section) => {
       if (!isOnline) return
       const urls = section.urls || []
       if (!urls.length) return
-      setDownloadingId(section.rootId)
-      setProgress({ done: 0, total: urls.length })
-      await addToCache(urls, (done, total) => setProgress({ done, total }))
+      const id = section.rootId
+      setSectionProgress(id, 0, urls.length)
+      await addToCache(urls, (done) => setSectionProgress(id, done, urls.length))
       // Extract and cache images referenced in the content JSONs
       const imageUrls = await collectImageUrls(urls)
       const allUrls = [...urls, ...imageUrls]
       if (imageUrls.length) {
         const base = urls.length
-        setProgress({ done: base, total: base + imageUrls.length })
-        await addToCache(imageUrls, (done) => setProgress({ done: base + done, total: base + imageUrls.length }))
+        const total = base + imageUrls.length
+        setSectionProgress(id, base, total)
+        await addToCache(imageUrls, (done) => setSectionProgress(id, base + done, total))
       }
-      setStoredSectionUrls(section.rootId, allUrls)
+      setStoredSectionUrls(id, allUrls)
       refreshStored()
-      setDownloadingId(null)
+      clearSectionProgress(id)
     },
-    [isOnline, refreshStored]
+    [isOnline, refreshStored, setSectionProgress, clearSectionProgress]
   )
 
   const handleRemove = useCallback(
@@ -246,21 +270,21 @@ export default function DownloadManager({ manifest }) {
   const handleDownloadAll = useCallback(async () => {
     if (!isOnline) return
     const coreUrls = ['/data/manifest.json']
-    setDownloadingId('_all')
+    const ALL = '_all'
     let total = coreUrls.length
     allItems.forEach((s) => { total += (s.urls || []).length })
     let done = 0
-    setProgress({ done: 0, total })
+    setSectionProgress(ALL, 0, total)
     await addToCache(coreUrls, (d) => {
       done = d
-      setProgress({ done, total })
+      setSectionProgress(ALL, done, total)
     })
     for (const section of allItems) {
       const urls = section.urls || []
       if (!urls.length) continue
       const start = done
       await addToCache(urls, (d) => {
-        setProgress({ done: start + d, total })
+        setSectionProgress(ALL, start + d, total)
       })
       done = start + urls.length
       // Extract and cache images referenced in this section's JSONs
@@ -269,15 +293,15 @@ export default function DownloadManager({ manifest }) {
         total += imageUrls.length
         const imgStart = done
         await addToCache(imageUrls, (d) => {
-          setProgress({ done: imgStart + d, total })
+          setSectionProgress(ALL, imgStart + d, total)
         })
         done = imgStart + imageUrls.length
       }
       setStoredSectionUrls(section.rootId, [...urls, ...imageUrls])
     }
     refreshStored()
-    setDownloadingId(null)
-  }, [isOnline, allItems, refreshStored])
+    clearSectionProgress(ALL)
+  }, [isOnline, allItems, refreshStored, setSectionProgress, clearSectionProgress])
 
   const handleRemoveAll = useCallback(async () => {
     for (const section of allItems) {
@@ -308,22 +332,24 @@ export default function DownloadManager({ manifest }) {
     return `${urlCount} file${urlCount !== 1 ? 's' : ''}`
   }
 
+  const isAnyDownloading = Object.keys(downloading).length > 0
+
   const renderItem = (section) => {
     const downloaded = isSectionDownloaded(section.rootId)
-    const isDownloading = downloadingId === section.rootId
+    const prog = downloading[section.rootId] || null
+    const isDownloading = prog !== null
     const isRemoving = removingId === section.rootId
-    const prog = isDownloading ? progress : null
     return (
       <li key={section.rootId} className="download-manager-item">
         <div className="download-manager-item-main">
           <span className="download-manager-item-title">{section.title}</span>
           <span className="download-manager-item-meta">{getSectionMeta(section)}</span>
           <div className="download-manager-item-actions">
-            {downloaded ? (
+            {downloaded && !isDownloading ? (
               <button
                 type="button"
                 className="download-manager-btn download-manager-btn-small"
-                disabled={!isOnline || isRemoving || isDownloading}
+                disabled={!isOnline || isRemoving}
                 onClick={() => handleRemove(section)}
               >
                 {isRemoving ? 'Removing…' : 'Remove'}
@@ -366,16 +392,16 @@ export default function DownloadManager({ manifest }) {
         <button
           type="button"
           className="download-manager-btn download-manager-btn-primary"
-          disabled={!isOnline || downloadingId !== null}
+          disabled={!isOnline || downloading['_all'] != null}
           onClick={handleDownloadAll}
         >
-          {downloadingId === '_all' ? `Downloading… ${progress.done}/${progress.total}` : 'Download all'}
+          {downloading['_all'] ? `Downloading… ${downloading['_all'].done}/${downloading['_all'].total}` : 'Download all'}
         </button>
         {hasAnyDownloaded && (
           <button
             type="button"
             className="download-manager-btn"
-            disabled={removingId !== null || downloadingId !== null}
+            disabled={removingId !== null || isAnyDownloading}
             onClick={handleRemoveAll}
           >
             Remove all
