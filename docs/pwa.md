@@ -55,15 +55,17 @@ When offline:
 | **viewer/src/App.css** | Styles for `.header-right`, `.header-offline-dropdown`, `.header-offline-trigger`, `.header-offline-panel`, `.header-offline-panel--fullscreen`, `.header-offline-backdrop`, and `.content-offline-unavailable`. |
 | **viewer/src/components/ContentViewer.jsx** | Uses `useOffline()`. When `error` is set and `isOffline` is true, renders the offline-unavailable message instead of the generic error. |
 | **viewer/src/components/Sidebar.jsx** | No offline entry; the header Offline button is the sole entry point to the Download Manager. |
-| **viewer/vite.config.js** | Should configure `vite-plugin-pwa` (see below). If the PWA block is missing, the app still works but there is no service worker; only the Download Manager and Cache API are used when online to fill the cache, and offline behavior depends on the browser’s handling of uncached fetches. |
+| **viewer/vite.config.js** | Configures `vite-plugin-pwa`: web app manifest, Workbox precaching (app shell), `navigateFallback` for SPA routing, and runtime caching for `/data/*`. Without the PWA block, the app cannot open offline. |
 
 ---
 
 ## PWA / Service worker configuration
 
-The project depends on **vite-plugin-pwa** (`viewer/package.json`). The service worker and manifest are only active if the plugin is wired in `viewer/vite.config.js`. If you need to restore or add it, use the following pattern.
+The project uses **vite-plugin-pwa** (`viewer/package.json`). The plugin is configured in `viewer/vite.config.js` and generates the service worker and web app manifest during `npm run build`.
 
-### Intended vite.config.js (PWA block)
+### vite.config.js (PWA block)
+
+The PWA plugin is configured in `viewer/vite.config.js`. This is the **active** configuration (not aspirational — it must be present for offline to work).
 
 ```js
 import { defineConfig } from 'vite'
@@ -92,8 +94,9 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg,woff2}'],
-        globIgnores: ['**/data/**', '**/data-merged/**'],
-        navigateFallback: null,
+        globIgnores: ['**/data/**', '**/data-*/**'],
+        navigateFallback: '/index.html',
+        navigateFallbackDenylist: [/^\/data\//],
         runtimeCaching: [
           {
             urlPattern: /^https?:\/\/[^/]+\/data\/manifest\.json$/,
@@ -121,12 +124,30 @@ export default defineConfig({
 })
 ```
 
-- **Precache**: App shell only (JS, CSS, HTML, icons). `globIgnores` ensures `public/data` and `public/data-merged` are not precached (they are large and user-chosen via Download Manager).
-- **Runtime cache**: All `/data/*` requests use the same cache name `tis-data`. Manifest uses NetworkFirst (with short timeout) so updates are picked up when online; everything else uses CacheFirst so cached data is used when available (including entries added by the Download Manager).
+#### Critical settings
+
+- **`navigateFallback: '/index.html'`** — Without this, opening the app offline shows a browser error page. The service worker must serve the cached `index.html` for all navigation requests so the SPA can boot and handle routing client-side. Setting this to `null` breaks offline launch entirely.
+- **`navigateFallbackDenylist: [/^\/data\//]`** — Prevents `/data/*` API fetches from being redirected to `index.html`. These should go through the runtime caching rules instead.
+- **`globIgnores: ['**/data/**', '**/data-*/**']`** — Excludes all data directories from precaching. The `public/` folder may contain `data/`, `data-merged/`, `data-z20let/`, `data-z22se/` which can be hundreds of MB. Only the app shell (JS, CSS, HTML, icons) should be precached.
+- **Precache**: App shell only (~500KB). The build should report ~11 precache entries. If it reports thousands of entries or hundreds of MB, the `globIgnores` pattern is wrong.
+- **Runtime cache**: All `/data/*` requests use cache name `tis-data` — the same cache the Download Manager writes to. Manifest uses NetworkFirst (with 5s timeout fallback) so updates are picked up when online; everything else uses CacheFirst.
 
 ### Icons
 
-- Placeholder icons live under `viewer/public/icons/`: `icon-192.png`, `icon-512.png`. They can be minimal (e.g. 1×1 PNG) until replaced with real assets.
+- Icons live under `viewer/public/icons/`: `icon-192.png` (192×192), `icon-512.png` (512×512). Both are compressed PNGs (~6KB and ~20KB).
+
+### index.html meta tags
+
+The following must be in `viewer/index.html` `<head>` for proper PWA behavior on mobile:
+
+```html
+<meta name="theme-color" content="#1a1a2e" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<link rel="apple-touch-icon" href="/icons/icon-192.png" />
+```
+
+The `vite-plugin-pwa` build automatically injects `<link rel="manifest">` and `<script src="/registerSW.js">` into the built HTML.
 
 ---
 

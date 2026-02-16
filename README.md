@@ -124,7 +124,7 @@ Full layout (output dirs, viewer data, merged manifest): [docs/tis-scraper.md](d
 1. **CGM to SVG conversion** - Convert diagrams to web-friendly format using libcgm
 2. **Full-text search** - Index structured JSON content for better search
 3. **LLM-assisted parsing** - Use AI to parse complex ASCII-layout content
-4. **Offline PWA** - Make the viewer work offline with service workers
+4. ~~**Offline PWA**~~ ✅ Service worker precaches app shell; Download Manager caches data; works offline
 5. **Print styling** - Add print-optimized CSS for workshop use
 6. ~~**Breadcrumb navigation**~~ ✅ Interactive breadcrumb in AppHeader with tree path tracing
 7. **Image callout highlighting** - Overlay clickable hotspots on numbered diagram callouts
