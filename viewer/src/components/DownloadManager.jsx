@@ -63,6 +63,68 @@ const PAGE_ITEMS = [
 
 const EPC_CORE_URLS = ['/data/epc/parts.json', '/data/epc/hotspots/_index.json']
 
+/** Extract image/asset URLs referenced in a content or reference JSON object. */
+function extractImageUrlsFromJson(json) {
+  const urls = new Set()
+
+  // Procedure: phases[].icon, phases[].steps[].image.src
+  if (json.phases) {
+    for (const phase of json.phases) {
+      if (phase.icon) urls.add(phase.icon)
+      for (const step of phase.steps || []) {
+        if (step.image?.src) urls.add(step.image.src)
+      }
+    }
+  }
+
+  // Harness diagram: diagram.src (+ converted PNG for CGM files)
+  if (json.diagram?.src) {
+    const src = json.diagram.src
+    urls.add(src)
+    if (src.endsWith('.cgm')) {
+      const name = src.split('/').pop().replace('.cgm', '')
+      urls.add(`/data/assets/converted/${name}.png`)
+    }
+  }
+
+  // Generic HTML: extract /data/assets/* src attributes from htmlContent
+  if (json.htmlContent) {
+    const re = /src\s*=\s*["'](\/data\/assets\/[^"']+)["']/gi
+    let m
+    while ((m = re.exec(json.htmlContent))) urls.add(m[1])
+  }
+
+  // Reference pages: pictograms[].icon
+  if (json.pictograms) {
+    for (const p of json.pictograms) {
+      if (p.icon) urls.add(p.icon)
+    }
+  }
+
+  return [...urls]
+}
+
+/**
+ * Fetch each JSON URL (from cache or network), parse it, and collect all
+ * referenced image/asset URLs. Returns a deduped array of image URLs.
+ */
+async function collectImageUrls(jsonUrls) {
+  const imageUrls = new Set()
+  for (const url of jsonUrls) {
+    if (!url.endsWith('.json')) continue
+    try {
+      const fullUrl = url.startsWith('http') ? url : `${window.location.origin}${url}`
+      const res = await fetch(fullUrl)
+      if (!res.ok) continue
+      const json = await res.json()
+      for (const u of extractImageUrlsFromJson(json)) imageUrls.add(u)
+    } catch {
+      // skip unparseable files
+    }
+  }
+  return [...imageUrls]
+}
+
 /** Build EPC core + per-group items from parts.json. Returns { core, groups } */
 function buildEpcItems(partsData) {
   if (!partsData?.groups || !partsData?.diagrams) {
@@ -156,7 +218,15 @@ export default function DownloadManager({ manifest }) {
       setDownloadingId(section.rootId)
       setProgress({ done: 0, total: urls.length })
       await addToCache(urls, (done, total) => setProgress({ done, total }))
-      setStoredSectionUrls(section.rootId, urls)
+      // Extract and cache images referenced in the content JSONs
+      const imageUrls = await collectImageUrls(urls)
+      const allUrls = [...urls, ...imageUrls]
+      if (imageUrls.length) {
+        const base = urls.length
+        setProgress({ done: base, total: base + imageUrls.length })
+        await addToCache(imageUrls, (done) => setProgress({ done: base + done, total: base + imageUrls.length }))
+      }
+      setStoredSectionUrls(section.rootId, allUrls)
       refreshStored()
       setDownloadingId(null)
     },
@@ -193,7 +263,17 @@ export default function DownloadManager({ manifest }) {
         setProgress({ done: start + d, total })
       })
       done = start + urls.length
-      setStoredSectionUrls(section.rootId, urls)
+      // Extract and cache images referenced in this section's JSONs
+      const imageUrls = await collectImageUrls(urls)
+      if (imageUrls.length) {
+        total += imageUrls.length
+        const imgStart = done
+        await addToCache(imageUrls, (d) => {
+          setProgress({ done: imgStart + d, total })
+        })
+        done = imgStart + imageUrls.length
+      }
+      setStoredSectionUrls(section.rootId, [...urls, ...imageUrls])
     }
     refreshStored()
     setDownloadingId(null)

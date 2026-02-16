@@ -192,13 +192,28 @@ URLs passed to these helpers are stored and used as-is for cache keys; when they
    - For each root, all leaf slugs under that root are collected (from `node.variants` for leaves); urls = for each slug, `['/data/content/${slug}.json', '/data/content/${slug}.html']`.  
    - `rootId` is the tree node id (e.g. `m_fa1c44d6dc46`).
 
+### Image extraction (automatic)
+
+After caching a section's content/reference JSON files, `handleDownload` and `handleDownloadAll` call `collectImageUrls(jsonUrls)` which:
+
+1. Re-fetches each cached JSON (served from cache, no extra network hit).
+2. Calls `extractImageUrlsFromJson(json)` which finds image URLs by content type:
+   - **Procedure**: `phases[].icon`, `phases[].steps[].image.src`
+   - **Harness diagram**: `diagram.src` (+ converted PNG for `.cgm` files at `/data/assets/converted/{hash}.png`)
+   - **Generic HTML**: Regex on `htmlContent` for `src="/data/assets/..."` attributes
+   - **Pictograms reference**: `pictograms[].icon`
+3. Caches all discovered image URLs in the same `tis-data` cache.
+4. Stores the combined list (content + images) in localStorage so "Remove" cleans up everything.
+
+Progress updates in two phases: first content files, then images. The total count adjusts dynamically as image URLs are discovered.
+
 ### State and actions
 
 - **expandedPanels**: `{ pages, epc, manual }`. Clicking a panel header toggles that key. All default to `true`.
 - **epcPartsData**: Result of `fetch('/data/epc/parts.json').then(r => r.json())`, or null. Fetched only when `expandedPanels.epc` is true and `epcPartsData` is still null.
-- **handleDownload(section)**: Requires `section.urls.length > 0`. Sets `downloadingId`, runs `addToCache(section.urls, onProgress)`, then `setStoredSectionUrls(section.rootId, urls)` and clears `downloadingId`.
+- **handleDownload(section)**: Requires `section.urls.length > 0`. Sets `downloadingId`, caches content URLs, then extracts and caches images, then calls `setStoredSectionUrls(section.rootId, allUrls)` (content + images) and clears `downloadingId`.
 - **handleRemove(section)**: Calls `removeCachedSection(section.rootId)` and refreshes stored state.
-- **handleDownloadAll**: Caches `['/data/manifest.json']` first, then iterates `allItems` (PAGE_ITEMS + epc core + epc groups + manualSections) and for each runs the same addToCache + setStoredSectionUrls. Progress is global (done/total across all).
+- **handleDownloadAll**: Caches `['/data/manifest.json']` first, then iterates `allItems` and for each caches content + extracts and caches images. Progress is global (done/total across all, including images).
 - **handleRemoveAll**: Calls `removeCachedSection(section.rootId)` for every item in `allItems`.
 
 ### UI details
