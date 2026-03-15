@@ -1,0 +1,317 @@
+{
+  "title": "Sonde Lambda (post catalyseur), Remplacer\n(Z 22 SE)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le cache inférieur du moteur (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 1
+        },
+        {
+          "text": "Ouvrir le capot.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Déconnecter la batterie.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Desserrer la roue arrière gauche.",
+          "image": {
+            "src": "/data/assets/images/d5f9fc343126.jpg",
+            "alt": "Object Number: 2412470  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Élever le véhicule.",
+          "image": {
+            "src": "/data/assets/images/d5f9fc343126.jpg",
+            "alt": "Object Number: 2412470  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Déposer la roue arrière du côté gauche",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser une douille spéciale située sous le capot avant"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer 4x boulon de roue"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d5f9fc343126.jpg",
+            "alt": "Object Number: 2412470  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Détacher le garnissage d'aile arrière gauche.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "6 boulons"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d5f9fc343126.jpg",
+            "alt": "Object Number: 2412470  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Détacher le connecteur du faisceau de câblage de la sonde lambda pour la surveillance du catalyseur (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Exposer le faisceau de câblage."
+            },
+            {
+              "bullet": "•",
+              "text": "5 agrafes, 1 agrafe de retenue (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d5f9fc343126.jpg",
+            "alt": "Object Number: 2412470  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 8
+        },
+        {
+          "text": "Élever le véhicule.",
+          "image": {
+            "src": "/data/assets/images/d5f9fc343126.jpg",
+            "alt": "Object Number: 2412470  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Retirer la sonde lambda pour la surveillance du catalyseur (1).",
+          "callouts": [
+            "1"
+          ],
+          "number": 10,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer la sonde lambda pour la surveillance du catalyseur. Remarque : Lors de la réutilisation de la sonde lambda, enduire le filetage de graisse spéciale (noire).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 40 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dbb6043cf02a.jpg",
+            "alt": "Object Number: 2412526  Size: DEFAULT"
+          },
+          "number": 11
+        },
+        {
+          "text": "Abaisser le véhicule.",
+          "image": {
+            "src": "/data/assets/images/dbb6043cf02a.jpg",
+            "alt": "Object Number: 2412526  Size: DEFAULT"
+          },
+          "number": 12
+        },
+        {
+          "text": "Fixer le connecteur du faisceau de câblage à la sonde lambda pour la surveillance du catalyseur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Acheminer le faisceau de câblage."
+            },
+            {
+              "bullet": "•",
+              "text": "5 agrafes, 1 agrafe de retenue"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dbb6043cf02a.jpg",
+            "alt": "Object Number: 2412526  Size: DEFAULT"
+          },
+          "number": 13
+        },
+        {
+          "text": "Fixer le garnissage d'aile arrière gauche.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "6 boulons"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dbb6043cf02a.jpg",
+            "alt": "Object Number: 2412526  Size: DEFAULT"
+          },
+          "number": 14
+        },
+        {
+          "text": "Installer la roue arrière du côté gauche",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 4x boulon, boulon de sécurité"
+            },
+            {
+              "bullet": "•",
+              "text": "Ne pas serrer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dbb6043cf02a.jpg",
+            "alt": "Object Number: 2412526  Size: DEFAULT"
+          },
+          "number": 15
+        },
+        {
+          "text": "Abaisser le véhicule.",
+          "image": {
+            "src": "/data/assets/images/dbb6043cf02a.jpg",
+            "alt": "Object Number: 2412526  Size: DEFAULT"
+          },
+          "number": 16
+        },
+        {
+          "text": "Fixer la roue arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer 4x boulon, boulon de sécurité (90"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dbb6043cf02a.jpg",
+            "alt": "Object Number: 2412526  Size: DEFAULT"
+          },
+          "number": 17
+        },
+        {
+          "text": "Reconnecter la batterie.",
+          "image": {
+            "src": "/data/assets/images/dbb6043cf02a.jpg",
+            "alt": "Object Number: 2412526  Size: DEFAULT"
+          },
+          "number": 18
+        },
+        {
+          "text": "Reprogrammer les mémoires volatiles.",
+          "image": {
+            "src": "/data/assets/images/dbb6043cf02a.jpg",
+            "alt": "Object Number: 2412526  Size: DEFAULT"
+          },
+          "number": 19
+        },
+        {
+          "text": "Fermer le capot.",
+          "image": {
+            "src": "/data/assets/images/dbb6043cf02a.jpg",
+            "alt": "Object Number: 2412526  Size: DEFAULT"
+          },
+          "number": 20
+        },
+        {
+          "text": "Fixer le couvercle du système d'échappement.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "9 boulons"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dbb6043cf02a.jpg",
+            "alt": "Object Number: 2412526  Size: DEFAULT"
+          },
+          "number": 21
+        },
+        {
+          "text": "Fixer le cache inférieur du moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Véhicule sur un pont élévateur à 4 colonnes"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dbb6043cf02a.jpg",
+            "alt": "Object Number: 2412526  Size: DEFAULT"
+          },
+          "number": 22
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer la sonde lambda pour la surveillance du catalyseur. Remarque : Lors de la réutilisation de la sonde lambda, enduire le filetage de graisse spéciale (noire).",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": 11
+    },
+    {
+      "component": "Fixer la roue arrière",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 17
+    },
+    {
+      "component": "Couple de serrage 40 Nm",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 4x boulon, boulon de sécurité (90 Nm)",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "Ne retirer la sonde lambda\nque lorsque le moteur est à température de fonctionnement."
+  ],
+  "notes": [
+    "Reposer la sonde lambda pour la surveillance du catalyseur.\n Lors de la réutilisation de la\nsonde lambda, enduire le filetage de graisse spéciale (noire).\n \n\n\n\n•  \nCouple de serrage 40 Nm"
+  ],
+  "type": "procedure",
+  "id": "lambda-probe-post-catalytic-converter-replace-z-22-se-A26D1C"
+}

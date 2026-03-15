@@ -1,0 +1,61 @@
+{
+  "title": "Volant moteur, Déposer et Reposer (Z 22 SE, Z 20\nLET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Disque d'embrayage et plateau de pression d'embrayage – voir l'opération «Disque d'embrayage et plateau de pression d'embrayage, Déposer et Reposer» dans le groupe K.",
+          "number": 1,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Nettoyer",
+      "steps": [
+        {
+          "text": "Volant moteur du vilebrequin – vis, immobiliser le volant moteur avec KM-652 .",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Alésages du volant moteur ; surfaces de bride du vilebrequin et du volant moteur.",
+          "number": 3,
+          "image": null
+        }
+      ],
+      "phase": "clean",
+      "icon": "/data/assets/images/d9fe69774efb.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Volant moteur sur le vilebrequin – aligner le guide central, immobiliser le volant moteur avec KM-652 , utiliser des nouvelles vis, serrer les vis de manière uniforme à 53 Nm + 25°.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Disque d'embrayage et plateau de pression d'embrayage.",
+          "number": 5,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Volant moteur sur le vilebrequin – aligner le guide central, immobiliser le volant moteur avec KM-652 , utiliser des nouvelles vis, serrer les vis de manière uniforme à 53 Nm + 25°.",
+      "value": "53",
+      "unit": "Nm",
+      "stepRef": 4
+    }
+  ],
+  "type": "procedure",
+  "id": "flywheel-remove-and-install-z-22-se-z-20-let-A26D1C"
+}

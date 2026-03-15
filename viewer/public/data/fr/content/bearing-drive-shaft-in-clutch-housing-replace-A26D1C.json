@@ -1,0 +1,94 @@
+{
+  "title": "Roulement, Arbre de Transmission dans Carter d'Embrayage,\nRemplacer",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Illustration de l'arbre de transmission",
+          "image": {
+            "src": "/data/assets/images/8be76a45c4fd.jpg",
+            "alt": "Object Number: 2415586  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer la transmission du véhicule - voir l'opération «Transmission, Déposer et Reposer»",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Démonter la transmission - voir l'opération «Transmission, Joint d'étanchéité Complètement»",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déposer le roulement de l'arbre de transmission (4) et la bague d'espacement (3) du carter d'embrayage avec KM-248-2 (1) et KM-248-4 (2)",
+          "image": {
+            "src": "/data/assets/images/437f55d0a968.jpg",
+            "alt": "Object Number: 2415643  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "3",
+            "1",
+            "2"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Nettoyer toutes les pièces déposées et vérifier l'usure et les dommages; remplacer si nécessaire",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Reposer le roulement de l'arbre de transmission (3) dans le carter d'embrayage avec KM-6120 (2) en conjonction avec KM-523-1 (1). Le côté arrondi (flèches) du roulement de l'arbre de transmission pointe vers la bague d'espacement",
+          "image": {
+            "src": "/data/assets/images/b35e514d39bc.jpg",
+            "alt": "Object Number: 2415644  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "2",
+            "1"
+          ],
+          "number": 6
+        },
+        {
+          "text": "Reposer la bague d'espacement (4) dans le carter d'embrayage avec KM-6112 (2) en conjonction avec KM-523-1 (1)",
+          "image": {
+            "src": "/data/assets/images/b35e514d39bc.jpg",
+            "alt": "Object Number: 2415644  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "2",
+            "1"
+          ],
+          "number": 7
+        },
+        {
+          "text": "Assembler la transmission - voir l'opération «Transmission, Joint d'étanchéité Complètement»",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Reposer la transmission dans le véhicule - voir l'opération «Transmission, Déposer et Reposer»",
+          "number": 9,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-248-2",
+    "KM-248-4",
+    "KM-6120",
+    "KM-523-1",
+    "KM-6112"
+  ],
+  "type": "procedure",
+  "id": "bearing-drive-shaft-in-clutch-housing-replace-A26D1C"
+}

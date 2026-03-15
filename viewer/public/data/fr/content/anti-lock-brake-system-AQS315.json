@@ -1,0 +1,63 @@
+{
+  "title": "Système de freinage antiblocage",
+  "components": [
+    {
+      "description": "Unité de contrôle - Système de freinage antiblocage",
+      "code": "A2"
+    },
+    {
+      "description": "Capteur - Vitesse de roue, arrière, gauche",
+      "code": "B27"
+    },
+    {
+      "description": "Unité de contrôle - Multec",
+      "code": "A4"
+    },
+    {
+      "description": "Capteur - Vitesse de roue, arrière, droite",
+      "code": "B28"
+    },
+    {
+      "description": "Unité de contrôle - Motronic",
+      "code": "A5"
+    },
+    {
+      "description": "Témoin - Système de freinage antiblocage",
+      "code": "H1.5"
+    },
+    {
+      "description": "Radio",
+      "code": "A14"
+    },
+    {
+      "description": "Compteur de vitesse - Électronique",
+      "code": "H1.25"
+    },
+    {
+      "description": "Capteur - Vitesse de roue, avant, gauche",
+      "code": "B25"
+    },
+    {
+      "description": "Interrupteur - Feu stop, simple",
+      "code": "S29"
+    },
+    {
+      "description": "Capteur - Vitesse de roue, avant, droite",
+      "code": "B26"
+    },
+    {
+      "description": "Interrupteur - Feu stop, double",
+      "code": "S43"
+    },
+    {
+      "description": "Prise diagnostic",
+      "code": "X13"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "anti-lock-brake-system-AQS315",
+  "diagram": {
+    "src": "/data/assets/9ca94c21ed86.cgm",
+    "type": "cgm"
+  }
+}

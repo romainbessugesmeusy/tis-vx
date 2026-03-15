@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Install oil pressure switch",
+      "value": "18",
+      "unit": "Nm",
+      "stepRef": 57,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install crankshaft pickup",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 58,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install oil cooler adaptor with 2x new sealing ring to oil filter housing",
+      "value": "120",
+      "unit": "Nm",
+      "stepRef": 59,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install top cover with new O ring to oil filter housing",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 60,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach cylinder head",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 66,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach cylinder head",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 66,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install fuel distribution pipe",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 67,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install coolant pump",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 68,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach intake manifold",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 70,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach exhaust gas recirculation pipe",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 71,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach exhaust gas recirculation pipe",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 71,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach wiring harness bracket",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 74,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install engine control unit",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 76,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install engine control unit",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 76,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install exhaust manifold",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": 77,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach upper heat shield",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 78,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install balancer shaft timing chain guide rails (1)",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 81,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install balancer shaft timing chain tensioner rail",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 82,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install balancer shaft timing chain tensioner",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 83,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install oil splash nozzle",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 84,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install intake camshaft sprocket",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 87,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install camshaft timing chain tensioner rail",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 89,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install camshaft timing chain guide rail",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 90,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install camshaft timing chain guide rail",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": 90,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install exhaust camshaft sprocket Note: Check that TDC reference points line up.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 92,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install guide rail",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 94,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install camshaft timing chain tensioner",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 95,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install timing case Note: Remove plastic wedge and cloth from opening in timing case.",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": 97,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach rotational vibration damper (2)",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": 98,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach compressor",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 101,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach alternator",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": 102,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach ribbed V–belt tensioner Note: Lug (1) of ribbed V–belt tensioner engages into bore in timing case (2).",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": 103,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach engine damping block bracket",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 105,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach drive plate",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 106,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach cylinder head cover",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 107,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach ignition module",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 108,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach thermostat housing",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 109,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "To cylinder block base plate 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 18 Nm",
+      "value": "18",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install, then secure securing ring 120 Nm",
+      "value": "120",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque M10 bolts 30 Nm + 60° + 60° + 35°",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 35 Nm",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 12 Nm",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 85 Nm + 30° + 15°",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 65 Nm",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 75 Nm",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    }
+  ]
+}

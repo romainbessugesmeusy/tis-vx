@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Track control rod to lower wishbone - nut 49 Nm, washers.",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "track-control-rod-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Drain plug to transmission – 35 Nm .",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 2,
+      "sourcePage": "transmission-fluid-drain-and-refill-A26D1C"
+    },
+    {
+      "component": "Level plug to transmission – 35 Nm .",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 5,
+      "sourcePage": "transmission-fluid-level-check-and-correct-A26D1C"
+    },
+    {
+      "component": "Filler plug to transmission – 35 Nm .",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "transmission-fluid-level-check-and-correct-A26D1C"
+    },
+    {
+      "component": "Install 8x bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "transmission-housing-cover-replace-transmission-installed-A26D1C"
+    },
+    {
+      "component": "Tighten the bolts on the transmission.",
+      "value": "60",
+      "unit": "Nm",
+      "stepRef": 21,
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tighten the bolts on the transmission.",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 21,
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the knock sensor.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 27,
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the intake manifold.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 28,
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the exhaust gas recirculation pipe.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 29,
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the exhaust gas recirculation pipe.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 29,
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the wiring harness bracket",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 32,
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the engine control unit.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 34,
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the engine control unit.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 34,
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the oil dipstick guide tube.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 35,
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 60 Nm",
+      "value": "60",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 22 Nm",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Insert shift mechanism assembly (2) into transmission",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 74,
+      "sourcePage": "transmission-seal-completely-A26D1C"
+    },
+    {
+      "component": "Assemble clutch housing and transmission housing assembly",
+      "value": "28",
+      "unit": "Nm",
+      "stepRef": 81,
+      "sourcePage": "transmission-seal-completely-A26D1C"
+    },
+    {
+      "component": "Attach 7x bolt (arrowed) 28 Nm",
+      "value": "28",
+      "unit": "Nm",
+      "stepRef": 83,
+      "sourcePage": "transmission-seal-completely-A26D1C"
+    },
+    {
+      "component": "Apply locking compound to 2x new bolt, then install in main shaft, intermediate shaft and drive shaft 100 Nm",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": 87,
+      "sourcePage": "transmission-seal-completely-A26D1C"
+    },
+    {
+      "component": "Attach transmission housing cover to transmission housing",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 90,
+      "sourcePage": "transmission-seal-completely-A26D1C"
+    },
+    {
+      "component": "Install new central release (7) to drive shaft with KM-6059 (6) and attach to transmission",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 93,
+      "sourcePage": "transmission-seal-completely-A26D1C"
+    },
+    {
+      "component": "Install pressure line (2) to central release (7) 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 97,
+      "sourcePage": "transmission-seal-completely-A26D1C"
+    },
+    {
+      "component": "Apply sealing compound (green) to reverse lamp switch (2), then install to transmission 15 Nm Note: Pay attention to seating and state of seal ring (1)",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 98,
+      "sourcePage": "transmission-seal-completely-A26D1C"
+    },
+    {
+      "component": "Install 5x bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "transmission-seal-completely-A26D1C"
+    },
+    {
+      "component": "Install 12x bolt (arrowed) 28 Nm",
+      "value": "28",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "transmission-seal-completely-A26D1C"
+    },
+    {
+      "component": "Install 3x bolt 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "transmission-seal-completely-A26D1C"
+    },
+    {
+      "component": "Secure upper wishbone to chassis",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 10,
+      "sourcePage": "upper-wishbone-front-replace-A26D1C"
+    },
+    {
+      "component": "Secure upper wishbone to steering arm",
+      "value": "55",
+      "unit": "Nm",
+      "stepRef": 11,
+      "sourcePage": "upper-wishbone-front-replace-A26D1C"
+    },
+    {
+      "component": "Install road wheel to vehicle",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 13,
+      "sourcePage": "upper-wishbone-front-replace-A26D1C"
+    },
+    {
+      "component": "Secure 2x bolt, 2x nut 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "upper-wishbone-front-replace-A26D1C"
+    },
+    {
+      "component": "Secure nut 55 Nm",
+      "value": "55",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "upper-wishbone-front-replace-A26D1C"
+    },
+    {
+      "component": "Install 4x bolt, install security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "upper-wishbone-front-replace-A26D1C"
+    },
+    {
+      "component": "Upper wishbone to chassis – bolts, nuts 45 Nm , washers.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 3,
+      "sourcePage": "upper-wishbone-rear-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Upper wishbone to chassis - bolts, nuts 45 Nm, washers.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "upper-wishbone-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install the exhaust camshaft.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 75,
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Working in a spiral pattern from the middle towards the outside, tighten the bolts on the camshaft bearing caps (I to VI) in stages.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 80,
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Working in a spiral pattern from the middle towards the outside, tighten the bolts on the camshaft bearing caps (I to VI) in stages.",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 80,
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the camshaft connecting flange cover.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 81,
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the intake camshaft sprocket.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 82,
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the exhaust camshaft sprocket.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 83,
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the camshaft timing chain tensioner.",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 84,
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the guide rail.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 87,
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 94,
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 94,
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C"
+    }
+  ]
+}

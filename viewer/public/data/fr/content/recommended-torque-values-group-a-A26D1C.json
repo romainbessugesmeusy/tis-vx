@@ -1,0 +1,138 @@
+{
+  "title": "Valeurs de Couple de Serrage Recommandées, Groupe A",
+  "group": "A",
+  "values": [
+    {
+      "component": "Vis de charnière, porte",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis de support d'anneau de remorquage",
+      "value": "25",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis de sous–châssis arrière",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis de bras de support, arceau de sécurité",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Écrou de bloc d'amortissement moteur, gauche et droite",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis de support, bloc d'amortissement moteur droit",
+      "value": "85",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis de support, bloc d'amortissement moteur gauche",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis de bloc d'amortissement moteur, arrière à la transmission",
+      "value": "86",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis de bloc d'amortissement moteur, arrière au sous–châssis arrière",
+      "value": "49",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis d'amortisseur au sous–châssis arrière",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis de triangle de suspension supérieur au sous–châssis arrière",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis de triangle de suspension inférieur",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Écrou de triangle de suspension inférieur",
+      "value": "49",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de roue",
+      "value": "90",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis de charnière, capot avant",
+      "value": "20",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis de charnière, capot moteur",
+      "value": "14",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis et écrous, coque avant au boîtier de radiateur",
+      "value": "14",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis, coque avant au cadre de pare-brise",
+      "value": "14",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis, coque avant au bas de caisse",
+      "value": "14",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis, coque avant au montant de pare-brise",
+      "value": "14",
+      "unit": "Nm"
+    },
+    {
+      "component": "Écrous, panneau arrière de pavillon à l'arceau de sécurité",
+      "value": "10",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis, guides de capote souple à l'arceau de sécurité",
+      "value": "11",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis, coque arrière au tablier arrière",
+      "value": "14",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis, coque arrière au sous–châssis arrière",
+      "value": "16",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis, verrou de capot moteur à la coque arrière",
+      "value": "16",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis, coque arrière au bas de caisse",
+      "value": "9",
+      "unit": "Nm"
+    }
+  ],
+  "type": "torque_table",
+  "id": "recommended-torque-values-group-a-A26D1C"
+}

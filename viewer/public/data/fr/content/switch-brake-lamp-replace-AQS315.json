@@ -1,0 +1,40 @@
+{
+  "title": "Interrupteur, Feu de Frein, Remplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer/Poser",
+      "steps": [
+        {
+          "text": "Connecteur du faisceau de l'interrupteur de frein.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Interrupteur de frein du boîtier de pédale, déprimer la pédale de frein pour libérer la charge sur le piston de l'interrupteur, pousser l'interrupteur de frein vers le bas vers le boîtier de pédale, tourner de 90° puis soulever.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Interrupteur de frein vers le boîtier de pédale, déprimer la pédale de frein pour donner du jeu au piston de l'interrupteur, pousser l'interrupteur de frein vers le bas vers le boîtier de pédale, puis tourner de 90° pour fixer l'interrupteur au boîtier de pédale.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Connecteur du faisceau à l'interrupteur de frein.",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "switch-brake-lamp-replace-AQS315"
+}

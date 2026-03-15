@@ -1,0 +1,204 @@
+{
+  "title": "Remplacer le bride de ventilation du moteur (Z20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Débrancher la durite d'admission d'air (1) du débitmètre d'air massique (2) et du turbocompresseur (3)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x agrafe"
+            },
+            {
+              "bullet": "•",
+              "text": "Écarter la durite d'admission d'air sur le côté"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9d635555b6f8.jpg",
+            "alt": "Object Number: 2422474  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2",
+            "3"
+          ],
+          "number": 1
+        },
+        {
+          "text": "Déposer le support de fixation (1) avec l'œillet de levage du moteur de la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer la vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/4df93314a412.jpg",
+            "alt": "Object Number: 2422475  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Déposer la durite de ventilation du moteur (1) du cache de la culasse et de la bride de ventilation du moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x agrafe (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Tirer pour enlever"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/47fa12184aff.jpg",
+            "alt": "Object Number: 2422995  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Déposer le bouclier thermique (1) du support de fixation (2) sur la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 4x vis, 4x rondelle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/4b4332895be0.jpg",
+            "alt": "Object Number: 2422476  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Déposer la bride de ventilation du moteur (1) du bloc-cylindres du moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer, puis jeter le joint"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9d0b8603d776.jpg",
+            "alt": "Object Number: 2422996  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 5
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer la nouvelle bride de ventilation du moteur sur le bloc-cylindres du moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Nettoyer les surfaces d'assemblage"
+            },
+            {
+              "bullet": "•",
+              "text": "Utiliser un nouveau joint"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer 2x vis à 25 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3f97795ba3bb.jpg",
+            "alt": "Object Number: 2422997  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Reposer le bouclier thermique sur le support de fixation sur la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 4x vis, 4x rondelle"
+            }
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Reposer la durite de ventilation du moteur sur le cache de la culasse et la bride de ventilation du moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer 2x agrafe"
+            },
+            {
+              "bullet": "•",
+              "text": "Enfoncer"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Reposer le support de fixation avec l'œillet de levage du moteur sur la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Appliquer du frein filet"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Raccorder la durite d'admission d'air au débitmètre d'air massique et au turbocompresseur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer 2x agrafe"
+            }
+          ],
+          "number": 10,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer la nouvelle bride de ventilation du moteur sur le bloc-cylindres du moteur",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Installer 2x vis à 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Utiliser un nouveau joint\n Lors de l'installation\ndu nouveau joint (1), le côté surélevé du canal (2) doit être orienté vers le haut."
+  ],
+  "type": "procedure",
+  "id": "engine-vent-flange-replace-z20-let-AQS315"
+}

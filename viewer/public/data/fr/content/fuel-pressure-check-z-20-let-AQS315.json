@@ -1,0 +1,136 @@
+{
+  "title": "Vérification de la pression de carburant (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Inspecter",
+      "steps": [
+        {
+          "text": "Connecter le testeur de pression KM-J-34730-91 (1) à la soupape de décharge de pression (2) sur le rail d'alimentation en carburant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer le capuchon de la soupape de décharge de pression"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8f83f0ed0394.jpg",
+            "alt": "Object Number: 2421974  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 1
+        },
+        {
+          "text": "Démarrer le moteur",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Saigner le testeur de pression KM-J-34730-91",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Positionner un récipient adapté pour recueillir le carburant s'échappant"
+            },
+            {
+              "bullet": "•",
+              "text": "Vérifier la pression de carburant"
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Reposer le testeur de pression et de vide MKM-667 (2) sur le régulateur de pression de carburant (3)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Débrancher la durite de vide du régulateur de pression de carburant"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/993e2d056836.jpg",
+            "alt": "Object Number: 2422224  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "3"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Appliquer 0,5 bar à l'aide du testeur de pression et de vide MKM-667",
+          "image": {
+            "src": "/data/assets/images/993e2d056836.jpg",
+            "alt": "Object Number: 2422224  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Vérifier la pression de carburant à l'aide du testeur de pression KM-J-34730-91 (1)",
+          "image": {
+            "src": "/data/assets/images/993e2d056836.jpg",
+            "alt": "Object Number: 2422224  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 6
+        },
+        {
+          "text": "Éteindre le moteur",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Retirer le testeur de pression KM-J-34730-91 (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Positionner un récipient adapté pour recueillir le carburant s'échappant"
+            },
+            {
+              "bullet": "•",
+              "text": "Reposer le capuchon sur la soupape de décharge de pression"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8f83f0ed0394.jpg",
+            "alt": "Object Number: 2421974  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 8
+        },
+        {
+          "text": "Retirer le testeur de pression et de vide MKM-667 (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Raccorder la durite de vide au régulateur de pression de carburant (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8f83f0ed0394.jpg",
+            "alt": "Object Number: 2421974  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 9
+        }
+      ],
+      "phase": "inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif"
+    }
+  ],
+  "toolsRequired": [
+    "KM-J-34730-91",
+    "MKM-667"
+  ],
+  "type": "procedure",
+  "id": "fuel-pressure-check-z-20-let-AQS315"
+}

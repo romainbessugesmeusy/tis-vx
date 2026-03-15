@@ -1,0 +1,188 @@
+{
+  "title": "Covers, Steering Column, Replace",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Ouvrir le capot",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le réservoir de lave-glace du support de fixation",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déconnecter la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer l'écrou"
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déposer l'ensemble airbag du volant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 2x vis (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Débrancher le connecteur du faisceau"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ae506f81df45.jpg",
+            "alt": "Object Number: 2419663  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Débrancher le connecteur du faisceau pour le klaxon",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Déposer le volant de la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 4x vis"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Déposer le couvercle supérieur de la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 6x vis (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a0ee6ea9e112.jpg",
+            "alt": "Object Number: 2429520  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Déposer le couvercle inférieur de la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 3x vis (2), retirer l'agrafe"
+            },
+            {
+              "bullet": "•",
+              "text": "Débrancher le connecteur du faisceau"
+            }
+          ],
+          "number": 8,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le couvercle inférieur sur la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer le connecteur du faisceau"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer 3x vis, installer l'agrafe"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Reposer le couvercle supérieur sur la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 6x vis"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Reposer le volant sur la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 4x vis"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Connecter le connecteur du faisceau pour le klaxon",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Reposer l'ensemble airbag sur le volant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer le connecteur du faisceau"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer 2x vis"
+            }
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Connecter la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer l'écrou"
+            }
+          ],
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Reposer le réservoir de lave-glace sur le support de fixation",
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Fermer le capot",
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Programmer toutes les mémoires volatiles",
+          "number": 17,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "covers-steering-column-replace-A26D1C"
+}

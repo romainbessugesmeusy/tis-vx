@@ -1,0 +1,7 @@
+{
+  "title": "Instructions générales de réparation",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Instructions générales de réparation</p>\n\n<p>Le système d'échappement doit être installé sans tension et aligné selon les contours du dessous du véhicule.</p>\n\n<p>Vérifier tous les composants pour détecter des signes d'usure et les remplacer si nécessaire.</p>\n\n<p>Vérifier le système d'échappement pour les fuites.</p>\n\n<p>Lors du remplacement du système d'échappement ou de composants individuels, n'utiliser que des pièces adaptées au véhicule (observer le numéro de catalogue approprié et le numéro de pièce).</p>\n\n<p>Si le capteur d'oxygène doit être réutilisé, enduire le filetage de graisse spéciale (noire). Sur un nouveau capteur d'oxygène, le filetage est déjà enduit de graisse spéciale (noire).</p>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "type": "generic",
+  "id": "general-repair-instructions-A26D1C",
+  "extractedData": {}
+}

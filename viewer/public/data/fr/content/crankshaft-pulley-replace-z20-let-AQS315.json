@@ -1,0 +1,132 @@
+{
+  "title": "Poulie de vilebrequin, Remplacer (Z20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le cache inférieur du moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Élever le véhicule"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer les 13x vis, 13x rondelles"
+            }
+          ],
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer la courroie striée en V",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Faire pivoter le tendeur (1) dans le sens des aiguilles d'une montre à l'aide d'une clé appropriée, puis",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Faire pivoter le tendeur (1) dans le sens des aiguilles d'une montre à l'aide d'une clé appropriée, puis\nReposer la goupille de blocage (2)"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a80bd56f79cd.jpg",
+            "alt": "Object Number: 2421986  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Déposer la poulie de vilebrequin (1) Remarque : Noter la position de la poulie de vilebrequin.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Maintenir en place la vis centrale sur le pignon de vilebrequin"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/099efc597283.jpg",
+            "alt": "Object Number: 2422892  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer la nouvelle poulie de vilebrequin Remarque : Noter la position de la poulie de vilebrequin.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Maintenir en place l'écrou central sur le pignon de vilebrequin"
+            }
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Reposer la courroie striée en V",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser une clé adaptée pour faire pivoter le tendeur dans le sens des aiguilles d'une montre, puis retirer"
+            }
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Reposer le cache inférieur du moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer les 13x vis, 13x rondelles"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 7,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer la nouvelle poulie de vilebrequin Remarque : Noter la position de la poulie de vilebrequin.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 4
+    },
+    {
+      "component": "Reposer 4x vis 20 Nm – Maintenir en place l'écrou central sur le pignon de vilebrequin",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "Un pont élévateur à quatre colonnes doit être utilisé pour élever le véhicule lors du retrait du cache inférieur du moteur.\nLe véhicule peut être déplacé vers un pont élévateur à deux colonnes pour d'autres opérations si nécessaire."
+  ],
+  "notes": [
+    "Déposer la poulie de vilebrequin (1)\n Noter la position de la poulie de vilebrequin.\n \n\n\n\n•  \nDéposer 4x vis\n \n\n\n\n–\nMaintenir en place la vis centrale sur le pignon de vilebrequin",
+    "Reposer la nouvelle poulie de vilebrequin\n Noter la position de la poulie de vilebrequin.\n \n\n\n\n•  \nReposer 4x vis 20 Nm \n \n\n\n\n–\nMaintenir en place l'écrou central sur le pignon de vilebrequin"
+  ],
+  "type": "procedure",
+  "id": "crankshaft-pulley-replace-z20-let-AQS315"
+}

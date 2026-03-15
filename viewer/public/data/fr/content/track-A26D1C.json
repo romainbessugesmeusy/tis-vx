@@ -1,0 +1,7 @@
+{
+  "title": "Piste",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\n  </table>\n  \n  <!--/XPRINT-->\n  <tr>\n    <td >\n<p class=\"title\">Piste</p>\n\n<p>La distance entre les plans centraux des roues d'un essieu est la\npiste. Sur des pneus jumeaux, elle est mesurée du centre de la roue jumelée\nau centre de la roue jumelée.</p>\n\n<p>La piste influence le comportement en virage du véhicule. Une\nlarge piste permet une vitesse plus élevée dans les virages.</p>\n\n<p>Pour une suspension individuelle avec des bras transversaux ou semi-tirés,\nla piste change lors de la compression et de l'extension du ressort. Cela\naugmente la résistance au roulement et l'usure des pneus. Si la piste\nchange trop, par exemple en raison du remplacement des silentblocs de bras de\ncommande ou de joints de direction défectueux, le comportement en ligne droite\nde la direction du véhicule se détériore.</p>\n</td>\n  </tr>\n  \n  <tr>\n    <td ></td>\n  </tr>\n</table>\n</div>",
+  "type": "generic",
+  "id": "track-A26D1C",
+  "extractedData": {}
+}

@@ -1,0 +1,325 @@
+{
+  "title": "Arbre de Transmission, Démonter et Remonter",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Illustration de l'arbre de transmission",
+          "image": {
+            "src": "/data/assets/images/04bacb30f3ec.jpg",
+            "alt": "Object Number: 2417567  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer l'arbre de transmission de la boîte de vitesses - voir l'opération \"Arbre de Transmission, Déposer et Reposer\"",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déposer la rondelle de butée (6) et le roulement à aiguilles radial (5)",
+          "image": {
+            "src": "/data/assets/images/7fae21a28c5e.jpg",
+            "alt": "Object Number: 2417570  Size: DEFAULT"
+          },
+          "callouts": [
+            "6",
+            "5"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Déposer le 4ème rapport (4), le roulement à aiguilles (3) et la bague synchronisatrice du 4ème rapport (2) de l'arbre de transmission (1)",
+          "image": {
+            "src": "/data/assets/images/7fae21a28c5e.jpg",
+            "alt": "Object Number: 2417570  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "3",
+            "2",
+            "1"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Déposer le manchon de sélection (1) du corps de synchronisation",
+          "image": {
+            "src": "/data/assets/images/58f854f16c24.jpg",
+            "alt": "Object Number: 2417571  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Vérifier tous les éléments pour des dommages, remplacer les pièces endommagées si nécessaire",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Presser la douille (1) et l'ensemble corps de synchronisation 3ème/4ème rapport (2), la bague synchronisatrice du 3ème rapport (3), la rondelle de butée (4), le roulement à aiguilles radial (5) et le 3ème rapport (6) de l'arbre de transmission en utilisant KM-6220 (7) et KM-6222 (8)",
+          "image": {
+            "src": "/data/assets/images/f5afacbd6517.jpg",
+            "alt": "Object Number: 2417572  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "number": 7
+        },
+        {
+          "text": "Vérifier tous les éléments pour des dommages; remplacer les pièces endommagées si nécessaire",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Écarter soigneusement les roulements à aiguilles (2, 3), puis les retirer de l'arbre de transmission (4) dans la direction latérale",
+          "image": {
+            "src": "/data/assets/images/6a238065ae53.jpg",
+            "alt": "Object Number: 2417573  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ],
+          "number": 9
+        },
+        {
+          "text": "Retirer le roulement à aiguilles radial (1) de l'arbre de transmission",
+          "image": {
+            "src": "/data/assets/images/6a238065ae53.jpg",
+            "alt": "Object Number: 2417573  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 10
+        },
+        {
+          "text": "Vérifier tous les éléments pour des dommages; remplacer les pièces endommagées si nécessaire",
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Installer le roulement à aiguilles radial (1) sur l'arbre de transmission (4)",
+          "callouts": [
+            "1",
+            "4"
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Écarter soigneusement les roulements à aiguilles (2, 3), puis les installer sur l'arbre de transmission dans la direction latérale",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Poncer la couche de molybdène sur le côté opposé de la bague synchronisatrice du 3ème rapport (2) en utilisant du papier de verre fin (1) sur une surface lisse",
+          "image": {
+            "src": "/data/assets/images/fefcd123d7d1.jpg",
+            "alt": "Object Number: 2417563  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ],
+          "number": 14
+        },
+        {
+          "text": "Installer le 3ème rapport (4) sur l'arbre principal (3)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "S'assurer que les roulements à aiguilles (1, 2) ne sont pas endommagés"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c8033c6efb7c.jpg",
+            "alt": "Object Number: 2417574  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "3"
+          ],
+          "number": 15
+        },
+        {
+          "text": "Installer le roulement à aiguilles radial (5) sur le 3ème rapport",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Vérifier l'assise correcte"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c8033c6efb7c.jpg",
+            "alt": "Object Number: 2417574  Size: DEFAULT"
+          },
+          "callouts": [
+            "5"
+          ],
+          "number": 16
+        },
+        {
+          "text": "Installer la rondelle de butée (6) sur le 3ème rapport",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Vérifier l'assise correcte"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c8033c6efb7c.jpg",
+            "alt": "Object Number: 2417574  Size: DEFAULT"
+          },
+          "callouts": [
+            "6"
+          ],
+          "number": 17
+        },
+        {
+          "text": "Installer la bague synchronisatrice du 3ème rapport (7) sur le 3ème rapport Remarque : Les transmissions plus récentes ainsi que les kits de réparation pour la bague synchronisatrice du 3ème/4ème rapport contiennent des ressorts ondulés (fléchés)",
+          "image": {
+            "src": "/data/assets/images/c8033c6efb7c.jpg",
+            "alt": "Object Number: 2417574  Size: DEFAULT"
+          },
+          "callouts": [
+            "7"
+          ],
+          "number": 18
+        },
+        {
+          "text": "Installer le corps de synchronisation 3ème/4ème rapport pour 1ère/2ème (3) sur l'arbre de transmission",
+          "image": {
+            "src": "/data/assets/images/580d2b2c7c82.jpg",
+            "alt": "Object Number: 2417575  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ],
+          "number": 19
+        },
+        {
+          "text": "Presser la douille (2) sur l'arbre de transmission en utilisant KM-6219 (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "S'assurer que les trous de fluide (5) coïncident et que le guide (flèche I) de"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/580d2b2c7c82.jpg",
+            "alt": "Object Number: 2417575  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ],
+          "number": 20
+        },
+        {
+          "text": "Assembler le synchronisme",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ressort"
+            },
+            {
+              "bullet": "•",
+              "text": "(II) Serrer l'arbre de transmission dans un étau - utiliser des mors de protection. Glisser"
+            },
+            {
+              "bullet": "•",
+              "text": "(III) Pousser légèrement le coulisseau vers le haut. Appuyer sur la bille contre le ressort"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3b34b50fe799.jpg",
+            "alt": "Object Number: 2415570  Size: DEFAULT"
+          },
+          "number": 21
+        },
+        {
+          "text": "Poncer la couche de molybdène sur le côté opposé de la bague synchronisatrice du 4ème rapport (2) en utilisant du papier de verre fin (1) sur une surface lisse",
+          "image": {
+            "src": "/data/assets/images/fefcd123d7d1.jpg",
+            "alt": "Object Number: 2417563  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ],
+          "number": 22
+        },
+        {
+          "text": "Fixer la bague synchronisatrice du 4ème rapport (1) et le roulement à aiguilles (2) sur le corps de synchronisation Remarque : Observer la position installée",
+          "image": {
+            "src": "/data/assets/images/7ab0165c57a9.jpg",
+            "alt": "Object Number: 2417576  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 23
+        },
+        {
+          "text": "Installer le 4ème rapport (4) avec le roulement à aiguilles radial (3), le roulement à rouleaux radial (5) et la rondelle de butée (6) sur l'arbre de transmission",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "S'assurer que les roulements à aiguilles et les roulements à aiguilles radiaux"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7ab0165c57a9.jpg",
+            "alt": "Object Number: 2417576  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "3",
+            "5",
+            "6"
+          ],
+          "number": 24
+        },
+        {
+          "text": "Installer l'arbre de transmission dans la boîte de vitesses - voir l'opération \"Arbre de Transmission, Déposer et Reposer\"",
+          "number": 25,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-6220",
+    "KM-6222",
+    "KM-6219"
+  ],
+  "warnings": [
+    "Si les engrenages sont endommagés, remplacer toujours l'ensemble de l'arbre de transmission. Obtenir les kits de réparation d'ensemble synchroniseur appropriés auprès du Service Après-Vente",
+    "La bille (2), le coulisseau (3) sont sous tension de ressort. Lors du retrait du manchon de sélection (1), s'assurer que la bille, le coulisseau et le ressort (4) ne sont pas perdus",
+    "Avant l'installation de la bague synchronisatrice du 3ème rapport, la couche de molybdène sur le côté opposé doit être retirée (zone ombrée)",
+    "Avant l'installation de la bague synchronisatrice du 4ème rapport, la couche de molybdène sur le côté opposé doit être retirée (zone ombrée)"
+  ],
+  "notes": [
+    "Installer la bague synchronisatrice du 3ème rapport (7) sur le 3ème rapport\n Les transmissions plus récentes\nainsi que les kits de réparation pour la bague synchronisatrice du 3ème/4ème rapport contiennent des ressorts ondulés (fléchés)",
+    "S'assurer que les trous de fluide (5) coïncident et que le guide (flèche I) de\nla bague synchronisatrice du 3ème/4ème rapport (4) est situé sur la cavité (flèche\nII) du corps de synchronisation 3ème/4ème rapport\n Les transmissions plus récentes\nainsi que les kits de réparation pour la bague synchronisatrice du 3ème/4ème rapport contiennent des ressorts ondulés (flèche)",
+    "Fixer la bague synchronisatrice du 4ème rapport (1) et le roulement à aiguilles\n(2) sur le corps de synchronisation\n Observer la position installée",
+    "S'assurer que les roulements à aiguilles et les roulements à aiguilles radiaux\nne sont pas endommagés\n Les transmissions plus récentes\nainsi que les kits de réparation pour la bague synchronisatrice du 3ème/4ème rapport contiennent des ressorts ondulés (flèche)"
+  ],
+  "type": "procedure",
+  "id": "drive-shaft-disassemble-and-reassemble-A26D1C"
+}

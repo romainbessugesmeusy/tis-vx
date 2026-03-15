@@ -1,0 +1,167 @@
+{
+  "title": "Poulie de renvoi, Courroie striée en V, Remplacer (Z20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le cache-moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Élever le véhicule"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 13x vis, 13x rondelle"
+            }
+          ],
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer la courroie striée en V",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Faire pivoter le tendeur (1) dans le sens des aiguilles d'une montre à l'aide d'une clé appropriée, puis",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Faire pivoter le tendeur (1) dans le sens des aiguilles d'une montre à l'aide d'une clé appropriée, puis\nReposer le goupillon de blocage (2) approprié"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a80bd56f79cd.jpg",
+            "alt": "Object Number: 2421986  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Déposer la durite (3) du turbocompresseur (2) et de l'intercooler (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Libérer 2x agrafe"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer, puis jeter le collier de serrage"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0cd05d6d1724.jpg",
+            "alt": "Object Number: 2422235  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "2",
+            "1"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Déposer la poulie de renvoi de la courroie striée en V (1) du support d'accessoires (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 3x vis, rondelle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/98e8105d8086.jpg",
+            "alt": "Object Number: 2422588  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 4
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer la nouvelle poulie de renvoi de la courroie striée en V sur le support d'accessoires",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 3x vis, rondelle 20 Nm"
+            }
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Reposer la courroie striée en V",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser une clé appropriée pour faire pivoter le tendeur dans le sens des aiguilles d'une montre, puis retirer"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Reposer la durite sur le turbocompresseur et l'intercooler",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer un nouveau collier de serrage"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer 2x agrafe"
+            }
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Reposer le cache-moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 13x vis, 13x rondelle"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 9,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer la nouvelle poulie de renvoi de la courroie striée en V sur le support d'accessoires",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Reposer 3x vis, rondelle 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "Un pont élévateur à quatre colonnes doit\nêtre utilisé pour élever le véhicule lors du retrait du cache-moteur.\nLe véhicule peut être déplacé vers un pont élévateur à deux colonnes pour d'autres opérations\nsi nécessaire."
+  ],
+  "type": "procedure",
+  "id": "idler-pulley-ribbed-v-belt-replace-z20-let-AQS315"
+}

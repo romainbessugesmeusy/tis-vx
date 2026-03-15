@@ -1,0 +1,87 @@
+{
+  "title": "engine-z20let-1-AQS315",
+  "components": [
+    {
+      "description": "Déposer - Unité de contrôle Motronic",
+      "code": "A5"
+    },
+    {
+      "description": "Déposer - Capteur d'oxygène, contrôle du mélange, chauffé",
+      "code": "B117"
+    },
+    {
+      "description": "Déposer - Capteur de pression absolue, collecteur d'admission",
+      "code": "B21"
+    },
+    {
+      "description": "Déposer - Capteur d'oxygène, contrôle catalyseur",
+      "code": "B118"
+    },
+    {
+      "description": "Déposer - Capteur d'impulsions, vilebrequin",
+      "code": "B34"
+    },
+    {
+      "description": "Déposer - Condenseur, bobine d'allumage",
+      "code": "C1"
+    },
+    {
+      "description": "Déposer - Capteur d'arbre à cames",
+      "code": "B35"
+    },
+    {
+      "description": "Déposer - Bobine d'allumage, allumage direct",
+      "code": "T1"
+    },
+    {
+      "description": "Déposer - Débitmètre d'air",
+      "code": "B46"
+    },
+    {
+      "description": "Déposer - Électrovanne, régulation pression de suralimentation",
+      "code": "Y8"
+    },
+    {
+      "description": "Déposer - Capteur de température du liquide de refroidissement (jauge)",
+      "code": "B61"
+    },
+    {
+      "description": "Déposer - Faisceau principal & Faisceau d'extension, moteur",
+      "code": "X2"
+    },
+    {
+      "description": "Déposer - Faisceau d'extension, moteur & Moteur",
+      "code": "X33"
+    },
+    {
+      "description": "Déposer - Faisceau principal & Faisceau d'extension, moteur",
+      "code": "X3"
+    },
+    {
+      "description": "Déposer - Faisceau principal & Moteur",
+      "code": "X35"
+    },
+    {
+      "description": "Déposer - Faisceau d'extension, moteur & Unité de contrôle Motronic",
+      "code": "X31"
+    },
+    {
+      "description": "Déposer - Faisceau principal & Moteur",
+      "code": "X36"
+    },
+    {
+      "description": "Déposer - Moteur & Unité de contrôle Motronic",
+      "code": "X32"
+    },
+    {
+      "description": "Déposer - Moteur Z20LET",
+      "code": "Z20LET"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "engine-z20let-1-AQS315",
+  "diagram": {
+    "src": "/data/assets/1a0e62895839.cgm",
+    "type": "cgm"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "title": "Folding Cover, Arbre de transmission, Côté roue,\nRemplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer l'arbre de transmission concerné du véhicule - voir l'opération « Arbre de transmission, Déposer et Reposer »",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Fixer l'arbre de transmission dans un étau à mors doux",
+          "image": {
+            "src": "/data/assets/images/eaba1aa01d5b.jpg",
+            "alt": "Object Number: 2422978  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "À l'aide de l'outil approprié, libérer les 2x agrafes (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Faire glisser le cache pliable le long de l'arbre"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/eaba1aa01d5b.jpg",
+            "alt": "Object Number: 2422978  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Retirer le joint homocinétique de l'arbre de transmission",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser un maillet à tête souple pour taper sur la bague intérieure du roulement"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer, puis jeter l'agrafe de l'arbre de transmission"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/61c05c3ac444.jpg",
+            "alt": "Object Number: 2422981  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Retirer, puis jeter le cache pliable de l'arbre de transmission",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Nettoyer tous les composants",
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le nouveau cache pliable sur l'arbre de transmission",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Positionner la nouvelle agrafe de retenue pour le cache pliable sur l'arbre"
+            }
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Reposer le joint homocinétique sur l'arbre de transmission",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer la nouvelle agrafe de retenue sur l'arbre de transmission"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Reposer le cache pliable dans la gorge de l'arbre de transmission et la gorge du joint homocinétique",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Vérifier le positionnement du cache pliable et des 2x agrafes de retenue"
+            },
+            {
+              "bullet": "•",
+              "text": "Utiliser une pince disponible dans le commerce"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Reposer l'arbre de transmission sur le véhicule - voir l'opération « Arbre de transmission, Déposer et Reposer »",
+          "number": 10,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "warnings": [
+    "Utiliser la graisse spécifiée\npour le joint homocinétique."
+  ],
+  "type": "procedure",
+  "id": "folding-cover-drive-shaft-wheel-side-replace-A26D1C"
+}

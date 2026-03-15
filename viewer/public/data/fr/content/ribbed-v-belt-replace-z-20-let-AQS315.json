@@ -1,0 +1,89 @@
+{
+  "title": "Courroie striée en V, Remplacer (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le cache moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Élever le véhicule"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 13x vis, 13x rondelle"
+            }
+          ],
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer la courroie striée en V",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Faire pivoter le tendeur (1) dans le sens des aiguilles d'une montre à l'aide d'une clé adaptée, puis",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Faire pivoter le tendeur (1) dans le sens des aiguilles d'une montre à l'aide d'une clé adaptée, puis\nReposer la goupille de blocage adaptée (2)"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a80bd56f79cd.jpg",
+            "alt": "Object Number: 2421986  Size: DEFAULT"
+          },
+          "number": 2
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer la courroie striée en V",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Faire pivoter le tendeur (1) dans le sens des aiguilles d'une montre à l'aide d'une clé adaptée, puis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a80bd56f79cd.jpg",
+            "alt": "Object Number: 2421986  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Reposer le cache moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 13x vis, 13x rondelle"
+            }
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 5,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "warnings": [
+    "Un pont élévateur à quatre colonnes doit être utilisé pour élever le véhicule lors du retrait du cache moteur.\nLe véhicule peut être déplacé vers un pont élévateur à deux colonnes pour d'autres opérations si nécessaire."
+  ],
+  "type": "procedure",
+  "id": "ribbed-v-belt-replace-z-20-let-AQS315"
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Numéro d'identification du moteur (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Le numéro d'identification du moteur est gravé sur le bord de la bride de fixation de la transmission sur le bloc-cylindres. Remarque : Avant de poser un demi-moteur, le numéro de moteur d'origine doit être gravé sur le bloc-cylindres de remplacement.",
+          "image": {
+            "src": "/data/assets/images/f6572e3ff4a6.jpg",
+            "alt": "Object Number: 2421704  Size: DEFAULT"
+          },
+          "number": 1
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "notes": [
+    "Le numéro d'identification du moteur est gravé sur le bord de la\nbride de fixation de la transmission sur le bloc-cylindres.\n Avant\nla pose d'un demi-moteur, le numéro de moteur d'origine doit être\ngravé sur le bloc-cylindres de remplacement."
+  ],
+  "type": "procedure",
+  "id": "engine-identification-number-z-20-let-AQS315"
+}

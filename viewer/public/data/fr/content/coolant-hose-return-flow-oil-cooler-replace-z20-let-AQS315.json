@@ -1,0 +1,90 @@
+{
+  "title": "Durite de liquide de refroidissement, Retour, Refroidisseur d'huile, Remplacer\n(Z20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Vidanger le système de refroidissement - voir l'opération «Système de Refroidissement, Vidanger, Remplir et Purger» Remarque : Comprend le démontage de la durite de liquide de refroidissement, retour du tuyau de retour de liquide de refroidissement.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'agrafe (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer, puis jeter l'attache-câble (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/97ecaa5b26f9.jpg",
+            "alt": "Object Number: 2422465  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer le réservoir de carburant - voir l'opération «Réservoir de Carburant, Déposer et Reposer»",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déposer la durite de liquide de refroidissement (2) du tuyau de liquide de refroidissement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer, puis enlever l'agrafe (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a49f1c56440d.jpg",
+            "alt": "Object Number: 2423059  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 3
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Transférer les 2x agrafe et manchon intérieur vers la nouvelle durite de liquide de refroidissement, retour",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Reposer la durite de liquide de refroidissement sur le tuyau de liquide de refroidissement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer l'agrafe"
+            }
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Reposer le réservoir de carburant - voir l'opération «Réservoir de Carburant, Déposer et Reposer»",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Remplir le système de refroidissement - voir l'opération «Système de Refroidissement, Vidanger, Remplir et Purger»",
+          "number": 7,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "notes": [
+    "Vidanger le système de refroidissement - voir l'opération «Système de Refroidissement,\nVidanger, Remplir et Purger»\n Comprend\nle démontage de la durite de liquide de refroidissement, retour du tuyau de retour de liquide de refroidissement.\n \n\n\n\n•  \nDéposer l'agrafe (1)\n \n\n\n\n\n\n•  \nDéposer, puis jeter l'attache-câble (2)"
+  ],
+  "type": "procedure",
+  "id": "coolant-hose-return-flow-oil-cooler-replace-z20-let-AQS315"
+}

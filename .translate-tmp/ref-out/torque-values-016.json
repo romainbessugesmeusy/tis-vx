@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Reposer roue arrière",
+      "sourcePage": "shock-absorber-replace-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Reposer vis, rondelle, nouvel écrou 45 Nm",
+      "sourcePage": "shock-absorber-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer 4x vis de roue, vis de sécurité 90 Nm",
+      "sourcePage": "shock-absorber-replace-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer barre stabilisatrice à chaque biellette",
+      "sourcePage": "stabiliser-bar-remove-and-install-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 15
+    },
+    {
+      "component": "Reposer 2x roue avant",
+      "sourcePage": "stabiliser-bar-remove-and-install-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 17
+    },
+    {
+      "component": "Reposer 2x pince pour 2x silentbloc au châssis",
+      "sourcePage": "stabiliser-bar-remove-and-install-A26D1C",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 18
+    },
+    {
+      "component": "Reposer 2x nouvel écrou 45 Nm",
+      "sourcePage": "stabiliser-bar-remove-and-install-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer 8x vis, 2x vis de sécurité 90 Nm",
+      "sourcePage": "stabiliser-bar-remove-and-install-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer 4x vis 20 Nm",
+      "sourcePage": "stabiliser-bar-remove-and-install-A26D1C",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Barre stabilisatrice avec silentblocs au châssis - entretoises, pinces, 8 vis 25 Nm, rondelles.",
+      "sourcePage": "stabiliser-remove-and-install-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 4
+    },
+    {
+      "component": "Démarreur – vis 40 Nm.",
+      "sourcePage": "starter-motor-remove-and-install-A26D1C",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": 4
+    },
+    {
+      "component": "Bras de direction au porte-moyeu - cales, vis 45 Nm.",
+      "sourcePage": "steering-arm-remove-and-install-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Bielle de direction au bras de direction - écrou 30 Nm.",
+      "sourcePage": "steering-arm-remove-and-install-A26D1C",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Reposer porte-moyeu et cales",
+      "sourcePage": "steering-arm-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Fixer triangle inférieur au porte-moyeu",
+      "sourcePage": "steering-arm-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Reposer ensemble moyeu de roue au porte-moyeu",
+      "sourcePage": "steering-arm-replace-A26D1C",
+      "value": "77",
+      "unit": "Nm",
+      "stepRef": 14
+    },
+    {
+      "component": "Pour un type antérieur de moyeu de roue, installer boulon central, 4x rondelle, écrou 45 Nm",
+      "sourcePage": "steering-arm-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 15
+    },
+    {
+      "component": "Reposer ensemble étrier de frein au porte-moyeu",
+      "sourcePage": "steering-arm-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 18
+    },
+    {
+      "component": "Reposer roue avant",
+      "sourcePage": "steering-arm-replace-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 19
+    },
+    {
+      "component": "Reposer 2x vis 45 Nm Remarque : Nettoyer les filets et appliquer du frein-filet.",
+      "sourcePage": "steering-arm-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer 3x rondelle, 3x vis 77 Nm",
+      "sourcePage": "steering-arm-replace-A26D1C",
+      "value": "77",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer 4x vis, installer vis de sécurité 90 Nm",
+      "sourcePage": "steering-arm-replace-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer joint universel au colonne de direction",
+      "sourcePage": "steering-column-remove-and-install-A26D1C",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 24
+    },
+    {
+      "component": "Fixer colonne de direction au tableau de bord",
+      "sourcePage": "steering-column-remove-and-install-A26D1C",
+      "value": "22.5",
+      "unit": "Nm",
+      "stepRef": 25
+    },
+    {
+      "component": "Fixer colonne de direction au tablier",
+      "sourcePage": "steering-column-remove-and-install-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 26
+    },
+    {
+      "component": "Reposer moyeu de volant au colonne de direction",
+      "sourcePage": "steering-column-remove-and-install-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 31
+    },
+    {
+      "component": "Installer boulon supérieur à l'arbre intermédiaire 22.5 Nm",
+      "sourcePage": "steering-column-remove-and-install-A26D1C",
+      "value": "22.5",
+      "unit": "Nm",
+      "stepRef": 37
+    },
+    {
+      "component": "Installer vis, écrou 35 Nm",
+      "sourcePage": "steering-column-remove-and-install-A26D1C",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer 2x rondelle, 2x vis 22.5 Nm",
+      "sourcePage": "steering-column-remove-and-install-A26D1C",
+      "value": "22.5",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer rondelle, vis 45 Nm",
+      "sourcePage": "steering-column-remove-and-install-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer nouvel écrou, rondelle, fixer ressort 25 Nm Remarque : Tourner la rondelle vers le haut contre l'écrou pour fixer.",
+      "sourcePage": "steering-column-remove-and-install-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer joint universel inférieur et arbre de crémaillère",
+      "sourcePage": "steering-gear-replace-A26D1C",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 20
+    },
+    {
+      "component": "Fixer 2x boulon supérieur pour crémaillère de direction 45 Nm",
+      "sourcePage": "steering-gear-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 21
+    },
+    {
+      "component": "Fixer 2x boulon supérieur pour crémaillère de direction 45 Nm",
+      "sourcePage": "steering-gear-replace-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 21
+    },
+    {
+      "component": "Installer extrémité de biellette de direction droite au bras de direction droit",
+      "sourcePage": "steering-gear-replace-A26D1C",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 23
+    },
+    {
+      "component": "Installer extrémité de biellette de direction gauche au bras de direction gauche",
+      "sourcePage": "steering-gear-replace-A26D1C",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 24
+    },
+    {
+      "component": "Installer roue avant côté gauche",
+      "sourcePage": "steering-gear-replace-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 25
+    },
+    {
+      "component": "Installer roue avant côté droit",
+      "sourcePage": "steering-gear-replace-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 26
+    },
+    {
+      "component": "Installer 2x écrou, 2x boulon à joint universel inférieur 35 Nm",
+      "sourcePage": "steering-gear-replace-A26D1C",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Fixer 2x boulon inférieur pour crémaillère de direction 22 Nm",
+      "sourcePage": "steering-gear-replace-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer nouvel écrou 30 Nm",
+      "sourcePage": "steering-gear-replace-A26D1C",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer 4x vis 90 Nm",
+      "sourcePage": "steering-gear-replace-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Ensemble volant de direction à colonne de direction – écrou (2) 25 Nm.",
+      "sourcePage": "steering-wheel-assembly-remove-and-install-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Fixer amortisseur au triangle inférieur",
+      "sourcePage": "suspension-spring-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Fixer amortisseur au châssis",
+      "sourcePage": "suspension-spring-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 11
+    },
+    {
+      "component": "Reposer roue arrière",
+      "sourcePage": "suspension-spring-replace-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Reposer vis, rondelle, nouvel écrou 45 Nm",
+      "sourcePage": "suspension-spring-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer 4x vis, vis de sécurité 90 Nm",
+      "sourcePage": "suspension-spring-replace-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer interrupteur de feu de recul à la transmission 20 Nm",
+      "sourcePage": "switch-reverse-lamp-replace-A26D1C",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Vidanger le liquide de refroidissement.",
+      "sourcePage": "thermostat-housing-remove-and-install-z-22-se-A26D1C",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 8
+    }
+  ]
+}

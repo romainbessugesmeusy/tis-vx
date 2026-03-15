@@ -1,0 +1,22 @@
+{
+  "title": "Système d'échappement, Illustration (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Illustration du système d'échappement",
+          "image": {
+            "src": "/data/assets/images/e784f5dc164b.jpg",
+            "alt": "Object Number: 2422502  Size: DEFAULT"
+          },
+          "number": 1
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "type": "procedure",
+  "id": "exhaust-system-illustration-z-20-let-AQS315"
+}

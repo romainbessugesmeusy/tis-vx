@@ -1,0 +1,22 @@
+{
+  "title": "Field Remedy: 1507",
+  "subject": "Batterie - Câble au bornier desserré",
+  "complaint": "Problème de démarrage du moteur.",
+  "cause": "Câble de batterie déconnecté après stockage mal serré.",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "Vérifier les bornes de la batterie pour un serrage correct lors de la livraison.\nCette opération est incluse dans la livraison depuis MY 2001,5."
+    }
+  ],
+  "type": "tsb",
+  "id": "battery-cable-at-terminal-loose-A26D1C",
+  "metadata": {
+    "functionalGroup": "J - Engine,N - Electrical Equipment",
+    "complaintGroup": "04 - Electrical failures,21 - Poor\nStartability,24 - Wrong or not mounted",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  },
+  "production": ""
+}

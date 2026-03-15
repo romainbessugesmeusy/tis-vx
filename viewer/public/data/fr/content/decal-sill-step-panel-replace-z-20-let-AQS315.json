@@ -1,0 +1,46 @@
+{
+  "title": "Déposer le décalcomanie du panneau de marchepied de seuil, Remplacer (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le décalcomanie (1) du panneau de marchepied de seuil",
+          "image": {
+            "src": "/data/assets/images/1f7c891b967c.jpg",
+            "alt": "Object Number: 2422977  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 1
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le nouveau décalcomanie sur le panneau de marchepied de seuil Remarque : Retirer le film protecteur du dos adhésif.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Nettoyer le panneau de marchepied de seuil"
+            }
+          ],
+          "number": 2,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "notes": [
+    "Reposer le nouveau décalcomanie sur le panneau de marchepied de seuil\n Retirer le film protecteur du dos adhésif.\n \n\n\n\n•  \nNettoyer le panneau de marchepied de seuil"
+  ],
+  "type": "procedure",
+  "id": "decal-sill-step-panel-replace-z-20-let-AQS315"
+}

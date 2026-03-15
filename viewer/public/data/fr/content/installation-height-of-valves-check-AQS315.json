@@ -1,0 +1,185 @@
+{
+  "title": "Vérifier la hauteur d'installation des soupapes",
+  "phases": [
+    {
+      "label": "Mesurer",
+      "steps": [
+        {
+          "text": "Outils spéciaux nécessaires :",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Jauges à coulisse, KM-419 (OHC I), KM-512 (OHC II), pont de mesure KM-301, comparateur MKM-571-B",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Remarque : Les valeurs spécifiques au moteur se trouvent dans les \"Données techniques\" correspondantes.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Conditions préalables :",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "La surface de joint de la culasse et les têtes de soupape sont nettoyées.",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "La hauteur d'installation des soupapes peut être vérifiée à la fois depuis le dessous et depuis le dessus de la culasse.",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "L'indentation de la soupape (I) peut être déterminée à l'aide du pont de mesure KM-301 et du comparateur MKM-571-B.",
+          "number": 9,
+          "image": null
+        }
+      ],
+      "phase": "measure",
+      "icon": "/data/assets/images/707731fa677f.gif"
+    },
+    {
+      "label": "Assembler",
+      "steps": [
+        {
+          "text": "Si l'indentation de la soupape ne peut pas être déterminée, l'extension fournie (1) doit être insérée entre l'arbre du comparateur et la sonde.",
+          "callouts": [
+            "1"
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Mesure depuis le dessous de la culasse (indentation de la soupape)",
+          "image": {
+            "src": "/data/assets/images/ac38e98b7824.jpg",
+            "alt": "Object Number: 2418488  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Si l'indentation de la soupape ne peut pas être déterminée, l'extension fournie (2) doit être insérée entre l'arbre du comparateur et la sonde.",
+          "callouts": [
+            "2"
+          ],
+          "number": 11,
+          "image": null
+        }
+      ],
+      "phase": "assemble",
+      "icon": "/data/assets/images/1e33bc0b1f5e.gif"
+    },
+    {
+      "label": "Mesurer",
+      "phase": "measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": []
+    },
+    {
+      "label": "Nettoyer",
+      "steps": [
+        {
+          "text": "Positionner le pont de mesure KM-301 (1) sur la surface de joint nettoyée, insérer le comparateur MKM-571-B sous tension préalable, serrer et régler le cadran sur zéro.",
+          "callouts": [
+            "1"
+          ],
+          "number": 10,
+          "image": null
+        }
+      ],
+      "phase": "clean",
+      "icon": "/data/assets/images/d9fe69774efb.gif"
+    },
+    {
+      "label": "Assembler",
+      "phase": "assemble",
+      "icon": "/data/assets/images/1e33bc0b1f5e.gif",
+      "steps": []
+    },
+    {
+      "label": "Inspecter",
+      "steps": [
+        {
+          "text": "Positionner le comparateur MKM-571-B avec le pont de mesure KM-301 au niveau de la tête de soupape et mesurer l'indentation de la soupape.",
+          "image": {
+            "src": "/data/assets/images/8d5d3f3e80d8.jpg",
+            "alt": "Object Number: 2418495  Size: DEFAULT"
+          },
+          "number": 12
+        },
+        {
+          "text": "L'indentation de soupape spécifiée et les dimensions se trouvent dans les \"Données techniques\".",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "La hauteur d'installation (1) des soupapes doit être mesurée depuis le dessus de la culasse à l'aide de la jauge de profondeur d'une jauge à coulisse. La mesure est prise de l'extrémité de la tige de soupape à la culasse.",
+          "image": {
+            "src": "/data/assets/images/37270f9c2f4d.jpg",
+            "alt": "Object Number: 2418496  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 14
+        },
+        {
+          "text": "La projection de soupape spécifiée et les dimensions se trouvent dans les \"Données techniques\".",
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Dans les moteurs OHC I, les mesures sont effectuées à l'aide de KM-419 et dans les moteurs OHC II à l'aide de KM-512.",
+          "image": {
+            "src": "/data/assets/images/2c9d094bf933.jpg",
+            "alt": "Object Number: 2418489  Size: DEFAULT"
+          },
+          "number": 16
+        }
+      ],
+      "phase": "inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif"
+    },
+    {
+      "label": "Inspecter",
+      "phase": "inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": []
+    },
+    {
+      "label": "Inspecter",
+      "phase": "inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": []
+    },
+    {
+      "label": "Installer",
+      "steps": [
+        {
+          "text": "Si la dimension (I) est dépassée, insérer une nouvelle soupape et vérifier à nouveau la projection de la tige de soupape. Si la projection de la tige de soupape est trop grande malgré le remplacement de la soupape, la culasse doit être remplacée.",
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Remarque : Dans les moteurs X 15 DT, X 17 DT, les bagues de siège de soupape peuvent également être remplacées. Voir \"Remplacer les bagues de siège de soupape (X 15 DT, X 17 DT)\".",
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "La projection de soupape spécifiée et les dimensions se trouvent dans les \"Données techniques\".",
+          "number": 19,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "installation-height-of-valves-check-AQS315"
+}

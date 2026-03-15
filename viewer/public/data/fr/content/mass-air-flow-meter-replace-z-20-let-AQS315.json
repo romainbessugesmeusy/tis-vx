@@ -1,0 +1,170 @@
+{
+  "title": "Remplacer le Débitmètre d'Air Massique (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Débrancher la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer le réservoir de lave-glace, puis le déplacer sur le côté"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer l'écrou, la vis"
+            }
+          ],
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Débrancher le connecteur du faisceau (1) du débitmètre d'air massique",
+          "image": {
+            "src": "/data/assets/images/595d8afa3f39.jpg",
+            "alt": "Object Number: 2421976  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Débrancher la durite de reniflard du moteur (4) de la durite d'admission d'air (3)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/595d8afa3f39.jpg",
+            "alt": "Object Number: 2421976  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "3"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Retirer la durite d'admission d'air avec le débitmètre d'air massique (2) du boîtier du filtre à air et du turbo",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/595d8afa3f39.jpg",
+            "alt": "Object Number: 2421976  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Retirer le débitmètre d'air massique de la durite d'admission d'air",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'agrafe"
+            }
+          ],
+          "number": 5,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le débitmètre d'air massique sur la durite d'admission d'air",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Reposer la durite d'admission d'air (3) avec le débitmètre d'air massique (2) sur le boîtier du filtre à air et le turbo",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer 2x agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/595d8afa3f39.jpg",
+            "alt": "Object Number: 2421976  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "2"
+          ],
+          "number": 7
+        },
+        {
+          "text": "Raccorder la durite de reniflard du moteur (4) à la durite d'admission d'air",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/595d8afa3f39.jpg",
+            "alt": "Object Number: 2421976  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ],
+          "number": 8
+        },
+        {
+          "text": "Raccorder le connecteur du faisceau (1) au débitmètre d'air massique",
+          "image": {
+            "src": "/data/assets/images/595d8afa3f39.jpg",
+            "alt": "Object Number: 2421976  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 9
+        },
+        {
+          "text": "Raccorder la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer l'écrou, la vis"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer le réservoir de lave-glace"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Programmer toutes les mémoires volatiles",
+          "number": 11,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "mass-air-flow-meter-replace-z-20-let-AQS315"
+}

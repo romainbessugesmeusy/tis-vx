@@ -1,0 +1,31 @@
+{
+  "title": "Immobiliser",
+  "components": [
+    {
+      "description": "Unité de contrôle - Multec",
+      "code": "A4"
+    },
+    {
+      "description": "Unité de contrôle - Immobiliseur",
+      "code": "A17"
+    },
+    {
+      "description": "Unité de contrôle - Motronic",
+      "code": "A5"
+    },
+    {
+      "description": "Témoin - Moteur",
+      "code": "H1.6"
+    },
+    {
+      "description": "Prise diagnostic",
+      "code": "X13"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "immobiliser-A26D1C",
+  "diagram": {
+    "src": "/data/assets/585f22926e5c.cgm",
+    "type": "cgm"
+  }
+}

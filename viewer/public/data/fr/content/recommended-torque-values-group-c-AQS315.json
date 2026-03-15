@@ -1,0 +1,48 @@
+{
+  "title": "Valeurs de couple de serrage recommandées – Groupe C",
+  "group": "C",
+  "values": [
+    {
+      "component": "Siège au plancher",
+      "value": "25",
+      "unit": "Nm"
+    },
+    {
+      "component": "Fixations, support de hard top",
+      "value": "10",
+      "unit": "Nm"
+    },
+    {
+      "component": "Ceinture de sécurité au siège (boulon d'ancrage)",
+      "value": "35",
+      "unit": "Nm"
+    },
+    {
+      "component": "Ceinture de sécurité à l'arceau de sécurité (point d'ancrage supérieur)",
+      "value": "35",
+      "unit": "Nm"
+    },
+    {
+      "component": "Enrouleur de ceinture à l'arceau de sécurité (boulon d'ancrage inférieur)",
+      "value": "35",
+      "unit": "Nm"
+    },
+    {
+      "component": "Agrafe de ceinture de sécurité au siège",
+      "value": "35",
+      "unit": "Nm"
+    },
+    {
+      "component": "Pêne de serrure de porte",
+      "value": "25",
+      "unit": "Nm"
+    },
+    {
+      "component": "Ensemble volant au support de colonne de direction, écrou",
+      "value": "25",
+      "unit": "Nm"
+    }
+  ],
+  "type": "torque_table",
+  "id": "recommended-torque-values-group-c-AQS315"
+}

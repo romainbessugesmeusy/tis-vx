@@ -1,0 +1,235 @@
+{
+  "title": "Arbre principal, Démonter et Remonter",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Illustration de l'arbre principal",
+          "image": {
+            "src": "/data/assets/images/c884c579946a.jpg",
+            "alt": "Object Number: 2417568  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer l'arbre principal - voir l'opération \"Arbre Principal, Déposer et Reposer\"",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Presser la 4ème vitesse (4) de l'arbre principal à l'aide de KM-6220 (1), KM-6223-1 (2) et KM-6223-2 (3)",
+          "image": {
+            "src": "/data/assets/images/705ff65cf13d.jpg",
+            "alt": "Object Number: 2417577  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "1",
+            "2",
+            "3"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Presser la 3ème vitesse (4) de l'arbre principal (5) à l'aide de KM-6220 (1), KM-6223-1 (2) et KM-6224 (3)",
+          "image": {
+            "src": "/data/assets/images/13176a379aa8.jpg",
+            "alt": "Object Number: 2417578  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "5",
+            "1",
+            "2",
+            "3"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Vérifier les pièces d'usure pour dommages et remplacer si nécessaire",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Retirer la 5ème vitesse (2) et la bague synchronisatrice de la 5ème vitesse (1) de l'arbre principal (3)",
+          "image": {
+            "src": "/data/assets/images/6381e42f48c1.jpg",
+            "alt": "Object Number: 2417579  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1",
+            "3"
+          ],
+          "number": 6
+        },
+        {
+          "text": "Retirer les 2x roulements à aiguilles (4, 5) de la douille",
+          "image": {
+            "src": "/data/assets/images/6381e42f48c1.jpg",
+            "alt": "Object Number: 2417579  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Vérifier les pièces d'usure pour dommages et remplacer si nécessaire Remarque : La bille (1), le curseur (2) sont sous tension de ressort. Lors du retrait du manchon de changement (4), s'assurer que la bille, le curseur et le ressort (3) ne sont pas perdus",
+          "image": {
+            "src": "/data/assets/images/b084a665044b.jpg",
+            "alt": "Object Number: 2417580  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2",
+            "4",
+            "3"
+          ],
+          "number": 8
+        },
+        {
+          "text": "Presser la marche arrière (6) avec le peigne de pression (8), le roulement à aiguilles (7), la bague synchronisatrice de marche arrière (5), le corps de synchronisation pour la 5ème/marche arrière (4) et la douille (3) de l'arbre principal (9) à l'aide de KM-6220 (1) et KM-6221 (2)",
+          "image": {
+            "src": "/data/assets/images/5ff556f05218.jpg",
+            "alt": "Object Number: 2417581  Size: DEFAULT"
+          },
+          "callouts": [
+            "6",
+            "8",
+            "7",
+            "5",
+            "4",
+            "3",
+            "9",
+            "1",
+            "2"
+          ],
+          "number": 9
+        },
+        {
+          "text": "Vérifier toutes les pièces pour dommages et remplacer les pièces endommagées si nécessaire.",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Assembler la synchronisation",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ressort"
+            },
+            {
+              "bullet": "•",
+              "text": "(II) Serrer l'arbre principal dans l'étau - utiliser des mâchoires de protection. Glisser"
+            },
+            {
+              "bullet": "•",
+              "text": "(III) Pousser légèrement le curseur vers le haut. Presser la bille contre le ressort"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3b34b50fe799.jpg",
+            "alt": "Object Number: 2415570  Size: DEFAULT"
+          },
+          "number": 11
+        },
+        {
+          "text": "Installer le peigne de pression (11), la marche arrière (9) et le roulement à aiguilles (10) sur l'arbre principal (3)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "S'assurer que le roulement à aiguilles n'est pas endommagé"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0faddd8eb473.jpg",
+            "alt": "Object Number: 2417590  Size: DEFAULT"
+          },
+          "callouts": [
+            "11",
+            "9",
+            "10",
+            "3"
+          ],
+          "number": 12
+        },
+        {
+          "text": "Installer la bague synchronisatrice de marche arrière (8), le corps de synchronisation de la 5ème/marche arrière (7) et la bague synchronisatrice de la 5ème vitesse (6) sur l'arbre principal",
+          "image": {
+            "src": "/data/assets/images/0faddd8eb473.jpg",
+            "alt": "Object Number: 2417590  Size: DEFAULT"
+          },
+          "callouts": [
+            "8",
+            "7",
+            "6"
+          ],
+          "number": 13
+        },
+        {
+          "text": "Installer la 5ème vitesse (4) et le roulement à aiguilles (5) sur l'arbre principal",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "S'assurer que le roulement à aiguilles n'est pas endommagé"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0faddd8eb473.jpg",
+            "alt": "Object Number: 2417590  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "5"
+          ],
+          "number": 14
+        },
+        {
+          "text": "Presser la 3ème vitesse sur l'arbre principal à l'aide de KM-514",
+          "image": {
+            "src": "/data/assets/images/0faddd8eb473.jpg",
+            "alt": "Object Number: 2417590  Size: DEFAULT"
+          },
+          "number": 15
+        },
+        {
+          "text": "Presser la 4ème vitesse (2) sur l'arbre principal (3) à l'aide de KM-6219 (1)",
+          "image": {
+            "src": "/data/assets/images/fc17f9f748c5.jpg",
+            "alt": "Object Number: 2417591  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "3",
+            "1"
+          ],
+          "number": 16
+        },
+        {
+          "text": "Installer l'arbre principal - voir l'opération \"Arbre Principal, Déposer et Reposer\"",
+          "number": 17,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-6220",
+    "KM-6223-1",
+    "KM-6223-2",
+    "KM-6224",
+    "KM-6221",
+    "KM-514",
+    "KM-6219"
+  ],
+  "warnings": [
+    "Si les engrenages sont endommagés, remplacer toujours l'ensemble de l'arbre principal. Obtenir les kits de réparation appropriés pour l'ensemble synchronisateur auprès du Service Après-Vente",
+    "Une force de pression élevée est nécessaire. Observer les instructions d'utilisation pour la presse d'atelier"
+  ],
+  "notes": [
+    "Vérifier les pièces d'usure pour dommages et remplacer si nécessaire\n La bille (1), le curseur\n(2) sont sous tension de ressort. Lors du retrait du manchon de changement (4),\ns'assurer que la bille, le curseur et le ressort (3) ne sont pas perdus"
+  ],
+  "type": "procedure",
+  "id": "main-shaft-disassemble-and-reassemble-A26D1C"
+}

@@ -1,0 +1,235 @@
+{
+  "title": "Remplacer le Réservoir d'Évaporation de Carburant",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Caler les roues avant",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le boulon de sécurité de la roue arrière droite",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser une douille spéciale située sous le capot avant"
+            }
+          ],
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Détacher le réservoir de lave-glace du support, puis le positionner sur le côté",
+          "image": {
+            "src": "/data/assets/images/372145f87fb3.jpg",
+            "alt": "Object Number: 2419905  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Débrancher la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Desserrer l'écrou"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/109869f7b46c.jpg",
+            "alt": "Object Number: 2429428  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Élever et soutenir le véhicule",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Soutenir le véhicule au point de levage le plus éloigné vers l'arrière"
+            }
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule à mi-hauteur",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Retirer la roue arrière droite",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser une douille spéciale située sous le capot avant"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer les 4x boulons de roue"
+            }
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Retirer le revêtement d'aile arrière, côté droit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer les 6x vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/008b2edd98e7.jpg",
+            "alt": "Object Number: 2419932  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Déposer les 3x durites (1) du réservoir d'évaporation de carburant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer les 2x agrafes (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c2606b900fbe.jpg",
+            "alt": "Object Number: 2419921  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 9
+        },
+        {
+          "text": "Retirer le réservoir d'évaporation de carburant du support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer l'écrou, la rondelle, la vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/05093654404f.jpg",
+            "alt": "Object Number: 2419922  Size: DEFAULT"
+          },
+          "number": 10
+        },
+        {
+          "text": "Reposer le nouveau réservoir d'évaporation de carburant sur le support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer la vis, la rondelle, l'écrou"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/05093654404f.jpg",
+            "alt": "Object Number: 2419922  Size: DEFAULT"
+          },
+          "number": 11
+        },
+        {
+          "text": "Fixer les 3x durites au réservoir d'évaporation de carburant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer les 2x nouvelles agrafes"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Installer le revêtement d'aile arrière, côté droit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer les 6x vis"
+            }
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Installer la roue arrière, côté droit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer les 4x boulons, le boulon de sécurité"
+            },
+            {
+              "bullet": "•",
+              "text": "Ne pas serrer"
+            }
+          ],
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Retirer le support du véhicule et abaisser celui-ci",
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Serrer la roue arrière, côté droit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer les 4x boulons, le boulon de sécurité à 90"
+            }
+          ],
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Retirer les cales des roues avant",
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Rebrancher la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer l'écrou"
+            }
+          ],
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "Fixer le réservoir de lave-glace au support",
+          "number": 19,
+          "image": null
+        },
+        {
+          "text": "Programmer toutes les mémoires volatiles",
+          "number": 20,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Serrer la roue arrière, côté droit",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 16
+    },
+    {
+      "component": "Serrer les 4x boulons, le boulon de sécurité à 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "type": "procedure",
+  "id": "fuel-evaporation-tank-replace-A26D1C"
+}

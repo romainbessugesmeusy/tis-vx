@@ -1,0 +1,162 @@
+{
+  "title": "Montage, Système d'échappement, Remplacer",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Élever le véhicule",
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer le cache sous caisse (2) du tablier arrière et le cache moteur (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 8x vis, 2x écrou, 2x agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Déposer le bouclier thermique inférieur (1) du collecteur d'échappement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 3x vis et agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3f486bb0106f.jpg",
+            "alt": "Object Number: 2425114  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Déposer le capteur d'oxygène (1) du système d'échappement",
+          "image": {
+            "src": "/data/assets/images/65a48b9fcc4f.jpg",
+            "alt": "Object Number: 2419053  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Déposer le capteur d'oxygène (1) du système d'échappement",
+          "image": {
+            "src": "/data/assets/images/5a2fff6802e4.jpg",
+            "alt": "Object Number: 2419054  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Déposer l'ensemble tuyau d'échappement/convertisseur catalytique du collecteur d'échappement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 6x écrou (1), 3x vis, joint"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8b648c8f1091.jpg",
+            "alt": "Object Number: 2425116  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Détacher le montage (2) du support",
+          "image": {
+            "src": "/data/assets/images/8b648c8f1091.jpg",
+            "alt": "Object Number: 2425116  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 7
+        },
+        {
+          "text": "Reposer le nouveau montage sur le support",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Reposer l'ensemble tuyau d'échappement/convertisseur catalytique sur le collecteur d'échappement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer le nouveau joint, 3x vis, 6x écrou"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Installer 2x capteur d'oxygène sur le système d'échappement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Appliquer une graisse spéciale au filetage du capteur d'oxygène"
+            },
+            {
+              "bullet": "•",
+              "text": "Serrer 2x capteur"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Installer le bouclier thermique inférieur sur le collecteur d'échappement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 3x vis et agrafe"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Installer le cache sous caisse sur le tablier arrière et le cache moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 8x vis, 2x écrou 2x agrafe"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 13,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "type": "procedure",
+  "id": "mounting-exhaust-system-replace-AQS315"
+}

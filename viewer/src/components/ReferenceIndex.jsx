@@ -5,7 +5,7 @@ import BookmarkButton from './BookmarkButton'
 /**
  * Reference index for browsing tools, torque values, and other technical data.
  */
-function ReferenceIndex() {
+function ReferenceIndex({ language = 'en' }) {
   const { type } = useParams()
   const [searchParams, setSearchParams] = useSearchParams()
   const [data, setData] = useState(null)
@@ -14,12 +14,14 @@ function ReferenceIndex() {
   const setSearchParamsRef = useRef(setSearchParams)
   setSearchParamsRef.current = setSearchParams
 
+  const basePath = language === 'en' ? '/data' : `/data/${language}`
+
   useEffect(() => {
-    setData(null) // Clear stale data from previous type before fetching
+    setData(null)
     setLoading(true)
     const filename = type === 'torque' ? 'torque-values.json' : `${type}.json`
     
-    fetch(`/data/references/${filename}`)
+    fetch(`${basePath}/references/${filename}`)
       .then(res => res.json())
       .then(json => {
         setData(json)
@@ -29,7 +31,7 @@ function ReferenceIndex() {
         console.error('Failed to load reference:', err)
         setLoading(false)
       })
-  }, [type])
+  }, [type, basePath])
 
   // Sync filter to URL search params (use ref to avoid infinite loop with setSearchParams)
   useEffect(() => {

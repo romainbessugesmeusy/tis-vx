@@ -1,0 +1,156 @@
+{
+  "title": "Remplacer le Réservoir de Liquide de Frein",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Ouvrir le capot avant",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le capuchon du réservoir de liquide de frein",
+          "image": {
+            "src": "/data/assets/images/57fcfc3e4aaf.jpg",
+            "alt": "Object Number: 2419898  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Vider le réservoir de liquide de frein",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser une seringue pour retirer le liquide de frein"
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déposer la durite d'embrayage (1) du réservoir de liquide de frein",
+          "image": {
+            "src": "/data/assets/images/99bd08e9af08.jpg",
+            "alt": "Object Number: 2419897  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Déposer le réservoir de liquide de frein du support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer l'attache câble"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8f4372af7657.jpg",
+            "alt": "Object Number: 2419913  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Déposer 2x durite de frein du réservoir de liquide de frein",
+          "image": {
+            "src": "/data/assets/images/0bbbf1882ef9.jpg",
+            "alt": "Object Number: 2419914  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Déposer 3x passe-fil du réservoir de liquide de frein",
+          "image": {
+            "src": "/data/assets/images/49181ad2c4cf.jpg",
+            "alt": "Object Number: 2419915  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Déposer le filtre du réservoir de liquide de frein",
+          "image": {
+            "src": "/data/assets/images/f83cef26240c.jpg",
+            "alt": "Object Number: 2419916  Size: DEFAULT"
+          },
+          "number": 8
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le filtre sur le nouveau réservoir de liquide de frein",
+          "image": {
+            "src": "/data/assets/images/f83cef26240c.jpg",
+            "alt": "Object Number: 2419916  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Reposer 3x passe-fil sur le réservoir de liquide de frein",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Fixer 2x durite de frein sur le réservoir de liquide de frein",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Emboîter"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Reposer le réservoir de liquide de frein sur le support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer l'attache câble"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Fixer la durite d'embrayage sur le réservoir de liquide de frein",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Emboîter"
+            }
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Recharger le réservoir de liquide de frein au niveau correct",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser uniquement du liquide de frein DOT 4"
+            }
+          ],
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Fixer le capuchon sur le réservoir de liquide de frein",
+          "number": 15,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "brake-fluid-reservoir-replace-AQS315"
+}

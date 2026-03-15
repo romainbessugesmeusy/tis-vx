@@ -1,0 +1,68 @@
+{
+  "title": "Démarreur, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Protection sous caisse – voir l'opération «Déposer et Reposer la Protection sous caisse» dans le Groupe A.",
+          "image": {
+            "src": "/data/assets/images/1048f26f1fc3.jpg",
+            "alt": "Object Number: 2429848  Size: DEFAULT"
+          },
+          "number": 1
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Connecteur du faisceau électrique (flèche) du démarreur.",
+          "image": {
+            "src": "/data/assets/images/1048f26f1fc3.jpg",
+            "alt": "Object Number: 2429848  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Démarreur – vis.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Démarreur – vis 40 Nm .",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Connecteur du faisceau électrique (flèche) au démarreur.",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Protection sous caisse – voir l'opération «Déposer et Reposer la Protection sous caisse» dans le Groupe A.",
+          "image": {
+            "src": "/data/assets/images/1048f26f1fc3.jpg",
+            "alt": "Object Number: 2429848  Size: DEFAULT"
+          },
+          "number": 6
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Démarreur – vis 40 Nm .",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": 4
+    }
+  ],
+  "type": "procedure",
+  "id": "starter-motor-remove-and-install-A26D1C"
+}

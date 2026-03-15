@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Reposer le boîtier de thermostat.",
+      "sourcePage": "thermostat-housing-remove-and-install-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 19
+    },
+    {
+      "component": "Reposer le bouclier thermique supérieur.",
+      "sourcePage": "thermostat-housing-remove-and-install-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 23
+    },
+    {
+      "component": "Fixer le bouclier thermique inférieur.",
+      "sourcePage": "thermostat-housing-remove-and-install-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 24
+    },
+    {
+      "component": "Reposer le cache arrière du moteur.",
+      "sourcePage": "thermostat-housing-remove-and-install-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 26
+    },
+    {
+      "component": "Couple de serrage 20 Nm",
+      "sourcePage": "thermostat-housing-remove-and-install-z-22-se-A26D1C",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "sourcePage": "thermostat-housing-remove-and-install-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 23 Nm",
+      "sourcePage": "thermostat-housing-remove-and-install-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 8 Nm",
+      "sourcePage": "thermostat-housing-remove-and-install-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 vis, couple de serrage 14 Nm",
+      "sourcePage": "thermostat-housing-remove-and-install-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couvercle de thermostat au boîtier de thermostat – 2 vis (flèche) 10 Nm .",
+      "sourcePage": "thermostat-remove-and-install-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Serrer l'écrou de blocage sur l'extrémité de la biellette de direction 30 Nm .",
+      "sourcePage": "tie-rod-end-remove-and-install-A26D1C",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Roue avant au véhicule – boulons 90 Nm .",
+      "sourcePage": "tie-rod-end-remove-and-install-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Vidanger l'huile moteur.",
+      "sourcePage": "timing-case-remove-and-install-z-22-se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Reposer le carter de distribution. Remarque: Retirer le chiffon de l'ouverture dans le carter de distribution.",
+      "sourcePage": "timing-case-remove-and-install-z-22-se-A26D1C",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": 23
+    },
+    {
+      "component": "Fixer le bloc d'amortissement du moteur droit.",
+      "sourcePage": "timing-case-remove-and-install-z-22-se-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 26
+    },
+    {
+      "component": "Fixer le support de bloc d'amortissement du moteur droit.",
+      "sourcePage": "timing-case-remove-and-install-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 27
+    },
+    {
+      "component": "Fixer le bloc d'amortissement du moteur arrière.",
+      "sourcePage": "timing-case-remove-and-install-z-22-se-A26D1C",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 28
+    },
+    {
+      "component": "Fixer le support pour les câbles de changement de vitesse.",
+      "sourcePage": "timing-case-remove-and-install-z-22-se-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 30
+    },
+    {
+      "component": "Fixer l'amortisseur de vibrations de rotation (2).",
+      "sourcePage": "timing-case-remove-and-install-z-22-se-A26D1C",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": 31
+    },
+    {
+      "component": "Fixer la poulie tendeur de courroie striée. Remarque: La patte (1) de la poulie tendeur de courroie striée s'engage dans le trou du carter de distribution (2).",
+      "sourcePage": "timing-case-remove-and-install-z-22-se-A26D1C",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": 32
+    },
+    {
+      "component": "Reposer le tuyau d'échappement avant.",
+      "sourcePage": "timing-case-remove-and-install-z-22-se-A26D1C",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": 34
+    },
+    {
+      "component": "Reposer le bouclier thermique inférieur.",
+      "sourcePage": "timing-case-remove-and-install-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 37
+    },
+    {
+      "component": "Reposer le cache moteur.",
+      "sourcePage": "timing-case-remove-and-install-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 39
+    },
+    {
+      "component": "Couple de serrage 25 Nm",
+      "sourcePage": "timing-case-remove-and-install-z-22-se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 21 Nm",
+      "sourcePage": "timing-case-remove-and-install-z-22-se-A26D1C",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 45 Nm",
+      "sourcePage": "timing-case-remove-and-install-z-22-se-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 85 Nm",
+      "sourcePage": "timing-case-remove-and-install-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 49 Nm",
+      "sourcePage": "timing-case-remove-and-install-z-22-se-A26D1C",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 22 Nm",
+      "sourcePage": "timing-case-remove-and-install-z-22-se-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 100 Nm + 75° + 15°",
+      "sourcePage": "timing-case-remove-and-install-z-22-se-A26D1C",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 43 Nm",
+      "sourcePage": "timing-case-remove-and-install-z-22-se-A26D1C",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 16 Nm",
+      "sourcePage": "timing-case-remove-and-install-z-22-se-A26D1C",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 8 Nm",
+      "sourcePage": "timing-case-remove-and-install-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 vis, couple de serrage 14 Nm",
+      "sourcePage": "timing-case-remove-and-install-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Vidanger l'huile moteur.",
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 22
+    },
+    {
+      "component": "Reposer les rails de guidage de chaîne de distribution d'arbre d'équilibrage (1).",
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 51
+    },
+    {
+      "component": "Reposer le rail de tension de chaîne de distribution d'arbre d'équilibrage (1).",
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 52
+    },
+    {
+      "component": "Reposer le tendeur de chaîne de distribution d'arbre d'équilibrage.",
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 53
+    },
+    {
+      "component": "Reposer le pignon d'arbre à cames d'admission.",
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 57
+    },
+    {
+      "component": "Reposer le rail de tension de chaîne de distribution d'arbre à cames.",
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 60
+    },
+    {
+      "component": "Reposer le rail de guidage de chaîne de distribution d'arbre à cames (1).",
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 61
+    },
+    {
+      "component": "Reposer le rail de guidage de chaîne de distribution d'arbre à cames.",
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 63
+    },
+    {
+      "component": "Reposer le rail de guidage de chaîne de distribution d'arbre à cames.",
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": 63
+    },
+    {
+      "component": "Reposer le pignon d'arbre à cames d'échappement.",
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 64
+    },
+    {
+      "component": "Reposer le rail de guidage.",
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 66
+    },
+    {
+      "component": "Reposer le tendeur de chaîne de distribution d'arbre à cames.",
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 67
+    },
+    {
+      "component": "Reposer le carter de distribution. Remarque: Retirer le coin en plastique et le chiffon de l'ouverture dans le carter de distribution.",
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": 73
+    },
+    {
+      "component": "Fixer le bloc d'amortissement du moteur droit.",
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 76
+    },
+    {
+      "component": "Fixer le support de bloc d'amortissement du moteur droit.",
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 77
+    },
+    {
+      "component": "Fixer le bloc d'amortissement du moteur arrière.",
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": 78
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Field Remedy: 1959",
+  "subject": "Moteur Z20LET, Turbo - Refroidissement\nmodifié",
+  "complaint": "Raccordement de refroidissement du nouveau turbo P&A\n(partie n° 55559848 / numéro de catalogue : 58 490 40) ne\ns'adapte pas à la Speedster/VX220.",
+  "cause": "Refroidissement du turbo modifié.",
+  "production": "Introduction du nouveau refroidissement du turbo\nà partir de MY2006 sur les moteurs Z20LER/LEL/LET.",
+  "remedyContent": [
+    {
+      "type": "paragraph",
+      "text": "En cas de remplacement du turbo (partie n° : 55559848 /\nnuméro de catalogue : 58 490 40) sur la Speedster/VX220, le nouveau turbo P&A doit être modifié comme suit."
+    },
+    {
+      "type": "paragraph",
+      "text": "Déposer le tuyau de refroidissement supérieur. Démonter le bouchon (monté\nlatéralement sur le carter de palier) et le reposer avec un nouveau joint\nau lieu du tuyau de refroidissement. Joint de référence : 11016282 /\nnuméro de catalogue : 20 91 057."
+    }
+  ],
+  "type": "tsb",
+  "id": "engine-z20let-turbocharger-modified-cooling-AQS315",
+  "metadata": {
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "24 - Wrong or not mounted",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  }
+}

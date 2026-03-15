@@ -1,0 +1,129 @@
+{
+  "title": "Triangle inférieur déposer et reposer A26D1C",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Triangle inférieur, Déposer et Reposer",
+          "number": 1,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    },
+    {
+      "label": "Déposer, Déconnecter",
+      "steps": [
+        {
+          "text": "Agrafes pour durite de frein et câble de frein de stationnement du triangle inférieur - écrous.",
+          "image": {
+            "src": "/data/assets/images/ad99b47bc38c.jpg",
+            "alt": "Object Number: 2429708  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Amortisseur du triangle inférieur - vis, écrou (1), rondelles.",
+          "callouts": [
+            "1"
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Rotule inférieure du moyeu de roue - écrou; utiliser un extracteur de rotule adapté (l'illustration montre le moyeu de roue et l'arbre de transmission retirés pour plus de clarté).",
+          "image": {
+            "src": "/data/assets/images/4c4f511ecf25.jpg",
+            "alt": "Object Number: 2429738  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Bielle de direction (2) du triangle inférieur et châssis - écrou, rondelles.",
+          "image": {
+            "src": "/data/assets/images/b25a5c2a4c6b.jpg",
+            "alt": "Object Number: 2429912  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Triangle inférieur (1) du châssis - vis au point de pivot avant, rondelle.",
+          "callouts": [
+            "1"
+          ],
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/4b8970d41392.jpg"
+    },
+    {
+      "label": "Reposer, Connecter",
+      "steps": [
+        {
+          "text": "Triangle inférieur au châssis - vis 45 Nm au point de pivot avant, rondelle.",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Bielle de direction au triangle inférieur et châssis - écrou 49 Nm, rondelles.",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Rotule inférieure au moyeu de roue - écrou.",
+          "image": {
+            "src": "/data/assets/images/4c4f511ecf25.jpg",
+            "alt": "Object Number: 2429738  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Amortisseur au triangle inférieur - vis, écrou 45 Nm, rondelles.",
+          "image": {
+            "src": "/data/assets/images/ad99b47bc38c.jpg",
+            "alt": "Object Number: 2429708  Size: DEFAULT"
+          },
+          "number": 10
+        },
+        {
+          "text": "Agrafes pour durite de frein et câble de frein de stationnement au triangle inférieur - écrous.",
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Ensemble roulement de roue au moyeu de roue - voir l'opération « Ensemble Roulement de Roue, Déposer et Reposer ».",
+          "image": {
+            "src": "/data/assets/images/ebec651d6b3d.jpg",
+            "alt": "Object Number: 2429683  Size: DEFAULT"
+          },
+          "number": 12
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/57d894c25c39.jpg"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Triangle inférieur au châssis - vis 45 Nm au point de pivot avant, rondelle.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Bielle de direction au triangle inférieur et châssis - écrou 49 Nm, rondelles.",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 8
+    }
+  ],
+  "type": "procedure",
+  "id": "lower-wishbone-remove-and-install-A26D1C"
+}

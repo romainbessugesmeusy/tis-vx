@@ -1,0 +1,22 @@
+{
+  "title": "Field Remedy: 1728",
+  "subject": "Engines (all) - Usage of engine oil\nadditives",
+  "complaint": "Usage of engine oil additives",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "Une enquête interne en laboratoire et sur banc d'essai moteur a révélé que l'utilisation d'additifs d'huile non homologués entraînera une augmentation de la consommation d'huile moteur. Dans certains cas, la consommation d'huile mesurée a augmenté de 100%. Les moteurs Opel modernes en combinaison avec une huile moteur de haute qualité n'ont pas besoin d'additifs. Par conséquent, l'utilisation de tout additif d'huile moteur non homologué par Opel est désapprouvée. Toutes les réclamations de garantie associées seront rejetées."
+    }
+  ],
+  "type": "tsb",
+  "id": "engines-all-usage-of-engine-oil-additives-A26D1C",
+  "metadata": {
+    "functionalGroup": "J - Engine",
+    "models": null,
+    "engines": null,
+    "complaintGroup": "",
+    "troubleCode": ""
+  },
+  "cause": "",
+  "production": ""
+}

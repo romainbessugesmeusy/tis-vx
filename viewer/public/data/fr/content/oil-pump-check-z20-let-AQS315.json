@@ -1,0 +1,183 @@
+{
+  "title": "Vérifier la pompe à huile (Z20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer la pompe à huile, voir l'opération «Remplacer la pompe à huile»",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le couvercle arrière de la pompe à huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 5x vis"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer les engrenages du corps de la pompe à huile"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer la soupape de régulation de pression du corps de la pompe à huile"
+            }
+          ],
+          "number": 2,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Nettoyer",
+      "steps": [
+        {
+          "text": "Nettoyer les engrenages intérieurs et extérieurs ainsi que le corps de la pompe à huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Vérifier les engrenages intérieurs et extérieurs ainsi que le corps de la pompe à huile pour détecter des signes d'usure"
+            },
+            {
+              "bullet": "•",
+              "text": "Nettoyer, vérifier la soupape de régulation de pression pour détecter des signes d'usure"
+            }
+          ],
+          "number": 3,
+          "image": null
+        }
+      ],
+      "phase": "clean",
+      "icon": "/data/assets/images/d9fe69774efb.gif"
+    },
+    {
+      "label": "Inspecter",
+      "steps": [
+        {
+          "text": "Installer les engrenages de la pompe à huile sur le corps de la pompe à huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Positionner les repères d'alignement (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c3f53f60c65c.jpg",
+            "alt": "Object Number: 2422928  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Vérifier la mesure latérale entre les engrenages et la règle (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "0,03 mm à 0,10 mm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c3f53f60c65c.jpg",
+            "alt": "Object Number: 2422928  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 5
+        }
+      ],
+      "phase": "inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le couvercle arrière sur la pompe à huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer 5x vis à 8 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Utiliser une nouvelle rondelle d'étanchéité"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Retirer le joint d'étanchéité avant du vilebrequin de la pompe à huile, puis le jeter",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Nettoyer le siège du joint d'étanchéité du vilebrequin"
+            }
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Installer un nouveau joint d'étanchéité avant du vilebrequin sur la pompe à huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser l'outil de pose KM-693"
+            },
+            {
+              "bullet": "•",
+              "text": "Appliquer de la graisse sur le joint"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Installer la pompe à huile, voir l'opération «Remplacer la pompe à huile»",
+          "number": 9,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer le couvercle arrière sur la pompe à huile",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Reposer le couvercle arrière sur la pompe à huile",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Serrer 5x vis à 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer la soupape de régulation de pression sur le corps de la pompe à huile 50 Nm – Utiliser une nouvelle rondelle d'étanchéité",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-693"
+  ],
+  "warnings": [
+    "Si les mesures sont\nen dehors de la plage spécifiée, Installer une nouvelle pompe."
+  ],
+  "type": "procedure",
+  "id": "oil-pump-check-z20-let-AQS315"
+}

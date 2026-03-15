@@ -1,0 +1,51 @@
+{
+  "title": "Radio",
+  "components": [
+    {
+      "description": "Déposer l'unité de contrôle - Système de freinage antiblocage",
+      "code": "A2"
+    },
+    {
+      "description": "Déposer le haut-parleur - Arrière, droit",
+      "code": "B39"
+    },
+    {
+      "description": "Déposer la radio",
+      "code": "A14"
+    },
+    {
+      "description": "Déposer l'unité de commutation - Feux",
+      "code": "S2"
+    },
+    {
+      "description": "Déposer le haut-parleur - Avant, gauche",
+      "code": "B36"
+    },
+    {
+      "description": "Déposer l'interrupteur - Feu de stationnement",
+      "code": "S4"
+    },
+    {
+      "description": "Déposer le haut-parleur - Avant, droit",
+      "code": "B37"
+    },
+    {
+      "description": "Déposer l'interrupteur - Feu de recul",
+      "code": "S31"
+    },
+    {
+      "description": "Déposer le haut-parleur - Arrière, gauche",
+      "code": "B38"
+    },
+    {
+      "description": "Déposer l'antenne - Radio",
+      "code": "W6"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "radio-AQS315",
+  "diagram": {
+    "src": "/data/assets/75dbc1c0216a.cgm",
+    "type": "cgm"
+  }
+}

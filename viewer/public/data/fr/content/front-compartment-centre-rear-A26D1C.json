@@ -1,0 +1,19 @@
+{
+  "title": "Compartiment avant - Centre, arrière",
+  "components": [
+    {
+      "description": "Moteur - Ventilateur, habitacle passager",
+      "code": "M12"
+    },
+    {
+      "description": "Prérésistance - Ventilateur, chauffage",
+      "code": "R11"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "front-compartment-centre-rear-A26D1C",
+  "diagram": {
+    "src": "/data/assets/33a06eb6ea1f.cgm",
+    "type": "cgm"
+  }
+}

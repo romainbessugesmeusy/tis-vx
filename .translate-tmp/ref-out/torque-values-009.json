@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Déposer les fixations inférieures des 2x supports de hard top",
+      "sourcePage": "hard-top-adjust-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Déposer les fixations supérieures des 2x supports arrière de hard top",
+      "sourcePage": "hard-top-adjust-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Serrer 4x vis à 10 Nm Remarque : Maintenir un contact maximal avec le joint d'étanchéité avant",
+      "sourcePage": "hard-top-adjust-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer le support de joint pivotant sur le support de moyeu",
+      "sourcePage": "hub-carrier-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Reposer le bras de suspension de voie sur le support de moyeu",
+      "sourcePage": "hub-carrier-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 14
+    },
+    {
+      "component": "Reposer la rotule du triangle inférieur sur le support de moyeu",
+      "sourcePage": "hub-carrier-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 15
+    },
+    {
+      "component": "Reposer l'arbre de transmission sur le moyeu de roue",
+      "sourcePage": "hub-carrier-replace-A26D1C",
+      "value": "220",
+      "unit": "Nm",
+      "stepRef": 17
+    },
+    {
+      "component": "Reposer l'étrier de frein sur le support de moyeu",
+      "sourcePage": "hub-carrier-replace-A26D1C",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": 18
+    },
+    {
+      "component": "Reposer le disque de frein sur le support de moyeu",
+      "sourcePage": "hub-carrier-replace-A26D1C",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": 19
+    },
+    {
+      "component": "Serrer 2x vis à 45 Nm",
+      "sourcePage": "hub-carrier-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer l'écrou à 220 Nm",
+      "sourcePage": "hub-carrier-replace-A26D1C",
+      "value": "220",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer la vis à 48 Nm",
+      "sourcePage": "hub-carrier-replace-A26D1C",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer la vis à 12 Nm",
+      "sourcePage": "hub-carrier-replace-A26D1C",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Fermer la vanne et déposer la durite, serrer la vanne – 9 Nm",
+      "sourcePage": "hydraulic-clutch-bleed-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 11
+    },
+    {
+      "component": "En travaillant en spirale du centre vers l'extérieur, serrer les boulons des chapeaux de palier d'arbre à cames (I à VI) par étapes",
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 32
+    },
+    {
+      "component": "En travaillant en spirale du centre vers l'extérieur, serrer les boulons des chapeaux de palier d'arbre à cames (I à VI) par étapes",
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 32
+    },
+    {
+      "component": "Fixer le couvercle de flasque de liaison d'arbre à cames",
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 33
+    },
+    {
+      "component": "Fixer le pignon d'arbre à cames d'admission",
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 34
+    },
+    {
+      "component": "Fixer le pignon d'arbre à cames d'échappement",
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 35
+    },
+    {
+      "component": "Reposer le tendeur de chaîne de distribution d'arbre à cames",
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 36
+    },
+    {
+      "component": "Reposer le rail de guidage",
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 39
+    },
+    {
+      "component": "Fixer le couvercle de culasse",
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 46
+    },
+    {
+      "component": "Fixer le couvercle de culasse",
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 46
+    },
+    {
+      "component": "Fixer le module d'allumage",
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 47
+    },
+    {
+      "component": "Connecter les conduites de carburant",
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 48
+    },
+    {
+      "component": "Connecter les conduites de carburant",
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 48
+    },
+    {
+      "component": "Reposer le couvercle arrière du moteur",
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 49
+    },
+    {
+      "component": "Couple de serrage (M6) 9 Nm , (M8) 22 Nm",
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage (M6) 9 Nm , (M8) 22 Nm",
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 23 Nm",
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 85 Nm + 30° + 15°",
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 75 Nm",
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 8 Nm",
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 10 Nm",
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 vis, couple de serrage 14 Nm",
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer l'unité d'airbag",
+      "sourcePage": "immobiliser-control-unit-replace-A26D1C",
+      "value": "7",
+      "unit": "Nm",
+      "stepRef": 17
+    },
+    {
+      "component": "Reposer 2x vis à 7 Nm",
+      "sourcePage": "immobiliser-control-unit-replace-A26D1C",
+      "value": "7",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer le boîtier de papillon",
+      "sourcePage": "intake-manifold-pressure-sensor-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Reposer la conduite d'admission d'air",
+      "sourcePage": "intake-manifold-pressure-sensor-replace-z-22-se-A26D1C",
+      "value": "5",
+      "unit": "Nm",
+      "stepRef": 14
+    },
+    {
+      "component": "Reposer le couvercle arrière du moteur",
+      "sourcePage": "intake-manifold-pressure-sensor-replace-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 15
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "sourcePage": "intake-manifold-pressure-sensor-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 3,5 Nm",
+      "sourcePage": "intake-manifold-pressure-sensor-replace-z-22-se-A26D1C",
+      "value": "5",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 vis, couple de serrage 14 Nm",
+      "sourcePage": "intake-manifold-pressure-sensor-replace-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Collecteur d'admission sur culasse – écrous 10 Nm , utiliser de nouveaux joints",
+      "sourcePage": "intake-manifold-remove-and-install-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 15
+    },
+    {
+      "component": "Tube de guidage sur collecteur d'admission – vis (flèche) 10 Nm",
+      "sourcePage": "intake-manifold-remove-and-install-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Capteur de contrôle de cliquetis (1) sur le moteur – vis 25 Nm",
+      "sourcePage": "knock-control-sensor-remove-and-install-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 4
+    },
+    {
+      "component": "Reposer la sonde lambda pour le contrôle du convertisseur catalytique. Remarque : Lors de la réutilisation de la sonde lambda, enduire le filetage de graisse spéciale (noire)",
+      "sourcePage": "lambda-probe-post-catalytic-converter-replace-z-22-se-A26D1C",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": 11
+    },
+    {
+      "component": "Fixer la roue arrière",
+      "sourcePage": "lambda-probe-post-catalytic-converter-replace-z-22-se-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 17
+    },
+    {
+      "component": "Couple de serrage 40 Nm",
+      "sourcePage": "lambda-probe-post-catalytic-converter-replace-z-22-se-A26D1C",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 4x vis, vis de sécurité ( 90 Nm )",
+      "sourcePage": "lambda-probe-post-catalytic-converter-replace-z-22-se-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

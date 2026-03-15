@@ -1,0 +1,30 @@
+{
+  "title": "Plaque de marchepied, Porte, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Plaque de marchepied de l'ouverture de porte – vis, agrafes.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Plaque de marchepied à l'ouverture de porte – agrafes, vis.",
+          "number": 2,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "tread-plate-door-remove-and-install-A26D1C"
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Field Remedy: 1607",
+  "subject": "HFM, Turbocharger - No power, engine\njerks, black smoke, P0100 stored in ECU",
+  "complaint": "Déposer le cache, moteur sans puissance, à-coups, fumée noire, P0100\nstocké dans l'ECU.",
+  "cause": "Durite du turbo desserrée côté turbo -> le moteur perd de la pression.",
+  "production": "Processus d'installation amélioré à partir du VIN\nW0L0EBR973N006484 .",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "En cas de réclamation du client, vérifier le bon raccordement de la durite entre\nturbo et intercooler. \nSerrer l'agrafe côté turbo à 4 Nm."
+    },
+    {
+      "type": "paragraph",
+      "text": "Remarque : Le remplacement du HFM ne résout pas le problème."
+    }
+  ],
+  "type": "tsb",
+  "id": "hfm-turbocharger-no-power-engine-jerks-black-smoke-p0100-sto-AQS315",
+  "metadata": {
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "06 - Failure Code Setting by Control\nUnit",
+    "troubleCode": "P0100",
+    "models": null,
+    "engines": null
+  }
+}

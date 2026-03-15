@@ -1,0 +1,33 @@
+{
+  "title": "Allumage, Primaire",
+  "steps": [
+    {
+      "text": "Déposer la courbe de référence.",
+      "number": 1
+    },
+    {
+      "text": "Démarrer le moteur et le laisser au ralenti.",
+      "number": 2
+    },
+    {
+      "text": "Reposer le fichier de configuration (le Tech 32 n'utilise que des fichiers de configuration, pas de courbes de référence).",
+      "number": 1
+    },
+    {
+      "text": "Démarrer le moteur et le laisser au ralenti.",
+      "number": 2
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/4646034f5871.jpg",
+      "alt": "Numéro d'objet : 2400981  Taille : DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/2185eae63d3c.jpg",
+      "alt": "Numéro d'objet : 2419073  Taille : DEFAULT"
+    }
+  ],
+  "type": "diagnostic",
+  "id": "ignition-primary-AQS315"
+}

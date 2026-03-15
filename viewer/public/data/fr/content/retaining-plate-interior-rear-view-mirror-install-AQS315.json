@@ -1,0 +1,94 @@
+{
+  "title": "Plaque de retenue, Miroir intérieur,\nReposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer la plaque de retenue du miroir intérieur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer la vis"
+            }
+          ],
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Nettoyer la zone adhésive du pare-brise",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser un nettoyant pour vitres"
+            }
+          ],
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Poncer légèrement la surface d'étanchéité de la plaque de retenue",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser uniquement un grain P100"
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Nettoyer la surface d'étanchéité de la plaque de retenue",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le miroir intérieur sur le pare-brise",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Mesurer une distance de 95 mm vers le bas"
+            },
+            {
+              "bullet": "•",
+              "text": "Mesurer une distance de 80 mm"
+            },
+            {
+              "bullet": "•",
+              "text": "Utiliser un adhésif spécial"
+            },
+            {
+              "bullet": "•",
+              "text": "Reposer la vis",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Reposer la vis\n Note:   La position de la\nplaque de retenue du miroir intérieur sur le pare-brise dépend\ndu véhicule à conduite à gauche ou à droite"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a546575e77f1.jpg",
+            "alt": "Object Number: 2419912  Size: DEFAULT"
+          },
+          "number": 5
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "notes": [
+    "Reposer la vis\n La position de la\nplaque de retenue du miroir intérieur sur le pare-brise dépend\ndu véhicule à conduite à gauche ou à droite"
+  ],
+  "type": "procedure",
+  "id": "retaining-plate-interior-rear-view-mirror-install-AQS315"
+}

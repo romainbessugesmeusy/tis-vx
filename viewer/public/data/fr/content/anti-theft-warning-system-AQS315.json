@@ -1,0 +1,63 @@
+{
+  "title": "Système d'alarme antivol",
+  "components": [
+    {
+      "description": "Unité de contrôle - Verrouillage central",
+      "code": "A12"
+    },
+    {
+      "description": "Lampe clignotante - Côté, droit",
+      "code": "H7"
+    },
+    {
+      "description": "Unité de contrôle - Système d'alarme antivol",
+      "code": "A13"
+    },
+    {
+      "description": "Indicateur - Système d'alarme antivol",
+      "code": "H11"
+    },
+    {
+      "description": "Sirène - Système d'alarme antivol",
+      "code": "B48"
+    },
+    {
+      "description": "Interrupteur - Capot moteur, système d'alarme antivol",
+      "code": "S16"
+    },
+    {
+      "description": "Capteur - Unité d'alarme antivol, habitacle passager",
+      "code": "B121"
+    },
+    {
+      "description": "Interrupteur de contact - Porte conducteur",
+      "code": "S38"
+    },
+    {
+      "description": "Témoin - Changement de vitesse/Haut-parleur, système d'alarme antivol",
+      "code": "H1.76"
+    },
+    {
+      "description": "Interrupteur de contact - Porte passager avant",
+      "code": "S39"
+    },
+    {
+      "description": "Lampe clignotante - Côté, gauche",
+      "code": "H6"
+    },
+    {
+      "description": "Interrupteur - Capot avant, système d'alarme antivol",
+      "code": "S126"
+    },
+    {
+      "description": "Prise diagnostic",
+      "code": "X13"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "anti-theft-warning-system-AQS315",
+  "diagram": {
+    "src": "/data/assets/6f2f9b53f108.cgm",
+    "type": "cgm"
+  }
+}

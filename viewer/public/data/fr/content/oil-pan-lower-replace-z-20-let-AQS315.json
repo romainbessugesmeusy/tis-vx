@@ -1,0 +1,236 @@
+{
+  "title": "Carter d'huile inférieur, Remplacer (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le cache-moteur (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Élever le véhicule"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 13x vis, 13x rondelle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 1
+        },
+        {
+          "text": "Déposer le cache du tuyau d'échappement (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 12x vis, 12x rondelle, 2x agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Déposer le boulon de vidange (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Positionner un récipient de collecte"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer, puis jeter le joint torique"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0d1b48368755.jpg",
+            "alt": "Object Number: 2422654  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Détacher le carter d'huile inférieur du carter d'huile supérieur Remarque : Soutenir le carter d'huile inférieur lors du retrait pour éviter d'endommager le faisceau du capteur de niveau d'huile.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 16x vis (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0d1b48368755.jpg",
+            "alt": "Object Number: 2422654  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Détacher le capteur de niveau d'huile du carter d'huile inférieur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 2x vis"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer, puis jeter le joint de carter d'huile"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0d1b48368755.jpg",
+            "alt": "Object Number: 2422654  Size: DEFAULT"
+          },
+          "number": 5
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Fixer le capteur de niveau d'huile au carter d'huile inférieur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 2x vis 8 Nm"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Reposer le carter d'huile inférieur sur le carter d'huile supérieur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer un nouveau joint de carter d'huile"
+            },
+            {
+              "bullet": "•",
+              "text": "Serrer 16x vis à 8 Nm"
+            }
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Installer le boulon de vidange à 10 Nm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Lubrifier le nouveau joint torique"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Remplir le moteur jusqu'au niveau d'huile correct",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Démarrer et faire tourner le moteur jusqu'à extinction du voyant d'huile"
+            },
+            {
+              "bullet": "•",
+              "text": "Vérifier le niveau d'huile, ajuster si nécessaire"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Élever le véhicule",
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Installer le cache-moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 13x vis, 13x rondelle"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Installer le cache du tuyau d'échappement (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 12x vis, 12x rondelle, 2x agrafe"
+            }
+          ],
+          "callouts": [
+            "2"
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 14,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Fixer le capteur de niveau d'huile au carter d'huile inférieur",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Reposer le carter d'huile inférieur sur le carter d'huile supérieur",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Installer le boulon de vidange à 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Reposer 2x vis 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "Un pont élévateur à quatre colonnes doit être utilisé pour élever le véhicule lors du retrait du cache-moteur et du cache du tuyau d'échappement. Le véhicule peut être déplacé vers un pont élévateur à deux colonnes pour d'autres opérations si nécessaire."
+  ],
+  "notes": [
+    "Détacher le carter d'huile inférieur du carter d'huile supérieur\n Soutenir le carter d'huile inférieur lors du retrait pour éviter d'endommager le faisceau du capteur de niveau d'huile.\n \n\n\n\n•  \nRetirer 16x vis (2)"
+  ],
+  "type": "procedure",
+  "id": "oil-pan-lower-replace-z-20-let-AQS315"
+}

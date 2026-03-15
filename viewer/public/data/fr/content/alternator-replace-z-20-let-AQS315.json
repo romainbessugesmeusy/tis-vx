@@ -1,0 +1,463 @@
+{
+  "title": "Remplacer l'alternateur (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Débrancher la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer le réservoir de lave-glace, puis déplacer sur le côté"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer l'écrou, la vis"
+            }
+          ],
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déconnecter la durite d'intercooler (1) du boîtier papillon",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a79e1327b639.jpg",
+            "alt": "Object Number: 2421977  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Déposer le support supérieur de l'alternateur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer la vis (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a79e1327b639.jpg",
+            "alt": "Object Number: 2421977  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Déposer le support latéral de l'alternateur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer la vis (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer la vis du collecteur d'admission"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a79e1327b639.jpg",
+            "alt": "Object Number: 2421977  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Déposer le cache inférieur du moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Élever le véhicule"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer 13x vis, 13x rondelle"
+            }
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Retirer la courroie striée en V",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "À l'aide d'une clé adaptée, tourner le tendeur (1) dans le sens des aiguilles d'une montre, puis",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "À l'aide d'une clé adaptée, tourner le tendeur (1) dans le sens des aiguilles d'une montre, puis\nInstaller la goupille de verrouillage adaptée (2)"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a80bd56f79cd.jpg",
+            "alt": "Object Number: 2421986  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Déconnecter les 2x connecteurs du faisceau de l'alternateur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 2x écrou (1), 2x rondelle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3daffe7e2620.jpg",
+            "alt": "Object Number: 2421978  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Déconnecter le connecteur du faisceau (4) du capteur de pression d'huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Libérer l'agrafe intégrée"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3daffe7e2620.jpg",
+            "alt": "Object Number: 2421978  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ],
+          "number": 8
+        },
+        {
+          "text": "Retirer l'alternateur avec le support inférieur du moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 2x vis (2)"
+            },
+            {
+              "bullet": "•–",
+              "text": "Libérer le faisceau de l'alternateur de l'agrafe sur le support de faisceau",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Libérer 2x tuyau d'huile du support de faisceau"
+                },
+                {
+                  "bullet": "–",
+                  "text": "Libérer le faisceau de l'alternateur de l'agrafe sur le support de faisceau\nde tuyau d'huile"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3daffe7e2620.jpg",
+            "alt": "Object Number: 2421978  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Retirer le support inférieur de l'alternateur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer la vis (3), l'écrou"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3daffe7e2620.jpg",
+            "alt": "Object Number: 2421978  Size: DEFAULT"
+          },
+          "number": 10
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le support inférieur de l'alternateur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer l'écrou, la vis (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Ne pas serrer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6bcb3c2744f3.jpg",
+            "alt": "Object Number: 2421979  Size: DEFAULT"
+          },
+          "number": 11
+        },
+        {
+          "text": "Reposer l'alternateur avec le support inférieur sur le moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 2x vis (1) 35 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer 2x tuyau d'huile au support de faisceau"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6bcb3c2744f3.jpg",
+            "alt": "Object Number: 2421979  Size: DEFAULT"
+          },
+          "number": 12
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Reposer le support supérieur de l'alternateur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer la vis (3)"
+            },
+            {
+              "bullet": "•",
+              "text": "Ne pas serrer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a79e1327b639.jpg",
+            "alt": "Object Number: 2421977  Size: DEFAULT"
+          },
+          "number": 14
+        },
+        {
+          "text": "Reposer le support latéral de l'alternateur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer la vis (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Ne pas serrer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a79e1327b639.jpg",
+            "alt": "Object Number: 2421977  Size: DEFAULT"
+          },
+          "number": 15
+        },
+        {
+          "text": "Fixer le support supérieur à l'alternateur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer la vis à 25 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a79e1327b639.jpg",
+            "alt": "Object Number: 2421977  Size: DEFAULT"
+          },
+          "number": 16
+        },
+        {
+          "text": "Fixer le support latéral à l'alternateur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer 2x vis à 25 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a79e1327b639.jpg",
+            "alt": "Object Number: 2421977  Size: DEFAULT"
+          },
+          "number": 17
+        },
+        {
+          "text": "Raccorder la durite d'intercooler (1) au boîtier papillon",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a79e1327b639.jpg",
+            "alt": "Object Number: 2421977  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 18
+        },
+        {
+          "text": "Élever le véhicule",
+          "number": 19,
+          "image": null
+        },
+        {
+          "text": "Fixer l'alternateur au support inférieur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer l'écrou, la vis (2) à 35 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e293b3c52b44.jpg",
+            "alt": "Object Number: 2421980  Size: DEFAULT"
+          },
+          "number": 20
+        },
+        {
+          "text": "Raccorder les 2x connecteurs au alternateur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 2x écrou (1), 2x rondelle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e293b3c52b44.jpg",
+            "alt": "Object Number: 2421980  Size: DEFAULT"
+          },
+          "number": 21
+        },
+        {
+          "text": "Raccorder le connecteur du faisceau (3) au capteur de pression d'huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe intégrée"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer le faisceau de l'alternateur à l'agrafe sur le support de faisceau"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e293b3c52b44.jpg",
+            "alt": "Object Number: 2421980  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ],
+          "number": 22
+        },
+        {
+          "text": "Reposer la courroie striée en V",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "À l'aide d'une clé adaptée, tourner le tendeur (1) dans le sens des aiguilles d'une montre, puis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a80bd56f79cd.jpg",
+            "alt": "Object Number: 2421986  Size: DEFAULT"
+          },
+          "number": 23
+        },
+        {
+          "text": "Reposer le cache inférieur du moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 13x vis, 13x rondelle"
+            }
+          ],
+          "number": 24,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 25,
+          "image": null
+        },
+        {
+          "text": "Raccorder la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer l'écrou, la vis"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer le réservoir de lave-glace"
+            }
+          ],
+          "number": 26,
+          "image": null
+        },
+        {
+          "text": "Programmer tous les souvenirs volatils",
+          "number": 27,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Installer l'alternateur avec le support inférieur sur le moteur",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Fixer le support supérieur à l'alternateur",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 16
+    },
+    {
+      "component": "Fixer le support latéral à l'alternateur",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 17
+    },
+    {
+      "component": "Fixer l'alternateur au support inférieur",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 20
+    },
+    {
+      "component": "Installer 2x vis (1) 35 Nm",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer la vis à 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "Un pont élévateur à quatre colonnes doit\nêtre utilisé pour élever le véhicule lors du retrait du cache inférieur du moteur.\nLe véhicule peut être déplacé vers un pont à deux colonnes pour d'autres opérations\nsi nécessaire."
+  ],
+  "notes": [
+    "Déposer la vis du collecteur d'admission\n Ne pas retirer\nla vis"
+  ],
+  "type": "procedure",
+  "id": "alternator-replace-z-20-let-AQS315"
+}

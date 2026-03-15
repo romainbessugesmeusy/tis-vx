@@ -1,0 +1,23 @@
+{
+  "title": "Carrosserie arrière - Compartiment arrière gauche",
+  "components": [
+    {
+      "description": "Relais - Unité de contrôle moteur",
+      "code": "K18"
+    },
+    {
+      "description": "Relais - Démarreur",
+      "code": "K24"
+    },
+    {
+      "description": "Relais - Pompe à carburant",
+      "code": "K16"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "body-rear-rear-compartment-left-engine-z22se-AQS315",
+  "diagram": {
+    "src": "/data/assets/dea2f9e48155.cgm",
+    "type": "cgm"
+  }
+}

@@ -1,0 +1,1011 @@
+{
+  "title": "Remplacer l'Unité d'Arbre d'Équilibrage (Z20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le cache moteur inférieur (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Élever le véhicule"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 13x vis, 13x rondelle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 1
+        },
+        {
+          "text": "Déposer le cache sous caisse d'échappement (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 12x vis, 12x rondelle, 2x agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Débrancher la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer le réservoir de lave-glace (1), puis positionner d'un côté"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer la vis, l'écrou (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/482794e97b8a.jpg",
+            "alt": "Object Number: 2422316  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Déposer la durite d'intercooler (1) du boîtier papillon",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'agrafe (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/03e5688222f6.jpg",
+            "alt": "Object Number: 2422440  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Débrancher le faisceau du capteur d'oxygène du faisceau moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'agrafe intégrée"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer, puis jeter le collier de câble"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Déposer le faisceau du châssis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x agrafe"
+            }
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Déposer le faisceau du tablier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'agrafe"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Retirer la jauge à huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tirer pour enlever"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Déposer la roue arrière droite",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser une douille spéciale située sous le capot avant"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 4x boulon de roue"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Élever le véhicule",
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Vidanger l'huile moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Positionner un récipient de récupération"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer le bouchon de vidange"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer, puis jeter le joint torique"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule à une hauteur de travail appropriée",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Déposer la roue arrière droite",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 4x boulon, boulon de sécurité"
+            }
+          ],
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Déposer le passage de roue arrière droit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 4x vis, 2x agrafe"
+            }
+          ],
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Déposer la durite d'intercooler de l'intercooler",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer, puis jeter 4x collier de câble"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3e8d2c96fb0c.jpg",
+            "alt": "Object Number: 2422660  Size: DEFAULT"
+          },
+          "number": 16
+        },
+        {
+          "text": "Déposer le couvercle supérieur de la courroie crantée (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x boulon (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/080ed5518005.jpg",
+            "alt": "Object Number: 2422617  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 17
+        },
+        {
+          "text": "Déposer la courroie striée",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "À l'aide d'une clé adaptée, tourner le tendeur (1) dans le sens des aiguilles d'une montre, puis",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "À l'aide d'une clé adaptée, tourner le tendeur (1) dans le sens des aiguilles d'une montre, puis\nInstaller la goupille de blocage adaptée (2)"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a80bd56f79cd.jpg",
+            "alt": "Object Number: 2421986  Size: DEFAULT"
+          },
+          "number": 18
+        },
+        {
+          "text": "Déposer la poulie de vilebrequin (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Appliquer des repères de correspondance"
+            },
+            {
+              "bullet": "•",
+              "text": "Utiliser une clé pour contrer l'écrou central sur le vilebrequin",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Utiliser une clé pour contrer l'écrou central sur le pignon du vilebrequin"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/27937a95193a.jpg",
+            "alt": "Object Number: 2422227  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 19
+        },
+        {
+          "text": "Déposer le couvercle inférieur de la courroie crantée",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x boulon"
+            }
+          ],
+          "number": 20,
+          "image": null
+        },
+        {
+          "text": "Faire tourner le vilebrequin dans le sens normal de rotation jusqu'au Point Mort Haut (PMH) sur le cylindre n° 1, jusqu'à ce que les repères de calage (1) et (2) soient alignés",
+          "image": {
+            "src": "/data/assets/images/8acff7a9118f.jpg",
+            "alt": "Object Number: 2422230  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 21
+        },
+        {
+          "text": "Élever le véhicule",
+          "number": 22,
+          "image": null
+        },
+        {
+          "text": "Déposer le convertisseur catalytique secondaire (1) pour l'échappement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 3x écrou avant (3), puis jeter"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 3x écrou arrière (2), puis jeter"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer le support de montage en caoutchouc"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer le support en caoutchouc"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer le joint (4) du raccord avant, puis jeter"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f0c4b7a1574c.jpg",
+            "alt": "Object Number: 2422309  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 23
+        },
+        {
+          "text": "Installer le support moteur sur l'ensemble moteur",
+          "number": 24,
+          "image": null
+        },
+        {
+          "text": "Déposer le bouclier thermique du support moteur arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x boulon du support moteur arrière"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer le boulon du bloc-cylindres"
+            }
+          ],
+          "number": 25,
+          "image": null
+        },
+        {
+          "text": "Déposer le support moteur de l'ensemble moteur",
+          "number": 26,
+          "image": null
+        },
+        {
+          "text": "Déposer le carter d'huile inférieur du carter d'huile supérieur Remarque : Soutenir le carter d'huile inférieur lors du retrait pour éviter d'endommager le faisceau pour le capteur de niveau d'huile.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 16x boulon (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0d1b48368755.jpg",
+            "alt": "Object Number: 2422654  Size: DEFAULT"
+          },
+          "number": 27
+        },
+        {
+          "text": "Déposer le capteur de niveau d'huile du carter d'huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x boulon (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer, puis jeter le joint du carter d'huile"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0d1b48368755.jpg",
+            "alt": "Object Number: 2422654  Size: DEFAULT"
+          },
+          "number": 28
+        },
+        {
+          "text": "Connecter le faisceau moteur au capteur de niveau d'huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe intégrée"
+            }
+          ],
+          "number": 29,
+          "image": null
+        },
+        {
+          "text": "Déposer le carter d'huile supérieur du véhicule",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 18x boulon"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer, puis jeter le joint"
+            }
+          ],
+          "number": 30,
+          "image": null
+        },
+        {
+          "text": "Déposer le tube de prise d'huile du moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x boulon de la pompe à huile (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 2x boulon de l'unité d'arbre d'équilibrage (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer, puis jeter le joint torique"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7e44e9fa5067.jpg",
+            "alt": "Object Number: 2422916  Size: DEFAULT"
+          },
+          "number": 31
+        },
+        {
+          "text": "Déposer l'unité d'arbre d'équilibrage du moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 15x vis (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer la cale"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/eef04280dd04.jpg",
+            "alt": "Object Number: 2422920  Size: DEFAULT"
+          },
+          "number": 32
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer l'unité d'arbre d'équilibrage sur le moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 15x vis 20 Nm + 45°"
+            },
+            {
+              "bullet": "•",
+              "text": "Nettoyer les surfaces d'assemblage"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/86d8cf7a5545.jpg",
+            "alt": "Object Number: 2422922  Size: DEFAULT"
+          },
+          "number": 33
+        },
+        {
+          "text": "Reposer le tube de prise d'huile sur le moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 2x boulon sur la pompe à huile 8 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Reposer 2x boulon sur l'unité d'arbre d'équilibrage 8 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer un nouveau joint torique"
+            }
+          ],
+          "number": 34,
+          "image": null
+        },
+        {
+          "text": "Reposer le carter d'huile supérieur sur le moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 18x boulon 20 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Appliquer un cordon de composé d'étanchéité adhésif sur le vilebrequin arrière"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer un nouveau joint"
+            }
+          ],
+          "number": 35,
+          "image": null
+        },
+        {
+          "text": "Connecter le faisceau moteur au capteur de niveau d'huile du carter d'huile inférieur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe intégrée"
+            }
+          ],
+          "number": 36,
+          "image": null
+        },
+        {
+          "text": "Fixer le capteur de niveau d'huile sur le carter d'huile inférieur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 2x boulon 8 Nm"
+            }
+          ],
+          "number": 37,
+          "image": null
+        },
+        {
+          "text": "Reposer le carter d'huile inférieur sur le carter d'huile supérieur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer un nouveau joint de carter d'huile"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer 16x boulon 8 Nm"
+            }
+          ],
+          "number": 38,
+          "image": null
+        },
+        {
+          "text": "Reposer le bouchon de vidange 10 Nm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Lubrifier le nouveau joint torique"
+            }
+          ],
+          "number": 39,
+          "image": null
+        },
+        {
+          "text": "Installer le support moteur sur l'ensemble moteur",
+          "number": 40,
+          "image": null
+        },
+        {
+          "text": "Déposer 2x boulon du support moteur arrière",
+          "number": 41,
+          "image": null
+        },
+        {
+          "text": "Installer le bouclier thermique sur le support moteur arrière",
+          "substeps": [
+            {
+              "bullet": "•–",
+              "text": "Appliquer du composé de verrouillage",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Recréer le filetage des 2x boulon"
+                }
+              ]
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer le boulon au bloc-cylindres"
+            }
+          ],
+          "number": 42,
+          "image": null
+        },
+        {
+          "text": "Déposer le support moteur de l'ensemble moteur",
+          "number": 43,
+          "image": null
+        },
+        {
+          "text": "Fixer le support moteur arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer 2x boulon 46 Nm"
+            }
+          ],
+          "number": 44,
+          "image": null
+        },
+        {
+          "text": "Installer le convertisseur catalytique secondaire pour l'échappement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 3x nouvel écrou avant"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer 3x nouvel écrou arrière"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer le support de montage en caoutchouc sur le boulon de bride"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer le support en caoutchouc"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer le joint sur le raccord avant"
+            }
+          ],
+          "number": 45,
+          "image": null
+        },
+        {
+          "text": "Installer le couvercle inférieur de la courroie crantée",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 2x boulon 6 Nm"
+            }
+          ],
+          "number": 46,
+          "image": null
+        },
+        {
+          "text": "Installer la poulie de vilebrequin",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Aligner les repères de correspondance"
+            },
+            {
+              "bullet": "•",
+              "text": "Contrer l'écrou central"
+            }
+          ],
+          "number": 47,
+          "image": null
+        },
+        {
+          "text": "Installer la courroie striée",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "À l'aide d'une clé adaptée, tourner le tendeur dans le sens des aiguilles d'une montre, puis déposer",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "À l'aide d'une clé adaptée, tourner le tendeur dans le sens des aiguilles d'une montre, puis déposer\nla goupille de blocage adaptée"
+                }
+              ]
+            }
+          ],
+          "number": 48,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule à une hauteur de travail appropriée",
+          "number": 49,
+          "image": null
+        },
+        {
+          "text": "Installer le couvercle supérieur de la courroie crantée (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 2x boulon 6 Nm"
+            }
+          ],
+          "callouts": [
+            "2"
+          ],
+          "number": 50,
+          "image": null
+        },
+        {
+          "text": "Installer la durite d'intercooler sur l'intercooler",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer les 4x nouveaux colliers de câble"
+            }
+          ],
+          "number": 51,
+          "image": null
+        },
+        {
+          "text": "Installer le passage de roue arrière droit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 4x vis, 2x agrafe"
+            }
+          ],
+          "number": 52,
+          "image": null
+        },
+        {
+          "text": "Installer la roue arrière sur le côté droit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 4x boulon, boulon de sécurité"
+            },
+            {
+              "bullet": "•",
+              "text": "Ne pas serrer"
+            }
+          ],
+          "number": 53,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 54,
+          "image": null
+        },
+        {
+          "text": "Serrer la roue arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer 4x boulon, boulon de sécurité à 90"
+            }
+          ],
+          "number": 55,
+          "image": null
+        },
+        {
+          "text": "Installer la jauge à huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enfoncer pour ajuster"
+            }
+          ],
+          "number": 56,
+          "image": null
+        },
+        {
+          "text": "Fixer la durite d'intercooler sur le boîtier papillon",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe"
+            }
+          ],
+          "number": 57,
+          "image": null
+        },
+        {
+          "text": "Connecter le faisceau du capteur d'oxygène au faisceau moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe intégrée"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer un nouveau collier de câble"
+            }
+          ],
+          "number": 58,
+          "image": null
+        },
+        {
+          "text": "Fixer le faisceau au châssis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer 2x agrafe"
+            }
+          ],
+          "number": 59,
+          "image": null
+        },
+        {
+          "text": "Fixer le faisceau au tablier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe"
+            }
+          ],
+          "number": 60,
+          "image": null
+        },
+        {
+          "text": "Rebrancher la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'écrou, la vis"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer le réservoir de lave-glace"
+            }
+          ],
+          "number": 61,
+          "image": null
+        },
+        {
+          "text": "Programmer toutes les mémoires volatiles",
+          "number": 62,
+          "image": null
+        },
+        {
+          "text": "Remplir le moteur jusqu'au niveau d'huile correct",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Démarrer et faire tourner le moteur jusqu'à ce que le témoin d'huile s'éteigne"
+            },
+            {
+              "bullet": "•",
+              "text": "Vérifier le niveau d'huile, ajuster si nécessaire"
+            }
+          ],
+          "number": 63,
+          "image": null
+        },
+        {
+          "text": "Installer le cache moteur inférieur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Élever le véhicule"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer 13x vis, 13x rondelle"
+            }
+          ],
+          "number": 64,
+          "image": null
+        },
+        {
+          "text": "Installer le cache sous caisse d'échappement (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 12x vis, 12x rondelle, 2x agrafe"
+            }
+          ],
+          "callouts": [
+            "2"
+          ],
+          "number": 65,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 66,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Installer l'unité d'arbre d'équilibrage sur le moteur",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 33
+    },
+    {
+      "component": "Installer le tube de prise d'huile sur le moteur",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 34
+    },
+    {
+      "component": "Installer le carter d'huile supérieur sur le moteur",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 35
+    },
+    {
+      "component": "Fixer le capteur de niveau d'huile sur le carter d'huile inférieur",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 37
+    },
+    {
+      "component": "Installer le carter d'huile inférieur sur le carter d'huile supérieur",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 38
+    },
+    {
+      "component": "Installer le bouchon de vidange 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 39
+    },
+    {
+      "component": "Fixer le support moteur arrière",
+      "value": "46",
+      "unit": "Nm",
+      "stepRef": 44
+    },
+    {
+      "component": "Installer le couvercle inférieur de la courroie crantée",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 46
+    },
+    {
+      "component": "Installer la poulie de vilebrequin",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 47
+    },
+    {
+      "component": "Installer le couvercle supérieur de la courroie crantée (2)",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 50
+    },
+    {
+      "component": "Serrer la roue arrière",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 55
+    },
+    {
+      "component": "Installer 15x vis 20 Nm + 45°",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer 2x boulon sur la pompe à huile 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Fixer 2x boulon 46 Nm",
+      "value": "46",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer 2x boulon 6 Nm",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 4x boulon, boulon de sécurité à 90",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "Un pont élévateur à quatre colonnes doit être utilisé pour soulever le véhicule lors du retrait du cache moteur et du cache sous caisse d'échappement. Le véhicule peut être déplacé vers un pont à deux colonnes pour d'autres opérations si nécessaire.",
+    "Desserrer les 2x boulon de fixation du support moteur arrière avant de retirer le support moteur de l'ensemble moteur.",
+    "Aligner les surfaces planes des deux arbres d'équilibrage vers le bas."
+  ],
+  "notes": [
+    "Déposer le joint (4) du raccord avant, puis jeter\n L'illustration\nmontre l'échappement retiré pour plus de clarté.",
+    "Déposer le carter d'huile inférieur du carter d'huile supérieur\n Soutenir le carter d'huile\ninférieur lors du retrait pour éviter d'endommager le faisceau pour le capteur de niveau\nd'huile.\n \n\n\n\n•  \nDéposer 16x boulon (2)"
+  ],
+  "type": "procedure",
+  "id": "balancer-shaft-unit-replace-z20-let-AQS315"
+}

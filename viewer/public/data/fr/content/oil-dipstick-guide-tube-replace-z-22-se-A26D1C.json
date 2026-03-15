@@ -1,0 +1,196 @@
+{
+  "title": "Tube de guidage de jauge d'huile, Remplacer (Z 22 SE)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Ouvrir le capot.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Débrancher la batterie.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Ouvrir le cache moteur arrière (1).",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Déposer le cache moteur arrière.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "6 vis (2) et (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Desserrer les boulons sur le tube de guidage de jauge d'huile (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer la jauge d'huile (1)."
+            },
+            {
+              "bullet": "•",
+              "text": "1 boulon (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/839872b80755.jpg",
+            "alt": "Object Number: 2416675  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Retirer le tube de guidage de jauge d'huile.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Débrancher le connecteur du faisceau de câblage du capteur de cognement."
+            },
+            {
+              "bullet": "•",
+              "text": "Tirer le tube de guidage de jauge d'huile de la carter d'huile et retirer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/839872b80755.jpg",
+            "alt": "Object Number: 2416675  Size: DEFAULT"
+          },
+          "number": 6
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Insérer le tube de guidage de jauge d'huile.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enduire les joints d'huile de graisse silicone (blanche)."
+            },
+            {
+              "bullet": "•",
+              "text": "Insérer le tube de guidage de jauge d'huile jusqu'à la butée dans le"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer le connecteur du faisceau de câblage du capteur de cognement."
+            }
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Fixer le tube de guidage de jauge d'huile.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Insérer la jauge d'huile."
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Installer le cache moteur arrière.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Vérifier l'alignement."
+            },
+            {
+              "bullet": "•",
+              "text": "6 vis, couple de serrage 14 Nm"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Fermer le cache moteur arrière.",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Rebrancher la batterie.",
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Fermer le capot.",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Reprogrammer les mémoires volatiles.",
+          "number": 13,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Fixer le tube de guidage de jauge d'huile.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Installer le cache moteur arrière.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 vis, couple de serrage 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "type": "procedure",
+  "id": "oil-dipstick-guide-tube-replace-z-22-se-A26D1C"
+}

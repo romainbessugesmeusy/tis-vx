@@ -1,0 +1,146 @@
+{
+  "title": "Field Remedy: 2272",
+  "subject": "Boulons de roue - Dommages",
+  "complaint": "Dommages des boulons de roue dus à la non-conformité de la procédure de travail.",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "Avant de monter les roues, les surfaces de contact des disques de frein/\ndes tambours de frein et des jantes doivent être nettoyées avec une brosse en acier. Les deux \nsurfaces de contact doivent être exemptes de graisse, seulement autour du centrage \nil est permis de graisser légèrement."
+    },
+    {
+      "type": "text",
+      "text": "Avant chaque opération de montage des boulons/écrous de roue, le cône doit être \nnettoyé avec un chiffon propre."
+    },
+    {
+      "type": "text",
+      "text": "Remarque:\nLes boulons de roue qui nécessitent de la graisse sur le cône doivent être remplacés s'ils ont été montés plusieurs fois sans graisse. Il faut veiller à ce qu'aucune graisse ne soit présente sur le filetage du boulon."
+    },
+    {
+      "type": "text",
+      "text": "Antara:          Couple de serrage = 140 Nm / Cône = pas de graisse"
+    },
+    {
+      "type": "text",
+      "text": "Opel GT:         Couple de serrage = 140 Nm / Cône = graissé"
+    },
+    {
+      "type": "text",
+      "text": "Agila A:         jusqu'à l'année modèle 2004 (écrous de roue) \n                 Couple de serrage = 85 Nm / Cône = graissé\n                 à partir de l'année modèle 2004 (boulons de roue) \n                 Couple de serrage = 110 Nm / Cône = graissé"
+    },
+    {
+      "type": "text",
+      "text": "Agila B:         (version boulons de roue) \n                 Couple de serrage = 85 Nm / Cône = pas de graisse"
+    },
+    {
+      "type": "text",
+      "text": "Vivaro:          Couple de serrage = 140 Nm / Cône = pas de graisse"
+    },
+    {
+      "type": "text",
+      "text": "Movano A:        jusqu'à l'année modèle 2001.5 (Roues de 15\", écrous de roue)\n                 Couple de serrage = 150 Nm / Cône = pas de graisse"
+    },
+    {
+      "type": "text",
+      "text": "Movano A:        à partir de l'année modèle 2001.5 (Roues de 16\", boulons de roue)\n                 Couple de serrage = 170 Nm / Cône = pas de graisse"
+    },
+    {
+      "type": "text",
+      "text": "Movano B:        Traction avant (boulons de roue)\n                 Couple de serrage = 170 Nm / Cône = pas de graisse"
+    },
+    {
+      "type": "text",
+      "text": "Movano B:        Propulsion arrière avec simple roue arrière (boulons de roue)\n                 Couple de serrage = 260 Nm / Cône = pas de graisse"
+    },
+    {
+      "type": "text",
+      "text": "Movano B:        Propulsion arrière avec double roue arrière (écrous de roue)\n                 Couple de serrage = 230 Nm / Cône = pas de graisse"
+    },
+    {
+      "type": "text",
+      "text": "Insignia:        Couple de serrage = 150 Nm / Cône = pas de graisse"
+    },
+    {
+      "type": "text",
+      "text": "Astra J:         Couple de serrage = 140 Nm / Cône = pas de graisse"
+    },
+    {
+      "type": "text",
+      "text": "Astra G:         Couple de serrage = 110 Nm / Cône = graissé"
+    },
+    {
+      "type": "text",
+      "text": "Astra H:         Couple de serrage = 110 Nm / Cône = graissé"
+    },
+    {
+      "type": "text",
+      "text": "Corsa C:         Couple de serrage = 110 Nm / Cône = graissé"
+    },
+    {
+      "type": "text",
+      "text": "Corsa C Combo:   Couple de serrage = 110 Nm / Cône = graissé"
+    },
+    {
+      "type": "text",
+      "text": "Corsa D:         Couple de serrage = 110 Nm / Cône = graissé"
+    },
+    {
+      "type": "text",
+      "text": "Meriva:          Couple de serrage = 110 Nm / Cône = graissé"
+    },
+    {
+      "type": "text",
+      "text": "Meriva B:        Couple de serrage = 110 Nm / Cône = graissé"
+    },
+    {
+      "type": "text",
+      "text": "Signum:          Couple de serrage = 110 Nm / Cône = graissé"
+    },
+    {
+      "type": "text",
+      "text": "Tigra B:         Couple de serrage = 110 Nm / Cône = graissé"
+    },
+    {
+      "type": "text",
+      "text": "Vectra C:        Couple de serrage = 110 Nm / Cône = graissé"
+    },
+    {
+      "type": "text",
+      "text": "Zafira A:        Couple de serrage = 110 Nm / Cône = graissé"
+    },
+    {
+      "type": "text",
+      "text": "Zafira B:        Couple de serrage = 110 Nm / Cône = graissé"
+    },
+    {
+      "type": "text",
+      "text": "Frontera A:      Couple de serrage = 110 Nm / Cône = graissé (jantes en acier)\n                 Couple de serrage = 120 Nm / Cône = graissé (jantes en alliage)"
+    },
+    {
+      "type": "text",
+      "text": "Frontera B:      Couple de serrage = 118 Nm / Cône = graissé"
+    },
+    {
+      "type": "text",
+      "text": "Campo:           Couple de serrage = 118 Nm / Cône = graissé"
+    },
+    {
+      "type": "text",
+      "text": "Sintra:          Couple de serrage = 140 Nm / Cône = graissé"
+    },
+    {
+      "type": "text",
+      "text": "Remarque: \nPour d'autres modèles ou informations, veuillez vous référer aux informations TIS2Web."
+    }
+  ],
+  "type": "tsb",
+  "id": "wheel-bolts-damages-A26D1C",
+  "metadata": {
+    "functionalGroup": "E - Front wheel suspension/Wheels/Tyres",
+    "complaintGroup": "01 - Broken or Cracked,02 - Chafing,11 -\nLoose or Comes off",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  },
+  "cause": "",
+  "production": ""
+}

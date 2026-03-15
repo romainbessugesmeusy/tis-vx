@@ -1,0 +1,232 @@
+{
+  "title": "Capteur de température du liquide de refroidissement, Remplacer (Z 20\nLET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Débrancher le capteur d'oxygène du convertisseur catalytique principal",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'agrafe de câble"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9125cb36ea26.jpg",
+            "alt": "Object Number: 2422640  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer le support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer les 4x vis (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9125cb36ea26.jpg",
+            "alt": "Object Number: 2422640  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Vider partiellement le système de refroidissement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'agrafe intégrée"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer le bouchon du réservoir d'expansion"
+            },
+            {
+              "bullet": "•",
+              "text": "Positionner le récipient de collecte"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer le bouchon de vidange (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/218ba57ed295.jpg",
+            "alt": "Object Number: 2422643  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Retirer le capteur de température (2) du boîtier de distribution",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Jeter le capteur, joint d'étanchéité"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/218ba57ed295.jpg",
+            "alt": "Object Number: 2422643  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 4
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le nouveau capteur de température 10 Nm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer le nouveau joint d'étanchéité"
+            }
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Raccorder le capteur de température",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer l'agrafe intégrée"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Reposer le bouchon de vidange",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser du scellant pour filetage"
+            }
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Reposer le support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer les 4x vis"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Raccorder le capteur d'oxygène du convertisseur catalytique principal",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer l'agrafe de câble"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Remplir le système de refroidissement",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Appliquer une pression au système de refroidissement de 1,0 bar à 1,5 bar",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser un outil disponible dans le commerce"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Purger le système de refroidissement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ouvrir la vanne de purge du moteur (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Ouvrir la vanne de purge du radiateur (2), côté gauche du radiateur"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/056bd03f13cf.jpg",
+            "alt": "Object Number: 2422641  Size: DEFAULT"
+          },
+          "number": 12
+        },
+        {
+          "text": "Relâcher la pression du système de refroidissement",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Reposer le bouchon du réservoir d'expansion du liquide de refroidissement",
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Vérifier le niveau de liquide de refroidissement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Compléter si nécessaire"
+            }
+          ],
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Faire tourner le moteur jusqu'à ce que la température de fonctionnement soit atteinte",
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Vérifier le niveau de liquide de refroidissement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Compléter si nécessaire"
+            }
+          ],
+          "number": 17,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer le nouveau capteur de température 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 5
+    }
+  ],
+  "warnings": [
+    "Respecter les réglementations\nenvironnementales pertinentes lors de l'élimination du liquide de refroidissement usagé et\ndes lubrifiants."
+  ],
+  "notes": [
+    "Jeter le capteur, joint d'étanchéité\n Nettoyer le filetage du bouchon de vidange du scellant."
+  ],
+  "type": "procedure",
+  "id": "sensor-coolant-temperature-replace-z-20-let-AQS315"
+}

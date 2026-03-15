@@ -1,0 +1,71 @@
+{
+  "title": "Remplacer les segments de piston (Z 22 SE)",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Déposer les segments de piston.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser des pinces à segments de piston (1)."
+            },
+            {
+              "bullet": "•",
+              "text": "Toute accumulation de carbone doit être enlevée avec un segment de piston"
+            },
+            {
+              "bullet": "•",
+              "text": "Compresser le segment de piston dans le cylindre et mesurer l'écart"
+            },
+            {
+              "bullet": "•",
+              "text": "Dimensions des segments de piston et jeux de segments de piston autorisés – voir"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f0e0302c618b.jpg",
+            "alt": "Object Number: 2417934  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Reposer les segments de piston. Remarque : Lors de l'installation du deuxième segment de piston (segment Napier) : l'identification \"Punkt\" (= point ou point) est orientée vers le haut.",
+          "substeps": [
+            {
+              "bullet": "••",
+              "text": "Segment intermédiaire de la bague racleuse d'huile en position, acier",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Premier segment de piston (segment de section rectangulaire) en\nposition"
+                },
+                {
+                  "bullet": "–",
+                  "text": "Deuxième segment de piston (segment Napier) en position"
+                },
+                {
+                  "bullet": "–",
+                  "text": "Segment intermédiaire de la bague racleuse d'huile en position, anneaux en acier de la bague racleuse d'huile en position"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/aafd38daccc6.jpg",
+            "alt": "Object Number: 2417766  Size: DEFAULT"
+          },
+          "number": 2
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "notes": [
+    "Reposer les segments de piston.\n Lors de\nl'installation du deuxième segment de piston (segment Napier) : l'identification \"Punkt\" (=\npoint ou point) est orientée vers le haut.\n \n\n\n\n•  \nAjuster l'écart des segments de piston.\n \n\n\n\n–\nPremier segment de piston (segment de section rectangulaire) en\nposition\n \n\n\n\n\n\n–\nDeuxième segment de piston (segment Napier) en position\n \n\n\n\n\n\n–\nSegment intermédiaire de la bague racleuse d'huile en position, anneaux en acier de la bague racleuse d'huile en position"
+  ],
+  "type": "procedure",
+  "id": "piston-rings-replace-z-22-se-A26D1C"
+}

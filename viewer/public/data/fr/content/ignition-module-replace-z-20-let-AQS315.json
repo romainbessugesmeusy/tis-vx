@@ -1,0 +1,119 @@
+{
+  "title": "Remplacer le module d'allumage (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Débrancher le connecteur du faisceau (1) du module d'allumage",
+          "image": {
+            "src": "/data/assets/images/fb7c6ec0f3bf.jpg",
+            "alt": "Object Number: 2421971  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 1
+        },
+        {
+          "text": "Déposer le couvercle supérieur de garniture (2) de la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Faire glisser"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/fb7c6ec0f3bf.jpg",
+            "alt": "Object Number: 2421971  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Déposer le module d'allumage de la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x vis (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a3e616786715.jpg",
+            "alt": "Object Number: 2421972  Size: DEFAULT"
+          },
+          "number": 3
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le module d'allumage sur la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 2x vis (1), 8 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a3e616786715.jpg",
+            "alt": "Object Number: 2421972  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Reposer le couvercle supérieur de garniture (2) sur la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Faire glisser"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/fb7c6ec0f3bf.jpg",
+            "alt": "Object Number: 2421971  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Raccorder le connecteur du faisceau (1) au module d'allumage",
+          "image": {
+            "src": "/data/assets/images/fb7c6ec0f3bf.jpg",
+            "alt": "Object Number: 2421971  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 6
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer le module d'allumage sur la culasse",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 4
+    },
+    {
+      "component": "Reposer 2x vis (1), 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "type": "procedure",
+  "id": "ignition-module-replace-z-20-let-AQS315"
+}

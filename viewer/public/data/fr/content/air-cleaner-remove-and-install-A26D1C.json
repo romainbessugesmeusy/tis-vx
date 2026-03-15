@@ -1,0 +1,137 @@
+{
+  "title": "Filtre à air, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Protection sous caisse – voir l'opération «Déposer et Reposer la Protection sous caisse» dans le Groupe A.",
+          "image": {
+            "src": "/data/assets/images/1048f26f1fc3.jpg",
+            "alt": "Object Number: 2429848  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Roue arrière gauche du véhicule",
+          "image": {
+            "src": "/data/assets/images/670bed5416a4.jpg",
+            "alt": "Object Number: 2425016  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Garniture d'aile arrière gauche – voir l'opération «Déposer et Reposer la Garniture d'Aile Arrière» dans le Groupe A.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Connecteur du faisceau électrique du capteur de température d'air d'admission.",
+          "image": {
+            "src": "/data/assets/images/3d45bcb92fa7.jpg",
+            "alt": "Object Number: 2429826  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Durites du boîtier de papillon – colliers",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Durite de reniflard du couvercle de la culasse – collier",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Couvercle avec les conduites d'admission du boîtier du filtre à air – agrafes.",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Élément du filtre à air",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Boîtier du filtre à air du véhicule – écrous",
+          "number": 9,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Boîtier du filtre à air dans le véhicule – écrous",
+          "image": {
+            "src": "/data/assets/images/3d45bcb92fa7.jpg",
+            "alt": "Object Number: 2429826  Size: DEFAULT"
+          },
+          "number": 10
+        },
+        {
+          "text": "Élément du filtre à air",
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Couvercle avec les conduites d'admission sur le boîtier du filtre à air – agrafes",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Durite de reniflard sur le couvercle de la culasse – collier",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Durites sur le boîtier de papillon – colliers",
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Connecteur du faisceau électrique du capteur de température d'air d'admission",
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Garniture d'aile arrière gauche – voir l'opération «Déposer et Reposer la Garniture d'Aile Arrière» dans le Groupe A.",
+          "image": {
+            "src": "/data/assets/images/670bed5416a4.jpg",
+            "alt": "Object Number: 2425016  Size: DEFAULT"
+          },
+          "number": 16
+        },
+        {
+          "text": "Roue arrière gauche sur le véhicule – boulons 90 Nm .",
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Protection sous caisse – voir l'opération «Déposer et Reposer la Protection sous caisse» dans le Groupe A.",
+          "image": {
+            "src": "/data/assets/images/1048f26f1fc3.jpg",
+            "alt": "Object Number: 2429848  Size: DEFAULT"
+          },
+          "number": 18
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Roue arrière gauche sur le véhicule – boulons 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 17
+    }
+  ],
+  "type": "procedure",
+  "id": "air-cleaner-remove-and-install-A26D1C"
+}

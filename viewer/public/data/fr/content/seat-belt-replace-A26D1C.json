@@ -1,0 +1,176 @@
+{
+  "title": "Remplacer la ceinture de sécurité",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Instructions suivantes pour ceinture de sécurité gauche ; ceinture de sécurité droite similaire.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Capote souple ou rigide du véhicule – consulter le manuel du propriétaire.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Ceinture de sécurité de siège droit – boulon d'ancrage.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Siège droit du plancher – vis.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Ceinture de sécurité pour siège droit du arceau de sécurité – boulon d'ancrage supérieur.",
+          "image": {
+            "src": "/data/assets/images/80830277745e.jpg",
+            "alt": "Object Number: 2425099  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Ceinture de sécurité de siège gauche – boulon d'ancrage.",
+          "image": {
+            "src": "/data/assets/images/73f6e4d97c7e.jpg",
+            "alt": "Object Number: 2429809  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Siège gauche du plancher – vis.",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Ceinture de sécurité pour siège gauche du arceau de sécurité – boulon d'ancrage supérieur.",
+          "image": {
+            "src": "/data/assets/images/265b35f96f59.jpg",
+            "alt": "Object Number: 2425100  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Haut-parleurs du tablier arrière – caches haut-parleurs, 6 vis.",
+          "image": {
+            "src": "/data/assets/images/cda7cd593972.jpg",
+            "alt": "Object Number: 2425110  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Tablier arrière – 6 vis.",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Isolation phonique du tablier arrière.",
+          "number": 11,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Connecteur du faisceau de la ceinture de sécurité gauche.",
+          "image": {
+            "src": "/data/assets/images/cda7cd593972.jpg",
+            "alt": "Object Number: 2425110  Size: DEFAULT"
+          },
+          "number": 12
+        },
+        {
+          "text": "Enrouleur d'inertie gauche du arceau de sécurité – boulon d'ancrage inférieur.",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Enrouleur d'inertie gauche au arceau de sécurité – boulon d'ancrage inférieur.",
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Connecteur du faisceau à la ceinture de sécurité gauche.",
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Isolation phonique au tablier arrière.",
+          "image": {
+            "src": "/data/assets/images/cda7cd593972.jpg",
+            "alt": "Object Number: 2425110  Size: DEFAULT"
+          },
+          "number": 16
+        },
+        {
+          "text": "Tablier arrière – 6 vis.",
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Haut-parleurs au tablier arrière – 6 vis, caches haut-parleurs.",
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "Ceinture de sécurité pour siège gauche au arceau de sécurité – boulon d'ancrage supérieur.",
+          "image": {
+            "src": "/data/assets/images/265b35f96f59.jpg",
+            "alt": "Object Number: 2425100  Size: DEFAULT"
+          },
+          "number": 19
+        },
+        {
+          "text": "Siège gauche au plancher – vis.",
+          "image": {
+            "src": "/data/assets/images/73f6e4d97c7e.jpg",
+            "alt": "Object Number: 2429809  Size: DEFAULT"
+          },
+          "number": 20
+        },
+        {
+          "text": "Ceinture de sécurité à la ceinture de sécurité gauche – boulon d'ancrage.",
+          "number": 21,
+          "image": null
+        },
+        {
+          "text": "Ceinture de sécurité pour siège droit au arceau de sécurité – boulon d'ancrage supérieur.",
+          "image": {
+            "src": "/data/assets/images/80830277745e.jpg",
+            "alt": "Object Number: 2425099  Size: DEFAULT"
+          },
+          "number": 22
+        },
+        {
+          "text": "Siège droit au plancher – vis.",
+          "image": {
+            "src": "/data/assets/images/ed94d1ec42d4.jpg",
+            "alt": "Object Number: 2429808  Size: DEFAULT"
+          },
+          "number": 23
+        },
+        {
+          "text": "Ceinture de sécurité à la ceinture de sécurité droite – boulon d'ancrage.",
+          "number": 24,
+          "image": null
+        },
+        {
+          "text": "Capote souple ou rigide au véhicule – consulter le manuel du propriétaire.",
+          "number": 25,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "seat-belt-replace-A26D1C"
+}

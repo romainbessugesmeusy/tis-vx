@@ -1,0 +1,196 @@
+{
+  "title": "Ressort de suspension, Remplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Caler les roues avant",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Élever et soutenir le véhicule",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déposer la roue arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser une douille spéciale située sous le capot"
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Détacher l'amortisseur du châssis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer la vis, l'écrou, la rondelle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f054d3d25314.jpg",
+            "alt": "Object Number: 2419651  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Détacher l'amortisseur du triangle de suspension inférieur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer la vis, l'écrou, la rondelle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/402137d29d35.jpg",
+            "alt": "Object Number: 2419652  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Retirer l'amortisseur du véhicule",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Retirer le ressort de l'amortisseur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser un compresseur de ressort"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0de34e7e3094.jpg",
+            "alt": "Object Number: 2419653  Size: DEFAULT"
+          },
+          "number": 7
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Installer le ressort sur l'amortisseur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser un compresseur de ressort"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0de34e7e3094.jpg",
+            "alt": "Object Number: 2419653  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Installer l'amortisseur sur le véhicule",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Fixer l'amortisseur sur le triangle de suspension inférieur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer la vis, la rondelle, le nouvel écrou 45"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Fixer l'amortisseur sur le châssis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer la vis, la rondelle, le nouvel écrou 45"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Retirer le support du triangle de suspension inférieur",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Installer la roue arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 4x boulon, boulon de sécurité 90"
+            }
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Élever le véhicule et retirer le support",
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Retirer les cales des roues avant",
+          "number": 16,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Fixer l'amortisseur sur le triangle de suspension inférieur",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Fixer l'amortisseur sur le châssis",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 11
+    },
+    {
+      "component": "Installer la roue arrière",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Installer la vis, la rondelle, le nouvel écrou 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer 4x boulon, boulon de sécurité 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Déposer la vis, l'écrou, la rondelle\n Soutenir l'arrière\n de la suspension au triangle de suspension inférieur"
+  ],
+  "type": "procedure",
+  "id": "suspension-spring-replace-A26D1C"
+}

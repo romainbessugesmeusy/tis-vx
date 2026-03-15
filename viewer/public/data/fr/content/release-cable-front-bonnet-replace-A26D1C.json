@@ -1,0 +1,151 @@
+{
+  "title": "Câble de déverrouillage, Capot Avant, Remplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Ouvrir le capot avant",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le mécanisme de fermeture du capot avant du support.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2 vis, 2 rondelles"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/5d5e274c5d95.jpg",
+            "alt": "Object Number: 2419903  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Déposer le mécanisme de fermeture du capot avant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer la vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2414fc6400c5.jpg",
+            "alt": "Object Number: 2419923  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Détacher la poignée du capot avant et le support du tableau de bord",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'agrafe."
+            }
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Détacher la poignée du capot avant du support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'agrafe (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b0c7dcb3dfad.jpg",
+            "alt": "Object Number: 2419953  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Détacher la poignée du capot avant du câble de déverrouillage",
+          "image": {
+            "src": "/data/assets/images/437fe4bf231d.jpg",
+            "alt": "Object Number: 2419954  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Déposer le câble de déverrouillage",
+          "number": 7,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le nouveau câble de déverrouillage",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Fixer la poignée du capot avant au câble de déverrouillage",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Fixer la poignée du capot avant au support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Fixer la poignée du capot avant et le support au tableau de bord",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Fixer le mécanisme de fermeture du capot avant au support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer 2 agrafes"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Fixer le mécanisme de fermeture du capot avant au support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 2 rondelles, 2 vis"
+            }
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Ajuster le capot avant et fermer",
+          "number": 14,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "release-cable-front-bonnet-replace-A26D1C"
+}

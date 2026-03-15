@@ -1,0 +1,1525 @@
+{
+  "type": "procedure",
+  "id": "engine-remove-and-install-z-22-se-A26D1C",
+  "title": "Engine, Remove and Install (Z 22 SE)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Detach the engine splash shield.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Vehicle on 4–post ramp – other work performed on a",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Vehicle on 4–post ramp – other work performed on a\n2–post ramp."
+                }
+              ]
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Open the bonnet.",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "Disconnect the battery.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Negative terminal"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Open the rear engine cover (1).",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Remove the rear engine cover.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "6 bolts (2) and (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 6,
+          "text": "Remove the air intake pipe (3).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 clamps"
+            },
+            {
+              "bullet": "•",
+              "text": "Detach the fuel pressure regulator vacuum hose (2)."
+            },
+            {
+              "bullet": "•",
+              "text": "Detach the intake air temperature sensor wiring harness"
+            },
+            {
+              "bullet": "•–",
+              "text": "1 clamp.",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "From the cylinder head cover."
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/80b14e3fdee4.jpg",
+            "alt": "Object Number: 2412465  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Detach the brake servo vacuum line (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Unclip the brake servo vacuum line."
+            },
+            {
+              "bullet": "•",
+              "text": "Press in the retainer on both sides (arrows) and release."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/517687783ac3.jpg",
+            "alt": "Object Number: 2417965  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Place a drip tray underneath.",
+          "image": {
+            "src": "/data/assets/images/a577f307634c.jpg",
+            "alt": "Object Number: 2412476  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Detach the oil supply line (1) from the oil cooler.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 union nut."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a577f307634c.jpg",
+            "alt": "Object Number: 2412476  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Detach the tank breather valve line (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposition the line to one side."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/254345c435b1.jpg",
+            "alt": "Object Number: 2417964  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "Disconnect the wiring harness connector from the lambda probe for catalytic converter monitoring (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Detach from the bracket."
+            },
+            {
+              "bullet": "•",
+              "text": "Disconnect the wiring harness connector."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/34f55eefd590.jpg",
+            "alt": "Object Number: 2412477  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 12,
+          "text": "Detach the gearshift cables (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Disconnect the gearshift cables with KM-6042 ."
+            },
+            {
+              "bullet": "•–",
+              "text": "Reposition the gearshift cables to one side.",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "2 clips"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/34f55eefd590.jpg",
+            "alt": "Object Number: 2412477  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 13,
+          "text": "Release the fuel pressure.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Collect any escaping fuel in a suitable container."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/77b9e84bc8f7.jpg",
+            "alt": "Object Number: 2412454  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 14,
+          "text": "Raise the lifting ramp.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Half height."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 15,
+          "text": "Detach the rear wheels.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "10 bolts"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 16,
+          "text": "Remove the wheel arch trim panel.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "12 bolts"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 17,
+          "text": "Detach the wiring harness connector for the lambda probe for closed–loop mixture control (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Expose the wiring harness."
+            },
+            {
+              "bullet": "•",
+              "text": "5 clips, 1 retaining clip (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d5f9fc343126.jpg",
+            "alt": "Object Number: 2412470  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 18,
+          "text": "Disconnect the engine wiring harness.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 wiring harness connectors (1) and (2)."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f4197eaaee47.jpg",
+            "alt": "Object Number: 2412478  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 19,
+          "text": "Disconnect the fuel lines.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Disconnect the fuel lines (2) with KM-796-A ."
+            },
+            {
+              "bullet": "•",
+              "text": "2 bolts (1) and (3)"
+            },
+            {
+              "bullet": "•",
+              "text": "Reposition the fuel lines (4) to one side."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f6b32b9698b2.jpg",
+            "alt": "Object Number: 2412479  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 20,
+          "text": "Disconnect the wiring harness connector (1) for the tank breather valve (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 cable ties."
+            },
+            {
+              "bullet": "•",
+              "text": "Reposition the wiring harness to one side."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2ba1488e2482.jpg",
+            "alt": "Object Number: 2412472  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 21,
+          "text": "Drain the coolant.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Open the coolant drain plug (1) at the coolant pump."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 20 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/28966656352c.jpg",
+            "alt": "Object Number: 2412462  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 22,
+          "text": "Raise the lifting ramp.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Half height."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 23,
+          "text": "Remove the cover from the exhaust system.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "9 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/63ad44fed025.jpg",
+            "alt": "Object Number: 2416674  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 24,
+          "text": "Detach the lower heat shield (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 bolts, 1 stud."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/63ad44fed025.jpg",
+            "alt": "Object Number: 2416674  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 25,
+          "text": "Remove the front exhaust pipe.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove from mounting."
+            },
+            {
+              "bullet": "•",
+              "text": "2 off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f7ff82c3a46c.jpg",
+            "alt": "Object Number: 2412459  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 26,
+          "text": "Unhook the gearshift cables.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Bracket on the transmission (arrow)."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ef2b9fbf6de8.jpg",
+            "alt": "Object Number: 2412480  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 27,
+          "text": "Unhook the hydraulic clutch actuation line.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Bracket on the transmission."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 28,
+          "text": "Detach the wiring harness to the alternator/starter motor.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 wiring harness connector (1), 3 nuts (2) and (3)."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/206b33c8b0e7.jpg",
+            "alt": "Object Number: 2412481  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 29,
+          "text": "Lower the lifting ramp.",
+          "image": {
+            "src": "/data/assets/images/206b33c8b0e7.jpg",
+            "alt": "Object Number: 2412481  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 30,
+          "text": "Detach the coolant hoses.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 hoses (1), (4) and (5)"
+            },
+            {
+              "bullet": "•",
+              "text": "2 hoses (2) and (3)."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/df32ac2baae3.jpg",
+            "alt": "Object Number: 2412482  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 31,
+          "text": "Detach the ground cable (2) from the transmission.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 bolt (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a37322771ac9.jpg",
+            "alt": "Object Number: 2412521  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 32,
+          "text": "Detach the high–pressure line with connection piece (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release the clip (3) with a screwdriver (1) in the direction of"
+            },
+            {
+              "bullet": "•",
+              "text": "Slightly bend the clip together and insert it back into the"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6c6caa1a07b7.jpg",
+            "alt": "Object Number: 2414961  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 33,
+          "text": "Detach the left–hand engine damping block bracket.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 bolts"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 34,
+          "text": "Raise the lifting ramp.",
+          "image": null
+        },
+        {
+          "number": 35,
+          "text": "Disconnect the wiring harness connector (1) from the reversing lamp switch (2).",
+          "image": {
+            "src": "/data/assets/images/a2058ecd290b.jpg",
+            "alt": "Object Number: 2414223  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 36,
+          "text": "Remove the axle shafts (5).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 off, 2 split pins."
+            },
+            {
+              "bullet": "•",
+              "text": "2 nuts (4)"
+            },
+            {
+              "bullet": "•",
+              "text": "2 bolts (6)"
+            },
+            {
+              "bullet": "•–",
+              "text": "Use a support to take the weight (arrow), take out the",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "2 bolts (2), 2 nuts"
+                },
+                {
+                  "bullet": "–",
+                  "text": "Use a support to take the weight (arrow), take out the\nbolts."
+                }
+              ]
+            },
+            {
+              "bullet": "•",
+              "text": "2 nuts (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "2 nuts (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/bc6bb4826a09.jpg",
+            "alt": "Object Number: 2412522  Size: DEFAULT"
+          },
+          "callouts": [
+            "5"
+          ]
+        },
+        {
+          "number": 37,
+          "text": "Attach KM-904 with KM-6054 .",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Set up on a hydraulic hoist."
+            },
+            {
+              "bullet": "•",
+              "text": "Undo the spigots of KM-6054 ."
+            },
+            {
+              "bullet": "•",
+              "text": "Attach KM-6054-4 (2) to the cylinder"
+            },
+            {
+              "bullet": "•",
+              "text": "Align the spigots, starting at the front right (1)."
+            },
+            {
+              "bullet": "•",
+              "text": "Secure the spigots."
+            },
+            {
+              "bullet": "•",
+              "text": "Align the transmission support (5)."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b444470e151f.jpg",
+            "alt": "Object Number: 2412523  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 38,
+          "text": "Support the front end.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use transmission jacks and square bars."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d76da6f2fde0.jpg",
+            "alt": "Object Number: 2412524  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 39,
+          "text": "Remove the engine damping block bracket with the right–hand engine damping block.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 bolts, 1 nut"
+            },
+            {
+              "bullet": "•",
+              "text": "Take out the engine damping block bracket with the engine"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 40,
+          "text": "Remove the front engine damping block (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 bolts, 1 nut"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2e67671ad08d.jpg",
+            "alt": "Object Number: 2419004  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 41,
+          "text": "Remove the front engine damping block bracket.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "4 bolts"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 42,
+          "text": "Remove the rear engine damping block (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "4 bolts, 1 nut"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ac171131ccf3.jpg",
+            "alt": "Object Number: 2419005  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 43,
+          "text": "Lower the engine. Note: 2 technicians required",
+          "image": {
+            "src": "/data/assets/images/ac171131ccf3.jpg",
+            "alt": "Object Number: 2419005  Size: DEFAULT"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 44,
+          "text": "Raise the engine. Note: 2 technicians required",
+          "image": null
+        },
+        {
+          "number": 45,
+          "text": "Attach the rear engine damping block.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 86 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 49 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 46,
+          "text": "Attach the front engine damping block bracket.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "4 bolts"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 47,
+          "text": "Attach the front engine damping block.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 55 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 48,
+          "text": "Attach the engine damping block bracket with the right–hand engine damping block.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Insert the engine damping block bracket with the"
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 85 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 45 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 49,
+          "text": "Take out the support for the front end.",
+          "image": null
+        },
+        {
+          "number": 50,
+          "text": "Detach KM-904 with KM-6054 .",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Lower the hydraulic hoist."
+            },
+            {
+              "bullet": "•",
+              "text": "Detach KM-6054-4 from the cylinder"
+            },
+            {
+              "bullet": "•",
+              "text": "Detach KM-904 and KM-6054 from the hydraulic hoist."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 51,
+          "text": "Install the axle shafts.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 off"
+            },
+            {
+              "bullet": "•",
+              "text": "Insert the wishbone."
+            },
+            {
+              "bullet": "•–",
+              "text": "Tightening torque 60 Nm",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "2 nuts."
+                }
+              ]
+            },
+            {
+              "bullet": "•–",
+              "text": "Tightening torque 60 Nm",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "2 bolts"
+                }
+              ]
+            },
+            {
+              "bullet": "••",
+              "text": "Tightening torque 60 Nm",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Use a support to take the weight."
+                },
+                {
+                  "bullet": "–",
+                  "text": "2 bolts, 2 nuts"
+                }
+              ]
+            },
+            {
+              "bullet": "•",
+              "text": "2 nuts."
+            },
+            {
+              "bullet": "•",
+              "text": "2 nuts."
+            },
+            {
+              "bullet": "••",
+              "text": "Tightening torque 120 Nm , undo,",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Use new castellated nuts."
+                },
+                {
+                  "bullet": "–",
+                  "text": "2 off, 2 split pins."
+                },
+                {
+                  "bullet": "–",
+                  "text": "Tightening torque 120 Nm , undo,\ntightening torque 20 Nm + 80°"
+                }
+              ]
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 52,
+          "text": "Connect the wiring harness connector for the reversing lamps.",
+          "image": null
+        },
+        {
+          "number": 53,
+          "text": "Attach the wiring harness to the alternator/starter motor.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 wiring harness connector, 3 clips"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 54,
+          "text": "Attach the oil cooler oil return line.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 union nut."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 55,
+          "text": "Hook the hydraulic clutch actuation line into place.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Bracket on the transmission."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 56,
+          "text": "Hook the gearshift cables into place.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Bracket on the transmission."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 57,
+          "text": "Attach the front exhaust pipe.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 off"
+            },
+            {
+              "bullet": "•–",
+              "text": "Tightening torque 16 Nm",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Insert into mounting."
+                }
+              ]
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 58,
+          "text": "At the lower heat shield.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 8 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 59,
+          "text": "Attach the cover for the exhaust system.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "9 bolts"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 60,
+          "text": "Lower the lifting ramp.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Half height."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 61,
+          "text": "Connect the tank breather valve wiring harness connector.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Route the wiring harness."
+            },
+            {
+              "bullet": "•",
+              "text": "3 cable ties."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 62,
+          "text": "Connect the fuel lines.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Connect the fuel lines."
+            },
+            {
+              "bullet": "•",
+              "text": "2 nuts."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 63,
+          "text": "Attach the wiring harness connector for the lambda probe for closed–loop mixture control.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Route the wiring harness."
+            },
+            {
+              "bullet": "•",
+              "text": "Attach to bracket."
+            },
+            {
+              "bullet": "•",
+              "text": "Connect the wiring harness connector."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 64,
+          "text": "Connect the engine wiring harness.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 wiring harness connectors."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 65,
+          "text": "Install the wheel arch trim.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "12 bolts"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 66,
+          "text": "Attach the rear wheels.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Do not tighten."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 67,
+          "text": "Lower the lifting ramp.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Half height."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 68,
+          "text": "Attach the left–hand engine damping block bracket.",
+          "substeps": [
+            {
+              "bullet": "•–",
+              "text": "Tightening torque 55 Nm",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "3 bolts"
+                }
+              ]
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 69,
+          "text": "Attach the clutch operation mechanism.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "The clip must audibly engage."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 70,
+          "text": "Attach the ground cable to the transmission.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 bolt"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 71,
+          "text": "Connect the coolant hoses.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 hoses."
+            },
+            {
+              "bullet": "•",
+              "text": "2 hoses."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 72,
+          "text": "Attach the oil supply line to the oil cooler.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 union nut."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 73,
+          "text": "Attach the wiring harness connector to the lambda probe for catalytic converter monitoring.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Attach to bracket."
+            },
+            {
+              "bullet": "•",
+              "text": "Connect the wiring harness connector."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 74,
+          "text": "Connect the tank breather valve line.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "To the intake manifold."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 75,
+          "text": "Attach the gearshift cables.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Route the gearshift cables."
+            },
+            {
+              "bullet": "•",
+              "text": "2 clips"
+            },
+            {
+              "bullet": "•",
+              "text": "Attach the gearshift cables to the relay lever assembly."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 76,
+          "text": "Attach the brake servo vacuum line.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "To the intake manifold."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 77,
+          "text": "Attach the air intake pipe.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Attach the fuel pressure regulator vacuum hose."
+            },
+            {
+              "bullet": "•",
+              "text": "Attach the intake air temperature sensor wiring harness"
+            },
+            {
+              "bullet": "•–",
+              "text": "1 clamp.",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "To the cylinder head cover."
+                }
+              ]
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 3,5 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 78,
+          "text": "Attach the rear engine cover.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Check the alignment."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 79,
+          "text": "Attach the rear wheels.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 90 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 80,
+          "text": "Connect the battery.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Negative terminal"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 81,
+          "text": "Fill up with coolant and correct as necessary – see operation \"Cooling System, Fill Up and Bleed.",
+          "image": null
+        },
+        {
+          "number": 82,
+          "text": "Bleed the hydraulic clutch actuation.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "See operation \"Hydraulic Clutch Actuation, Bleed (F17/F23)\" in"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 83,
+          "text": "Check and correct the transmission fluid level.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "See operation \"Transmission Fluid Level, Check and Correct"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 84,
+          "text": "Attach the engine cover.",
+          "substeps": [
+            {
+              "bullet": "•–",
+              "text": "Tightening torque 14 Nm",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Check the alignment."
+                }
+              ]
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 85,
+          "text": "Close the rear engine cover.",
+          "image": null
+        },
+        {
+          "number": 86,
+          "text": "Reprogram the volatile memories.",
+          "image": null
+        },
+        {
+          "number": 87,
+          "text": "Close the bonnet.",
+          "image": null
+        },
+        {
+          "number": 88,
+          "text": "Attach the engine splash shield.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Vehicle on 4–post ramp."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 89,
+          "text": "Close the driver's door.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Drain the coolant.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 21
+    },
+    {
+      "component": "Attach the rear engine damping block.",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": 45
+    },
+    {
+      "component": "Attach the rear engine damping block.",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 45
+    },
+    {
+      "component": "Attach the front engine damping block.",
+      "value": "55",
+      "unit": "Nm",
+      "stepRef": 47
+    },
+    {
+      "component": "Attach the engine damping block bracket with the right–hand engine damping block.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 48
+    },
+    {
+      "component": "Attach the engine damping block bracket with the right–hand engine damping block.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 48
+    },
+    {
+      "component": "Install the axle shafts.",
+      "value": "60",
+      "unit": "Nm",
+      "stepRef": 51
+    },
+    {
+      "component": "Install the axle shafts.",
+      "value": "120",
+      "unit": "Nm",
+      "stepRef": 51
+    },
+    {
+      "component": "Install the axle shafts.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 51
+    },
+    {
+      "component": "Attach the front exhaust pipe.",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": 57
+    },
+    {
+      "component": "At the lower heat shield.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 58
+    },
+    {
+      "component": "Attach the left–hand engine damping block bracket.",
+      "value": "55",
+      "unit": "Nm",
+      "stepRef": 68
+    },
+    {
+      "component": "Attach the air intake pipe.",
+      "value": "5",
+      "unit": "Nm",
+      "stepRef": 77
+    },
+    {
+      "component": "Attach the rear wheels.",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 79
+    },
+    {
+      "component": "Attach the engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 84
+    },
+    {
+      "component": "Tightening torque 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 86 Nm",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 49 Nm",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 55 Nm",
+      "value": "55",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 85 Nm",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 60 Nm",
+      "value": "60",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 120 Nm , undo, tightening torque 20 Nm + 80°",
+      "value": "120",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 16 Nm",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 3,5 Nm",
+      "value": "5",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-6042",
+    "KM-J-34730-91",
+    "KM-796-A",
+    "KM-904",
+    "KM-6054",
+    "KM-6054-4"
+  ],
+  "warnings": [
+    "During disassembly of\nthe gearshift cables it is important to ensure that the spigots of\nthe ball joints are not bent as a result of not lifting them off\nstraight. This would prevent proper gear changes from taking place\nafter installation. The gearshift cables must not be stretched,\ntwisted or kinked.",
+    "Fuel may escape\n– observe the safety regulations and relevant national\nlegislation.",
+    "Make sure that no\nattached components are damaged."
+  ],
+  "notes": [
+    "Set up on a hydraulic hoist.\n Use a hydraulic\nhoist that can be lowered at least 100 cm.",
+    "Lower the engine.\n 2 technicians\nrequired",
+    "Raise the engine.\n 2 technicians\nrequired"
+  ]
+}

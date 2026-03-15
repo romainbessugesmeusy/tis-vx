@@ -1,0 +1,64 @@
+{
+  "title": "Charnière, Capot Moteur, Remplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer coquille arrière - voir opération «Déposer et Reposer Coquille Arrière (Z 20 LET)»",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer charnière pour capot moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 3x écrou (1), 3x rondelle"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer joint"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b7953ae8741e.jpg",
+            "alt": "Object Number: 2422244  Size: DEFAULT"
+          },
+          "number": 2
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer charnière pour capot moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer joint"
+            },
+            {
+              "bullet": "•",
+              "text": "Reposer, puis serrer 3x écrou, 3x rondelle"
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Reposer coquille arrière - voir opération «Déposer et Reposer Coquille Arrière (Z 20 LET)»",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "hinge-engine-cover-replace-AQS315"
+}

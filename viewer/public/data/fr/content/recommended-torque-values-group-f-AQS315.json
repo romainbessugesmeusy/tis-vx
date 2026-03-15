@@ -1,0 +1,68 @@
+{
+  "title": "Valeurs de Couple de Serrage Recommandées – Groupe F",
+  "group": "F",
+  "values": [
+    {
+      "component": "Vis de fixation du triangle inférieur au châssis",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulon de fixation de l'amortisseur au support d'ancrage sur le châssis",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulon de fixation de la biellette de contrôle de trajectoire à l'arrière du triangle inférieur",
+      "value": "49",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de fixation du triangle supérieur au châssis",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de fixation du support de joint pivotant supérieur au support de moyeu",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de roue",
+      "value": "90",
+      "unit": "Nm"
+    },
+    {
+      "component": "Biellette de contrôle de trajectoire au support de moyeu",
+      "value": "65",
+      "unit": "Nm"
+    },
+    {
+      "component": "Arbre de transmission au moyeu de roue",
+      "value": "220",
+      "unit": "Nm"
+    },
+    {
+      "component": "Étrier de frein au support de moyeu",
+      "value": "48",
+      "unit": "Nm"
+    },
+    {
+      "component": "Disque de frein au support de moyeu",
+      "value": "12",
+      "unit": "Nm"
+    },
+    {
+      "component": "Triangle inférieur au support de moyeu",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Amortisseur au triangle inférieur",
+      "value": "45",
+      "unit": "Nm"
+    }
+  ],
+  "type": "torque_table",
+  "id": "recommended-torque-values-group-f-AQS315"
+}

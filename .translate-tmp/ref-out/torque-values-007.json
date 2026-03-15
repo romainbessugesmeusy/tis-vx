@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Reposer capteur de pression d'huile",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "18",
+      "unit": "Nm",
+      "stepRef": 57
+    },
+    {
+      "component": "Reposer capteur de vilebrequin",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 58
+    },
+    {
+      "component": "Reposer adaptateur de refroidisseur d'huile avec 2x nouveau joint d'étanchéité au boîtier de filtre à huile",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "120",
+      "unit": "Nm",
+      "stepRef": 59
+    },
+    {
+      "component": "Reposer couvercle supérieur avec nouveau joint torique au boîtier de filtre à huile",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 60
+    },
+    {
+      "component": "Attacher culasse",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 66
+    },
+    {
+      "component": "Attacher culasse",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 66
+    },
+    {
+      "component": "Reposer tuyau de distribution de carburant",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 67
+    },
+    {
+      "component": "Reposer pompe à liquide de refroidissement",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 68
+    },
+    {
+      "component": "Attacher collecteur d'admission",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 70
+    },
+    {
+      "component": "Attacher tuyau de recirculation des gaz d'échappement",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 71
+    },
+    {
+      "component": "Attacher tuyau de recirculation des gaz d'échappement",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 71
+    },
+    {
+      "component": "Attacher support de faisceau de câblage",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 74
+    },
+    {
+      "component": "Reposer unité de contrôle moteur",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 76
+    },
+    {
+      "component": "Reposer unité de contrôle moteur",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 76
+    },
+    {
+      "component": "Reposer collecteur d'échappement",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": 77
+    },
+    {
+      "component": "Attacher bouclier thermique supérieur",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 78
+    },
+    {
+      "component": "Reposer guides de chaîne de distribution d'arbre d'équilibrage (1)",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 81
+    },
+    {
+      "component": "Reposer rail de tension de chaîne de distribution d'arbre d'équilibrage",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 82
+    },
+    {
+      "component": "Reposer tendeur de chaîne de distribution d'arbre d'équilibrage",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 83
+    },
+    {
+      "component": "Reposer buse de projection d'huile",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 84
+    },
+    {
+      "component": "Reposer pignon d'arbre à cames d'admission",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 87
+    },
+    {
+      "component": "Reposer rail de tension de chaîne de distribution d'arbre à cames",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 89
+    },
+    {
+      "component": "Reposer rail de guidage de chaîne de distribution d'arbre à cames",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 90
+    },
+    {
+      "component": "Reposer rail de guidage de chaîne de distribution d'arbre à cames",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": 90
+    },
+    {
+      "component": "Reposer pignon d'arbre à cames d'échappement Remarque: Vérifier que les points de référence PMH sont alignés.",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 92
+    },
+    {
+      "component": "Reposer rail de guidage",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 94
+    },
+    {
+      "component": "Reposer tendeur de chaîne de distribution d'arbre à cames",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 95
+    },
+    {
+      "component": "Reposer carter de distribution Remarque: Retirer le coin plastique et le chiffon de l'ouverture dans le carter de distribution.",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": 97
+    },
+    {
+      "component": "Attacher amortisseur de vibrations rotatif (2)",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": 98
+    },
+    {
+      "component": "Attacher compresseur",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 101
+    },
+    {
+      "component": "Attacher alternateur",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": 102
+    },
+    {
+      "component": "Attacher tendeur de courroie striée Note: La patte (1) du tendeur de courroie striée s'engage dans l'alésage du carter de distribution (2).",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": 103
+    },
+    {
+      "component": "Attacher support de bloc d'amortissement moteur",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 105
+    },
+    {
+      "component": "Attacher volant moteur",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 106
+    },
+    {
+      "component": "Attacher couvercle de culasse",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 107
+    },
+    {
+      "component": "Attacher module d'allumage",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 108
+    },
+    {
+      "component": "Attacher boîtier de thermostat",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 109
+    },
+    {
+      "component": "Couple de serrage 25 Nm",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Vers plaque de base de bloc-cylindres 23 Nm",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 18 Nm",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "18",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer, puis serrer bague de fixation 120 Nm",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "120",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage boulons M10 30 Nm + 60° + 60° + 35°",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 35 Nm",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 8 Nm",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 10 Nm",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 12 Nm",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 85 Nm + 30° + 15°",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 65 Nm",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 75 Nm",
+      "sourcePage": "réparation-moteur-utilisation-d'un-bloc-courte-z-22-se-A26D1C",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

@@ -1,0 +1,617 @@
+{
+  "title": "Remplacer les coussinets de bielle (Z 22 SE)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Ouvrir le capot.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Débrancher la batterie.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Ouvrir le cache moteur (1).",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Déposer le cache moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "6 vis (2) et (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Desserrer les boulons sur le tube de guidage de la jauge d'huile (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tirer la jauge d'huile (1)."
+            },
+            {
+              "bullet": "•",
+              "text": "1 vis (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/839872b80755.jpg",
+            "alt": "Object Number: 2416675  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Retirer le tube de guidage de la jauge d'huile.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tirer le tube de guidage de la jauge d'huile hors du carter d'huile et soulever"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/839872b80755.jpg",
+            "alt": "Object Number: 2416675  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Élever la rampe de levage.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Retirer le cache inférieur du moteur (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 boulons"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 8
+        },
+        {
+          "text": "Placer un bac de récupération en dessous.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Vidanger l'huile du moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ouvrir le bouchon de vidange d'huile."
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 25 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "number": 10
+        },
+        {
+          "text": "Retirer le carter d'huile.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "17 boulons"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/eaf0186d1402.jpg",
+            "alt": "Object Number: 2417754  Size: DEFAULT"
+          },
+          "number": 11
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Démonter",
+      "steps": [
+        {
+          "text": "Retirer les chapeaux de palier de bielle 1 et 4.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Faire tourner le vilebrequin dans le sens normal de rotation jusqu'à"
+            },
+            {
+              "bullet": "•",
+              "text": "Marquer la bielle et le chapeau de palier de bielle (1)."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/352370a0730c.jpg",
+            "alt": "Object Number: 2417756  Size: DEFAULT"
+          },
+          "number": 12
+        },
+        {
+          "text": "Détacher les chapeaux de palier de bielle.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 au total"
+            },
+            {
+              "bullet": "•",
+              "text": "4 boulons"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/33547d05cf9c.jpg",
+            "alt": "Object Number: 2417755  Size: DEFAULT"
+          },
+          "number": 13
+        },
+        {
+          "text": "Pousser les pistons et les bielles vers le haut. Important : Les surfaces endommagées des bielles et des chapeaux de palier de bielle forment un ajustement unique et ne doivent pas être échangées ou endommagées. Ne pas poser les pièces sur les surfaces endommagées.",
+          "image": {
+            "src": "/data/assets/images/33547d05cf9c.jpg",
+            "alt": "Object Number: 2417755  Size: DEFAULT"
+          },
+          "number": 14
+        },
+        {
+          "text": "Retirer les coussinets de palier de bielle. Remarque : Noter la position d'installation et l'allocation.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer de la bielle (1) et du chapeau de palier de bielle"
+            },
+            {
+              "bullet": "•",
+              "text": "Inspecter visuellement les composants."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ae970ac1c8db.jpg",
+            "alt": "Object Number: 2417760  Size: DEFAULT"
+          },
+          "number": 15
+        }
+      ],
+      "phase": "disassemble",
+      "icon": "/data/assets/images/f624612d033b.gif"
+    },
+    {
+      "label": "Assembler",
+      "steps": [
+        {
+          "text": "Insérer les coussinets de palier de bielle.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enduire les coussinets de palier de bielle d'huile moteur."
+            }
+          ],
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Installer les paliers de bielle 1 et 4.",
+          "image": {
+            "src": "/data/assets/images/33547d05cf9c.jpg",
+            "alt": "Object Number: 2417755  Size: DEFAULT"
+          },
+          "number": 17
+        },
+        {
+          "text": "Enduire les tourillons de palier de bielle d'huile moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 25 Nm + 50° +"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/352370a0730c.jpg",
+            "alt": "Object Number: 2417756  Size: DEFAULT"
+          },
+          "number": 18
+        }
+      ],
+      "phase": "assemble",
+      "icon": "/data/assets/images/1e33bc0b1f5e.gif"
+    },
+    {
+      "label": "Démonter",
+      "steps": [
+        {
+          "text": "Retirer les chapeaux de palier de bielle 2 et 3.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Faire tourner le vilebrequin dans le sens normal de rotation"
+            },
+            {
+              "bullet": "•",
+              "text": "Marquer la bielle et le chapeau de palier de bielle (1)."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/352370a0730c.jpg",
+            "alt": "Object Number: 2417756  Size: DEFAULT"
+          },
+          "number": 19
+        },
+        {
+          "text": "Détacher les chapeaux de palier de bielle.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 au total"
+            },
+            {
+              "bullet": "•",
+              "text": "4 boulons"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/89c504e5114c.jpg",
+            "alt": "Object Number: 2417759  Size: DEFAULT"
+          },
+          "number": 20
+        },
+        {
+          "text": "Pousser les pistons et les bielles vers le haut.",
+          "image": {
+            "src": "/data/assets/images/89c504e5114c.jpg",
+            "alt": "Object Number: 2417759  Size: DEFAULT"
+          },
+          "number": 21
+        },
+        {
+          "text": "Important : Les surfaces endommagées des bielles et des chapeaux de palier de bielle forment un ajustement unique et ne doivent pas être échangées ou endommagées. Ne pas poser les pièces sur les surfaces endommagées.",
+          "image": {
+            "src": "/data/assets/images/89c504e5114c.jpg",
+            "alt": "Object Number: 2417759  Size: DEFAULT"
+          },
+          "number": 22
+        },
+        {
+          "text": "Retirer les coussinets de palier de bielle. Remarque : Noter la position d'installation et l'allocation.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer de la bielle (1) et du chapeau de palier de bielle"
+            },
+            {
+              "bullet": "•",
+              "text": "Inspecter visuellement les composants."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ae970ac1c8db.jpg",
+            "alt": "Object Number: 2417760  Size: DEFAULT"
+          },
+          "number": 23
+        },
+        {
+          "text": "Insérer les coussinets de palier de bielle.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enduire les coussinets de palier de bielle d'huile moteur."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ae970ac1c8db.jpg",
+            "alt": "Object Number: 2417760  Size: DEFAULT"
+          },
+          "number": 24
+        }
+      ],
+      "phase": "disassemble",
+      "icon": "/data/assets/images/f624612d033b.gif"
+    },
+    {
+      "label": "Assembler",
+      "steps": [
+        {
+          "text": "Installer les chapeaux de palier de bielle 2 et 3.",
+          "image": {
+            "src": "/data/assets/images/89c504e5114c.jpg",
+            "alt": "Object Number: 2417759  Size: DEFAULT"
+          },
+          "number": 25
+        },
+        {
+          "text": "Enduire les tourillons de palier de bielle d'huile moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 25 Nm + 50° +"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/352370a0730c.jpg",
+            "alt": "Object Number: 2417756  Size: DEFAULT"
+          },
+          "number": 26
+        },
+        {
+          "text": "Nettoyer les surfaces de joint.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Plaque de base du bloc-cylindres, carter d'huile"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/352370a0730c.jpg",
+            "alt": "Object Number: 2417756  Size: DEFAULT"
+          },
+          "number": 27
+        },
+        {
+          "text": "Recréer le filetage.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "15 au total"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/352370a0730c.jpg",
+            "alt": "Object Number: 2417756  Size: DEFAULT"
+          },
+          "number": 28
+        }
+      ],
+      "phase": "assemble",
+      "icon": "/data/assets/images/1e33bc0b1f5e.gif"
+    },
+    {
+      "label": "Installer",
+      "steps": [
+        {
+          "text": "Installer le carter d'huile.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Appliquer un cordon de mastic silicone (gris) (environ 2 mm à 2,5 mm"
+            },
+            {
+              "bullet": "•",
+              "text": "Appliquer un cordon de mastic silicone supplémentaire (gris) (environ."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6406f6364d10.jpg",
+            "alt": "Object Number: 2417774  Size: DEFAULT"
+          },
+          "number": 29
+        },
+        {
+          "text": "Remarque : Respecter la séquence de serrage.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer tous les boulons de manière lâche."
+            },
+            {
+              "bullet": "•",
+              "text": "Sur la plaque de base du bloc-cylindres – couple de serrage"
+            },
+            {
+              "bullet": "•",
+              "text": "Sur le carter de transmission – couple de serrage 23 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a6bb93aa1a59.jpg",
+            "alt": "Object Number: 2417775  Size: DEFAULT"
+          },
+          "number": 30
+        },
+        {
+          "text": "Installer le cache inférieur du moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 boulons"
+            }
+          ],
+          "number": 31,
+          "image": null
+        },
+        {
+          "text": "Abaisser la rampe de levage.",
+          "number": 32,
+          "image": null
+        },
+        {
+          "text": "Insérer le tube de guidage de la jauge d'huile.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enduire les joints d'huile de graisse silicone (blanche)."
+            },
+            {
+              "bullet": "•",
+              "text": "Insérer le tube de guidage de la jauge d'huile jusqu'à la butée dans le"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer le connecteur du faisceau de câblage du capteur de cognement."
+            }
+          ],
+          "number": 33,
+          "image": null
+        },
+        {
+          "text": "Fixer le tube de guidage de la jauge d'huile.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 9 Nm"
+            }
+          ],
+          "number": 34,
+          "image": null
+        },
+        {
+          "text": "Remplir d'huile moteur et vérifier le niveau d'huile.",
+          "number": 35,
+          "image": null
+        },
+        {
+          "text": "Installer le cache arrière du moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Vérifier l'alignement."
+            },
+            {
+              "bullet": "•",
+              "text": "6 boulons, couple de serrage 14 Nm"
+            }
+          ],
+          "number": 36,
+          "image": null
+        },
+        {
+          "text": "Fermer le cache arrière du moteur.",
+          "number": 37,
+          "image": null
+        },
+        {
+          "text": "Rebrancher la batterie.",
+          "number": 38,
+          "image": null
+        },
+        {
+          "text": "Fermer le capot.",
+          "number": 39,
+          "image": null
+        },
+        {
+          "text": "Reprogrammer les mémoires volatiles.",
+          "number": 40,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Vidanger l'huile du moteur.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Enduire les tourillons de palier de bielle d'huile moteur.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 18
+    },
+    {
+      "component": "Enduire les tourillons de palier de bielle d'huile moteur.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 26
+    },
+    {
+      "component": "Remarque : Respecter la séquence de serrage.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 30
+    },
+    {
+      "component": "Fixer le tube de guidage de la jauge d'huile.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 34
+    },
+    {
+      "component": "Installer le cache arrière du moteur.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 36
+    },
+    {
+      "component": "Couple de serrage 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Sur la plaque de base du bloc-cylindres – couple de serrage 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 boulons, couple de serrage 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "Noter les marquages appliqués (1).",
+    "18.  \nEnduire les tourillons de palier de bielle d'huile moteur.\n \n\n\n\nNoter les marquages appliqués (1).\n \n\n\n\n•  \nRenouveler les boulons.\n \n\n\n\n\n\n•  \nCouple de serrage 25 Nm + 50° +\n50° + 10°"
+  ],
+  "notes": [
+    "17 boulons\n Utiliser un outil approprié pour le décoller uniformément aux points de levier (flèche).",
+    "Marquer la bielle et le chapeau de palier de bielle (1).\n Noter la séquence des cylindres.",
+    "Retirer les coussinets de palier de bielle.\n Noter la position d'installation et l'allocation.\n \n\n\n\n•  \nRetirer de la bielle (1) et du chapeau de palier de bielle\n(2).\n \n\n\n\n\n\n•  \nInspecter visuellement les composants.",
+    "Respecter la\nséquence de serrage.\n \n\n\n\n•  \nSerrer tous les boulons de manière lâche.\n \n\n\n\n\n\n•  \nSur la plaque de base du bloc-cylindres – couple de serrage\n23 Nm \n \n\n\n\n\n\n•  \nSur le carter de transmission – couple de serrage 23 Nm"
+  ],
+  "type": "procedure",
+  "id": "connecting-rod-bearings-replace-z-22-se-A26D1C"
+}

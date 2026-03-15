@@ -1,0 +1,131 @@
+{
+  "title": "Instrument (Z20LET)",
+  "components": [
+    {
+      "description": "Déposer l'unité de contrôle - Airbag",
+      "code": "A1"
+    },
+    {
+      "description": "Déposer le témoin - Plein phares",
+      "code": "H1.12"
+    },
+    {
+      "description": "Déposer l'unité de contrôle - Système de freinage antiblocage",
+      "code": "A2"
+    },
+    {
+      "description": "Déposer le témoin - Système de freinage",
+      "code": "H1.17"
+    },
+    {
+      "description": "Déposer l'unité de contrôle - Motronic",
+      "code": "A5"
+    },
+    {
+      "description": "Déposer le témoin - Clignotant",
+      "code": "H1.19"
+    },
+    {
+      "description": "Déposer l'unité de contrôle - Système d'alarme antivol",
+      "code": "A13"
+    },
+    {
+      "description": "Déposer l'indicateur - Température du liquide de refroidissement",
+      "code": "H1.22"
+    },
+    {
+      "description": "Déposer l'unité de contrôle - Antidémarrage",
+      "code": "A17"
+    },
+    {
+      "description": "Indicateur de carburant",
+      "code": "H1.23"
+    },
+    {
+      "description": "Déposer l'interrupteur - Liquide de frein",
+      "code": "B1"
+    },
+    {
+      "description": "Compteur de tours",
+      "code": "H1.24"
+    },
+    {
+      "description": "Déposer l'interrupteur - Frein de stationnement",
+      "code": "B2"
+    },
+    {
+      "description": "Compteur de vitesse - Électronique",
+      "code": "H1.25"
+    },
+    {
+      "description": "Déposer l'interrupteur - Pression d'huile",
+      "code": "B3"
+    },
+    {
+      "description": "Avertisseur sonore",
+      "code": "H1.65"
+    },
+    {
+      "description": "Déposer l'interrupteur - Capacité minimale, liquide de refroidissement",
+      "code": "B6"
+    },
+    {
+      "description": "Déposer le témoin - Niveau de liquide de refroidissement",
+      "code": "H1.69"
+    },
+    {
+      "description": "Alternateur",
+      "code": "G2"
+    },
+    {
+      "description": "Déposer le témoin - Passage de vitesse/Antidémarrage",
+      "code": "H1.76"
+    },
+    {
+      "description": "Lampe témoin de charge",
+      "code": "H1.1"
+    },
+    {
+      "description": "Capteur - Contenu du réservoir de carburant",
+      "code": "P5"
+    },
+    {
+      "description": "Déposer le témoin - Pression d'huile",
+      "code": "H1.2"
+    },
+    {
+      "description": "Déposer l'interrupteur - Plein phares",
+      "code": "S3.1"
+    },
+    {
+      "description": "Déposer le témoin - Airbag",
+      "code": "H1.4"
+    },
+    {
+      "description": "Déposer l'interrupteur - Clignotant",
+      "code": "S3.2"
+    },
+    {
+      "description": "Déposer le témoin - Système de freinage antiblocage",
+      "code": "H1.5"
+    },
+    {
+      "description": "Déposer l'interrupteur - Feux de détresse",
+      "code": "S6"
+    },
+    {
+      "description": "Déposer le témoin - Moteur",
+      "code": "H1.6"
+    },
+    {
+      "description": "Interrupteur de contact - Porte conducteur",
+      "code": "S38"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "instrument-z20let-AQS315",
+  "diagram": {
+    "src": "/data/assets/94816898de64.cgm",
+    "type": "cgm"
+  }
+}

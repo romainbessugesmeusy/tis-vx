@@ -1,0 +1,67 @@
+{
+  "title": "clignotants-AQS315",
+  "components": [
+    {
+      "description": "Feu stop - Position centrale",
+      "code": "E24"
+    },
+    {
+      "description": "Interrupteur - Avertisseur de danger",
+      "code": "S6"
+    },
+    {
+      "description": "Interrupteur - Pédale d'embrayage",
+      "code": "S28"
+    },
+    {
+      "description": "Clignotant - Latéral, gauche",
+      "code": "H6"
+    },
+    {
+      "description": "Interrupteur - Feu stop, simple",
+      "code": "S29"
+    },
+    {
+      "description": "Clignotant - Latéral, droit",
+      "code": "H7"
+    },
+    {
+      "description": "Interrupteur - Feu de recul",
+      "code": "S31"
+    },
+    {
+      "description": "Relais - Antibrouillard, arrière",
+      "code": "K5"
+    },
+    {
+      "description": "Interrupteur - Feu stop, double",
+      "code": "S43"
+    },
+    {
+      "description": "Centrale clignotante",
+      "code": "K31"
+    },
+    {
+      "description": "Interrupteur - Antibrouillards, arrière",
+      "code": "S122"
+    },
+    {
+      "description": "Faisceau principal & Arceau de sécurité",
+      "code": "X12"
+    },
+    {
+      "description": "Moteur Z20LET",
+      "code": "Z20LET"
+    },
+    {
+      "description": "Moteur Z22SE",
+      "code": "Z22SE"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "turn-signal-lamps-AQS315",
+  "diagram": {
+    "src": "/data/assets/2dd47136a6b3.cgm",
+    "type": "cgm"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Field Remedy: 1584",
+  "subject": "Z20LET - Turbocharger - Bruit sifflant",
+  "complaint": "Bruit sifflant provenant du Turbocharger.",
+  "cause": "Dommage du Turbocharger dû à un manque d'huile ou à une\nsurchauffe thermique.",
+  "remedyContent": [
+    {
+      "type": "numbered",
+      "items": [
+        "En cas de réclamation du client, les pannes suivantes peuvent être détectées :",
+        "Dommage du palier de frottement de l'arbre du turbocompresseur en raison d'une",
+        "pénurie d'huile ->",
+        "Le turbocompresseur doit être remplacé.",
+        "Pour éviter une défaillance répétée du turbocompresseur, il est strictement nécessaire de vérifier le",
+        "système d'alimentation complet en huile du moteur (Vérification de la pression d'huile selon TIS)."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "En cas de vidange d'huile moteur, la cartouche de filtre à huile doit être\npré-remplie avant l'installation.\nRemarque : Ne pas appuyer sur la pédale d'accélérateur avant que le témoin de pression d'huile \n      s'éteigne. Sinon, le turbocompresseur se met en marche sans\n      alimentation d'huile suffisante, ce qui endommage le palier. \n(Cette procédure sera ajoutée à la Procédure d'inspection régulière)."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Déséquilibre dû à une surchauffe thermique",
+        "Une surchauffe thermique est principalement causée par une pression de suralimentation accrue",
+        "(Tuning - vérifier les données SPS dans l'ECU). Dans un tel cas, la garantie",
+        "doit être refusée et le client doit en être informé en conséquence",
+        "(veuillez également vous référer à la Field Remedy 1510)"
+      ]
+    }
+  ],
+  "type": "tsb",
+  "id": "z20let-turbocharger-whining-noise-AQS315",
+  "metadata": {
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "14 - Noises or Vibrations",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  },
+  "production": ""
+}

@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Serrer le couple de serrage 25 Nm",
+      "sourcePage": "déposer-et-reposer-le-carter-d'huile-z-22-se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Au carter de base du bloc-cylindres – serrer le couple de serrage 23 Nm",
+      "sourcePage": "déposer-et-reposer-le-carter-d'huile-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer le couple de serrage 9 Nm",
+      "sourcePage": "déposer-et-reposer-le-carter-d'huile-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 vis, serrer le couple de serrage 14 Nm",
+      "sourcePage": "déposer-et-reposer-le-carter-d'huile-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Pression d'huile du contacteur – 18 Nm .",
+      "sourcePage": "vérification-de-la-pression-d'huile-A26D1C",
+      "value": "18",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Contacteur de pression d'huile (1) au boîtier du filtre à huile – 18 Nm .",
+      "sourcePage": "déposer-et-reposer-le-contacteur-de-pression-d'huile-A26D1C",
+      "value": "18",
+      "unit": "Nm",
+      "stepRef": 3
+    },
+    {
+      "component": "Déposer l'huile du moteur.",
+      "sourcePage": "révision-de-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Reposer le carter de distribution. Note: Retirer le chiffon de l'ouverture dans le carter de distribution.",
+      "sourcePage": "révision-de-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": 29
+    },
+    {
+      "component": "Fixer le bloc d'amortissement du moteur droit.",
+      "sourcePage": "révision-de-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 32
+    },
+    {
+      "component": "Fixer le support du bloc d'amortissement du moteur.",
+      "sourcePage": "révision-de-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 33
+    },
+    {
+      "component": "Fixer le bloc d'amortissement du moteur arrière.",
+      "sourcePage": "révision-de-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": 34
+    },
+    {
+      "component": "Fixer le support des câbles de changement de vitesse.",
+      "sourcePage": "révision-de-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 36
+    },
+    {
+      "component": "Fixer l'amortisseur de vibrations rotatif (2).",
+      "sourcePage": "révision-de-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": 37
+    },
+    {
+      "component": "Fixer la poulie tendeuse de courroie striée. Note: La patte (1) de la poulie tendeuse de courroie striée s'engage dans le trou du carter de distribution (2).",
+      "sourcePage": "révision-de-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": 38
+    },
+    {
+      "component": "Reposer le tuyau d'échappement avant.",
+      "sourcePage": "révision-de-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": 40
+    },
+    {
+      "component": "Reposer le bouclier thermique inférieur.",
+      "sourcePage": "révision-de-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 43
+    },
+    {
+      "component": "Reposer le cache moteur arrière.",
+      "sourcePage": "révision-de-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 45
+    },
+    {
+      "component": "Serrer le couple de serrage 25 Nm",
+      "sourcePage": "révision-de-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer le couple de serrage 21 Nm",
+      "sourcePage": "révision-de-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer le couple de serrage 45 Nm",
+      "sourcePage": "révision-de-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer le couple de serrage 85 Nm",
+      "sourcePage": "révision-de-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer le couple de serrage 86 Nm",
+      "sourcePage": "révision-de-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer le couple de serrage 22 Nm",
+      "sourcePage": "révision-de-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer le couple de serrage 100 Nm + 75° + 15°",
+      "sourcePage": "révision-de-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer le couple de serrage 43 Nm",
+      "sourcePage": "révision-de-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer le couple de serrage 16 Nm",
+      "sourcePage": "révision-de-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer le couple de serrage 8 Nm",
+      "sourcePage": "révision-de-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 vis, serrer le couple de serrage 14 Nm",
+      "sourcePage": "révision-de-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer la soupape de régulation de pression de la pompe à huile.",
+      "sourcePage": "déposer-et-reposer-la-soupape-de-régulation-de-pression-de-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Serrer le couple de serrage 65 Nm",
+      "sourcePage": "déposer-et-reposer-la-soupape-de-régulation-de-pression-de-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Déposer l'huile du moteur.",
+      "sourcePage": "déposer-et-reposer-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Reposer le carter de distribution. Note: Retirer le chiffon de l'ouverture dans le carter de distribution.",
+      "sourcePage": "déposer-et-reposer-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": 26
+    },
+    {
+      "component": "Fixer le bloc d'amortissement du moteur droit.",
+      "sourcePage": "déposer-et-reposer-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 29
+    },
+    {
+      "component": "Fixer le support du bloc d'amortissement du moteur.",
+      "sourcePage": "déposer-et-reposer-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 30
+    },
+    {
+      "component": "Fixer le bloc d'amortissement du moteur arrière.",
+      "sourcePage": "déposer-et-reposer-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": 31
+    },
+    {
+      "component": "Fixer le support des câbles de changement de vitesse.",
+      "sourcePage": "déposer-et-reposer-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 33
+    },
+    {
+      "component": "Fixer l'amortisseur de vibrations rotatif (2).",
+      "sourcePage": "déposer-et-reposer-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": 34
+    },
+    {
+      "component": "Fixer la poulie tendeuse de courroie striée. Note: La patte (1) de la poulie tendeuse de courroie striée s'engage dans le trou du carter de distribution (2).",
+      "sourcePage": "déposer-et-reposer-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": 35
+    },
+    {
+      "component": "Reposer le tuyau d'échappement avant.",
+      "sourcePage": "déposer-et-reposer-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": 37
+    },
+    {
+      "component": "Reposer le bouclier thermique inférieur.",
+      "sourcePage": "déposer-et-reposer-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 40
+    },
+    {
+      "component": "Reposer le cache moteur arrière.",
+      "sourcePage": "déposer-et-reposer-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 42
+    },
+    {
+      "component": "Serrer le couple de serrage 25 Nm",
+      "sourcePage": "déposer-et-reposer-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer le couple de serrage 21 Nm",
+      "sourcePage": "déposer-et-reposer-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer le couple de serrage 45 Nm",
+      "sourcePage": "déposer-et-reposer-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer le couple de serrage 85 Nm",
+      "sourcePage": "déposer-et-reposer-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer le couple de serrage 86 Nm",
+      "sourcePage": "déposer-et-reposer-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer le couple de serrage 22 Nm",
+      "sourcePage": "déposer-et-reposer-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer le couple de serrage 100 Nm + 75° + 15°",
+      "sourcePage": "déposer-et-reposer-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer le couple de serrage 43 Nm",
+      "sourcePage": "déposer-et-reposer-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer le couple de serrage 16 Nm",
+      "sourcePage": "déposer-et-reposer-la-pompe-à-huile-z-22-se-A26D1C",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

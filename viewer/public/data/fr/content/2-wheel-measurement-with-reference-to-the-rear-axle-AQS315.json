@@ -1,0 +1,7 @@
+{
+  "title": "Mesure à 2 roues en référence à l'essieu arrière",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Mesure à 2 roues en référence à l'essieu arrière</p>\n\n<p>Avec cette procédure de mesure, en plus de la mesure normale à 2 roues, l'axe de symétrie est inclus dans la mesure. Cependant, les essieux avant et arrière doivent être réglés séparément l'un de l'autre.</p>\n\n<p><span class=\"gt-important\">Important:&nbsp;&nbsp;</span>\nLes machines d'alignement avec une mesure à 2 roues en référence à l'essieu arrière ne sont pas approuvées pour les véhicules Opel/Vauxhall.</p>\n\n<p>Ce processus de mesure inclut par exemple les machines d'alignement visuel-mécanique.</p>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "type": "generic",
+  "id": "2-wheel-measurement-with-reference-to-the-rear-axle-AQS315",
+  "extractedData": {}
+}

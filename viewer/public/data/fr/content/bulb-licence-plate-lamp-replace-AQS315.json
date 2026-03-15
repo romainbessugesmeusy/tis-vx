@@ -1,0 +1,40 @@
+{
+  "title": "Ampoule, Lampe de Plaque d'Immatriculation, Remplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer/Poser",
+      "steps": [
+        {
+          "text": "Lampe de plaque d'immatriculation du capot arrière – vis.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Ampoule festoon de la lampe de plaque d'immatriculation.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Ampoule festoon à la lampe de plaque d'immatriculation.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Lampe de plaque d'immatriculation au capot arrière – vis.",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "bulb-licence-plate-lamp-replace-AQS315"
+}

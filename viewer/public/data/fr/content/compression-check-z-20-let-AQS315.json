@@ -1,0 +1,188 @@
+{
+  "title": "Compression, Vérifier (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Mesurer",
+      "steps": [
+        {
+          "text": "Débrancher le connecteur du faisceau (1) du module d'allumage",
+          "image": {
+            "src": "/data/assets/images/fb7c6ec0f3bf.jpg",
+            "alt": "Object Number: 2421971  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 1
+        },
+        {
+          "text": "Retirer le couvercle supérieur de garniture (2) de la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Faire glisser"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/fb7c6ec0f3bf.jpg",
+            "alt": "Object Number: 2421971  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Retirer le module d'allumage de la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer les 2 vis (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a3e616786715.jpg",
+            "alt": "Object Number: 2421972  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Retirer la bougie d'allumage de la culasse",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Retirer le relais de la pompe à carburant situé dans le compartiment à bagages",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tirer pour enlever"
+            }
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Installer le manomètre de compression (1) (disponible dans le commerce) dans la culasse",
+          "image": {
+            "src": "/data/assets/images/e3c7a42e8b80.jpg",
+            "alt": "Object Number: 2421973  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 6
+        },
+        {
+          "text": "Actionner le moteur pendant environ 4 secondes",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Observer la lecture du manomètre de compression"
+            }
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Retirer le manomètre de compression (1) de la culasse",
+          "image": {
+            "src": "/data/assets/images/e3c7a42e8b80.jpg",
+            "alt": "Object Number: 2421973  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 8
+        },
+        {
+          "text": "Installer la bougie d'allumage dans la culasse à 25 Nm",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Répéter le processus pour les cylindres restants",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Installer le relais de la pompe à carburant situé dans le compartiment à bagages",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pousser pour ajuster"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Installer le module d'allumage sur la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer les 2 vis (1) à 8 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a3e616786715.jpg",
+            "alt": "Object Number: 2421972  Size: DEFAULT"
+          },
+          "number": 12
+        },
+        {
+          "text": "Installer le couvercle de garniture supérieur (2) sur la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Faire glisser"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/fb7c6ec0f3bf.jpg",
+            "alt": "Object Number: 2421971  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 13
+        },
+        {
+          "text": "Raccorder le connecteur du faisceau (1) au module d'allumage",
+          "image": {
+            "src": "/data/assets/images/fb7c6ec0f3bf.jpg",
+            "alt": "Object Number: 2421971  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 14
+        }
+      ],
+      "phase": "measure",
+      "icon": "/data/assets/images/707731fa677f.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Installer la bougie d'allumage dans la culasse à 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Installer le module d'allumage sur la culasse",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Installer les 2 vis (1) à 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "type": "procedure",
+  "id": "compression-check-z-20-let-AQS315"
+}

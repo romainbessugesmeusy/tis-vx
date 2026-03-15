@@ -1,0 +1,22 @@
+{
+  "title": "Field Remedy: 1653",
+  "subject": "Transmission F23 - Mauvais comportement de passage à froid\nen 1ère et 2ème vitesse",
+  "complaint": "Certains clients se plaignent d'un mauvais comportement de passage à froid\nen 1ère et 2ème vitesse. Le mécanisme de changement de vitesse est\ncorrectement réglé et le système d'embrayage est purgé.",
+  "cause": "Tolérances des dentures du pignon\nde coulissement.",
+  "production": "Introduction de la transmission avec pignon de coulissement modifié à partir du numéro de transmission Gxx03240969 en semaine\ncalendaire 41 / 2003.",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "En cas de plainte du client, le pignon de coulissement doit être remplacé\nen utilisant le Kit de Réparation, Réf.: 9201451 / Catalogue: 16 07 013. Il\nn'est pas nécessaire de remplacer toute la transmission."
+    }
+  ],
+  "type": "tsb",
+  "id": "f23-transmission-bad-cold-shifting-behaviour-in-1st-and-2nd--AQS315",
+  "metadata": {
+    "functionalGroup": "K - Clutch/Transmission",
+    "complaintGroup": "08 - Hard to operate",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Diagnostic du Système de Filtration d'Air (Z20 LET)",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Système de filtration d'air illustré",
+          "image": {
+            "src": "/data/assets/images/55e3ad9d26d6.jpg",
+            "alt": "Object Number: 2423049  Size: DEFAULT"
+          },
+          "number": 1
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "type": "procedure",
+  "id": "survey-of-air-cleaner-system-z20-let-AQS315"
+}

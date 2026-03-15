@@ -1,0 +1,49 @@
+{
+  "title": "Capteur de vitesse de roue, sauf Vectra-C/Signum et\nAstra-H",
+  "steps": [
+    {
+      "text": "Déposer la courbe de référence.",
+      "number": 1
+    },
+    {
+      "text": "Mettre le contact.",
+      "number": 2
+    },
+    {
+      "text": "Déposer la roue concernée du sol.",
+      "number": 3
+    },
+    {
+      "text": "Faire tourner la roue.",
+      "number": 4
+    },
+    {
+      "text": "Installer le fichier de configuration (le Tech 32 utilise uniquement des fichiers de configuration, pas de courbes de référence).",
+      "number": 1
+    },
+    {
+      "text": "Mettre le contact.",
+      "number": 2
+    },
+    {
+      "text": "Déposer la roue concernée du sol.",
+      "number": 3
+    },
+    {
+      "text": "Faire tourner la roue.",
+      "number": 4
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/db588b0e372b.jpg",
+      "alt": "Numéro d'objet : 2419162  Taille : DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/cbee6531c2a5.jpg",
+      "alt": "Numéro d'objet : 2419163  Taille : DEFAULT"
+    }
+  ],
+  "type": "diagnostic",
+  "id": "wheel-speed-sensor-except-vectra-c-signum-and-astra-h-A26D1C"
+}

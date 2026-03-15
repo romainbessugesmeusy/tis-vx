@@ -1,0 +1,195 @@
+{
+  "title": "Roulements à rouleaux coniques, Différentiel, Remplacer",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Illustration du différentiel",
+          "image": {
+            "src": "/data/assets/images/1c1c71c1c568.jpg",
+            "alt": "Object Number: 2416927  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer la transmission du véhicule - voir l'opération \"Transmission, Déposer et Reposer\"",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Démonter la transmission - voir l'opération \"Transmission, Joint Complètement\"",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Fixer le KM-6118-2 (1) sur la bague intérieure (2)",
+          "image": {
+            "src": "/data/assets/images/a96248d242e0.jpg",
+            "alt": "Object Number: 2415551  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Fixer uniformément le KM-6118-1 sur le KM-6118-2 (1); ne pas incliner. Serrer les vis (fléchées)",
+          "image": {
+            "src": "/data/assets/images/9fa086eb71fa.jpg",
+            "alt": "Object Number: 2416926  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Presser la bague intérieure du roulement à rouleaux coniques du différentiel (4) avec le KM-6118 (3) en conjonction avec le KM-500-5 (2) et la presse d'atelier (1) Remarque : Cette opération est décrite pour la bague intérieure du roulement à rouleaux coniques du côté du carter de transmission. La dépose et l'installation de la bague intérieure du roulement à rouleaux coniques du côté du carter d'embrayage sont réalisées de manière similaire",
+          "image": {
+            "src": "/data/assets/images/17bdef303610.jpg",
+            "alt": "Object Number: 2415552  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "3",
+            "2",
+            "1"
+          ],
+          "number": 6
+        },
+        {
+          "text": "Nettoyer et vérifier toutes les pièces; remplacer si nécessaire",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Lors de la réutilisation des anciens roulements, noter l'allocation des cales (2) sur le différentiel (1)",
+          "image": {
+            "src": "/data/assets/images/43296c83b48f.jpg",
+            "alt": "Object Number: 2415553  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ],
+          "number": 8
+        },
+        {
+          "text": "Presser la bague intérieure (2) à fleur sur le différentiel (3) avec le KM-522 (1). En même temps, le KM-522 doit également être positionné sous le différentiel pour éviter d'endommager le roulement à rouleaux coniques inférieur",
+          "image": {
+            "src": "/data/assets/images/1bda99344b29.jpg",
+            "alt": "Object Number: 2415554  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "3",
+            "1"
+          ],
+          "number": 9
+        },
+        {
+          "text": "Insérer le KM-6113 (2) dans la bague extérieure (4) dans les logements du carter de transmission",
+          "image": {
+            "src": "/data/assets/images/755dc07f8521.jpg",
+            "alt": "Object Number: 2415557  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "4"
+          ],
+          "number": 10
+        },
+        {
+          "text": "Écarter le KM-6113 en serrant l'écrou (3) dans le roulement, en même temps, contrer la broche (1) Remarque : Les griffes du KM-6113 doivent s'engager dans les rainures (fléchées) du carter de transmission",
+          "image": {
+            "src": "/data/assets/images/755dc07f8521.jpg",
+            "alt": "Object Number: 2415557  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "1"
+          ],
+          "number": 11
+        },
+        {
+          "text": "Contrer l'arbre du KM-6113 (2), puis retirer la bague extérieure du roulement à rouleaux coniques du carter de transmission (3) en tournant l'écrou (1) Remarque : La dépose de la bague extérieure du roulement à rouleaux coniques du carter d'embrayage est réalisée de manière similaire",
+          "image": {
+            "src": "/data/assets/images/5d2c12bf8943.jpg",
+            "alt": "Object Number: 2415558  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "3",
+            "1"
+          ],
+          "number": 12
+        },
+        {
+          "text": "Nettoyer toutes les pièces retirées et vérifier l'usure et les dommages; remplacer si nécessaire",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Insérer la bague extérieure (1) dans le carter de transmission",
+          "image": {
+            "src": "/data/assets/images/6c4353b3e87d.jpg",
+            "alt": "Object Number: 2415559  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 14
+        },
+        {
+          "text": "Enfoncer la bague extérieure dans le carter de transmission en utilisant le KM-6114 (3) en conjonction avec le KM-523-1 (2) Remarque : L'installation de la bague extérieure pour le roulement à rouleaux coniques dans le carter d'embrayage est réalisée de manière similaire",
+          "image": {
+            "src": "/data/assets/images/6c4353b3e87d.jpg",
+            "alt": "Object Number: 2415559  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "2"
+          ],
+          "number": 15
+        },
+        {
+          "text": "Assembler la transmission - voir l'opération \"Transmission, Joint Complètement\"",
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Installer la transmission dans le véhicule - voir l'opération \"Transmission, Déposer et Reposer\"",
+          "number": 17,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-6118-2",
+    "KM-6118-1",
+    "KM-6118",
+    "KM-500-5",
+    "KM-522",
+    "KM-6113",
+    "KM-6114",
+    "KM-523-1"
+  ],
+  "warnings": [
+    "Lors du remplacement des roulements à rouleaux coniques du différentiel, les bagues extérieures respectives du roulement à rouleaux coniques dans les carters d'embrayage et de transmission doivent toujours être remplacées. Veiller à ce que les cales sous les roulements à rouleaux coniques ne soient pas interchangées",
+    "Le bord (fléché) du KM-6118-2 (1) doit s'engager sous la cage du roulement à rouleaux coniques",
+    "Lors du remplacement des bagues intérieures des roulements à rouleaux coniques, les bagues extérieures doivent également toujours être remplacées"
+  ],
+  "notes": [
+    "Presser la bague intérieure du roulement à rouleaux coniques du différentiel (4) avec le KM-6118 (3) en conjonction avec le KM-500-5 (2) et la presse d'atelier (1)\n Cette opération est décrite pour la bague intérieure du roulement à rouleaux coniques du côté du carter de transmission. La dépose et l'installation de la bague intérieure du roulement à rouleaux coniques du côté du carter d'embrayage sont réalisées de manière similaire",
+    "Écarter le KM-6113 en serrant l'écrou (3) dans le roulement, en même temps, contrer la broche (1)\n Les griffes du KM-6113 doivent s'engager dans les rainures (fléchées) du carter de transmission",
+    "Contrer l'arbre du KM-6113 (2), puis retirer la bague extérieure du roulement à rouleaux coniques du carter de transmission (3) en tournant l'écrou (1)\n La dépose de la bague extérieure du roulement à rouleaux coniques du carter d'embrayage est réalisée de manière similaire",
+    "Enfoncer la bague extérieure dans le carter de transmission en utilisant le KM-6114 (3) en conjonction avec le KM-523-1 (2)\n L'installation de la bague extérieure pour le roulement à rouleaux coniques dans le carter d'embrayage est réalisée de manière similaire"
+  ],
+  "type": "procedure",
+  "id": "tapered-roller-bearings-differential-replace-A26D1C"
+}

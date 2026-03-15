@@ -1,0 +1,27 @@
+{
+  "title": "Groupe motopropulseur - Moteur, côté admission",
+  "components": [
+    {
+      "description": "Injecteur - Cylindre 1",
+      "code": "Y9.1"
+    },
+    {
+      "description": "Injecteur - Cylindre 3",
+      "code": "Y9.3"
+    },
+    {
+      "description": "Injecteur - Cylindre 2",
+      "code": "Y9.2"
+    },
+    {
+      "description": "Injecteur - Cylindre 4",
+      "code": "Y9.4"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "power-train-engine-intake-side-engine-z22se-3-AQS315",
+  "diagram": {
+    "src": "/data/assets/6dc5e6cf1536.cgm",
+    "type": "cgm"
+  }
+}

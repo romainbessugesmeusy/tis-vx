@@ -1,0 +1,30 @@
+{
+  "title": "Field Remedy: 2026",
+  "subject": "Tous les moteurs diesel et essence -\nDurite de turbo desserrée",
+  "complaint": "Réclamation du client concernant un manque de puissance.",
+  "cause": "Durite de turbo déplacée.",
+  "production": "Couple de serrage correct et méthode de nettoyage depuis\nSOP.",
+  "remedyContent": [
+    {
+      "type": "paragraph",
+      "text": "En cas de réclamation du client, ne pas resserrer le collier. Si\nla connexion se desserre, démonter la durite de turbo complète,\nnettoyer des deux côtés, par exemple l'intérieur de la durite à sa\nzone de serrage interne ainsi que la bride à l'opposé."
+    },
+    {
+      "type": "text",
+      "text": "Pour l'opération de nettoyage, utiliser un tampon humidifié avec\nde l'acétone ou humidifié avec un peu de liquide de pétrole (ne pas\nimbiber le tampon d'acétone ou de liquide de pétrole).\nReposer la durite sur les brides et serrer les colliers avec 3,5 Nm à 4 Nm (max.)."
+    },
+    {
+      "type": "paragraph",
+      "text": "En raison de la conception de ces colliers, le couple de serrage\nfinal sera inférieur à 3,5 Nm après le serrage du collier, mais ce\ncomportement est dû à la conception du collier. Dans tous les cas, ne pas resserrer."
+    }
+  ],
+  "type": "tsb",
+  "id": "all-diesel-and-petrol-engines-turbocharger-hose-loose-A26D1C",
+  "metadata": {
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "11 - Loose or Comes off",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  }
+}

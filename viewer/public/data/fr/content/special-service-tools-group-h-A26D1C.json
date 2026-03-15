@@ -1,0 +1,27 @@
+{
+  "title": "Outils Spéciaux de Service, Groupe H",
+  "group": "H",
+  "tools": [
+    {
+      "name": "Tendeur de Pédale de Frein",
+      "code": "KM-325",
+      "description": null
+    },
+    {
+      "name": "Extracteur de Piston de Frein",
+      "code": "KM-6007",
+      "description": null
+    },
+    {
+      "name": "Adaptateur",
+      "code": "KM-6007-40",
+      "description": null
+    }
+  ],
+  "image": {
+    "src": "/data/assets/images/84092a2221d9.jpg",
+    "alt": "Numéro d'objet : 2422605  Taille : DEFAULT"
+  },
+  "type": "tool_list",
+  "id": "special-service-tools-group-h-A26D1C"
+}

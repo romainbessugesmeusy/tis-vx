@@ -1,0 +1,131 @@
+{
+  "title": "Remplacer l'Unité de Commande du Moteur (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Débrancher la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer le réservoir de lave-glace, puis le déplacer sur le côté"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer l'écrou, la vis"
+            }
+          ],
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer, puis déconnecter les 2 connecteurs de faisceau (1) de l'unité de commande du moteur (2)",
+          "image": {
+            "src": "/data/assets/images/b587f3aa534e.jpg",
+            "alt": "Object Number: 2422594  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Déposer l'unité de commande du moteur du support Note : L'unité de commande du moteur avec le support est montrée retirée du véhicule pour plus de clarté.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Jeter l'écrou"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer la vis, 2 rondelles (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer la vis, la pince (3)"
+            },
+            {
+              "bullet": "•–",
+              "text": "Jeter l'écrou",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Retirer l'écrou, la rondelle"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/40167a56468d.jpg",
+            "alt": "Object Number: 2422595  Size: DEFAULT"
+          },
+          "number": 3
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer l'unité de commande du moteur sur le support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer le nouvel écrou, la rondelle"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer la vis, la pince"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer la vis, 2 rondelles"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer le nouvel écrou, la rondelle"
+            }
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Connecter, puis fixer les 2 connecteurs de faisceau à l'unité de commande du moteur",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Rebrancher la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer l'écrou, la vis"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer le réservoir de lave-glace"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Programmer toutes les mémoires volatiles",
+          "number": 7,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "notes": [
+    "Déposer l'unité de commande du moteur du support\n Unité de commande du moteur\navec le support est montrée retirée du véhicule pour\nplus de clarté.\n \n\n\n\n•  \nRetirer l'écrou, la rondelle (1)\n \n\n\n\n–\nJeter l'écrou\n \n\n\n\n\n\n\n\n\n•  \nRetirer la vis, 2 rondelles (2)\n \n\n\n\n\n\n•  \nRetirer la vis, la pince (3)\n \n\n\n\n\n\n•  \nDéconnecter la borne négative (4) de l'unité de commande du moteur\n \n\n\n\n–\nRetirer l'écrou, la rondelle\n \n\n\n\n\n\n–\nJeter l'écrou"
+  ],
+  "type": "procedure",
+  "id": "engine-control-unit-replace-z-20-let-AQS315"
+}

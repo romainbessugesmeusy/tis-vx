@@ -1,0 +1,281 @@
+{
+  "title": "Catalyseur, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le cache moteur.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Connecteurs du faisceau (1) pour les capteurs d'oxygène.",
+          "image": {
+            "src": "/data/assets/images/0bbddbc18011.jpg",
+            "alt": "Object Number: 2425117  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Cales aux roues avant.",
+          "image": {
+            "src": "/data/assets/images/0bbddbc18011.jpg",
+            "alt": "Object Number: 2425117  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Élever le véhicule.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Sous-caisse arrière (1) – 13 vis.",
+          "callouts": [
+            "1"
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Panneau de diffuseur (2) – 7 vis, 2 agrafes.",
+          "callouts": [
+            "2"
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Faisceau électrique du tablier arrière – agrafe.",
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Faisceau électrique du protège-chauffe – colliers de serrage, agrafe.",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Faisceau électrique du passage de roue.",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Abaisser le protège-chauffe (1) du collecteur d'échappement – 3 boulons, agrafe.",
+          "image": {
+            "src": "/data/assets/images/3f486bb0106f.jpg",
+            "alt": "Object Number: 2425114  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 10
+        },
+        {
+          "text": "Catalyseur du tuyau intermédiaire – 3 écrous (1).",
+          "image": {
+            "src": "/data/assets/images/a3943659de90.jpg",
+            "alt": "Object Number: 2425115  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 11
+        },
+        {
+          "text": "Connecteurs du faisceau (1) pour les capteurs d'oxygène.",
+          "callouts": [
+            "1"
+          ],
+          "number": 27,
+          "image": null
+        },
+        {
+          "text": "Refermer le cache moteur.",
+          "number": 28,
+          "image": null
+        },
+        {
+          "text": "Retirer les cales des roues avant.",
+          "number": 29,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Catalyseur du collecteur d'échappement – 3 écrous (1).",
+          "image": {
+            "src": "/data/assets/images/a3943659de90.jpg",
+            "alt": "Object Number: 2425115  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 12
+        },
+        {
+          "text": "Catalyseur du montage (2).",
+          "callouts": [
+            "2"
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Catalyseur au collecteur d'échappement – 3 écrous (1).",
+          "callouts": [
+            "1"
+          ],
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Catalyseur au montage (2).",
+          "callouts": [
+            "2"
+          ],
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Catalyseur au tuyau intermédiaire – 3 écrous (1).",
+          "image": {
+            "src": "/data/assets/images/a3943659de90.jpg",
+            "alt": "Object Number: 2425115  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 17
+        },
+        {
+          "text": "Relever le protège-chauffe (1) au collecteur d'échappement – 3 boulons, agrafe.",
+          "image": {
+            "src": "/data/assets/images/3f486bb0106f.jpg",
+            "alt": "Object Number: 2425114  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 18
+        },
+        {
+          "text": "Faisceau électrique à travers le passage de roue.",
+          "image": {
+            "src": "/data/assets/images/3f486bb0106f.jpg",
+            "alt": "Object Number: 2425114  Size: DEFAULT"
+          },
+          "number": 19
+        },
+        {
+          "text": "Faisceau électrique au tablier arrière – agrafe.",
+          "number": 20,
+          "image": null
+        },
+        {
+          "text": "Faisceau électrique au protège-chauffe – colliers de serrage, agrafe.",
+          "number": 21,
+          "image": null
+        },
+        {
+          "text": "Panneau de diffuseur (2) – 7 vis, 2 agrafes.",
+          "callouts": [
+            "2"
+          ],
+          "number": 22,
+          "image": null
+        },
+        {
+          "text": "Important : Ne pas serrer les boulons.",
+          "number": 23,
+          "image": null
+        },
+        {
+          "text": "Sous-caisse arrière (1) – 13 vis.",
+          "callouts": [
+            "1"
+          ],
+          "number": 24,
+          "image": null
+        },
+        {
+          "text": "Serrer les boulons du diffuseur et de la sous-caisse.",
+          "number": 25,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule.",
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "number": 26
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    },
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Nettoyer",
+      "steps": [
+        {
+          "text": "Les faces des joints.",
+          "number": 14,
+          "image": null
+        }
+      ],
+      "phase": "clean",
+      "icon": "/data/assets/images/d9fe69774efb.gif"
+    },
+    {
+      "label": "Reposer",
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    }
+  ],
+  "type": "procedure",
+  "id": "catalytic-converter-remove-and-install-AQS315"
+}

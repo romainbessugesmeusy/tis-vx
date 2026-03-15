@@ -1,0 +1,179 @@
+{
+  "title": "Arbre principal, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Déposer la transmission du véhicule - voir l'opération «Transmission, Déposer et Reposer»",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Démonter la transmission - voir l'opération «Transmission, Joint Complètement»",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Vérifier l'arbre principal (1) pour l'usure et les dommages ; le remplacer si nécessaire. Lors du remplacement de l'arbre principal, tous les ajustements nécessaires au collier de pression doivent être vérifiés et ajustés si nécessaire",
+          "image": {
+            "src": "/data/assets/images/e59b7baf1cf5.jpg",
+            "alt": "Object Number: 2415583  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Reposer l'arbre principal déposé sur KM-621-23 (3) en conjonction avec KM-6146 (2)",
+          "image": {
+            "src": "/data/assets/images/0599945eefdc.jpg",
+            "alt": "Object Number: 2416928  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "2"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Mesurer la dimension (I) au peigne de pression sur l'arbre principal en utilisant un pied à coulisse numérique disponible dans le commerce (4) avec une plage de mesure d'au moins 250 mm et une graduation de 0,01 mm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Effectuer cette mesure à trois endroits espacés de manière égale"
+            },
+            {
+              "bullet": "•",
+              "text": "Ajouter les valeurs mesurées et diviser la somme par le nombre de"
+            },
+            {
+              "bullet": "•",
+              "text": "Ce calcul est illustré dans le tableau suivant"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0599945eefdc.jpg",
+            "alt": "Object Number: 2416928  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Le but des tableaux suivants est d'expliquer l'ajustement du peigne de pression en utilisant un calcul d'exemple",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "La mesure doit être effectuée de la même manière pour le nouvel arbre principal. Si une valeur diffère de plus de 0,08 mm des autres valeurs d'une mesure particulière, la mesure doit être répétée car une erreur de mesure s'est produite",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "La valeur moyenne de l'ancien arbre principal est ensuite soustraite de la valeur moyenne du nouvel arbre principal",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Si la différence de dimension entre les anciens et les nouveaux arbres principaux est supérieure à + 0,02/-0,06 mm , le peigne de pression doit être ajusté. À cette fin, les roulements à rouleaux coniques doivent être retirés du différentiel - voir l'opération «Roulements à Rouleaux Coniques, Différentiel, Déposer et Reposer»",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "± Différence"
+            },
+            {
+              "bullet": "•",
+              "text": "± Différence"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Sélectionner une cale",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Si la différence est positive (+), alors la cale (transmission"
+            },
+            {
+              "bullet": "•",
+              "text": "Si la différence est négative (-), alors la cale (transmission"
+            },
+            {
+              "bullet": "•",
+              "text": "Si la cale (côté boîte de vitesses) (4) est plus épaisse, la"
+            },
+            {
+              "bullet": "•",
+              "text": "Si la cale (côté boîte de vitesses) (4) est plus mince, la"
+            },
+            {
+              "bullet": "•",
+              "text": "En d'autres termes, l'épaisseur totale des deux cales reste la même puisque"
+            },
+            {
+              "bullet": "•",
+              "text": "Les cales correspondantes peuvent être obtenues auprès de la division «Pièces de Rechange»."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/21512f298655.jpg",
+            "alt": "Object Number: 2416929  Size: DEFAULT"
+          },
+          "number": 10
+        },
+        {
+          "text": "Quelques exemples de la sélection des cales disponibles sont répertoriés dans le tableau ci-dessous",
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Les cales doivent être sélectionnées de manière à obtenir la plus petite tolérance possible lors de l'ajustement Remarque : Les cales utilisées peuvent être réutilisées dans les opérations d'ajustement ultérieures à condition qu'elles ne soient pas endommagées",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Reposer les roulements à rouleaux coniques du différentiel - voir l'opération «Roulements à Rouleaux Coniques, Différentiel, Déposer et Reposer»",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Reposer l'arbre principal (1) sur la transmission",
+          "image": {
+            "src": "/data/assets/images/a80a230678cb.jpg",
+            "alt": "Object Number: 2415651  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 14
+        },
+        {
+          "text": "Assembler la transmission - voir l'opération «Transmission, Joint Complètement»",
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Reposer la transmission sur le véhicule - voir l'opération «Transmission, Déposer et Reposer»",
+          "number": 16,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-621-23",
+    "KM-6146"
+  ],
+  "notes": [
+    "Les cales doivent être sélectionnées de manière à obtenir la plus petite tolérance possible lors de l'ajustement\n Les cales utilisées peuvent être\nréutilisées dans les opérations d'ajustement ultérieures à condition qu'elles ne soient pas\nendommagées"
+  ],
+  "type": "procedure",
+  "id": "main-shaft-remove-and-install-A26D1C"
+}

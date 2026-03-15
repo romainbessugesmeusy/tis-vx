@@ -1,0 +1,26 @@
+{
+  "title": "Field Remedy: 1529",
+  "subject": "Tous les moteurs Z - Dispositif de coupure de carburant en décélération temporairement inactif",
+  "complaint": "Décélération temporaire.",
+  "cause": "Caractéristique normale du moteur.",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "En cas de réclamation, informer le client de la caractéristique modifiée du moteur pour protéger le convertisseur catalytique. Depuis l'introduction de la fonctionnalité EOBD (année modèle 2001), la gestion du moteur de tous les moteurs Z a été adaptée comme suit :"
+    },
+    {
+      "type": "text",
+      "text": "Lorsque le convertisseur catalytique atteint une température critique, le dispositif de coupure de carburant en décélération sera désactivé pour éviter un vieillissement prématuré du catalyseur. Cela se produit notamment en cas de fonctionnement en combustion pauvre, par exemple en décélération après une conduite à haute vitesse. La description ci-dessus est également incluse dans le manuel du propriétaire depuis la Vectra-C (page 181) et sera progressivement introduite pour toutes les autres gammes de véhicules."
+    }
+  ],
+  "type": "tsb",
+  "id": "all-z-engines-overrun-fuel-cutoff-device-temporarily-not-act-A26D1C",
+  "metadata": {
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "19 - Poor Engine Driveability",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  },
+  "production": ""
+}

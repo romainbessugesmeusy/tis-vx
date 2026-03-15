@@ -1,0 +1,71 @@
+{
+  "title": "Coupe-carburant-AQS315",
+  "components": [
+    {
+      "description": "Unité de contrôle - Multec",
+      "code": "A4"
+    },
+    {
+      "description": "Moteur - Ventilateur de radiateur",
+      "code": "M19"
+    },
+    {
+      "description": "Capteur - Oxygène, contrôle de mélange, chauffé",
+      "code": "B117"
+    },
+    {
+      "description": "Pompe - Carburant",
+      "code": "M21"
+    },
+    {
+      "description": "Capteur - Oxygène, contrôle catalyseur",
+      "code": "B118"
+    },
+    {
+      "description": "Interrupteur d'impact - Coupe-carburant",
+      "code": "S94"
+    },
+    {
+      "description": "Électrovanne - Ventilation réservoir",
+      "code": "Y5"
+    },
+    {
+      "description": "Relais - Ventilateur de radiateur",
+      "code": "K13"
+    },
+    {
+      "description": "Volet de papillon - Positionneur",
+      "code": "Y29"
+    },
+    {
+      "description": "Relais - Impact, déverrouillage portes",
+      "code": "K103"
+    },
+    {
+      "description": "Moteur & Unité de contrôle - Multec",
+      "code": "X22"
+    },
+    {
+      "description": "Moteur & Unité de contrôle - Multec",
+      "code": "X45"
+    },
+    {
+      "description": "Réservoir de carburant & Pompe à carburant/capteur",
+      "code": "X30"
+    },
+    {
+      "description": "Moteur Z20LET",
+      "code": "Z20LET"
+    },
+    {
+      "description": "Moteur Z22SE",
+      "code": "Z22SE"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "fuel-cut-off-AQS315",
+  "diagram": {
+    "src": "/data/assets/bf368d28563e.cgm",
+    "type": "cgm"
+  }
+}

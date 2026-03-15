@@ -1,0 +1,328 @@
+{
+  "title": "Joint d'étanchéité d'arbre de vilebrequin avant, Remplacer (Z 22 SE)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Ouvrir le capot.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Débrancher la batterie.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Ouvrir le cache moteur (1).",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Déposer le cache moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "6 vis (2) et (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Élever le pont élévateur.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Déposer le carter inférieur de protection du moteur (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 6
+        },
+        {
+          "text": "Retirer la courroie striée en V.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Marquer le sens de rotation de la courroie striée en V."
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer la courroie striée en V."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/21d2a98ee79a.jpg",
+            "alt": "Object Number: 2412468  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Déposer l'amortisseur de vibrations de rotation (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser l'adaptateur de maintien KM-J-38122-A"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2399923737fc.jpg",
+            "alt": "Object Number: 2416685  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 8
+        },
+        {
+          "text": "Retirer le joint d'huile (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser un outil approprié pour retirer le joint d'huile."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/4ead28430ae1.jpg",
+            "alt": "Object Number: 2417792  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 9
+        },
+        {
+          "text": "Nettoyer les surfaces de jointure.",
+          "image": {
+            "src": "/data/assets/images/4ead28430ae1.jpg",
+            "alt": "Object Number: 2417792  Size: DEFAULT"
+          },
+          "number": 10
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le joint d'huile (2).",
+          "substeps": [
+            {
+              "bullet": "•••",
+              "text": "Retirer KM-6105 .",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Enduire les lèvres d'étanchéité de graisse silicone (blanche)."
+                },
+                {
+                  "bullet": "–",
+                  "text": "Faire glisser le joint d'huile sur le manchon protecteur sur le\njournal de bielle."
+                },
+                {
+                  "bullet": "–",
+                  "text": "Utiliser KM-6105 pour presser le joint d'huile\n dans le carter de distribution."
+                },
+                {
+                  "bullet": "–",
+                  "text": "Utiliser la vis (4) de l'amortisseur de vibrations de rotation."
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0263216305cd.jpg",
+            "alt": "Object Number: 2416704  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 11
+        },
+        {
+          "text": "Fixer l'amortisseur de vibrations de rotation (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser l'adaptateur de maintien KM-J-38122-A"
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 100 Nm + 75° +",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Couple de serrage 100 Nm + 75° +\n15°"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2399923737fc.jpg",
+            "alt": "Object Number: 2416685  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 12
+        },
+        {
+          "text": "Installer la courroie striée en V.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Poser la courroie striée en V en place."
+            },
+            {
+              "bullet": "•",
+              "text": "Tendre le tendeur de courroie striée en V dans la direction de"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/21d2a98ee79a.jpg",
+            "alt": "Object Number: 2412468  Size: DEFAULT"
+          },
+          "number": 13
+        },
+        {
+          "text": "Installer le carter inférieur de protection du moteur",
+          "image": {
+            "src": "/data/assets/images/21d2a98ee79a.jpg",
+            "alt": "Object Number: 2412468  Size: DEFAULT"
+          },
+          "number": 14
+        },
+        {
+          "text": "Abaisser le pont élévateur.",
+          "image": {
+            "src": "/data/assets/images/21d2a98ee79a.jpg",
+            "alt": "Object Number: 2412468  Size: DEFAULT"
+          },
+          "number": 15
+        },
+        {
+          "text": "Installer le cache moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Vérifier l'alignement."
+            },
+            {
+              "bullet": "•",
+              "text": "6 boulons, couple de serrage 14 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/21d2a98ee79a.jpg",
+            "alt": "Object Number: 2412468  Size: DEFAULT"
+          },
+          "number": 16
+        },
+        {
+          "text": "Fermer le cache moteur.",
+          "image": {
+            "src": "/data/assets/images/21d2a98ee79a.jpg",
+            "alt": "Object Number: 2412468  Size: DEFAULT"
+          },
+          "number": 17
+        },
+        {
+          "text": "Rebrancher la batterie.",
+          "image": {
+            "src": "/data/assets/images/21d2a98ee79a.jpg",
+            "alt": "Object Number: 2412468  Size: DEFAULT"
+          },
+          "number": 18
+        },
+        {
+          "text": "Fermer le capot.",
+          "image": {
+            "src": "/data/assets/images/21d2a98ee79a.jpg",
+            "alt": "Object Number: 2412468  Size: DEFAULT"
+          },
+          "number": 19
+        },
+        {
+          "text": "Reprogrammer les mémoires volatiles.",
+          "image": {
+            "src": "/data/assets/images/21d2a98ee79a.jpg",
+            "alt": "Object Number: 2412468  Size: DEFAULT"
+          },
+          "number": 20
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Fixer l'amortisseur de vibrations de rotation (2).",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Installer le cache moteur.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 16
+    },
+    {
+      "component": "Couple de serrage 100 Nm + 75° + 15°",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 boulons, couple de serrage 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-6151",
+    "KM-J-38122-A",
+    "KM-956-1",
+    "KM-6105"
+  ],
+  "notes": [
+    "Poser la courroie striée en V en place.\n Noter le sens de rotation et la position d'installation de la courroie striée en V."
+  ],
+  "type": "procedure",
+  "id": "crankshaft-oil-seal-front-replace-z-22-se-A26D1C"
+}

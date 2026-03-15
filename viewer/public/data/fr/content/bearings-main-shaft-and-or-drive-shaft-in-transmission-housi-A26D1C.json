@@ -1,0 +1,230 @@
+{
+  "title": "Roulements, Arbre Principal et/ou Arbre de Transmission dans\nCarter de Transmission, Remplacer",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Illustration de l'arbre principal et de l'arbre de transmission dans le carter de transmission",
+          "image": {
+            "src": "/data/assets/images/73fd9b3c2c7b.jpg",
+            "alt": "Object Number: 2415591  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer la transmission du véhicule - voir l'opération «Transmission, Déposer et Reposer»",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Démonter la transmission - voir l'opération «Transmission, Joint d'étanchéité Complètement»",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Si nécessaire, déposer et reposer des nouveaux, ou anciens, roulements d'arbre principal en utilisant KM-6122 (1) en conjonction avec KM-523-1 (2)",
+          "image": {
+            "src": "/data/assets/images/206e47498637.jpg",
+            "alt": "Object Number: 2415650  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Déposer le roulement d'arbre de transmission du carter de transmission en utilisant KM-6123 (3) en conjonction avec KM-523-1 (4)",
+          "image": {
+            "src": "/data/assets/images/206e47498637.jpg",
+            "alt": "Object Number: 2415650  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "4"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Nettoyer toutes les pièces",
+          "image": {
+            "src": "/data/assets/images/206e47498637.jpg",
+            "alt": "Object Number: 2415650  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Vérifier toutes les pièces; remplacer si nécessaire",
+          "image": {
+            "src": "/data/assets/images/206e47498637.jpg",
+            "alt": "Object Number: 2415650  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Lors du remplacement du roulement d'arbre principal dans le carter de transmission, l'ajustement du collier de pression doit être déterminé et ajusté si nécessaire. Pour cela, le siège de la bague intérieure du roulement d'arbre principal par rapport à la surface de joint du carter de transmission doit être déterminé. Cela est décrit dans les étapes suivantes",
+          "image": {
+            "src": "/data/assets/images/206e47498637.jpg",
+            "alt": "Object Number: 2415650  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Soutenir le carter de transmission en utilisant un bloc de bois de sorte que la bague intérieure du roulement d'arbre principal soit dégagée",
+          "image": {
+            "src": "/data/assets/images/9ed039598e05.jpg",
+            "alt": "Object Number: 2416930  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Positionner KM-621-23 (1) sur le carter de transmission (3)",
+          "image": {
+            "src": "/data/assets/images/9ed039598e05.jpg",
+            "alt": "Object Number: 2416930  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "3"
+          ],
+          "number": 10
+        },
+        {
+          "text": "Déterminer la dimension (I) (bague intérieure du roulement à la surface de joint du carter de transmission) en utilisant un pied à coulisse numérique disponible dans le commerce (2) avec une plage de mesure d'au moins 250 mm et un pas de 0,01 mm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Effectuer cette mesure à trois endroits espacés de manière égale"
+            },
+            {
+              "bullet": "•",
+              "text": "Ajouter les valeurs mesurées et diviser la somme par le nombre de mesures."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9ed039598e05.jpg",
+            "alt": "Object Number: 2416930  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 11
+        },
+        {
+          "text": "Le but des tables suivantes est d'expliquer l'ajustement du peigne de pression en utilisant un calcul d'exemple",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Après l'installation, cette mesure doit être effectuée de la même manière pour le nouveau roulement d'arbre principal. Si une valeur diffère de plus de 0,08 mm des autres valeurs d'une mesure particulière, la mesure doit être répétée car une erreur de mesure s'est produite",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "La valeur moyenne pour le nouveau roulement d'arbre principal est ensuite soustraite de la valeur moyenne pour l'ancien roulement d'arbre principal. Si la différence de dimension entre les anciens et les nouveaux arbres principaux est supérieure à + 0,02-0,06 mm, le peigne de pression doit être ajusté. À cette fin, les roulements à rouleaux coniques doivent être retirés du différentiel - voir l'opération «Roulements à Rouleaux Coniques - Différentiel, Déposer et Reposer»",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "± Différence"
+            },
+            {
+              "bullet": "•",
+              "text": "± Différence"
+            }
+          ],
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Sélectionner la cale",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Si la différence est positive (+), alors la cale (côté transmission"
+            },
+            {
+              "bullet": "•",
+              "text": "Si la différence est négative (-), alors la cale (côté transmission"
+            },
+            {
+              "bullet": "•",
+              "text": "Si la cale (côté carter de transmission) (4) est plus épaisse, la"
+            },
+            {
+              "bullet": "•",
+              "text": "Si la cale (côté carter de transmission) (4) est plus mince, la"
+            },
+            {
+              "bullet": "•",
+              "text": "En d'autres termes, l'épaisseur totale des deux cales reste la même puisque"
+            },
+            {
+              "bullet": "•",
+              "text": "Les cales correspondantes peuvent être obtenues auprès de la division «Pièces de Rechange»."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/21512f298655.jpg",
+            "alt": "Object Number: 2416929  Size: DEFAULT"
+          },
+          "number": 15
+        },
+        {
+          "text": "Des exemples de sélection de cales disponibles sont répertoriés dans le tableau suivant",
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Les cales doivent être sélectionnées de manière à obtenir la plus petite tolérance possible lors de l'ajustement Remarque : Les cales utilisées peuvent être réutilisées dans les opérations d'ajustement ultérieures à condition qu'elles ne soient pas endommagées",
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Reposer les roulements à rouleaux coniques du différentiel - voir l'opération «Roulements à Rouleaux Coniques - Différentiel, Déposer et Reposer»",
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "Reposer le roulement d'arbre de transmission (1) et le roulement d'arbre principal (2) dans le carter de transmission (3) - voir l'opération «Transmission, Joint d'étanchéité Complètement»",
+          "image": {
+            "src": "/data/assets/images/85c440ca391b.jpg",
+            "alt": "Object Number: 2415603  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2",
+            "3"
+          ],
+          "number": 19
+        },
+        {
+          "text": "Assembler la transmission - voir l'opération «Transmission, Joint d'étanchéité Complètement»",
+          "number": 20,
+          "image": null
+        },
+        {
+          "text": "Reposer la transmission - voir l'opération «Transmission, Déposer et Reposer»",
+          "number": 21,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-6122",
+    "KM-523-1",
+    "KM-6123",
+    "KM-621-23"
+  ],
+  "warnings": [
+    "Pour la mesure du\nroulement d'arbre principal, le roulement ne doit pas entrer en contact avec la surface de\nl'établi"
+  ],
+  "notes": [
+    "Les cales doivent être sélectionnées de manière à obtenir la plus petite tolérance possible lors de l'ajustement\n Les cales utilisées peuvent être\nréutilisées dans les opérations d'ajustement ultérieures à condition qu'elles ne soient pas\nendommagées"
+  ],
+  "type": "procedure",
+  "id": "bearings-main-shaft-and-or-drive-shaft-in-transmission-housi-A26D1C"
+}

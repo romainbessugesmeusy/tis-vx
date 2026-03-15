@@ -1,0 +1,143 @@
+{
+  "title": "Field Remedy: 1826",
+  "subject": "Dommages aux bougies d'allumage - causes possibles et modes de défaillance",
+  "remedyContent": [
+    {
+      "type": "bullets",
+      "items": [
+        "Mode de défaillance:",
+        "surcharge thermique au niveau de l'électrode centrale et de masse, pied d'isolant",
+        "électrode centrale et de masse cassées",
+        "pied d'isolant cassé",
+        "filetage endommagé, arraché"
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Causes de la défaillance:",
+        "couple de serrage trop faible",
+        "couple de serrage trop élevé"
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Surcharge thermique (Image I)"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Couple de serrage trop faible (\n< 15 Nm) - la bougie d'allumage n'a pas été correctement serrée, perturbant ainsi le transfert de chaleur - l'électrode centrale et de masse ainsi que le pied d'isolant sont fondus"
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Électrodes centrales cassées (Image II)"
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Couple de serrage trop faible (",
+        "< 15 Nm) - épaisseur de la bague d'étanchéité externe >",
+        "1,4 mm",
+        "traces de vibrations sur la tête terminale"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Les vibrations ont provoqué le desserrage de la bougie d'allumage et la casse de l'électrode centrale."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Électrodes centrales et de masse cassées (Image III)"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Couple de serrage trop faible (\n< 15 Nm) - épaisseur de la bague d'étanchéité externe >\n 1,4 mm"
+    },
+    {
+      "type": "text",
+      "text": "Les bougies d'allumage desserrées ont été causées par les vibrations. Il en résulte la rupture de l'électrode de masse et centrale et la sortie du pied d'isolant."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Fracture du pied d'isolant (Image IV)"
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Couple de serrage trop élevé (>",
+        "35 Nm)",
+        "épaisseur de la bague d'étanchéité externe",
+        "< 1,2 mm"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Boîtier d'assemblage/ isolant desserré"
+    },
+    {
+      "type": "paragraph",
+      "text": "Les secousses de la bougie ont complètement détruit la bougie d'allumage."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Filetage arraché"
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Couple de serrage trop élevé (>",
+        "50 Nm)",
+        "traces marquées de la clé à bougie -wrench sur l'hexagone",
+        "rupture forcée dans le filetage"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Les dommages ultérieurs (par ex. moteur, cylindre) causés par les défaillances décrites ne doivent pas être couverts par la garantie."
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/e618e21ef609.jpg",
+      "alt": "Numéro d'objet : 8132526  Taille : DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/e3221b4087cd.jpg",
+      "alt": "Numéro d'objet : 8132527  Taille : DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/3e11c65e7a82.jpg",
+      "alt": "Numéro d'objet : 8132528  Taille : DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/c0c0385aba91.jpg",
+      "alt": "Numéro d'objet : 8132529  Taille : DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/3c4c4d4b89e0.jpg",
+      "alt": "Numéro d'objet : 8132530  Taille : DEFAULT"
+    }
+  ],
+  "type": "tsb",
+  "id": "spark-plug-damages-possible-causes-and-failure-modes-A26D1C",
+  "metadata": {
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "01 - Broken or Cracked,05 - Excessive\nwear,11 - Loose or Comes off,13 - No/Poor Function,18 - Poor\nDrivebility,19 - Poor Engine Driveability,20 - Poor Performance,21\n- Poor Startability,22 - Smokes",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  },
+  "complaint": "",
+  "cause": "",
+  "production": ""
+}

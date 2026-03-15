@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Reposer le guide de chaîne.",
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 37
+    },
+    {
+      "component": "Fixer le cache de la culasse",
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 44
+    },
+    {
+      "component": "Fixer le cache de la culasse",
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 44
+    },
+    {
+      "component": "Reposer le module d'allumage.",
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 45
+    },
+    {
+      "component": "Connecter les conduites de carburant.",
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 46
+    },
+    {
+      "component": "Connecter les conduites de carburant.",
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 46
+    },
+    {
+      "component": "Reposer le cache arrière du moteur.",
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 47
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage (M6) 9 Nm , (M8) 22 Nm",
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 23 Nm",
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 85 Nm + 30° + 15°",
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 75 Nm",
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 8 Nm",
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 10 Nm",
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 vis, couple de serrage 14 Nm",
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer le pignon d'arbre à cames d'admission.",
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 18
+    },
+    {
+      "component": "Reposer le pignon d'arbre à cames d'échappement.",
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 19
+    },
+    {
+      "component": "Reposer le tendeur de chaîne de distribution d'arbre à cames.",
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 20
+    },
+    {
+      "component": "Reposer le guide de chaîne.",
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 23
+    },
+    {
+      "component": "Fixer le cache de la culasse",
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 30
+    },
+    {
+      "component": "Fixer le cache de la culasse",
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 30
+    },
+    {
+      "component": "Fixer le module d'allumage.",
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 31
+    },
+    {
+      "component": "Connecter les conduites de carburant.",
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 32
+    },
+    {
+      "component": "Connecter les conduites de carburant.",
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 32
+    },
+    {
+      "component": "Reposer le cache arrière du moteur.",
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 33
+    },
+    {
+      "component": "Couple de serrage 85 Nm + 30° + 15°",
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 75 Nm",
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 8 Nm",
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 10 Nm",
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 vis, couple de serrage 14 Nm",
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer l'arbre à cames d'échappement.",
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 23
+    },
+    {
+      "component": "Fixer le cache du flasque de liaison d'arbre à cames.",
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 27
+    },
+    {
+      "component": "Fixer le pignon d'arbre à cames d'admission.",
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 28
+    },
+    {
+      "component": "Fixer le pignon d'arbre à cames d'échappement.",
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 29
+    },
+    {
+      "component": "Reposer le tendeur de chaîne de distribution d'arbre à cames.",
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 30
+    },
+    {
+      "component": "Reposer le guide de chaîne.",
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 33
+    },
+    {
+      "component": "Fixer le cache de la culasse",
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 40
+    },
+    {
+      "component": "Fixer le cache de la culasse",
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 40
+    },
+    {
+      "component": "Fixer le module d'allumage.",
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 41
+    },
+    {
+      "component": "Fixer le pignon d'arbre à cames d'échappement.",
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 42
+    },
+    {
+      "component": "Connecter les conduites de carburant.",
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 43
+    },
+    {
+      "component": "Connecter les conduites de carburant.",
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 43
+    },
+    {
+      "component": "Reposer le cache arrière du moteur.",
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 44
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 23 Nm",
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 85 Nm + 30° + 15°",
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 75 Nm",
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 8 Nm",
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 10 Nm",
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

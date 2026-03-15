@@ -1,0 +1,141 @@
+{
+  "title": "Étrier de frein arrière, Révision",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Étrier de frein – voir l'opération «Étrier de frein arrière, Déposer et Reposer».",
+          "image": {
+            "src": "/data/assets/images/2d0e71fcac03.jpg",
+            "alt": "Object Number: 2429419  Size: DEFAULT"
+          },
+          "number": 1
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Nettoyer",
+      "steps": [
+        {
+          "text": "Manchon (3) de l'étrier de frein.",
+          "image": {
+            "src": "/data/assets/images/2d0e71fcac03.jpg",
+            "alt": "Object Number: 2429419  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Bague fendue (4) et soufflet (5) de l'étrier de frein.",
+          "callouts": [
+            "4",
+            "5"
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Soufflets (1) de la bague (2).",
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Bague (2) de l'étrier de frein.",
+          "callouts": [
+            "2"
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Nettoyer les alésages de guidage dans le corps de l'étrier de frein avec un nettoyant pour freins.",
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "clean",
+      "icon": "/data/assets/images/d9fe69774efb.gif"
+    },
+    {
+      "label": "Inspecter",
+      "steps": [
+        {
+          "text": "Composants déposés – remplacer si nécessaire.",
+          "image": {
+            "src": "/data/assets/images/9317f4e1abc6.jpg",
+            "alt": "Object Number: 2429420  Size: DEFAULT"
+          },
+          "number": 7
+        }
+      ],
+      "phase": "inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Bague (2) sur l'étrier de frein – lubrifier avec de la graisse silicone.",
+          "callouts": [
+            "2"
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Soufflets (1) sur la bague (2) – lubrifier avec de la graisse silicone.",
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Soufflet (5) et bague fendue (4) sur l'étrier de frein – lubrifier avec de la graisse silicone.",
+          "callouts": [
+            "5",
+            "4"
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Manchon (3) sur l'étrier de frein – lubrifier avec de la graisse silicone.",
+          "callouts": [
+            "3"
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Étrier de frein – voir l'opération «Étrier de frein arrière, Déposer et Reposer».",
+          "image": {
+            "src": "/data/assets/images/2d0e71fcac03.jpg",
+            "alt": "Object Number: 2429419  Size: DEFAULT"
+          },
+          "number": 12
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    },
+    {
+      "label": "Reposer",
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    }
+  ],
+  "type": "procedure",
+  "id": "brake-caliper-rear-overhaul-A26D1C"
+}

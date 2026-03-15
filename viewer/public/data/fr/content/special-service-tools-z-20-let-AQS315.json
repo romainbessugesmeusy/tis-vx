@@ -1,0 +1,57 @@
+{
+  "title": "Outils Spéciaux (Z 20 LET)",
+  "tools": [
+    {
+      "name": "Adaptateur",
+      "code": "KM-135",
+      "description": null
+    },
+    {
+      "name": "Clé T55",
+      "code": "KM-2355",
+      "description": null
+    },
+    {
+      "name": "Installeur",
+      "code": "KM-422",
+      "description": null
+    },
+    {
+      "name": "Dépose/Repose",
+      "code": "KM-427",
+      "description": null
+    },
+    {
+      "name": "Adaptateur",
+      "code": "KM-6054",
+      "description": null
+    },
+    {
+      "name": "Installeur",
+      "code": "KM-635",
+      "description": null
+    },
+    {
+      "name": "Clé à filtre à huile",
+      "code": "KM-726-A",
+      "description": null
+    },
+    {
+      "name": "Dispositif d'aspiration",
+      "code": "KM-845",
+      "description": null
+    },
+    {
+      "name": "Outil de verrouillage",
+      "code": "KM-853",
+      "description": null
+    }
+  ],
+  "image": {
+    "src": "/data/assets/images/7e1ff09eca1f.jpg",
+    "alt": "Numéro d'objet: 2422715  Taille: DEFAULT"
+  },
+  "type": "tool_list",
+  "id": "special-service-tools-z-20-let-AQS315",
+  "group": null
+}

@@ -1,0 +1,593 @@
+{
+  "title": "Guide Roller, Courroie de Distribution de l'Arbre à Cames, Remplacer (Z 20\nLET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le cache-moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Élever le véhicule"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 13x vis, 13x rondelle"
+            }
+          ],
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Débrancher la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Libérer le réservoir de lave-glace, puis déplacer sur le côté"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer l'écrou, la vis"
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déconnecter la durite d'intercooler (1) du boîtier papillon (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/505695df5602.jpg",
+            "alt": "Object Number: 2422225  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Élever et soutenir le véhicule",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Déposer la roue arrière du côté droit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser une douille spéciale située sous le capot avant"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 4x boulon de roue"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Déposer le revêtement de passage de roue",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 6x vis"
+            }
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Déposer la durite d'intercooler (1) de l'intercooler (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'agrafe"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 4x collier de câble, puis jeter"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3357a5bce2de.jpg",
+            "alt": "Object Number: 2422226  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 8
+        },
+        {
+          "text": "Déposer 2x vis (1) du cache supérieur de la courroie de distribution de l'arbre à cames",
+          "image": {
+            "src": "/data/assets/images/ea151090a0db.jpg",
+            "alt": "Object Number: 2397738  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 9
+        },
+        {
+          "text": "Déposer la courroie striée en V",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tourner le tendeur (1) dans le sens des aiguilles d'une montre, puis installer un verrou adapté",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Tourner le tendeur (1) dans le sens des aiguilles d'une montre, puis installer un verrou adapté\n(2)"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a80bd56f79cd.jpg",
+            "alt": "Object Number: 2421986  Size: DEFAULT"
+          },
+          "number": 10
+        },
+        {
+          "text": "Déposer la poulie de vilebrequin",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Appliquer des marques de repère sur la poulie de vilebrequin et le vilebrequin"
+            },
+            {
+              "bullet": "•",
+              "text": "Contrer l'écrou central sur le pignon de vilebrequin"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d61cc4889230.jpg",
+            "alt": "Object Number: 2397739  Size: DEFAULT"
+          },
+          "number": 11
+        },
+        {
+          "text": "Déposer le tendeur de courroie striée en V",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x boulon"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d61cc4889230.jpg",
+            "alt": "Object Number: 2397739  Size: DEFAULT"
+          },
+          "number": 12
+        },
+        {
+          "text": "Déposer le cache inférieur de la courroie de distribution de l'arbre à cames",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x vis (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d61cc4889230.jpg",
+            "alt": "Object Number: 2397739  Size: DEFAULT"
+          },
+          "number": 13
+        },
+        {
+          "text": "Tourner le vilebrequin dans le sens des aiguilles d'une montre jusqu'au point mort haut (PMH) sur le cylindre n°1, jusqu'à ce que les 2x marques de synchronisation (3) et (1) soient alignées",
+          "image": {
+            "src": "/data/assets/images/8168cebf3083.jpg",
+            "alt": "Object Number: 2397740  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "1"
+          ],
+          "number": 14
+        },
+        {
+          "text": "Bloquer les arbres à cames en position",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser l'Outil de Blocage KM-853 (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8168cebf3083.jpg",
+            "alt": "Object Number: 2397740  Size: DEFAULT"
+          },
+          "number": 15
+        },
+        {
+          "text": "Détendre la courroie de distribution de l'arbre à cames",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer la vis, puis tourner l'excentrique de réglage dans la direction de"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8168cebf3083.jpg",
+            "alt": "Object Number: 2397740  Size: DEFAULT"
+          },
+          "number": 16
+        },
+        {
+          "text": "Déposer la courroie de distribution de l'arbre à cames des poulies, déplacer sur le côté",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ne pas déposer la courroie de distribution de l'arbre à cames du moteur"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8168cebf3083.jpg",
+            "alt": "Object Number: 2397740  Size: DEFAULT"
+          },
+          "number": 17
+        },
+        {
+          "text": "Déposer le galet enrouleur de la courroie de distribution de l'arbre à cames (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer la vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2c96f2405385.jpg",
+            "alt": "Object Number: 2422491  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 18
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le nouveau galet enrouleur de la courroie de distribution de l'arbre à cames",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer la vis à 25 Nm"
+            }
+          ],
+          "number": 19,
+          "image": null
+        },
+        {
+          "text": "Installer la courroie de distribution de l'arbre à cames sur les poulies",
+          "number": 20,
+          "image": null
+        },
+        {
+          "text": "Prétendre la courroie de distribution de l'arbre à cames",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tourner l'excentrique du tendeur dans le sens antihoraire jusqu'à ce que le pointeur soit"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer l'Outil de Blocage KM-853 de"
+            },
+            {
+              "bullet": "•",
+              "text": "Tourner le vilebrequin de deux tours complets (720°) dans le sens des"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer l'Outil de Blocage KM-853 sur"
+            }
+          ],
+          "number": 21,
+          "image": null
+        },
+        {
+          "text": "Tendre la courroie de distribution de l'arbre à cames",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Desserrer la vis du tendeur, puis tourner l'excentrique du tendeur"
+            }
+          ],
+          "number": 22,
+          "image": null
+        },
+        {
+          "text": "Fixer le tendeur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer la vis à 20 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer l'Outil de Blocage KM-853"
+            }
+          ],
+          "number": 23,
+          "image": null
+        },
+        {
+          "text": "Tourner le vilebrequin de deux tours complets (720°) dans le sens des aiguilles d'une montre jusqu'au point mort haut (PMH) sur le cylindre n°1, jusqu'à ce que les marques de synchronisation soient alignées. Si le pointeur du tendeur ne s'aligne pas avec la marque en encoche correspondante, alors répéter la procédure de réglage",
+          "number": 24,
+          "image": null
+        },
+        {
+          "text": "Installer le cache inférieur de la courroie de distribution de l'arbre à cames",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 2x vis à 6 Nm"
+            }
+          ],
+          "number": 25,
+          "image": null
+        },
+        {
+          "text": "Installer le tendeur de courroie striée en V",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 2x vis à 25 Nm"
+            }
+          ],
+          "number": 26,
+          "image": null
+        },
+        {
+          "text": "Installer la poulie de vilebrequin",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Aligner les marques de repère sur la poulie de vilebrequin et le vilebrequin"
+            },
+            {
+              "bullet": "•",
+              "text": "Contrer l'écrou central sur le pignon de vilebrequin à l'aide d'une",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Contrer l'écrou central sur le pignon de vilebrequin à l'aide d'une\nclé"
+                }
+              ]
+            }
+          ],
+          "number": 27,
+          "image": null
+        },
+        {
+          "text": "Installer la courroie striée en V",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tourner le tendeur dans le sens des aiguilles d'une montre, puis retirer le verrou"
+            }
+          ],
+          "number": 28,
+          "image": null
+        },
+        {
+          "text": "Installer le cache supérieur de la courroie de distribution de l'arbre à cames",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 2x vis à 6 Nm"
+            }
+          ],
+          "number": 29,
+          "image": null
+        },
+        {
+          "text": "Installer la durite d'intercooler sur l'intercooler",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer 4x nouveaux colliers de câble"
+            }
+          ],
+          "number": 30,
+          "image": null
+        },
+        {
+          "text": "Installer le revêtement de passage de roue",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 6x vis"
+            }
+          ],
+          "number": 31,
+          "image": null
+        },
+        {
+          "text": "Installer la roue arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 4x boulon, boulon de sécurité"
+            },
+            {
+              "bullet": "•",
+              "text": "Ne pas serrer"
+            }
+          ],
+          "number": 32,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 33,
+          "image": null
+        },
+        {
+          "text": "Fixer la roue arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer 4x boulon, boulon de sécurité à 90"
+            }
+          ],
+          "number": 34,
+          "image": null
+        },
+        {
+          "text": "Connecter la durite d'intercooler au boîtier papillon",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe"
+            }
+          ],
+          "number": 35,
+          "image": null
+        },
+        {
+          "text": "Rebrancher la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer l'écrou, la vis"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer le réservoir de lave-glace"
+            }
+          ],
+          "number": 36,
+          "image": null
+        },
+        {
+          "text": "Programmer toutes les mémoires volatiles",
+          "number": 37,
+          "image": null
+        },
+        {
+          "text": "Élever le véhicule",
+          "number": 38,
+          "image": null
+        },
+        {
+          "text": "Installer le cache-moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 13x vis, 13x rondelle"
+            }
+          ],
+          "number": 39,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 40,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer le nouveau galet enrouleur de la courroie de distribution de l'arbre à cames",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 19
+    },
+    {
+      "component": "Fixer le tendeur",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 23
+    },
+    {
+      "component": "Installer le cache inférieur de la courroie de distribution de l'arbre à cames",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 25
+    },
+    {
+      "component": "Installer le tendeur de courroie striée en V",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 26
+    },
+    {
+      "component": "Installer la poulie de vilebrequin",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 27
+    },
+    {
+      "component": "Installer le cache supérieur de la courroie de distribution de l'arbre à cames",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 29
+    },
+    {
+      "component": "Fixer la roue arrière",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 34
+    },
+    {
+      "component": "Installer la vis à 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer la vis à 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer 2x vis à 6 Nm",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 4x boulon, boulon de sécurité à 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-853"
+  ],
+  "warnings": [
+    "Un pont élévateur à quatre colonnes doit\nêtre utilisé pour élever le véhicule lors du retrait du cache-moteur.\nLe véhicule peut être déplacé vers un pont à deux colonnes pour d'autres opérations\nsi nécessaire."
+  ],
+  "type": "procedure",
+  "id": "guide-roller-camshaft-timing-belt-replace-z-20-let-AQS315"
+}

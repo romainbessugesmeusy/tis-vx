@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Attach the cylinder block base plate. Note: Observe the tightening sequence.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 4,
+      "sourcePage": "crankshaft-bearing-clearance-check-measure-with-plastigage-z-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder block base plate. Note: Observe the tightening sequence.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 4,
+      "sourcePage": "crankshaft-bearing-clearance-check-measure-with-plastigage-z-A26D1C"
+    },
+    {
+      "component": "Tighten the M10 bolts – tightening torque 20 Nm + 70° + 15°",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-bearing-clearance-check-measure-with-plastigage-z-A26D1C"
+    },
+    {
+      "component": "Tighten the M8 bolts – tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-bearing-clearance-check-measure-with-plastigage-z-A26D1C"
+    },
+    {
+      "component": "Attach the rotational vibration damper (2).",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": 12,
+      "sourcePage": "crankshaft-oil-seal-front-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 16,
+      "sourcePage": "crankshaft-oil-seal-front-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 100 Nm + 75° + 15°",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-oil-seal-front-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-oil-seal-front-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the drive plate.",
+      "value": "53",
+      "unit": "Nm",
+      "stepRef": 5,
+      "sourcePage": "crankshaft-oil-seal-rear-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 53 Nm + 25°",
+      "value": "53",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-oil-seal-rear-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the crankshaft pickup.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 11,
+      "sourcePage": "crankshaft-pickup-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the starter motor.",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": 12,
+      "sourcePage": "crankshaft-pickup-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-pickup-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 40 Nm",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-pickup-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Drain the engine oil.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 4,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tighten all bolts loosely. Note: Observe the tightening sequence.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 40,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tighten all bolts loosely. Note: Observe the tightening sequence.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 40,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install big–end bearing caps 2 and 3. Note: Note the applied markings.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 42,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Renew the bolts.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 44,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Note: Observe the tightening sequence.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 48,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the balancer shaft timing chain guide rails (1).",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 52,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the balancer shaft timing chain tensioner rail.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 53,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the balancer shaft timing chain tensioner. Note: If the TDC markings no longer line up with the coloured chain links – refit the balancer shaft timing chain. After a single revolution of the engine the TDC markings will no longer line up with the coloured chain links.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 54,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the intake camshaft sprocket.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 57,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the camshaft timing chain tensioner rail.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 59,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the camshaft timing chain guide rail.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 60,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the camshaft timing chain guide rail.",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": 60,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the exhaust camshaft sprocket.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 62,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the guide rail.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 64,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the camshaft timing chain tensioner.",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 65,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the timing case. Note: Remove the plastic wedge and the cloth from the opening in the timing case.",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": 67,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the rotational vibration damper (2).",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": 68,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the ribbed V–belt tensioner. Note: The lug (1) of the ribbed V–belt tensioner engages into the bore in the timing case (2).",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": 71,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the engine damping block bracket.",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 73,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the flywheel.",
+      "value": "53",
+      "unit": "Nm",
+      "stepRef": 74,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 75,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the ignition module.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 76,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tighten the M10 bolts (I) – tightening torque 20 Nm + 70° + 15°",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tighten the M8 bolts (II) – tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 85 Nm + 30° + 15°",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 65 Nm",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 75 Nm",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 21 Nm",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 100 Nm + 75° + 15°",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 43 Nm",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 50 Nm",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "title": "Remplacer le boîtier de filtre à air (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Débrancher la durite d'admission d'air du boîtier de filtre à air",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'agrafe (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0b024950c034.jpg",
+            "alt": "Object Number: 2421982  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer le couvercle du filtre à air du boîtier de filtre à air",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x agrafe (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0b024950c034.jpg",
+            "alt": "Object Number: 2421982  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Élever et soutenir le véhicule",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Retirer la roue arrière du côté gauche",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser une douille spéciale située sous le capot avant"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer 4x boulon de roue"
+            }
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Retirer le revêtement de l'arc de roue",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 6x vis"
+            }
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Retirer le couvercle du filtre à air avec l'élément du filtre à air",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 2x agrafe (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/bcda6d43d642.jpg",
+            "alt": "Object Number: 2421983  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Retirer le boîtier de filtre à air (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tirer"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer l'agrafe (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/065d34bf2c05.jpg",
+            "alt": "Object Number: 2421984  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 7
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le boîtier de filtre à air (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer l'agrafe (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Emboîter"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/065d34bf2c05.jpg",
+            "alt": "Object Number: 2421984  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 8
+        },
+        {
+          "text": "Reposer le couvercle du filtre à air avec l'élément du filtre à air",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer 2x agrafe (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/bcda6d43d642.jpg",
+            "alt": "Object Number: 2421983  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Reposer le revêtement de l'arc de roue",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 6x vis"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Reposer la roue arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 4x boulon, boulon de sécurité"
+            },
+            {
+              "bullet": "•",
+              "text": "Ne pas serrer"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Élever le véhicule et retirer le support",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Serrer la roue arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer 4x boulon, boulon de sécurité à 90"
+            }
+          ],
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Serrer le couvercle du filtre à air sur le boîtier de filtre à air",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer 2x agrafe (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0b024950c034.jpg",
+            "alt": "Object Number: 2421982  Size: DEFAULT"
+          },
+          "number": 15
+        },
+        {
+          "text": "Raccorder la durite d'admission d'air au boîtier de filtre à air",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer l'agrafe (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0b024950c034.jpg",
+            "alt": "Object Number: 2421982  Size: DEFAULT"
+          },
+          "number": 16
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Serrer la roue arrière",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 14
+    },
+    {
+      "component": "Serrer 4x boulon, boulon de sécurité à 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "type": "procedure",
+  "id": "air-cleaner-housing-replace-z-20-let-AQS315"
+}

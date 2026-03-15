@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Serrer 6 vis, couple de serrage 14 Nm",
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Boulons de pivot - 45 Nm .",
+      "sourcePage": "caster-adjust-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Déposer les boulons de fixation centrale au carter de transmission – 5 Nm .",
+      "sourcePage": "central-release-remove-and-install-A26D1C",
+      "value": "5",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Durite de pression (1) à la fixation centrale – 14 Nm .",
+      "sourcePage": "central-release-remove-and-install-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Maître-cylindre au support de fixation – nouveaux écrous 20 Nm .",
+      "sourcePage": "clutch-master-cylinder-remove-and-install-A26D1C",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 4
+    },
+    {
+      "component": "Reposer l'arbre intermédiaire de direction avec le joint universel inférieur au boîtier de direction et à la colonne de direction",
+      "sourcePage": "clutch-pedal-replace-A26D1C",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 26
+    },
+    {
+      "component": "Reposer 3x vis, 3x écrou 35 Nm – Utiliser 3x nouveaux écrous",
+      "sourcePage": "clutch-pedal-replace-A26D1C",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Disque de pression et disque au volant moteur – utiliser le Guide d'Alignement d'Embrayage KM-736 (2), positionner le disque de pression sur les broches de centrage. Utiliser de nouvelles vis – 15 Nm .",
+      "sourcePage": "clutch-plate-and-or-pressure-plate-remove-and-install-A26D1C",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 3
+    },
+    {
+      "component": "Utiliser KM-194-E , bougies d'allumage 25 Nm.",
+      "sourcePage": "compression-pressure-check-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Déposer l'huile moteur.",
+      "sourcePage": "connecting-rod-bearings-replace-z-22-se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Enduire les tourillons de bielle de l'huile moteur.",
+      "sourcePage": "connecting-rod-bearings-replace-z-22-se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 18
+    },
+    {
+      "component": "Enduire les tourillons de bielle de l'huile moteur.",
+      "sourcePage": "connecting-rod-bearings-replace-z-22-se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 26
+    },
+    {
+      "component": "Remarque : Respecter la séquence de serrage.",
+      "sourcePage": "connecting-rod-bearings-replace-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 30
+    },
+    {
+      "component": "Fixer le tube de guidage de jauge d'huile.",
+      "sourcePage": "connecting-rod-bearings-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 34
+    },
+    {
+      "component": "Reposer le couvercle arrière du moteur.",
+      "sourcePage": "connecting-rod-bearings-replace-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 36
+    },
+    {
+      "component": "Couple de serrage 25 Nm",
+      "sourcePage": "connecting-rod-bearings-replace-z-22-se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Au tablier du bloc-cylindres – couple de serrage 23 Nm",
+      "sourcePage": "connecting-rod-bearings-replace-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "sourcePage": "connecting-rod-bearings-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 6 vis, couple de serrage 14 Nm",
+      "sourcePage": "connecting-rod-bearings-replace-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Fixer la roue arrière",
+      "sourcePage": "control-valve-fuel-evaporator-replace-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 14
+    },
+    {
+      "component": "Serrer 4x vis, vis de sécurité 90 Nm",
+      "sourcePage": "control-valve-fuel-evaporator-replace-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Vidanger le liquide de refroidissement.",
+      "sourcePage": "coolant-pipe-replace-z-22-se-A26D1C",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Reposer le boîtier de thermostat.",
+      "sourcePage": "coolant-pipe-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 19
+    },
+    {
+      "component": "Reposer le bouclier thermique supérieur.",
+      "sourcePage": "coolant-pipe-replace-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 23
+    },
+    {
+      "component": "Fixer le bouclier thermique inférieur.",
+      "sourcePage": "coolant-pipe-replace-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 24
+    },
+    {
+      "component": "Couple de serrage 20 Nm",
+      "sourcePage": "coolant-pipe-replace-z-22-se-A26D1C",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "sourcePage": "coolant-pipe-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 23 Nm",
+      "sourcePage": "coolant-pipe-replace-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 10 Nm",
+      "sourcePage": "coolant-pipe-replace-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Vidanger le liquide de refroidissement.",
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Reposer la pompe à liquide de refroidissement.",
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 24
+    },
+    {
+      "component": "Fixer le pignon de la pompe à liquide de refroidissement.",
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 25
+    },
+    {
+      "component": "Fixer l'ouverture de service de la pompe à liquide de refroidissement.",
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C",
+      "value": "7",
+      "unit": "Nm",
+      "stepRef": 27
+    },
+    {
+      "component": "Fixer la pompe à liquide de refroidissement.",
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 30
+    },
+    {
+      "component": "Reposer le boîtier de thermostat.",
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 33
+    },
+    {
+      "component": "Reposer le bouclier thermique supérieur.",
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 37
+    },
+    {
+      "component": "Fixer le bouclier thermique inférieur.",
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 38
+    },
+    {
+      "component": "Reposer le couvercle arrière du moteur.",
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 40
+    },
+    {
+      "component": "Couple de serrage 20 Nm",
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 23 Nm",
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 8 Nm",
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 7 Nm",
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C",
+      "value": "7",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 22 Nm",
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 6 vis, couple de serrage 14 Nm",
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Capteur de température du liquide de refroidissement (1) dans le boîtier de thermostat – 20 Nm .",
+      "sourcePage": "coolant-temperature-sensor-remove-and-install-A26D1C",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 3
+    },
+    {
+      "component": "Fixer le tablier du bloc-cylindres. Remarque : Respecter la séquence de serrage.",
+      "sourcePage": "crankshaft-bearing-clearance-check-measure-with-micrometer-z-A26D1C",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 1
+    },
+    {
+      "component": "Fixer le tablier du bloc-cylindres. Remarque : Respecter la séquence de serrage.",
+      "sourcePage": "crankshaft-bearing-clearance-check-measure-with-micrometer-z-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 1
+    },
+    {
+      "component": "Serrer les boulons M10 – couple de serrage 20 Nm + 70° + 15°",
+      "sourcePage": "crankshaft-bearing-clearance-check-measure-with-micrometer-z-A26D1C",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer les boulons M8 – couple de serrage 23 Nm",
+      "sourcePage": "crankshaft-bearing-clearance-check-measure-with-micrometer-z-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

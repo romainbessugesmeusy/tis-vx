@@ -1,0 +1,67 @@
+{
+  "title": "Interrupteur témoin, Frein à main, Remplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Console arrière – vis et connecteur de faisceau.",
+          "image": {
+            "src": "/data/assets/images/84d178e1889c.jpg",
+            "alt": "Object Number: 2429725  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Console centrale autour du frein à main et des leviers de vitesses - vis.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Interrupteur témoin (encart) du support de frein à main - vis/écrou et rondelle.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Connecteur de faisceau de l'interrupteur.",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Connecteur de faisceau à l'interrupteur.",
+          "image": {
+            "src": "/data/assets/images/84d178e1889c.jpg",
+            "alt": "Object Number: 2429725  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Interrupteur au support de frein à main – vis/écrou et rondelle.",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Console centrale autour du frein à main et du levier de vitesses – vis.",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Console arrière – vis et connecteur de faisceau.",
+          "number": 8,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "telltale-switch-handbrake-replace-A26D1C"
+}

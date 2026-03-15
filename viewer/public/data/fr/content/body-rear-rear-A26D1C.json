@@ -1,0 +1,19 @@
+{
+  "title": "Carrosserie arrière - Arrière",
+  "components": [
+    {
+      "description": "Déposer - Commutateur capot moteur, système d'alarme antivol",
+      "code": "S16"
+    },
+    {
+      "description": "Déposer - Faisceau principal & Faisceau d'extension, commutateur coffre",
+      "code": "X8"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "body-rear-rear-A26D1C",
+  "diagram": {
+    "src": "/data/assets/6bc8837e01fd.cgm",
+    "type": "cgm"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Field Remedy: 1517",
+  "subject": "Courroie de distribution - Vue d'ensemble de l'intervalle de service",
+  "complaint": "Aucune",
+  "cause": "Vue d'ensemble de l'intervalle de service.",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "L'information rapide 1517 n'est pas valide. Veuillez vérifier l'instruction de service TIS pour l'intervalle de service actuel de la courroie de distribution."
+    }
+  ],
+  "type": "tsb",
+  "id": "toothbelt-service-intervall-overview-A26D1C",
+  "metadata": {
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "05 - Excessive wear,14 - Noises or\nVibrations",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  },
+  "production": ""
+}

@@ -1,0 +1,58 @@
+{
+  "title": "Culasse, Vérifier la Surface Plane (Z 20\nLET)",
+  "phases": [
+    {
+      "label": "Nettoyer",
+      "steps": [
+        {
+          "text": "Déposer les résidus de joint et nettoyer les surfaces de joint.",
+          "number": 1,
+          "image": null
+        }
+      ],
+      "phase": "clean",
+      "icon": "/data/assets/images/d9fe69774efb.gif"
+    },
+    {
+      "label": "Inspecter",
+      "steps": [
+        {
+          "text": "Culasse démontée.",
+          "number": 2,
+          "image": null
+        }
+      ],
+      "phase": "inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif"
+    },
+    {
+      "label": "Mesurer",
+      "steps": [
+        {
+          "text": "Vérifier la longueur et la largeur des surfaces de joint de la culasse pour déformation et les diagonales pour la déformation - utiliser une règle plate.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Attention",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Il n'est pas permis de surfacer la culasse.",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Mesurer la hauteur de la culasse (surface de joint à surface de joint) : dimension (I) - 134 mm.",
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "measure",
+      "icon": "/data/assets/images/707731fa677f.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "cylinder-head-check-for-plane-surface-z-20-let-AQS315"
+}

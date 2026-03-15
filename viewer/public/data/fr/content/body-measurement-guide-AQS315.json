@@ -1,0 +1,11 @@
+{
+  "title": "Guide de mesure de carrosserie",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td><a href=\"#relatedlus\">Unités de littérature connexes</a></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  <tr><td><hr size=\"1\" ></td></tr>\r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Guide de mesure de carrosserie</p>\n\n<p>La méthode traditionnelle de mesure rapide à l'aide d'une règle télescopique\n<span class=\"tool\">MKM-642-A</span> n'est pas autorisée.</p>\n\n<p>Procédure supplémentaire:</p>\n\n<p>Inspecter visuellement le châssis en aluminium pour détecter les dommages.</p>\n\n<p>Si les dommages au châssis ne peuvent pas être définitivement exclus, alors les\ndimensions du véhicule doivent être mesurées.</p>\n\n<p>Mesurer les dimensions du véhicule en utilisant le système de redressement\nhabituel et ses fiches techniques.</p>\n\n<p>Conserver un enregistrement des mesures pour les spécialistes et les\ncompagnies d'assurance.</p>\n\n<p>Lorsque les mesures de carrosserie dépassent les tolérances données,\nprendre les mesures appropriées.</p>\n\n<p>Se référer au chapitre 'Réparation de carrosserie en utilisant le\nsystème de redressement'.</p>\n</td>\r\n  </tr>\r\n  <tr><td><hr size=\"1\" ></td></tr>\r\n  <tr>\r\n    <td ><a id=\"relatedlus\"></a><table ><tr ><th colspan=\"2\" >Unités de littérature connexes</th></tr><tr ><td >-</td><td ><a href=\"javascript:TFormSubmit('APN81VV71KW71','1','APN81VV71KW71','_top')\" id=\"APN81VV71KW71\" >Avertissements généraux et réglementations de sécurité</a></td></tr><tr ><td >-</td><td ><a href=\"javascript:TFormSubmit('AFN81UY712481','1','AFN81UY712481','_top')\" id=\"AFN81UY712481\" >Réglementations de sécurité pour la carrosserie</a></td></tr></table></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "type": "generic",
+  "id": "body-measurement-guide-AQS315",
+  "extractedData": {
+    "tools": [
+      "MKM-642-A"
+    ]
+  }
+}

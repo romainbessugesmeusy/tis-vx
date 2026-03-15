@@ -1,0 +1,249 @@
+{
+  "title": "Capot, Boîtier d'Instruments, Remplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Ouvrir le capot",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le réservoir de lave-glace du support de fixation",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déconnecter la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'écrou"
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déposer l'ensemble airbag du volant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x vis (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Débrancher le connecteur du faisceau"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ae506f81df45.jpg",
+            "alt": "Object Number: 2419663  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Débrancher le connecteur du klaxon",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Déposer le volant de la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 4x vis"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Déposer le couvercle supérieur de la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 6x vis (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a0ee6ea9e112.jpg",
+            "alt": "Object Number: 2429520  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Déposer le couvercle inférieur de la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 3x vis (2), agrafe"
+            },
+            {
+              "bullet": "•",
+              "text": "Débrancher le connecteur du faisceau"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a0ee6ea9e112.jpg",
+            "alt": "Object Number: 2429520  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Déposer le boîtier d'instruments du tableau de bord",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x boulon, 2x rondelle"
+            },
+            {
+              "bullet": "•",
+              "text": "Débrancher le connecteur du faisceau"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a6f8abf3d258.jpg",
+            "alt": "Object Number: 2419711  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Déposer le capot du boîtier d'instruments",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 4x écrou, 4x rondelle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/4d41ce008e43.jpg",
+            "alt": "Object Number: 2429512  Size: DEFAULT"
+          },
+          "number": 10
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le capot sur le boîtier d'instruments",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 4x nouvel écrou, 4x rondelle"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Reposer le boîtier d'instruments sur le tableau de bord",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 2x boulon, 2x rondelle"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer le connecteur du faisceau"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Reposer le couvercle inférieur sur la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 3x vis, agrafe"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer le connecteur du faisceau"
+            }
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Reposer le couvercle supérieur sur la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 6x vis"
+            }
+          ],
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Reposer le volant sur la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 4x vis"
+            }
+          ],
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Connecter le connecteur du klaxon",
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Reposer l'ensemble airbag sur le volant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 2x vis"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer le connecteur du faisceau"
+            }
+          ],
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Connecter la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer la vis"
+            }
+          ],
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "Reposer le réservoir de lave-glace sur le support de fixation",
+          "number": 19,
+          "image": null
+        },
+        {
+          "text": "Fermer le capot",
+          "number": 20,
+          "image": null
+        },
+        {
+          "text": "Programmer toutes les mémoires volatiles",
+          "number": 21,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "cover-instrument-housing-replace-AQS315"
+}

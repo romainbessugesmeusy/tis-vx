@@ -1,0 +1,50 @@
+{
+  "title": "Ampoule, Allume-cigare, Remplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "La section arrière de l'ensemble console du corps, voir l'opération «Console, Déposer et Reposer».",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Le support de lampe de l'allume-cigare.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "L'ampoule du support de lampe.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "L'ampoule au support de lampe.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Le support de lampe à l'allume-cigare.",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "L'ensemble console arrière au corps.",
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "bulb-cigarette-lighter-replace-AQS315"
+}

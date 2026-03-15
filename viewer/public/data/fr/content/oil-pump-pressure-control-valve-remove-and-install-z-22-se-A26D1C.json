@@ -1,0 +1,156 @@
+{
+  "title": "Soupape de régulation de pression de la pompe à huile, Déposer et\nReposer (Z 22 SE)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le cache arrière du moteur.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Élever la rampe de levage.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Déposer le tablier inférieur du moteur (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Placer un bac de récupération en dessous.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Déposer la soupape de régulation de pression de la pompe à huile.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer le bouchon de vis (1)."
+            },
+            {
+              "bullet": "•",
+              "text": "Extraire le joint d'huile (2), le ressort (3) et le piston (4)."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/51c6e93b0884.jpg",
+            "alt": "Object Number: 2417807  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Vérifier les composants.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Piston, ressort"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/51c6e93b0884.jpg",
+            "alt": "Object Number: 2417807  Size: DEFAULT"
+          },
+          "number": 6
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer la soupape de régulation de pression de la pompe à huile.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser un nouveau joint d'huile."
+            },
+            {
+              "bullet": "•",
+              "text": "Enduire le piston et le ressort d'huile moteur et les insérer."
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 65 Nm"
+            }
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Fixer le tablier inférieur du moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 vis"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Abaisser la rampe de levage.",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Vérifier le niveau d'huile du moteur, corriger si nécessaire.",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Fermer le cache arrière du moteur.",
+          "number": 11,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer la soupape de régulation de pression de la pompe à huile.",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Couple de serrage 65 Nm",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Soupape de régulation de pression de la pompe à huile\n Vérifier qu'elle ne reste pas coincée.\n \n\n\n\n–\nPiston, ressort"
+  ],
+  "type": "procedure",
+  "id": "oil-pump-pressure-control-valve-remove-and-install-z-22-se-A26D1C"
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Débitmètre d'air, 4 cylindres essence",
+  "steps": [
+    {
+      "text": "Déposer le cache de référence.",
+      "number": 1
+    },
+    {
+      "text": "Démarrer le moteur et le laisser au ralenti.",
+      "number": 2
+    },
+    {
+      "text": "Appuyer une fois rapidement sur la pédale d'accélérateur jusqu'à la butée et la relâcher immédiatement. La mesure ne doit pas durer plus d'une seconde.",
+      "number": 3
+    },
+    {
+      "text": "Déposer le fichier de configuration (le Tech 32 n'utilise que des fichiers de configuration, pas de courbes de référence).",
+      "number": 1
+    },
+    {
+      "text": "Démarrer le moteur et le laisser au ralenti.",
+      "number": 2
+    },
+    {
+      "text": "Appuyer une fois rapidement sur la pédale d'accélérateur jusqu'à la butée et la relâcher immédiatement. La mesure ne doit pas durer plus d'une seconde.",
+      "number": 3
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/59c78520034b.jpg",
+      "alt": "Numéro d'objet : 2400946  Taille : PAR DÉFAUT"
+    },
+    {
+      "src": "/data/assets/images/bb2d78d2ef7c.jpg",
+      "alt": "Numéro d'objet : 2419061  Taille : PAR DÉFAUT"
+    }
+  ],
+  "type": "diagnostic",
+  "id": "air-mass-meter-4-cylinder-petrol-AQS315"
+}

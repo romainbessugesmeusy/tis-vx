@@ -1,0 +1,61 @@
+{
+  "title": "Jeu axial du vilebrequin, Vérifier (Z 22 SE)",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Fixer le comparateur MKM-571-B .",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer sur une face d'extrémité du bloc-cylindres en utilisant le"
+            },
+            {
+              "bullet": "•",
+              "text": "Positionner et ajuster la sonde du comparateur sur le vilebrequin."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ad2852ca4bc7.jpg",
+            "alt": "Object Number: 2417973  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Mesurer le jeu axial du vilebrequin.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déplacer le vilebrequin dans le sens de la longueur."
+            },
+            {
+              "bullet": "•",
+              "text": "Jeu axial du vilebrequin autorisé : 0,092"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ad2852ca4bc7.jpg",
+            "alt": "Object Number: 2417973  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Retirer le comparateur MKM-571-B .",
+          "image": {
+            "src": "/data/assets/images/ad2852ca4bc7.jpg",
+            "alt": "Object Number: 2417973  Size: DEFAULT"
+          },
+          "number": 3
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "toolsRequired": [
+    "MKM-571-B"
+  ],
+  "type": "procedure",
+  "id": "crankshaft-end-float-check-z-22-se-A26D1C"
+}

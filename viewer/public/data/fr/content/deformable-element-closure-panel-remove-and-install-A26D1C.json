@@ -1,0 +1,36 @@
+{
+  "title": "Dépose et Repose du Panneau de Fermeture de l'Élément Déformable",
+  "phases": [
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Panneau de fermeture de l'élément déformable (1) – 12 vis et neuf rondelles.",
+          "callouts": [
+            "1"
+          ],
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Panneau de fermeture de l'élément déformable (1) – 12 vis et neuf rondelles.",
+          "callouts": [
+            "1"
+          ],
+          "number": 2,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "deformable-element-closure-panel-remove-and-install-A26D1C"
+}

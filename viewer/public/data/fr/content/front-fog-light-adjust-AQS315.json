@@ -1,0 +1,19 @@
+{
+  "title": "Régler le feu antibrouillard avant",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Voir l'opération «Contrôle et réglage des phares» dans le groupe N",
+          "number": 1,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "type": "procedure",
+  "id": "front-fog-light-adjust-AQS315"
+}

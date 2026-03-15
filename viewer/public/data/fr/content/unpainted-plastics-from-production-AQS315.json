@@ -1,0 +1,25 @@
+{
+  "title": "Plastiques non peints en production",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Illustration des plastiques non peints en production",
+          "image": {
+            "src": "/data/assets/images/f257c5972518.jpg",
+            "alt": "Object Number: 2422498  Size: DEFAULT"
+          },
+          "number": 1
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "warnings": [
+    "Les pièces non peintes ne doivent pas être peintes."
+  ],
+  "type": "procedure",
+  "id": "unpainted-plastics-from-production-AQS315"
+}

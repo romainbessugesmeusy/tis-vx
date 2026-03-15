@@ -1,0 +1,66 @@
+{
+  "title": "Silentblocs et Roulements, Charnières de Porte, Remplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le capot avant du véhicule – voir l'opération «Déposer et Reposer le Capot Avant» dans le groupe A.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer la porte du véhicule - voir l'opération «Déposer et Reposer la Porte» dans le groupe A.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Les silentblocs et roulements de la charnière de porte.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Attention !",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Ne pas lubrifier les silentblocs ou les roulements.",
+          "number": 5,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer les roulements et silentblocs sur la charnière de porte.",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Reposer la porte sur le véhicule.",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Reposer le capot avant sur le véhicule.",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Charnière montrée retirée pour plus de clarté.",
+          "number": 9,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "bushes-and-bearings-door-hinges-replace-AQS315"
+}

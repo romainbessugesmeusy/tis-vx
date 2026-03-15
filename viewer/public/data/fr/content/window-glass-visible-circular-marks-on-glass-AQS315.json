@@ -1,0 +1,22 @@
+{
+  "title": "Field Remedy: 1863",
+  "subject": "Vitre - Marques circulaires visibles sur la\nvitre",
+  "complaint": "Des marques circulaires peuvent apparaître\nlorsque la vitre est humide.",
+  "cause": "La plupart des lignes de production utilisent des têtes\nd'aspiration en caoutchouc qui peuvent laisser des marques\nd'impression sur la surface de la vitre.",
+  "remedyContent": [
+    {
+      "type": "paragraph",
+      "text": "En cas de réclamation du client, la vitre doit être polie à\nl'aide d'un abrasif doux approprié. Des substances comme la\nrouge à polir des bijoutiers, certains produits de blanchiment\ndentaire ou du dentifrice sont particulièrement adaptés."
+    }
+  ],
+  "type": "tsb",
+  "id": "window-glass-visible-circular-marks-on-glass-AQS315",
+  "metadata": {
+    "functionalGroup": "C - Equipment/Windows",
+    "complaintGroup": "07 - Foreign Material or Fluid",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  },
+  "production": ""
+}

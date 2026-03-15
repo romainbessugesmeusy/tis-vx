@@ -1,0 +1,104 @@
+{
+  "title": "Important!",
+  "phases": [
+    {
+      "label": "Procedure",
+      "steps": [
+        {
+          "text": "Triangle de suspension supérieur, Déposer et Reposer",
+          "number": 1,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    },
+    {
+      "label": "Déposer, Débrancher",
+      "steps": [
+        {
+          "text": "Collier de durite de frein (1) du triangle de suspension supérieur - écrou.",
+          "image": {
+            "src": "/data/assets/images/5fd9f26e0e5b.jpg",
+            "alt": "Object Number: 2429690  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Rotule supérieure (2) du bras de direction - écrou, utiliser un extracteur de rotule adapté.",
+          "callouts": [
+            "2"
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Triangle de suspension supérieur du châssis - vis, écrous, rondelles, cales ; crémaillère de direction en butée pour dégager suffisamment le boulon arrière.",
+          "image": {
+            "src": "/data/assets/images/7fa80a9baed1.jpg",
+            "alt": "Object Number: 2429691  Size: DEFAULT"
+          },
+          "number": 4
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/4b8970d41392.jpg"
+    },
+    {
+      "label": "Important!",
+      "steps": [
+        {
+          "text": "Noter la répartition des cales pour le réglage du carrossage.",
+          "number": 5,
+          "image": null
+        }
+      ],
+      "phase": "other",
+      "icon": "/data/assets/images/a1f4cd6ec726.jpg"
+    },
+    {
+      "label": "Reposer, Brancher",
+      "steps": [
+        {
+          "text": "Triangle de suspension supérieur au châssis - vis, écrous 45 Nm, rondelles.",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Rotule supérieure (2) au bras de direction - écrou 45 Nm.",
+          "image": {
+            "src": "/data/assets/images/5fd9f26e0e5b.jpg",
+            "alt": "Object Number: 2429690  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 7
+        },
+        {
+          "text": "Collier (1) de durite de frein au triangle de suspension supérieur - écrou.",
+          "callouts": [
+            "1"
+          ],
+          "number": 8,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/57d894c25c39.jpg"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Triangle de suspension supérieur au châssis - vis, écrous 45 Nm, rondelles.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 6
+    }
+  ],
+  "type": "procedure",
+  "id": "upper-wishbone-remove-and-install-AQS315"
+}

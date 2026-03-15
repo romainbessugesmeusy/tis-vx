@@ -1,0 +1,57 @@
+{
+  "title": "Sirène d'alarme, Antivol, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Desserrer les écrous maintenant la sirène d'alarme sur le support.",
+          "image": {
+            "src": "/data/assets/images/4cf178b71e9e.jpg",
+            "alt": "Object Number: 2429729  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer la sirène d'alarme des boulons dans le support et du pivot du tuyau.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Connecteur du faisceau de la sirène d'alarme.",
+          "number": 3,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Connecteur du faisceau à la sirène d'alarme.",
+          "image": {
+            "src": "/data/assets/images/4cf178b71e9e.jpg",
+            "alt": "Object Number: 2429729  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Sirène d'alarme sur le support, positionner les têtes des boulons dans les encoches de la sirène et le pivot du tuyau dans le support – serrer les écrous.",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Support montré retiré pour plus de clarté.",
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "power-sounder-anti-theft-remove-and-install-AQS315"
+}

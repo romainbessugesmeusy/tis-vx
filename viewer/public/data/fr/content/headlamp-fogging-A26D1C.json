@@ -1,0 +1,22 @@
+{
+  "title": "Field Remedy: 1469",
+  "subject": "Phare - Buée",
+  "complaint": "Condensation dans les phares.",
+  "cause": "En raison de raisons physiques, il est possible que de la condensation apparaisse dans les phares.",
+  "remedyContent": [
+    {
+      "type": "paragraph",
+      "text": "Les informations ont été mises à jour. Veuillez consulter le TSB 1598"
+    }
+  ],
+  "type": "tsb",
+  "id": "headlamp-fogging-A26D1C",
+  "metadata": {
+    "functionalGroup": "N - Electrical Equipment",
+    "complaintGroup": "12 - Misting",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  },
+  "production": ""
+}

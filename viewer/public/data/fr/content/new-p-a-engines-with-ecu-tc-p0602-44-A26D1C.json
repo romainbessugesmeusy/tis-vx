@@ -1,0 +1,22 @@
+{
+  "title": "Field Remedy: 1678",
+  "subject": "Nouveaux moteurs P&A avec ECU - TC P0602\n(44)",
+  "complaint": "SVS allumé et TC P0602 (44) enregistré après\nprogrammation de l'ECU",
+  "cause": "Les moteurs fournis par P&A sont équipés\nd'un ECM de production, qui n'est pas utilisable pour les besoins de P&A\ncar ils sont conçus pour les usines d'assemblage.",
+  "production": "Non affecté",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "Veuillez utiliser l'ancien ECM en cas d'échange de moteur. Le nouvel ECM fourni\navec le nouveau moteur doit être monté sur l'ancien moteur, qui sera renvoyé\nau centre de retour en garantie ou au processus de retour du moteur de base."
+    }
+  ],
+  "type": "tsb",
+  "id": "new-p-a-engines-with-ecu-tc-p0602-44-A26D1C",
+  "metadata": {
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "04 - Electrical failures",
+    "troubleCode": "TC P0602 (44)",
+    "models": null,
+    "engines": null
+  }
+}

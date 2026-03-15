@@ -1,0 +1,107 @@
+{
+  "title": "Durite, Alimentation Liquide de Refroidissement, Remplacer (Z20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Vidanger le circuit de refroidissement - voir l'opération «Circuit de Refroidissement, Vidanger, Remplir et Purger»",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le réservoir de carburant - voir l'opération «Réservoir de Carburant, Déposer et Reposer»",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déposer la durite d'alimentation en liquide de refroidissement (2) du tuyau de liquide de refroidissement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer, puis enlever l'agrafe (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/810ba1733912.jpg",
+            "alt": "Object Number: 2423058  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Déposer, puis jeter la durite d'alimentation en liquide de refroidissement (1) du boîtier de thermostat",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer, puis enlever l'agrafe (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b3c8f07102b3.jpg",
+            "alt": "Object Number: 2422879  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 5
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer la nouvelle durite de liquide de refroidissement sur le boîtier de thermostat",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Poser l'agrafe"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Relever le véhicule",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Fixer la durite d'alimentation en liquide de refroidissement sur le tuyau de liquide de refroidissement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Poser l'agrafe"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Reposer le réservoir de carburant - voir l'opération «Réservoir de Carburant, Déposer et Reposer»",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Remplir le circuit de refroidissement - voir l'opération «Circuit de Refroidissement, Vidanger, Remplir et Purger»",
+          "number": 10,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "hose-coolant-feed-replace-z20-let-AQS315"
+}

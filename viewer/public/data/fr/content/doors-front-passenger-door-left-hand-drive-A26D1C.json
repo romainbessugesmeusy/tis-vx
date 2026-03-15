@@ -1,0 +1,19 @@
+{
+  "title": "Portes - Porte avant passager",
+  "components": [
+    {
+      "description": "Moteur - Verrouillage central, porte avant passager",
+      "code": "M3"
+    },
+    {
+      "description": "Faisceau principal & Porte avant passager",
+      "code": "X15"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "doors-front-passenger-door-left-hand-drive-A26D1C",
+  "diagram": {
+    "src": "/data/assets/17b8e179e93a.cgm",
+    "type": "cgm"
+  }
+}

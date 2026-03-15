@@ -1,0 +1,59 @@
+{
+  "title": "distribution-tension-2-AQS315",
+  "components": [
+    {
+      "description": "Batterie",
+      "code": "G1"
+    },
+    {
+      "description": "Alternateur",
+      "code": "G2"
+    },
+    {
+      "description": "Relais - Démarreur",
+      "code": "K24"
+    },
+    {
+      "description": "Démarreur",
+      "code": "M1"
+    },
+    {
+      "description": "Interrupteur - Démarreur",
+      "code": "S1"
+    },
+    {
+      "description": "Interrupteur - Bouton de démarrage",
+      "code": "S124"
+    },
+    {
+      "description": "Faisceau principal & Batterie positive",
+      "code": "X1"
+    },
+    {
+      "description": "Faisceau principal & Faisceau d'extension, moteur",
+      "code": "X4"
+    },
+    {
+      "description": "Faisceau principal & Faisceau d'extension, moteur",
+      "code": "X3"
+    },
+    {
+      "description": "Faisceau d'extension, moteur & Batterie positive",
+      "code": "X34"
+    },
+    {
+      "description": "Moteur Z20LET",
+      "code": "Z20LET"
+    },
+    {
+      "description": "Moteur Z22SE",
+      "code": "Z22SE"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "voltage-distribution-2-AQS315",
+  "diagram": {
+    "src": "/data/assets/2e0adabcbefc.cgm",
+    "type": "cgm"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Test d'alternateur",
+  "steps": [
+    {
+      "text": "Déposer le cache de référence.",
+      "number": 1
+    },
+    {
+      "text": "Démarrer le moteur et le laisser au ralenti.",
+      "number": 2
+    },
+    {
+      "text": "Déposer le fichier de configuration (le Tech 32 n'utilise que des fichiers de configuration, pas de courbes de référence).",
+      "number": 1
+    },
+    {
+      "text": "Démarrer le moteur et le laisser au ralenti.",
+      "number": 2
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/b818ea191cd1.jpg",
+      "alt": "Numéro d'objet : 2400950  Taille : DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/3968b0a8a8e4.jpg",
+      "alt": "Numéro d'objet : 2419063  Taille : DEFAULT"
+    }
+  ],
+  "type": "diagnostic",
+  "id": "alternator-test-AQS315"
+}

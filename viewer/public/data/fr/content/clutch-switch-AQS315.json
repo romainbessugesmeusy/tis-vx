@@ -1,0 +1,67 @@
+{
+  "title": "contacteur-d'embrayage-AQS315",
+  "components": [
+    {
+      "description": "Feu stop - Position centrale",
+      "code": "E24"
+    },
+    {
+      "description": "Contacteur - Feux de détresse",
+      "code": "S6"
+    },
+    {
+      "description": "Contacteur - Pédale d'embrayage",
+      "code": "S28"
+    },
+    {
+      "description": "Clignotant latéral gauche",
+      "code": "H6"
+    },
+    {
+      "description": "Contacteur - Feu stop, simple",
+      "code": "S29"
+    },
+    {
+      "description": "Clignotant latéral droit",
+      "code": "H7"
+    },
+    {
+      "description": "Contacteur - Feu de recul",
+      "code": "S31"
+    },
+    {
+      "description": "Relais - Antibrouillard arrière",
+      "code": "K5"
+    },
+    {
+      "description": "Contacteur - Feu stop, double",
+      "code": "S43"
+    },
+    {
+      "description": "Centrale clignotante",
+      "code": "K31"
+    },
+    {
+      "description": "Contacteur - Antibrouillards arrière",
+      "code": "S122"
+    },
+    {
+      "description": "Faisceau principal & Arceau",
+      "code": "X12"
+    },
+    {
+      "description": "Moteur Z20LET",
+      "code": "Z20LET"
+    },
+    {
+      "description": "Moteur Z22SE",
+      "code": "Z22SE"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "clutch-switch-AQS315",
+  "diagram": {
+    "src": "/data/assets/2dd47136a6b3.cgm",
+    "type": "cgm"
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Déposer le support des câbles de changement de vitesse.",
+      "sourcePage": "remplacer-arbre-d-equilibrage-chaine-distribution-z-22-se-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 80
+    },
+    {
+      "component": "Déposer l'amortisseur de vibrations rotatif (2).",
+      "sourcePage": "remplacer-arbre-d-equilibrage-chaine-distribution-z-22-se-A26D1C",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": 81
+    },
+    {
+      "component": "Déposer la poulie tendeur de courroie striée en V. Remarque : Le tenon (1) de la poulie tendeur de courroie striée en V s'engage dans l'alésage du carter de distribution (2).",
+      "sourcePage": "remplacer-arbre-d-equilibrage-chaine-distribution-z-22-se-A26D1C",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": 82
+    },
+    {
+      "component": "Reposer le tuyau d'échappement avant.",
+      "sourcePage": "remplacer-arbre-d-equilibrage-chaine-distribution-z-22-se-A26D1C",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": 85
+    },
+    {
+      "component": "Déposer le couvercle de la culasse",
+      "sourcePage": "remplacer-arbre-d-equilibrage-chaine-distribution-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 90
+    },
+    {
+      "component": "Déposer le couvercle de la culasse",
+      "sourcePage": "remplacer-arbre-d-equilibrage-chaine-distribution-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 90
+    },
+    {
+      "component": "Déposer le module d'allumage.",
+      "sourcePage": "remplacer-arbre-d-equilibrage-chaine-distribution-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 91
+    },
+    {
+      "component": "Connecter les conduites de carburant.",
+      "sourcePage": "remplacer-arbre-d-equilibrage-chaine-distribution-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 92
+    },
+    {
+      "component": "Connecter les conduites de carburant.",
+      "sourcePage": "remplacer-arbre-d-equilibrage-chaine-distribution-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 92
+    },
+    {
+      "component": "Reposer le cache du moteur.",
+      "sourcePage": "remplacer-arbre-d-equilibrage-chaine-distribution-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 93
+    },
+    {
+      "component": "Couple de serrage 25 Nm",
+      "sourcePage": "remplacer-arbre-d-equilibrage-chaine-distribution-z-22-se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 10 Nm",
+      "sourcePage": "remplacer-arbre-d-equilibrage-chaine-distribution-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 85 Nm + 30° + 15°",
+      "sourcePage": "remplacer-arbre-d-equilibrage-chaine-distribution-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 65 Nm",
+      "sourcePage": "remplacer-arbre-d-equilibrage-chaine-distribution-z-22-se-A26D1C",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 8 Nm",
+      "sourcePage": "remplacer-arbre-d-equilibrage-chaine-distribution-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 75 Nm",
+      "sourcePage": "remplacer-arbre-d-equilibrage-chaine-distribution-z-22-se-A26D1C",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 21 Nm",
+      "sourcePage": "remplacer-arbre-d-equilibrage-chaine-distribution-z-22-se-A26D1C",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 45 Nm",
+      "sourcePage": "remplacer-arbre-d-equilibrage-chaine-distribution-z-22-se-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 86 Nm",
+      "sourcePage": "remplacer-arbre-d-equilibrage-chaine-distribution-z-22-se-A26D1C",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 22 Nm",
+      "sourcePage": "remplacer-arbre-d-equilibrage-chaine-distribution-z-22-se-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 100 Nm + 75° + 15°",
+      "sourcePage": "remplacer-arbre-d-equilibrage-chaine-distribution-z-22-se-A26D1C",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 43 Nm",
+      "sourcePage": "remplacer-arbre-d-equilibrage-chaine-distribution-z-22-se-A26D1C",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 16 Nm",
+      "sourcePage": "remplacer-arbre-d-equilibrage-chaine-distribution-z-22-se-A26D1C",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "sourcePage": "remplacer-arbre-d-equilibrage-chaine-distribution-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 vis, couple de serrage 14 Nm",
+      "sourcePage": "remplacer-arbre-d-equilibrage-chaine-distribution-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Déposer l'huile moteur.",
+      "sourcePage": "remplacer-arbre-arbre-a-cames-chaine-distribution-z-22-se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 25
+    },
+    {
+      "component": "Reposer le pignon d'arbre à cames d'admission.",
+      "sourcePage": "remplacer-arbre-arbre-a-cames-chaine-distribution-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 49
+    },
+    {
+      "component": "Reposer le rail tendeur de chaîne de distribution d'arbre à cames (numéro de pièce 24 449 448)",
+      "sourcePage": "remplacer-arbre-arbre-a-cames-chaine-distribution-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 52
+    },
+    {
+      "component": "Reposer le rail de guidage de chaîne de distribution d'arbre à cames (1).",
+      "sourcePage": "remplacer-arbre-arbre-a-cames-chaine-distribution-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 53
+    },
+    {
+      "component": "Reposer le rail de guidage de chaîne de distribution d'arbre à cames.",
+      "sourcePage": "remplacer-arbre-arbre-a-cames-chaine-distribution-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 56
+    },
+    {
+      "component": "Reposer le rail de guidage de chaîne de distribution d'arbre à cames.",
+      "sourcePage": "remplacer-arbre-arbre-a-cames-chaine-distribution-z-22-se-A26D1C",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": 56
+    },
+    {
+      "component": "Reposer le pignon d'arbre à cames d'échappement.",
+      "sourcePage": "remplacer-arbre-arbre-a-cames-chaine-distribution-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 57
+    },
+    {
+      "component": "Reposer le rail de guidage.",
+      "sourcePage": "remplacer-arbre-arbre-a-cames-chaine-distribution-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 59
+    },
+    {
+      "component": "Reposer le tendeur de chaîne de distribution d'arbre à cames.",
+      "sourcePage": "remplacer-arbre-arbre-a-cames-chaine-distribution-z-22-se-A26D1C",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 60
+    },
+    {
+      "component": "Reposer le carter de distribution. Remarque : Retirer le chiffon de l'ouverture dans le carter de distribution.",
+      "sourcePage": "remplacer-arbre-arbre-a-cames-chaine-distribution-z-22-se-A26D1C",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": 66
+    },
+    {
+      "component": "Déposer le bloc d'amortissement du moteur côté droit.",
+      "sourcePage": "remplacer-arbre-arbre-a-cames-chaine-distribution-z-22-se-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 69
+    },
+    {
+      "component": "Déposer le support de bloc d'amortissement du moteur côté droit.",
+      "sourcePage": "remplacer-arbre-arbre-a-cames-chaine-distribution-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 70
+    },
+    {
+      "component": "Déposer le bloc d'amortissement du moteur arrière.",
+      "sourcePage": "remplacer-arbre-arbre-a-cames-chaine-distribution-z-22-se-A26D1C",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 71
+    },
+    {
+      "component": "Déposer le support des câbles de changement de vitesse.",
+      "sourcePage": "remplacer-arbre-arbre-a-cames-chaine-distribution-z-22-se-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 73
+    },
+    {
+      "component": "Déposer l'amortisseur de vibrations rotatif (2).",
+      "sourcePage": "remplacer-arbre-arbre-a-cames-chaine-distribution-z-22-se-A26D1C",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": 74
+    },
+    {
+      "component": "Déposer la poulie tendeur de courroie striée en V. Remarque : Le tenon (1) de la poulie tendeur de courroie striée en V s'engage dans l'alésage du carter de distribution (2).",
+      "sourcePage": "remplacer-arbre-arbre-a-cames-chaine-distribution-z-22-se-A26D1C",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": 75
+    },
+    {
+      "component": "Reposer le tuyau d'échappement avant.",
+      "sourcePage": "remplacer-arbre-arbre-a-cames-chaine-distribution-z-22-se-A26D1C",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": 78
+    },
+    {
+      "component": "Reposer la roue arrière",
+      "sourcePage": "remplacer-arbre-arbre-a-cames-chaine-distribution-z-22-se-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 80
+    },
+    {
+      "component": "Déposer le couvercle de la culasse",
+      "sourcePage": "remplacer-arbre-arbre-a-cames-chaine-distribution-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 86
+    },
+    {
+      "component": "Déposer le module d'allumage.",
+      "sourcePage": "remplacer-arbre-arbre-a-cames-chaine-distribution-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 87
+    },
+    {
+      "component": "Connecter les conduites de carburant.",
+      "sourcePage": "remplacer-arbre-arbre-a-cames-chaine-distribution-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 88
+    },
+    {
+      "component": "Reposer le cache du moteur.",
+      "sourcePage": "remplacer-arbre-arbre-a-cames-chaine-distribution-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 89
+    },
+    {
+      "component": "Couple de serrage 25 Nm",
+      "sourcePage": "remplacer-arbre-arbre-a-cames-chaine-distribution-z-22-se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 85 Nm + 30° + 15°",
+      "sourcePage": "remplacer-arbre-arbre-a-cames-chaine-distribution-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 10 Nm",
+      "sourcePage": "remplacer-arbre-arbre-a-cames-chaine-distribution-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

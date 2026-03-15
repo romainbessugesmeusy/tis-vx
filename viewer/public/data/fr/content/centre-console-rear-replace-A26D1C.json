@@ -1,0 +1,83 @@
+{
+  "title": "Console centrale arrière, Remplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer l'élément du briquet",
+          "image": {
+            "src": "/data/assets/images/4ae8ac4707fa.jpg",
+            "alt": "Object Number: 2419902  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer la console centrale du panneau",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'agrafe (1), agrafe intégrée"
+            },
+            {
+              "bullet": "•",
+              "text": "Libérer 2x connecteur de faisceau"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/4ae8ac4707fa.jpg",
+            "alt": "Object Number: 2419902  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Déposer le briquet de la console centrale",
+          "number": 3,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le briquet sur la nouvelle console centrale",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Emboîter"
+            }
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Reposer la nouvelle console centrale sur le panneau",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer 2x connecteur de faisceau"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer l'agrafe intégrée, agrafe (1)"
+            }
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Reposer l'élément sur le briquet",
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "centre-console-rear-replace-A26D1C"
+}

@@ -1,0 +1,593 @@
+{
+  "title": "Remplacer le capteur de réservoir de carburant",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Déposer le réservoir de lave-glace du support, puis déplacer sur le côté",
+          "image": {
+            "src": "/data/assets/images/372145f87fb3.jpg",
+            "alt": "Object Number: 2419905  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déconnecter la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'écrou"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/109869f7b46c.jpg",
+            "alt": "Object Number: 2429428  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Déconnecter les 2x rotules (1) des 2x tiges de sélection",
+          "image": {
+            "src": "/data/assets/images/bbdf1637c5b5.jpg",
+            "alt": "Object Number: 2425070  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Déposer le support, puis déplacer sur le côté",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer la vis (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/bbdf1637c5b5.jpg",
+            "alt": "Object Number: 2425070  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Retirer le carter inférieur du moteur (1) du véhicule",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 13x vis, 13x rondelle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1d1ad92dd5ed.jpg",
+            "alt": "Object Number: 2425071  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Retirer les 2x roues arrière du véhicule",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 2x boulon de sécurité"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer 8x vis"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Déposer le câble de frein de stationnement du compensateur, puis déplacer le câble de frein de stationnement sur le côté",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer l'agrafe (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/295c86960519.jpg",
+            "alt": "Object Number: 2425072  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Retirer le support de guidage (1) du panneau inférieur du réservoir de carburant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 4x boulon"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6fc5038ed95a.jpg",
+            "alt": "Object Number: 2425078  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 8
+        },
+        {
+          "text": "Retirer les 2x boulons inférieurs (1) du montage inférieur du triangle de suspension",
+          "image": {
+            "src": "/data/assets/images/9a776e675bb5.jpg",
+            "alt": "Object Number: 2425073  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 9
+        },
+        {
+          "text": "Retirer les 2x boulons (1) du bloc d'amortissement du moteur",
+          "image": {
+            "src": "/data/assets/images/281d67494771.jpg",
+            "alt": "Object Number: 2425074  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 10
+        },
+        {
+          "text": "Retirer le panneau inférieur du réservoir de carburant (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 5x boulon, 5x rondelle"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer 3x écrou, 3x rondelle, 3x boulon"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/efe3159f3f4e.jpg",
+            "alt": "Object Number: 2425077  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 11
+        },
+        {
+          "text": "Déposer 3x conduite de carburant du tablier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 3x agrafe"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Retirer le filtre à carburant du tablier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer la vis (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f41514275c1f.jpg",
+            "alt": "Object Number: 2425075  Size: DEFAULT"
+          },
+          "number": 13
+        },
+        {
+          "text": "Retirer le revêtement d'aile arrière du côté droit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 6x vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/835a42393a41.jpg",
+            "alt": "Object Number: 2429857  Size: DEFAULT"
+          },
+          "number": 14
+        },
+        {
+          "text": "Déposer le réservoir d'évaporation de carburant, puis déplacer sur le côté",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer l'écrou, la vis, le collier de serrage"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/05093654404f.jpg",
+            "alt": "Object Number: 2419922  Size: DEFAULT"
+          },
+          "number": 15
+        },
+        {
+          "text": "Déconnecter 3x durite (1) du réservoir d'évaporation de carburant Remarque : Appliquer des repères d'alignement sur 3x durite pour faciliter l'installation",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 3x agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0c0330faa516.jpg",
+            "alt": "Object Number: 2425076  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 16
+        },
+        {
+          "text": "Déconnecter la durite (2) du tuyau de remplissage de carburant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 2x agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0c0330faa516.jpg",
+            "alt": "Object Number: 2425076  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 17
+        },
+        {
+          "text": "Élever le véhicule pour faciliter l'accès",
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "Soutenir le réservoir de carburant pour éviter d'endommager les conduites de carburant et le faisceau de câblage",
+          "image": {
+            "src": "/data/assets/images/fbb4919dccc3.jpg",
+            "alt": "Object Number: 2425193  Size: DEFAULT"
+          },
+          "number": 19
+        },
+        {
+          "text": "Retirer le réservoir de carburant du véhicule",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déconnecter 2x conduite de carburant du capteur de réservoir de carburant"
+            },
+            {
+              "bullet": "•",
+              "text": "Déconnecter le connecteur du faisceau du capteur de réservoir de carburant"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer 2x manchon en plastique de conduite de carburant du capteur de réservoir de carburant"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer 4x boulon, 4x rondelle de blocage"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/fbb4919dccc3.jpg",
+            "alt": "Object Number: 2425193  Size: DEFAULT"
+          },
+          "number": 20
+        },
+        {
+          "text": "Retirer le capteur de réservoir de carburant du réservoir de carburant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer le circlip"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer le joint d'étanchéité"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/fbb4919dccc3.jpg",
+            "alt": "Object Number: 2425193  Size: DEFAULT"
+          },
+          "number": 21
+        },
+        {
+          "text": "Reposer le capteur de réservoir de carburant sur le réservoir de carburant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer un nouveau joint d'étanchéité"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer le circlip"
+            }
+          ],
+          "number": 22,
+          "image": null
+        },
+        {
+          "text": "Installer le réservoir de carburant sur le véhicule",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Raccorder 2x conduite de carburant au capteur de réservoir de carburant"
+            },
+            {
+              "bullet": "•",
+              "text": "Raccorder le connecteur du faisceau au capteur de réservoir de carburant"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer 2x manchon en plastique de conduite de carburant au capteur de réservoir de carburant"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer 4x nouveau boulon, 4x rondelle de blocage 25"
+            }
+          ],
+          "number": 23,
+          "image": null
+        },
+        {
+          "text": "Raccorder 3x durite au réservoir d'évaporation de carburant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Aligner 3x durite à la position notée à l'étape 16"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer 3x agrafe"
+            }
+          ],
+          "number": 24,
+          "image": null
+        },
+        {
+          "text": "Raccorder la durite au tuyau de remplissage de carburant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer 2x agrafe"
+            }
+          ],
+          "number": 25,
+          "image": null
+        },
+        {
+          "text": "Installer le réservoir d'évaporation de carburant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer le nouveau collier de serrage, boulon, écrou"
+            }
+          ],
+          "number": 26,
+          "image": null
+        },
+        {
+          "text": "Installer le revêtement d'aile arrière du côté droit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer 6x vis"
+            }
+          ],
+          "number": 27,
+          "image": null
+        },
+        {
+          "text": "Installer le filtre à carburant sur le tablier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer la vis à 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer 3x conduite de carburant"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer 3x agrafe"
+            }
+          ],
+          "number": 28,
+          "image": null
+        },
+        {
+          "text": "Installer le panneau inférieur du réservoir de carburant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 5x boulon, 5x rondelle à 25 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer 3x boulon, 3x rondelle, 3x écrou à 45"
+            }
+          ],
+          "number": 29,
+          "image": null
+        },
+        {
+          "text": "Installer 2x boulon au bloc d'amortissement du moteur à 25 Nm",
+          "number": 30,
+          "image": null
+        },
+        {
+          "text": "Installer 2x boulon au montage inférieur du triangle de suspension à 45 Nm",
+          "number": 31,
+          "image": null
+        },
+        {
+          "text": "Installer le support du câble de sélection de vitesses sur le panneau inférieur du réservoir de carburant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer 4x boulon"
+            }
+          ],
+          "number": 32,
+          "image": null
+        },
+        {
+          "text": "Raccorder le câble de frein de stationnement au compensateur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer l'agrafe"
+            }
+          ],
+          "number": 33,
+          "image": null
+        },
+        {
+          "text": "Installer les 2x roues arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer 8x vis, 2x boulon de sécurité à 90"
+            }
+          ],
+          "number": 34,
+          "image": null
+        },
+        {
+          "text": "Installer le carter inférieur du moteur sur le véhicule",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer 13x vis, 13x rondelle"
+            }
+          ],
+          "number": 35,
+          "image": null
+        },
+        {
+          "text": "Installer le support du câble de sélection de vitesses",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer la vis"
+            }
+          ],
+          "number": 36,
+          "image": null
+        },
+        {
+          "text": "Raccorder les 2x rotules des 2x câbles de sélection de vitesses aux 2x tiges de sélection",
+          "number": 37,
+          "image": null
+        },
+        {
+          "text": "Raccorder la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer l'écrou"
+            }
+          ],
+          "number": 38,
+          "image": null
+        },
+        {
+          "text": "Fixer le réservoir de lave-glace au support",
+          "number": 39,
+          "image": null
+        },
+        {
+          "text": "Programmer les mémoires volatiles",
+          "number": 40,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Installer le réservoir de carburant sur le véhicule",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 23
+    },
+    {
+      "component": "Installer le filtre à carburant sur le tablier",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 28
+    },
+    {
+      "component": "Installer le panneau inférieur du réservoir de carburant",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 29
+    },
+    {
+      "component": "Installer le panneau inférieur du réservoir de carburant",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 29
+    },
+    {
+      "component": "Installer 2x boulon au bloc d'amortissement du moteur à 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 30
+    },
+    {
+      "component": "Installer 2x boulon au montage inférieur du triangle de suspension à 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 31
+    },
+    {
+      "component": "Installer les 2x roues arrière",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 34
+    },
+    {
+      "component": "Installer 4x nouveau boulon, 4x rondelle de blocage 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer la vis à 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer 3x boulon, 3x rondelle, 3x écrou à 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 8x vis, 2x boulon de sécurité à 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Déconnecter 3x durite (1) du réservoir d'évaporation de carburant\n Appliquer des repères d'alignement\nsur 3x durite pour faciliter l'installation\n \n\n\n\n•  \nRetirer 3x agrafe"
+  ],
+  "type": "procedure",
+  "id": "fuel-tank-sensor-replace-AQS315"
+}

@@ -1,0 +1,720 @@
+{
+  "title": "Transmission, Déposer et Reposer (Moteur Déposé)\n(Z 22 SE)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Fixer l'adaptateur KM-412-27 (1) sur le côté droit.",
+          "image": {
+            "src": "/data/assets/images/f75b10bc168e.jpg",
+            "alt": "Object Number: 2417929  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 1
+        },
+        {
+          "text": "Déposer le tube de guidage de jauge d'huile (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 agrafe"
+            },
+            {
+              "bullet": "•",
+              "text": "Tirer la jauge d'huile du tube de jauge d'huile."
+            },
+            {
+              "bullet": "•",
+              "text": "2 agrafes"
+            },
+            {
+              "bullet": "•",
+              "text": "1 vis (3)"
+            },
+            {
+              "bullet": "•",
+              "text": "Tirer le tube de guidage de jauge d'huile du carter d'huile."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/839872b80755.jpg",
+            "alt": "Object Number: 2416675  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Forer le boulon de cisaillement (4).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Marquer au centre"
+            },
+            {
+              "bullet": "•",
+              "text": "Profondeur max. 10 mm",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Utiliser une mèche de 3 mm."
+                }
+              ]
+            },
+            {
+              "bullet": "•",
+              "text": "Jusqu'à ce que la tête de la vis se libère.",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Utiliser une mèche de 6,5 mm."
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d30b869f7f2d.jpg",
+            "alt": "Object Number: 2412527  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Retirer la vis de retenue (2).",
+          "image": {
+            "src": "/data/assets/images/d30b869f7f2d.jpg",
+            "alt": "Object Number: 2412527  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Retirer le pont (3).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Repositionner le câble de masse sur le côté."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d30b869f7f2d.jpg",
+            "alt": "Object Number: 2412527  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Retirer les vis de retenue (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d30b869f7f2d.jpg",
+            "alt": "Object Number: 2412527  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 6
+        },
+        {
+          "text": "Sortir l'unité de commande moteur.",
+          "image": {
+            "src": "/data/assets/images/d30b869f7f2d.jpg",
+            "alt": "Object Number: 2412527  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Détacher le support de faisceau de câblage (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 écrou"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/535548a18d60.jpg",
+            "alt": "Object Number: 2417915  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 8
+        },
+        {
+          "text": "Détacher le connecteur du faisceau de câblage du boîtier papillon (3).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Libérer le(s) connecteur(s) du faisceau de câblage (2)."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/535548a18d60.jpg",
+            "alt": "Object Number: 2417915  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ],
+          "number": 9
+        },
+        {
+          "text": "Détacher le connecteur du faisceau de câblage (2) du capteur de pression du collecteur d'admission (1).",
+          "image": {
+            "src": "/data/assets/images/49c839306493.jpg",
+            "alt": "Object Number: 2416663  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ],
+          "number": 10
+        },
+        {
+          "text": "Dévisser le tuyau de recirculation des gaz d'échappement.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 écrous (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "2 vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/309ac035f031.jpg",
+            "alt": "Object Number: 2417916  Size: DEFAULT"
+          },
+          "number": 11
+        },
+        {
+          "text": "Détacher le collecteur d'admission (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "4 agrafes"
+            },
+            {
+              "bullet": "•",
+              "text": "5 vis, 2 écrous"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b973aa6d7559.jpg",
+            "alt": "Object Number: 2416682  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 12
+        },
+        {
+          "text": "Retirer le capteur de cliquetis (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Détacher le connecteur du faisceau de câblage."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0a8ab77fbc11.jpg",
+            "alt": "Object Number: 2412475  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 13
+        },
+        {
+          "text": "Fixer l'adaptateur KM-412-27 (1) sur le côté gauche.",
+          "image": {
+            "src": "/data/assets/images/24ea6bda67ea.jpg",
+            "alt": "Object Number: 2417918  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 14
+        },
+        {
+          "text": "Fixer le moteur au support d'assemblage KM-412. Remarque : 2 techniciens requis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Détacher les câbles de retenue des yeux de levage du moteur."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/24ea6bda67ea.jpg",
+            "alt": "Object Number: 2417918  Size: DEFAULT"
+          },
+          "number": 15
+        },
+        {
+          "text": "Détacher le connecteur du faisceau de câblage de la sonde lambda (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8d624b9a92ab.jpg",
+            "alt": "Object Number: 2418050  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 16
+        },
+        {
+          "text": "Détacher le connecteur du faisceau de câblage du démarreur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 agrafe (2), 1 vis (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b2352b1874c5.jpg",
+            "alt": "Object Number: 2418062  Size: DEFAULT"
+          },
+          "number": 17
+        },
+        {
+          "text": "Desserrer la transmission.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 6 vis."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/850eca43d007.jpg",
+            "alt": "Object Number: 2418052  Size: DEFAULT"
+          },
+          "number": 18
+        },
+        {
+          "text": "Détacher la transmission.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer les câbles de sécurité."
+            },
+            {
+              "bullet": "•",
+              "text": "Crocher la transmission dans la grue d'atelier."
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer 1 vis."
+            },
+            {
+              "bullet": "•",
+              "text": "Détacher les brides moteur/transmission."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/850eca43d007.jpg",
+            "alt": "Object Number: 2418052  Size: DEFAULT"
+          },
+          "number": 19
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Fixer la transmission.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Crocher la transmission dans la grue d'atelier."
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer les brides boîte de vitesses/moteur."
+            },
+            {
+              "bullet": "•",
+              "text": "Reposer 1 vis."
+            },
+            {
+              "bullet": "•",
+              "text": "Décrocher de la grue d'atelier."
+            },
+            {
+              "bullet": "•",
+              "text": "Détacher les câbles de sécurité."
+            }
+          ],
+          "number": 20,
+          "image": null
+        },
+        {
+          "text": "Serrer les vis de la transmission.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 60 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 22 Nm"
+            }
+          ],
+          "number": 21,
+          "image": null
+        },
+        {
+          "text": "Fixer le faisceau de câblage du démarreur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 vis, 1 agrafe"
+            }
+          ],
+          "number": 22,
+          "image": null
+        },
+        {
+          "text": "Fixer le connecteur du faisceau de câblage de la sonde lambda.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 agrafe"
+            }
+          ],
+          "number": 23,
+          "image": null
+        },
+        {
+          "text": "Crocher le moteur dans la grue d'atelier.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer les sangles de retenue aux yeux de levage du moteur."
+            }
+          ],
+          "number": 24,
+          "image": null
+        },
+        {
+          "text": "Détacher le moteur du support d'assemblage KM-412. Remarque : 2 techniciens requis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Poser délicatement le moteur."
+            }
+          ],
+          "number": 25,
+          "image": null
+        },
+        {
+          "text": "Détacher l'adaptateur KM-412-27 sur le côté gauche.",
+          "number": 26,
+          "image": null
+        },
+        {
+          "text": "Installer le capteur de cliquetis.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer le connecteur du faisceau de câblage."
+            }
+          ],
+          "number": 27,
+          "image": null
+        },
+        {
+          "text": "Fixer le collecteur d'admission.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser de nouveaux joints (1) et (2)."
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer les 4 agrafes."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a9a3787d2c92.jpg",
+            "alt": "Object Number: 2417771  Size: DEFAULT"
+          },
+          "number": 28
+        },
+        {
+          "text": "Fixer le tuyau de recirculation des gaz d'échappement.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Nettoyer les surfaces de joint."
+            },
+            {
+              "bullet": "•",
+              "text": "Utiliser un nouveau joint."
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 8 Nm"
+            }
+          ],
+          "number": 29,
+          "image": null
+        },
+        {
+          "text": "Fixer le connecteur du faisceau de câblage pour le capteur de pression du collecteur d'admission.",
+          "number": 30,
+          "image": null
+        },
+        {
+          "text": "Fixer le connecteur du faisceau de câblage pour le boîtier papillon.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer le(s) connecteur(s) du faisceau de câblage."
+            }
+          ],
+          "number": 31,
+          "image": null
+        },
+        {
+          "text": "Fixer le support de faisceau de câblage",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 8 Nm"
+            }
+          ],
+          "number": 32,
+          "image": null
+        },
+        {
+          "text": "Nettoyer l'unité de commande moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Nettoyer l'unité de commande moteur et les contacts de la fiche avec"
+            }
+          ],
+          "number": 33,
+          "image": null
+        },
+        {
+          "text": "Installer l'unité de commande moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer et sécuriser le connecteur du faisceau de câblage."
+            },
+            {
+              "bullet": "•",
+              "text": "Acheminer le câble de masse."
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 10 Nm"
+            }
+          ],
+          "number": 34,
+          "image": null
+        },
+        {
+          "text": "Installer le tube de guidage de jauge d'huile.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enduire les joints d'huile de graisse silicone (blanche)."
+            },
+            {
+              "bullet": "•",
+              "text": "Insérer le tube de guidage de jauge d'huile jusqu'à la butée dans le"
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Insérer la jauge d'huile."
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer le faisceau de câblage du capteur de cliquetis à la jauge d'huile"
+            },
+            {
+              "bullet": "•",
+              "text": "2 agrafes"
+            }
+          ],
+          "number": 35,
+          "image": null
+        },
+        {
+          "text": "Détacher l'adaptateur KM-412-27 sur le côté droit.",
+          "number": 36,
+          "image": null
+        },
+        {
+          "text": "Fixer le moteur à la grue d'atelier. Remarque : 2 techniciens requis",
+          "number": 37,
+          "image": null
+        },
+        {
+          "text": "Lever le moteur.",
+          "number": 38,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Serrer les vis de la transmission.",
+      "value": "60",
+      "unit": "Nm",
+      "stepRef": 21
+    },
+    {
+      "component": "Serrer les vis de la transmission.",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 21
+    },
+    {
+      "component": "Installer le capteur de cliquetis.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 27
+    },
+    {
+      "component": "Fixer le collecteur d'admission.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 28
+    },
+    {
+      "component": "Fixer le tuyau de recirculation des gaz d'échappement.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 29
+    },
+    {
+      "component": "Fixer le tuyau de recirculation des gaz d'échappement.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 29
+    },
+    {
+      "component": "Fixer le support de faisceau de câblage",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 32
+    },
+    {
+      "component": "Installer l'unité de commande moteur.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 34
+    },
+    {
+      "component": "Installer l'unité de commande moteur.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 34
+    },
+    {
+      "component": "Installer le tube de guidage de jauge d'huile.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 35
+    },
+    {
+      "component": "Couple de serrage 60 Nm",
+      "value": "60",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 22 Nm",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-412-27",
+    "KM-412"
+  ],
+  "warnings": [
+    "Le capteur de cliquetis doit\nêtre en contact complet avec le bloc-cylindres sur toute sa surface de contact – veiller à une propreté maximale. S'assurer que le\ncouple de serrage est exactement comme spécifié.",
+    "27.  \nInstaller le capteur de cliquetis.\n \n\n\n\nLe capteur de cliquetis doit\nêtre en contact complet avec le bloc-cylindres sur toute sa surface de contact – veiller à une propreté maximale. S'assurer que le\ncouple de serrage est exactement comme spécifié.\n \n\n\n\n•  \nCouple de serrage 23 Nm \n \n\n\n\n\n\n•  \nFixer le connecteur du faisceau de câblage."
+  ],
+  "notes": [
+    "Fixer le moteur au support d'assemblage KM-412 .\n 2 techniciens\nrequis\n \n\n\n\n•  \nDétacher les câbles de retenue des yeux de levage du moteur.",
+    "Détacher les brides moteur/transmission.\n S'assurer qu'aucune\npièce attachée ou faisceau de câblage n'est endommagé.",
+    "Détacher le moteur du support d'assemblage KM-412 .\n 2 techniciens\nrequis\n \n\n\n\n•  \nPoser délicatement le moteur.",
+    "Fixer et sécuriser le connecteur du faisceau de câblage.\n Vérifier un bon\npositionnement et un bon contact électrique.",
+    "Fixer le moteur à la grue d'atelier.\n 2 techniciens\nrequis"
+  ],
+  "type": "procedure",
+  "id": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C"
+}

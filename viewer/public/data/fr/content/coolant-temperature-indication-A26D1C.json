@@ -1,0 +1,7 @@
+{
+  "title": "coolant-temperature-indication-A26D1C",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\r\n<DIV>\r\n<P  ><FONT STYLE=\"font-size: 12pt; \">         &nbsp;</FONT><P  ><FONT STYLE=\"font-size: 12pt;font-weight: bold; \"> Indication de la température du liquide de refroidissement   &nbsp;</FONT><P  ><FONT STYLE=\"font-size: 12pt; \"> La température du liquide de refroidissement est affichée sur l'écran à cristaux liquides (LCD) dans l'ensemble des instruments (voir Section 13.5 \"Ensemble des instruments\").  L'écran LCD est alimenté par un signal provenant de l'unité de contrôle Multec, qui reçoit un signal de température du liquide de refroidissement du capteur de température du liquide de refroidissement (voir Section 9.14.2.3  \"Capteur de température du liquide de refroidissement\") dans le boîtier de thermostat.         &nbsp;</FONT></DIV>\r\n<DIV>\r\n<P  >&nbsp;&nbsp;</DIV>\r\n<DIV>\r\n<P  ><FONT STYLE=\"font-size: 12pt; \">      &nbsp;</FONT></DIV>\r\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "type": "generic",
+  "id": "coolant-temperature-indication-A26D1C",
+  "extractedData": {}
+}

@@ -1,0 +1,104 @@
+{
+  "title": "Déposer et poser le revêtement de passage de roue avant",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Déposer et poser le revêtement de passage de roue avant",
+          "number": 1,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    },
+    {
+      "label": "Déposer, Déconnecter",
+      "steps": [
+        {
+          "text": "Roue - vis.",
+          "image": {
+            "src": "/data/assets/images/e9d4d9ec0bc8.jpg",
+            "alt": "Object Number: 2425098  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Pour le revêtement du côté droit uniquement, déposer du compartiment avant :",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "- aérosol gonfleur de pneu - libérer des agrafes",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "- boîte à fusibles - 2 vis",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "- boîte de relais - 2 vis.",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Revêtement - 6 vis.",
+          "number": 7,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/4b8970d41392.jpg"
+    },
+    {
+      "label": "Reposer, Connecter",
+      "steps": [
+        {
+          "text": "Revêtement - 6 vis.",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Pour le revêtement du côté droit uniquement, poser dans le compartiment avant :",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "- boîte de relais - 2 vis",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "- boîte à fusibles - 2 vis",
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "- aérosol gonfleur de pneu - enclencher dans les agrafes.",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Roue - vis 90 Nm.",
+          "number": 13,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/57d894c25c39.jpg"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Roue - vis 90 Nm.",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 13
+    }
+  ],
+  "type": "procedure",
+  "id": "liner-front-wheelarch-remove-and-install-AQS315"
+}

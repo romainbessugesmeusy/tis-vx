@@ -1,0 +1,603 @@
+{
+  "title": "ABC Technique",
+  "items": [
+    {
+      "term": "Corsa-C",
+      "description": "Corsa-C, agencement, description de fonction, conditions de\nmise en marche, contrôle de température, procédure de démarrage,\ncritères de sécurité, schéma de circuit de bloc",
+      "links": [
+        "javascript:TFormSubmit('AZNG1OWF1S2G1','1','AZNG1OWF1S2G1','_top')",
+        "javascript:TFormSubmit('AEFG1YWF1RUF1','1','AEFG1YWF1RUF1','_top')",
+        "javascript:TFormSubmit('AJNG132G1O5G1','1','AJNG132G1O5G1','_top')",
+        "javascript:TFormSubmit('A2GG13ZF1G3G1','1','A2GG13ZF1G3G1','_top')",
+        "javascript:TFormSubmit('ADLG1I5G1F2G1','1','ADLG1I5G1F2G1','_top')",
+        "javascript:TFormSubmit('AEJG1G6G1F5G1','1','AEJG1G6G1F5G1','_top')",
+        "javascript:TFormSubmit('AMHG1W3G175G1','1','AMHG1W3G175G1','_top')",
+        "javascript:TFormSubmit('AQIG1RXF1R4G1','1','AQIG1RXF1R4G1','_top')"
+      ]
+    },
+    {
+      "term": "Astra-G with X 20 DTL-engine",
+      "description": "Astra-G with X 20 DTL-engine, à partir de l'année modèle 1999",
+      "links": [
+        "javascript:TFormSubmit('ADJG153G1E3G1','1','ADJG153G1E3G1','_top')"
+      ]
+    },
+    {
+      "term": "Zafira",
+      "description": "Zafira, agencement, schéma de circuit de bloc",
+      "links": [
+        "javascript:TFormSubmit('ADKG1XWF165G1','1','ADKG1XWF165G1','_top')",
+        "javascript:TFormSubmit('A4JG1M2G1MWF1','1','A4JG1M2G1MWF1','_top')",
+        "javascript:TFormSubmit('ADMG133G1D1G1','1','ADMG133G1D1G1','_top')"
+      ]
+    },
+    {
+      "term": "Sintra",
+      "description": "Sintra, à partir de l'année modèle 1998",
+      "links": [
+        "javascript:TFormSubmit('ALKG1G3G1HYF1','1','ALKG1G3G1HYF1','_top')"
+      ]
+    },
+    {
+      "term": "12 V Power Pack",
+      "description": "12 V Power Pack",
+      "links": [
+        "javascript:TFormSubmit('A0FG1UWF1R0G1','1','A0FG1UWF1R0G1','_top')"
+      ]
+    },
+    {
+      "term": "13-pin socket",
+      "description": "13-pin socket, attelage de remorque"
+    },
+    {
+      "term": "Pin occupancy",
+      "description": "Occupation des broches, exemple",
+      "links": [
+        "javascript:TFormSubmit('AMLG1K1G1N1G1','1','AMLG1K1G1N1G1','_top')"
+      ]
+    },
+    {
+      "term": "ABS (Antilock Braking System)",
+      "description": "ABS (Système de freinage antiblocage)",
+      "links": [
+        "javascript:TFormSubmit('A1NG1B0G1BVF1','1','A1NG1B0G1BVF1','_top')"
+      ]
+    },
+    {
+      "term": "Examples: Agila",
+      "description": "Exemples: Agila, Frontera, année modèle 1995.5 avec unité\nhydraulique, ABS 8.0, Agila, année modèle 2003, Vectra-C, Omega-B\navec plan de fonctionnement, schéma de circuit de bloc avec et sans TC, ABS 430/\nABS 5.3/TC, ABS 430/ABS 5.3/TC schéma de circuit de bloc, ABS MK 70, ABS MK 60 ESP, ABS-M",
+      "links": [
+        "javascript:TFormSubmit('A8GG1TVF1IYF1','1','A8GG1TVF1IYF1','_top')",
+        "javascript:TFormSubmit('AAFG124G1IZF1','1','AAFG124G1IZF1','_top')",
+        "javascript:TFormSubmit('A0HG1V2G1N3G1','1','A0HG1V2G1N3G1','_top')",
+        "javascript:TFormSubmit('AFHG1T6G16XF1','1','AFHG1T6G16XF1','_top')",
+        "javascript:TFormSubmit('AKKG1Y0G1F0G1','1','AKKG1Y0G1F0G1','_top')",
+        "javascript:TFormSubmit('A9FG1D3G115G1','1','A9FG1D3G115G1','_top')",
+        "javascript:TFormSubmit('A6IG1Q5G1OXF1','1','A6IG1Q5G1OXF1','_top')",
+        "javascript:TFormSubmit('AOKG1J2G15YF1','1','AOKG1J2G15YF1','_top')",
+        "javascript:TFormSubmit('AIOG1I4G180G1','1','AIOG1I4G180G1','_top')",
+        "javascript:TFormSubmit('AWFG191G1U2G1','1','AWFG191G1U2G1','_top')",
+        "javascript:TFormSubmit('APHG1YVF11WF1','1','APHG1YVF11WF1','_top')",
+        "javascript:TFormSubmit('AFMG1K6G1LVF1','1','AFMG1K6G1LVF1','_top')",
+        "javascript:TFormSubmit('A2NG1O3G18XF1','1','A2NG1O3G18XF1','_top')",
+        "javascript:TFormSubmit('A6EG1I2G1J4G1','1','A6EG1I2G1J4G1','_top')",
+        "javascript:TFormSubmit('A2MG1XYF11YF1','1','A2MG1XYF11YF1','_top')"
+      ]
+    },
+    {
+      "term": "AC (Air Condition)",
+      "description": "AC (Climatisation), voir aussi ECC"
+    },
+    {
+      "term": "ACC (Adaptive Cruise Control)",
+      "description": "ACC (Régulateur de vitesse adaptatif)"
+    },
+    {
+      "term": "Active Head Restraint",
+      "description": "Appui-tête actif"
+    },
+    {
+      "term": "Model year 2000",
+      "description": "Année modèle 2000, exemple Astra-H, section \"Appui-tête\nactif\"",
+      "links": [
+        "javascript:TFormSubmit('AVMG1X2G1EWF1','1','AVMG1X2G1EWF1','_top')",
+        "javascript:TFormSubmit('AMGG19YF1Y2G1','1','AMGG19YF1Y2G1','_top')"
+      ]
+    },
+    {
+      "term": "Active Safety",
+      "description": "Sécurité active, exemple Astra-H",
+      "links": [
+        "javascript:TFormSubmit('A8JG1O4G1K3G1','1','A8JG1O4G1K3G1','_top')"
+      ]
+    },
+    {
+      "term": "Active Select Steering wheel gear selection in conjunction with\nMTA transmission",
+      "description": "Sélection active du rapport de vitesse au volant en conjonction avec\ntransmission MTA",
+      "links": [
+        "javascript:TFormSubmit('AXLG1PZF1P3G1','1','AXLG1PZF1P3G1','_top')"
+      ]
+    },
+    {
+      "term": "Additional Brake Light",
+      "description": "Feu stop supplémentaire, Exemple: Vectra-B",
+      "links": [
+        "javascript:TFormSubmit('AHNG1YYF1JYF1','1','AHNG1YYF1JYF1','_top')"
+      ]
+    },
+    {
+      "term": "AFL (Adaptive Forward Lighting)",
+      "description": "AFL (Éclairage avant adaptatif), exemple\nAstra-H, année modèle 2004.5",
+      "links": [
+        "javascript:TFormSubmit('APKG1P5G1FYF1','1','APKG1P5G1FYF1','_top')",
+        "javascript:TFormSubmit('AQOG1F0G1KZF1','1','AQOG1F0G1KZF1','_top')"
+      ]
+    },
+    {
+      "term": "AHL (Automatic Headlamp Levelling)",
+      "description": "AHL (Réglage automatique des phares), exemple\nAstra-H, année modèle 2004.5",
+      "links": [
+        "javascript:TFormSubmit('A7NG1BYF1S4G1','1','A7NG1BYF1S4G1','_top')",
+        "javascript:TFormSubmit('ATEG114G1LYF1','1','ATEG114G1LYF1','_top')"
+      ]
+    },
+    {
+      "term": "AHS (Auxiliary Heater System)",
+      "description": "AHS (Système de chauffage auxiliaire)",
+      "links": [
+        "javascript:TFormSubmit('AQEG1L1G1TZF1','1','AQEG1L1G1TZF1','_top')"
+      ]
+    },
+    {
+      "term": "Air Conditioning",
+      "description": "Climatisation, exemple Astra-H, année modèle 2004.5, agencement des\ncomposants Z 17 DTH, moteurs à essence, tâches et\nfonctions des composants, voir aussi ECC",
+      "links": [
+        "javascript:TFormSubmit('AHIG1Y4G1GVF1','1','AHIG1Y4G1GVF1','_top')",
+        "javascript:TFormSubmit('ACHG1WVF16WF1','1','ACHG1WVF16WF1','_top')",
+        "javascript:TFormSubmit('A5HG100G13XF1','1','A5HG100G13XF1','_top')",
+        "javascript:TFormSubmit('A7MG1E6G1M2G1','1','A7MG1E6G1M2G1','_top')"
+      ]
+    },
+    {
+      "term": "Air Quality Sensor",
+      "description": "Capteur de qualité de l'air, voir AQS"
+    },
+    {
+      "term": "Airbag",
+      "description": "Airbag, voir Airbag pleine grandeur"
+    },
+    {
+      "term": "ALC (Automatic Lighting Control)",
+      "description": "ALC (Commande d'éclairage automatique)"
+    },
+    {
+      "term": "Automatic control switching on headlight with tunnel detection\nand ambient light sensor. Switches headlights on/off\nautomatically.",
+      "description": "Commande automatique d'allumage des phares avec détection de tunnel\net capteur de lumière ambiante. Allume/éteint automatiquement les phares."
+    },
+    {
+      "term": "ALDL (Assembly Line Diagnostic Link) diagnostic tester\nconnection for TECH 2",
+      "description": "ALDL (Lien de diagnostic de ligne d'assemblage) connexion du testeur\nde diagnostic pour TECH 2, voir connexion du testeur de diagnostic"
+    },
+    {
+      "term": "All Round View",
+      "description": "Vue panoramique, exemple Tigra",
+      "links": [
+        "javascript:TFormSubmit('ANNG1O0G15VF1','1','ANNG1O0G15VF1','_top')"
+      ]
+    },
+    {
+      "term": "APP Sensor(Accelerator pedal positioning sensor) Accelerator\npedal positioning sensor. Example: Antara Z 32 SE moteur à essence",
+      "description": "Capteur APP (Capteur de position de la pédale d'accélérateur) Capteur de position de la pédale d'accélérateur. Exemple: moteur à essence Antara Z 32 SE",
+      "links": [
+        "javascript:TFormSubmit('A2EG1E4G1E1G1','1','A2EG1E4G1E1G1','_top')"
+      ]
+    },
+    {
+      "term": "AQS (Air Quality Sensor)  and",
+      "description": "AQS (Capteur de qualité de l'air)  et",
+      "links": [
+        "javascript:TFormSubmit('AVIG1H3G1T2G1','1','AVIG1H3G1T2G1','_top')",
+        "javascript:TFormSubmit('AONG194G1ZVF1','1','AONG194G1ZVF1','_top')"
+      ]
+    },
+    {
+      "term": "ARP (Anti Rollover Protection) Rollover protection. ESP\nfunction.",
+      "description": "ARP (Protection anti-renversement) Protection anti-renversement. Fonction ESP."
+    },
+    {
+      "term": "Example of Antara",
+      "description": "Exemple d'Antara",
+      "links": [
+        "javascript:TFormSubmit('AYKG1Y5G1LXF1','1','AYKG1Y5G1LXF1','_top')"
+      ]
+    },
+    {
+      "term": "ASC (Automatic Stability Control)",
+      "description": "ASC (Contrôle de stabilité automatique), voir ESP"
+    },
+    {
+      "term": "ASM (Alarm Siren Module)",
+      "description": "ASM (Module de sirène d'alarme)"
+    },
+    {
+      "term": "ASR",
+      "description": "ASR, Régulation anti-patinage, voir TC"
+    },
+    {
+      "term": "ATWS (Anti Theft Warning System)",
+      "description": "ATWS (Système d'avertissement anti-vol), voir DWA"
+    },
+    {
+      "term": "AU (Exhaust Emission Check)",
+      "description": "AU (Contrôle des émissions d'échappement), Diverses spécifications\nde mise en œuvre pour divers moteurs:"
+    },
+    {
+      "term": "AU for petrol vehicles without catalytic converter or with\nopen-loop catalytic converter",
+      "description": "AU pour véhicules essence sans catalyseur ou avec\ncatalyseur à boucle ouverte"
+    },
+    {
+      "term": "Visual inspection",
+      "description": "Inspection visuelle"
+    },
+    {
+      "term": "CO-measurement when idling",
+      "description": "Mesure de CO au ralenti"
+    },
+    {
+      "term": "CO-measurement at fast idling speed (approx. 3000 rpm)",
+      "description": "Mesure de CO à vitesse de ralenti élevée (environ 3000 tr/min)"
+    },
+    {
+      "term": "AU for petrol vehicles with catalytic converter",
+      "description": "AU pour véhicules essence avec catalyseur"
+    },
+    {
+      "term": "Visual inspection",
+      "description": "Inspection visuelle"
+    },
+    {
+      "term": "CO-measurement when idling",
+      "description": "Mesure de CO au ralenti"
+    },
+    {
+      "term": "CO-measurement at fast idling speed (approx. 3000 rpm)",
+      "description": "Mesure de CO à vitesse de ralenti élevée (environ 3000 tr/min)"
+    },
+    {
+      "term": "Oxygen measurement at fast idling speed (approx. 3000 rpm)",
+      "description": "Mesure d'oxygène à vitesse de ralenti élevée (environ 3000 tr/min)"
+    },
+    {
+      "term": "Test de circuit de régulation via procédure de base ou procédure de\nsubstitution ou procédure alternative",
+      "description": "Test de circuit de régulation via procédure de base ou procédure de\nsubstitution ou procédure alternative"
+    },
+    {
+      "term": "AU for petrol vehicles with catalytic converter and OBD",
+      "description": "AU pour véhicules essence avec catalyseur et OBD"
+    },
+    {
+      "term": "Visual inspection",
+      "description": "Inspection visuelle"
+    },
+    {
+      "term": "CO-measurement at fast idling speed (approx. 3000 rpm)",
+      "description": "Mesure de CO à vitesse de ralenti élevée (environ 3000 tr/min)"
+    },
+    {
+      "term": "Oxygen measurement at fast idling speed (approx. 3000 rpm)",
+      "description": "Mesure d'oxygène à vitesse de ralenti élevée (environ 3000 tr/min)"
+    },
+    {
+      "term": "Lecture des données OBD (bits de préparation",
+      "description": "Lecture des données OBD (bits de préparation, numéro du code\nd'erreur, statut OBD)"
+    },
+    {
+      "term": "AU for diesel vehicles",
+      "description": "AU pour véhicules diesel"
+    },
+    {
+      "term": "Visual inspection",
+      "description": "Inspection visuelle"
+    },
+    {
+      "term": "Vitesse régulée",
+      "description": "Vitesse régulée"
+    },
+    {
+      "term": "Densité de fumée",
+      "description": "Densité de fumée"
+    },
+    {
+      "term": "AUS (Systèmes audio)",
+      "description": "AUS (Systèmes audio), systèmes audio, voir Radio"
+    },
+    {
+      "term": "Chauffage auxiliaire",
+      "description": "Chauffage auxiliaire",
+      "links": [
+        "javascript:TFormSubmit('ABIG1DWF1G2G1','1','ABIG1DWF1G2G1','_top')"
+      ]
+    },
+    {
+      "term": "Corsa-C",
+      "description": "Corsa-C",
+      "links": [
+        "javascript:TFormSubmit('ARJG1J3G1PWF1','1','ARJG1J3G1PWF1','_top')"
+      ]
+    },
+    {
+      "term": "AWD (All Wheel Drive) All wheel drive. Example: Antara",
+      "description": "AWD (Traction intégrale) Traction intégrale. Exemple: Antara",
+      "links": [
+        "javascript:TFormSubmit('AQKG1VYF193G1','1','AQKG1VYF193G1','_top')"
+      ]
+    },
+    {
+      "term": "pignons de calage de l'arbre à cames réglables",
+      "description": "pignons de calage de l'arbre à cames réglables, exemple Zafira-B, fonction, Vectra-C",
+      "links": [
+        "javascript:TFormSubmit('A9MG17YF1RWF1','1','A9MG17YF1RWF1','_top')",
+        "javascript:TFormSubmit('A4LG1PWF1CYF1','1','A4LG1PWF1CYF1','_top')",
+        "javascript:TFormSubmit('AGNG1WYF1AWF1','1','AGNG1WYF1AWF1','_top')"
+      ]
+    },
+    {
+      "term": "Batterie",
+      "description": "Batterie",
+      "links": [
+        "javascript:TFormSubmit('AHLG161G12XF1','1','AHLG161G12XF1','_top')"
+      ]
+    },
+    {
+      "term": "Année modèle 2001",
+      "description": "Année modèle 2001, reconnexion de la batterie sur les véhicules avec\nnavigation",
+      "links": [
+        "javascript:TFormSubmit('AZHG180G1IXF1','1','AZHG180G1IXF1','_top')"
+      ]
+    },
+    {
+      "term": "Voir aussi mesure du courant de ralenti",
+      "description": "Voir aussi mesure du courant de ralenti, décharge de la batterie"
+    },
+    {
+      "term": "Interrupteur d'isolation de batterie",
+      "description": "Interrupteur d'isolation de batterie, exemple Movano, année modèle 2004.5",
+      "links": [
+        "javascript:TFormSubmit('A2FG13WF10VF1','1','A2FG13WF10VF1','_top')"
+      ]
+    },
+    {
+      "term": "BCM (Module de contrôle de carrosserie)",
+      "description": "BCM (Module de contrôle de carrosserie)"
+    },
+    {
+      "term": "Corsa-C  et Multitimer",
+      "description": "Corsa-C  et Multitimer",
+      "links": [
+        "javascript:TFormSubmit('ASMG1Q4G1N4G1','1','ASMG1Q4G1N4G1','_top')",
+        "javascript:TFormSubmit('ADEG1SWF1BWF1','1','ADEG1SWF1BWF1','_top')"
+      ]
+    },
+    {
+      "term": "Vectra-C",
+      "description": "Vectra-C",
+      "links": [
+        "javascript:TFormSubmit('A8OG1C2G1FWF1','1','A8OG1C2G1FWF1','_top')"
+      ]
+    },
+    {
+      "term": "Sintra",
+      "description": "Sintra, principes de base, schémas de circuit de bloc et",
+      "links": [
+        "javascript:TFormSubmit('AEIG18ZF1UVF1','1','AEIG18ZF1UVF1','_top')",
+        "javascript:TFormSubmit('A4KG116G131G1','1','A4KG116G131G1','_top')",
+        "javascript:TFormSubmit('AGOG135G1ZWF1','1','AGOG135G1ZWF1','_top')"
+      ]
+    },
+    {
+      "term": "Agencement dans le véhicule",
+      "description": "Agencement dans le véhicule, récepteur, émetteur, capteur de\nchoc",
+      "links": [
+        "javascript:TFormSubmit('AYLG14YF1NYF1','1','AYLG14YF1NYF1','_top')",
+        "javascript:TFormSubmit('ADNG1XZF140G1','1','ADNG1XZF140G1','_top')",
+        "javascript:TFormSubmit('A1GG1E2G1S0G1','1','A1GG1E2G1S0G1','_top')",
+        "javascript:TFormSubmit('A3HG1ZWF143G1','1','A3HG1ZWF143G1','_top')"
+      ]
+    },
+    {
+      "term": "BDU (Unité de distribution de carrosserie)",
+      "description": "BDU (Unité de distribution de carrosserie)",
+      "links": [
+        "javascript:TFormSubmit('A0KG1A5G1X2G1','1','A0KG1A5G1X2G1','_top')"
+      ]
+    },
+    {
+      "term": "Détection de bouclage de ceinture",
+      "description": "Détection de bouclage de ceinture, exemple: Signum",
+      "links": [
+        "javascript:TFormSubmit('A5NG126G1OYF1','1','A5NG126G1OYF1','_top')"
+      ]
+    },
+    {
+      "term": "Détection de bouclage de ceinture",
+      "description": "Détection de bouclage de ceinture, passager,",
+      "links": [
+        "javascript:TFormSubmit('ARDG1J5G1PXF1','1','ARDG1J5G1PXF1','_top')"
+      ]
+    },
+    {
+      "term": "Limiteur de force de ceinture",
+      "description": "Limiteur de force de ceinture"
+    },
+    {
+      "term": "Exemples: Corsa-B and Vectra-B",
+      "description": "Exemples: Corsa-B et Vectra-B",
+      "links": [
+        "javascript:TFormSubmit('AXDG1E0G17YF1','1','AXDG1E0G17YF1','_top')"
+      ]
+    },
+    {
+      "term": "Astra-G",
+      "description": "Astra-G",
+      "links": [
+        "javascript:TFormSubmit('AQJG1ZXF1TWF1','1','AQJG1ZXF1TWF1','_top')"
+      ]
+    },
+    {
+      "term": "Tendeur de ceinture / Boucle de ceinture",
+      "description": "Tendeur de ceinture / Boucle de ceinture, voir tendeur de ceinture mécanique ou\npyrotechnique"
+    },
+    {
+      "term": "Connexion BIC/interface pour batterie auxiliaire",
+      "description": "Connexion BIC/interface pour batterie auxiliaire, Vivaro/Movano",
+      "links": [
+        "javascript:TFormSubmit('AYNG1KXF122G1','1','AYNG1KXF122G1','_top')"
+      ]
+    },
+    {
+      "term": "BID (Affichage d'informations de l'ordinateur de bord)",
+      "description": "BID (Affichage d'informations de l'ordinateur de bord)"
+    },
+    {
+      "term": "Technologie de connexion de carrosserie Astra-G",
+      "description": "Technologie de connexion de carrosserie Astra-G",
+      "links": [
+        "javascript:TFormSubmit('A8EG121G100G1','1','A8EG121G100G1','_top')"
+      ]
+    },
+    {
+      "term": "Bus CAN",
+      "description": "Bus CAN",
+      "links": [
+        "javascript:TFormSubmit('AHHG1N0G1U4G1','1','AHHG1N0G1U4G1','_top')"
+      ]
+    },
+    {
+      "term": "Protocole CAN-bus",
+      "description": "Protocole CAN-bus, priorités de trame de données, priorités, gestion\ndes erreurs, filtrage de trame de données, Corsa-C, localisation et\ndiagnostic de pannes, Astra-H, année modèle 2004.5, schémas de circuit de\nbloc et tables de fonctions",
+      "links": [
+        "javascript:TFormSubmit('A5OG1I6G1TVF1','1','A5OG1I6G1TVF1','_top')",
+        "javascript:TFormSubmit('ACIG1IYF1H1G1','1','ACIG1IYF1H1G1','_top')",
+        "javascript:TFormSubmit('A6GG1EWF1NXF1','1','A6GG1EWF1NXF1','_top')",
+        "javascript:TFormSubmit('AKGG1GWF1BZF1','1','AKGG1GWF1BZF1','_top')",
+        "javascript:TFormSubmit('A8KG106G1Q5G1','1','A8KG106G1Q5G1','_top')",
+        "javascript:TFormSubmit('A9LG1D1G13YF1','1','A9LG1D1G13YF1','_top')",
+        "javascript:TFormSubmit('AXHG1WWF1D4G1','1','AXHG1WWF1D4G1','_top')",
+        "javascript:TFormSubmit('AQMG1JZF18WF1','1','AQMG1JZF18WF1','_top')",
+        "javascript:TFormSubmit('ANEG1OZF19YF1','1','ANEG1OZF19YF1','_top')"
+      ]
+    },
+    {
+      "term": "V-Bus: débit de transmission 500 kBit/s",
+      "description": "V-Bus: débit de transmission 500 kBit/s"
+    },
+    {
+      "term": "E-Bus: débit de transmission 47.6 kBit/s",
+      "description": "E-Bus: débit de transmission 47.6 kBit/s"
+    },
+    {
+      "term": "CANdi (Interface de diagnostic CAN)",
+      "description": "CANdi (Interface de diagnostic CAN)"
+    },
+    {
+      "term": "Adaptateur TECH 2 pour diagnostic de véhicule",
+      "description": "Adaptateur TECH 2 pour diagnostic de véhicule, à utiliser à partir de Vectra-C,\nAstra-H",
+      "links": [
+        "javascript:TFormSubmit('ATGG1P3G125G1','1','ATGG1P3G125G1','_top')"
+      ]
+    },
+    {
+      "term": "Car Pass  et",
+      "description": "Car Pass  et",
+      "links": [
+        "javascript:TFormSubmit('AWIG1A2G1LWF1','1','AWIG1A2G1LWF1','_top')",
+        "javascript:TFormSubmit('AKMG1J4G1R5G1','1','AKMG1J4G1R5G1','_top')"
+      ]
+    },
+    {
+      "term": "Le Car Pass contient des informations sur le véhicule pertinentes pour la\nsécurité et est remis au client lors de la livraison du véhicule. En\ncas de perte",
+      "description": "Le Car Pass contient des informations sur le véhicule pertinentes pour la\nsécurité et est remis au client lors de la livraison du véhicule. En\ncas de perte, veuillez contacter le \"Centre d'assistance technique\"."
+    },
+    {
+      "term": "Informations complémentaires",
+      "description": "Informations complémentaires, voir WFS avec Transpondeur."
+    },
+    {
+      "term": "Téléphone de voiture",
+      "description": "Téléphone de voiture, voir équipement radio à partir de l'année modèle 2000 et\ntéléphone"
+    },
+    {
+      "term": "Téléphone de voiture",
+      "description": "Téléphone de voiture, voir téléphone"
+    },
+    {
+      "term": "CBC (Commande de freinage en courbe)",
+      "description": "CBC (Commande de freinage en courbe)"
+    },
+    {
+      "term": "CDC (Module de commande d'embrayage) Module de commande d'embrayage. Surveille et\ncontrôle l'unité d'embrayage dans la transmission intégrale de l'Antara",
+      "description": "CDC (Module de commande d'embrayage) Module de commande d'embrayage. Surveille et\ncontrôle l'unité d'embrayage dans la transmission intégrale de l'Antara",
+      "links": [
+        "javascript:TFormSubmit('AOMG1O2G1T0G1','1','AOMG1O2G1T0G1','_top')"
+      ]
+    },
+    {
+      "term": "CDC (Changeur de disque compact)",
+      "description": "CDC (Changeur de disque compact)"
+    },
+    {
+      "term": "Commande de changeur CD SC 804",
+      "description": "Commande de changeur CD SC 804",
+      "links": [
+        "javascript:TFormSubmit('ACFG1P2G173G1','1','ACFG1P2G173G1','_top')"
+      ]
+    },
+    {
+      "term": "CDC (Contrôle continu de l'amortissement)",
+      "description": "CDC (Contrôle continu de l'amortissement), exemple Astra-H, année modèle\n2004.5, Vectra-C, Zafira-B",
+      "links": [
+        "javascript:TFormSubmit('AVFG193G1S1G1','1','AVFG193G1S1G1','_top')",
+        "javascript:TFormSubmit('A6LG15WF1A3G1','1','A6LG15WF1A3G1','_top')",
+        "javascript:TFormSubmit('AUKG1S6G103G1','1','AUKG1S6G103G1','_top')"
+      ]
+    },
+    {
+      "term": "Fonction de contrôle de vérification",
+      "description": "Fonction de contrôle de vérification, exemple: Omega-B, messages de\ndéfaut et priorité d'affichage",
+      "links": [
+        "javascript:TFormSubmit('ANJG1L3G142G1','1','ANJG1L3G142G1','_top')",
+        "javascript:TFormSubmit('A5EG173G1G4G1','1','A5EG173G1G4G1','_top')"
+      ]
+    },
+    {
+      "term": "Exemple: Vectra-C",
+      "description": "Exemple: Vectra-C",
+      "links": [
+        "javascript:TFormSubmit('AXMG1P6G1S3G1','1','AXMG1P6G1S3G1','_top')"
+      ]
+    },
+    {
+      "term": "Sièges pour enfants",
+      "description": "Sièges pour enfants"
+    },
+    {
+      "term": "En général",
+      "description": "En général, manuel du propriétaire spécifique au véhicule, respecter les\ninstructions pour le siège enfant, respecter la publication spéciale \"Détection de\nl'occupation du siège\", vidéo de formation \"Détection de l'occupation du\nsiège\" et réglementations de sécurité pour le système de retenue.",
+      "links": [
+        "javascript:TFormSubmit('APGG1C6G1S5G1','1','APGG1C6G1S5G1','_top')"
+      ]
+    },
+    {
+      "term": "Tous les sièges pour enfants et nacelles (également orientés vers\nl'arrière) peuvent être placés sur le siège arrière.",
+      "description": "Tous les sièges pour enfants et nacelles (également orientés vers\nl'arrière) peuvent être placés sur le siège arrière."
+    },
+    {
+      "term": "Dans certains véhicules",
+      "description": "Dans certains véhicules, les sièges pour enfants peuvent également être placés sur le siège passager avant (pousser le siège passager avant le plus loin possible)\n- mais jamais orientés vers l'arrière ou dans les véhicules avec un\nairbag latéral."
+    }
+  ],
+  "type": "glossary",
+  "subtype": "terms",
+  "id": "technical-abc-A26D1C",
+  "totalItems": 585
+}

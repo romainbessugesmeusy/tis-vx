@@ -1,0 +1,26 @@
+{
+  "title": "Field Remedy: 1583",
+  "subject": "Moteurs - Aperçu de la vanne EGR",
+  "complaint": "La vanne EGR n'existe plus dans certains moteurs.",
+  "cause": "Causes différentes.",
+  "remedyContent": [
+    {
+      "type": "paragraph",
+      "text": "Aperçu des moteurs avec/sans vanne EGR :"
+    },
+    {
+      "type": "text",
+      "text": "Z10XE : existant\nZ12XE : dépose à partir de MY03\nZ10/12/14XEP : existant\nZ14/16XE : existant, TSB 1897, Informations Rapides 1899\nZ16SE : TSB 1900\nZ16XEP : existant\nZ16XE1 : existant\nZ16XER : existant\nZ16LET : non existant\nZ18XE : Vectra-C : dépose à partir de MY03 (Changement en Cours)\nZ18XE : Corsa : dépose à partir de MY03 (Changement en Cours)\nZ18XE : Astra/Zafira : dépose à partir de MY04 (Changement en Cours)\nZ18XE : Meriva et Vectra-B sans EGR\nZ18XER : existant\nZ20NET : non existant\nZ22XE : existant\nZ22SE : dépose à partir de MY04 (sans Speedster, VX220) Informations Rapides 1721\nZ22YH : dépose à partir de MY06, Informations Rapides 2015\nY26/32SE : non existant\nZ28NEX : non existant\nZ32SE : non existant"
+    }
+  ],
+  "type": "tsb",
+  "id": "engines-egr-valve-overview-A26D1C",
+  "metadata": {
+    "functionalGroup": "N - Electrical Equipment",
+    "complaintGroup": "23 - Wrong Indication",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  },
+  "production": ""
+}

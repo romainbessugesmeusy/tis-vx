@@ -1,0 +1,93 @@
+{
+  "title": "Grille de radiateur, Remplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le capot avant - voir l'opération «Déposer et Reposer le Capot Avant»",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Retirer l'emblème avant de la grille de radiateur - voir l'opération «Emblème Avant, Remplacer»",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Découper grossièrement la grille de radiateur (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser l'outil approprié"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/eca36869b649.jpg",
+            "alt": "Object Number: 2422599  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Détacher la bride de la grille de radiateur du capot avant",
+          "image": {
+            "src": "/data/assets/images/eca36869b649.jpg",
+            "alt": "Object Number: 2422599  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Découper les résidus",
+          "image": {
+            "src": "/data/assets/images/eca36869b649.jpg",
+            "alt": "Object Number: 2422599  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Ajuster les bourrelets adhésifs",
+          "image": {
+            "src": "/data/assets/images/eca36869b649.jpg",
+            "alt": "Object Number: 2422599  Size: DEFAULT"
+          },
+          "number": 6
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer la nouvelle grille de radiateur sur le capot",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser un adhésif de liaison approprié"
+            }
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Reposer l'emblème avant sur la grille de radiateur - voir l'opération «Emblème Avant, Remplacer»",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Reposer le capot avant - voir l'opération «Déposer et Reposer le Capot Avant»",
+          "number": 9,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "radiator-grille-replace-A26D1C"
+}

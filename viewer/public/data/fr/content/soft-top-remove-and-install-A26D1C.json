@@ -1,0 +1,119 @@
+{
+  "title": "Capote souple, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Ouvrir les fenêtres et les portes",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer les loquets côté conducteur, puis désolidariser la capote souple des supports",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x loquet"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/67387a4bb87a.jpg",
+            "alt": "Object Number: 2419727  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Rouler la capote souple au centre du véhicule",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déposer les loquets côté passager, puis désolidariser la capote souple des supports",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x loquet"
+            }
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Déposer la capote souple, puis la placer dans un sac de protection",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Déposer les barres de renfort du véhicule",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x barre de renfort"
+            }
+          ],
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer les barres de renfort sur le véhicule",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 2x barre de renfort"
+            }
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Reposer la capote souple côté passager, puis fixer les broches de positionnement dans les supports",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer 2x loquet"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/52e420d3f28e.jpg",
+            "alt": "Object Number: 2419728  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Rouler la capote souple côté conducteur, puis fixer les broches de positionnement dans les supports",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer 2x loquet"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/52e420d3f28e.jpg",
+            "alt": "Object Number: 2419728  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Fermer les fenêtres et les portes",
+          "number": 10,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "notes": [
+    "Reposer 2x barre de renfort\n S'assurer que les flèches sur\nles barres de renfort pointent vers l'avant"
+  ],
+  "type": "procedure",
+  "id": "soft-top-remove-and-install-A26D1C"
+}

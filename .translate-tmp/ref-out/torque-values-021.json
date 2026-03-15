@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Déposer le module d'allumage.",
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 95
+    },
+    {
+      "component": "Raccorder les conduites de carburant.",
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 96
+    },
+    {
+      "component": "Raccorder les conduites de carburant.",
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 96
+    },
+    {
+      "component": "Reposer le cache arrière du moteur.",
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 97
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage (M6) 9 Nm, (M8) 22 Nm",
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 23 Nm",
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 85 Nm + 30° + 15°",
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 75 Nm",
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 8 Nm",
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 10 Nm",
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 vis, couple de serrage 14 Nm",
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer le pignon d'arbre à cames d'échappement. Note : Vérifier que les points de référence PMH sont alignés.",
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 24
+    },
+    {
+      "component": "Reposer le rail de guidage.",
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 26
+    },
+    {
+      "component": "Reposer le tendeur de chaîne de distribution d'arbre à cames.",
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 28
+    },
+    {
+      "component": "Fixer le couvercle de la culasse",
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 37
+    },
+    {
+      "component": "Fixer le couvercle de la culasse",
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 37
+    },
+    {
+      "component": "Déposer le module d'allumage.",
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 38
+    },
+    {
+      "component": "Raccorder les conduites de carburant.",
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 39
+    },
+    {
+      "component": "Raccorder les conduites de carburant.",
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 39
+    },
+    {
+      "component": "Reposer le cache moteur.",
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 40
+    },
+    {
+      "component": "Couple de serrage 85 Nm + 30° + 15°",
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 8 Nm",
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 75 Nm",
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 10 Nm",
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 vis, couple de serrage 14 Nm",
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Fixer le couvercle de la culasse",
+      "sourcePage": "valve-timing-check-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 16
+    },
+    {
+      "component": "Fixer le couvercle de la culasse",
+      "sourcePage": "valve-timing-check-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 16
+    },
+    {
+      "component": "Déposer le module d'allumage.",
+      "sourcePage": "valve-timing-check-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 17
+    },
+    {
+      "component": "Raccorder les conduites de carburant.",
+      "sourcePage": "valve-timing-check-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 18
+    },
+    {
+      "component": "Reposer le cache moteur.",
+      "sourcePage": "valve-timing-check-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 19
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "sourcePage": "valve-timing-check-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 8 Nm",
+      "sourcePage": "valve-timing-check-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 10 Nm",
+      "sourcePage": "valve-timing-check-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 vis, couple de serrage 14 Nm",
+      "sourcePage": "valve-timing-check-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer le porte-joint pivotant sur le porte-moyeu",
+      "sourcePage": "wheel-bearing-assembly-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Reposer le bras de suspension sur le porte-moyeu",
+      "sourcePage": "wheel-bearing-assembly-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 14
+    },
+    {
+      "component": "Reposer la rotule de bras inférieur sur le porte-moyeu",
+      "sourcePage": "wheel-bearing-assembly-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 15
+    },
+    {
+      "component": "Reposer l'arbre de transmission sur le moyeu de roue",
+      "sourcePage": "wheel-bearing-assembly-replace-A26D1C",
+      "value": "220",
+      "unit": "Nm",
+      "stepRef": 17
+    },
+    {
+      "component": "Reposer l'étrier de frein sur le porte-moyeu",
+      "sourcePage": "wheel-bearing-assembly-replace-A26D1C",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": 18
+    },
+    {
+      "component": "Reposer le disque de frein sur le porte-moyeu",
+      "sourcePage": "wheel-bearing-assembly-replace-A26D1C",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": 19
+    },
+    {
+      "component": "Serrer 2x vis 45 Nm",
+      "sourcePage": "wheel-bearing-assembly-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer l'écrou 220 Nm",
+      "sourcePage": "wheel-bearing-assembly-replace-A26D1C",
+      "value": "220",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer la vis 48 Nm",
+      "sourcePage": "wheel-bearing-assembly-replace-A26D1C",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer la vis 12 Nm",
+      "sourcePage": "wheel-bearing-assembly-replace-A26D1C",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer le moyeu de roue sur le porte-moyeu Note : Le roulement de roue fait partie du moyeu.",
+      "sourcePage": "wheel-bearing-front-replace-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Pour le type de moyeu de roue antérieur, installer la vis centrale, 4x rondelle, écrou 45 Nm",
+      "sourcePage": "wheel-bearing-front-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 11
+    },
+    {
+      "component": "Installer l'ensemble étrier de frein sur le porte-moyeu",
+      "sourcePage": "wheel-bearing-front-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 14
+    },
+    {
+      "component": "Installer la roue avant",
+      "sourcePage": "wheel-bearing-front-replace-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 15
+    }
+  ]
+}

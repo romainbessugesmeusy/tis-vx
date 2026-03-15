@@ -1,0 +1,30 @@
+{
+  "title": "Remplacer les boutons de commande",
+  "phases": [
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Bouton de commande (1, 2 ou 3) du bloc de commande – tirer pour dégager.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Bouton de commande (1, 2 ou 3) sur le bloc de commande – enfoncer pour fixer.",
+          "number": 2,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "control-knobs-replace-A26D1C"
+}

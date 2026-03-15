@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Tightening torque 21 Nm",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 100 Nm + 75° + 15°",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 43 Nm",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 50 Nm",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install 2x bolt (1) 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 13,
+      "sourcePage": "bearing-main-shaft-in-clutch-housing-replace-A26D1C"
+    },
+    {
+      "component": "Fit the internal gauge and calibrate it with the micrometer (1). Attach the big–end bearing caps to the connecting rods.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 1,
+      "sourcePage": "big-end-bearing-clearance-check-measure-with-micrometer-z-22-A26D1C"
+    },
+    {
+      "component": "Tightening torque 25 Nm + 50° + 50° + 10°",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "big-end-bearing-clearance-check-measure-with-micrometer-z-22-A26D1C"
+    },
+    {
+      "component": "Attach the big–end bearing caps.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 5,
+      "sourcePage": "big-end-bearing-clearance-check-measure-with-plastigage-z-22-A26D1C"
+    },
+    {
+      "component": "Attach the big–end bearing caps.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "big-end-bearing-clearance-check-measure-with-plastigage-z-22-A26D1C"
+    },
+    {
+      "component": "Tightening torque 25 Nm + 50° + 50° + 10°",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "big-end-bearing-clearance-check-measure-with-plastigage-z-22-A26D1C"
+    },
+    {
+      "component": "Wheel to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "brake-caliper-front-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Wheel to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "brake-caliper-rear-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Wheel to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "brake-caliper-rear-replace-A26D1C"
+    },
+    {
+      "component": "Wheel to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "brake-disc-front-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Wheel to vehicle – bolts 90 Nm.",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 16,
+      "sourcePage": "brake-hose-front-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Wheel to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 14,
+      "sourcePage": "brake-hose-rear-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Wheel to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "brake-pads-front-replace-A26D1C"
+    },
+    {
+      "component": "Wheels to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "brake-pads-inspect-for-wear-A26D1C"
+    },
+    {
+      "component": "Secure brake caliper to hub carrier",
+      "value": "28",
+      "unit": "Nm",
+      "stepRef": 16,
+      "sourcePage": "brake-pads-rear-replace-A26D1C"
+    },
+    {
+      "component": "Install rear road wheels",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 20,
+      "sourcePage": "brake-pads-rear-replace-A26D1C"
+    },
+    {
+      "component": "Install bolt 28 Nm Note: Clean thread and apply locking compound.",
+      "value": "28",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "brake-pads-rear-replace-A26D1C"
+    },
+    {
+      "component": "Install 8x wheel bolt, 2x security bolt 90 Nm – Use special socket located under front bonnet",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "brake-pads-rear-replace-A26D1C"
+    },
+    {
+      "component": "Install steering intermediate shaft with lower universal joint to steering gear and steering column",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 26,
+      "sourcePage": "brake-pedal-replace-A26D1C"
+    },
+    {
+      "component": "Install 3x bolt, 3x nut 35 Nm – Use 3x new nut",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "brake-pedal-replace-A26D1C"
+    },
+    {
+      "component": "Steering arm to hub carrier bolts - 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 5,
+      "sourcePage": "camber-adjust-A26D1C"
+    },
+    {
+      "component": "Bolts; swivel joint carrier to hub carrier - 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 5,
+      "sourcePage": "camber-rear-wheels-adjust-A26D1C"
+    },
+    {
+      "component": "Install the camshaft connecting flange bearing cap.",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 12,
+      "sourcePage": "camshaft-connection-flange-bearing-cap-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the camshaft connecting flange cover.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 13,
+      "sourcePage": "camshaft-connection-flange-bearing-cap-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 14,
+      "sourcePage": "camshaft-connection-flange-bearing-cap-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 14,
+      "sourcePage": "camshaft-connection-flange-bearing-cap-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the ignition module.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 15,
+      "sourcePage": "camshaft-connection-flange-bearing-cap-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Connect the fuel lines.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 16,
+      "sourcePage": "camshaft-connection-flange-bearing-cap-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Connect the fuel lines.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 16,
+      "sourcePage": "camshaft-connection-flange-bearing-cap-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the rear engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 17,
+      "sourcePage": "camshaft-connection-flange-bearing-cap-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 22 Nm",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-connection-flange-bearing-cap-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-connection-flange-bearing-cap-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-connection-flange-bearing-cap-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-connection-flange-bearing-cap-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-connection-flange-bearing-cap-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-connection-flange-bearing-cap-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the camshaft connecting flange cover.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 3,
+      "sourcePage": "camshaft-connection-flange-cover-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-connection-flange-cover-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the exhaust camshaft.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 25,
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Working in a spiral pattern from the middle towards the outside, tighten the bolts on the camshaft bearing caps (I to VI) in stages.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 30,
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Working in a spiral pattern from the middle towards the outside, tighten the bolts on the camshaft bearing caps (I to VI) in stages.",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 30,
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the camshaft connecting flange cover.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 31,
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the intake camshaft sprocket.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 32,
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the exhaust camshaft sprocket.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 33,
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the camshaft timing chain tensioner.",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 34,
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C"
+    }
+  ]
+}

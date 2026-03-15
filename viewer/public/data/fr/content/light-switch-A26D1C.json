@@ -1,0 +1,95 @@
+{
+  "title": "light-switch-A26D1C",
+  "components": [
+    {
+      "description": "Phare - Gauche",
+      "code": "E22"
+    },
+    {
+      "description": "Feu de croisement",
+      "code": "E22.1"
+    },
+    {
+      "description": "Relais - Feu de route",
+      "code": "K2"
+    },
+    {
+      "description": "Feu de route",
+      "code": "E22.2"
+    },
+    {
+      "description": "Relais - Feu de croisement",
+      "code": "K19"
+    },
+    {
+      "description": "Clignotant",
+      "code": "E22.3"
+    },
+    {
+      "description": "Relais - Feu de position",
+      "code": "K20"
+    },
+    {
+      "description": "Feu de position",
+      "code": "E22.4"
+    },
+    {
+      "description": "Unité de commutation - Lumière",
+      "code": "S2"
+    },
+    {
+      "description": "Phare - Droit",
+      "code": "E23"
+    },
+    {
+      "description": "Unité de commutation - Colonne de direction",
+      "code": "S3"
+    },
+    {
+      "description": "Feu de croisement",
+      "code": "E23.1"
+    },
+    {
+      "description": "Interrupteur - Feu de route",
+      "code": "S3.1"
+    },
+    {
+      "description": "Feu de route",
+      "code": "E23.2"
+    },
+    {
+      "description": "Interrupteur - Clignotant",
+      "code": "S3.2"
+    },
+    {
+      "description": "Clignotant",
+      "code": "E23.3"
+    },
+    {
+      "description": "Interrupteur - Appel de phare",
+      "code": "S3.3"
+    },
+    {
+      "description": "Feu de position",
+      "code": "E23.4"
+    },
+    {
+      "description": "Interrupteur - Feu de position",
+      "code": "S4"
+    },
+    {
+      "description": "Faisceau principal & Unité de commutation - Colonne de direction",
+      "code": "X17"
+    },
+    {
+      "description": "Faisceau principal & Unité de commutation - Colonne de direction",
+      "code": "X18"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "light-switch-A26D1C",
+  "diagram": {
+    "src": "/data/assets/f54803730b92.cgm",
+    "type": "cgm"
+  }
+}

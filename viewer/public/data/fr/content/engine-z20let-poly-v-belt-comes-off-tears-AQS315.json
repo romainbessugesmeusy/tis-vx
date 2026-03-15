@@ -1,0 +1,16 @@
+{
+  "title": "Field Remedy: 1725",
+  "subject": "Moteur Z20LET - Courroie Poly-V se dépose / se déchire",
+  "complaint": "Courroie Poly-V se dépose / se déchire.",
+  "cause": "Sur Speester Z20LET sans climatisation, un galet tendeur est installé à la place du compresseur de climatisation. La conception du support de galet tendeur provoque un mauvais alignement de la courroie Poly-V.",
+  "production": "Mise en place d'un support de poulie modifié (déplaçant la courroie vers l'avant de 3,6mm) à partir du numéro de VIN/Moteur suivant : BP: W0L0EBR973N007200 Moteur-no.: Z20LET31024880; Date : 19.11.2003",
+  "type": "tsb",
+  "id": "engine-z20let-poly-v-belt-comes-off-tears-AQS315",
+  "metadata": {
+    "functionalGroup": "J - Engine,N - Electrical Equipment",
+    "complaintGroup": "01 - Broken or Cracked",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  }
+}

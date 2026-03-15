@@ -1,0 +1,137 @@
+{
+  "title": "Jeu de palier de bielle, Vérifier, mesurer avec\nPlastigage) (Z 22 SE)",
+  "phases": [
+    {
+      "label": "Mesurer",
+      "steps": [
+        {
+          "text": "Déposer le carter d'huile Note: Déposer le carter d'huile – voir l'opération «Déposer et Reposer le Carter d'Huile».",
+          "image": {
+            "src": "/data/assets/images/352370a0730c.jpg",
+            "alt": "Object Number: 2417756  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer les chapeaux de palier de bielle.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Marquer la position d'installation du chapeau de palier de bielle"
+            },
+            {
+              "bullet": "•",
+              "text": "Graisser les chapeaux de palier de bielle et enduire"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/352370a0730c.jpg",
+            "alt": "Object Number: 2417756  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Placer le Plastigage en position.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Placer le Plastigage (fil de plastique malléable) sur toute la"
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Note: Le Plastigage est disponible dans le catalogue «Équipement d'Atelier Opel/Vauxhall».",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Fixer les chapeaux de palier de bielle.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 25 Nm + 50° +"
+            }
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Déposer les chapeaux de palier de bielle.",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Mesurer le jeu de palier de bielle.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Comparer la largeur du fil de plastique aplati avec le"
+            },
+            {
+              "bullet": "•",
+              "text": "Jeu de palier de bielle admissible : 0,041 à 0,043"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/17af1760bc6e.jpg",
+            "alt": "Object Number: 2417970  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Fixer les chapeaux de palier de bielle.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enduire les tourillons de palier de bielle et les"
+            },
+            {
+              "bullet": "•",
+              "text": "Utiliser de nouveaux boulons."
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 25 Nm + 50° +"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/352370a0730c.jpg",
+            "alt": "Object Number: 2417756  Size: DEFAULT"
+          },
+          "number": 8
+        }
+      ],
+      "phase": "measure",
+      "icon": "/data/assets/images/707731fa677f.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Fixer les chapeaux de palier de bielle.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Fixer les chapeaux de palier de bielle.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Couple de serrage 25 Nm + 50° + 50° + 10°",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Carter d'huile déposé\n Carter d'huile déposé\n– voir l'opération «Déposer et Reposer le Carter d'Huile».",
+    "Comparer la largeur du fil de plastique aplati avec l\néchelle de mesure.\n Lors de la lecture\nsur l'échelle, ne pas confondre millimètres et pouces.",
+    "Enduire les tourillons de palier de bielle et les coussinets de palier de bielle avec de l'huile moteur.\n Noter les\nmarquages appliqués (1)."
+  ],
+  "type": "procedure",
+  "id": "big-end-bearing-clearance-check-measure-with-plastigage-z-22-A26D1C"
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Indicateur de changement de vitesse - Speedster/VX220\nTurbo",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\n  </table>\n  \r\n  <!--/XPRINT-->\n  <tr>\r\n    <td >\n<p class=\"title\">Indicateur de changement de vitesse - Speedster/VX220\nTurbo</p>\n\n<p>Le Speedster/VX220 Turbo est équipé d'un voyant LED\nilluminé pour conseiller le conducteur lorsqu'un rapport supérieur doit être\nsélectionné pendant les périodes d'accélération.</p>\n\n<p>Le voyant s'allume au régime moteur de 6 250 tr/min, et s'éteint lorsque le régime moteur diminue\nà 6 150 tr/min.</p>\n</td>\r\n  </tr>\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\n</table>\n</div>",
+  "type": "generic",
+  "id": "gear-shift-up-indicator-speedster-vx220-turbo-AQS315",
+  "extractedData": {}
+}

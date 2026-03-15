@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 160,
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 160,
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Attach the ignition module.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 161,
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Connect the fuel lines.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 162,
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install the rear engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 165,
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Tightening torque 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Tightening torque 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C"
+    },
+    {
+      "component": "To the cylinder block base plate – tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Tightening torque (M10) 30 Nm + 75° + 75° + 15°",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Tightening torque 35 Nm",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Tightening torque 85 Nm + 30° + 15°",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Tightening torque 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Tightening torque 65 Nm",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Tightening torque 75 Nm",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Tightening torque 12 Nm",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Tightening torque 16 Nm",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Tightening torque 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C"
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Pressure line to central release – 14 Nm .",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 9,
+      "sourcePage": "pressure-line-clutch-central-release-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Use KM-194-E , 25 Nm spark plugs.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 30,
+      "sourcePage": "pressure-loss-check-z-22-se-z-20-let-A26D1C"
+    },
+    {
+      "component": "Secure 2x rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 72,
+      "sourcePage": "rear-clamshell-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install upper anchor bolt of seat belt for driver seat to B–pillar",
+      "value": "33",
+      "unit": "Nm",
+      "stepRef": 76,
+      "sourcePage": "rear-clamshell-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install upper anchor bolt of seat belt for passenger seat to B–pillar",
+      "value": "33",
+      "unit": "Nm",
+      "stepRef": 77,
+      "sourcePage": "rear-clamshell-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Position passenger seat, then install lower anchor bolt of seat belt",
+      "value": "33",
+      "unit": "Nm",
+      "stepRef": 78,
+      "sourcePage": "rear-clamshell-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install passenger seat",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 79,
+      "sourcePage": "rear-clamshell-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Tighten 8x bolt, 2x security bolt 90 Nm – Use special socket located under front bonnet",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "rear-clamshell-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install, then secure bolt 33 Nm",
+      "value": "33",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "rear-clamshell-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install, then secure 4x bolt 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "rear-clamshell-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Rear sub–frame upper screws (1 and 2)– 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 45,
+      "sourcePage": "rear-subframe-remove-and-install-z22-se-A26D1C"
+    },
+    {
+      "component": "Right bracket (4) –3 screws 85 Nm , 1 nut.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 51,
+      "sourcePage": "rear-subframe-remove-and-install-z22-se-A26D1C"
+    },
+    {
+      "component": "Screw, rear engine damping block to transmission – 86 Nm .",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": 58,
+      "sourcePage": "rear-subframe-remove-and-install-z22-se-A26D1C"
+    },
+    {
+      "component": "Screw, rear engine damping block to rear sub–frame – 49 Nm .",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 59,
+      "sourcePage": "rear-subframe-remove-and-install-z22-se-A26D1C"
+    },
+    {
+      "component": "Rear sub–frame lower screws (3 and 4)– 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "rear-subframe-remove-and-install-z22-se-A26D1C"
+    },
+    {
+      "component": "Left lower wishbone (1) – 1 screw 45 Nm and 1 nut (arrow) 49 Nm ; ensure screw of correct length, 65 mm (measured from screw base to screw head) is installed.",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "rear-subframe-remove-and-install-z22-se-A26D1C"
+    },
+    {
+      "component": "Install rear wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "rear-wheel-arch-liner-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install 4 bolts, install locking bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "rear-wheel-arch-liner-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Hinge bolts, door",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A"
+    },
+    {
+      "component": "Towing eye bracket screws",
+      "value": "25",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A"
+    },
+    {
+      "component": "Rear sub–frame screws",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A"
+    },
+    {
+      "component": "Support arm screws, roll bar",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A"
+    },
+    {
+      "component": "Engine damping block nut, left and right",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A"
+    },
+    {
+      "component": "Bracket screws, right, engine damping block",
+      "value": "85",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A"
+    },
+    {
+      "component": "Bracket screws, left, engine damping block",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A"
+    },
+    {
+      "component": "Engine damping block screw, rear to transmission",
+      "value": "86",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A"
+    },
+    {
+      "component": "Engine damping block screw, rear to rear sub–frame",
+      "value": "49",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A"
+    },
+    {
+      "component": "Shock absorber screw to rear sub–frame",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A"
+    },
+    {
+      "component": "Upper wishbone screw to rear sub–frame",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A"
+    },
+    {
+      "component": "Lower wishbone screw",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A"
+    }
+  ]
+}

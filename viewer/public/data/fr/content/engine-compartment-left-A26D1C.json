@@ -1,0 +1,39 @@
+{
+  "title": "Compartiment moteur - Gauche",
+  "components": [
+    {
+      "description": "Déposer - Commutateur de capacité minimale, liquide de refroidissement",
+      "code": "B6"
+    },
+    {
+      "description": "Déposer - Commutateur de feu de recul",
+      "code": "S31"
+    },
+    {
+      "description": "Déposer - Capteur de vitesse de roue, arrière, gauche",
+      "code": "B27"
+    },
+    {
+      "description": "Déposer - Interrupteur d'impact - Coupure de carburant",
+      "code": "S94"
+    },
+    {
+      "description": "Déposer - Faisceau principal & Faisceau d'extension, moteur",
+      "code": "X2"
+    },
+    {
+      "description": "Déposer - Faisceau principal & Faisceau d'extension, moteur",
+      "code": "X4"
+    },
+    {
+      "description": "Déposer - Faisceau principal & Faisceau d'extension, moteur",
+      "code": "X3"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "engine-compartment-left-A26D1C",
+  "diagram": {
+    "src": "/data/assets/58ba4b1393b2.cgm",
+    "type": "cgm"
+  }
+}

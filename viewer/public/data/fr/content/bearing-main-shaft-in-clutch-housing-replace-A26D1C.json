@@ -1,0 +1,171 @@
+{
+  "title": "Roulement, Arbre Principal dans Carter d'Embrayage, Remplacer",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Illustration du roulement d'arbre principal",
+          "image": {
+            "src": "/data/assets/images/fe2f143b69f6.jpg",
+            "alt": "Object Number: 2416936  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer la transmission du véhicule - voir l'opération «Transmission, Déposer et Reposer»",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Démonter la transmission - voir l'opération «Transmission, Serrer Complètement»",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déposer 2x vis (4)",
+          "image": {
+            "src": "/data/assets/images/03008d3c8997.jpg",
+            "alt": "Object Number: 2415645  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Insérer KM-6110 (2) dans la bague de roulement (3). La patte (fléchée) sur KM-6110 doit être positionnée dans le carter d'embrayage comme indiqué",
+          "image": {
+            "src": "/data/assets/images/03008d3c8997.jpg",
+            "alt": "Object Number: 2415645  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "3"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Écarter KM-6110 en serrant l'écrou (5) dans la bague de roulement; en même temps, contrer la broche (1)",
+          "image": {
+            "src": "/data/assets/images/03008d3c8997.jpg",
+            "alt": "Object Number: 2415645  Size: DEFAULT"
+          },
+          "callouts": [
+            "5",
+            "1"
+          ],
+          "number": 6
+        },
+        {
+          "text": "Contrer la broche (1) de KM-6110 (3), puis extraire la bague de roulement du carter d'embrayage en tournant l'écrou (2)",
+          "image": {
+            "src": "/data/assets/images/ce350a1bc724.jpg",
+            "alt": "Object Number: 2415646  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "3",
+            "2"
+          ],
+          "number": 7
+        },
+        {
+          "text": "Nettoyer toutes les pièces retirées et vérifier l'usure et les dommages; remplacer si nécessaire",
+          "image": {
+            "src": "/data/assets/images/ce350a1bc724.jpg",
+            "alt": "Object Number: 2415646  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Nettoyer le filetage dans le carter d'embrayage",
+          "image": {
+            "src": "/data/assets/images/de353103ba7a.jpg",
+            "alt": "Object Number: 2415647  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Insérer la bague de roulement (3) dans le carter d'embrayage et positionner avec 2x vis M6 x 35 (4)",
+          "image": {
+            "src": "/data/assets/images/de353103ba7a.jpg",
+            "alt": "Object Number: 2415647  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "4"
+          ],
+          "number": 10
+        },
+        {
+          "text": "Enfoncer la bague de roulement à fleur dans le carter d'embrayage avec KM-6111 (2) en combinaison avec KM-523-1 (1)",
+          "image": {
+            "src": "/data/assets/images/de353103ba7a.jpg",
+            "alt": "Object Number: 2415647  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ],
+          "number": 11
+        },
+        {
+          "text": "Déposer 2x vis M6 x 35",
+          "image": {
+            "src": "/data/assets/images/042658b501da.jpg",
+            "alt": "Object Number: 2415648  Size: DEFAULT"
+          },
+          "number": 12
+        },
+        {
+          "text": "Reposer 2x vis (1) 10 Nm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enduire de produit frein filet"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/042658b501da.jpg",
+            "alt": "Object Number: 2415648  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 13
+        },
+        {
+          "text": "Assembler la transmission - voir l'opération «Transmission, Serrer Complètement»",
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Installer la transmission sur le véhicule - voir l'opération «Transmission, Déposer et Reposer»",
+          "number": 15,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer 2x vis (1) 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 13
+    }
+  ],
+  "toolsRequired": [
+    "KM-6110",
+    "KM-6111",
+    "KM-523-1"
+  ],
+  "warnings": [
+    "Lors du remplacement de la bague de roulement d'arbre principal, remplacer également le roulement à rouleaux sur l'arbre principal"
+  ],
+  "type": "procedure",
+  "id": "bearing-main-shaft-in-clutch-housing-replace-A26D1C"
+}

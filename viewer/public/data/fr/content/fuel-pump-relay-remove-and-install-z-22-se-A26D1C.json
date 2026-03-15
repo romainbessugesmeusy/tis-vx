@@ -1,0 +1,101 @@
+{
+  "title": "Relais de la pompe à carburant, Déposer et Reposer (Z 22 SE)",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Ouvrir le capot.",
+          "image": {
+            "src": "/data/assets/images/1ca5ce823301.jpg",
+            "alt": "Object Number: 2412528  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Débrancher la batterie.",
+          "image": {
+            "src": "/data/assets/images/1ca5ce823301.jpg",
+            "alt": "Object Number: 2412528  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Ouvrir le capot arrière du moteur.",
+          "image": {
+            "src": "/data/assets/images/1ca5ce823301.jpg",
+            "alt": "Object Number: 2412528  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Déposer le relais de la pompe à carburant (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Le retirer du socle."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1ca5ce823301.jpg",
+            "alt": "Object Number: 2412528  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Reposer le relais de la pompe à carburant.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Vérifier que les contacts électriques sont bons."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1ca5ce823301.jpg",
+            "alt": "Object Number: 2412528  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Fermer le capot arrière du moteur.",
+          "image": {
+            "src": "/data/assets/images/1ca5ce823301.jpg",
+            "alt": "Object Number: 2412528  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Rebrancher la batterie.",
+          "image": {
+            "src": "/data/assets/images/1ca5ce823301.jpg",
+            "alt": "Object Number: 2412528  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Reprogrammer les mémoires volatiles.",
+          "image": {
+            "src": "/data/assets/images/1ca5ce823301.jpg",
+            "alt": "Object Number: 2412528  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Fermer le capot.",
+          "image": {
+            "src": "/data/assets/images/1ca5ce823301.jpg",
+            "alt": "Object Number: 2412528  Size: DEFAULT"
+          },
+          "number": 9
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "type": "procedure",
+  "id": "fuel-pump-relay-remove-and-install-z-22-se-A26D1C"
+}

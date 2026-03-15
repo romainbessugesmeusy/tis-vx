@@ -1,0 +1,452 @@
+{
+  "title": "Remplacer le Tuyau de Liquide de Refroidissement (Z 22 SE)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Ouvrir le capot.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déconnecter la batterie.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Ouvrir le cache moteur arrière (1).",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Déposer le cache moteur arrière.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "6 vis (2) et (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Élever la rampe de levage.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Déposer le cache inférieur du moteur (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 6
+        },
+        {
+          "text": "Placer un bac de récupération en dessous.",
+          "image": {
+            "src": "/data/assets/images/28966656352c.jpg",
+            "alt": "Object Number: 2412462  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Vider le liquide de refroidissement.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ouvrir le bouchon de vidange du liquide de refroidissement au radiateur et le liquide"
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 20 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/28966656352c.jpg",
+            "alt": "Object Number: 2412462  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Abaisser la rampe de levage.",
+          "image": {
+            "src": "/data/assets/images/28966656352c.jpg",
+            "alt": "Object Number: 2412462  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Détacher le bouclier thermique inférieur (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/63ad44fed025.jpg",
+            "alt": "Object Number: 2416674  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 10
+        },
+        {
+          "text": "Retirer le bouclier thermique supérieur (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 écrou"
+            },
+            {
+              "bullet": "•",
+              "text": "3 goujons"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2fa150dd01a0.jpg",
+            "alt": "Object Number: 2417942  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 11
+        },
+        {
+          "text": "Déconnecter les durites de liquide de refroidissement.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 au total – (1) et (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3dbf7a95b985.jpg",
+            "alt": "Object Number: 2429863  Size: DEFAULT"
+          },
+          "number": 12
+        },
+        {
+          "text": "Déconnecter le faisceau de câblage du capteur de température du liquide de refroidissement (2).",
+          "image": {
+            "src": "/data/assets/images/3dbf7a95b985.jpg",
+            "alt": "Object Number: 2429863  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 13
+        },
+        {
+          "text": "Déconnecter le faisceau de câblage de la sonde lambda.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3dbf7a95b985.jpg",
+            "alt": "Object Number: 2429863  Size: DEFAULT"
+          },
+          "number": 14
+        },
+        {
+          "text": "Retirer le boîtier du thermostat.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 goujon (3), 2 boulons (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Soulever vers le haut avec le tuyau de liquide de refroidissement (2)."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/5c0219bb788c.jpg",
+            "alt": "Object Number: 2417944  Size: DEFAULT"
+          },
+          "number": 15
+        },
+        {
+          "text": "Déposer le tuyau de liquide de refroidissement.",
+          "image": {
+            "src": "/data/assets/images/5c0219bb788c.jpg",
+            "alt": "Object Number: 2417944  Size: DEFAULT"
+          },
+          "number": 16
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Fixer le tuyau de liquide de refroidissement (2). Remarque : La patte sur le tuyau de liquide de refroidissement s'engage dans l'encoche du boîtier de thermostat.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enduire les joints d'huile de graisse silicone (blanche)."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f15289892ac7.jpg",
+            "alt": "Object Number: 2417931  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 17
+        },
+        {
+          "text": "Nettoyer les surfaces de joint.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Bloc-cylindres, boîtier de thermostat"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f15289892ac7.jpg",
+            "alt": "Object Number: 2417931  Size: DEFAULT"
+          },
+          "number": 18
+        },
+        {
+          "text": "Installer le boîtier de thermostat.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser un nouveau joint d'huile."
+            },
+            {
+              "bullet": "•",
+              "text": "Insérer avec le tuyau de liquide de refroidissement."
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f15289892ac7.jpg",
+            "alt": "Object Number: 2417931  Size: DEFAULT"
+          },
+          "number": 19
+        },
+        {
+          "text": "Fixer le faisceau de câblage de la sonde lambda.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 agrafe"
+            }
+          ],
+          "number": 20,
+          "image": null
+        },
+        {
+          "text": "Fixer le connecteur du faisceau de câblage du capteur de température du liquide de refroidissement.",
+          "number": 21,
+          "image": null
+        },
+        {
+          "text": "Raccorder les durites de liquide de refroidissement.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 au total"
+            }
+          ],
+          "number": 22,
+          "image": null
+        },
+        {
+          "text": "Installer le bouclier thermique supérieur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 goujons"
+            },
+            {
+              "bullet": "•",
+              "text": "1 écrou"
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 23 Nm"
+            }
+          ],
+          "number": 23,
+          "image": null
+        },
+        {
+          "text": "Fixer le bouclier thermique inférieur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 10 Nm"
+            }
+          ],
+          "number": 24,
+          "image": null
+        },
+        {
+          "text": "Remplir avec du liquide de refroidissement et corriger si nécessaire.",
+          "number": 25,
+          "image": null
+        },
+        {
+          "text": "Installer le cache moteur arrière.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Vérifier l'alignement."
+            },
+            {
+              "bullet": "•",
+              "text": "6 vis"
+            }
+          ],
+          "number": 26,
+          "image": null
+        },
+        {
+          "text": "Fermer le cache moteur arrière.",
+          "number": 27,
+          "image": null
+        },
+        {
+          "text": "Élever la rampe de levage.",
+          "number": 28,
+          "image": null
+        },
+        {
+          "text": "Fixer le cache inférieur du moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 vis"
+            }
+          ],
+          "number": 29,
+          "image": null
+        },
+        {
+          "text": "Abaisser la rampe de levage.",
+          "number": 30,
+          "image": null
+        },
+        {
+          "text": "Reconnecter la batterie.",
+          "number": 31,
+          "image": null
+        },
+        {
+          "text": "Fermer le capot.",
+          "number": 32,
+          "image": null
+        },
+        {
+          "text": "Reprogrammer les mémoires volatiles.",
+          "number": 33,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Vidanger le liquide de refroidissement.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Installer le boîtier de thermostat.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 19
+    },
+    {
+      "component": "Installer le bouclier thermique supérieur.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 23
+    },
+    {
+      "component": "Fixer le bouclier thermique inférieur.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 24
+    },
+    {
+      "component": "Couple de serrage 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Fixer le tuyau de liquide de refroidissement (2).\n La patte sur le\ntuyau de liquide de refroidissement s'engage dans l'encoche du boîtier de thermostat.\n \n\n\n\n•  \nUtiliser des joints neufs (1).\n \n\n\n\n–\nEnduire les joints d'huile de graisse silicone (blanche)."
+  ],
+  "type": "procedure",
+  "id": "coolant-pipe-replace-z-22-se-A26D1C"
+}

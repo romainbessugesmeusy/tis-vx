@@ -1,0 +1,47 @@
+{
+  "title": "Volant moteur, Vérifier",
+  "phases": [
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Inspecter",
+      "steps": [
+        {
+          "text": "Volant moteur – voir l'opération «Déposer et Reposer le Volant moteur».",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Bague dentée pour l'usure et les dommages.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Surface de friction pour l'usure et la formation de fissures thermiques.",
+          "number": 3,
+          "image": null
+        }
+      ],
+      "phase": "inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Volant moteur.",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "flywheel-check-A26D1C"
+}

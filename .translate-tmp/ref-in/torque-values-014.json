@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Lower wishbone nut",
+      "value": "49",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A"
+    },
+    {
+      "component": "Wheel bolts",
+      "value": "90",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A"
+    },
+    {
+      "component": "Hinge bolts, front bonnet",
+      "value": "20",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A"
+    },
+    {
+      "component": "Hinge bolts, engine cover",
+      "value": "14",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A"
+    },
+    {
+      "component": "Screws and nuts, front clamshell to radiator case",
+      "value": "14",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A"
+    },
+    {
+      "component": "Screws, front clamshell to windscreen frame",
+      "value": "14",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A"
+    },
+    {
+      "component": "Screws, front clamshell to sill",
+      "value": "14",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A"
+    },
+    {
+      "component": "Screws, front clamshell to A–pillar",
+      "value": "14",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A"
+    },
+    {
+      "component": "Nuts, rear header panel to roll bar",
+      "value": "10",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A"
+    },
+    {
+      "component": "Screws, soft top guides to roll bar",
+      "value": "11",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A"
+    },
+    {
+      "component": "Screws, rear clamshell to rear bulkhead",
+      "value": "14",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A"
+    },
+    {
+      "component": "Screws, rear clamshell to rear sub–frame",
+      "value": "16",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A"
+    },
+    {
+      "component": "Screws, engine cover lock to rear clamshell",
+      "value": "16",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A"
+    },
+    {
+      "component": "Screws, rear clamshell to sill",
+      "value": "9",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A"
+    },
+    {
+      "component": "Seat to Floor",
+      "value": "25",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-c-A26D1C",
+      "group": "C"
+    },
+    {
+      "component": "Fixings, hard top bracket",
+      "value": "10",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-c-A26D1C",
+      "group": "C"
+    },
+    {
+      "component": "Seat belt to seat (anchor bolt)",
+      "value": "35",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-c-A26D1C",
+      "group": "C"
+    },
+    {
+      "component": "Seat belt to roll bar (upper anchor point)",
+      "value": "35",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-c-A26D1C",
+      "group": "C"
+    },
+    {
+      "component": "Inertia reel assembly to roll bar (lower anchor bolt)",
+      "value": "35",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-c-A26D1C",
+      "group": "C"
+    },
+    {
+      "component": "Seat belt buckle to seat",
+      "value": "35",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-c-A26D1C",
+      "group": "C"
+    },
+    {
+      "component": "Door lock striker",
+      "value": "25",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-c-A26D1C",
+      "group": "C"
+    },
+    {
+      "component": "Steering wheel assembly to steering column, nut",
+      "value": "25",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-c-A26D1C",
+      "group": "C"
+    },
+    {
+      "component": "Steering tie rod lock nuts",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-A26D1C",
+      "group": "E"
+    },
+    {
+      "component": "Lower wishbone to pivot points bolts",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-A26D1C",
+      "group": "E"
+    },
+    {
+      "component": "Pivot bushes of upper wishbone bolts",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-A26D1C",
+      "group": "E"
+    },
+    {
+      "component": "Shock absorber to chassis bracket bolt and nut",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-A26D1C",
+      "group": "E"
+    },
+    {
+      "component": "Shock absorber to lower wishbone bolt",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-A26D1C",
+      "group": "E"
+    },
+    {
+      "component": "Stabiliser bar with pivot bushes to chassis clamp bolt",
+      "value": "25",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-A26D1C",
+      "group": "E"
+    },
+    {
+      "component": "Steering arm to hub carrier bolts",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-A26D1C",
+      "group": "E"
+    },
+    {
+      "component": "Tie rod to steering arm, nut",
+      "value": "30",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-A26D1C",
+      "group": "E"
+    },
+    {
+      "component": "Upper swivel joint to steering arm nut",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-A26D1C",
+      "group": "E"
+    },
+    {
+      "component": "Wheel bearing assembly bolt",
+      "value": "210",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-A26D1C",
+      "group": "E"
+    },
+    {
+      "component": "Wheel bolts",
+      "value": "90",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-A26D1C",
+      "group": "E"
+    },
+    {
+      "component": "Wheel hub assembly to hub carrier",
+      "value": "90",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-A26D1C",
+      "group": "E"
+    },
+    {
+      "component": "Brake caliper to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-A26D1C",
+      "group": "E"
+    },
+    {
+      "component": "Stabiliser bar to link rod",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-e-A26D1C",
+      "group": "E"
+    },
+    {
+      "component": "Lower wishbone to chassis, front pivot bolt",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-f-A26D1C",
+      "group": "F"
+    },
+    {
+      "component": "Shock absorber to anchor bracket on chassis bolt",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-f-A26D1C",
+      "group": "F"
+    },
+    {
+      "component": "Track control rod to rear pivot of lower wishbone bolt",
+      "value": "49",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-f-A26D1C",
+      "group": "F"
+    },
+    {
+      "component": "Upper wishbone to chassis bolts",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-f-A26D1C",
+      "group": "F"
+    },
+    {
+      "component": "Upper swivel joint carrier to hub carrier bolts",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-f-A26D1C",
+      "group": "F"
+    },
+    {
+      "component": "Wheel bolts",
+      "value": "90",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-f-A26D1C",
+      "group": "F"
+    },
+    {
+      "component": "Track control rod to hub carrier",
+      "value": "65",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-f-A26D1C",
+      "group": "F"
+    },
+    {
+      "component": "Driveshaft to wheel hub",
+      "value": "220",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-f-A26D1C",
+      "group": "F"
+    },
+    {
+      "component": "Brake caliper to hub carrier",
+      "value": "48",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-f-A26D1C",
+      "group": "F"
+    },
+    {
+      "component": "Brake disc to hub carrier",
+      "value": "12",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-f-A26D1C",
+      "group": "F"
+    },
+    {
+      "component": "Lower wishbone to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-f-A26D1C",
+      "group": "F"
+    },
+    {
+      "component": "Shock absorber to lower wishbone",
+      "value": "45",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-f-A26D1C",
+      "group": "F"
+    },
+    {
+      "component": "Wheel bolts",
+      "value": "90",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-h-A26D1C",
+      "group": "H"
+    },
+    {
+      "component": "Clutch bleeder valve",
+      "value": "9",
+      "unit": "Nm",
+      "sourcePage": "recommended-torque-values-group-k-A26D1C",
+      "group": "K"
+    }
+  ]
+}

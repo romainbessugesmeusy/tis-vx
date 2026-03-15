@@ -1,0 +1,33 @@
+{
+  "title": "Batterie / Démarreur, Essence (Mesure\nde courant)",
+  "steps": [
+    {
+      "text": "Télécharger la courbe de référence.",
+      "number": 1
+    },
+    {
+      "text": "Démarrer le moteur.",
+      "number": 2
+    },
+    {
+      "text": "Télécharger le fichier de configuration (le Tech 32 n'utilise que des fichiers de configuration, pas de courbes de référence).",
+      "number": 1
+    },
+    {
+      "text": "Démarrer le moteur.",
+      "number": 2
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/c2f4d565ef63.jpg",
+      "alt": "Numéro d'objet : 2400928  Taille : DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/9c3ca3ecf7ec.jpg",
+      "alt": "Numéro d'objet : 2419065  Taille : DEFAULT"
+    }
+  ],
+  "type": "diagnostic",
+  "id": "battery-starter-petrol-current-measurement-AQS315"
+}

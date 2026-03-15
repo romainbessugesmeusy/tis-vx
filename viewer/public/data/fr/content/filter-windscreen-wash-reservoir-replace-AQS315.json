@@ -1,0 +1,78 @@
+{
+  "title": "Filtre, Réservoir de Lave-glace, Remplacer",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Déposer le réservoir de lave-glace du support de fixation",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Détacher la pompe du réservoir de lave-glace",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer"
+            }
+          ],
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Vider l'eau du réservoir de lave-glace",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Retirer le filtre du réservoir de lave-glace",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer"
+            }
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Reposer le filtre sur le réservoir de lave-glace",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enfoncer"
+            }
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Fixer la pompe sur le réservoir de lave-glace",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enfoncer"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Fixer le réservoir de lave-glace au support de fixation",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Recharger le réservoir de lave-glace au niveau correct",
+          "number": 8,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "type": "procedure",
+  "id": "filter-windscreen-wash-reservoir-replace-AQS315"
+}

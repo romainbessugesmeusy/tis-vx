@@ -1,0 +1,50 @@
+{
+  "title": "Antenne, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Déposer le toit rigide ou souple du véhicule – voir le manuel du propriétaire.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le panneau de custode arrière du véhicule – voir l'opération «Panneau de Custode Arrière, Déposer et Reposer» dans le groupe A.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déposer l'antenne du panneau de custode arrière – écrou, rondelle.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Reposer l'antenne sur le panneau de custode arrière – rondelle, écrou.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Reposer le panneau de custode arrière sur le véhicule.",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Reposer le toit rigide ou souple sur le véhicule.",
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "antenna-remove-and-install-A26D1C"
+}

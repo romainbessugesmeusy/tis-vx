@@ -1,0 +1,160 @@
+{
+  "title": "Joint d'étanchéité d'huile de vilebrequin arrière, Remplacer (Z 22 SE)",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Déposer la transmission.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remarque :"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e817cec85c6e.jpg",
+            "alt": "Object Number: 2418047  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Détacher le volant moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Immobiliser le volant moteur via la couronne de démarreur avec KM-652 (1)."
+            },
+            {
+              "bullet": "•",
+              "text": "6 vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e817cec85c6e.jpg",
+            "alt": "Object Number: 2418047  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Déposer le joint d'huile de vilebrequin arrière (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser un outil approprié pour le dégager - ne pas endommager le"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0cf4ca044d03.jpg",
+            "alt": "Object Number: 2417793  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Reposer le joint d'huile de vilebrequin arrière.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Nettoyer les surfaces de jointoiement."
+            },
+            {
+              "bullet": "•",
+              "text": "Enduire la lèvre d'étanchéité de graisse silicone (blanche)."
+            },
+            {
+              "bullet": "•",
+              "text": "Reculer l'outil de pose KM-J-42067 (2)."
+            },
+            {
+              "bullet": "•",
+              "text": "Faire glisser le joint d'huile sur KM-J-42067"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer KM-J-42067 sur le"
+            },
+            {
+              "bullet": "•",
+              "text": "Presser le joint d'huile avec KM-J-4206"
+            },
+            {
+              "bullet": "•",
+              "text": "Détacher KM-J-42067 ."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0cf4ca044d03.jpg",
+            "alt": "Object Number: 2417793  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Fixer le volant moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retarauder le filetage dans le vilebrequin."
+            },
+            {
+              "bullet": "•",
+              "text": "Utiliser de nouvelles vis."
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 53 Nm +"
+            },
+            {
+              "bullet": "•",
+              "text": "Détacher KM-652 ."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0cf4ca044d03.jpg",
+            "alt": "Object Number: 2417793  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Reposer la transmission.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remarque :"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0cf4ca044d03.jpg",
+            "alt": "Object Number: 2417793  Size: DEFAULT"
+          },
+          "number": 6
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Fixer le volant moteur.",
+      "value": "53",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Couple de serrage 53 Nm + 25°",
+      "value": "53",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-652",
+    "KM-J-42067",
+    "KM-J-4206"
+  ],
+  "type": "procedure",
+  "id": "crankshaft-oil-seal-rear-replace-z-22-se-A26D1C"
+}

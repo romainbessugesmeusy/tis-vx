@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Desserrer l'écrou de la biellette de commande de voie au triangle inférieur - 49 Nm, rondelles.",
+      "sourcePage": "track-control-rod-remove-and-install-A26D1C",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Desserrer le bouchon de vidange de la transmission – 35 Nm .",
+      "sourcePage": "transmission-fluid-drain-and-refill-A26D1C",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 2
+    },
+    {
+      "component": "Desserrer le bouchon de niveau de la transmission – 35 Nm .",
+      "sourcePage": "transmission-fluid-level-check-and-correct-A26D1C",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Desserrer le bouchon de remplissage de la transmission – 35 Nm .",
+      "sourcePage": "transmission-fluid-level-check-and-correct-A26D1C",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer 8x vis 25 Nm",
+      "sourcePage": "transmission-housing-cover-replace-transmission-installed-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Serrer les boulons sur la transmission.",
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C",
+      "value": "60",
+      "unit": "Nm",
+      "stepRef": 21
+    },
+    {
+      "component": "Serrer les boulons sur la transmission.",
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 21
+    },
+    {
+      "component": "Reposer le capteur de cliquetis.",
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 27
+    },
+    {
+      "component": "Fixer le collecteur d'admission.",
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 28
+    },
+    {
+      "component": "Fixer le tuyau de recirculation des gaz d'échappement.",
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 29
+    },
+    {
+      "component": "Fixer le tuyau de recirculation des gaz d'échappement.",
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 29
+    },
+    {
+      "component": "Fixer le support de faisceau de câblage",
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 32
+    },
+    {
+      "component": "Reposer le calculateur moteur.",
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 34
+    },
+    {
+      "component": "Reposer le calculateur moteur.",
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 34
+    },
+    {
+      "component": "Reposer le tube de guidage de jauge d'huile.",
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 35
+    },
+    {
+      "component": "Couple de serrage 60 Nm",
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C",
+      "value": "60",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 22 Nm",
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 23 Nm",
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 8 Nm",
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 10 Nm",
+      "sourcePage": "transmission-remove-and-install-engine-removed-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Insérer l'ensemble mécanisme de changement de vitesse (2) dans la transmission",
+      "sourcePage": "transmission-seal-completely-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 74
+    },
+    {
+      "component": "Assembler le carter d'embrayage et le carter de transmission",
+      "sourcePage": "transmission-seal-completely-A26D1C",
+      "value": "28",
+      "unit": "Nm",
+      "stepRef": 81
+    },
+    {
+      "component": "Fixer 7x vis (fléchées) 28 Nm",
+      "sourcePage": "transmission-seal-completely-A26D1C",
+      "value": "28",
+      "unit": "Nm",
+      "stepRef": 83
+    },
+    {
+      "component": "Appliquer du frein filet sur 2x nouvelle vis, puis installer dans l'arbre primaire, l'arbre intermédiaire et l'arbre de transmission 100 Nm",
+      "sourcePage": "transmission-seal-completely-A26D1C",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": 87
+    },
+    {
+      "component": "Fixer le couvercle du carter de transmission au carter de transmission",
+      "sourcePage": "transmission-seal-completely-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 90
+    },
+    {
+      "component": "Installer le nouveau débrayage central (7) sur l'arbre de transmission avec KM-6059 (6) et fixer à la transmission",
+      "sourcePage": "transmission-seal-completely-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 93
+    },
+    {
+      "component": "Installer la conduite de pression (2) sur le débrayage central (7) 14 Nm",
+      "sourcePage": "transmission-seal-completely-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 97
+    },
+    {
+      "component": "Appliquer du composé d'étanchéité (vert) sur le contacteur de feu de recul (2), puis installer sur la transmission 15 Nm Note: Faire attention à l'assise et à l'état du joint torique (1)",
+      "sourcePage": "transmission-seal-completely-A26D1C",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 98
+    },
+    {
+      "component": "Reposer 5x vis 25 Nm",
+      "sourcePage": "transmission-seal-completely-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer 12x vis (fléchées) 28 Nm",
+      "sourcePage": "transmission-seal-completely-A26D1C",
+      "value": "28",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer 3x vis 10 Nm",
+      "sourcePage": "transmission-seal-completely-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Fixer le triangle supérieur au châssis",
+      "sourcePage": "upper-wishbone-front-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Fixer le triangle supérieur au bras de direction",
+      "sourcePage": "upper-wishbone-front-replace-A26D1C",
+      "value": "55",
+      "unit": "Nm",
+      "stepRef": 11
+    },
+    {
+      "component": "Installer la roue sur le véhicule",
+      "sourcePage": "upper-wishbone-front-replace-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Fixer 2x vis, 2x écrou 45 Nm",
+      "sourcePage": "upper-wishbone-front-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer l'écrou 55 Nm",
+      "sourcePage": "upper-wishbone-front-replace-A26D1C",
+      "value": "55",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer 4x vis, installer la vis de sécurité 90 Nm",
+      "sourcePage": "upper-wishbone-front-replace-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Triangle supérieur au châssis – vis, écrous 45 Nm , rondelles.",
+      "sourcePage": "upper-wishbone-rear-remove-and-install-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 3
+    },
+    {
+      "component": "Triangle supérieur au châssis - vis, écrous 45 Nm, rondelles.",
+      "sourcePage": "upper-wishbone-remove-and-install-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Reposer l'arbre à cames d'échappement.",
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 75
+    },
+    {
+      "component": "En travaillant en spirale du centre vers l'extérieur, serrer les boulons sur les chapeaux de paliers d'arbre à cames (I à VI) par étapes.",
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 80
+    },
+    {
+      "component": "En travaillant en spirale du centre vers l'extérieur, serrer les boulons sur les chapeaux de paliers d'arbre à cames (I à VI) par étapes.",
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 80
+    },
+    {
+      "component": "Fixer le couvercle de flasque de liaison d'arbre à cames.",
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 81
+    },
+    {
+      "component": "Fixer le pignon d'arbre à cames d'admission.",
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 82
+    },
+    {
+      "component": "Fixer le pignon d'arbre à cames d'échappement.",
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 83
+    },
+    {
+      "component": "Reposer le tendeur de chaîne de distribution d'arbre à cames.",
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 84
+    },
+    {
+      "component": "Reposer le rail de guidage.",
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 87
+    },
+    {
+      "component": "Fixer le couvercle de culasse",
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 94
+    },
+    {
+      "component": "Fixer le couvercle de culasse",
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 94
+    }
+  ]
+}

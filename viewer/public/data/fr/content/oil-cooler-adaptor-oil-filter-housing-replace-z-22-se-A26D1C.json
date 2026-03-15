@@ -1,0 +1,272 @@
+{
+  "title": "Adaptateur de refroidisseur d'huile, Boîtier de filtre à huile, Remplacer (Z\n22 SE)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Débrancher connecteur de faisceau (2) du pressostat d'huile (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer agrafe intégrée"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer collier de serrage (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1f0bc38be700.jpg",
+            "alt": "Object Number: 2422272  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ],
+          "number": 1
+        },
+        {
+          "text": "Déposer durite d'alimentation en huile de l'adaptateur de refroidisseur d'huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Desserrer écrou union (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0d8334abadbb.jpg",
+            "alt": "Object Number: 2422273  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Déposer couvercle supérieur (2) du boîtier de filtre à huile, en utilisant Clé à filtre à huile KM-6150 (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer, puis jeter le joint torique"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer élément de filtre à huile"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dce65b484dbf.jpg",
+            "alt": "Object Number: 2422274  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Déposer adaptateur de refroidisseur d'huile (3) du boîtier de filtre à huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer bague de fixation (1), en utilisant Outil de dépose/installation KM-6264"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer, puis jeter 2x joint d'étanchéité"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b550a953e2bf.jpg",
+            "alt": "Object Number: 2422275  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Déposer adaptateur de durite d'alimentation en huile et pressostat d'huile de l'adaptateur de refroidisseur d'huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer, puis jeter 2x rondelle d'étanchéité"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer conteneur de collecte sous le boîtier de filtre à huile"
+            }
+          ],
+          "number": 5,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer adaptateur de durite d'alimentation en huile et pressostat d'huile sur le nouvel adaptateur de refroidisseur d'huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer adaptateur de durite d'alimentation en huile avec nouvelle rondelle d'étanchéité 18 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer pressostat d'huile avec nouvelle rondelle d'étanchéité 18 Nm"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Reposer adaptateur de refroidisseur d'huile (3) avec 2x nouveau joint d'étanchéité sur le boîtier de filtre à huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer, puis fixer bague de fixation (1), en utilisant Outil de dépose/installation"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b550a953e2bf.jpg",
+            "alt": "Object Number: 2422275  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ],
+          "number": 7
+        },
+        {
+          "text": "Reposer couvercle supérieur (2) avec nouveau joint torique sur le boîtier de filtre à huile, en utilisant Clé à filtre à huile KM-6150 (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer élément de filtre à huile"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer couvercle supérieur 25 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dce65b484dbf.jpg",
+            "alt": "Object Number: 2422274  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ],
+          "number": 8
+        },
+        {
+          "text": "Reposer durite d'alimentation en huile sur l'adaptateur de refroidisseur d'huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Maintenir en place l'adaptateur de refroidisseur d'huile tout en fixant l'écrou union"
+            },
+            {
+              "bullet": "•",
+              "text": "Serrer écrou union (1) 45 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0d8334abadbb.jpg",
+            "alt": "Object Number: 2422273  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Raccorder connecteur de faisceau (2) au pressostat d'huile (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer agrafe intégrée"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer collier de serrage (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1f0bc38be700.jpg",
+            "alt": "Object Number: 2422272  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ],
+          "number": 10
+        },
+        {
+          "text": "Vérifier niveau d'huile moteur, compléter si nécessaire",
+          "number": 11,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer adaptateur de durite d'alimentation en huile et pressostat d'huile sur le nouvel adaptateur de refroidisseur d'huile",
+      "value": "18",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Reposer adaptateur de refroidisseur d'huile (3) avec 2x nouveau joint d'étanchéité sur le boîtier de filtre à huile",
+      "value": "120",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Reposer couvercle supérieur (2) avec nouveau joint torique sur le boîtier de filtre à huile, en utilisant Clé à filtre à huile KM-6150 (1)",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Reposer durite d'alimentation en huile sur l'adaptateur de refroidisseur d'huile",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Fixer adaptateur de durite d'alimentation en huile avec nouvelle rondelle d'étanchéité 18 Nm",
+      "value": "18",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer, puis fixer bague de fixation (1), en utilisant Outil de dépose/installation 120 Nm",
+      "value": "120",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Fixer couvercle supérieur 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer écrou union (1) 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-6150",
+    "KM-6264"
+  ],
+  "warnings": [
+    "Si la bague de fixation du\nadaptateur de refroidisseur d'huile devient lâche lors du retrait du couvercle supérieur, maintenir en place à l'aide de la Clé de maintien KM-6416\n.",
+    "Observer le bon côté\nd'installation des nouveaux joints d'étanchéité, côtés à crête vers le haut."
+  ],
+  "type": "procedure",
+  "id": "oil-cooler-adaptor-oil-filter-housing-replace-z-22-se-A26D1C"
+}

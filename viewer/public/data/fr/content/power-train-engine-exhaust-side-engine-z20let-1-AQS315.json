@@ -1,0 +1,15 @@
+{
+  "title": "Groupe motopropulseur - Moteur, côté échappement",
+  "components": [
+    {
+      "description": "Pompe - Liquide de refroidissement, supplémentaire",
+      "code": "M55"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "power-train-engine-exhaust-side-engine-z20let-1-AQS315",
+  "diagram": {
+    "src": "/data/assets/c8ade822c886.cgm",
+    "type": "cgm"
+  }
+}

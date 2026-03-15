@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Install the lambda probe for closed–loop mixture control.",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": 9,
+      "sourcePage": "lambda-probe-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 40 Nm",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "lambda-probe-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Wheel - bolts 90 Nm.",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 13,
+      "sourcePage": "liner-front-wheelarch-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Wheel - bolts 90 Nm.",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 5,
+      "sourcePage": "liner-rer-wheelarch-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Lower wishbone to chassis – bolts, washers, nuts 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "lower-wishbone-front-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Shock absorber (1) to lower wishbone – bolt, washer, nut 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "lower-wishbone-front-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install lower wishbone to front chassis bracket",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "lower-wishbone-rear-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install lower wishbone to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 9,
+      "sourcePage": "lower-wishbone-rear-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install lower wishbone to rear chassis bracket",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 10,
+      "sourcePage": "lower-wishbone-rear-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install shock absorber to lower wishbone",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 11,
+      "sourcePage": "lower-wishbone-rear-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install brake disc to hub carrier",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": 13,
+      "sourcePage": "lower-wishbone-rear-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install new tab washer, bolt 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "lower-wishbone-rear-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install screw 12 Nm",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "lower-wishbone-rear-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Lower wishbone to chassis - bolt 45 Nm at front pivot point, washer.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "lower-wishbone-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Track control rod to lower wishbone and chassis - nut 49 Nm, washers.",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "lower-wishbone-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Tighten the bolts on the transmission.",
+      "value": "60",
+      "unit": "Nm",
+      "stepRef": 21,
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C"
+    },
+    {
+      "component": "Tighten the bolts on the transmission.",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 21,
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C"
+    },
+    {
+      "component": "Install the knock sensor.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 27,
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C"
+    },
+    {
+      "component": "Attach the intake manifold.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 28,
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C"
+    },
+    {
+      "component": "Attach the exhaust gas recirculation pipe.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 29,
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C"
+    },
+    {
+      "component": "Attach the exhaust gas recirculation pipe.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 29,
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C"
+    },
+    {
+      "component": "Attach the wiring harness bracket",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 32,
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C"
+    },
+    {
+      "component": "Install the engine control unit.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 34,
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C"
+    },
+    {
+      "component": "Install the engine control unit.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 34,
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C"
+    },
+    {
+      "component": "Install the oil dipstick guide tube.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 35,
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C"
+    },
+    {
+      "component": "Tightening torque 60 Nm",
+      "value": "60",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C"
+    },
+    {
+      "component": "Tightening torque 22 Nm",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C"
+    },
+    {
+      "component": "Tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C"
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C"
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C"
+    },
+    {
+      "component": "Tightening torque 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C"
+    },
+    {
+      "component": "Install steering intermediate shaft with lower universal joint to steering gear and steering column",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 22,
+      "sourcePage": "mounting-bracket-brake-pedal-and-clutch-pedal-replace-A26D1C"
+    },
+    {
+      "component": "Install 3x bolt, 3x nut 35 Nm – Use 3x new nut",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "mounting-bracket-brake-pedal-and-clutch-pedal-replace-A26D1C"
+    },
+    {
+      "component": "Install adaptor for oil feed hose and oil pressure switch to new oil cooler adaptor",
+      "value": "18",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "oil-cooler-adaptor-oil-filter-housing-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install oil cooler adaptor (3) with 2x new sealing ring to oil filter housing",
+      "value": "120",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "oil-cooler-adaptor-oil-filter-housing-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install top cover (2) with new O ring to oil filter housing, using Oil filter Wrench KM-6150 (1)",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "oil-cooler-adaptor-oil-filter-housing-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install oil feed hose to oil cooler adaptor",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 9,
+      "sourcePage": "oil-cooler-adaptor-oil-filter-housing-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Secure adaptor for oil feed hose with new sealing washer 18 Nm",
+      "value": "18",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-cooler-adaptor-oil-filter-housing-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install, then secure securing ring (1), using Remover/Installer KM-6264 120 Nm",
+      "value": "120",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-cooler-adaptor-oil-filter-housing-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Secure top cover 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-cooler-adaptor-oil-filter-housing-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Secure union nut (1) 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-cooler-adaptor-oil-filter-housing-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the oil dipstick guide tube.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "oil-dipstick-guide-tube-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the rear engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 9,
+      "sourcePage": "oil-dipstick-guide-tube-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-dipstick-guide-tube-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-dipstick-guide-tube-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Oil filter cover (1) to the oil filter housing with a new gasket – 25 Nm .",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 4,
+      "sourcePage": "oil-filter-replace-A26D1C"
+    },
+    {
+      "component": "Drain the engine oil.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 10,
+      "sourcePage": "oil-pan-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Note: Observe the tightening sequence.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 15,
+      "sourcePage": "oil-pan-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the oil dipstick guide tube.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 19,
+      "sourcePage": "oil-pan-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the rear engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 21,
+      "sourcePage": "oil-pan-remove-and-install-z-22-se-A26D1C"
+    }
+  ]
+}

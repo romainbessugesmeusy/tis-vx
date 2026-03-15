@@ -1,0 +1,292 @@
+{
+  "title": "Unité de Commande Moteur, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Ouvrir le capot.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Débrancher la batterie.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Ouvrir le cache moteur arrière (1).",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Déposer le cache moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "6 vis (2) et (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Déposer la durite de la vanne de ventilation du réservoir (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Repositionner la durite sur le côté."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/254345c435b1.jpg",
+            "alt": "Object Number: 2417964  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Déposer la vis de cisaillement (4).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Marquer au centre"
+            },
+            {
+              "bullet": "•–",
+              "text": "Profondeur max. 10 mm",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Utiliser un foret de 3 mm."
+                }
+              ]
+            },
+            {
+              "bullet": "•–",
+              "text": "Jusqu'à ce que la tête de la vis soit libre.",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Utiliser un foret de 6,5 mm."
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d30b869f7f2d.jpg",
+            "alt": "Object Number: 2412527  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ],
+          "number": 6
+        },
+        {
+          "text": "Retirer la vis de retenue (2).",
+          "image": {
+            "src": "/data/assets/images/d30b869f7f2d.jpg",
+            "alt": "Object Number: 2412527  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 7
+        },
+        {
+          "text": "Retirer la pièce de pont (3).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Repositionner le câble de masse sur le côté."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d30b869f7f2d.jpg",
+            "alt": "Object Number: 2412527  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ],
+          "number": 8
+        },
+        {
+          "text": "Retirer les vis de retenue (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d30b869f7f2d.jpg",
+            "alt": "Object Number: 2412527  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 9
+        },
+        {
+          "text": "Extraire l'unité de commande moteur.",
+          "image": {
+            "src": "/data/assets/images/d30b869f7f2d.jpg",
+            "alt": "Object Number: 2412527  Size: DEFAULT"
+          },
+          "number": 10
+        },
+        {
+          "text": "Nettoyer l'unité de commande moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Nettoyer l'unité de commande moteur et les contacts de la fiche avec"
+            }
+          ],
+          "number": 11,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer l'unité de commande moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer et sécuriser le connecteur du faisceau de câblage."
+            },
+            {
+              "bullet": "•",
+              "text": "Acheminer le câble de masse."
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 10 Nm"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Raccorder la durite de la vanne de ventilation du réservoir.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Au collecteur d'admission"
+            }
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Fixer le cache moteur.",
+          "substeps": [
+            {
+              "bullet": "•–",
+              "text": "Couple de serrage 14 Nm",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Vérifier l'alignement."
+                }
+              ]
+            }
+          ],
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Refermer le cache moteur arrière.",
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Rebrancher la batterie.",
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Reprogrammer les mémoires volatiles.",
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Fermer le capot.",
+          "number": 18,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer l'unité de commande moteur.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Reposer l'unité de commande moteur.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Fixer le cache moteur.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 14
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Fixer et sécuriser le connecteur du faisceau de câblage.\n Vérifier le bon\npositionnement et le bon contact électrique."
+  ],
+  "type": "procedure",
+  "id": "engine-control-unit-remove-and-install-A26D1C"
+}

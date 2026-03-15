@@ -1,0 +1,229 @@
+{
+  "title": "Sonde Lambda, Remplacer (Z 22 SE)",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Déposer le cache inférieur du moteur (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 1
+        },
+        {
+          "text": "Ouvrir le capot.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Déconnecter la batterie.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Détacher le connecteur du faisceau de câblage de la sonde lambda pour le contrôle du mélange en boucle fermée (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Détacher du support."
+            },
+            {
+              "bullet": "•",
+              "text": "Débrancher le connecteur du faisceau de câblage."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Exposer le faisceau de câblage.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Élever la rampe de levage.",
+          "image": {
+            "src": "/data/assets/images/dca4fe37e038.jpg",
+            "alt": "Object Number: 2412525  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Retirer le couvercle du système d'échappement.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "9 boulons"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dca4fe37e038.jpg",
+            "alt": "Object Number: 2412525  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Retirer la sonde lambda pour le contrôle du mélange en boucle fermée (1).",
+          "image": {
+            "src": "/data/assets/images/dca4fe37e038.jpg",
+            "alt": "Object Number: 2412525  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 8
+        },
+        {
+          "text": "Reposer la sonde lambda pour le contrôle du mélange en boucle fermée.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Transférer les agrafes."
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 40 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dca4fe37e038.jpg",
+            "alt": "Object Number: 2412525  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Abaisser la rampe de levage.",
+          "image": {
+            "src": "/data/assets/images/dca4fe37e038.jpg",
+            "alt": "Object Number: 2412525  Size: DEFAULT"
+          },
+          "number": 10
+        },
+        {
+          "text": "Attacher le connecteur du faisceau de câblage de la sonde lambda pour le contrôle du mélange en boucle fermée.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Acheminer le faisceau de câblage."
+            },
+            {
+              "bullet": "•",
+              "text": "Connecter le connecteur du faisceau de câblage."
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer au support."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dca4fe37e038.jpg",
+            "alt": "Object Number: 2412525  Size: DEFAULT"
+          },
+          "number": 11
+        },
+        {
+          "text": "Reconnecter la batterie.",
+          "image": {
+            "src": "/data/assets/images/dca4fe37e038.jpg",
+            "alt": "Object Number: 2412525  Size: DEFAULT"
+          },
+          "number": 12
+        },
+        {
+          "text": "Fermer le capot.",
+          "image": {
+            "src": "/data/assets/images/dca4fe37e038.jpg",
+            "alt": "Object Number: 2412525  Size: DEFAULT"
+          },
+          "number": 13
+        },
+        {
+          "text": "Reprogrammer les mémoires volatiles.",
+          "image": {
+            "src": "/data/assets/images/dca4fe37e038.jpg",
+            "alt": "Object Number: 2412525  Size: DEFAULT"
+          },
+          "number": 14
+        },
+        {
+          "text": "Attacher le couvercle du système d'échappement.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "9 boulons"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dca4fe37e038.jpg",
+            "alt": "Object Number: 2412525  Size: DEFAULT"
+          },
+          "number": 15
+        },
+        {
+          "text": "Attacher le cache inférieur du moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Véhicule sur une rampe de levage à 4 colonnes"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dca4fe37e038.jpg",
+            "alt": "Object Number: 2412525  Size: DEFAULT"
+          },
+          "number": 16
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer la sonde lambda pour le contrôle du mélange en boucle fermée.",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Couple de serrage 40 Nm",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "Ne retirer la sonde lambda\nque lorsque le moteur est à température de fonctionnement."
+  ],
+  "notes": [
+    "Transférer les agrafes.\n Lors de la réutilisation de la\nsonde lambda, enduire le filetage de graisse spéciale (noire)."
+  ],
+  "type": "procedure",
+  "id": "lambda-probe-replace-z-22-se-A26D1C"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Durites de liquide de refroidissement, Illustration (Z20 LET)",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Durites de liquide de refroidissement illustrées",
+          "image": {
+            "src": "/data/assets/images/a22a191e62e9.jpg",
+            "alt": "Object Number: 2423047  Size: DEFAULT"
+          },
+          "number": 1
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "type": "procedure",
+  "id": "coolant-hoses-illustration-z20-let-AQS315"
+}

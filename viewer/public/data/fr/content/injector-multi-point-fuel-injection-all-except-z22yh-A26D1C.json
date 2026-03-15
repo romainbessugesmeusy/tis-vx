@@ -1,0 +1,33 @@
+{
+  "title": "Injecteur (Injection multipoint), tous sauf\nZ22YH",
+  "steps": [
+    {
+      "text": "Déposer le cache de référence.",
+      "number": 1
+    },
+    {
+      "text": "Démarrer le moteur et le laisser au ralenti.",
+      "number": 2
+    },
+    {
+      "text": "Déposer le fichier de configuration (le Tech 32 n'utilise que des fichiers de configuration, pas de courbes de référence).",
+      "number": 1
+    },
+    {
+      "text": "Démarrer le moteur et le laisser au ralenti.",
+      "number": 2
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/3d4616e814ba.jpg",
+      "alt": "Numéro d'objet : 2400967  Taille : PAR DÉFAUT"
+    },
+    {
+      "src": "/data/assets/images/fba500606a46.jpg",
+      "alt": "Numéro d'objet : 2419075  Taille : PAR DÉFAUT"
+    }
+  ],
+  "type": "diagnostic",
+  "id": "injector-multi-point-fuel-injection-all-except-z22yh-A26D1C"
+}

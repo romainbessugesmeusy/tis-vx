@@ -1,0 +1,57 @@
+{
+  "title": "Système de Refroidissement, Vérifier les Fuites",
+  "phases": [
+    {
+      "label": "Inspecter",
+      "steps": [
+        {
+          "text": "Vérifier que le niveau de liquide de refroidissement dans le réservoir est au repère MAX.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Ajouter du liquide si nécessaire.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Moteur à température de fonctionnement.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Vérifier les fuites du système de refroidissement – appliquer une pression d'environ 2 bar (29 psi).",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "L'ensemble du système de refroidissement doit rester étanche pendant au moins 3 minutes sous cette pression.",
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Appareil de contrôle de pression.",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    },
+    {
+      "label": "Inspecter",
+      "phase": "inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": []
+    }
+  ],
+  "type": "procedure",
+  "id": "cooling-system-check-for-leaks-A26D1C"
+}

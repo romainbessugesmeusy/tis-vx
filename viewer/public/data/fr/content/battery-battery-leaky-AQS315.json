@@ -1,0 +1,22 @@
+{
+  "title": "Field Remedy: 2133",
+  "subject": "Batterie - Fuite de batterie",
+  "complaint": "Fuite de batterie.",
+  "cause": "Fissure dans le boîtier de la batterie, etc.",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "En cas de réclamation du client, déposer les deux bornes de la batterie. Nettoyer et vérifier soigneusement la batterie autour des zones des bornes pour détecter tout dommage et toute fuite. Si une fissure ou tout autre forme de fuite est détectée, la batterie doit être remplacée. \nVérifier la zone des bornes avec du papier indicateur numéro de pièce : 93173878 / numéro de catalogue : 90 97 522 ; si de l'acide est détecté, le concessionnaire doit remplacer la batterie, si le papier indicateur ne montre pas d'acide, le concessionnaire doit simplement nettoyer et graisser les bornes."
+    }
+  ],
+  "type": "tsb",
+  "id": "battery-battery-leaky-AQS315",
+  "metadata": {
+    "functionalGroup": "N - Electrical Equipment",
+    "complaintGroup": "04 - Electrical failures,10 - Leakages",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  },
+  "production": ""
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Remplacer le Régulateur de Pression de Charge, la Soupape Solénoïde\n(Z 20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Débrancher la fiche du faisceau de câblage (4) de la soupape solénoïde du régulateur de pression de charge (3).",
+          "callouts": [
+            "4",
+            "3"
+          ],
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Détacher les 3x durites (1) de la soupape solénoïde du régulateur de pression de charge.",
+          "callouts": [
+            "1"
+          ],
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déposer les 2x vis (2) de la soupape solénoïde du régulateur de pression de charge et retirer vers le haut.",
+          "callouts": [
+            "2"
+          ],
+          "number": 3,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Fixer la soupape solénoïde du régulateur de pression de charge au turbocompresseur.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Fixer les durites sur la soupape solénoïde du régulateur de pression de charge.",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Raccorder la fiche du faisceau de câblage à la soupape solénoïde du régulateur de pression de charge.",
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "charge-pressure-regulator-solenoid-valve-replace-z-20-let-AQS315"
+}

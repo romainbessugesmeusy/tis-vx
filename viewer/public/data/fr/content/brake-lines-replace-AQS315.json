@@ -1,0 +1,59 @@
+{
+  "title": "Remplacer les conduites de frein",
+  "phases": [
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Remplir le réservoir de liquide de frein jusqu'au repère MAX et le sceller avec un bouchon aveugle.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Important :",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Noter le type de flare d'origine et le diamètre de filetage des boulons d'union existants. Les conduites de frein sont généralement fournies au mètre sans boulons d'union et flare de tuyau.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Positionner le boulon d'union sur la conduite de frein et former un flare à l'extrémité de la conduite de frein – utiliser un outil de flare adapté.",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    },
+    {
+      "label": "Ajuster",
+      "steps": [
+        {
+          "text": "Plier la nouvelle conduite de frein en utilisant la pièce à remplacer comme modèle – utiliser un cintreuse pour éviter les déformations en coupe transversale.",
+          "image": {
+            "src": "/data/assets/images/dd8914e12388.jpg",
+            "alt": "Object Number: 2373817  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Important :",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Lors du remplacement des conduites de frein, s'assurer que les conduites de frein ne sont pas routées entre les faisceaux de câblage. La distance entre les faisceaux de câblage et les conduites de frein doit être d'au moins 25 mm.",
+          "number": 7,
+          "image": null
+        }
+      ],
+      "phase": "adjust",
+      "icon": "/data/assets/images/8bcc88ed08ca.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "brake-lines-replace-AQS315"
+}

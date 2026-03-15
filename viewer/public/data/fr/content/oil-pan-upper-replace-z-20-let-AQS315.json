@@ -1,0 +1,551 @@
+{
+  "title": "Carter d'huile supérieur, Remplacer (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le cache moteur inférieur (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Élever le véhicule"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 13x vis, 13x rondelle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 1
+        },
+        {
+          "text": "Déposer le cache du tuyau d'échappement inférieur (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 12x vis, 12x rondelle, 2x agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déposer la jauge de niveau d'huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tirer pour enlever"
+            }
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Débrancher le faisceau de capteur d'oxygène du faisceau moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Libérer l'agrafe intégrée"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer, puis jeter le collier de serrage"
+            }
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Libérer le faisceau du tablier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Libérer 2x agrafe"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Libérer le faisceau du pare-chaleur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Libérer l'agrafe"
+            }
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Élever le véhicule",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Déposer le boulon de vidange (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Positionner un récipient de collecte"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer, puis jeter le joint torique"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0d1b48368755.jpg",
+            "alt": "Object Number: 2422654  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 9
+        },
+        {
+          "text": "Déposer le carter d'huile inférieur du carter d'huile supérieur Remarque : Soutenir le carter d'huile inférieur lors du retrait pour éviter d'endommager le faisceau du capteur de niveau d'huile.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 16x vis (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer 2x vis"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer, puis jeter le joint de carter d'huile"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0d1b48368755.jpg",
+            "alt": "Object Number: 2422654  Size: DEFAULT"
+          },
+          "number": 10
+        },
+        {
+          "text": "Retirer le convertisseur catalytique secondaire (1) pour l'échappement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 3x écrou avant (3), puis jeter"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer 3x écrou arrière (2), puis jeter"
+            },
+            {
+              "bullet": "•",
+              "text": "Libérer le support de montage en caoutchouc du boulon de bride"
+            },
+            {
+              "bullet": "•",
+              "text": "Libérer le support en caoutchouc"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer le joint (4) de la jonction avant, puis jeter"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f0c4b7a1574c.jpg",
+            "alt": "Object Number: 2422309  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 11
+        },
+        {
+          "text": "Installer le support moteur sur l'ensemble moteur",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Retirer le pare-chaleur du support moteur arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 2x boulon du support moteur arrière"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer le boulon du bloc-cylindres"
+            }
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Installer provisoirement 2x boulon au support moteur arrière",
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Retirer le support moteur de l'ensemble moteur",
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Débrancher le faisceau moteur du capteur de niveau d'huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Libérer l'agrafe intégrée"
+            }
+          ],
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Retirer le carter d'huile supérieur du véhicule",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 14x vis du bloc-cylindres"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer 4x vis de la transmission"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer, puis jeter le joint"
+            }
+          ],
+          "number": 17,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le carter d'huile supérieur sur le véhicule",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Nettoyer toutes les surfaces de jointure"
+            },
+            {
+              "bullet": "•",
+              "text": "Appliquer un cordon de composé adhésif sur les joints de boîtier"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer un nouveau joint"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer 14x vis à 20 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer 4x vis à 40 Nm"
+            }
+          ],
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "Raccorder le faisceau moteur au capteur de niveau d'huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe intégrée"
+            }
+          ],
+          "number": 19,
+          "image": null
+        },
+        {
+          "text": "Installer le support moteur sur l'ensemble moteur",
+          "number": 20,
+          "image": null
+        },
+        {
+          "text": "Retirer 2x boulon du support moteur arrière",
+          "number": 21,
+          "image": null
+        },
+        {
+          "text": "Installer le pare-chaleur sur le support moteur arrière",
+          "substeps": [
+            {
+              "bullet": "•–",
+              "text": "Utiliser un composé de verrouillage recommandé",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Recréer le filetage des 2x boulons"
+                }
+              ]
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer le boulon au bloc-cylindres"
+            }
+          ],
+          "number": 22,
+          "image": null
+        },
+        {
+          "text": "Retirer le support moteur de l'ensemble moteur",
+          "number": 23,
+          "image": null
+        },
+        {
+          "text": "Installer le convertisseur catalytique secondaire pour l'échappement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 3x nouveaux écrous avant"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer 3x nouveaux écrous arrière"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer le support de montage en caoutchouc au boulon de bride"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer le support en caoutchouc"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer le joint à la jonction avant"
+            }
+          ],
+          "number": 24,
+          "image": null
+        },
+        {
+          "text": "Installer le carter d'huile inférieur sur le carter d'huile supérieur Remarque : Soutenir le carter d'huile inférieur lors de l'installation pour éviter d'endommager le faisceau du capteur de niveau d'huile.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 2x boulon à 8 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer un nouveau joint de carter d'huile"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer 16x vis à 8 Nm"
+            }
+          ],
+          "number": 25,
+          "image": null
+        },
+        {
+          "text": "Installer le boulon de vidange à 10 Nm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Lubrifier le nouveau joint torique"
+            }
+          ],
+          "number": 26,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 27,
+          "image": null
+        },
+        {
+          "text": "Raccorder le faisceau de capteur d'oxygène au faisceau moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe intégrée"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer un nouveau collier de serrage"
+            }
+          ],
+          "number": 28,
+          "image": null
+        },
+        {
+          "text": "Fixer le faisceau au tablier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer 2x agrafe"
+            }
+          ],
+          "number": 29,
+          "image": null
+        },
+        {
+          "text": "Fixer le faisceau au pare-chaleur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe"
+            }
+          ],
+          "number": 30,
+          "image": null
+        },
+        {
+          "text": "Installer la jauge de niveau d'huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enfoncer pour ajuster"
+            }
+          ],
+          "number": 31,
+          "image": null
+        },
+        {
+          "text": "Remplir le moteur jusqu'au niveau d'huile correct",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Démarrer et faire tourner le moteur jusqu'à extinction du voyant d'huile"
+            },
+            {
+              "bullet": "•",
+              "text": "Vérifier le niveau d'huile, ajuster si nécessaire"
+            }
+          ],
+          "number": 32,
+          "image": null
+        },
+        {
+          "text": "Élever le véhicule",
+          "number": 33,
+          "image": null
+        },
+        {
+          "text": "Installer le cache moteur inférieur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 13x vis, 13x rondelle"
+            }
+          ],
+          "number": 34,
+          "image": null
+        },
+        {
+          "text": "Installer le cache du tuyau d'échappement inférieur (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 12x vis, 12x rondelle, 2x agrafe"
+            }
+          ],
+          "callouts": [
+            "2"
+          ],
+          "number": 35,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 36,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Installer le carter d'huile supérieur sur le véhicule",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 18
+    },
+    {
+      "component": "Installer le carter d'huile supérieur sur le véhicule",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": 18
+    },
+    {
+      "component": "Installer le pare-chaleur sur le support moteur arrière",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 22
+    },
+    {
+      "component": "Installer le carter d'huile inférieur sur le carter d'huile supérieur Remarque : Soutenir le carter d'huile inférieur lors de l'installation pour éviter d'endommager le faisceau du capteur de niveau d'huile.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 25
+    },
+    {
+      "component": "Installer le boulon de vidange à 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 26
+    },
+    {
+      "component": "Installer 14x vis à 20 Nm au bloc-cylindres",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer 4x vis à 40 Nm à la transmission",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer 2x boulon au support moteur 49 Nm – Recréer le filetage des 2x boulons – Utiliser un composé de verrouillage recommandé",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer 2x boulon à 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "Un pont élévateur à quatre colonnes doit être utilisé pour soulever le véhicule lors du retrait du cache moteur et du cache du tuyau d'échappement. Le véhicule peut être déplacé vers un pont à deux colonnes pour d'autres opérations si nécessaire."
+  ],
+  "notes": [
+    "Retirer le carter d'huile inférieur du carter d'huile supérieur\n Soutenir le carter d'huile\ninférieur lors du retrait pour éviter d'endommager le faisceau du capteur de niveau\nd'huile.\n \n\n\n\n•  \nRetirer 16x vis (2)\n \n\n\n\n\n\n•  \nLibérer le capteur de niveau d'huile du carter d'huile inférieur\n \n\n\n\n–\nRetirer 2x vis\n \n\n\n\n\n\n\n\n\n•  \nRetirer, puis jeter le joint de carter d'huile",
+    "Retirer le joint (4) de la jonction avant, puis jeter\n L'illustration\nmontre l'échappement retiré pour plus de clarté.",
+    "Installer le carter d'huile inférieur sur le carter d'huile supérieur\n Soutenir le carter d'huile\ninférieur lors de l'installation pour éviter d'endommager le faisceau du capteur de niveau\nd'huile.\n \n\n\n\n•  \nFixer le capteur de niveau d'huile au carter d'huile inférieur\n \n\n\n\n–\nInstaller 2x boulon à 8 Nm \n \n\n\n\n\n\n\n\n\n•  \nInstaller un nouveau joint de carter d'huile\n \n\n\n\n\n\n•  \nInstaller 16x vis à 8 Nm"
+  ],
+  "type": "procedure",
+  "id": "oil-pan-upper-replace-z-20-let-AQS315"
+}

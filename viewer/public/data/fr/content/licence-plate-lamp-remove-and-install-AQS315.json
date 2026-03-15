@@ -1,0 +1,40 @@
+{
+  "title": "Feu de plaque d'immatriculation, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Feu de plaque d'immatriculation du hayon arrière – vis.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Faisceau du feu de plaque d'immatriculation.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Faisceau vers le feu de plaque d'immatriculation.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Feu de plaque d'immatriculation au hayon arrière – vis.",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "licence-plate-lamp-remove-and-install-AQS315"
+}

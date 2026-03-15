@@ -1,0 +1,58 @@
+{
+  "title": "Tendeur de courroie striée, Remplacer (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer la courroie striée, - voir l'opération «Courroie striée, Remplacer».",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer les 2x vis, puis retirer le tendeur de courroie striée (1) du support principal de l'alternateur.",
+          "image": {
+            "src": "/data/assets/images/03064a38a54e.jpg",
+            "alt": "Object Number: 2421987  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 2
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Fixer le tendeur de courroie striée au support de l'alternateur. Reposer les 2x vis 35 Nm",
+          "image": {
+            "src": "/data/assets/images/03064a38a54e.jpg",
+            "alt": "Object Number: 2421987  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Reposer la courroie striée, - voir l'opération «Courroie striée, Remplacer».",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Fixer le tendeur de courroie striée au support de l'alternateur. Reposer les 2x vis 35 Nm",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 3
+    }
+  ],
+  "type": "procedure",
+  "id": "ribbed-v-belt-tensioner-replace-z-20-let-AQS315"
+}

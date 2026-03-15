@@ -1,0 +1,57 @@
+{
+  "title": "Remplacer la soupape de retenue",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer la soupape de retenue (2) du servofrein",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Débrancher la durite de vide (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Extraire la soupape de retenue"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/348d9f138cee.jpg",
+            "alt": "Object Number: 2422598  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 1
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer la soupape de retenue sur le servofrein",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enfoncer en place"
+            },
+            {
+              "bullet": "•",
+              "text": "Raccorder la durite de vide"
+            }
+          ],
+          "number": 2,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "check-valve-replace-A26D1C"
+}

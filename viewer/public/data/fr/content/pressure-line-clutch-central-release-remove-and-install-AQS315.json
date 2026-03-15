@@ -1,0 +1,111 @@
+{
+  "title": "Ligne de pression, Déposer et Reposer le Central de Libération d'Embrayage",
+  "phases": [
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Inspecter",
+      "steps": [
+        {
+          "text": "Transmission – voir l'opération « Déposer et Reposer la Transmission ».",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Ligne de pression (2) du central de libération.",
+          "callouts": [
+            "2"
+          ],
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Manchon (1) du carter (fléché) et ligne de pression de la transmission en tournant légèrement la ligne de pression vers le haut.",
+          "callouts": [
+            "1"
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Manchon de la ligne de pression – à l'aide d'un tournevis adapté, libérer soigneusement les ergots de retenue (3).",
+          "callouts": [
+            "3"
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Joint torique sur la ligne de pression, manchon (1) et ligne de pression pour dommages ; remplacer si nécessaire.",
+          "callouts": [
+            "1"
+          ],
+          "number": 5,
+          "image": null
+        }
+      ],
+      "phase": "inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Attention !",
+          "image": {
+            "src": "/data/assets/images/16d5a3acd925.jpg",
+            "alt": "Object Number: 2415470  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Remarquer le positionnement et l'état du joint torique (2). Un joint torique endommagé ou défectueux provoque des fuites.",
+          "callouts": [
+            "2"
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Ligne de pression dans le carter d'embrayage, manchon (1) dans le carter d'embrayage, en veillant à ce que l'ergot du manchon soit dans la rainure du carter d'embrayage.",
+          "callouts": [
+            "1"
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Ligne de pression au central de libération – 14 Nm.",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Transmission – voir l'opération « Déposer et Reposer la Transmission ».",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": " Purger l'hydraulique d'embrayage – voir l'opération « Purger l'Embrayage Hydraulique ».",
+          "number": 11,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Ligne de pression au central de libération – 14 Nm.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 9
+    }
+  ],
+  "type": "procedure",
+  "id": "pressure-line-clutch-central-release-remove-and-install-AQS315"
+}

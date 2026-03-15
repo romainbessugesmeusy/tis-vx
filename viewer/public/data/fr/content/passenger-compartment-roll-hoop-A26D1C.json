@@ -1,0 +1,27 @@
+{
+  "title": "Compartiment passager - Arceau de sécurité",
+  "components": [
+    {
+      "description": "Feu stop - Position centrale",
+      "code": "E24"
+    },
+    {
+      "description": "Antenne - Radio",
+      "code": "W6"
+    },
+    {
+      "description": "Faisceau principal & Arceau de sécurité",
+      "code": "X12"
+    },
+    {
+      "description": "Faisceau principal & Arceau de sécurité",
+      "code": "X40"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "passenger-compartment-roll-hoop-A26D1C",
+  "diagram": {
+    "src": "/data/assets/9f5cd4eb3e2c.cgm",
+    "type": "cgm"
+  }
+}

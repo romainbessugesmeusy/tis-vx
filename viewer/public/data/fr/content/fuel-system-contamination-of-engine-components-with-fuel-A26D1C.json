@@ -1,0 +1,26 @@
+{
+  "title": "Field Remedy: 2330",
+  "subject": "Système de carburant - Contamination des composants du moteur\navec du carburant",
+  "complaint": "La contamination des composants du moteur avec du carburant\nprovoque différents défauts.",
+  "cause": "Travailler sur le système de carburant ouvert par exemple\nle remplacement de l'élément du filtre à carburant ou des parties du système de carburant.",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "Lorsque vous travaillez sur le système de carburant ouvert, assurez-vous que le carburant qui s'échappe est\nrecueilli dans des contenants appropriés. Assurez-vous que le moteur et les\ncomposants du véhicule par exemple le démarreur ne rentrent pas en contact avec\nle carburant qui s'échappe."
+    },
+    {
+      "type": "text",
+      "text": "Remarque : Le carburant qui s'échappe doit être éliminé immédiatement et les composants\n      souillés doivent être nettoyés."
+    }
+  ],
+  "type": "tsb",
+  "id": "fuel-system-contamination-of-engine-components-with-fuel-A26D1C",
+  "metadata": {
+    "functionalGroup": "L - Fuel- and Exhaust System",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null,
+    "complaintGroup": ""
+  },
+  "production": ""
+}

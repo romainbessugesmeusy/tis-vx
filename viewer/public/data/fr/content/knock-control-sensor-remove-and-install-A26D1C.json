@@ -1,0 +1,71 @@
+{
+  "title": "Capteur de contrôle des cognements, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Démarreur – voir l'opération «Démarreur, Déposer et Reposer».",
+          "number": 1,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Connecteur du faisceau de câblage du capteur de contrôle des cognements (1).",
+          "callouts": [
+            "1"
+          ],
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Capteur de contrôle des cognements (1) du moteur – vis.",
+          "callouts": [
+            "1"
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Capteur de contrôle des cognements (1) au moteur – vis 25 Nm.",
+          "callouts": [
+            "1"
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Connecteur du faisceau de câblage au capteur de contrôle des cognements (1).",
+          "callouts": [
+            "1"
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Démarreur",
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Capteur de contrôle des cognements (1) au moteur – vis 25 Nm.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 4
+    }
+  ],
+  "type": "procedure",
+  "id": "knock-control-sensor-remove-and-install-A26D1C"
+}

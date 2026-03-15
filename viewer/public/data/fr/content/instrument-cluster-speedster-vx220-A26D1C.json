@@ -1,0 +1,7 @@
+{
+  "title": "Instrument Cluster – Speedster/VX220",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Instrument Cluster – Speedster/VX220</p>\n\n<p class=\"para-before-list\">Effectuer les changements suivants sur le tableau de bord :</p>\n\n<ul type=\"disc\">\n<li>Nouveau fond argenté</li>\n\n<li>Symboles des voyants d'avertissement alignés sur la norme ISO 7000 actuelle</li>\n\n<li>Nouvelle typographie</li>\n\n<li>Nouveau indicateur de carburant, composé d'une barre horizontale de segments LCD</li>\n\n<li>Voyant d'alarme antivol déplacé du centre de la console vers le compte-tours</li>\n</ul>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "type": "generic",
+  "id": "instrument-cluster-speedster-vx220-A26D1C",
+  "extractedData": {}
+}

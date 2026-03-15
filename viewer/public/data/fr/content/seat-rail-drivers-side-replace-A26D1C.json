@@ -1,0 +1,183 @@
+{
+  "title": "Rail de Siège (Côté Conducteur), Remplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le toit rigide ou le toit souple",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Libérer le siège conducteur du plancher du châssis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 4x vis (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9683cdf30fe4.jpg",
+            "alt": "Object Number: 2422953  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Retirer 2x rail de siège du siège",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 6x vis (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Libérer 2x écrou (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9683cdf30fe4.jpg",
+            "alt": "Object Number: 2422953  Size: DEFAULT"
+          },
+          "number": 3
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer 2x rail de siège sur le siège",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Poser 6x vis"
+            },
+            {
+              "bullet": "•",
+              "text": "Actionner la poignée du siège et déplacer les rails du siège vers l'avant et vers l'arrière"
+            },
+            {
+              "bullet": "•",
+              "text": "Libérer la poignée sur chaque cran pour assurer le verrouillage des deux rails"
+            },
+            {
+              "bullet": "•",
+              "text": "Serrer 2x écrou (3) à 15 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Serrer 6x vis (2) à 15 Nm"
+            }
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Reposer le siège sur le plancher",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Poser 4x vis"
+            },
+            {
+              "bullet": "•",
+              "text": "Actionner la poignée du siège et déplacer le siège vers l'avant et vers l'arrière, vérifier"
+            },
+            {
+              "bullet": "•",
+              "text": "Libérer la poignée sur chaque cran pour assurer le verrouillage des deux côtés"
+            }
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Positionner le siège vers l'avant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer 2x vis à 25 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Actionner la poignée du siège et déplacer le siège vers l'avant et vers l'arrière, vérifier"
+            },
+            {
+              "bullet": "•",
+              "text": "Libérer la poignée sur chaque cran pour assurer le verrouillage des deux côtés"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Positionner le siège vers l'arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer 2x vis à 25 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Actionner la poignée du siège et déplacer le siège vers l'avant et vers l'arrière, vérifier"
+            },
+            {
+              "bullet": "•",
+              "text": "Libérer la poignée sur chaque cran pour assurer le verrouillage des deux côtés"
+            }
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Reposer le toit rigide ou le toit souple",
+          "number": 8,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer 2x rail de siège sur le siège",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 4
+    },
+    {
+      "component": "Positionner le siège vers l'avant",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Positionner le siège vers l'arrière",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Serrer 2x écrou (3) à 15 Nm",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 2x vis à 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Poser 6x vis\n Ne pas serrer les 6x vis et 2x écrou.",
+    "Poser 4x vis\n Ne pas serrer les 4x vis."
+  ],
+  "type": "procedure",
+  "id": "seat-rail-drivers-side-replace-A26D1C"
+}

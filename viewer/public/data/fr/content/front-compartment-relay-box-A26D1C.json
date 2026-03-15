@@ -1,0 +1,27 @@
+{
+  "title": "Compartiment avant - Boîte à relais",
+  "components": [
+    {
+      "description": "Relais - Feux de route",
+      "code": "K2"
+    },
+    {
+      "description": "Relais - Ventilateur de radiateur",
+      "code": "K13"
+    },
+    {
+      "description": "Relais - Klaxon à trompette",
+      "code": "K12"
+    },
+    {
+      "description": "Relais - Feux de croisement",
+      "code": "K19"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "front-compartment-relay-box-A26D1C",
+  "diagram": {
+    "src": "/data/assets/9d193a4bf01d.cgm",
+    "type": "cgm"
+  }
+}

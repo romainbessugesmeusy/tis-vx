@@ -1,0 +1,79 @@
+{
+  "title": "Remplacer le tube de prise d'huile (Z20 LET)",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Déposer le carter d'huile supérieur - voir l'opération «Carter d'huile supérieur, Remplacer (Z 20 LET)»",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le tube de prise d'huile du moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x vis de la pompe à huile (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 2x vis de l'unité d'arbre d'équilibrage (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer, puis jeter le joint torique"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7e44e9fa5067.jpg",
+            "alt": "Object Number: 2422916  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Reposer le nouveau tube de prise d'huile sur le moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 2x nouvelle vis sur la pompe à huile 8"
+            },
+            {
+              "bullet": "•",
+              "text": "Reposer 2x nouvelle vis sur l'unité d'arbre d'équilibrage 8 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Reposer le nouveau joint torique"
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Reposer le carter d'huile supérieur - voir l'opération «Carter d'huile supérieur, Remplacer (Z 20 LET)»",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer le nouveau tube de prise d'huile sur le moteur",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 3
+    },
+    {
+      "component": "Reposer 2x nouvelle vis sur la pompe à huile 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "type": "procedure",
+  "id": "oil-pick-up-pipe-replace-z20-let-AQS315"
+}

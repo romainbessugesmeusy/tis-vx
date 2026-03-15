@@ -1,0 +1,106 @@
+{
+  "title": "Jeu de palier de vilebrequin, Vérifier, Mesurer avec\nmicromètre (Z 22 SE)",
+  "phases": [
+    {
+      "label": "Mesurer",
+      "steps": [
+        {
+          "text": "Fixer la plaque de base du bloc-cylindres. Remarque : Respecter la séquence de serrage.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer tous les boulons de manière lâche."
+            },
+            {
+              "bullet": "•",
+              "text": "Serrer les vis M10 – couple de serrage 20 Nm + 70° + 15°"
+            },
+            {
+              "bullet": "•",
+              "text": "Serrer les vis M8 – couple de serrage 23 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c345be03a3ad.jpg",
+            "alt": "Object Number: 2417803  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Installer le comparateur interne et le calibrer avec le micromètre (1).",
+          "image": {
+            "src": "/data/assets/images/b8f2a6b51a1c.jpg",
+            "alt": "Object Number: 2418015  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 2
+        },
+        {
+          "image": {
+            "src": "/data/assets/images/5f429c7f9adc.jpg",
+            "alt": "Object Number: 2418016  Size: DEFAULT"
+          },
+          "number": 3,
+          "text": ""
+        },
+        {
+          "text": "Déterminer le jeu de palier de vilebrequin.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Formule : Diamètre moyen du palier de vilebrequin – moyen"
+            }
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Comparaison entre les valeurs spécifiées et les valeurs réelles",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Jeu de palier de vilebrequin admissible : 0,026 - 0,070 mm"
+            }
+          ],
+          "number": 5,
+          "image": null
+        }
+      ],
+      "phase": "measure",
+      "icon": "/data/assets/images/707731fa677f.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Fixer la plaque de base du bloc-cylindres. Remarque : Respecter la séquence de serrage.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 1
+    },
+    {
+      "component": "Fixer la plaque de base du bloc-cylindres. Remarque : Respecter la séquence de serrage.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 1
+    },
+    {
+      "component": "Serrer les vis M10 – couple de serrage 20 Nm + 70° + 15°",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer les vis M8 – couple de serrage 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Fixer la plaque de base du bloc-cylindres.\n Respecter la\nséquence de serrage.\n \n\n\n\n•  \nSerrer tous les boulons de manière lâche.\n \n\n\n\n\n\n•  \nSerrer les vis M10 – couple de serrage 20 Nm + 70° + 15° \n \n\n\n\n\n\n•  \nSerrer les vis M8 – couple de serrage 23 Nm"
+  ],
+  "type": "procedure",
+  "id": "crankshaft-bearing-clearance-check-measure-with-micrometer-z-A26D1C"
+}

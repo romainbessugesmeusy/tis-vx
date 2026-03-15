@@ -1,0 +1,7 @@
+{
+  "title": "Restrictions",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Restrictions</p>\n\n<p class=\"para-before-list\">Pour les systèmes et faisceaux de câblage suivants, il n'est pas permis de réparer :</p>\n\n<ul type=\"disc\">\n<li>Lignes blindées/câbles coaxiaux pour système de freinage antiblocage/système de contrôle de stabilité, radio, téléphone, moteur, système d'alarme antivol, par exemple. Une exception à cette règle sont les fils CAN-bus, ils peuvent être réparés comme indiqué au chapitre Étape D6 - Effectuer la réparation</li>\n\n<li>Système d'airbag et de prétensionneur de ceinture de sécurité pyrotechnique</li>\n\n<li>Système de commande électronique de la vanne des gaz</li>\n\n<li>Système de direction assistée</li>\n\n<li>Réglage électrique des sièges</li>\n\n<li>Câbles sous tension élevée (par ex. système d'allumage, lampe au xénon)</li>\n</ul>\n\n<p><span class=\"gt-notice\">Remarque:&nbsp;&nbsp;</span> Dans des cas particuliers, dans le cadre de remèdes sur le terrain, des dérogations à ces règles peuvent être apportées.</p>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "type": "generic",
+  "id": "restrictions-AQS315",
+  "extractedData": {}
+}

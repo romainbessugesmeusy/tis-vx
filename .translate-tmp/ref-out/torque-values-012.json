@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Serrer au couple de 8 Nm",
+      "sourcePage": "Déposer et reposer la pompe à huile Z-22-SE-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 vis, serrer au couple de 14 Nm",
+      "sourcePage": "Déposer et reposer la pompe à huile Z-22-SE-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Déposer l'huile moteur.",
+      "sourcePage": "Remplacer la buse de pulvérisation d'huile et la chaîne de distribution Z-22-SE-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Reposer la buse de pulvérisation d'huile.",
+      "sourcePage": "Remplacer la buse de pulvérisation d'huile et la chaîne de distribution Z-22-SE-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 24
+    },
+    {
+      "component": "Reposer le carter de distribution. Nota : Retirer le chiffon de l'ouverture dans le carter de distribution.",
+      "sourcePage": "Remplacer la buse de pulvérisation d'huile et la chaîne de distribution Z-22-SE-A26D1C",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": 25
+    },
+    {
+      "component": "Fixer le bloc d'amortissement du moteur droit.",
+      "sourcePage": "Remplacer la buse de pulvérisation d'huile et la chaîne de distribution Z-22-SE-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 28
+    },
+    {
+      "component": "Fixer le support du bloc d'amortissement du moteur droit.",
+      "sourcePage": "Remplacer la buse de pulvérisation d'huile et la chaîne de distribution Z-22-SE-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 29
+    },
+    {
+      "component": "Fixer le bloc d'amortissement du moteur arrière.",
+      "sourcePage": "Remplacer la buse de pulvérisation d'huile et la chaîne de distribution Z-22-SE-A26D1C",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": 30
+    },
+    {
+      "component": "Fixer le support des câbles de changement de vitesse.",
+      "sourcePage": "Remplacer la buse de pulvérisation d'huile et la chaîne de distribution Z-22-SE-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 32
+    },
+    {
+      "component": "Fixer le damper de vibrations rotatif (2).",
+      "sourcePage": "Remplacer la buse de pulvérisation d'huile et la chaîne de distribution Z-22-SE-A26D1C",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": 33
+    },
+    {
+      "component": "Fixer la poulie tendeuse de courroie striée. Nota : La patte (1) de la poulie tendeuse de courroie striée s'engage dans le trou du carter de distribution (2).",
+      "sourcePage": "Remplacer la buse de pulvérisation d'huile et la chaîne de distribution Z-22-SE-A26D1C",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": 34
+    },
+    {
+      "component": "Reposer le tuyau d'échappement avant.",
+      "sourcePage": "Remplacer la buse de pulvérisation d'huile et la chaîne de distribution Z-22-SE-A26D1C",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": 36
+    },
+    {
+      "component": "Reposer le bouclier thermique inférieur.",
+      "sourcePage": "Remplacer la buse de pulvérisation d'huile et la chaîne de distribution Z-22-SE-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 39
+    },
+    {
+      "component": "Reposer le cache-moteur.",
+      "sourcePage": "Remplacer la buse de pulvérisation d'huile et la chaîne de distribution Z-22-SE-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 41
+    },
+    {
+      "component": "Serrer au couple de 25 Nm",
+      "sourcePage": "Remplacer la buse de pulvérisation d'huile et la chaîne de distribution Z-22-SE-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer au couple de 10 Nm",
+      "sourcePage": "Remplacer la buse de pulvérisation d'huile et la chaîne de distribution Z-22-SE-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer au couple de 21 Nm",
+      "sourcePage": "Remplacer la buse de pulvérisation d'huile et la chaîne de distribution Z-22-SE-A26D1C",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer au couple de 45 Nm",
+      "sourcePage": "Remplacer la buse de pulvérisation d'huile et la chaîne de distribution Z-22-SE-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer au couple de 85 Nm",
+      "sourcePage": "Remplacer la buse de pulvérisation d'huile et la chaîne de distribution Z-22-SE-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer au couple de 86 Nm",
+      "sourcePage": "Remplacer la buse de pulvérisation d'huile et la chaîne de distribution Z-22-SE-A26D1C",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer au couple de 22 Nm",
+      "sourcePage": "Remplacer la buse de pulvérisation d'huile et la chaîne de distribution Z-22-SE-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer au couple de 100 Nm + 75° + 15°",
+      "sourcePage": "Remplacer la buse de pulvérisation d'huile et la chaîne de distribution Z-22-SE-A26D1C",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer au couple de 43 Nm",
+      "sourcePage": "Remplacer la buse de pulvérisation d'huile et la chaîne de distribution Z-22-SE-A26D1C",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer au couple de 16 Nm",
+      "sourcePage": "Remplacer la buse de pulvérisation d'huile et la chaîne de distribution Z-22-SE-A26D1C",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer au couple de 8 Nm",
+      "sourcePage": "Remplacer la buse de pulvérisation d'huile et la chaîne de distribution Z-22-SE-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 vis, serrer au couple de 14 Nm",
+      "sourcePage": "Remplacer la buse de pulvérisation d'huile et la chaîne de distribution Z-22-SE-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Vider le liquide de refroidissement.",
+      "sourcePage": "Déposer et reposer les pistons et les bielles A26D1C",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 21
+    },
+    {
+      "component": "Déposer l'huile moteur.",
+      "sourcePage": "Déposer et reposer les pistons et les bielles A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 23
+    },
+    {
+      "component": "Enduire les tourillons de bielle avec de l'huile moteur.",
+      "sourcePage": "Déposer et reposer les pistons et les bielles A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 86
+    },
+    {
+      "component": "Enduire les tourillons de bielle avec de l'huile moteur.",
+      "sourcePage": "Déposer et reposer les pistons et les bielles A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 98
+    },
+    {
+      "component": "Serrer toutes les vis de manière lâche. Nota : Respecter la séquence de serrage.",
+      "sourcePage": "Déposer et reposer les pistons et les bielles A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 102
+    },
+    {
+      "component": "Fixer la culasse.",
+      "sourcePage": "Déposer et reposer les pistons et les bielles A26D1C",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 110
+    },
+    {
+      "component": "Fixer la culasse.",
+      "sourcePage": "Déposer et reposer les pistons et les bielles A26D1C",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 110
+    },
+    {
+      "component": "Serrer les pignons d'arbre à cames.",
+      "sourcePage": "Déposer et reposer les pistons et les bielles A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 117
+    },
+    {
+      "component": "Installer le rail de guidage.",
+      "sourcePage": "Déposer et reposer les pistons et les bielles A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 119
+    },
+    {
+      "component": "Fixer le rail de guidage de la chaîne de distribution d'arbre à cames.",
+      "sourcePage": "Déposer et reposer les pistons et les bielles A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 121
+    },
+    {
+      "component": "Fixer le rail de guidage de la chaîne de distribution d'arbre à cames.",
+      "sourcePage": "Déposer et reposer les pistons et les bielles A26D1C",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": 121
+    },
+    {
+      "component": "Installer le tendeur de chaîne de distribution d'arbre à cames.",
+      "sourcePage": "Déposer et reposer les pistons et les bielles A26D1C",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 123
+    },
+    {
+      "component": "Fixer le collecteur d'admission.",
+      "sourcePage": "Déposer et reposer les pistons et les bielles A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 131
+    },
+    {
+      "component": "Fixer le tuyau de recirculation des gaz d'échappement.",
+      "sourcePage": "Déposer et reposer les pistons et les bielles A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 133
+    },
+    {
+      "component": "Fixer le tuyau de recirculation des gaz d'échappement.",
+      "sourcePage": "Déposer et reposer les pistons et les bielles A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 133
+    },
+    {
+      "component": "Installer le calculateur moteur.",
+      "sourcePage": "Déposer et reposer les pistons et les bielles A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 141
+    },
+    {
+      "component": "Installer le calculateur moteur.",
+      "sourcePage": "Déposer et reposer les pistons et les bielles A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 141
+    },
+    {
+      "component": "Fixer le guide de tube de jauge d'huile.",
+      "sourcePage": "Déposer et reposer les pistons et les bielles A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 144
+    },
+    {
+      "component": "Fixer le guide de tube de jauge d'huile.",
+      "sourcePage": "Déposer et reposer les pistons et les bielles A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 146
+    },
+    {
+      "component": "Reposer le collecteur d'échappement.",
+      "sourcePage": "Déposer et reposer les pistons et les bielles A26D1C",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": 147
+    },
+    {
+      "component": "Fixer le tuyau d'échappement avant.",
+      "sourcePage": "Déposer et reposer les pistons et les bielles A26D1C",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": 150
+    },
+    {
+      "component": "Serrer les roues arrière.",
+      "sourcePage": "Déposer et reposer les pistons et les bielles A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 157
+    },
+    {
+      "component": "Fixer le bouclier thermique supérieur.",
+      "sourcePage": "Déposer et reposer les pistons et les bielles A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 158
+    },
+    {
+      "component": "Reposer le bouclier thermique inférieur.",
+      "sourcePage": "Déposer et reposer les pistons et les bielles A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 159
+    }
+  ]
+}

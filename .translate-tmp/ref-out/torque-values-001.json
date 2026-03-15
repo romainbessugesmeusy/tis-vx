@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Serrer au couple de 21 Nm",
+      "sourcePage": "arbres-d-équilibrage-déposer-et-reposer-moteur-déposé-z-22-se-A26D1C",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer au couple de 100 Nm + 75° + 15°",
+      "sourcePage": "arbres-d-équilibrage-déposer-et-reposer-moteur-déposé-z-22-se-A26D1C",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer au couple de 43 Nm",
+      "sourcePage": "arbres-d-équilibrage-déposer-et-reposer-moteur-déposé-z-22-se-A26D1C",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer au couple de 50 Nm",
+      "sourcePage": "arbres-d-équilibrage-déposer-et-reposer-moteur-déposé-z-22-se-A26D1C",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer au couple de 23 Nm",
+      "sourcePage": "arbres-d-équilibrage-déposer-et-reposer-moteur-déposé-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer 2x vis (1) 10 Nm",
+      "sourcePage": "palier-principal-d-arbre-dans-carter-d-embrayage-remplacer-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Installer le calibre interne et le calibrer avec le micromètre (1). Fixer les chapeaux de bielle aux bielles.",
+      "sourcePage": "jeu-de-bielle-vérifier-la-cote-avec-un-micromètre-z-22-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 1
+    },
+    {
+      "component": "Serrer au couple de 25 Nm + 50° + 50° + 10°",
+      "sourcePage": "jeu-de-bielle-vérifier-la-cote-avec-un-micromètre-z-22-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Fixer les chapeaux de bielle.",
+      "sourcePage": "jeu-de-bielle-vérifier-la-cote-avec-du-plastigage-z-22-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Fixer les chapeaux de bielle.",
+      "sourcePage": "jeu-de-bielle-vérifier-la-cote-avec-du-plastigage-z-22-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Serrer au couple de 25 Nm + 50° + 50° + 10°",
+      "sourcePage": "jeu-de-bielle-vérifier-la-cote-avec-du-plastigage-z-22-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Roues au véhicule – vis 90 Nm .",
+      "sourcePage": "étrier-de-frein-avant-déposer-et-reposer-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Roues au véhicule – vis 90 Nm .",
+      "sourcePage": "étrier-de-frein-arrière-déposer-et-reposer-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Roues au véhicule – vis 90 Nm .",
+      "sourcePage": "étrier-de-frein-arrière-remplacer-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Roues au véhicule – vis 90 Nm .",
+      "sourcePage": "disque-de-frein-avant-déposer-et-reposer-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Roues au véhicule – vis 90 Nm.",
+      "sourcePage": "durite-de-frein-avant-déposer-et-reposer-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 16
+    },
+    {
+      "component": "Roues au véhicule – vis 90 Nm .",
+      "sourcePage": "durite-de-frein-arrière-déposer-et-reposer-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 14
+    },
+    {
+      "component": "Roues au véhicule – vis 90 Nm .",
+      "sourcePage": "plaquettes-de-frein-avant-remplacer-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Roues au véhicule – vis 90 Nm .",
+      "sourcePage": "plaquettes-de-frein-vérifier-l-usure-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Fixer l'étrier de frein au porte-moyeu",
+      "sourcePage": "plaquettes-de-frein-arrière-remplacer-A26D1C",
+      "value": "28",
+      "unit": "Nm",
+      "stepRef": 16
+    },
+    {
+      "component": "Installer les roues arrière",
+      "sourcePage": "plaquettes-de-frein-arrière-remplacer-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 20
+    },
+    {
+      "component": "Installer la vis 28 Nm Remarque : Nettoyer le filetage et appliquer du frein filet.",
+      "sourcePage": "plaquettes-de-frein-arrière-remplacer-A26D1C",
+      "value": "28",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer 8x vis de roue, 2x vis de sécurité 90 Nm – Utiliser la douille spéciale située sous le capot avant",
+      "sourcePage": "plaquettes-de-frein-arrière-remplacer-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer l'arbre de direction intermédiaire avec le joint universel inférieur sur la crémaillère de direction et la colonne de direction",
+      "sourcePage": "pédale-de-frein-remplacer-A26D1C",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 26
+    },
+    {
+      "component": "Installer 3x vis, 3x écrou 35 Nm – Utiliser 3x nouveaux écrous",
+      "sourcePage": "pédale-de-frein-remplacer-A26D1C",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Vis de bras de direction au porte-moyeu - 45 Nm .",
+      "sourcePage": "carrossage-ajuster-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Vis; porte-fusée au porte-moyeu - 45 Nm .",
+      "sourcePage": "carrossage-ajuster-roues-arrière-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Installer le chapeau de palier de flasque de l'arbre à cames.",
+      "sourcePage": "flasque-de-liaison-d-arbre-à-cames-remplacer-z-22-se-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Installer le couvercle de flasque de liaison d'arbre à cames.",
+      "sourcePage": "flasque-de-liaison-d-arbre-à-cames-remplacer-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Fixer le couvercle de culasse",
+      "sourcePage": "flasque-de-liaison-d-arbre-à-cames-remplacer-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 14
+    },
+    {
+      "component": "Fixer le couvercle de culasse",
+      "sourcePage": "flasque-de-liaison-d-arbre-à-cames-remplacer-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 14
+    },
+    {
+      "component": "Fixer le module d'allumage.",
+      "sourcePage": "flasque-de-liaison-d-arbre-à-cames-remplacer-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 15
+    },
+    {
+      "component": "Raccorder les conduites de carburant.",
+      "sourcePage": "flasque-de-liaison-d-arbre-à-cames-remplacer-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 16
+    },
+    {
+      "component": "Raccorder les conduites de carburant.",
+      "sourcePage": "flasque-de-liaison-d-arbre-à-cames-remplacer-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 16
+    },
+    {
+      "component": "Installer le cache arrière du moteur.",
+      "sourcePage": "flasque-de-liaison-d-arbre-à-cames-remplacer-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 17
+    },
+    {
+      "component": "Serrer au couple de 22 Nm",
+      "sourcePage": "flasque-de-liaison-d-arbre-à-cames-remplacer-z-22-se-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer au couple de 23 Nm",
+      "sourcePage": "flasque-de-liaison-d-arbre-à-cames-remplacer-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer au couple de 9 Nm",
+      "sourcePage": "flasque-de-liaison-d-arbre-à-cames-remplacer-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer au couple de 8 Nm",
+      "sourcePage": "flasque-de-liaison-d-arbre-à-cames-remplacer-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer au couple de 10 Nm",
+      "sourcePage": "flasque-de-liaison-d-arbre-à-cames-remplacer-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 vis, serrer au couple de 14 Nm",
+      "sourcePage": "flasque-de-liaison-d-arbre-à-cames-remplacer-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer le couvercle de flasque de liaison d'arbre à cames.",
+      "sourcePage": "flasque-de-liaison-de-courroie-d-arbre-à-cames-remplacer-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 3
+    },
+    {
+      "component": "Serrer au couple de 23 Nm",
+      "sourcePage": "flasque-de-liaison-de-courroie-d-arbre-à-cames-remplacer-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer l'arbre à cames d'échappement.",
+      "sourcePage": "suiveurs-d-arbre-à-cames-remplacer-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 25
+    },
+    {
+      "component": "Travaillant en spirale du centre vers l'extérieur, serrer les boulons sur les chapeaux de palier d'arbre à cames (I à VI) par étapes.",
+      "sourcePage": "suiveurs-d-arbre-à-cames-remplacer-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 30
+    },
+    {
+      "component": "Travaillant en spirale du centre vers l'extérieur, serrer les boulons sur les chapeaux de palier d'arbre à cames (I à VI) par étapes.",
+      "sourcePage": "suiveurs-d-arbre-à-cames-remplacer-z-22-se-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 30
+    },
+    {
+      "component": "Fixer le couvercle de flasque de liaison d'arbre à cames.",
+      "sourcePage": "suiveurs-d-arbre-à-cames-remplacer-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 31
+    },
+    {
+      "component": "Fixer le pignon d'arbre à cames d'admission.",
+      "sourcePage": "suiveurs-d-arbre-à-cames-remplacer-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 32
+    },
+    {
+      "component": "Fixer le pignon d'arbre à cames d'échappement.",
+      "sourcePage": "suiveurs-d-arbre-à-cames-remplacer-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 33
+    },
+    {
+      "component": "Installer le tendeur de chaîne de distribution d'arbre à cames.",
+      "sourcePage": "suiveurs-d-arbre-à-cames-remplacer-z-22-se-A26D1C",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 34
+    }
+  ]
+}

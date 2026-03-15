@@ -1,0 +1,106 @@
+{
+  "title": "Remplacer l'huile moteur avec le filtre à huile (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Important : Respecter les réglementations environnementales en vigueur lors de l'élimination de l'huile moteur usagée.",
+          "image": {
+            "src": "/data/assets/images/e797bcbc32e2.jpg",
+            "alt": "Object Number: 2387680  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Important : Utiliser un pont à quatre colonnes pour soulever le véhicule lors du retrait du cache-moteur. Le véhicule peut être déplacé vers un pont à deux colonnes pour d'autres opérations si nécessaire.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Élever le véhicule, puis déposer le cache-moteur.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Vidanger l'huile moteur - placer un bac de collecte en dessous.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Déposer le filtre à huile avec KM-726-A (1).",
+          "callouts": [
+            "1"
+          ],
+          "number": 5,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Enduire légèrement le joint du nouveau filtre à huile avec de l'huile moteur et le fixer à la pompe à huile - couple de serrage 15 Nm.",
+          "image": {
+            "src": "/data/assets/images/e797bcbc32e2.jpg",
+            "alt": "Object Number: 2387680  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Reposer le bouchon de vidange d'huile, le nouveau joint torique - couple de serrage 10 Nm.",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Reposer le cache-moteur.",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule.",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Compléter l'huile moteur.",
+          "number": 10,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    },
+    {
+      "label": "Inspecter",
+      "steps": [
+        {
+          "text": "Vérifier le niveau d'huile moteur et corriger si nécessaire.",
+          "number": 11,
+          "image": null
+        }
+      ],
+      "phase": "inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Enduire légèrement le joint du nouveau filtre à huile avec de l'huile moteur et le fixer à la pompe à huile - couple de serrage 15 Nm.",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Reposer le bouchon de vidange d'huile, le nouveau joint torique - couple de serrage 10 Nm.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 7
+    }
+  ],
+  "type": "procedure",
+  "id": "engine-oil-with-oil-filter-replace-z-20-let-AQS315"
+}

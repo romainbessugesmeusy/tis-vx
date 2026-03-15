@@ -1,0 +1,222 @@
+{
+  "title": "Remplacer les conduites de carburant (Z20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Décompresser le système de carburant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer le capuchon de protection"
+            },
+            {
+              "bullet": "•",
+              "text": "Décompresser le système de carburant à l'aide du testeur de pression KM-J-34730-91 (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Récupérer tout carburant s'échappant dans un récipient approprié"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8f83f0ed0394.jpg",
+            "alt": "Object Number: 2421974  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer le testeur de pression KM-J-34730-91 (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Débrancher le tuyau de connexion de test (2) du rail de carburant"
+            },
+            {
+              "bullet": "•",
+              "text": "Poser le capuchon de protection"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8f83f0ed0394.jpg",
+            "alt": "Object Number: 2421974  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Déconnecter les 2 conduites de carburant du rail de carburant Remarque : Maintenir l'adaptateur avec une clé plate côté ouvert.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Poser 4 bouchons obturateurs"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/492d84df5776.jpg",
+            "alt": "Object Number: 2422908  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Déconnecter les 4 conduites de carburant (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser le déposeur KM-796-A"
+            },
+            {
+              "bullet": "•",
+              "text": "Poser 4 bouchons obturateurs"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d41206f0bbe6.jpg",
+            "alt": "Object Number: 2422906  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Déconnecter les 2 conduites de carburant du filtre à carburant (1) Remarque : Maintenir le filtre à carburant avec une clé plate côté hexagonal.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Poser 4 bouchons obturateurs"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/47f404f821e0.jpg",
+            "alt": "Object Number: 2422907  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Déposer le réservoir de carburant du châssis du véhicule – voir l'opération « Déposer et reposer le réservoir de carburant » Remarque : Abaisser le réservoir de carburant pour accéder aux conduites de carburant.",
+          "image": {
+            "src": "/data/assets/images/f647bab3753a.jpg",
+            "alt": "Object Number: 2422905  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Déconnecter les 2 conduites de carburant (1) du réservoir de carburant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser le déposeur KM-796-A"
+            },
+            {
+              "bullet": "•",
+              "text": "Poser 4 bouchons obturateurs"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f647bab3753a.jpg",
+            "alt": "Object Number: 2422905  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 7
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Raccorder les 2 conduites de carburant au réservoir de carburant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer les 4 bouchons obturateurs"
+            },
+            {
+              "bullet": "•",
+              "text": "Emboîter"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Fixer le réservoir de carburant au châssis du véhicule – voir l'opération « Déposer et reposer le réservoir de carburant »",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Raccorder les 2 conduites de carburant au filtre à carburant Remarque : Maintenir le filtre à carburant avec une clé plate côté hexagonal.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer les 4 bouchons obturateurs"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Raccorder les 4 conduites de carburant (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer les 4 bouchons obturateurs"
+            },
+            {
+              "bullet": "•",
+              "text": "Emboîter"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d41206f0bbe6.jpg",
+            "alt": "Object Number: 2422906  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 11
+        },
+        {
+          "text": "Raccorder les 2 conduites de carburant au rail de carburant Remarque : Maintenir l'adaptateur avec une clé plate côté ouvert.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer les 4 bouchons obturateurs"
+            }
+          ],
+          "number": 12,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "toolsRequired": [
+    "KM-J-34730-91",
+    "KM-796-A"
+  ],
+  "warnings": [
+    "Risque de fuite de carburant\n– respecter les réglementations de sécurité et la législation nationale\napplicables."
+  ],
+  "notes": [
+    "Déconnecter les 2 conduites de carburant du rail de carburant\n Maintenir\nl'adaptateur avec une clé plate côté ouvert.\n \n\n\n\n•  \nPoser 4 bouchons obturateurs",
+    "Déconnecter les 2 conduites de carburant du filtre à carburant (1)\n Maintenir le\nfiltre à carburant avec une clé plate côté hexagonal.\n \n\n\n\n•  \nPoser 4 bouchons obturateurs",
+    "Déposer le réservoir de carburant du châssis du véhicule – voir l'opération\n« Déposer et reposer le réservoir de carburant »\n Abaisser le réservoir de carburant\npour accéder aux conduites de carburant.",
+    "Raccorder les 2 conduites de carburant au filtre à carburant\n Maintenir le\nfiltre à carburant avec une clé plate côté hexagonal.\n \n\n\n\n•  \nRetirer les 4 bouchons obturateurs",
+    "Raccorder les 2 conduites de carburant au rail de carburant\n Maintenir\nl'adaptateur avec une clé plate côté ouvert.\n \n\n\n\n•  \nRetirer les 4 bouchons obturateurs"
+  ],
+  "type": "procedure",
+  "id": "fuel-lines-replace-z20-let-AQS315"
+}

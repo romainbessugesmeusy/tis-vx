@@ -1,0 +1,33 @@
+{
+  "title": "Signal d'allumage au vilebrequin",
+  "steps": [
+    {
+      "text": "Déposer le cache de référence.",
+      "number": 1
+    },
+    {
+      "text": "Démarrer le moteur et le laisser tourner au ralenti.",
+      "number": 2
+    },
+    {
+      "text": "Déposer le fichier de configuration (le Tech 32 n'utilise que des fichiers de configuration, pas de courbes de référence).",
+      "number": 1
+    },
+    {
+      "text": "Démarrer le moteur et le laisser tourner au ralenti.",
+      "number": 2
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/5dae97edf367.jpg",
+      "alt": "Numéro d'objet : 2419106  Taille : DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/1e9e6e7e9fad.jpg",
+      "alt": "Numéro d'objet : 2419107  Taille : DEFAULT"
+    }
+  ],
+  "type": "diagnostic",
+  "id": "ignition-to-crankshaft-signal-A26D1C"
+}

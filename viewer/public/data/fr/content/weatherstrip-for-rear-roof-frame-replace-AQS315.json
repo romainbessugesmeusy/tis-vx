@@ -1,0 +1,90 @@
+{
+  "title": "Joint de porte arrière de pavillon, Remplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le toit souple ou le toit rigide",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le joint de porte arrière de pavillon",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer le joint de porte arrière de pavillon"
+            }
+          ],
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Éliminer toute trace de résidu adhésif",
+          "number": 3,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Poser le joint de porte arrière de pavillon",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Positionner le joint de porte arrière de pavillon dans l'ouverture (1) entre le pavillon arrière et"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3176e481efcb.jpg",
+            "alt": "Object Number: 2422362  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Fixer le joint de porte arrière de pavillon au pavillon arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer le ruban protecteur, positionner le joint de porte arrière de pavillon puis appliquer"
+            }
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Fixer le joint de porte arrière de pavillon aux 2x montants B",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Aligner le joint de porte arrière de pavillon (2) avec le joint de porte avant (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer le ruban protecteur, positionner le joint de porte arrière de pavillon puis appliquer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a37b2e7aaa74.jpg",
+            "alt": "Object Number: 2422360  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Poser le toit souple ou le toit rigide",
+          "number": 7,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "weatherstrip-for-rear-roof-frame-replace-AQS315"
+}

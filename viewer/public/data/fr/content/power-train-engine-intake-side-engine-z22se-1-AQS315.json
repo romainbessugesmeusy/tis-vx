@@ -1,0 +1,39 @@
+{
+  "title": "Groupe motopropulseur - Moteur, côté admission",
+  "components": [
+    {
+      "description": "Interrupteur - Pression d'huile",
+      "code": "B3"
+    },
+    {
+      "description": "Alternateur",
+      "code": "G2"
+    },
+    {
+      "description": "Capteur - Contrôle de cliquetis 1",
+      "code": "B30"
+    },
+    {
+      "description": "Démarreur",
+      "code": "M1"
+    },
+    {
+      "description": "Capteur d'impulsion - Vilebrequin",
+      "code": "B34"
+    },
+    {
+      "description": "Faisceau d'extension, moteur & Unité de contrôle - Multec",
+      "code": "X21"
+    },
+    {
+      "description": "Moteur & Unité de contrôle - Multec",
+      "code": "X22"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "power-train-engine-intake-side-engine-z22se-1-AQS315",
+  "diagram": {
+    "src": "/data/assets/ce13b3530368.cgm",
+    "type": "cgm"
+  }
+}

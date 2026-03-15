@@ -1,0 +1,152 @@
+{
+  "title": "Remplacer la pédale d'accélérateur (Z 22 SE)",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Ouvrir le capot.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Débrancher la batterie.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Ouvrir la portière du conducteur.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déposer le connecteur du faisceau de câblage (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Libérer le connecteur du faisceau de câblage dans la direction de la"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c33ab1118d18.jpg",
+            "alt": "Object Number: 2412467  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Déposer la pédale d'accélérateur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 écrous (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c33ab1118d18.jpg",
+            "alt": "Object Number: 2412467  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Reposer la pédale d'accélérateur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser de nouveaux écrous."
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 12 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c33ab1118d18.jpg",
+            "alt": "Object Number: 2412467  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Attacher le connecteur du faisceau de câblage.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer le(s) connecteur(s) du faisceau de câblage."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c33ab1118d18.jpg",
+            "alt": "Object Number: 2412467  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Reposer le revêtement intérieur sur le rembourrage du panneau d'instrument inférieur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 vis, 2 agrafes"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c33ab1118d18.jpg",
+            "alt": "Object Number: 2412467  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Fermer la portière du conducteur.",
+          "image": {
+            "src": "/data/assets/images/c33ab1118d18.jpg",
+            "alt": "Object Number: 2412467  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Rebrancher la batterie.",
+          "image": {
+            "src": "/data/assets/images/c33ab1118d18.jpg",
+            "alt": "Object Number: 2412467  Size: DEFAULT"
+          },
+          "number": 10
+        },
+        {
+          "text": "Reprogrammer les mémoires volatiles.",
+          "image": {
+            "src": "/data/assets/images/c33ab1118d18.jpg",
+            "alt": "Object Number: 2412467  Size: DEFAULT"
+          },
+          "number": 11
+        },
+        {
+          "text": "Fermer le capot.",
+          "image": {
+            "src": "/data/assets/images/c33ab1118d18.jpg",
+            "alt": "Object Number: 2412467  Size: DEFAULT"
+          },
+          "number": 12
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer la pédale d'accélérateur.",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Couple de serrage 12 Nm",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "type": "procedure",
+  "id": "accelerator-pedal-replace-z-22-se-A26D1C"
+}

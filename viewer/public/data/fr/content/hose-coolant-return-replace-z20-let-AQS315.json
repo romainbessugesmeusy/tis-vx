@@ -1,0 +1,137 @@
+{
+  "title": "Durite, Retour Liquide de Refroidissement, Remplacer (Z20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Vidanger le système de refroidissement - voir l'opération «Système de Refroidissement, Vidange, Remplissage et Purge»",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer l'agrafe de la durite de retour de liquide de refroidissement",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Débrancher le faisceau moteur de la pompe auxiliaire de liquide de refroidissement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Libérer le connecteur intégré"
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Détacher la durite de retour de liquide de refroidissement du tuyau de chauffage",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer, puis jeter l'attache-câble"
+            }
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Déconnecter la durite de liquide de refroidissement du turbo du tuyau de retour de liquide de refroidissement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'agrafe"
+            }
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Déposer, puis jeter la durite de retour de liquide de refroidissement du carter de refroidisseur d'huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer la pince (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e147afdf2d5a.jpg",
+            "alt": "Object Number: 2423055  Size: DEFAULT"
+          },
+          "number": 7
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Raccorder la durite de retour de liquide de refroidissement au carter de refroidisseur d'huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer la pince"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Relever le véhicule",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Raccorder la durite de liquide de refroidissement du turbo au tuyau de retour de liquide de refroidissement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Fixer la durite de retour de liquide de refroidissement au tuyau de chauffage",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer une nouvelle attache-câble"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Raccorder le faisceau moteur à la pompe auxiliaire de liquide de refroidissement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer le connecteur intégré"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Remplir le système de refroidissement - voir l'opération «Système de Refroidissement, Vidange, Remplissage et Purge»",
+          "number": 13,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "hose-coolant-return-replace-z20-let-AQS315"
+}

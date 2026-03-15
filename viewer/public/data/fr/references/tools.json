@@ -1,0 +1,22 @@
+{
+  "tools": [
+    {
+      "usedIn": [
+        "Remplacement-pare-brise-A26D1C"
+      ],
+      "code": "MKM-846-6",
+      "name": null,
+      "description": null,
+      "sourcePage": null
+    },
+    {
+      "usedIn": [
+        "Remplacement-pare-brise-A26D1C"
+      ],
+      "code": "KM-2063",
+      "name": null,
+      "description": null,
+      "sourcePage": null
+    }
+  ]
+}

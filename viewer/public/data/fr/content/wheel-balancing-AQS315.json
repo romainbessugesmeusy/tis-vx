@@ -1,0 +1,7 @@
+{
+  "title": "Équilibrage des roues",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Équilibrage des roues</p>\n\n<p>Pour compenser les variations de masse dues aux tolérances de construction\n des pneus du véhicule et des roues à disque, les roues nouvellement installées doivent être équilibrées. Un déséquilibre peut entraîner un voilage radial et des vibrations de direction, ce qui provoque à son tour une usure accrue des roulements de roue, des pièces de train de direction et des pneus.</p>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "type": "generic",
+  "id": "wheel-balancing-AQS315",
+  "extractedData": {}
+}

@@ -1,0 +1,66 @@
+{
+  "title": "Plaquettes de frein, Inspection de l'usure",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "L'illustration montre les plaquettes de frein avant et arrière du côté gauche, le côté droit est similaire.",
+          "number": 1,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Mesurer",
+      "steps": [
+        {
+          "text": "Roues du véhicule – vis.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Épaisseur des plaquettes de frein (hors support).",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Épaisseur minimale des plaquettes de frein (hors support) – 2,5 mm.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Important : Toutes les quatre plaquettes de frein sur un essieu doivent être remplacées si l'une d'entre elles a une épaisseur inférieure à l'épaisseur minimale.",
+          "number": 5,
+          "image": null
+        }
+      ],
+      "phase": "measure",
+      "icon": "/data/assets/images/707731fa677f.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Roues au véhicule – vis 90 Nm.",
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Roues au véhicule – vis 90 Nm.",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 6
+    }
+  ],
+  "type": "procedure",
+  "id": "brake-pads-inspect-for-wear-A26D1C"
+}

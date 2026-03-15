@@ -1,0 +1,25 @@
+{
+  "title": "Identification du moteur, Numéro de moteur",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "L'identification du moteur est gravée sur la partie aplatie du carter de filtre à huile (flèche II). Remarque : Lors de l'installation d'un moteur à bloc court, le numéro de moteur doit être estampillé sur la plaque de base du bloc-cylindres (flèche I) avant d'installer le moteur.",
+          "image": {
+            "src": "/data/assets/images/f083e193db50.jpg",
+            "alt": "Object Number: 2417976  Size: DEFAULT"
+          },
+          "number": 1
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "notes": [
+    "L'identification du moteur est gravée sur la partie aplatie\ndu carter de filtre à huile (flèche II).\n Lors de l'installation d'un\nmoteur à bloc court, le numéro de moteur doit être estampillé sur\nla plaque de base du bloc-cylindres (flèche I) avant d'installer\nle moteur."
+  ],
+  "type": "procedure",
+  "id": "engine-identification-engine-number-A26D1C"
+}

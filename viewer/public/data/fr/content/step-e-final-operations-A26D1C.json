@@ -1,0 +1,7 @@
+{
+  "title": "Étape E - Opérations Finales",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Étape E - Opérations Finales</p>\n\n<p class=\"topic\">E1 - Assembler le véhicule</p>\n\n<ul type=\"disc\">\n<li>Si possible, effectuer l'étape E2 avant d'assembler le\nrevêtement.</li>\n\n<li>Fixer les faisceaux de câblage à leur emplacement d'origine avec des pièces d'origine, par exemple, tube ondulé, supports de goulotte de câblage, colliers de serrage,\nagrafes, etc.</li>\n\n<li>Re-attacher le revêtement et les pièces de fixation.</li>\n</ul>\n\n<p class=\"topic\">E2 - Effectuer le contrôle de fonctionnement</p>\n\n<ul type=\"disc\">\n<li>Connecter la batterie.</li>\n\n<li>Effectuer le contrôle de fonctionnement. Cela garantit que la réparation du faisceau de câblage a été réalisée avec succès.</li>\n</ul>\n\n<p class=\"topic\">E3 - Programmer les mémoires volatiles</p>\n\n<ul type=\"disc\">\n<li>Après avoir terminé toutes les opérations, reprogrammer les mémoires volatiles\net effacer l'équipement audio à l'aide d'un code.</li>\n</ul>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "type": "generic",
+  "id": "step-e-final-operations-A26D1C",
+  "extractedData": {}
+}

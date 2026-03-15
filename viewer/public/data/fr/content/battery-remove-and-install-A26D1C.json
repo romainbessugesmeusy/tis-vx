@@ -1,0 +1,66 @@
+{
+  "title": "Déposer et reposer la batterie A26D1C",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Déposer et reposer la batterie",
+          "number": 1,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    },
+    {
+      "label": "Déposer, Déconnecter",
+      "steps": [
+        {
+          "text": "Réservoir de lave-glace et connecteurs de batterie; voir l'opération «Déposer et reposer le câble de masse de la batterie».",
+          "image": {
+            "src": "/data/assets/images/1c64b7a08acc.jpg",
+            "alt": "Object Number: 2429429  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Support du réservoir de lave-glace - vis.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Batterie du support de batterie.",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/4b8970d41392.jpg"
+    },
+    {
+      "label": "Reposer, Connecter",
+      "steps": [
+        {
+          "text": "Batterie sur le support de batterie.",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Support du réservoir de lave-glace - vis.",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Connecteurs de batterie et réservoir de lave-glace.",
+          "number": 7,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/57d894c25c39.jpg"
+    }
+  ],
+  "type": "procedure",
+  "id": "battery-remove-and-install-A26D1C"
+}

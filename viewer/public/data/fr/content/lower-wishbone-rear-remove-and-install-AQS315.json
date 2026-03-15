@@ -1,0 +1,242 @@
+{
+  "title": "Triangle de suspension inférieur arrière, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer les plaquettes de frein de l'étrier - voir «Plaquettes de frein arrière, Remplacer» dans le groupe H",
+          "image": {
+            "src": "/data/assets/images/2d0e71fcac03.jpg",
+            "alt": "Object Number: 2429419  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer le disque de frein du moyeu de roue",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer la vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2d0e71fcac03.jpg",
+            "alt": "Object Number: 2429419  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Déposer l'amortisseur du triangle de suspension inférieur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'écrou (1), la rondelle, la vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ad99b47bc38c.jpg",
+            "alt": "Object Number: 2429708  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Détacher le câble de frein de stationnement du triangle de suspension inférieur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'écrou, l'agrafe"
+            }
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Déposer le triangle de suspension inférieur du porte-moyeu Remarque : l'illustration montre le moyeu de roue et l'arbre de transmission retirés pour plus de clarté",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'écrou"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/4c4f511ecf25.jpg",
+            "alt": "Object Number: 2429738  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Déposer le triangle de suspension inférieur (1) du support de châssis avant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer le boulon, la rondelle de sécurité"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b25a5c2a4c6b.jpg",
+            "alt": "Object Number: 2429912  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 6
+        },
+        {
+          "text": "Déposer le triangle de suspension inférieur du support de châssis arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'écrou, la rondelle"
+            },
+            {
+              "bullet": "•",
+              "text": "Détacher le bras de suspension (2) du support de châssis et le descendre"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b25a5c2a4c6b.jpg",
+            "alt": "Object Number: 2429912  Size: DEFAULT"
+          },
+          "number": 7
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le triangle de suspension inférieur au support de châssis avant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer la nouvelle rondelle de sécurité, le boulon 45"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Reposer le triangle de suspension inférieur au porte-moyeu",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer le nouvel écrou 45 Nm"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Reposer le triangle de suspension inférieur au support de châssis arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer le bras de suspension au support de châssis et le descendre"
+            },
+            {
+              "bullet": "•",
+              "text": "Reposer la rondelle, le nouvel écrou 45 Nm"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Reposer l'amortisseur au triangle de suspension inférieur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer la vis, la rondelle, le nouvel écrou 45"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Raccorder le câble de frein de stationnement au triangle de suspension inférieur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer l'agrafe, le nouvel écrou"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Reposer le disque de frein au porte-moyeu",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer la vis 12 Nm"
+            }
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Reposer les plaquettes de frein à l'étrier - voir «Plaquettes de frein arrière, Remplacer» dans le groupe H",
+          "number": 14,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer le triangle de suspension inférieur au support de châssis avant",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Reposer le triangle de suspension inférieur au porte-moyeu",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Reposer le triangle de suspension inférieur au support de châssis arrière",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Reposer l'amortisseur au triangle de suspension inférieur",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 11
+    },
+    {
+      "component": "Reposer le disque de frein au porte-moyeu",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Reposer la nouvelle rondelle de sécurité, le boulon 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer la vis 12 Nm",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "Extrémité du bras de suspension\nse loge dans le châssis. S'assurer que le nouvel écrou de blocage est utilisé correctement.\nLes premiers modèles ont un filetage grossier, les modèles ultérieurs ont un filetage fin."
+  ],
+  "notes": [
+    "Déposer le triangle de suspension inférieur du porte-moyeu\n L'illustration\nmontre le moyeu de roue et l'arbre de transmission retirés pour plus de clarté\n \n\n\n\n•  \nDéposer l'écrou"
+  ],
+  "type": "procedure",
+  "id": "lower-wishbone-rear-remove-and-install-AQS315"
+}

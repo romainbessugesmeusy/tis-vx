@@ -1,0 +1,131 @@
+{
+  "title": "instrument-AQS315",
+  "components": [
+    {
+      "description": "Déposer - Liquide de frein",
+      "code": "B1"
+    },
+    {
+      "description": "Éclairage - Affichage LCD",
+      "code": "H1.20"
+    },
+    {
+      "description": "Déposer - Frein de stationnement",
+      "code": "B2"
+    },
+    {
+      "description": "Éclairage - Instrument",
+      "code": "H1.21"
+    },
+    {
+      "description": "Déposer - Pression d'huile",
+      "code": "B3"
+    },
+    {
+      "description": "Indicateur - Température du liquide de refroidissement",
+      "code": "H1.22"
+    },
+    {
+      "description": "Déposer - Capacité minimale, liquide de refroidissement",
+      "code": "B6"
+    },
+    {
+      "description": "Indicateur de carburant",
+      "code": "H1.23"
+    },
+    {
+      "description": "Instrument",
+      "code": "H1"
+    },
+    {
+      "description": "Tachymètre",
+      "code": "H1.24"
+    },
+    {
+      "description": "Lampe témoin de charge",
+      "code": "H1.1"
+    },
+    {
+      "description": "Compteur de vitesse - Électronique",
+      "code": "H1.25"
+    },
+    {
+      "description": "Témoin - Pression d'huile",
+      "code": "H1.2"
+    },
+    {
+      "description": "Avertisseur sonore",
+      "code": "H1.65"
+    },
+    {
+      "description": "Témoin - Airbag",
+      "code": "H1.4"
+    },
+    {
+      "description": "Témoin - Frein de stationnement",
+      "code": "H1.68"
+    },
+    {
+      "description": "Témoin - Système de freinage antiblocage",
+      "code": "H1.5"
+    },
+    {
+      "description": "Témoin - Niveau de liquide de refroidissement",
+      "code": "H1.69"
+    },
+    {
+      "description": "Témoin - Moteur",
+      "code": "H1.6"
+    },
+    {
+      "description": "Témoin - Changement de vitesse/Antivol",
+      "code": "H1.76"
+    },
+    {
+      "description": "Témoin - Plein phares",
+      "code": "H1.12"
+    },
+    {
+      "description": "Capteur - Contenu du réservoir de carburant",
+      "code": "P5"
+    },
+    {
+      "description": "Témoin - Système de freinage",
+      "code": "H1.17"
+    },
+    {
+      "description": "Déposer - Éclairage/Réinitialiser le compteur kilométrique",
+      "code": "S125"
+    },
+    {
+      "description": "Témoin - Feu de signalisation",
+      "code": "H1.19"
+    },
+    {
+      "description": "Faisceau principal & Faisceau d'extension, moteur",
+      "code": "X3"
+    },
+    {
+      "description": "Faisceau d'extension, moteur & Batterie positive",
+      "code": "X34"
+    },
+    {
+      "description": "Réservoir de carburant & Pompe à carburant/capteur",
+      "code": "X30"
+    },
+    {
+      "description": "Moteur Z20LET",
+      "code": "Z20LET"
+    },
+    {
+      "description": "Moteur Z22SE",
+      "code": "Z22SE"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "instrument-AQS315",
+  "diagram": {
+    "src": "/data/assets/bc3e3dfbd2a0.cgm",
+    "type": "cgm"
+  }
+}

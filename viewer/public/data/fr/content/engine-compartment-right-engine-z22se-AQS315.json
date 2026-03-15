@@ -1,0 +1,15 @@
+{
+  "title": "Compartiment moteur - Droite",
+  "components": [
+    {
+      "description": "Valve solénoïde - Ventilation réservoir",
+      "code": "Y5"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "engine-compartment-right-engine-z22se-AQS315",
+  "diagram": {
+    "src": "/data/assets/ce0a4427aa36.cgm",
+    "type": "cgm"
+  }
+}

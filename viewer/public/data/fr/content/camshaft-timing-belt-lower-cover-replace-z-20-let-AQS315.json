@@ -1,0 +1,286 @@
+{
+  "title": "Remplacer la Courroie de Distribution de l'Arbre à Cames et le Couvercle Inférieur (Z 20\nLET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le cache inférieur de moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Élever le véhicule"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer les 13x vis, 13x rondelles"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ea151090a0db.jpg",
+            "alt": "Object Number: 2397738  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer les 2x vis (1) du cache supérieur de la courroie de distribution de l'arbre à cames",
+          "image": {
+            "src": "/data/assets/images/ea151090a0db.jpg",
+            "alt": "Object Number: 2397738  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déposer le cache supérieur de la courroie de distribution de l'arbre à cames",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tirer pour dégager"
+            }
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Élever le véhicule",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Déposer la courroie striée en V",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "À l'aide d'une clé adaptée, tourner le tendeur (1) dans le sens des aiguilles d'une montre, puis",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "À l'aide d'une clé adaptée, tourner le tendeur (1) dans le sens des aiguilles d'une montre, puis\nReposer la goupille de blocage adaptée (2)"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a80bd56f79cd.jpg",
+            "alt": "Object Number: 2421986  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Déposer la poulie de vilebrequin",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Appliquer des repères de correspondance"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer les 4x vis, en utilisant une clé pour maintenir en place l'écrou central sur"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d61cc4889230.jpg",
+            "alt": "Object Number: 2397739  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Déposer le tendeur de courroie striée en V",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer les 2x vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d61cc4889230.jpg",
+            "alt": "Object Number: 2397739  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Déposer le cache inférieur de la courroie de distribution de l'arbre à cames",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer les 2x vis (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d61cc4889230.jpg",
+            "alt": "Object Number: 2397739  Size: DEFAULT"
+          },
+          "number": 9
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le cache inférieur de la courroie de distribution de l'arbre à cames",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer les 2x vis (1) à 6 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d61cc4889230.jpg",
+            "alt": "Object Number: 2397739  Size: DEFAULT"
+          },
+          "number": 10
+        },
+        {
+          "text": "Reposer le tendeur de courroie striée en V",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer les 2x vis à 25 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d61cc4889230.jpg",
+            "alt": "Object Number: 2397739  Size: DEFAULT"
+          },
+          "number": 11
+        },
+        {
+          "text": "Reposer la poulie de vilebrequin",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Aligner les repères de correspondance"
+            },
+            {
+              "bullet": "•",
+              "text": "Reposer les 4x vis à 20 Nm en utilisant"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d61cc4889230.jpg",
+            "alt": "Object Number: 2397739  Size: DEFAULT"
+          },
+          "number": 12
+        },
+        {
+          "text": "Reposer la courroie striée en V",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "À l'aide d'une clé adaptée, tourner le tendeur (1) dans le sens des aiguilles d'une montre, puis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a80bd56f79cd.jpg",
+            "alt": "Object Number: 2421986  Size: DEFAULT"
+          },
+          "number": 13
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Reposer le cache supérieur de la courroie de distribution de l'arbre à cames",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enfoncer pour fixer"
+            }
+          ],
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Élever le véhicule",
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Reposer les 2x vis (1) au cache supérieur de la courroie de distribution de l'arbre à cames à 6 Nm",
+          "image": {
+            "src": "/data/assets/images/ea151090a0db.jpg",
+            "alt": "Object Number: 2397738  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 17
+        },
+        {
+          "text": "Reposer le cache inférieur de moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer les 13x vis, 13x rondelles"
+            }
+          ],
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 19,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer le cache inférieur de la courroie de distribution de l'arbre à cames",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Reposer le tendeur de courroie striée en V",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 11
+    },
+    {
+      "component": "Reposer la poulie de vilebrequin",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Reposer les 2x vis (1) au cache supérieur de la courroie de distribution de l'arbre à cames à 6 Nm",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 17
+    },
+    {
+      "component": "Reposer les 2x vis à 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer les 4x vis à 20 Nm en utilisant une clé pour maintenir en place l'écrou central sur le pignon de vilebrequin",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "Un pont à quatre colonnes doit\nêtre utilisé pour élever le véhicule lors du retrait du cache inférieur de moteur.\nLe véhicule peut être déplacé vers un pont à deux colonnes pour d'autres opérations\nsi nécessaire."
+  ],
+  "type": "procedure",
+  "id": "camshaft-timing-belt-lower-cover-replace-z-20-let-AQS315"
+}

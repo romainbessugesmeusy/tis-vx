@@ -1,0 +1,19 @@
+{
+  "title": "Carrosserie arrière - Compartiment arrière, droit",
+  "components": [
+    {
+      "description": "Feu arrière - Droit",
+      "code": "E4"
+    },
+    {
+      "description": "Lampe - Plaque d'immatriculation, droite",
+      "code": "E11"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "body-rear-rear-compartment-right-AQS315",
+  "diagram": {
+    "src": "/data/assets/c1452881ebc4.cgm",
+    "type": "cgm"
+  }
+}

@@ -1,0 +1,373 @@
+{
+  "title": "Injecteurs de Carburant, Remplacer (Z20LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le réservoir de lave-glace du support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déplacer le réservoir de lave-glace sur le côté"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/372145f87fb3.jpg",
+            "alt": "Object Number: 2419905  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Débrancher la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Desserrer l'écrou et la vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/109869f7b46c.jpg",
+            "alt": "Object Number: 2429428  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Décharger la pression du système de carburant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer le bouchon de protection"
+            },
+            {
+              "bullet": "•",
+              "text": "Connecter le tuyau de raccordement de test (2) du Testeur de Pression KM-J-34730-91 (1) au rail de carburant"
+            },
+            {
+              "bullet": "•",
+              "text": "Recueillir tout carburant s'échappant dans un récipient approprié"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8f83f0ed0394.jpg",
+            "alt": "Object Number: 2421974  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Retirer le Testeur de Pression KM-J-34730-91 (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déconnecter le tuyau de raccordement de test (2) du Testeur de Pression KM-J-34730-91 (1) du rail de carburant"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer le bouchon de protection"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8f83f0ed0394.jpg",
+            "alt": "Object Number: 2421974  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Débrancher le tuyau de reniflard (1) du couvercle de la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'agrafe (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7ef5800454c8.jpg",
+            "alt": "Object Number: 2422448  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Détacher le tuyau de reniflard (1) de l'œillet de levage",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer, puis jeter le collier de serrage (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7ef5800454c8.jpg",
+            "alt": "Object Number: 2422448  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 6
+        },
+        {
+          "text": "Débrancher le tuyau à vide (1) du couvercle de la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'agrafe (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a6cee6aa8972.jpg",
+            "alt": "Object Number: 2422441  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 7
+        },
+        {
+          "text": "Débrancher le tuyau à vide (1) du régulateur de pression de carburant (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "tirer pour déconnecter"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/926c35a52d06.jpg",
+            "alt": "Object Number: 2422442  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 8
+        },
+        {
+          "text": "Débrancher le connecteur du faisceau (1) du capteur de position de papillon",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déverrouiller l'agrafe intégrée"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a957ad2ad382.jpg",
+            "alt": "Object Number: 2422446  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 9
+        },
+        {
+          "text": "Déposer l'ensemble rail de carburant (3) du collecteur d'admission",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 2x vis (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/631b1f0f3cf9.jpg",
+            "alt": "Object Number: 2422449  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ],
+          "number": 10
+        },
+        {
+          "text": "Retirer le couvercle (2) du boîtier pour faisceau d'injecteurs",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 10x agrafe intégrée"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/631b1f0f3cf9.jpg",
+            "alt": "Object Number: 2422449  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 11
+        },
+        {
+          "text": "Retirer les 4x injecteurs (2) de l'ensemble rail de carburant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer les 4x agrafes (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer, puis jeter les 8x joints toriques"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6e0a994d2d4a.jpg",
+            "alt": "Object Number: 2422450  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 12
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Installer 8x nouveaux joints toriques sur les 4x injecteurs",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Installer les 4x injecteurs sur l'ensemble rail de carburant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer les 4x agrafes"
+            }
+          ],
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Fixer l'ensemble rail de carburant au collecteur d'admission",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer, puis serrer 2x vis à 8 Nm"
+            }
+          ],
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Installer le couvercle sur le boîtier pour faisceau d'injecteurs",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer les 10x agrafes intégrées"
+            }
+          ],
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Raccorder le tuyau de reniflard au couvercle de la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe"
+            }
+          ],
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Fixer le tuyau de reniflard à l'œillet de levage",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer un nouveau collier de serrage"
+            }
+          ],
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "Raccorder le connecteur du faisceau au capteur de position de papillon",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe intégrée"
+            }
+          ],
+          "number": 19,
+          "image": null
+        },
+        {
+          "text": "Raccorder le tuyau à vide au régulateur de pression de carburant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "pousser pour connecter"
+            }
+          ],
+          "number": 20,
+          "image": null
+        },
+        {
+          "text": "Raccorder le tuyau à vide au couvercle de la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe"
+            }
+          ],
+          "number": 21,
+          "image": null
+        },
+        {
+          "text": "Raccorder la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer l'écrou et la vis"
+            }
+          ],
+          "number": 22,
+          "image": null
+        },
+        {
+          "text": "Fixer le réservoir de lave-glace au support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "glisser sur"
+            }
+          ],
+          "number": 23,
+          "image": null
+        },
+        {
+          "text": "reprogrammer toutes les mémoires volatiles",
+          "number": 24,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Fixer l'ensemble rail de carburant au collecteur d'admission",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 15
+    },
+    {
+      "component": "Installer, puis serrer 2x vis à 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-J-34730-91"
+  ],
+  "warnings": [
+    "Le carburant peut s'échapper\n– respecter les réglementations de sécurité et la législation nationale applicable."
+  ],
+  "type": "procedure",
+  "id": "fuel-injectors-replace-z20let-AQS315"
+}

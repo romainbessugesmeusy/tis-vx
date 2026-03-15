@@ -1,0 +1,62 @@
+{
+  "title": "Capot Avant, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Ouvrir le capot avant",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le capot avant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 3 vis, 3 rondelles (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e383030a583e.jpg",
+            "alt": "Object Number: 2419661  Size: DEFAULT"
+          },
+          "number": 2
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le capot avant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Poser 3 vis, 3 rondelles (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Aligner le capot avant"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e383030a583e.jpg",
+            "alt": "Object Number: 2419661  Size: DEFAULT"
+          },
+          "number": 3
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "notes": [
+    "Déposer 3 vis, 3 rondelles (1)\n 2. Faire appel à\nun deuxième technicien.\n Note:   Marquer sur le\nmarquage d'alignement.",
+    "Aligner le capot avant\n 2. Faire appel à\nun deuxième technicien"
+  ],
+  "type": "procedure",
+  "id": "front-bonnet-remove-and-install-A26D1C"
+}

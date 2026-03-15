@@ -1,0 +1,119 @@
+{
+  "title": "Moteur Z22SE",
+  "components": [
+    {
+      "description": "Unité de contrôle - Système de freinage antiblocage",
+      "code": "A2"
+    },
+    {
+      "description": "Compteur de tours",
+      "code": "H1.24"
+    },
+    {
+      "description": "Unité de contrôle - Multec",
+      "code": "A4"
+    },
+    {
+      "description": "Relais - Démarreur",
+      "code": "K24"
+    },
+    {
+      "description": "Unité de contrôle - Antidémarrage",
+      "code": "A17"
+    },
+    {
+      "description": "Moteur - Ventilateur de radiateur",
+      "code": "M19"
+    },
+    {
+      "description": "Capteur - Température du liquide de refroidissement",
+      "code": "B12"
+    },
+    {
+      "description": "Pompe - Carburant",
+      "code": "M21"
+    },
+    {
+      "description": "Capteur - Température de l'air d'admission",
+      "code": "B13"
+    },
+    {
+      "description": "Interrupteur d'impact - Coupure de carburant",
+      "code": "S94"
+    },
+    {
+      "description": "Capteur - Position de la pédale",
+      "code": "B19"
+    },
+    {
+      "description": "Bobine d'allumage - Allumage direct",
+      "code": "T1"
+    },
+    {
+      "description": "Capteur - Pression absolue du collecteur d'admission",
+      "code": "B21"
+    },
+    {
+      "description": "Électrovanne - Recirculation des gaz d'échappement",
+      "code": "Y4"
+    },
+    {
+      "description": "Capteur - Contrôle de cliquetis 1",
+      "code": "B30"
+    },
+    {
+      "description": "Électrovanne - Ventilation du réservoir",
+      "code": "Y5"
+    },
+    {
+      "description": "Capteur d'impulsion - Vilebrequin",
+      "code": "B34"
+    },
+    {
+      "description": "Injecteur - Cylindre 1",
+      "code": "Y9.1"
+    },
+    {
+      "description": "Capteur - Oxygène, contrôle du mélange, chauffé",
+      "code": "B117"
+    },
+    {
+      "description": "Injecteur - Cylindre 2",
+      "code": "Y9.2"
+    },
+    {
+      "description": "Capteur - Oxygène, contrôle du convertisseur catalytique",
+      "code": "B118"
+    },
+    {
+      "description": "Injecteur - Cylindre 3",
+      "code": "Y9.3"
+    },
+    {
+      "description": "Témoin - Moteur",
+      "code": "H1.6"
+    },
+    {
+      "description": "Injecteur - Cylindre 4",
+      "code": "Y9.4"
+    },
+    {
+      "description": "Indicateur - Température du liquide de refroidissement",
+      "code": "H1.22"
+    },
+    {
+      "description": "Papillon de gaz - Positionneur",
+      "code": "Y29"
+    },
+    {
+      "description": "Prise diagnostic",
+      "code": "X13"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "engine-z22se-A26D1C",
+  "diagram": {
+    "src": "/data/assets/6b5315525bfa.cgm",
+    "type": "cgm"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Cadre de fixation, Radio, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Radio du cadre de fixation – voir l'opération «Radio, Déposer et Reposer».",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Cadre de fixation – appuyer sur le haut et le bas du cadre de fixation dans le sens des flèches, puis retirer du tableau de bord.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Cadre de fixation – enfoncer pour enclencher dans le tableau de bord.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Radio au cadre de fixation.",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "installation-frame-radio-remove-and-install-A26D1C"
+}

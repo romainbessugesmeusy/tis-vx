@@ -1,0 +1,209 @@
+{
+  "title": "Remplacer le vilebrequin (Moteur déposé) (Z20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Fixer le moteur avec l'adaptateur KM-412-8-A sur le support de révision du moteur KM-412 - déposer les pièces de fixation nécessaires.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer la transmission du bloc-cylindres.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déposer la pompe à huile - voir l'opération « Pompe à Huile, Remplacer ».",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déposer la partie supérieure du carter d'huile - voir l'opération « Carter d'Huile, Supérieur, Remplacer ».",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Déposer l'ensemble arbre d'équilibrage - voir l'opération « Ensemble Arbre d'Équilibrage, Remplacer ».",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Bloquer le volant moteur avec le KM-652 (1) et le déposer du vilebrequin.",
+          "image": {
+            "src": "/data/assets/images/0c9af5dfb1ad.jpg",
+            "alt": "Object Number: 2392789  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 6
+        },
+        {
+          "text": "Marquer l'ordre des chapeaux de bielle (2) - la bille (3) pointe vers le côté de la transmission.",
+          "callouts": [
+            "2",
+            "3"
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Déposer le chapeau de bielle de la bielle.",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Marquer l'ordre des chapeaux de palier de vilebrequin et les déposer du bloc-cylindres.",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Déposer le vilebrequin du bloc-cylindres.",
+          "number": 10,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Nettoyer",
+      "steps": [
+        {
+          "text": "Nettoyer toutes les pièces.",
+          "image": {
+            "src": "/data/assets/images/0c9af5dfb1ad.jpg",
+            "alt": "Object Number: 2392789  Size: DEFAULT"
+          },
+          "number": 11
+        }
+      ],
+      "phase": "clean",
+      "icon": "/data/assets/images/d9fe69774efb.gif"
+    },
+    {
+      "label": "Inspecter",
+      "steps": [
+        {
+          "text": "Vérifier le vilebrequin - voir l'opération « Vilebrequin, Contrôle de l'Ovalisation ».",
+          "number": 12,
+          "image": null
+        }
+      ],
+      "phase": "inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Lors du remplacement du vilebrequin : transférer le disque capteur d'impulsions de vilebrequin (1) avec de nouveaux boulons - couple de serrage 13 Nm",
+          "image": {
+            "src": "/data/assets/images/b6c98f476a30.jpg",
+            "alt": "Object Number: 2392790  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 13
+        },
+        {
+          "text": "Enduire les nouvelles coquilles de palier d'huile moteur et les insérer dans le bloc-cylindres et les chapeaux de palier. Insérer soigneusement le vilebrequin dans le bloc-cylindres. Le positionnement du vilebrequin peut être corrigé par de légers coups sur les manetons du vilebrequin avec un maillet en caoutchouc. Appliquer un cordon de mastic d'étanchéité adhésif (noir) dans les rainures du chapeau de palier principal arrière du vilebrequin. Installer les chapeaux de palier de vilebrequin et de bielle - noter l'identification.",
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Chapeaux de palier de vilebrequin au bloc-cylindres 50 Nm + 45° + 15°",
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Important : Utiliser de nouveaux boulons de fixation.",
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Remarque : Après l'assemblage du chapeau de palier principal arrière, enfoncer à nouveau le mastic d'étanchéité adhésif (noir) par le haut jusqu'à ce qu'il s'échappe des joints.",
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Chapeaux de palier de bielle à la bielle 35 Nm + 45° + 15°",
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "Important : Utiliser de nouveaux boulons de fixation.",
+          "number": 19,
+          "image": null
+        },
+        {
+          "text": "Installer le joint d'étanchéité d'huile de vilebrequin arrière - voir l'opération « Joint d'Étanchéité d'Huile de Vilebrequin, Côté Volant Moteur, Remplacer ».",
+          "image": {
+            "src": "/data/assets/images/b6c98f476a30.jpg",
+            "alt": "Object Number: 2392790  Size: DEFAULT"
+          },
+          "number": 20
+        },
+        {
+          "text": "Installer l'ensemble arbre d'équilibrage - voir l'opération « Ensemble Arbre d'Équilibrage, Remplacer ».",
+          "number": 21,
+          "image": null
+        },
+        {
+          "text": "Installer la partie supérieure du carter d'huile - voir l'opération « Carter d'Huile, Supérieur, Remplacer ».",
+          "number": 22,
+          "image": null
+        },
+        {
+          "text": "Installer la pompe à huile - voir l'opération « Pompe à Huile, Remplacer ».",
+          "number": 23,
+          "image": null
+        },
+        {
+          "text": "Fixer la transmission au bloc-cylindres - couple de serrage 60 Nm",
+          "number": 24,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    },
+    {
+      "label": "Reposer",
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Lors du remplacement du vilebrequin : transférer le disque capteur d'impulsions de vilebrequin (1) avec de nouveaux boulons - couple de serrage 13 Nm",
+      "value": "13",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Chapeaux de palier de vilebrequin au bloc-cylindres 50 Nm + 45° + 15°",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 15
+    },
+    {
+      "component": "Chapeaux de palier de bielle à la bielle 35 Nm + 45° + 15°",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 18
+    },
+    {
+      "component": "Fixer la transmission au bloc-cylindres - couple de serrage 60 Nm",
+      "value": "60",
+      "unit": "Nm",
+      "stepRef": 24
+    }
+  ],
+  "type": "procedure",
+  "id": "crankshaft-replace-engine-removed-z20-let-AQS315"
+}

@@ -1,0 +1,150 @@
+{
+  "title": "Remplacer le Tuyau Intermediaire (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le cache du tuyau d'échappement (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Élever le véhicule"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 12x vis, 12x rondelle, 2x agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/01e61ef5f5d8.jpg",
+            "alt": "Object Number: 2425112  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 1
+        },
+        {
+          "text": "Déposer le tuyau intermédiaire et le bouclier thermique du silencieux arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Desserrer le collier (1) du silencieux"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/95cd95b5c0db.jpg",
+            "alt": "Object Number: 2422575  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Déposer le tuyau intermédiaire et le bouclier thermique du convertisseur catalytique secondaire",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer, puis jeter 3x écrou (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9b9f229c168a.jpg",
+            "alt": "Object Number: 2422577  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Déposer le tuyau intermédiaire et le bouclier thermique du véhicule",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Déposer le bouclier thermique du tuyau d'échappement intermédiaire",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 5x agrafe (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 3x vis, 3x rondelle (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/820b0e98f70c.jpg",
+            "alt": "Object Number: 2422578  Size: DEFAULT"
+          },
+          "number": 5
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le bouclier thermique sur le tuyau d'échappement intermédiaire",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 3x vis, 3x rondelle, 5x agrafe"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Reposer le tuyau intermédiaire et le bouclier thermique sur le véhicule",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Emboîter"
+            },
+            {
+              "bullet": "•",
+              "text": "Positionner le support pour le montage en caoutchouc"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer 3x nouvel écrou"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer le collier pour le tuyau intermédiaire"
+            },
+            {
+              "bullet": "•",
+              "text": "Serrer 3x nouvel écrou"
+            }
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Reposer le cache du tuyau d'échappement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 12x vis, 12x rondelle, 2x agrafe"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 9,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "warnings": [
+    "Un pont élévateur à quatre colonnes doit être utilisé pour élever le véhicule lors du démontage du cache du tuyau d'échappement.\nLe véhicule peut être déplacé vers un pont élévateur à deux colonnes pour d'autres opérations si nécessaire."
+  ],
+  "type": "procedure",
+  "id": "intermediate-pipe-replace-z-20-let-AQS315"
+}

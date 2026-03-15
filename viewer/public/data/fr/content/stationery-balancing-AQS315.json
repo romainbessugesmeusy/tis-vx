@@ -1,0 +1,7 @@
+{
+  "title": "Équilibrage de la papeterie",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Équilibrage de la papeterie</p>\n\n<p>Tout d'abord, éliminer les déséquilibres statiques et dynamiques des pneus nouvellement installés sur un équilibreur stationnaire. Effectuer l'équilibrage de manière extrêmement scrupuleuse. En aucun cas, un déséquilibre résiduel de <span class=\"tech-spec\">3g</span> ne doit être dépassé. Effectuer l'équilibrage des roues selon les instructions du fabricant de l'équilibreur de roues.</p>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "type": "generic",
+  "id": "stationery-balancing-AQS315",
+  "extractedData": {}
+}

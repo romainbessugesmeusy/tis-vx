@@ -1,0 +1,60 @@
+{
+  "title": "Field Remedy: 2275",
+  "subject": "Vitres électriques - Dysfonctionnement",
+  "complaint": "I. Fonction d'ouverture et de fermeture automatique des\nvitres impossible (alimentation coupée). II. Les vitres\ns'ouvrent au-dessus de la position médiane.",
+  "cause": "I. Électronique de la vitre non activée. II.\nVitre rencontre une résistance (par ex. glace).",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "Note: \nAvant de remplacer des pièces, suivre les instructions ci-dessous."
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Fermer les portes, allumer le contact.",
+        "Fermer complètement la vitre et maintenir le bouton 'fermer' pendant 5 secondes."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Note pour Antara uniquement: \nNE PAS!! tirer complètement le bouton en position finale, \nle maintenir pendant 5 secondes en position intermédiaire."
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Ouvrir complètement la vitre sans interruption.",
+        "Répéter pour chaque vitre."
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Essayer de fermer la vitre 3 fois, à la prochaine tentative de fermeture",
+        "la vitre devrait se fermer.",
+        "Si ce n'est pas le cas, fermer la vitre par étapes en appuyant de manière intermittente",
+        "sur le bouton et maintenir le bouton 'fermer' pendant encore 5 secondes."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Note pour Antara uniquement: \nNE PAS!! tirer complètement le bouton en position finale, \nle maintenir pendant 5 secondes en position intermédiaire."
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Si les efforts ont été infructueux, interrompre l'alimentation",
+        "(retirer le fusible lève-vitre pendant une seconde) et répéter la procédure."
+      ]
+    }
+  ],
+  "type": "tsb",
+  "id": "electric-windows-malfunction-AQS315",
+  "metadata": {
+    "functionalGroup": "C - Equipment/Windows",
+    "complaintGroup": "04 - Electrical failures,13 - No/Poor\nFunction",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  },
+  "production": ""
+}

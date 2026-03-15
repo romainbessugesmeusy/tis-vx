@@ -1,0 +1,243 @@
+{
+  "title": "Roulement de roue avant, Remplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Caler les roues arrière",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Élever et soutenir le véhicule",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déposer la roue avant",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déposer l'ensemble étrier de frein du porte-roue",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e91f408abc7e.jpg",
+            "alt": "Object Number: 2419654  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Pour le moyeu de roue de type antérieur, déposer le disque de frein",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer la vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/048da1eb351c.jpg",
+            "alt": "Object Number: 2419655  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Pour le moyeu de roue de type ultérieur, déposer le disque de frein",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer la vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9d902990b3a9.jpg",
+            "alt": "Object Number: 2422944  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Libérer le connecteur du faisceau du capteur de vitesse de roue",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Libérer l'agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8e6f9ae32a2b.jpg",
+            "alt": "Object Number: 2419656  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Pour l'ensemble moyeu de roue de type antérieur, déposer du porte-moyeu Remarque : Le roulement de roue fait partie de l'ensemble moyeu.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer la vis centrale, 4x rondelle, écrou"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 3x vis, 3x rondelle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/88f4b06423df.jpg",
+            "alt": "Object Number: 2419657  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Pour l'ensemble moyeu de roue de type ultérieur, déposer du porte-moyeu Remarque : Le roulement de roue fait partie de l'ensemble moyeu.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 3x vis, 3x rondelle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e5dda15cdf55.jpg",
+            "alt": "Object Number: 2422942  Size: DEFAULT"
+          },
+          "number": 9
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer l'ensemble moyeu de roue sur le porte-moyeu Remarque : Le roulement de roue fait partie de l'ensemble moyeu.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 3x rondelle, 3x vis 90 Nm"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Pour le moyeu de roue de type antérieur, reposer la vis centrale, 4x rondelle, écrou 45 Nm",
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Fixer le connecteur du faisceau au capteur de vitesse de roue",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Reposer le disque de frein sur le moyeu de roue",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer la vis"
+            }
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Reposer l'ensemble étrier de frein sur le porte-moyeu",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 2x vis 45 Nm"
+            }
+          ],
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Reposer la roue avant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 4x vis, vis de sécurité 90"
+            }
+          ],
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Élever le véhicule et retirer le soutien",
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Retirer les cales des roues arrière",
+          "number": 18,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer l'ensemble moyeu de roue sur le porte-moyeu Remarque : Le roulement de roue fait partie de l'ensemble moyeu.",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Pour le moyeu de roue de type antérieur, reposer la vis centrale, 4x rondelle, écrou 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 11
+    },
+    {
+      "component": "Reposer l'ensemble étrier de frein sur le porte-moyeu",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 14
+    },
+    {
+      "component": "Reposer la roue avant",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 15
+    },
+    {
+      "component": "Reposer 3x rondelle, 3x vis 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer 2x vis 45 Nm Remarque : Nettoyer les filetages et appliquer du frein filet.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Pour l'ensemble moyeu de roue de type antérieur, déposer du porte-moyeu\n Le roulement de roue\nfait partie de l'ensemble moyeu.\n \n\n\n\n•  \nDéposer la vis centrale, 4x rondelle, écrou\n \n\n\n\n\n\n•  \nDéposer 3x vis, 3x rondelle",
+    "Pour l'ensemble moyeu de roue de type ultérieur, déposer du porte-moyeu\n Le roulement de roue\nfait partie de l'ensemble moyeu.\n \n\n\n\n•  \nDéposer 3x vis, 3x rondelle",
+    "Reposer l'ensemble moyeu de roue sur le porte-moyeu\n Le roulement de roue\nfait partie de l'ensemble moyeu.\n \n\n\n\n•  \nReposer 3x rondelle, 3x vis 90 Nm",
+    "Reposer 2x vis 45 Nm \n Nettoyer les filetages et\nappliquer du frein filet."
+  ],
+  "type": "procedure",
+  "id": "wheel-bearing-front-replace-AQS315"
+}

@@ -1,0 +1,71 @@
+{
+  "title": "engine-cooling-A26D1C",
+  "components": [
+    {
+      "description": "Déposer l'unité de contrôle - Multec",
+      "code": "A4"
+    },
+    {
+      "description": "Déposer le moteur - Ventilateur de radiateur",
+      "code": "M19"
+    },
+    {
+      "description": "Déposer le capteur - Oxygène, contrôle du mélange, chauffé",
+      "code": "B117"
+    },
+    {
+      "description": "Déposer la pompe - Carburant",
+      "code": "M21"
+    },
+    {
+      "description": "Déposer le capteur - Oxygène, contrôle catalyseur",
+      "code": "B118"
+    },
+    {
+      "description": "Déposer le commutateur d'impact - Coupure de carburant",
+      "code": "S94"
+    },
+    {
+      "description": "Déposer la vanne solénoïde - Ventilation du réservoir",
+      "code": "Y5"
+    },
+    {
+      "description": "Déposer le relais - Ventilateur de radiateur",
+      "code": "K13"
+    },
+    {
+      "description": "Déposer le papillon de gaz - Positionneur",
+      "code": "Y29"
+    },
+    {
+      "description": "Déposer le relais - Impact, déverrouillage des portes",
+      "code": "K103"
+    },
+    {
+      "description": "Déposer le moteur & l'unité de contrôle - Multec",
+      "code": "X22"
+    },
+    {
+      "description": "Déposer le moteur & l'unité de contrôle - Multec",
+      "code": "X45"
+    },
+    {
+      "description": "Déposer le réservoir de carburant & la pompe/capteur de carburant",
+      "code": "X30"
+    },
+    {
+      "description": "Moteur Z20LET",
+      "code": "Z20LET"
+    },
+    {
+      "description": "Moteur Z22SE",
+      "code": "Z22SE"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "engine-cooling-A26D1C",
+  "diagram": {
+    "src": "/data/assets/bf368d28563e.cgm",
+    "type": "cgm"
+  }
+}

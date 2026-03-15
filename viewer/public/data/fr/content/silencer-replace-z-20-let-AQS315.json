@@ -1,0 +1,369 @@
+{
+  "title": "Silencieux, Remplacer (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Débrancher sonde d'oxygène pour catalyseur secondaire",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Débrancher connecteur faisceau moteur (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/692777ecc310.jpg",
+            "alt": "Object Number: 2422576  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer protection sous moteur (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Élever véhicule"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 13x vis, 13x rondelle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Déposer protection sous tuyau d'échappement (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 12x vis, 12x rondelle, 2x agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Libérer faisceau pour catalyseur secondaire",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Libérer 2x agrafe du tablier gauche pour sonde d'oxygène"
+            },
+            {
+              "bullet": "•",
+              "text": "Libérer agrafe du cache thermique du silencieux arrière"
+            }
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Déposer catalyseur secondaire (1) pour échappement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 3x écrou avant (3), puis jeter"
+            },
+            {
+              "bullet": "•",
+              "text": "Dégager support de montage en caoutchouc"
+            },
+            {
+              "bullet": "•",
+              "text": "Dégager support en caoutchouc"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer joint (4) de la jonction avant, puis jeter"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f0c4b7a1574c.jpg",
+            "alt": "Object Number: 2422309  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Retirer tuyau intermédiaire et cache thermique du silencieux arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Dégager collier (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/95cd95b5c0db.jpg",
+            "alt": "Object Number: 2422575  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Libérer support gauche du silencieux arrière du silencieux",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 2x écrou (1), puis jeter"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7522be43fca6.jpg",
+            "alt": "Object Number: 2422574  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Retirer support flexible gauche du silencieux arrière du tablier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 2x vis (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7522be43fca6.jpg",
+            "alt": "Object Number: 2422574  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Libérer support droit du silencieux arrière du silencieux",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 2x écrou (1), puis jeter"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7522be43fca6.jpg",
+            "alt": "Object Number: 2422574  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Retirer support flexible droit du silencieux arrière du tablier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 2x vis (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7522be43fca6.jpg",
+            "alt": "Object Number: 2422574  Size: DEFAULT"
+          },
+          "number": 10
+        },
+        {
+          "text": "Retirer silencieux du véhicule",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tirer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/22ac6ddf2064.jpg",
+            "alt": "Object Number: 2422579  Size: DEFAULT"
+          },
+          "number": 11
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer silencieux sur véhicule",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enfoncer"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Reposer support flexible droit du silencieux arrière sur le tablier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer agrafe"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer 2x vis"
+            }
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Fixer support droit du silencieux arrière sur le silencieux",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 2x nouvel écrou"
+            }
+          ],
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Reposer support flexible gauche du silencieux arrière sur le tablier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer agrafe"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer 2x vis"
+            }
+          ],
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Fixer support gauche du silencieux arrière sur le silencieux",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 2x nouvel écrou"
+            }
+          ],
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Reposer tuyau intermédiaire et cache thermique sur le silencieux arrière",
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Reposer catalyseur secondaire pour échappement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer nouveau joint sur la jonction avant"
+            },
+            {
+              "bullet": "•",
+              "text": "Positionner support pour montage en caoutchouc"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer 3x nouvel écrou arrière"
+            },
+            {
+              "bullet": "•",
+              "text": "Positionner support en caoutchouc"
+            }
+          ],
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "Reposer faisceau sur cache thermique du silencieux arrière pour sonde d'oxygène installée sur catalyseur secondaire",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer agrafe au cache thermique"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer faisceau sur tablier"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer 2x agrafe"
+            }
+          ],
+          "number": 19,
+          "image": null
+        },
+        {
+          "text": "Fixer collier pour tuyau intermédiaire",
+          "number": 20,
+          "image": null
+        },
+        {
+          "text": "Reposer protection sous moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 13x vis, 13x rondelle"
+            }
+          ],
+          "number": 21,
+          "image": null
+        },
+        {
+          "text": "Reposer protection sous tuyau d'échappement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 12x vis, 12x rondelle, 2x agrafe"
+            }
+          ],
+          "number": 22,
+          "image": null
+        },
+        {
+          "text": "Abaisser véhicule",
+          "number": 23,
+          "image": null
+        },
+        {
+          "text": "Raccorder sonde d'oxygène pour catalyseur secondaire au faisceau moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Raccorder connecteur du faisceau"
+            }
+          ],
+          "number": 24,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "warnings": [
+    "Un pont élévateur à quatre colonnes doit être utilisé pour soulever le véhicule lors du retrait de la protection sous moteur et de la protection sous tuyau d'échappement. Le véhicule peut être déplacé vers un pont à deux colonnes pour d'autres opérations si nécessaire."
+  ],
+  "notes": [
+    "Retirer joint (4) de la jonction avant, puis jeter\n L'illustration\nmontre l'échappement retiré pour plus de clarté.",
+    "Retirer agrafe\n L'illustration\nmontre le côté gauche uniquement."
+  ],
+  "type": "procedure",
+  "id": "silencer-replace-z-20-let-AQS315"
+}

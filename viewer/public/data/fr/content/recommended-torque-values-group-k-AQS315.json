@@ -1,0 +1,93 @@
+{
+  "title": "Valeurs de Couple de Serrage Recommandées – Groupe K",
+  "group": "K",
+  "values": [
+    {
+      "component": "Vis de purge d'embrayage",
+      "value": "9",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de plateau de pression d'embrayage au volant moteur",
+      "value": "15",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons centraux de libération vers la transmission",
+      "value": "5",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons M7 x 1.0 du couvercle de protection d'extrémité vers la transmission",
+      "value": "15",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons M8 x 1.25 du couvercle de protection d'extrémité vers la transmission",
+      "value": "20",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis de vidange de liquide",
+      "value": "35",
+      "unit": "Nm"
+    },
+    {
+      "component": "Bouchon de remplissage de liquide",
+      "value": "35",
+      "unit": "Nm"
+    },
+    {
+      "component": "Bouchon de niveau de liquide",
+      "value": "35",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons du support de bloc d'amortissement moteur gauche vers la transmission",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons du bloc d'amortissement moteur gauche vers le support moteur",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Écrous du maître-cylindre vers le support de fixation",
+      "value": "20",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons du carter d'huile vers la transmission",
+      "value": "40",
+      "unit": "Nm"
+    },
+    {
+      "component": "Union de ligne de pression vers la libération centrale",
+      "value": "14",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de plateau de pression",
+      "value": "15",
+      "unit": "Nm"
+    },
+    {
+      "component": "Interrupteur de feu de recul",
+      "value": "20",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons du bloc d'amortissement moteur droit vers le support moteur",
+      "value": "85",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de la transmission vers le moteur",
+      "value": "60",
+      "unit": "Nm"
+    }
+  ],
+  "type": "torque_table",
+  "id": "recommended-torque-values-group-k-AQS315"
+}

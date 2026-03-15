@@ -1,0 +1,37 @@
+{
+  "title": "Outils Spéciaux - Groupe C",
+  "group": "C",
+  "tools": [
+    {
+      "name": "Extracteur",
+      "code": "KM-210-B",
+      "description": null
+    },
+    {
+      "name": "Ventouse",
+      "code": "MKM-641",
+      "description": null
+    },
+    {
+      "name": "Unité de déploiement pour l'unité d'airbag",
+      "code": "KM-799-B",
+      "description": null
+    },
+    {
+      "name": "Couteau oscillant",
+      "code": "MKM-846-1P",
+      "description": null
+    },
+    {
+      "name": "Fil de coupe",
+      "code": "KM-2063/MKM-589-C",
+      "description": null
+    }
+  ],
+  "image": {
+    "src": "/data/assets/images/ca22ba3cf40c.jpg",
+    "alt": "Numéro d'objet : 2422229  Taille : DEFAULT"
+  },
+  "type": "tool_list",
+  "id": "special-service-tools-group-c-A26D1C"
+}

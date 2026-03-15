@@ -1,0 +1,131 @@
+{
+  "title": "Alternateur, Vérification",
+  "phases": [
+    {
+      "label": "Inspecter",
+      "steps": [
+        {
+          "text": "Remarque : Cette vérification comprend une mesure du courant de sortie et de la tension régulée. Vérifier d'abord la tension régulée. Utiliser un oscilloscope adapté pour tester simultanément les composants électroniques.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "L'alternateur peut être testé soit en position d'installation dans le véhicule, soit retiré du véhicule sur un banc d'essai d'alternateur. La description suivante concerne un test d'alternateur dans le véhicule, mais les étapes sont les mêmes pour un test sur un banc d'essai d'alternateur.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Une batterie entièrement chargée est nécessaire pour ce test.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Attention !",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Observer les mesures de sécurité suivantes :",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Vérifier la puissance de l'alternateur :",
+          "image": {
+            "src": "/data/assets/images/8ec097c75769.jpg",
+            "alt": "Object Number: 2378020  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Schéma de courant :",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Débrancher la batterie et le câble de connexion du terminal d'alternateur \"B+\". Connecter un ampèremètre (plage de mesure 100 A) au câble débranché.",
+          "image": {
+            "src": "/data/assets/images/8ec097c75769.jpg",
+            "alt": "Object Number: 2378020  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Connecter une résistance de ballast variable au terminal de la batterie. Régler la résistance à \"0\" avant de connecter. Connecter d'abord à la batterie, puis à la résistance. Connecter un compte-tours. Connecter l'oscilloscope conformément aux instructions du fabricant. Connecter la batterie.",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Démarrer le moteur et mesurer la tension de sortie à différentes vitesses du moteur.",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Vérifier la puissance de l'alternateur :",
+          "image": {
+            "src": "/data/assets/images/e6fc4f798639.jpg",
+            "alt": "Object Number: 2393671  Size: DEFAULT"
+          },
+          "number": 11
+        },
+        {
+          "text": "Si les courants de charge requis ne sont pas atteints, ajuster la résistance de ballast. Les courbes de tension sur l'oscilloscope doivent être uniformes. Valeur de test : 5 à 7 A.",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Si le courant minimum requis n'est pas atteint ou si l'affichage sur l'oscilloscope fluctue, réviser l'alternateur.",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Tension régulée : schéma de courant",
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Vérifier la tension régulée :",
+          "image": {
+            "src": "/data/assets/images/e6fc4f798639.jpg",
+            "alt": "Object Number: 2393671  Size: DEFAULT"
+          },
+          "number": 15
+        },
+        {
+          "text": "Connecter le compte-tours, le voltmètre, l'ampèremètre et la résistance de ballast conformément aux instructions du fabricant.",
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Débrancher la batterie. Débrancher le câble de connexion du terminal d'alternateur \"B+\". Connecter un ampèremètre (plage de mesure 100 A) entre le câble débranché et le terminal d'alternateur \"B+\". Connecter une résistance en série avec la batterie.",
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Démarrer le moteur. Ajuster la résistance de ballast jusqu'à ce que l'ampèremètre affiche la valeur spécifiée. Lire la tension régulée - valeurs de test : se référer aux \"Données techniques\".",
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "Attention !",
+          "number": 19,
+          "image": null
+        },
+        {
+          "text": "L'alternateur ne doit être testé qu'avec une batterie entièrement chargée connectée en parallèle. Ne pas débrancher la résistance de ballast ou la batterie tant que l'alternateur n'est pas à l'arrêt.",
+          "number": 20,
+          "image": null
+        },
+        {
+          "text": "Le fait de débrancher la résistance de ballast sans que la batterie ne soit connectée en parallèle entraîne des surtensions qui peuvent endommager les diodes de l'alternateur.",
+          "number": 21,
+          "image": null
+        }
+      ],
+      "phase": "inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "alternator-check-A26D1C"
+}

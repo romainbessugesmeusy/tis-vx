@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Secure lower fixing's of 2x hard top bracket",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "hard-top-adjust-A26D1C"
+    },
+    {
+      "component": "Secure upper fixing's of 2x rear hard top bracket",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 9,
+      "sourcePage": "hard-top-adjust-A26D1C"
+    },
+    {
+      "component": "Tighten 4x bolt 10 Nm Note: Maintain maximum contact with front header seal.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "hard-top-adjust-A26D1C"
+    },
+    {
+      "component": "Install swivel joint carrier to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 13,
+      "sourcePage": "hub-carrier-replace-A26D1C"
+    },
+    {
+      "component": "Install track control arm to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 14,
+      "sourcePage": "hub-carrier-replace-A26D1C"
+    },
+    {
+      "component": "Install ball joint of lower wishbone to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 15,
+      "sourcePage": "hub-carrier-replace-A26D1C"
+    },
+    {
+      "component": "Install drive shaft to wheel hub",
+      "value": "220",
+      "unit": "Nm",
+      "stepRef": 17,
+      "sourcePage": "hub-carrier-replace-A26D1C"
+    },
+    {
+      "component": "Install brake caliper to hub carrier",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": 18,
+      "sourcePage": "hub-carrier-replace-A26D1C"
+    },
+    {
+      "component": "Install brake disc to hub carrier",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": 19,
+      "sourcePage": "hub-carrier-replace-A26D1C"
+    },
+    {
+      "component": "Tighten 2x bolt 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "hub-carrier-replace-A26D1C"
+    },
+    {
+      "component": "Install nut 220 Nm",
+      "value": "220",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "hub-carrier-replace-A26D1C"
+    },
+    {
+      "component": "Install bolt 48 Nm",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "hub-carrier-replace-A26D1C"
+    },
+    {
+      "component": "Install screw 12 Nm",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "hub-carrier-replace-A26D1C"
+    },
+    {
+      "component": "Close valve and remove hose, tighten valve – 9 Nm .",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 11,
+      "sourcePage": "hydraulic-clutch-bleed-A26D1C"
+    },
+    {
+      "component": "Working in a spiral pattern from the middle towards the outside, tighten the bolts on the camshaft bearing caps (I to VI) in stages.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 32,
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Working in a spiral pattern from the middle towards the outside, tighten the bolts on the camshaft bearing caps (I to VI) in stages.",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 32,
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the camshaft connecting flange cover.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 33,
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the intake camshaft sprocket.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 34,
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the exhaust camshaft sprocket.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 35,
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the camshaft timing chain tensioner.",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 36,
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the guide rail.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 39,
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 46,
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 46,
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the ignition module.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 47,
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Connect the fuel lines.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 48,
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Connect the fuel lines.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 48,
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the rear engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 49,
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque (M6) 9 Nm , (M8) 22 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque (M6) 9 Nm , (M8) 22 Nm",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 85 Nm + 30° + 15°",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 75 Nm",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "hydraulic-tappets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install air bag unit",
+      "value": "7",
+      "unit": "Nm",
+      "stepRef": 17,
+      "sourcePage": "immobiliser-control-unit-replace-A26D1C"
+    },
+    {
+      "component": "Install 2x screw 7 Nm",
+      "value": "7",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "immobiliser-control-unit-replace-A26D1C"
+    },
+    {
+      "component": "Install the throttle body.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 12,
+      "sourcePage": "intake-manifold-pressure-sensor-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the air intake pipe.",
+      "value": "5",
+      "unit": "Nm",
+      "stepRef": 14,
+      "sourcePage": "intake-manifold-pressure-sensor-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the rear engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 15,
+      "sourcePage": "intake-manifold-pressure-sensor-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "intake-manifold-pressure-sensor-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 3,5 Nm",
+      "value": "5",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "intake-manifold-pressure-sensor-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "intake-manifold-pressure-sensor-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Intake manifold to cylinder head – nuts 10 Nm , use new gaskets.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 15,
+      "sourcePage": "intake-manifold-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Guide tube to intake manifold – bolt (arrow) 10 Nm .",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "intake-manifold-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Knock control sensor (1) to the engine – bolt 25 Nm .",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 4,
+      "sourcePage": "knock-control-sensor-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install the lambda probe for catalytic converter monitoring. Note: When reusing the lambda probe, coat the thread with special grease (black).",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": 11,
+      "sourcePage": "lambda-probe-post-catalytic-converter-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Secure rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 17,
+      "sourcePage": "lambda-probe-post-catalytic-converter-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 40 Nm",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "lambda-probe-post-catalytic-converter-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt ( 90 Nm )",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "lambda-probe-post-catalytic-converter-replace-z-22-se-A26D1C"
+    }
+  ]
+}

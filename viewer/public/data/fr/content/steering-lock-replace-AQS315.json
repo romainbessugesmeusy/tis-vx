@@ -1,0 +1,47 @@
+{
+  "title": "Remplacer la serrure de direction",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer les cache-colonnes supérieur et inférieur – vis.",
+          "image": {
+            "src": "/data/assets/images/70962b6a13a4.jpg",
+            "alt": "Object Number: 2393913  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer le cylindre de serrure du boîtier de serrure en insérant la clé de contact dans la serrure de contact, puis en appuyant sur le ressort avec le cylindre de serrure en position 1 (utiliser du fil ou un petit tournevis).",
+          "number": 2,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Appuyer sur le ressort avec le cylindre de serrure en position 1 à l'aide de fil ou d'un petit tournevis. Insérer le cylindre de serrure et le faire glisser jusqu'à ce qu'il soit complètement enclenché.",
+          "image": {
+            "src": "/data/assets/images/6e6749f828c4.jpg",
+            "alt": "Object Number: 2429702  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Cache-colonnes supérieur et inférieur de la direction – vis.",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "steering-lock-replace-AQS315"
+}

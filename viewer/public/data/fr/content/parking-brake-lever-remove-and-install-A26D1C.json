@@ -1,0 +1,65 @@
+{
+  "title": "Levier de frein à main, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Garniture de frein à main du levier de frein à main.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Câble de frein à main du levier de frein à main – agrafe et goupille.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Levier de frein à main du support – deux vis, rondelles et entretoises.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Levier de frein à main au support – deux vis, rondelles et entretoises.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Câble de frein à main au levier de frein à main – goupille et agrafe.",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Garniture de frein à main au levier de frein à main.",
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    },
+    {
+      "label": "Ajuster",
+      "steps": [
+        {
+          "text": "Frein à main – voir l'opération \"Frein à main, Contrôler et Ajuster\".",
+          "image": {
+            "src": "/data/assets/images/c431c61a194e.jpg",
+            "alt": "Object Number: 2429424  Size: DEFAULT"
+          },
+          "number": 7
+        }
+      ],
+      "phase": "adjust",
+      "icon": "/data/assets/images/8bcc88ed08ca.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "parking-brake-lever-remove-and-install-A26D1C"
+}

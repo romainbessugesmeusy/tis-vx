@@ -1,0 +1,75 @@
+{
+  "title": "interior-lights-A26D1C",
+  "components": [
+    {
+      "description": "Lampe - Habitacle",
+      "code": "E39"
+    },
+    {
+      "description": "Interrupteur - Unité d'essuie-glace",
+      "code": "S22"
+    },
+    {
+      "description": "Relais - Essuie-glace, pare-brise (Étape 1/Interval)",
+      "code": "K10"
+    },
+    {
+      "description": "Interrupteur - Essuie-glace, pare-brise",
+      "code": "S22.1"
+    },
+    {
+      "description": "Moteur - Ventilateur, habitacle",
+      "code": "M12"
+    },
+    {
+      "description": "Interrupteur - Lave-glace, pare-brise",
+      "code": "S22.2"
+    },
+    {
+      "description": "Moteur - Essuie-glace, pare-brise",
+      "code": "M16"
+    },
+    {
+      "description": "Interrupteur à contact - Porte conducteur",
+      "code": "S38"
+    },
+    {
+      "description": "Pompe - Lave-glace, pare-brise",
+      "code": "M26"
+    },
+    {
+      "description": "Interrupteur à contact - Porte passager avant",
+      "code": "S39"
+    },
+    {
+      "description": "Allume-cigare",
+      "code": "R10"
+    },
+    {
+      "description": "Interrupteur - Ventilateur, chauffage",
+      "code": "S69"
+    },
+    {
+      "description": "Prérésistance - Ventilateur, chauffage",
+      "code": "R11"
+    },
+    {
+      "description": "Faisceau principal & Ventilateur habitacle",
+      "code": "X10"
+    },
+    {
+      "description": "Faisceau principal & Faisceau d'extension, interrupteur à contact - Porte passager avant",
+      "code": "X26"
+    },
+    {
+      "description": "Faisceau principal & Faisceau d'extension, interrupteur à contact - Porte conducteur",
+      "code": "X25"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "interior-lights-A26D1C",
+  "diagram": {
+    "src": "/data/assets/9c69d71cda65.cgm",
+    "type": "cgm"
+  }
+}

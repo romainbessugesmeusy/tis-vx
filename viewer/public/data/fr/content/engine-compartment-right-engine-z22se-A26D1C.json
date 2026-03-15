@@ -1,0 +1,15 @@
+{
+  "title": "Compartiment moteur - Droit",
+  "components": [
+    {
+      "description": "Valve de solénoïde - Ventilation du réservoir",
+      "code": "Y5"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "engine-compartment-right-engine-z22se-A26D1C",
+  "diagram": {
+    "src": "/data/assets/ce0a4427aa36.cgm",
+    "type": "cgm"
+  }
+}

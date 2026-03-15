@@ -1,0 +1,543 @@
+{
+  "title": "Colonne de direction, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Déposer le capote du véhicule - voir l'opération «Déposer et Reposer le capote souple»",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Ouvrir le capot",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déconnecter la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer le réservoir de lave-glace du support de fixation"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer l'écrou"
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déposer l'airbag du volant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x vis (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Déconnecter le connecteur du faisceau"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ae506f81df45.jpg",
+            "alt": "Object Number: 2419663  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Déconnecter le commutateur de klaxon de l'ensemble du commutateur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déconnecter le connecteur du faisceau"
+            }
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Déposer le volant de la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 4x vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f2a47ebbaf58.jpg",
+            "alt": "Object Number: 2429724  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Desserrer la vis supérieure de l'arbre intermédiaire",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'écrou, la vis"
+            }
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Déposer le couvercle supérieur de la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 6x vis (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e3632d63f899.jpg",
+            "alt": "Object Number: 2429510  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Déposer le couvercle inférieur de la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 3x vis (2), déposer l'agrafe, déconnecter le connecteur du faisceau"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e3632d63f899.jpg",
+            "alt": "Object Number: 2429510  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Déposer le commutateur de clignotant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e3632d63f899.jpg",
+            "alt": "Object Number: 2429510  Size: DEFAULT"
+          },
+          "number": 10
+        },
+        {
+          "text": "Déposer le commutateur d'essuie-glace",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e3632d63f899.jpg",
+            "alt": "Object Number: 2429510  Size: DEFAULT"
+          },
+          "number": 11
+        },
+        {
+          "text": "Déconnecter l'unité de contact de l'airbag",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Défaire le collier de serrage, déconnecter le connecteur du faisceau"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Déposer le moyeu du volant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'écrou, la rondelle, libérer le ressort"
+            }
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Déposer le boîtier du commutateur de clignotant de la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x vis torx, rondelle"
+            }
+          ],
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Déposer le barillet d'allumage et le commutateur d'allumage de la colonne de direction — voir l'opération «Remplacer le commutateur d'allumage pour ensemble de verrouillage de colonne de direction»",
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Déposer le boîtier d'instruments du tableau de bord",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Incliner le boîtier d'instruments vers l'avant"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a6f8abf3d258.jpg",
+            "alt": "Object Number: 2419711  Size: DEFAULT"
+          },
+          "number": 16
+        },
+        {
+          "text": "Déposer la colonne de direction du tableau de bord",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x boulon, rondelle"
+            }
+          ],
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Déposer le bas de la colonne de direction du tablier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer la vis, la rondelle"
+            }
+          ],
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "Déposer le joint universel de la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer la vis, l'écrou"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/00eac3977121.jpg",
+            "alt": "Object Number: 2389571  Size: DEFAULT"
+          },
+          "number": 19
+        },
+        {
+          "text": "Déposer le support de couvercle de la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer la vis, libérer l'agrafe"
+            }
+          ],
+          "number": 20,
+          "image": null
+        },
+        {
+          "text": "Déposer la colonne de direction du véhicule",
+          "number": 21,
+          "image": null
+        },
+        {
+          "text": "Reposer la colonne de direction dans le véhicule",
+          "number": 22,
+          "image": null
+        },
+        {
+          "text": "Fixer le support de couvercle de la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer la vis, fixer l'agrafe"
+            }
+          ],
+          "number": 23,
+          "image": null
+        },
+        {
+          "text": "Installer le joint universel sur la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer la vis, l'écrou 35 Nm"
+            }
+          ],
+          "number": 24,
+          "image": null
+        },
+        {
+          "text": "Fixer la colonne de direction au tableau de bord",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 2x rondelle, 2x boulon 22.5"
+            }
+          ],
+          "number": 25,
+          "image": null
+        },
+        {
+          "text": "Fixer la colonne de direction au tablier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer la rondelle, la vis 45 Nm"
+            }
+          ],
+          "number": 26,
+          "image": null
+        },
+        {
+          "text": "Installer le boîtier d'instruments sur le tableau de bord",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 2x boulon, rondelle, fixer le connecteur du faisceau"
+            }
+          ],
+          "number": 27,
+          "image": null
+        },
+        {
+          "text": "Installer le commutateur d'allumage sur la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer la vis"
+            }
+          ],
+          "number": 28,
+          "image": null
+        },
+        {
+          "text": "Installer l'antidémarrage et le barillet d'allumage sur la colonne de direction",
+          "number": 29,
+          "image": null
+        },
+        {
+          "text": "Installer le boîtier du commutateur de clignotant sur la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 2x vis torx, rondelle"
+            }
+          ],
+          "number": 30,
+          "image": null
+        },
+        {
+          "text": "Installer le moyeu du volant sur la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer le nouvel écrou, la rondelle, fixer le ressort 25 Nm"
+            }
+          ],
+          "number": 31,
+          "image": null
+        },
+        {
+          "text": "Connecter l'unité de contact de l'airbag à la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer le connecteur du faisceau, fixer le collier de serrage"
+            }
+          ],
+          "number": 32,
+          "image": null
+        },
+        {
+          "text": "Installer le commutateur d'essuie-glace sur la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer 2x agrafe"
+            }
+          ],
+          "number": 33,
+          "image": null
+        },
+        {
+          "text": "Installer le commutateur de clignotant sur la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe"
+            }
+          ],
+          "number": 34,
+          "image": null
+        },
+        {
+          "text": "Installer le couvercle inférieur sur la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 3x vis, fixer l'agrafe, fixer le connecteur du faisceau"
+            }
+          ],
+          "number": 35,
+          "image": null
+        },
+        {
+          "text": "Installer le couvercle supérieur sur la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 6x vis"
+            }
+          ],
+          "number": 36,
+          "image": null
+        },
+        {
+          "text": "Installer la vis supérieure sur l'arbre intermédiaire 22.5 Nm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer l'écrou"
+            }
+          ],
+          "number": 37,
+          "image": null
+        },
+        {
+          "text": "Installer le volant sur la colonne de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 4x vis"
+            }
+          ],
+          "number": 38,
+          "image": null
+        },
+        {
+          "text": "Connecter le commutateur de klaxon à l'ensemble du commutateur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer le connecteur du faisceau"
+            }
+          ],
+          "number": 39,
+          "image": null
+        },
+        {
+          "text": "Installer l'airbag sur le volant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 2x vis"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer le connecteur du faisceau"
+            }
+          ],
+          "number": 40,
+          "image": null
+        },
+        {
+          "text": "Connecter la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer l'écrou"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer le réservoir de lave-glace sur le support de fixation"
+            }
+          ],
+          "number": 41,
+          "image": null
+        },
+        {
+          "text": "Fermer le capot",
+          "number": 42,
+          "image": null
+        },
+        {
+          "text": "Installer le capote du véhicule - voir l'opération «Déposer et Reposer le capote souple»",
+          "number": 43,
+          "image": null
+        },
+        {
+          "text": "Programmer tous les souvenirs volatils",
+          "number": 44,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Installer le joint universel sur la colonne de direction",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 24
+    },
+    {
+      "component": "Fixer la colonne de direction au tableau de bord",
+      "value": "22.5",
+      "unit": "Nm",
+      "stepRef": 25
+    },
+    {
+      "component": "Fixer la colonne de direction au tablier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 26
+    },
+    {
+      "component": "Installer le moyeu du volant sur la colonne de direction",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 31
+    },
+    {
+      "component": "Installer la vis supérieure sur l'arbre intermédiaire 22.5 Nm",
+      "value": "22.5",
+      "unit": "Nm",
+      "stepRef": 37
+    },
+    {
+      "component": "Installer la vis, l'écrou 35 Nm",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer 2x rondelle, 2x boulon 22.5 Nm",
+      "value": "22.5",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer la rondelle, la vis 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer le nouvel écrou, la rondelle, fixer le ressort 25 Nm Note : Tourner la rondelle vers le haut contre l'écrou pour fixer.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Installer le nouvel écrou, la rondelle, fixer le ressort 25 Nm \n Tourner la rondelle\nvers le haut contre l'écrou pour fixer."
+  ],
+  "type": "procedure",
+  "id": "steering-column-remove-and-install-AQS315"
+}

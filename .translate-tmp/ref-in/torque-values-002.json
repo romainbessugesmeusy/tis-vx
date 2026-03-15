@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Install the guide rail.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 37,
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 44,
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 44,
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the ignition module.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 45,
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Connect the fuel lines.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 46,
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Connect the fuel lines.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 46,
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the rear engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 47,
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque (M6) 9 Nm , (M8) 22 Nm",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 85 Nm + 30° + 15°",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 75 Nm",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-followers-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the intake camshaft sprocket.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 18,
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the exhaust camshaft sprocket.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 19,
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the camshaft timing chain tensioner.",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 20,
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the guide rail.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 23,
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 30,
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 30,
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the ignition module.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 31,
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Connect the fuel lines.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 32,
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Connect the fuel lines.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 32,
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the rear engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 33,
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 85 Nm + 30° + 15°",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 75 Nm",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshaft-sprockets-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the exhaust camshaft.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 23,
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the camshaft connecting flange cover.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 27,
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the intake camshaft sprocket.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 28,
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the exhaust camshaft sprocket.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 29,
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the camshaft timing chain tensioner.",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 30,
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the guide rail.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 33,
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 40,
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 40,
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the ignition module.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 41,
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the exhaust camshaft sprocket.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 42,
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Connect the fuel lines.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 43,
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Connect the fuel lines.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 43,
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the rear engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 44,
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 85 Nm + 30° + 15°",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 75 Nm",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C"
+    }
+  ]
+}

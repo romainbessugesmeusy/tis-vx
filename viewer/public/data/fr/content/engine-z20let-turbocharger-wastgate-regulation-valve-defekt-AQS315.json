@@ -1,0 +1,22 @@
+{
+  "title": "Field Remedy: 1795",
+  "subject": "Moteur Z20LET - Soupape de régulation de la wastegate du turbo\ndéfectueuse",
+  "complaint": "Fluctuation de puissance en charge élevée / pleine\ncharge. Aucun code d'erreur enregistré.",
+  "cause": "Fuite interne de la soupape de régulation de la wastegate du turbo.",
+  "production": "Des soupapes de régulation de la wastegate améliorées ont été\nintroduites en production à partir des VIN suivants :\nBochum I W0L0TGF7542184350 (30.04.2004), Anvers W0L0AHL4845178538\n(30.04.2004), Ellesmere Port W0L0AHL4848082282 (30.04.2004),\nBertone W0L0TGF674B007479 (30.04.2004).",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "En cas de réclamation du client, remplacer la soupape de régulation de la wastegate défectueuse\n(réf. pièce : 55557806 / réf. catalogue : 58 50 129) et en installer une nouvelle.\nIl n'est pas nécessaire de remplacer le turbo."
+    }
+  ],
+  "type": "tsb",
+  "id": "engine-z20let-turbocharger-wastgate-regulation-valve-defekt-AQS315",
+  "metadata": {
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "18 - Poor Drivebility",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "title": "Remplacer la Pompe de Refroidissement Auxiliaire (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le bouchon du réservoir de liquide de refroidissement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "S'assurer que le moteur est froid"
+            }
+          ],
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le cache inférieur du moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Élever le véhicule"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 13x vis, 13x rondelle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1d1ad92dd5ed.jpg",
+            "alt": "Object Number: 2425071  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Vidanger le système de refroidissement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Placer un récipient de collecte"
+            },
+            {
+              "bullet": "•",
+              "text": "Déconnecter la durite inférieure du liquide de refroidissement du tuyau d'alimentation du radiateur"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer, puis jeter l'agrafe (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/97ecaa5b26f9.jpg",
+            "alt": "Object Number: 2422465  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Déconnecter le faisceau moteur de la pompe de refroidissement auxiliaire",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déconnecter le connecteur du faisceau"
+            }
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Déconnecter la durite (4) du boîtier de distribution de la pompe de refroidissement auxiliaire",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Libérer l'agrafe (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c3295866f5ce.jpg",
+            "alt": "Object Number: 2422663  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ],
+          "number": 6
+        },
+        {
+          "text": "Déconnecter la durite de chauffage (1) de la pompe de refroidissement auxiliaire",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Libérer l'agrafe (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c3295866f5ce.jpg",
+            "alt": "Object Number: 2422663  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 7
+        },
+        {
+          "text": "Déposer la pompe de refroidissement auxiliaire du support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Faire glisser"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c3295866f5ce.jpg",
+            "alt": "Object Number: 2422663  Size: DEFAULT"
+          },
+          "number": 8
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer la pompe de refroidissement auxiliaire sur le support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Faire glisser"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Connecter la durite de chauffage à la pompe de refroidissement auxiliaire",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Connecter la durite du boîtier de distribution à la pompe de refroidissement auxiliaire",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Élever le véhicule",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Connecter le faisceau moteur à la pompe de refroidissement auxiliaire",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Connecter le connecteur du faisceau"
+            }
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Connecter la durite inférieure du liquide de refroidissement au tuyau d'alimentation du radiateur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer l'agrafe"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer une nouvelle agrafe"
+            }
+          ],
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Installer le cache inférieur du moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 13x vis, 13x rondelle"
+            }
+          ],
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Remplir le système de refroidissement",
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Appliquer une pression au système de refroidissement de 1,0 bar à 1,5 bar",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser un outil disponible dans le commerce"
+            }
+          ],
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "Purger le système de refroidissement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ouvrir la vanne de purge du moteur (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Ouvrir la vanne de purge du radiateur (2), côté gauche du radiateur"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/056bd03f13cf.jpg",
+            "alt": "Object Number: 2422641  Size: DEFAULT"
+          },
+          "number": 19
+        },
+        {
+          "text": "Relâcher la pression du système de refroidissement",
+          "number": 20,
+          "image": null
+        },
+        {
+          "text": "Installer le bouchon sur le réservoir de liquide de refroidissement",
+          "number": 21,
+          "image": null
+        },
+        {
+          "text": "Vérifier le niveau de liquide de refroidissement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Compléter si nécessaire"
+            }
+          ],
+          "number": 22,
+          "image": null
+        },
+        {
+          "text": "Faire fonctionner le moteur jusqu'à ce que la température de fonctionnement soit atteinte",
+          "number": 23,
+          "image": null
+        },
+        {
+          "text": "Vérifier le niveau de liquide de refroidissement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Compléter si nécessaire"
+            }
+          ],
+          "number": 24,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "warnings": [
+    "Un pont élévateur à quatre colonnes doit être utilisé pour\nélever le véhicule lors du retrait du cache inférieur du moteur.\nLe véhicule peut être déplacé vers un pont élévateur à deux colonnes pour d'autres opérations\nsi nécessaire.",
+    "Respecter les réglementations environnementales\napplicables lors de l'élimination du liquide de refroidissement usagé et\ndes lubrifiants."
+  ],
+  "type": "procedure",
+  "id": "auxiliary-coolant-pump-replace-z-20-let-AQS315"
+}

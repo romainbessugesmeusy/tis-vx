@@ -1,0 +1,265 @@
+{
+  "title": "Ring Gear, Differential, Remplacer",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Illustration du différentiel",
+          "image": {
+            "src": "/data/assets/images/9391969e87f8.jpg",
+            "alt": "Object Number: 2415550  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer la transmission du véhicule - voir l'opération «Transmission, Déposer et Reposer»",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Démonter la transmission - voir l'opération «Transmission, Joint d'étanchéité Complètement»",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déposer les roulements coniques du différentiel - voir l'opération «Roulements Coniques - Différentiel, Déposer et Reposer» Remarque : Lors du remplacement de la couronne de différentiel, le réglage du peigne de pression doit être déterminé et ajusté si nécessaire. À cette fin, les roulements coniques doivent être retirés du différentiel",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Déterminer la dimension (I) (distance de la hauteur de la couronne de différentiel à l'assise du roulement conique du différentiel du côté du carter de transmission) à l'aide d'un pied à coulisse numérique disponible dans le commerce, avec une plage de mesure d'au moins 250 mm et une graduation de 0,01 mm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "La mesure est effectuée à trois points de mesure (flèches)"
+            },
+            {
+              "bullet": "•",
+              "text": "Les valeurs mesurées sont ajoutées et divisées par le nombre de"
+            },
+            {
+              "bullet": "•",
+              "text": "Cette méthode de calcul est illustrée dans le tableau ci-dessous"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/941dc83e781c.jpg",
+            "alt": "Object Number: 2416937  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Le but des tableaux suivants est d'expliquer le réglage du peigne de pression à l'aide d'un calcul d'exemple",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Après l'installation de la nouvelle couronne de différentiel, dont le remplacement est décrit dans cette opération, une mesure doit être effectuée de la même manière pour la nouvelle couronne de différentiel",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Si une valeur diffère de plus de 0,08 mm des autres valeurs, la mesure doit être répétée car une erreur de mesure s'est produite",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "La valeur moyenne de l'ancienne couronne de différentiel est ensuite soustraite de la valeur moyenne de la nouvelle couronne de différentiel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "± Différence"
+            },
+            {
+              "bullet": "•",
+              "text": "± Différence"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Si la différence entre l'ancienne et la nouvelle couronne de différentiel est supérieure à +0,02/-0,06 mm , alors le collier de pression doit être ajusté",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Sélectionner la cale",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Si la différence est positive (+), alors la cale (transmission"
+            },
+            {
+              "bullet": "•",
+              "text": "Si la différence est négative (-), alors la cale (transmission"
+            },
+            {
+              "bullet": "•",
+              "text": "Si la cale (côté carter de transmission) (4) est plus épaisse, la"
+            },
+            {
+              "bullet": "•",
+              "text": "Si la cale (côté carter de transmission) (4) est plus mince, la"
+            },
+            {
+              "bullet": "•",
+              "text": "En d'autres termes, l'épaisseur totale des deux cales reste"
+            },
+            {
+              "bullet": "•",
+              "text": "Les cales correspondantes peuvent être obtenues auprès de la «Rechange». Réel"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/21512f298655.jpg",
+            "alt": "Object Number: 2416929  Size: DEFAULT"
+          },
+          "number": 11
+        },
+        {
+          "text": "Des exemples d'utilisation de cales sont répertoriés dans le tableau ci-dessous",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Les cales doivent être sélectionnées de manière à obtenir la plus petite tolérance possible pendant l'ajustement Remarque : Les cales utilisées peuvent être réutilisées lors d'opérations d'ajustement ultérieures à condition qu'elles ne soient pas endommagées",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Reposer les roulements coniques du différentiel - voir l'opération «Roulements Coniques, Différentiel, Déposer et Reposer»",
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Vérifier le différentiel pour des dommages et de l'usure ; remplacer si nécessaire",
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Démonter la couronne de différentiel (2) du différentiel (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer le différentiel dans un étau en utilisant des protecteurs de mâchoire"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer les 10x vis (fléchées)"
+            },
+            {
+              "bullet": "•",
+              "text": "Détacher la couronne de différentiel en utilisant un maillet en plastique"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/357d17fdab8a.jpg",
+            "alt": "Object Number: 2416931  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ],
+          "number": 16
+        },
+        {
+          "text": "Nettoyer tous les filetages (fléchés) et les surfaces de contact (1) entre la couronne de différentiel et le différentiel",
+          "image": {
+            "src": "/data/assets/images/d3dd51cac9f4.jpg",
+            "alt": "Object Number: 2416932  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 17
+        },
+        {
+          "text": "Assembler partiellement la couronne de différentiel (1) au différentiel (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Placer la couronne de différentiel sur le différentiel"
+            },
+            {
+              "bullet": "•",
+              "text": "Insérer 2x vis (3), puis serrer légèrement"
+            },
+            {
+              "bullet": "•",
+              "text": "Enfoncer la couronne de différentiel sur le différentiel en utilisant un maillet en plastique, puis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/34d1477b8d98.jpg",
+            "alt": "Object Number: 2416933  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 18
+        },
+        {
+          "text": "Assembler complètement la couronne de différentiel (2) au différentiel (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer le différentiel dans un étau en utilisant des protecteurs de mâchoire"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer les 2x vis précédemment installées"
+            },
+            {
+              "bullet": "•",
+              "text": "Enduire les 10x vis de composé de blocage"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/357d17fdab8a.jpg",
+            "alt": "Object Number: 2416931  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ],
+          "number": 19
+        },
+        {
+          "text": "Assembler la transmission - voir l'opération «Transmission, Joint d'étanchéité Complètement»",
+          "number": 20,
+          "image": null
+        },
+        {
+          "text": "Installer la transmission sur le véhicule - voir l'opération «Transmission, Déposer et Reposer»",
+          "number": 21,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Assembler complètement la couronne de différentiel (2) au différentiel (1)",
+      "value": "99",
+      "unit": "Nm",
+      "stepRef": 19
+    },
+    {
+      "component": "Installer les 10x vis (fléchées) 99 Nm – Enduire les 10x vis de composé de blocage",
+      "value": "99",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Déposer les roulements coniques du différentiel - voir l'opération «Roulements Coniques - Différentiel, Déposer et\nReposer»\n Lors du remplacement\nde la couronne de différentiel, le réglage du peigne de pression doit être déterminé et ajusté\nsi nécessaire. À cette fin, les roulements coniques doivent être\nretirés du différentiel",
+    "Les cales doivent être sélectionnées de manière à obtenir la plus petite tolérance possible\npendant l'ajustement\n Les cales utilisées peuvent être\nréutilisées lors d'opérations d'ajustement ultérieures à condition qu'elles ne soient\npas endommagées"
+  ],
+  "type": "procedure",
+  "id": "ring-gear-differential-replace-A26D1C"
+}

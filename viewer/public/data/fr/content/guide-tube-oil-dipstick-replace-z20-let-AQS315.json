@@ -1,0 +1,50 @@
+{
+  "title": "Tube de guidage, Jauge d'huile, Remplacer (Z20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer la jauge d'huile du tube de guidage",
+          "image": {
+            "src": "/data/assets/images/6c7669ca1685.jpg",
+            "alt": "Object Number: 2397743  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer le boulon de fixation (1) du bloc-cylindres et retirer le tube de guidage de la jauge d'huile du bloc-cylindres.",
+          "callouts": [
+            "1"
+          ],
+          "number": 2,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Insérer le tube de guidage de la jauge d'huile avec de nouveaux joints d'étanchéité jusqu'à la butée et fixer au bloc-cylindres.",
+          "image": {
+            "src": "/data/assets/images/6c7669ca1685.jpg",
+            "alt": "Object Number: 2397743  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Reposer la jauge d'huile sur le tube de guidage",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "guide-tube-oil-dipstick-replace-z20-let-AQS315"
+}

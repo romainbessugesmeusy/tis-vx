@@ -1,0 +1,167 @@
+{
+  "title": "Câble Bowden, Couvercle du Coffre, Remplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Ouvrir la portière du conducteur",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le garnissage intérieur de seuil",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 vis en plastique"
+            },
+            {
+              "bullet": "•",
+              "text": "Ruban adhésif double face"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d6bde26e65c2.jpg",
+            "alt": "Object Number: 2412554  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Déposer le levier d'ouverture du verrou du couvercle du coffre",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer du support"
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déposer le boîtier du filtre à air",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Voir l'opération « Déposer et Reposer le Boîtier du Filtre à Air » dans"
+            }
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Déposer le verrou du couvercle du coffre",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 vis à tête hexagonale (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0bbd285aa94a.jpg",
+            "alt": "Object Number: 2412555  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Déposer le câble Bowden (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer le fil"
+            },
+            {
+              "bullet": "•",
+              "text": "Décrocher le câble Bowden du verrou et le retirer vers l'avant"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/387ceb7e952d.jpg",
+            "alt": "Object Number: 2412556  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 6
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le câble Bowden",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Transférer le fil"
+            },
+            {
+              "bullet": "•",
+              "text": "Serrer la bride de vis"
+            }
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Reposer le verrou du coffre",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 vis à tête hexagonale"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Reposer le boîtier du filtre à air",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Voir l'opération « Déposer et Reposer le Boîtier du Filtre à Air » dans"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Reposer le levier d'ouverture du verrou du couvercle du coffre",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Poser le garnissage intérieur de seuil",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 vis en plastique"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Travaux de nettoyage",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Fermer la portière du conducteur",
+          "number": 13,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "notes": [
+    "Transférer le fil\n Utiliser du spray silicone"
+  ],
+  "type": "procedure",
+  "id": "bowden-cable-luggage-compartment-lid-replace-AQS315"
+}

@@ -1,0 +1,259 @@
+{
+  "title": "Arbre intermédiaire, Démonter et Monter",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Illustration de l'arbre intermédiaire",
+          "image": {
+            "src": "/data/assets/images/0fff11217ec8.jpg",
+            "alt": "Object Number: 2417569  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer l'arbre intermédiaire de la transmission - voir l'opération \"Arbre intermédiaire, Déposer et Reposer\"",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Presser l'arbre intermédiaire (6) hors du corps de synchronisation des 1ère / 2ème vitesses (4) en utilisant KM-523-1 (1), KM-6126 (2) et KM-6223 (3)",
+          "image": {
+            "src": "/data/assets/images/c0ea0306a264.jpg",
+            "alt": "Object Number: 2417582  Size: DEFAULT"
+          },
+          "callouts": [
+            "6",
+            "4",
+            "1",
+            "2",
+            "3"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Retirer les roulements à aiguilles (5) de l'arbre intermédiaire",
+          "image": {
+            "src": "/data/assets/images/c0ea0306a264.jpg",
+            "alt": "Object Number: 2417582  Size: DEFAULT"
+          },
+          "callouts": [
+            "5"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Démonter la 1ère vitesse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "(I) Retirer la rondelle de butée (1) de la 1ère vitesse (5)"
+            },
+            {
+              "bullet": "•",
+              "text": "(II) Retirer le roulement à rouleaux avant (2) de la 1ère vitesse"
+            },
+            {
+              "bullet": "•",
+              "text": "(III) Retirer la bague (3) du roulement à rouleaux de la 1ère vitesse"
+            },
+            {
+              "bullet": "•",
+              "text": "(IV) Retirer le roulement à rouleaux arrière (4) de la 1ère vitesse"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3a4c685f9aaa.jpg",
+            "alt": "Object Number: 2417583  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Vérifier les pièces d'usure pour dommages et remplacer si nécessaire",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Démonter la synchronisation",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "(I) Retirer la 1ère vitesse (6) du corps de synchronisation (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "(II) Retirer l'entretoise (2) du corps de synchronisation"
+            },
+            {
+              "bullet": "•",
+              "text": "(III) Retirer la bague de synchroniseur interne (3) de la 1ère vitesse"
+            },
+            {
+              "bullet": "•",
+              "text": "(IV) Retirer la bague de synchroniseur intermédiaire (4) de la 1ère vitesse"
+            },
+            {
+              "bullet": "•",
+              "text": "(V) Retirer la bague de synchroniseur externe (5) de la 1ère vitesse"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f4348e0a52bf.jpg",
+            "alt": "Object Number: 2417584  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Vérifier les pièces d'usure pour dommages et remplacer si nécessaire",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Démonter la synchronisation",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "(I) Retirer le corps de synchronisation (1) de la 2ème vitesse (5)"
+            },
+            {
+              "bullet": "•",
+              "text": "(II) Retirer la bague de synchroniseur externe (2) de la 2ème vitesse"
+            },
+            {
+              "bullet": "•",
+              "text": "(III) Retirer la bague de synchroniseur intermédiaire (3) de la 2ème vitesse"
+            },
+            {
+              "bullet": "•",
+              "text": "(IV) Retirer la bague de synchroniseur interne (4) de la 2ème vitesse"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ae4255afb206.jpg",
+            "alt": "Object Number: 2417585  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Vérifier les pièces d'usure pour dommages et remplacer si nécessaire",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Monter la synchronisation",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "(I) Retirer la bague de synchroniseur interne (1) de la 2ème vitesse"
+            },
+            {
+              "bullet": "•",
+              "text": "(II) Installer la bague de synchroniseur intermédiaire (3) de la 2ème vitesse sur"
+            },
+            {
+              "bullet": "•",
+              "text": "(III) Installer la bague de synchroniseur externe (4) de la 2ème vitesse sur la 2ème"
+            },
+            {
+              "bullet": "•",
+              "text": "(IV) Installer le corps de synchronisation (5) sur la 2ème vitesse"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/837e876441cc.jpg",
+            "alt": "Object Number: 2417586  Size: DEFAULT"
+          },
+          "number": 11
+        },
+        {
+          "text": "Monter la synchronisation",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "(I) Installer la bague de synchroniseur externe (2) de la 1ère vitesse sur"
+            },
+            {
+              "bullet": "•",
+              "text": "(II) Installer la bague de synchroniseur intermédiaire (3) de la 1ère vitesse sur"
+            },
+            {
+              "bullet": "•",
+              "text": "(III) Installer la bague de synchroniseur interne (4) de la 1ère vitesse sur"
+            },
+            {
+              "bullet": "•",
+              "text": "(IV) Installer l'entretoise (5) sur le corps de synchronisation"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/020bf9b98c0c.jpg",
+            "alt": "Object Number: 2417587  Size: DEFAULT"
+          },
+          "number": 12
+        },
+        {
+          "text": "Monter la synchronisation",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer la 1ère vitesse (2) sur le corps de synchronisation des 1ère/2ème vitesses"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer le roulement à rouleaux arrière (1) sur la 1ère vitesse - collier étroit"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer le roulement à rouleaux avant (3) sur la 1ère vitesse - collier large"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer la bague (4) pour le roulement à rouleaux"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9a70dc1b6be1.jpg",
+            "alt": "Object Number: 2417588  Size: DEFAULT"
+          },
+          "number": 13
+        },
+        {
+          "text": "1. Presser la rondelle de butée (2) et l'ensemble de la 1ère/2ème vitesse avec le corps de synchronisation (3) sur l'arbre intermédiaire (4) en utilisant KM-6219 (1)",
+          "image": {
+            "src": "/data/assets/images/10018146c58c.jpg",
+            "alt": "Object Number: 2417589  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "3",
+            "4",
+            "1"
+          ],
+          "number": 14
+        },
+        {
+          "text": "Installer l'arbre intermédiaire - voir l'opération \"Arbre intermédiaire, Déposer et Reposer\"",
+          "number": 15,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-523-1",
+    "KM-6126",
+    "KM-6223",
+    "KM-6219"
+  ],
+  "warnings": [
+    "Si les engrenages sont endommagés, remplacer toujours l'ensemble de l'arbre intermédiaire. Obtenir les kits de réparation d'ensemble de synchroniseur appropriés auprès du Service Après-Vente"
+  ],
+  "notes": [
+    "(II) Installer la bague de synchroniseur intermédiaire (3) de la 2ème vitesse sur\n2ème vitesse\n Observer la position installée (flèches). Pour une illustration améliorée, la loupe dans\nFig. L5464 montre l'installation sans bague de synchroniseur interne"
+  ],
+  "type": "procedure",
+  "id": "intermediate-shaft-disassemble-and-assemble-A26D1C"
+}

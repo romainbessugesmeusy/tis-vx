@@ -1,0 +1,176 @@
+{
+  "title": "Remplacer la ceinture de sécurité",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le cache de ceinture de sécurité gauche ; la ceinture de sécurité droite est similaire.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le toit souple ou rigide du véhicule – voir le manuel du propriétaire.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déposer la ceinture de sécurité du siège droit – vis d'ancrage.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déposer le siège droit du plancher – vis.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Déposer la ceinture de sécurité du siège droit du arceau de sécurité – vis d'ancrage supérieure.",
+          "image": {
+            "src": "/data/assets/images/80830277745e.jpg",
+            "alt": "Object Number: 2425099  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Déposer la ceinture de sécurité du siège gauche – vis d'ancrage.",
+          "image": {
+            "src": "/data/assets/images/73f6e4d97c7e.jpg",
+            "alt": "Object Number: 2429809  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Déposer le siège gauche du plancher – vis.",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Déposer la ceinture de sécurité du siège gauche du arceau de sécurité – vis d'ancrage supérieure.",
+          "image": {
+            "src": "/data/assets/images/265b35f96f59.jpg",
+            "alt": "Object Number: 2425100  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Déposer les haut-parleurs du revêtement de tablier arrière – caches de haut-parleur, 6 vis.",
+          "image": {
+            "src": "/data/assets/images/cda7cd593972.jpg",
+            "alt": "Object Number: 2425110  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Déposer le revêtement de tablier arrière – 6 vis.",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Déposer l'isolation phonique du tablier arrière.",
+          "number": 11,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Connecteur de faisceau du tendeur de ceinture de sécurité gauche.",
+          "image": {
+            "src": "/data/assets/images/cda7cd593972.jpg",
+            "alt": "Object Number: 2425110  Size: DEFAULT"
+          },
+          "number": 12
+        },
+        {
+          "text": "Enrouleur d'inertie gauche du arceau de sécurité – vis d'ancrage inférieure.",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Enrouleur d'inertie gauche au arceau de sécurité – vis d'ancrage inférieure.",
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Connecteur de faisceau au tendeur de ceinture de sécurité gauche.",
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Isolation phonique au tablier arrière.",
+          "image": {
+            "src": "/data/assets/images/cda7cd593972.jpg",
+            "alt": "Object Number: 2425110  Size: DEFAULT"
+          },
+          "number": 16
+        },
+        {
+          "text": "Revêtement de tablier arrière – 6 vis.",
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Haut-parleurs au revêtement de tablier arrière – 6 vis, caches de haut-parleur.",
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "Ceinture de sécurité pour le siège gauche au arceau de sécurité – vis d'ancrage supérieure.",
+          "image": {
+            "src": "/data/assets/images/265b35f96f59.jpg",
+            "alt": "Object Number: 2425100  Size: DEFAULT"
+          },
+          "number": 19
+        },
+        {
+          "text": "Siège gauche au plancher – vis.",
+          "image": {
+            "src": "/data/assets/images/73f6e4d97c7e.jpg",
+            "alt": "Object Number: 2429809  Size: DEFAULT"
+          },
+          "number": 20
+        },
+        {
+          "text": "Ceinture de sécurité au siège gauche – vis d'ancrage.",
+          "number": 21,
+          "image": null
+        },
+        {
+          "text": "Ceinture de sécurité pour le siège droit au arceau de sécurité – vis d'ancrage supérieure.",
+          "image": {
+            "src": "/data/assets/images/80830277745e.jpg",
+            "alt": "Object Number: 2425099  Size: DEFAULT"
+          },
+          "number": 22
+        },
+        {
+          "text": "Siège droit au plancher – vis.",
+          "image": {
+            "src": "/data/assets/images/ed94d1ec42d4.jpg",
+            "alt": "Object Number: 2429808  Size: DEFAULT"
+          },
+          "number": 23
+        },
+        {
+          "text": "Ceinture de sécurité au siège droit – vis d'ancrage.",
+          "number": 24,
+          "image": null
+        },
+        {
+          "text": "Reposer le toit souple ou rigide au véhicule – voir le manuel du propriétaire.",
+          "number": 25,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "seat-belt-replace-AQS315"
+}

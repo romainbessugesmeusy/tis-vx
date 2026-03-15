@@ -1,0 +1,102 @@
+{
+  "title": "Amortisseur, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Roue arrière du véhicule.",
+          "image": {
+            "src": "/data/assets/images/674558ce12f3.jpg",
+            "alt": "Object Number: 2429706  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Garde-boue arrière – vis, agrafes.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Amortisseur du triangle de suspension inférieur – vis, écrou (1), rondelles.",
+          "callouts": [
+            "1"
+          ],
+          "number": 3,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Amortisseur du support sur le châssis – vis, écrou, rondelles.",
+          "image": {
+            "src": "/data/assets/images/674558ce12f3.jpg",
+            "alt": "Object Number: 2429706  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Amortisseur sur le support du châssis – vis, écrou 45 Nm , rondelles.",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Amortisseur sur le triangle de suspension inférieur – vis, écrou (1) 45 Nm , rondelles.",
+          "image": {
+            "src": "/data/assets/images/674558ce12f3.jpg",
+            "alt": "Object Number: 2429706  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 6
+        },
+        {
+          "text": "Garde-boue arrière – vis, agrafes.",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Roue arrière sur le véhicule – boulons 90 Nm .",
+          "number": 8,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Amortisseur sur le support du châssis – vis, écrou 45 Nm , rondelles.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Roue arrière sur le véhicule – boulons 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Amortisseur sur le triangle de suspension inférieur – vis, écrou (1) 45 Nm , rondelles.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "type": "procedure",
+  "id": "shock-absorber-remove-and-install-A26D1C"
+}

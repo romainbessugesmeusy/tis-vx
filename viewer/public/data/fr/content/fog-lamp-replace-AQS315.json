@@ -1,0 +1,256 @@
+{
+  "title": "Remplacer le feu antibrouillard",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Calez les roues arrière de la route",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer la roue avant de la voiture",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser une douille spéciale située sous le capot avant"
+            }
+          ],
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Pour le feu antibrouillard droit, déposer la boîte à fusibles du revêtement d'aile droit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 4x vis"
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Élever et soutenir le véhicule",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Déposer le revêtement d'aile avant de l'aile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 6x vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f21fe35f0f75.jpg",
+            "alt": "Object Number: 2419717  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Déposer le phare (1) du capot avant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ne pas déranger le bouclier anti-éclaboussures (2) (si installé)"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer l'écrou, la rondelle"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer le support"
+            },
+            {
+              "bullet": "•",
+              "text": "Débrancher le connecteur du faisceau"
+            }
+          ],
+          "callouts": [
+            "1"
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Libérer le connecteur du faisceau (1) du feu antibrouillard",
+          "image": {
+            "src": "/data/assets/images/ca4fd16c1aee.jpg",
+            "alt": "Object Number: 2419719  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 7
+        },
+        {
+          "text": "Déposer le cache anti-poussière du feu antibrouillard",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pousser pour ajuster"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Déposer le support avec le feu antibrouillard du capot avant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 3x vis (1), 3x rondelle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e6fb2df08e73.jpg",
+            "alt": "Object Number: 2419720  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Déposer le feu antibrouillard du support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x vis, 2x entretoise"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Installer le feu antibrouillard sur le support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 2x vis, 2x entretoise"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Installer le support avec le feu antibrouillard sur le capot avant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 3x vis, 3x rondelle"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Installer le cache anti-poussière sur le feu antibrouillard",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pousser pour ajuster"
+            }
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Fixer le connecteur du faisceau au feu antibrouillard",
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Installer le phare sur le capot avant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "S'assurer que le bouclier anti-éclaboussures n'est pas dérangé (si installé)"
+            },
+            {
+              "bullet": "•",
+              "text": "Connecter le connecteur du faisceau"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer le support"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer l'écrou, la rondelle"
+            }
+          ],
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Ajuster le phare et le feu antibrouillard",
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Installer le revêtement d'aile avant sur l'aile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 5x vis, agrafe"
+            }
+          ],
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Pour le feu antibrouillard droit, installer la boîte à fusibles sur le revêtement d'aile droit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 4x vis"
+            }
+          ],
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "Installer la roue avant sur le véhicule",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 4x boulon, installer le boulon de sécurité 90 Nm"
+            }
+          ],
+          "number": 19,
+          "image": null
+        },
+        {
+          "text": "Élever le véhicule et retirer le support",
+          "number": 20,
+          "image": null
+        },
+        {
+          "text": "Retirer les cales des roues arrière de la route",
+          "number": 21,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Installer la roue avant sur le véhicule",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 19
+    },
+    {
+      "component": "Installer 4x boulon, installer le boulon de sécurité 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "type": "procedure",
+  "id": "fog-lamp-replace-AQS315"
+}

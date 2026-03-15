@@ -1,0 +1,25 @@
+{
+  "title": "Système de freinage, Inspection des fuites",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Reposer le tendeur de pédale de frein KM-325 entre le cadre du siège et la pédale de frein, puis attendre 10 minutes avant d'inspecter le système de freinage",
+          "image": {
+            "src": "/data/assets/images/18e0714199ab.jpg",
+            "alt": "Object Number: 2419918  Size: DEFAULT"
+          },
+          "number": 1
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-325"
+  ],
+  "type": "procedure",
+  "id": "brake-system-inspect-for-leaks-AQS315"
+}

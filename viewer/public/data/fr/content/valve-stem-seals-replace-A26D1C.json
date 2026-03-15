@@ -1,0 +1,44 @@
+{
+  "title": "Joint de queue de soupape, remplacer",
+  "phases": [
+    {
+      "label": "Reposer/Poser",
+      "steps": [
+        {
+          "text": "Outils spéciaux nécessaires :",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Outil d'enfoncement KM-352, KM-663, KM-835-A, KM-958, KM-6385, pinces d'extraction KM-840",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Remarque : Toutes les pièces jointes telles que le(s) arbre(s) à cames et les poussoirs hydrauliques de soupape sont retirés.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Fixer les supports latéraux KM-6215-5 (1) pour le levier KM-6215-4 (2) au dispositif d'assemblage. Fixer le levier KM-6215-4 (2).",
+          "callouts": [
+            "1",
+            "2",
+            "2"
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Voir l'opération « Déposer la culasse », « Reposer la culasse ».",
+          "number": 5,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "valve-stem-seals-replace-A26D1C"
+}

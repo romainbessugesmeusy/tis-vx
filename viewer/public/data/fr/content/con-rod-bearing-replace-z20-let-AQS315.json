@@ -1,0 +1,86 @@
+{
+  "title": "Coussinet de bielle, Remplacer (Z20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer la partie supérieure du carter d'huile – voir l'opération «Carter d'huile, Supérieur, Remplacer».",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer l'ensemble de l'arbre d'équilibrage – voir l'opération «Arbres d'équilibrage, Remplacer».",
+          "image": {
+            "src": "/data/assets/images/6e8c951064e7.jpg",
+            "alt": "Object Number: 2422887  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Marquer l'ordre des chapeaux de coussinet de bielle (1) – la bille (2) des chapeaux de coussinet de bielle pointe vers le côté de la transmission.",
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déposer le chapeau de coussinet de bielle de la bielle. Pousser le coussinet de bielle hors de la bielle et du chapeau de coussinet de bielle.",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Nettoyer",
+      "steps": [
+        {
+          "text": "Nettoyer le tourillon de coussinet de bielle et le chapeau de coussinet de bielle.",
+          "image": {
+            "src": "/data/assets/images/6e8c951064e7.jpg",
+            "alt": "Object Number: 2422887  Size: DEFAULT"
+          },
+          "number": 5
+        }
+      ],
+      "phase": "clean",
+      "icon": "/data/assets/images/d9fe69774efb.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Insérer de nouveaux demi-coquilles de coussinet de bielle avec de l'huile moteur. Fixer les chapeaux de coussinet de bielle à la bielle avec de nouveaux boulons – couple de serrage 35 Nm + 45° + 15° .",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Reposer l'ensemble de l'arbre d'équilibrage – voir l'opération «Arbres d'équilibrage, Remplacer».",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Reposer la partie supérieure du carter d'huile – voir l'opération «Carter d'huile, Supérieur, Remplacer».",
+          "number": 8,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Insérer de nouveaux demi-coquilles de coussinet de bielle avec de l'huile moteur. Fixer les chapeaux de coussinet de bielle à la bielle avec de nouveaux boulons – couple de serrage 35 Nm + 45° + 15° .",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 6
+    }
+  ],
+  "type": "procedure",
+  "id": "con-rod-bearing-replace-z20-let-AQS315"
+}

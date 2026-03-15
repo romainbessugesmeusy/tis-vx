@@ -1,0 +1,31 @@
+{
+  "title": "Carrosserie arrière - Compartiment arrière, gauche",
+  "components": [
+    {
+      "description": "Feu arrière - Gauche",
+      "code": "E3"
+    },
+    {
+      "description": "Lampe - Plaque d'immatriculation, gauche",
+      "code": "E10"
+    },
+    {
+      "description": "Faisceau principal & Arrière",
+      "code": "X5"
+    },
+    {
+      "description": "Faisceau principal & Arrière (Feu de recul)",
+      "code": "X7"
+    },
+    {
+      "description": "Faisceau principal & Arrière (Antibrouillard)",
+      "code": "X6"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "body-rear-rear-compartment-left-AQS315",
+  "diagram": {
+    "src": "/data/assets/5aca00060fc3.cgm",
+    "type": "cgm"
+  }
+}

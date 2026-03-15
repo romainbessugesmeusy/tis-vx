@@ -1,0 +1,80 @@
+{
+  "title": "Déposer et poser la biellette de commande de voie A26D1C",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Déposer et poser la biellette de commande de voie",
+          "number": 1,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    },
+    {
+      "label": "Déposer, Déconnecter",
+      "steps": [
+        {
+          "text": "Étrier de frein du porte-moyeu - voir l'opération «Étrier de frein arrière, Déposer et poser» dans le groupe H; maintenir sur le côté.",
+          "image": {
+            "src": "/data/assets/images/2d0e71fcac03.jpg",
+            "alt": "Object Number: 2429419  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Biellette de commande de voie du triangle inférieur - écrou, rondelles.",
+          "image": {
+            "src": "/data/assets/images/bfa1c2249fee.jpg",
+            "alt": "Object Number: 2429746  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Biellette de commande de voie du porte-moyeu - écrou, rondelles.",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/4b8970d41392.jpg"
+    },
+    {
+      "label": "Reposer, Connecter",
+      "steps": [
+        {
+          "text": "Biellette de commande de voie au porte-moyeu - écrou, rondelles.",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Biellette de commande de voie au triangle inférieur - écrou 49 Nm, rondelles.",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Étrier de frein du porte-moyeu - voir l'opération «Étrier de frein arrière, Déposer et poser» dans le groupe H.",
+          "image": {
+            "src": "/data/assets/images/2d0e71fcac03.jpg",
+            "alt": "Object Number: 2429419  Size: DEFAULT"
+          },
+          "number": 7
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/57d894c25c39.jpg"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Biellette de commande de voie au triangle inférieur - écrou 49 Nm, rondelles.",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 6
+    }
+  ],
+  "type": "procedure",
+  "id": "track-control-rod-remove-and-install-A26D1C"
+}

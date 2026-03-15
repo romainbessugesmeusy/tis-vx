@@ -1,0 +1,23 @@
+{
+  "title": "Carrosserie arrière - Réservoir de carburant",
+  "components": [
+    {
+      "description": "Déposer - Pompe à carburant",
+      "code": "M21"
+    },
+    {
+      "description": "Déposer - Capteur de contenu du réservoir de carburant",
+      "code": "P5"
+    },
+    {
+      "description": "Déposer - Réservoir de carburant & Pompe à carburant/capteur",
+      "code": "X30"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "body-rear-fuel-tank-A26D1C",
+  "diagram": {
+    "src": "/data/assets/85b4308767f9.cgm",
+    "type": "cgm"
+  }
+}

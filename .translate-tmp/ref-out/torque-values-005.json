@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Couple de serrage 53 Nm + 25°",
+      "sourcePage": "carter-de-vilebrequin-déposer-et-reposer-moteur-déposé-z-22-se-A26D1C",
+      "value": "53",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer le cache de la culasse",
+      "sourcePage": "cache-de-culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Reposer le cache de la culasse",
+      "sourcePage": "cache-de-culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Reposer le module d'allumage.",
+      "sourcePage": "cache-de-culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Reposer le cache arrière du moteur.",
+      "sourcePage": "cache-de-culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "sourcePage": "cache-de-culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 8 Nm",
+      "sourcePage": "cache-de-culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 vis, couple de serrage 14 Nm",
+      "sourcePage": "cache-de-culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Déposer le liquide de refroidissement.",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 22
+    },
+    {
+      "component": "Déposer l'huile moteur.",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 24
+    },
+    {
+      "component": "Reposer la culasse.",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 60
+    },
+    {
+      "component": "Reposer la culasse.",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 60
+    },
+    {
+      "component": "Serrer les pignons d'arbre à cames.",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 67
+    },
+    {
+      "component": "Reposer le rail de guidage.",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 69
+    },
+    {
+      "component": "Reposer le rail de guidage de la chaîne de distribution.",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 71
+    },
+    {
+      "component": "Reposer le rail de guidage de la chaîne de distribution.",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": 71
+    },
+    {
+      "component": "Reposer le tendeur de chaîne de distribution.",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 73
+    },
+    {
+      "component": "Reposer le collecteur d'admission.",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 79
+    },
+    {
+      "component": "Reposer le tuyau de recirculation des gaz d'échappement.",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 81
+    },
+    {
+      "component": "Reposer le tuyau de recirculation des gaz d'échappement.",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 81
+    },
+    {
+      "component": "Reposer le calculateur moteur.",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 89
+    },
+    {
+      "component": "Reposer le calculateur moteur.",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 89
+    },
+    {
+      "component": "Reposer le guide de tube de jauge d'huile.",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 92
+    },
+    {
+      "component": "Reposer le collecteur d'échappement.",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": 93
+    },
+    {
+      "component": "Reposer le tuyau d'échappement avant.",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": 96
+    },
+    {
+      "component": "Serrer les roues arrière.",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 103
+    },
+    {
+      "component": "Reposer le bouclier thermique supérieur.",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 104
+    },
+    {
+      "component": "Reposer le bouclier thermique inférieur.",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 105
+    },
+    {
+      "component": "Reposer le cache de la culasse",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 106
+    },
+    {
+      "component": "Reposer le cache de la culasse",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 106
+    },
+    {
+      "component": "Reposer le module d'allumage.",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 107
+    },
+    {
+      "component": "Connecter les conduites de carburant.",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 108
+    },
+    {
+      "component": "Reposer le cache arrière du moteur.",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 111
+    },
+    {
+      "component": "Couple de serrage 20 Nm",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 25 Nm",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage (M10) 30 Nm + 75° + 75° + 15°",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 35 Nm",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 85 Nm + 30° + 15°",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 8 Nm",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 10 Nm",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 65 Nm",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 75 Nm",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 12 Nm",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 16 Nm",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 90 Nm",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 23 Nm",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 vis, couple de serrage 14 Nm",
+      "sourcePage": "culasse-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer le module de contrôle du module d'allumage.",
+      "sourcePage": "dis-module-de-contrôle-du-module-d'allumage-remplacer-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Couple de serrage 8 Nm",
+      "sourcePage": "dis-module-de-contrôle-du-module-d'allumage-remplacer-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "title": "Culasse, Vérifier la Surface Plane (Z22\nSE)",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Nettoyer les surfaces de joint.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer tout résidu de joint."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1a4e75d640ec.jpg",
+            "alt": "Object Number: 2397838  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Vérifier la surface plane.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser une règle de maçon, des cales d'épaisseur",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Utiliser une règle de maçon, des cales d'épaisseur\n Note:   Hauteur de la\nculasse (surface de joint à surface de joint): Dimension (I)\n– 129 mm"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1a4e75d640ec.jpg",
+            "alt": "Object Number: 2397838  Size: DEFAULT"
+          },
+          "number": 2
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "warnings": [
+    "Il ne faut pas rectifier la culasse."
+  ],
+  "notes": [
+    "Utiliser une règle de maçon, des cales d'épaisseur\n Hauteur de la\nculasse (surface de joint à surface de joint): Dimension (I)\n– 129 mm"
+  ],
+  "type": "procedure",
+  "id": "cylinder-head-check-for-plane-surface-z22-se-A26D1C"
+}

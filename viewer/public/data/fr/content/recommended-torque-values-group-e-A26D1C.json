@@ -1,0 +1,78 @@
+{
+  "title": "Valeurs de Couple de Serrage Recommandées - Groupe E",
+  "group": "E",
+  "values": [
+    {
+      "component": "Écrous de blocage de biellette de direction",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis de points de pivot de triangle inférieur de suspension",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de silentblocs de triangle supérieur de suspension",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulon et écrou de support de châssis d'amortisseur",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulon d'amortisseur de triangle inférieur de suspension",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulon de serrage de barre stabilisatrice avec silentblocs de pivot sur collier de châssis",
+      "value": "25",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de bras de direction sur porte-moyeu",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Écrou de biellette de direction sur bras de direction",
+      "value": "30",
+      "unit": "Nm"
+    },
+    {
+      "component": "Écrou de rotule supérieure sur bras de direction",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulon d'ensemble de roulement de roue",
+      "value": "210",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de roue",
+      "value": "90",
+      "unit": "Nm"
+    },
+    {
+      "component": "Assemblage de moyeu de roue sur porte-moyeu",
+      "value": "90",
+      "unit": "Nm"
+    },
+    {
+      "component": "Étrier de frein sur porte-moyeu",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Barre stabilisatrice sur biellette de liaison",
+      "value": "45",
+      "unit": "Nm"
+    }
+  ],
+  "type": "torque_table",
+  "id": "recommended-torque-values-group-e-A26D1C"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Field Remedy: 1680",
+  "subject": "Radio - Lecteur CD - Le lecteur CD ne lit pas les CD protégés",
+  "complaint": "Le client se plaint que les CD protégés ne peuvent pas être lus dans le lecteur CD.",
+  "cause": "Les CD protégés ne sont pas conformes à la norme internationale des disques compacts audio (norme Red Book), qui est à la base du développement des lecteurs CD. Par conséquent, la plupart des CD protégés ne peuvent pas être lus par le lecteur CD.",
+  "production": "Aucune",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "Pendant la phase de développement de la plupart des lecteurs CD disponibles sur le marché, la protection contre la copie n'était pas connue. Étant donné que l'industrie musicale a installé une protection contre la copie sur certains CD musicaux pour éviter qu'ils ne puissent être copiés sur un PC, la plupart des lecteurs CD disponibles sur le marché ne peuvent plus les lire car leur lecteur CD est similaire à un lecteur PC. Les fabricants de lecteurs CD peuvent prendre en compte les méthodes actuelles de protection contre la copie dans leurs nouveaux développements. Mais ils ne peuvent pas garantir que leurs lecteurs CD seront capables de lire tous les types de CD car l'industrie musicale change encore régulièrement ses méthodes de protection contre la copie. Sur la base de ces faits, l'échange de radios CD n'est pas pris en charge par les constructeurs automobiles car les lecteurs CD ont été développés conformément à la norme internationale des disques compacts audio (norme Red Book)."
+    }
+  ],
+  "type": "tsb",
+  "id": "radio-cd-drive-cd-drive-does-not-play-copy-protected-cds-AQS315",
+  "metadata": {
+    "functionalGroup": "N - Electrical Equipment",
+    "complaintGroup": "13 - No/Poor Function",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  }
+}

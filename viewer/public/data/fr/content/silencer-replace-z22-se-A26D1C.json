@@ -1,0 +1,421 @@
+{
+  "title": "Silencieux, Remplacer (Z22 SE)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le cache moteur.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Connecteurs du faisceau (1) pour les capteurs d'oxygène.",
+          "image": {
+            "src": "/data/assets/images/0bbddbc18011.jpg",
+            "alt": "Object Number: 2425117  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Sous-caisse arrière (1) – 13 vis.",
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Panneau de diffuseur (2) – 7 vis, 2 agrafes.",
+          "callouts": [
+            "2"
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Faisceau de câblage du sous-châssis arrière – agrafe.",
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Faisceau de câblage du tablier thermique – colliers de serrage, agrafe.",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Faisceau de câblage du passage de roue.",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Tablier inférieur (1) du collecteur d'échappement – 3 boulons, agrafe.",
+          "image": {
+            "src": "/data/assets/images/3f486bb0106f.jpg",
+            "alt": "Object Number: 2425114  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 10
+        },
+        {
+          "text": "Catalyseur du tuyau intermédiaire – 3 écrous (1).",
+          "image": {
+            "src": "/data/assets/images/a3943659de90.jpg",
+            "alt": "Object Number: 2425115  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 11
+        },
+        {
+          "text": "Catalyseur du collecteur d'échappement – 3 écrous (1).",
+          "image": {
+            "src": "/data/assets/images/8b648c8f1091.jpg",
+            "alt": "Object Number: 2425116  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 12
+        },
+        {
+          "text": "Catalyseur de la fixation (2).",
+          "callouts": [
+            "2"
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Tuyau intermédiaire du silencieux – collier (1).",
+          "image": {
+            "src": "/data/assets/images/dad2d3b9abc4.jpg",
+            "alt": "Object Number: 2425118  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 14
+        },
+        {
+          "text": "Support de fixation, côté droit (1) – 2 écrous, 2 boulons.",
+          "image": {
+            "src": "/data/assets/images/4ca900bd70d3.jpg",
+            "alt": "Object Number: 2425119  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 15
+        },
+        {
+          "text": "Connecteurs du faisceau (1) pour les capteurs d'oxygène.",
+          "callouts": [
+            "1"
+          ],
+          "number": 43,
+          "image": null
+        },
+        {
+          "text": "Refermer le cache moteur.",
+          "number": 44,
+          "image": null
+        },
+        {
+          "text": "Cales des roues avant.",
+          "number": 45,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Cales aux roues avant.",
+          "image": {
+            "src": "/data/assets/images/0bbddbc18011.jpg",
+            "alt": "Object Number: 2425117  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Lever le véhicule.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Support de fixation, côté gauche (1) – 2 écrous, 2 boulons.",
+          "image": {
+            "src": "/data/assets/images/4ca900bd70d3.jpg",
+            "alt": "Object Number: 2425119  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 16
+        },
+        {
+          "text": "Silencieux du véhicule.",
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Silencieux au véhicule.",
+          "number": 19,
+          "image": null
+        },
+        {
+          "text": "Support de fixation, côté gauche (1) – 2 écrous, 2 boulons.",
+          "callouts": [
+            "1"
+          ],
+          "number": 20,
+          "image": null
+        },
+        {
+          "text": "Attention !",
+          "image": {
+            "src": "/data/assets/images/8ad9dc84d5d9.jpg",
+            "alt": "Object Number: 2425120  Size: DEFAULT"
+          },
+          "number": 21
+        },
+        {
+          "text": "Ne pas serrer les écrous et boulons.",
+          "number": 22,
+          "image": null
+        },
+        {
+          "text": "Support de fixation, côté droit (1) – 2 écrous, 2 boulons.",
+          "image": {
+            "src": "/data/assets/images/4ca900bd70d3.jpg",
+            "alt": "Object Number: 2425119  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 23
+        },
+        {
+          "text": "Couple de serrage",
+          "number": 24,
+          "image": null
+        },
+        {
+          "text": "Support de fixation, côté gauche – 2 écrous, 2 boulons.",
+          "number": 25,
+          "image": null
+        },
+        {
+          "text": "Support de fixation, côté droit – 2 écrous, 2 boulons.",
+          "number": 26,
+          "image": null
+        },
+        {
+          "text": "Tuyau intermédiaire au silencieux – collier (1).",
+          "image": {
+            "src": "/data/assets/images/dad2d3b9abc4.jpg",
+            "alt": "Object Number: 2425118  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 27
+        },
+        {
+          "text": "Important : Ne pas serrer le collier.",
+          "number": 28,
+          "image": null
+        },
+        {
+          "text": "Catalyseur au collecteur d'échappement – 3 écrous (1).",
+          "image": {
+            "src": "/data/assets/images/8b648c8f1091.jpg",
+            "alt": "Object Number: 2425116  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 29
+        },
+        {
+          "text": "Catalyseur à la fixation (2).",
+          "callouts": [
+            "2"
+          ],
+          "number": 30,
+          "image": null
+        },
+        {
+          "text": "Catalyseur au tuyau intermédiaire – 3 écrous (1).",
+          "image": {
+            "src": "/data/assets/images/a3943659de90.jpg",
+            "alt": "Object Number: 2425115  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 31
+        },
+        {
+          "text": "Couple de serrage",
+          "number": 32,
+          "image": null
+        },
+        {
+          "text": "Collier pour tuyau intermédiaire au silencieux – écrous.",
+          "number": 33,
+          "image": null
+        },
+        {
+          "text": "Tablier inférieur (1) au collecteur d'échappement – 3 boulons, agrafe.",
+          "image": {
+            "src": "/data/assets/images/3f486bb0106f.jpg",
+            "alt": "Object Number: 2425114  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 34
+        },
+        {
+          "text": "Faisceau de câblage à travers le passage de roue.",
+          "image": {
+            "src": "/data/assets/images/3f486bb0106f.jpg",
+            "alt": "Object Number: 2425114  Size: DEFAULT"
+          },
+          "number": 35
+        },
+        {
+          "text": "Faisceau de câblage au sous-châssis arrière – agrafe.",
+          "number": 36,
+          "image": null
+        },
+        {
+          "text": "Faisceau de câblage au tablier thermique – colliers de serrage, agrafe.",
+          "number": 37,
+          "image": null
+        },
+        {
+          "text": "Panneau de diffuseur (2) – 7 vis, 2 agrafes.",
+          "callouts": [
+            "2"
+          ],
+          "number": 38,
+          "image": null
+        },
+        {
+          "text": "Important : Ne pas serrer les boulons.",
+          "number": 39,
+          "image": null
+        },
+        {
+          "text": "Sous-caisse arrière (1) – 13 vis.",
+          "callouts": [
+            "1"
+          ],
+          "number": 40,
+          "image": null
+        },
+        {
+          "text": "Serrer les boulons du diffuseur et de la sous-caisse.",
+          "number": 41,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule.",
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "number": 42
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    },
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Nettoyer",
+      "steps": [
+        {
+          "text": "Faces des joints.",
+          "number": 18,
+          "image": null
+        }
+      ],
+      "phase": "clean",
+      "icon": "/data/assets/images/d9fe69774efb.gif"
+    },
+    {
+      "label": "Reposer",
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    }
+  ],
+  "type": "procedure",
+  "id": "silencer-replace-z22-se-A26D1C"
+}

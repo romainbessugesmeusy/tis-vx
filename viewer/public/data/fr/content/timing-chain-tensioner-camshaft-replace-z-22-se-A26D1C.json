@@ -1,0 +1,330 @@
+{
+  "title": "Remplacer le tendeur de chaîne de distribution, arbre à cames (Z 22\nSE)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Ouvrir le capot.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Débrancher la batterie.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Ouvrir le cache moteur (1).",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Déposer le cache moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "6 vis (2) et (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Déposer le module d'allumage (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déverrouiller et débrancher le connecteur du faisceau de câblage."
+            },
+            {
+              "bullet": "•",
+              "text": "4 boulons (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0c4aa59965a6.jpg",
+            "alt": "Object Number: 2416672  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Retirer le cache de la culasse.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Débrancher la durite de ventilation du moteur (2)."
+            },
+            {
+              "bullet": "•",
+              "text": "2 boulons, 1 écrou"
+            },
+            {
+              "bullet": "•",
+              "text": "1 boulon"
+            },
+            {
+              "bullet": "•",
+              "text": "12 boulons (1), (3), (4) et (8)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/055fa4fa9cf5.jpg",
+            "alt": "Object Number: 2412456  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Remarque : Si aucun marquage (1) n'est présent sur le tendeur de chaîne de distribution de l'arbre à cames (2), il doit être remplacé par un nouveau tendeur de chaîne de distribution de l'arbre à cames (numéro de pièce 24 448 509) incluant un nouveau rail de tendeur de chaîne de distribution de l'arbre à cames (numéro de pièce 24 449 448).",
+          "image": {
+            "src": "/data/assets/images/c856d6a2b9e9.jpg",
+            "alt": "Object Number: 2412306  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 7
+        },
+        {
+          "text": "Retirer le tendeur de chaîne de distribution de l'arbre à cames (1).",
+          "image": {
+            "src": "/data/assets/images/020d9b093f8c.jpg",
+            "alt": "Object Number: 2416679  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 8
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le tendeur de chaîne de distribution de l'arbre à cames.",
+          "substeps": [
+            {
+              "bullet": "••",
+              "text": "Insérer le piston dans le logement.",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Serrer le piston dans l'étau au carré."
+                },
+                {
+                  "bullet": "–",
+                  "text": "Tourner dans le sens des aiguilles d'une montre pour verrouiller le piston interne (6) en dernière\nposition d'enclenchement (5)."
+                }
+              ]
+            },
+            {
+              "bullet": "•",
+              "text": "Utiliser de nouveaux joints d'étanchéité (2) et (3)."
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 75 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/468e539957d0.jpg",
+            "alt": "Object Number: 2411811  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Le tendeur de chaîne se libère au démarrage du moteur.",
+          "image": {
+            "src": "/data/assets/images/f57a4ba0e2fa.jpg",
+            "alt": "Object Number: 2402051  Size: DEFAULT"
+          },
+          "number": 10
+        },
+        {
+          "text": "Libérer le tendeur de chaîne de distribution de l'arbre à cames en appuyant sur le rail de tension ou sur la chaîne de distribution de l'arbre à cames (à l'aide d'un outil émoussé – par exemple, un levier d'assemblage arrondi). Remarque : Ne pas suivre cette instruction pourrait entraîner un saut de la chaîne de distribution de l'arbre à cames.",
+          "image": {
+            "src": "/data/assets/images/f57a4ba0e2fa.jpg",
+            "alt": "Object Number: 2402051  Size: DEFAULT"
+          },
+          "number": 11
+        },
+        {
+          "text": "Fixer le cache de la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Nettoyer les surfaces de joint."
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "2 boulons, 1 écrou"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer la durite de ventilation du moteur."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ef30e1bc79e7.jpg",
+            "alt": "Object Number: 2417739  Size: DEFAULT"
+          },
+          "number": 12
+        },
+        {
+          "text": "Fixer le module d'allumage.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer et sécuriser le connecteur du faisceau de câblage."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ef30e1bc79e7.jpg",
+            "alt": "Object Number: 2417739  Size: DEFAULT"
+          },
+          "number": 13
+        },
+        {
+          "text": "Reposer le cache arrière du moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Vérifier l'alignement."
+            },
+            {
+              "bullet": "•",
+              "text": "6 boulons, couple de serrage 14 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ef30e1bc79e7.jpg",
+            "alt": "Object Number: 2417739  Size: DEFAULT"
+          },
+          "number": 14
+        },
+        {
+          "text": "Fermer le cache arrière du moteur.",
+          "image": {
+            "src": "/data/assets/images/ef30e1bc79e7.jpg",
+            "alt": "Object Number: 2417739  Size: DEFAULT"
+          },
+          "number": 15
+        },
+        {
+          "text": "Rebrancher la batterie.",
+          "image": {
+            "src": "/data/assets/images/ef30e1bc79e7.jpg",
+            "alt": "Object Number: 2417739  Size: DEFAULT"
+          },
+          "number": 16
+        },
+        {
+          "text": "Fermer le capot.",
+          "image": {
+            "src": "/data/assets/images/ef30e1bc79e7.jpg",
+            "alt": "Object Number: 2417739  Size: DEFAULT"
+          },
+          "number": 17
+        },
+        {
+          "text": "Reprogrammer les mémoires volatiles.",
+          "image": {
+            "src": "/data/assets/images/ef30e1bc79e7.jpg",
+            "alt": "Object Number: 2417739  Size: DEFAULT"
+          },
+          "number": 18
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer le tendeur de chaîne de distribution de l'arbre à cames.",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Fixer le cache de la culasse",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Fixer le module d'allumage.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Reposer le cache arrière du moteur.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 14
+    },
+    {
+      "component": "Couple de serrage 75 Nm",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 boulons, couple de serrage 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "Moteurs jusqu'à 48 000\nkm",
+    "Moteurs au-dessus de 48 000\nkm"
+  ],
+  "notes": [
+    "Libérer le tendeur de chaîne de distribution de l'arbre à cames en appuyant sur le\nrail de tension ou sur la chaîne de distribution de l'arbre à cames (à l'aide d'un outil émoussé\n– par exemple, un levier d'assemblage arrondi).\n Ne pas suivre\ncette instruction pourrait entraîner un saut de la chaîne de distribution de l'arbre à cames.",
+    "Utiliser de nouveaux joints d'étanchéité.\n Les lèvres d'étanchéité\ndes joints (1) doivent être insérées dans la rainure sur le cache\nde la culasse.\n \n\n\n\n–\nCouple de serrage 9 Nm"
+  ],
+  "type": "procedure",
+  "id": "timing-chain-tensioner-camshaft-replace-z-22-se-A26D1C"
+}

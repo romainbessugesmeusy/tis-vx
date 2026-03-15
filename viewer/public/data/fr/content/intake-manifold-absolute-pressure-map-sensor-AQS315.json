@@ -1,0 +1,41 @@
+{
+  "title": "Capteur de pression absolue du collecteur d'admission (MAP)",
+  "steps": [
+    {
+      "text": "Télécharger la courbe de référence.",
+      "number": 1
+    },
+    {
+      "text": "Démarrer le moteur et le laisser au ralenti.",
+      "number": 2
+    },
+    {
+      "text": "Déprimer rapidement la pédale d'accélérateur jusqu'à la butée et la relâcher immédiatement. La mesure ne doit pas prendre plus d'une demi-seconde.",
+      "number": 3
+    },
+    {
+      "text": "Télécharger le fichier de configuration (le Tech 32 n'utilise que des fichiers de configuration, pas de courbes de référence).",
+      "number": 1
+    },
+    {
+      "text": "Démarrer le moteur et le laisser au ralenti.",
+      "number": 2
+    },
+    {
+      "text": "Déprimer rapidement la pédale d'accélérateur jusqu'à la butée et la relâcher immédiatement. La mesure ne doit pas prendre plus d'une demi-seconde.",
+      "number": 3
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/9472b4eca8c0.jpg",
+      "alt": "Numéro d'objet : 2400963  Taille : PAR DÉFAUT"
+    },
+    {
+      "src": "/data/assets/images/6cb7d4dd3862.jpg",
+      "alt": "Numéro d'objet : 2419076  Taille : PAR DÉFAUT"
+    }
+  ],
+  "type": "diagnostic",
+  "id": "intake-manifold-absolute-pressure-map-sensor-AQS315"
+}

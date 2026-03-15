@@ -1,0 +1,103 @@
+{
+  "title": "engine-z22se-1-A26D1C",
+  "components": [
+    {
+      "description": "Déposer le calculateur - Multec",
+      "code": "A4"
+    },
+    {
+      "description": "Déposer le relais - Pompe à carburant",
+      "code": "K16"
+    },
+    {
+      "description": "Déposer le capteur - Température du liquide de refroidissement",
+      "code": "B12"
+    },
+    {
+      "description": "Déposer le relais - Calculateur moteur",
+      "code": "K18"
+    },
+    {
+      "description": "Déposer le capteur - Température, air d'admission",
+      "code": "B13"
+    },
+    {
+      "description": "Déposer la bobine d'allumage - Allumage direct",
+      "code": "T1"
+    },
+    {
+      "description": "Déposer le capteur - Position de la pédale",
+      "code": "B19"
+    },
+    {
+      "description": "Déposer la vanne de solénoïde - Recirculation des gaz d'échappement",
+      "code": "Y4"
+    },
+    {
+      "description": "Déposer le capteur - Pression absolue, collecteur d'admission",
+      "code": "B21"
+    },
+    {
+      "description": "Déposer l'injecteur - Cylindre 1",
+      "code": "Y9.1"
+    },
+    {
+      "description": "Déposer le capteur - Commande de cliquetis 1",
+      "code": "B30"
+    },
+    {
+      "description": "Déposer l'injecteur - Cylindre 2",
+      "code": "Y9.2"
+    },
+    {
+      "description": "Déposer le capteur d'impulsions - Vilebrequin",
+      "code": "B34"
+    },
+    {
+      "description": "Déposer l'injecteur - Cylindre 3",
+      "code": "Y9.3"
+    },
+    {
+      "description": "Déposer le condenseur - Bobine d'allumage",
+      "code": "C1"
+    },
+    {
+      "description": "Déposer l'injecteur - Cylindre 4",
+      "code": "Y9.4"
+    },
+    {
+      "description": "Déposer le faisceau principal & Faisceau d'extension, moteur",
+      "code": "X2"
+    },
+    {
+      "description": "Déposer le moteur & Calculateur - Multec",
+      "code": "X22"
+    },
+    {
+      "description": "Déposer le faisceau principal & Faisceau d'extension, moteur",
+      "code": "X3"
+    },
+    {
+      "description": "Déposer le faisceau d'extension, moteur & Moteur",
+      "code": "X33"
+    },
+    {
+      "description": "Déposer le faisceau d'extension, moteur & Calculateur - Multec",
+      "code": "X21"
+    },
+    {
+      "description": "Déposer le faisceau d'extension, moteur & Moteur",
+      "code": "X38"
+    },
+    {
+      "description": "Moteur Z22SE",
+      "code": "Z22SE"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "engine-z22se-1-A26D1C",
+  "diagram": {
+    "src": "/data/assets/b762d1d5590a.cgm",
+    "type": "cgm"
+  }
+}

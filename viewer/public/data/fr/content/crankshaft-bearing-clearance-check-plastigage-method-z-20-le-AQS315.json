@@ -1,0 +1,122 @@
+{
+  "title": "Vérifier le jeu de palier de vilebrequin (Méthode du Plastigage), (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Inspecter",
+      "steps": [
+        {
+          "text": "Jeu de palier - capot de palier retiré.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Attention",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Nettoyer le tourillon de vilebrequin et la coquille de palier de vilebrequin et les lubrifier légèrement pour éviter que le filet ne se déchire lors du retrait du chapeau de palier. Ne pas tourner le vilebrequin.",
+          "number": 3,
+          "image": null
+        }
+      ],
+      "phase": "inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif"
+    },
+    {
+      "label": "Mesurer",
+      "steps": [
+        {
+          "text": "Avec du « Plastigage » (fil plastique déformable).",
+          "image": {
+            "src": "/data/assets/images/bbf6860f667e.jpg",
+            "alt": "Object Number: 2392758  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Découper une bande à la largeur du palier et la placer axialement entre le tourillon de vilebrequin et la coquille de palier de vilebrequin (flèche). Fixer le chapeau de palier avec un couple de serrage - couple de serrage de 50 Nm + 45° + 15° .",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Remarque : Les boulons peuvent être réutilisés pour vérifier le jeu de palier de vilebrequin.",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Comparer la largeur du fil plastique écrasé (flèche) avec l'échelle de mesure.",
+          "image": {
+            "src": "/data/assets/images/5ae1154d2b76.jpg",
+            "alt": "Object Number: 2392759  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Le « Plastigage » est disponible pour différentes plages de mesure.",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Jeu de palier de vilebrequin permis : 0,015 à 0,043 mm.",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Remarque : Lors de la lecture de la valeur, ne pas confondre les millimètres avec les pouces sur l'échelle de mesure.",
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Méthode du couple de serrage et de l'angle",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Fixer le chapeau de palier de vilebrequin au bloc-cylindres avec de nouveaux boulons - 50 Nm + 45° + 15° .",
+          "number": 13,
+          "image": null
+        }
+      ],
+      "phase": "measure",
+      "icon": "/data/assets/images/707731fa677f.gif"
+    },
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le capot de palier.",
+          "image": {
+            "src": "/data/assets/images/bbf6860f667e.jpg",
+            "alt": "Object Number: 2392758  Size: DEFAULT"
+          },
+          "number": 7
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Mesurer",
+      "phase": "measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": []
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Découper une bande à la largeur du palier et la placer axialement entre le tourillon de vilebrequin et la coquille de palier de vilebrequin (flèche). Fixer le chapeau de palier avec un couple de serrage - couple de serrage de 50 Nm + 45° + 15° .",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Fixer le chapeau de palier de vilebrequin au bloc-cylindres avec de nouveaux boulons - 50 Nm + 45° + 15° .",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "type": "procedure",
+  "id": "crankshaft-bearing-clearance-check-plastigage-method-z-20-le-AQS315"
+}

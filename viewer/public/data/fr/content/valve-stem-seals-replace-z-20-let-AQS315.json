@@ -1,0 +1,31 @@
+{
+  "title": "Remplacer les joints de queue de soupape (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Voir l'opération - «Culasse, Pièces de fixation, Déposer et Reposer (Z20LET)»",
+          "number": 1,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Voir l'opération - «Culasse, Pièces de fixation, Déposer et Reposer (Z20LET)»",
+          "number": 2,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "valve-stem-seals-replace-z-20-let-AQS315"
+}

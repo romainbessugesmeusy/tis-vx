@@ -1,0 +1,33 @@
+{
+  "title": "Valeurs de couple de serrage recommandées - Groupe M",
+  "group": "M",
+  "values": [
+    {
+      "component": "Vis de fixation inférieure de colonne de direction",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulon de serrage de colonne de direction",
+      "value": "35",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de fixation supérieure de colonne de direction",
+      "value": "25",
+      "unit": "Nm"
+    },
+    {
+      "component": "Écrou d'assemblage du volant de direction à la colonne de direction",
+      "value": "25",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de roue",
+      "value": "90",
+      "unit": "Nm"
+    }
+  ],
+  "type": "torque_table",
+  "id": "recommended-torque-values-group-m-AQS315"
+}

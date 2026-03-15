@@ -1,0 +1,22 @@
+{
+  "title": "Outils Spéciaux de Service – Groupe L",
+  "group": "L",
+  "tools": [
+    {
+      "name": "Dépression et Pression Pompe",
+      "code": "MKM-667",
+      "description": null
+    },
+    {
+      "name": "Bouchon de Fermeture",
+      "code": "KM-807",
+      "description": null
+    }
+  ],
+  "image": {
+    "src": "/data/assets/images/86eeb9922ff5.jpg",
+    "alt": "Numéro d'objet : 2429824  Taille : DEFAULT"
+  },
+  "type": "tool_list",
+  "id": "special-service-tools-group-l-A26D1C"
+}

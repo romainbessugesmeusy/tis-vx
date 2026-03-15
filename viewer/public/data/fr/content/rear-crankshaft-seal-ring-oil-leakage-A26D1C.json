@@ -1,0 +1,34 @@
+{
+  "title": "Field Remedy: 1464",
+  "subject": "Joint d'étanchéité de vilebrequin arrière - Fuite d'huile",
+  "complaint": "Voir ci-dessus.",
+  "cause": "Orifice de retour d'huile entre le palier principal et la bague d'étanchéité du vilebrequin mal usiné, provoquant une surpression dans cette zone, entraînant une fuite d'huile.",
+  "production": "Processus de production modifié à partir du numéro de moteur :\n11 041 547",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "En cas de réclamation client, déposer la bague d'étanchéité arrière du vilebrequin et vérifier l'orifice de retour d'huile (par ex. avec un fil).\nL'orifice doit être complètement usiné (Diamètre 5 mm). Si OK, reposer avec une nouvelle bague d'étanchéité arrière du vilebrequin.\nSi NOK, remplacer le bloc court."
+    },
+    {
+      "type": "text",
+      "text": "Veuillez noter :\nSi un sifflement se produit, notamment au ralenti dans la zone du joint d'étanchéité radial (côté transmission), il se peut que l'orifice (liaison de ventilation du carter de vilebrequin) dans la durite coude (filtre à air vers corps de papillon) n'ait pas été correctement percé. En raison de différences de pression, le sifflement mentionné peut se produire. Le bruit disparaît lorsque la jauge d'huile est retirée, en raison de la ventilation du carter de vilebrequin."
+    },
+    {
+      "type": "paragraph",
+      "text": "Remplacer la pièce."
+    },
+    {
+      "type": "text",
+      "text": "Astra-G, Zafira : Numéro de pièce 24408176 / Numéro de catalogue 58 36 818\nVectra-B :        Numéro de pièce 9196367  / Numéro de catalogue 83 58 23\nSpeedster :       Numéro de pièce 9198076  / Numéro de catalogue 48 01 076"
+    }
+  ],
+  "type": "tsb",
+  "id": "rear-crankshaft-seal-ring-oil-leakage-A26D1C",
+  "metadata": {
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "10 - Leakages",
+    "troubleCode": "Non",
+    "models": null,
+    "engines": null
+  }
+}

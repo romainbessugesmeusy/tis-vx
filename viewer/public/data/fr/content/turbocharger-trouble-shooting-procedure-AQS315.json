@@ -1,0 +1,110 @@
+{
+  "title": "Field Remedy: 2483",
+  "subject": "Turbocharger - Dépannage\nProcédure",
+  "complaint": "Prestations faibles, Bruyant, Fuite, Fumée noire",
+  "cause": "De nombreux turbocompresseurs sont remplacés inutilement car une procédure de dépannage n'est pas suivie.",
+  "production": "Aucune.",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "La plupart des défaillances des turbocompresseurs sont causées par l'une des trois raisons de base :"
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Manque de lubrification",
+        "Contamination par l'huile",
+        "Dommages causés par des corps étrangers"
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Carcasse de turbine",
+        "Palier de butée",
+        "Roue de compresseur",
+        "REA (Actionneur électronique)",
+        "Carcasse de compresseur",
+        "Palier de tourillon",
+        "Ensemble bague de turbine (roue de turbine)"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "De nombreux turbocompresseurs sont remplacés inutilement car une procédure de dépannage n'est pas suivie."
+    },
+    {
+      "type": "text",
+      "text": "Veuillez utiliser le tableau de diagnostic du turbocompresseur suivant avant de remplacer des pièces :"
+    },
+    {
+      "type": "diagnosis_table",
+      "table": {
+        "categories": [
+          {
+            "name": "Bruit",
+            "rows": [
+              {
+                "description": "Roue de compresseur et de turbine endommagée et pliée",
+                "action": "Vérifier l'ingestion de corps étrangers"
+              },
+              {
+                "description": "Rotation incorrecte de la roue ou interférence avec le boîtier",
+                "action": "Vérifier la contamination par l'huile Vérifier le remplacement de l'huile (dossiers de service)"
+              },
+              {
+                "description": "Fuite entre l'échappement",
+                "action": "Vérifier le montage du collecteur de composants & de la culasse ou l'entrée de la carcasse de turbine"
+              },
+              {
+                "description": "Dommage à la durite d'air ou couple de serrage du collier",
+                "action": "Remplacer la durite d'air ou resserrer insuffisamment le collier"
+              }
+            ]
+          },
+          {
+            "name": "Fuite",
+            "rows": [
+              {
+                "description": "Fuite d'huile moteur",
+                "action": "Vérifier le tuyau d'alimentation en huile du turbo et la rondelle pour dommages"
+              },
+              {
+                "description": "Fuite de gaz de soufflage",
+                "action": "Vérifier les connexions de durite d'intercooler et le collier de fixation"
+              }
+            ]
+          },
+          {
+            "name": "Manque de puissance ou mauvaise accélération",
+            "rows": [
+              {
+                "description": "Aucune expansion de la durite d'intercooler pendant",
+                "action": "Vérifier la roue de compresseur pour les dommages et la performance de l'Actionneur électronique d'accélération"
+              },
+              {
+                "description": "Rotation incorrecte de la roue de compresseur et de turbine",
+                "action": "Vérifier la contamination par l'huile Vérifier le remplacement de l'huile (dossiers de service)"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/dd7b9ecf9f84.jpg",
+      "alt": "Numéro d'objet : 10673539  Taille : DEFAULT"
+    }
+  ],
+  "type": "tsb",
+  "id": "turbocharger-trouble-shooting-procedure-AQS315",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "",
+    "complaintGroup": "",
+    "troubleCode": ""
+  }
+}

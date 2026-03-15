@@ -1,0 +1,63 @@
+{
+  "title": "Système d'avertissement antivol",
+  "components": [
+    {
+      "description": "Unité de contrôle - Verrouillage central",
+      "code": "A12"
+    },
+    {
+      "description": "Clignotant - Latéral, droit",
+      "code": "H7"
+    },
+    {
+      "description": "Unité de contrôle - Système d'avertissement antivol",
+      "code": "A13"
+    },
+    {
+      "description": "Témoin - Système d'avertissement antivol",
+      "code": "H11"
+    },
+    {
+      "description": "Sirène - Système d'avertissement antivol",
+      "code": "B48"
+    },
+    {
+      "description": "Interrupteur - Capot moteur, système d'avertissement antivol",
+      "code": "S16"
+    },
+    {
+      "description": "Capteur - Unité d'avertissement antivol, habitacle passager",
+      "code": "B121"
+    },
+    {
+      "description": "Interrupteur de contact - Porte conducteur",
+      "code": "S38"
+    },
+    {
+      "description": "Témoin - Changement de vitesse/Haut/Système d'avertissement antivol",
+      "code": "H1.76"
+    },
+    {
+      "description": "Interrupteur de contact - Porte passager avant",
+      "code": "S39"
+    },
+    {
+      "description": "Clignotant - Latéral, gauche",
+      "code": "H6"
+    },
+    {
+      "description": "Interrupteur - Capot avant, système d'avertissement antivol",
+      "code": "S126"
+    },
+    {
+      "description": "Prise diagnostic",
+      "code": "X13"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "anti-theft-warning-system-A26D1C",
+  "diagram": {
+    "src": "/data/assets/6f2f9b53f108.cgm",
+    "type": "cgm"
+  }
+}

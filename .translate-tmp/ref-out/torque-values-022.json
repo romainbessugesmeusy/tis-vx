@@ -1,0 +1,137 @@
+{
+  "values": [
+    {
+      "component": "Reposer 3x rondelle, 3x vis 90 Nm",
+      "sourcePage": "wheel-bearing-front-replace-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer 2x vis 45 Nm Note: Nettoyer les filetages et appliquer du composé de blocage.",
+      "sourcePage": "wheel-bearing-front-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Vis, rondelles de butée et cache de poussière sur l'ensemble de roulement de roue - 210 Nm.",
+      "sourcePage": "wheel-bearing-remove-and-install-A26D1C",
+      "value": "210",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Fusée de direction (2) sur le porte-moyeu – écrou 80 Nm .",
+      "sourcePage": "wheel-hub-and-drive-shaft-assembly-remove-and-install-A26D1C",
+      "value": "80",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Support de rotule supérieur (1) sur le porte-moyeu – cales de carrossage, deux boulons 45 Nm .",
+      "sourcePage": "wheel-hub-and-drive-shaft-assembly-remove-and-install-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 15
+    },
+    {
+      "component": "Roue arrière sur le véhicule – boulons 90 Nm .",
+      "sourcePage": "wheel-hub-and-drive-shaft-assembly-remove-and-install-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 19
+    },
+    {
+      "component": "Installer l'ensemble moyeu de roue sur le porte-moyeu Note: Le capteur de vitesse de roue fait partie de l'ensemble moyeu.",
+      "sourcePage": "wheel-speed-sensor-abs-front-or-rear-replace-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Pour le type antérieur de moyeu de roue, installer le boulon central, 4x rondelle, écrou 45 Nm",
+      "sourcePage": "wheel-speed-sensor-abs-front-or-rear-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 11
+    },
+    {
+      "component": "Installer l'ensemble étrier de frein sur le porte-moyeu",
+      "sourcePage": "wheel-speed-sensor-abs-front-or-rear-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 14
+    },
+    {
+      "component": "Installer la roue avant",
+      "sourcePage": "wheel-speed-sensor-abs-front-or-rear-replace-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 15
+    },
+    {
+      "component": "Reposer 3x rondelle, 3x vis 90 Nm",
+      "sourcePage": "wheel-speed-sensor-abs-front-or-rear-replace-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer 2x vis 45 Nm Note: Nettoyer les filetages et appliquer du composé de blocage.",
+      "sourcePage": "wheel-speed-sensor-abs-front-or-rear-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer le verrou de capot avant",
+      "sourcePage": "windscreen-frame-replace-A26D1C",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": 42
+    },
+    {
+      "component": "Installer les roues avant",
+      "sourcePage": "windscreen-frame-replace-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 54
+    },
+    {
+      "component": "Installer la porte droite",
+      "sourcePage": "windscreen-frame-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 55
+    },
+    {
+      "component": "Installer la porte gauche",
+      "sourcePage": "windscreen-frame-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 56
+    },
+    {
+      "component": "Couple de serrage 16 Nm",
+      "sourcePage": "windscreen-frame-replace-A26D1C",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 90 Nm",
+      "sourcePage": "windscreen-frame-replace-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 45 Nm",
+      "sourcePage": "windscreen-frame-replace-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

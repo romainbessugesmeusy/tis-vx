@@ -1,0 +1,80 @@
+{
+  "title": "Déposer et reposer la biellette de direction",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Déposer et reposer la biellette de direction",
+          "number": 1,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    },
+    {
+      "label": "Déposer, Déconnecter",
+      "steps": [
+        {
+          "text": "Étrier de frein du porte-fusee - voir l'opération «Étrier de frein arrière, Déposer et reposer» dans le groupe H; soutenir sur le côté.",
+          "image": {
+            "src": "/data/assets/images/2d0e71fcac03.jpg",
+            "alt": "Object Number: 2429419  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Biellette de direction du triangle inférieur - écrou, rondelles.",
+          "image": {
+            "src": "/data/assets/images/bfa1c2249fee.jpg",
+            "alt": "Object Number: 2429746  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Biellette de direction du porte-fusée - écrou, rondelles.",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/4b8970d41392.jpg"
+    },
+    {
+      "label": "Reposer, Connecter",
+      "steps": [
+        {
+          "text": "Biellette de direction au porte-fusée - écrou, rondelles.",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Biellette de direction au triangle inférieur - écrou 49 Nm, rondelles.",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Étrier de frein du porte-fusée - voir l'opération «Étrier de frein arrière, Déposer et reposer» dans le groupe H.",
+          "image": {
+            "src": "/data/assets/images/2d0e71fcac03.jpg",
+            "alt": "Object Number: 2429419  Size: DEFAULT"
+          },
+          "number": 7
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/57d894c25c39.jpg"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Biellette de direction au triangle inférieur - écrou 49 Nm, rondelles.",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 6
+    }
+  ],
+  "type": "procedure",
+  "id": "track-control-rod-remove-and-install-AQS315"
+}

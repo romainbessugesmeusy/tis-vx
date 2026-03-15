@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "DIS module to the cylinder head cover – 4 bolts, 10 Nm .",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 3,
+      "sourcePage": "distributerless-ignition-dis-module-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Upper hinge bolt (1) – 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 11,
+      "sourcePage": "door-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Lower hinge bolt (2) – 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "door-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Shock absorber to chassis – bolt, nut 45 Nm , washers",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 17,
+      "sourcePage": "drive-shafts-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Rear wheel to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 24,
+      "sourcePage": "drive-shafts-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Upper ball joint carrier (1) to hub carrier – camber shims, two bolts 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "drive-shafts-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install the engine control unit.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 12,
+      "sourcePage": "engine-control-unit-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install the engine control unit.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 12,
+      "sourcePage": "engine-control-unit-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Attach the engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 14,
+      "sourcePage": "engine-control-unit-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-control-unit-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Tightening torque 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-control-unit-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-control-unit-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Engine damping block (2) – nut 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "engine-damping-block-lh-replace-A26D1C"
+    },
+    {
+      "component": "Bracket (1) to engine and damping block – nut, bolts 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-damping-block-lh-replace-A26D1C"
+    },
+    {
+      "component": "Engine damping block (2) – nut 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "engine-damping-block-rh-replace-A26D1C"
+    },
+    {
+      "component": "Bracket (1) to transmission and damping block – nut 45 Nm , bolts 85 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-damping-block-rh-replace-A26D1C"
+    },
+    {
+      "component": "Bracket (1) to transmission and damping block – nut 45 Nm , bolts 85 Nm .",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-damping-block-rh-replace-A26D1C"
+    },
+    {
+      "component": "Drain the engine oil.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 5,
+      "sourcePage": "engine-oil-change-z22se-A26D1C"
+    },
+    {
+      "component": "Install the element in the oil filter housing.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "engine-oil-change-z22se-A26D1C"
+    },
+    {
+      "component": "Install the drain plug using a new oil seal 25 Nm .",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-oil-change-z22se-A26D1C"
+    },
+    {
+      "component": "Drain the coolant.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 21,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the rear engine damping block.",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": 45,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the rear engine damping block.",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 45,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the front engine damping block.",
+      "value": "55",
+      "unit": "Nm",
+      "stepRef": 47,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the engine damping block bracket with the right–hand engine damping block.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 48,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the engine damping block bracket with the right–hand engine damping block.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 48,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the axle shafts.",
+      "value": "60",
+      "unit": "Nm",
+      "stepRef": 51,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the axle shafts.",
+      "value": "120",
+      "unit": "Nm",
+      "stepRef": 51,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the axle shafts.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 51,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the front exhaust pipe.",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": 57,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "At the lower heat shield.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 58,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the left–hand engine damping block bracket.",
+      "value": "55",
+      "unit": "Nm",
+      "stepRef": 68,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the air intake pipe.",
+      "value": "5",
+      "unit": "Nm",
+      "stepRef": 77,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the rear wheels.",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 79,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 84,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 86 Nm",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 49 Nm",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 55 Nm",
+      "value": "55",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 85 Nm",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 60 Nm",
+      "value": "60",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 120 Nm , undo, tightening torque 20 Nm + 80°",
+      "value": "120",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 16 Nm",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 3,5 Nm",
+      "value": "5",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Drain engine oil",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 4,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tighten all bolts loosely Note: Observe tightening sequence.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 56,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    }
+  ]
+}

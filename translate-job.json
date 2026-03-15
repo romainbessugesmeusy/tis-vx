@@ -1,0 +1,33 @@
+{
+  "format": "json",
+  "model": "gpt-3.5-turbo",
+  "maxTokens": 4096,
+  "temperature": 0.3,
+  "locales": ["fr"],
+  "context": "Automotive workshop manual for Opel/Vauxhall VX220/Speedster (2003). Content comes from TIS2Web (Technical Information System). This is professional service documentation used by mechanics. Content types include repair procedures, technical service bulletins (TSB/Field Remedies), wiring harness diagrams, torque tables, tool lists, glossaries, and diagnostic procedures. NEVER translate: part numbers, engine codes (Z20LET, Z22SE), vehicle model names (Speedster, VX220, Corsa-C), component codes (X1, X15, F3, K42), measurement values and units (25 Nm, 0.5 mm), tool codes (KM-507, EN-12345), Field Remedy numbers. When text references another operation (e.g. see operation \"Wiper Arm, Replace\"), translate both the framing and the quoted name. Use French guillemets \u00ab...\u00bb instead of English quotes. For the htmlContent field: translate ONLY visible text between HTML tags, preserve ALL tags, attributes, class names, src paths, href values, JavaScript calls, inline styles, and entity references exactly as-is.",
+  "style": "Use impersonal infinitive constructions throughout (e.g. \u00abD\u00e9poser le cache\u00bb, NOT \u00abD\u00e9posez le cache\u00bb). Preserve the concise telegraphic style of procedure steps \u2014 do not expand fragments into full sentences. Match the register of a professional Revue Technique Automobile. Use standard French automotive vocabulary but keep common anglicisms that French mechanics actually use (ABS, airbag, ECU, ECM, EGR, turbo, intercooler, lambda, clip). MANDATORY GLOSSARY \u2014 always use these translations: Remove=D\u00e9poser, Install=Reposer/Poser, Replace=Remplacer, Tighten=Serrer, Loosen=Desserrer, Torque=Couple de serrage, Bolt=Vis (Boulon for large hex-head), Nut=\u00c9crou, Washer=Rondelle, Gasket=Joint, Seal=Joint d'\u00e9tanch\u00e9it\u00e9, O-ring=Joint torique, Clip=Agrafe, Hose=Durite/Flexible, Harness=Faisceau, Wiring=C\u00e2blage, Fuse=Fusible, Relay=Relais, Connector=Connecteur, Wiper=Essuie-glace, Bonnet=Capot, Boot=Coffre, Wishbone=Triangle de suspension, Bulkhead=Tablier, Mounting frame=Cadre de fixation, Drive shaft=Arbre de transmission, Rubber seal=Joint caoutchouc, Underbody cover=Protection sous caisse, Alternator=Alternateur, Brake=Frein, Steering=Direction, Exhaust=\u00c9chappement, Coolant=Liquide de refroidissement, Engine oil=Huile moteur, Gearbox=Bo\u00eete de vitesses, Clutch=Embrayage, Cylinder head=Culasse, Camshaft=Arbre \u00e0 cames, Crankshaft=Vilebrequin, Spark plug=Bougie d'allumage, Ignition=Allumage, Fuel pump=Pompe \u00e0 carburant, Fuel injector=Injecteur, Throttle body=Bo\u00eetier papillon, Air filter=Filtre \u00e0 air, Oil filter=Filtre \u00e0 huile, Timing belt/chain=Courroie/Cha\u00eene de distribution, Water pump=Pompe \u00e0 eau, Roll hoop=Arceau, Fog lamp=Antibrouillard, Reversing lamp=Feu de recul, Headlamp=Phare, Indicator=Clignotant, Diagnostic link=Prise diagnostic, Interior fan=Ventilateur habitacle.",
+  "protectedFields": [
+    "id",
+    "type",
+    "subtype",
+    "totalItems",
+    "extractedData",
+    "diagram",
+    "metadata",
+    "phases.*.icon",
+    "phases.*.phase",
+    "phases.*.steps.*.number",
+    "phases.*.steps.*.image",
+    "phases.*.steps.*.callouts",
+    "phases.*.torqueValues",
+    "components.*.code",
+    "items.*.links",
+    "values.*.value",
+    "values.*.unit",
+    "tools.*.code",
+    "parts.*.partNumber"
+  ],
+  "fieldDescriptions": [
+    "htmlContent: This is HTML markup. Translate ONLY the visible text content between tags. Preserve ALL HTML tags, attributes, class names, src paths, href values, JavaScript calls, inline styles, and entity references exactly as-is."
+  ]
+}

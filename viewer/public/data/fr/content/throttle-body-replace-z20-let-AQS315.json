@@ -1,0 +1,114 @@
+{
+  "title": "Remplacer le boîtier papillon (Z20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Débrancher le câble de masse de la batterie.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Vidanger le liquide de refroidissement – voir l'opération ”Système de refroidissement, Vidange, Remplissage et Purge”",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déposer la durite d'intercooler (5) du boîtier papillon supérieur.",
+          "image": {
+            "src": "/data/assets/images/8c10734256c9.jpg",
+            "alt": "Object Number: 2422889  Size: DEFAULT"
+          },
+          "callouts": [
+            "5"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Déposer le boîtier papillon supérieur (4) du boîtier papillon inférieur.",
+          "callouts": [
+            "4"
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Déposer les durites de liquide de refroidissement du boîtier papillon (2). Retirer la durite de ventilation du moteur (3) du couvercle de la culasse.",
+          "callouts": [
+            "2",
+            "3"
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Débrancher la fiche du faisceau de câblage du boîtier papillon (1).",
+          "callouts": [
+            "1"
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Déposer le boîtier papillon.",
+          "number": 7,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Remplacer les joints d'étanchéité du boîtier papillon et fixer les durites de liquide de refroidissement au boîtier papillon. Fixer la durite de ventilation du moteur au couvercle de la culasse.",
+          "image": {
+            "src": "/data/assets/images/8c10734256c9.jpg",
+            "alt": "Object Number: 2422889  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Fixer le boîtier papillon supérieur au boîtier papillon inférieur – couple de serrage 9 Nm . Fixer la durite d'intercooler au boîtier papillon supérieur – couple de serrage – 3.5 Nm .",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Rebrancher le câble de masse à la batterie.",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Remplir le système de refroidissement – voir les opérations ”Système de refroidissement, Vidange, Remplissage et Purge”.",
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Effectuer une procédure d'apprentissage après le remplacement du module de boîtier papillon (E-Gas). Pour ce faire, mettre le contact et attendre au moins 10 secondes. En aucun cas le démarrage ne doit avoir lieu pendant la période d'attente, car cela interromprait la procédure d'apprentissage.",
+          "number": 12,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Fixer le boîtier papillon supérieur au boîtier papillon inférieur – couple de serrage 9 Nm . Fixer la durite d'intercooler au boîtier papillon supérieur – couple de serrage – 3.5 Nm .",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Fixer le boîtier papillon supérieur au boîtier papillon inférieur – couple de serrage 9 Nm . Fixer la durite d'intercooler au boîtier papillon supérieur – couple de serrage – 3.5 Nm .",
+      "value": "3.5",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "type": "procedure",
+  "id": "throttle-body-replace-z20-let-AQS315"
+}

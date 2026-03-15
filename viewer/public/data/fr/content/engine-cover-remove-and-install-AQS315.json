@@ -1,0 +1,64 @@
+{
+  "title": "Cache moteur, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer et soutenir le cache moteur",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le cache moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer les 6 vis (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2713d39f6370.jpg",
+            "alt": "Object Number: 2419662  Size: DEFAULT"
+          },
+          "number": 2
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le cache moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Poser les 6 vis"
+            },
+            {
+              "bullet": "•",
+              "text": "Aligner le cache moteur"
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Fermer le cache moteur.",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "notes": [
+    "Déposer les 6 vis (1)\n 2. Faire appel à\nun deuxième technicien\n Note:   Marquer sur le\nmarquage d'alignement",
+    "Aligner le cache moteur\n 2. Faire appel à\nun deuxième technicien"
+  ],
+  "type": "procedure",
+  "id": "engine-cover-remove-and-install-AQS315"
+}

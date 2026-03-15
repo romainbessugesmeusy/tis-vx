@@ -1,0 +1,124 @@
+{
+  "title": "Batterie, Remplacer",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Ouvrir le capot",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le réservoir de lave-glace du support de fixation",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déposer le conduit de chauffage du tablier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Emboîter"
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Débrancher les câbles de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer les 2x écrous"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1c64b7a08acc.jpg",
+            "alt": "Object Number: 2429429  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Déposer le collier de batterie du tablier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer les 3x boulon de collier"
+            }
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Déposer la batterie du véhicule",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Déposer la durite de fuite de la batterie et installer sur la nouvelle batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Emboîter"
+            }
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Installer la batterie sur le véhicule",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Installer le collier de batterie sur le tablier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer les 3x boulon de collier"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Raccorder les câbles à la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer les 2x écrous"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Fixer le conduit de chauffage au tablier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Emboîter"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Installer le réservoir de lave-glace sur le support de fixation",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Fermer le capot",
+          "number": 13,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "type": "procedure",
+  "id": "battery-replace-A26D1C"
+}

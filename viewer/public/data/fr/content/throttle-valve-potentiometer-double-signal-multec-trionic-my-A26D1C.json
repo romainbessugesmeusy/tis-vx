@@ -1,0 +1,41 @@
+{
+  "title": "Potentiomètre de papillon des gaz (Double signal),\nMultec/Trionic (MY 2001, MY 2002 et MY 2003), Simtec (MY 2001 et\nMY 2002)",
+  "steps": [
+    {
+      "text": "Télécharger la courbe de référence.",
+      "number": 1
+    },
+    {
+      "text": "Démarrer le moteur.",
+      "number": 2
+    },
+    {
+      "text": "Déprimer rapidement la pédale d'accélérateur jusqu'à la\nbutée de fin de course, puis la relâcher.",
+      "number": 3
+    },
+    {
+      "text": "Télécharger le fichier de configuration (le Tech 32 n'utilise que des fichiers de configuration, pas de courbes de référence).",
+      "number": 1
+    },
+    {
+      "text": "Démarrer le moteur et le laisser au ralenti.",
+      "number": 2
+    },
+    {
+      "text": "Déprimer rapidement la pédale d'accélérateur jusqu'à la\nbutée de fin de course, puis la relâcher.",
+      "number": 3
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/5bbdfbdc0be0.jpg",
+      "alt": "Numéro d'objet : 2419834  Taille : DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/a094dc1ddc23.jpg",
+      "alt": "Numéro d'objet : 2419080  Taille : DEFAULT"
+    }
+  ],
+  "type": "diagnostic",
+  "id": "throttle-valve-potentiometer-double-signal-multec-trionic-my-A26D1C"
+}

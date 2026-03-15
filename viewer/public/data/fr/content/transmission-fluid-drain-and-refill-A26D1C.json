@@ -1,0 +1,46 @@
+{
+  "title": "Huile de transmission, Vidange et Remplissage",
+  "phases": [
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer/Poser",
+      "steps": [
+        {
+          "text": "Déposer le bouchon de vidange (1) de la transmission – vidanger l'huile dans un récipient approprié.",
+          "callouts": [
+            "1"
+          ],
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Serrer le bouchon de vidange à la transmission – 35 Nm.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Remplir la transmission au niveau correct – voir l'opération \"Contrôle et Correction du Niveau d'Huile de Transmission\".",
+          "number": 3,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Serrer le bouchon de vidange à la transmission – 35 Nm.",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 2
+    }
+  ],
+  "type": "procedure",
+  "id": "transmission-fluid-drain-and-refill-A26D1C"
+}

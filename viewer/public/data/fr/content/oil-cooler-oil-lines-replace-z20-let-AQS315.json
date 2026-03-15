@@ -1,0 +1,98 @@
+{
+  "title": "Remplacer le refroidisseur d'huile et les durites d'huile (Z20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le collecteur d'admission – voir l'opération « Collecteur d'admission, Remplacer (Z20 LET) ».",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer les durites d'huile (1) du refroidisseur d'huile – placer un bac de récupération en dessous.",
+          "image": {
+            "src": "/data/assets/images/ea793f919ec9.jpg",
+            "alt": "Object Number: 2418805  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Déclipser les durites d'huile du support (2).",
+          "callouts": [
+            "2"
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déposer les durites d'huile du boîtier de thermostat (refroidisseur d'huile).",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Attention",
+          "image": {
+            "src": "/data/assets/images/ea793f919ec9.jpg",
+            "alt": "Object Number: 2418805  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Serrer uniformément le boîtier de thermostat (refroidisseur d'huile) et les durites d'huile – Veiller à ce que les durites d'huile ne soient pas installées sous tension.",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Fixer les durites d'huile au boîtier de thermostat du refroidisseur d'huile, et au refroidisseur d'huile, en utilisant de nouveaux joints d'étanchéité – couple de serrage 30 Nm.",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Clipser les durites d'huile dans le support.",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Reposer le collecteur d'admission – voir l'opération « Collecteur d'admission, Remplacer (Z20 LET) ».",
+          "number": 9,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    },
+    {
+      "label": "Inspecter",
+      "steps": [
+        {
+          "text": "Vérifier le niveau d'huile moteur et corriger si nécessaire.",
+          "number": 10,
+          "image": null
+        }
+      ],
+      "phase": "inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Fixer les durites d'huile au boîtier de thermostat du refroidisseur d'huile, et au refroidisseur d'huile, en utilisant de nouveaux joints d'étanchéité – couple de serrage 30 Nm.",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 7
+    }
+  ],
+  "type": "procedure",
+  "id": "oil-cooler-oil-lines-replace-z20-let-AQS315"
+}

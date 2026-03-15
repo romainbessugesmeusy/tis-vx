@@ -1,0 +1,28 @@
+{
+  "title": "Field Remedy: 2406",
+  "subject": "Rotule de suspension transversale - Écrou\ndifficile à enlever",
+  "complaint": "Écrou de rotule de suspension transversale inférieure\ndifficile à enlever du moyeu de direction.",
+  "cause": "Corrosion.",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "En cas d'opération de service, le moyeu de direction doit être élargi\nuniquement avec l'outil spécial KM-915 (image I). Un élargissement\nincorrect (par exemple avec un burin ou un levier pointu) peut causer\ndes dommages cachés à l'écrou ou au moyeu de direction, ce qui peut entraîner une fissure."
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/d4b2873a4e14.jpg",
+      "alt": "Numéro d'objet : 10685977  Taille : DEFAULT"
+    }
+  ],
+  "type": "tsb",
+  "id": "ball-joint-transverse-link-stud-difficult-to-remove-AQS315",
+  "metadata": {
+    "functionalGroup": "E - Front wheel suspension/Wheels/Tyres",
+    "complaintGroup": "03 - Corrosion",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  },
+  "production": ""
+}

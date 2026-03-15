@@ -1,0 +1,133 @@
+{
+  "title": "Piston and Con-rod, Déposer et Reposer (Z20\nLET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le cache supérieur du carter d'huile – voir l'opération «Carter d'huile, Supérieur, Remplacer». Déposer la culasse – voir l'opération «Culasse, Déposer et Reposer».",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer l'ensemble arbre d'équilibrage – voir l'opération «Arbres d'équilibrage, Remplacer».",
+          "image": {
+            "src": "/data/assets/images/6e8c951064e7.jpg",
+            "alt": "Object Number: 2422887  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Marquer l'ordre des chapeaux de palier de bielle (3) – la bille (4) des chapeaux de palier de bielle pointe vers le côté transmission. Déposer le chapeau de palier de bielle de la bielle.",
+          "callouts": [
+            "3",
+            "4"
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déposer les résidus de combustion dans la partie supérieure du cylindre. Déposer le piston avec la bielle vers le haut du cylindre.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Nettoyer et vérifier toutes les pièces, remplacer si nécessaire.",
+          "number": 5,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Ajuster les jeux de segments de piston : Positionner d'abord le segment supérieur (segment de section rectangulaire) en position (1), puis le segment intermédiaire du piston (segment Napier) en position (4), le segment intermédiaire du racleur d'huile en position (5), les segments à bande d'acier du racleur d'huile en position (2) ou (3).",
+          "image": {
+            "src": "/data/assets/images/aafd38daccc6.jpg",
+            "alt": "Object Number: 2417766  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "4",
+            "5",
+            "2",
+            "3"
+          ],
+          "number": 6
+        },
+        {
+          "text": "Enduire les segments de piston d'huile moteur et les comprimer avec un compresseur de segments de piston disponible dans le commerce.",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Pousser le piston dans le cylindre avec l'arbre de marteau.",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Attention",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Position d'installation : La flèche sur la tête du piston pointe vers le côté distribution du moteur.",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Noter la séquence des chapeaux de palier de bielle. Fixer le chapeau de palier de bielle à la bielle avec de nouveaux boulons – la bille du chapeau de palier de bielle (1) pointe vers le côté transmission – couple de serrage 35 Nm + 45° + 15° .",
+          "image": {
+            "src": "/data/assets/images/c23d8b76224e.jpg",
+            "alt": "Object Number: 2392786  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 11
+        },
+        {
+          "text": "Appliquer un cordon de composé d'étanchéité adhésif (noir) sur les joints de la pompe à huile et du chapeau de palier arrière du vilebrequin.",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Reposer l'ensemble arbre d'équilibrage – voir l'opération «Arbres d'équilibrage, Remplacer».",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Reposer la culasse – voir l'opération «Culasse, Déposer et Reposer».",
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Reposer le cache supérieur du carter d'huile – voir l'opération «Carter d'huile, Supérieur, Remplacer».",
+          "number": 15,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    },
+    {
+      "label": "Reposer",
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Noter la séquence des chapeaux de palier de bielle. Fixer le chapeau de palier de bielle à la bielle avec de nouveaux boulons – la bille du chapeau de palier de bielle (1) pointe vers le côté transmission – couple de serrage 35 Nm + 45° + 15° .",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 11
+    }
+  ],
+  "type": "procedure",
+  "id": "piston-and-con-rod-remove-and-install-z20-let-AQS315"
+}

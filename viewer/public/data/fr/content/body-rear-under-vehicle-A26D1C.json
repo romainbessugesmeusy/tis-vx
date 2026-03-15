@@ -1,0 +1,19 @@
+{
+  "title": "Carrosserie arrière - Sous véhicule",
+  "components": [
+    {
+      "description": "Déposer la batterie",
+      "code": "G1"
+    },
+    {
+      "description": "Déposer le faisceau principal & Batterie positive",
+      "code": "X1"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "body-rear-under-vehicle-A26D1C",
+  "diagram": {
+    "src": "/data/assets/c6f00a1b8dec.cgm",
+    "type": "cgm"
+  }
+}

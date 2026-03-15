@@ -1,0 +1,50 @@
+{
+  "title": "Ampoule, Lampe de répétiteur latéral, Remplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer/Poser",
+      "steps": [
+        {
+          "text": "Lampe de répétiteur latéral du passage de roue avant – déprimer les ergots de retenue.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Verre du corps de lampe.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Ampoule du support.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Ampoule au support.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Verre au corps de lampe.",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Lampe de répétiteur latéral au passage de roue avant.",
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "bulb-side-repeater-lamp-replace-A26D1C"
+}

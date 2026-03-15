@@ -1,0 +1,7 @@
+{
+  "title": "Mesure à 2 roues sans référence à l'essieu arrière",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Mesure à 2 roues sans référence à l'essieu arrière</p>\n\n<p>Dans ce processus de mesure, il est seulement possible d'aligner les roues sur un essieu à la fois. La géométrie de suspension des essieux avant et arrière doit être déterminée séparément.</p>\n\n<p>En conjonction avec des bases rotatives, les valeurs principales de la géométrie de suspension peuvent être déterminées. La mesure de référence entre les essieux avant et arrière n'est cependant pas possible avec ce processus en tenant compte de l'axe de conduite géométrique et de l'axe de symétrie.</p>\n\n<p><span class=\"gt-important\">Important:&nbsp;&nbsp;</span>\nLes machines d'alignement à 2 roues ne sont pas approuvées pour les véhicules Opel/Vauxhall.</p>\n\n<p>Ce processus de mesure inclut par exemple des ponts d'alignement d'essieu.</p>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "type": "generic",
+  "id": "2-wheel-measurement-without-reference-to-the-rear-axle-AQS315",
+  "extractedData": {}
+}

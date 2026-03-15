@@ -1,0 +1,314 @@
+{
+  "title": "Crashbox, Remplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le radiateur. Note : Inclut détacher le capot avant.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "voir l'opération \"Radiateur, Déposer et Reposer\" dans le groupe J"
+            }
+          ],
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Débrancher la durite du radiateur gauche (I) du tuyau de liquide de refroidissement",
+          "image": {
+            "src": "/data/assets/images/e75c9ffd81e2.jpg",
+            "alt": "Object Number: 2412539  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Débrancher la durite du radiateur droit (II) du tuyau de liquide de refroidissement",
+          "image": {
+            "src": "/data/assets/images/e75c9ffd81e2.jpg",
+            "alt": "Object Number: 2412539  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Déposer l'attelage de remorquage",
+          "image": {
+            "src": "/data/assets/images/9175726942c9.jpg",
+            "alt": "Object Number: 2412536  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Percer les rivets (1) des pattes gauche et droite",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer les pattes"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9110b7afbfed.jpg",
+            "alt": "Object Number: 2412540  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Déposer les colliers filetés du crashbox",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "10x"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Couper la bride du crashbox en haut (I)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "à l'aide d'une scie pneumatique"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2dcba081cdac.jpg",
+            "alt": "Object Number: 2412541  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Faire une découpe sur le côté gauche du crashbox",
+          "image": {
+            "src": "/data/assets/images/2dcba081cdac.jpg",
+            "alt": "Object Number: 2412541  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Faire une découpe sur le côté droit du crashbox",
+          "image": {
+            "src": "/data/assets/images/2dcba081cdac.jpg",
+            "alt": "Object Number: 2412541  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Découper approximativement le crashbox",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "à l'aide d'une scie pneumatique"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2dcba081cdac.jpg",
+            "alt": "Object Number: 2412541  Size: DEFAULT"
+          },
+          "number": 10
+        },
+        {
+          "text": "Couper la bride du crashbox en bas (II)",
+          "image": {
+            "src": "/data/assets/images/2dcba081cdac.jpg",
+            "alt": "Object Number: 2412541  Size: DEFAULT"
+          },
+          "number": 11
+        },
+        {
+          "text": "Couper les résidus (I)",
+          "image": {
+            "src": "/data/assets/images/b3b99e0543b3.jpg",
+            "alt": "Object Number: 2412543  Size: DEFAULT"
+          },
+          "number": 12
+        },
+        {
+          "text": "Ajuster les cordons adhésifs (II)",
+          "image": {
+            "src": "/data/assets/images/b3b99e0543b3.jpg",
+            "alt": "Object Number: 2412543  Size: DEFAULT"
+          },
+          "number": 13
+        },
+        {
+          "text": "Nettoyer le crashbox",
+          "image": {
+            "src": "/data/assets/images/b3b99e0543b3.jpg",
+            "alt": "Object Number: 2412543  Size: DEFAULT"
+          },
+          "number": 14
+        },
+        {
+          "text": "Nettoyer les points adhésifs sur le véhicule (III)",
+          "image": {
+            "src": "/data/assets/images/b3b99e0543b3.jpg",
+            "alt": "Object Number: 2412543  Size: DEFAULT"
+          },
+          "number": 15
+        },
+        {
+          "text": "Appliquer un apprêt sur le crashbox",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Agiter l'apprêt pendant 1 minute"
+            },
+            {
+              "bullet": "•",
+              "text": "Temps de séchage de 15 minutes"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b3b99e0543b3.jpg",
+            "alt": "Object Number: 2412543  Size: DEFAULT"
+          },
+          "number": 16
+        },
+        {
+          "text": "En utilisant l'apprêt, refaire les points adhésifs sur le véhicule",
+          "image": {
+            "src": "/data/assets/images/b3b99e0543b3.jpg",
+            "alt": "Object Number: 2412543  Size: DEFAULT"
+          },
+          "number": 17
+        },
+        {
+          "text": "Appliquer de l'adhésif sur le crashbox (IV)",
+          "image": {
+            "src": "/data/assets/images/b3b99e0543b3.jpg",
+            "alt": "Object Number: 2412543  Size: DEFAULT"
+          },
+          "number": 18
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Placer le crashbox en position",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Aligner le crashbox"
+            },
+            {
+              "bullet": "•",
+              "text": "fixer en place avec des pinces à sangle et une sangle de tension"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6a026deeefdf.jpg",
+            "alt": "Object Number: 2412544  Size: DEFAULT"
+          },
+          "number": 19
+        },
+        {
+          "text": "Retirer les pinces à sangle",
+          "number": 20,
+          "image": null
+        },
+        {
+          "text": "Riveter sur la patte droite",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Percez 2 trous"
+            },
+            {
+              "bullet": "•",
+              "text": "3 rivets"
+            }
+          ],
+          "number": 21,
+          "image": null
+        },
+        {
+          "text": "Riveter sur la patte gauche",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Percez 2 trous"
+            },
+            {
+              "bullet": "•",
+              "text": "3 rivets"
+            }
+          ],
+          "number": 22,
+          "image": null
+        },
+        {
+          "text": "Installer les colliers filetés",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "12x"
+            }
+          ],
+          "number": 23,
+          "image": null
+        },
+        {
+          "text": "Installer l'attelage de remorquage",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enduire les vis de composé de verrouillage"
+            }
+          ],
+          "number": 24,
+          "image": null
+        },
+        {
+          "text": "Appliquer un apprêt sur le crashbox",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "sur le tuyau de liquide de refroidissement"
+            }
+          ],
+          "number": 25,
+          "image": null
+        },
+        {
+          "text": "Installer la durite du radiateur droit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "sur le tuyau de liquide de refroidissement"
+            }
+          ],
+          "number": 26,
+          "image": null
+        },
+        {
+          "text": "Installer le radiateur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "voir l'opération \"Radiateur, Déposer et Reposer\" dans le groupe J"
+            }
+          ],
+          "number": 27,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "notes": [
+    "Déposer le radiateur.\n Inclut\n détacher le capot avant.\n \n\n\n\n•  \nvoir l'opération \"Radiateur, Déposer et Reposer\" dans le groupe J",
+    "fixer en place avec des pinces à sangle et une sangle de tension\n 2. Deuxième\ntechnicien requis, suivre les instructions concernant le temps de séchage de l'adhésif"
+  ],
+  "type": "procedure",
+  "id": "crashbox-replace-AQS315"
+}

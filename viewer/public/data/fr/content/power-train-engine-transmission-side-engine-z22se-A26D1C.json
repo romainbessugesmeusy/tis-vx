@@ -1,0 +1,23 @@
+{
+  "title": "Groupe motopropulseur - Moteur, côté transmission",
+  "components": [
+    {
+      "description": "Capteur - Température du liquide de refroidissement",
+      "code": "B12"
+    },
+    {
+      "description": "Condenseur - Bobine d'allumage",
+      "code": "C1"
+    },
+    {
+      "description": "Capteur - Oxygène, contrôle du mélange, chauffé",
+      "code": "B117"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "power-train-engine-transmission-side-engine-z22se-A26D1C",
+  "diagram": {
+    "src": "/data/assets/88d4bdf64b26.cgm",
+    "type": "cgm"
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "type": "tsb",
+  "id": "engine-cover-water-ingress-AQS315",
+  "title": "Field Remedy: 1698",
+  "subject": "Engine cover - Water ingress",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "10 - Leakages,19 - Poor Engine\nDriveability",
+    "troubleCode": "Non"
+  },
+  "complaint": "Corrosion of spark plugs / ignition\nmalfunction.",
+  "cause": "Humidity in spark shaft.",
+  "production": "As of VIN W0L0EBR973N007192 (05 November\n2003) a water deflector is installed at plant to the underside of\nthe hood.",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "In case of customer complaint install a water deflector to the underside of\nthe hood."
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "The water deflector has to be installed into the groove of the hood on",
+        "the right side.",
+        "The holes for fastening of water deflector have to be drilled into the",
+        "outer bar of the groove only.",
+        "When mounting the water deflector, take care that the holes of water",
+        "deflector will be aligned to the holes in the bar of the hood using a",
+        "suitable tool.",
+        "If the holes will not be aligned to each other, the water deflector",
+        "will be pressed and clamped to the inner bar of the groove."
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Cover engine and rear fender against dirt and/or damage",
+        "(Picture I, 1 and 2)."
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Measure and mark position of water deflector to hood (Picture II)."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Measure \"I\" =   15.5 cm"
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Mask the hood in the working area for protection against damage with",
+        "fibre band (Picture III, 1)."
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Measure and mark position of holes for fastening water deflector to hood",
+        "outside."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Use the holes in the water deflector as template."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Drill holes for fastening water deflector to the hood outside",
+        "(Picture IV, 1)."
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "The water deflector has to be installed into the groove of the hood on",
+        "the right side.",
+        "The holes for fastening of water deflector have to be drilled into the",
+        "outer bar of the groove only.",
+        "Diameter of bore = 3.5 mm"
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Cut threads into the holes at the water deflector."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Use the fastening screws to cut the threads."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Install the water deflector with both screws to the hood (Picture V)."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Align the holes of water deflector to the holes of the bores in the hood\n     with a suitable tool (1)."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Mark position of the holes for fastening of water deflector to the hood",
+        "in the middle (Picture VI, 1)."
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Remove water deflector.",
+        "Pre-drill the holes for fastening water deflector to the hood in the",
+        "middle."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Drill carefully – hood is made of glass fibre plastic."
+    },
+    {
+      "type": "text",
+      "text": "Diameter of bore = 3.5 mm"
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Ream the holes for fastening the water deflector to the hood",
+        "in the middle."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Diameter of bore = 12.5 mm"
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Deburr the holes.",
+        "Install 2x cavity dowels to the hood in the middle (Picture VII, 1)."
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Install water deflector to the hood with four screws",
+        "(Picture VIII, 1 and 2)."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Tightening torque screws (2) = 3.5 Nm."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Remove the covers from engine and rear fender.",
+        "Remove fibre band from hood.",
+        "Clean engine compartment, hood and rear fender."
+      ]
+    }
+  ],
+  "labourTimes": [
+    {
+      "code": "U3 169 80",
+      "description": "Install water deflector",
+      "tc": "90",
+      "hours": 0.5
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/c6b58cd1847a.jpg",
+      "alt": "Object Number: 7362247  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/d86dc8b363c8.jpg",
+      "alt": "Object Number: 7362248  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/0f1b211e3166.jpg",
+      "alt": "Object Number: 7362249  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/04f9e7a1f185.jpg",
+      "alt": "Object Number: 7362250  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/937169be81b3.jpg",
+      "alt": "Object Number: 7362251  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/1c87d077ec36.jpg",
+      "alt": "Object Number: 7362252  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/c0210993945d.jpg",
+      "alt": "Object Number: 7362253  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/611e4eb47c5a.jpg",
+      "alt": "Object Number: 7362254  Size: DEFAULT"
+    }
+  ]
+}

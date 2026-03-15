@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "camshafts-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Pivot bolts - 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "caster-adjust-A26D1C"
+    },
+    {
+      "component": "Central release to transmission housing – bolts (arrowed) 5 Nm .",
+      "value": "5",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "central-release-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Pressure line (1) to central release – 14 Nm .",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "central-release-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Master cylinder to support bracket – new nuts 20 Nm .",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 4,
+      "sourcePage": "clutch-master-cylinder-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install steering intermediate shaft with lower universal joint to steering gear and steering column",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 26,
+      "sourcePage": "clutch-pedal-replace-A26D1C"
+    },
+    {
+      "component": "Install 3x bolt, 3x nut 35 Nm – Use 3x new nut",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "clutch-pedal-replace-A26D1C"
+    },
+    {
+      "component": "Pressure plate and disc to flywheel – use Clutch Aligning Guide KM-736 (2), locate pressure plate over centring pins. Use new bolts – 15 Nm .",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 3,
+      "sourcePage": "clutch-plate-and-or-pressure-plate-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Use KM-194-E , 25 Nm spark plugs.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 9,
+      "sourcePage": "compression-pressure-check-A26D1C"
+    },
+    {
+      "component": "Drain the engine oil.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 10,
+      "sourcePage": "connecting-rod-bearings-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Coat the big–end bearing journals with engine oil.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 18,
+      "sourcePage": "connecting-rod-bearings-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Coat the big–end bearing journals with engine oil.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 26,
+      "sourcePage": "connecting-rod-bearings-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Note: Observe the tightening sequence.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 30,
+      "sourcePage": "connecting-rod-bearings-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the oil dipstick guide tube.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 34,
+      "sourcePage": "connecting-rod-bearings-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the rear engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 36,
+      "sourcePage": "connecting-rod-bearings-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "connecting-rod-bearings-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "To the cylinder block base plate – tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "connecting-rod-bearings-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "connecting-rod-bearings-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "connecting-rod-bearings-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Secure rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 14,
+      "sourcePage": "control-valve-fuel-evaporator-replace-A26D1C"
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "control-valve-fuel-evaporator-replace-A26D1C"
+    },
+    {
+      "component": "Drain the coolant.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "coolant-pipe-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the thermostat housing.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 19,
+      "sourcePage": "coolant-pipe-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the upper heat shield.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 23,
+      "sourcePage": "coolant-pipe-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the lower heat shield.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 24,
+      "sourcePage": "coolant-pipe-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "coolant-pipe-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "coolant-pipe-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "coolant-pipe-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "coolant-pipe-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Drain the coolant.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the coolant pump.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 24,
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the coolant pump sprocket.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 25,
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the coolant pump service opening.",
+      "value": "7",
+      "unit": "Nm",
+      "stepRef": 27,
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the coolant pump.",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 30,
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the thermostat housing.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 33,
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the upper heat shield.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 37,
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the lower heat shield.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 38,
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the rear engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 40,
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 7 Nm",
+      "value": "7",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 22 Nm",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "coolant-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Coolant temperature sensor (1) in the thermostat housing – 20 Nm .",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 3,
+      "sourcePage": "coolant-temperature-sensor-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder block base plate. Note: Observe the tightening sequence.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 1,
+      "sourcePage": "crankshaft-bearing-clearance-check-measure-with-micrometer-z-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder block base plate. Note: Observe the tightening sequence.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 1,
+      "sourcePage": "crankshaft-bearing-clearance-check-measure-with-micrometer-z-A26D1C"
+    },
+    {
+      "component": "Tighten the M10 bolts – tightening torque 20 Nm + 70° + 15°",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-bearing-clearance-check-measure-with-micrometer-z-A26D1C"
+    },
+    {
+      "component": "Tighten the M8 bolts – tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-bearing-clearance-check-measure-with-micrometer-z-A26D1C"
+    }
+  ]
+}

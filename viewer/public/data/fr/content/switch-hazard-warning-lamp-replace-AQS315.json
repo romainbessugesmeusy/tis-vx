@@ -1,0 +1,150 @@
+{
+  "title": "Remplacer l'interrupteur du voyant de détresse",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Ouvrir le capot",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le réservoir de lave-glace du support de fixation",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déconnecter la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'écrou"
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Détacher l'ensemble du panneau de commutation du tableau de bord",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tirer pour enlever"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2dd7ed88c823.jpg",
+            "alt": "Object Number: 2429513  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Retirer l'ensemble de commutation du panneau",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer les 4x agrafes (fléchées)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6514da11140b.jpg",
+            "alt": "Object Number: 2429519  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Retirer le couvercle avant de l'interrupteur du voyant de détresse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tirer pour enlever"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Retirer l'interrupteur du voyant de détresse du boîtier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer les 2x agrafes, débrancher le connecteur du faisceau"
+            }
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Reposer l'interrupteur du voyant de détresse sur le boîtier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer les 2x agrafes, fixer le connecteur du faisceau"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Reposer le couvercle avant sur l'interrupteur du voyant de détresse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enfoncer pour ajuster"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Reposer l'ensemble de commutation sur le panneau",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer les 4x agrafes"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Fixer l'ensemble du panneau de commutation sur le tableau de bord",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enfoncer pour ajuster"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Connecter la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer l'écrou"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Reposer le réservoir de lave-glace sur le support de fixation",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Fermer le capot",
+          "number": 14,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "type": "procedure",
+  "id": "switch-hazard-warning-lamp-replace-AQS315"
+}

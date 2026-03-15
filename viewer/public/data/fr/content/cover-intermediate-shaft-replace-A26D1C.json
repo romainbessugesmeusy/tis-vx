@@ -1,0 +1,155 @@
+{
+  "title": "Capot, Arbre Intermédiaire, Remplacer",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Illustration du capot de l'arbre intermédiaire",
+          "image": {
+            "src": "/data/assets/images/0d0643e1e0d9.jpg",
+            "alt": "Object Number: 2415588  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer la transmission du véhicule - voir l'opération \"Transmission, Déposer et Reposer\"",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Reposer KM-6115 (3) sur la transmission (4)",
+          "image": {
+            "src": "/data/assets/images/07cad7c861f7.jpg",
+            "alt": "Object Number: 2415610  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "4"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Reposer KM-6115 (5) avec la transmission sur KM-113-2 (2)",
+          "image": {
+            "src": "/data/assets/images/07cad7c861f7.jpg",
+            "alt": "Object Number: 2415610  Size: DEFAULT"
+          },
+          "callouts": [
+            "5",
+            "2"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Percez un trou (3) au centre du capot de l'arbre intermédiaire (2) en utilisant un chasse-approprié (1)",
+          "image": {
+            "src": "/data/assets/images/4b2c78bde678.jpg",
+            "alt": "Object Number: 2415601  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "2",
+            "1"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Enfoncez KM-6101 (4) en conjonction avec KM-328-B (5) au ras du capot de l'arbre intermédiaire",
+          "image": {
+            "src": "/data/assets/images/4b2c78bde678.jpg",
+            "alt": "Object Number: 2415601  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "5"
+          ],
+          "number": 6
+        },
+        {
+          "text": "Déposez le capot de l'arbre intermédiaire de la transmission",
+          "image": {
+            "src": "/data/assets/images/4b2c78bde678.jpg",
+            "alt": "Object Number: 2415601  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Retirez le bec de remplissage de la transmission",
+          "image": {
+            "src": "/data/assets/images/7873b4edb969.jpg",
+            "alt": "Object Number: 2415600  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Nettoyez toutes les pièces",
+          "image": {
+            "src": "/data/assets/images/7873b4edb969.jpg",
+            "alt": "Object Number: 2415600  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Vérifiez l'état du bec de remplissage, remplacez si nécessaire",
+          "image": {
+            "src": "/data/assets/images/7873b4edb969.jpg",
+            "alt": "Object Number: 2415600  Size: DEFAULT"
+          },
+          "number": 10
+        },
+        {
+          "text": "Installez le bec de remplissage (4) sur la transmission",
+          "image": {
+            "src": "/data/assets/images/7873b4edb969.jpg",
+            "alt": "Object Number: 2415600  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ],
+          "number": 11
+        },
+        {
+          "text": "Enfoncez le capot de l'arbre intermédiaire (3) au ras de la transmission en utilisant KM-6102 (2) en conjonction avec KM-523-1 (1)",
+          "image": {
+            "src": "/data/assets/images/7873b4edb969.jpg",
+            "alt": "Object Number: 2415600  Size: DEFAULT"
+          },
+          "callouts": [
+            "3",
+            "2",
+            "1"
+          ],
+          "number": 12
+        },
+        {
+          "text": "Retirez KM-6115 avec la transmission de KM-113-2",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Retirez KM-6115 de la transmission",
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Reposez la transmission - voir l'opération \"Transmission, Déposer et Reposer\"",
+          "number": 15,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-6115",
+    "KM-113-2",
+    "KM-6101",
+    "KM-328-B",
+    "KM-6102",
+    "KM-523-1"
+  ],
+  "type": "procedure",
+  "id": "cover-intermediate-shaft-replace-A26D1C"
+}

@@ -1,0 +1,47 @@
+{
+  "title": "Remplacer le piston ou la bielle (Z20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le piston et la bielle – voir l'opération « Déposer et reposer le piston et la bielle ».",
+          "number": 1,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Avant de retirer le piston, noter la position d'installation de la bielle et du piston. Retirer le circlip (1) du bossage du piston à l'aide de l'outil approprié. Retirer le piston et la bielle à la main.",
+          "callouts": [
+            "1"
+          ],
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Enduire le piston d'huile moteur. Insérer le piston (2) à la main dans le piston et la bielle jusqu'à ce que la gorge du circlip soit accessible. Insérer le circlip dans la gorge du piston.",
+          "callouts": [
+            "2"
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Reposer le piston et la bielle – voir l'opération « Déposer et reposer le piston et la bielle ».",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "piston-or-con-rod-replace-z20-let-AQS315"
+}

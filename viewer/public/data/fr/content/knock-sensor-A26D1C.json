@@ -1,0 +1,33 @@
+{
+  "title": "Capteur de cognement",
+  "steps": [
+    {
+      "text": "Télécharger la courbe de référence.",
+      "number": 1
+    },
+    {
+      "text": "Utiliser un objet métallique (par exemple un marteau) pour frapper le bloc moteur à proximité du capteur de cognement. Peu importe le type de moteur, les zones suivantes sont particulièrement adaptées. Sous la vis utilisée pour fixer l'alternateur au bloc moteur, les surfaces plates sur le bloc moteur à l'avant ou à l'arrière et le support moteur (utiliser une rallonge métallique si nécessaire).",
+      "number": 2
+    },
+    {
+      "text": "Télécharger le fichier de configuration (le Tech 32 n'utilise que des fichiers de configuration, pas de courbes de référence).",
+      "number": 1
+    },
+    {
+      "text": "Utiliser un objet métallique (par exemple un marteau) pour frapper le bloc moteur à proximité du capteur de cognement. Peu importe le type de moteur, les zones suivantes sont particulièrement adaptées : Sous la vis utilisée pour fixer l'alternateur au bloc moteur, les surfaces plates sur le bloc moteur à l'avant ou à l'arrière et le support moteur (utiliser une rallonge métallique si nécessaire).",
+      "number": 2
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/99c70d0c2486.jpg",
+      "alt": "Numéro d'objet : 2400951  Taille : DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/0d767470d8c5.jpg",
+      "alt": "Numéro d'objet : 2419077  Taille : DEFAULT"
+    }
+  ],
+  "type": "diagnostic",
+  "id": "knock-sensor-A26D1C"
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Poignée intérieure, Porte avant, Déposer et\nReposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Déposer le garnissage de porte – voir l'opération «Garnissage de porte, Déposer et Reposer».",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "La poignée intérieure de la porte – vis.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "La poignée intérieure sur la porte – vis.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Reposer le garnissage de porte sur la porte.",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "interior-handle-front-door-remove-and-install-A26D1C"
+}

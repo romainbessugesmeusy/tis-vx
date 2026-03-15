@@ -1,0 +1,22 @@
+{
+  "title": "Field Remedy: 1673",
+  "subject": "Garniture Intérieure - Surfaces de garniture intérieure peintes\nendommagées par les rafraîchisseurs d'air",
+  "complaint": "Client se plaint de la perte de peinture sur\nles composants de garniture intérieure tels que la radio, le tableau de bord, les interrupteurs et la\nconsole centrale.",
+  "cause": "Les surfaces peintes seront attaquées et\nendommagées par l'utilisation de rafraîchisseurs d'air dans les véhicules. Les rafraîchisseurs d'air\ncontiennent des ingrédients agressifs, il est donc recommandé d'éviter tout contact direct avec les\nsurfaces peintes.",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "Il faut informer les clients de ce problème. Souvent, un avertissement est même imprimé\nsur l'emballage du rafraîchisseur d'air indiquant qu'il faut éviter tout contact avec les surfaces peintes. Les pièces endommagées par l'utilisation de rafraîchisseurs d'air dans le véhicule ne seront pas\nprises en charge par la garantie."
+    }
+  ],
+  "type": "tsb",
+  "id": "interior-trim-painted-interior-trim-surfaces-damaged-by-air--AQS315",
+  "metadata": {
+    "functionalGroup": "N - Electrical Equipment",
+    "complaintGroup": "07 - Foreign Material or Fluid",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  },
+  "production": ""
+}

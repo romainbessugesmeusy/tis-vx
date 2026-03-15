@@ -1,0 +1,28 @@
+{
+  "title": "Valeurs de couple de serrage recommandées - Groupe L",
+  "group": "L",
+  "values": [
+    {
+      "component": "Filtre à carburant au tablier, vis",
+      "value": "9",
+      "unit": "Nm"
+    },
+    {
+      "component": "Clips de durite de carburant au tablier, boulons",
+      "value": "9",
+      "unit": "Nm"
+    },
+    {
+      "component": "Réservoir de carburant au véhicule, boulons",
+      "value": "25",
+      "unit": "Nm"
+    },
+    {
+      "component": "Panneau de cisaillement du réservoir de carburant, boulons",
+      "value": "25",
+      "unit": "Nm"
+    }
+  ],
+  "type": "torque_table",
+  "id": "recommended-torque-values-group-l-AQS315"
+}

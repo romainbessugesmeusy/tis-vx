@@ -1,0 +1,58 @@
+{
+  "title": "Field Remedy: 2173",
+  "subject": "Moteur Z22SE, ECU - Code défaut P1614\n(clé transpondeur incorrecte) enregistré dans l'ECU",
+  "complaint": "Code défaut P1614 enregistré dans l'ECU.",
+  "cause": "Dans certains cas, codes transpondeurs perdus en raison d'une batterie déchargée.",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "En cas de réclamation du client, suivre les instructions suivantes :"
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Effectuer la reprogrammation SPS.",
+        "Problème toujours présent ->"
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Supprimer la clé transpondeur. Programmer une nouvelle clé (Immo Génération 2).",
+        "Problème toujours présent ->"
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Réinitialiser l'ECU dans l'Immobiliseur \"Fonctions supplémentaires\",",
+        "Activer l'Immobiliseur dans \"Fonction de programmation\".",
+        "Problème toujours présent ->"
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Réinitialiser l'Immobiliseur dans l'Immobiliseur \"Fonctions supplémentaires\",",
+        "Activer l'Immobiliseur dans \"Fonction de programmation\".",
+        "Problème toujours présent ->"
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Remplacer l'ECU."
+      ]
+    }
+  ],
+  "type": "tsb",
+  "id": "engine-z22se-ecu-trouble-code-p1614-wrong-transponder-key-st-A26D1C",
+  "metadata": {
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "06 - Failure Code Setting by Control\nUnit",
+    "troubleCode": "P1614",
+    "models": null,
+    "engines": null
+  },
+  "production": ""
+}

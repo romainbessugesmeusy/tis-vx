@@ -1,0 +1,11 @@
+{
+  "title": "Température de l'huile moteur, Mesure (Z 22 SE, Z 20 LET)",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Température de l'huile moteur, Mesure (Z 22 SE, Z 20 LET)</p>\n\n<p><img src=\"/data/assets/images/7c3d75e8b2c9.gif\" height=\"30\" width=\"30\"> <span\nclass=\"gt-picto\">&nbsp;&nbsp;Déposer</span></p>\n\n<p>Déposer la jauge d'huile.</p>\n\n<p><img src=\"/data/assets/images/707731fa677f.gif\" height=\"30\" width=\"30\">\n<span class=\"gt-picto\">&nbsp;&nbsp;Mesurer</span></p>\n\n<table border=\"0\">\n<tr>\n<td></tr>\n\n<tr>\n<td valign=\"top\" width=\"95%\">\n<p>Mesurer la température de l'huile avec <span class=\"tool\">MKM-596-A</span>\n(1). Insérer la sonde dans le tube de guidage de la jauge d'huile jusqu'à environ 1 cm\nau-dessus du fond du carter d'huile. Sceller l'ouverture du tube de guidage avec le\njoint en caoutchouc inclus.</p>\n\n<p><span class=\"gt-notice\">Remarque:&nbsp;&nbsp;</span> La température de l'huile\ndépend de la charge du moteur. Les températures élevées de l'air ambiant et les charges\nmoteur peuvent entraîner des températures d'huile allant jusqu'à environ 150 &deg;C/302 &deg;F.</p>\n</td>\n<td valign=\"top\" align=\"right\"><!--SCDS Link: G3519.itf-->\n<img border=\"0\" width=\"360\" height=\"360\" alt=\n\"Numéro d'objet : 2397727  Taille : PAR DÉFAUT\" align=\"TOP\" src=\"/data/assets/images/29bd97071d73.jpg\">\n<br>\n<a href=\"javascript:TFormSubmit('AKWA1UCA1ODA1','1','AKWA1UCA1ODA1','detail')\">\n<img src=\"/data/assets/images/db1138827f57.gif\" alt=\n\"Cliquez ici pour une image détaillée de l'image ci-dessus\"></a>\n\n<br> </td>\n</tr>\n</table>\n\n<br>\n \n\n<p><img src=\"/data/assets/images/6eff4d42a9f9.gif\" height=\"30\" width=\"30\">\n<span class=\"gt-picto\">&nbsp;&nbsp;Reposer</span></p>\n\n<p>Insérer la jauge d'huile.</p>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "type": "generic",
+  "id": "engine-oil-temperature-measure-z-22-se-z-20-let-AQS315",
+  "extractedData": {
+    "tools": [
+      "MKM-596-A"
+    ]
+  }
+}

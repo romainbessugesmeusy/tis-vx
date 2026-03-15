@@ -1,0 +1,167 @@
+{
+  "title": "Field Remedy: 1769",
+  "subject": "Feux arrière - Dommages de peinture au niveau de la carrosserie",
+  "complaint": "Dommages de peinture par contact avec les feux arrière\nunités.",
+  "cause": "Tolérances de carrosserie lors du processus de fabrication.",
+  "production": "Unités de feux arrière améliorées en production depuis\nCW 1/2004.",
+  "remedyContent": [
+    {
+      "type": "numbered",
+      "items": [
+        "Déposer les feux arrière"
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "voir la procédure de travail « Feu Arrière, Déposer et Reposer »,",
+        "groupe « N », Instruction de Service Speedster/VX220.",
+        "(Numéro de Document 00031700)"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Remarque:\n    conserver les écrous autofreinants et les rondelles pour une réutilisation ultérieure."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Inspecter la carrosserie pour les dommages de peinture"
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "réparer les dommages de peinture possibles selon le processus de",
+        "réparation de peinture standard"
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Appliquer un ruban protecteur transparent disponible dans le commerce (1)",
+        "sur la surface d'ouverture du feu arrière.",
+        "(Image I)"
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "nettoyer la surface avec un dissolvant de silicone commercial",
+        "appliquer un ruban protecteur pour donner une protection supplémentaire à la surface",
+        "peinte"
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Chanfreiner soigneusement tous les bords des lentilles des feux arrière.",
+        "(Image II)"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Remarque:\n    Utiliser un bloc de ponçage et du papier de ponçage."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Retirer complètement les 3x embouts supérieurs (flèches) à l'arrière de chaque feu",
+        "arrière. (Image III)"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Important:\n    Faire attention à ne pas endommager les bords des lentilles des feux arrière."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Ajouter la bande d'étanchéité S-10582 tout autour du bord du feu arrière.",
+        "(zone hachurée sur l'Image IV)"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Remarque:\n    Appliquer la bande d'étanchéité à 2 mm des angles circulaires extérieurs.\n    La bande d'étanchéité est nécessaire pour éviter un espace visible et un contact\n    avec les surfaces d'ouverture."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Fixer 4x rondelles spécifiées aux goujons (flèches) de chaque feu arrière.",
+        "(Image V)"
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Aligner le feu arrière dans l'ouverture. (Image VI)"
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "installer le feu et vérifier la condition de l'écart constant",
+        "utiliser une jauge d'épaisseur (1) de 1 mm pour maintenir",
+        "un écart correct sur le bas du feu"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Remarque:\n    L'écart circonférentiel doit être de 1 à 2 mm.\n    Retirer le feu et corriger l'ajustement en ajoutant ou en retirant \n    les rondelles spécifiées si le dégagement n'est pas acceptable."
+    },
+    {
+      "type": "text",
+      "text": "Important:\n    Agir très soigneusement pour éviter tout dommage aux surfaces peintes \n    et à la carrosserie."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Installer les feux si l'écart acceptable est atteint"
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "voir la procédure de travail « Feu Arrière, Déposer et Reposer »,",
+        "groupe « N », Instruction de Service Speedster/VX220.",
+        "(Numéro de Document 00031700)"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/6d16b87fcaa3.jpg",
+      "alt": "Numéro d'Objet: 10676662  Taille: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/b12277129d9d.jpg",
+      "alt": "Numéro d'Objet: 10676656  Taille: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/97c72bb7ce68.jpg",
+      "alt": "Numéro d'Objet: 10676657  Taille: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/630636f99312.jpg",
+      "alt": "Numéro d'Objet: 10676658  Taille: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/fa21f9e29b42.jpg",
+      "alt": "Numéro d'Objet: 10676659  Taille: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/cdb55f428027.jpg",
+      "alt": "Numéro d'Objet: 10676660  Taille: DEFAULT"
+    }
+  ],
+  "type": "tsb",
+  "id": "rear-lamps-paint-damages-at-body-AQS315",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "",
+    "complaintGroup": "",
+    "troubleCode": ""
+  }
+}

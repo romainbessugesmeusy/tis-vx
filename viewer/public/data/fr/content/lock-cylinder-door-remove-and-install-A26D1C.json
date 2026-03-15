@@ -1,0 +1,50 @@
+{
+  "title": "Cylindre de serrure, Porte, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Vitre de porte de la porte – voir l'opération «Vitre de Porte, Déposer et Reposer».",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Cylindre de serrure de la porte – vis et rondelles.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Tringlerie du cylindre de serrure.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Tringlerie vers le cylindre de serrure.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Cylindre de serrure vers la porte – vis et rondelles.",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Vitre de porte vers la porte.",
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "lock-cylinder-door-remove-and-install-A26D1C"
+}

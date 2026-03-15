@@ -1,0 +1,50 @@
+{
+  "title": "Fourchettes de changement de vitesse, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Illustration de la fourchette de changement de vitesse",
+          "image": {
+            "src": "/data/assets/images/cb0c11295a7b.jpg",
+            "alt": "Object Number: 2415589  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer la transmission du véhicule - voir l'opération \"Transmission, Déposer et Reposer\"",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Démonter la transmission - voir l'opération \"Transmission, Joint d'étanchéité Complètement\"",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Inspecter la fourchette de changement de vitesse pertinente. Si les pièces en plastique de la zone hachurée sont usées, endommagées, ou si la fourchette de changement de vitesse est endommagée de quelque manière que ce soit, alors la fourchette de changement de vitesse doit être remplacée",
+          "image": {
+            "src": "/data/assets/images/6eed65feba30.jpg",
+            "alt": "Object Number: 2415654  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Assembler la transmission - voir l'opération \"Transmission, Joint d'étanchéité Complètement\"",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Reposer la transmission dans le véhicule - voir l'opération \"Transmission, Déposer et Reposer\"",
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "type": "procedure",
+  "id": "shift-forks-remove-and-install-A26D1C"
+}

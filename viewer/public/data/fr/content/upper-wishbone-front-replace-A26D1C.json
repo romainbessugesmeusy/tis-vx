@@ -1,0 +1,229 @@
+{
+  "title": "Triangle de suspension supérieur avant, Remplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Caler les deux roues arrière",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Élever et soutenir le véhicule",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déposer la roue",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser une douille spéciale située sous le capot avant"
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Détacher la durite de frein du triangle de suspension supérieur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'agrafe, enlever l'écrou (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1d03e7751dfc.jpg",
+            "alt": "Object Number: 2419721  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Déposer le triangle de suspension supérieur du bras de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer l'écrou"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0392618a91a4.jpg",
+            "alt": "Object Number: 2419722  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Déconnecter le triangle de suspension supérieur du châssis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "À l'arrière, enlever l'écrou, la vis, la rondelle"
+            },
+            {
+              "bullet": "•",
+              "text": "À l'avant, enlever l'écrou, la vis, 2x rondelle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/503952f0a8ec.jpg",
+            "alt": "Object Number: 2419723  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Retirer le triangle de suspension supérieur du châssis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer les cales, la rondelle de butée"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/503952f0a8ec.jpg",
+            "alt": "Object Number: 2419723  Size: DEFAULT"
+          },
+          "number": 7
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Installer provisoirement le triangle de suspension supérieur sur le châssis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer les cales, la rondelle de butée"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer provisoirement 2x vis, 3x rondelle, 2x nouvel écrou"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Installer provisoirement le triangle de suspension supérieur sur le bras de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer provisoirement le nouvel écrou"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Fixer le triangle de suspension supérieur au châssis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer 2x vis, 2x écrou à 45 Nm"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Fixer le triangle de suspension supérieur au bras de direction",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer l'écrou à 55 Nm"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Fixer la durite de frein au triangle de suspension supérieur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe, installer l'écrou"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Installer la roue sur le véhicule",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 4x vis, installer la vis de sécurité à 90 Nm"
+            }
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule et retirer le support",
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Retirer les cales des deux roues arrière",
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Effectuer une vérification du parallélisme des roues",
+          "number": 16,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Fixer le triangle de suspension supérieur au châssis",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Fixer le triangle de suspension supérieur au bras de direction",
+      "value": "55",
+      "unit": "Nm",
+      "stepRef": 11
+    },
+    {
+      "component": "Installer la roue sur le véhicule",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Serrer 2x vis, 2x écrou à 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer l'écrou à 55 Nm",
+      "value": "55",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer 4x vis, installer la vis de sécurité à 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Retirer les cales, la rondelle de butée\n Observer les emplacements\net les quantités de cales pour l'installation",
+    "Installer provisoirement 2x vis, 3x rondelle, 2x nouvel écrou\n Installer les cales et\nla rondelle de butée à leur emplacement d'origine"
+  ],
+  "type": "procedure",
+  "id": "upper-wishbone-front-replace-A26D1C"
+}

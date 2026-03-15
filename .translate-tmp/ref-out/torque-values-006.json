@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Déposer le module DIS du cache de culasse – 4 vis, 10 Nm .",
+      "sourcePage": "distributeur-d'allumage-sans-distributeur-dis-déposer-et-reposer-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 3
+    },
+    {
+      "component": "Boulon de charnière supérieur (1) – 45 Nm .",
+      "sourcePage": "porte-déposer-et-reposer-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 11
+    },
+    {
+      "component": "Boulon de charnière inférieur (2) – 45 Nm .",
+      "sourcePage": "porte-déposer-et-reposer-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Amortisseur au châssis – vis, écrou 45 Nm , rondelles",
+      "sourcePage": "arbres-de-transmission-déposer-et-reposer-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 17
+    },
+    {
+      "component": "Roue arrière au véhicule – boulons 90 Nm .",
+      "sourcePage": "arbres-de-transmission-déposer-et-reposer-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 24
+    },
+    {
+      "component": "Support de rotule supérieur (1) au support de moyeu – cales de carrossage, deux boulons 45 Nm .",
+      "sourcePage": "arbres-de-transmission-déposer-et-reposer-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer l'unité de contrôle moteur.",
+      "sourcePage": "unité-de-contrôle-moteur-déposer-et-reposer-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Reposer l'unité de contrôle moteur.",
+      "sourcePage": "unité-de-contrôle-moteur-déposer-et-reposer-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Fixer le cache-moteur.",
+      "sourcePage": "unité-de-contrôle-moteur-déposer-et-reposer-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 14
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "sourcePage": "unité-de-contrôle-moteur-déposer-et-reposer-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 10 Nm",
+      "sourcePage": "unité-de-contrôle-moteur-déposer-et-reposer-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 14 Nm",
+      "sourcePage": "unité-de-contrôle-moteur-déposer-et-reposer-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Bloc d'amortissement moteur (2) – écrou 45 Nm .",
+      "sourcePage": "bloc-d'amortissement-moteur-av-remplacer-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Support (1) au moteur et au bloc d'amortissement – écrou, boulons 45 Nm .",
+      "sourcePage": "bloc-d'amortissement-moteur-av-remplacer-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Bloc d'amortissement moteur (2) – écrou 45 Nm .",
+      "sourcePage": "bloc-d'amortissement-moteur-ar-remplacer-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Support (1) à la transmission et au bloc d'amortissement – écrou 45 Nm , boulons 85 Nm .",
+      "sourcePage": "bloc-d'amortissement-moteur-ar-remplacer-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Support (1) à la transmission et au bloc d'amortissement – écrou 45 Nm , boulons 85 Nm .",
+      "sourcePage": "bloc-d'amortissement-moteur-ar-remplacer-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Vidanger l'huile moteur.",
+      "sourcePage": "vidange-d'huile-moteur-z22se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Reposer l'élément dans le boîtier de filtre à huile.",
+      "sourcePage": "vidange-d'huile-moteur-z22se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Reposer le bouchon de vidange en utilisant un nouveau joint d'huile 25 Nm .",
+      "sourcePage": "vidange-d'huile-moteur-z22se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Vidanger le liquide de refroidissement.",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 21
+    },
+    {
+      "component": "Fixer le bloc d'amortissement arrière du moteur.",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": 45
+    },
+    {
+      "component": "Fixer le bloc d'amortissement arrière du moteur.",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 45
+    },
+    {
+      "component": "Fixer le bloc d'amortissement avant du moteur.",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "55",
+      "unit": "Nm",
+      "stepRef": 47
+    },
+    {
+      "component": "Fixer le support de bloc d'amortissement moteur avec le bloc d'amortissement moteur droit.",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 48
+    },
+    {
+      "component": "Fixer le support de bloc d'amortissement moteur avec le bloc d'amortissement moteur droit.",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 48
+    },
+    {
+      "component": "Reposer les arbres de transmission.",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "60",
+      "unit": "Nm",
+      "stepRef": 51
+    },
+    {
+      "component": "Reposer les arbres de transmission.",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "120",
+      "unit": "Nm",
+      "stepRef": 51
+    },
+    {
+      "component": "Reposer les arbres de transmission.",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 51
+    },
+    {
+      "component": "Fixer le tuyau d'échappement avant.",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": 57
+    },
+    {
+      "component": "Au tablier inférieur.",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 58
+    },
+    {
+      "component": "Fixer le support de bloc d'amortissement moteur gauche.",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "55",
+      "unit": "Nm",
+      "stepRef": 68
+    },
+    {
+      "component": "Fixer le tuyau d'admission d'air.",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "5",
+      "unit": "Nm",
+      "stepRef": 77
+    },
+    {
+      "component": "Fixer les roues arrière.",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 79
+    },
+    {
+      "component": "Fixer le cache-moteur.",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 84
+    },
+    {
+      "component": "Couple de serrage 20 Nm",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 86 Nm",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 49 Nm",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 55 Nm",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "55",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 85 Nm",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 45 Nm",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 60 Nm",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "60",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 120 Nm , desserrer, couple de serrage 20 Nm + 80°",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "120",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 16 Nm",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 8 Nm",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 3,5 Nm",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "5",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 90 Nm",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 14 Nm",
+      "sourcePage": "moteur-déposer-et-reposer-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Vidanger l'huile moteur",
+      "sourcePage": "réparation-du-moteur-en-utilisant-un-bloc-courant-z-22-se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 4
+    },
+    {
+      "component": "Serrer tous les boulons de manière lâche Remarque : Respecter la séquence de serrage.",
+      "sourcePage": "réparation-du-moteur-en-utilisant-un-bloc-courant-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 56
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "title": "Interrupteur, Feu de Recul, Remplacer",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Ouvrir le capot",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le réservoir de lave-glace du support de fixation",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déconnecter le câble négatif de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'écrou"
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Débrancher le connecteur du faisceau (1) de l'interrupteur de feu de recul",
+          "image": {
+            "src": "/data/assets/images/7df070ba3bd1.jpg",
+            "alt": "Object Number: 2419716  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Déposer l'interrupteur de feu de recul de la transmission",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Installer l'interrupteur de feu de recul sur la transmission 20 Nm",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Fixer le connecteur du faisceau à l'interrupteur de feu de recul",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Connecter le câble négatif de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer l'écrou"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Reposer le réservoir de lave-glace sur le support de fixation",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Fermer le capot",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Programmer toutes les mémoires volatiles",
+          "number": 11,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Installer l'interrupteur de feu de recul sur la transmission 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 6
+    }
+  ],
+  "type": "procedure",
+  "id": "switch-reverse-lamp-replace-A26D1C"
+}

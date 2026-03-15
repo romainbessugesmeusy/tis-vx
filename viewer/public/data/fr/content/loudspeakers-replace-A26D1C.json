@@ -1,0 +1,116 @@
+{
+  "title": "Haut-parleurs, Remplacer",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Déplacer le siège conducteur vers l'avant",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le cache du haut-parleur côté conducteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déclipser"
+            }
+          ],
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déposer le haut-parleur côté conducteur du panneau de garniture",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 3x vis (1), libérer 2x connecteur de faisceau"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c11f2bf0dba9.jpg",
+            "alt": "Object Number: 2419712  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Reposer le haut-parleur côté conducteur sur le panneau de garniture",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer 2x connecteur de faisceau, installer 3x vis"
+            }
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Reposer le cache du haut-parleur côté conducteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enfoncer"
+            }
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Déposer le cache du haut-parleur côté passager",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déclipser"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Déposer le haut-parleur côté passager du panneau de garniture",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 3x vis, libérer 2x connecteur de faisceau (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f546a0b1cd91.jpg",
+            "alt": "Object Number: 2419713  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Reposer le haut-parleur côté passager sur le panneau de garniture",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer 2x connecteur de faisceau, installer 3x vis"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Reposer le cache du haut-parleur côté passager",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enfoncer"
+            }
+          ],
+          "number": 9,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "notes": [
+    "Déclipser\n Le siège passager\nne coulisse pas vers l'avant"
+  ],
+  "type": "procedure",
+  "id": "loudspeakers-replace-A26D1C"
+}

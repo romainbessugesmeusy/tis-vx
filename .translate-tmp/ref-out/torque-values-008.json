@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Couple de serrage 21 Nm",
+      "sourcePage": "moteur-reparation-utilisation-d-un-bloc-courte-z-22-se-A26D1C",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 100 Nm + 75° + 15°",
+      "sourcePage": "moteur-reparation-utilisation-d-un-bloc-courte-z-22-se-A26D1C",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 22 Nm",
+      "sourcePage": "moteur-reparation-utilisation-d-un-bloc-courte-z-22-se-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 43 Nm",
+      "sourcePage": "moteur-reparation-utilisation-d-un-bloc-courte-z-22-se-A26D1C",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 50 Nm",
+      "sourcePage": "moteur-reparation-utilisation-d-un-bloc-courte-z-22-se-A26D1C",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer le collecteur d'échappement.",
+      "sourcePage": "remplacement-joint-de-collecteur-d-echappement-z-22-se-A26D1C",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": 21
+    },
+    {
+      "component": "Fixer le tuyau d'échappement avant.",
+      "sourcePage": "remplacement-joint-de-collecteur-d-echappement-z-22-se-A26D1C",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": 23
+    },
+    {
+      "component": "Serrer la roue arrière gauche.",
+      "sourcePage": "remplacement-joint-de-collecteur-d-echappement-z-22-se-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 30
+    },
+    {
+      "component": "Fixer le bouclier thermique supérieur.",
+      "sourcePage": "remplacement-joint-de-collecteur-d-echappement-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 31
+    },
+    {
+      "component": "Reposer le bouclier thermique inférieur.",
+      "sourcePage": "remplacement-joint-de-collecteur-d-echappement-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 32
+    },
+    {
+      "component": "Fixer le couvercle de la culasse",
+      "sourcePage": "remplacement-joint-de-collecteur-d-echappement-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 34
+    },
+    {
+      "component": "Fixer le support de ligne de carburant.",
+      "sourcePage": "remplacement-joint-de-collecteur-d-echappement-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 36
+    },
+    {
+      "component": "Reposer le module d'allumage.",
+      "sourcePage": "remplacement-joint-de-collecteur-d-echappement-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 37
+    },
+    {
+      "component": "Connecter les lignes de carburant.",
+      "sourcePage": "remplacement-joint-de-collecteur-d-echappement-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 38
+    },
+    {
+      "component": "Connecter les lignes de carburant.",
+      "sourcePage": "remplacement-joint-de-collecteur-d-echappement-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 38
+    },
+    {
+      "component": "Installer le cache moteur arrière.",
+      "sourcePage": "remplacement-joint-de-collecteur-d-echappement-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 39
+    },
+    {
+      "component": "Couple de serrage 12 Nm",
+      "sourcePage": "remplacement-joint-de-collecteur-d-echappement-z-22-se-A26D1C",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 16 Nm",
+      "sourcePage": "remplacement-joint-de-collecteur-d-echappement-z-22-se-A26D1C",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 90 Nm",
+      "sourcePage": "remplacement-joint-de-collecteur-d-echappement-z-22-se-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 23 Nm",
+      "sourcePage": "remplacement-joint-de-collecteur-d-echappement-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 8 Nm",
+      "sourcePage": "remplacement-joint-de-collecteur-d-echappement-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "sourcePage": "remplacement-joint-de-collecteur-d-echappement-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 10 Nm",
+      "sourcePage": "remplacement-joint-de-collecteur-d-echappement-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 vis, couple de serrage 14 Nm",
+      "sourcePage": "remplacement-joint-de-collecteur-d-echappement-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Volant moteur au vilebrequin – aligner le pivot central, immobiliser le volant avec KM-652 , utiliser de nouvelles vis, utiliser 53 Nm + 25° pour serrer uniformément les vis.",
+      "sourcePage": "demontage-et-installation-volant-moteur-z-22-se-z-20-let-A26D1C",
+      "value": "53",
+      "unit": "Nm",
+      "stepRef": 4
+    },
+    {
+      "component": "Installer la roue avant sur le véhicule",
+      "sourcePage": "remplacement-antibrouillard-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 19
+    },
+    {
+      "component": "Installer 4x vis, installer la vis de sécurité 90 Nm",
+      "sourcePage": "remplacement-antibrouillard-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Charnière de capot avant au tablier – 3 vis (2) de chaque côté sur des écrous (1) – 20 Nm .",
+      "sourcePage": "remplacement-charniere-capot-avant-A26D1C",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 4
+    },
+    {
+      "component": "Installer la roue avant",
+      "sourcePage": "demontage-et-installation-garde-boue-avant-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Installer 4x vis, vis de sécurité 90 Nm",
+      "sourcePage": "demontage-et-installation-garde-boue-avant-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer la roue arrière, côté droit",
+      "sourcePage": "remplacement-reservoir-evaporation-carburant-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 16
+    },
+    {
+      "component": "Serrer 4x vis, vis de sécurité 90 Nm",
+      "sourcePage": "remplacement-reservoir-evaporation-carburant-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Filtre à carburant au tablier – vis (1) 9 Nm .",
+      "sourcePage": "remplacement-filtre-a-carburant-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Réservoir de carburant au véhicule – 4 vis 25 Nm , rondelles.",
+      "sourcePage": "demontage-et-installation-reservoir-carburant-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 42
+    },
+    {
+      "component": "Lignes de carburant au tablier – agrafes, vis 9 Nm .",
+      "sourcePage": "demontage-et-installation-reservoir-carburant-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 46
+    },
+    {
+      "component": "Boulons de fixation inférieurs (1) pour le triangle de suspension inférieur, côté gauche, côté droit – 45 Nm .",
+      "sourcePage": "demontage-et-installation-reservoir-carburant-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 50
+    },
+    {
+      "component": "Roue arrière droite – boulons 90 Nm .",
+      "sourcePage": "demontage-et-installation-reservoir-carburant-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 61
+    },
+    {
+      "component": "Filtre à carburant au tablier – vis (1) 9 Nm .",
+      "sourcePage": "demontage-et-installation-reservoir-carburant-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Panneau inférieur du réservoir de carburant (1) – 5 vis, 3 écrous et boulons – 25 Nm .",
+      "sourcePage": "demontage-et-installation-reservoir-carburant-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer le réservoir de carburant sur le véhicule",
+      "sourcePage": "remplacement-capteur-reservoir-carburant-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 23
+    },
+    {
+      "component": "Installer le filtre à carburant au tablier",
+      "sourcePage": "remplacement-capteur-reservoir-carburant-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 28
+    },
+    {
+      "component": "Installer le panneau inférieur du réservoir de carburant",
+      "sourcePage": "remplacement-capteur-reservoir-carburant-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 29
+    },
+    {
+      "component": "Installer le panneau inférieur du réservoir de carburant",
+      "sourcePage": "remplacement-capteur-reservoir-carburant-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 29
+    },
+    {
+      "component": "Installer 2x vis au bloc d'amortissement du moteur 25 Nm",
+      "sourcePage": "remplacement-capteur-reservoir-carburant-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 30
+    },
+    {
+      "component": "Installer 2x vis au montage du triangle de suspension inférieur 45 Nm",
+      "sourcePage": "remplacement-capteur-reservoir-carburant-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 31
+    },
+    {
+      "component": "Installer 2x roue arrière",
+      "sourcePage": "remplacement-capteur-reservoir-carburant-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 34
+    },
+    {
+      "component": "Installer 4x nouvelle vis, 4x rondelle de blocage 25 Nm",
+      "sourcePage": "remplacement-capteur-reservoir-carburant-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer la vis de sécurité 9 Nm",
+      "sourcePage": "remplacement-capteur-reservoir-carburant-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer 3x vis, 3x rondelle, 3x écrou 45 Nm",
+      "sourcePage": "remplacement-capteur-reservoir-carburant-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 8x vis, 2x vis de sécurité 90 Nm",
+      "sourcePage": "remplacement-capteur-reservoir-carburant-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

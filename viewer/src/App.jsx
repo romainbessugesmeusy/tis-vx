@@ -42,6 +42,15 @@ function App() {
       return s === 'Z20LET' || s === 'Z22SE' ? s : null
     } catch { return null }
   })
+
+  // Language: 'en' (default) or 'fr'
+  const [language, setLanguage] = useState(() => {
+    try {
+      const l = localStorage.getItem('tis-language')
+      return l === 'fr' ? 'fr' : 'en'
+    } catch { return 'en' }
+  })
+  const [titleOverrides, setTitleOverrides] = useState(null)
   
   // Swipe gesture tracking
   const swipeRef = useRef({
@@ -256,6 +265,11 @@ function App() {
     } catch (_) {}
   }, [])
 
+  const handleLanguageChange = useCallback((lang) => {
+    setLanguage(lang)
+    try { localStorage.setItem('tis-language', lang) } catch (_) {}
+  }, [])
+
   useEffect(() => {
     fetch('/data/manifest.json')
       .then(res => res.json())
@@ -268,6 +282,17 @@ function App() {
         setLoading(false)
       })
   }, [])
+
+  useEffect(() => {
+    if (language === 'en') {
+      setTitleOverrides(null)
+      return
+    }
+    fetch(`/data/${language}/titles.json`)
+      .then(res => res.ok ? res.json() : null)
+      .then(data => setTitleOverrides(data))
+      .catch(() => setTitleOverrides(null))
+  }, [language])
 
   if (loading) {
     return <div className="loading">Loading...</div>
@@ -299,6 +324,8 @@ function App() {
         manifest={manifest}
         selectedEngine={selectedEngine}
         onEngineChange={handleEngineChange}
+        language={language}
+        onLanguageChange={handleLanguageChange}
         isOffline={isOffline}
         isMobile={isMobile}
         isTablet={isTablet}
@@ -312,6 +339,7 @@ function App() {
           tocIdToSlug={manifest.tocIdToSlug}
           contentTypeStats={manifest.contentTypeStats}
           selectedEngine={selectedEngine}
+          titleOverrides={titleOverrides}
           isColumnLayout={isColumnLayout}
           isMobile={isMobile}
           isTablet={isTablet}
@@ -329,9 +357,9 @@ function App() {
         )}
         <main className={`content${location.pathname === '/' ? ' is-homepage' : ''}`}>
           <Routes>
-            <Route path="/" element={<ContentViewer manifest={manifest} selectedEngine={selectedEngine} onNavigateToComponent={handleNavigateToComponent} />} />
-            <Route path="/doc/:id" element={<ContentViewer manifest={manifest} selectedEngine={selectedEngine} onNavigateToComponent={handleNavigateToComponent} />} />
-            <Route path="/ref/:type" element={<ReferenceIndex />} />
+            <Route path="/" element={<ContentViewer manifest={manifest} selectedEngine={selectedEngine} language={language} onNavigateToComponent={handleNavigateToComponent} />} />
+            <Route path="/doc/:id" element={<ContentViewer manifest={manifest} selectedEngine={selectedEngine} language={language} onNavigateToComponent={handleNavigateToComponent} />} />
+            <Route path="/ref/:type" element={<ReferenceIndex language={language} />} />
             <Route path="/epc" element={<EPCBrowser />} />
             <Route path="/epc/:groupId/diagram/:diagramId" element={<EPCBrowser />} />
             <Route path="/epc/:groupId/:subSectionId/:mainId" element={<EPCBrowser />} />

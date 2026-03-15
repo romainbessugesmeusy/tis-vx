@@ -1,0 +1,27 @@
+{
+  "title": "Carrosserie arrière - Compartiment arrière, gauche",
+  "components": [
+    {
+      "description": "Relais - Pompe à carburant",
+      "code": "K16"
+    },
+    {
+      "description": "Relais - Unité de contrôle moteur",
+      "code": "K18"
+    },
+    {
+      "description": "Relais - Démarreur",
+      "code": "K24"
+    },
+    {
+      "description": "Relais - Pompe, liquide de refroidissement supplémentaire",
+      "code": "K82"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "body-rear-rear-compartment-left-engine-z20let-AQS315",
+  "diagram": {
+    "src": "/data/assets/f384ceee5d19.cgm",
+    "type": "cgm"
+  }
+}

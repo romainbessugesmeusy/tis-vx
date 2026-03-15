@@ -1,0 +1,42 @@
+{
+  "title": "Field Remedy: 2792",
+  "subject": "Ceinture de sécurité avant ou arrière - Le mécanisme de\nroulement intérieur et/ou extérieur ne fonctionne pas correctement",
+  "complaint": "La ceinture de sécurité ne se rétracte pas, ou la ceinture de\nsécurité se rétracte trop lentement, ou la ceinture de sécurité est difficile à tirer.",
+  "cause": "Les fibres de vêtements, la saleté, la poussière ou une sangle de ceinture\ntorsadée peuvent provoquer le coincement ou le blocage de la ceinture de sécurité. La ceinture de sécurité\nelle-même est en bon état. Le système de guidage de la ceinture de sécurité doit être\nvérifié.",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "En cas de réclamation du client, vérifier le D-loop (mécanisme de déviation)\npour la contamination par la saleté, la poussière ou les fibres de la sangle."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nettoyer le D-loop et la ceinture de sécurité. Vérifier à nouveau la fonction en tirant\nau maximum."
+    },
+    {
+      "type": "text",
+      "text": "La sangle de la ceinture de sécurité ne doit pas être torsadée ! Si le problème persiste, démonter\nle couvercle de garniture et vérifier à nouveau."
+    },
+    {
+      "type": "paragraph",
+      "text": "Si la ceinture de sécurité se rétracte, aucune pièce ne doit être remplacée."
+    },
+    {
+      "type": "text",
+      "text": "Remonter le couvercle de garniture et vérifier à nouveau la fonction. Veiller à la position correcte\ndu couvercle de garniture. Aucune flexion ne doit se produire, aucun bord tranchant\nne doit entrer en contact avec la sangle de la ceinture !"
+    },
+    {
+      "type": "text",
+      "text": "Attention :\nla sangle de la ceinture de sécurité ne doit être nettoyée qu'avec de l'eau tiède ou des produits\ncommercialement disponibles à faible concentration. Les produits à base de solvants forts\nne doivent pas être utilisés."
+    }
+  ],
+  "type": "tsb",
+  "id": "seatbelt-front-or-rear-seat-out-and-or-back-rolling-mechanis-A26D1C",
+  "metadata": {
+    "functionalGroup": "C - Equipment/Windows",
+    "complaintGroup": "02 - Chafing,08 - Hard to operate,13 -\nNo/Poor Function",
+    "models": null,
+    "engines": null,
+    "troubleCode": ""
+  },
+  "production": ""
+}

@@ -1,0 +1,11 @@
+{
+  "format": "json",
+  "model": "gpt-3.5-turbo",
+  "maxTokens": 4096,
+  "temperature": 0.3,
+  "locales": ["fr"],
+  "context": "These are section titles from an Opel/Vauxhall automotive workshop manual table of contents. Each key is a node ID (do not translate). Each value is a section title to translate.",
+  "style": "Same impersonal/noun-phrase style as French Revue Technique Automobile section headings. Keep vehicle names, engine codes, part numbers verbatim. Use the same automotive glossary as the main content: Remove=D\u00e9poser, Install=Reposer, Replace=Remplacer, Bolt=Vis, Harness=Faisceau, Wiper=Essuie-glace, Bonnet=Capot, Boot=Coffre, Wishbone=Triangle de suspension, Alternator=Alternateur, Brake=Frein, Steering=Direction, Exhaust=\u00c9chappement, Gearbox=Bo\u00eete de vitesses, Clutch=Embrayage, Cylinder head=Culasse, Roll hoop=Arceau, Headlamp=Phare.",
+  "protectedFields": [],
+  "fieldDescriptions": []
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Field Remedy: 1684",
+  "subject": "Joint tricheur - Infiltration d'eau autour de la zone du\nrétroviseur",
+  "complaint": "Infiltration d'eau autour de la zone du rétroviseur dans le\nvéhicule.",
+  "cause": "Étanchéité inefficace autour de la zone du rétroviseur.",
+  "production": "À partir du numéro de série W0L0EBR973N007089, un nouveau\njoint tricheur modifié a été introduit en production.",
+  "remedyContent": [
+    {
+      "type": "paragraph",
+      "text": "En cas de réclamation du client, remplacer l'ancien joint tricheur\npar le nouveau joint tricheur amélioré."
+    }
+  ],
+  "parts": [
+    {
+      "name": "Profilé de joint de gouttière",
+      "catalogueNumber": "48 01 675",
+      "partNumber": "93182346"
+    },
+    {
+      "name": "Joint tricheur",
+      "catalogueNumber": "48 01 674",
+      "partNumber": "93181845"
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/0978f58480cc.jpg",
+      "alt": "Numéro d'objet : 8132515  Taille : PAR DÉFAUT"
+    }
+  ],
+  "type": "tsb",
+  "id": "cheater-seal-water-ingress-around-door-mirror-area-AQS315",
+  "metadata": {
+    "functionalGroup": "A - Body",
+    "complaintGroup": "10 - Leakages",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  }
+}

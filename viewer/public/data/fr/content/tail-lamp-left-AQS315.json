@@ -1,0 +1,103 @@
+{
+  "title": "feu-arrière-gauche-AQS315",
+  "components": [
+    {
+      "description": "Bloc lampe arrière - Gauche",
+      "code": "E3"
+    },
+    {
+      "description": "Feu de recul - Droit",
+      "code": "E4.3"
+    },
+    {
+      "description": "Feu arrière - Gauche",
+      "code": "E3.1"
+    },
+    {
+      "description": "Clignotant - Arrière, droit",
+      "code": "E4.4"
+    },
+    {
+      "description": "Feu stop - Gauche",
+      "code": "E3.2"
+    },
+    {
+      "description": "Antibrouillard - Arrière, droit",
+      "code": "E4.5"
+    },
+    {
+      "description": "Feu de recul - Gauche",
+      "code": "E3.3"
+    },
+    {
+      "description": "Lampe - Plaque d'immatriculation, gauche",
+      "code": "E10"
+    },
+    {
+      "description": "Clignotant - Arrière, gauche",
+      "code": "E3.4"
+    },
+    {
+      "description": "Lampe - Plaque d'immatriculation, droit",
+      "code": "E11"
+    },
+    {
+      "description": "Antibrouillard - Arrière, gauche",
+      "code": "E3.5"
+    },
+    {
+      "description": "Antibrouillard - Avant, gauche",
+      "code": "E18"
+    },
+    {
+      "description": "Bloc lampe arrière - Droit",
+      "code": "E4"
+    },
+    {
+      "description": "Antibrouillard - Avant, droit",
+      "code": "E19"
+    },
+    {
+      "description": "Feu arrière - Droit",
+      "code": "E4.1"
+    },
+    {
+      "description": "Relais - Antibrouillard, avant",
+      "code": "K4"
+    },
+    {
+      "description": "Feu stop - Droit",
+      "code": "E4.2"
+    },
+    {
+      "description": "Interrupteur - Antibrouillards, avant",
+      "code": "S76"
+    },
+    {
+      "description": "Faisceau principal & Arrière",
+      "code": "X5"
+    },
+    {
+      "description": "Faisceau principal & Faisceau d'extension, antibrouillard, avant gauche",
+      "code": "X41"
+    },
+    {
+      "description": "Faisceau principal & Arrière (Antibrouillard)",
+      "code": "X6"
+    },
+    {
+      "description": "Faisceau principal & Faisceau d'extension, antibrouillard, avant droit",
+      "code": "X42"
+    },
+    {
+      "description": "Faisceau principal & Arrière (Feu de recul)",
+      "code": "X7"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "tail-lamp-left-AQS315",
+  "diagram": {
+    "src": "/data/assets/80ca4cdcf3a9.cgm",
+    "type": "cgm"
+  }
+}

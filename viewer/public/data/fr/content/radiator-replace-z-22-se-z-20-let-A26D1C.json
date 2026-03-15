@@ -1,0 +1,333 @@
+{
+  "title": "Remplacer le radiateur (Z 22 SE, Z 20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Face avant – voir l'opération «Déposer et reposer la face avant» dans le Groupe A.",
+          "image": {
+            "src": "/data/assets/images/7c0284ebc86a.jpg",
+            "alt": "Object Number: 2429828  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Unité hydraulique et unité de contrôle ABS du support – vis, écrous; ne pas détacher les conduites, et fixer l'unité hydraulique et l'unité de contrôle d'un côté.",
+          "image": {
+            "src": "/data/assets/images/56f3da04516c.jpg",
+            "alt": "Object Number: 2429839  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Véhicule avec conduite à gauche illustré, conduite à droite similaire.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Bouchon de purge (2) du boîtier du radiateur.",
+          "image": {
+            "src": "/data/assets/images/f0673edbb560.jpg",
+            "alt": "Object Number: 2418977  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Durite côté gauche (1) du radiateur – agrafe.",
+          "callouts": [
+            "1"
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Durite côté droit (3) du radiateur – agrafe.",
+          "callouts": [
+            "3"
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Important:",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Collecter et éliminer tout liquide de refroidissement s'échappant.",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Respecter les réglementations de sécurité.",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Vis (flèche) du boîtier du radiateur.",
+          "image": {
+            "src": "/data/assets/images/bf88de387e62.jpg",
+            "alt": "Object Number: 2418978  Size: DEFAULT"
+          },
+          "number": 10
+        },
+        {
+          "text": "Conduit d'air (1) du chauffage.",
+          "image": {
+            "src": "/data/assets/images/145ba0116639.jpg",
+            "alt": "Object Number: 2418979  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 11
+        },
+        {
+          "text": "Faisceau de câblage avant (2) du boîtier du radiateur – agrafes et colliers.",
+          "callouts": [
+            "2"
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Vis (flèche) du boîtier du radiateur.",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Connecteur du faisceau de câblage (1) du faisceau de câblage avant.",
+          "image": {
+            "src": "/data/assets/images/2ba643ac701e.jpg",
+            "alt": "Object Number: 2418980  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 14
+        },
+        {
+          "text": "Connecteur du faisceau de câblage (3) du châssis – écrous.",
+          "image": {
+            "src": "/data/assets/images/aecc0d2001b5.jpg",
+            "alt": "Object Number: 2418981  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ],
+          "number": 15
+        },
+        {
+          "text": "Faisceaux de câblage (1 et 2) du boîtier du radiateur – retirer des passe-câbles en caoutchouc.",
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Faisceaux de câblage (1) du boîtier du radiateur – retirer des passe-câbles en caoutchouc.",
+          "image": {
+            "src": "/data/assets/images/5c6fcbbe56ac.jpg",
+            "alt": "Object Number: 2418982  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 17
+        },
+        {
+          "text": "Vis (flèche) du boîtier du radiateur.",
+          "image": {
+            "src": "/data/assets/images/f34c07851c30.jpg",
+            "alt": "Object Number: 2418983  Size: DEFAULT"
+          },
+          "number": 18
+        },
+        {
+          "text": "Côté gauche illustré, côté droit similaire.",
+          "number": 19,
+          "image": null
+        },
+        {
+          "text": "Boîtier du radiateur (1) avec radiateur.",
+          "image": {
+            "src": "/data/assets/images/d93e48e7de63.jpg",
+            "alt": "Object Number: 2418984  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 20
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Radiateur du support de radiateur – vis.",
+          "image": {
+            "src": "/data/assets/images/d93e48e7de63.jpg",
+            "alt": "Object Number: 2418984  Size: DEFAULT"
+          },
+          "number": 21
+        },
+        {
+          "text": "Radiateur au support de radiateur – vis.",
+          "number": 22,
+          "image": null
+        },
+        {
+          "text": "Boîtier du radiateur (1) avec radiateur.",
+          "image": {
+            "src": "/data/assets/images/d93e48e7de63.jpg",
+            "alt": "Object Number: 2418984  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 23
+        },
+        {
+          "text": "Vis (flèche) dans le boîtier du radiateur.",
+          "image": {
+            "src": "/data/assets/images/f34c07851c30.jpg",
+            "alt": "Object Number: 2418983  Size: DEFAULT"
+          },
+          "number": 24
+        },
+        {
+          "text": "Côté gauche illustré, côté droit similaire.",
+          "number": 25,
+          "image": null
+        },
+        {
+          "text": "Faisceaux de câblage (1) au boîtier du radiateur – enfoncer dans les passe-câbles en caoutchouc.",
+          "image": {
+            "src": "/data/assets/images/5c6fcbbe56ac.jpg",
+            "alt": "Object Number: 2418982  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 26
+        },
+        {
+          "text": "Faisceaux de câblage (1 et 2) au boîtier du radiateur – enfoncer dans les passe-câbles en caoutchouc.",
+          "image": {
+            "src": "/data/assets/images/aecc0d2001b5.jpg",
+            "alt": "Object Number: 2418981  Size: DEFAULT"
+          },
+          "number": 27
+        },
+        {
+          "text": "Connecteur du faisceau de câblage (3) au châssis – écrous.",
+          "callouts": [
+            "3"
+          ],
+          "number": 28,
+          "image": null
+        },
+        {
+          "text": "Connecteur du faisceau de câblage (1) au faisceau de câblage avant.",
+          "image": {
+            "src": "/data/assets/images/2ba643ac701e.jpg",
+            "alt": "Object Number: 2418980  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 29
+        },
+        {
+          "text": "Vis (flèche) dans le boîtier du radiateur.",
+          "image": {
+            "src": "/data/assets/images/145ba0116639.jpg",
+            "alt": "Object Number: 2418979  Size: DEFAULT"
+          },
+          "number": 30
+        },
+        {
+          "text": "Faisceau de câblage avant (2) au boîtier du radiateur – agrafes et colliers.",
+          "callouts": [
+            "2"
+          ],
+          "number": 31,
+          "image": null
+        },
+        {
+          "text": "Conduit d'air (1) au chauffage.",
+          "callouts": [
+            "1"
+          ],
+          "number": 32,
+          "image": null
+        },
+        {
+          "text": "Vis (flèche) dans le boîtier du radiateur.",
+          "image": {
+            "src": "/data/assets/images/bf88de387e62.jpg",
+            "alt": "Object Number: 2418978  Size: DEFAULT"
+          },
+          "number": 33
+        },
+        {
+          "text": "Durite côté droit (3) au radiateur.",
+          "image": {
+            "src": "/data/assets/images/f0673edbb560.jpg",
+            "alt": "Object Number: 2418977  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ],
+          "number": 34
+        },
+        {
+          "text": "Durite côté gauche (1) au radiateur.",
+          "callouts": [
+            "1"
+          ],
+          "number": 35,
+          "image": null
+        },
+        {
+          "text": "Bouchon de purge (2) dans le radiateur.",
+          "callouts": [
+            "2"
+          ],
+          "number": 36,
+          "image": null
+        },
+        {
+          "text": "Unité hydraulique et unité de contrôle ABS au support – vis, écrous.",
+          "image": {
+            "src": "/data/assets/images/56f3da04516c.jpg",
+            "alt": "Object Number: 2429839  Size: DEFAULT"
+          },
+          "number": 37
+        },
+        {
+          "text": "Face avant – voir l'opération «Déposer et reposer la face avant» dans le Groupe A.",
+          "image": {
+            "src": "/data/assets/images/7c0284ebc86a.jpg",
+            "alt": "Object Number: 2429828  Size: DEFAULT"
+          },
+          "number": 38
+        },
+        {
+          "text": "Remplir et purger le système de refroidissement – voir l'opération «Système de refroidissement, Vidange, Remplissage et Purge».",
+          "number": 39,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "radiator-replace-z-22-se-z-20-let-A26D1C"
+}

@@ -1,0 +1,297 @@
+{
+  "title": "Plaquettes de frein arrière, Remplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Calez les deux roues avant",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Desserrez le frein de stationnement",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déposez le bouchon du réservoir de liquide de frein",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Levez et soutenez le véhicule",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Déposez les roues arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirez les 8x vis de roue"
+            },
+            {
+              "bullet": "•",
+              "text": "Utilisez une douille spéciale située sous le capot avant"
+            }
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Desserrez le réglage du frein de stationnement - voir l'opération “Vérification et réglage du frein de stationnement” dans le groupe H",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Détachez le câble du frein de stationnement (1) de l'étrier de frein",
+          "image": {
+            "src": "/data/assets/images/86b24779c501.jpg",
+            "alt": "Object Number: 2419724  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 7
+        },
+        {
+          "text": "Détachez la durite de frein du triangle de suspension inférieur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Détachez l'agrafe"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirez, puis jetez l'écrou (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/edcb615983bf.jpg",
+            "alt": "Object Number: 2419725  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Retirez la goupille (2) et le ressort anti-bruit (1)",
+          "image": {
+            "src": "/data/assets/images/1f19aaa32f65.jpg",
+            "alt": "Object Number: 2429416  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ],
+          "number": 9
+        },
+        {
+          "text": "Inclinez l'étrier de frein vers le haut",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirez la vis (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e9b448eb3a24.jpg",
+            "alt": "Object Number: 2419726  Size: DEFAULT"
+          },
+          "number": 10
+        },
+        {
+          "text": "Retirez les plaquettes de frein de l'étrier de frein",
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Retirez le disque de frein arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirez la vis"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Renvoyez le piston dans l'étrier de frein",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utilisez le Rétracteur de piston de frein KM-6007"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/66d2a1ee9307.jpg",
+            "alt": "Object Number: 2422604  Size: DEFAULT"
+          },
+          "number": 13
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Installez le disque de frein arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installez la vis"
+            }
+          ],
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Installez les plaquettes de frein sur l'étrier de frein Remarque : Appliquez une pâte anti-bruit sur les plaquettes de frein.",
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Fixez l'étrier de frein au porte-moyeu",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installez la vis 28 Nm"
+            }
+          ],
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Installez la goupille et le ressort anti-bruit",
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Fixez la durite de frein au triangle de suspension inférieur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixez l'agrafe"
+            },
+            {
+              "bullet": "•",
+              "text": "Installez le nouvel écrou"
+            }
+          ],
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "Attachez le câble du frein de stationnement à l'étrier de frein",
+          "number": 19,
+          "image": null
+        },
+        {
+          "text": "Installez les roues arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utilisez une douille spéciale située sous le capot avant"
+            }
+          ],
+          "number": 20,
+          "image": null
+        },
+        {
+          "text": "Abaissez le véhicule et retirez le support",
+          "number": 21,
+          "image": null
+        },
+        {
+          "text": "Actionnez la pédale de frein plusieurs fois",
+          "number": 22,
+          "image": null
+        },
+        {
+          "text": "Actionnez plusieurs fois le levier de frein de stationnement",
+          "number": 23,
+          "image": null
+        },
+        {
+          "text": "Relevez le véhicule",
+          "number": 24,
+          "image": null
+        },
+        {
+          "text": "Réglez le frein de stationnement - voir l'opération “Vérification et réglage du frein de stationnement” dans le groupe H",
+          "number": 25,
+          "image": null
+        },
+        {
+          "text": "Abaissez le véhicule",
+          "number": 26,
+          "image": null
+        },
+        {
+          "text": "Vérifiez et complétez le liquide de frein si nécessaire",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installez le bouchon du réservoir de liquide de frein"
+            }
+          ],
+          "number": 27,
+          "image": null
+        },
+        {
+          "text": "Appliquez le frein de stationnement",
+          "number": 28,
+          "image": null
+        },
+        {
+          "text": "Retirez les cales des deux roues avant",
+          "number": 29,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Fixer l'étrier de frein au porte-moyeu",
+      "value": "28",
+      "unit": "Nm",
+      "stepRef": 16
+    },
+    {
+      "component": "Installer les roues arrière",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 20
+    },
+    {
+      "component": "Installez la vis 28 Nm Remarque : Nettoyez le filetage et appliquez du frein filet.",
+      "value": "28",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer les 8x vis de roue, 2x vis de sécurité 90 Nm – Utilisez une douille spéciale située sous le capot avant",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-6007",
+    "KM-6007-40"
+  ],
+  "warnings": [
+    "Évitez tout contact du liquide de frein avec la peinture."
+  ],
+  "notes": [
+    "Installez les plaquettes de frein sur l'étrier de frein\n Appliquez une pâte anti-bruit\nsur les plaquettes de frein.",
+    "Installez la vis 28 Nm \n Nettoyez le filetage et\nappliquez du frein filet."
+  ],
+  "type": "procedure",
+  "id": "brake-pads-rear-replace-AQS315"
+}

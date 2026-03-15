@@ -1,0 +1,36 @@
+{
+  "title": "Remplacer le badge",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Déposer le badge du hayon arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tirer"
+            }
+          ],
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Reposer le badge sur le hayon arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enfoncer en place"
+            }
+          ],
+          "number": 2,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "type": "procedure",
+  "id": "badge-replace-AQS315"
+}

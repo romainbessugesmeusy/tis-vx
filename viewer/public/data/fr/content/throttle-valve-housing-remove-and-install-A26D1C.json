@@ -1,0 +1,50 @@
+{
+  "title": "Boîtier papillon, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Durites du boîtier papillon.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Connecteur(s) du faisceau électrique du boîtier papillon.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Boîtier papillon du collecteur d'admission – vis (flèche).",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Boîtier papillon vers le collecteur d'admission – vis (flèche).",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Connecteur(s) du faisceau électrique au boîtier papillon.",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Durites au boîtier papillon.",
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "throttle-valve-housing-remove-and-install-A26D1C"
+}

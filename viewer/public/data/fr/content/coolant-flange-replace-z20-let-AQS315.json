@@ -1,0 +1,117 @@
+{
+  "title": "Remplacer le collier de liquide de refroidissement (Z20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Vidanger le liquide de refroidissement – voir l'opération ”Système de refroidissement, Vidange, Remplissage et Purge”",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Débrancher les connecteurs du faisceau de câblage pour le capteur de cognement (1), le module d'allumage (5), le capteur d'oxygène régulateur de mélange (3) et le condensateur de bobine d'allumage (2). Retirer le support de connecteur de faisceau de câblage (4) du collier de liquide de refroidissement.",
+          "image": {
+            "src": "/data/assets/images/0a34896883bf.jpg",
+            "alt": "Object Number: 2418089  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "5",
+            "3",
+            "2",
+            "4"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Détacher ou retirer le connecteur du capteur de température du liquide de refroidissement, de la vanne de recirculation des gaz d'échappement, du capteur d'oxygène et du module d'allumage DIS.",
+          "number": 3,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Nettoyer",
+      "steps": [
+        {
+          "text": "Retirer les boulons de fixation (1) et enlever le collier de liquide de refroidissement.",
+          "image": {
+            "src": "/data/assets/images/0a34896883bf.jpg",
+            "alt": "Object Number: 2418089  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Nettoyer les surfaces de joint et enlever les résidus de joint.",
+          "number": 5,
+          "image": null
+        }
+      ],
+      "phase": "clean",
+      "icon": "/data/assets/images/d9fe69774efb.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Fixer le collier de liquide de refroidissement à la culasse avec un nouveau joint – couple de serrage (M8) 20 Nm , (M10) 30 Nm .",
+          "image": {
+            "src": "/data/assets/images/79063711f868.jpg",
+            "alt": "Object Number: 2422888  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Fixer le support de connecteur de faisceau de câblage au collier de liquide de refroidissement – couple de serrage 8 Nm .",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Fixer ou connecter le connecteur du capteur de température du liquide de refroidissement, de la vanne de recirculation des gaz d'échappement, du capteur d'oxygène et du module d'allumage DIS.",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Brancher et clipser les connecteurs du faisceau de câblage pour le capteur de cognement, le module d'allumage, le capteur d'oxygène régulateur de mélange et le condensateur de bobine d'allumage et acheminer les faisceaux de câblage.",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Recharger et purger le système de refroidissement – voir l'opération \"Système de refroidissement, Vidange, Remplissage et Purge”",
+          "number": 10,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Fixer le collier de liquide de refroidissement à la culasse avec un nouveau joint – couple de serrage (M8) 20 Nm , (M10) 30 Nm .",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Fixer le support de connecteur de faisceau de câblage au collier de liquide de refroidissement – couple de serrage 8 Nm .",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Fixer le collier de liquide de refroidissement à la culasse avec un nouveau joint – couple de serrage (M8) 20 Nm , (M10) 30 Nm .",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "type": "procedure",
+  "id": "coolant-flange-replace-z20-let-AQS315"
+}

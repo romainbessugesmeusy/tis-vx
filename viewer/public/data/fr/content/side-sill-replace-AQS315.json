@@ -1,0 +1,571 @@
+{
+  "title": "Bas de caisse, Remplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le cache avant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "voir l'opération \"Déposer et Reposer le Cache Avant\"."
+            }
+          ],
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le cache arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "voir l'opération \"Déposer et Reposer le Cache Arrière\"."
+            }
+          ],
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déposer la porte",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "voir l'opération \"Déposer et Reposer la Porte\"."
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déposer les composants auxiliaires",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Garniture intérieure de bas de caisse (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Serrure de porte (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Joint de porte (3)"
+            },
+            {
+              "bullet": "•",
+              "text": "Contacteur de porte (4)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e5d3cd76ba6b.jpg",
+            "alt": "Object Number: 2412542  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Marquer les lignes de découpe Remarque : Marquer toutes les lignes de découpe pour éviter les dommages lors de la découpe.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Marquer les lignes de découpe I, II, III et IV"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0aba7061431f.jpg",
+            "alt": "Object Number: 2412545  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Marquer les lignes de découpe Remarque : Marquer toutes les lignes de découpe pour éviter les dommages lors de la découpe.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Marquer les lignes de découpe I, II, III et IV"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0b7de725dbd4.jpg",
+            "alt": "Object Number: 2412546  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Marquer les lignes de découpe Remarque : Marquer toutes les lignes de découpe pour éviter les dommages lors de la découpe.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Marquer les lignes de découpe I et II"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/11819eaa0637.jpg",
+            "alt": "Object Number: 2412547  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Découper la plaque de marchepied en bas sur toute la longueur",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Découper librement dans la section arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Détacher le long de la ligne de découpe marquée"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Découper librement à l'arrière du montant B",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Détacher le long de la ligne de découpe marquée de haut en bas"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Découper librement à l'avant du montant B",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Détacher le long de la ligne de découpe marquée de haut en bas"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Découper librement dans la zone de charnière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Détacher le long de la ligne de découpe marquée"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Découper librement en haut du montant A",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Détacher le long de la ligne de découpe marquée"
+            }
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Découper librement à l'avant du montant A",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Détacher le long de la ligne de découpe marquée de haut en bas"
+            }
+          ],
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Déposer la plaque de marchepied en haut",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Détacher le long de la ligne de découpe marquée"
+            }
+          ],
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Retirer le bas de caisse",
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Découper le coin du cadre de fenêtre (II) Remarque : Le coin du cadre de fenêtre (II) est réutilisé.",
+          "image": {
+            "src": "/data/assets/images/df1c1a446f8b.jpg",
+            "alt": "Object Number: 2412548  Size: DEFAULT"
+          },
+          "number": 17
+        },
+        {
+          "text": "Changer la lame de coupe",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "MKM-846-9"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/df1c1a446f8b.jpg",
+            "alt": "Object Number: 2412548  Size: DEFAULT"
+          },
+          "number": 18
+        },
+        {
+          "text": "Détacher le rebord restant à l'avant du montant A",
+          "image": {
+            "src": "/data/assets/images/df1c1a446f8b.jpg",
+            "alt": "Object Number: 2412548  Size: DEFAULT"
+          },
+          "number": 19
+        },
+        {
+          "text": "Retirer le rebord restant du cadre de pare-brise (IV)",
+          "image": {
+            "src": "/data/assets/images/df1c1a446f8b.jpg",
+            "alt": "Object Number: 2412548  Size: DEFAULT"
+          },
+          "number": 20
+        },
+        {
+          "text": "Retirer le rebord restant dans la zone de charnière (III)",
+          "image": {
+            "src": "/data/assets/images/df1c1a446f8b.jpg",
+            "alt": "Object Number: 2412548  Size: DEFAULT"
+          },
+          "number": 21
+        },
+        {
+          "text": "Retirer le rebord restant sur la plaque de marchepied (I)",
+          "image": {
+            "src": "/data/assets/images/0644109ac0c0.jpg",
+            "alt": "Object Number: 2412549  Size: DEFAULT"
+          },
+          "number": 22
+        },
+        {
+          "text": "Retirer le rebord restant à l'avant du montant B (II)",
+          "image": {
+            "src": "/data/assets/images/0644109ac0c0.jpg",
+            "alt": "Object Number: 2412549  Size: DEFAULT"
+          },
+          "number": 23
+        },
+        {
+          "text": "Retirer le rebord restant à l'arrière du montant B (III)",
+          "image": {
+            "src": "/data/assets/images/0644109ac0c0.jpg",
+            "alt": "Object Number: 2412549  Size: DEFAULT"
+          },
+          "number": 24
+        },
+        {
+          "text": "Retirer le rebord restant à l'arrière de l'aile arrière (IV)",
+          "image": {
+            "src": "/data/assets/images/0644109ac0c0.jpg",
+            "alt": "Object Number: 2412549  Size: DEFAULT"
+          },
+          "number": 25
+        },
+        {
+          "text": "Retirer le rebord restant de la plaque de marchepied en bas",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Couper en haut et en bas le long du rebord restant"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d5457e49bf4f.jpg",
+            "alt": "Object Number: 2412550  Size: DEFAULT"
+          },
+          "number": 26
+        },
+        {
+          "text": "Retirer les résidus adhésifs dans les rainures Remarque : Les zones inférieures de la plaque de marchepied et du montant B doivent être complètement libres de résidus adhésifs",
+          "image": {
+            "src": "/data/assets/images/4896c5a3df5c.jpg",
+            "alt": "Object Number: 2412551  Size: DEFAULT"
+          },
+          "number": 27
+        },
+        {
+          "text": "Retirer les résidus adhésifs de la plaque de marchepied en haut",
+          "image": {
+            "src": "/data/assets/images/4896c5a3df5c.jpg",
+            "alt": "Object Number: 2412551  Size: DEFAULT"
+          },
+          "number": 28
+        },
+        {
+          "text": "Retirer les résidus adhésifs à l'avant du montant A",
+          "image": {
+            "src": "/data/assets/images/4896c5a3df5c.jpg",
+            "alt": "Object Number: 2412551  Size: DEFAULT"
+          },
+          "number": 29
+        },
+        {
+          "text": "Retirer les résidus adhésifs de l'aile arrière",
+          "image": {
+            "src": "/data/assets/images/4896c5a3df5c.jpg",
+            "alt": "Object Number: 2412551  Size: DEFAULT"
+          },
+          "number": 30
+        },
+        {
+          "text": "Retirer les résidus adhésifs du cadre de pare-brise",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Grattoir et cutter"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/4896c5a3df5c.jpg",
+            "alt": "Object Number: 2412551  Size: DEFAULT"
+          },
+          "number": 31
+        },
+        {
+          "text": "Retirer les résidus adhésifs du support de charnière",
+          "image": {
+            "src": "/data/assets/images/4896c5a3df5c.jpg",
+            "alt": "Object Number: 2412551  Size: DEFAULT"
+          },
+          "number": 32
+        },
+        {
+          "text": "Retirer les résidus adhésifs du tablier arrière",
+          "image": {
+            "src": "/data/assets/images/4896c5a3df5c.jpg",
+            "alt": "Object Number: 2412551  Size: DEFAULT"
+          },
+          "number": 33
+        },
+        {
+          "text": "Retirer les résidus adhésifs de l'arceau",
+          "image": {
+            "src": "/data/assets/images/4896c5a3df5c.jpg",
+            "alt": "Object Number: 2412551  Size: DEFAULT"
+          },
+          "number": 34
+        },
+        {
+          "text": "Vérifier que la nouvelle pièce s'adapte",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Présenter et corriger si nécessaire"
+            }
+          ],
+          "number": 35,
+          "image": null
+        },
+        {
+          "text": "Nettoyer toutes les zones adhésives sur le véhicule",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Activateur du pack adhésif"
+            }
+          ],
+          "number": 36,
+          "image": null
+        },
+        {
+          "text": "Apprêter toutes les zones adhésives sur le véhicule",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Apprêt du pack adhésif"
+            }
+          ],
+          "number": 37,
+          "image": null
+        },
+        {
+          "text": "Nettoyer toutes les zones adhésives sur la nouvelle pièce",
+          "number": 38,
+          "image": null
+        },
+        {
+          "text": "Apprêter toutes les zones adhésives sur la nouvelle pièce",
+          "number": 39,
+          "image": null
+        },
+        {
+          "text": "Détacher l'angle (1) de l'ancienne pièce",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer dans l'étau"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d02f049984ba.jpg",
+            "alt": "Object Number: 2412552  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 40
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Retirer les résidus adhésifs du coin du cadre de fenêtre",
+          "number": 41,
+          "image": null
+        },
+        {
+          "text": "Nettoyer le coin du cadre de fenêtre",
+          "number": 42,
+          "image": null
+        },
+        {
+          "text": "Apprêter le coin du cadre de fenêtre",
+          "number": 43,
+          "image": null
+        },
+        {
+          "text": "Appliquer de l'adhésif",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ensemble 462 cm, dont sur"
+            }
+          ],
+          "number": 44,
+          "image": null
+        },
+        {
+          "text": "Placer la nouvelle pièce en position",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2e technicien requis"
+            }
+          ],
+          "number": 45,
+          "image": null
+        },
+        {
+          "text": "Fixer la nouvelle pièce en place",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer en place avec des sangles de tension"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/40dc3a59438c.jpg",
+            "alt": "Object Number: 2412553  Size: DEFAULT"
+          },
+          "number": 46
+        },
+        {
+          "text": "Appliquer de l'adhésif au coin du cadre de fenêtre",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "30 cm"
+            }
+          ],
+          "number": 47,
+          "image": null
+        },
+        {
+          "text": "Insérer le coin du cadre de fenêtre et fixer en place",
+          "number": 48,
+          "image": null
+        },
+        {
+          "text": "Attacher les composants auxiliaires",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Contacteur de porte"
+            },
+            {
+              "bullet": "•",
+              "text": "Garniture intérieure de bas de caisse"
+            },
+            {
+              "bullet": "•",
+              "text": "Serrure de porte"
+            },
+            {
+              "bullet": "•",
+              "text": "Joint de porte"
+            }
+          ],
+          "number": 49,
+          "image": null
+        },
+        {
+          "text": "Installer la porte",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "4 vis au montant A"
+            }
+          ],
+          "number": 50,
+          "image": null
+        },
+        {
+          "text": "Attacher le cache avant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "voir l'opération \"Détacher et Attacher le Cache Avant\"."
+            }
+          ],
+          "number": 51,
+          "image": null
+        },
+        {
+          "text": "Attacher le cache arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "voir l'opération \"Détacher et Attacher le Cache Arrière\"."
+            }
+          ],
+          "number": 52,
+          "image": null
+        },
+        {
+          "text": "Travaux de nettoyage",
+          "number": 53,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "toolsRequired": [
+    "MKM-846-9"
+  ],
+  "warnings": [
+    "Ne pas endommager\nle tablier"
+  ],
+  "notes": [
+    "Marquer les lignes de découpe\n Marquer toutes les\nlignes de découpe pour éviter les dommages lors de la découpe.\n \n\n\n\n•  \nMarquer les lignes de découpe I, II, III et IV",
+    "Marquer les lignes de découpe\n Marquer toutes les\nlignes de découpe pour éviter les dommages lors de la découpe.\n \n\n\n\n•  \nMarquer les lignes de découpe I et II",
+    "Découper le coin du cadre de fenêtre (II)\n Le coin du cadre de fenêtre\n(II) est réutilisé.",
+    "Retirer les résidus adhésifs dans les rainures\n Les zones inférieures de\nla plaque de marchepied et du montant B doivent être complètement libres de résidus adhésifs"
+  ],
+  "type": "procedure",
+  "id": "side-sill-replace-AQS315"
+}

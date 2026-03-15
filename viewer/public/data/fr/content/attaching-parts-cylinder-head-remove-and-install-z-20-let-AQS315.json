@@ -1,0 +1,326 @@
+{
+  "title": "Attacher les pièces, Culasse, Déposer et Reposer\n(Z 20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer la culasse sur l'établi et la soutenir en toute sécurité",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser un support de révision disponible dans le commerce"
+            }
+          ],
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le carter de distribution du liquide de refroidissement (1) de la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 3x vis (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer, puis jeter le joint d'étanchéité"
+            },
+            {
+              "bullet": "•",
+              "text": "Nettoyer les surfaces d'assemblage"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0d651ed88950.jpg",
+            "alt": "Object Number: 2422644  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Déposer l'œillet de levage (1) de la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer la vis (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/bdc74e41cf99.jpg",
+            "alt": "Object Number: 2422645  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Déposer le boîtier de thermostat (1) de la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x vis (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer, puis jeter le joint torique"
+            },
+            {
+              "bullet": "•",
+              "text": "Nettoyer les surfaces d'assemblage"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/96664cbad5db.jpg",
+            "alt": "Object Number: 2422646  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Déposer le capteur de position d'arbre à cames (1) de la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer la vis (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/05c8f7251a73.jpg",
+            "alt": "Object Number: 2422647  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Déposer le carter de dérivation du liquide de refroidissement (1) de la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x vis (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer, puis jeter le joint torique"
+            },
+            {
+              "bullet": "•",
+              "text": "Nettoyer les surfaces d'assemblage"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d04ffb09e1c9.jpg",
+            "alt": "Object Number: 2422648  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 6
+        },
+        {
+          "text": "Déposer les 4 bougies d'allumage de la culasse",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Déposer les 16 poussoirs hydrauliques de soupape de la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser KM-845"
+            },
+            {
+              "bullet": "•",
+              "text": "Déplacer les 16 poussoirs hydrauliques de soupape sur un côté lors de l'installation"
+            },
+            {
+              "bullet": "•",
+              "text": "Nettoyer toutes les pièces déposées"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b853f7b051fb.jpg",
+            "alt": "Object Number: 2422649  Size: DEFAULT"
+          },
+          "number": 8
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer les 16 poussoirs hydrauliques de soupape sur la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enduire les 16 poussoirs hydrauliques de soupape d'huile moteur"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Reposer les 4 bougies d'allumage sur la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer les 4 bougies d'allumage à 25 Nm"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Reposer le carter de dérivation du liquide de refroidissement avec un nouveau joint torique sur la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer, serrer 2x vis à 15 Nm"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Reposer le capteur de position d'arbre à cames sur la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer, serrer la vis à 6 Nm"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Reposer le boîtier de thermostat avec un nouveau joint torique sur la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer, serrer 2x vis à 15 Nm"
+            }
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Reposer l'œillet de levage sur la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer, serrer la vis à 20 Nm"
+            }
+          ],
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Reposer le carter de distribution du liquide de refroidissement avec un nouveau joint d'étanchéité sur la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer, puis serrer 2x vis M8 à 20"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer, puis serrer vis M10 à 30"
+            }
+          ],
+          "number": 15,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer les 4 bougies d'allumage sur la culasse",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Reposer le carter de dérivation du liquide de refroidissement avec un nouveau joint torique sur la culasse",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 11
+    },
+    {
+      "component": "Reposer le capteur de position d'arbre à cames sur la culasse",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Reposer le boîtier de thermostat avec un nouveau joint torique sur la culasse",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Reposer l'œillet de levage sur la culasse",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 14
+    },
+    {
+      "component": "Reposer le carter de distribution du liquide de refroidissement avec un nouveau joint d'étanchéité sur la culasse",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 15
+    },
+    {
+      "component": "Reposer le carter de distribution du liquide de refroidissement avec un nouveau joint d'étanchéité sur la culasse",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 15
+    },
+    {
+      "component": "Serrer les 4 bougies d'allumage à 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer, serrer 2x vis à 15 Nm",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer, serrer la vis à 6 Nm",
+      "value": "6",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer, serrer la vis à 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer, puis serrer vis M10 à 30 Nm",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-845"
+  ],
+  "type": "procedure",
+  "id": "attaching-parts-cylinder-head-remove-and-install-z-20-let-AQS315"
+}

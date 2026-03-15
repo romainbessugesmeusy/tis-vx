@@ -1,0 +1,30 @@
+{
+  "title": "Poignée Extérieure de Porte, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Poignée extérieure de porte – vis.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Poignée extérieure sur porte – vis.",
+          "number": 2,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "external-handle-door-remove-and-install-A26D1C"
+}

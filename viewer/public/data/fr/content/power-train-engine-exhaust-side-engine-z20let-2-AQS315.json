@@ -1,0 +1,15 @@
+{
+  "title": "Groupe motopropulseur - Moteur, côté échappement",
+  "components": [
+    {
+      "description": "Valve solénoïde - Régulation de pression de suralimentation",
+      "code": "Y8"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "power-train-engine-exhaust-side-engine-z20let-2-AQS315",
+  "diagram": {
+    "src": "/data/assets/99d1c4ef3b4d.cgm",
+    "type": "cgm"
+  }
+}

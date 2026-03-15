@@ -1,0 +1,86 @@
+{
+  "title": "Vérification de la pression d'huile",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Pressostat d'huile – voir l'opération «Déposer et Reposer le Pressostat d'huile».",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Enregistreur de pression d'huile et adaptateur du carter de filtre à huile.",
+          "image": {
+            "src": "/data/assets/images/8e640d389a2f.jpg",
+            "alt": "Object Number: 2429834  Size: DEFAULT"
+          },
+          "number": 6
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Adaptateur KM-6106 au carter de filtre à huile.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Enregistreur de pression d'huile KM-498-B à l'adaptateur KM-6106 .",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Pressostat d'huile – 18 Nm .",
+          "number": 7,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    },
+    {
+      "label": "Inspecter",
+      "steps": [
+        {
+          "text": "Niveau d'huile moteur, corriger si nécessaire.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Spécification de pression d'huile 4.0 – 5.6 bar moteur au ralenti et à température de fonctionnement.",
+          "number": 5,
+          "image": null
+        }
+      ],
+      "phase": "inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif"
+    },
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Pressostat d'huile – 18 Nm .",
+      "value": "18",
+      "unit": "Nm",
+      "stepRef": 7
+    }
+  ],
+  "type": "procedure",
+  "id": "oil-pressure-check-A26D1C"
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Compartiment passager - Sous le tableau de bord, côté conducteur",
+  "components": [
+    {
+      "description": "Relais - Antibrouillard avant",
+      "code": "K4"
+    },
+    {
+      "description": "Relais - Feu de stationnement",
+      "code": "K20"
+    },
+    {
+      "description": "Relais - Antibrouillard arrière",
+      "code": "K5"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "passenger-compartment-under-instrument-panel-driver-side-AQS315",
+  "diagram": {
+    "src": "/data/assets/738f8c732fca.cgm",
+    "type": "cgm"
+  }
+}

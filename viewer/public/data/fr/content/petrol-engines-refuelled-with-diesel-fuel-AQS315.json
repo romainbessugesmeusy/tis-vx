@@ -1,0 +1,64 @@
+{
+  "title": "Field Remedy: 1637",
+  "subject": "Moteurs à essence - Ravitaillés avec du carburant diesel",
+  "complaint": "Les plaintes suivantes pourraient survenir dans l'un ou plusieurs d'entre eux : - Cassure de la couronne supérieure du piston (côté admission) - Mauvais fonctionnement du moteur surtout après un démarrage à froid et une conduite à froid - Bruit de cliquetis (parfois le code de panne P030X est enregistré) - Convertisseur catalytique fondu comme dommage consécutif - Niveau d'huile augmenté (dilution de l'huile)",
+  "cause": "Véhicule avec moteur à essence ravitaillé avec du carburant diesel.",
+  "production": "Non affectée",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "L'image I (voir flèche) et l'image II (voir flèche) montrent le type de défaillance typique (couronne supérieure du piston cassée)."
+    },
+    {
+      "type": "text",
+      "text": "Si la défaillance décrite est détectée, l'utilisation du carburant correct doit être vérifiée. Un échantillon de carburant et d'huile moteur doit être analysé pour la contamination au diesel. Les flacons d'essai nécessaires pour les échantillons peuvent être demandés à TAC/ETAC sous le numéro de pièce spécial S-10571-(flacon d'essai 500ml)."
+    },
+    {
+      "type": "text",
+      "text": "Remarque : Les pièces spéciales peuvent être commandées via l'adresse e-mail \"etac-special-parts@de.gm.com\"."
+    },
+    {
+      "type": "paragraph",
+      "text": "Les informations suivantes sont obligatoires :"
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "numéro du concessionnaire",
+        "plage de VIN affectée",
+        "numéro de pièce spécial (S-XXXXX)",
+        "quantité de pièces spéciales",
+        "personne de contact",
+        "numéro de téléphone",
+        "adresse de livraison complète"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "De plus, le col de remplissage de carburant doit être vérifié pour tout dommage (l'utilisation d'une buse diesel élargit le diamètre du col de remplissage de carburant).\nEn cas de ravitaillement diesel sur des véhicules avec moteur à essence, tout le système de carburant doit être vidangé et rincé."
+    },
+    {
+      "type": "text",
+      "text": "Remarque : Les coûts de garantie ne doivent pas être réclamés au titre de la garantie si du diesel est trouvé."
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/92cb27361e5d.jpg",
+      "alt": "Numéro d'objet : 2435196  Taille : PAR DÉFAUT"
+    },
+    {
+      "src": "/data/assets/images/2f09a049fb2d.jpg",
+      "alt": "Numéro d'objet : 2435197  Taille : PAR DÉFAUT"
+    }
+  ],
+  "type": "tsb",
+  "id": "petrol-engines-refuelled-with-diesel-fuel-AQS315",
+  "metadata": {
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "19 - Poor Engine Driveability",
+    "troubleCode": "None,P030X",
+    "models": null,
+    "engines": null
+  }
+}

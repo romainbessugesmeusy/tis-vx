@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Vis de fixation du plateau de pression de l'embrayage au volant moteur",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-k-A26D1C",
+      "group": "K",
+      "value": "15",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis centrale de libération aux boulons de transmission",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-k-A26D1C",
+      "group": "K",
+      "value": "5",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis M7 x 1.0 du couvercle de protection de l'extrémité à la transmission",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-k-A26D1C",
+      "group": "K",
+      "value": "15",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis M8 x 1.25 du couvercle de protection de l'extrémité à la transmission",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-k-A26D1C",
+      "group": "K",
+      "value": "20",
+      "unit": "Nm"
+    },
+    {
+      "component": "Bouchon de vidange du liquide",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-k-A26D1C",
+      "group": "K",
+      "value": "35",
+      "unit": "Nm"
+    },
+    {
+      "component": "Bouchon de remplissage du liquide",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-k-A26D1C",
+      "group": "K",
+      "value": "35",
+      "unit": "Nm"
+    },
+    {
+      "component": "Bouchon de niveau du liquide",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-k-A26D1C",
+      "group": "K",
+      "value": "35",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de support du bloc d'amortissement du moteur gauche à la transmission",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-k-A26D1C",
+      "group": "K",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons du bloc d'amortissement du moteur gauche au support du moteur",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-k-A26D1C",
+      "group": "K",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Écrous du maître-cylindre au support",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-k-A26D1C",
+      "group": "K",
+      "value": "20",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons du carter d'huile à la transmission",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-k-A26D1C",
+      "group": "K",
+      "value": "40",
+      "unit": "Nm"
+    },
+    {
+      "component": "Union de libération centrale aux boulons de pression",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-k-A26D1C",
+      "group": "K",
+      "value": "14",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons du plateau de pression",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-k-A26D1C",
+      "group": "K",
+      "value": "15",
+      "unit": "Nm"
+    },
+    {
+      "component": "Interrupteur de feu de recul",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-k-A26D1C",
+      "group": "K",
+      "value": "20",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons du bloc d'amortissement du moteur droit au support du moteur",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-k-A26D1C",
+      "group": "K",
+      "value": "85",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de la transmission au moteur",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-k-A26D1C",
+      "group": "K",
+      "value": "60",
+      "unit": "Nm"
+    },
+    {
+      "component": "Filtre à carburant au tablier, boulon",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-l-A26D1C",
+      "group": "L",
+      "value": "9",
+      "unit": "Nm"
+    },
+    {
+      "component": "Clips de conduite de carburant au tablier, boulons",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-l-A26D1C",
+      "group": "L",
+      "value": "9",
+      "unit": "Nm"
+    },
+    {
+      "component": "Réservoir de carburant au véhicule, boulons",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-l-A26D1C",
+      "group": "L",
+      "value": "25",
+      "unit": "Nm"
+    },
+    {
+      "component": "Panneau de cisaillement du réservoir de carburant, boulons",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-l-A26D1C",
+      "group": "L",
+      "value": "25",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulon de montage inférieur de la colonne de direction",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-m-A26D1C",
+      "group": "M",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulon de serrage de la colonne de direction",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-m-A26D1C",
+      "group": "M",
+      "value": "35",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de montage supérieurs de la colonne de direction",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-m-A26D1C",
+      "group": "M",
+      "value": "25",
+      "unit": "Nm"
+    },
+    {
+      "component": "Écrou de l'ensemble volant de direction à la colonne de direction",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-m-A26D1C",
+      "group": "M",
+      "value": "25",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de roue",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-m-A26D1C",
+      "group": "M",
+      "value": "90",
+      "unit": "Nm"
+    },
+    {
+      "component": "Enduire le filetage du commutateur avec un scellant de surface (vert) et visser le commutateur dans la transmission - 20 Nm.",
+      "sourcePage": "remplacement-et-installation-de-l'interrupteur-de-feu-de-recul-A26D1C",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 4
+    },
+    {
+      "component": "Tendeur de courroie striée (1) - boulon 45 Nm .",
+      "sourcePage": "remplacement-et-installation-du-tendeur-de-courroie-striée-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 3
+    },
+    {
+      "component": "Assembler complètement la couronne de transmission (2) sur le différentiel (1)",
+      "sourcePage": "remplacement-de-la-couronne-de-transmission-du-différentiel-A26D1C",
+      "value": "99",
+      "unit": "Nm",
+      "stepRef": 19
+    },
+    {
+      "component": "Installer 10x boulon (fléché) 99 Nm - Enduire 10x boulon de composé de blocage",
+      "sourcePage": "remplacement-de-la-couronne-de-transmission-du-différentiel-A26D1C",
+      "value": "99",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer la roue sur le véhicule",
+      "sourcePage": "dépose-et-installation-de-la-roue-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Installer le boulon de sécurité 90 Nm sur la roue",
+      "sourcePage": "dépose-et-installation-de-la-roue-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Installer 4x boulon de roue 90 Nm",
+      "sourcePage": "dépose-et-installation-de-la-roue-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Lors du serrage des colliers de durite, veiller attentivement à respecter le couple de serrage de 3,5 Nm. Remarque : Il ne peut être garanti que le système d'admission est étanche et fonctionnera de manière sûre et fiable que si les colliers de durite sont serrés au couple de serrage spécifié.",
+      "sourcePage": "schéma-de-circulation-d'air-A26D1C",
+      "value": "5",
+      "unit": "Nm",
+      "stepRef": 2
+    },
+    {
+      "component": "Installer 2x rail de siège sur le siège",
+      "sourcePage": "remplacement-du-rail-de-siège-côté-conducteur-A26D1C",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 4
+    },
+    {
+      "component": "Positionner le siège vers l'avant",
+      "sourcePage": "remplacement-du-rail-de-siège-côté-conducteur-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Positionner le siège vers l'arrière",
+      "sourcePage": "remplacement-du-rail-de-siège-côté-conducteur-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Serrer 2x écrou (3) 15 Nm",
+      "sourcePage": "remplacement-du-rail-de-siège-côté-conducteur-A26D1C",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 2x boulon 25 Nm",
+      "sourcePage": "remplacement-du-rail-de-siège-côté-conducteur-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer le panneau de cisaillement sur le véhicule",
+      "sourcePage": "remplacement-du-panneau-de-cisaillement-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Fixer le panneau de cisaillement au support du bloc d'amortissement",
+      "sourcePage": "remplacement-du-panneau-de-cisaillement-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 11
+    },
+    {
+      "component": "Fixer le panneau de cisaillement au support de suspension côté gauche et côté droit",
+      "sourcePage": "remplacement-du-panneau-de-cisaillement-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Installer, puis serrer 8x boulon, 3x écrou, 11x rondelle 25 Nm",
+      "sourcePage": "remplacement-du-panneau-de-cisaillement-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer, puis serrer 4x boulon, 4x écrou, 8x rondelle 45 Nm",
+      "sourcePage": "remplacement-du-panneau-de-cisaillement-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer 5x boulon 25 Nm sur l'ensemble du mécanisme de changement de vitesse",
+      "sourcePage": "dépose-et-installation-de-l'ensemble-du-mécanisme-de-changement-de-vitesse-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Installer le boulon (2) 25 Nm sur l'ensemble du mécanisme de changement de vitesse",
+      "sourcePage": "dépose-et-installation-de-l'ensemble-du-mécanisme-de-changement-de-vitesse-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 14
+    },
+    {
+      "component": "Amortisseur sur support sur châssis - boulon, écrou 45 Nm , rondelles.",
+      "sourcePage": "remplacement-et-installation-de-l'amortisseur-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Roue arrière sur véhicule - boulons 90 Nm .",
+      "sourcePage": "remplacement-et-installation-de-l'amortisseur-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Amortisseur sur triangle de suspension inférieur - boulon, écrou (1) 45 Nm , rondelles.",
+      "sourcePage": "remplacement-et-installation-de-l'amortisseur-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Fixer l'amortisseur au triangle de suspension inférieur",
+      "sourcePage": "remplacement-de-l'amortisseur-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Fixer l'amortisseur au châssis",
+      "sourcePage": "remplacement-de-l'amortisseur-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 11
+    }
+  ]
+}

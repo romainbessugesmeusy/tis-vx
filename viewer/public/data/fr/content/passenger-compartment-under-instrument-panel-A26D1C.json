@@ -1,0 +1,23 @@
+{
+  "title": "Compartiment passager - Sous le tableau de bord",
+  "components": [
+    {
+      "description": "Relais - Essuie-glace, pare-brise (Étape 1/Intervalle)",
+      "code": "K10"
+    },
+    {
+      "description": "Relais - Alimentation de secours, verrouillage central des portes",
+      "code": "K104"
+    },
+    {
+      "description": "Centrale clignotante",
+      "code": "K31"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "passenger-compartment-under-instrument-panel-A26D1C",
+  "diagram": {
+    "src": "/data/assets/2268b37766b9.cgm",
+    "type": "cgm"
+  }
+}

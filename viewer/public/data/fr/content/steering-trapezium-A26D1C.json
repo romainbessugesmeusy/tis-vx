@@ -1,0 +1,7 @@
+{
+  "title": "Direction trapèze",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\n  </table>\n  \n  <!--/XPRINT-->\n  <tr>\n    <td >\n<p class=\"title\">Direction trapèze</p>\n\n<p>Le trapèze de direction montre comment les différents angles de direction sont formés lors des virages. Un trapèze bien réglé empêche les roues de patiner.</p>\n\n<p>L'essieu avant, les bras de commande et les biellettes forment le trapèze de direction.</p>\n\n<p>En position de ligne droite, les biellettes sont parallèles à l'essieu avant.</p>\n\n<p>Lors des virages, les fusées doivent être déviées. Les fusées et les bras de commande ne sont pas disposés à des angles de 90°. En raison de cette disposition, les biellettes ne sont plus parallèles à l'essieu avant lorsque les fusées sont déviées. Cela entraîne un déplacement inégal aux extrémités des deux bras de commande, ce qui conduit à ce que les roues soient à des angles différents (voir également la variation de carrossage).</p>\n</td>\n  </tr>\n  \n  <tr>\n    <td ></td>\n  </tr>\n</table>\n</div>",
+  "type": "generic",
+  "id": "steering-trapezium-A26D1C",
+  "extractedData": {}
+}

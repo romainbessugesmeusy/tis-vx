@@ -1,0 +1,70 @@
+{
+  "title": "Déposer et reposer le stabilisateur A26D1C",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Déposer et reposer le stabilisateur",
+          "number": 1,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    },
+    {
+      "label": "Déposer, Débrancher",
+      "steps": [
+        {
+          "text": "Les liaisons de la barre stabilisatrice et du triangle inférieur - écrous.",
+          "image": {
+            "src": "/data/assets/images/9933fd035561.jpg",
+            "alt": "Object Number: 2429681  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "La barre stabilisatrice avec silentblocs du châssis - vis, rondelles, agrafes, supports et entretoises.",
+          "image": {
+            "src": "/data/assets/images/ea37b379f21b.jpg",
+            "alt": "Object Number: 2429682  Size: DEFAULT"
+          },
+          "number": 3
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/4b8970d41392.jpg"
+    },
+    {
+      "label": "Reposer, Brancher",
+      "steps": [
+        {
+          "text": "La barre stabilisatrice avec silentblocs au châssis - entretoises, agrafes, 8 vis 25 Nm, rondelles.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Les liaisons à la barre stabilisatrice et au triangle inférieur - écrous.",
+          "image": {
+            "src": "/data/assets/images/9933fd035561.jpg",
+            "alt": "Object Number: 2429681  Size: DEFAULT"
+          },
+          "number": 5
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/57d894c25c39.jpg"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "La barre stabilisatrice avec silentblocs au châssis - entretoises, agrafes, 8 vis 25 Nm, rondelles.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 4
+    }
+  ],
+  "type": "procedure",
+  "id": "stabiliser-remove-and-install-A26D1C"
+}

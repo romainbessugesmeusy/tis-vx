@@ -1,0 +1,41 @@
+{
+  "title": "Signal de double position de pédale, Tous les moteurs essence (MY 2002, MY 2003 et MY 2004)",
+  "steps": [
+    {
+      "text": "Télécharger la courbe de référence.",
+      "number": 1
+    },
+    {
+      "text": "Mettre le contact.",
+      "number": 2
+    },
+    {
+      "text": "Déprimer rapidement la pédale d'accélérateur jusqu'à la butée, la maintenir enfoncée pendant environ une demi-seconde, puis la relâcher.",
+      "number": 3
+    },
+    {
+      "text": "Télécharger le fichier de configuration (le Tech 32 n'utilise que des fichiers de configuration, pas de courbes de référence).",
+      "number": 1
+    },
+    {
+      "text": "Mettre le contact.",
+      "number": 2
+    },
+    {
+      "text": "Déprimer rapidement la pédale d'accélérateur jusqu'à la butée, la maintenir enfoncée pendant environ une demi-seconde, puis la relâcher.",
+      "number": 3
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/c349b60b0226.jpg",
+      "alt": "Numéro d'objet : 2419088  Taille : DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/1c0ed99dd739.jpg",
+      "alt": "Numéro d'objet : 2419089  Taille : DEFAULT"
+    }
+  ],
+  "type": "diagnostic",
+  "id": "pedal-position-double-signal-all-petrol-my-2002-my-2003-and--AQS315"
+}

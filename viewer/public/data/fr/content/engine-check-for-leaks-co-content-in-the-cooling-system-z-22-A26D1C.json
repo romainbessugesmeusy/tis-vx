@@ -1,0 +1,36 @@
+{
+  "title": "Moteur, Vérifier les Fuites (Teneur en CO dans le système de refroidissement) (Z 22 SE, Z 20 LET)",
+  "phases": [
+    {
+      "label": "Reposer/Poser",
+      "steps": [
+        {
+          "text": "Moteur à température de fonctionnement (température d'huile minimale de 80 °C).",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Avec le moteur en marche, placer le testeur sur le réservoir de liquide de refroidissement.",
+          "number": 2,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    },
+    {
+      "label": "Inspecter",
+      "steps": [
+        {
+          "text": "Actionner le soufflet en caoutchouc pour extraire l'air du réservoir de liquide de refroidissement. Aucun liquide de refroidissement ne doit être aspiré dans le testeur. Si le liquide bleu dans la chambre supérieure du testeur devient jaune, alors la joint de culasse ou la culasse n'est pas étanche.",
+          "number": 3,
+          "image": null
+        }
+      ],
+      "phase": "inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "engine-check-for-leaks-co-content-in-the-cooling-system-z-22-A26D1C"
+}

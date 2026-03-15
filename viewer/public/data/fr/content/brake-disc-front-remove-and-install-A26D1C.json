@@ -1,0 +1,73 @@
+{
+  "title": "Disque de frein avant, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Nettoyer",
+      "steps": [
+        {
+          "text": "Roue du véhicule – vis.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Étrier de frein du porte-moyeu – deux vis.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Disque de frein du moyeu de roue – une vis.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Surface d'appui entre le disque de frein et le moyeu de roue.",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "clean",
+      "icon": "/data/assets/images/d9fe69774efb.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Disque de frein sur le moyeu de roue – une vis.",
+          "image": {
+            "src": "/data/assets/images/4abf1551781a.jpg",
+            "alt": "Object Number: 2429421  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Étrier de frein sur le porte-moyeu – deux vis.",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Roue sur le véhicule – vis 90 Nm .",
+          "number": 7,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Roue sur le véhicule – vis 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 7
+    }
+  ],
+  "type": "procedure",
+  "id": "brake-disc-front-remove-and-install-A26D1C"
+}

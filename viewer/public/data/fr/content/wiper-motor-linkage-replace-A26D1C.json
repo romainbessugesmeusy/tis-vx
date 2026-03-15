@@ -1,0 +1,275 @@
+{
+  "title": "Remplacer la Liaison du Moteur d'Essuie-glace",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Débrancher le connecteur du faisceau de la pompe de lave-glace",
+          "image": {
+            "src": "/data/assets/images/b3070d1821c0.jpg",
+            "alt": "Object Number: 2429427  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer le réservoir de lave-glace du support et le positionner sur le côté",
+          "image": {
+            "src": "/data/assets/images/b3070d1821c0.jpg",
+            "alt": "Object Number: 2429427  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Déconnecter la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'écrou"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/109869f7b46c.jpg",
+            "alt": "Object Number: 2429428  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Déposer le couvercle du moteur d'essuie-glace du tablier avant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer les 2 vis"
+            }
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Débrancher le connecteur du faisceau du moteur d'essuie-glace Remarque : Identifier la position de la liaison du moteur d'essuie-glace pour faciliter l'installation",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Déconnecter la liaison du moteur d'essuie-glace",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer l'écrou"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Retirer le moteur d'essuie-glace du support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer les 3 vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b9cde5353046.jpg",
+            "alt": "Object Number: 2429737  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Retirer le bras d'essuie-glace de l'arbre d'entraînement cannelé",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer le cache, la vis, la rondelle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c2876c2d94f6.jpg",
+            "alt": "Object Number: 2429735  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Déposer l'ensemble de verrouillage du capot avant du support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer les 2 boulons, les 2 rondelles"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/4149b42595a9.jpg",
+            "alt": "Object Number: 2429736  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Débrancher le connecteur du faisceau de l'interrupteur anti-vol du couvercle avant",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Retirer l'interrupteur anti-vol du couvercle avant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer les 2 agrafes"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Déposer le tuyau de lave-glace du support et le déplacer sur le côté",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer l'agrafe et le T-piece"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Retirer l'ensemble de liaison d'essuie-glace du tablier du véhicule",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer les 3 boulons"
+            }
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Reposer l'ensemble de liaison d'essuie-glace sur le tablier du véhicule",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "S'assurer que l'ensemble de liaison d'essuie-glace est installé à la position notée pendant"
+            },
+            {
+              "bullet": "•",
+              "text": "Serrer les 3 boulons"
+            }
+          ],
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Reposer le tuyau de lave-glace sur le support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer le T-piece, l'agrafe"
+            }
+          ],
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Reposer l'interrupteur anti-vol du couvercle avant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 agrafes"
+            }
+          ],
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Connecter le connecteur du faisceau à l'interrupteur anti-vol du couvercle avant",
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Reposer l'ensemble de verrouillage du capot avant sur le support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 2 rondelles et 2 boulons"
+            }
+          ],
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "Reposer le bras d'essuie-glace à la position de balayage correcte sur l'arbre d'entraînement cannelé",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer la vis et le cache"
+            }
+          ],
+          "number": 19,
+          "image": null
+        },
+        {
+          "text": "Reposer le moteur d'essuie-glace sur le support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Nettoyer le filetage des 3 vis et appliquer du frein filet"
+            },
+            {
+              "bullet": "•",
+              "text": "Serrer les 3 vis"
+            }
+          ],
+          "number": 20,
+          "image": null
+        },
+        {
+          "text": "Connecter le connecteur du faisceau au moteur d'essuie-glace",
+          "number": 21,
+          "image": null
+        },
+        {
+          "text": "Reposer le couvercle du moteur d'essuie-glace sur le tablier avant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer les 2 vis"
+            }
+          ],
+          "number": 22,
+          "image": null
+        },
+        {
+          "text": "Reconnecter la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer l'écrou"
+            }
+          ],
+          "number": 23,
+          "image": null
+        },
+        {
+          "text": "Fixer le réservoir de lave-glace sur le support",
+          "number": 24,
+          "image": null
+        },
+        {
+          "text": "Connecter le connecteur du faisceau à la pompe de lave-glace",
+          "number": 25,
+          "image": null
+        },
+        {
+          "text": "Reprogrammer toutes les mémoires volatiles",
+          "number": 26,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "notes": [
+    "Débrancher le connecteur du faisceau du moteur d'essuie-glace\n Identifier la position\nde la liaison du moteur d'essuie-glace pour faciliter l'installation"
+  ],
+  "type": "procedure",
+  "id": "wiper-motor-linkage-replace-A26D1C"
+}

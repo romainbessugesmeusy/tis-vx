@@ -1,0 +1,49 @@
+{
+  "title": "Soupape de Recirculation des Gaz d'Échappement, Z22SE (MY 2002, MY 2003 et MY 2004)",
+  "steps": [
+    {
+      "text": "Télécharger la courbe de référence.",
+      "number": 1
+    },
+    {
+      "text": "Pour ce test, il est nécessaire de conduire le véhicule.",
+      "number": 2
+    },
+    {
+      "text": "Démarrer le moteur et conduire le véhicule lentement en première vitesse (Transmission Automatique en 1).",
+      "number": 3
+    },
+    {
+      "text": "Alterner la vitesse du moteur entre 1500 et 2500 tr/min en charge partielle pour permettre à la soupape de recirculation des gaz d'échappement d'être actionnée.",
+      "number": 4
+    },
+    {
+      "text": "Télécharger le fichier de configuration (le Tech 32 n'utilise que des fichiers de configuration, pas de courbes de référence).",
+      "number": 1
+    },
+    {
+      "text": "Pour ce test, il est nécessaire de conduire le véhicule.",
+      "number": 2
+    },
+    {
+      "text": "Démarrer le moteur et conduire le véhicule lentement en première vitesse (Transmission Automatique en 1).",
+      "number": 3
+    },
+    {
+      "text": "Alterner la vitesse du moteur entre 1500 et 2500 tr/min en charge partielle pour permettre à la soupape de recirculation des gaz d'échappement d'être actionnée.",
+      "number": 4
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/2bee55b2e94d.jpg",
+      "alt": "Numéro d'objet : 2419110  Taille : DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/695af475e495.jpg",
+      "alt": "Numéro d'objet : 2419111  Taille : DEFAULT"
+    }
+  ],
+  "type": "diagnostic",
+  "id": "exhaust-gas-recirculation-valve-z22se-my-2002-my-2003-and-my-A26D1C"
+}

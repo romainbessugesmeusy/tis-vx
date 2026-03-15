@@ -1,0 +1,119 @@
+{
+  "title": "Haut-parleur, Avant, Remplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer la plaque de marchepied (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer la vis, 2x agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ef8768646ead.jpg",
+            "alt": "Object Number: 2422233  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 1
+        },
+        {
+          "text": "Déposer le panneau de garniture (1) avec le haut-parleur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x agrafe"
+            },
+            {
+              "bullet": "•",
+              "text": "Libérer l'agrafe intégrée"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ef8768646ead.jpg",
+            "alt": "Object Number: 2422233  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Libérer le haut-parleur (1) du panneau de garniture",
+          "image": {
+            "src": "/data/assets/images/8bbb1984f017.jpg",
+            "alt": "Object Number: 2422234  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Fixer le nouveau haut-parleur (1) au panneau de garniture",
+          "image": {
+            "src": "/data/assets/images/8bbb1984f017.jpg",
+            "alt": "Object Number: 2422234  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Reposer le panneau de garniture (1) avec le haut-parleur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe intégrée"
+            },
+            {
+              "bullet": "•",
+              "text": "Reposer 2x agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ef8768646ead.jpg",
+            "alt": "Object Number: 2422233  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Reposer la plaque de marchepied (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer la vis, 2x agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ef8768646ead.jpg",
+            "alt": "Object Number: 2422233  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 6
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "loudspeaker-front-replace-AQS315"
+}

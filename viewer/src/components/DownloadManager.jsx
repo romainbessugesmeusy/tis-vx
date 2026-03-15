@@ -36,30 +36,33 @@ function getSlugsUnderRoot(rootId, tree) {
   return [...slugs]
 }
 
-function buildSections(manifest) {
+function buildSections(manifest, language = 'en') {
   const tree = manifest?.tree
   const roots = tree?.roots || []
   const nodes = tree?.nodes || {}
   if (!roots.length || !nodes) return []
 
+  const base = language === 'en' ? '/data' : `/data/${language}`
   return roots
     .filter((id) => isValidRootFolder(nodes[id]))
     .map((rootId) => {
       const node = nodes[rootId]
       const title = node?.title || rootId
       const slugs = getSlugsUnderRoot(rootId, tree)
-      const urls = slugs.flatMap((s) => [`/data/content/${s}.json`, `/data/content/${s}.html`])
+      const urls = slugs.flatMap((s) => [`${base}/content/${s}.json`, `${base}/content/${s}.html`])
       return { rootId, title, slugs, urls }
     })
 }
 
-// Reference pages (Tools, Torque, Pictograms, Glossary)
-const PAGE_ITEMS = [
-  { rootId: '_ref_tools', title: 'Tools', urls: ['/data/references/tools.json'] },
-  { rootId: '_ref_torque', title: 'Torque', urls: ['/data/references/torque-values.json'] },
-  { rootId: '_ref_pictograms', title: 'Pictograms', urls: ['/data/references/pictograms.json'] },
-  { rootId: '_ref_glossary', title: 'Glossary', urls: ['/data/references/glossary.json'] },
-]
+function getPageItems(language = 'en') {
+  const base = language === 'en' ? '/data' : `/data/${language}`
+  return [
+    { rootId: '_ref_tools', title: 'Tools', urls: [`${base}/references/tools.json`] },
+    { rootId: '_ref_torque', title: 'Torque', urls: [`${base}/references/torque-values.json`] },
+    { rootId: '_ref_pictograms', title: 'Pictograms', urls: [`${base}/references/pictograms.json`] },
+    { rootId: '_ref_glossary', title: 'Glossary', urls: [`${base}/references/glossary.json`] },
+  ]
+}
 
 const EPC_CORE_URLS = ['/data/epc/parts.json', '/data/epc/hotspots/_index.json']
 
@@ -173,7 +176,7 @@ function buildEpcItems(partsData) {
   }
 }
 
-export default function DownloadManager({ manifest }) {
+export default function DownloadManager({ manifest, language = 'en' }) {
   const { isOnline } = useOffline()
   const [storage, setStorage] = useState({ usage: 0, quota: 0 })
   const [downloading, setDownloading] = useState({}) // { [rootId]: { done, total } }
@@ -183,14 +186,16 @@ export default function DownloadManager({ manifest }) {
   const [expandedPanels, setExpandedPanels] = useState({ pages: true, epc: true, manual: true })
   const [epcPartsData, setEpcPartsData] = useState(null)
 
+  const pageItems = useMemo(() => getPageItems(language), [language])
+
   const manualSections = useMemo(
-    () => (manifest ? buildSections(manifest) : []),
-    [manifest]
+    () => (manifest ? buildSections(manifest, language) : []),
+    [manifest, language]
   )
   const epcItems = useMemo(() => buildEpcItems(epcPartsData), [epcPartsData])
   const allItems = useMemo(
     () => [
-      ...PAGE_ITEMS,
+      ...pageItems,
       epcItems.core,
       ...epcItems.groups,
       ...manualSections,
@@ -421,7 +426,7 @@ export default function DownloadManager({ manifest }) {
           </button>
           {expandedPanels.pages && (
             <ul className="download-manager-list">
-              {PAGE_ITEMS.map((item) => renderItem(item))}
+              {pageItems.map((item) => renderItem(item))}
             </ul>
           )}
         </div>

@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Tightening torque 21 Nm",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 100 Nm + 75° + 15°",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 22 Nm",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 43 Nm",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 50 Nm",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "engine-repair-using-short-block-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the exhaust manifold.",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": 21,
+      "sourcePage": "exhaust-manifold-gasket-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the front exhaust pipe.",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": 23,
+      "sourcePage": "exhaust-manifold-gasket-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tighten the rear left–hand wheel.",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 30,
+      "sourcePage": "exhaust-manifold-gasket-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the upper heat shield.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 31,
+      "sourcePage": "exhaust-manifold-gasket-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the lower heat shield.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 32,
+      "sourcePage": "exhaust-manifold-gasket-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 34,
+      "sourcePage": "exhaust-manifold-gasket-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the fuel line bracket.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 36,
+      "sourcePage": "exhaust-manifold-gasket-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the ignition module.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 37,
+      "sourcePage": "exhaust-manifold-gasket-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Connect the fuel lines.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 38,
+      "sourcePage": "exhaust-manifold-gasket-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Connect the fuel lines.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 38,
+      "sourcePage": "exhaust-manifold-gasket-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the rear engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 39,
+      "sourcePage": "exhaust-manifold-gasket-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 12 Nm",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "exhaust-manifold-gasket-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 16 Nm",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "exhaust-manifold-gasket-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "exhaust-manifold-gasket-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "exhaust-manifold-gasket-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "exhaust-manifold-gasket-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "exhaust-manifold-gasket-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "exhaust-manifold-gasket-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "exhaust-manifold-gasket-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Flywheel to crankshaft – align the centring spigot, immobilise the flywheel with KM-652 , use new bolts, use 53 Nm + 25° to tighten the bolts evenly.",
+      "value": "53",
+      "unit": "Nm",
+      "stepRef": 4,
+      "sourcePage": "flywheel-remove-and-install-z-22-se-z-20-let-A26D1C"
+    },
+    {
+      "component": "Install front road wheel to vehicle",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 19,
+      "sourcePage": "fog-lamp-replace-A26D1C"
+    },
+    {
+      "component": "Install 4x bolt, install security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "fog-lamp-replace-A26D1C"
+    },
+    {
+      "component": "Front bonnet hinge to radiator case – 3 bolts (2) on each side to nuts (1) – 20 Nm .",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 4,
+      "sourcePage": "front-bonnet-hinge-replace-A26D1C"
+    },
+    {
+      "component": "Install front wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "front-wheel-arch-liner-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "front-wheel-arch-liner-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Tighten rear road wheel, right side",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 16,
+      "sourcePage": "fuel-evaporation-tank-replace-A26D1C"
+    },
+    {
+      "component": "Tighten 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "fuel-evaporation-tank-replace-A26D1C"
+    },
+    {
+      "component": "Fuel filter to bulkhead – bolt (1) 9 Nm .",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "fuel-filter-replace-A26D1C"
+    },
+    {
+      "component": "Fuel tank to vehicle – 4 bolts 25 Nm , washers.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 42,
+      "sourcePage": "fuel-tank-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Fuel lines to bulkhead – clips, bolts 9 Nm .",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 46,
+      "sourcePage": "fuel-tank-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Lower fixing bolts (1) for lower wishbone, left side, right side – 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 50,
+      "sourcePage": "fuel-tank-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Right rear wheel – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 61,
+      "sourcePage": "fuel-tank-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Fuel filter to bulkhead – bolt (1) 9 Nm .",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "fuel-tank-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Fuel tank lower panel (1) – 5 bolts, 3 nuts and bolts – 25 Nm .",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "fuel-tank-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install fuel tank to vehicle",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 23,
+      "sourcePage": "fuel-tank-sensor-replace-A26D1C"
+    },
+    {
+      "component": "Install fuel filter to bulkhead",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 28,
+      "sourcePage": "fuel-tank-sensor-replace-A26D1C"
+    },
+    {
+      "component": "Install fuel tank lower panel",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 29,
+      "sourcePage": "fuel-tank-sensor-replace-A26D1C"
+    },
+    {
+      "component": "Install fuel tank lower panel",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 29,
+      "sourcePage": "fuel-tank-sensor-replace-A26D1C"
+    },
+    {
+      "component": "Install 2x bolt to engine damping block 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 30,
+      "sourcePage": "fuel-tank-sensor-replace-A26D1C"
+    },
+    {
+      "component": "Install 2x bolt to lower wishbone mounting 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 31,
+      "sourcePage": "fuel-tank-sensor-replace-A26D1C"
+    },
+    {
+      "component": "Install 2x rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 34,
+      "sourcePage": "fuel-tank-sensor-replace-A26D1C"
+    },
+    {
+      "component": "Install 4x new bolt, 4x lock washer 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "fuel-tank-sensor-replace-A26D1C"
+    },
+    {
+      "component": "Secure bolt 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "fuel-tank-sensor-replace-A26D1C"
+    },
+    {
+      "component": "Install 3x bolt, 3x washer, 3x nut 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "fuel-tank-sensor-replace-A26D1C"
+    },
+    {
+      "component": "Secure 8x bolt, 2x security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "fuel-tank-sensor-replace-A26D1C"
+    }
+  ]
+}

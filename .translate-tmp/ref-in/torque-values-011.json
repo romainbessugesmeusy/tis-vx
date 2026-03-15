@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Tightening torque 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pan-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "To the cylinder block base plate – tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pan-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pan-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pan-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Oil pressure switch – 18 Nm .",
+      "value": "18",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "oil-pressure-check-A26D1C"
+    },
+    {
+      "component": "Oil pressure switch (1) to the oil filter housing – 18 Nm .",
+      "value": "18",
+      "unit": "Nm",
+      "stepRef": 3,
+      "sourcePage": "oil-pressure-switch-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Drain the engine oil.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 9,
+      "sourcePage": "oil-pump-overhaul-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the timing case. Note: Remove the cloth from the opening in the timing case.",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": 29,
+      "sourcePage": "oil-pump-overhaul-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the right–hand engine damping block.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 32,
+      "sourcePage": "oil-pump-overhaul-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the engine damping block bracket.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 33,
+      "sourcePage": "oil-pump-overhaul-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the rear engine damping block.",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": 34,
+      "sourcePage": "oil-pump-overhaul-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the bracket for the gearshift cables.",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 36,
+      "sourcePage": "oil-pump-overhaul-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the rotational vibration damper (2).",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": 37,
+      "sourcePage": "oil-pump-overhaul-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the ribbed V–belt tensioner. Note: The lug (1) of the ribbed V–belt tensioner engages into the bore in the timing case (2).",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": 38,
+      "sourcePage": "oil-pump-overhaul-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the front exhaust pipe.",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": 40,
+      "sourcePage": "oil-pump-overhaul-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the lower heat shield.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 43,
+      "sourcePage": "oil-pump-overhaul-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the rear engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 45,
+      "sourcePage": "oil-pump-overhaul-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-overhaul-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 21 Nm",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-overhaul-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-overhaul-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 85 Nm",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-overhaul-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 86 Nm",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-overhaul-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 22 Nm",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-overhaul-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 100 Nm + 75° + 15°",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-overhaul-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 43 Nm",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-overhaul-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 16 Nm",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-overhaul-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-overhaul-z-22-se-A26D1C"
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-overhaul-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the oil pump pressure control valve.",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "oil-pump-pressure-control-valve-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 65 Nm",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-pressure-control-valve-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Drain the engine oil.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 9,
+      "sourcePage": "oil-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the timing case. Note: Remove the cloth from the opening in the timing case.",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": 26,
+      "sourcePage": "oil-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the right–hand engine damping block.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 29,
+      "sourcePage": "oil-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the engine damping block bracket.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 30,
+      "sourcePage": "oil-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the rear engine damping block.",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": 31,
+      "sourcePage": "oil-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the bracket for the gearshift cables.",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 33,
+      "sourcePage": "oil-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the rotational vibration damper (2).",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": 34,
+      "sourcePage": "oil-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the ribbed V–belt tensioner. Note: The lug (1) of the ribbed V–belt tensioner engages into the bore in the timing case (2).",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": 35,
+      "sourcePage": "oil-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the front exhaust pipe.",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": 37,
+      "sourcePage": "oil-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the lower heat shield.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 40,
+      "sourcePage": "oil-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the rear engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 42,
+      "sourcePage": "oil-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 21 Nm",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 85 Nm",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 86 Nm",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 22 Nm",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 100 Nm + 75° + 15°",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 43 Nm",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 16 Nm",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "oil-pump-remove-and-install-z-22-se-A26D1C"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "title": "Remplacer le Système d'Échappement (Z22 SE)",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Élever le véhicule",
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer le cache sous le moteur (2) du tablier arrière et le cache sous le moteur (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 8x vis, 2x écrou, 2x agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Retirer le bouclier thermique inférieur (1) du collecteur d'échappement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 3x vis et agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3f486bb0106f.jpg",
+            "alt": "Object Number: 2425114  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Retirer le capteur d'oxygène (1) du système d'échappement",
+          "image": {
+            "src": "/data/assets/images/65a48b9fcc4f.jpg",
+            "alt": "Object Number: 2419053  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Retirer le capteur d'oxygène (1) du système d'échappement",
+          "image": {
+            "src": "/data/assets/images/5a2fff6802e4.jpg",
+            "alt": "Object Number: 2419054  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Retirer le tuyau d'échappement/le catalyseur du collecteur d'échappement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 6x écrou (1), 3x vis, joint"
+            },
+            {
+              "bullet": "•",
+              "text": "Dégager le montage en caoutchouc (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8b648c8f1091.jpg",
+            "alt": "Object Number: 2425116  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Retirer le tuyau d'échappement intermédiaire du silencieux arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 2x écrou, 2x rondelle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dad2d3b9abc4.jpg",
+            "alt": "Object Number: 2425118  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Retirer le support extérieur droit (1) du silencieux arrière et du châssis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 2x vis, 2x écrou"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/4ca900bd70d3.jpg",
+            "alt": "Object Number: 2425119  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 8
+        },
+        {
+          "text": "Dégager le support gauche (1) du silencieux arrière, puis retirer le silencieux arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 2x écrou"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8ad9dc84d5d9.jpg",
+            "alt": "Object Number: 2425120  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 9
+        },
+        {
+          "text": "Nettoyer toutes les faces de joint",
+          "image": {
+            "src": "/data/assets/images/8ad9dc84d5d9.jpg",
+            "alt": "Object Number: 2425120  Size: DEFAULT"
+          },
+          "number": 10
+        },
+        {
+          "text": "Reposer le silencieux arrière sur le support extérieur gauche",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 2x écrou"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Reposer le support extérieur droit sur le silencieux arrière et le châssis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 2x vis, 2x écrou"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Fixer les supports extérieurs droit et gauche",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer 2x vis, 4x écrou"
+            }
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Installer le tuyau d'échappement intermédiaire sur le silencieux arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 2x rondelle, 2x écrou"
+            }
+          ],
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Installer le tuyau d'échappement/le catalyseur sur le collecteur d'échappement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer le joint, 3x vis, 6x écrou"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer le montage en caoutchouc"
+            }
+          ],
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Installer les 2 capteurs d'oxygène sur le système d'échappement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer les 2 capteurs"
+            }
+          ],
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Installer le bouclier thermique inférieur sur le collecteur d'échappement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 3x vis et agrafe"
+            }
+          ],
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Installer le cache sous le moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 8x vis, 2x écrou, 2x agrafe"
+            }
+          ],
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 19,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "notes": [
+    "installer 2x écrou\n Pour faciliter l'assemblage,\ninstaller initialement le support droit et gauche dans un état lâche"
+  ],
+  "type": "procedure",
+  "id": "exhaust-system-replace-z22-se-A26D1C"
+}

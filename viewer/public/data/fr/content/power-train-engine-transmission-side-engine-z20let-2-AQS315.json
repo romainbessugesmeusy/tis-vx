@@ -1,0 +1,15 @@
+{
+  "title": "Groupe motopropulseur - Moteur, côté transmission",
+  "components": [
+    {
+      "description": "Démarreur",
+      "code": "M1"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "power-train-engine-transmission-side-engine-z20let-2-AQS315",
+  "diagram": {
+    "src": "/data/assets/69f9a5452e7e.cgm",
+    "type": "cgm"
+  }
+}

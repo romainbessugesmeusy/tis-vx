@@ -1,0 +1,7 @@
+{
+  "title": "Déport latéral",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Déport latéral</p>\n\n<table border=\"0\">\n<tr>\n<td valign=\"top\" width=\"95%\">\n<p>Le déport latéral est l'angle (2) entre la ligne de contact (1) des points de contact de la roue droite ou gauche de l'avant à l'arrière et l'axe de conduite géométrique (3).</p>\n\n<p>L'angle est positif si la roue avant est déportée vers l'intérieur par rapport à la roue arrière.</p>\n\n<p>Le déport latéral est généralement donné en degrés. Si l'empattement est connu, des données de longueur sont également possibles.</p>\n</td>\n<td valign=\"top\" align=\"right\"><!--SCDS Link: H2023.itf-->\n<img border=\"0\" width=\"360\" height=\"360\" alt=\n\"Numéro d'objet: 2400755  Taille: PAR DÉFAUT\" align=\"TOP\" src=\"/data/assets/images/b4e12ea528b7.jpg\">\n<br>\n<a href=\"javascript:TFormSubmit('AOY91JG91PH91','1','AOY91JG91PH91','detail')\">\n<img src=\"/data/assets/images/db1138827f57.gif\" alt=\n\"Cliquez ici pour une image détaillée de l'image ci-dessus\"></a>\n\n<br> </td>\n</tr>\n</table>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "type": "generic",
+  "id": "lateral-offset-AQS315",
+  "extractedData": {}
+}

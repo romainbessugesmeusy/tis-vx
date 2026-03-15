@@ -1,0 +1,68 @@
+{
+  "title": "Valeurs de Couple de Serrage Recommandées – Groupe F",
+  "group": "F",
+  "values": [
+    {
+      "component": "Vis de pivot avant du triangle inférieur au châssis",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulon de support d'amortisseur au support d'ancrage sur le châssis",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulon de pivot arrière de la biellette de commande de voie au triangle inférieur",
+      "value": "49",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons du triangle supérieur au châssis",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons du support de joint pivot supérieur au support de moyeu",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de roue",
+      "value": "90",
+      "unit": "Nm"
+    },
+    {
+      "component": "Biellette de commande de voie au support de moyeu",
+      "value": "65",
+      "unit": "Nm"
+    },
+    {
+      "component": "Arbre de transmission au moyeu de roue",
+      "value": "220",
+      "unit": "Nm"
+    },
+    {
+      "component": "Étrier de frein au support de moyeu",
+      "value": "48",
+      "unit": "Nm"
+    },
+    {
+      "component": "Disque de frein au support de moyeu",
+      "value": "12",
+      "unit": "Nm"
+    },
+    {
+      "component": "Triangle inférieur au support de moyeu",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Amortisseur au triangle inférieur",
+      "value": "45",
+      "unit": "Nm"
+    }
+  ],
+  "type": "torque_table",
+  "id": "recommended-torque-values-group-f-A26D1C"
+}

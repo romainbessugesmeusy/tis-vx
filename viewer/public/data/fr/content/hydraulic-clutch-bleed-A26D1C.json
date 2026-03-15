@@ -1,0 +1,179 @@
+{
+  "title": "Embrayage hydraulique, Purger",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Attention !",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Si du liquide s'est échappé de l'émetteur central ou de la conduite de pression pour l'émetteur central, le système d'embrayage hydraulique doit être purgé manuellement. Si aucun liquide n'a fui de l'émetteur central ou de la conduite de pression pour l'émetteur central, alors le système hydraulique peut être purgé avec un purgeur de frein.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Pendant la purge manuelle, l'équipement de pression ne doit pas être connecté.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Utiliser uniquement du liquide de frein DOT 4.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Retirer le bouchon du réservoir, puis remplir le réservoir de liquide d'embrayage au niveau maximum.",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Dévisser le bouchon de la vis de purge.",
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Embrayage hydraulique, Purge manuelle",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Durite de purge sur la vis de purge (1).",
+          "image": {
+            "src": "/data/assets/images/1509bfe603fa.jpg",
+            "alt": "Object Number: 2429757  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 8
+        },
+        {
+          "text": "Un deuxième mécanicien enfonce la pédale d'embrayage et la maintient dans cette position. Ouvrir la vis de purge (1) et laisser l'air/le liquide s'échapper dans un récipient, puis fermer la vis de purge et relâcher lentement la pédale d'embrayage jusqu'à la limite supérieure ou l'arrêt.",
+          "callouts": [
+            "1"
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Veiller à ce que le niveau de liquide ne descende pas en dessous du niveau \"MIN\" sur le réservoir, répéter la procédure environ 20 fois jusqu'à ce que du liquide exempt de bulles s'échappe dans le récipient.",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Fermer la vis et retirer la durite, serrer la vis – 9 Nm .",
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Embrayage hydraulique, Purge avec un appareil de purge de frein",
+          "image": {
+            "src": "/data/assets/images/1509bfe603fa.jpg",
+            "alt": "Object Number: 2429757  Size: DEFAULT"
+          },
+          "number": 12
+        },
+        {
+          "text": "Attention !",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Observer les instructions du fabricant avant de mettre l'appareil en service.",
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Relier l'appareil de purge au réservoir de liquide, puis ouvrir la vanne sur l'appareil de purge pour pressuriser le système d'embrayage.",
+          "image": {
+            "src": "/data/assets/images/1509bfe603fa.jpg",
+            "alt": "Object Number: 2429757  Size: DEFAULT"
+          },
+          "number": 15
+        },
+        {
+          "text": "Ouvrir la vis de purge (1) pour purger le système jusqu'à ce que du liquide clair exempt de bulles s'échappe.",
+          "callouts": [
+            "1"
+          ],
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Fermer la vanne et retirer la durite, serrer la vis – 9 Nm .",
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Bouchon sur la vis de purge.",
+          "number": 21,
+          "image": null
+        },
+        {
+          "text": "Bouchon sur le réservoir.",
+          "number": 22,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    },
+    {
+      "label": "Reposer",
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "label": "Inspecter",
+      "steps": [
+        {
+          "text": "Vérifier la pression d'actionnement de la pédale d'embrayage et la facilité de mouvement.",
+          "image": {
+            "src": "/data/assets/images/1509bfe603fa.jpg",
+            "alt": "Object Number: 2429757  Size: DEFAULT"
+          },
+          "number": 18
+        },
+        {
+          "text": "Vérifier le passage des vitesses à travers toutes les vitesses avec le moteur en marche et l'embrayage débrayé.",
+          "number": 19,
+          "image": null
+        },
+        {
+          "text": "Vérifier que le niveau de liquide est jusqu'au \"MAX\".",
+          "number": 20,
+          "image": null
+        }
+      ],
+      "phase": "inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif"
+    },
+    {
+      "label": "Reposer",
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Fermer la vanne et retirer la durite, serrer la vis – 9 Nm .",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 11
+    }
+  ],
+  "type": "procedure",
+  "id": "hydraulic-clutch-bleed-A26D1C"
+}

@@ -1,0 +1,225 @@
+{
+  "title": "Alternateur, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Protection sous caisse – voir l'opération «Déposer et Reposer la Protection sous caisse» dans le Groupe A.",
+          "image": {
+            "src": "/data/assets/images/1048f26f1fc3.jpg",
+            "alt": "Object Number: 2429848  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Roue arrière droite – vis.",
+          "image": {
+            "src": "/data/assets/images/aefab0c8919c.jpg",
+            "alt": "Object Number: 2425015  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Garniture d'aile arrière droite – voir l'opération «Déposer et Reposer la Garniture d'aile arrière».",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Courroie striée en V – voir l'opération «Déposer et Reposer la Courroie striée en V».",
+          "image": {
+            "src": "/data/assets/images/9f52cd9bc974.jpg",
+            "alt": "Object Number: 2429873  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Durites de carburant (1) du support (2) – ne pas débrancher les durites, les déplacer sur le côté.",
+          "image": {
+            "src": "/data/assets/images/285a380e2e55.jpg",
+            "alt": "Object Number: 2429875  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Durite de vapeurs de carburant du moteur.",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Durite de reniflard du moteur.",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Durite supérieure de liquide de refroidissement (1) du moteur – agrafe (flèche).",
+          "image": {
+            "src": "/data/assets/images/5750fbb3c45a.jpg",
+            "alt": "Object Number: 2419007  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 8
+        },
+        {
+          "text": "Durite de liquide de refroidissement pour le réservoir de dilatation du moteur – agrafe.",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Unité de contrôle moteur – voir l'opération «Déposer et Reposer l'Unité de Contrôle Moteur».",
+          "image": {
+            "src": "/data/assets/images/96567dcc6d80.jpg",
+            "alt": "Object Number: 2429858  Size: DEFAULT"
+          },
+          "number": 10
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Connecteur du faisceau électrique (flèche) de l'alternateur.",
+          "image": {
+            "src": "/data/assets/images/96567dcc6d80.jpg",
+            "alt": "Object Number: 2429858  Size: DEFAULT"
+          },
+          "number": 11
+        },
+        {
+          "text": "Alternateur du moteur – 4 vis.",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Alternateur au moteur – 4 vis 20 Nm.",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Connecteur du faisceau électrique (flèche) à l'alternateur.",
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Unité de contrôle moteur – voir l'opération «Déposer et Reposer l'Unité de Contrôle Moteur».",
+          "image": {
+            "src": "/data/assets/images/96567dcc6d80.jpg",
+            "alt": "Object Number: 2429858  Size: DEFAULT"
+          },
+          "number": 15
+        },
+        {
+          "text": "Durite de reniflard vers le moteur.",
+          "image": {
+            "src": "/data/assets/images/285a380e2e55.jpg",
+            "alt": "Object Number: 2429875  Size: DEFAULT"
+          },
+          "number": 16
+        },
+        {
+          "text": "Durite de vapeurs de carburant vers le moteur.",
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Durites de carburant (1) vers le support (2).",
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "Durite de liquide de refroidissement pour le réservoir de dilatation vers le moteur – agrafe.",
+          "image": {
+            "src": "/data/assets/images/5750fbb3c45a.jpg",
+            "alt": "Object Number: 2419007  Size: DEFAULT"
+          },
+          "number": 19
+        },
+        {
+          "text": "Durite supérieure de liquide de refroidissement (1) vers le moteur – agrafe (flèche).",
+          "callouts": [
+            "1"
+          ],
+          "number": 20,
+          "image": null
+        },
+        {
+          "text": "Courroie striée en V – voir l'opération «Déposer et Reposer la Courroie striée en V».",
+          "image": {
+            "src": "/data/assets/images/9f52cd9bc974.jpg",
+            "alt": "Object Number: 2429873  Size: DEFAULT"
+          },
+          "number": 21
+        },
+        {
+          "text": "Garniture d'aile arrière droite – voir l'opération «Déposer et Reposer la Garniture d'aile arrière».",
+          "image": {
+            "src": "/data/assets/images/aefab0c8919c.jpg",
+            "alt": "Object Number: 2425015  Size: DEFAULT"
+          },
+          "number": 22
+        },
+        {
+          "text": "Roue arrière droite – vis. 90 Nm.",
+          "number": 23,
+          "image": null
+        },
+        {
+          "text": "Protection sous caisse – voir l'opération «Déposer et Reposer la Protection sous caisse» dans le Groupe A.",
+          "image": {
+            "src": "/data/assets/images/1048f26f1fc3.jpg",
+            "alt": "Object Number: 2429848  Size: DEFAULT"
+          },
+          "number": 24
+        },
+        {
+          "text": "Remplir et purger le système de refroidissement – voir l'opération «Système de Refroidissement, Vidanger, Remplir et Purger».",
+          "number": 25,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    },
+    {
+      "label": "Reposer",
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Alternateur au moteur – 4 vis 20 Nm.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Roue arrière droite – vis. 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 23
+    }
+  ],
+  "type": "procedure",
+  "id": "alternator-remove-and-install-A26D1C"
+}

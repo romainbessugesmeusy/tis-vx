@@ -1,0 +1,287 @@
+{
+  "title": "Boîtier de contrôleur de température, Refroidisseur d'huile,\nRemplacer (Z20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le cache moteur (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Élever le véhicule"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 13x vis, 13x rondelle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7c957595e425.jpg",
+            "alt": "Object Number: 2422664  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 1
+        },
+        {
+          "text": "Déposer le filtre à huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Poser l'outil de filtre à huile KM-726-A"
+            },
+            {
+              "bullet": "•",
+              "text": "Jeter le filtre à huile"
+            }
+          ],
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Libérer la durite d'alimentation et de retour du refroidisseur d'huile du boîtier de filtre à huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer le boulon banjo de la durite d'alimentation (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer le boulon banjo de la durite de retour (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer, puis jeter 4x rondelle d'étanchéité"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer l'agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2137f859548d.jpg",
+            "alt": "Object Number: 2422924  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Retirer le contrôleur de température du boîtier de refroidisseur d'huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Positionner un récipient de collecte"
+            }
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Retirer le boîtier de contrôleur de température",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer l'écrou adaptateur (1) pour le filtre à huile, utiliser la douille KM-943"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer la vis de boîtier (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f2333ab679d8.jpg",
+            "alt": "Object Number: 2422927  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Retirer, jeter le joint torique",
+          "image": {
+            "src": "/data/assets/images/f2333ab679d8.jpg",
+            "alt": "Object Number: 2422927  Size: DEFAULT"
+          },
+          "number": 6
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le boîtier de contrôleur de température",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer la vis de boîtier à 23 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Lubrifier le nouveau joint"
+            },
+            {
+              "bullet": "•",
+              "text": "Reposer l'écrou adaptateur pour le filtre à huile à 23"
+            },
+            {
+              "bullet": "•",
+              "text": "Utiliser la douille KM-943"
+            }
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Fixer la durite d'alimentation et de retour du refroidisseur d'huile au boîtier de filtre à huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Poser le boulon banjo, durite d'alimentation au boîtier de contrôleur de température"
+            },
+            {
+              "bullet": "•",
+              "text": "Poser le boulon banjo, durite de retour au boîtier de contrôleur"
+            },
+            {
+              "bullet": "•",
+              "text": "Poser 4x nouvelles rondelles d'étanchéité"
+            },
+            {
+              "bullet": "•",
+              "text": "Poser l'agrafe"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Installer le nouveau filtre à huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Poser l'outil de filtre à huile KM-726-A"
+            },
+            {
+              "bullet": "•–",
+              "text": "Retirer le récipient de collecte",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Lubrifier le joint torique"
+                }
+              ]
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Installer le contrôleur de température sur le boîtier de refroidisseur d'huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer le piston, le ressort, la nouvelle rondelle d'étanchéité et le bouchon à 20 Nm + 60° + 30°"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Installer le cache moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Poser 13x vis, 13x rondelle"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Démarrer le moteur et vérifier les fuites, arrêter le moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Vérifier le niveau d'huile moteur, compléter si nécessaire"
+            }
+          ],
+          "number": 13,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer le boîtier de contrôleur de température",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Fixer la durite d'alimentation et de retour du refroidisseur d'huile au boîtier de filtre à huile",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Installer le nouveau filtre à huile",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Installer le contrôleur de température sur le boîtier de refroidisseur d'huile",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Serrer la vis de boîtier à 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Poser le boulon banjo, durite d'alimentation au boîtier de contrôleur de température à 30 Nm",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Visser à 15 Nm – Lubrifier le joint torique – Retirer le récipient de collecte",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer le piston, le ressort, la nouvelle rondelle d'étanchéité et le bouchon à 20 Nm + 60° + 30° Note: Noter la position pour l'installation.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-726-A",
+    "KM-943"
+  ],
+  "warnings": [
+    "Un pont élévateur à quatre colonnes doit\nêtre utilisé pour élever le véhicule lors du retrait du cache moteur.\nLe véhicule peut être déplacé vers un pont élévateur à deux colonnes pour d'autres opérations\nsi nécessaire.",
+    "Observer les réglementations environnementales\npertinentes lors de l'élimination des liquides de refroidissement usagés et\ndes lubrifiants."
+  ],
+  "notes": [
+    "Retirer le bouchon, le ressort et le piston, puis jeter la rondelle d'étanchéité\n Noter la position pour\nl'installation.\n \n\n\n\n–\nPositionner un récipient de collecte",
+    "Installer le piston, le ressort, la nouvelle rondelle d'étanchéité et le bouchon à 20 Nm + 60° + 30° \n Noter la position pour\nl'installation."
+  ],
+  "type": "procedure",
+  "id": "temperature-controller-housing-oil-cooler-replace-z20-let-AQS315"
+}

@@ -1,0 +1,245 @@
+{
+  "title": "Contrôle Dynamique du Niveau d'Huile, Remplacer (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le cache inférieur du moteur (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Élever le véhicule"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 13x vis, 13x rondelle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1d1ad92dd5ed.jpg",
+            "alt": "Object Number: 2425071  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 1
+        },
+        {
+          "text": "Déposer la durite inférieure de l'intercooler",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer, puis jeter l'attache-câble"
+            }
+          ],
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Débrancher le connecteur du faisceau moteur du capteur de niveau d'huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Libérer l'agrafe intégrée"
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Vidanger l'huile moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Placer un récipient de collecte"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer le bouchon de vidange d'huile (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer, puis jeter le joint d'étanchéité"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0d1b48368755.jpg",
+            "alt": "Object Number: 2422654  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Déposer le carter d'huile inférieur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'agrafe"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer, puis jeter le joint"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0d1b48368755.jpg",
+            "alt": "Object Number: 2422654  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Déposer le capteur de niveau d'huile du carter d'huile inférieur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer, puis jeter 2x vis (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/62090419888c.jpg",
+            "alt": "Object Number: 2422655  Size: DEFAULT"
+          },
+          "number": 6
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le capteur de niveau d'huile sur le carter d'huile inférieur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 2x nouvelle vis 8 Nm"
+            }
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Reposer le carter d'huile inférieur sur le moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer le nouveau joint"
+            },
+            {
+              "bullet": "•",
+              "text": "Reposer l'agrafe"
+            },
+            {
+              "bullet": "•",
+              "text": "Reposer 16x vis 8 Nm"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Raccorder le faisceau moteur au capteur de niveau d'huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe intégrée"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Reposer la durite inférieure de l'intercooler",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer un nouvel attache-câble"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Reposer le bouchon de vidange d'huile 10 Nm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer un nouveau joint d'étanchéité"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Reposer le cache inférieur du moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 13x vis, 13x rondelle"
+            },
+            {
+              "bullet": "•",
+              "text": "Abaisser le véhicule"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Recharger l'huile moteur",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Faire tourner le moteur jusqu'à extinction du voyant d'huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Vérifier le niveau d'huile, compléter si nécessaire"
+            }
+          ],
+          "number": 14,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer le capteur de niveau d'huile sur le carter d'huile inférieur",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Reposer le carter d'huile inférieur sur le moteur",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Reposer le bouchon de vidange d'huile 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 11
+    },
+    {
+      "component": "Reposer 2x nouvelle vis 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "Un pont élévateur à quatre colonnes doit être utilisé pour élever le véhicule lors du démontage du cache du tuyau d'échappement. Le véhicule peut être déplacé vers un pont à deux colonnes pour d'autres opérations si nécessaire.",
+    "Respecter les réglementations environnementales pertinentes lors de l'élimination des liquides de refroidissement usagés et des lubrifiants."
+  ],
+  "notes": [
+    "Reposer 16x vis 8 Nm \n 2x technicien\nrequis."
+  ],
+  "type": "procedure",
+  "id": "dynamic-oil-level-control-replace-z-20-let-AQS315"
+}

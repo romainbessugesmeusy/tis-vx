@@ -1,0 +1,30 @@
+{
+  "title": "Field Remedy: 2026",
+  "subject": "Tous les moteurs diesel et essence -\nDurite de turbo desserrée",
+  "complaint": "Réclamation du client concernant un manque de puissance.",
+  "cause": "Durite de turbo déplacée.",
+  "production": "Couple de serrage correct et méthode de nettoyage depuis\nSOP.",
+  "remedyContent": [
+    {
+      "type": "paragraph",
+      "text": "En cas de réclamation du client, ne pas resserrer le collier. Si\nla connexion devient lâche, démonter entièrement la durite de\nturbo, nettoyer des deux côtés, par exemple l'intérieur de la\ndurite à son emplacement de serrage interne ainsi que le flasque\nà l'opposé."
+    },
+    {
+      "type": "text",
+      "text": "Pour l'opération de nettoyage, utiliser un tampon humidifié\nsoit avec de l'acétone soit humidifié avec un peu de liquide\nessence (ne pas imbiber le tampon d'acétone ou de liquide\nessence).\nRemonter la durite sur les flasques et serrer les colliers à\n3,5 Nm à 4 Nm (max.)."
+    },
+    {
+      "type": "paragraph",
+      "text": "En raison de la conception de ces colliers, le couple final sera\ninférieur à 3,5 Nm après le serrage du collier, mais ce\ncomportement est dû à la conception du collier. Dans tous les\ncas, ne pas resserrer."
+    }
+  ],
+  "type": "tsb",
+  "id": "all-diesel-and-petrol-engines-turbocharger-hose-loose-AQS315",
+  "metadata": {
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "11 - Loose or Comes off",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  }
+}

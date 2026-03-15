@@ -1,0 +1,753 @@
+{
+  "title": "Ajuster la Distribution des Soupapes (Z 22 SE)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Ouvrir le capot.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déconnecter la batterie.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Ouvrir le cache moteur (1).",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Déposer le cache moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "6 vis (2) et (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Relâcher la pression du carburant.",
+          "image": {
+            "src": "/data/assets/images/77b9e84bc8f7.jpg",
+            "alt": "Object Number: 2412454  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Attention :",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Le carburant peut s'échapper – respecter les réglementations de sécurité et"
+            },
+            {
+              "bullet": "•",
+              "text": "Récupérer tout carburant s'échappant dans un conteneur approprié."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/77b9e84bc8f7.jpg",
+            "alt": "Object Number: 2412454  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Déconnecter les conduites de carburant (3).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 écrous d'union (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "2 boulons (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Repositionner les conduites de carburant avec le support de conduite de carburant à un"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/96b59af655a2.jpg",
+            "alt": "Object Number: 2412455  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ],
+          "number": 7
+        },
+        {
+          "text": "Détacher le module d'allumage (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Détacher et déconnecter le connecteur du faisceau de câblage."
+            },
+            {
+              "bullet": "•",
+              "text": "4 boulons (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0c4aa59965a6.jpg",
+            "alt": "Object Number: 2416672  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 8
+        },
+        {
+          "text": "Retirer le couvercle de la culasse.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Détacher la durite de reniflard du moteur (2)."
+            },
+            {
+              "bullet": "•",
+              "text": "2 boulons, 1 écrou"
+            },
+            {
+              "bullet": "•",
+              "text": "1 boulon"
+            },
+            {
+              "bullet": "•",
+              "text": "12 boulons (1), (3), (4) et (8)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/055fa4fa9cf5.jpg",
+            "alt": "Object Number: 2412456  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Élever la rampe de levage.",
+          "image": {
+            "src": "/data/assets/images/055fa4fa9cf5.jpg",
+            "alt": "Object Number: 2412456  Size: DEFAULT"
+          },
+          "number": 10
+        },
+        {
+          "text": "Retirer le cache inférieur du moteur (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 boulons"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 11
+        },
+        {
+          "text": "Aligner le vilebrequin.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Faire tourner le vilebrequin dans le sens de rotation normal pour"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/65c9b6fe7f54.jpg",
+            "alt": "Object Number: 2417749  Size: DEFAULT"
+          },
+          "number": 12
+        },
+        {
+          "text": "Abaisser la rampe de levage.",
+          "image": {
+            "src": "/data/assets/images/65c9b6fe7f54.jpg",
+            "alt": "Object Number: 2417749  Size: DEFAULT"
+          },
+          "number": 13
+        },
+        {
+          "text": "Déposer le guide-chaîne (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 boulons (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e362d7f90897.jpg",
+            "alt": "Object Number: 2416678  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 14
+        },
+        {
+          "text": "Remarque : S'il n'y a pas de marquage (1) sur le tendeur de chaîne de distribution de l'arbre à cames (2), il doit être remplacé par un nouveau tendeur de chaîne de distribution de l'arbre à cames (numéro de pièce 24 448 509) comprenant un nouveau rail de tendeur de chaîne de distribution de l'arbre à cames (numéro de pièce 24 449 448).",
+          "image": {
+            "src": "/data/assets/images/c856d6a2b9e9.jpg",
+            "alt": "Object Number: 2412306  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 15
+        },
+        {
+          "text": "Retirer le tendeur de chaîne de distribution de l'arbre à cames (1).",
+          "image": {
+            "src": "/data/assets/images/020d9b093f8c.jpg",
+            "alt": "Object Number: 2416679  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 16
+        },
+        {
+          "text": "Retirer le pignon d'arbre à cames d'échappement (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Maintenir l'arbre à cames d'échappement par l'hexagone."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c137383cd9d7.jpg",
+            "alt": "Object Number: 2416680  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 17
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Ajuster",
+      "steps": [
+        {
+          "text": "Fixer KM-6148 .",
+          "image": {
+            "src": "/data/assets/images/ec477ca946f9.jpg",
+            "alt": "Object Number: 2417738  Size: DEFAULT"
+          },
+          "number": 18
+        },
+        {
+          "text": "Remarque :",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Dans cette position, les cames (1) et (2) du cylindre n° 4 pointent"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer KM-6148 avec les"
+            },
+            {
+              "bullet": "•",
+              "text": "Insérer le boulon de positionnement (5) dans le trou désigné (3) sur"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ec477ca946f9.jpg",
+            "alt": "Object Number: 2417738  Size: DEFAULT"
+          },
+          "number": 19
+        },
+        {
+          "text": "Installer la chaîne de distribution de l'arbre à cames.",
+          "image": {
+            "src": "/data/assets/images/c3cb004957cc.jpg",
+            "alt": "Object Number: 2417777  Size: DEFAULT"
+          },
+          "number": 20
+        },
+        {
+          "text": "Important : Les repères PMH sur la chaîne de distribution sont indiqués par des maillons colorés dans la chaîne. Ceux-ci doivent correspondre aux marquages sur les pignons de distribution. Il doit être possible d'insérer l'outil de blocage KM-6148 .",
+          "image": {
+            "src": "/data/assets/images/c3cb004957cc.jpg",
+            "alt": "Object Number: 2417777  Size: DEFAULT"
+          },
+          "number": 21
+        },
+        {
+          "text": "Passer la chaîne de distribution de l'arbre à cames à la main à travers le carter de distribution.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer la chaîne de distribution de l'arbre à cames avec des colliers de serrage sur le pignon d'admission",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Fixer la chaîne de distribution de l'arbre à cames avec des colliers de serrage sur le pignon d'admission."
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c3cb004957cc.jpg",
+            "alt": "Object Number: 2417777  Size: DEFAULT"
+          },
+          "number": 22
+        },
+        {
+          "text": "Déposer KM-6148 .",
+          "number": 23,
+          "image": null
+        },
+        {
+          "text": "Installer le pignon d'arbre à cames d'échappement. Remarque : Vérifier que les repères PMH correspondent.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Maillon de chaîne (1) sur le marquage EXH (2) sur le pignon d'arbre à cames d'échappement"
+            },
+            {
+              "bullet": "•",
+              "text": "Tourner l'arbre à cames d'échappement par l'hexagone jusqu'à ce que l'échappement"
+            },
+            {
+              "bullet": "•",
+              "text": "Utiliser un nouveau boulon."
+            },
+            {
+              "bullet": "•–",
+              "text": "Détacher les colliers de serrage du pignon d'admission.",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Couple de serrage 85 Nm + 30° +\n15°"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/69a8b8d190f6.jpg",
+            "alt": "Object Number: 2417748  Size: DEFAULT"
+          },
+          "number": 24
+        },
+        {
+          "text": "Recréer le filetage.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 hors"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/69a8b8d190f6.jpg",
+            "alt": "Object Number: 2417748  Size: DEFAULT"
+          },
+          "number": 25
+        },
+        {
+          "text": "Installer le guide-chaîne.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 8 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/69a8b8d190f6.jpg",
+            "alt": "Object Number: 2417748  Size: DEFAULT"
+          },
+          "number": 26
+        },
+        {
+          "text": "Fixer KM-6148 . Remarque : Dans cette position, les cames (1) et (2) du cylindre n° 4 pointent vers le haut.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer KM-6148 avec les"
+            },
+            {
+              "bullet": "•",
+              "text": "Insérer les boulons de positionnement (5) dans les trous désignés (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ec477ca946f9.jpg",
+            "alt": "Object Number: 2417738  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 27
+        },
+        {
+          "text": "Installer le tendeur de chaîne de distribution de l'arbre à cames.",
+          "substeps": [
+            {
+              "bullet": "••",
+              "text": "Insérer le piston dans le boîtier.",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Serrer le piston au carré dans un étau."
+                },
+                {
+                  "bullet": "–",
+                  "text": "Tourner dans le sens des aiguilles d'une montre pour verrouiller le piston interne (6) dans la dernière\nposition d'encliquetage (5)."
+                }
+              ]
+            },
+            {
+              "bullet": "•",
+              "text": "Utiliser de nouveaux joints d'étanchéité (2) et (3)."
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 75 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/468e539957d0.jpg",
+            "alt": "Object Number: 2411811  Size: DEFAULT"
+          },
+          "number": 28
+        },
+        {
+          "text": "Déposer KM-6148 .",
+          "image": {
+            "src": "/data/assets/images/468e539957d0.jpg",
+            "alt": "Object Number: 2411811  Size: DEFAULT"
+          },
+          "number": 29
+        },
+        {
+          "text": "Libérer le tendeur de chaîne de distribution de l'arbre à cames en appuyant sur le rail de tension ou sur la chaîne de distribution de l'arbre à cames (à l'aide d'un outil émoussé – par exemple, un levier d'assemblage à bord lisse). Remarque : Si les repères PMH ne correspondent plus aux maillons colorés de la chaîne, reposer la chaîne de distribution de l'arbre à cames. Une fois que le vilebrequin a été tourné d'un autre tour, ils ne correspondront plus.",
+          "image": {
+            "src": "/data/assets/images/f57a4ba0e2fa.jpg",
+            "alt": "Object Number: 2402051  Size: DEFAULT"
+          },
+          "number": 30
+        },
+        {
+          "text": "Élever la rampe de levage.",
+          "image": {
+            "src": "/data/assets/images/f57a4ba0e2fa.jpg",
+            "alt": "Object Number: 2402051  Size: DEFAULT"
+          },
+          "number": 31
+        },
+        {
+          "text": "Faire tourner le vilebrequin de 720° .",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Faire tourner le vilebrequin dans le sens de rotation normal pour"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/65c9b6fe7f54.jpg",
+            "alt": "Object Number: 2417749  Size: DEFAULT"
+          },
+          "number": 32
+        },
+        {
+          "text": "Installer le cache inférieur du moteur",
+          "image": {
+            "src": "/data/assets/images/65c9b6fe7f54.jpg",
+            "alt": "Object Number: 2417749  Size: DEFAULT"
+          },
+          "number": 33
+        },
+        {
+          "text": "Abaisser la rampe de levage.",
+          "image": {
+            "src": "/data/assets/images/65c9b6fe7f54.jpg",
+            "alt": "Object Number: 2417749  Size: DEFAULT"
+          },
+          "number": 34
+        },
+        {
+          "text": "Fixer KM-6148 . Remarque : Dans cette position, les cames (1) et (2) du cylindre n° 4 pointent vers le haut.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer KM-6148 avec les"
+            },
+            {
+              "bullet": "•",
+              "text": "Insérer les boulons de positionnement (5) dans les trous désignés (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ec477ca946f9.jpg",
+            "alt": "Object Number: 2417738  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 35
+        },
+        {
+          "text": "Déposer KM-6148 .",
+          "image": {
+            "src": "/data/assets/images/ec477ca946f9.jpg",
+            "alt": "Object Number: 2417738  Size: DEFAULT"
+          },
+          "number": 36
+        }
+      ],
+      "phase": "adjust",
+      "icon": "/data/assets/images/8bcc88ed08ca.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Fixer le couvercle de la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Nettoyer les surfaces de joint."
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "2 boulons, 1 écrou"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer la durite de reniflard du moteur."
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 8 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ef30e1bc79e7.jpg",
+            "alt": "Object Number: 2417739  Size: DEFAULT"
+          },
+          "number": 37
+        },
+        {
+          "text": "Fixer le module d'allumage.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer et connecter le connecteur du faisceau de câblage."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ef30e1bc79e7.jpg",
+            "alt": "Object Number: 2417739  Size: DEFAULT"
+          },
+          "number": 38
+        },
+        {
+          "text": "Connecter les conduites de carburant.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 10 Nm"
+            },
+            {
+              "bullet": "•–",
+              "text": "Couple de serrage 9 Nm",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "2 boulons"
+                }
+              ]
+            }
+          ],
+          "number": 39,
+          "image": null
+        },
+        {
+          "text": "Installer le cache moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Vérifier l'alignement."
+            },
+            {
+              "bullet": "•",
+              "text": "6 boulons, couple de serrage 14 Nm"
+            }
+          ],
+          "number": 40,
+          "image": null
+        },
+        {
+          "text": "Fermer le cache moteur.",
+          "number": 41,
+          "image": null
+        },
+        {
+          "text": "Reconnecter la batterie.",
+          "number": 42,
+          "image": null
+        },
+        {
+          "text": "Fermer le capot.",
+          "number": 43,
+          "image": null
+        },
+        {
+          "text": "Reprogrammer les mémoires volatiles.",
+          "number": 44,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Installer le pignon d'arbre à cames d'échappement. Remarque : Vérifier que les repères PMH correspondent.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 24
+    },
+    {
+      "component": "Installer le guide-chaîne.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 26
+    },
+    {
+      "component": "Installer le tendeur de chaîne de distribution de l'arbre à cames.",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 28
+    },
+    {
+      "component": "Fixer le couvercle de la culasse",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 37
+    },
+    {
+      "component": "Fixer le couvercle de la culasse",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 37
+    },
+    {
+      "component": "Fixer le module d'allumage.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 38
+    },
+    {
+      "component": "Connecter les conduites de carburant.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 39
+    },
+    {
+      "component": "Connecter les conduites de carburant.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 39
+    },
+    {
+      "component": "Installer le cache moteur.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 40
+    },
+    {
+      "component": "Couple de serrage 85 Nm + 30° + 15°",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 75 Nm",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 boulons, couple de serrage 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-J-34730-91",
+    "KM-6148"
+  ],
+  "warnings": [
+    "Ne pas suivre cette\ninstruction pourrait entraîner un saut de la chaîne de distribution de l'arbre à cames."
+  ],
+  "notes": [
+    "Installer le pignon d'arbre à cames d'échappement.\n Vérifier que les\nrepères PMH correspondent.\n \n\n\n\n•  \nMaillon de chaîne (1) sur le marquage EXH (2) sur le pignon d'arbre à cames\nd'échappement\n \n\n\n\n\n\n•  \nTourner l'arbre à cames d'échappement par l'hexagone jusqu'à ce que l'échappement\n \n\n\n\n\n\n•  \nUtiliser un nouveau boulon.\n \n\n\n\n\n\n•  \nTenir l'arbre à cames par l'hexagone.\n \n\n\n\n–\nCouple de serrage 85 Nm + 30° +\n15° \n \n\n\n\n\n\n–\nDétacher les colliers de serrage du pignon d'admission.",
+    "Fixer KM-6148 .\n Dans cette position\nles cames (1) et (2) du cylindre n° 4 pointent vers le haut.\n \n\n\n\n•  \nFixer KM-6148 avec les\nboulons (4).\n \n\n\n\n\n\n•  \nInsérer les boulons de positionnement (5) dans les trous désignés (3)\nsur les pignons de distribution.",
+    "Libérer le tendeur de chaîne de distribution de l'arbre à cames en appuyant sur le\nrail de tension ou sur la chaîne de distribution de l'arbre à cames (à l'aide d'un outil\némoussé – par exemple, un levier d'assemblage à bord lisse).\n Si les repères PMH\nne correspondent plus aux maillons colorés de la chaîne, reposer la\ndistribution de l'arbre à cames. Une fois que le vilebrequin a été tourné d'un autre\ntour, ils ne correspondront plus.",
+    "Utiliser de nouveaux joints d'étanchéité.\n Les lèvres d'étanchéité\ndes joints (1) doivent être insérées dans la rainure sur le couvercle\nde la culasse.\n \n\n\n\n–\nCouple de serrage 9 Nm"
+  ],
+  "type": "procedure",
+  "id": "valve-timing-adjust-z-22-se-A26D1C"
+}

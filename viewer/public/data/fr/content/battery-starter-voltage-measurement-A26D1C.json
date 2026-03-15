@@ -1,0 +1,33 @@
+{
+  "title": "Batterie / Démarreur (Mesure de tension)",
+  "steps": [
+    {
+      "text": "Déposer la courbe de référence.",
+      "number": 1
+    },
+    {
+      "text": "Démarrer le moteur.",
+      "number": 2
+    },
+    {
+      "text": "Déposer le fichier de configuration (le Tech 32 n'utilise que des fichiers de configuration, pas de courbes de référence).",
+      "number": 1
+    },
+    {
+      "text": "Démarrer le moteur.",
+      "number": 2
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/6d33ef73bd37.jpg",
+      "alt": "Numéro d'objet : 2400929  Taille : PAR DÉFAUT"
+    },
+    {
+      "src": "/data/assets/images/0bc39b4abd96.jpg",
+      "alt": "Numéro d'objet : 2419066  Taille : PAR DÉFAUT"
+    }
+  ],
+  "type": "diagnostic",
+  "id": "battery-starter-voltage-measurement-A26D1C"
+}

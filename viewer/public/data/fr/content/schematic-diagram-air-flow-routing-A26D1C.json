@@ -1,0 +1,41 @@
+{
+  "title": "Schéma de principe (cheminement de l'air)",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "image": {
+            "src": "/data/assets/images/0612ded4151e.jpg",
+            "alt": "Object Number: 2412458  Size: DEFAULT"
+          },
+          "number": 1,
+          "text": ""
+        },
+        {
+          "text": "Lors du serrage des colliers de durite, veiller attentivement à respecter le couple de serrage de 3,5 Nm. Remarque : Il ne peut être garanti que le système d'admission est étanche et fonctionnera donc de manière sûre et fiable que si les colliers de durite sont serrés au couple de serrage spécifié.",
+          "number": 2,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Lors du serrage des colliers de durite, veiller attentivement à respecter le couple de serrage de 3,5 Nm. Remarque : Il ne peut être garanti que le système d'admission est étanche et fonctionnera donc de manière sûre et fiable que si les colliers de durite sont serrés au couple de serrage spécifié.",
+      "value": "5",
+      "unit": "Nm",
+      "stepRef": 2
+    }
+  ],
+  "warnings": [
+    "Avant de procéder à l'installation, nettoyer toute contamination (graisse, huile, etc.) du tuyau d'admission d'air et des pièces de raccordement."
+  ],
+  "notes": [
+    "Lors du serrage des colliers de durite, veiller attentivement à respecter le couple de serrage de 3,5 Nm. Il ne peut être garanti que le système d'admission est étanche et fonctionnera donc de manière sûre et fiable que si les colliers de durite sont serrés au couple de serrage spécifié."
+  ],
+  "type": "procedure",
+  "id": "schematic-diagram-air-flow-routing-A26D1C"
+}

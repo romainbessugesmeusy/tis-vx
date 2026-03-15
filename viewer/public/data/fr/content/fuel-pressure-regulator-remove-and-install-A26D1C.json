@@ -1,0 +1,52 @@
+{
+  "title": "Régulateur de pression de carburant, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Durite de dépression (2) du régulateur de pression de carburant.",
+          "callouts": [
+            "2"
+          ],
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Régulateur de pression de carburant du tuyau de distribution de carburant – vis (1).",
+          "callouts": [
+            "1"
+          ],
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Régulateur de pression de carburant dans le tuyau de distribution de carburant – vis (1).",
+          "callouts": [
+            "1"
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Durite de dépression (2) vers le régulateur de pression de carburant.",
+          "callouts": [
+            "2"
+          ],
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "fuel-pressure-regulator-remove-and-install-A26D1C"
+}

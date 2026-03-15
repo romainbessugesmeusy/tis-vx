@@ -1,0 +1,105 @@
+{
+  "title": "Vérifier le jeu de palier de bielle (Méthode du Plastigage),\n(Z 20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Mesurer",
+      "steps": [
+        {
+          "text": "Marquer la position d'installation (1) du chapeau de palier de bielle - déposer le chapeau de palier de bielle de la bielle.",
+          "callouts": [
+            "1"
+          ],
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Attention",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Pour éviter que la bande ne se déchire lors du retrait du chapeau de palier de bielle, enlever la graisse du tourillon de bielle et huiler légèrement la coquille de palier de bielle. Ne pas tourner le vilebrequin.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Placer le Plastigage (bande plastique malléable) sur toute la largeur du tourillon de palier de bielle.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Méthode du couple de serrage angulaire",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Fixer le chapeau de palier de bielle à la bielle - couple de serrage de 35 Nm + 45° + 15 . Pour vérifier le jeu de palier de bielle, les boulons peuvent être réutilisés une fois de plus.",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Retirer à nouveau le chapeau de palier de bielle. Comparer la largeur du filet plastique écrasé (flèche) avec l'échelle de mesure.",
+          "image": {
+            "src": "/data/assets/images/bdd573762ee1.jpg",
+            "alt": "Object Number: 2392756  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Jeu de palier de bielle admissible : de 0,006 à 0,031 mm.",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Remarque : Lors de la lecture de la valeur, ne pas confondre les millimètres et les pouces sur l'échelle de mesure.",
+          "number": 9,
+          "image": null
+        }
+      ],
+      "phase": "measure",
+      "icon": "/data/assets/images/707731fa677f.gif"
+    },
+    {
+      "label": "Mesurer",
+      "phase": "measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Nettoyer le tourillon de palier de bielle et la coquille de palier de bielle et les lubrifier légèrement.",
+          "image": {
+            "src": "/data/assets/images/bdd573762ee1.jpg",
+            "alt": "Object Number: 2392756  Size: DEFAULT"
+          },
+          "number": 10
+        },
+        {
+          "text": "Fixer le chapeau de palier de bielle à la bielle avec de nouveaux boulons - noter la position d'installation du chapeau de palier de bielle - couple de serrage de 35 Nm + 45° + 15° .",
+          "number": 11,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Fixer le chapeau de palier de bielle à la bielle - couple de serrage de 35 Nm + 45° + 15 . Pour vérifier le jeu de palier de bielle, les boulons peuvent être réutilisés une fois de plus.",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 6
+    }
+  ],
+  "type": "procedure",
+  "id": "con-rod-bearing-play-check-plastigage-method-z-20-let-AQS315"
+}

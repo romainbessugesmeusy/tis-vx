@@ -1,0 +1,245 @@
+{
+  "title": "Câble Bowden de Chauffage, Remplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le hard top ou le soft top",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Débrancher la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer le réservoir de lave-glace, puis déplacer sur le côté"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer l'écrou, la vis"
+            }
+          ],
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déposer le tuyau d'admission d'air (1) du boîtier de chauffage et du logement de distribution d'air",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer la grille en treillis (si installée) du logement de distribution d'air"
+            },
+            {
+              "bullet": "•",
+              "text": "Tirer pour enlever"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3d617804afb4.jpg",
+            "alt": "Object Number: 2422757  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Déconnecter le câble Bowden (1) du levier sur le boîtier de chauffage",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déclipser la pince (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/74ca2ce7ad01.jpg",
+            "alt": "Object Number: 2422342  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Déposer le câble Bowden du tablier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer la vis (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/de9bcc4f72ce.jpg",
+            "alt": "Object Number: 2422343  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Déposer l'ensemble du tableau de bord – voir l'opération ”Déposer et Reposer l'Ensemble du Tableau de Bord”",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Déposer le câble Bowden (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Couper la bride de câble (2), puis jeter"
+            },
+            {
+              "bullet": "•",
+              "text": "Desserrer la vis (4)"
+            },
+            {
+              "bullet": "•",
+              "text": "Tirer pour enlever du contrôle de température de l'air (5)"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer le joint (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dce82d46129d.jpg",
+            "alt": "Object Number: 2422344  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 7
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Transférer le joint sur le nouveau câble Bowden",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Reposer le câble Bowden",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer le joint"
+            },
+            {
+              "bullet": "•",
+              "text": "Enfoncer sur le contrôle de température de l'air"
+            },
+            {
+              "bullet": "•",
+              "text": "Serrer la vis"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer la nouvelle bride de câble"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Ajuster le câble Bowden",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Connecter le câble Bowden interne au levier sur le boîtier de chauffage"
+            },
+            {
+              "bullet": "•",
+              "text": "Tourner la molette du contrôle de température de l'air complètement dans le sens inverse des aiguilles d'une montre"
+            },
+            {
+              "bullet": "•",
+              "text": "Vérifier que le levier sur le boîtier de chauffage est en position complètement fermée"
+            },
+            {
+              "bullet": "•",
+              "text": "Enfoncer la pince"
+            },
+            {
+              "bullet": "•",
+              "text": "Vérifier le fonctionnement"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Reposer l'ensemble du tableau de bord – voir l'opération ”Déposer et Reposer l'Ensemble du Tableau de Bord”",
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Fixer le câble Bowden au tablier",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer la vis"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Reposer le tuyau d'admission d'air sur le boîtier de chauffage et le logement de distribution d'air",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer la grille en treillis (si installée) sur le logement de distribution d'air"
+            },
+            {
+              "bullet": "•",
+              "text": "Enfoncer"
+            }
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Rebrancher la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer l'écrou, la vis"
+            }
+          ],
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Reposer le réservoir de lave-glace",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Emboîter"
+            }
+          ],
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Programmer toutes les mémoires volatiles",
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Reposer le hard top ou le soft top",
+          "number": 17,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "bowden-cable-heater-replace-AQS315"
+}

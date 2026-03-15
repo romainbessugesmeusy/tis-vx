@@ -1,0 +1,35 @@
+{
+  "title": "Airbag",
+  "components": [
+    {
+      "description": "Unité de contrôle - Airbag",
+      "code": "A1"
+    },
+    {
+      "description": "Déclencheur - Prétensionneur de ceinture, conducteur",
+      "code": "R5"
+    },
+    {
+      "description": "Témoin lumineux - Airbag",
+      "code": "H1.4"
+    },
+    {
+      "description": "Déclencheur - Prétensionneur de ceinture, passager avant",
+      "code": "R6"
+    },
+    {
+      "description": "Déclencheur - Airbag, conducteur",
+      "code": "R1"
+    },
+    {
+      "description": "Prise diagnostic",
+      "code": "X13"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "airbag-AQS315",
+  "diagram": {
+    "src": "/data/assets/2c000259c2b5.cgm",
+    "type": "cgm"
+  }
+}

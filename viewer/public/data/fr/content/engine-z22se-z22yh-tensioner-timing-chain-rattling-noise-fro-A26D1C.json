@@ -1,0 +1,38 @@
+{
+  "title": "Field Remedy: 2366",
+  "subject": "Moteur Z22SE/Z22YH, tendeur de chaîne de distribution\n- Bruit de cliquetis provenant de la chaîne de distribution",
+  "complaint": "Bruit de cliquetis provenant de la chaîne de distribution, souvent\naccompagné d'une chaîne de distribution allongée.",
+  "cause": "Tendeur de chaîne de distribution bloqué.",
+  "production": "Un tendeur modifié Z20NET sera\nintroduit en production à partir de l'année modèle 2009.",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "Remarque : Pour les moteurs Z22SE, veuillez d'abord prendre note de l'Information Rapide 1532."
+    },
+    {
+      "type": "text",
+      "text": "En cas de réclamation du client, remplacer la chaîne de distribution\n(incluant le tendeur amélioré)."
+    },
+    {
+      "type": "text",
+      "text": "Kits de chaîne de distribution améliorés pour moteur Z22YH/Z22SE disponibles\nvia P&A sous le numéro de pièce / numéro de catalogue :"
+    },
+    {
+      "type": "text",
+      "text": "-->\n Kit chaîne de distribution pour moteur Z22YH numéro de pièce : 55569838 /\n    numéro de catalogue : 6 36 176"
+    },
+    {
+      "type": "text",
+      "text": "-->\n Kit chaîne de distribution pour moteur Z22SE numéro de pièce : 55570337 / \n    numéro de catalogue : 6 36 177"
+    }
+  ],
+  "type": "tsb",
+  "id": "engine-z22se-z22yh-tensioner-timing-chain-rattling-noise-fro-A26D1C",
+  "metadata": {
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "05 - Excessive wear",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  }
+}

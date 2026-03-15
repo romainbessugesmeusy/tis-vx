@@ -1,0 +1,202 @@
+{
+  "title": "Collecteur d'admission, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Connecteur du faisceau de câblage du capteur de température de l'air d'admission.",
+          "image": {
+            "src": "/data/assets/images/3d45bcb92fa7.jpg",
+            "alt": "Object Number: 2429826  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Durite de reniflard du carter de la durite d'admission.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Durite de dépression de la durite d'admission.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Durite d'admission du boîtier de papillon.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Protéger avec les lignes d'admission du boîtier du filtre à air – agrafes.",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Jauge d'huile du tube de guidage.",
+          "image": {
+            "src": "/data/assets/images/1996b29fe04b.jpg",
+            "alt": "Object Number: 2429866  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Tube de guidage du collecteur d'admission – vis (flèche).",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Ligne de recirculation des gaz d'échappement de la culasse – boulons (flèche).",
+          "image": {
+            "src": "/data/assets/images/1cc0a0507128.jpg",
+            "alt": "Object Number: 2429874  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Ligne de vapeurs de carburant du collecteur d'admission.",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Connecteur du faisceau de câblage du capteur de pression absolue du collecteur d'admission.",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Unité de commande du moteur – voir l'opération \"Unité de Commande du Moteur, Déposer et Reposer\".",
+          "image": {
+            "src": "/data/assets/images/96567dcc6d80.jpg",
+            "alt": "Object Number: 2429858  Size: DEFAULT"
+          },
+          "number": 11
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Connecteur du faisceau de câblage des injecteurs.",
+          "image": {
+            "src": "/data/assets/images/96567dcc6d80.jpg",
+            "alt": "Object Number: 2429858  Size: DEFAULT"
+          },
+          "number": 12
+        },
+        {
+          "text": "Connecteur du faisceau de câblage du capteur de cognement du collecteur d'admission.",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Collecteur d'admission de la culasse – écrous.",
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Collecteur d'admission à la culasse – écrous 10 Nm , utiliser de nouveaux joints.",
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Connecteur du faisceau de câblage du capteur de cognement au collecteur d'admission.",
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Connecteur du faisceau de câblage des injecteurs.",
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Unité de commande du moteur – voir l'opération \"Unité de Commande du Moteur, Déposer et Reposer\".",
+          "image": {
+            "src": "/data/assets/images/96567dcc6d80.jpg",
+            "alt": "Object Number: 2429858  Size: DEFAULT"
+          },
+          "number": 18
+        },
+        {
+          "text": "Connecteur du faisceau de câblage du capteur de pression absolue du collecteur d'admission.",
+          "image": {
+            "src": "/data/assets/images/1cc0a0507128.jpg",
+            "alt": "Object Number: 2429874  Size: DEFAULT"
+          },
+          "number": 19
+        },
+        {
+          "text": "Ligne de vapeurs de carburant vers le collecteur d'admission.",
+          "number": 20,
+          "image": null
+        },
+        {
+          "text": "Ligne de recirculation des gaz d'échappement vers la culasse – boulons (flèche).",
+          "number": 21,
+          "image": null
+        },
+        {
+          "text": "Tube de guidage vers le collecteur d'admission – vis (flèche) 10 Nm .",
+          "image": {
+            "src": "/data/assets/images/1996b29fe04b.jpg",
+            "alt": "Object Number: 2429866  Size: DEFAULT"
+          },
+          "number": 22
+        },
+        {
+          "text": "Jauge d'huile dans le tube de guidage.",
+          "number": 23,
+          "image": null
+        },
+        {
+          "text": "Protéger avec les lignes d'admission vers le boîtier du filtre à air – agrafes",
+          "image": {
+            "src": "/data/assets/images/3d45bcb92fa7.jpg",
+            "alt": "Object Number: 2429826  Size: DEFAULT"
+          },
+          "number": 24
+        },
+        {
+          "text": "Durite d'admission vers le boîtier de papillon.",
+          "number": 25,
+          "image": null
+        },
+        {
+          "text": "Durite de dépression vers la durite d'admission.",
+          "number": 26,
+          "image": null
+        },
+        {
+          "text": "Durite de reniflard vers la durite d'admission.",
+          "number": 27,
+          "image": null
+        },
+        {
+          "text": "Connecteur du faisceau de câblage du capteur de température de l'air d'admission",
+          "number": 28,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Collecteur d'admission à la culasse – écrous 10 Nm , utiliser de nouveaux joints.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 15
+    },
+    {
+      "component": "Tube de guidage vers le collecteur d'admission – vis (flèche) 10 Nm .",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "type": "procedure",
+  "id": "intake-manifold-remove-and-install-A26D1C"
+}

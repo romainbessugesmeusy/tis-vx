@@ -1,0 +1,228 @@
+{
+  "title": "Système de freinage, Purger",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Ouvrir le capot avant",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Retirer le bouchon du réservoir de liquide de frein",
+          "image": {
+            "src": "/data/assets/images/57fcfc3e4aaf.jpg",
+            "alt": "Object Number: 2419898  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Compléter le réservoir de liquide de frein jusqu'au repère MAX",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser uniquement du liquide de frein DOT 4"
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Retirer le filtre du réservoir de liquide de frein",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Installer un bocal de purge sur les 4x étriers de frein",
+          "image": {
+            "src": "/data/assets/images/3852e2921a2e.jpg",
+            "alt": "Object Number: 2429409  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Installer l'équipement de purge sur le réservoir de liquide de frein",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Suivre les instructions d'installation du fabricant fournies avec"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Connecter la machine Tech2 au connecteur du faisceau",
+          "image": {
+            "src": "/data/assets/images/75864bf4b33d.jpg",
+            "alt": "Object Number: 2419919  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Purger le système de freinage",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Allumer la machine Tech2"
+            },
+            {
+              "bullet": "•",
+              "text": "Appuyer sur entrée"
+            },
+            {
+              "bullet": "•",
+              "text": "Sélectionner F0: DIAGNOSTICS, appuyer sur entrée"
+            },
+            {
+              "bullet": "•",
+              "text": "Sélectionner l'année de modèle appropriée, appuyer sur entrée"
+            },
+            {
+              "bullet": "•",
+              "text": "Sélectionner le véhicule, appuyer sur entrée"
+            },
+            {
+              "bullet": "•",
+              "text": "Sélectionner F1: CHASSIS, appuyer sur entrée"
+            },
+            {
+              "bullet": "•",
+              "text": "Sélectionner ABS 430, appuyer sur entrée"
+            },
+            {
+              "bullet": "•",
+              "text": "Allumer le contact, appuyer sur confirmer"
+            },
+            {
+              "bullet": "•",
+              "text": "Vérifier les détails du véhicule, appuyer sur confirmer"
+            },
+            {
+              "bullet": "•",
+              "text": "Sélectionner F4: BRAKE BLEED, appuyer sur entrée"
+            },
+            {
+              "bullet": "•",
+              "text": "Ouvrir tous les purgeurs, appuyer sur continuer"
+            },
+            {
+              "bullet": "•",
+              "text": "Actionner la pédale de frein plusieurs fois jusqu'à ce que le liquide sans bulles s'écoule"
+            },
+            {
+              "bullet": "•",
+              "text": "Appuyer sur continuer"
+            },
+            {
+              "bullet": "•",
+              "text": "Actionner la pédale de frein plusieurs fois jusqu'à ce que le liquide sans bulles s'écoule"
+            },
+            {
+              "bullet": "•",
+              "text": "Appuyer sur continuer"
+            },
+            {
+              "bullet": "•",
+              "text": "Actionner la pédale de frein plusieurs fois jusqu'à ce que le liquide sans bulles s'écoule"
+            },
+            {
+              "bullet": "•",
+              "text": "Appuyer sur continuer"
+            },
+            {
+              "bullet": "•",
+              "text": "Actionner la pédale de frein plusieurs fois jusqu'à ce que le liquide sans bulles s'écoule"
+            },
+            {
+              "bullet": "•",
+              "text": "Appuyer sur continuer"
+            },
+            {
+              "bullet": "•",
+              "text": "Éteindre la machine Tech2"
+            },
+            {
+              "bullet": "•",
+              "text": "Éteindre le contact"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Déconnecter la machine Tech2 du connecteur du faisceau",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Retirer l'équipement de purge du réservoir de liquide de frein",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Suivre les instructions de dépose du fabricant fournies avec"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Installer le filtre sur le réservoir de liquide de frein",
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Recharger le réservoir de liquide de frein au niveau correct",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser uniquement du liquide de frein DOT 4"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Fixer le bouchon sur le réservoir de liquide de frein",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Retirer le bocal de purge des 4x étriers de frein",
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Inspecter le système de freinage pour les fuites",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer le tendeur de pédale de frein KM-325"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/18e0714199ab.jpg",
+            "alt": "Object Number: 2419918  Size: DEFAULT"
+          },
+          "number": 15
+        },
+        {
+          "text": "Fermer le capot avant",
+          "number": 16,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-325"
+  ],
+  "notes": [
+    "Éteindre le contact\n 2x Technicien\nrequis"
+  ],
+  "type": "procedure",
+  "id": "brake-system-bleed-AQS315"
+}

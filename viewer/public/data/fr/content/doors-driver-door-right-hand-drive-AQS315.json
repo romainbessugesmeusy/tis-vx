@@ -1,0 +1,19 @@
+{
+  "title": "Portes - Porte conducteur",
+  "components": [
+    {
+      "description": "Moteur - Verrouillage central, porte conducteur",
+      "code": "M2"
+    },
+    {
+      "description": "Faisceau principal & Porte conducteur",
+      "code": "X14"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "doors-driver-door-right-hand-drive-AQS315",
+  "diagram": {
+    "src": "/data/assets/7e989bc71325.cgm",
+    "type": "cgm"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "title": "Ampoule, Phare, Remplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Ouvrir le capot avant pour accéder à l'écrou à l'arrière du bloc optique avant.",
+          "image": {
+            "src": "/data/assets/images/565b3e3db64a.jpg",
+            "alt": "Object Number: 7362235  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Bloc optique avant (1) du panneau avant – écrou, rondelle, support et connecteur de faisceau.",
+          "callouts": [
+            "1"
+          ],
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Ne pas déranger le cache éclaboussures (2) (si installé).",
+          "callouts": [
+            "2"
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Retirer le couvercle du bloc optique avant – vis.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Connecteur de faisceau de l'ampoule.",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Ampoule du bloc optique.",
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Ampoule sur le bloc optique.",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Connecteur de faisceau sur l'ampoule.",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Reposer le couvercle sur le bloc optique avant – vis.",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Bloc optique avant sur le panneau avant – connecteur de faisceau, support, rondelle et écrou.",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "S'assurer que le cache éclaboussures n'est pas dérangé (si installé).",
+          "number": 11,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "bulb-headlamp-replace-A26D1C"
+}

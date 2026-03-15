@@ -1,0 +1,7 @@
+{
+  "title": "capteur-de-température-du-liquide-de-refroidissement-A26D1C",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\r\n<DIV>\r\n<P  ><FONT STYLE=\"font-size: 12pt; \">          &nbsp;</FONT><P  ><FONT STYLE=\"font-size: 12pt;font-weight: bold; \"> Capteur de Température du Liquide de Refroidissement   &nbsp;</FONT><P  ><FONT STYLE=\"font-size: 12pt; \"> Le capteur de température du liquide de refroidissement est monté dans le boîtier du thermostat et est une thermistance, dont la résistance diminue lorsque la température du liquide de refroidissement augmente.   &nbsp;</FONT><P  ><FONT STYLE=\"font-size: 12pt; \"> La résistance du capteur de température du liquide de refroidissement est surveillée par l'unité de contrôle du moteur pour être utilisée dans le calcul de la quantité d'injection et dans le fonctionnement du ventilateur de refroidissement.           &nbsp;</FONT></DIV>\r\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "type": "generic",
+  "id": "coolant-temperature-sensor-A26D1C",
+  "extractedData": {}
+}

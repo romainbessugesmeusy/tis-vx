@@ -1,0 +1,121 @@
+{
+  "title": "Vérifier le diamètre intérieur du guide de soupape",
+  "phases": [
+    {
+      "label": "Assembler",
+      "steps": [
+        {
+          "text": "Conditions préalables : Soupapes déposées.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Outils spéciaux requis :",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "MKM-6216, MKM-6216-200/300/400",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Remarque : Les valeurs spécifiques au moteur se trouvent dans les \"Données techniques\" correspondantes.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Les composants du comparateur doivent être assemblés selon les instructions suivantes.",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Insérer l'extension (3) dans le support (2) et serrer. Insérer le calibre interne (4) dans l'extension et serrer. Fixer le support avec l'extension et le calibre interne au comparateur (1) avec une précontrainte d'environ 1 mm et serrer. Monter le disque de calibration (5) pour ajuster le comparateur sur le calibre interne. Ajuster le comparateur à zéro en tournant le cadran. Retirer soigneusement le disque de calibration.",
+          "callouts": [
+            "3",
+            "2",
+            "4",
+            "1",
+            "5"
+          ],
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "assemble",
+      "icon": "/data/assets/images/1e33bc0b1f5e.gif"
+    },
+    {
+      "label": "Mesurer",
+      "steps": [
+        {
+          "text": "Déterminer le diamètre intérieur du guide de soupape à trois niveaux différents, noter les valeurs. Calculer la valeur moyenne.",
+          "image": {
+            "src": "/data/assets/images/6bca28e792af.jpg",
+            "alt": "Object Number: 2418494  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Exemple de calcul :",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Diamètre intérieur du guide de soupape :",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Mesure I",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "7,025 mm",
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Mesure II",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "7,030 mm",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Mesure III",
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "7,020 mm",
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "21,075 mm",
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "7,025 mm",
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Valeur moyenne = 7,025",
+          "number": 18,
+          "image": null
+        }
+      ],
+      "phase": "measure",
+      "icon": "/data/assets/images/707731fa677f.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "inner-diameter-of-valve-guide-check-AQS315"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Valeurs de couple de serrage recommandées - Groupe H",
+  "group": "H",
+  "values": [
+    {
+      "component": "Boulons de roue",
+      "value": "90",
+      "unit": "Nm"
+    }
+  ],
+  "type": "torque_table",
+  "id": "recommended-torque-values-group-h-A26D1C"
+}

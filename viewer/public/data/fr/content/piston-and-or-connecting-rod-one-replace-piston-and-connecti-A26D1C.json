@@ -1,0 +1,90 @@
+{
+  "title": "Remplacer un piston et/ou une bielle (un), Déposer\n(piston et bielle retirés)",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Déposer le piston de la bielle. Noter : Noter la position de montage de la bielle et du piston.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer la bague d'arrêt (1)."
+            },
+            {
+              "bullet": "•",
+              "text": "Pousser le axe de piston."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f061f6d55480.jpg",
+            "alt": "Object Number: 2392963  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Reposer le piston sur la bielle.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Poser le axe de piston (2)."
+            },
+            {
+              "bullet": "•",
+              "text": "Reposer la bague d'arrêt."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f061f6d55480.jpg",
+            "alt": "Object Number: 2392963  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Poser les segments de piston.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser de nouveaux segments de piston."
+            },
+            {
+              "bullet": "••",
+              "text": "Segment intermédiaire du segment racleur d'huile en position, acier",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Premier segment de piston (segment rectangulaire) en\nposition"
+                },
+                {
+                  "bullet": "–",
+                  "text": "Deuxième segment de piston (segment Napier) en position"
+                },
+                {
+                  "bullet": "–",
+                  "text": "Segment intermédiaire du segment racleur d'huile en position, bagues en acier du segment racleur d'huile en position"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/aafd38daccc6.jpg",
+            "alt": "Object Number: 2417766  Size: DEFAULT"
+          },
+          "number": 3
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "warnings": [
+    "La flèche sur le\nsommet du piston pointe vers l'extrémité de la chaîne de distribution du moteur.",
+    "2.  \nReposer le piston sur la bielle.\n \n\n\n\nLa flèche sur le\nsommet du piston pointe vers l'extrémité de la chaîne de distribution du moteur.\n \n\n\n\n•  \nAppliquer de l'huile moteur sur le axe de piston.\n \n\n\n\n\n\n•  \nPoser le axe de piston (2).\n \n\n\n\n\n\n•  \nReposer la bague d'arrêt."
+  ],
+  "notes": [
+    "Déposer le piston de la bielle.\n Noter la\nposition de montage de la bielle et du piston.\n \n\n\n\n•  \nDéposer la bague d'arrêt (1).\n \n\n\n\n\n\n•  \nPousser le axe de piston.",
+    "Utiliser de nouveaux segments de piston.\n Lors de\nl'installation du deuxième segment de piston (segment Napier) : \"Punkt\" (=\npoint ou point) l'identification est orientée vers le haut."
+  ],
+  "type": "procedure",
+  "id": "piston-and-or-connecting-rod-one-replace-piston-and-connecti-A26D1C"
+}

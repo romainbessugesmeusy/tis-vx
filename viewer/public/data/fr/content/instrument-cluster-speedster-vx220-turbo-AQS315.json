@@ -1,0 +1,7 @@
+{
+  "title": "Tableau de bord – Speedster/VX220\nTurbo",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Tableau de bord – Speedster/VX220\nTurbo</p>\n\n<p class=\"para-before-list\">Le nouveau tableau de bord présente les\ncaractéristiques suivantes :</p>\n\n<ul type=\"disc\">\n<li>Nouveau fond argenté</li>\n\n<li>Nouvelle police de caractères</li>\n\n<li>Plage de vitesse pour le compteur de vitesse augmentée à 260 km/h</li>\n\n<li>Symboles alignés sur la norme ISO 7000 actuelle</li>\n\n<li>Nouveau indicateur de carburant, composé d'une barre horizontale de segments LCD</li>\n\n<li>Témoin d'alerte en cas de défaillance des freins (niveau de liquide de frein bas) combiné à la fonction de frein de stationnement enclenché</li>\n\n<li>Nouveau témoin d'alerte pour la ceinture de sécurité enclenchée</li>\n\n<li>Témoin d'alerte d'alarme combiné avec le témoin d'alerte « changement de vitesse »</li>\n</ul>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "type": "generic",
+  "id": "instrument-cluster-speedster-vx220-turbo-AQS315",
+  "extractedData": {}
+}

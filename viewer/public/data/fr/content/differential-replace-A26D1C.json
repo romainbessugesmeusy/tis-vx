@@ -1,0 +1,271 @@
+{
+  "title": "Différentiel, Remplacer",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Illustration du différentiel",
+          "image": {
+            "src": "/data/assets/images/b79ff2a5130c.jpg",
+            "alt": "Object Number: 2415656  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer la transmission du véhicule - voir l'opération « Transmission, Déposer et Reposer »",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Démonter la transmission - voir l'opération « Transmission, Joint d'étanchéité Complètement »",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déposer les roulements coniques du différentiel - voir l'opération « Roulements Coniques, Différentiel, Déposer et Reposer » Remarque : Lors du remplacement du différentiel, le réglage du peigne de pression doit être déterminé et ajusté si nécessaire. À cette fin, les roulements coniques doivent être retirés du différentiel",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "À des fins de réglage, la dimension de la cale côté carter de transmission (2) est d'abord déterminée. Cela est nécessaire pour le réglage du peigne de pression. Ensuite, la dimension de la cale côté carter d'embrayage (1) est déterminée. Cela est nécessaire pour l'ajustement de la précontrainte des roulements coniques du différentiel. Pour la détermination des cales pour la précontrainte des roulements, la priorité est toujours donnée à la détermination du côté transmission pour l'ajustement du peigne de pression",
+          "image": {
+            "src": "/data/assets/images/f391b99b407a.jpg",
+            "alt": "Object Number: 2416935  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Déterminer la dimension (I) (jeu en hauteur entre la couronne et le siège de roulement conique du différentiel - côté carter de transmission) à l'aide d'un pied à coulisse numérique disponible dans le commerce (1) avec une plage de mesure d'au moins 250 mm et un pas de 0,01 mm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Effectuer cette mesure à trois endroits de mesure régulièrement espacés"
+            },
+            {
+              "bullet": "•",
+              "text": "Ajouter les valeurs mesurées et diviser la somme par le nombre de"
+            },
+            {
+              "bullet": "•",
+              "text": "Ce calcul est illustré dans le tableau suivant"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/941dc83e781c.jpg",
+            "alt": "Object Number: 2416937  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 6
+        },
+        {
+          "text": "Le but du tableau suivant est d'expliquer le réglage du peigne de pression à l'aide d'un calcul d'exemple",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "La mesure est effectuée sur l'ancien différentiel avec l'ancienne couronne, puis sur le nouveau différentiel. Cela peut être fait avec une couronne neuve ou ancienne, en fonction de la nécessité de remplacer également la couronne. Pour le retrait et l'installation de la couronne du différentiel - voir l'opération « Couronne, Différentiel, Remplacer »",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Si une valeur diffère de plus de 0,08 mm des autres valeurs d'une mesure particulière, la mesure doit être répétée car une erreur de mesure s'est produite",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "La valeur moyenne pour l'ancien différentiel est ensuite soustraite de la valeur moyenne pour le nouveau différentiel. Si la différence de dimension entre l'ancien et le nouveau différentiel est supérieure à + 0,02-0,06 mm , le peigne de pression doit être ajusté",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "± Différence"
+            },
+            {
+              "bullet": "•",
+              "text": "± Différence"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Sélectionner la cale",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Si la différence est positive (+), alors la cale (côté transmission"
+            },
+            {
+              "bullet": "•",
+              "text": "Si la différence est négative (-), alors la cale (côté transmission"
+            },
+            {
+              "bullet": "•",
+              "text": "Si la cale (côté carter de transmission) (4) est plus épaisse, la"
+            },
+            {
+              "bullet": "•",
+              "text": "Si la cale (côté carter de transmission) (4) est plus mince, la"
+            },
+            {
+              "bullet": "•",
+              "text": "En d'autres termes, l'épaisseur totale des deux cales reste"
+            },
+            {
+              "bullet": "•",
+              "text": "Les cales correspondantes peuvent être obtenues auprès de la division « Pièces de Rechange »."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/21512f298655.jpg",
+            "alt": "Object Number: 2416929  Size: DEFAULT"
+          },
+          "number": 11
+        },
+        {
+          "text": "Des exemples d'utilisation des cales sont répertoriés dans le tableau ci-dessous",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Les cales doivent être sélectionnées de manière à obtenir la plus petite tolérance possible lors de l'ajustement Remarque : Les cales utilisées peuvent être réutilisées dans les opérations d'ajustement ultérieures à condition qu'elles ne soient pas endommagées",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "La cale (côté carter d'embrayage) est modifiée uniquement lors de l'ajustement ultérieur de la précontrainte des roulements pour le différentiel indépendamment de la cale (côté carter de transmission)",
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Mesurer les dimensions I, II et III à l'aide d'un pied à coulisse numérique disponible dans le commerce (1) avec une plage de mesure d'au moins 250 mm et un pas de 0,01 mm",
+          "image": {
+            "src": "/data/assets/images/2eedc463bf7c.jpg",
+            "alt": "Object Number: 2416934  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 15
+        },
+        {
+          "text": "Les dimensions II et III sont soustraites de la dimension I. Ce calcul est illustré dans le tableau suivant. Cette dimension dérivée IV correspond à la distance entre les sièges des roulements coniques du différentiel",
+          "image": {
+            "src": "/data/assets/images/2eedc463bf7c.jpg",
+            "alt": "Object Number: 2416934  Size: DEFAULT"
+          },
+          "number": 16
+        },
+        {
+          "text": "Le but du tableau suivant est d'expliquer le réglage du peigne de pression à l'aide d'un calcul d'exemple",
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Effectuer cette mesure à trois points de mesure régulièrement espacés sur le différentiel. Ajouter les valeurs de dimension IV calculées et diviser la somme par le nombre de mesures. Ce calcul est illustré dans le tableau suivant",
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "Cette mesure est effectuée de la même manière sur le nouveau différentiel",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Si la différence de hauteur entre l'ancien et le nouveau différentiel est"
+            },
+            {
+              "bullet": "•",
+              "text": "Si la différence de hauteur est inférieure à +"
+            },
+            {
+              "bullet": "•",
+              "text": "0,90 mm"
+            }
+          ],
+          "number": 19,
+          "image": null
+        },
+        {
+          "text": "L'épaisseur totale des deux cales reste la même tant que la hauteur du différentiel (dimension IV) ne change pas ou que l'écart reste inférieur à ± 0,04 mm . La détermination des cales pour l'ajustement de la précontrainte des roulements du différentiel est décrite dans le tableau ci-dessous Remarque : La dimension totale de la cale + la hauteur du différentiel (dimension IV) = reste constante ± 0,04 mm , pour le différentiel neuf et ancien. Cela signifie que l'ensemble différentiel et cale pour le nouveau différentiel doit avoir la même dimension que celle de l'ancien différentiel. L'ajustement a alors été effectué correctement",
+          "number": 20,
+          "image": null
+        },
+        {
+          "text": "Ajuster les cales",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Si la dimension IV pour le nouveau différentiel est plus grande que la dimension"
+            },
+            {
+              "bullet": "•",
+              "text": "Si le nouveau différentiel est plus court que l'ancien différentiel, la cale"
+            },
+            {
+              "bullet": "•",
+              "text": "1,05 mm"
+            },
+            {
+              "bullet": "•",
+              "text": "La plus petite tolérance possible est souhaitable pour l'ajustement. En"
+            }
+          ],
+          "number": 21,
+          "image": null
+        },
+        {
+          "text": "Lors du remplacement du différentiel et de la réutilisation des anciennes cages intérieures pour les roulements coniques (2, 3), celles-ci doivent être réinstallées - voir l'opération « Roulements Coniques, Différentiel, Déposer et Reposer »",
+          "image": {
+            "src": "/data/assets/images/a69523ee890d.jpg",
+            "alt": "Object Number: 2415657  Size: DEFAULT"
+          },
+          "number": 22
+        },
+        {
+          "text": "Lors de l'utilisation de nouvelles cages intérieures pour les roulements coniques du différentiel, les cages extérieures pour les roulements coniques (1, 4) doivent également être remplacées - voir l'opération « Roulements Coniques, Différentiel, Déposer et Reposer »",
+          "image": {
+            "src": "/data/assets/images/a69523ee890d.jpg",
+            "alt": "Object Number: 2415657  Size: DEFAULT"
+          },
+          "number": 23
+        },
+        {
+          "text": "Reposer la couronne du différentiel - voir l'opération « Couronne, Différentiel, Remplacer »",
+          "image": {
+            "src": "/data/assets/images/a69523ee890d.jpg",
+            "alt": "Object Number: 2415657  Size: DEFAULT"
+          },
+          "number": 24
+        },
+        {
+          "text": "Assembler la transmission - voir l'opération « Transmission, Joint d'étanchéité Complètement »",
+          "number": 25,
+          "image": null
+        },
+        {
+          "text": "Reposer la transmission sur le véhicule - voir l'opération « Transmission, Déposer et Reposer »",
+          "number": 26,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "warnings": [
+    "La prochaine mesure est\neffectuée sur les différentiels ancien et nouveau (2) sans roulement\nconique de différentiel et sans couronne. Cependant, la dimension de\nla cale (côté carter de transmission) qui a déjà été déterminée doit\négalement être prise en compte ; cette dimension doit être\nprioritaire pour les opérations d'ajustement sur le différentiel et\nne doit pas être modifiée lors de l'ajustement ultérieur"
+  ],
+  "notes": [
+    "Déposer les roulements coniques du différentiel - voir\nl'opération « Roulements Coniques, Différentiel, Déposer et\nReposer »\n Lors du remplacement du\ndifférentiel, le réglage du peigne de pression doit être déterminé et\najusté si nécessaire. À cette fin, les roulements coniques doivent\nêtre retirés du différentiel",
+    "Les cales doivent être sélectionnées de manière à obtenir la plus petite tolérance possible lors de l'ajustement\n Les cales utilisées peuvent être\nréutilisées dans les opérations d'ajustement ultérieures à condition\nqu'elles ne soient pas endommagées",
+    "L'épaisseur totale des deux cales reste la même tant que la hauteur du\ndifférentiel (dimension IV) ne change pas ou que l'écart reste\ninférieur à ± 0,04 mm .\nLa détermination des cales pour\nl'ajustement de la précontrainte des roulements du différentiel est\ndécrite dans le tableau ci-dessous\n La dimension\ntotale de la cale + la hauteur du différentiel (dimension IV) = reste\nconstante ± 0,04 mm , pour le différentiel neuf et ancien. Cela signifie\nque l'ensemble différentiel et cale pour le nouveau différentiel doit\navoir la même dimension que celle de l'ancien\ndifférentiel. L'ajustement a alors été effectué correctement"
+  ],
+  "type": "procedure",
+  "id": "differential-replace-A26D1C"
+}

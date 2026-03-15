@@ -1,0 +1,22 @@
+{
+  "title": "Field Remedy: 2133",
+  "subject": "Battery - Battery leaky",
+  "complaint": "Battery leaky.",
+  "cause": "Crack in battery housing etc.",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "En cas de réclamation client, Déposer les deux bornes du batterie. Nettoyer et vérifier soigneusement le batterie autour des zones des bornes pour tout dommage et fuite. Si une fissure ou autre forme de fuite est détectée, le batterie doit être remplacé. Vérifier la zone des bornes avec du papier indicateur numéro de pièce: 93173878 / numéro de catalogue: 90 97 522, s'il montre de l'acide, le concessionnaire doit changer le batterie, si le papier indicateur ne montre pas d'acide, le concessionnaire doit seulement nettoyer et graisser les bornes."
+    }
+  ],
+  "type": "tsb",
+  "id": "battery-battery-leaky-A26D1C",
+  "metadata": {
+    "functionalGroup": "N - Electrical Equipment",
+    "complaintGroup": "04 - Electrical failures,10 - Leakages",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  },
+  "production": ""
+}

@@ -1,0 +1,266 @@
+{
+  "title": "Jeu de pignons d'arbre d'équilibrage, Vérifier et Ajuster (Z20\nLET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le carter d'huile supérieur, voir l'opération « Remplacer le carter d'huile supérieur »",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Retirer le tube de prise d'huile du moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 2x vis de la pompe à huile (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer 2x vis de l'unité d'arbre d'équilibrage (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer, puis jeter le joint torique"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7e44e9fa5067.jpg",
+            "alt": "Object Number: 2422916  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Retirer la plaque de carénage avant de l'unité d'arbre d'équilibrage",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 2x vis (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/10db56d71e65.jpg",
+            "alt": "Object Number: 2422915  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Installer l'appareil de mesure de vis KM-949",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Régler le bras de mesure à la position 9 heures"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer la vis moletée courte (2) sur l'unité d'arbre d'équilibrage"
+            },
+            {
+              "bullet": "•",
+              "text": "Régler le cadran à zéro"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/55b53c3c7b10.jpg",
+            "alt": "Object Number: 2396297  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Mesurer le jeu de pignons d'arbre d'équilibrage",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Le jeu de pignons doit être mesuré en 4 endroits différents"
+            },
+            {
+              "bullet": "•",
+              "text": "Jeu admissible de 0,02 mm à"
+            },
+            {
+              "bullet": "•",
+              "text": "Utiliser la vis moletée (2) pour faire tourner l'arbre"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/55b53c3c7b10.jpg",
+            "alt": "Object Number: 2396297  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Retirer l'unité d'arbre d'équilibrage du moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 15x vis (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer la cale"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/eef04280dd04.jpg",
+            "alt": "Object Number: 2422920  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Vérifier le numéro d'identification par rapport au tableau",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Une seule cale doit être utilisée"
+            }
+          ],
+          "number": 7,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer l'unité d'arbre d'équilibrage sur le moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer la cale"
+            },
+            {
+              "bullet": "•",
+              "text": "Nettoyer toutes les surfaces d'assemblage"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Installer l'appareil de mesure de vis KM-949",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Régler le bras de mesure à la position 9 heures"
+            },
+            {
+              "bullet": "•",
+              "text": "Faire tourner l'arbre"
+            },
+            {
+              "bullet": "•",
+              "text": "Régler le cadran à zéro"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/55b53c3c7b10.jpg",
+            "alt": "Object Number: 2396297  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Mesurer le jeu de pignons d'arbre d'équilibrage (5)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Le jeu de pignons doit être mesuré en 4 endroits différents"
+            },
+            {
+              "bullet": "•",
+              "text": "Jeu admissible de 0,02 mm à"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/55b53c3c7b10.jpg",
+            "alt": "Object Number: 2396297  Size: DEFAULT"
+          },
+          "callouts": [
+            "5"
+          ],
+          "number": 10
+        },
+        {
+          "text": "Retirer l'appareil de mesure de vis KM-949 de l'unité d'arbre d'équilibrage",
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Installer le tube de prise d'huile sur le moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 2x vis sur la pompe à huile"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer 2x vis sur l'unité d'arbre d'équilibrage"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer un nouveau joint torique"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Installer la plaque de carénage avant sur l'unité d'arbre d'équilibrage",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 2x vis 8 Nm"
+            }
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Installer le carter d'huile supérieur, voir l'opération « Remplacer le carter d'huile supérieur »",
+          "number": 14,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Installer l'unité d'arbre d'équilibrage sur le moteur",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Installer la plaque de carénage avant sur l'unité d'arbre d'équilibrage",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Installer 15x vis 20 Nm + 45° – Nettoyer toutes les surfaces d'assemblage",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer 2x vis 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-949",
+    "KM-798"
+  ],
+  "notes": [
+    "Une seule cale doit être utilisée\n Chaque cale a une épaisseur de 0,02\nmm."
+  ],
+  "type": "procedure",
+  "id": "balancer-shaft-backlash-check-and-adjust-z20-let-AQS315"
+}

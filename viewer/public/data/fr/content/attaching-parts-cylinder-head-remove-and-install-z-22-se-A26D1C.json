@@ -1,0 +1,443 @@
+{
+  "title": "Fixation des pièces, Culasse, Déposer et Reposer\n(Z 22 SE)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer la vanne de recirculation des gaz d'échappement.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 vis"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer le joint."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0f326df82d26.jpg",
+            "alt": "Object Number: 2417946  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer le tuyau de distribution de carburant.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 vis (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0f326df82d26.jpg",
+            "alt": "Object Number: 2417946  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Déposer la connexion du collier de liquide de refroidissement.",
+          "image": {
+            "src": "/data/assets/images/6f34551b7cfe.jpg",
+            "alt": "Object Number: 2417985  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Déposer les bougies d'allumage.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser une douille pour bougie d'allumage KM-194-E"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6f34551b7cfe.jpg",
+            "alt": "Object Number: 2417985  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Déposer le couvercle du collier de liaison de l'arbre à cames (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 vis (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7633e0412b84.jpg",
+            "alt": "Object Number: 2417776  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Déposer l'arbre à cames d'admission.",
+          "substeps": [
+            {
+              "bullet": "••",
+              "text": "Inspecter visuellement l'arbre à cames et les paliers d'arbre à cames pour",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Travailler en spirale de l'extérieur vers le milieu, desserrer les boulons des chapeaux de palier d'arbre à cames (I à VI) d'1/2 à 1 tour à chaque fois.\n Note:   L'arbre à cames doit\nêtre retiré uniformément des paliers."
+                },
+                {
+                  "bullet": "–",
+                  "text": "Retirer l'arbre à cames."
+                },
+                {
+                  "bullet": "–",
+                  "text": "Inspecter visuellement l'arbre à cames et les paliers d'arbre à cames pour\nusure.\n Note:   La culasse\ndoit être remplacée si les paliers d'arbre à cames sont défectueux."
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/22ccec93c03d.jpg",
+            "alt": "Object Number: 2417779  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Retirer les poussoirs de cames à rouleaux.",
+          "image": {
+            "src": "/data/assets/images/e31acd9944c1.jpg",
+            "alt": "Object Number: 2417780  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Retirer les tappets hydrauliques.",
+          "image": {
+            "src": "/data/assets/images/01becda511ac.jpg",
+            "alt": "Object Number: 2417957  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Retirer l'arbre à cames d'échappement.",
+          "substeps": [
+            {
+              "bullet": "••",
+              "text": "Inspecter visuellement l'arbre à cames et les paliers d'arbre à cames pour",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Travailler en spirale de l'extérieur vers le milieu, desserrer les boulons des chapeaux de palier d'arbre à cames (I à VI) d'1/2 à 1 tour à chaque fois.\n Note:   L'arbre à cames doit\nêtre retiré uniformément des paliers."
+                },
+                {
+                  "bullet": "–",
+                  "text": "Retirer l'arbre à cames."
+                },
+                {
+                  "bullet": "–",
+                  "text": "Inspecter visuellement l'arbre à cames et les paliers d'arbre à cames pour\nusure.\n Note:   La culasse\ndoit être remplacée si les paliers d'arbre à cames sont défectueux."
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/96266c02cf55.jpg",
+            "alt": "Object Number: 2417781  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Retirer les poussoirs de cames à rouleaux.",
+          "image": {
+            "src": "/data/assets/images/e4932ffb0eb5.jpg",
+            "alt": "Object Number: 2417782  Size: DEFAULT"
+          },
+          "number": 10
+        },
+        {
+          "text": "Retirer les tappets hydrauliques.",
+          "image": {
+            "src": "/data/assets/images/f6de7b1db91c.jpg",
+            "alt": "Object Number: 2417958  Size: DEFAULT"
+          },
+          "number": 11
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Insérer les tappets hydrauliques.",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Insérer les poussoirs de cames à rouleaux.",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Installer l'arbre à cames d'échappement.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enduire les surfaces de glissement d'huile moteur."
+            },
+            {
+              "bullet": "•",
+              "text": "Insérer l'arbre à cames et les paliers d'arbre à cames."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1cf11cc8f755.jpg",
+            "alt": "Object Number: 2417784  Size: DEFAULT"
+          },
+          "number": 14
+        },
+        {
+          "text": "Insérer les tappets hydrauliques.",
+          "image": {
+            "src": "/data/assets/images/1cf11cc8f755.jpg",
+            "alt": "Object Number: 2417784  Size: DEFAULT"
+          },
+          "number": 15
+        },
+        {
+          "text": "Insérer les poussoirs de cames à rouleaux.",
+          "image": {
+            "src": "/data/assets/images/1cf11cc8f755.jpg",
+            "alt": "Object Number: 2417784  Size: DEFAULT"
+          },
+          "number": 16
+        },
+        {
+          "text": "Installer l'arbre à cames d'admission.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Nettoyer les surfaces d'étanchéité du chapeau de palier d'arbre à cames n° 11."
+            },
+            {
+              "bullet": "•",
+              "text": "Enduire les surfaces de glissement d'huile moteur."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/92e7d2e2b07e.jpg",
+            "alt": "Object Number: 2417785  Size: DEFAULT"
+          },
+          "number": 17
+        },
+        {
+          "text": "Installer les chapeaux de palier d'arbre à cames.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enduire les surfaces d'étanchéité du chapeau de palier d'arbre à cames n° 6 avec"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/57a20e800b98.jpg",
+            "alt": "Object Number: 2417783  Size: DEFAULT"
+          },
+          "number": 18
+        },
+        {
+          "text": "Travailler en spirale du milieu vers l'extérieur, serrer progressivement les boulons des chapeaux de palier d'arbre à cames (I à VI).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Couple de serrage (M6) 9 Nm ,"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7d57fae74f78.jpg",
+            "alt": "Object Number: 2417786  Size: DEFAULT"
+          },
+          "number": 19
+        },
+        {
+          "text": "Fixer le couvercle du collier de liaison de l'arbre à cames.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser un nouveau joint."
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 23 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7d57fae74f78.jpg",
+            "alt": "Object Number: 2417786  Size: DEFAULT"
+          },
+          "number": 20
+        },
+        {
+          "text": "Installer les bougies d'allumage.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser une douille pour bougie d'allumage KM-194-E"
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 20 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7d57fae74f78.jpg",
+            "alt": "Object Number: 2417786  Size: DEFAULT"
+          },
+          "number": 21
+        },
+        {
+          "text": "Installer la connexion du collier de liquide de refroidissement.",
+          "image": {
+            "src": "/data/assets/images/7d57fae74f78.jpg",
+            "alt": "Object Number: 2417786  Size: DEFAULT"
+          },
+          "number": 22
+        },
+        {
+          "text": "Installer le tuyau de distribution de carburant.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enduire les nouveaux joints d'huile moteur et les insérer."
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 9 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7d57fae74f78.jpg",
+            "alt": "Object Number: 2417786  Size: DEFAULT"
+          },
+          "number": 23
+        },
+        {
+          "text": "Nettoyer les surfaces d'étanchéité.",
+          "number": 24,
+          "image": null
+        },
+        {
+          "text": "Installer la vanne de recirculation des gaz d'échappement.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser un nouveau joint."
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 23 Nm"
+            }
+          ],
+          "number": 25,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Installer l'arbre à cames d'échappement.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 14
+    },
+    {
+      "component": "Travailler en spirale du milieu vers l'extérieur, serrer progressivement les boulons des chapeaux de palier d'arbre à cames (I à VI).",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 19
+    },
+    {
+      "component": "Travailler en spirale du milieu vers l'extérieur, serrer progressivement les boulons des chapeaux de palier d'arbre à cames (I à VI).",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 19
+    },
+    {
+      "component": "Fixer le couvercle du collier de liaison de l'arbre à cames.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 20
+    },
+    {
+      "component": "Installer les bougies d'allumage.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 21
+    },
+    {
+      "component": "Installer le tuyau de distribution de carburant.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 23
+    },
+    {
+      "component": "Installer la vanne de recirculation des gaz d'échappement.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 25
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage (M6) 9 Nm , (M8) 22 Nm",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-194-E"
+  ],
+  "warnings": [
+    "Noter l'allocation correcte.",
+    "7.  \nRetirer les poussoirs de cames à rouleaux.\n \n\n\n\nNoter l'allocation correcte.\n \n\n\n\n•  \n8 pièces\n Note:   Les poussoirs de cames\nà rouleaux doivent être remplacés lors de l'installation d'un nouvel arbre à cames.",
+    "8.  \nRetirer les tappets hydrauliques.\n \n\n\n\nNoter l'allocation correcte.\n \n\n\n\n•  \n8 pièces",
+    "10.  \nRetirer les poussoirs de cames à rouleaux.\n \n\n\n\nNoter l'allocation correcte.\n \n\n\n\n•  \n8 pièces\n Note:   Les poussoirs de cames\nà rouleaux doivent être remplacés lors de l'installation d'un nouvel arbre à cames.",
+    "11.  \nRetirer les tappets hydrauliques.\n \n\n\n\nNoter l'allocation correcte.\n \n\n\n\n•  \n8 pièces",
+    "12.  \nInsérer les tappets hydrauliques.\n \n\n\n\nNoter l'allocation correcte.\n \n\n\n\n•  \nEnduire les surfaces de glissement d'huile moteur.",
+    "13.  \nInsérer les poussoirs de cames à rouleaux.\n \n\n\n\nNoter l'allocation correcte.\n \n\n\n\n•  \nEnduire les surfaces de glissement d'huile moteur.",
+    "Noter les\nmarquages d'identification et l'allocation correcte, la flèche (1)\ndoit pointer vers l'extrémité de la chaîne de distribution.",
+    "14.  \nInstaller l'arbre à cames d'échappement.\n \n\n\n\n•  \nEnduire les surfaces de glissement d'huile moteur.\n \n\n\n\n\n\n•  \nInsérer l'arbre à cames et les paliers d'arbre à cames.\n \n\n\n\n\n\nNoter les\nmarquages d'identification et l'allocation correcte, la flèche (1)\ndoit pointer vers l'extrémité de la chaîne de distribution.\n \n\n\n\n•  \nInstaller les chapeaux de palier d'arbre à cames.\n \n\n\n\n–\nTravailler en spirale du milieu vers l'extérieur, serrer progressivement les boulons des chapeaux de palier d'arbre à cames (I à V) en\nétapes.\n \n\n\n\n\n\n–\nCouple de serrage 9 Nm",
+    "15.  \nInsérer les tappets hydrauliques.\n \n\n\n\nNoter l'allocation correcte.\n \n\n\n\n•  \nEnduire les surfaces de glissement d'huile moteur.",
+    "16.  \nInsérer les poussoirs de cames à rouleaux.\n \n\n\n\nNoter l'allocation correcte.\n \n\n\n\n•  \nEnduire les surfaces de glissement d'huile moteur.",
+    "17.  \nInstaller l'arbre à cames d'admission.\n \n\n\n\n•  \nNettoyer les surfaces d'étanchéité du chapeau de palier d'arbre à cames n° 11.\n \n\n\n\n\n\n•  \nEnduire les surfaces de glissement d'huile moteur.\n \n\n\n\n\n\nNoter les\nmarquages d'identification et l'allocation correcte, la flèche (1)\ndoit pointer vers l'extrémité de la chaîne de distribution.\n \n\n\n\n•  \nInsérer l'arbre à cames et les paliers d'arbre à cames."
+  ],
+  "notes": [
+    "Retirer les chapeaux de palier d'arbre à cames.\n Noter le marquage d'identification (1).\n \n\n\n\n–\nTravailler en spirale de l'extérieur vers le\nmilieu, desserrer les boulons des chapeaux de palier d'arbre à cames (I à VI)\nd'1/2 à 1 tour à chaque fois.\n Note:   L'arbre à cames doit\nêtre retiré uniformément des paliers.\n \n\n\n\n\n\n–\nRetirer l'arbre à cames.\n \n\n\n\n\n\n–\nInspecter visuellement l'arbre à cames et les paliers d'arbre à cames pour\nusure.\n Note:   La culasse\ndoit être remplacée si les paliers d'arbre à cames sont défectueux.",
+    "Travailler en spirale de l'extérieur vers le\nmilieu, desserrer les boulons des chapeaux de palier d'arbre à cames (I à VI)\nd'1/2 à 1 tour à chaque fois.\n L'arbre à cames doit\nêtre retiré uniformément des paliers.",
+    "Inspecter visuellement l'arbre à cames et les paliers d'arbre à cames pour\nusure.\n La culasse\ndoit être remplacée si les paliers d'arbre à cames sont défectueux.",
+    "8 pièces\n Les poussoirs de cames\nà rouleaux doivent être remplacés lors de l'installation d'un nouvel arbre à cames."
+  ],
+  "type": "procedure",
+  "id": "attaching-parts-cylinder-head-remove-and-install-z-22-se-A26D1C"
+}

@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Tightening torque 53 Nm + 25°",
+      "value": "53",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "crankshaft-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "cylinder-head-cover-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "cylinder-head-cover-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the ignition module.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "cylinder-head-cover-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the rear engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 9,
+      "sourcePage": "cylinder-head-cover-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-cover-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-cover-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-cover-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Drain the coolant.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 22,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Drain the engine oil.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 24,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head.",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 60,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head.",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 60,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tighten the camshaft sprockets.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 67,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the guide rail.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 69,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the camshaft timing chain guide rail.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 71,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the camshaft timing chain guide rail.",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": 71,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the camshaft timing chain tensioner.",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 73,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the intake manifold.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 79,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the exhaust gas recirculation pipe.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 81,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the exhaust gas recirculation pipe.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 81,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the engine control unit.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 89,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the engine control unit.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 89,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the oil dipstick guide tube.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 92,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the exhaust manifold.",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": 93,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the front exhaust pipe.",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": 96,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tighten the rear wheels.",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 103,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the upper heat shield.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 104,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the lower heat shield.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 105,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 106,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 106,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the ignition module.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 107,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Connect the fuel lines.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 108,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the rear engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 111,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque (M10) 30 Nm + 75° + 75° + 15°",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 35 Nm",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 85 Nm + 30° + 15°",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 65 Nm",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 75 Nm",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 12 Nm",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 16 Nm",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the ignition module control unit.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 5,
+      "sourcePage": "dis-ignition-module-control-unit-replace-A26D1C"
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "dis-ignition-module-control-unit-replace-A26D1C"
+    }
+  ]
+}

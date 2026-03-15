@@ -1,0 +1,320 @@
+{
+  "title": "Bloc d'amortissement du moteur, côté gauche, Remplacer (Z20\nLET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le cache-moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Élever le véhicule"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer 13x vis, 13x rondelle"
+            }
+          ],
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le bloc d'amortissement du moteur du châssis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer l'écrou (1), puis jeter"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/589f45eff569.jpg",
+            "alt": "Object Number: 2423012  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Abaisser le véhicule à une hauteur de travail appropriée",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Reposer le support moteur sur l'ensemble moteur et transmission",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Retirer la roue arrière droite",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser une douille spéciale située sous le capot avant"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer 4x boulon de roue"
+            }
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Retirer le revêtement de passage de roue arrière gauche",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 4x vis, 2x agrafe"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Déposer le réservoir de liquide de refroidissement (1) du support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Faire glisser"
+            },
+            {
+              "bullet": "•",
+              "text": "Débrancher le capteur de niveau de liquide de refroidissement"
+            },
+            {
+              "bullet": "•",
+              "text": "Déplacer le réservoir de liquide de refroidissement sur le côté"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/63da1de13396.jpg",
+            "alt": "Object Number: 2423013  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 7
+        },
+        {
+          "text": "Déposer le support de montage (1) du bloc d'amortissement du moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer l'écrou (2), puis jeter"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a948fbc994b8.jpg",
+            "alt": "Object Number: 2423014  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 8
+        },
+        {
+          "text": "Retirer le support de montage (1) du bloc d'amortissement du moteur et de la transmission",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 3x vis (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/72fbb37086de.jpg",
+            "alt": "Object Number: 2423015  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 9
+        },
+        {
+          "text": "Retirer le bloc d'amortissement du moteur (1) du châssis",
+          "image": {
+            "src": "/data/assets/images/3633ebaa4154.jpg",
+            "alt": "Object Number: 2423017  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 10
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le nouveau bloc d'amortissement du moteur (1) sur le châssis Remarque : S'assurer que la patte de positionnement (2) sur le bloc d'amortissement du moteur se positionne dans le trou du châssis (3).",
+          "image": {
+            "src": "/data/assets/images/35bcd6485c38.jpg",
+            "alt": "Object Number: 2423019  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2",
+            "3"
+          ],
+          "number": 11
+        },
+        {
+          "text": "Reposer le support de montage sur la transmission et le bloc d'amortissement du moteur Remarque : S'assurer que la patte de positionnement (1) sur le bloc d'amortissement du moteur se positionne dans le trou du support de montage (2). Remarque : L'illustration montre les pièces retirées pour plus de clarté.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Appliquer du frein filet"
+            },
+            {
+              "bullet": "•",
+              "text": "Utiliser un nouvel écrou"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c53476a828a9.jpg",
+            "alt": "Object Number: 2423018  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 12
+        },
+        {
+          "text": "Fixer le réservoir de liquide de refroidissement au support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Connecter le capteur de niveau de liquide de refroidissement"
+            },
+            {
+              "bullet": "•",
+              "text": "Faire glisser"
+            }
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Reposer le revêtement de passage de roue arrière gauche",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 4x vis, 2x agrafe"
+            }
+          ],
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Reposer la roue arrière gauche",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 4x boulon, boulon de sécurité"
+            },
+            {
+              "bullet": "•",
+              "text": "Ne pas serrer"
+            }
+          ],
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Élever le véhicule",
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Retirer le support moteur de l'ensemble moteur et transmission",
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Fixer le bloc d'amortissement du moteur au châssis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser un nouvel écrou"
+            }
+          ],
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "Reposer le cache-moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 13x vis, 13x rondelle"
+            }
+          ],
+          "number": 19,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 20,
+          "image": null
+        },
+        {
+          "text": "Fixer la roue arrière gauche",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer 4x boulon, boulon de sécurité à 90"
+            }
+          ],
+          "number": 21,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer le support de montage sur la transmission et le bloc d'amortissement du moteur Remarque : S'assurer que la patte de positionnement (1) sur le bloc d'amortissement du moteur se positionne dans le trou du support de montage (2). Remarque : L'illustration montre les pièces retirées pour plus de clarté.",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Fixer le bloc d'amortissement du moteur au châssis",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": 18
+    },
+    {
+      "component": "Fixer la roue arrière gauche",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 21
+    },
+    {
+      "component": "Reposer 3x vis 48 Nm – Appliquer du frein filet",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 4x boulon, boulon de sécurité à 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "Un pont à quatre colonnes doit être utilisé pour soulever le véhicule lors du retrait du cache-moteur. Le véhicule peut être déplacé vers un pont à deux colonnes pour d'autres opérations si nécessaire.",
+    "Ne pas supporter sur le carter d'huile."
+  ],
+  "notes": [
+    "Reposer le nouveau bloc d'amortissement du moteur (1) sur le châssis S'assurer que la patte de positionnement (2) sur le bloc d'amortissement du moteur se positionne dans le trou du châssis (3).",
+    "Reposer le support de montage sur la transmission et le bloc d'amortissement du moteur S'assurer que la patte de positionnement (1) sur le bloc d'amortissement du moteur se positionne dans le trou du support de montage (2). Note : L'illustration montre les pièces retirées pour plus de clarté. • Installer 3x vis 48 Nm – Appliquer du frein filet • Installer un écrou 48 Nm – Utiliser un nouvel écrou"
+  ],
+  "type": "procedure",
+  "id": "engine-damping-block-left-side-replace-z20-let-AQS315"
+}

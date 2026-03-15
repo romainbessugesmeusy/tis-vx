@@ -1,0 +1,130 @@
+{
+  "title": "Embrayage, Remplacer le carter d'embrayage",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Illustration du carter d'embrayage",
+          "image": {
+            "src": "/data/assets/images/fe8e8d0be57d.jpg",
+            "alt": "Object Number: 2415584  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer la transmission du véhicule - voir l'opération «Transmission, Déposer et Reposer»",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Démonter la transmission - voir l'opération «Transmission, Joint d'étanchéité Complètement»",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déposer la bague extérieure du roulement à rouleaux coniques pour le différentiel (1) - voir l'opération «Roulement à Rouleaux Coniques, Différentiel, Remplacer»",
+          "image": {
+            "src": "/data/assets/images/8c8f81f17caf.jpg",
+            "alt": "Object Number: 2415585  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Déposer le roulement d'arbre intermédiaire (3) - voir l'opération «Roulements, Arbre Intermédiaire dans le Carter d'Embrayage, Remplacer»",
+          "image": {
+            "src": "/data/assets/images/8c8f81f17caf.jpg",
+            "alt": "Object Number: 2415585  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Déposer le roulement d'arbre de transmission (4) - voir l'opération «Roulements, Arbre de Transmission dans le Carter d'Embrayage, Remplacer»",
+          "image": {
+            "src": "/data/assets/images/8c8f81f17caf.jpg",
+            "alt": "Object Number: 2415585  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ],
+          "number": 6
+        },
+        {
+          "text": "Déposer le roulement d'arbre principal (2) - voir l'opération «Roulements, Arbre Principal dans le Carter d'Embrayage, Remplacer»",
+          "image": {
+            "src": "/data/assets/images/8c8f81f17caf.jpg",
+            "alt": "Object Number: 2415585  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 7
+        },
+        {
+          "text": "Reposer le roulement d'arbre principal (2) - voir l'opération «Roulements, Arbre Principal dans le Carter d'Embrayage, Remplacer»",
+          "image": {
+            "src": "/data/assets/images/8c8f81f17caf.jpg",
+            "alt": "Object Number: 2415585  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 8
+        },
+        {
+          "text": "Reposer le roulement d'arbre de transmission (4) - voir l'opération «Roulements, Arbre de Transmission dans le Carter d'Embrayage, Remplacer»",
+          "image": {
+            "src": "/data/assets/images/8c8f81f17caf.jpg",
+            "alt": "Object Number: 2415585  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ],
+          "number": 9
+        },
+        {
+          "text": "Reposer le roulement d'arbre intermédiaire (3) - voir l'opération «Roulements, Arbre Intermédiaire dans le Carter d'Embrayage, Remplacer»",
+          "image": {
+            "src": "/data/assets/images/8c8f81f17caf.jpg",
+            "alt": "Object Number: 2415585  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ],
+          "number": 10
+        },
+        {
+          "text": "Reposer la bague extérieure du roulement à rouleaux coniques pour le différentiel (1) - voir l'opération «Roulement à Rouleaux Coniques, Différentiel, Remplacer»",
+          "image": {
+            "src": "/data/assets/images/8c8f81f17caf.jpg",
+            "alt": "Object Number: 2415585  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 11
+        },
+        {
+          "text": "Assembler la transmission - voir l'opération «Transmission, Joint d'étanchéité Complètement»",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Reposer la transmission dans le véhicule - voir l'opération «Transmission, Déposer et Reposer»",
+          "number": 13,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "type": "procedure",
+  "id": "clutch-housing-replace-A26D1C"
+}

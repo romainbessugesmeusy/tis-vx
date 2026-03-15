@@ -1,0 +1,255 @@
+{
+  "title": "Capteur, Cognement Moteur, Remplacer (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Débrancher la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer le réservoir de lave-glace, puis déplacer sur le côté"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer l'écrou, la vis"
+            }
+          ],
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le connecteur de faisceau (1) du capteur d'oxygène principal du support (2)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer l'agrafe (5)"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer la attache de câble, puis jeter"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0412b5176955.jpg",
+            "alt": "Object Number: 2422500  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Déposer le support (2), puis déplacer sur le côté",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer 4x vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0412b5176955.jpg",
+            "alt": "Object Number: 2422500  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Déposer le connecteur de faisceau (3) du capteur de cognement du support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Faire glisser"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer 2x attache de câble, puis jeter"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0412b5176955.jpg",
+            "alt": "Object Number: 2422500  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Débrancher le connecteur de faisceau (4) du capteur de cognement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Libérer l'agrafe intégrée"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0412b5176955.jpg",
+            "alt": "Object Number: 2422500  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Déposer le cache-moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Élever le véhicule"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer 13x vis, 13x rondelle"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Retirer le capteur de cognement (1) du bloc-cylindres du moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer la vis (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/54a89889e49b.jpg",
+            "alt": "Object Number: 2422501  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 7
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le capteur de cognement sur le bloc-cylindres du moteur 20 Nm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer la vis"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Reposer le cache-moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 13x vis, 13x rondelle"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Connecter le connecteur de faisceau au capteur de cognement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe intégrée"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Fixer le connecteur de faisceau pour le capteur de cognement au support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 2x nouvelle attache de câble"
+            },
+            {
+              "bullet": "•",
+              "text": "Faire glisser sur"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Fixer le support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 4x vis"
+            }
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Fixer le connecteur de faisceau pour le capteur d'oxygène principal au support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer nouvelle attache de câble"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe"
+            }
+          ],
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Brancher la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer écrou, vis"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer le réservoir de lave-glace"
+            }
+          ],
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Programmer tous les souvenirs volatils",
+          "number": 16,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer le capteur de cognement sur le bloc-cylindres du moteur 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 8
+    }
+  ],
+  "warnings": [
+    "Un pont élévateur à quatre colonnes doit être utilisé pour élever le véhicule lors du retrait du cache-moteur. Le véhicule peut être déplacé vers un pont élévateur à deux colonnes pour d'autres opérations si nécessaire."
+  ],
+  "type": "procedure",
+  "id": "sensor-engine-knock-replace-z-20-let-AQS315"
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Vérification de la tension de la courroie striée en V (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Inspecter",
+      "steps": [
+        {
+          "text": "La tension de la courroie striée en V est ajustée via un tendeur automatique de courroie striée en V.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "La position du bras de tension mobile (1) pour le tendeur de courroie striée en V peut être vérifiée. Il doit être situé entre les butées (2).",
+          "image": {
+            "src": "/data/assets/images/cba64c101675.jpg",
+            "alt": "Object Number: 2421988  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Si le bras de tension mobile (1) du tendeur de courroie striée en V est situé sur l'une des butées (2), remplacer la courroie striée en V et le tendeur de courroie striée en V - voir les opérations «Remplacer la courroie striée en V» et «Remplacer le tendeur de courroie striée en V».",
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 3,
+          "image": null
+        }
+      ],
+      "phase": "inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "ribbed-v-belt-tension-check-z-20-let-AQS315"
+}

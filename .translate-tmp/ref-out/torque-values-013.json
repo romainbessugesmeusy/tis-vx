@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Reposer le cache de la culasse",
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 160
+    },
+    {
+      "component": "Reposer le cache de la culasse",
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 160
+    },
+    {
+      "component": "Reposer le module d'allumage.",
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 161
+    },
+    {
+      "component": "Connecter les conduites de carburant.",
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 162
+    },
+    {
+      "component": "Reposer le cache arrière du moteur.",
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 165
+    },
+    {
+      "component": "Couple de serrage 20 Nm",
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 25 Nm",
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Au carter de cylindre de base – couple de serrage 23 Nm",
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage (M10) 30 Nm + 75° + 75° + 15°",
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 35 Nm",
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 85 Nm + 30° + 15°",
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 8 Nm",
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 10 Nm",
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 65 Nm",
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 75 Nm",
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 12 Nm",
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 16 Nm",
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 90 Nm",
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 vis, couple de serrage 14 Nm",
+      "sourcePage": "pistons-and-connecting-rods-remove-and-install-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Conduite de pression vers le déverrouillage central – 14 Nm .",
+      "sourcePage": "pressure-line-clutch-central-release-remove-and-install-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Utiliser KM-194-E , bougies d'allumage 25 Nm.",
+      "sourcePage": "pressure-loss-check-z-22-se-z-20-let-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 30
+    },
+    {
+      "component": "Fixer 2x roue arrière",
+      "sourcePage": "rear-clamshell-remove-and-install-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 72
+    },
+    {
+      "component": "Installer le boulon d'ancrage supérieur de la ceinture de sécurité du siège conducteur au montant B",
+      "sourcePage": "rear-clamshell-remove-and-install-A26D1C",
+      "value": "33",
+      "unit": "Nm",
+      "stepRef": 76
+    },
+    {
+      "component": "Installer le boulon d'ancrage supérieur de la ceinture de sécurité du siège passager au montant B",
+      "sourcePage": "rear-clamshell-remove-and-install-A26D1C",
+      "value": "33",
+      "unit": "Nm",
+      "stepRef": 77
+    },
+    {
+      "component": "Positionner le siège passager, puis installer le boulon d'ancrage inférieur de la ceinture de sécurité",
+      "sourcePage": "rear-clamshell-remove-and-install-A26D1C",
+      "value": "33",
+      "unit": "Nm",
+      "stepRef": 78
+    },
+    {
+      "component": "Installer le siège passager",
+      "sourcePage": "rear-clamshell-remove-and-install-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 79
+    },
+    {
+      "component": "Serrer 8x vis, 2x vis de sécurité 90 Nm – Utiliser une douille spéciale située sous le capot avant",
+      "sourcePage": "rear-clamshell-remove-and-install-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer, puis serrer la vis 33 Nm",
+      "sourcePage": "rear-clamshell-remove-and-install-A26D1C",
+      "value": "33",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer, puis serrer 4x vis 25 Nm",
+      "sourcePage": "rear-clamshell-remove-and-install-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Vis supérieures du sous–cadre arrière (1 et 2)– 45 Nm .",
+      "sourcePage": "rear-subframe-remove-and-install-z22-se-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 45
+    },
+    {
+      "component": "Support droit (4) –3 vis 85 Nm , 1 écrou.",
+      "sourcePage": "rear-subframe-remove-and-install-z22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 51
+    },
+    {
+      "component": "Vis, bloc d'amortissement arrière du moteur à la transmission – 86 Nm .",
+      "sourcePage": "rear-subframe-remove-and-install-z22-se-A26D1C",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": 58
+    },
+    {
+      "component": "Vis, bloc d'amortissement arrière du moteur au sous–cadre arrière – 49 Nm .",
+      "sourcePage": "rear-subframe-remove-and-install-z22-se-A26D1C",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 59
+    },
+    {
+      "component": "Vis inférieures du sous–cadre arrière (3 et 4)– 45 Nm .",
+      "sourcePage": "rear-subframe-remove-and-install-z22-se-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Triangle de suspension inférieur gauche (1) – 1 vis 45 Nm et 1 écrou (flèche) 49 Nm ; s'assurer que la vis de longueur correcte, 65 mm (mesurée de la base de la vis à la tête de vis), est installée.",
+      "sourcePage": "rear-subframe-remove-and-install-z22-se-A26D1C",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer la roue arrière",
+      "sourcePage": "rear-wheel-arch-liner-remove-and-install-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Installer 4 vis, installer la vis de verrouillage 90 Nm",
+      "sourcePage": "rear-wheel-arch-liner-remove-and-install-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Boulons de charnière, porte",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis du support de crochet de remorquage",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A",
+      "value": "25",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis du sous–cadre arrière",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis du bras de support, arceau de sécurité",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Écrou du bloc d'amortissement du moteur, gauche et droit",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis du support, droit, bloc d'amortissement du moteur",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A",
+      "value": "85",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis du support, gauche, bloc d'amortissement du moteur",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis du bloc d'amortissement du moteur, arrière à la transmission",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A",
+      "value": "86",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis du bloc d'amortissement du moteur, arrière au sous–cadre arrière",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A",
+      "value": "49",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis de l'amortisseur au sous–cadre arrière",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis du triangle de suspension supérieur au sous–cadre arrière",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis du triangle de suspension inférieur",
+      "sourcePage": "recommended-torque-values-group-a-A26D1C",
+      "group": "A",
+      "value": "45",
+      "unit": "Nm"
+    }
+  ]
+}

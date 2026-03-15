@@ -1,0 +1,19 @@
+{
+  "title": "Vérification de la saillie de la tige de soupape (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Voir l'opération - «Contrôle de la hauteur de pose des soupapes (Z 20 LET)»",
+          "number": 1,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "type": "procedure",
+  "id": "valve-stem-protrusion-check-z-20-let-AQS315"
+}

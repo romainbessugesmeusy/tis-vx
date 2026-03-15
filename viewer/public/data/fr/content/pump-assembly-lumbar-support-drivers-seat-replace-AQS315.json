@@ -1,0 +1,100 @@
+{
+  "title": "Remplacer l'ensemble de la pompe, support lombaire, siège conducteur",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer la pompe (1) du clapet (3)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer en tirant"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a16ff3b171a3.jpg",
+            "alt": "Object Number: 2423048  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "3"
+          ],
+          "number": 1
+        },
+        {
+          "text": "Dégager le clapet du support (2) sur le siège conducteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer en tirant"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a16ff3b171a3.jpg",
+            "alt": "Object Number: 2423048  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Débrancher le clapet de la durite (4)",
+          "image": {
+            "src": "/data/assets/images/a16ff3b171a3.jpg",
+            "alt": "Object Number: 2423048  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ],
+          "number": 3
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le nouveau clapet sur la durite",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Emboîter"
+            }
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Fixer le clapet au support sur le siège conducteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Emboîter"
+            }
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Reposer la pompe sur le clapet",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Emboîter"
+            }
+          ],
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "pump-assembly-lumbar-support-drivers-seat-replace-AQS315"
+}

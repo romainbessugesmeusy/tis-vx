@@ -1,0 +1,21 @@
+{
+  "title": "Compression 4-cylinder, Unsynchronised",
+  "steps": [
+    {
+      "text": "Télécharger la courbe de référence",
+      "number": 1
+    },
+    {
+      "text": "Actionner le démarreur jusqu'à ce que HOLD apparaisse en haut à droite de l'écran (le moteur ne doit pas démarrer pendant le test ; si c'est le cas, le test doit être répété).",
+      "number": 2
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/605efe90047e.jpg",
+      "alt": "Numéro d'objet : 2400933  Taille : DEFAULT"
+    }
+  ],
+  "type": "diagnostic",
+  "id": "compression-4-cylinder-unsynchronised-AQS315"
+}

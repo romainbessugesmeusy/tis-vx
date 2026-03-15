@@ -1,0 +1,210 @@
+{
+  "title": "Joint d'étanchéité pour cadre de toit avant, Remplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le capote souple ou le toit rigide",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le joint d'étanchéité (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Couper en arrière la tête des 2x agrafes en plastique (2) au ras du cadre de toit avant"
+            },
+            {
+              "bullet": "•",
+              "text": "Tirer sur le joint d'étanchéité"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b7955978f904.jpg",
+            "alt": "Object Number: 2422358  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Retirer toutes les traces de résidus adhésifs",
+          "number": 3,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Appliquer du ruban de masquage sur le cadre de toit avant sur les deux coins supérieurs adjacents aux supports de montage de la capote souple ou du toit rigide",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Appliquer le ruban à 200 mm de chaque côté du support de montage"
+            }
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Amorcer la zone adhésive",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Laisser durcir"
+            }
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Positionner le nouveau joint d'étanchéité et le fixer temporairement en place",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Installer la capote souple ou le toit rigide",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Positionner le joint d'étanchéité à la position d'étanchéité optimale",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Marquer la position sur le ruban de masquage appliqué précédemment"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Retirer la capote souple ou le toit rigide",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Perforer 2x trou de 5 mm dans le joint d'étanchéité pour 2x agrafe en plastique Remarque : Les trous percés ne doivent pas entrer en conflit avec la position des anciennes agrafes en plastique.",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Retirer partiellement le ruban protecteur du joint d'étanchéité",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer le ruban protecteur de la section S (1) du côté gauche et"
+            },
+            {
+              "bullet": "•",
+              "text": "Aligner le joint d'étanchéité à la position précédemment marquée et appliquer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1a32192df084.jpg",
+            "alt": "Object Number: 2422359  Size: DEFAULT"
+          },
+          "number": 11
+        },
+        {
+          "text": "Fixer le joint d'étanchéité au cadre de toit avant entre les 2x supports de montage de la capote souple ou du toit rigide",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer le ruban protecteur, positionner le joint d'étanchéité puis appliquer"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Fixer le joint d'étanchéité aux 2x montants A",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Aligner le joint d'étanchéité avant (1) avec le joint d'étanchéité arrière (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer le ruban protecteur, positionner le joint d'étanchéité puis appliquer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a37b2e7aaa74.jpg",
+            "alt": "Object Number: 2422360  Size: DEFAULT"
+          },
+          "number": 13
+        },
+        {
+          "text": "Appliquer le mastic adhésif recommandé entre le cadre de toit avant (1) et le joint d'étanchéité (2) Remarque : Appliquer le mastic adhésif le long de la couture indiquée par la flèche.",
+          "image": {
+            "src": "/data/assets/images/dba6cd3272c4.jpg",
+            "alt": "Object Number: 2422361  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 14
+        },
+        {
+          "text": "Perforer 2x trou pour 2x agrafe en plastique",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Noter la position des 2x trous dans le joint d'étanchéité"
+            },
+            {
+              "bullet": "•",
+              "text": "Utiliser une perceuse de 5 mm"
+            },
+            {
+              "bullet": "•",
+              "text": "Perforer jusqu'à une profondeur maximale de 8 mm"
+            }
+          ],
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Installer les 2x nouvelles agrafes en plastique",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Appliquer le mastic adhésif recommandé sur les 2x trous"
+            }
+          ],
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Appliquer une pression uniforme sur le joint d'étanchéité, puis laisser durcir pendant un minimum de deux heures",
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Installer la capote souple ou le toit rigide",
+          "number": 18,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "notes": [
+    "Couper en arrière la tête des 2x agrafes en plastique (2) au ras du cadre de toit avant\n sur le côté gauche et le côté droit\n Marquer visiblement\nla position des 2x agrafes en plastique pour référence ultérieure.",
+    "Appliquer le ruban à 200 mm de chaque côté du support de montage\n Cela est pour\nmarquer la position optimale de l'emplacement du joint d'étanchéité.",
+    "Perforer 2x trou de 5 mm dans le joint d'étanchéité pour 2x agrafe en plastique\n Les trous percés\nne doivent pas entrer en conflit avec la position des anciennes agrafes en plastique.",
+    "Appliquer le mastic adhésif recommandé entre le cadre de toit avant (1)\net le joint d'étanchéité (2)\n Appliquer le mastic adhésif le long de la couture indiquée par la flèche."
+  ],
+  "type": "procedure",
+  "id": "weatherstrip-for-front-roof-frame-replace-A26D1C"
+}

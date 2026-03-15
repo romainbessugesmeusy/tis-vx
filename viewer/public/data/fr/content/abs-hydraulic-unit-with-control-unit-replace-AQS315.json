@@ -1,0 +1,182 @@
+{
+  "title": "Remplacer l'Unité Hydraulique ABS avec Unité de Commande",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le capot avant - voir l'opération «Déposer et Reposer le Capot Avant» dans le groupe A.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Poser 2x agrafe sur 2x durite de frein (1)",
+          "image": {
+            "src": "/data/assets/images/05f21bcbaa82.jpg",
+            "alt": "Object Number: 2425083  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Débrancher le connecteur du faisceau (1) de l'unité de commande",
+          "image": {
+            "src": "/data/assets/images/89da1c7a553b.jpg",
+            "alt": "Object Number: 2425086  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Débrancher les 6x conduites de frein (2) de l'unité hydraulique",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Desserrer les 6x raccords"
+            },
+            {
+              "bullet": "•",
+              "text": "Récupérer le fluide qui s'échappe"
+            },
+            {
+              "bullet": "•",
+              "text": "Poser un bouchon de calage sur les 12x raccords ouverts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/89da1c7a553b.jpg",
+            "alt": "Object Number: 2425086  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Retirer le support avec l'unité hydraulique et l'unité de commande",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer les 3x écrous (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/00e0d702abed.jpg",
+            "alt": "Object Number: 2425087  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Retirer le support de l'unité hydraulique et de l'unité de commande",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer les 2x vis"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Retirer l'unité de commande de l'unité hydraulique",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer les 4x vis"
+            }
+          ],
+          "number": 7,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer la nouvelle unité de commande sur l'unité hydraulique",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer les 4x vis"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Reposer le support sur l'unité hydraulique et l'unité de commande",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer les 2x vis"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Reposer le support avec l'unité hydraulique et l'unité de commande",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer les 3x écrous"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Raccorder les 6x conduites de frein à l'unité hydraulique",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer les 6x raccords"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer, puis jeter les 12x bouchons de calage"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Raccorder le connecteur du faisceau à l'unité de commande",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Retirer les 2x agrafes des 2x durites de frein",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Purger le système de freinage - voir l'opération «Système de Freinage, Purger»",
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Vérifier les fuites du système de freinage - voir l'opération «Système de Freinage, Vérifier les Fuites»",
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Reposer le capot avant - voir l'opération «Déposer et Reposer le Capot Avant» dans le groupe A.",
+          "number": 16,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "abs-hydraulic-unit-with-control-unit-replace-AQS315"
+}

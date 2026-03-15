@@ -1,0 +1,26 @@
+{
+  "title": "Field Remedy: 1423",
+  "subject": "Dommages de câble - Attaques de morsure de martre",
+  "complaint": "Dommages de câble d'origines diverses",
+  "cause": "Morsures de martre dans le compartiment moteur",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "En cas d'attaques de martres, il semble utile d'envelopper les câbles remplacés et également d'autres câbles exposés avec des tubes en plastique rainurés. Veuillez consulter les numéros de pièce ci-dessous."
+    },
+    {
+      "type": "paragraph",
+      "text": "Remarque : Les activités de réparation ne doivent PAS être réclamées sous garantie."
+    }
+  ],
+  "type": "tsb",
+  "id": "cable-damages-marten-bite-attacks-AQS315",
+  "metadata": {
+    "functionalGroup": "N - Electrical Equipment",
+    "complaintGroup": "01 - Broken or Cracked",
+    "models": null,
+    "engines": null,
+    "troubleCode": ""
+  },
+  "production": ""
+}

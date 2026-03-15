@@ -1,0 +1,22 @@
+{
+  "title": "Field Remedy: 2130",
+  "subject": "Boîte de vitesses manuelle - Embrayage ne se débraye pas et/ou difficulté à engager les vitesses",
+  "complaint": "Embrayage ne se débraye pas et/ou difficulté à engager les vitesses.",
+  "cause": "Denture de l'arbre d'entrée non graissée (oubliée lors de la production ou après le remplacement de l'embrayage en service).",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "En cas de réclamation du client, vérifier d'abord le graissage de l'arbre d'entrée. Si nécessaire, graisser légèrement les dents de l'arbre d'entrée avec de la graisse (numéro de pièce : 90397024 / numéro de catalogue : 19 48 568). Ne remplacez aucun autre élément."
+    }
+  ],
+  "type": "tsb",
+  "id": "manual-transmission-clutch-does-not-disengage-and-or-gears-h-A26D1C",
+  "metadata": {
+    "functionalGroup": "K - Clutch/Transmission",
+    "complaintGroup": "08 - Hard to operate",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  },
+  "production": ""
+}

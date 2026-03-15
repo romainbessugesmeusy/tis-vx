@@ -1,0 +1,42 @@
+{
+  "title": "Field Remedy: 2792",
+  "subject": "Ceinture de sécurité siège avant ou arrière - Le mécanisme de\nroulement vers l'extérieur et/ou vers l'arrière ne fonctionne pas correctement",
+  "complaint": "La ceinture de sécurité ne se rétracte pas, ou la ceinture de\nsécurité se rétracte trop lentement, ou la ceinture de sécurité est difficile à tirer.",
+  "cause": "Les fibres de vêtements, la saleté, la poussière ou la sangle de ceinture\ntorsadée peuvent provoquer un grippage ou un blocage de la ceinture de sécurité. La ceinture de sécurité\nelle-même est ok. Le système de guidage de la ceinture de sécurité doit être vérifié.",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "En cas de réclamation du client, vérifier le D-loop (mécanisme de déviation) pour la contamination liée à la saleté, la poussière ou les fibres de sangle."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nettoyer le D-loop et la ceinture de sécurité. Vérifier à nouveau la fonction en tirant au maximum."
+    },
+    {
+      "type": "text",
+      "text": "La sangle de la ceinture de sécurité ne doit pas être tordue ! Si le problème persiste, démonter le couvercle de garniture et vérifier à nouveau."
+    },
+    {
+      "type": "paragraph",
+      "text": "Si la ceinture de sécurité se rétracte, aucune pièce ne doit être remplacée."
+    },
+    {
+      "type": "text",
+      "text": "Remonter le couvercle de garniture et vérifier à nouveau la fonction. Veiller à la position correcte du couvercle de garniture. Aucun pliage ne doit se produire, aucun bord tranchant ne doit entrer en contact avec la sangle de ceinture !"
+    },
+    {
+      "type": "text",
+      "text": "Attention : la sangle de ceinture de sécurité ne doit être nettoyée qu'avec de l'eau tiède ou des produits commerciaux à faible concentration appropriés. Les produits à base de solvants forts ne doivent pas être utilisés."
+    }
+  ],
+  "type": "tsb",
+  "id": "seatbelt-front-or-rear-seat-out-and-or-back-rolling-mechanis-AQS315",
+  "metadata": {
+    "functionalGroup": "C - Equipment/Windows",
+    "complaintGroup": "02 - Chafing,08 - Hard to operate,13 -\nNo/Poor Function",
+    "models": null,
+    "engines": null,
+    "troubleCode": ""
+  },
+  "production": ""
+}

@@ -1,0 +1,136 @@
+{
+  "title": "Contrôleur de température, Refroidisseur d'huile, Remplacer (Z20\nLET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le cache-moteur (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Élever le véhicule"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 13x vis, 13x rondelle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7c957595e425.jpg",
+            "alt": "Object Number: 2422664  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 1
+        },
+        {
+          "text": "Déposer le contrôleur de température du boîtier du système de refroidisseur d'huile Remarque : Noter la position pour l'installation.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer la fiche (4), puis jeter la rondelle d'étanchéité (3)"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer le ressort (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Positionner le conteneur de collecte"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/006c4d6d625c.jpg",
+            "alt": "Object Number: 2396231  Size: DEFAULT"
+          },
+          "number": 2
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le nouveau contrôleur de température sur le boîtier du système de refroidisseur d'huile Remarque : Noter la position pour l'installation.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer le thermostat"
+            },
+            {
+              "bullet": "•",
+              "text": "Reposer le ressort"
+            },
+            {
+              "bullet": "•",
+              "text": "Reposer la nouvelle rondelle d'étanchéité"
+            },
+            {
+              "bullet": "•",
+              "text": "Positionner le conteneur de collecte"
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Reposer le cache-moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 13x vis, 13x rondelle"
+            }
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Démarrer le moteur et vérifier les fuites, arrêter le moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Vérifier le niveau d'huile moteur, compléter si nécessaire"
+            }
+          ],
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer le nouveau contrôleur de température sur le boîtier du système de refroidisseur d'huile Remarque : Noter la position pour l'installation.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 3
+    },
+    {
+      "component": "Reposer la fiche 20 Nm + 60° + 30° – Positionner le conteneur de collecte",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "Un pont élévateur à quatre colonnes doit être utilisé pour élever le véhicule lors du retrait du cache-moteur.\nLe véhicule peut être déplacé vers un pont élévateur à deux colonnes pour d'autres opérations si nécessaire.",
+    "Respecter les réglementations environnementales pertinentes lors de l'élimination des liquides de refroidissement et des lubrifiants usagés."
+  ],
+  "notes": [
+    "Déposer le contrôleur de température du boîtier du système de refroidisseur d'huile\n Noter la position pour\nl'installation.\n \n\n\n\n•  \nDéposer la fiche (4), puis jeter la rondelle d'étanchéité (3)\n \n\n\n\n\n\n•  \nDéposer le ressort (2)\n \n\n\n\n\n\n•  \nDéposer le thermostat (1)\n \n\n\n\n–\nPositionner le conteneur de collecte",
+    "Reposer le nouveau contrôleur de température sur le boîtier du système de refroidisseur d'huile\n Noter la position pour\nl'installation.\n \n\n\n\n•  \nReposer le thermostat\n \n\n\n\n\n\n•  \nReposer le ressort\n \n\n\n\n\n\n•  \nReposer la nouvelle rondelle d'étanchéité\n \n\n\n\n\n\n•  \nReposer la fiche 20 Nm + 60° +\n30° \n \n\n\n\n–\nPositionner le conteneur de collecte"
+  ],
+  "type": "procedure",
+  "id": "temperature-controller-oil-cooler-replace-z20-let-AQS315"
+}

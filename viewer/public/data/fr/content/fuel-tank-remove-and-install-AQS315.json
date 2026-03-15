@@ -1,0 +1,651 @@
+{
+  "title": "Réservoir de carburant, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Caler les roues avant.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Ouvrir le capot avant.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déposer le réservoir de carburant du véhicule – 4 vis, rondelles.",
+          "number": 36,
+          "image": null
+        },
+        {
+          "text": "Important : Soutenir le réservoir de carburant pour éviter d'endommager les durites et le faisceau électrique.",
+          "number": 37,
+          "image": null
+        },
+        {
+          "text": "Connecteur du faisceau à l'ensemble de la pompe à carburant.",
+          "number": 40,
+          "image": null
+        },
+        {
+          "text": "Durites de carburant à l'ensemble de la pompe à carburant – agrafes.",
+          "number": 41,
+          "image": null
+        },
+        {
+          "text": "Fixer le réservoir de carburant au véhicule – 4 vis 25 Nm , rondelles.",
+          "number": 42,
+          "image": null
+        },
+        {
+          "text": "Attention !",
+          "image": {
+            "src": "/data/assets/images/fbb4919dccc3.jpg",
+            "alt": "Object Number: 2425193  Size: DEFAULT"
+          },
+          "number": 43
+        },
+        {
+          "text": "Utiliser de nouvelles vis.",
+          "number": 44,
+          "image": null
+        },
+        {
+          "text": "S'assurer que la rondelle étoilée est utilisée sur la vis inférieure, gauche.",
+          "number": 45,
+          "image": null
+        },
+        {
+          "text": "Lignes de carburant au tablier – agrafes, vis 9 Nm .",
+          "image": {
+            "src": "/data/assets/images/f41514275c1f.jpg",
+            "alt": "Object Number: 2425075  Size: DEFAULT"
+          },
+          "number": 46
+        },
+        {
+          "text": "Filtre à carburant au tablier – vis (1) 9 Nm .",
+          "callouts": [
+            "1"
+          ],
+          "number": 47,
+          "image": null
+        },
+        {
+          "text": "Panneau inférieur du réservoir de carburant (1) – 5 vis, 3 écrous et boulons – 25 Nm .",
+          "image": {
+            "src": "/data/assets/images/efe3159f3f4e.jpg",
+            "alt": "Object Number: 2425077  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 48
+        },
+        {
+          "text": "Vis de fixation inférieure (1) pour le bloc d'amortissement avant – 25 Nm .",
+          "image": {
+            "src": "/data/assets/images/281d67494771.jpg",
+            "alt": "Object Number: 2425074  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 49
+        },
+        {
+          "text": "Vis de fixation inférieure (1) pour le triangle de suspension inférieur, côté gauche, côté droit – 45 Nm .",
+          "image": {
+            "src": "/data/assets/images/9a776e675bb5.jpg",
+            "alt": "Object Number: 2425073  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 50
+        },
+        {
+          "text": "Câbles de changement de vitesse à accrocher sous la transmission.",
+          "image": {
+            "src": "/data/assets/images/6fc5038ed95a.jpg",
+            "alt": "Object Number: 2425078  Size: DEFAULT"
+          },
+          "number": 51
+        },
+        {
+          "text": "Support de fixation (1) des câbles de changement de vitesse au panneau inférieur du réservoir de carburant – 4 vis.",
+          "callouts": [
+            "1"
+          ],
+          "number": 52,
+          "image": null
+        },
+        {
+          "text": "Câbles de frein à main aux supports.",
+          "image": {
+            "src": "/data/assets/images/ec4dafccab9e.jpg",
+            "alt": "Object Number: 2425079  Size: DEFAULT"
+          },
+          "number": 53
+        },
+        {
+          "text": "Contre-écrous (1) sur les câbles de frein à main, côté gauche, côté droit.",
+          "callouts": [
+            "1"
+          ],
+          "number": 54,
+          "image": null
+        },
+        {
+          "text": "Câbles de frein à main au compensateur de frein à main.",
+          "image": {
+            "src": "/data/assets/images/295c86960519.jpg",
+            "alt": "Object Number: 2425072  Size: DEFAULT"
+          },
+          "number": 55
+        },
+        {
+          "text": "Goupille et agrafe (1) au compensateur de frein à main.",
+          "callouts": [
+            "1"
+          ],
+          "number": 56,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule à mi-hauteur.",
+          "image": {
+            "src": "/data/assets/images/295c86960519.jpg",
+            "alt": "Object Number: 2425072  Size: DEFAULT"
+          },
+          "number": 57
+        },
+        {
+          "text": "Durite (2) au tuyau de remplissage de carburant – agrafes.",
+          "image": {
+            "src": "/data/assets/images/0c0330faa516.jpg",
+            "alt": "Object Number: 2425076  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 58
+        },
+        {
+          "text": "Durites (1) à l'ensemble de boîte d'évaporation – agrafes.",
+          "callouts": [
+            "1"
+          ],
+          "number": 59,
+          "image": null
+        },
+        {
+          "text": "Garniture d'aile arrière droite – 6 agrafes.",
+          "image": {
+            "src": "/data/assets/images/835a42393a41.jpg",
+            "alt": "Object Number: 2429857  Size: DEFAULT"
+          },
+          "number": 60
+        },
+        {
+          "text": "Roue arrière droite – boulons 90 Nm .",
+          "number": 61,
+          "image": null
+        },
+        {
+          "text": "Élever le véhicule.",
+          "image": {
+            "src": "/data/assets/images/835a42393a41.jpg",
+            "alt": "Object Number: 2429857  Size: DEFAULT"
+          },
+          "number": 62
+        },
+        {
+          "text": "Sous-carter arrière (1) – 13 boulons.",
+          "image": {
+            "src": "/data/assets/images/1d1ad92dd5ed.jpg",
+            "alt": "Object Number: 2425071  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 63
+        },
+        {
+          "text": "Abaisser le véhicule.",
+          "image": {
+            "src": "/data/assets/images/1d1ad92dd5ed.jpg",
+            "alt": "Object Number: 2425071  Size: DEFAULT"
+          },
+          "number": 64
+        },
+        {
+          "text": "Support de fixation des câbles de changement de vitesse – boulon (2).",
+          "image": {
+            "src": "/data/assets/images/bbdf1637c5b5.jpg",
+            "alt": "Object Number: 2425070  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 65
+        },
+        {
+          "text": "Câbles de changement de vitesse (1) vers la transmission.",
+          "callouts": [
+            "1"
+          ],
+          "number": 66,
+          "image": null
+        },
+        {
+          "text": "Borne négative vers la batterie – écrou.",
+          "image": {
+            "src": "/data/assets/images/109869f7b46c.jpg",
+            "alt": "Object Number: 2429428  Size: DEFAULT"
+          },
+          "number": 67
+        },
+        {
+          "text": "Réservoir de lave-glace.",
+          "image": {
+            "src": "/data/assets/images/be05ae38863a.jpg",
+            "alt": "Object Number: 2425069  Size: DEFAULT"
+          },
+          "number": 68
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    },
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Réservoir de lave-glace et déplacer sur le côté.",
+          "image": {
+            "src": "/data/assets/images/be05ae38863a.jpg",
+            "alt": "Object Number: 2425069  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Borne négative de la batterie – écrou.",
+          "image": {
+            "src": "/data/assets/images/109869f7b46c.jpg",
+            "alt": "Object Number: 2429428  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Ouvrir le capot moteur.",
+          "image": {
+            "src": "/data/assets/images/109869f7b46c.jpg",
+            "alt": "Object Number: 2429428  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Vider le réservoir de carburant.",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Attention !",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Respecter les réglementations de sécurité.",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Câbles de changement de vitesse (1) de la transmission – utiliser l'outil Remover KM-6042 .",
+          "image": {
+            "src": "/data/assets/images/bbdf1637c5b5.jpg",
+            "alt": "Object Number: 2425070  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 9
+        },
+        {
+          "text": "Support de fixation des câbles de changement de vitesse – boulon (2).",
+          "callouts": [
+            "2"
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Déplacer les câbles de changement de vitesse sur le côté.",
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Élever le véhicule.",
+          "image": {
+            "src": "/data/assets/images/bbdf1637c5b5.jpg",
+            "alt": "Object Number: 2425070  Size: DEFAULT"
+          },
+          "number": 12
+        },
+        {
+          "text": "Sous-carter arrière (1) – 13 boulons.",
+          "image": {
+            "src": "/data/assets/images/1d1ad92dd5ed.jpg",
+            "alt": "Object Number: 2425071  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 13
+        },
+        {
+          "text": "Agrafe (1) et goupille du compensateur de frein à main.",
+          "image": {
+            "src": "/data/assets/images/295c86960519.jpg",
+            "alt": "Object Number: 2425072  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 14
+        },
+        {
+          "text": "Câbles de frein à main du compensateur de frein à main.",
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Déplacer les câbles de frein à main sur le côté.",
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Contre-écrous (1) sur les câbles de frein à main, côté gauche, côté droit.",
+          "image": {
+            "src": "/data/assets/images/ec4dafccab9e.jpg",
+            "alt": "Object Number: 2425079  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 17
+        },
+        {
+          "text": "Câbles de frein à main des supports.",
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "Déplacer les câbles de frein à main sur le côté.",
+          "number": 19,
+          "image": null
+        },
+        {
+          "text": "Support de fixation (1) des câbles de changement de vitesse du panneau inférieur du réservoir de carburant – 4 vis.",
+          "image": {
+            "src": "/data/assets/images/6fc5038ed95a.jpg",
+            "alt": "Object Number: 2425078  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 20
+        },
+        {
+          "text": "Câbles de changement de vitesse de l'accroche sous la transmission.",
+          "number": 21,
+          "image": null
+        },
+        {
+          "text": "Déplacer les câbles de changement de vitesse sur le côté.",
+          "number": 22,
+          "image": null
+        },
+        {
+          "text": "Vis de fixation inférieure (1) pour le triangle de suspension inférieur, côté gauche, côté droit.",
+          "image": {
+            "src": "/data/assets/images/9a776e675bb5.jpg",
+            "alt": "Object Number: 2425073  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 23
+        },
+        {
+          "text": "Important : S'assurer que seules les vis de fixation inférieures sont retirées.",
+          "number": 24,
+          "image": null
+        },
+        {
+          "text": "Vis de fixation inférieure (1) pour le bloc d'amortissement avant.",
+          "image": {
+            "src": "/data/assets/images/281d67494771.jpg",
+            "alt": "Object Number: 2425074  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 25
+        },
+        {
+          "text": "Important : S'assurer que seules les vis de fixation inférieures sont retirées.",
+          "number": 26,
+          "image": null
+        },
+        {
+          "text": "Panneau inférieur du réservoir de carburant (1) – 5 vis, 3 écrous et boulons.",
+          "image": {
+            "src": "/data/assets/images/efe3159f3f4e.jpg",
+            "alt": "Object Number: 2425077  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 27
+        },
+        {
+          "text": "Lignes de carburant du tablier – agrafes, vis.",
+          "image": {
+            "src": "/data/assets/images/f41514275c1f.jpg",
+            "alt": "Object Number: 2425075  Size: DEFAULT"
+          },
+          "number": 28
+        },
+        {
+          "text": "Filtre à carburant du tablier – vis (1).",
+          "callouts": [
+            "1"
+          ],
+          "number": 29,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule à mi-hauteur.",
+          "image": {
+            "src": "/data/assets/images/f41514275c1f.jpg",
+            "alt": "Object Number: 2425075  Size: DEFAULT"
+          },
+          "number": 30
+        },
+        {
+          "text": "Roue arrière droite.",
+          "number": 31,
+          "image": null
+        },
+        {
+          "text": "Garniture d'aile arrière droite – 6 agrafes.",
+          "image": {
+            "src": "/data/assets/images/835a42393a41.jpg",
+            "alt": "Object Number: 2429857  Size: DEFAULT"
+          },
+          "number": 32
+        },
+        {
+          "text": "Durites (1) de l'ensemble de boîte d'évaporation – agrafes.",
+          "image": {
+            "src": "/data/assets/images/0c0330faa516.jpg",
+            "alt": "Object Number: 2425076  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 33
+        },
+        {
+          "text": "Durite (2) du tuyau de remplissage de carburant – agrafes.",
+          "callouts": [
+            "2"
+          ],
+          "number": 34,
+          "image": null
+        },
+        {
+          "text": "Élever l'arrière du véhicule pour faciliter l'accès.",
+          "image": {
+            "src": "/data/assets/images/0c0330faa516.jpg",
+            "alt": "Object Number: 2425076  Size: DEFAULT"
+          },
+          "number": 35
+        },
+        {
+          "text": "Durites de carburant de l'ensemble de la pompe à carburant – agrafes.",
+          "number": 38,
+          "image": null
+        },
+        {
+          "text": "Connecteur du faisceau de l'ensemble de la pompe à carburant.",
+          "number": 39,
+          "image": null
+        },
+        {
+          "text": "Caler les roues avant.",
+          "number": 72,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "label": "Inspecter",
+      "steps": [
+        {
+          "text": "Ajouter du carburant et vérifier les fuites.",
+          "image": {
+            "src": "/data/assets/images/be05ae38863a.jpg",
+            "alt": "Object Number: 2425069  Size: DEFAULT"
+          },
+          "number": 69
+        },
+        {
+          "text": "Reprogrammer toutes les mémoires volatiles.",
+          "number": 70,
+          "image": null
+        },
+        {
+          "text": "Fermer le capot avant et le capot moteur.",
+          "number": 71,
+          "image": null
+        }
+      ],
+      "phase": "inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif"
+    },
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Fixation du réservoir de carburant au véhicule – 4 vis 25 Nm , rondelles.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 42
+    },
+    {
+      "component": "Lignes de carburant au tablier – agrafes, vis 9 Nm .",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 46
+    },
+    {
+      "component": "Vis de fixation inférieure (1) pour le triangle de suspension inférieur, côté gauche, côté droit – 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 50
+    },
+    {
+      "component": "Roue arrière droite – boulons 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 61
+    },
+    {
+      "component": "Filtre à carburant au tablier – vis (1) 9 Nm .",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Panneau inférieur du réservoir de carburant (1) – 5 vis, 3 écrous et boulons – 25 Nm .",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "type": "procedure",
+  "id": "fuel-tank-remove-and-install-AQS315"
+}

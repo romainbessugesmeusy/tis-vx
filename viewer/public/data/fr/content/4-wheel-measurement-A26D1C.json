@@ -1,0 +1,7 @@
+{
+  "title": "Mesure des 4 roues",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Mesure des 4 roues</p>\n\n<p>Cette procédure de mesure mesure simultanément les quatre roues en tenant compte de l'axe de symétrie et de l'axe de conduite géométrique.</p>\n\n<p>Cette méthode de mesure offre une précision maximale et permet de gagner du temps car les temps de réglage nécessaires pour un alignement à 2 roues sont exclus.</p>\n\n<p>Toutes les valeurs géométriques importantes du véhicule peuvent être déterminées.</p>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "type": "generic",
+  "id": "4-wheel-measurement-A26D1C",
+  "extractedData": {}
+}

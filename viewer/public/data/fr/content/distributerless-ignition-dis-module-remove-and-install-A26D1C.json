@@ -1,0 +1,48 @@
+{
+  "title": "Module d'allumage sans distributeur (DIS), Déposer et\nReposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Connecteur du faisceau de câblage du module DIS.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Module DIS du cache de culasse – 4 vis.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Module DIS sur le cache de culasse – 4 vis, 10 Nm.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Connecteur du faisceau de câblage au module DIS.",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Module DIS sur le cache de culasse – 4 vis, 10 Nm.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 3
+    }
+  ],
+  "type": "procedure",
+  "id": "distributerless-ignition-dis-module-remove-and-install-A26D1C"
+}

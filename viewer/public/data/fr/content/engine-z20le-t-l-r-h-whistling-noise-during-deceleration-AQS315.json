@@ -1,0 +1,26 @@
+{
+  "title": "Field Remedy: 2131",
+  "subject": "Moteur Z20LE/T/L/R/H, Z16LE/T/L/R -\nSifflement lors de la décélération",
+  "complaint": "Sifflement lors de la décélération.",
+  "cause": "Fonction retardée de la soupape de dérivation du\nturbo compresseur en raison de : - réservoir à vide mal monté lors de\nréparations précédentes - réservoir à vide (sous le collecteur d'admission) : clapet de contrôle défectueux,\nbaisse de vide - tuyaux à vide (tuyau en polyamide et durites)\nfuyants/défectueux - clapet de commutation (monté à côté du réservoir) défectueux -\nsoupape de dérivation du compresseur défectueuse",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "En cas de réclamation client, vérifier le réservoir à vide et les conduites pour un montage correct. La marque « TOP » sur le réservoir à vide doit être orientée vers le bas dans cette application. La position de montage correcte est importante en raison du clapet de contrôle à l'intérieur du réservoir à vide. Il est possible de vérifier tous les clapets et les tuyaux à vide avec une pompe à main Kent Moore. Si le vide ne diminue pas, le composant testé est OK."
+    },
+    {
+      "type": "paragraph",
+      "text": "Remarque : En cas de réclamation, se référer également à l'Information Rapide\n2259."
+    }
+  ],
+  "type": "tsb",
+  "id": "engine-z20le-t-l-r-h-whistling-noise-during-deceleration-AQS315",
+  "metadata": {
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "14 - Noises or Vibrations",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  },
+  "production": ""
+}

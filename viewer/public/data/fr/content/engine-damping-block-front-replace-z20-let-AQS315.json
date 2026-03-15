@@ -1,0 +1,167 @@
+{
+  "title": "Bloc d'amortissement moteur, avant, Remplacer (Z20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le cache-moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Élever le véhicule"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 13x vis, 13x rondelle"
+            }
+          ],
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Reposer le support moteur sur l'ensemble moteur et transmission",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déposer le bloc d'amortissement moteur avec le support de transmission et châssis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer la vis centrale, l'écrou (1), puis jeter"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 2x vis (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a8b5f3a6321c.jpg",
+            "alt": "Object Number: 2422468  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Déposer le bloc d'amortissement moteur (2) du support de transmission (3)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Appliquer des repères de correspondance (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Utiliser une presse hydraulique"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c8af828bf775.jpg",
+            "alt": "Object Number: 2422998  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "3"
+          ],
+          "number": 4
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le nouveau bloc d'amortissement moteur sur le support",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Transférer les repères de correspondance sur le nouveau bloc d'amortissement moteur"
+            },
+            {
+              "bullet": "•",
+              "text": "Utiliser une presse hydraulique"
+            }
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Reposer le bloc d'amortissement moteur avec le support sur la transmission et châssis",
+          "substeps": [
+            {
+              "bullet": "•–",
+              "text": "Ne pas serrer",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Utiliser une nouvelle vis, un écrou"
+                }
+              ]
+            },
+            {
+              "bullet": "•",
+              "text": "Appliquer du composé de blocage"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Déposer le support moteur de l'ensemble moteur et transmission",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Serrer la vis centrale, l'écrou pour le bloc d'amortissement moteur à 86 Nm",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Reposer le cache-moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 13x vis, 13x rondelle"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 10,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer le bloc d'amortissement moteur avec le support sur la transmission et châssis",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Serrer la vis centrale, l'écrou pour le bloc d'amortissement moteur à 86 Nm",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Reposer 2x vis, rondelle à 49 Nm – Appliquer du composé de blocage",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "Un pont élévateur à quatre colonnes doit\nêtre utilisé pour élever le véhicule lors du dépose du cache-moteur.\nLe véhicule peut être déplacé vers un pont à deux colonnes pour d'autres opérations\nsi nécessaire.",
+    "Ne pas supporter sur le carter d'huile."
+  ],
+  "type": "procedure",
+  "id": "engine-damping-block-front-replace-z20-let-AQS315"
+}

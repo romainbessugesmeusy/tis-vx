@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Attach the ignition module.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 95,
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Connect the fuel lines.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 96,
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Connect the fuel lines.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 96,
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the rear engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 97,
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque (M6) 9 Nm, (M8) 22 Nm",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 85 Nm + 30° + 15°",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 75 Nm",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "valve-stem-seals-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the exhaust camshaft sprocket. Note: Check that the TDC reference points line up.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 24,
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the guide rail.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 26,
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the camshaft timing chain tensioner.",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 28,
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 37,
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 37,
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the ignition module.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 38,
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C"
+    },
+    {
+      "component": "Connect the fuel lines.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 39,
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C"
+    },
+    {
+      "component": "Connect the fuel lines.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 39,
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 40,
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 85 Nm + 30° + 15°",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 75 Nm",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C"
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "valve-timing-adjust-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 16,
+      "sourcePage": "valve-timing-check-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 16,
+      "sourcePage": "valve-timing-check-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the ignition module.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 17,
+      "sourcePage": "valve-timing-check-z-22-se-A26D1C"
+    },
+    {
+      "component": "Connect the fuel lines.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 18,
+      "sourcePage": "valve-timing-check-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 19,
+      "sourcePage": "valve-timing-check-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "valve-timing-check-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "valve-timing-check-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "valve-timing-check-z-22-se-A26D1C"
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "valve-timing-check-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install swivel joint carrier to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 13,
+      "sourcePage": "wheel-bearing-assembly-replace-A26D1C"
+    },
+    {
+      "component": "Install track control arm to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 14,
+      "sourcePage": "wheel-bearing-assembly-replace-A26D1C"
+    },
+    {
+      "component": "Install ball joint of lower wishbone to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 15,
+      "sourcePage": "wheel-bearing-assembly-replace-A26D1C"
+    },
+    {
+      "component": "Install drive shaft to wheel hub",
+      "value": "220",
+      "unit": "Nm",
+      "stepRef": 17,
+      "sourcePage": "wheel-bearing-assembly-replace-A26D1C"
+    },
+    {
+      "component": "Install brake caliper to hub carrier",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": 18,
+      "sourcePage": "wheel-bearing-assembly-replace-A26D1C"
+    },
+    {
+      "component": "Install brake disc to hub carrier",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": 19,
+      "sourcePage": "wheel-bearing-assembly-replace-A26D1C"
+    },
+    {
+      "component": "Tighten 2x bolt 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "wheel-bearing-assembly-replace-A26D1C"
+    },
+    {
+      "component": "Install nut 220 Nm",
+      "value": "220",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "wheel-bearing-assembly-replace-A26D1C"
+    },
+    {
+      "component": "Install bolt 48 Nm",
+      "value": "48",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "wheel-bearing-assembly-replace-A26D1C"
+    },
+    {
+      "component": "Install screw 12 Nm",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "wheel-bearing-assembly-replace-A26D1C"
+    },
+    {
+      "component": "Install wheel hub assembly to hub carrier Note: Wheel bearing part of hub assembly.",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 10,
+      "sourcePage": "wheel-bearing-front-replace-A26D1C"
+    },
+    {
+      "component": "For earlier type wheel hub, install centre bolt, 4x washer, nut 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 11,
+      "sourcePage": "wheel-bearing-front-replace-A26D1C"
+    },
+    {
+      "component": "Install brake caliper assembly to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 14,
+      "sourcePage": "wheel-bearing-front-replace-A26D1C"
+    },
+    {
+      "component": "Install front road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 15,
+      "sourcePage": "wheel-bearing-front-replace-A26D1C"
+    }
+  ]
+}

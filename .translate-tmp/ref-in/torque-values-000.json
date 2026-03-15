@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Install the accelerator pedal.",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "accelerator-pedal-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 12 Nm",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "accelerator-pedal-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Rear left–hand wheel to the vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 17,
+      "sourcePage": "air-cleaner-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Steering wheel assembly to steering column – tab washer, nut (2) 25 Nm , lock tab washer, connect horn connector.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 16,
+      "sourcePage": "airbag-contact-unit-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Alternator to the engine – 4 bolts 20 Nm .",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 13,
+      "sourcePage": "alternator-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Rear right–hand wheel – bolts. 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 23,
+      "sourcePage": "alternator-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install the exhaust camshaft.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 14,
+      "sourcePage": "attaching-parts-cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Working in a spiral pattern from the middle towards the outside, tighten the bolts on the camshaft bearing caps (I to VI) in stages.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 19,
+      "sourcePage": "attaching-parts-cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Working in a spiral pattern from the middle towards the outside, tighten the bolts on the camshaft bearing caps (I to VI) in stages.",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 19,
+      "sourcePage": "attaching-parts-cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the camshaft connecting flange cover.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 20,
+      "sourcePage": "attaching-parts-cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the spark plugs.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 21,
+      "sourcePage": "attaching-parts-cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the fuel distribution pipe.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 23,
+      "sourcePage": "attaching-parts-cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the exhaust gas recirculation valve.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 25,
+      "sourcePage": "attaching-parts-cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "attaching-parts-cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque (M6) 9 Nm , (M8) 22 Nm",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "attaching-parts-cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "attaching-parts-cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "attaching-parts-cylinder-head-remove-and-install-z-22-se-A26D1C"
+    },
+    {
+      "component": "Drain the engine oil.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 18,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the balancer shaft on the intake side.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 41,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the balancer shaft on the exhaust side.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 42,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the balancer shaft timing chain guide rails (1).",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 44,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the balancer shaft timing chain tensioner rail.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 45,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the balancer shaft timing chain tensioner.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 46,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the intake camshaft sprocket.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 48,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the camshaft timing chain tensioner rail.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 50,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the camshaft timing chain guide rail.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 51,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the camshaft timing chain guide rail.",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": 51,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the exhaust camshaft sprocket.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 53,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the guide rail.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 55,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the camshaft timing chain tensioner.",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 56,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the timing case. Note: Remove the plastic wedge and the cloth from the opening in the timing case.",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": 58,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the rotational vibration damper (2).",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": 59,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the ribbed V–belt tensioner. Note: The lug (1) of the ribbed V–belt tensioner engages into the bore in the timing case (2).",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": 62,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the engine damping block bracket.",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 64,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 65,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the ignition module.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 66,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the knock sensor.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 70,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the intake manifold.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 71,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the exhaust gas recirculation pipe.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 72,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the exhaust gas recirculation pipe.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 72,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the engine control unit.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 76,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the engine control unit.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 76,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the oil dipstick guide tube.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 77,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 85 Nm + 30° + 15°",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 65 Nm",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 75 Nm",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C"
+    }
+  ]
+}

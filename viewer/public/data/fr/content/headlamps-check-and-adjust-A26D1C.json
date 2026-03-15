@@ -1,0 +1,147 @@
+{
+  "title": "Phares, Vérifier et Ajuster",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Le boîtier principal du phare ou le dispositif de retenue affiche une référence de 1,2 % pour le réglage des feux de croisement selon les directives EEC 767/56 ou ECE-R48",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Les directives 767/56 EEC ou ECE-R48 couvrent la vérification et le réglage des phares du véhicule. Un réglage correct des phares du véhicule devrait permettre une illumination optimale de la route par les feux de croisement, avec un éblouissement minimal du trafic venant en sens inverse. À cette fin, l'inclinaison du faisceau des phares par rapport à la surface de la route et l'angle du faisceau par rapport au plan longitudinal vertical passant par le centre du véhicule doivent satisfaire aux conditions énoncées dans les directives",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "L'éblouissement (feux de croisement) est considéré comme éliminé si l'intensité de l'illumination à une distance de 25 m de chaque phare individuel sur le plan perpendiculaire à la route et à la hauteur du phare ainsi qu'au-delà, n'est pas supérieure à 1 lux. Cette exigence est généralement satisfaite si le réglage des phares est effectué selon les directives de réglage",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "La référence de 1,2 % correspond à la dimension de réglage du phare par rapport à l'inclinaison du faisceau lumineux. L'inclinaison à 12 m de distance du phare du véhicule est donc de 12 cm (illustrations G 4944 et G6849). L'inclinaison du phare de croisement est indiquée par sa limite claire/sombre",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "La directive de réglage est clarifiée par les illustrations G 4944 et G 6849",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Abréviations utilisées",
+          "image": {
+            "src": "/data/assets/images/ed8406e1bd54.jpg",
+            "alt": "Object Number: 2398751  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Abréviations (suite)",
+          "image": {
+            "src": "/data/assets/images/8232c3521494.jpg",
+            "alt": "Object Number: 2399620  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Le réglage du phare est effectué selon la réglementation, comme indiqué dans les illustrations D 6213 et D 6214, en utilisant un dispositif de réglage. Lors de l'utilisation du dispositif de réglage du phare, veiller à ce que la surface de la route du véhicule et la surface pour l'installation du dispositif de réglage soient planes et parallèles entre elles",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Les pneus du véhicule doivent avoir une pression d'air spécifiée. Les lentilles de phare défectueuses et les miroirs ainsi que les ampoules noircies doivent être remplacés avant le réglage",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Le réglage est effectué au poids à vide du véhicule plus une personne ou 75 kg sur le siège du conducteur. (Poids à vide = poids du véhicule prêt à l'emploi avec le réservoir de carburant complètement rempli ainsi que le poids de tout l'équipement transporté pendant l'opération, par exemple les outils, la trousse de premiers secours, le triangle de signalisation d'urgence, etc.)",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "L'intersection entre les parties horizontales et ascendantes de la limite claire/sombre (point de rupture) doit se situer sur la perpendiculaire passant par le marquage central",
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Pour une détermination plus facile du point d'intersection, les moitiés des phares peuvent être alternativement couvertes et découvertes",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Le dispositif de réglage du phare utilisé doit correspondre aux directives existantes, et les instructions d'utilisation du fabricant doivent être suivies",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Le dispositif de réglage du phare doit être régulièrement vérifié par le service de maintenance du fabricant",
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Le dispositif de réglage du phare est installé selon les directives du fabricant et est réglé à une inclinaison de 1,2 % pour le feu de croisement ou de 2 % pour le feu antibrouillard",
+          "image": {
+            "src": "/data/assets/images/74cb4032298b.jpg",
+            "alt": "Object Number: 2383441  Size: DEFAULT"
+          },
+          "number": 15
+        },
+        {
+          "text": "La ligne des 15° pour le feu de croisement sur l'écran de mesure est supprimée selon la directive 767/56 EEC (l'illustration D 6213 montre le réglage pour les véhicules circulant à droite). La direction de réglage peut également être obtenue en utilisant des dispositifs de réglage du phare qui affichent la ligne des 15° sur l'écran de mesure",
+          "image": {
+            "src": "/data/assets/images/74cb4032298b.jpg",
+            "alt": "Object Number: 2383441  Size: DEFAULT"
+          },
+          "number": 16
+        },
+        {
+          "text": "Pour les phares avec réglage conjoint pour le feu de croisement et le feu de route, le centre du faisceau lumineux du feu de route doit se situer dans les limites angulaires entourant le marquage central (illustration D 6214)",
+          "image": {
+            "src": "/data/assets/images/c88f16ce7f30.jpg",
+            "alt": "Object Number: 2383442  Size: DEFAULT"
+          },
+          "number": 17
+        },
+        {
+          "text": "Ajuster les phares",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ajustement Vertical"
+            },
+            {
+              "bullet": "•",
+              "text": "Ajustement Latéral"
+            }
+          ],
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "Les phares doivent être ajustés en utilisant un mur de projection spécifié légalement ou avec un dispositif de réglage optique des phares",
+          "number": 19,
+          "image": null
+        },
+        {
+          "text": "Ajustement vertical. La limite claire/sombre à gauche de la croix de réglage doit suivre horizontalement la ligne de réglage",
+          "number": 20,
+          "image": null
+        },
+        {
+          "text": "Ajustement latéral. La limite claire/sombre doit suivre horizontalement depuis le côté gauche jusqu'à la croix de réglage, puis à un angle d'environ 15° vers le haut à droite. L'inclinaison du faisceau est de 1,2 % à 12 m",
+          "number": 21,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "warnings": [
+    "Effectuer d'abord l'ajustement vertical, puis l'ajustement latéral. Vérifier à nouveau l'ajustement vertical après l'ajustement latéral"
+  ],
+  "type": "procedure",
+  "id": "headlamps-check-and-adjust-A26D1C"
+}

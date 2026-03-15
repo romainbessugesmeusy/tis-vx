@@ -246,7 +246,7 @@ function resolveContentSlug(manifest, urlId, selectedEngine) {
   return urlId
 }
 
-function ContentViewer({ manifest, selectedEngine, onNavigateToComponent }) {
+function ContentViewer({ manifest, selectedEngine, language = 'en', onNavigateToComponent }) {
   const { id } = useParams()
   const { isOffline } = useOffline()
   const [content, setContent] = useState(null)
@@ -255,6 +255,7 @@ function ContentViewer({ manifest, selectedEngine, onNavigateToComponent }) {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(null)
 
+  const basePath = language === 'en' ? '/data' : `/data/${language}`
   const contentSlug = resolveContentSlug(manifest, id, selectedEngine)
   const section = manifest?.sections?.find(
     (s) => s.id === id || Object.values(s.variants || {}).some((v) => v?.slug === id)
@@ -273,8 +274,7 @@ function ContentViewer({ manifest, selectedEngine, onNavigateToComponent }) {
     setError(null)
     const slug = resolveContentSlug(manifest, id, selectedEngine)
 
-    // Try to load JSON first (structured content)
-    fetch(`/data/content/${slug}.json`)
+    fetch(`${basePath}/content/${slug}.json`)
       .then(res => {
         if (!res.ok) throw new Error('JSON not found')
         return res.json()
@@ -283,16 +283,14 @@ function ContentViewer({ manifest, selectedEngine, onNavigateToComponent }) {
         setContent(data)
         setContentType(data.type)
         
-        // For generic type, also load HTML fallback
         if (data.type === 'generic') {
-          return fetch(`/data/content/${slug}.html`)
+          return fetch(`${basePath}/content/${slug}.html`)
             .then(res => res.ok ? res.text() : null)
             .then(html => setHtmlFallback(html))
         }
       })
       .catch(() => {
-        // Fallback to HTML only
-        return fetch(`/data/content/${slug}.html`)
+        return fetch(`${basePath}/content/${slug}.html`)
           .then(res => {
             if (!res.ok) throw new Error(`Document not found: ${id}`)
             return res.text()
@@ -309,7 +307,7 @@ function ContentViewer({ manifest, selectedEngine, onNavigateToComponent }) {
       .finally(() => {
         setLoading(false)
       })
-  }, [id, manifest, selectedEngine])
+  }, [id, manifest, selectedEngine, basePath])
 
   if (!id) {
     const engineStr = Array.isArray(manifest?.vehicle?.engines) 

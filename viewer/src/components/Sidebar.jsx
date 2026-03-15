@@ -49,6 +49,10 @@ const getGroupStyle = (title) => {
   return GROUP_STYLES[title] || { emoji: '📁', color: '#6b7280' }
 }
 
+// Resolve display title: use translated override when available, fall back to original
+const nodeTitle = (nodeId, node, titleOverrides) =>
+  titleOverrides?.[nodeId] || node?.title || ''
+
 // Collect all leaves from a group, handling nested group folders
 // If a group folder like "Schematic and Routing Diagrams" contains another group folder
 // like "Circuit Diagram", we flatten it and only show the nested group's content under
@@ -558,7 +562,7 @@ function hasMatchingDescendant(childIds, query, nodes) {
 }
 
 // Mixed column component - renders group folders as labels AND other folders as clickable items
-function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, selectedEngine, visibleNodeIds, activeDocId, searchQuery, onFolderClick, selectedId, onDocumentSelect }) {
+function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, selectedEngine, visibleNodeIds, activeDocId, searchQuery, onFolderClick, selectedId, onDocumentSelect, titleOverrides }) {
   // Track collapsed state for each group - initialize from localStorage
   const [collapsedGroups, setCollapsedGroups] = useState(() => {
     try {
@@ -599,7 +603,7 @@ function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, selectedE
     const lowerQuery = query.toLowerCase()
     return leaves.filter(leaf => {
       const node = nodes[leaf.id]
-      return node && node.title.toLowerCase().includes(lowerQuery)
+      return node && (node.title.toLowerCase().includes(lowerQuery) || nodeTitle(leaf.id, node, titleOverrides).toLowerCase().includes(lowerQuery))
     })
   }
 
@@ -614,7 +618,7 @@ function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, selectedE
       return childIds.some(childId => {
         const child = nodes[childId]
         if (!child) return false
-        if (child.isLeaf && child.title.toLowerCase().includes(lowerQuery)) return true
+        if (child.isLeaf && (child.title.toLowerCase().includes(lowerQuery) || nodeTitle(childId, child, titleOverrides).toLowerCase().includes(lowerQuery))) return true
         if (!child.isLeaf && child.children) return checkChildren(child.children)
         return false
       })
@@ -628,7 +632,7 @@ function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, selectedE
     for (const childId of childIds) {
       const child = nodes[childId]
       if (!child) continue
-      if (child.title.toLowerCase().includes(query)) return true
+      if (child.title.toLowerCase().includes(query) || nodeTitle(childId, child, titleOverrides).toLowerCase().includes(query)) return true
       if (!child.isLeaf && child.children) {
         if (hasMatchingDescendant(child.children, query)) return true
       }
@@ -672,8 +676,8 @@ function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, selectedE
     : processedGroups
 
   const visibleOthers = query
-    ? otherFolders.filter(({ node }) => {
-        if (node.title.toLowerCase().includes(query)) return true
+    ? otherFolders.filter(({ id, node }) => {
+        if (node.title.toLowerCase().includes(query) || nodeTitle(id, node, titleOverrides).toLowerCase().includes(query)) return true
         if (!node.isLeaf && node.children) {
           return hasMatchingDescendant(node.children, query)
         }
@@ -709,14 +713,14 @@ function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, selectedE
                       className={`column-nav-link ${isActive ? 'active' : ''}`}
                       onClick={() => onDocumentSelect(slug)}
                     >
-                      <span className="column-nav-title document-leaf">{node.title}</span>
+                      <span className="column-nav-title document-leaf">{nodeTitle(id, node, titleOverrides)}</span>
                     </button>
                   ) : (
                     <NavLink
                       to={`/doc/${slug}`}
                       className={`column-nav-link ${isActive ? 'active' : ''}`}
                     >
-                      <span className="column-nav-title document-leaf">{node.title}</span>
+                      <span className="column-nav-title document-leaf">{nodeTitle(id, node, titleOverrides)}</span>
                     </NavLink>
                   )
                 ) : (
@@ -726,7 +730,7 @@ function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, selectedE
                     onClick={() => onFolderClick(id)}
                   >
                     <span className="column-nav-folder-icon">📂</span>
-                    <span className="column-nav-title">{node.title}</span>
+                    <span className="column-nav-title">{nodeTitle(id, node, titleOverrides)}</span>
                     <span className="column-nav-arrow">›</span>
                   </button>
                 )}
@@ -765,7 +769,7 @@ function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, selectedE
                   onClick={() => onDocumentSelect(slug)}
                 >
                   <span className="column-group-emoji">{style.emoji}</span>
-                  <span className="column-nav-title">{leafNode.title}</span>
+                  <span className="column-nav-title">{nodeTitle(leafId, leafNode, titleOverrides)}</span>
                 </button>
               ) : (
                 <NavLink
@@ -774,7 +778,7 @@ function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, selectedE
                   style={{ '--group-color': style.color }}
                 >
                   <span className="column-group-emoji">{style.emoji}</span>
-                  <span className="column-nav-title">{leafNode.title}</span>
+                  <span className="column-nav-title">{nodeTitle(leafId, leafNode, titleOverrides)}</span>
                 </NavLink>
               )}
             </div>
@@ -794,7 +798,7 @@ function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, selectedE
             >
               <span className="column-group-chevron">{isCollapsed ? '▶' : '▼'}</span>
               <span className="column-group-emoji">{style.emoji}</span>
-              <span className="column-group-title">{node.title}</span>
+              <span className="column-group-title">{nodeTitle(id, node, titleOverrides)}</span>
               <span className="column-group-count">{filteredLeaves.length}</span>
             </button>
             {!isCollapsed && (
@@ -811,14 +815,14 @@ function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, selectedE
                           className={`column-nav-link ${isActive ? 'active' : ''}`}
                           onClick={() => onDocumentSelect(slug)}
                         >
-                          <span className="column-nav-title document-leaf">{leafNode.title}</span>
+                          <span className="column-nav-title document-leaf">{nodeTitle(leafId, leafNode, titleOverrides)}</span>
                         </button>
                       ) : (
                         <NavLink
                           to={`/doc/${slug}`}
                           className={`column-nav-link ${isActive ? 'active' : ''}`}
                         >
-                          <span className="column-nav-title document-leaf">{leafNode.title}</span>
+                          <span className="column-nav-title document-leaf">{nodeTitle(leafId, leafNode, titleOverrides)}</span>
                         </NavLink>
                       )}
                     </li>
@@ -834,7 +838,7 @@ function MixedColumn({ groupFolders, otherFolders, nodes, tocIdToSlug, selectedE
 }
 
 // Column-based navigation component (macOS Finder style)
-function ColumnNav({ roots, nodes, tocIdToSlug, selectedEngine, visibleNodeIds, searchQuery, maxVisibleColumns = Infinity, onDocumentSelect, externalNavPath, onExternalNavComplete }) {
+function ColumnNav({ roots, nodes, tocIdToSlug, selectedEngine, visibleNodeIds, searchQuery, maxVisibleColumns = Infinity, onDocumentSelect, externalNavPath, onExternalNavComplete, titleOverrides }) {
   const navigate = useNavigate()
   const { id: activeDocId } = useParams()
   const containerRef = useRef(null)
@@ -1151,8 +1155,8 @@ function ColumnNav({ roots, nodes, tocIdToSlug, selectedEngine, visibleNodeIds, 
   const filterItems = (items) => {
     if (!searchQuery) return items
     const query = searchQuery.toLowerCase()
-    return items.filter(({ node }) => {
-      if (node.title.toLowerCase().includes(query)) return true
+    return items.filter(({ id, node }) => {
+      if (node.title.toLowerCase().includes(query) || nodeTitle(id, node, titleOverrides).toLowerCase().includes(query)) return true
       // For folders, check if any descendant matches
       if (!node.isLeaf && node.children) {
         return hasMatchingDescendant(node.children, query)
@@ -1165,7 +1169,7 @@ function ColumnNav({ roots, nodes, tocIdToSlug, selectedEngine, visibleNodeIds, 
     for (const childId of childIds) {
       const child = nodes[childId]
       if (!child) continue
-      if (child.title.toLowerCase().includes(query)) return true
+      if (child.title.toLowerCase().includes(query) || nodeTitle(childId, child, titleOverrides).toLowerCase().includes(query)) return true
       if (!child.isLeaf && child.children) {
         if (hasMatchingDescendant(child.children, query)) return true
       }
@@ -1235,6 +1239,7 @@ function ColumnNav({ roots, nodes, tocIdToSlug, selectedEngine, visibleNodeIds, 
               onFolderClick={(nodeId) => handleMixedFolderClick(nodeId, colIndex)}
               selectedId={col.selectedId}
               onDocumentSelect={onDocumentSelect}
+              titleOverrides={titleOverrides}
             />
           )
         }
@@ -1258,14 +1263,14 @@ function ColumnNav({ roots, nodes, tocIdToSlug, selectedEngine, visibleNodeIds, 
                           className={`column-nav-link ${isActive ? 'active' : ''}`}
                           onClick={() => onDocumentSelect(slug)}
                         >
-                          <span className="column-nav-title document-leaf">{node.title}</span>
+                          <span className="column-nav-title document-leaf">{nodeTitle(id, node, titleOverrides)}</span>
                         </button>
                       ) : (
                         <NavLink
                           to={`/doc/${slug}`}
                           className={`column-nav-link ${isActive ? 'active' : ''}`}
                         >
-                          <span className="column-nav-title document-leaf">{node.title}</span>
+                          <span className="column-nav-title document-leaf">{nodeTitle(id, node, titleOverrides)}</span>
                         </NavLink>
                       )
                     ) : (
@@ -1275,7 +1280,7 @@ function ColumnNav({ roots, nodes, tocIdToSlug, selectedEngine, visibleNodeIds, 
                         onClick={() => handleItemClick(id, colIndex)}
                       >
                         <span className="column-nav-folder-icon">📂</span>
-                        <span className="column-nav-title">{node.title}</span>
+                        <span className="column-nav-title">{nodeTitle(id, node, titleOverrides)}</span>
                         <span className="column-nav-arrow">›</span>
                       </button>
                     )}
@@ -1300,7 +1305,7 @@ function getLeafSlug(node, nodeId, tocIdToSlug, selectedEngine) {
 }
 
 // Tree group component - renders a group folder with special styling
-function TreeGroup({ nodeId, node, nodes, tocIdToSlug, selectedEngine, visibleNodeIds, expandedNodes, toggleNode, searchQuery }) {
+function TreeGroup({ nodeId, node, nodes, tocIdToSlug, selectedEngine, visibleNodeIds, expandedNodes, toggleNode, searchQuery, titleOverrides }) {
   const isExpanded = expandedNodes.has(nodeId)
   const style = getGroupStyle(node.title)
   
@@ -1331,10 +1336,10 @@ function TreeGroup({ nodeId, node, nodes, tocIdToSlug, selectedEngine, visibleNo
   const filteredLeaves = useMemo(() => {
     if (!searchQuery) return leaves
     const query = searchQuery.toLowerCase()
-    return leaves.filter(({ node: leafNode }) => 
-      leafNode.title.toLowerCase().includes(query)
+    return leaves.filter(({ id, node: leafNode }) => 
+      leafNode.title.toLowerCase().includes(query) || nodeTitle(id, leafNode, titleOverrides).toLowerCase().includes(query)
     )
-  }, [leaves, searchQuery])
+  }, [leaves, searchQuery, titleOverrides])
   
   // Check if has visible content
   const hasVisibleContent = filteredLeaves.length > 0 || nestedGroups.length > 0
@@ -1358,6 +1363,7 @@ function TreeGroup({ nodeId, node, nodes, tocIdToSlug, selectedEngine, visibleNo
             expandedNodes={expandedNodes}
             toggleNode={toggleNode}
             searchQuery={searchQuery}
+            titleOverrides={titleOverrides}
           />
         ))}
       </>
@@ -1375,7 +1381,7 @@ function TreeGroup({ nodeId, node, nodes, tocIdToSlug, selectedEngine, visibleNo
           style={{ '--group-color': style.color }}
         >
           <span className="tree-group-emoji">{style.emoji}</span>
-          <span className="tree-group-link-title">{leafNode.title}</span>
+          <span className="tree-group-link-title">{nodeTitle(id, leafNode, titleOverrides)}</span>
         </NavLink>
       </li>
     )
@@ -1392,7 +1398,7 @@ function TreeGroup({ nodeId, node, nodes, tocIdToSlug, selectedEngine, visibleNo
       >
         <span className="tree-group-chevron">{isExpanded ? '▼' : '▶'}</span>
         <span className="tree-group-emoji">{style.emoji}</span>
-        <span className="tree-group-title">{node.title}</span>
+        <span className="tree-group-title">{nodeTitle(nodeId, node, titleOverrides)}</span>
         <span className="tree-group-count">{filteredLeaves.length}</span>
       </button>
       {isExpanded && (
@@ -1403,7 +1409,7 @@ function TreeGroup({ nodeId, node, nodes, tocIdToSlug, selectedEngine, visibleNo
                 to={`/doc/${slug}`}
                 className={({ isActive }) => `nav-link document-leaf ${isActive ? 'active' : ''}`}
               >
-                {leafNode.title}
+                {nodeTitle(id, leafNode, titleOverrides)}
               </NavLink>
             </li>
           ))}
@@ -1420,6 +1426,7 @@ function TreeGroup({ nodeId, node, nodes, tocIdToSlug, selectedEngine, visibleNo
               expandedNodes={expandedNodes}
               toggleNode={toggleNode}
               searchQuery={searchQuery}
+              titleOverrides={titleOverrides}
             />
           ))}
         </ul>
@@ -1429,7 +1436,7 @@ function TreeGroup({ nodeId, node, nodes, tocIdToSlug, selectedEngine, visibleNo
 }
 
 // Recursive tree node component
-function TreeNode({ nodeId, nodes, tocIdToSlug, selectedEngine, visibleNodeIds, expandedNodes, toggleNode, searchQuery }) {
+function TreeNode({ nodeId, nodes, tocIdToSlug, selectedEngine, visibleNodeIds, expandedNodes, toggleNode, searchQuery, titleOverrides }) {
   const node = nodes[nodeId]
   if (!node) return null
   if (visibleNodeIds && !visibleNodeIds.has(nodeId)) return null
@@ -1445,7 +1452,7 @@ function TreeNode({ nodeId, nodes, tocIdToSlug, selectedEngine, visibleNodeIds, 
     // Filter by search query
     if (searchQuery) {
       const query = searchQuery.toLowerCase()
-      const matchesSearch = node.title.toLowerCase().includes(query)
+      const matchesSearch = node.title.toLowerCase().includes(query) || nodeTitle(nodeId, node, titleOverrides).toLowerCase().includes(query)
       if (!matchesSearch) return null
     }
 
@@ -1459,7 +1466,7 @@ function TreeNode({ nodeId, nodes, tocIdToSlug, selectedEngine, visibleNodeIds, 
           to={`/doc/${slug}`}
           className={({ isActive }) => `nav-link document-leaf ${isActive ? 'active' : ''}`}
         >
-          <span className="tree-leaf-label">{node.title}</span>
+          <span className="tree-leaf-label">{nodeTitle(nodeId, node, titleOverrides)}</span>
           {engineBadge}
         </NavLink>
       </li>
@@ -1479,6 +1486,7 @@ function TreeNode({ nodeId, nodes, tocIdToSlug, selectedEngine, visibleNodeIds, 
         expandedNodes={expandedNodes}
         toggleNode={toggleNode}
         searchQuery={searchQuery}
+        titleOverrides={titleOverrides}
       />
     )
   }
@@ -1509,22 +1517,24 @@ function TreeNode({ nodeId, nodes, tocIdToSlug, selectedEngine, visibleNodeIds, 
     let list = regularChildren
     if (visibleNodeIds) list = list.filter(id => visibleNodeIds.has(id))
     if (!searchQuery) return list
+    const query = searchQuery.toLowerCase()
     return list.filter(childId => {
       const child = nodes[childId]
       if (!child) return false
       if (child.isLeaf) {
         const slug = getLeafSlug(child, childId, tocIdToSlug, selectedEngine)
         if (!slug) return false
-        return child.title.toLowerCase().includes(searchQuery.toLowerCase())
+        return child.title.toLowerCase().includes(query) || nodeTitle(childId, child, titleOverrides).toLowerCase().includes(query)
       }
       return true
     })
-  }, [regularChildren, nodes, tocIdToSlug, searchQuery, visibleNodeIds, selectedEngine])
+  }, [regularChildren, nodes, tocIdToSlug, searchQuery, visibleNodeIds, selectedEngine, titleOverrides])
 
   // Check if any descendants match the search
   const hasVisibleDescendants = useMemo(() => {
     if (!searchQuery) return hasChildren
     
+    const query = searchQuery.toLowerCase()
     const checkDescendants = (childIds) => {
       for (const childId of childIds) {
         const child = nodes[childId]
@@ -1532,7 +1542,7 @@ function TreeNode({ nodeId, nodes, tocIdToSlug, selectedEngine, visibleNodeIds, 
         
         if (child.isLeaf) {
           const slug = tocIdToSlug[childId]
-          if (slug && child.title.toLowerCase().includes(searchQuery.toLowerCase())) {
+          if (slug && (child.title.toLowerCase().includes(query) || nodeTitle(childId, child, titleOverrides).toLowerCase().includes(query))) {
             return true
           }
         } else if (child.children && child.children.length > 0) {
@@ -1543,7 +1553,7 @@ function TreeNode({ nodeId, nodes, tocIdToSlug, selectedEngine, visibleNodeIds, 
     }
     
     return checkDescendants(node.children || [])
-  }, [node.children, nodes, tocIdToSlug, searchQuery, hasChildren])
+  }, [node.children, nodes, tocIdToSlug, searchQuery, hasChildren, titleOverrides])
 
   // Hide empty folders when searching
   if (searchQuery && !hasVisibleDescendants) return null
@@ -1556,7 +1566,7 @@ function TreeNode({ nodeId, nodes, tocIdToSlug, selectedEngine, visibleNodeIds, 
         type="button"
       >
         <span className="folder-icon">{isExpanded ? '▼' : '▶'}</span>
-        <span className="folder-title">{node.title}</span>
+        <span className="folder-title">{nodeTitle(nodeId, node, titleOverrides)}</span>
       </button>
       {isExpanded && hasChildren && (
         <ul className="tree-children">
@@ -1575,6 +1585,7 @@ function TreeNode({ nodeId, nodes, tocIdToSlug, selectedEngine, visibleNodeIds, 
                 expandedNodes={expandedNodes}
                 toggleNode={toggleNode}
                 searchQuery={searchQuery}
+                titleOverrides={titleOverrides}
               />
             )
           })}
@@ -1590,6 +1601,7 @@ function TreeNode({ nodeId, nodes, tocIdToSlug, selectedEngine, visibleNodeIds, 
               expandedNodes={expandedNodes}
               toggleNode={toggleNode}
               searchQuery={searchQuery}
+              titleOverrides={titleOverrides}
             />
           ))}
         </ul>
@@ -1678,7 +1690,7 @@ const isValidRootFolder = (node) => {
   return sectionPattern.test(title) || generalPattern.test(title)
 }
 
-function Sidebar({ sections, tree, tocIdToSlug, contentTypeStats, selectedEngine, isColumnLayout, isMobile, isTablet, isOpen, onClose, externalNavPath, onExternalNavComplete }) {
+function Sidebar({ sections, tree, tocIdToSlug, contentTypeStats, selectedEngine, titleOverrides, isColumnLayout, isMobile, isTablet, isOpen, onClose, externalNavPath, onExternalNavComplete }) {
   const [searchQuery, setSearchQuery] = useState('')
   const [epcSearchQuery, setEpcSearchQuery] = useState('')
   const { id: activeDocId } = useParams()
@@ -2109,6 +2121,7 @@ function Sidebar({ sections, tree, tocIdToSlug, contentTypeStats, selectedEngine
                 onDocumentSelect={showMobileMenu ? handleMobileNavigate : null}
                 externalNavPath={externalNavPath}
                 onExternalNavComplete={onExternalNavComplete}
+                titleOverrides={titleOverrides}
               />
             ) : hasTree ? (
               <ul className="tree-root">
@@ -2123,6 +2136,7 @@ function Sidebar({ sections, tree, tocIdToSlug, contentTypeStats, selectedEngine
                     expandedNodes={expandedNodes}
                     toggleNode={toggleNode}
                     searchQuery={searchQuery}
+                    titleOverrides={titleOverrides}
                   />
                 ))}
               </ul>

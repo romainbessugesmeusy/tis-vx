@@ -1,0 +1,60 @@
+{
+  "title": "Unité de Commande d'Airbag, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer l'ensemble du tableau de bord du véhicule – voir l'opération «Déposer et Reposer l'Ensemble du Tableau de Bord».",
+          "image": {
+            "src": "/data/assets/images/d71c5fb9b45c.jpg",
+            "alt": "Object Number: 2429815  Size: DEFAULT"
+          },
+          "number": 1
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Connecteur du faisceau de l'unité de commande d'airbag.",
+          "image": {
+            "src": "/data/assets/images/d71c5fb9b45c.jpg",
+            "alt": "Object Number: 2429815  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Unité de commande d'airbag du support – écrous et rondelles.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Unité de commande d'airbag au support – rondelles et écrous.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Connecteur du faisceau à l'unité de commande d'airbag.",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Reposer l'ensemble du tableau de bord sur le véhicule – voir l'opération «Déposer et Reposer l'Ensemble du Tableau de Bord».",
+          "image": {
+            "src": "/data/assets/images/d71c5fb9b45c.jpg",
+            "alt": "Object Number: 2429815  Size: DEFAULT"
+          },
+          "number": 6
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "airbag-control-unit-remove-and-install-AQS315"
+}

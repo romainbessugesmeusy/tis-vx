@@ -1,0 +1,12 @@
+{
+  "title": "Température de l'huile, Mesurer",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Température de l'huile, Mesurer</p>\n\n<p><img src=\"/data/assets/images/7c3d75e8b2c9.gif\" height=\"30\" width=\"30\"> <span\nclass=\"gt-picto\">&nbsp;&nbsp;Déposer</span></p>\n\n<table border=\"0\">\n<tr>\n<td valign=\"top\" width=\"95%\">\n<p>Jauge d'huile.</p>\n\n<p><img src=\"/data/assets/images/6eff4d42a9f9.gif\" height=\"30\" width=\"30\">\n<span class=\"gt-picto\">&nbsp;&nbsp;Reposer</span></p>\n\n<p>Insérer la sonde de mesure <span class=\"tool\">KM-4119-GP</span>\ndepuis <span class=\"tool\">KM-4119</span> à environ 1 cm au-dessus du\nfond du carter d'huile à travers le tube de la jauge d'huile.</p>\n\n<p><img src=\"/data/assets/images/707731fa677f.gif\" height=\"30\" width=\"30\">\n<span class=\"gt-picto\">&nbsp;&nbsp;Mesurer</span></p>\n\n<p>Température de l'huile.</p>\n\n<p>La température de l'huile dépend de la charge du moteur. À des températures\nambiante élevées ou à des régimes moteur très élevés, la température de\nl'huile peut atteindre environ <span class=\"tech-spec\">150\n&deg;C</span> .</p>\n</td>\n<td valign=\"top\" align=\"right\"><!--SCDS Link: T9602.itf-->\n<img border=\"0\" width=\"360\" height=\"360\" alt=\n\"Object Number: 2429833  Size: DEFAULT\" align=\"TOP\" src=\"/data/assets/images/156c7ced7054.jpg\">\n<br>\n<a href=\"javascript:TFormSubmit('A3SK1ODK1OAK1','1','A3SK1ODK1OAK1','detail')\">\n<img src=\"/data/assets/images/db1138827f57.gif\" alt=\n\"Cliquez ici pour une image détaillée de l'image ci-dessus\"></a>\n\n<br> </td>\n</tr>\n</table>\n\n<p><img src=\"/data/assets/images/7c3d75e8b2c9.gif\" height=\"30\" width=\"30\"> <span\nclass=\"gt-picto\">&nbsp;&nbsp;Déposer</span></p>\n\n<p>Sonde de mesure.</p>\n\n<p><img src=\"/data/assets/images/6eff4d42a9f9.gif\" height=\"30\" width=\"30\">\n<span class=\"gt-picto\">&nbsp;&nbsp;Reposer</span></p>\n\n<p>Jauge d'huile.</p>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "type": "generic",
+  "id": "oil-temperature-measure-A26D1C",
+  "extractedData": {
+    "tools": [
+      "KM-4119-GP",
+      "KM-4119"
+    ]
+  }
+}

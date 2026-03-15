@@ -1,0 +1,119 @@
+{
+  "title": "Passenger compartment - Instrument panel",
+  "components": [
+    {
+      "description": "Déposer l'unité de contrôle - Airbag",
+      "code": "A1"
+    },
+    {
+      "description": "Déposer l'interrupteur - Feu de stationnement",
+      "code": "S4"
+    },
+    {
+      "description": "Déposer l'unité de contrôle - Verrouillage central",
+      "code": "A12"
+    },
+    {
+      "description": "Déposer l'interrupteur - Feux de détresse",
+      "code": "S6"
+    },
+    {
+      "description": "Radio",
+      "code": "A14"
+    },
+    {
+      "description": "Déposer l'interrupteur - Unité d'essuie-glace",
+      "code": "S22"
+    },
+    {
+      "description": "Déposer l'unité de contrôle - Antidémarrage",
+      "code": "A17"
+    },
+    {
+      "description": "Déposer le contacteur - Porte conducteur",
+      "code": "S38"
+    },
+    {
+      "description": "Déposer le haut-parleur - Avant, gauche",
+      "code": "B36"
+    },
+    {
+      "description": "Déposer le contacteur - Porte passager avant",
+      "code": "S39"
+    },
+    {
+      "description": "Déposer le haut-parleur - Avant, droit",
+      "code": "B37"
+    },
+    {
+      "description": "Déposer l'interrupteur - Ventilateur, chauffage",
+      "code": "S69"
+    },
+    {
+      "description": "Déposer la lampe - Habitacle passager",
+      "code": "E39"
+    },
+    {
+      "description": "Déposer l'interrupteur - Antibrouillards, avant",
+      "code": "S76"
+    },
+    {
+      "description": "Instrument",
+      "code": "H1"
+    },
+    {
+      "description": "Déposer l'interrupteur - Verrouillage central (instrument)",
+      "code": "S87"
+    },
+    {
+      "description": "Déposer l'interrupteur - Démarreur",
+      "code": "S1"
+    },
+    {
+      "description": "Déposer l'interrupteur - Antibrouillards, arrière",
+      "code": "S122"
+    },
+    {
+      "description": "Déposer l'unité d'interrupteurs - Lumière",
+      "code": "S2"
+    },
+    {
+      "description": "Déposer l'interrupteur - Bouton de démarrage",
+      "code": "S124"
+    },
+    {
+      "description": "Déposer l'unité d'interrupteurs - Colonne de direction",
+      "code": "S3"
+    },
+    {
+      "description": "Déposer l'interrupteur - Éclairage/Réinitialisation compteur kilométrique",
+      "code": "S125"
+    },
+    {
+      "description": "Faisceau principal & Unité de contact",
+      "code": "X20"
+    },
+    {
+      "description": "Faisceau principal & Faisceau d'extension, contacteur - Porte conducteur",
+      "code": "X25"
+    },
+    {
+      "description": "Faisceau principal & Unité de contrôle - Système d'alarme antivol",
+      "code": "X23"
+    },
+    {
+      "description": "Faisceau principal & Faisceau d'extension, contacteur - Porte passager avant",
+      "code": "X26"
+    },
+    {
+      "description": "Faisceau principal & Unité de contrôle - Système d'alarme antivol",
+      "code": "X24"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "passenger-compartment-instrument-panel-left-hand-drive-A26D1C",
+  "diagram": {
+    "src": "/data/assets/3ae796af62b9.cgm",
+    "type": "cgm"
+  }
+}

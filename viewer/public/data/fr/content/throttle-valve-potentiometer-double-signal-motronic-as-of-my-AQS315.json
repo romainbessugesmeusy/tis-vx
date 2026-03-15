@@ -1,0 +1,41 @@
+{
+  "title": "Potentiomètre de papillon des gaz (Double signal),\nMotronic (à partir de MY2001)",
+  "steps": [
+    {
+      "text": "Déposer la courbe de référence.",
+      "number": 1
+    },
+    {
+      "text": "Allumer le contact.",
+      "number": 2
+    },
+    {
+      "text": "Déposer la pédale d'accélérateur rapidement jusqu'à la\nbutée, puis la relâcher.",
+      "number": 3
+    },
+    {
+      "text": "Télécharger le fichier de configuration.",
+      "number": 1
+    },
+    {
+      "text": "Démarrer le moteur et le laisser au ralenti.",
+      "number": 2
+    },
+    {
+      "text": "Déposer la pédale d'accélérateur rapidement jusqu'à la\nbutée, puis la relâcher.",
+      "number": 3
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/5bbdfbdc0be0.jpg",
+      "alt": "Numéro d'objet : 2419834  Taille : PAR DÉFAUT"
+    },
+    {
+      "src": "/data/assets/images/4cf1af0e7d54.jpg",
+      "alt": "Numéro d'objet : 2419081  Taille : PAR DÉFAUT"
+    }
+  ],
+  "type": "diagnostic",
+  "id": "throttle-valve-potentiometer-double-signal-motronic-as-of-my-AQS315"
+}

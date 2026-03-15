@@ -1,0 +1,55 @@
+{
+  "title": "Bloc d'amortissement moteur, avant, Remplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Protection sous caisse – voir l'opération «Déposer et Reposer la Protection sous caisse» dans le Groupe A.",
+          "image": {
+            "src": "/data/assets/images/1048f26f1fc3.jpg",
+            "alt": "Object Number: 2429848  Size: DEFAULT"
+          },
+          "number": 1
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Soutenir le moteur par en dessous.",
+          "image": {
+            "src": "/data/assets/images/1048f26f1fc3.jpg",
+            "alt": "Object Number: 2429848  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Bloc d'amortissement moteur du moteur et du support – vis.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Bloc d'amortissement moteur au support et au moteur – vis.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Protection sous caisse – voir l'opération «Déposer et Reposer la Protection sous caisse» dans le Groupe A.",
+          "image": {
+            "src": "/data/assets/images/1048f26f1fc3.jpg",
+            "alt": "Object Number: 2429848  Size: DEFAULT"
+          },
+          "number": 5
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "engine-damping-block-front-replace-A26D1C"
+}

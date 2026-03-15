@@ -1,0 +1,189 @@
+{
+  "title": "Cache Latéral, Côté Gauche, Remplacer (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Élever le véhicule",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer la roue arrière du côté gauche",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser une douille spéciale située sous le capot avant"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer les 4x boulons de roue"
+            }
+          ],
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déposer le revêtement de passage de roue du côté gauche",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer les 4x vis, 2x agrafes"
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Détacher le cache latéral du passage de roue",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer, puis jeter les 2x écrous (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer les 2x rondelles"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e45db084baad.jpg",
+            "alt": "Object Number: 2422239  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Déposer le cache latéral du véhicule",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer les 2x vis (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e33cabdbff66.jpg",
+            "alt": "Object Number: 2422240  Size: DEFAULT"
+          },
+          "number": 5
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer la grille (1) sur le nouveau cache latéral",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser un adhésif de collage approprié"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f1846a07339a.jpg",
+            "alt": "Object Number: 2423043  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 6
+        },
+        {
+          "text": "Reposer le cache latéral sur le véhicule",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer les 2x vis (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e33cabdbff66.jpg",
+            "alt": "Object Number: 2422240  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Fixer le cache latéral au passage de roue",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer les 2x rondelles"
+            },
+            {
+              "bullet": "•",
+              "text": "Reposer les 2x nouveaux écrous (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e45db084baad.jpg",
+            "alt": "Object Number: 2422239  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Reposer le revêtement de passage de roue du côté gauche",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer les 4x vis, 2x agrafes"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Reposer la roue arrière du côté gauche",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer, puis serrer à la main les 4x boulons, boulon de sécurité"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Fixer la roue arrière du côté gauche",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer à 90 Nm les 4x boulons"
+            },
+            {
+              "bullet": "•",
+              "text": "Utiliser une douille spéciale située sous le capot avant"
+            }
+          ],
+          "number": 12,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Fixer la roue arrière du côté gauche",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Serrer à 90 Nm les 4x boulons",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "type": "procedure",
+  "id": "side-pod-left-side-replace-z-20-let-AQS315"
+}

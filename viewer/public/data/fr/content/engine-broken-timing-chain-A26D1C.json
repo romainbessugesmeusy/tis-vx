@@ -1,0 +1,60 @@
+{
+  "title": "Field Remedy: 1532",
+  "subject": "Moteur Z22SE - Chaîne de distribution cassée",
+  "complaint": "Moteur endommagé par une chaîne de distribution cassée.",
+  "cause": "Lubrification manquante ou insuffisante de la chaîne de distribution.",
+  "production": "Une chaîne de distribution modifiée et un gicleur de lubrification\nont été introduits en production à partir du numéro de moteur suivant :\n11065400 (mars 2002).",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "Note : Veuillez d'abord vérifier si la voiture est incluse dans la Campagne de Service 03-P-24.\nLes véhicules non inclus dans la Campagne de Service mentionnée ci-dessus doivent être réparés comme suit :"
+    },
+    {
+      "type": "paragraph",
+      "text": "En cas de réclamation du client, veuillez utiliser le kit de distribution.\nCe kit contient la chaîne de distribution modifiée et le gicleur de lubrification."
+    },
+    {
+      "type": "paragraph",
+      "text": "En cas de réparation moteur nécessaire, veuillez tenir compte des exigences locales."
+    },
+    {
+      "type": "paragraph",
+      "text": "Note : Ces informations rapides sont valables pour tous les moteurs Z22SE\njusqu'au numéro de moteur 11065400."
+    }
+  ],
+  "labourTimes": [
+    {
+      "code": "U3 153 20",
+      "description": "Reposer kit de distribution Astra G",
+      "tc": "90",
+      "hours": 3
+    },
+    {
+      "code": "U3 153 21",
+      "description": "Reposer kit de distribution Zafira A",
+      "tc": "90",
+      "hours": 3.3
+    },
+    {
+      "code": "U3 153 22",
+      "description": "Reposer kit de distribution",
+      "tc": "90",
+      "hours": 3.7
+    },
+    {
+      "code": "U3 153 23",
+      "description": "Reposer kit de distribution",
+      "tc": "90",
+      "hours": 4.6
+    }
+  ],
+  "type": "tsb",
+  "id": "engine-broken-timing-chain-A26D1C",
+  "metadata": {
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "01 - Broken or Cracked",
+    "models": null,
+    "engines": null,
+    "troubleCode": ""
+  }
+}

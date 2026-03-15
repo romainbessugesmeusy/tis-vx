@@ -1,0 +1,40 @@
+{
+  "title": "Feu stop central, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Feu stop central du montant arrière - agrafes (fléchées).",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Connexions du faisceau du feu stop central.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Connecteur du faisceau au feu stop central.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Feu stop central au montant - agrafes.",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "third-brake-lamp-remove-and-install-A26D1C"
+}

@@ -1,0 +1,262 @@
+{
+  "title": "Déposer le démarreur (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Débrancher la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer le réservoir de lave-glace (1), le positionner sur le côté"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer l'écrou, la vis (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/482794e97b8a.jpg",
+            "alt": "Object Number: 2422316  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer la vis supérieure du démarreur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer le support"
+            }
+          ],
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déposer le cache-moteur inférieur (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Élever le véhicule"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 13x vis, 13x rondelle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1d1ad92dd5ed.jpg",
+            "alt": "Object Number: 2425071  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Déposer le support de la vanne de coupure du vide du moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Débrancher le connecteur du faisceau de caisse"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer l'agrafe de faisceau (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 2x vis (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Positionner le réservoir à vide sur le côté"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9108465b638b.jpg",
+            "alt": "Object Number: 2422363  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Déposer le démarreur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer la vis inférieure"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer la vis"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer l'écrou, la rondelle"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer l'écrou, la rondelle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8f0cf7af4db5.jpg",
+            "alt": "Object Number: 2422214  Size: DEFAULT"
+          },
+          "number": 5
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le démarreur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer la vis inférieure 40 Nm"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Reposer le câble positif de batterie au démarreur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer la rondelle, l'écrou"
+            },
+            {
+              "bullet": "•",
+              "text": "Reposer la rondelle, l'écrou"
+            }
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Connecter le câble de masse du faisceau au bloc moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer la vis"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Reposer le support de la vanne de coupure du vide au moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 2x vis 25 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Reposer l'agrafe de faisceau"
+            },
+            {
+              "bullet": "•",
+              "text": "Connecter le connecteur du faisceau de caisse"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Reposer le cache-moteur inférieur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 13x vis, 13x rondelle"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Reposer la vis supérieure du démarreur 45 Nm",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer le support"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Rebrancher la borne négative de la batterie",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer l'écrou, l'écrou"
+            },
+            {
+              "bullet": "•",
+              "text": "Serrer le réservoir de lave-glace"
+            }
+          ],
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Programmer toutes les mémoires volatiles",
+          "number": 14,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer le démarreur",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Reposer le support de la vanne de coupure du vide au moteur",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Reposer la vis supérieure du démarreur 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Reposer la vis inférieure 40 Nm",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer 2x vis 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "Un pont élévateur à quatre colonnes doit être utilisé pour élever le véhicule lors du retrait du cache-moteur et du cache du tuyau d'échappement. Le véhicule peut être déplacé vers un pont à deux colonnes pour d'autres opérations si nécessaire.",
+    "Positionner le démarreur avant de serrer la vis."
+  ],
+  "type": "procedure",
+  "id": "starter-motor-replace-z-20-let-AQS315"
+}

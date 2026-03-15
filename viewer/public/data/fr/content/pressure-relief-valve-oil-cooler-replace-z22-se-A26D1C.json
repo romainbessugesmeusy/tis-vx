@@ -1,0 +1,80 @@
+{
+  "title": "Soupape de décharge de pression, Refroidisseur d'huile, Remplacer (Z22\nSE)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le cache du filtre à huile (1) du boîtier du filtre à huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser KM-6150"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/83471816f755.jpg",
+            "alt": "Object Number: 2429860  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 1
+        },
+        {
+          "text": "Déposer l'élément du filtre à huile du boîtier du filtre à huile",
+          "image": {
+            "src": "/data/assets/images/83471816f755.jpg",
+            "alt": "Object Number: 2429860  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Déposer la soupape de décharge de pression (1) du boîtier du filtre à huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Comprimer le ressort, puis retirer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/5ba2df324401.jpg",
+            "alt": "Object Number: 2423042  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer la soupape de décharge de pression sur le boîtier du filtre à huile",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Insérer le siège de soupape dans la galerie d'huile, comprimer le ressort, puis pousser"
+            }
+          ],
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "toolsRequired": [
+    "KM-6150"
+  ],
+  "warnings": [
+    "Si la bague de fixation du\nadaptateur de refroidisseur d'huile devient lâche lors du retrait du couvercle supérieur, maintenir en place à l'aide de la clé de maintien KM-6416\n."
+  ],
+  "type": "procedure",
+  "id": "pressure-relief-valve-oil-cooler-replace-z22-se-A26D1C"
+}

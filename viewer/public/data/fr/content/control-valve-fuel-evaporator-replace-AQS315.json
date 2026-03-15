@@ -1,0 +1,201 @@
+{
+  "title": "Soupape de Commande, Évaporateur de Carburant, Remplacer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Élever le véhicule à une hauteur de travail appropriée",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer la roue arrière droite",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser une douille spéciale située sous le capot avant"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer les 4x boulons de roue"
+            }
+          ],
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déposer le revêtement d'aile arrière droit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer les 4x vis, 2x agrafes"
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déposer la soupape de commande de l'évaporateur de carburant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Libérer l'agrafe intégrée (4)"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer, puis jeter l'attache-câble (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Tirer pour dégager"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/83751dc122f9.jpg",
+            "alt": "Object Number: 2422657  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Déposer la soupape de commande du support de châssis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer, puis jeter les 2x écrous (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer les 2x rondelles"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/83751dc122f9.jpg",
+            "alt": "Object Number: 2422657  Size: DEFAULT"
+          },
+          "number": 5
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer la soupape de commande sur le support de châssis",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer les 2x rondelles"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer les 2x nouveaux écrous"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Raccorder le tuyau d'aspiration à la soupape de commande",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Emboîter"
+            }
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Raccorder le tuyau du réservoir d'évaporateur de carburant à la soupape de commande",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer une nouvelle attache-câble"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Raccorder le connecteur du faisceau moteur à la soupape de commande",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fixer l'agrafe intégrée"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Reposer le revêtement d'aile arrière droit",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer les 4x vis, 2x agrafes"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Reposer la roue arrière droite",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer les 4x boulons, boulon de sécurité"
+            },
+            {
+              "bullet": "•",
+              "text": "Ne pas serrer"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Retirer le support de véhicule",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Fixer la roue arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer les 4x boulons, boulon de sécurité à 90"
+            }
+          ],
+          "number": 14,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Fixer la roue arrière",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 14
+    },
+    {
+      "component": "Serrer les 4x boulons, boulon de sécurité à 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "type": "procedure",
+  "id": "control-valve-fuel-evaporator-replace-AQS315"
+}

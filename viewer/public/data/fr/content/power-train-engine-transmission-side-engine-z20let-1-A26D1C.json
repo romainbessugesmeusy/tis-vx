@@ -1,0 +1,31 @@
+{
+  "title": "Groupe motopropulseur - Moteur, côté transmission",
+  "components": [
+    {
+      "description": "Capteur - Contrôle de cliquetis 1",
+      "code": "B30"
+    },
+    {
+      "description": "Condenseur - Bobine d'allumage",
+      "code": "C1"
+    },
+    {
+      "description": "Capteur - Température du liquide de refroidissement (jauge)",
+      "code": "B61"
+    },
+    {
+      "description": "Bobine d'allumage - Allumage direct",
+      "code": "T1"
+    },
+    {
+      "description": "Capteur - Oxygène, contrôle du mélange, chauffé",
+      "code": "B117"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "power-train-engine-transmission-side-engine-z20let-1-A26D1C",
+  "diagram": {
+    "src": "/data/assets/dd5a95bdccaf.cgm",
+    "type": "cgm"
+  }
+}

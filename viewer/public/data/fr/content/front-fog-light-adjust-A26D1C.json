@@ -1,0 +1,19 @@
+{
+  "title": "Régler le Feu Antibrouillard Avant",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Voir l'opération «Contrôle et Réglage des Phares» dans le groupe N",
+          "number": 1,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "type": "procedure",
+  "id": "front-fog-light-adjust-A26D1C"
+}

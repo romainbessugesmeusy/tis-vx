@@ -1,0 +1,47 @@
+{
+  "title": "Culasse, vérifier la surface plane",
+  "phases": [
+    {
+      "label": "Inspecter",
+      "steps": [
+        {
+          "text": "Outil spécial requis :",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Règle plate",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Attention",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déposer les résidus de joint et nettoyer les surfaces de joint. Aucun outil tranchant ne doit être utilisé lors du nettoyage. S'assurer que la surface de joint de la culasse n'est pas endommagée.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Remarque : Pour les moteurs diesel, les bougies de préchauffage et si nécessaire les chambres de turbulence doivent être déposées.",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "À l'aide d'une règle plate, vérifier la culasse pour la flexion dans le sens de la longueur et de la largeur, ainsi que pour la distorsion en diagonale.",
+          "image": {
+            "src": "/data/assets/images/7319d3831369.jpg",
+            "alt": "Object Number: 10680473  Size: DEFAULT"
+          },
+          "number": 6
+        }
+      ],
+      "phase": "inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "cylinder-head-check-for-plane-surface-AQS315"
+}

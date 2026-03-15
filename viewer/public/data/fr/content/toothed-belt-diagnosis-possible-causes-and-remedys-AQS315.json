@@ -1,0 +1,261 @@
+{
+  "title": "Field Remedy: 1463",
+  "subject": "Diagnostic de la courroie crantée - Causes possibles\net remèdes",
+  "remedyContent": [
+    {
+      "type": "paragraph",
+      "text": "Dépôt du bruit excessif provenant de la transmission par courroie crantée (image I)"
+    },
+    {
+      "type": "text",
+      "text": "Problème et cause:                         Remède:"
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Tension latérale trop élevée                      Ajuster à la tension correcte",
+        "la courroie émet des sifflements/cris"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Tension latérale trop faible                       Ajuster à la tension correcte\n     -la courroie heurte contre le couvercle"
+    },
+    {
+      "type": "paragraph",
+      "text": "Usure excessive du bord (image II)"
+    },
+    {
+      "type": "text",
+      "text": "Problème et cause:                         Remède:"
+    },
+    {
+      "type": "text",
+      "text": "Courroie non parallèle à l'axe          Aligner correctement\net heurtant contre la poulie à collerette"
+    },
+    {
+      "type": "text",
+      "text": "Poulie à collerette défectueuse                  Remplacer le pignon"
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Roue dentée mal alignée                         Aligner correctement",
+        "la courroie ne peut pas fonctionner correctement"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Usure excessive du tissu à la base (image III)"
+    },
+    {
+      "type": "text",
+      "text": "Problème et cause:                         Remède:"
+    },
+    {
+      "type": "text",
+      "text": "Tension latérale trop élevée                      Ajuster à la tension correcte"
+    },
+    {
+      "type": "text",
+      "text": "Courroie fonctionnant dans une chaleur excessive          Identifier le problème et le corriger"
+    },
+    {
+      "type": "text",
+      "text": "Pignon usé                              Remplacer le pignon"
+    },
+    {
+      "type": "paragraph",
+      "text": "Usure des flancs des dents / fractures du toit et cisaillement des dents (image\nIV)"
+    },
+    {
+      "type": "text",
+      "text": "Problème et cause:                         Remède:"
+    },
+    {
+      "type": "text",
+      "text": "Tension latérale trop élevée / faible, entraînant       Ajuster à la tension correcte\ndes rapports de pas incorrects"
+    },
+    {
+      "type": "text",
+      "text": "Courroie ne respectant pas les tolérances de longueur      Remplacer le pignon\nadmissibles"
+    },
+    {
+      "type": "text",
+      "text": "Action de médias externes (par ex. huile)         Identifier le problème et le corriger"
+    },
+    {
+      "type": "text",
+      "text": "Pignon / poulie bloqué                   Identifier le problème et le corriger"
+    },
+    {
+      "type": "paragraph",
+      "text": "Séparation des dents et du tissu du corps de la courroie (élément de tension)\n(image V)"
+    },
+    {
+      "type": "text",
+      "text": "Problème et cause:                         Remède:"
+    },
+    {
+      "type": "text",
+      "text": "Tissu endommagé lors de l'installation         Monter les nouvelles courroies avec précaution"
+    },
+    {
+      "type": "text",
+      "text": "Action de médias externes                   Vérifier si le couvercle est correctement positionné"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dommage du côté poulie de la courroie (image VI)"
+    },
+    {
+      "type": "text",
+      "text": "Problème et cause:                         Remède:"
+    },
+    {
+      "type": "text",
+      "text": "Objet étranger coincé dans la transmission par courroie        Retirer l'objet étranger, vérifier \n                                           si le couvercle est correctement positionné"
+    },
+    {
+      "type": "text",
+      "text": "Dommage aux dents de la roue dentée causé par        Remplacer le pignon\nun objet étranger ou un outil d'installation"
+    },
+    {
+      "type": "text",
+      "text": "Courroie endommagée avant / pendant             Observer les instructions de manipulation\nl'installation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fissures dans le support (image VII)"
+    },
+    {
+      "type": "text",
+      "text": "Problème et cause:                         Remède:"
+    },
+    {
+      "type": "text",
+      "text": "Exposition à une chaleur excessive                 Identifier le problème et le corriger"
+    },
+    {
+      "type": "text",
+      "text": "Exposition à une température trop basse excessive      Identifier le problème et le corriger"
+    },
+    {
+      "type": "text",
+      "text": "Action de médias externes                   Vérifier si le couvercle est correctement positionné"
+    },
+    {
+      "type": "paragraph",
+      "text": "Déchirure de la courroie (image VIII)"
+    },
+    {
+      "type": "text",
+      "text": "Problème et cause:                          Remède:"
+    },
+    {
+      "type": "text",
+      "text": "Objet étranger coincé dans la transmission              Vérifier si le couvercle est correctement positionné"
+    },
+    {
+      "type": "text",
+      "text": "Action de médias externes                    Vérifier si le couvercle est correctement positionné"
+    },
+    {
+      "type": "text",
+      "text": "Tension initiale trop élevée                    Ajuster à la tension correcte"
+    },
+    {
+      "type": "text",
+      "text": "Courroie pliée avant / pendant              Observer les instructions de manipulation\nl'installation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Composant du système défectueux (image IX)"
+    },
+    {
+      "type": "text",
+      "text": "Problème et cause:                          Remède:"
+    },
+    {
+      "type": "text",
+      "text": "Jeu de roulement                                Remplacer la poulie de renvoi, la tension \n                                            du ressort et/ou le galet de guidage"
+    },
+    {
+      "type": "text",
+      "text": "Surface de roulement endommagée                     Remplacer la poulie de renvoi, la tension \n                                            du ressort et/ou le galet de guidage"
+    },
+    {
+      "type": "text",
+      "text": "Fracture sur le point de fixation de la tension du ressort-pompe à huile (moteurs 1,4 - 2,2 litres)\n(image X)"
+    },
+    {
+      "type": "text",
+      "text": "Problème et cause:                          Remède:"
+    },
+    {
+      "type": "text",
+      "text": "Couple incorrect de la tension du ressort sur             Remplacer la pompe à huile\nle point de fixation de la pompe à huile"
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "vérifier la pompe à huile sur chaque courroie dentée vérifier ou chaque remplacer",
+        "intervalle et chaque dommage de courroie dentée pour fissures (flèches)."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/e1f7eb2d6d55.jpg",
+      "alt": "Numéro d'objet : 2435061  Taille : PAR DÉFAUT"
+    },
+    {
+      "src": "/data/assets/images/fc313eb824be.jpg",
+      "alt": "Numéro d'objet : 2435062  Taille : PAR DÉFAUT"
+    },
+    {
+      "src": "/data/assets/images/d87310409017.jpg",
+      "alt": "Numéro d'objet : 2435063  Taille : PAR DÉFAUT"
+    },
+    {
+      "src": "/data/assets/images/d29e24556de6.jpg",
+      "alt": "Numéro d'objet : 2435064  Taille : PAR DÉFAUT"
+    },
+    {
+      "src": "/data/assets/images/9fe81fcf567f.jpg",
+      "alt": "Numéro d'objet : 2435065  Taille : PAR DÉFAUT"
+    },
+    {
+      "src": "/data/assets/images/221ac8b5d6fb.jpg",
+      "alt": "Numéro d'objet : 2435066  Taille : PAR DÉFAUT"
+    },
+    {
+      "src": "/data/assets/images/ed4807018a62.jpg",
+      "alt": "Numéro d'objet : 2435067  Taille : PAR DÉFAUT"
+    },
+    {
+      "src": "/data/assets/images/490ebe545c26.jpg",
+      "alt": "Numéro d'objet : 2435068  Taille : PAR DÉFAUT"
+    },
+    {
+      "src": "/data/assets/images/6bb93a551caf.jpg",
+      "alt": "Numéro d'objet : 2435069  Taille : PAR DÉFAUT"
+    },
+    {
+      "src": "/data/assets/images/6afa33f01d17.jpg",
+      "alt": "Numéro d'objet : 2435070  Taille : PAR DÉFAUT"
+    }
+  ],
+  "type": "tsb",
+  "id": "toothed-belt-diagnosis-possible-causes-and-remedys-AQS315",
+  "metadata": {
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "01 - Broken or Cracked,05 - Excessive\nwear,14 - Noises or Vibrations,24 - Wrong or not mounted",
+    "troubleCode": "Non",
+    "models": null,
+    "engines": null
+  },
+  "complaint": "",
+  "cause": "",
+  "production": ""
+}

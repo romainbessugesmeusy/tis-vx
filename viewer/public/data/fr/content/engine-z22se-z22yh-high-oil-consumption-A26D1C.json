@@ -1,0 +1,34 @@
+{
+  "title": "Field Remedy: 1713",
+  "subject": "Engine Z22SE, Z22YH - Consommation élevée d'huile",
+  "complaint": "Consommation élevée d'huile.",
+  "cause": "Force tangentielle des segments de piston au seuil inférieur ou hors spécification.",
+  "production": "Des segments de piston avec une force tangentielle correcte ont été introduits à partir des numéros de moteur suivants : Z22YH : Numéro de moteur 11301385 (09.12.2003) Z22SE : Numéro de moteur 11307049 (08.01.2004)",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "En cas de plainte, effectuer en premier lieu la procédure de mesure de l'huile selon TIS 2000 (document 00030907). Remplacer les segments de piston sur les moteurs concernés uniquement si la consommation d'huile dépasse la spécification."
+    }
+  ],
+  "parts": [
+    {
+      "name": "Jeu de segments de piston, Z22SE",
+      "catalogueNumber": "06 30 569",
+      "partNumber": "9194704"
+    },
+    {
+      "name": "Jeu de segments de piston, Z22YH",
+      "catalogueNumber": "06 30 122",
+      "partNumber": "93174528"
+    }
+  ],
+  "type": "tsb",
+  "id": "engine-z22se-z22yh-high-oil-consumption-A26D1C",
+  "metadata": {
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "09 - High Consumption",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  }
+}

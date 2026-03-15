@@ -1,0 +1,181 @@
+{
+  "title": "Vérifier le jeu de palier de bielle (Méthode du micromètre),\n(Z 20 LET)",
+  "phases": [
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Remarque : La bielle et le vilebrequin sont déposés.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Reposer le chapeau de palier de bielle avec le coussinet de palier de bielle sur la bielle - Couple de serrage 35 Nm + 45° + 15° .",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Les vis peuvent être réutilisées pour vérifier le jeu de palier de bielle.",
+          "number": 3,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    },
+    {
+      "label": "Mesurer",
+      "steps": [
+        {
+          "text": "Formule pour calculer le diamètre moyen du palier de bielle :",
+          "image": {
+            "src": "/data/assets/images/a5606eda4bc1.jpg",
+            "alt": "Object Number: 2387470  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "I + II + III",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Exemple :",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "42,738 mm",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "42,732 mm",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "+ 42,741 mm",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "128,211 mm",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "÷ 3 = 42,737 mm",
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Le diamètre moyen du palier de bielle est de 42,737 mm.",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Le diamètre du tourillon de palier de bielle est mesuré avec un micromètre aux points I et II puis calculé.",
+          "image": {
+            "src": "/data/assets/images/b39b74417a62.jpg",
+            "alt": "Object Number: 2387881  Size: DEFAULT"
+          },
+          "number": 13
+        },
+        {
+          "text": "Formule pour calculer le diamètre moyen du tourillon de palier de bielle :",
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "I + II",
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Exemple :",
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "42,729 mm",
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "+ 42,725 mm",
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "85,454 mm",
+          "number": 19,
+          "image": null
+        },
+        {
+          "text": "÷ 2 = 42,727 mm",
+          "number": 20,
+          "image": null
+        },
+        {
+          "text": "Le diamètre moyen du tourillon de palier de bielle est de 42,727 mm. Le jeu de palier de bielle est calculé à partir de la différence de diamètre entre l'alésage de palier de bielle et le tourillon de palier de bielle.",
+          "number": 21,
+          "image": null
+        },
+        {
+          "text": "Exemple :",
+          "number": 22,
+          "image": null
+        },
+        {
+          "text": "Diamètre moyen du palier de bielle",
+          "number": 23,
+          "image": null
+        },
+        {
+          "text": "42,737 mm",
+          "number": 24,
+          "image": null
+        },
+        {
+          "text": "Diamètre moyen du tourillon de palier de bielle",
+          "number": 25,
+          "image": null
+        },
+        {
+          "text": "- 42,727 mm",
+          "number": 26,
+          "image": null
+        },
+        {
+          "text": "0,010 mm",
+          "number": 27,
+          "image": null
+        },
+        {
+          "text": "Jeu de palier de bielle admissible : 0,006 à 0,031 mm.",
+          "number": 28,
+          "image": null
+        }
+      ],
+      "phase": "measure",
+      "icon": "/data/assets/images/707731fa677f.gif"
+    },
+    {
+      "label": "Mesurer",
+      "phase": "measure",
+      "icon": "/data/assets/images/707731fa677f.gif",
+      "steps": []
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer le chapeau de palier de bielle avec le coussinet de palier de bielle sur la bielle - Couple de serrage 35 Nm + 45° + 15° .",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 2
+    }
+  ],
+  "type": "procedure",
+  "id": "con-rod-bearing-play-check-micrometer-method-z-20-let-AQS315"
+}

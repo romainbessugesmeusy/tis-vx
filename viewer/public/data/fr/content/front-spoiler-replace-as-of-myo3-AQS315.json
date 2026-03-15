@@ -1,0 +1,64 @@
+{
+  "type": "procedure",
+  "id": "front-spoiler-replace-as-of-myo3-AQS315",
+  "title": "Front Spoiler, Replace (As of MYO3)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Raise vehicle",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "Remove front spoiler (1) from clamshell",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove, then discard 3x rivet (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8d083f34bd10.jpg",
+            "alt": "Object Number: 2422938  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 3,
+          "text": "Install front spoiler to clamshell",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Install 3x new rivet"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "Lower vehicle",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "Repeat operation for front spoiler on opposite side",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

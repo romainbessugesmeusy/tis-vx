@@ -1,0 +1,137 @@
+{
+  "values": [
+    {
+      "component": "Install 3x washer, 3x bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "wheel-bearing-front-replace-A26D1C"
+    },
+    {
+      "component": "Install 2x bolt 45 Nm Note: Clean threads and apply locking compound.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "wheel-bearing-front-replace-A26D1C"
+    },
+    {
+      "component": "Bolt, thrust washers and dust shield to wheel bearing assembly - 210 Nm.",
+      "value": "210",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "wheel-bearing-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Track control rod (2) to hub carrier – nut 80 Nm .",
+      "value": "80",
+      "unit": "Nm",
+      "stepRef": 13,
+      "sourcePage": "wheel-hub-and-drive-shaft-assembly-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Upper ball joint carrier (1) to hub carrier – camber shims, two bolts 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 15,
+      "sourcePage": "wheel-hub-and-drive-shaft-assembly-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Rear wheel to vehicle – bolts 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 19,
+      "sourcePage": "wheel-hub-and-drive-shaft-assembly-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install wheel hub assembly to hub carrier Note: Wheel speed sensor part of hub assembly.",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 10,
+      "sourcePage": "wheel-speed-sensor-abs-front-or-rear-replace-A26D1C"
+    },
+    {
+      "component": "For earlier type wheel hub, install centre bolt, 4x washer, nut 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 11,
+      "sourcePage": "wheel-speed-sensor-abs-front-or-rear-replace-A26D1C"
+    },
+    {
+      "component": "Install brake caliper assembly to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 14,
+      "sourcePage": "wheel-speed-sensor-abs-front-or-rear-replace-A26D1C"
+    },
+    {
+      "component": "Install front road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 15,
+      "sourcePage": "wheel-speed-sensor-abs-front-or-rear-replace-A26D1C"
+    },
+    {
+      "component": "Install 3x washer, 3x bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "wheel-speed-sensor-abs-front-or-rear-replace-A26D1C"
+    },
+    {
+      "component": "Install 2x bolt 45 Nm Note: Clean threads and apply locking compound.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "wheel-speed-sensor-abs-front-or-rear-replace-A26D1C"
+    },
+    {
+      "component": "Install front bonnet lock",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": 42,
+      "sourcePage": "windscreen-frame-replace-A26D1C"
+    },
+    {
+      "component": "Install front wheels",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 54,
+      "sourcePage": "windscreen-frame-replace-A26D1C"
+    },
+    {
+      "component": "Install right door",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 55,
+      "sourcePage": "windscreen-frame-replace-A26D1C"
+    },
+    {
+      "component": "Install left door",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 56,
+      "sourcePage": "windscreen-frame-replace-A26D1C"
+    },
+    {
+      "component": "Tightening torque 16 Nm",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "windscreen-frame-replace-A26D1C"
+    },
+    {
+      "component": "Tightening torque 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "windscreen-frame-replace-A26D1C"
+    },
+    {
+      "component": "Tightening torque 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "windscreen-frame-replace-A26D1C"
+    }
+  ]
+}

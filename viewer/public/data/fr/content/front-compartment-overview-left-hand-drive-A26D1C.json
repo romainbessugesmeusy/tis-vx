@@ -1,0 +1,95 @@
+{
+  "title": "Compartiment avant - Vue d'ensemble",
+  "components": [
+    {
+      "description": "Unité de contrôle - Système de freinage antiblocage",
+      "code": "A2"
+    },
+    {
+      "description": "Phare - Droit",
+      "code": "E23"
+    },
+    {
+      "description": "Interrupteur - Liquide de frein",
+      "code": "B1"
+    },
+    {
+      "description": "Feu clignotant - Latéral, gauche",
+      "code": "H6"
+    },
+    {
+      "description": "Capteur - Vitesse de roue, avant, gauche",
+      "code": "B25"
+    },
+    {
+      "description": "Feu clignotant - Latéral, droit",
+      "code": "H7"
+    },
+    {
+      "description": "Capteur - Vitesse de roue, avant, droit",
+      "code": "B26"
+    },
+    {
+      "description": "Moteur - Essuie-glace, pare-brise",
+      "code": "M16"
+    },
+    {
+      "description": "Sonneur - Système d'alarme antivol",
+      "code": "B48"
+    },
+    {
+      "description": "Moteur - Ventilateur de radiateur",
+      "code": "M19"
+    },
+    {
+      "description": "Klaxon",
+      "code": "B51"
+    },
+    {
+      "description": "Pompe - Lave-glace, pare-brise",
+      "code": "M26"
+    },
+    {
+      "description": "Feu antibrouillard - Avant, gauche",
+      "code": "E18"
+    },
+    {
+      "description": "Interrupteur - Feu stop, simple",
+      "code": "S29"
+    },
+    {
+      "description": "Feu antibrouillard - Avant, droit",
+      "code": "E19"
+    },
+    {
+      "description": "Interrupteur - Feu stop, double",
+      "code": "S43"
+    },
+    {
+      "description": "Phare - Gauche",
+      "code": "E22"
+    },
+    {
+      "description": "Interrupteur - Capot avant, système d'alarme antivol",
+      "code": "S126"
+    },
+    {
+      "description": "Faisceau principal & Ventilateur habitacle",
+      "code": "X10"
+    },
+    {
+      "description": "Faisceau principal & Faisceau d'extension, feu antibrouillard, avant droit",
+      "code": "X42"
+    },
+    {
+      "description": "Faisceau principal & Faisceau d'extension, feu antibrouillard, avant gauche",
+      "code": "X41"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "front-compartment-overview-left-hand-drive-A26D1C",
+  "diagram": {
+    "src": "/data/assets/0f25f0a2e88f.cgm",
+    "type": "cgm"
+  }
+}

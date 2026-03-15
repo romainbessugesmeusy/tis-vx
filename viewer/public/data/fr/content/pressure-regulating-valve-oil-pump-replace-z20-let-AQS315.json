@@ -1,0 +1,177 @@
+{
+  "title": "Soupape de régulation de pression, Pompe à huile, Remplacer (Z20\nLET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le cache-moteur (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Élever le véhicule"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 13x vis, 13x rondelle"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7c957595e425.jpg",
+            "alt": "Object Number: 2422664  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 1
+        },
+        {
+          "text": "Déposer la durite d'alimentation en huile du turbo du moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Positionner un récipient de collecte"
+            }
+          ],
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déposer la soupape de régulation de pression de la pompe à huile (1) Remarque : Noter la position pour l'installation.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer le bouchon de fermeture (5)"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer, puis jeter la rondelle d'étanchéité (4)"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer le ressort (3)"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer la soupape (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/fabb82e6c882.jpg",
+            "alt": "Object Number: 2397844  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer la soupape de régulation de pression de la pompe à huile Remarque : Noter la position pour l'installation.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer la soupape"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer le ressort"
+            },
+            {
+              "bullet": "•",
+              "text": "Utiliser une nouvelle rondelle d'étanchéité"
+            },
+            {
+              "bullet": "•",
+              "text": "Installer le bouchon de fermeture à 50 Nm"
+            }
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Fixer la durite d'alimentation en huile du turbo au moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer le récipient de collecte"
+            }
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Installer le cache-moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 13x vis, 13x rondelle"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Démarrer le moteur et vérifier les fuites, arrêter le moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Vérifier le niveau d'huile du moteur, compléter si nécessaire"
+            }
+          ],
+          "number": 8,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer la soupape de régulation de pression de la pompe à huile Remarque : Noter la position pour l'installation.",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 4
+    },
+    {
+      "component": "Fixer la durite d'alimentation en huile du turbo au moteur",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Installer le bouchon de fermeture à 50 Nm",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer la vis à 25 Nm – Retirer le récipient de collecte",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "Un pont élévateur à quatre colonnes doit être utilisé pour élever le véhicule lors du retrait du cache-moteur. Le véhicule peut être déplacé vers un pont élévateur à deux colonnes pour d'autres opérations si nécessaire.",
+    "Respecter les réglementations environnementales pertinentes lors de l'élimination des liquides de refroidissement et des lubrifiants usagés."
+  ],
+  "notes": [
+    "Déposer la soupape de régulation de pression de la pompe à huile (1) Noter la position pour l'installation. • Retirer le bouchon de fermeture (5) • Retirer, puis jeter la rondelle d'étanchéité (4) • Retirer le ressort (3) • Retirer la soupape (2)",
+    "Reposer la soupape de régulation de pression de la pompe à huile Noter la position pour l'installation. • Installer la soupape • Installer le ressort • Utiliser une nouvelle rondelle d'étanchéité • Installer le bouchon de fermeture à 50 Nm"
+  ],
+  "type": "procedure",
+  "id": "pressure-regulating-valve-oil-pump-replace-z20-let-AQS315"
+}

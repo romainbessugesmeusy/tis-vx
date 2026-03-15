@@ -1,0 +1,216 @@
+{
+  "title": "Ajuster le Hard Top",
+  "phases": [
+    {
+      "label": "Ajuster",
+      "steps": [
+        {
+          "text": "Déposer les fixations arrière de l'ensemble du hard top",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Positionner le hard top sur le véhicule",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Positionner le bord arrière du hard top sur le rail arrière"
+            },
+            {
+              "bullet": "•",
+              "text": "Abaisser le bord avant du hard top sur le rail avant"
+            },
+            {
+              "bullet": "•",
+              "text": "Pousser le hard top entièrement vers l'avant"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/29ec944771cb.jpg",
+            "alt": "Object Number: 2419958  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Reposer légèrement les 2x fixations avant attachées",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer légèrement les 2x vis"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a5204f976a3c.jpg",
+            "alt": "Object Number: 2419959  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Serrer les 2x fixations avant attachées",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "S'assurer que le hard top est centré par rapport au rail avant"
+            },
+            {
+              "bullet": "•",
+              "text": "Utiliser l'outil fourni"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/9c55051e13ce.jpg",
+            "alt": "Object Number: 2419960  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Installer les 2x fixations arrière attachées",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "S'assurer de l'engagement avec la fixation du montant arrière"
+            },
+            {
+              "bullet": "•",
+              "text": "Utiliser l'outil fourni"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7c6683c205f2.jpg",
+            "alt": "Object Number: 2419961  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Pousser le hard top entièrement vers l'avant pour obtenir un contact maximal avec le joint du rail avant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2x techniciens requis"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Serrer les fixations inférieures des 2x fixations du hard top",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer 4x vis à 10 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/601102b763e9.jpg",
+            "alt": "Object Number: 2419962  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Déposer les 2x fixations arrière attachées",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser l'outil fourni",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Utiliser l'outil fourni\n Note:   Pour accéder aux\nfixations supérieures des 2x fixations arrière du hard top"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7c6683c205f2.jpg",
+            "alt": "Object Number: 2419961  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Serrer les fixations supérieures des 2x fixations arrière du hard top",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer 4x vis à 10 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/300bc6646335.jpg",
+            "alt": "Object Number: 2419963  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Installer les 2x fixations arrière attachées",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser l'outil fourni"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/7c6683c205f2.jpg",
+            "alt": "Object Number: 2419961  Size: DEFAULT"
+          },
+          "number": 10
+        },
+        {
+          "text": "Vérifier l'étanchéité du joint du rail avant",
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Vérifier la position du hard top",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Fermer les portes"
+            },
+            {
+              "bullet": "•",
+              "text": "Remonter entièrement les vitres des portes"
+            }
+          ],
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Ajuster les vitres des portes si nécessaire - voir l'opération \"Remplacement et Installation de la Vitre de Porte\"",
+          "number": 13,
+          "image": null
+        }
+      ],
+      "phase": "adjust",
+      "icon": "/data/assets/images/8bcc88ed08ca.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Serrer les fixations inférieures des 2x fixations du hard top",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Serrer les fixations supérieures des 2x fixations arrière du hard top",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Serrer 4x vis à 10 Nm Note: Maintenir un contact maximal avec le joint du rail avant.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "warnings": [
+    "L'utilisation d'autres\noutils peut endommager des pièces du véhicule"
+  ],
+  "notes": [
+    "Serrer 4x vis à 10 Nm \n Maintenir un contact maximal\navec le joint du rail avant.",
+    "Utiliser l'outil fourni\n Pour accéder aux\nfixations supérieures des 2x fixations arrière du hard top"
+  ],
+  "type": "procedure",
+  "id": "hard-top-adjust-A26D1C"
+}

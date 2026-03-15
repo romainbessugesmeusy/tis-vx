@@ -1,0 +1,272 @@
+{
+  "type": "tsb",
+  "id": "two-mass-flywheel-diagnosis-A26D1C",
+  "title": "Field Remedy: 2379",
+  "subject": "Two-mass flywheel - Diagnosis",
+  "metadata": {
+    "models": null,
+    "engines": null,
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "13 - No/Poor Function",
+    "troubleCode": "None"
+  },
+  "complaint": "",
+  "cause": "",
+  "production": "",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "These Quick Information shall help to carry out a\ncorrect diagnosis in case of a customer complaint."
+    },
+    {
+      "type": "paragraph",
+      "text": "A. Check for thermal overload:"
+    },
+    {
+      "type": "text",
+      "text": "Through friction of clutch plate on the friction surface of\n    the two-mass flywheel temperatures up to 200 °C can arise \n    during normal driving. At sliding clutch or through operating\n    errors much higher temperatures can arise. These temperatures\n    must not cause mandatory a reduced lifetime of the two-mass\n    flywheel."
+    },
+    {
+      "type": "text",
+      "text": "Possible indications for a high thermal load are:"
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "tarnish (bluish) as well as local hotspots on friction surface",
+        "tarnish (bluish) near of mounting area and riveting area of",
+        "clutch"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "If all other checkable features are well, the two-mass flywheel\n    can stay in the vehicle."
+    },
+    {
+      "type": "text",
+      "text": "Possible indications for a too high thermal load are:"
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "cracks",
+        "fusion zones on friction surface (material smear)",
+        "scores in friction surface (for example through clutch lining",
+        "riveting at destroyed or worn clutch plate)",
+        "tarnish (bluish) which reaches up to bearing area of two-mass",
+        "flywheel",
+        "bluish discoloration of locating pins (3 locating pins in outer",
+        "zone of two-mass flywheel)"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "In these cases the two-mass flywheel has to be replaced."
+    },
+    {
+      "type": "text",
+      "text": "Overview two-mass flywheel (picture I):"
+    },
+    {
+      "type": "text",
+      "text": "1 bearing area\n    2 mounting area pressure plate\n    3 locating pins\n    4 friction surface\n    5 riveting area"
+    },
+    {
+      "type": "text",
+      "text": "Exploded view two-mass flywheel with additional mass (picture II):"
+    },
+    {
+      "type": "text",
+      "text": "1 secondary flywheel mass\n    2 additional mass, coupled with cover and pulse-generator ring\n    3 flange\n    4 primary flywheel mass with bowed springs and plain bearing/\n      bearing bolt\n    5 toothed ring"
+    },
+    {
+      "type": "paragraph",
+      "text": "B. Check for damaged components:"
+    },
+    {
+      "type": "text",
+      "text": "All following checking procedures have to be carried out\n    at installed two-mass flywheel. For visual check at vehicle\n    very bright light and a additional bright and small pocket\n    lamp is necessary. Damages like grease on primary flywheel\n    and loose ore missing balance weights cannot be checked at\n    installed condition. During visual check material alteration\n    can be stated which eliminate a further operating suitability."
+    },
+    {
+      "type": "text",
+      "text": "For comparison different damages at two-mass flywheel with the\n    corresponding further procedure are presented here."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Inspect plain bearing for damages (picture III)"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Dependent of the manufacturer damages can be detected through\n    ventilation openings of secondary flywheel. Parts of the bearing\n    (1) are detached or lie loose around the bearing bolt."
+    },
+    {
+      "type": "text",
+      "text": "Note:\n    In case of mechanical damages at plain bearing the two-mass\n    flywheel has to be replaced."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Inspect toothed ring for damages (picture IV)"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "The toothed ring is needed to start the engine. Through\n    a lot of starting procedures and/or an incorrect engaging\n    starter signs of abrasion can occur on teeth of the\n    toothed ring. The profile of damages can reach from only\n    low signs of abrasion up to heavy material removal. The\n    installation of a pulse-generator ring depends on the \n    manufacturer."
+    },
+    {
+      "type": "text",
+      "text": "Image IV shows signs of abrasion and mechanical damages at\n    toothed ring (1), they occur through abrasion due to a lot\n    of starting procedures. In this case the two-mass flywheel\n    has to be replaced."
+    },
+    {
+      "type": "text",
+      "text": "Note:\n    Light abrasion on frontal areas of teeth is allowed. If\n    problems occur during starting the engine the two-mass\n    flywheel has to be replaced."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Inspect tilt clearance"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "At two-mass flywheel the additional-mass ring looms over\n    the gap between primary and secondary flywheel. It is not\n    possible to carry out just a visual check."
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Embrace two-mass flywheel and apply thumbs onto the outer",
+        "radius of secondary flywheel",
+        "Apply pressure onto the secondary flywheel alternating on",
+        "upper, lower, left and right side (picture V)."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "During the tilt clearance check a functional metal rattling\n    noise may occur."
+    },
+    {
+      "type": "text",
+      "text": "Note:\n      The check must be carried out only by hand without\n      any tools."
+    },
+    {
+      "type": "text",
+      "text": "If tilt clearance is higher than 3 mm (should be measured, do\n    not make an estimation) (1, picture VI) the two-mass flywheel\n    has to be replaced."
+    },
+    {
+      "type": "text",
+      "text": "Note:\n    An absolute clear measurement is not possible with this check\n    due to the different applied forces of the several workshop\n    employees during the check."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Inspect clearance angle"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Before the inspection of the clearance angle the two-mass\n    flywheel should be rotated several times clockwise and \n    anticlockwise to receive a feeling for the resistance of\n    the springs. In addition unusual loud clicking noise or\n    possible rattle, crunch, grinding noise can be sounded out\n    during rotating the two-mass flywheel."
+    },
+    {
+      "type": "text",
+      "text": "If the rotation of the flywheel is impossilbe the flywheel\n    is defective and has to be replaced."
+    },
+    {
+      "type": "text",
+      "text": "The clearance angle is the angle (1, picture VII) about the\n    secondary and the primary flywheel can be turned light against \n    each other. Thereby the flange wings (3) are moved in the duct of\n    the bowed springs without adjoining the bowed springs (4). Dictated\n    by functional factors the clearance angle is up to 8 teeth."
+    },
+    {
+      "type": "text",
+      "text": "Is the secondary flywheel rotated beyond this point the bowed\n    springs in the duct are moved to spring arrestor (2) in the primary\n    flywheel/cover. First now the spring force of the bowed springs\n    is active."
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Rotate secondary flywheel anticlockwise (arrow, picture VIII)",
+        "until the elastic counterforce (spring force) is clear noticeable",
+        "Release secondary flywheel slowly until the bowed springs are",
+        "relaxed, so no counterforce acts onto the springs"
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Mark position with a vertical line by a white pencil",
+        "on secondary flywheel (1, picture IX and X) and on",
+        "toothed ring for starter (2, picture X)",
+        "Rotate secondary flywheel clockwise until the elastic",
+        "counterforce is clear noticeable",
+        "Release secondary flywheel slowly until the bowed",
+        "springs are relaxed"
+      ]
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "Apply new marking on secondary flywheel (1, picture XI)",
+        "on the heigth of the marking on the toothed ring for",
+        "starter (3)",
+        "Count amount of teeth on toothed ring for starter from",
+        "marked tooth up to the heigth of the first marking on",
+        "secondary flywheel(2). Dictated by functional factors",
+        "up to 8 teeth are allowed."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Note:\n    The two-mass flywheel has to be replaced if"
+    },
+    {
+      "type": "bullets",
+      "items": [
+        "the difference exceeds the amount of 8 teeth",
+        "the two-mass flywheel cannot be rotated",
+        "during rotating the two-mass flywheel a hard metallic",
+        "arrestor is audible or noticeable."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/36592037c52a.jpg",
+      "alt": "Object Number: 10685930  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/cd755e009754.jpg",
+      "alt": "Object Number: 10685931  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/092ee45c2b4c.jpg",
+      "alt": "Object Number: 10685932  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/af39d27ef2fc.jpg",
+      "alt": "Object Number: 10685933  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/fbde8a91a2d5.jpg",
+      "alt": "Object Number: 10685934  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/42e02e466618.jpg",
+      "alt": "Object Number: 10685935  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/d2e6595bb29d.jpg",
+      "alt": "Object Number: 10685936  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/cf9b9f1a69e5.jpg",
+      "alt": "Object Number: 10685937  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/c5f98c84c8d1.jpg",
+      "alt": "Object Number: 10685938  Size: DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/cec1bbfbd4ab.jpg",
+      "alt": "Object Number: 10685940  Size: DEFAULT"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "title": "Faisceaux de câblage - Avant & Arrière",
+  "components": [
+    {
+      "description": "Faisceau principal & Batterie positive",
+      "code": "X1"
+    },
+    {
+      "description": "Faisceau principal & Porte avant passager",
+      "code": "X15"
+    },
+    {
+      "description": "Faisceau principal & Faisceau d'extension, moteur",
+      "code": "X2"
+    },
+    {
+      "description": "Faisceau principal & Faisceau d'extension, contacteur - Porte conducteur",
+      "code": "X25"
+    },
+    {
+      "description": "Faisceau principal & Faisceau d'extension, moteur",
+      "code": "X3"
+    },
+    {
+      "description": "Faisceau principal & Faisceau d'extension, contacteur - Porte avant passager",
+      "code": "X26"
+    },
+    {
+      "description": "Faisceau principal & Faisceau d'extension, moteur",
+      "code": "X4"
+    },
+    {
+      "description": "Faisceau d'extension, moteur & Moteur",
+      "code": "X33"
+    },
+    {
+      "description": "Faisceau principal & Arrière",
+      "code": "X5"
+    },
+    {
+      "description": "Faisceau d'extension, moteur & Batterie positive",
+      "code": "X34"
+    },
+    {
+      "description": "Faisceau principal & Arrière (Antibrouillard)",
+      "code": "X6"
+    },
+    {
+      "description": "Faisceau principal & Moteur",
+      "code": "X35"
+    },
+    {
+      "description": "Faisceau principal & Arrière (Feu de recul)",
+      "code": "X7"
+    },
+    {
+      "description": "Faisceau principal & Moteur",
+      "code": "X36"
+    },
+    {
+      "description": "Faisceau principal & Faisceau d'extension, interrupteur de coffre",
+      "code": "X8"
+    },
+    {
+      "description": "Faisceau principal & Moteur",
+      "code": "X37"
+    },
+    {
+      "description": "Faisceau principal & Ventilateur habitacle",
+      "code": "X10"
+    },
+    {
+      "description": "Faisceau d'extension, moteur & Moteur",
+      "code": "X38"
+    },
+    {
+      "description": "Faisceau principal & Arceau",
+      "code": "X12"
+    },
+    {
+      "description": "Faisceau principal & Arceau",
+      "code": "X40"
+    },
+    {
+      "description": "Prise diagnostic",
+      "code": "X13"
+    },
+    {
+      "description": "Faisceau principal & Faisceau d'extension, antibrouillard, avant gauche",
+      "code": "X41"
+    },
+    {
+      "description": "Faisceau principal & Porte conducteur",
+      "code": "X14"
+    },
+    {
+      "description": "Faisceau principal & Faisceau d'extension, antibrouillard, avant droit",
+      "code": "X42"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "wiring-harnesses-front-rear-left-hand-drive-AQS315",
+  "diagram": {
+    "src": "/data/assets/f353d7329e25.cgm",
+    "type": "cgm"
+  }
+}

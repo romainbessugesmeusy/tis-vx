@@ -1,0 +1,33 @@
+{
+  "title": "Capteur d'impulsion du vilebrequin, essence et Z19DT",
+  "steps": [
+    {
+      "text": "Télécharger la courbe de référence.",
+      "number": 1
+    },
+    {
+      "text": "Démarrer le moteur et le laisser tourner au ralenti.",
+      "number": 2
+    },
+    {
+      "text": "Télécharger le fichier de configuration (le Tech 32 n'utilise que des fichiers de configuration, pas de courbes de référence).",
+      "number": 1
+    },
+    {
+      "text": "Démarrer le moteur et le laisser tourner au ralenti.",
+      "number": 2
+    }
+  ],
+  "images": [
+    {
+      "src": "/data/assets/images/7af84617df0f.jpg",
+      "alt": "Numéro d'objet : 2400986  Taille : DEFAULT"
+    },
+    {
+      "src": "/data/assets/images/13b73c5cb073.jpg",
+      "alt": "Numéro d'objet : 6000917  Taille : DEFAULT"
+    }
+  ],
+  "type": "diagnostic",
+  "id": "crankshaft-impulse-sensor-petrol-and-z19dt-AQS315"
+}

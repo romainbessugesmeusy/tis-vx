@@ -1,0 +1,171 @@
+{
+  "title": "Déposer et Reposer l'Ensemble Mécanisme de Changement de Vitesse",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Illustration de l'ensemble mécanisme de changement de vitesse",
+          "image": {
+            "src": "/data/assets/images/d0efa5d4b513.jpg",
+            "alt": "Object Number: 2415590  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer la transmission du véhicule - voir l'opération \"Transmission, Déposer et Reposer\"",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Reposer KM-6115 (3) sur la transmission",
+          "image": {
+            "src": "/data/assets/images/e8e24ddceaba.jpg",
+            "alt": "Object Number: 2415597  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Reposer KM-6115 avec la transmission sur KM-113-2",
+          "image": {
+            "src": "/data/assets/images/e8e24ddceaba.jpg",
+            "alt": "Object Number: 2415597  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Déposer la vis (2) de l'ensemble mécanisme de changement de vitesse",
+          "image": {
+            "src": "/data/assets/images/e8e24ddceaba.jpg",
+            "alt": "Object Number: 2415597  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Déposer les 5x vis (fléchées) de l'ensemble mécanisme de changement de vitesse",
+          "image": {
+            "src": "/data/assets/images/e8e24ddceaba.jpg",
+            "alt": "Object Number: 2415597  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Déposer l'ensemble mécanisme de changement de vitesse (1) de la transmission",
+          "image": {
+            "src": "/data/assets/images/e8e24ddceaba.jpg",
+            "alt": "Object Number: 2415597  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 7
+        },
+        {
+          "text": "Nettoyer les surfaces d'étanchéité et le filetage",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Vérifier toutes les pièces déposées, les remplacer si nécessaire",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Appliquer du composé d'étanchéité sur la zone (1) du carter de transmission - épaisseur maximale 2 mm",
+          "image": {
+            "src": "/data/assets/images/b175de713dfb.jpg",
+            "alt": "Object Number: 2415598  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 10
+        },
+        {
+          "text": "Aligner l'ensemble mécanisme de changement de vitesse (2) avec les pièces internes du mécanisme de changement de vitesse et l'insérer dans la transmission",
+          "image": {
+            "src": "/data/assets/images/b175de713dfb.jpg",
+            "alt": "Object Number: 2415598  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 11
+        },
+        {
+          "text": "Reposer les 5x vis 25 Nm sur l'ensemble mécanisme de changement de vitesse",
+          "image": {
+            "src": "/data/assets/images/b175de713dfb.jpg",
+            "alt": "Object Number: 2415598  Size: DEFAULT"
+          },
+          "number": 12
+        },
+        {
+          "text": "Appliquer du composé de blocage sur le filetage (fléché) de la vis (1)",
+          "image": {
+            "src": "/data/assets/images/6f3fbd3f3c85.jpg",
+            "alt": "Object Number: 2415599  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 13
+        },
+        {
+          "text": "Reposer la vis (2) 25 Nm sur l'ensemble mécanisme de changement de vitesse",
+          "image": {
+            "src": "/data/assets/images/6f3fbd3f3c85.jpg",
+            "alt": "Object Number: 2415599  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 14
+        },
+        {
+          "text": "Déposer KM-6115 avec la transmission de KM-113-2",
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Déposer KM-6115 de la transmission",
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Reposer la transmission sur le véhicule - voir l'opération \"Transmission, Déposer et Reposer\"",
+          "number": 17,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer les 5x vis 25 Nm sur l'ensemble mécanisme de changement de vitesse",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Reposer la vis (2) 25 Nm sur l'ensemble mécanisme de changement de vitesse",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 14
+    }
+  ],
+  "toolsRequired": [
+    "KM-6115",
+    "KM-113-2"
+  ],
+  "type": "procedure",
+  "id": "shift-mechanism-assembly-remove-and-install-A26D1C"
+}

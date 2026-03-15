@@ -1,0 +1,83 @@
+{
+  "title": "Repose du Repose-Pied Passager Fixe (à partir de MY\n03)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le tapis de sol, le cas échéant, du puits de pieds",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 2x vis (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f4c051e9d70d.jpg",
+            "alt": "Object Number: 2422348  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer le repose-pied (1) du puits de pieds",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Élever le véhicule à une hauteur de travail appropriée"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 4x boulon (2) du dessous du véhicule"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/cd10c2d709e5.jpg",
+            "alt": "Object Number: 2422349  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 2
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le nouveau repose-pied dans le puits de pieds",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 4x boulon sur le dessous du véhicule"
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Reposer le tapis de sol dans le puits de pieds",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 2x vis"
+            }
+          ],
+          "number": 5,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "foot-rest-passenger-fixed-replace-as-of-my-03-A26D1C"
+}

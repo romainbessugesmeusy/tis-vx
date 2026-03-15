@@ -1,0 +1,133 @@
+{
+  "title": "Switch, Ignition for Steering Column Lock\nAssembly, Remplacer",
+  "phases": [
+    {
+      "label": "Reposer/Poser",
+      "steps": [
+        {
+          "text": "Airbag conducteur du volant – vis.",
+          "image": {
+            "src": "/data/assets/images/c9495824374a.jpg",
+            "alt": "Object Number: 2429726  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Connecteurs du faisceau de klaxon.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Le volant est montré retiré pour plus de clarté.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Insérer le cylindre de serrure – si la goupille de blocage de la direction est engagée, appuyer sur la pierre de verrou vers le bas avec un tournevis jusqu'à ce que la goupille de retenue s'engage ; s'assurer que le cylindre de serrure est toujours en position \"I\".",
+          "image": {
+            "src": "/data/assets/images/6e6749f828c4.jpg",
+            "alt": "Object Number: 2429702  Size: DEFAULT"
+          },
+          "number": 11
+        },
+        {
+          "text": "Tourner le commutateur d'allumage pour aligner l'évidement (1) en face de la patte (2), connecter la fiche du faisceau à la partie de contact du commutateur et l'insérer dans la serrure de colonne de direction et la fixer avec des vis de blocage.",
+          "image": {
+            "src": "/data/assets/images/6ebe821107cd.jpg",
+            "alt": "Object Number: 2429701  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 12
+        },
+        {
+          "text": "Caches supérieur et inférieur de colonne de direction – vis.",
+          "image": {
+            "src": "/data/assets/images/a0ee6ea9e112.jpg",
+            "alt": "Object Number: 2429520  Size: DEFAULT"
+          },
+          "number": 13
+        },
+        {
+          "text": "Roue de commutateur au moyeu – quatre vis.",
+          "image": {
+            "src": "/data/assets/images/f2a47ebbaf58.jpg",
+            "alt": "Object Number: 2429724  Size: DEFAULT"
+          },
+          "number": 14
+        },
+        {
+          "text": "Connecteurs du faisceau de klaxon.",
+          "number": 15,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    },
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Volant du moyeu – quatre vis.",
+          "image": {
+            "src": "/data/assets/images/f2a47ebbaf58.jpg",
+            "alt": "Object Number: 2429724  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Caches supérieur et inférieur de colonne de direction – vis.",
+          "image": {
+            "src": "/data/assets/images/f2a47ebbaf58.jpg",
+            "alt": "Object Number: 2429724  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Tourner la clé d'allumage en position \"I\". Libérer le cylindre de serrure avec un extracteur de goupille de 3 mm puis retirer la clé et le barillet dans la direction (A fléchée).",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Attention !",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "La libération de la fiche du faisceau de la partie de contact du commutateur n'est possible que si le cylindre de serrure est en position \"I\".",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Fiche du faisceau de la partie de contact du commutateur, guider la goupille de 3 mm dans l'ouverture de libération (B, 1) pour comprimer la patte (C 4) en faisant levier soigneusement pour dégager la fiche du faisceau avec un deuxième tournevis (B, 2) et retirer.",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Vis de blocage de la partie de contact du commutateur (C, 3). Puis tirer la partie de contact du commutateur de la serrure de direction et d'allumage (D, fléchée).",
+          "number": 10,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer/Poser",
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    }
+  ],
+  "type": "procedure",
+  "id": "switch-ignition-for-steering-column-lock-assembly-replace-A26D1C"
+}

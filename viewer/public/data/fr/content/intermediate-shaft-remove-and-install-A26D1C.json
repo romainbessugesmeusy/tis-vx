@@ -1,0 +1,53 @@
+{
+  "title": "Arbre intermédiaire, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Illustration de l'arbre intermédiaire",
+          "image": {
+            "src": "/data/assets/images/96b8da4b04c3.jpg",
+            "alt": "Object Number: 2415592  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer la transmission - voir l'opération \"Transmission, Déposer et Reposer\"",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Démonter la transmission - voir l'opération \"Transmission, Joint d'étanchéité Complètement\"",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Contrôler l'arbre intermédiaire (1) pour l'usure et les dommages; remplacer si nécessaire",
+          "image": {
+            "src": "/data/assets/images/f4733e482e31.jpg",
+            "alt": "Object Number: 2415652  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Assembler la transmission - voir l'opération \"Transmission, Joint d'étanchéité Complètement\"",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Reposer la transmission - voir l'opération \"Transmission, Déposer et Reposer\"",
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "type": "procedure",
+  "id": "intermediate-shaft-remove-and-install-A26D1C"
+}

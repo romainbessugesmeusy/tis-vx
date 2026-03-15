@@ -1,0 +1,31 @@
+{
+  "title": "Compartiment passager - Tablier arrière",
+  "components": [
+    {
+      "description": "Haut-parleur - Arrière, gauche",
+      "code": "B38"
+    },
+    {
+      "description": "Déclencheur - Prétensionneur de ceinture, conducteur",
+      "code": "R5"
+    },
+    {
+      "description": "Haut-parleur - Arrière, droit",
+      "code": "B39"
+    },
+    {
+      "description": "Déclencheur - Prétensionneur de ceinture, passager avant",
+      "code": "R6"
+    },
+    {
+      "description": "Capteur - Unité d'avertissement antivol, compartiment passager",
+      "code": "B121"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "passenger-compartment-rear-bulkhead-right-hand-drive-A26D1C",
+  "diagram": {
+    "src": "/data/assets/48974065fd3f.cgm",
+    "type": "cgm"
+  }
+}

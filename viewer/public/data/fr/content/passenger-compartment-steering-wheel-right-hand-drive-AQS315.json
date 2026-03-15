@@ -1,0 +1,23 @@
+{
+  "title": "Compartiment passager - Volant de direction",
+  "components": [
+    {
+      "description": "Déposer le Squib - Airbag conducteur",
+      "code": "R1"
+    },
+    {
+      "description": "Déposer l'interrupteur - Klaxon à trompette",
+      "code": "S24"
+    },
+    {
+      "description": "Déposer l'unité de contact & l'interrupteur - Klaxon à trompette",
+      "code": "X19"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "passenger-compartment-steering-wheel-right-hand-drive-AQS315",
+  "diagram": {
+    "src": "/data/assets/fc744d17f0e3.cgm",
+    "type": "cgm"
+  }
+}

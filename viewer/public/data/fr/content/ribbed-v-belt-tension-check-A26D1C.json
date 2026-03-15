@@ -1,0 +1,37 @@
+{
+  "title": "Vérification de la tension de la courroie striée",
+  "phases": [
+    {
+      "label": "Inspecter",
+      "steps": [
+        {
+          "text": "Attention !",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "La tension de la courroie striée est ajustée automatiquement par la poulie tendeuse de la courroie striée. Il est seulement possible de vérifier la position de la poulie tendeuse. Le pointeur (1) sur la partie mobile de la poulie tendeuse doit être positionné entre les deux repères (2) sur la partie fixe de la poulie tendeuse.",
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Vérifier si le pointeur (1) est positionné entre les deux repères (2). Si le pointeur est positionné à l'extérieur des deux repères, alors la courroie striée doit être remplacée – voir l'opération «Déposer et Reposer la courroie striée».",
+          "callouts": [
+            "1",
+            "2"
+          ],
+          "number": 3,
+          "image": null
+        }
+      ],
+      "phase": "inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "ribbed-v-belt-tension-check-A26D1C"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Field Remedy: 1716",
+  "subject": "Échangeur de chaleur huile/eau - Fuite",
+  "complaint": "Fuites/fissures sur l'échangeur de chaleur huile/eau\ncausées par la corrosion due au liquide de refroidissement qui n'était pas conforme\naux spécifications Opel.",
+  "cause": "Liquide de refroidissement incorrect et/ou mauvais\nrapport de mélange.",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "Lors du remplacement du liquide de refroidissement pour des raisons de maintenance ou de réparation, veuillez\nvous assurer que \na.) le liquide correct est utilisé, \nb.) le bon rapport de mélange est assuré. \nLe liquide de refroidissement correct et le rapport de mélange sont inclus dans l'instruction de service TIS2000."
+    }
+  ],
+  "type": "tsb",
+  "id": "oil-water-heat-exchanger-leaky-AQS315",
+  "metadata": {
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "01 - Broken or Cracked",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  },
+  "production": ""
+}

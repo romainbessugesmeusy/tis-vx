@@ -1,0 +1,26 @@
+{
+  "title": "Field Remedy: 1598",
+  "subject": "Phares - Verre embué à l'intérieur",
+  "complaint": "Verre du phare embué à l'intérieur",
+  "cause": "Humidité de l'air provoquant de la buée à l'intérieur du verre du phare ou fuite au niveau du phare",
+  "production": "Aucune",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "En cas de réclamation du client, les éléments suivants doivent être vérifiés pour éviter un remplacement inutile des phares.\nEn cas de buée sur le verre du phare, également désignée comme condensation en dessous, la surface émergente sur le verre, qui est active en ce qui concerne la technologie d'éclairage, doit être claire après un trajet d'environ 20 minutes avec les feux de croisement allumés. Les autres surfaces du verre peuvent encore être couvertes de condensation après cela.\nIl convient de noter lors de la discussion avec les clients que le processus de dissipation de la condensation dépend fortement de la température ambiante et de l'humidité relative de l'air. Dans une telle situation, AOAG ne prendra pas en charge les coûts de remplacement des phares.\nEn cas de forte condensation (gouttes se formant sur le verre), les capuchons et joints d'étanchéité du boîtier du phare doivent être vérifiés et le verre doit être soufflé avec de l'air comprimé exempt d'huile. L'efficacité des mesures prises doit être vérifiée par une observation ultérieure.\nSi de l'eau pénètre dans le phare par des joints endommagés, des joints collés, etc., les réparations correspondantes doivent être effectuées (changer le joint, remplacer le phare, ...).\nSi des phares, qui se révèlent être en bon état selon les spécifications de test du fabricant, sont soumis dans le cadre de la garantie, des frais peuvent vous être facturés. Veuillez contacter votre centre de service national en cas de problème."
+    },
+    {
+      "type": "text",
+      "text": "Aide à l'argumentation :\nLa description suivante peut être utilisée comme aide à l'argumentation dans les discussions avec les clients.\nEn raison du système de ventilation ouvert, protégé cependant des projections et nécessaire pour la compensation de pression, différentes \"zones climatiques\" se forment à l'intérieur du phare, entraînant la formation de buée sur le verre. Ainsi, par exemple, des zones très chaudes se forment dans un phare avec des zones relativement plus fraîches de l'autre côté. Le chauffage est généré par la chaleur émise par la source lumineuse, le refroidissement du verre est principalement causé par le flux d'air. En raison de la conception labyrinthique des ouvertures de ventilation, l'air chaud et sec est expulsé du boîtier du phare. Après l'extinction de la source lumineuse, l'air à l'intérieur du phare se refroidit lentement. Cela entraîne l'aspiration d'air saturé d'humidité de l'extérieur vers l'intérieur du boîtier du phare.\nEn présence d'une humidité élevée et de différences de température élevées entre l'intérieur du boîtier et l'environnement, cette situation peut entraîner la formation de condensation à l'intérieur du verre, notamment par temps froid et humide.\nLa condensation peut se produire, par exemple, après un passage au lavage auto, un nettoyage vapeur du moteur et de l'avant du véhicule, en cas de changements de température pendant la nuit, etc.\nMême la plus petite humidité imaginable dans l'air à l'intérieur du phare peut se condenser sur le verre, notamment dans la \"phase de chauffage ultérieure\", pendant laquelle l'arrière du phare est chauffé car le moteur est encore chaud, mais en même temps le verre se refroidit à cause de l'air froid extérieur. Étant donné que des verres d'aspect clair sont maintenant utilisés, qui peuvent également être teintés, ce phénomène est plus évident que sur des verres avec une structure.\nLe processus de condensation dans les phares est causé par la physique et n'affecte en rien la fonction optique du phare (puissance lumineuse). La condensation ne peut pas non plus provoquer de corrosion dans le phare.\nLe phénomène de condensation peut se produire sur n'importe quel phare, y compris ceux de nos concurrents, car il est causé par un processus physique. Le remplacement du phare est donc inacceptable car aucun défaut technique au sens de la garantie n'est impliqué."
+    }
+  ],
+  "type": "tsb",
+  "id": "headlamps-glas-misted-from-the-inside-A26D1C",
+  "metadata": {
+    "functionalGroup": "N - Electrical Equipment",
+    "complaintGroup": "10 - Leakage,12 - Misting",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  }
+}

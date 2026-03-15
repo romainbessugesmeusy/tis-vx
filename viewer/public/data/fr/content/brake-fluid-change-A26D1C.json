@@ -1,0 +1,7 @@
+{
+  "title": "Changer le liquide de frein",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td><a href=\"#relatedlus\">Unités de littérature connexes</a></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  <tr><td><hr size=\"1\" ></td></tr>\r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Changer le liquide de frein</p>\n\n<p>Voir l'opération - \"Saignement du système de freinage\".</p>\n\n<p>Laisser le liquide s'écouler des purgeurs jusqu'à ce que tout le liquide ait été changé.</p>\n\n<p class=\"topic\">Attention !</p>\n\n<p>À la fin de l'opération, s'assurer que tous les purgeurs sont fermés.</p>\n</td>\r\n  </tr>\r\n  <tr><td><hr size=\"1\" ></td></tr>\r\n  <tr>\r\n    <td ><a id=\"relatedlus\"></a><table ><tr ><th colspan=\"2\" >Unités de littérature connexes</th></tr><tr ><td >-</td><td ><a href=\"javascript:TFormSubmit('AQGJ16TI1ONI1','1','AQGJ16TI1ONI1','_top')\" id=\"AQGJ16TI1ONI1\" >Système de freinage, Saignement</a></td></tr></table></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "type": "generic",
+  "id": "brake-fluid-change-A26D1C",
+  "extractedData": {}
+}

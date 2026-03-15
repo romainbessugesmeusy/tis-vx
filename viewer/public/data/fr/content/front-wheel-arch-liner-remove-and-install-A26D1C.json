@@ -1,0 +1,122 @@
+{
+  "title": "Déposer et Reposer le Passage de Roue Avant",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Caler les roues arrière avec des cales",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Ouvrir le capot moteur",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déposer le boîtier à fusibles du passage de roue droit si nécessaire",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Élever et soutenir le véhicule",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Déposer la roue avant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser une douille spéciale sous le capot avant"
+            }
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Déposer le passage de roue",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer les 6 vis (1)"
+            }
+          ],
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le passage de roue",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer les 6 vis (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f21fe35f0f75.jpg",
+            "alt": "Object Number: 2419717  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Reposer la roue avant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 4x vis, vis de sécurité 90"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Retirer le support et abaisser le véhicule",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Reposer le boîtier à fusibles sur le passage de roue droit",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Fermer le capot avant",
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Retirer les cales",
+          "number": 12,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer la roue avant",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Reposer 4x vis, vis de sécurité 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "type": "procedure",
+  "id": "front-wheel-arch-liner-remove-and-install-A26D1C"
+}

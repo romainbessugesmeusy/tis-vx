@@ -1,0 +1,71 @@
+{
+  "title": "Interrupteur-de-ceinture-de-sécurité-AQS315",
+  "components": [
+    {
+      "description": "Unité de contrôle - Airbag",
+      "code": "A1"
+    },
+    {
+      "description": "Déclencheur - Prétensionneur de ceinture, conducteur",
+      "code": "R5"
+    },
+    {
+      "description": "Unité de contrôle - Antidémarrage",
+      "code": "A17"
+    },
+    {
+      "description": "Déclencheur - Prétensionneur de ceinture, passager avant",
+      "code": "R6"
+    },
+    {
+      "description": "Klaxon à trompette",
+      "code": "B51"
+    },
+    {
+      "description": "Interrupteur - Klaxon à trompette",
+      "code": "S24"
+    },
+    {
+      "description": "Témoin - Avertissement de ceinture de sécurité",
+      "code": "H22"
+    },
+    {
+      "description": "Interrupteur - Ceinture de sécurité",
+      "code": "S37"
+    },
+    {
+      "description": "Relais - Klaxon à trompette",
+      "code": "K12"
+    },
+    {
+      "description": "Unité de contact",
+      "code": "W1"
+    },
+    {
+      "description": "Déclencheur - Airbag, conducteur",
+      "code": "R1"
+    },
+    {
+      "description": "Unité de contact & Interrupteur - Klaxon à trompette",
+      "code": "X19"
+    },
+    {
+      "description": "Faisceau principal & Unité de contact",
+      "code": "X20"
+    },
+    {
+      "description": "Moteur Z20LET",
+      "code": "Z20LET"
+    },
+    {
+      "description": "Moteur Z22SE",
+      "code": "Z22SE"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "seat-belt-switch-AQS315",
+  "diagram": {
+    "src": "/data/assets/da4519dcf14e.cgm",
+    "type": "cgm"
+  }
+}

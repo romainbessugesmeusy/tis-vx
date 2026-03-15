@@ -1,0 +1,115 @@
+{
+  "title": "Remplacer l'Unité de Commande du Module d'Allumage DIS",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Ouvrir le capot.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Débrancher la batterie.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Ouvrir le capot arrière du moteur.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déposer l'unité de commande du module d'allumage.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déclipser et débrancher le connecteur du faisceau électrique."
+            },
+            {
+              "bullet": "•",
+              "text": "3 vis (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/738b5d1aa5a3.jpg",
+            "alt": "Object Number: 2412464  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Reposer l'unité de commande du module d'allumage.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enduire les vis de frein filet (rouge) et insérer"
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 8 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Raccorder et fixer le connecteur du faisceau électrique."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/738b5d1aa5a3.jpg",
+            "alt": "Object Number: 2412464  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Refermer le capot arrière du moteur.",
+          "image": {
+            "src": "/data/assets/images/738b5d1aa5a3.jpg",
+            "alt": "Object Number: 2412464  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Rebrancher la batterie.",
+          "image": {
+            "src": "/data/assets/images/738b5d1aa5a3.jpg",
+            "alt": "Object Number: 2412464  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Fermer le capot.",
+          "image": {
+            "src": "/data/assets/images/738b5d1aa5a3.jpg",
+            "alt": "Object Number: 2412464  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Reprogrammer les mémoires volatiles.",
+          "image": {
+            "src": "/data/assets/images/738b5d1aa5a3.jpg",
+            "alt": "Object Number: 2412464  Size: DEFAULT"
+          },
+          "number": 9
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer l'unité de commande du module d'allumage.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Couple de serrage 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "type": "procedure",
+  "id": "dis-ignition-module-control-unit-replace-A26D1C"
+}

@@ -1,0 +1,62 @@
+{
+  "title": "Remplacer la Durite d'Admission d'Air",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer la durite d'admission d'air (1) du boîtier de chauffage et du logement de distribution d'air",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Retirer"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3d617804afb4.jpg",
+            "alt": "Object Number: 2422757  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 1
+        },
+        {
+          "text": "Déposer la grille de protection (si installée) de la durite d'admission d'air du logement de distribution d'air",
+          "image": {
+            "src": "/data/assets/images/2c9b6bc1d6e5.jpg",
+            "alt": "Object Number: 7362236  Size: DEFAULT"
+          },
+          "number": 2
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer la grille de protection (si installée) de la durite d'admission d'air sur le logement de distribution d'air",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Reposer la durite d'admission d'air sur le boîtier de chauffage et le logement de distribution d'air",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enfoncer"
+            }
+          ],
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "air-intake-pipe-replace-A26D1C"
+}

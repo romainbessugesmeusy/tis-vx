@@ -1,0 +1,122 @@
+{
+  "title": "Changer l'huile moteur – Z22SE",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Déposer l'élément du boîtier de filtre à huile.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser KM-6150 (1)."
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer l'élément du filtre à huile."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8dcfd2640ae1.jpg",
+            "alt": "Object Number: 2419055  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Élever la rampe de levage.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Détacher le tablier moteur – voir l'opération « Détacher et reposer le tablier moteur » dans le Groupe A.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Placer un bac de récupération sous le moteur.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Vidanger l'huile moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer le bouchon de vidange."
+            },
+            {
+              "bullet": "•",
+              "text": "Reposer le bouchon de vidange en utilisant un nouveau joint d'huile 25 Nm ."
+            }
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Attacher le tablier moteur – voir l'opération « Détacher et reposer le tablier moteur » dans le Groupe A.",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Abaisser la rampe de levage.",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Reposer l'élément dans le boîtier de filtre à huile.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer un nouveau joint d'huile (2)."
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer l'élément du filtre à huile (1) sur le couvercle."
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer le couvercle 25 Nm ."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b94f649d3368.jpg",
+            "alt": "Object Number: 2417951  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Remplir d'huile moteur et vérifier le niveau d'huile.",
+          "number": 9,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Vidanger l'huile moteur.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Reposer l'élément dans le boîtier de filtre à huile.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Reposer le bouchon de vidange en utilisant un nouveau joint d'huile 25 Nm .",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-6150"
+  ],
+  "type": "procedure",
+  "id": "engine-oil-change-z22se-A26D1C"
+}

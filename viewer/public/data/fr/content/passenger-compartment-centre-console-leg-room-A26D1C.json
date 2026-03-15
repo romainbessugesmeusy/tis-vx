@@ -1,0 +1,31 @@
+{
+  "title": "Compartiment passager - Console centrale / Espace pour les jambes",
+  "components": [
+    {
+      "description": "Interrupteur - Frein de stationnement",
+      "code": "B2"
+    },
+    {
+      "description": "Témoin - Système d'alerte anti-vol",
+      "code": "H11"
+    },
+    {
+      "description": "Capteur - Position de la pédale",
+      "code": "B19"
+    },
+    {
+      "description": "Allume-cigare",
+      "code": "R10"
+    },
+    {
+      "description": "Prise diagnostic",
+      "code": "X13"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "passenger-compartment-centre-console-leg-room-A26D1C",
+  "diagram": {
+    "src": "/data/assets/4acc93133242.cgm",
+    "type": "cgm"
+  }
+}

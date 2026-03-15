@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Install rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 13,
+      "sourcePage": "shock-absorber-replace-A26D1C"
+    },
+    {
+      "component": "Install bolt, washer, new nut 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "shock-absorber-replace-A26D1C"
+    },
+    {
+      "component": "Install 4x wheel bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "shock-absorber-replace-A26D1C"
+    },
+    {
+      "component": "Install stabiliser bar to each link rod",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 15,
+      "sourcePage": "stabiliser-bar-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install 2x front road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 17,
+      "sourcePage": "stabiliser-bar-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install 2x clamp for 2x bush to chassis",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 18,
+      "sourcePage": "stabiliser-bar-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install new 2x nut 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "stabiliser-bar-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install 8x bolt, 2x security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "stabiliser-bar-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install 4x bolt 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "stabiliser-bar-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Stabiliser bar with pivot bushes to chassis - spacers, clamps , 8 bolts 25 Nm, washers.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 4,
+      "sourcePage": "stabiliser-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Starter motor – bolts 40 Nm .",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": 4,
+      "sourcePage": "starter-motor-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Steering arm to hub carrier - shims, bolts 45 Nm.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 5,
+      "sourcePage": "steering-arm-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Tie rod to steering arm - nut 30 Nm.",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "steering-arm-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install hub carrier and shims",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 12,
+      "sourcePage": "steering-arm-replace-A26D1C"
+    },
+    {
+      "component": "Secure lower wishbone to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 13,
+      "sourcePage": "steering-arm-replace-A26D1C"
+    },
+    {
+      "component": "Install wheel hub assembly to hub carrier",
+      "value": "77",
+      "unit": "Nm",
+      "stepRef": 14,
+      "sourcePage": "steering-arm-replace-A26D1C"
+    },
+    {
+      "component": "For earlier type wheel hub, install centre bolt, 4x washer, nut 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 15,
+      "sourcePage": "steering-arm-replace-A26D1C"
+    },
+    {
+      "component": "Install brake caliper assembly to hub carrier",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 18,
+      "sourcePage": "steering-arm-replace-A26D1C"
+    },
+    {
+      "component": "Install front road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 19,
+      "sourcePage": "steering-arm-replace-A26D1C"
+    },
+    {
+      "component": "Install 2x bolt 45 Nm Note: Clean threads and apply locking compound.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "steering-arm-replace-A26D1C"
+    },
+    {
+      "component": "Install 3x washer, 3x bolt 77 Nm",
+      "value": "77",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "steering-arm-replace-A26D1C"
+    },
+    {
+      "component": "Install 4x bolt, install security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "steering-arm-replace-A26D1C"
+    },
+    {
+      "component": "Install universal joint to steering column",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 24,
+      "sourcePage": "steering-column-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Secure steering column to instrument panel",
+      "value": "22.5",
+      "unit": "Nm",
+      "stepRef": 25,
+      "sourcePage": "steering-column-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Secure steering column to bulkhead",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 26,
+      "sourcePage": "steering-column-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install steering wheel boss to steering column",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 31,
+      "sourcePage": "steering-column-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install upper bolt to intermediate shaft 22.5 Nm",
+      "value": "22.5",
+      "unit": "Nm",
+      "stepRef": 37,
+      "sourcePage": "steering-column-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install bolt, nut 35 Nm",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "steering-column-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install 2x washer, 2x bolt 22.5 Nm",
+      "value": "22.5",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "steering-column-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install washer, bolt 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "steering-column-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install new nut, washer, secure spring 25 Nm Note: Twist washer upwards against nut to secure.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "steering-column-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Install lower universal joint and pinion shaft",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 20,
+      "sourcePage": "steering-gear-replace-A26D1C"
+    },
+    {
+      "component": "Secure 2x upper bolt for steering gear 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 21,
+      "sourcePage": "steering-gear-replace-A26D1C"
+    },
+    {
+      "component": "Secure 2x upper bolt for steering gear 45 Nm",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 21,
+      "sourcePage": "steering-gear-replace-A26D1C"
+    },
+    {
+      "component": "Install right tie-rod end to right steering arm",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 23,
+      "sourcePage": "steering-gear-replace-A26D1C"
+    },
+    {
+      "component": "Install left tie-rod end to left steering arm",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": 24,
+      "sourcePage": "steering-gear-replace-A26D1C"
+    },
+    {
+      "component": "Install front roadwheel to left side",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 25,
+      "sourcePage": "steering-gear-replace-A26D1C"
+    },
+    {
+      "component": "Install front roadwheel to right side",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 26,
+      "sourcePage": "steering-gear-replace-A26D1C"
+    },
+    {
+      "component": "Install 2x nut, 2x bolt to lower universal joint 35 Nm",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "steering-gear-replace-A26D1C"
+    },
+    {
+      "component": "Secure 2x lower bolt for steering gear 22 Nm",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "steering-gear-replace-A26D1C"
+    },
+    {
+      "component": "Install new nut 30 Nm",
+      "value": "30",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "steering-gear-replace-A26D1C"
+    },
+    {
+      "component": "Install 4x bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "steering-gear-replace-A26D1C"
+    },
+    {
+      "component": "Steering wheel assembly to steering column – nut (2) 25 Nm .",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 7,
+      "sourcePage": "steering-wheel-assembly-remove-and-install-A26D1C"
+    },
+    {
+      "component": "Secure shock absorber to lower wishbone",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 10,
+      "sourcePage": "suspension-spring-replace-A26D1C"
+    },
+    {
+      "component": "Secure shock absorber to chassis",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 11,
+      "sourcePage": "suspension-spring-replace-A26D1C"
+    },
+    {
+      "component": "Install rear road wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 13,
+      "sourcePage": "suspension-spring-replace-A26D1C"
+    },
+    {
+      "component": "Install bolt, washer, new nut 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "suspension-spring-replace-A26D1C"
+    },
+    {
+      "component": "Install 4x bolt, security bolt 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "suspension-spring-replace-A26D1C"
+    },
+    {
+      "component": "Install reverse lamp switch to transmission 20 Nm",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 6,
+      "sourcePage": "switch-reverse-lamp-replace-A26D1C"
+    },
+    {
+      "component": "Drain the coolant.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 8,
+      "sourcePage": "thermostat-housing-remove-and-install-z-22-se-A26D1C"
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "title": "Carter d'huile, Déposer et Reposer (Z 22 SE)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Ouvrir le capot.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Débrancher la batterie.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Ouvrir le cache arrière du moteur (1).",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Détacher le cache arrière du moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "6 vis (2) et (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Desserrer les boulons du tube de guidage de jauge d'huile (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tirer sur la jauge d'huile (1)."
+            },
+            {
+              "bullet": "•",
+              "text": "1 vis (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/839872b80755.jpg",
+            "alt": "Object Number: 2416675  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Déposer le tube de guidage de jauge d'huile.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tirer sur le tube de guidage de jauge d'huile depuis le carter d'huile et soulever"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/839872b80755.jpg",
+            "alt": "Object Number: 2416675  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Élever la rampe de levage.",
+          "image": {
+            "src": "/data/assets/images/839872b80755.jpg",
+            "alt": "Object Number: 2416675  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Retirer le cache inférieur du moteur (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 boulons"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 8
+        },
+        {
+          "text": "Placer un bac de récupération en dessous.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Vidanger l'huile du moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ouvrir le bouchon de vidange d'huile."
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 25 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "number": 10
+        },
+        {
+          "text": "Déposer le carter d'huile.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "17 boulons"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/eaf0186d1402.jpg",
+            "alt": "Object Number: 2417754  Size: DEFAULT"
+          },
+          "number": 11
+        },
+        {
+          "text": "Nettoyer les surfaces de joint.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Plaque de base du bloc-cylindres, carter d'huile"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/eaf0186d1402.jpg",
+            "alt": "Object Number: 2417754  Size: DEFAULT"
+          },
+          "number": 12
+        },
+        {
+          "text": "Recréer le filetage.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "15 au total"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/eaf0186d1402.jpg",
+            "alt": "Object Number: 2417754  Size: DEFAULT"
+          },
+          "number": 13
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le carter d'huile.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Appliquer un cordon de mastic silicone (gris) (environ 2 mm à 2,5 mm"
+            },
+            {
+              "bullet": "•",
+              "text": "Appliquer un cordon de mastic silicone supplémentaire (gris) (environ."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6406f6364d10.jpg",
+            "alt": "Object Number: 2417774  Size: DEFAULT"
+          },
+          "number": 14
+        },
+        {
+          "text": "Remarque : Respecter la séquence de serrage.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer tous les boulons de manière lâche."
+            },
+            {
+              "bullet": "•",
+              "text": "Sur la plaque de base du bloc-cylindres – couple de serrage"
+            },
+            {
+              "bullet": "•",
+              "text": "Sur le carter de transmission – couple de serrage 23 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a6bb93aa1a59.jpg",
+            "alt": "Object Number: 2417775  Size: DEFAULT"
+          },
+          "number": 15
+        },
+        {
+          "text": "Reposer le cache inférieur du moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 boulons"
+            }
+          ],
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Abaisser la rampe de levage.",
+          "number": 17,
+          "image": null
+        },
+        {
+          "text": "Insérer le tube de guidage de jauge d'huile.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enduire les joints d'huile de graisse silicone (blanche)."
+            },
+            {
+              "bullet": "•",
+              "text": "Insérer le tube de guidage de jauge d'huile jusqu'à la butée dans le"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer le connecteur du faisceau de câblage du capteur de cliquetis."
+            }
+          ],
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "Fixer le tube de guidage de jauge d'huile.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 9 Nm"
+            }
+          ],
+          "number": 19,
+          "image": null
+        },
+        {
+          "text": "Remplir d'huile moteur et vérifier le niveau d'huile.",
+          "number": 20,
+          "image": null
+        },
+        {
+          "text": "Reposer le cache arrière du moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Vérifier l'alignement."
+            },
+            {
+              "bullet": "•",
+              "text": "6 boulons, couple de serrage 14 Nm"
+            }
+          ],
+          "number": 21,
+          "image": null
+        },
+        {
+          "text": "Fermer le cache arrière du moteur.",
+          "number": 22,
+          "image": null
+        },
+        {
+          "text": "Rebrancher la batterie.",
+          "number": 23,
+          "image": null
+        },
+        {
+          "text": "Fermer le capot.",
+          "number": 24,
+          "image": null
+        },
+        {
+          "text": "Reprogrammer les mémoires volatiles.",
+          "number": 25,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Vidanger l'huile du moteur.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Remarque : Respecter la séquence de serrage.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 15
+    },
+    {
+      "component": "Fixer le tube de guidage de jauge d'huile.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 19
+    },
+    {
+      "component": "Reposer le cache arrière du moteur.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 21
+    },
+    {
+      "component": "Couple de serrage 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Sur la plaque de base du bloc-cylindres – couple de serrage 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 boulons, couple de serrage 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "17 boulons\n Utiliser un outil approprié\npour le décoller uniformément aux points de levier (flèche).",
+    "Respecter la\nséquence de serrage.\n \n\n\n\n•  \nSerrer tous les boulons de manière lâche.\n \n\n\n\n\n\n•  \nSur la plaque de base du bloc-cylindres – couple de serrage\n23 Nm \n \n\n\n\n\n\n•  \nSur le carter de transmission – couple de serrage 23 Nm"
+  ],
+  "type": "procedure",
+  "id": "oil-pan-remove-and-install-z-22-se-A26D1C"
+}

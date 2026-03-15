@@ -1,0 +1,168 @@
+{
+  "title": "Remplacer la vitre arrière",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le capot arrière - voir l'opération «Déposer et reposer le capot arrière»",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Reposer le lève-vitre à ventouse MKM-641 du côté moteur de la vitre arrière",
+          "image": {
+            "src": "/data/assets/images/1b476802043b.jpg",
+            "alt": "Object Number: 2420290  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Déposer la vitre arrière de l'ouverture de la vitre arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser le couteau oscillant MKM-846-1P"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/8b8b78e79017.jpg",
+            "alt": "Object Number: 2420291  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Placer la vitre arrière sur un support adapté, puis retirer la ventouse MKM-641",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Déposer le mastic résiduel de l'ouverture de la vitre arrière jusqu'à environ 1 mm d'épaisseur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser une spatule adaptée"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/f6860fa33a33.jpg",
+            "alt": "Object Number: 2420292  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Nettoyer la surface d'étanchéité de l'ouverture de la vitre arrière et de la nouvelle vitre arrière",
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Appliquer l'activateur sur la surface d'étanchéité de la nouvelle vitre arrière et de l'ouverture de la vitre arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser un kit de collage adapté"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/1205a7d35ea6.jpg",
+            "alt": "Object Number: 2420294  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Appliquer le primaire sur la surface d'étanchéité de la vitre arrière et de l'ouverture de la vitre arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Bien agiter le flacon de primaire avant application"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Reposer le lève-vitre à ventouse MKM-641 du côté compartiment moteur de la vitre arrière",
+          "image": {
+            "src": "/data/assets/images/85b35dd7e510.jpg",
+            "alt": "Object Number: 2420297  Size: DEFAULT"
+          },
+          "number": 9
+        },
+        {
+          "text": "Appliquer du mastic sur la surface d'étanchéité de la vitre arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser le kit de collage"
+            },
+            {
+              "bullet": "•",
+              "text": "Utiliser un applicateur adapté"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Reposer la vitre arrière dans l'ouverture de la vitre arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Assurer l'emplacement correct de la vitre"
+            },
+            {
+              "bullet": "•",
+              "text": "Appliquer une légère pression sur la vitre arrière pour assurer une étanchéité correcte"
+            }
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Retirer la ventouse MKM-641 de la vitre arrière",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Nettoyer les deux côtés de la vitre arrière",
+          "number": 13,
+          "image": null
+        },
+        {
+          "text": "Reposer le capot arrière - voir l'opération «Déposer et reposer le capot arrière»",
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Laisser le véhicule reposer pendant 10 heures avant de le déplacer.",
+          "number": 15,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "toolsRequired": [
+    "MKM-641",
+    "MKM-846-1P",
+    "MKM-846-3"
+  ],
+  "warnings": [
+    "Le primaire doit être laissé\nsécher pendant 15 minutes avant que la vitre arrière ne soit montée dans l'ouverture de la vitre arrière.",
+    "Un temps d'attente de 1 heure\nest nécessaire avant d'effectuer tout autre travail sur la vitre arrière.",
+    "Le véhicule doit être\nlaissé reposer pendant la période de temps recommandée"
+  ],
+  "notes": [
+    "Utiliser le couteau oscillant MKM-846-1P en\ncombinant avec la lame MKM-846-3 \n Découper la vitre arrière du côté moteur."
+  ],
+  "type": "procedure",
+  "id": "rear-window-replace-AQS315"
+}

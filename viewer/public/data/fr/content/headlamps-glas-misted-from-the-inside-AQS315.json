@@ -1,0 +1,26 @@
+{
+  "title": "Field Remedy: 1598",
+  "subject": "Phares - Verre embué à l'intérieur",
+  "complaint": "Verre du phare embué à l'intérieur",
+  "cause": "Humidité de l'air provoquant de la buée à l'intérieur du verre du phare ou fuite au niveau du phare",
+  "production": "Aucune",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "En cas de réclamation du client, les éléments suivants doivent être vérifiés pour éviter un remplacement inutile des phares. En cas de buée sur la lentille du phare, également appelée condensation, la surface émergente sur la lentille, qui est active en termes de technologie d'éclairage, doit être dégagée après un trajet d'environ 20 minutes avec les feux de croisement allumés. Les autres surfaces de la lentille peuvent encore être couvertes de condensation après cela. Il convient de noter lors de la discussion avec les clients que le processus de dissipation de la condensation dépend fortement de la température ambiante et de l'humidité relative de l'air. Dans une telle situation, AOAG ne prendra pas en charge les coûts de remplacement des phares. En cas de forte condensation (gouttes se formant sur la lentille), les capuchons et joints d'étanchéité du boîtier du phare doivent être vérifiés et la lentille doit être soufflée à l'air comprimé sans huile. L'efficacité des mesures entreprises doit être vérifiée par une observation ultérieure. Si de l'eau pénètre dans le phare par des joints endommagés, des liaisons collées, etc., les réparations correspondantes doivent être effectuées (changer le joint, remplacer le phare, ...). Si des phares, qui s'avèrent être en bon état selon les spécifications de test du fabricant, sont soumis dans le cadre de la garantie, des frais peuvent vous être facturés. Veuillez contacter votre centre de service national en cas de problèmes."
+    },
+    {
+      "type": "text",
+      "text": "Aide à l'argumentation : La description suivante peut être utilisée comme aide à l'argumentation lors de discussions avec les clients. En raison du système de ventilation ouvert, protégé cependant des projections et nécessaire pour la compensation de pression, différents \"zones climatiques\" se forment à l'intérieur du phare, entraînant de la buée sur la lentille. Ainsi, par exemple, des zones très chaudes se forment dans un phare avec des zones relativement plus fraîches de l'autre côté. Le chauffage est généré par la chaleur émise par la source lumineuse, le refroidissement de la lentille est principalement causé par le flux d'air. En raison de la conception labyrinthique des ouvertures de ventilation, l'air chaud et sec en expansion est expulsé du boîtier du phare. Après l'extinction de la source lumineuse, l'air dans le phare se refroidit lentement. Cela provoque l'aspiration d'air saturé d'humidité de l'extérieur vers l'intérieur du boîtier du phare. En présence d'une humidité élevée et de différences de température importantes entre l'intérieur du boîtier et l'environnement, cette situation peut provoquer de la condensation sur la lentille, notamment par temps froid et humide. La condensation peut se produire, par exemple, après un passage au lave-auto, un nettoyage à la vapeur du moteur et de l'avant du véhicule, en cas de changements de température pendant la nuit, etc. Même la plus petite quantité imaginable d'humidité dans l'air à l'intérieur du phare peut se condenser sur la lentille, en particulier dans la \"phase de chauffage ultérieure\", pendant laquelle l'arrière du phare est chauffé car le moteur est encore chaud, mais en même temps la lentille se refroidit en raison de l'air extérieur froid. Étant donné que des lentilles à l'apparence en verre clair sont désormais utilisées, qui peuvent également être teintées, ce phénomène est plus évident que sur les lentilles avec une structure. Le processus de condensation dans les phares est causé par la physique et n'affecte en rien la fonction optique du phare (puissance lumineuse). La condensation ne peut pas non plus provoquer de corrosion dans le phare. Le phénomène de condensation peut se produire sur n'importe quel phare, y compris ceux de nos concurrents, car il est causé par un processus physique. Le remplacement du phare est donc inacceptable car aucun défaut technique au sens de la garantie n'est impliqué."
+    }
+  ],
+  "type": "tsb",
+  "id": "headlamps-glas-misted-from-the-inside-AQS315",
+  "metadata": {
+    "functionalGroup": "N - Electrical Equipment",
+    "complaintGroup": "10 - Leakage,12 - Misting",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  }
+}

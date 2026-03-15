@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Serrer 65 Nm",
+      "sourcePage": "remplacer-courroie-distribution-arbre-a-cames-z-22-se-A26D1C",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 8 Nm",
+      "sourcePage": "remplacer-courroie-distribution-arbre-a-cames-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 75 Nm",
+      "sourcePage": "remplacer-courroie-distribution-arbre-a-cames-z-22-se-A26D1C",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 21 Nm",
+      "sourcePage": "remplacer-courroie-distribution-arbre-a-cames-z-22-se-A26D1C",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 45 Nm",
+      "sourcePage": "remplacer-courroie-distribution-arbre-a-cames-z-22-se-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 49 Nm",
+      "sourcePage": "remplacer-courroie-distribution-arbre-a-cames-z-22-se-A26D1C",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 22 Nm",
+      "sourcePage": "remplacer-courroie-distribution-arbre-a-cames-z-22-se-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 100 Nm + 75° + 15°",
+      "sourcePage": "remplacer-courroie-distribution-arbre-a-cames-z-22-se-A26D1C",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 43 Nm",
+      "sourcePage": "remplacer-courroie-distribution-arbre-a-cames-z-22-se-A26D1C",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 16 Nm",
+      "sourcePage": "remplacer-courroie-distribution-arbre-a-cames-z-22-se-A26D1C",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer 4 vis, reposer vis de blocage 90 Nm",
+      "sourcePage": "remplacer-courroie-distribution-arbre-a-cames-z-22-se-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 9 Nm",
+      "sourcePage": "remplacer-courroie-distribution-arbre-a-cames-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 vis, serrer 14 Nm",
+      "sourcePage": "remplacer-courroie-distribution-arbre-a-cames-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Déposer l'huile moteur.",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-equilibreur-z-22-se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Reposer le tendeur de chaîne de distribution de l'arbre équilibreur.",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-equilibreur-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 24
+    },
+    {
+      "component": "Reposer le carter de distribution. Remarque : Retirer le chiffon de l'ouverture dans le carter de distribution.",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-equilibreur-z-22-se-A26D1C",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": 25
+    },
+    {
+      "component": "Fixer le bloc d'amortissement du moteur droit.",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-equilibreur-z-22-se-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 28
+    },
+    {
+      "component": "Fixer le support de bloc d'amortissement du moteur droit.",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-equilibreur-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 29
+    },
+    {
+      "component": "Fixer le bloc d'amortissement arrière du moteur.",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-equilibreur-z-22-se-A26D1C",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 30
+    },
+    {
+      "component": "Fixer le support pour les câbles de changement de vitesse.",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-equilibreur-z-22-se-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 32
+    },
+    {
+      "component": "Fixer l'amortisseur de vibrations de rotation (2).",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-equilibreur-z-22-se-A26D1C",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": 33
+    },
+    {
+      "component": "Fixer le tendeur de courroie striée en V. Remarque : La patte (1) du tendeur de courroie striée en V s'engage dans le trou du carter de distribution (2).",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-equilibreur-z-22-se-A26D1C",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": 34
+    },
+    {
+      "component": "Reposer le tuyau d'échappement avant.",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-equilibreur-z-22-se-A26D1C",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": 36
+    },
+    {
+      "component": "Reposer le bouclier thermique inférieur.",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-equilibreur-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 39
+    },
+    {
+      "component": "Reposer le cache moteur.",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-equilibreur-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 41
+    },
+    {
+      "component": "Serrer 25 Nm",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-equilibreur-z-22-se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 10 Nm",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-equilibreur-z-22-se-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 21 Nm",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-equilibreur-z-22-se-A26D1C",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 45 Nm",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-equilibreur-z-22-se-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 85 Nm",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-equilibreur-z-22-se-A26D1C",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 49 Nm",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-equilibreur-z-22-se-A26D1C",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 22 Nm",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-equilibreur-z-22-se-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 100 Nm + 75° + 15°",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-equilibreur-z-22-se-A26D1C",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 43 Nm",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-equilibreur-z-22-se-A26D1C",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 16 Nm",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-equilibreur-z-22-se-A26D1C",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 8 Nm",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-equilibreur-z-22-se-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 vis, serrer 14 Nm",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-equilibreur-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer le tendeur de chaîne de distribution de l'arbre à cames.",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-a-cames-z-22-se-A26D1C",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Fixer le couvercle de culasse",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-a-cames-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 12
+    },
+    {
+      "component": "Fixer le module d'allumage.",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-a-cames-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Reposer le cache arrière du moteur.",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-a-cames-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 14
+    },
+    {
+      "component": "Serrer 75 Nm",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-a-cames-z-22-se-A26D1C",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer 9 Nm",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-a-cames-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 vis, serrer 14 Nm",
+      "sourcePage": "remplacer-tendeur-courroie-distribution-arbre-a-cames-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Desserrer les contre-écrous (1) et (2) des biellettes de direction droite et gauche. Toujours régler les deux biellettes de direction de la même quantité pour obtenir le réglage. Serrer les contre-écrous des deux biellettes de direction - 45 Nm .",
+      "sourcePage": "ajuster-pincement-roues-arriere-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 3
+    },
+    {
+      "component": "Desserrer les contre-écrous (1) des biellettes de direction droite et gauche. Toujours régler les deux biellettes de direction de la même quantité pour obtenir le réglage. Serrer les contre-écrous des deux biellettes de direction - 45 Nm .",
+      "sourcePage": "ajuster-carrossage-roues-avant-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 3
+    },
+    {
+      "component": "Support d'anneau de remorquage (1) – 3 vis (fléchées) 25 Nm .",
+      "sourcePage": "déposer-poser-support-anneau-remorquage-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Reposer le nouveau bras de commande de train au triangle inférieur",
+      "sourcePage": "déposer-poser-bras-commande-triangle-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 4
+    },
+    {
+      "component": "Reposer le bras de commande de train sur le porte-moyeu",
+      "sourcePage": "déposer-poser-bras-commande-triangle-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Reposer le nouvel écrou 45 Nm",
+      "sourcePage": "déposer-poser-bras-commande-triangle-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ]
+}

@@ -72,6 +72,8 @@ function AppHeader({
   manifest,
   selectedEngine,
   onEngineChange,
+  language,
+  onLanguageChange,
   isOffline,
   isMobile,
   isTablet,
@@ -539,13 +541,32 @@ function AppHeader({
                     </div>
                   )}
                   
+                  {/* Language */}
+                  <div className="settings-section">
+                    <div className="settings-section-label">Language</div>
+                    <div className="settings-engine-pills">
+                      <button
+                        className={`settings-engine-pill ${language === 'en' ? 'active' : ''}`}
+                        onClick={() => onLanguageChange('en')}
+                      >
+                        English
+                      </button>
+                      <button
+                        className={`settings-engine-pill ${language === 'fr' ? 'active' : ''}`}
+                        onClick={() => onLanguageChange('fr')}
+                      >
+                        Français
+                      </button>
+                    </div>
+                  </div>
+
                   {/* Downloads */}
                   <div className="settings-section settings-downloads">
                     <div className="settings-section-label">
                       Downloads
                       {isOffline && <span className="settings-offline-badge">Offline</span>}
                     </div>
-                    <DownloadManager manifest={manifest} />
+                    <DownloadManager manifest={manifest} language={language} />
                   </div>
                 </div>
               </div>

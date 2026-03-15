@@ -1,0 +1,22 @@
+{
+  "title": "Illustration du système de refroidissement (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Système de refroidissement illustré",
+          "image": {
+            "src": "/data/assets/images/5d96f2463e82.jpg",
+            "alt": "Object Number: 2422600  Size: DEFAULT"
+          },
+          "number": 1
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "type": "procedure",
+  "id": "cooling-system-illustration-z-20-let-AQS315"
+}

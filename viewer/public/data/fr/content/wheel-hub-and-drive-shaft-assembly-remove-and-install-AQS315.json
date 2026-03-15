@@ -1,0 +1,187 @@
+{
+  "title": "Moyeu de roue et Ensemble d'arbre de transmission, Déposer et\nReposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer la roue arrière du véhicule.",
+          "image": {
+            "src": "/data/assets/images/b199d7acf6e8.jpg",
+            "alt": "Object Number: 2429699  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer le cache inférieur et le panneau de diffuseur du dessous du véhicule – vis.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déposer l'étrier de frein du support de moyeu – voir l'opération « Étrier de frein, Déposer et Reposer » dans le groupe H; supporter sur un côté.",
+          "image": {
+            "src": "/data/assets/images/55005578af79.jpg",
+            "alt": "Object Number: 2429703  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Connecteur du faisceau du capteur de vitesse de roue.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Déposer la biellette de contrôle de voie (2) du support de moyeu – écrou.",
+          "callouts": [
+            "2"
+          ],
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Déposer le support de rotule supérieur (1) du support de moyeu – deux vis; conserver les cales de carrossage.",
+          "callouts": [
+            "1"
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Attention !",
+          "image": {
+            "src": "/data/assets/images/55005578af79.jpg",
+            "alt": "Object Number: 2429703  Size: DEFAULT"
+          },
+          "number": 7
+        },
+        {
+          "text": "Ne pas tenter de retirer l'arbre de transmission en tirant sur l'arbre. Cela provoquerait le désassemblage de la jointure. Appliquer la pression uniquement sur le corps extérieur de la jointure.",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "De l'huile s'échappe – placer un bac de collecte en dessous et fermer les ouvertures avec des bouchons.",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Manipuler avec précaution le nouvel arbre de transmission. Ne pas supporter l'arbre de transmission sur le couvercle pliable.",
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Déposer le moyeu de roue et l'ensemble d'arbre de transmission de la transmission – faire levier.",
+          "number": 11,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le moyeu de roue et l'ensemble d'arbre de transmission sur la transmission – s'assurer que la bague de retenue s'engage.",
+          "number": 12,
+          "image": null
+        },
+        {
+          "text": "Reposer la biellette de contrôle de voie (2) sur le support de moyeu – écrou 80 Nm .",
+          "image": {
+            "src": "/data/assets/images/55005578af79.jpg",
+            "alt": "Object Number: 2429703  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 13
+        },
+        {
+          "text": "Connecteur du faisceau au capteur de vitesse de roue.",
+          "number": 14,
+          "image": null
+        },
+        {
+          "text": "Reposer le support de rotule supérieur (1) sur le support de moyeu – cales de carrossage, deux vis 45 Nm .",
+          "callouts": [
+            "1"
+          ],
+          "number": 15,
+          "image": null
+        },
+        {
+          "text": "Reposer l'étrier de frein sur le support de moyeu – voir l'opération « Étrier de frein, Déposer et Reposer » dans le groupe H.",
+          "number": 16,
+          "image": null
+        },
+        {
+          "text": "Niveau de liquide de transmission à vérifier et corriger si nécessaire – voir l'opération « Niveau de liquide de transmission, Vérifier et Corriger ».",
+          "image": {
+            "src": "/data/assets/images/55005578af79.jpg",
+            "alt": "Object Number: 2429703  Size: DEFAULT"
+          },
+          "number": 17
+        },
+        {
+          "text": "Reposer le cache inférieur et le panneau de diffuseur sur le dessous du véhicule – vis.",
+          "number": 18,
+          "image": null
+        },
+        {
+          "text": "Roue arrière sur le véhicule – vis 90 Nm .",
+          "number": 19,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    },
+    {
+      "label": "Reposer",
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    },
+    {
+      "label": "Inspecter",
+      "phase": "inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": []
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer la biellette de contrôle de voie (2) sur le support de moyeu – écrou 80 Nm .",
+      "value": "80",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Reposer le support de rotule supérieur (1) sur le support de moyeu – cales de carrossage, deux vis 45 Nm .",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 15
+    },
+    {
+      "component": "Roue arrière sur le véhicule – vis 90 Nm .",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 19
+    }
+  ],
+  "type": "procedure",
+  "id": "wheel-hub-and-drive-shaft-assembly-remove-and-install-AQS315"
+}

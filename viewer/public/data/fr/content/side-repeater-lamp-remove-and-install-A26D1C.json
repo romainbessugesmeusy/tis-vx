@@ -1,0 +1,40 @@
+{
+  "title": "Clignotant latéral, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Clignotant latéral du passage de roue avant, en enfonçant les ergots de retenue.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Connecteur du faisceau du clignotant latéral, en retirant la agrafe de retenue.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Connecteur du faisceau au clignotant latéral.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Clignotant latéral au passage de roue avant.",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "side-repeater-lamp-remove-and-install-A26D1C"
+}

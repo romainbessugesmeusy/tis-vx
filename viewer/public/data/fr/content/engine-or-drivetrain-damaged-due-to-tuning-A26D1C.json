@@ -1,0 +1,30 @@
+{
+  "title": "Field Remedy: 1510",
+  "subject": "Moteur ou transmission - Endommagé en raison de\nla reprogrammation",
+  "complaint": "Dommages au moteur ou à la transmission.",
+  "cause": "Reprogrammation des moteurs essence et diesel.",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "Le nombre d'offres pour des kits de reprogrammation moteur pour les moteurs essence et diesel\nà injection électronique est en augmentation. \nUn nombre croissant de dommages moteur ainsi que des dommages de la transmission\nont été causés par la reprogrammation du moteur."
+    },
+    {
+      "type": "text",
+      "text": "Nous devons souligner que de tels véhicules manipulés seront exclus de la\ngarantie immédiatement. Les travaux de réparation devront être payés par le client."
+    },
+    {
+      "type": "text",
+      "text": "De plus, nous devons souligner que les véhicules manipulés ne respectent pas les\nexigences d'homologation de type et que l'assurance du véhicule expirera."
+    }
+  ],
+  "type": "tsb",
+  "id": "engine-or-drivetrain-damaged-due-to-tuning-A26D1C",
+  "metadata": {
+    "functionalGroup": "J - Engine",
+    "complaintGroup": "13 - No/Poor Function",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  },
+  "production": ""
+}

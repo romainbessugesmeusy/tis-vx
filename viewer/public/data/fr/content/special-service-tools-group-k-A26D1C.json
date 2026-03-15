@@ -1,0 +1,132 @@
+{
+  "title": "Outils Spéciaux – Groupe K",
+  "group": "K",
+  "tools": [
+    {
+      "name": "Support",
+      "code": "KM-113-2",
+      "description": null
+    },
+    {
+      "name": "Extracteur de roulement",
+      "code": "KM-161-B",
+      "description": null
+    },
+    {
+      "name": "Poseur",
+      "code": "KM-519",
+      "description": null
+    },
+    {
+      "name": "Démonte, Poseur",
+      "code": "KM-523-1",
+      "description": null
+    },
+    {
+      "name": "Coffret extracteur",
+      "code": "MKM-557-A",
+      "description": null
+    },
+    {
+      "name": "Bloque-volant",
+      "code": "KM-652",
+      "description": null
+    },
+    {
+      "name": "Outil de centrage",
+      "code": "KM-736",
+      "description": null
+    },
+    {
+      "name": "Support de transmission",
+      "code": "MKM-886",
+      "description": null
+    },
+    {
+      "name": "Levier de dépose",
+      "code": "KM-6042",
+      "description": null
+    },
+    {
+      "name": "Extracteur de roulement",
+      "code": "KM-6110",
+      "description": null
+    },
+    {
+      "name": "Poseur de roulement",
+      "code": "KM-6111",
+      "description": null
+    },
+    {
+      "name": "Pose de bague de distance",
+      "code": "KM-6112",
+      "description": null
+    },
+    {
+      "name": "Extracteur de roulement",
+      "code": "KM-6113",
+      "description": null
+    },
+    {
+      "name": "Poseur de roulement",
+      "code": "KM-6114",
+      "description": null
+    },
+    {
+      "name": "Support de volant d'embrayage",
+      "code": "KM-6115",
+      "description": null
+    },
+    {
+      "name": "Démonte carter d'embrayage",
+      "code": "KM-6116",
+      "description": null
+    },
+    {
+      "name": "Support d'arbre de transmission",
+      "code": "KM-6117",
+      "description": null
+    },
+    {
+      "name": "Extracteur de roulement",
+      "code": "KM-6118",
+      "description": null
+    },
+    {
+      "name": "Poseur de roulement",
+      "code": "KM-6119",
+      "description": null
+    },
+    {
+      "name": "Poseur de roulement",
+      "code": "KM-6120",
+      "description": null
+    },
+    {
+      "name": "Douille de montage",
+      "code": "KM-6121",
+      "description": null
+    },
+    {
+      "name": "Extracteur de roulement",
+      "code": "KM-6122",
+      "description": null
+    },
+    {
+      "name": "Extracteur de roulement",
+      "code": "KM-6123",
+      "description": null
+    },
+    {
+      "name": "Démonte arbre intermédiaire",
+      "code": "KM-6126",
+      "description": null
+    }
+  ],
+  "image": {
+    "src": "/data/assets/images/e2fdc5e189a1.jpg",
+    "alt": "Numéro d'objet : 2429753  Taille : DEFAULT"
+  },
+  "type": "tool_list",
+  "id": "special-service-tools-group-k-A26D1C"
+}

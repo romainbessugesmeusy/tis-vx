@@ -1,0 +1,7 @@
+{
+  "title": "Exigences au point de mesure",
+  "htmlContent": "<div class=\"content\">\n\r\n<table width=\"100%\" >\r\n  <!--XPRINT-->\r\n  <table>\r\n  <tr>\r\n    <td></td>\r\n   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>\r\n  \t\r\n  </tr>\r\n  </table>\r\n  \r\n  <!--/XPRINT-->\r\n  <tr>\r\n    <td >\n<p class=\"title\">Exigences au point de mesure</p>\n\n<p>Le point de mesure doit répondre à certaines exigences pour permettre un alignement et un réglage précis. La reproductibilité des valeurs de mesure est également assurée de cette manière.</p>\n\n<p>Il est très important que les points de contact des roues de la plaque de mesure soient alignés en hauteur les uns par rapport aux autres. Cela est généralement vérifié à l'aide d'un dispositif de nivellement visuel.</p>\n\n<p>La différence de hauteur autorisée entre le côté gauche et le côté droit est max. 1 mm, entre l'avant et l'arrière et en diagonale max. 2 mm. Le pont doit être réglable en trois hauteurs de travail avec cette précision dimensionnelle.</p>\n</td>\r\n  </tr>\r\n  \r\n  <tr>\r\n    <td ></td>\r\n  </tr>\r\n</table>\r\n</div>",
+  "type": "generic",
+  "id": "requirements-at-the-measurement-point-A26D1C",
+  "extractedData": {}
+}

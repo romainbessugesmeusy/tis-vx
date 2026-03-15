@@ -1,0 +1,88 @@
+{
+  "title": "Thermostat, Remplacer (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Note : Le thermostat est uniquement fourni en ensemble avec le carter du thermostat pour des raisons de garantie.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Vidanger le système de refroidissement - recueillir le liquide de refroidissement s'échappant.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Débrancher les 2x durites (1) du carter du thermostat.",
+          "image": {
+            "src": "/data/assets/images/4d0f97778e29.jpg",
+            "alt": "Object Number: 2397772  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Déposer le carter du thermostat (2) de la culasse. Déposer 2x vis.",
+          "callouts": [
+            "2"
+          ],
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Nettoyer",
+      "steps": [
+        {
+          "text": "Nettoyer les surfaces de joint et enlever les résidus de joint.",
+          "image": {
+            "src": "/data/assets/images/4d0f97778e29.jpg",
+            "alt": "Object Number: 2397772  Size: DEFAULT"
+          },
+          "number": 5
+        }
+      ],
+      "phase": "clean",
+      "icon": "/data/assets/images/d9fe69774efb.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le carter du thermostat sur la culasse avec un nouveau joint torique. Serrer 2x vis à 15 Nm .",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Reposer les 2x durites sur le carter du thermostat.",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Remplir et purger le système de refroidissement - voir l'opération « Système de Refroidissement, Vidanger, Remplir et Purger » et « Système de Refroidissement, Rechercher les Fuites ».",
+          "number": 8,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Reposer le carter du thermostat sur la culasse avec un nouveau joint torique. Serrer 2x vis à 15 Nm .",
+      "value": "15",
+      "unit": "Nm",
+      "stepRef": 6
+    }
+  ],
+  "type": "procedure",
+  "id": "thermostat-replace-z-20-let-AQS315"
+}

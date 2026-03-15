@@ -1,0 +1,68 @@
+{
+  "title": "Siège passager, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Déposer le capote du véhicule – voir l'opération «Capote, Déposer et Reposer»",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le siège du véhicule",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 4x vis (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Vis (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/6bc65c067a51.jpg",
+            "alt": "Object Number: 2419660  Size: DEFAULT"
+          },
+          "number": 2
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le siège passager sur le véhicule",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 4x vis"
+            },
+            {
+              "bullet": "•",
+              "text": "Vis"
+            },
+            {
+              "bullet": "•",
+              "text": "Vérifier le bon fonctionnement"
+            }
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Reposer la capote sur le véhicule",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "passenger-s-seat-remove-and-install-AQS315"
+}

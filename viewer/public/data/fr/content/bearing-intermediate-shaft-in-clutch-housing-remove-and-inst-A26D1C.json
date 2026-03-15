@@ -1,0 +1,107 @@
+{
+  "title": "Roulement, Arbre Intermédiaire dans Carter d'Embrayage,\nDéposer et Reposer",
+  "phases": [
+    {
+      "label": "Procedure",
+      "steps": [
+        {
+          "text": "Illustration du roulement d'arbre intermédiaire",
+          "image": {
+            "src": "/data/assets/images/d29ab0c9f333.jpg",
+            "alt": "Object Number: 2415587  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer la transmission du véhicule - voir l'opération \"Transmission, Déposer et Reposer\"",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Démonter la transmission - voir l'opération \"Transmission, Joint d'étanchéité Complètement\"",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déposer la bague de retenue (2) avec des pinces de retenue (1)",
+          "image": {
+            "src": "/data/assets/images/449bd0629922.jpg",
+            "alt": "Object Number: 2415555  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ],
+          "number": 4
+        },
+        {
+          "text": "Déloger le roulement d'arbre intermédiaire du carter d'embrayage (4) avec KM-248 (3)",
+          "image": {
+            "src": "/data/assets/images/449bd0629922.jpg",
+            "alt": "Object Number: 2415555  Size: DEFAULT"
+          },
+          "callouts": [
+            "4",
+            "3"
+          ],
+          "number": 5
+        },
+        {
+          "text": "Nettoyer toutes les pièces retirées et vérifier l'usure et les dommages; remplacer si nécessaire",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Reposer le roulement d'arbre intermédiaire dans le carter d'embrayage (5) avec KM-6119 (4) en conjonction avec KM-523-1 (3)",
+          "image": {
+            "src": "/data/assets/images/925329266607.jpg",
+            "alt": "Object Number: 2415556  Size: DEFAULT"
+          },
+          "callouts": [
+            "5",
+            "4",
+            "3"
+          ],
+          "number": 7
+        },
+        {
+          "text": "Reposer la nouvelle bague de retenue (2) avec des pinces de retenue (1)",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "S'assurer de l'insertion correcte de la bague de retenue dans le carter d'embrayage"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/925329266607.jpg",
+            "alt": "Object Number: 2415556  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ],
+          "number": 8
+        },
+        {
+          "text": "Assembler la transmission - voir l'opération \"Transmission, Joint d'étanchéité Complètement\"",
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Reposer la transmission dans le véhicule - voir l'opération \"Transmission, Déposer et Reposer\"",
+          "number": 10,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-248",
+    "KM-6119",
+    "KM-523-1"
+  ],
+  "type": "procedure",
+  "id": "bearing-intermediate-shaft-in-clutch-housing-remove-and-inst-A26D1C"
+}

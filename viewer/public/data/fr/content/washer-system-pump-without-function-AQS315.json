@@ -1,0 +1,51 @@
+{
+  "title": "Field Remedy: 2579",
+  "subject": "Système de rondelle, pompe - Sans\nfonction",
+  "complaint": "Système de rondelle sans fonction.",
+  "cause": "Fusible du système de rondelle grillé en raison du liquide\nde rondelle gelé.",
+  "remedyContent": [
+    {
+      "type": "text",
+      "text": "En cas de réclamation du client, effectuer les vérifications suivantes avant\nremplacement de la pompe de rondelle :"
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Vérifier si le concentré antigel est OK, respectivement que",
+        "le liquide/système de rondelle n'est pas gelé."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Si le concentré est insuffisant/le liquide de rondelle est gelé, \n    informer le client sur le mélange correct et/ou se référer au \n    manuel du propriétaire."
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Si le liquide de rondelle est gelé, dégivrer le système de rondelle et",
+        "remplir le système de rondelle avec du liquide de rondelle dans le mélange correct."
+      ]
+    },
+    {
+      "type": "numbered",
+      "items": [
+        "Vérifier le fonctionnement de la pompe et des buses du système de rondelle,",
+        "si nécessaire remplacer le fusible du système de rondelle."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Remarque : Une pompe gelée fera sauter à nouveau\nle fusible."
+    }
+  ],
+  "type": "tsb",
+  "id": "washer-system-pump-without-function-AQS315",
+  "metadata": {
+    "functionalGroup": "N - Electrical Equipment",
+    "complaintGroup": "13 - No/Poor Function",
+    "troubleCode": "None",
+    "models": null,
+    "engines": null
+  },
+  "production": ""
+}

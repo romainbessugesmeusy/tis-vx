@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Attach the bracket for the gearshift cables.",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 80,
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the rotational vibration damper (2).",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": 81,
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the ribbed V–belt tensioner. Note: The lug (1) of the ribbed V–belt tensioner engages into the bore in the timing case (2).",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": 82,
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the front exhaust pipe.",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": 85,
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 90,
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 90,
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the ignition module.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 91,
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Connect the fuel lines.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 92,
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Connect the fuel lines.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 92,
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 93,
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 85 Nm + 30° + 15°",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 65 Nm",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 75 Nm",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 21 Nm",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 45 Nm",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 86 Nm",
+      "value": "86",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 22 Nm",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 100 Nm + 75° + 15°",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 43 Nm",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 16 Nm",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "6 bolts, tightening torque 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "timing-chain-balancer-shaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Drain the engine oil.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 25,
+      "sourcePage": "timing-chain-camshaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the intake camshaft sprocket.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 49,
+      "sourcePage": "timing-chain-camshaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the camshaft timing chain tensioner rail (part number 24 449 448)",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 52,
+      "sourcePage": "timing-chain-camshaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the camshaft timing chain guide rail (1).",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 53,
+      "sourcePage": "timing-chain-camshaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the camshaft timing chain guide rail.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 56,
+      "sourcePage": "timing-chain-camshaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the camshaft timing chain guide rail.",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": 56,
+      "sourcePage": "timing-chain-camshaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the exhaust camshaft sprocket.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 57,
+      "sourcePage": "timing-chain-camshaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the guide rail.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 59,
+      "sourcePage": "timing-chain-camshaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the camshaft timing chain tensioner.",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 60,
+      "sourcePage": "timing-chain-camshaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the timing case. Note: Remove the cloth from the opening in the timing case.",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": 66,
+      "sourcePage": "timing-chain-camshaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the right–hand engine damping block.",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 69,
+      "sourcePage": "timing-chain-camshaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the right–hand engine damping block bracket.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 70,
+      "sourcePage": "timing-chain-camshaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the rear engine damping block.",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 71,
+      "sourcePage": "timing-chain-camshaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the bracket for the gearshift cables.",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 73,
+      "sourcePage": "timing-chain-camshaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the rotational vibration damper (2).",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": 74,
+      "sourcePage": "timing-chain-camshaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the ribbed V–belt tensioner. Note: The lug (1) of the ribbed V–belt tensioner engages into the bore in the timing case (2).",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": 75,
+      "sourcePage": "timing-chain-camshaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the front exhaust pipe.",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": 78,
+      "sourcePage": "timing-chain-camshaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install rear wheel",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 80,
+      "sourcePage": "timing-chain-camshaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 86,
+      "sourcePage": "timing-chain-camshaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Attach the ignition module.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 87,
+      "sourcePage": "timing-chain-camshaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Connect the fuel lines.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 88,
+      "sourcePage": "timing-chain-camshaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Install the engine cover.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 89,
+      "sourcePage": "timing-chain-camshaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "timing-chain-camshaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 85 Nm + 30° + 15°",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "timing-chain-camshaft-replace-z-22-se-A26D1C"
+    },
+    {
+      "component": "Tightening torque 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null,
+      "sourcePage": "timing-chain-camshaft-replace-z-22-se-A26D1C"
+    }
+  ]
+}

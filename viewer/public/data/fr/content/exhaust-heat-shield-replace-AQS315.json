@@ -1,0 +1,133 @@
+{
+  "title": "Remplacer le bouclier thermique d'échappement",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Élever le véhicule",
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer le cache sous le moteur (1) et le cache sous le moteur (2) de la coque arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 8x vis, 2x écrou, 2x agrafe"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/59dd1d85866f.jpg",
+            "alt": "Object Number: 2425113  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ],
+          "number": 2
+        },
+        {
+          "text": "Détacher le tuyau d'échappement intermédiaire du catalyseur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 3x vis, 3x écrou (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/a3943659de90.jpg",
+            "alt": "Object Number: 2425115  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Retirer le tuyau d'échappement intermédiaire du silencieux arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer la bride en U (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/dad2d3b9abc4.jpg",
+            "alt": "Object Number: 2425118  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Nettoyer toutes les surfaces de contact",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Retirer le bouclier thermique du tuyau d'échappement intermédiaire",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 4x vis, 4x rondelle, 7x agrafe"
+            }
+          ],
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Reposer le bouclier thermique sur le tuyau d'échappement intermédiaire",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 7x agrafe, 4x rondelle, 4x vis"
+            }
+          ],
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Reposer le tuyau d'échappement intermédiaire sur le silencieux arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer la bride en U"
+            }
+          ],
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Reposer le tuyau d'échappement intermédiaire sur le catalyseur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer 3x vis, 3x écrous"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Reposer le cache sous le moteur et le cache sous le moteur de la coque arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposer 8x vis, 2x écrou, 2x agrafe"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 11,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "type": "procedure",
+  "id": "exhaust-heat-shield-replace-AQS315"
+}

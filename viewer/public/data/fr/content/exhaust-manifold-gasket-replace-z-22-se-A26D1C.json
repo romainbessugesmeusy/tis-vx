@@ -1,0 +1,703 @@
+{
+  "title": "Joint de collecteur d'échappement, Remplacer (Z 22 SE)",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Ouvrir le capot.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Débrancher la batterie.",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Ouvrir le cache moteur (1).",
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 3
+        },
+        {
+          "text": "Déposer le cache moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "6 vis (2) et (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/df8067116f26.jpg",
+            "alt": "Object Number: 2412453  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Relâcher la pression du carburant.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Attention !"
+            },
+            {
+              "bullet": "•",
+              "text": "Récupérer tout carburant s'échappant dans un récipient approprié."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/77b9e84bc8f7.jpg",
+            "alt": "Object Number: 2412454  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Débrancher les conduites de carburant.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 écrous unions (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "2 boulons (2)"
+            },
+            {
+              "bullet": "•",
+              "text": "Repositionner les conduites de carburant (3) sur le côté."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/96b59af655a2.jpg",
+            "alt": "Object Number: 2412455  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Déposer le module d'allumage (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Détacher le connecteur du faisceau de câblage."
+            },
+            {
+              "bullet": "•",
+              "text": "4 boulons (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0c4aa59965a6.jpg",
+            "alt": "Object Number: 2416672  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 7
+        },
+        {
+          "text": "Retirer le couvercle de la culasse.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Détacher la durite de reniflard du moteur (2)."
+            },
+            {
+              "bullet": "•",
+              "text": "2 boulons, 1 écrou"
+            },
+            {
+              "bullet": "•",
+              "text": "1 boulon"
+            },
+            {
+              "bullet": "•",
+              "text": "12 boulons (1), (3), (4) et (8)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/055fa4fa9cf5.jpg",
+            "alt": "Object Number: 2412456  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Retirer le bouclier thermique inférieur (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 boulons"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2ccda3dcd825.jpg",
+            "alt": "Object Number: 2412469  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 9
+        },
+        {
+          "text": "Détacher le bouclier thermique supérieur (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 boulons"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2ccda3dcd825.jpg",
+            "alt": "Object Number: 2412469  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 10
+        },
+        {
+          "text": "Lever la rampe de levage.",
+          "image": {
+            "src": "/data/assets/images/2ccda3dcd825.jpg",
+            "alt": "Object Number: 2412469  Size: DEFAULT"
+          },
+          "number": 11
+        },
+        {
+          "text": "Déposer la roue arrière gauche.",
+          "image": {
+            "src": "/data/assets/images/d5f9fc343126.jpg",
+            "alt": "Object Number: 2412470  Size: DEFAULT"
+          },
+          "number": 12
+        },
+        {
+          "text": "Déposer la garniture d'aile arrière gauche.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "6 boulons"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d5f9fc343126.jpg",
+            "alt": "Object Number: 2412470  Size: DEFAULT"
+          },
+          "number": 13
+        },
+        {
+          "text": "Débrancher le connecteur du faisceau de la sonde lambda (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Exposer le faisceau de câblage."
+            },
+            {
+              "bullet": "•",
+              "text": "5 agrafes, 1 agrafe de retenue (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d5f9fc343126.jpg",
+            "alt": "Object Number: 2412470  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ],
+          "number": 14
+        },
+        {
+          "text": "Lever la rampe de levage.",
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "number": 15
+        },
+        {
+          "text": "Retirer le cache inférieur du moteur (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 boulons"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/31ecbd442548.jpg",
+            "alt": "Object Number: 2412457  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 16
+        },
+        {
+          "text": "Détacher le tuyau d'échappement avant.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 écrous (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer le joint."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/899ebb0955a4.jpg",
+            "alt": "Object Number: 2412471  Size: DEFAULT"
+          },
+          "number": 17
+        },
+        {
+          "text": "Abaisser la rampe de levage.",
+          "image": {
+            "src": "/data/assets/images/899ebb0955a4.jpg",
+            "alt": "Object Number: 2412471  Size: DEFAULT"
+          },
+          "number": 18
+        },
+        {
+          "text": "Retirer le collecteur d'échappement (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "10 écrous."
+            },
+            {
+              "bullet": "•",
+              "text": "Retirer le joint (2)."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2f3e26238475.jpg",
+            "alt": "Object Number: 2416669  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ],
+          "number": 19
+        },
+        {
+          "text": "Nettoyer les surfaces de joint.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Collecteur d'échappement, culasse, tuyau d'échappement avant."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2f3e26238475.jpg",
+            "alt": "Object Number: 2416669  Size: DEFAULT"
+          },
+          "number": 20
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Reposer le collecteur d'échappement.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser un nouveau joint."
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 12 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 12 Nm"
+            }
+          ],
+          "number": 21,
+          "image": null
+        },
+        {
+          "text": "Lever la rampe de levage.",
+          "number": 22,
+          "image": null
+        },
+        {
+          "text": "Fixer le tuyau d'échappement avant.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser un nouveau joint."
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 16 Nm"
+            }
+          ],
+          "number": 23,
+          "image": null
+        },
+        {
+          "text": "Fixer le cache inférieur du moteur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "13 boulons"
+            }
+          ],
+          "number": 24,
+          "image": null
+        },
+        {
+          "text": "Abaisser la rampe de levage.",
+          "number": 25,
+          "image": null
+        },
+        {
+          "text": "Connecter le connecteur du faisceau de la sonde lambda.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Acheminer le faisceau de câblage."
+            }
+          ],
+          "number": 26,
+          "image": null
+        },
+        {
+          "text": "Installer la garniture d'aile arrière.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "6 boulons"
+            }
+          ],
+          "number": 27,
+          "image": null
+        },
+        {
+          "text": "Fixer la roue arrière gauche.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Ne pas serrer pour l'instant."
+            }
+          ],
+          "number": 28,
+          "image": null
+        },
+        {
+          "text": "Abaisser la rampe de levage.",
+          "number": 29,
+          "image": null
+        },
+        {
+          "text": "Serrer la roue arrière gauche.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 90 Nm"
+            }
+          ],
+          "number": 30,
+          "image": null
+        },
+        {
+          "text": "Fixer le bouclier thermique supérieur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 écrou"
+            },
+            {
+              "bullet": "•",
+              "text": "3 goujons"
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 23 Nm"
+            }
+          ],
+          "number": 31,
+          "image": null
+        },
+        {
+          "text": "Installer le bouclier thermique inférieur.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 8 Nm"
+            }
+          ],
+          "number": 32,
+          "image": null
+        },
+        {
+          "text": "Détacher le câble de masse de la culasse.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "1 boulon"
+            }
+          ],
+          "number": 33,
+          "image": null
+        },
+        {
+          "text": "Fixer le couvercle de la culasse",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Nettoyer les surfaces de joint."
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "2 boulons, 1 écrou"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ef30e1bc79e7.jpg",
+            "alt": "Object Number: 2417739  Size: DEFAULT"
+          },
+          "number": 34
+        },
+        {
+          "text": "Fixer la durite de reniflard du moteur.",
+          "image": {
+            "src": "/data/assets/images/ef30e1bc79e7.jpg",
+            "alt": "Object Number: 2417739  Size: DEFAULT"
+          },
+          "number": 35
+        },
+        {
+          "text": "Fixer le support de conduite de carburant.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 8 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ef30e1bc79e7.jpg",
+            "alt": "Object Number: 2417739  Size: DEFAULT"
+          },
+          "number": 36
+        },
+        {
+          "text": "Fixer le module d'allumage.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Fixer et sécuriser le connecteur du faisceau de câblage."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ef30e1bc79e7.jpg",
+            "alt": "Object Number: 2417739  Size: DEFAULT"
+          },
+          "number": 37
+        },
+        {
+          "text": "Raccorder les conduites de carburant.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 10 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Couple de serrage 9 Nm"
+            }
+          ],
+          "number": 38,
+          "image": null
+        },
+        {
+          "text": "Installer le cache moteur arrière.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Vérifier l'alignement."
+            },
+            {
+              "bullet": "•",
+              "text": "6 boulons, couple de serrage 14 Nm"
+            }
+          ],
+          "number": 39,
+          "image": null
+        },
+        {
+          "text": "Fermer le cache moteur arrière.",
+          "number": 40,
+          "image": null
+        },
+        {
+          "text": "Rebrancher la batterie.",
+          "number": 41,
+          "image": null
+        },
+        {
+          "text": "Fermer le capot.",
+          "number": 42,
+          "image": null
+        },
+        {
+          "text": "Reprogrammer les mémoires volatiles.",
+          "number": 43,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Installer le collecteur d'échappement.",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": 21
+    },
+    {
+      "component": "Fixer le tuyau d'échappement avant.",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": 23
+    },
+    {
+      "component": "Serrer la roue arrière gauche.",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 30
+    },
+    {
+      "component": "Fixer le bouclier thermique supérieur.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 31
+    },
+    {
+      "component": "Installer le bouclier thermique inférieur.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 32
+    },
+    {
+      "component": "Fixer le couvercle de la culasse",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 34
+    },
+    {
+      "component": "Fixer le support de conduite de carburant.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 36
+    },
+    {
+      "component": "Fixer le module d'allumage.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 37
+    },
+    {
+      "component": "Raccorder les conduites de carburant.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 38
+    },
+    {
+      "component": "Raccorder les conduites de carburant.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 38
+    },
+    {
+      "component": "Installer le cache moteur arrière.",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 39
+    },
+    {
+      "component": "Couple de serrage 12 Nm",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 16 Nm",
+      "value": "16",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 90 Nm",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 boulons, couple de serrage 14 Nm",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-J-34730-91"
+  ],
+  "notes": [
+    "Utiliser des nouveaux joints.\n Les lèvres d'étanchéité\ndes joints (1) doivent être insérées dans la rainure sur le couvercle de\nculasse.\n \n\n\n\n–\nCouple de serrage 9 Nm"
+  ],
+  "type": "procedure",
+  "id": "exhaust-manifold-gasket-replace-z-22-se-A26D1C"
+}

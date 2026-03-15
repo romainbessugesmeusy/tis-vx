@@ -1,0 +1,39 @@
+{
+  "title": "Verrouillage central sans clé",
+  "components": [
+    {
+      "description": "Unité de commande - Verrouillage central",
+      "code": "A12"
+    },
+    {
+      "description": "Moteur - Verrouillage central, porte avant passager",
+      "code": "M3"
+    },
+    {
+      "description": "Unité de commande - Système d'alarme antivol",
+      "code": "A13"
+    },
+    {
+      "description": "Interrupteur - Verrouillage central (instrument)",
+      "code": "S87"
+    },
+    {
+      "description": "Capteur - Unité d'avertissement antivol, habitacle passager",
+      "code": "B121"
+    },
+    {
+      "description": "Interrupteur d'impact - Coupure carburant",
+      "code": "S94"
+    },
+    {
+      "description": "Moteur - Verrouillage central, porte conducteur",
+      "code": "M2"
+    }
+  ],
+  "type": "harness_diagram",
+  "id": "key-less-entry-central-door-locking-A26D1C",
+  "diagram": {
+    "src": "/data/assets/d3e8a2fe7aed.cgm",
+    "type": "cgm"
+  }
+}

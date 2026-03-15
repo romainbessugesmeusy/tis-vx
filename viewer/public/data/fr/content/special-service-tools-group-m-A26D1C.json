@@ -1,0 +1,37 @@
+{
+  "title": "Outils Spéciaux – Groupe M",
+  "group": "M",
+  "tools": [
+    {
+      "name": "Déposeur/Reposeur",
+      "code": "KM-108",
+      "description": null
+    },
+    {
+      "name": "Déposeur Volant de Direction",
+      "code": "KM-210-B",
+      "description": null
+    },
+    {
+      "name": "Déposeur",
+      "code": "KM-507-C",
+      "description": null
+    },
+    {
+      "name": "Clé Dynamométrique 1/2\" Drive",
+      "code": "MKM-610",
+      "description": null
+    },
+    {
+      "name": "Clé Dynamométrique 3/8\" Drive",
+      "code": "MKM-611",
+      "description": null
+    }
+  ],
+  "image": {
+    "src": "/data/assets/images/5b465f431087.jpg",
+    "alt": "Numéro d'objet : 2429775  Taille : DEFAULT"
+  },
+  "type": "tool_list",
+  "id": "special-service-tools-group-m-A26D1C"
+}

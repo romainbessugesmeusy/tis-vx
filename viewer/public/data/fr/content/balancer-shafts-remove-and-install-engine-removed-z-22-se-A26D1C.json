@@ -1,0 +1,1563 @@
+{
+  "type": "procedure",
+  "id": "balancer-shafts-remove-and-install-engine-removed-z-22-se-A26D1C",
+  "title": "Balancer Shafts, Remove and Install (Engine\nRemoved) (Z 22 SE)",
+  "phases": [
+    {
+      "phase": "remove",
+      "label": "Remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": [
+        {
+          "number": 1,
+          "text": "Remove the engine Note: See operation \"Engine, Remove and Install\".",
+          "image": {
+            "src": "/data/assets/images/f75b10bc168e.jpg",
+            "alt": "Object Number: 2417929  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 2,
+          "text": "Attach the adapter KM-412-27 (1) on the exhaust side.",
+          "image": {
+            "src": "/data/assets/images/f75b10bc168e.jpg",
+            "alt": "Object Number: 2417929  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Remove the oil dipstick guide tube (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Pull the oil dipstick out of the oil dipstick guide tube."
+            },
+            {
+              "bullet": "•",
+              "text": "1 bolt (3)"
+            },
+            {
+              "bullet": "•",
+              "text": "Pull the oil dipstick guide tube out of the oil pan."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/839872b80755.jpg",
+            "alt": "Object Number: 2416675  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Drill out the shear bolt (4).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Centre–punch"
+            },
+            {
+              "bullet": "•–",
+              "text": "Max. depth 10 mm",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Use a 3 mm drill."
+                }
+              ]
+            },
+            {
+              "bullet": "•–",
+              "text": "Until the head of the bolt comes free.",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Use a 6.5 mm drill."
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d30b869f7f2d.jpg",
+            "alt": "Object Number: 2412527  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Remove retaining bolt (2).",
+          "image": {
+            "src": "/data/assets/images/d30b869f7f2d.jpg",
+            "alt": "Object Number: 2412527  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Remove the bridge piece (3).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Reposition the ground cable to one side."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d30b869f7f2d.jpg",
+            "alt": "Object Number: 2412527  Size: DEFAULT"
+          },
+          "callouts": [
+            "3"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Remove the retaining bolts (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/d30b869f7f2d.jpg",
+            "alt": "Object Number: 2412527  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Take out the engine control unit.",
+          "image": {
+            "src": "/data/assets/images/d30b869f7f2d.jpg",
+            "alt": "Object Number: 2412527  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 9,
+          "text": "Detach the throttle body wiring harness connector (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Release the wiring harness connector."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0cde6b15b8ef.jpg",
+            "alt": "Object Number: 2412474  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Detach the wiring harness connector (2) from the intake manifold pressure sensor (1).",
+          "image": {
+            "src": "/data/assets/images/49c839306493.jpg",
+            "alt": "Object Number: 2416663  Size: DEFAULT"
+          },
+          "callouts": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "Unbolt the exhaust gas recirculation pipe.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 nuts (1)"
+            },
+            {
+              "bullet": "•",
+              "text": "2 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/309ac035f031.jpg",
+            "alt": "Object Number: 2417916  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 12,
+          "text": "Detach the intake manifold (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "4 clips"
+            },
+            {
+              "bullet": "•",
+              "text": "5 bolts, 2 nuts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b973aa6d7559.jpg",
+            "alt": "Object Number: 2416682  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 13,
+          "text": "Remove the starter.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/bc1296dfea57.jpg",
+            "alt": "Object Number: 2417982  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 14,
+          "text": "Remove the knock sensor (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Detach the wiring harness connector."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0a8ab77fbc11.jpg",
+            "alt": "Object Number: 2412475  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 15,
+          "text": "Attach the adapter KM-412-27 (1) on the intake side.",
+          "image": {
+            "src": "/data/assets/images/24ea6bda67ea.jpg",
+            "alt": "Object Number: 2417918  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 16,
+          "text": "Attach the engine to the assembly stand KM-412 . Note: 2 technicians required",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Detach the retaining cables from the engine lifting eyes."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/24ea6bda67ea.jpg",
+            "alt": "Object Number: 2417918  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 17,
+          "text": "Place a drip tray underneath.",
+          "image": {
+            "src": "/data/assets/images/24ea6bda67ea.jpg",
+            "alt": "Object Number: 2417918  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 18,
+          "text": "Drain the engine oil.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Open the oil drain plug."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 25 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/24ea6bda67ea.jpg",
+            "alt": "Object Number: 2417918  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 19,
+          "text": "Align the crankshaft.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Rotate the crankshaft in the normal direction of rotation to"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/65c9b6fe7f54.jpg",
+            "alt": "Object Number: 2417749  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 20,
+          "text": "Detach the engine damping block bracket (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "3 bolts (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/074f4f7053a5.jpg",
+            "alt": "Object Number: 2417795  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 21,
+          "text": "Remove the ribbed V–belt.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Mark the running direction of the ribbed V–belt."
+            },
+            {
+              "bullet": "•",
+              "text": "Take out the ribbed V–belt."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/21d2a98ee79a.jpg",
+            "alt": "Object Number: 2412468  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 22,
+          "text": "Detach the ribbed V–belt tensioner.",
+          "image": {
+            "src": "/data/assets/images/e8f95b7d631a.jpg",
+            "alt": "Object Number: 2416686  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 23,
+          "text": "Detach the rotational vibration damper (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use holding adapter KM-J-38122-A in"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2399923737fc.jpg",
+            "alt": "Object Number: 2416685  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 24,
+          "text": "Detach the timing case (4).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "11 bolts (1) and (5)"
+            },
+            {
+              "bullet": "•",
+              "text": "Remove the gasket (2)."
+            },
+            {
+              "bullet": "•",
+              "text": "Use a suitable tool to remove the oil seal."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/3c3d26d0eaab.jpg",
+            "alt": "Object Number: 2417796  Size: DEFAULT"
+          },
+          "callouts": [
+            "4"
+          ]
+        },
+        {
+          "number": 25,
+          "text": "Detach the ignition module (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "4 bolts (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0c4aa59965a6.jpg",
+            "alt": "Object Number: 2416672  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 26,
+          "text": "Detach the cylinder head cover.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Detach the ground cable."
+            },
+            {
+              "bullet": "•",
+              "text": "14 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/012e1490522d.jpg",
+            "alt": "Object Number: 2417798  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 27,
+          "text": "Note: If there is no marking (1) on the camshaft timing chain tensioner (2), then it should be replaced with a new camshaft timing chain tensioner (part number 24 448 509) including a new camshaft timing chain tensioner rail (part number 24 449 448).",
+          "image": {
+            "src": "/data/assets/images/c856d6a2b9e9.jpg",
+            "alt": "Object Number: 2412306  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 28,
+          "text": "Remove the camshaft timing chain tensioner (1).",
+          "image": {
+            "src": "/data/assets/images/020d9b093f8c.jpg",
+            "alt": "Object Number: 2416679  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 29,
+          "text": "Remove the guide rail (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 bolts (2)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e362d7f90897.jpg",
+            "alt": "Object Number: 2416678  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 30,
+          "text": "Remove the exhaust camshaft sprocket (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Hold the exhaust camshaft by the hexagon."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c137383cd9d7.jpg",
+            "alt": "Object Number: 2416680  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 31,
+          "text": "Remove the camshaft timing chain tensioner rail (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Lift out to the top."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/4e17464983cf.jpg",
+            "alt": "Object Number: 2416695  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 32,
+          "text": "Remove the camshaft timing chain guide rail (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Remove the screw plug (1)."
+            },
+            {
+              "bullet": "•",
+              "text": "2 bolts (3)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/105fe1758a31.jpg",
+            "alt": "Object Number: 2417804  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 33,
+          "text": "Remove the intake camshaft sprocket (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Hold the intake camshaft by the hexagon."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b864a8756dc1.jpg",
+            "alt": "Object Number: 2416696  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 34,
+          "text": "Take out the camshaft timing chain (2).",
+          "image": {
+            "src": "/data/assets/images/b864a8756dc1.jpg",
+            "alt": "Object Number: 2416696  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 35,
+          "text": "Remove the balancer shaft timing chain tensioner (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 bolts (1)"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/b8100b83a2ae.jpg",
+            "alt": "Object Number: 2417741  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 36,
+          "text": "Remove the balancer shaft timing chain tensioner rail (1).",
+          "image": {
+            "src": "/data/assets/images/868b59961815.jpg",
+            "alt": "Object Number: 2417742  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 37,
+          "text": "Remove the balancer shaft timing chain guide rails (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 off"
+            },
+            {
+              "bullet": "•",
+              "text": "4 bolts"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/32b236c0971e.jpg",
+            "alt": "Object Number: 2417743  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 38,
+          "text": "Take out the balancer shaft timing chain.",
+          "image": {
+            "src": "/data/assets/images/32b236c0971e.jpg",
+            "alt": "Object Number: 2417743  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 39,
+          "text": "Remove the balancer shaft on the exhaust side (1).",
+          "image": {
+            "src": "/data/assets/images/58ddb687a9df.jpg",
+            "alt": "Object Number: 2417919  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 40,
+          "text": "Remove the balancer shaft on the intake side (2).",
+          "image": {
+            "src": "/data/assets/images/58ddb687a9df.jpg",
+            "alt": "Object Number: 2417919  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "install",
+      "label": "Install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif",
+      "steps": [
+        {
+          "number": 41,
+          "text": "Install the balancer shaft on the intake side.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Rotate the balancer shaft once (check for ease of"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/cdb63e5366b2.jpg",
+            "alt": "Object Number: 2417930  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 42,
+          "text": "Install the balancer shaft on the exhaust side.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Rotate the balancer shaft once (check for ease of"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/cdb63e5366b2.jpg",
+            "alt": "Object Number: 2417930  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 43,
+          "text": "Install the balancer shaft timing chain.",
+          "image": {
+            "src": "/data/assets/images/e4461fd6f81c.jpg",
+            "alt": "Object Number: 2417745  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 44,
+          "text": "Install the balancer shaft timing chain guide rails (1).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 10 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/32b236c0971e.jpg",
+            "alt": "Object Number: 2417743  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 45,
+          "text": "Install the balancer shaft timing chain tensioner rail.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 9 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/32b236c0971e.jpg",
+            "alt": "Object Number: 2417743  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 46,
+          "text": "Install the balancer shaft timing chain tensioner.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Rotate the piston clockwise, press it in and insert KM-6077 into the designated bores."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 10 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Take out KM-6077 ."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/e4c3453606c8.jpg",
+            "alt": "Object Number: 2417746  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 47,
+          "text": "Insert the camshaft timing chain. Note: Working from the top left and right, insert the timing chain past the central web (1).",
+          "image": {
+            "src": "/data/assets/images/49ac56645f8d.jpg",
+            "alt": "Object Number: 2416700  Size: DEFAULT"
+          },
+          "callouts": [
+            "1"
+          ]
+        },
+        {
+          "number": 48,
+          "text": "Install the intake camshaft sprocket.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Lay the camshaft timing chain onto the camshaft sprocket."
+            },
+            {
+              "bullet": "•",
+              "text": "Use a new bolt."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 85 Nm + 30° +",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Tightening torque 85 Nm + 30° +\n15°"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/49ac56645f8d.jpg",
+            "alt": "Object Number: 2416700  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 49,
+          "text": "Fit the camshaft timing chain.",
+          "image": {
+            "src": "/data/assets/images/c3cb004957cc.jpg",
+            "alt": "Object Number: 2417777  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 50,
+          "text": "Install the camshaft timing chain tensioner rail.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Insert from above."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 10 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c3cb004957cc.jpg",
+            "alt": "Object Number: 2417777  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 51,
+          "text": "Install the camshaft timing chain guide rail.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 10 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 65 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c3cb004957cc.jpg",
+            "alt": "Object Number: 2417777  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 52,
+          "text": "Secure the camshaft timing chain.",
+          "image": {
+            "src": "/data/assets/images/45da541db925.jpg",
+            "alt": "Object Number: 2417747  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 53,
+          "text": "Install the exhaust camshaft sprocket.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Rotate the exhaust camshaft by the hexagon until the exhaust"
+            },
+            {
+              "bullet": "•",
+              "text": "Use a new bolt."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 85 Nm + 30° +",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Tightening torque 85 Nm + 30° +\n15°"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/69a8b8d190f6.jpg",
+            "alt": "Object Number: 2417748  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 54,
+          "text": "Recut the thread.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "2 off"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/69a8b8d190f6.jpg",
+            "alt": "Object Number: 2417748  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 55,
+          "text": "Install the guide rail.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 8 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/69a8b8d190f6.jpg",
+            "alt": "Object Number: 2417748  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 56,
+          "text": "Install the camshaft timing chain tensioner.",
+          "substeps": [
+            {
+              "bullet": "••",
+              "text": "Insert the piston into the housing.",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Clamp the piston at the square into a vice."
+                },
+                {
+                  "bullet": "–",
+                  "text": "Turn clockwise to lock the internal piston (6) in the last\nlatch position (5)."
+                }
+              ]
+            },
+            {
+              "bullet": "•",
+              "text": "Use new oil seals (2) and (3)."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 75 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/468e539957d0.jpg",
+            "alt": "Object Number: 2411811  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 57,
+          "text": "Release the camshaft timing chain tensioner by pressing on the tensioner rail or the camshaft timing chain (using a blunt tool – e.g. a rounded assembly lever). Note: If the TDC markings no longer line up with the coloured chain links, refit the camshaft timing chain. Once the crankshaft has been rotated another turn they will no longer line up.",
+          "image": {
+            "src": "/data/assets/images/f57a4ba0e2fa.jpg",
+            "alt": "Object Number: 2402051  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 58,
+          "text": "Install the timing case. Note: Remove the plastic wedge and the cloth from the opening in the timing case.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use a new gasket."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 21 Nm"
+            },
+            {
+              "bullet": "•••",
+              "text": "Take out KM-6105 .",
+              "substeps": [
+                {
+                  "bullet": "–",
+                  "text": "Slide protective sleeve (1) from KM-6105 (3) onto the connecting rod journal."
+                },
+                {
+                  "bullet": "–",
+                  "text": "Coat the sealing lips with silicone grease (white)."
+                },
+                {
+                  "bullet": "–",
+                  "text": "Use KM-6105 to press the oil seal\ninto the timing case."
+                },
+                {
+                  "bullet": "–",
+                  "text": "Use bolt (4) of the rotational vibration damper."
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/0263216305cd.jpg",
+            "alt": "Object Number: 2416704  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 59,
+          "text": "Attach the rotational vibration damper (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use holding adapter KM-J-38122-A in"
+            },
+            {
+              "bullet": "•",
+              "text": "Use a new bolt."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 100 Nm + 75° +"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2399923737fc.jpg",
+            "alt": "Object Number: 2416685  Size: DEFAULT"
+          },
+          "callouts": [
+            "2"
+          ]
+        },
+        {
+          "number": 60,
+          "text": "Check the valve timing.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use the retaining bolt of the rotational vibration damper to"
+            },
+            {
+              "bullet": "•",
+              "text": "Rotate the engine further in the normal direction of rotation"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/65c9b6fe7f54.jpg",
+            "alt": "Object Number: 2417749  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 61,
+          "text": "Note: In this position the cams (1) and (2) of cylinder no. 4 must point upwards.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Attach KM-6148 with the enclosed"
+            },
+            {
+              "bullet": "•",
+              "text": "Slide the positioning bolts (5) into the designated bores (3)"
+            },
+            {
+              "bullet": "•",
+              "text": "Detach KM-6148 ."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ec477ca946f9.jpg",
+            "alt": "Object Number: 2417738  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 62,
+          "text": "Attach the ribbed V–belt tensioner. Note: The lug (1) of the ribbed V–belt tensioner engages into the bore in the timing case (2).",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 43 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/070f0a65f840.jpg",
+            "alt": "Object Number: 2417750  Size: DEFAULT"
+          },
+          "callouts": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "number": 63,
+          "text": "Install the ribbed V–belt.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Lay the ribbed V–belt in place."
+            },
+            {
+              "bullet": "•",
+              "text": "Tension the ribbed V–belt tensioner in the direction of"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/21d2a98ee79a.jpg",
+            "alt": "Object Number: 2412468  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 64,
+          "text": "Attach the engine damping block bracket.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 50 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/21d2a98ee79a.jpg",
+            "alt": "Object Number: 2412468  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 65,
+          "text": "Attach the cylinder head cover",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Clean the sealing surfaces."
+            },
+            {
+              "bullet": "•",
+              "text": "Use new gaskets."
+            },
+            {
+              "bullet": "•",
+              "text": "Attach the ground cable"
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 9 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ef30e1bc79e7.jpg",
+            "alt": "Object Number: 2417739  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 66,
+          "text": "Attach the ignition module.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 9 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/ef30e1bc79e7.jpg",
+            "alt": "Object Number: 2417739  Size: DEFAULT"
+          }
+        },
+        {
+          "number": 67,
+          "text": "Attach and secure the ignition module wiring harness connector.",
+          "image": null
+        },
+        {
+          "number": 68,
+          "text": "Detach the engine from the assembly stand KM-412 . Note: 2 technicians required",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Carefully set down the engine."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 69,
+          "text": "Detach the adapter KM-412-27 on the left–hand side.",
+          "image": null
+        },
+        {
+          "number": 70,
+          "text": "Install the knock sensor.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Attach the wiring harness connector."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 71,
+          "text": "Attach the intake manifold.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Use new gaskets."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Attach the 4 clips."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 72,
+          "text": "Attach the exhaust gas recirculation pipe.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Clean the sealing surfaces."
+            },
+            {
+              "bullet": "•",
+              "text": "Use a new gasket."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 8 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 73,
+          "text": "Attach the wiring harness connector for the intake manifold pressure sensor.",
+          "image": null
+        },
+        {
+          "number": 74,
+          "text": "Attach the wiring harness connector for the throttle body.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Secure the wiring harness connector(s)."
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 75,
+          "text": "Clean the engine control unit.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Clean the engine control unit and the plug contacts with"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 76,
+          "text": "Install the engine control unit.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tightening torque 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Attach and secure the wiring harness connector."
+            },
+            {
+              "bullet": "•",
+              "text": "Route the ground cable."
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 10 Nm"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 77,
+          "text": "Install the oil dipstick guide tube.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Coat the oil seals with silicone grease (white)."
+            },
+            {
+              "bullet": "•",
+              "text": "Insert the oil dipstick guide tube as far as the stop into the"
+            },
+            {
+              "bullet": "•",
+              "text": "Tightening torque 9 Nm"
+            },
+            {
+              "bullet": "•",
+              "text": "Insert the oil dipstick."
+            },
+            {
+              "bullet": "•",
+              "text": "Attach the knock sensor wiring harness to the oil dipstick"
+            }
+          ],
+          "image": null
+        },
+        {
+          "number": 78,
+          "text": "Detach the adapter KM-412-27 on the right–hand side.",
+          "image": null
+        },
+        {
+          "number": 79,
+          "text": "Install the engine. Note: See operation \"Engine, Remove and Install\".",
+          "image": null
+        },
+        {
+          "number": 80,
+          "text": "Fill up with engine oil and correct as required.",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Drain the engine oil.",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 18
+    },
+    {
+      "component": "Install the balancer shaft on the intake side.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 41
+    },
+    {
+      "component": "Install the balancer shaft on the exhaust side.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 42
+    },
+    {
+      "component": "Install the balancer shaft timing chain guide rails (1).",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 44
+    },
+    {
+      "component": "Install the balancer shaft timing chain tensioner rail.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 45
+    },
+    {
+      "component": "Install the balancer shaft timing chain tensioner.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 46
+    },
+    {
+      "component": "Install the intake camshaft sprocket.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 48
+    },
+    {
+      "component": "Install the camshaft timing chain tensioner rail.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 50
+    },
+    {
+      "component": "Install the camshaft timing chain guide rail.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 51
+    },
+    {
+      "component": "Install the camshaft timing chain guide rail.",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": 51
+    },
+    {
+      "component": "Install the exhaust camshaft sprocket.",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": 53
+    },
+    {
+      "component": "Install the guide rail.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 55
+    },
+    {
+      "component": "Install the camshaft timing chain tensioner.",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": 56
+    },
+    {
+      "component": "Install the timing case. Note: Remove the plastic wedge and the cloth from the opening in the timing case.",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": 58
+    },
+    {
+      "component": "Attach the rotational vibration damper (2).",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": 59
+    },
+    {
+      "component": "Attach the ribbed V–belt tensioner. Note: The lug (1) of the ribbed V–belt tensioner engages into the bore in the timing case (2).",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": 62
+    },
+    {
+      "component": "Attach the engine damping block bracket.",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": 64
+    },
+    {
+      "component": "Attach the cylinder head cover",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 65
+    },
+    {
+      "component": "Attach the ignition module.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 66
+    },
+    {
+      "component": "Install the knock sensor.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 70
+    },
+    {
+      "component": "Attach the intake manifold.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 71
+    },
+    {
+      "component": "Attach the exhaust gas recirculation pipe.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 72
+    },
+    {
+      "component": "Attach the exhaust gas recirculation pipe.",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 72
+    },
+    {
+      "component": "Install the engine control unit.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 76
+    },
+    {
+      "component": "Install the engine control unit.",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 76
+    },
+    {
+      "component": "Install the oil dipstick guide tube.",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 77
+    },
+    {
+      "component": "Tightening torque 25 Nm",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 9 Nm",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 10 Nm",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 85 Nm + 30° + 15°",
+      "value": "85",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 65 Nm",
+      "value": "65",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 8 Nm",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 75 Nm",
+      "value": "75",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 21 Nm",
+      "value": "21",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 100 Nm + 75° + 15°",
+      "value": "100",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 43 Nm",
+      "value": "43",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 50 Nm",
+      "value": "50",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Tightening torque 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "toolsRequired": [
+    "KM-412-27",
+    "KM-412",
+    "KM-6151",
+    "KM-J-38122-A",
+    "KM-956-1",
+    "KM-6077",
+    "KM-6105",
+    "KM-6148"
+  ],
+  "warnings": [
+    "Do not damage the\nsealing surfaces.",
+    "24.  \nDetach the timing case (4).\n \n\n\n\n•  \n11 bolts (1) and (5)\n \n\n\n\n\n\n•  \nRemove the gasket (2).\n Note:   Cover the opening\n(3) in the timing case with a cloth.\n \n\n\n\n\n\n•  \nUse a suitable tool to remove the oil seal.\n \n\n\n\n\n\nDo not damage the\nsealing surfaces.\n \n\n\n\n•  \nClean the sealing surfaces.",
+    "Note the\nidentification marking (2) – do not mix up.",
+    "41.  \nInstall the balancer shaft on the intake side.\n \n\n\n\nNote the\nidentification marking (2) – do not mix up.\n \n\n\n\n•  \nCoat the sliding surfaces with engine oil.\n \n\n\n\n\n\n•  \nTightening torque 9 Nm \n \n\n\n\n\n\n•  \nRotate the balancer shaft once (check for ease of\nmovement).",
+    "Note the\nidentification marking (1) – do not mix up.",
+    "42.  \nInstall the balancer shaft on the exhaust side.\n \n\n\n\nNote the\nidentification marking (1) – do not mix up.\n \n\n\n\n•  \nCoat the sliding surfaces with engine oil.\n \n\n\n\n\n\n•  \nTightening torque 9 Nm \n \n\n\n\n\n\n•  \nRotate the balancer shaft once (check for ease of\nmovement).",
+    "The TDC reference\npoints on the timing chain are indicated by coloured links in the\nchain. These must line up with the markings on the timing\nsprockets.",
+    "43.  \nInstall the balancer shaft timing chain.\n \n\n\n\nThe TDC reference\npoints on the timing chain are indicated by coloured links in the\nchain. These must line up with the markings on the timing\nsprockets.\n \n\n\n\n•  \nLay the timing chain in place.\n \n\n\n\n–\nChain link (2) (copper coloured) to the marking on the balancer\nshaft on the intake side of the engine.\n \n\n\n\n\n\n–\nSecure the chain link (3) with a plastic wedge at the marking\non the balancer shaft timing chain sprocket.\n \n\n\n\n\n\n–\nChain onto coolant pump sprocket\n \n\n\n\n\n\n–\nChain link (1) to the marking on the balancer shaft on the\nexhaust side of the engine.",
+    "After a single\nrevolution of the engine the TDC markings will no longer line up\nwith the coloured chain links.",
+    "46.  \nInstall the balancer shaft timing chain tensioner.\n \n\n\n\n•  \nLock the chain tensioner (1) with KM-6077 .\n \n\n\n\n–\nRotate the piston clockwise, press it in and insert KM-6077 into the designated bores.\n \n\n\n\n\n\n\n\n\n•  \nTightening torque 10 Nm \n \n\n\n\n\n\n•  \nTake out KM-6077 .\n \n\n\n\n\n\nAfter a single\nrevolution of the engine the TDC markings will no longer line up\nwith the coloured chain links.\n \n\n\n\n•  \nIf the TDC markings no longer line up with the coloured chain\nlinks – refit the camshaft timing chain.",
+    "49.  \nFit the camshaft timing chain.\n \n\n\n\nThe TDC reference\npoints on the timing chain are indicated by coloured links in the\nchain. These must line up with the markings on the timing\nsprockets.\n \n\n\n\n•  \nChain link (copper colour) (1) to INT marking (2) on the intake\ncamshaft sprocket",
+    "Check that the TDC\nreference points line up.",
+    "52.  \nSecure the camshaft timing chain.\n \n\n\n\nCheck that the TDC\nreference points line up.\n \n\n\n\n•  \nSecure the chain link (1) with a plastic wedge at the marking\non the camshaft timing chain sprocket",
+    "53.  \nInstall the exhaust camshaft sprocket.\n \n\n\n\nCheck that the TDC\nreference points line up.\n \n\n\n\n•  \nChain link (1) to EXH marking (2) on the exhaust camshaft\nsprocket\n \n\n\n\n\n\n•  \nRotate the exhaust camshaft by the hexagon until the exhaust\ncamshaft sprocket is seated in the guide.\n \n\n\n\n\n\n•  \nUse a new bolt.\n \n\n\n\n\n\n•  \nHold the camshaft by the hexagon.\n \n\n\n\n–\nTightening torque 85 Nm + 30° +\n15°",
+    "Failure to follow this\ninstruction could cause the camshaft timing chain to jump.",
+    "The knock sensor must\nmake full contact with the cylinder block across its entire contact\nsurface – ensure utmost cleanliness. Make sure that the\ntightening torque is exactly as specified.",
+    "70.  \nInstall the knock sensor.\n \n\n\n\nThe knock sensor must\nmake full contact with the cylinder block across its entire contact\nsurface – ensure utmost cleanliness. Make sure that the\ntightening torque is exactly as specified.\n \n\n\n\n•  \nTightening torque 23 Nm \n \n\n\n\n\n\n•  \nAttach the wiring harness connector."
+  ],
+  "notes": [
+    "Remove the engine\n See operation\n\"Engine, Remove and Install\".",
+    "Attach the engine to the assembly stand KM-412 .\n 2 technicians\nrequired\n \n\n\n\n•  \nDetach the retaining cables from the engine lifting eyes.",
+    "Remove the gasket (2).\n Cover the opening\n(3) in the timing case with a cloth.",
+    "Insert the camshaft timing chain.\n Working from the\ntop left and right, insert the timing chain past the central web\n(1).",
+    "Release the camshaft timing chain tensioner by pressing on the\ntensioner rail or the camshaft timing chain (using a blunt tool\n– e.g. a rounded assembly lever).\n If the TDC\nmarkings no longer line up with the coloured chain links, refit the\ncamshaft timing chain. Once the crankshaft has been rotated another\nturn they will no longer line up.",
+    "Install the timing case.\n Remove the\nplastic wedge and the cloth from the opening in the timing\ncase.\n \n\n\n\n•  \nUse a new gasket.\n \n\n\n\n\n\n•  \nTightening torque 21 Nm \n \n\n\n\n\n\n•  \nInstall the crankshaft front oil seal (2).\n \n\n\n\n–\nSlide protective sleeve (1) from KM-6105 (3) onto the connecting rod journal.\n \n\n\n\n\n\n–\nCoat the sealing lips with silicone grease (white).\n \n\n\n\n\n\n–\nUse KM-6105 to press the oil seal\ninto the timing case.\n \n\n\n\n\n\n–\nUse bolt (4) of the rotational vibration damper.\n \n\n\n\n\n\n–\nTake out KM-6105 .",
+    "Attach the ribbed V–belt tensioner.\n The lug (1) of\nthe ribbed V–belt tensioner engages into the bore in the\ntiming case (2).\n \n\n\n\n•  \nTightening torque 43 Nm",
+    "Lay the ribbed V–belt in place.\n Note the running\ndirection and installation position of the ribbed V–belt.",
+    "Use new gaskets.\n The sealing lips\nof the seals (1) must be inserted into the groove on the cylinder\nhead cover.",
+    "Detach the engine from the assembly stand KM-412 .\n 2 technicians\nrequired\n \n\n\n\n•  \nCarefully set down the engine.",
+    "Attach and secure the wiring harness connector.\n Check for proper\nseating and good electrical contact.",
+    "Install the engine.\n See operation\n\"Engine, Remove and Install\"."
+  ]
+}

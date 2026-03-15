@@ -1,0 +1,72 @@
+{
+  "title": "Réservoir de lave-glace, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Connecteur du faisceau de la pompe de lave-glace.",
+          "image": {
+            "src": "/data/assets/images/b3070d1821c0.jpg",
+            "alt": "Object Number: 2429427  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer le réservoir de lave-glace du support.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Durite de la pompe – prévoir un récipient pour recueillir le liquide de lavage.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Pompe du réservoir.",
+          "number": 4,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Pompe au réservoir.",
+          "image": {
+            "src": "/data/assets/images/b3070d1821c0.jpg",
+            "alt": "Object Number: 2429427  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Durite à la pompe.",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Réservoir de lave-glace au support.",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Connecteur du faisceau à la pompe de lave-glace.",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Remplir le réservoir de lave-glace avec du liquide de lavage.",
+          "number": 9,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "wash-reservoir-remove-and-install-AQS315"
+}

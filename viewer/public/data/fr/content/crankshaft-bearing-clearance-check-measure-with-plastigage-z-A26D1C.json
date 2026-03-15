@@ -1,0 +1,124 @@
+{
+  "title": "Jeu de palier de vilebrequin, Vérifier, Mesurer avec\nPlastigage (Z 22 SE)",
+  "phases": [
+    {
+      "label": "Mesurer",
+      "steps": [
+        {
+          "text": "Déposer le carter de base du bloc-cylindres. Note : Déposer le carter de base du bloc-cylindres – voir l'opération \"Vilebrequin, Reposer/Poser\"",
+          "image": {
+            "src": "/data/assets/images/bbf6860f667e.jpg",
+            "alt": "Object Number: 2392758  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Déposer le Plastigage en place.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer le Plastigage (fil plastique malléable) axialement sur le"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/bbf6860f667e.jpg",
+            "alt": "Object Number: 2392758  Size: DEFAULT"
+          },
+          "number": 2
+        },
+        {
+          "text": "Ne pas faire tourner le vilebrequin.",
+          "image": {
+            "src": "/data/assets/images/bbf6860f667e.jpg",
+            "alt": "Object Number: 2392758  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Fixer le carter de base du bloc-cylindres. Note : Respecter la séquence de serrage.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Serrer toutes les vis de manière lâche."
+            },
+            {
+              "bullet": "•",
+              "text": "Serrer les vis M10 – couple de serrage 20 Nm + 70° + 15°"
+            },
+            {
+              "bullet": "•",
+              "text": "Serrer les vis M8 – couple de serrage 23 Nm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c345be03a3ad.jpg",
+            "alt": "Object Number: 2417803  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Détacher le carter de base du bloc-cylindres.",
+          "image": {
+            "src": "/data/assets/images/5ae1154d2b76.jpg",
+            "alt": "Object Number: 2392759  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Mesurer le jeu de palier de vilebrequin.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Comparer la largeur du fil plastique écrasé (flèche) avec"
+            },
+            {
+              "bullet": "•",
+              "text": "Jeu de palier de vilebrequin admissible : 0,026 - 0,070 mm"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/5ae1154d2b76.jpg",
+            "alt": "Object Number: 2392759  Size: DEFAULT"
+          },
+          "number": 6
+        }
+      ],
+      "phase": "measure",
+      "icon": "/data/assets/images/707731fa677f.gif"
+    }
+  ],
+  "torqueValues": [
+    {
+      "component": "Fixer le carter de base du bloc-cylindres. Note : Respecter la séquence de serrage.",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": 4
+    },
+    {
+      "component": "Fixer le carter de base du bloc-cylindres. Note : Respecter la séquence de serrage.",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 4
+    },
+    {
+      "component": "Serrer les vis M10 – couple de serrage 20 Nm + 70° + 15°",
+      "value": "20",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Serrer les vis M8 – couple de serrage 23 Nm",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    }
+  ],
+  "notes": [
+    "Carter de base du bloc-cylindres déposé.\n Carter de base du bloc-cylindres\ndéposé – voir l'opération \"Vilebrequin, Reposer/Poser\"",
+    "Déposer le Plastigage (fil plastique malléable) axialement sur toute\nla largeur du tourillon de palier de vilebrequin (flèche).\n Le Plastigage est\ndisponible via le catalogue \"Opel/Vauxhall – Équipement d'atelier\".",
+    "Fixer le carter de base du bloc-cylindres.\n Respecter la\nséquence de serrage.\n \n\n\n\n•  \nSerrer toutes les vis de manière lâche.\n \n\n\n\n\n\n•  \nSerrer les vis M10 – couple de serrage 20 Nm + 70° + 15° \n \n\n\n\n\n\n•  \nSerrer les vis M8 – couple de serrage 23 Nm",
+    "Comparer la largeur du fil plastique écrasé (flèche) avec\nl'échelle de mesure.\n Lors de la lecture\nsur l'échelle, ne pas confondre millimètres et pouces."
+  ],
+  "type": "procedure",
+  "id": "crankshaft-bearing-clearance-check-measure-with-plastigage-z-A26D1C"
+}

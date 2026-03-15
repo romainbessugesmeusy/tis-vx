@@ -1,0 +1,75 @@
+{
+  "title": "Interrupteur d'éclairage, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Les interrupteurs pour les feux de position, les feux de route, les feux de détresse avant et les feux antibrouillard arrière sont tous regroupés dans cet ensemble d'interrupteurs.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Panneau en plastique autour des interrupteurs d'éclairage du tableau de bord (pads adhésifs double face).",
+          "image": {
+            "src": "/data/assets/images/2dd7ed88c823.jpg",
+            "alt": "Object Number: 2429513  Size: DEFAULT"
+          },
+          "number": 2
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Interrupteur d'éclairage du tableau de bord - libérer les attaches fléchées.",
+          "image": {
+            "src": "/data/assets/images/2dd7ed88c823.jpg",
+            "alt": "Object Number: 2429513  Size: DEFAULT"
+          },
+          "number": 3
+        },
+        {
+          "text": "Connecteurs du faisceau du commutateur à remplacer.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Interrupteur d'éclairage, du boîtier de l'interrupteur.",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Interrupteur d'éclairage au boîtier de l'interrupteur.",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Connecteur du faisceau à l'interrupteur d'éclairage.",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Boîtier de l'ensemble d'interrupteurs d'éclairage au tableau de bord.",
+          "image": {
+            "src": "/data/assets/images/2dd7ed88c823.jpg",
+            "alt": "Object Number: 2429513  Size: DEFAULT"
+          },
+          "number": 8
+        },
+        {
+          "text": "Panneau d'insertion en plastique au tableau de bord - remplacer les pads adhésifs double face.",
+          "number": 9,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "switch-lighting-assembly-remove-and-install-A26D1C"
+}

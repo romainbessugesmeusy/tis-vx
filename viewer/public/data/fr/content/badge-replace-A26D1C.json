@@ -1,0 +1,36 @@
+{
+  "title": "Badge, Remplacer",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Déposer le badge du capot arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Tirer"
+            }
+          ],
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Reposer le badge sur le capot arrière",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Enfoncer en ajustant"
+            }
+          ],
+          "number": 2,
+          "image": null
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "type": "procedure",
+  "id": "badge-replace-A26D1C"
+}

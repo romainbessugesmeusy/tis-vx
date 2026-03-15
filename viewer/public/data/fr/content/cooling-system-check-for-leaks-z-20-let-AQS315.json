@@ -1,0 +1,132 @@
+{
+  "title": "Vérification des fuites du système de refroidissement (Z 20 LET)",
+  "phases": [
+    {
+      "label": "Inspecter",
+      "steps": [
+        {
+          "text": "Déposer le cache moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Élever le véhicule"
+            },
+            {
+              "bullet": "•",
+              "text": "Déposer 13x vis, 13x rondelle"
+            }
+          ],
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le cache avant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer 9x vis"
+            }
+          ],
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Déposer le bouchon du réservoir de liquide de refroidissement",
+          "image": {
+            "src": "/data/assets/images/c2ae3007cd11.jpg",
+            "alt": "Object Number: 2421975  Size: DEFAULT"
+          },
+          "number": 4
+        },
+        {
+          "text": "Appliquer une pression au système de refroidissement",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Poser l'équipement de test de pression (disponible dans le commerce) sur"
+            },
+            {
+              "bullet": "•",
+              "text": "Suivre les instructions du fabricant"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/c2ae3007cd11.jpg",
+            "alt": "Object Number: 2421975  Size: DEFAULT"
+          },
+          "number": 5
+        },
+        {
+          "text": "Inspecter visuellement les fuites de liquide de refroidissement depuis le dessus",
+          "number": 6,
+          "image": null
+        },
+        {
+          "text": "Élever le véhicule",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Inspecter visuellement les fuites de liquide de refroidissement depuis le dessous",
+          "number": 8,
+          "image": null
+        },
+        {
+          "text": "Installer le cache avant",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 9x vis"
+            }
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Installer le cache moteur",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Installer 13x vis, 13x rondelle"
+            }
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Abaisser le véhicule",
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Retirer l'équipement de test de pression du réservoir de liquide de refroidissement",
+          "image": {
+            "src": "/data/assets/images/c2ae3007cd11.jpg",
+            "alt": "Object Number: 2421975  Size: DEFAULT"
+          },
+          "number": 12
+        },
+        {
+          "text": "Installer le bouchon du réservoir de liquide de refroidissement",
+          "image": {
+            "src": "/data/assets/images/c2ae3007cd11.jpg",
+            "alt": "Object Number: 2421975  Size: DEFAULT"
+          },
+          "number": 13
+        }
+      ],
+      "phase": "inspect",
+      "icon": "/data/assets/images/549a1406f8f0.gif"
+    }
+  ],
+  "warnings": [
+    "Un pont élévateur à quatre colonnes doit être utilisé pour élever le véhicule lors du retrait du cache moteur.\nLe véhicule peut être déplacé vers un pont à deux colonnes pour d'autres opérations si nécessaire."
+  ],
+  "type": "procedure",
+  "id": "cooling-system-check-for-leaks-z-20-let-AQS315"
+}

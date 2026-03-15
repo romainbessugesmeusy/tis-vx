@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Écrou de triangle inférieur",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-a-A26D1C",
+      "group": "A",
+      "value": "49",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de roue",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-a-A26D1C",
+      "group": "A",
+      "value": "90",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de charnière, capot avant",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-a-A26D1C",
+      "group": "A",
+      "value": "20",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de charnière, cache moteur",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-a-A26D1C",
+      "group": "A",
+      "value": "14",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis et écrous, coque avant au carter de radiateur",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-a-A26D1C",
+      "group": "A",
+      "value": "14",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis, coque avant au cadre de pare-brise",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-a-A26D1C",
+      "group": "A",
+      "value": "14",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis, coque avant au bas de caisse",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-a-A26D1C",
+      "group": "A",
+      "value": "14",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis, coque avant au montant A",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-a-A26D1C",
+      "group": "A",
+      "value": "14",
+      "unit": "Nm"
+    },
+    {
+      "component": "Écrous, panneau arrière de tête à l'arceau",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-a-A26D1C",
+      "group": "A",
+      "value": "10",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis, guides de capote au arceau",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-a-A26D1C",
+      "group": "A",
+      "value": "11",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis, coque arrière au tablier arrière",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-a-A26D1C",
+      "group": "A",
+      "value": "14",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis, coque arrière au sous-châssis arrière",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-a-A26D1C",
+      "group": "A",
+      "value": "16",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis, verrou de cache moteur à la coque arrière",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-a-A26D1C",
+      "group": "A",
+      "value": "16",
+      "unit": "Nm"
+    },
+    {
+      "component": "Vis, coque arrière au bas de caisse",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-a-A26D1C",
+      "group": "A",
+      "value": "9",
+      "unit": "Nm"
+    },
+    {
+      "component": "Siège au plancher",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-c-A26D1C",
+      "group": "C",
+      "value": "25",
+      "unit": "Nm"
+    },
+    {
+      "component": "Fixations, support de hard top",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-c-A26D1C",
+      "group": "C",
+      "value": "10",
+      "unit": "Nm"
+    },
+    {
+      "component": "Ceinture de sécurité au siège (boulon d'ancrage)",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-c-A26D1C",
+      "group": "C",
+      "value": "35",
+      "unit": "Nm"
+    },
+    {
+      "component": "Ceinture de sécurité à l'arceau (point d'ancrage supérieur)",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-c-A26D1C",
+      "group": "C",
+      "value": "35",
+      "unit": "Nm"
+    },
+    {
+      "component": "Enrouleur à inertie à l'arceau (boulon d'ancrage inférieur)",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-c-A26D1C",
+      "group": "C",
+      "value": "35",
+      "unit": "Nm"
+    },
+    {
+      "component": "Agrafe de ceinture de sécurité au siège",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-c-A26D1C",
+      "group": "C",
+      "value": "35",
+      "unit": "Nm"
+    },
+    {
+      "component": "Pêne de serrure de porte",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-c-A26D1C",
+      "group": "C",
+      "value": "25",
+      "unit": "Nm"
+    },
+    {
+      "component": "Ensemble volant au colonne de direction, écrou",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-c-A26D1C",
+      "group": "C",
+      "value": "25",
+      "unit": "Nm"
+    },
+    {
+      "component": "Écrous de blocage de biellette de direction",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-e-A26D1C",
+      "group": "E",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de triangle inférieur aux points de pivot",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-e-A26D1C",
+      "group": "E",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de buissons de pivot de triangle supérieur",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-e-A26D1C",
+      "group": "E",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulon et écrou d'amortisseur au support de châssis",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-e-A26D1C",
+      "group": "E",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulon d'amortisseur au triangle inférieur",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-e-A26D1C",
+      "group": "E",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Barre stabilisatrice avec buissons de pivot au collier de châssis",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-e-A26D1C",
+      "group": "E",
+      "value": "25",
+      "unit": "Nm"
+    },
+    {
+      "component": "Bras de direction aux boulons de moyeu",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-e-A26D1C",
+      "group": "E",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Biellette de direction au bras de direction, écrou",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-e-A26D1C",
+      "group": "E",
+      "value": "30",
+      "unit": "Nm"
+    },
+    {
+      "component": "Joint pivot supérieur au bras de direction, écrou",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-e-A26D1C",
+      "group": "E",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulon d'assemblage de roulement de roue",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-e-A26D1C",
+      "group": "E",
+      "value": "210",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de roue",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-e-A26D1C",
+      "group": "E",
+      "value": "90",
+      "unit": "Nm"
+    },
+    {
+      "component": "Assemblage de moyeu de roue au bras de moyeu",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-e-A26D1C",
+      "group": "E",
+      "value": "90",
+      "unit": "Nm"
+    },
+    {
+      "component": "Étrier de frein au bras de moyeu",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-e-A26D1C",
+      "group": "E",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Barre stabilisatrice à la biellette de liaison",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-e-A26D1C",
+      "group": "E",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Triangle inférieur au bras de moyeu, boulon avant de pivot",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-f-A26D1C",
+      "group": "F",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Amortisseur au support d'ancrage sur châssis, boulon",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-f-A26D1C",
+      "group": "F",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Bielle de contrôle de voie à l'arrière du triangle inférieur, boulon",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-f-A26D1C",
+      "group": "F",
+      "value": "49",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de triangle supérieur au châssis",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-f-A26D1C",
+      "group": "F",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de support de joint pivot supérieur au bras de moyeu",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-f-A26D1C",
+      "group": "F",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de roue",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-f-A26D1C",
+      "group": "F",
+      "value": "90",
+      "unit": "Nm"
+    },
+    {
+      "component": "Bielle de contrôle de voie au bras de moyeu",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-f-A26D1C",
+      "group": "F",
+      "value": "65",
+      "unit": "Nm"
+    },
+    {
+      "component": "Arbre de transmission au moyeu de roue",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-f-A26D1C",
+      "group": "F",
+      "value": "220",
+      "unit": "Nm"
+    },
+    {
+      "component": "Étrier de frein au bras de moyeu",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-f-A26D1C",
+      "group": "F",
+      "value": "48",
+      "unit": "Nm"
+    },
+    {
+      "component": "Disque de frein au bras de moyeu",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-f-A26D1C",
+      "group": "F",
+      "value": "12",
+      "unit": "Nm"
+    },
+    {
+      "component": "Triangle inférieur au bras de moyeu",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-f-A26D1C",
+      "group": "F",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Amortisseur au triangle inférieur",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-f-A26D1C",
+      "group": "F",
+      "value": "45",
+      "unit": "Nm"
+    },
+    {
+      "component": "Boulons de roue",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-h-A26D1C",
+      "group": "H",
+      "value": "90",
+      "unit": "Nm"
+    },
+    {
+      "component": "Valve de purge d'embrayage",
+      "sourcePage": "valeurs-de-couple-de-serrage-recommandées-groupe-k-A26D1C",
+      "group": "K",
+      "value": "9",
+      "unit": "Nm"
+    }
+  ]
+}

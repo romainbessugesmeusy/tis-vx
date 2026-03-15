@@ -1,0 +1,50 @@
+{
+  "title": "Charnières, Porte, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif",
+      "steps": []
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Déposer le capot avant du véhicule – voir l'opération «Déposer et Reposer le Capot Avant» dans le groupe A.",
+          "number": 1,
+          "image": null
+        },
+        {
+          "text": "Déposer le montant de porte du véhicule – voir l'opération «Déposer et Reposer le Montant de Porte» dans le groupe A.",
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Déposer la charnière du montant A – marquer la position de la charnière sur le montant A, puis déposer les vis, rondelles et cales.",
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Reposer la charnière sur le montant A – aligner les marques, poser les cales, rondelles et vis.",
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Reposer le montant de porte sur le véhicule.",
+          "number": 5,
+          "image": null
+        },
+        {
+          "text": "Reposer le capot avant sur le véhicule.",
+          "number": 6,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "hinges-door-remove-and-install-A26D1C"
+}

@@ -1,0 +1,354 @@
+{
+  "values": [
+    {
+      "component": "Reposer la sonde lambda pour le contrôle du mélange en boucle fermée.",
+      "sourcePage": "lambda-probe-replace-z-22-se-A26D1C",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Couple de serrage 40 Nm",
+      "sourcePage": "lambda-probe-replace-z-22-se-A26D1C",
+      "value": "40",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Roue - vis 90 Nm.",
+      "sourcePage": "liner-front-wheelarch-remove-and-install-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Roue - vis 90 Nm.",
+      "sourcePage": "liner-rer-wheelarch-remove-and-install-A26D1C",
+      "value": "90",
+      "unit": "Nm",
+      "stepRef": 5
+    },
+    {
+      "component": "Écrous, rondelles, boulons de triangle inférieur au châssis 45 Nm .",
+      "sourcePage": "lower-wishbone-front-remove-and-install-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Amortisseur (1) au triangle inférieur - boulon, rondelle, écrou 45 Nm .",
+      "sourcePage": "lower-wishbone-front-remove-and-install-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer le triangle inférieur sur le support de châssis avant",
+      "sourcePage": "lower-wishbone-rear-remove-and-install-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Reposer le triangle inférieur sur le porte-moyeu",
+      "sourcePage": "lower-wishbone-rear-remove-and-install-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Reposer le triangle inférieur sur le support de châssis arrière",
+      "sourcePage": "lower-wishbone-rear-remove-and-install-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Reposer l'amortisseur sur le triangle inférieur",
+      "sourcePage": "lower-wishbone-rear-remove-and-install-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 11
+    },
+    {
+      "component": "Reposer le disque de frein sur le porte-moyeu",
+      "sourcePage": "lower-wishbone-rear-remove-and-install-A26D1C",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": 13
+    },
+    {
+      "component": "Reposer la nouvelle rondelle de sécurité, boulon 45 Nm",
+      "sourcePage": "lower-wishbone-rear-remove-and-install-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer la vis 12 Nm",
+      "sourcePage": "lower-wishbone-rear-remove-and-install-A26D1C",
+      "value": "12",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Triangle inférieur au châssis - boulon 45 Nm au point de pivotement avant, rondelle.",
+      "sourcePage": "lower-wishbone-remove-and-install-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Bielle de commande de voie au triangle inférieur et au châssis - écrou 49 Nm, rondelles.",
+      "sourcePage": "lower-wishbone-remove-and-install-A26D1C",
+      "value": "49",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Serrer les boulons sur la transmission.",
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C",
+      "value": "60",
+      "unit": "Nm",
+      "stepRef": 21
+    },
+    {
+      "component": "Serrer les boulons sur la transmission.",
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": 21
+    },
+    {
+      "component": "Reposer le capteur de cliquetis.",
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 27
+    },
+    {
+      "component": "Fixer le collecteur d'admission.",
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 28
+    },
+    {
+      "component": "Fixer le tuyau de recirculation des gaz d'échappement.",
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 29
+    },
+    {
+      "component": "Fixer le tuyau de recirculation des gaz d'échappement.",
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 29
+    },
+    {
+      "component": "Fixer le support de faisceau de câblage",
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": 32
+    },
+    {
+      "component": "Reposer le calculateur moteur.",
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 34
+    },
+    {
+      "component": "Reposer le calculateur moteur.",
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": 34
+    },
+    {
+      "component": "Reposer le tube de guidage de jauge d'huile.",
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 35
+    },
+    {
+      "component": "Couple de serrage 60 Nm",
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C",
+      "value": "60",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 22 Nm",
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C",
+      "value": "22",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 23 Nm",
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 8 Nm",
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C",
+      "value": "8",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couple de serrage 10 Nm",
+      "sourcePage": "manual-transmission-detach-and-re-attach-from-to-engine-z-22-A26D1C",
+      "value": "10",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer l'arbre intermédiaire de direction avec le joint universel inférieur sur la crémaillère de direction et la colonne de direction",
+      "sourcePage": "mounting-bracket-brake-pedal-and-clutch-pedal-replace-A26D1C",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": 22
+    },
+    {
+      "component": "Reposer 3x vis, 3x écrou 35 Nm – Utiliser 3x nouveaux écrous",
+      "sourcePage": "mounting-bracket-brake-pedal-and-clutch-pedal-replace-A26D1C",
+      "value": "35",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Reposer l'adaptateur pour durite d'alimentation en huile et pressostat d'huile sur le nouvel adaptateur de refroidisseur d'huile",
+      "sourcePage": "oil-cooler-adaptor-oil-filter-housing-replace-z-22-se-A26D1C",
+      "value": "18",
+      "unit": "Nm",
+      "stepRef": 6
+    },
+    {
+      "component": "Reposer l'adaptateur de refroidisseur d'huile (3) avec 2x nouveau joint d'étanchéité sur le boîtier de filtre à huile",
+      "sourcePage": "oil-cooler-adaptor-oil-filter-housing-replace-z-22-se-A26D1C",
+      "value": "120",
+      "unit": "Nm",
+      "stepRef": 7
+    },
+    {
+      "component": "Reposer le couvercle supérieur (2) avec nouveau joint torique sur le boîtier de filtre à huile, en utilisant la clé à filtre à huile KM-6150 (1)",
+      "sourcePage": "oil-cooler-adaptor-oil-filter-housing-replace-z-22-se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Reposer la durite d'alimentation en huile sur l'adaptateur de refroidisseur d'huile",
+      "sourcePage": "oil-cooler-adaptor-oil-filter-housing-replace-z-22-se-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Fixer l'adaptateur pour durite d'alimentation en huile avec un nouveau joint d'étanchéité 18 Nm",
+      "sourcePage": "oil-cooler-adaptor-oil-filter-housing-replace-z-22-se-A26D1C",
+      "value": "18",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Installer, puis fixer la bague de fixation (1), en utilisant le Démonte-pneu/Installeur KM-6264 120 Nm",
+      "sourcePage": "oil-cooler-adaptor-oil-filter-housing-replace-z-22-se-A26D1C",
+      "value": "120",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Fixer le couvercle supérieur 25 Nm",
+      "sourcePage": "oil-cooler-adaptor-oil-filter-housing-replace-z-22-se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Fixer l'écrou union (1) 45 Nm",
+      "sourcePage": "oil-cooler-adaptor-oil-filter-housing-replace-z-22-se-A26D1C",
+      "value": "45",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Fixer le tube de guidage de jauge d'huile.",
+      "sourcePage": "oil-dipstick-guide-tube-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 8
+    },
+    {
+      "component": "Reposer le couvercle arrière du moteur.",
+      "sourcePage": "oil-dipstick-guide-tube-replace-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 9
+    },
+    {
+      "component": "Couple de serrage 9 Nm",
+      "sourcePage": "oil-dipstick-guide-tube-replace-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "6 boulons, couple de serrage 14 Nm",
+      "sourcePage": "oil-dipstick-guide-tube-replace-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": null
+    },
+    {
+      "component": "Couvercle de filtre à huile (1) sur le boîtier de filtre à huile avec un nouveau joint - 25 Nm .",
+      "sourcePage": "oil-filter-replace-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 4
+    },
+    {
+      "component": "Vidanger l'huile moteur.",
+      "sourcePage": "oil-pan-remove-and-install-z-22-se-A26D1C",
+      "value": "25",
+      "unit": "Nm",
+      "stepRef": 10
+    },
+    {
+      "component": "Remarque : Observer la séquence de serrage.",
+      "sourcePage": "oil-pan-remove-and-install-z-22-se-A26D1C",
+      "value": "23",
+      "unit": "Nm",
+      "stepRef": 15
+    },
+    {
+      "component": "Fixer le tube de guidage de jauge d'huile.",
+      "sourcePage": "oil-pan-remove-and-install-z-22-se-A26D1C",
+      "value": "9",
+      "unit": "Nm",
+      "stepRef": 19
+    },
+    {
+      "component": "Reposer le couvercle arrière du moteur.",
+      "sourcePage": "oil-pan-remove-and-install-z-22-se-A26D1C",
+      "value": "14",
+      "unit": "Nm",
+      "stepRef": 21
+    }
+  ]
+}

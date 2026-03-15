@@ -1,0 +1,114 @@
+{
+  "title": "Ensemble du tableau de bord, Déposer et Reposer",
+  "phases": [
+    {
+      "label": "Déposer",
+      "steps": [
+        {
+          "text": "Panneaux faciaux (1 et 3) du tableau de bord – Déposer soigneusement.",
+          "image": {
+            "src": "/data/assets/images/1ea80daa7b96.jpg",
+            "alt": "Object Number: 2429813  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Radio (4) et cadre d'installation du tableau de bord – voir l'opération « Cadre d'installation, Radio, Déposer et Reposer » dans le groupe R.",
+          "callouts": [
+            "4"
+          ],
+          "number": 2,
+          "image": null
+        },
+        {
+          "text": "Unité de commande (5) du tableau de bord – voir l'opération « Unité de commande, Déposer et Reposer » dans le groupe D.",
+          "callouts": [
+            "5"
+          ],
+          "number": 3,
+          "image": null
+        },
+        {
+          "text": "Boîtier d'instruments (2) et ensemble de couvercle du tableau de bord – voir l'opération « Boîtier d'instruments, Déposer et Reposer ».",
+          "callouts": [
+            "2"
+          ],
+          "number": 4,
+          "image": null
+        },
+        {
+          "text": "Ensemble de commutateurs (6) du tableau de bord – appuyer sur les agrafes pour libérer, puis déplacer l'ensemble de commutateurs sur le côté.",
+          "callouts": [
+            "6"
+          ],
+          "number": 5,
+          "image": null
+        }
+      ],
+      "phase": "remove",
+      "icon": "/data/assets/images/7c3d75e8b2c9.gif"
+    },
+    {
+      "label": "Reposer",
+      "steps": [
+        {
+          "text": "Ensemble du tableau de bord du véhicule – vis ; connecteur de faisceau du bouton de démarrage.",
+          "image": {
+            "src": "/data/assets/images/1ea80daa7b96.jpg",
+            "alt": "Object Number: 2429813  Size: DEFAULT"
+          },
+          "number": 6
+        },
+        {
+          "text": "Ensemble du tableau de bord au véhicule – connecteur de faisceau au bouton de démarrage ; vis.",
+          "number": 7,
+          "image": null
+        },
+        {
+          "text": "Ensemble de commutateurs (6) au tableau de bord – enfoncer pour engager les agrafes.",
+          "image": {
+            "src": "/data/assets/images/1ea80daa7b96.jpg",
+            "alt": "Object Number: 2429813  Size: DEFAULT"
+          },
+          "callouts": [
+            "6"
+          ],
+          "number": 8
+        },
+        {
+          "text": "Boîtier d'instruments (2) et ensemble de couvercle au tableau de bord – voir l'opération « Boîtier d'instruments, Déposer et Reposer ».",
+          "callouts": [
+            "2"
+          ],
+          "number": 9,
+          "image": null
+        },
+        {
+          "text": "Unité de commande (5) au tableau de bord – voir l'opération « Unité de commande, Déposer et Reposer » dans le groupe D.",
+          "callouts": [
+            "5"
+          ],
+          "number": 10,
+          "image": null
+        },
+        {
+          "text": "Cadre d'installation et radio (4) au tableau de bord – voir l'opération « Cadre d'installation, Radio, Déposer et Reposer » dans le groupe R.",
+          "callouts": [
+            "4"
+          ],
+          "number": 11,
+          "image": null
+        },
+        {
+          "text": "Panneaux faciaux (1 et 3) au tableau de bord.",
+          "number": 12,
+          "image": null
+        }
+      ],
+      "phase": "install",
+      "icon": "/data/assets/images/6eff4d42a9f9.gif"
+    }
+  ],
+  "type": "procedure",
+  "id": "instrument-pad-assembly-remove-and-install-A26D1C"
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Vérifier la planéité du bloc-cylindres (Z 22 SE, Z 20 LET)",
+  "phases": [
+    {
+      "label": "Procédure",
+      "steps": [
+        {
+          "text": "Nettoyer les surfaces de joint.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Déposer tout résidu de joint."
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2694e940b629.jpg",
+            "alt": "Object Number: 2417806  Size: DEFAULT"
+          },
+          "number": 1
+        },
+        {
+          "text": "Vérifier la planéité.",
+          "substeps": [
+            {
+              "bullet": "•",
+              "text": "Utiliser une règle plate, des cales d'épaisseur"
+            }
+          ],
+          "image": {
+            "src": "/data/assets/images/2694e940b629.jpg",
+            "alt": "Object Number: 2417806  Size: DEFAULT"
+          },
+          "number": 2
+        }
+      ],
+      "phase": "general",
+      "icon": null
+    }
+  ],
+  "type": "procedure",
+  "id": "cylinder-block-check-for-plane-surface-z-22-se-z-20-let-A26D1C"
+}
