@@ -47,6 +47,7 @@ function App() {
     startY: 0,
     isEdgeSwipe: false
   })
+  const menuHistoryPushed = useRef(false)
   
   const isResizing = useRef(false)
   const minWidth = 240
@@ -95,7 +96,11 @@ function App() {
     }
   }, [isMobileMenuOpen])
 
-  // Edge swipe gesture to open menu on mobile
+  // Edge swipe gesture to open menu on mobile.
+  // On iOS Safari, the left-edge swipe triggers the browser's back gesture at
+  // the OS level — preventDefault() cannot block it. Instead we push a history
+  // entry at the same URL when the menu opens. Safari's back gesture pops that
+  // entry (same URL → no route change), and our popstate handler closes the menu.
   useEffect(() => {
     const showMobileMenu = window.innerWidth < TABLET_BREAKPOINT
     if (!showMobileMenu) return
@@ -125,7 +130,6 @@ function App() {
       const deltaX = touch.clientX - swipeRef.current.startX
       const deltaY = Math.abs(touch.clientY - swipeRef.current.startY)
       
-      // Lock direction early: if vertical, abort; if horizontal, claim the gesture
       if (!swipeRef.current.directionLocked && (deltaX > 8 || deltaY > 8)) {
         if (deltaY > deltaX) {
           swipeRef.current.isEdgeSwipe = false
@@ -134,7 +138,6 @@ function App() {
         swipeRef.current.directionLocked = true
       }
       
-      // Once locked as horizontal, always preventDefault to block browser back
       if (swipeRef.current.directionLocked) {
         e.preventDefault()
       }
@@ -159,6 +162,33 @@ function App() {
       document.removeEventListener('touchmove', handleTouchMove)
       document.removeEventListener('touchend', handleTouchEnd)
     }
+  }, [isMobileMenuOpen])
+
+  // Push/pop a guard history entry when mobile menu opens/closes so that
+  // Safari's iOS back-swipe gesture (which cannot be preventDefault'd)
+  // harmlessly pops our guard entry instead of navigating away.
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      window.history.pushState({ menuOpen: true }, '')
+      menuHistoryPushed.current = true
+    } else if (menuHistoryPushed.current) {
+      menuHistoryPushed.current = false
+      // Only pop guard if it's still on top (user didn't navigate elsewhere)
+      if (window.history.state?.menuOpen) {
+        window.history.back()
+      }
+    }
+  }, [isMobileMenuOpen])
+
+  useEffect(() => {
+    const handlePopState = () => {
+      if (isMobileMenuOpen) {
+        menuHistoryPushed.current = false
+        setIsMobileMenuOpen(false)
+      }
+    }
+    window.addEventListener('popstate', handlePopState)
+    return () => window.removeEventListener('popstate', handlePopState)
   }, [isMobileMenuOpen])
 
   // Handle sidebar resize (desktop only)

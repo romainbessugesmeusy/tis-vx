@@ -31,6 +31,13 @@ const IconParts = () => (
   </svg>
 )
 
+const IconHome = () => (
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+    <polyline points="9 22 9 12 15 12 15 22"/>
+  </svg>
+)
+
 const IconResources = () => (
   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
     <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/>
@@ -233,23 +240,72 @@ function AppHeader({
             <IconMenu />
           </button>
         )}
-        <button className="header-logo" onClick={() => handleNav('/')}>
-          VX220
-        </button>
+        {showMobileMenu ? (
+          <div className="header-dropdown-wrap">
+            <button
+              className={`header-logo header-logo-dropdown ${activeDropdown === 'nav' ? 'active' : ''}`}
+              onClick={() => toggleDropdown('nav')}
+              aria-expanded={activeDropdown === 'nav'}
+            >
+              VX220
+              <IconChevron className={`header-chevron-sm ${activeDropdown === 'nav' ? 'open' : ''}`} />
+            </button>
+            {activeDropdown === 'nav' && (
+              <div className="header-popover nav-popover">
+                <div className="popover-section popover-nav">
+                  <button
+                    className={`popover-nav-item ${activeSection === 'manual' ? 'active' : ''}`}
+                    onClick={() => handleNav('/')}
+                  >
+                    <IconHome />
+                    Home
+                  </button>
+                  <button
+                    className={`popover-nav-item ${activeSection === 'parts' ? 'active' : ''}`}
+                    onClick={() => handleNav('/epc')}
+                  >
+                    <IconParts />
+                    Parts
+                  </button>
+                  <div className="popover-divider" />
+                  {REFERENCE_TYPES.map(ref => (
+                    <button
+                      key={ref.key}
+                      className={`popover-nav-item ${location.pathname === `/ref/${ref.key}` ? 'active' : ''}`}
+                      onClick={() => handleNav(`/ref/${ref.key}`)}
+                    >
+                      <IconResources />
+                      {ref.label}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        ) : (
+          <button className="header-logo" onClick={() => handleNav('/')}>
+            VX220
+          </button>
+        )}
       </div>
 
       {/* Center: breadcrumb */}
       <div className="header-center">
         {showMobileMenu ? (
-          /* Mobile: compact page title → popover on tap */
-          <button 
-            className="header-page-title" 
-            onClick={toggleBreadcrumbPopover} 
-            aria-expanded={breadcrumbPopoverOpen}
-          >
-            <span className="header-page-title-text">{currentTitle}</span>
-            <IconChevron className={`header-chevron ${breadcrumbPopoverOpen ? 'open' : ''}`} />
-          </button>
+          breadcrumb.length > 1 ? (
+            /* Mobile: page title with breadcrumb popover (location only) */
+            <button 
+              className="header-page-title" 
+              onClick={toggleBreadcrumbPopover} 
+              aria-expanded={breadcrumbPopoverOpen}
+            >
+              <span className="header-page-title-text">{currentTitle}</span>
+              <IconChevron className={`header-chevron ${breadcrumbPopoverOpen ? 'open' : ''}`} />
+            </button>
+          ) : (
+            /* Mobile: static page title (no hierarchy to show) */
+            <span className="header-page-title-static">{currentTitle}</span>
+          )
         ) : (
           /* Desktop: full breadcrumb trail */
           <nav className="header-breadcrumb" aria-label="Breadcrumb">
@@ -271,52 +327,19 @@ function AppHeader({
           </nav>
         )}
 
-        {/* Breadcrumb popover (mobile) */}
-        {breadcrumbPopoverOpen && (
+        {/* Breadcrumb popover (mobile, location only) */}
+        {breadcrumbPopoverOpen && breadcrumb.length > 1 && (
           <div className="header-popover breadcrumb-popover">
-            {/* Breadcrumb path */}
-            {breadcrumb.length > 1 && (
-              <div className="popover-section popover-path">
-                <div className="popover-section-title">Current location</div>
-                {breadcrumb.map((crumb, i) => (
-                  <button
-                    key={i}
-                    className={`popover-path-item ${i === breadcrumb.length - 1 ? 'current' : ''}`}
-                    style={{ paddingLeft: `${i * 16 + 12}px` }}
-                    onClick={() => handleBreadcrumbClick(crumb, i)}
-                  >
-                    {crumb.label}
-                  </button>
-                ))}
-              </div>
-            )}
-            
-            {/* Top-level navigation */}
-            <div className="popover-section popover-nav">
-              <div className="popover-section-title">Navigate</div>
-              <button 
-                className={`popover-nav-item ${activeSection === 'manual' ? 'active' : ''}`} 
-                onClick={() => handleNav('/')}
-              >
-                <IconBook />
-                Manual
-              </button>
-              <button 
-                className={`popover-nav-item ${activeSection === 'parts' ? 'active' : ''}`} 
-                onClick={() => handleNav('/epc')}
-              >
-                <IconParts />
-                Parts
-              </button>
-              <div className="popover-divider" />
-              {REFERENCE_TYPES.map(ref => (
-                <button 
-                  key={ref.key} 
-                  className={`popover-nav-item ${location.pathname === `/ref/${ref.key}` ? 'active' : ''}`} 
-                  onClick={() => handleNav(`/ref/${ref.key}`)}
+            <div className="popover-section popover-path">
+              <div className="popover-section-title">Current location</div>
+              {breadcrumb.map((crumb, i) => (
+                <button
+                  key={i}
+                  className={`popover-path-item ${i === breadcrumb.length - 1 ? 'current' : ''}`}
+                  style={{ paddingLeft: `${i * 16 + 12}px` }}
+                  onClick={() => handleBreadcrumbClick(crumb, i)}
                 >
-                  <IconResources />
-                  {ref.label}
+                  {crumb.label}
                 </button>
               ))}
             </div>

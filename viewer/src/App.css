@@ -80,6 +80,16 @@ body {
   background: rgba(255, 255, 255, 0.08);
 }
 
+.header-logo-dropdown {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.header-logo-dropdown.active {
+  background: rgba(255, 255, 255, 0.12);
+}
+
 /* Header Center: breadcrumb area */
 .header-center {
   flex: 1;
@@ -160,6 +170,16 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.header-page-title-static {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 6px 10px;
 }
 
 .header-chevron {
@@ -262,6 +282,13 @@ body {
   right: 0;
   min-width: 260px;
   max-width: min(360px, 90vw);
+}
+
+/* Nav popover (mobile VX220 dropdown) */
+.nav-popover {
+  left: 0;
+  min-width: 200px;
+  max-width: min(280px, 80vw);
 }
 
 /* Resources popover */
