@@ -32,13 +32,13 @@ The app has five top-level navigation items:
 ### Mobile/Tablet (<1024px)
 
 ```
-[≡]  Coolant Pump ▾                                     [⚙]
-hamburger  page title (tappable)                         settings
+[≡]  VX220 ▾   Coolant Pump ▾                            [⚙]
+hamburger  nav dropdown  page title (breadcrumb)          settings
 ```
 
-- **Left**: Hamburger menu + logo
-- **Center**: Current page title with chevron — tap to open breadcrumb popover
-- **Right**: Settings icon only (Manual/Parts/Resources accessible via popover)
+- **Left**: Hamburger menu + VX220 dropdown (top-level navigation: Home, Parts, Resources)
+- **Center**: Current page title — tappable with chevron when breadcrumb > 1 level (shows location-only popover); static text when at a root page
+- **Right**: Settings icon only
 
 ## Interactive Breadcrumb
 
@@ -66,12 +66,22 @@ For `/doc/:slug` pages, the breadcrumb is computed by:
 
 Clicking a breadcrumb ancestor triggers `onNavigateToNode(path)`, which uses the existing `externalNavPath` mechanism to expand and scroll the sidebar to that section.
 
+### Mobile Navigation Dropdown (VX220)
+
+On mobile/tablet, the VX220 logo becomes a dropdown trigger for top-level navigation:
+
+- **Home** (house icon) — navigates to `/`, the homepage
+- **Parts** (wrench icon) — navigates to `/epc`
+- Divider
+- **Tools, Torque, Pictograms, Glossary** — resource pages (`/ref/*`)
+
+Active item is highlighted based on the current route. Uses `activeDropdown === 'nav'` for mutual exclusion with other dropdowns.
+
 ### Mobile Breadcrumb Popover
 
-On mobile/tablet, tapping the page title opens a popover with two sections:
+On mobile/tablet, tapping the page title opens a **location-only** popover (when breadcrumb has 2+ levels). It shows the indented tree path from root to the current page. When at a root page (homepage, EPC root), the page title is static text with no chevron.
 
-1. **Breadcrumb path** (if deeper than root): Indented hierarchy showing current location
-2. **Navigation**: Quick links to Manual, Parts, and all Resource pages
+Top-level navigation was moved out of this popover into the VX220 dropdown to improve discoverability.
 
 ## Settings Panel
 
@@ -124,11 +134,14 @@ All styles are in `App.css` under the `===== App Header =====` section.
 .header-left         /* Logo + hamburger */
 .header-center       /* Breadcrumb area */
 .header-right        /* Nav actions */
+.header-logo-dropdown /* Mobile VX220 dropdown trigger */
 .header-breadcrumb   /* Desktop breadcrumb trail */
-.header-page-title   /* Mobile page title button */
+.header-page-title   /* Mobile page title button (when breadcrumb > 1) */
+.header-page-title-static /* Mobile page title text (when breadcrumb == 1) */
 .header-nav-btn      /* Nav icon buttons */
 .header-popover      /* Shared popover/dropdown base */
-.breadcrumb-popover  /* Mobile breadcrumb popover */
+.nav-popover         /* Mobile VX220 navigation dropdown */
+.breadcrumb-popover  /* Mobile breadcrumb popover (location only) */
 .resources-popover   /* Resources dropdown */
 .settings-popover    /* Settings panel */
 .settings-fullscreen /* Mobile settings overlay */
@@ -138,9 +151,9 @@ All styles are in `App.css` under the `===== App Header =====` section.
 
 | Breakpoint | Changes |
 |------------|---------|
-| ≥1024px | Full breadcrumb, all nav icons, dropdown panels |
-| 768-1023px | Page title + popover, settings icon only, settings goes fullscreen |
-| <768px | Page title + popover, settings icon only, compact padding |
+| ≥1024px | Full breadcrumb, all nav icons, dropdown panels, VX220 is plain link |
+| 768-1023px | VX220 nav dropdown, page title (breadcrumb-only popover or static), settings fullscreen |
+| <768px | VX220 nav dropdown, page title (breadcrumb-only popover or static), compact padding |
 
 ### Popover Animation
 

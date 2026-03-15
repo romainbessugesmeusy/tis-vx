@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
+import BookmarkButton from './BookmarkButton'
 
 /**
  * Reference index for browsing tools, torque values, and other technical data.
@@ -138,6 +139,12 @@ function ToolsList({ tools = [], filter }) {
                 <div className="tool-header">
                   <span className="tool-code">{tool.code}</span>
                   {tool.name && <span className="tool-name">{tool.name}</span>}
+                  <BookmarkButton
+                    type="tool"
+                    title={tool.code + (tool.name ? ` – ${tool.name}` : '')}
+                    route="/ref/tools"
+                    context={{ code: tool.code }}
+                  />
                 </div>
                 {tool.description && (
                   <p className="tool-description">{tool.description}</p>
@@ -215,6 +222,7 @@ function TorqueList({ values = [], filter }) {
                 <th>Component</th>
                 <th>Torque</th>
                 <th>Source</th>
+                <th></th>
               </tr>
             </thead>
             <tbody>
@@ -228,6 +236,14 @@ function TorqueList({ values = [], filter }) {
                         View
                       </Link>
                     )}
+                  </td>
+                  <td className="bookmark-cell">
+                    <BookmarkButton
+                      type="torque"
+                      title={`${tv.component} – ${tv.value} ${tv.unit}`}
+                      route="/ref/torque"
+                      context={{ component: tv.component, value: tv.value, unit: tv.unit, sourcePage: tv.sourcePage }}
+                    />
                   </td>
                 </tr>
               ))}

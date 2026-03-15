@@ -2,6 +2,7 @@ import { useState, useEffect, useMemo, useCallback, useRef } from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import MapViewer from './MapViewer'
 import PartThumbnail from './PartThumbnail'
+import BookmarkButton from './BookmarkButton'
 
 /**
  * EPC (Electronic Parts Catalog) Browser
@@ -620,6 +621,18 @@ function EPCBrowser() {
                   </span>
                   {activePartInfo.usage && <span className="epc-part-info-usage">{activePartInfo.usage}</span>}
                   {activePartInfo.qty && <span className="epc-part-info-qty">Qty: {activePartInfo.qty}</span>}
+                  <BookmarkButton
+                    type="epc-part"
+                    title={activePartInfo.descriptionParts?.join(', ') || activePartInfo.description}
+                    route={`/epc/${groupId}/diagram/${diagramId}`}
+                    context={{
+                      groupId,
+                      diagramId,
+                      ref: String(activePartInfo.ref),
+                      partNo: activePartInfo.partNo,
+                      description: activePartInfo.descriptionParts?.join(', ') || activePartInfo.description,
+                    }}
+                  />
                 </>
               ) : (
                 <span className="epc-part-info-placeholder">Hover or click a part to see details</span>

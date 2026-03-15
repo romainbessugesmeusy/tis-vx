@@ -4,7 +4,9 @@ import Sidebar from './components/Sidebar'
 import ContentViewer from './components/ContentViewer'
 import ReferenceIndex from './components/ReferenceIndex'
 import EPCBrowser from './components/EPCBrowser'
+import BookmarksPage from './components/BookmarksPage'
 import AppHeader from './components/AppHeader'
+import { BookmarkProvider } from './components/BookmarkDialog'
 import { useOffline } from './hooks/useOffline'
 
 // Breakpoints
@@ -291,6 +293,7 @@ function App() {
   const showMobileMenu = isMobile || isTablet
 
   return (
+    <BookmarkProvider>
     <div className="app" style={{ '--sidebar-width': `${sidebarWidth}px` }}>
       <AppHeader
         manifest={manifest}
@@ -332,10 +335,12 @@ function App() {
             <Route path="/epc" element={<EPCBrowser />} />
             <Route path="/epc/:groupId/diagram/:diagramId" element={<EPCBrowser />} />
             <Route path="/epc/:groupId/:subSectionId/:mainId" element={<EPCBrowser />} />
+            <Route path="/bookmarks" element={<BookmarksPage />} />
           </Routes>
         </main>
       </div>
     </div>
+    </BookmarkProvider>
   )
 }
 
