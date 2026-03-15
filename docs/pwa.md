@@ -214,7 +214,7 @@ Progress updates in two phases: first content files, then images. The total coun
 
 - **expandedPanels**: `{ pages, epc, manual }`. Clicking a panel header toggles that key. All default to `true`.
 - **epcPartsData**: Result of `fetch('/data/epc/parts.json').then(r => r.json())`, or null. Fetched only when `expandedPanels.epc` is true and `epcPartsData` is still null.
-- **handleDownload(section)**: Requires `section.urls.length > 0`. Adds progress to `downloading` map (keyed by `rootId`), caches content URLs, then extracts and caches images, then calls `setStoredSectionUrls(section.rootId, allUrls)` (content + images) and clears the entry from `downloading`. Multiple sections can download in parallel; each has its own progress pill and progress bar.
+- **handleDownload(section)**: Requires `section.urls.length > 0`. Always caches `/data/manifest.json` first (so the app can boot offline even if only individual sections were downloaded), then caches the section's content URLs, extracts and caches images, then calls `setStoredSectionUrls(section.rootId, allUrls)` (manifest + content + images) and clears the entry from `downloading`. Multiple sections can download in parallel; each has its own progress pill and progress bar.
 - **handleRemove(section)**: Calls `removeCachedSection(section.rootId)` and refreshes stored state.
 - **handleDownloadAll**: Caches `['/data/manifest.json']` first, then iterates `allItems` and for each caches content + extracts and caches images. Uses the `_all` key in the `downloading` map for its own progress.
 - **handleRemoveAll**: Calls `removeCachedSection(section.rootId)` for every item in `allItems`.

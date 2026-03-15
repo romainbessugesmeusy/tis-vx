@@ -3274,12 +3274,6 @@ main.content:has(.content-welcome) .content-welcome {
   main.content {
     margin-left: 0;
     max-width: 100vw;
-    padding: 16px;
-  }
-  
-  /* Welcome page edge-to-edge on mobile */
-  main.content.is-homepage,
-  main.content:has(.content-welcome) {
     padding: 0;
   }
   
@@ -3565,6 +3559,24 @@ main.content:has(.content-welcome) .content-welcome {
   }
 }
 
+/* Prevent iOS auto-zoom on input focus (requires font-size >= 16px) */
+@supports (-webkit-touch-callout: none) {
+  input[type="text"],
+  input[type="search"],
+  input[type="email"],
+  input[type="url"],
+  input[type="tel"],
+  input[type="number"],
+  input[type="password"],
+  textarea,
+  select,
+  .search-input,
+  .epc-search-input,
+  .filter-input {
+    font-size: 16px !important;
+  }
+}
+
 /* Prevent text selection during touch interactions */
 .mobile-menu {
   -webkit-tap-highlight-color: transparent;
@@ -3578,15 +3590,118 @@ main.content:has(.content-welcome) .content-welcome {
   overscroll-behavior: contain;
 }
 
-/* Content area responsive adjustments */
-@media (max-width: 480px) {
-  main.content {
+/* Content area responsive adjustments — mobile full-bleed */
+@media (max-width: 767px) {
+  .content-article {
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  
+  .content-body {
     padding: 12px;
   }
   
+  .content-body > p:first-of-type {
+    font-size: 1rem;
+  }
+  
+  .content-body blockquote {
+    margin: 1em 0;
+    padding: 0.75em 1em;
+  }
+  
+  .content-body ul,
+  .content-body ol {
+    padding-left: 1.25em;
+  }
+  
+  .content-body table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 12px 0;
+  }
+  
+  .content-variant-note {
+    margin: 0 0 8px;
+    padding: 6px 12px;
+    border-radius: 0;
+  }
+
+  /* Procedure: zero horizontal padding on the chain, pad text only */
+  .procedure {
+    padding: 0;
+  }
+  
+  .procedure-title {
+    font-size: 1.25rem;
+    margin-bottom: 12px;
+    padding: 12px 12px 0;
+  }
+  
+  .procedure-warnings {
+    margin-bottom: 8px;
+    padding: 0 12px;
+  }
+  
+  .procedure-tools {
+    padding: 10px 12px;
+    margin: 0 0 8px;
+    border-radius: 0;
+  }
+  
+  .phase-section {
+    margin-bottom: 8px;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+  }
+  
+  .phase-header {
+    padding: 10px 12px;
+  }
+  
+  .phase-steps {
+    padding: 0;
+  }
+  
+  .step-item {
+    padding: 8px 0;
+  }
+  
+  .step-content {
+    gap: 4px;
+  }
+  
+  .step-main {
+    padding: 0 12px;
+  }
+  
+  .step-image-container {
+    margin: 0;
+  }
+  
+  .step-image {
+    border-radius: 0;
+    box-shadow: none;
+    max-width: 100%;
+  }
+  
+  .procedure-torque-summary {
+    margin: 12px 0 0;
+    padding: 12px;
+    border-radius: 0;
+  }
+  
+  .procedure-notes {
+    margin-top: 8px;
+    padding: 0 12px;
+  }
+  
   .article-card {
-    padding: 16px;
-    border-radius: 8px;
+    padding: 12px;
+    border-radius: 0;
   }
   
   .article-card h1 {
@@ -3597,20 +3712,15 @@ main.content:has(.content-welcome) .content-welcome {
     font-size: 1.1rem;
   }
   
-  /* Make tables scrollable on small screens */
   .article-card table {
     display: block;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
   
-  /* Procedure steps */
-  .step-item {
-    padding: 12px;
-  }
-  
-  .phase-header {
-    padding: 12px;
+  .diagram-placeholder {
+    padding: 16px 12px;
+    border-radius: 0;
   }
 }
 

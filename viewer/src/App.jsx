@@ -101,18 +101,17 @@ function App() {
     if (!showMobileMenu) return
 
     const handleTouchStart = (e) => {
-      // Only detect swipes when menu is closed
       if (isMobileMenuOpen) return
       
       const touch = e.touches[0]
       const startX = touch.clientX
       
-      // Check if touch started near the left edge
       if (startX <= EDGE_THRESHOLD) {
         swipeRef.current = {
           startX,
           startY: touch.clientY,
-          isEdgeSwipe: true
+          isEdgeSwipe: true,
+          directionLocked: false
         }
       } else {
         swipeRef.current.isEdgeSwipe = false
@@ -126,11 +125,21 @@ function App() {
       const deltaX = touch.clientX - swipeRef.current.startX
       const deltaY = Math.abs(touch.clientY - swipeRef.current.startY)
       
-      // Check if horizontal swipe is dominant (not scrolling vertically)
-      if (deltaX > SWIPE_THRESHOLD && deltaX > deltaY * 1.5) {
-        // Prevent default to stop browser's back gesture
+      // Lock direction early: if vertical, abort; if horizontal, claim the gesture
+      if (!swipeRef.current.directionLocked && (deltaX > 8 || deltaY > 8)) {
+        if (deltaY > deltaX) {
+          swipeRef.current.isEdgeSwipe = false
+          return
+        }
+        swipeRef.current.directionLocked = true
+      }
+      
+      // Once locked as horizontal, always preventDefault to block browser back
+      if (swipeRef.current.directionLocked) {
         e.preventDefault()
-        // Open the menu
+      }
+      
+      if (deltaX > SWIPE_THRESHOLD && deltaX > deltaY * 1.5) {
         setIsMobileMenuOpen(true)
         swipeRef.current.isEdgeSwipe = false
       }
@@ -138,9 +147,9 @@ function App() {
 
     const handleTouchEnd = () => {
       swipeRef.current.isEdgeSwipe = false
+      swipeRef.current.directionLocked = false
     }
 
-    // Use passive: false for touchmove to allow preventDefault
     document.addEventListener('touchstart', handleTouchStart, { passive: true })
     document.addEventListener('touchmove', handleTouchMove, { passive: false })
     document.addEventListener('touchend', handleTouchEnd, { passive: true })
@@ -233,7 +242,18 @@ function App() {
   }
 
   if (!manifest) {
-    return <div className="error">Failed to load manifest</div>
+    return (
+      <div className="error content-offline-unavailable">
+        {isOffline ? (
+          <>
+            <p><strong>You are offline and the manual data has not been downloaded yet.</strong></p>
+            <p>Connect to the internet, open the app, then use the <strong>Downloads</strong> section in Settings to save content for offline use.</p>
+          </>
+        ) : (
+          <p>Failed to load manifest</p>
+        )}
+      </div>
+    )
   }
 
   // On desktop, use resizable sidebar width; on mobile/tablet, always use column layout

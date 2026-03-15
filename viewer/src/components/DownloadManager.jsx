@@ -239,13 +239,13 @@ export default function DownloadManager({ manifest }) {
       const urls = section.urls || []
       if (!urls.length) return
       const id = section.rootId
-      setSectionProgress(id, 0, urls.length)
-      await addToCache(urls, (done) => setSectionProgress(id, done, urls.length))
-      // Extract and cache images referenced in the content JSONs
+      const allContentUrls = ['/data/manifest.json', ...urls]
+      setSectionProgress(id, 0, allContentUrls.length)
+      await addToCache(allContentUrls, (done) => setSectionProgress(id, done, allContentUrls.length))
       const imageUrls = await collectImageUrls(urls)
-      const allUrls = [...urls, ...imageUrls]
+      const allUrls = [...allContentUrls, ...imageUrls]
       if (imageUrls.length) {
-        const base = urls.length
+        const base = allContentUrls.length
         const total = base + imageUrls.length
         setSectionProgress(id, base, total)
         await addToCache(imageUrls, (done) => setSectionProgress(id, base + done, total))
